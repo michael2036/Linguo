@@ -140,9 +140,9 @@ export const AppShell = ({ children }: AppShellProps) => {
     <div className={styles.root}>
       <header className={styles.header}>
         <div className={styles.brand}>
-          <span className={styles.logoMark}>LS</span>
+          <span className={styles.logoMark}>L</span>
           <Text className={styles.wordmark} size={500}>
-            LinguaScaffold
+            Linguo
           </Text>
         </div>
         <nav className={styles.headerNav}>

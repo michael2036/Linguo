@@ -1,8 +1,11 @@
-# LinguaScaffold
+# Linguo
 
-Zero-cost, local-first language practice platform. Static React + Fluent UI v9 app,
-deployable entirely to GitHub Pages with no backend. See the full spec in the
-project PRD (shared separately).
+Zero-cost, local-first German practice companion. Static React + Fluent UI v9
+app, deployable entirely to GitHub Pages with no backend.
+
+- Full product spec: [`PRD.md`](PRD.md)
+- Repo orientation for coding agents: [`AGENTS.md`](AGENTS.md)
+- Content-authoring agent workflows: [`.agents/`](.agents)
 
 ## Stack
 
@@ -39,18 +42,17 @@ This repo does not yet have a GitHub remote configured. To publish:
 
 ```bash
 # from this directory
-git remote add origin git@github.com:<your-username>/linguo.git
+git remote add origin git@github.com:michael2036/linguo.git
 git push -u origin main
 ```
 
 Then in the GitHub repo settings, under **Pages**, set the source to
 **GitHub Actions** — the workflow in `.github/workflows/deploy.yml` builds and
 deploys on every push to `main`. The site will be published at
-`https://<your-username>.github.io/linguo/`.
+`https://michael2036.github.io/linguo/`.
 
-If your GitHub username isn't `micherleon`, or you name the repo something
-other than `linguo`, update `REPO_BASE` in [`vite.config.ts`](vite.config.ts)
-to match before deploying.
+If you rename the repo to something other than `linguo`, update `REPO_BASE`
+in [`vite.config.ts`](vite.config.ts) to match before deploying.
 
 ## Google Drive sync (optional)
 
@@ -59,7 +61,7 @@ enable it:
 
 1. Create an OAuth 2.0 **Web application** client in
    [Google Cloud Console](https://console.cloud.google.com/apis/credentials).
-2. Add your GitHub Pages origin (`https://<user>.github.io`) and
+2. Add your GitHub Pages origin (`https://michael2036.github.io`) and
    `http://localhost:5173` to **Authorized JavaScript origins**. No redirect
    URI or client secret is needed (token-model flow).
 3. Replace `GOOGLE_CLIENT_ID` in
@@ -75,8 +77,12 @@ match [`public/schemas/chapter-schema.json`](public/schemas/chapter-schema.json)
 `chapter-01.json` under `deutsch-a1` is a hand-authored sample chapter — use
 it as a reference for format and pedagogical structure (vocabulary with full
 morphological markers, three graded exercise tiers, hints, and rule-based
-explanations) when authoring further chapters, whether by hand or via an
-offline PDF-ingestion pipeline.
+explanations) when authoring further chapters.
 
-To add a chapter to the app, add its entry to `CHAPTER_CATALOG` in
+New chapters are meant to be produced by the two-agent offline authoring
+pipeline described in [`.agents/`](.agents) (Didactic Generator →
+Pedagogical Critic & Auditor), not written by hand — see
+[`.agents/pipeline.md`](.agents/pipeline.md) for the full workflow.
+
+To add a finished chapter to the app, add its entry to `CHAPTER_CATALOG` in
 [`src/lib/chapterLoader.ts`](src/lib/chapterLoader.ts).

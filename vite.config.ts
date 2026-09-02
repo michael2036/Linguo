@@ -15,9 +15,9 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['icons/apple-touch-icon.png'],
       manifest: {
-        name: 'LinguaScaffold',
-        short_name: 'LinguaScaffold',
-        description: 'Zero-cost, local-first language practice platform',
+        name: 'Linguo',
+        short_name: 'Linguo',
+        description: 'Zero-cost, local-first German practice companion',
         start_url: '.',
         scope: '.',
         display: 'standalone',
