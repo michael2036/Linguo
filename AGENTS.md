@@ -90,10 +90,12 @@ build passing alone.
   components; author them as a chapter JSON pack via the
   [`.agents/`](.agents) pipeline and register it in `CHAPTER_CATALOG`
   (`src/lib/chapterLoader.ts`).
-- **`GOOGLE_CLIENT_ID` in `src/lib/googleAuth.ts` is a placeholder.** Drive
-  sync UI is fully wired but intentionally non-functional until a real OAuth
-  client ID is supplied — don't "fix" the resulting sign-in error, it's
-  expected until that's configured (see README's Google Drive sync section).
+- **`GOOGLE_CLIENT_ID` in `src/lib/googleAuth.ts` is a real client ID**, not a
+  placeholder — don't overwrite it casually. It only works from origins
+  listed as Authorized JavaScript origins for that OAuth client in Google
+  Cloud Console (see README's Google Drive sync section); a sign-in failure
+  from an unlisted origin (e.g. a different port, or before Pages is
+  deployed) is expected, not a code bug.
 - **GitHub Pages base path** is set in `vite.config.ts` (`REPO_BASE =
   '/linguo/'`) — keep it in sync with the actual repo name if that ever
   changes.

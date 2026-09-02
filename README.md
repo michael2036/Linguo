@@ -56,16 +56,19 @@ in [`vite.config.ts`](vite.config.ts) to match before deploying.
 
 ## Google Drive sync (optional)
 
-Sync is fully optional — the app works offline/guest-only without it. To
-enable it:
+Sync is fully optional — the app works offline/guest-only without it.
 
-1. Create an OAuth 2.0 **Web application** client in
-   [Google Cloud Console](https://console.cloud.google.com/apis/credentials).
-2. Add your GitHub Pages origin (`https://michael2036.github.io`) and
-   `http://localhost:5173` to **Authorized JavaScript origins**. No redirect
-   URI or client secret is needed (token-model flow).
-3. Replace `GOOGLE_CLIENT_ID` in
-   [`src/lib/googleAuth.ts`](src/lib/googleAuth.ts) with your client ID.
+A real OAuth 2.0 **Web application** client ID is already wired into
+[`src/lib/googleAuth.ts`](src/lib/googleAuth.ts). For it to actually work,
+its **Authorized JavaScript origins** in
+[Google Cloud Console](https://console.cloud.google.com/apis/credentials)
+must include both:
+
+- `http://localhost:5173` (local dev)
+- `https://michael2036.github.io` (production, once deployed)
+
+No redirect URI or client secret is needed — this app only ever uses the
+token-model flow, entirely client-side.
 
 The app only ever requests the `drive.appdata` scope — a private, hidden
 folder Google reserves per-app, invisible in the user's normal Drive UI.

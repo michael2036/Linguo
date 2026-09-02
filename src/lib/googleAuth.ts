@@ -1,11 +1,11 @@
 // Google Identity Services (GIS) token-model auth, scoped to the app's own
 // hidden Drive folder only. No client secret is used or required — see TR-07/TR-08.
 //
-// IMPORTANT: `GOOGLE_CLIENT_ID` below is a placeholder. Create an OAuth 2.0
-// "Web application" client in Google Cloud Console, add this app's GitHub
-// Pages origin (and http://localhost:5173 for local dev) to "Authorized
-// JavaScript origins", and replace the value before Drive sync can work.
-export const GOOGLE_CLIENT_ID = 'REPLACE_WITH_YOUR_GOOGLE_OAUTH_CLIENT_ID.apps.googleusercontent.com';
+// This is the public client_id from the "Web application" OAuth client in
+// Google Cloud Console. Its matching Authorized JavaScript origins must
+// include http://localhost:5173 (dev) and this app's GitHub Pages origin
+// (production) — see README's "Google Drive sync" section.
+export const GOOGLE_CLIENT_ID = '554031189136-ssbed61m42mlbuicl3ut6s5f0kj8rqts.apps.googleusercontent.com';
 
 export const DRIVE_SCOPE = 'https://www.googleapis.com/auth/drive.appdata';
 
