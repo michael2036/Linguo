@@ -1,8 +1,8 @@
 import type { ChapterPackage, ChapterSummary } from '../types/chapter';
 
 // Static manifest of available chapter packs. In a larger course catalog this
-// would itself be a fetched JSON index; a single hard-coded entry is enough
-// for the current one-chapter sample course.
+// would itself be a fetched JSON index; a couple of hard-coded entries are
+// enough for the current sample courses.
 export const CHAPTER_CATALOG: ChapterSummary[] = [
   {
     courseId: 'deutsch-a1',
@@ -11,6 +11,14 @@ export const CHAPTER_CATALOG: ChapterSummary[] = [
     title: 'Erste Schritte: Sich vorstellen',
     targetLevel: 'A1',
     path: 'data/deutsch-a1/chapter-01.json',
+  },
+  {
+    courseId: 'momente-b1-2',
+    chapterId: 'momente-b1-2-l13',
+    chapterNumber: 13,
+    title: 'Nicht nur stark, sondern auch schnell',
+    targetLevel: 'B1+',
+    path: 'data/momente-b1-2/chapter-13.json',
   },
 ];
 
