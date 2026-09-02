@@ -47,6 +47,19 @@ textarea {
   user-select: text;
 }
 
+/* Fluent components already ship their own focus styling; this is a
+   consistent, theme-aware fallback for plain elements (nav links, etc.)
+   that don't go through a Fluent component. `--colorBrandStroke1` is a CSS
+   custom property FluentProvider sets on its root, so this tracks
+   light/dark automatically. */
+a:focus-visible,
+button:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid var(--colorBrandStroke1, #4f30b5);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
 @keyframes ls-fade-up {
   from {
     opacity: 0;
@@ -89,6 +102,17 @@ textarea {
   40%,
   60% {
     transform: translateX(4px);
+  }
+}
+
+@keyframes ls-confetti-fall {
+  0% {
+    transform: translateY(-10px) translateX(0) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(105vh) translateX(var(--ls-confetti-drift, 0px)) rotate(600deg);
+    opacity: 0.3;
   }
 }
 

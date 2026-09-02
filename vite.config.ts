@@ -18,6 +18,9 @@ export default defineConfig({
         name: 'Linguo',
         short_name: 'Linguo',
         description: 'Zero-cost, local-first German practice companion',
+        lang: 'de',
+        dir: 'ltr',
+        categories: ['education', 'lifestyle'],
         start_url: '.',
         scope: '.',
         display: 'standalone',
@@ -38,6 +41,9 @@ export default defineConfig({
         // Precache the chapter JSON data too, so vocab/exercises work fully
         // offline (FR-05) once the app has been opened at least once.
         globPatterns: ['**/*.{js,css,html,ico,svg,png,json}'],
+        // og-image.png is fetched by external link-preview crawlers, never
+        // by the app itself — no reason to spend offline-cache budget on it.
+        globIgnores: ['**/og-image.png'],
         navigateFallbackDenylist: [/^\/schemas\//],
       },
     }),

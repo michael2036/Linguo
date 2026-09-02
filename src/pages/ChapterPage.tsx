@@ -27,6 +27,7 @@ import { VocabFlashcards } from '../components/vocab/VocabFlashcards';
 import { ExerciseRunner } from '../components/exercises/ExerciseRunner';
 import { TrafficLightBadge } from '../components/badges/TrafficLightBadge';
 import { ScoreRing } from '../components/badges/ScoreRing';
+import { Confetti } from '../components/celebration/Confetti';
 
 type Stage = 'overview' | 'vocab' | Tier | 'result';
 
@@ -184,6 +185,7 @@ export const ChapterPage = () => {
   const [pack, setPack] = useState<ChapterPackage | null>(null);
   const [stage, setStage] = useState<Stage>('overview');
   const [lastResultScore, setLastResultScore] = useState<number | null>(null);
+  const [justMastered, setJustMastered] = useState(false);
 
   const summary = useMemo(() => CHAPTER_CATALOG.find((c) => c.chapterId === chapterId), [chapterId]);
   const storedProgress = useAppStore((s) => (chapterId ? s.state.chapterProgress[chapterId] : undefined));
@@ -211,12 +213,16 @@ export const ChapterPage = () => {
   const handleVocabComplete = (rate: number) => {
     markVocabCompleted(summary.chapterId, rate);
     setLastResultScore(rate);
+    setJustMastered(false);
     setStage('result');
   };
 
   const handleTierComplete = (tier: Tier) => (score: number) => {
+    const wasGreen = progress.status === 'green';
     recordTierResult(summary.chapterId, tier, score);
+    const nowGreen = useAppStore.getState().state.chapterProgress[summary.chapterId]?.status === 'green';
     setLastResultScore(score);
+    setJustMastered(!wasGreen && nowGreen);
     setStage('result');
   };
 
@@ -236,12 +242,22 @@ export const ChapterPage = () => {
 
   if (stage === 'result') {
     const passed = lastResultScore !== null && lastResultScore >= 60;
+    const headline = justMastered ? 'Kapitel gemeistert!' : passed ? 'Stark gemacht!' : 'Weiter üben lohnt sich!';
     return (
-      <div className={styles.resultWrap}>
+      <div className={styles.resultWrap} role="status" aria-live="polite">
+        {justMastered && <Confetti />}
         <ScoreRing percent={lastResultScore ?? 0} />
         <Text className={styles.resultHeadline} as="h1" size={600}>
-          {passed ? 'Stark gemacht!' : 'Weiter üben lohnt sich!'}
+          {headline}
         </Text>
+        <Text style={{ position: 'absolute', width: 1, height: 1, overflow: 'hidden', clip: 'rect(0,0,0,0)' }}>
+          {lastResultScore}% erreicht.
+        </Text>
+        {justMastered && (
+          <Text style={{ color: tokens.colorNeutralForeground3, marginTop: '-10px' }}>
+            Alle drei Stufen bestanden — dieses Kapitel steht jetzt auf Grün.
+          </Text>
+        )}
         <TrafficLightBadge status={progress.status} />
         <Button appearance="primary" icon={<SparkleFilled />} onClick={() => setStage('overview')}>
           Zurück zur Kapitelübersicht

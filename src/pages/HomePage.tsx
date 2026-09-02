@@ -1,8 +1,9 @@
 import { useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Card, CardHeader, Text, ProgressBar, makeStyles, tokens, shorthands } from '@fluentui/react-components';
-import { Book24Filled, ChevronRight24Regular } from '@fluentui/react-icons';
-import { CHAPTER_CATALOG } from '../lib/chapterLoader';
+import { Button, Card, CardHeader, Text, ProgressBar, makeStyles, tokens, shorthands } from '@fluentui/react-components';
+import { Book24Filled, ChevronRight24Regular, Sparkle24Filled, TrophyFilled } from '@fluentui/react-icons';
+import { CHAPTER_CATALOG, COURSE_CATALOG } from '../lib/chapterLoader';
+import { suggestNextStep } from '../lib/recommendation';
 import { useAppStore } from '../store/appState';
 import { TrafficLightBadge } from '../components/badges/TrafficLightBadge';
 import { emptyChapterProgress } from '../types/appState';
@@ -60,14 +61,75 @@ const useStyles = makeStyles({
     fontSize: '12px',
     color: 'rgba(255,255,255,0.75)',
   },
-  sectionTitle: {
+  resumeCard: {
+    marginTop: '20px',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'stretch',
+    ...shorthands.gap('12px'),
+    ...shorthands.padding('16px'),
+    ...shorthands.borderRadius(tokens.borderRadiusLarge),
+    backgroundColor: 'rgba(255,255,255,0.14)',
+    backdropFilter: 'blur(6px)',
+    '@media (min-width: 520px)': {
+      flexDirection: 'row',
+      alignItems: 'center',
+      justifyContent: 'space-between',
+    },
+  },
+  resumeText: {
+    display: 'flex',
+    flexDirection: 'column',
+    ...shorthands.gap('2px'),
+    minWidth: 0,
+  },
+  resumeEyebrow: {
+    fontSize: '12px',
+    fontWeight: 600,
+    color: 'rgba(255,255,255,0.75)',
+  },
+  resumeTitle: {
     fontFamily: 'var(--font-display)',
     fontWeight: 600,
+    color: tokens.colorNeutralForegroundOnBrand,
+    display: '-webkit-box',
+    WebkitLineClamp: 2,
+    WebkitBoxOrient: 'vertical',
+    overflow: 'hidden',
+    '@media (min-width: 520px)': {
+      WebkitLineClamp: 1,
+    },
+  },
+  resumeButton: {
+    flexShrink: 0,
+    minHeight: '44px',
+    width: '100%',
+    '@media (min-width: 520px)': {
+      width: 'auto',
+    },
+  },
+  courseSection: {
+    display: 'flex',
+    flexDirection: 'column',
+    ...shorthands.gap('10px'),
+  },
+  courseHeader: {
+    display: 'flex',
+    alignItems: 'baseline',
+    ...shorthands.gap('8px'),
+  },
+  courseTitle: {
+    fontFamily: 'var(--font-display)',
+    fontWeight: 600,
+  },
+  coursePublisher: {
+    fontSize: '12px',
+    color: tokens.colorNeutralForeground3,
   },
   grid: {
     display: 'grid',
     gridTemplateColumns: '1fr',
-    ...shorthands.gap('14px'),
+    ...shorthands.gap('12px'),
     '@media (min-width: 600px)': {
       gridTemplateColumns: 'repeat(2, 1fr)',
     },
@@ -136,6 +198,18 @@ export const HomePage = () => {
     return { total: CHAPTER_CATALOG.length, mastered, inProgress };
   }, [state.chapterProgress]);
 
+  const nextStep = useMemo(() => suggestNextStep(state.chapterProgress), [state.chapterProgress]);
+  const allMastered = stats.mastered === stats.total;
+
+  const coursesWithChapters = useMemo(
+    () =>
+      COURSE_CATALOG.map((course) => ({
+        course,
+        chapters: CHAPTER_CATALOG.filter((c) => c.courseId === course.courseId),
+      })).filter((group) => group.chapters.length > 0),
+    [],
+  );
+
   return (
     <div className={styles.wrap}>
       <section className={styles.hero}>
@@ -160,57 +234,91 @@ export const HomePage = () => {
             <Text className={styles.heroStatLabel}>In Bearbeitung</Text>
           </div>
         </div>
-      </section>
 
-      <section>
-        <Text as="h2" size={500} className={styles.sectionTitle}>
-          Deine Kapitel
-        </Text>
-        <div className={styles.grid} style={{ marginTop: 14 }}>
-          {CHAPTER_CATALOG.map((chapter, i) => {
-            const progress = state.chapterProgress[chapter.chapterId] ?? emptyChapterProgress();
-            const stagesDone =
-              (progress.vocabCompleted ? 1 : 0) +
-              (progress.levels.easy.completed ? 1 : 0) +
-              (progress.levels.medium.completed ? 1 : 0) +
-              (progress.levels.hard.completed ? 1 : 0);
-
-            return (
-              <Card
-                key={chapter.chapterId}
-                className={styles.card}
-                style={{ animationName: 'ls-fade-up', animationDuration: tokens.durationSlower, animationDelay: `${i * 40}ms`, animationFillMode: 'backwards' }}
-                onClick={() => navigate(`/chapter/${chapter.chapterId}`)}
+        {allMastered ? (
+          <div className={styles.resumeCard}>
+            <div className={styles.resumeText}>
+              <Text className={styles.resumeEyebrow}>Alle Kapitel gemeistert</Text>
+              <Text className={styles.resumeTitle}>Stark! Du hast jedes Kapitel auf Grün gebracht. 🎉</Text>
+            </div>
+            <TrophyFilled fontSize={28} />
+          </div>
+        ) : (
+          nextStep && (
+            <div className={styles.resumeCard}>
+              <div className={styles.resumeText}>
+                <Text className={styles.resumeEyebrow}>{nextStep.hasStarted ? 'Weiter lernen' : 'Jetzt starten'}</Text>
+                <Text className={styles.resumeTitle}>
+                  {nextStep.courseTitle} · {nextStep.chapter.title}
+                </Text>
+              </div>
+              <Button
+                className={styles.resumeButton}
+                appearance="primary"
+                icon={<Sparkle24Filled />}
+                onClick={() => navigate(`/chapter/${nextStep.chapter.chapterId}`)}
               >
-                <CardHeader
-                  image={
-                    <span className={styles.cardIcon}>
-                      <Book24Filled />
-                    </span>
-                  }
-                  header={
-                    <div className={styles.cardTitleRow}>
-                      <Text weight="semibold">{`Kapitel ${chapter.chapterNumber}: ${chapter.title}`}</Text>
-                      <ChevronRight24Regular className={styles.chevron} />
-                    </div>
-                  }
-                  description={
-                    <div>
-                      <div className={styles.cardMeta}>
-                        <span className={styles.cardLevel}>{chapter.targetLevel}</span>
-                        <TrafficLightBadge status={progress.status} />
-                      </div>
-                      <div className={styles.cardProgress}>
-                        <ProgressBar value={stagesDone / 4} thickness="medium" />
-                      </div>
-                    </div>
-                  }
-                />
-              </Card>
-            );
-          })}
-        </div>
+                {nextStep.hasStarted ? 'Fortsetzen' : 'Start'}
+              </Button>
+            </div>
+          )
+        )}
       </section>
+
+      {coursesWithChapters.map(({ course, chapters }) => (
+        <section key={course.courseId} className={styles.courseSection}>
+          <div className={styles.courseHeader}>
+            <Text className={styles.courseTitle} size={500}>
+              {course.title}
+            </Text>
+            <Text className={styles.coursePublisher}>{course.publisher}</Text>
+          </div>
+          <div className={styles.grid}>
+            {chapters.map((chapter, i) => {
+              const progress = state.chapterProgress[chapter.chapterId] ?? emptyChapterProgress();
+              const stagesDone =
+                (progress.vocabCompleted ? 1 : 0) +
+                (progress.levels.easy.completed ? 1 : 0) +
+                (progress.levels.medium.completed ? 1 : 0) +
+                (progress.levels.hard.completed ? 1 : 0);
+
+              return (
+                <Card
+                  key={chapter.chapterId}
+                  className={styles.card}
+                  style={{ animationName: 'ls-fade-up', animationDuration: tokens.durationSlower, animationDelay: `${i * 40}ms`, animationFillMode: 'backwards' }}
+                  onClick={() => navigate(`/chapter/${chapter.chapterId}`)}
+                >
+                  <CardHeader
+                    image={
+                      <span className={styles.cardIcon}>
+                        <Book24Filled />
+                      </span>
+                    }
+                    header={
+                      <div className={styles.cardTitleRow}>
+                        <Text weight="semibold">{`Kapitel ${chapter.chapterNumber}: ${chapter.title}`}</Text>
+                        <ChevronRight24Regular className={styles.chevron} />
+                      </div>
+                    }
+                    description={
+                      <div>
+                        <div className={styles.cardMeta}>
+                          <span className={styles.cardLevel}>{chapter.targetLevel}</span>
+                          <TrafficLightBadge status={progress.status} />
+                        </div>
+                        <div className={styles.cardProgress}>
+                          <ProgressBar value={stagesDone / 4} thickness="medium" />
+                        </div>
+                      </div>
+                    }
+                  />
+                </Card>
+              );
+            })}
+          </div>
+        </section>
+      ))}
     </div>
   );
 };

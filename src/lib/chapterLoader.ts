@@ -1,5 +1,23 @@
 import type { ChapterPackage, ChapterSummary } from '../types/chapter';
 
+export interface CourseInfo {
+  courseId: string;
+  title: string;
+  publisher: string;
+}
+
+// Display metadata for each textbook/course a chapter can belong to. Chapters
+// from different courses are unrelated to each other — the home page groups
+// by this so "Kapitel 1" from two different books never reads as the same
+// thing.
+export const COURSE_CATALOG: CourseInfo[] = [
+  { courseId: 'deutsch-a1', title: 'Deutsch A1', publisher: 'Linguo Original Course' },
+  { courseId: 'momente-a2-1', title: 'Momente A2.1', publisher: 'Hueber Verlag' },
+  { courseId: 'momente-a2-2', title: 'Momente A2.2', publisher: 'Hueber Verlag' },
+  { courseId: 'momente-b1-1', title: 'Momente B1.1', publisher: 'Hueber Verlag' },
+  { courseId: 'momente-b1-2', title: 'Momente B1.2', publisher: 'Hueber Verlag' },
+];
+
 // Static manifest of available chapter packs. In a larger course catalog this
 // would itself be a fetched JSON index; a couple of hard-coded entries are
 // enough for the current sample courses.

@@ -73,6 +73,14 @@ token-model flow, entirely client-side.
 The app only ever requests the `drive.appdata` scope — a private, hidden
 folder Google reserves per-app, invisible in the user's normal Drive UI.
 
+### OAuth consent screen
+
+Google's consent screen configuration asks for a public Privacy Policy and
+Terms of Service URL — the app ships both as real pages, once deployed:
+
+- `https://michael2036.github.io/linguo/#/privacy`
+- `https://michael2036.github.io/linguo/#/terms`
+
 ## Content authoring
 
 Chapter packs live at `public/data/<course-id>/chapter-XX.json` and must
@@ -88,4 +96,7 @@ Pedagogical Critic & Auditor), not written by hand — see
 [`.agents/pipeline.md`](.agents/pipeline.md) for the full workflow.
 
 To add a finished chapter to the app, add its entry to `CHAPTER_CATALOG` in
-[`src/lib/chapterLoader.ts`](src/lib/chapterLoader.ts).
+[`src/lib/chapterLoader.ts`](src/lib/chapterLoader.ts). The home page groups
+chapters by course/textbook — if it's the first chapter from a new book,
+also add a matching entry to `COURSE_CATALOG` in the same file, which
+supplies the section header (book title + publisher) it's grouped under.

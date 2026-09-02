@@ -98,6 +98,7 @@ const useStyles = makeStyles({
     color: tokens.colorNeutralForeground3,
     backgroundColor: 'transparent',
     ...shorthands.border('none'),
+    textDecorationLine: 'none',
     cursor: 'pointer',
     transitionProperty: 'color, background-color',
     transitionDuration: tokens.durationFaster,

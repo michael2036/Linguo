@@ -41,17 +41,19 @@ export const HintExplanation = ({ hint, explanation, submitted, correct, solutio
         </div>
       )}
       {submitted && (
-        <MessageBar intent={correct ? 'success' : 'warning'}>
-          <MessageBarBody>
-            {!correct && (
-              <>
-                <strong>Richtige Lösung:</strong> {solution}
-                <br />
-              </>
-            )}
-            {explanation}
-          </MessageBarBody>
-        </MessageBar>
+        <div role="status" aria-live="polite">
+          <MessageBar intent={correct ? 'success' : 'warning'}>
+            <MessageBarBody>
+              {!correct && (
+                <>
+                  <strong>Richtige Lösung:</strong> {solution}
+                  <br />
+                </>
+              )}
+              {explanation}
+            </MessageBarBody>
+          </MessageBar>
+        </div>
       )}
     </div>
   );

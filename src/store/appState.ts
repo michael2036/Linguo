@@ -24,6 +24,7 @@ interface AppStore {
 
   markVocabCompleted: (chapterId: string, recognitionRate: number) => void;
   recordTierResult: (chapterId: string, tier: Tier, score: number) => void;
+  resetProgress: () => void;
 
   connectGoogle: () => Promise<void>;
   disconnectGoogle: () => void;
@@ -97,6 +98,16 @@ export const useAppStore = create<AppStore>((set, get) => ({
         }),
       };
     });
+    persistAndMaybeSync(get, set);
+  },
+
+  // Explicit user action from Settings — clears learning progress only,
+  // never preferences. Distinct from disconnecting Google (FR-03), which
+  // must never implicitly wipe local data.
+  resetProgress: () => {
+    set((s) => ({
+      state: touch({ ...s.state, vocabularyProgress: {}, chapterProgress: {} }),
+    }));
     persistAndMaybeSync(get, set);
   },
 

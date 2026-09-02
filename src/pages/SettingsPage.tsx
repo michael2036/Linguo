@@ -2,6 +2,13 @@ import { useState } from 'react';
 import {
   Button,
   Card,
+  Dialog,
+  DialogActions,
+  DialogBody,
+  DialogContent,
+  DialogSurface,
+  DialogTitle,
+  DialogTrigger,
   Label,
   MessageBar,
   MessageBarBody,
@@ -12,7 +19,13 @@ import {
   tokens,
   shorthands,
 } from '@fluentui/react-components';
-import { CloudSync24Regular, PlugDisconnected24Regular } from '@fluentui/react-icons';
+import {
+  ArrowResetRegular,
+  ChevronRight16Regular,
+  CloudSync24Regular,
+  Info24Regular,
+  PlugDisconnected24Regular,
+} from '@fluentui/react-icons';
 import { useAppStore } from '../store/appState';
 import type { NativeLanguage, ThemePreference } from '../types/appState';
 
@@ -38,6 +51,25 @@ const useStyles = makeStyles({
   actionButton: {
     minHeight: '44px',
   },
+  dangerButton: {
+    minHeight: '44px',
+    color: tokens.colorPaletteRedForeground1,
+    ...shorthands.borderColor(tokens.colorPaletteRedBorder2),
+  },
+  aboutRow: {
+    display: 'flex',
+    alignItems: 'center',
+    ...shorthands.gap('10px'),
+    ...shorthands.padding('8px', '2px'),
+    fontSize: '14px',
+    color: tokens.colorNeutralForeground2,
+    textDecorationLine: 'none',
+    cursor: 'pointer',
+    minHeight: '44px',
+    ':hover': {
+      color: tokens.colorBrandForeground1,
+    },
+  },
 });
 
 export const SettingsPage = () => {
@@ -51,7 +83,9 @@ export const SettingsPage = () => {
   const lastSyncError = useAppStore((s) => s.lastSyncError);
   const connectGoogle = useAppStore((s) => s.connectGoogle);
   const disconnectGoogle = useAppStore((s) => s.disconnectGoogle);
+  const resetProgress = useAppStore((s) => s.resetProgress);
   const [connectError, setConnectError] = useState<string | null>(null);
+  const [resetDialogOpen, setResetDialogOpen] = useState(false);
 
   const handleConnect = async () => {
     setConnectError(null);
@@ -133,6 +167,64 @@ export const SettingsPage = () => {
             Mit Google verbinden
           </Button>
         )}
+      </Card>
+
+      <Card className={styles.section}>
+        <Label weight="semibold">Fortschritt</Label>
+        <Text style={{ color: tokens.colorNeutralForeground3 }}>
+          Setzt den Lernfortschritt aller Kapitel und Vokabeln zurück. Design und Muttersprache
+          bleiben unverändert.
+        </Text>
+        <Dialog open={resetDialogOpen} onOpenChange={(_, data) => setResetDialogOpen(data.open)}>
+          <DialogTrigger disableButtonEnhancement>
+            <Button className={styles.dangerButton} appearance="outline" icon={<ArrowResetRegular />}>
+              Fortschritt zurücksetzen
+            </Button>
+          </DialogTrigger>
+          <DialogSurface>
+            <DialogBody>
+              <DialogTitle>Fortschritt wirklich zurücksetzen?</DialogTitle>
+              <DialogContent>
+                Alle Vokabel- und Kapitelfortschritte werden dauerhaft gelöscht. Diese Aktion kann
+                nicht rückgängig gemacht werden.
+              </DialogContent>
+              <DialogActions>
+                <DialogTrigger disableButtonEnhancement>
+                  <Button appearance="secondary">Abbrechen</Button>
+                </DialogTrigger>
+                <Button
+                  appearance="primary"
+                  className={styles.dangerButton}
+                  onClick={() => {
+                    resetProgress();
+                    setResetDialogOpen(false);
+                  }}
+                >
+                  Ja, zurücksetzen
+                </Button>
+              </DialogActions>
+            </DialogBody>
+          </DialogSurface>
+        </Dialog>
+      </Card>
+
+      <Card className={styles.section}>
+        <Label weight="semibold">Über</Label>
+        <a className={styles.aboutRow} href="#/about">
+          <Info24Regular />
+          <span style={{ flex: 1 }}>Über Linguo</span>
+          <ChevronRight16Regular />
+        </a>
+        <a className={styles.aboutRow} href="#/privacy">
+          <span style={{ width: 24 }} />
+          <span style={{ flex: 1 }}>Datenschutzerklärung</span>
+          <ChevronRight16Regular />
+        </a>
+        <a className={styles.aboutRow} href="#/terms">
+          <span style={{ width: 24 }} />
+          <span style={{ flex: 1 }}>Nutzungsbedingungen</span>
+          <ChevronRight16Regular />
+        </a>
       </Card>
     </div>
   );

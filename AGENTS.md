@@ -27,11 +27,16 @@ src/
     exercises/                 # one component per exercise type + shared runner
     vocab/VocabFlashcards.tsx  # Stage 0 flip-card primer
     badges/                    # TrafficLightBadge, GenderBadge, ScoreRing
-  pages/                       # HomePage, ChapterPage, SettingsPage
+    celebration/Confetti.tsx   # one-shot burst on chapter mastery
+    legal/LegalDocument.tsx    # shared layout for Privacy/Terms
+    ErrorBoundary.tsx          # crash guard around the routed pages
+  pages/                       # HomePage, ChapterPage, SettingsPage,
+                                # AboutPage, PrivacyPage, TermsPage, NotFoundPage
   store/appState.ts            # zustand store — single source of truth for progress
   lib/
     scoring.ts                 # tier pass thresholds + traffic-light status logic
-    chapterLoader.ts           # fetches chapter JSON, CHAPTER_CATALOG lives here
+    recommendation.ts          # "Weiter lernen" next-chapter suggestion
+    chapterLoader.ts           # fetches chapter JSON; CHAPTER_CATALOG + COURSE_CATALOG live here
     googleAuth.ts / driveSync.ts  # optional cloud sync, appdata-scoped
     localStore.ts              # localStorage persistence
   types/                       # TS types mirroring the two JSON schemas
@@ -39,9 +44,17 @@ src/
 public/
   schemas/                     # the two JSON Schemas (app state, chapter)
   data/<course-id>/chapter-*.json  # chapter content packs
+  og-image.png                 # social preview image (excluded from SW precache)
+design/                        # source design assets (e.g. icon master), not shipped
 .agents/                       # content-authoring agent specs (see above)
 .github/workflows/deploy.yml   # GitHub Pages CI/CD
 ```
+
+Routes: `/` (home, grouped by course), `/chapter/:chapterId`, `/settings`,
+`/about`, `/privacy`, `/terms`, and a `*` catch-all `NotFoundPage`. The
+Privacy/Terms pages are real, live-linked pages — they're what Google's
+OAuth consent screen configuration points at, so don't remove or break their
+routes without updating that consent screen too.
 
 ## Stack quick reference
 
@@ -89,7 +102,10 @@ build passing alone.
 - **Chapter content is data, not code.** Don't hand-add exercises inside
   components; author them as a chapter JSON pack via the
   [`.agents/`](.agents) pipeline and register it in `CHAPTER_CATALOG`
-  (`src/lib/chapterLoader.ts`).
+  (`src/lib/chapterLoader.ts`). If it's the first chapter from a new
+  textbook/course, also add an entry to `COURSE_CATALOG` in the same file —
+  the home page groups chapters by `courseId` and renders nothing sensible
+  for an unregistered course.
 - **`GOOGLE_CLIENT_ID` in `src/lib/googleAuth.ts` is a real client ID**, not a
   placeholder — don't overwrite it casually. It only works from origins
   listed as Authorized JavaScript origins for that OAuth client in Google
