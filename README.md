@@ -33,26 +33,24 @@ sign-in — pick "Kapitel 1" and work through Stufe 0 → 3.
 npm run build
 ```
 
-Builds to `dist/` with the `/linguo/` base path used for GitHub Pages
+Builds to `dist/` with the `/Linguo/` base path used for GitHub Pages
 (`vite.config.ts`). `npm run preview` serves that build locally.
 
 ## Deploying to GitHub Pages
 
-This repo does not yet have a GitHub remote configured. To publish:
+This repo is connected to `github.com/michael2036/Linguo` and deploys
+automatically — the workflow in `.github/workflows/deploy.yml` builds and
+publishes on every push to `main` (and can be run manually from the Actions
+tab). Make sure the repo's **Pages** settings have the source set to
+**GitHub Actions**. The site is published at
+`https://michael2036.github.io/Linguo/`.
 
-```bash
-# from this directory
-git remote add origin git@github.com:michael2036/linguo.git
-git push -u origin main
-```
-
-Then in the GitHub repo settings, under **Pages**, set the source to
-**GitHub Actions** — the workflow in `.github/workflows/deploy.yml` builds and
-deploys on every push to `main`. The site will be published at
-`https://michael2036.github.io/linguo/`.
-
-If you rename the repo to something other than `linguo`, update `REPO_BASE`
-in [`vite.config.ts`](vite.config.ts) to match before deploying.
+`REPO_BASE` in [`vite.config.ts`](vite.config.ts) must exactly match the
+repo's name, capitalization included — GitHub Pages paths are
+case-sensitive, so a mismatch here 404s every asset while the root page
+still loads (this broke the first deploy: the repo is `Linguo`, capital L,
+but the base was set to lowercase `linguo`). Update it if the repo is ever
+renamed.
 
 ## Google Drive sync (optional)
 
@@ -78,8 +76,8 @@ folder Google reserves per-app, invisible in the user's normal Drive UI.
 Google's consent screen configuration asks for a public Privacy Policy and
 Terms of Service URL — the app ships both as real pages, once deployed:
 
-- `https://michael2036.github.io/linguo/#/privacy`
-- `https://michael2036.github.io/linguo/#/terms`
+- `https://michael2036.github.io/Linguo/#/privacy`
+- `https://michael2036.github.io/Linguo/#/terms`
 
 ## Content authoring
 

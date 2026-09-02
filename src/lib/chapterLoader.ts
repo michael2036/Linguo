@@ -67,7 +67,7 @@ export const CHAPTER_CATALOG: ChapterSummary[] = [
 const chapterCache = new Map<string, ChapterPackage>();
 
 // `import.meta.env.BASE_URL` resolves to the configured GitHub Pages
-// sub-path (see TR-02), so this works both at `/` in dev and `/linguo/` in
+// sub-path (see TR-02), so this works both at `/` in dev and `/Linguo/` in
 // production without hard-coding the repo name here.
 export const loadChapter = async (summary: ChapterSummary): Promise<ChapterPackage> => {
   const cached = chapterCache.get(summary.chapterId);

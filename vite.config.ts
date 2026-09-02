@@ -2,10 +2,15 @@ import react from '@vitejs/plugin-react'
 import { defineConfig } from 'vite'
 import { VitePWA } from 'vite-plugin-pwa'
 
-// TR-02: GitHub Pages serves this repo from https://<user>.github.io/linguo/,
+// TR-02: GitHub Pages serves this repo from https://<user>.github.io/Linguo/,
 // so every built asset URL must be prefixed with that sub-path. Local dev
 // keeps `/` so `npm run dev` still works at the site root.
-const REPO_BASE = '/linguo/'
+//
+// Case matters here: GitHub Pages paths are case-sensitive and this repo's
+// actual name is `Linguo` (capital L) — a lowercase base silently 404s
+// every asset while the root HTML still loads, which is exactly the bug
+// this comment exists to stop someone from reintroducing.
+const REPO_BASE = '/Linguo/'
 
 export default defineConfig({
   base: process.env.NODE_ENV === 'production' ? REPO_BASE : '/',

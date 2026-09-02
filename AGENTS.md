@@ -64,7 +64,7 @@ routes without updating that consent screen too.
 - Zustand for state (`src/store/appState.ts`), persisted to `localStorage`.
 - `react-router-dom` with `HashRouter` — deliberate, not an oversight: GitHub
   Pages serves no server rewrites, so hash routes are what survive a hard
-  refresh under the `/linguo/` sub-path.
+  refresh under the `/Linguo/` sub-path.
 - `vite-plugin-pwa` for the installable, offline-capable PWA.
 - Self-hosted variable fonts (`@fontsource-variable/*`) — no external CDN
   calls, so the PWA looks right fully offline.
@@ -112,9 +112,11 @@ build passing alone.
   Cloud Console (see README's Google Drive sync section); a sign-in failure
   from an unlisted origin (e.g. a different port, or before Pages is
   deployed) is expected, not a code bug.
-- **GitHub Pages base path** is set in `vite.config.ts` (`REPO_BASE =
-  '/linguo/'`) — keep it in sync with the actual repo name if that ever
-  changes.
+- **GitHub Pages base path is case-sensitive.** `REPO_BASE` in
+  `vite.config.ts` must exactly match the repo's actual name casing
+  (`/Linguo/`, capital L) — a mismatch 404s every asset while the root HTML
+  still loads fine, which made the very first deploy silently broken. Keep
+  it in sync if the repo is ever renamed.
 
 ## Definition of done for a UI change
 
