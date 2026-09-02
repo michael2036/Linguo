@@ -1,11 +1,20 @@
 import { useEffect, useState } from 'react';
-import { Button, Card, ProgressBar, Text, makeStyles, tokens } from '@fluentui/react-components';
-import type { ExerciseItem } from '../../types/chapter';
+import { Button, Card, ProgressBar, Text, makeStyles, tokens, shorthands } from '@fluentui/react-components';
+import type { ExerciseItem, ExerciseType } from '../../types/chapter';
 import { isCorrectAnswer } from '../../lib/answerCheck';
 import { MultipleChoice } from './MultipleChoice';
 import { TextAnswerInput } from './TextAnswerInput';
 import { SentenceScramble } from './SentenceScramble';
 import { HintExplanation } from './HintExplanation';
+
+const TYPE_LABELS: Record<ExerciseType, string> = {
+  'multiple-choice': 'Multiple Choice',
+  'fill-in-blank': 'Lückentext',
+  'sentence-scramble': 'Satzbau',
+  'cloze-conjugation': 'Konjugation',
+  'targeted-transformation': 'Satzumformung',
+  'error-correction': 'Fehlerkorrektur',
+};
 
 const useStyles = makeStyles({
   wrap: {
@@ -16,15 +25,49 @@ const useStyles = makeStyles({
     marginLeft: 'auto',
     marginRight: 'auto',
   },
+  progressRow: {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
+  counter: {
+    fontSize: '13px',
+    color: tokens.colorNeutralForeground3,
+    fontWeight: 600,
+    flexShrink: 0,
+    marginLeft: '12px',
+  },
   card: {
     padding: '24px',
+    ...shorthands.borderRadius(tokens.borderRadiusXLarge),
+    boxShadow: tokens.shadow4,
+    animationName: 'ls-fade-up',
+    animationDuration: tokens.durationSlower,
+    animationTimingFunction: tokens.curveDecelerateMid,
+  },
+  cardShake: {
+    animationName: 'ls-shake',
+    animationDuration: '400ms',
+  },
+  typeChip: {
+    display: 'inline-block',
+    fontSize: '11px',
+    fontWeight: 700,
+    letterSpacing: '0.03em',
+    textTransform: 'uppercase',
+    color: tokens.colorBrandForeground1,
+    backgroundColor: tokens.colorBrandBackground2,
+    ...shorthands.padding('3px', '9px'),
+    ...shorthands.borderRadius(tokens.borderRadiusCircular),
+    marginBottom: '10px',
   },
   instruction: {
     color: tokens.colorNeutralForeground3,
   },
   prompt: {
+    fontFamily: 'var(--font-display)',
     fontSize: tokens.fontSizeBase500,
-    fontWeight: tokens.fontWeightSemibold,
+    fontWeight: 600,
     marginTop: tokens.spacingVerticalXS,
     marginBottom: tokens.spacingVerticalM,
   },
@@ -54,6 +97,7 @@ export const ExerciseRunner = ({ tierLabel, items, onComplete }: ExerciseRunnerP
   const [choiceValue, setChoiceValue] = useState<string | null>(null);
   const [submitted, setSubmitted] = useState(false);
   const [correctCount, setCorrectCount] = useState(0);
+  const [shake, setShake] = useState(false);
 
   const item = items[index];
   const isLast = index === items.length - 1;
@@ -70,7 +114,12 @@ export const ExerciseRunner = ({ tierLabel, items, onComplete }: ExerciseRunnerP
   const handleSubmit = () => {
     if (submitted || !canSubmit) return;
     const correct = isCorrectAnswer(currentAnswer(), item.solution);
-    if (correct) setCorrectCount((c) => c + 1);
+    if (correct) {
+      setCorrectCount((c) => c + 1);
+    } else {
+      setShake(true);
+      window.setTimeout(() => setShake(false), 400);
+    }
     setSubmitted(true);
   };
 
@@ -111,11 +160,17 @@ export const ExerciseRunner = ({ tierLabel, items, onComplete }: ExerciseRunnerP
 
   return (
     <div className={styles.wrap}>
-      <ProgressBar value={index / items.length} />
-      <Text align="center">
-        {tierLabel} · Aufgabe {index + 1} von {items.length}
+      <div className={styles.progressRow}>
+        <ProgressBar value={index / items.length} thickness="medium" style={{ flex: 1 }} />
+        <Text className={styles.counter}>
+          {index + 1} / {items.length}
+        </Text>
+      </div>
+      <Text align="center" style={{ color: tokens.colorNeutralForeground3, fontSize: 13 }}>
+        {tierLabel}
       </Text>
-      <Card className={styles.card}>
+      <Card className={`${styles.card} ${shake ? styles.cardShake : ''}`} key={item.id}>
+        <span className={styles.typeChip}>{TYPE_LABELS[item.type]}</span>
         <Text className={styles.instruction}>{item.instruction}</Text>
         <Text as="p" className={styles.prompt}>
           {item.prompt}

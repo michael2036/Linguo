@@ -2,8 +2,9 @@ import { Input, makeStyles, tokens } from '@fluentui/react-components';
 
 const useStyles = makeStyles({
   input: {
-    minHeight: '44px',
+    minHeight: '48px',
     fontSize: tokens.fontSizeBase400,
+    borderRadius: tokens.borderRadiusLarge,
   },
 });
 
@@ -24,6 +25,7 @@ export const TextAnswerInput = ({ value, onChange, submitted, autoFocus }: TextA
       autoFocus={autoFocus}
       onChange={(_, data) => onChange(data.value)}
       placeholder="Deine Antwort..."
+      size="large"
     />
   );
 };

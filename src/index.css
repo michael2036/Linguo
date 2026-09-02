@@ -1,5 +1,10 @@
+@import '@fontsource-variable/inter';
+@import '@fontsource-variable/lexend';
+
 :root {
   color-scheme: light dark;
+  --font-body: 'Inter Variable', 'Segoe UI', system-ui, sans-serif;
+  --font-display: 'Lexend Variable', 'Segoe UI', system-ui, sans-serif;
 }
 
 * {
@@ -18,6 +23,7 @@ body {
   -webkit-touch-callout: none;
   -webkit-tap-highlight-color: transparent;
   overflow-x: hidden;
+  font-family: var(--font-body);
 }
 
 #root {
@@ -39,4 +45,58 @@ input,
 textarea {
   -webkit-user-select: text;
   user-select: text;
+}
+
+@keyframes ls-fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes ls-pop {
+  0% {
+    transform: scale(0.85);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.05);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes ls-shake {
+  10%,
+  90% {
+    transform: translateX(-1px);
+  }
+  20%,
+  80% {
+    transform: translateX(2px);
+  }
+  30%,
+  50%,
+  70% {
+    transform: translateX(-4px);
+  }
+  40%,
+  60% {
+    transform: translateX(4px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
 }

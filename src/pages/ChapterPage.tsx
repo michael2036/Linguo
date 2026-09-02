@@ -2,19 +2,20 @@ import { useEffect, useMemo, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import {
   Button,
-  Card,
-  CardHeader,
   Spinner,
   Text,
   makeStyles,
+  mergeClasses,
   tokens,
   shorthands,
 } from '@fluentui/react-components';
 import {
-  BookOpen24Regular,
+  ArrowLeft24Regular,
+  BookOpen24Filled,
   CheckmarkCircle24Filled,
-  LockClosed24Regular,
-  PlayCircle24Regular,
+  ChevronRight24Regular,
+  LockClosed20Filled,
+  SparkleFilled,
 } from '@fluentui/react-icons';
 import { CHAPTER_CATALOG, loadChapter } from '../lib/chapterLoader';
 import type { ChapterPackage } from '../types/chapter';
@@ -25,6 +26,7 @@ import { emptyChapterProgress } from '../types/appState';
 import { VocabFlashcards } from '../components/vocab/VocabFlashcards';
 import { ExerciseRunner } from '../components/exercises/ExerciseRunner';
 import { TrafficLightBadge } from '../components/badges/TrafficLightBadge';
+import { ScoreRing } from '../components/badges/ScoreRing';
 
 type Stage = 'overview' | 'vocab' | Tier | 'result';
 
@@ -38,34 +40,140 @@ const useStyles = makeStyles({
   wrap: {
     display: 'flex',
     flexDirection: 'column',
-    ...shorthands.gap('16px'),
+    ...shorthands.gap('18px'),
   },
   loading: {
     display: 'flex',
     justifyContent: 'center',
     paddingTop: '48px',
   },
+  backButton: {
+    alignSelf: 'flex-start',
+  },
+  titleBlock: {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'flex-start',
+    ...shorthands.gap('6px'),
+  },
+  title: {
+    fontFamily: 'var(--font-display)',
+    fontWeight: 700,
+  },
+  focusChips: {
+    display: 'flex',
+    flexWrap: 'wrap',
+    ...shorthands.gap('6px'),
+    marginTop: '2px',
+  },
+  focusChip: {
+    fontSize: '12px',
+    color: tokens.colorNeutralForeground2,
+    backgroundColor: tokens.colorNeutralBackground3,
+    ...shorthands.padding('3px', '9px'),
+    ...shorthands.borderRadius(tokens.borderRadiusCircular),
+  },
   stageList: {
     display: 'flex',
     flexDirection: 'column',
-    ...shorthands.gap('12px'),
-  },
-  stageCard: {
-    minHeight: '44px',
+    marginTop: '8px',
   },
   stageRow: {
     display: 'flex',
+    ...shorthands.gap('14px'),
+  },
+  stageRail: {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    width: '36px',
+    flexShrink: 0,
+  },
+  stageNode: {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    width: '36px',
+    height: '36px',
+    borderRadius: tokens.borderRadiusCircular,
+    flexShrink: 0,
+    ...shorthands.border('2px', 'solid', tokens.colorNeutralStroke2),
+    backgroundColor: tokens.colorNeutralBackground1,
+    color: tokens.colorNeutralForeground3,
+  },
+  stageNodeUnlocked: {
+    ...shorthands.border('2px', 'solid', tokens.colorBrandStroke1),
+    color: tokens.colorBrandForeground1,
+    backgroundColor: tokens.colorBrandBackground2,
+  },
+  stageNodeDone: {
+    ...shorthands.border('2px', 'solid', tokens.colorPaletteGreenBorder2),
+    color: tokens.colorNeutralForegroundOnBrand,
+    backgroundColor: tokens.colorPaletteGreenForeground1,
+  },
+  stageConnector: {
+    width: '2px',
+    flex: 1,
+    minHeight: '24px',
+    backgroundColor: tokens.colorNeutralStroke2,
+  },
+  stageConnectorDone: {
+    backgroundColor: tokens.colorPaletteGreenBorder2,
+  },
+  stageCard: {
+    flex: 1,
+    display: 'flex',
     alignItems: 'center',
     justifyContent: 'space-between',
-    width: '100%',
+    ...shorthands.gap('12px'),
+    ...shorthands.padding('16px'),
+    marginBottom: '14px',
+    ...shorthands.borderRadius(tokens.borderRadiusLarge),
+    ...shorthands.border('1px', 'solid', tokens.colorNeutralStroke2),
+    backgroundColor: tokens.colorNeutralBackground1,
+    minHeight: '44px',
+    transitionProperty: 'transform, box-shadow',
+    transitionDuration: tokens.durationFaster,
+  },
+  stageCardUnlocked: {
+    cursor: 'pointer',
+    ':hover': {
+      transform: 'translateY(-1px)',
+      boxShadow: tokens.shadow4,
+    },
+  },
+  stageCardLocked: {
+    opacity: 0.6,
+  },
+  stageTextBlock: {
+    display: 'flex',
+    flexDirection: 'column',
+  },
+  stageLabel: {
+    fontWeight: 600,
+  },
+  stageSub: {
+    fontSize: '12px',
+    color: tokens.colorNeutralForeground3,
+  },
+  stageScore: {
+    fontSize: '13px',
+    fontWeight: 700,
+    color: tokens.colorNeutralForeground2,
+    flexShrink: 0,
   },
   resultWrap: {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
-    ...shorthands.gap('16px'),
-    paddingTop: '32px',
+    ...shorthands.gap('18px'),
+    paddingTop: '40px',
+    paddingBottom: '24px',
     textAlign: 'center',
+  },
+  resultHeadline: {
+    fontFamily: 'var(--font-display)',
+    fontWeight: 700,
   },
 });
 
@@ -127,94 +235,111 @@ export const ChapterPage = () => {
   }
 
   if (stage === 'result') {
+    const passed = lastResultScore !== null && lastResultScore >= 60;
     return (
       <div className={styles.resultWrap}>
-        <CheckmarkCircle24Filled fontSize={48} color={tokens.colorPaletteGreenForeground2} />
-        <Text size={600} weight="semibold">
-          {lastResultScore}% erreicht
+        <ScoreRing percent={lastResultScore ?? 0} />
+        <Text className={styles.resultHeadline} as="h1" size={600}>
+          {passed ? 'Stark gemacht!' : 'Weiter üben lohnt sich!'}
         </Text>
         <TrafficLightBadge status={progress.status} />
-        <Button appearance="primary" onClick={() => setStage('overview')}>
+        <Button appearance="primary" icon={<SparkleFilled />} onClick={() => setStage('overview')}>
           Zurück zur Kapitelübersicht
         </Button>
       </div>
     );
   }
 
-  const stages: { key: Stage; label: string; unlocked: boolean; done: boolean }[] = [
+  const stages: { key: Stage; label: string; sub: string; unlocked: boolean; done: boolean; score?: number }[] = [
     {
       key: 'vocab',
-      label: `Stufe 0 · Wortschatz (${pack.vocabulary.length} Begriffe)`,
+      label: 'Stufe 0 · Wortschatz',
+      sub: `${pack.vocabulary.length} Begriffe`,
       unlocked: true,
       done: progress.vocabCompleted,
     },
     {
       key: 'easy',
       label: TIER_LABELS.easy,
+      sub: `${pack.exercises.easy.length} Aufgaben`,
       unlocked: isTierUnlocked(progress, 'easy'),
       done: progress.levels.easy.completed,
+      score: progress.levels.easy.attempts > 0 ? progress.levels.easy.score : undefined,
     },
     {
       key: 'medium',
       label: TIER_LABELS.medium,
+      sub: `${pack.exercises.medium.length} Aufgaben`,
       unlocked: isTierUnlocked(progress, 'medium'),
       done: progress.levels.medium.completed,
+      score: progress.levels.medium.attempts > 0 ? progress.levels.medium.score : undefined,
     },
     {
       key: 'hard',
       label: TIER_LABELS.hard,
+      sub: `${pack.exercises.hard.length} Aufgaben`,
       unlocked: isTierUnlocked(progress, 'hard'),
       done: progress.levels.hard.completed,
+      score: progress.levels.hard.attempts > 0 ? progress.levels.hard.score : undefined,
     },
   ];
 
   return (
     <div className={styles.wrap}>
-      <Button appearance="subtle" onClick={() => navigate('/')}>
-        ← Alle Kapitel
+      <Button className={styles.backButton} appearance="subtle" icon={<ArrowLeft24Regular />} onClick={() => navigate('/')}>
+        Alle Kapitel
       </Button>
-      <Text as="h1" size={700} weight="semibold">
-        {`Kapitel ${pack.chapterNumber}: ${pack.title}`}
-      </Text>
-      <Text style={{ color: tokens.colorNeutralForeground3 }}>{pack.grammarFocus.join(' · ')}</Text>
-      <TrafficLightBadge status={progress.status} />
+
+      <div className={styles.titleBlock}>
+        <Text className={styles.title} as="h1" size={700}>
+          {`Kapitel ${pack.chapterNumber}: ${pack.title}`}
+        </Text>
+        <TrafficLightBadge status={progress.status} />
+        <div className={styles.focusChips}>
+          {pack.grammarFocus.map((focus) => (
+            <span key={focus} className={styles.focusChip}>
+              {focus}
+            </span>
+          ))}
+        </div>
+      </div>
 
       <div className={styles.stageList}>
-        {stages.map((s) => (
-          <Card key={s.key} className={styles.stageCard}>
-            <CardHeader
-              image={
-                !s.unlocked ? (
-                  <LockClosed24Regular />
-                ) : s.done ? (
-                  <CheckmarkCircle24Filled color={tokens.colorPaletteGreenForeground2} />
-                ) : (
-                  <BookOpen24Regular />
-                )
-              }
-              header={
-                <div className={styles.stageRow}>
-                  <Text weight="semibold">{s.label}</Text>
-                  {s.unlocked && (
-                    <Button
-                      appearance="primary"
-                      icon={<PlayCircle24Regular />}
-                      onClick={() => setStage(s.key)}
-                    >
-                      {s.done ? 'Wiederholen' : 'Start'}
-                    </Button>
-                  )}
+        {stages.map((s, i) => (
+          <div key={s.key} className={styles.stageRow}>
+            <div className={styles.stageRail}>
+              <div
+                className={mergeClasses(
+                  styles.stageNode,
+                  s.unlocked && !s.done && styles.stageNodeUnlocked,
+                  s.done && styles.stageNodeDone,
+                )}
+              >
+                {s.done ? <CheckmarkCircle24Filled /> : s.unlocked ? <BookOpen24Filled /> : <LockClosed20Filled />}
+              </div>
+              {i < stages.length - 1 && (
+                <div className={mergeClasses(styles.stageConnector, s.done && styles.stageConnectorDone)} />
+              )}
+            </div>
+
+            <div
+              className={mergeClasses(styles.stageCard, s.unlocked ? styles.stageCardUnlocked : styles.stageCardLocked)}
+              onClick={() => s.unlocked && setStage(s.key)}
+            >
+              <div className={styles.stageTextBlock}>
+                <Text className={styles.stageLabel}>{s.label}</Text>
+                <Text className={styles.stageSub}>
+                  {s.unlocked ? s.sub : 'Schließe die vorherige Stufe ab, um freizuschalten.'}
+                </Text>
+              </div>
+              {s.unlocked && (
+                <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+                  {s.score !== undefined && <Text className={styles.stageScore}>{s.score}%</Text>}
+                  <ChevronRight24Regular />
                 </div>
-              }
-              description={
-                !s.unlocked ? (
-                  <Text style={{ color: tokens.colorNeutralForeground3 }}>
-                    Schließe die vorherige Stufe ab, um freizuschalten.
-                  </Text>
-                ) : undefined
-              }
-            />
-          </Card>
+              )}
+            </div>
+          </div>
         ))}
       </div>
     </div>

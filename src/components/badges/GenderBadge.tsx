@@ -4,11 +4,11 @@ import type { Gender } from '../../types/chapter';
 const useStyles = makeStyles({
   base: {
     display: 'inline-block',
-    ...shorthands.padding('2px', '8px'),
+    ...shorthands.padding('3px', '10px'),
     ...shorthands.borderRadius(tokens.borderRadiusCircular),
-    fontWeight: tokens.fontWeightSemibold,
-    fontSize: tokens.fontSizeBase200,
-    color: tokens.colorNeutralForegroundOnBrand,
+    fontWeight: 700,
+    fontSize: '12px',
+    letterSpacing: '0.02em',
   },
   der: { backgroundColor: tokens.colorPaletteBlueBackground2, color: tokens.colorPaletteBlueForeground2 },
   die: { backgroundColor: tokens.colorPaletteRedBackground2, color: tokens.colorPaletteRedForeground2 },

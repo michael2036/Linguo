@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
-import { webDarkTheme, webLightTheme, type Theme } from '@fluentui/react-components';
+import type { Theme } from '@fluentui/react-components';
 import type { ThemePreference } from '../types/appState';
+import { brandDarkTheme, brandLightTheme } from './brand';
 
 const getSystemPrefersDark = () =>
   window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
@@ -18,5 +19,5 @@ export const useResolvedTheme = (preference: ThemePreference): Theme => {
   }, []);
 
   const isDark = preference === 'dark' || (preference === 'system' && prefersDark);
-  return isDark ? webDarkTheme : webLightTheme;
+  return isDark ? brandDarkTheme : brandLightTheme;
 };

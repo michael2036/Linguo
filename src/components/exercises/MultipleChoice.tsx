@@ -8,9 +8,26 @@ const useStyles = makeStyles({
     gap: tokens.spacingVerticalS,
   },
   option: {
-    minHeight: '44px',
+    minHeight: '48px',
     justifyContent: 'flex-start',
     textAlign: 'left',
+    ...shorthands.borderRadius(tokens.borderRadiusLarge),
+    transitionProperty: 'transform, box-shadow, border-color',
+    transitionDuration: tokens.durationFaster,
+  },
+  optionNumber: {
+    display: 'inline-flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    width: '20px',
+    height: '20px',
+    marginRight: '10px',
+    borderRadius: tokens.borderRadiusCircular,
+    backgroundColor: tokens.colorNeutralBackground3,
+    color: tokens.colorNeutralForeground3,
+    fontSize: '11px',
+    fontWeight: 700,
+    flexShrink: 0,
   },
   correct: {
     ...shorthands.borderColor(tokens.colorPaletteGreenBorder2),
@@ -52,7 +69,9 @@ export const MultipleChoice = ({ options, value, onChange, submitted, solution }
             role="radio"
             aria-checked={isSelected}
           >
-            {index < 4 ? `${index + 1}. ` : ''}
+            <span className={styles.optionNumber} style={isSelected && !submitted ? { backgroundColor: 'rgba(255,255,255,0.25)', color: 'inherit' } : undefined}>
+              {index + 1}
+            </span>
             {option}
           </Button>
         );

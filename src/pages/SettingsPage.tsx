@@ -23,11 +23,17 @@ const useStyles = makeStyles({
     ...shorthands.gap('20px'),
     maxWidth: '480px',
   },
+  title: {
+    fontFamily: 'var(--font-display)',
+    fontWeight: 700,
+  },
   section: {
-    ...shorthands.padding('16px'),
+    ...shorthands.padding('18px'),
     display: 'flex',
     flexDirection: 'column',
     ...shorthands.gap('12px'),
+    ...shorthands.borderRadius(tokens.borderRadiusLarge),
+    boxShadow: tokens.shadow2,
   },
   actionButton: {
     minHeight: '44px',
@@ -58,7 +64,7 @@ export const SettingsPage = () => {
 
   return (
     <div className={styles.wrap}>
-      <Text as="h1" size={700} weight="semibold">
+      <Text as="h1" size={700} className={styles.title}>
         Einstellungen
       </Text>
 
