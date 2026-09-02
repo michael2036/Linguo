@@ -12,6 +12,11 @@ dist
 dist-ssr
 *.local
 
+# Content-authoring pipeline input (source workbook PDFs — copyrighted,
+# never committed; see .agents/input/README.md)
+.agents/input/*
+!.agents/input/README.md
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

@@ -40,17 +40,11 @@ const useStyles = makeStyles({
     ...shorthands.gap('10px'),
   },
   logoMark: {
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
+    display: 'block',
     width: '32px',
     height: '32px',
     borderRadius: tokens.borderRadiusMedium,
-    backgroundImage: `linear-gradient(135deg, ${tokens.colorBrandBackground}, ${tokens.colorBrandBackground2})`,
-    color: tokens.colorNeutralForegroundOnBrand,
-    fontFamily: 'var(--font-display)',
-    fontWeight: 700,
-    fontSize: '15px',
+    objectFit: 'cover',
     flexShrink: 0,
   },
   wordmark: {
@@ -140,7 +134,7 @@ export const AppShell = ({ children }: AppShellProps) => {
     <div className={styles.root}>
       <header className={styles.header}>
         <div className={styles.brand}>
-          <span className={styles.logoMark}>L</span>
+          <img className={styles.logoMark} src={`${import.meta.env.BASE_URL}icons/icon-192.png`} alt="" />
           <Text className={styles.wordmark} size={500}>
             Linguo
           </Text>

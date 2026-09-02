@@ -14,9 +14,12 @@ anything is committed — there is no server-side agent in the shipped product.
 
 ## 0. Prerequisites
 
-- The answer key (*Lösungsschlüssel*) pages for the chapter, as extracted
-  text (OCR/PDF-to-text is fine — Agent 1 only needs the text, not the
-  layout).
+- The answer key (*Lösungsschlüssel*) pages for the chapter — drop the PDF
+  (or its extracted text) into [`.agents/input/`](input) named after the
+  chapter, e.g. `.agents/input/deutsch-a1-ch02.pdf`. See
+  [`.agents/input/README.md`](input/README.md) — that folder is gitignored
+  on purpose, since the source material is copyrighted and only ever used as
+  ephemeral input.
 - Chapter metadata decided up front: `book`, `chapterNumber`, `title`,
   `targetLevel` (A1–C1), and a short list of `grammarFocus` points for the
   chapter.
