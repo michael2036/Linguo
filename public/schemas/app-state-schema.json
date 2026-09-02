@@ -1,0 +1,62 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AppState",
+  "type": "object",
+  "required": ["version", "updatedAt", "preferences", "vocabularyProgress", "chapterProgress"],
+  "properties": {
+    "version": { "type": "integer", "enum": [1] },
+    "updatedAt": { "type": "string", "format": "date-time" },
+    "preferences": {
+      "type": "object",
+      "required": ["theme", "targetLanguage", "nativeLanguage"],
+      "properties": {
+        "theme": { "enum": ["system", "light", "dark"] },
+        "targetLanguage": { "type": "string", "enum": ["de"] },
+        "nativeLanguage": { "type": "string", "enum": ["es", "en"] }
+      }
+    },
+    "vocabularyProgress": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["repetitions", "lastReviewed", "mastered"],
+        "properties": {
+          "repetitions": { "type": "integer", "minimum": 0 },
+          "lastReviewed": { "type": "string", "format": "date-time" },
+          "mastered": { "type": "boolean" }
+        }
+      }
+    },
+    "chapterProgress": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["vocabCompleted", "status", "levels"],
+        "properties": {
+          "vocabCompleted": { "type": "boolean" },
+          "status": { "enum": ["red", "yellow", "green"] },
+          "levels": {
+            "type": "object",
+            "required": ["easy", "medium", "hard"],
+            "properties": {
+              "easy": { "$ref": "#/definitions/tierScore" },
+              "medium": { "$ref": "#/definitions/tierScore" },
+              "hard": { "$ref": "#/definitions/tierScore" }
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "tierScore": {
+      "type": "object",
+      "required": ["completed", "score", "attempts"],
+      "properties": {
+        "completed": { "type": "boolean" },
+        "score": { "type": "number", "minimum": 0, "maximum": 100 },
+        "attempts": { "type": "integer", "minimum": 0 }
+      }
+    }
+  }
+}
