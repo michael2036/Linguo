@@ -1,0 +1,244 @@
+{
+  "modulId": "b1-m7",
+  "level": "B1",
+  "modulNumber": 7,
+  "title": "Behörden, Verzicht und Regeln",
+  "lektionen": [
+    {
+      "lektionId": "b1-m7-l19",
+      "level": "B1",
+      "modulNumber": 7,
+      "lektionNumber": 19,
+      "title": "Beim Amt",
+      "grammarFocus": [
+        "Behörden-Vokabular",
+        "Passiv Präteritum und Perfekt"
+      ],
+      "vocabulary": [
+        { "id": "l19v01", "term": "das Amt", "translation": "la oficina / autoridad", "partOfSpeech": "noun", "gender": "das", "plural": "die Ämter", "example": "Ich war beim Amt." },
+        { "id": "l19v02", "term": "die Behörde", "translation": "la autoridad", "partOfSpeech": "noun", "gender": "die", "plural": "die Behörden", "example": "Die Behörde hat das Formular geprüft." },
+        { "id": "l19v03", "term": "das Formular", "translation": "el formulario", "partOfSpeech": "noun", "gender": "das", "plural": "die Formulare", "example": "Ich habe ein Formular ausgefüllt." },
+        { "id": "l19v04", "term": "ausfüllen", "translation": "rellenar", "partOfSpeech": "verb", "example": "Ich habe das Formular ausgefüllt." },
+        { "id": "l19v05", "term": "beantragen", "translation": "solicitar", "partOfSpeech": "verb", "example": "Ich habe einen Ausweis beantragt." },
+        { "id": "l19v06", "term": "der Ausweis", "translation": "el documento de identidad", "partOfSpeech": "noun", "gender": "der", "plural": "die Ausweise", "example": "Ich habe einen neuen Ausweis beantragt." },
+        { "id": "l19v07", "term": "die Anmeldung", "translation": "el empadronamiento", "partOfSpeech": "noun", "gender": "die", "plural": "die Anmeldungen", "example": "Die Anmeldung wurde bearbeitet." },
+        { "id": "l19v08", "term": "bearbeiten", "translation": "tramitar", "partOfSpeech": "verb", "example": "Der Antrag wurde bearbeitet." },
+        { "id": "l19v09", "term": "der Antrag", "translation": "la solicitud", "partOfSpeech": "noun", "gender": "der", "plural": "die Anträge", "example": "Ich habe einen Antrag gestellt." },
+        { "id": "l19v10", "term": "genehmigen", "translation": "aprobar", "partOfSpeech": "verb", "example": "Der Antrag wurde genehmigt." },
+        { "id": "l19v11", "term": "ablehnen", "translation": "rechazar", "partOfSpeech": "verb", "example": "Der Antrag wurde abgelehnt." },
+        { "id": "l19v12", "term": "die Frist", "translation": "el plazo", "partOfSpeech": "noun", "gender": "die", "plural": "die Fristen", "example": "Die Frist wurde verlängert." },
+        { "id": "l19v13", "term": "verlängern", "translation": "prolongar", "partOfSpeech": "verb", "example": "Die Frist wurde verlängert." },
+        { "id": "l19v14", "term": "die Unterlage", "translation": "el documento", "partOfSpeech": "noun", "gender": "die", "plural": "die Unterlagen", "example": "Die Unterlagen wurden geprüft." },
+        { "id": "l19v15", "term": "prüfen", "translation": "revisar", "partOfSpeech": "verb", "example": "Die Unterlagen wurden geprüft." },
+        { "id": "l19v16", "term": "der Sachbearbeiter", "translation": "el funcionario encargado", "partOfSpeech": "noun", "gender": "der", "plural": "die Sachbearbeiter", "example": "Der Sachbearbeiter hat den Antrag bearbeitet." }
+      ],
+      "practice": {
+        "easy": [
+          { "id": "l19e01", "type": "multiple-choice", "instruction": "Wähle die richtige Passivform.", "prompt": "Das Formular ___ ausgefüllt.", "options": ["wurde", "wurden", "wird", "ist"], "solution": "wurde", "hint": "Präteritum Passiv, Singular.", "explanation": "Passiv Präteritum Singular: 'wurde' + Partizip II." },
+          { "id": "l19e02", "type": "multiple-choice", "instruction": "Wähle die richtige Passivform.", "prompt": "Der Antrag ___ genehmigt.", "options": ["wurde", "wurden", "wird", "ist"], "solution": "wurde", "hint": "Präteritum Passiv, Singular.", "explanation": "Passiv Präteritum Singular: 'wurde' + Partizip II." },
+          { "id": "l19e03", "type": "multiple-choice", "instruction": "Wähle die richtige Passivform.", "prompt": "Die Unterlagen ___ geprüft.", "options": ["wurden", "wurde", "wird", "sind"], "solution": "wurden", "hint": "Präteritum Passiv, Plural.", "explanation": "Passiv Präteritum Plural: 'wurden' + Partizip II." },
+          { "id": "l19e04", "type": "multiple-choice", "instruction": "Wähle das richtige Partizip II.", "prompt": "Ich habe einen Ausweis ___. (beantragen)", "options": ["beantragt", "beantragte", "beantrage", "beantragen"], "solution": "beantragt", "hint": "Regelmäßiges Verb.", "explanation": "Das Partizip II von 'beantragen' lautet 'beantragt'." },
+          { "id": "l19e05", "type": "multiple-choice", "instruction": "Wähle das richtige Partizip II.", "prompt": "Ich habe ein Formular ___. (ausfüllen)", "options": ["ausgefüllt", "ausfüllte", "ausfülle", "ausfüllen"], "solution": "ausgefüllt", "hint": "Trennbares Verb.", "explanation": "Das Partizip II von 'ausfüllen' lautet 'ausgefüllt'." },
+          { "id": "l19e06", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Antrag", "options": ["der", "die", "das"], "solution": "der", "hint": "'Antrag' ist maskulin.", "explanation": "'Antrag' ist maskulin: der Antrag." },
+          { "id": "l19e07", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Frist", "options": ["der", "die", "das"], "solution": "die", "hint": "'Frist' ist feminin.", "explanation": "'Frist' ist feminin: die Frist." },
+          { "id": "l19e08", "type": "fill-in-blank", "instruction": "Ergänze das Partizip II.", "prompt": "Die Frist wurde ___. (verlängern)", "solution": "verlängert", "hint": "Regelmäßiges Verb.", "explanation": "Das Partizip II von 'verlängern' lautet 'verlängert'." },
+          { "id": "l19e09", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Der ___ hat den Antrag bearbeitet. (Sachbearbeiter)", "solution": "Sachbearbeiter", "hint": "Ein Substantiv.", "explanation": "'Sachbearbeiter' ist das gesuchte Substantiv." },
+          { "id": "l19e10", "type": "multiple-choice", "instruction": "Wähle das richtige Partizip II.", "prompt": "Der Antrag wurde ___. (ablehnen)", "options": ["abgelehnt", "ablehnte", "lehnte ab", "ablehnen"], "solution": "abgelehnt", "hint": "Trennbares Verb.", "explanation": "Das Partizip II von 'ablehnen' lautet 'abgelehnt'." }
+        ],
+        "medium": [
+          { "id": "l19m01", "type": "sentence-scramble", "instruction": "Bilde einen Satz im Passiv.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Das", "Formular", "wurde", "ausgefüllt"], "solution": "Das Formular wurde ausgefüllt.", "hint": "Passiv Präteritum.", "explanation": "Das Passiv Präteritum bildet man mit 'wurde' + Partizip II." },
+          { "id": "l19m02", "type": "sentence-scramble", "instruction": "Bilde einen Satz im Passiv.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Der", "Antrag", "wurde", "genehmigt"], "solution": "Der Antrag wurde genehmigt.", "hint": "Passiv Präteritum.", "explanation": "Das Passiv Präteritum bildet man mit 'wurde' + Partizip II." },
+          { "id": "l19m03", "type": "sentence-scramble", "instruction": "Bilde einen Satz im Passiv.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Die", "Unterlagen", "wurden", "geprüft"], "solution": "Die Unterlagen wurden geprüft.", "hint": "Passiv Präteritum, Plural.", "explanation": "Das Passiv Präteritum Plural bildet man mit 'wurden' + Partizip II." },
+          { "id": "l19m04", "type": "sentence-scramble", "instruction": "Bilde einen Satz im Passiv Perfekt.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Der", "Antrag", "ist", "bearbeitet", "worden"], "solution": "Der Antrag ist bearbeitet worden.", "hint": "Perfekt Passiv mit 'sein' + Partizip II + 'worden'.", "explanation": "Das Perfekt Passiv bildet man mit 'sein' + Partizip II + 'worden'." },
+          { "id": "l19m05", "type": "sentence-scramble", "instruction": "Bilde einen Satz im Passiv.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Die", "Frist", "wurde", "verlängert"], "solution": "Die Frist wurde verlängert.", "hint": "Passiv Präteritum.", "explanation": "Das Passiv Präteritum bildet man mit 'wurde' + Partizip II." },
+          { "id": "l19m06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "habe", "einen", "Ausweis", "beantragt"], "solution": "Ich habe einen Ausweis beantragt.", "hint": "Partizip II am Satzende.", "explanation": "Im Perfekt steht das Partizip II am Satzende." },
+          { "id": "l19m07", "type": "cloze-conjugation", "instruction": "Ergänze das Passiv Präteritum.", "prompt": "Der Antrag ___ (werden) abgelehnt.", "solution": "wurde", "hint": "Singular.", "explanation": "Passiv Präteritum Singular: 'wurde'." },
+          { "id": "l19m08", "type": "cloze-conjugation", "instruction": "Ergänze das Passiv Präteritum.", "prompt": "Die Anmeldung ___ (werden) bearbeitet.", "solution": "wurde", "hint": "Singular.", "explanation": "Passiv Präteritum Singular: 'wurde'." },
+          { "id": "l19m09", "type": "cloze-conjugation", "instruction": "Ergänze das Passiv Präteritum.", "prompt": "Die Formulare ___ (werden) geprüft.", "solution": "wurden", "hint": "Plural.", "explanation": "Passiv Präteritum Plural: 'wurden'." },
+          { "id": "l19m10", "type": "cloze-conjugation", "instruction": "Ergänze das Partizip II für das Perfekt Passiv.", "prompt": "Der Ausweis ist ___ (genehmigen) worden.", "solution": "genehmigt", "hint": "Regelmäßiges Verb.", "explanation": "Das Partizip II von 'genehmigen' lautet 'genehmigt'." }
+        ],
+        "hard": [
+          { "id": "l19h01", "type": "targeted-transformation", "instruction": "Bilde das Passiv Präteritum.", "prompt": "Der Sachbearbeiter füllte das Formular aus.", "solution": "Das Formular wurde ausgefüllt.", "hint": "'wurde' + Partizip II.", "explanation": "Das Passiv Präteritum bildet man mit 'wurde' + Partizip II." },
+          { "id": "l19h02", "type": "targeted-transformation", "instruction": "Bilde das Passiv Präteritum.", "prompt": "Der Sachbearbeiter genehmigte den Antrag.", "solution": "Der Antrag wurde genehmigt.", "hint": "'wurde' + Partizip II.", "explanation": "Das Passiv Präteritum bildet man mit 'wurde' + Partizip II." },
+          { "id": "l19h03", "type": "targeted-transformation", "instruction": "Bilde das Passiv Perfekt.", "prompt": "Der Sachbearbeiter hat den Antrag bearbeitet.", "solution": "Der Antrag ist bearbeitet worden.", "hint": "'sein' + Partizip II + 'worden'.", "explanation": "Das Perfekt Passiv bildet man mit 'sein' + Partizip II + 'worden'." },
+          { "id": "l19h04", "type": "targeted-transformation", "instruction": "Sage, dass die Frist verlängert wurde.", "prompt": "die Frist / verlängern (Passiv Präteritum)", "solution": "Die Frist wurde verlängert.", "hint": "'wurde' + Partizip II.", "explanation": "Das Passiv Präteritum bildet man mit 'wurde' + Partizip II." },
+          { "id": "l19h05", "type": "targeted-transformation", "instruction": "Sage, dass du einen Ausweis beantragt hast.", "prompt": "einen Ausweis / beantragen", "solution": "Ich habe einen Ausweis beantragt.", "hint": "Partizip II am Satzende.", "explanation": "Im Perfekt steht das Partizip II am Satzende." },
+          { "id": "l19h06", "type": "targeted-transformation", "instruction": "Sage, dass die Unterlagen geprüft wurden.", "prompt": "die Unterlagen / prüfen (Passiv Präteritum)", "solution": "Die Unterlagen wurden geprüft.", "hint": "'wurden' + Partizip II, Plural.", "explanation": "Das Passiv Präteritum Plural bildet man mit 'wurden' + Partizip II." },
+          { "id": "l19h07", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Das Formular wurde ausfüllen.", "solution": "Das Formular wurde ausgefüllt.", "hint": "Partizip II statt Infinitiv.", "explanation": "Im Passiv steht nach 'wurde' das Partizip II, nicht der Infinitiv." },
+          { "id": "l19h08", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Der Antrag wurde genehmigen.", "solution": "Der Antrag wurde genehmigt.", "hint": "Partizip II statt Infinitiv.", "explanation": "Im Passiv steht nach 'wurde' das Partizip II, nicht der Infinitiv." },
+          { "id": "l19h09", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Die Unterlagen wurde geprüft.", "solution": "Die Unterlagen wurden geprüft.", "hint": "Plural braucht 'wurden'.", "explanation": "Bei Pluralsubjekten steht 'wurden', nicht 'wurde'." },
+          { "id": "l19h10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Der Antrag hat bearbeitet worden.", "solution": "Der Antrag ist bearbeitet worden.", "hint": "Perfekt Passiv braucht 'sein'.", "explanation": "Das Perfekt Passiv bildet man mit 'sein', nicht mit 'haben'." }
+        ]
+      },
+      "test": [
+        { "id": "l19t01", "type": "multiple-choice", "instruction": "Wähle die richtige Passivform.", "prompt": "Das Formular ___ ausgefüllt.", "options": ["wurde", "wurden", "wird", "ist"], "solution": "wurde", "explanation": "Passiv Präteritum Singular: 'wurde' + Partizip II." },
+        { "id": "l19t02", "type": "multiple-choice", "instruction": "Wähle die richtige Passivform.", "prompt": "Die Unterlagen ___ geprüft.", "options": ["wurden", "wurde", "wird", "sind"], "solution": "wurden", "explanation": "Passiv Präteritum Plural: 'wurden' + Partizip II." },
+        { "id": "l19t03", "type": "fill-in-blank", "instruction": "Ergänze das Partizip II.", "prompt": "Die Frist wurde ___. (verlängern)", "solution": "verlängert", "explanation": "Das Partizip II von 'verlängern' lautet 'verlängert'." },
+        { "id": "l19t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Antrag", "options": ["der", "die", "das"], "solution": "der", "explanation": "'Antrag' ist maskulin: der Antrag." },
+        { "id": "l19t05", "type": "multiple-choice", "instruction": "Wähle das richtige Partizip II.", "prompt": "Ich habe einen Ausweis ___. (beantragen)", "options": ["beantragt", "beantragte", "beantrage", "beantragen"], "solution": "beantragt", "explanation": "Das Partizip II von 'beantragen' lautet 'beantragt'." },
+        { "id": "l19t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz im Passiv.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Der", "Antrag", "wurde", "genehmigt"], "solution": "Der Antrag wurde genehmigt.", "explanation": "Das Passiv Präteritum bildet man mit 'wurde' + Partizip II." },
+        { "id": "l19t07", "type": "cloze-conjugation", "instruction": "Ergänze das Passiv Präteritum.", "prompt": "Die Formulare ___ (werden) geprüft.", "solution": "wurden", "explanation": "Passiv Präteritum Plural: 'wurden'." },
+        { "id": "l19t08", "type": "targeted-transformation", "instruction": "Bilde das Passiv Perfekt.", "prompt": "Der Sachbearbeiter hat den Antrag bearbeitet.", "solution": "Der Antrag ist bearbeitet worden.", "explanation": "Das Perfekt Passiv bildet man mit 'sein' + Partizip II + 'worden'." },
+        { "id": "l19t09", "type": "targeted-transformation", "instruction": "Sage, dass die Unterlagen geprüft wurden.", "prompt": "die Unterlagen / prüfen (Passiv Präteritum)", "solution": "Die Unterlagen wurden geprüft.", "explanation": "Das Passiv Präteritum Plural bildet man mit 'wurden' + Partizip II." },
+        { "id": "l19t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Die Unterlagen wurde geprüft.", "solution": "Die Unterlagen wurden geprüft.", "explanation": "Bei Pluralsubjekten steht 'wurden', nicht 'wurde'." }
+      ]
+    },
+    {
+      "lektionId": "b1-m7-l20",
+      "level": "B1",
+      "modulNumber": 7,
+      "lektionNumber": 20,
+      "title": "Verzicht und Alternativen",
+      "grammarFocus": [
+        "'ohne dass' / 'ohne ... zu'",
+        "'statt dass' / 'statt ... zu'"
+      ],
+      "vocabulary": [
+        { "id": "l20v01", "term": "ohne dass", "translation": "sin que", "partOfSpeech": "phrase", "example": "Er ging, ohne dass er sich verabschiedete." },
+        { "id": "l20v02", "term": "ohne ... zu", "translation": "sin (hacer algo)", "partOfSpeech": "phrase", "example": "Er ging, ohne sich zu verabschieden." },
+        { "id": "l20v03", "term": "statt dass", "translation": "en lugar de que", "partOfSpeech": "phrase", "example": "Statt dass er anruft, schreibt er eine SMS." },
+        { "id": "l20v04", "term": "statt ... zu", "translation": "en lugar de", "partOfSpeech": "phrase", "example": "Er schreibt eine SMS, statt anzurufen." },
+        { "id": "l20v05", "term": "sich verabschieden", "translation": "despedirse", "partOfSpeech": "verb", "example": "Er verabschiedet sich." },
+        { "id": "l20v06", "term": "der Verzicht", "translation": "la renuncia", "partOfSpeech": "noun", "gender": "der", "example": "Der Verzicht fällt ihm schwer." },
+        { "id": "l20v07", "term": "verzichten", "translation": "renunciar (a)", "partOfSpeech": "verb", "example": "Ich verzichte auf Fleisch." },
+        { "id": "l20v08", "term": "die Alternative", "translation": "la alternativa", "partOfSpeech": "noun", "gender": "die", "plural": "die Alternativen", "example": "Gibt es eine Alternative?" },
+        { "id": "l20v09", "term": "bewusst", "translation": "consciente", "partOfSpeech": "adjective", "example": "Er lebt bewusst." },
+        { "id": "l20v10", "term": "der Konsum", "translation": "el consumo", "partOfSpeech": "noun", "gender": "der", "example": "Der Konsum ist gestiegen." },
+        { "id": "l20v11", "term": "reduzieren", "translation": "reducir", "partOfSpeech": "verb", "example": "Ich reduziere meinen Konsum." },
+        { "id": "l20v12", "term": "die Gewohnheit", "translation": "el hábito", "partOfSpeech": "noun", "gender": "die", "plural": "die Gewohnheiten", "example": "Das ist eine schlechte Gewohnheit." },
+        { "id": "l20v13", "term": "ersetzen", "translation": "reemplazar", "partOfSpeech": "verb", "example": "Ich ersetze Fleisch durch Gemüse." },
+        { "id": "l20v14", "term": "der Ersatz", "translation": "el sustituto", "partOfSpeech": "noun", "gender": "der", "example": "Es gibt keinen Ersatz." },
+        { "id": "l20v15", "term": "auffallen", "translation": "notarse", "partOfSpeech": "verb", "example": "Es fällt niemandem auf." },
+        { "id": "l20v16", "term": "sich gewöhnen", "translation": "acostumbrarse (a)", "partOfSpeech": "verb", "example": "Ich gewöhne mich an den Verzicht." }
+      ],
+      "practice": {
+        "easy": [
+          { "id": "l20e01", "type": "multiple-choice", "instruction": "Wähle den richtigen Konnektor.", "prompt": "Er ging, ___ er sich verabschiedete.", "options": ["ohne dass", "damit", "weil", "obwohl"], "solution": "ohne dass", "hint": "Verneinung eines erwarteten Ereignisses.", "explanation": "'ohne dass' zeigt an, dass etwas Erwartetes nicht passiert ist." },
+          { "id": "l20e02", "type": "multiple-choice", "instruction": "Wähle das richtige Wort.", "prompt": "Er schreibt eine SMS, ___ anzurufen.", "options": ["statt", "ohne dass", "damit", "weil"], "solution": "statt", "hint": "Anstelle von etwas.", "explanation": "'statt ... zu' drückt eine Alternative aus." },
+          { "id": "l20e03", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Ich ___ auf Fleisch. (verzichten)", "options": ["verzichte", "verzichtest", "verzichtet", "verzichten"], "solution": "verzichte", "hint": "'ich'-Form.", "explanation": "Die 'ich'-Form von 'verzichten' lautet 'verzichte'." },
+          { "id": "l20e04", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Gibt es eine ___?", "options": ["Alternative", "Gewohnheit", "Ersatz", "Konsum"], "solution": "Alternative", "hint": "Eine andere Möglichkeit.", "explanation": "'Alternative' bezeichnet eine andere Möglichkeit." },
+          { "id": "l20e05", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Ich ___ meinen Konsum. (reduzieren)", "options": ["reduziere", "reduzierst", "reduziert", "reduzieren"], "solution": "reduziere", "hint": "'ich'-Form.", "explanation": "Die 'ich'-Form von 'reduzieren' lautet 'reduziere'." },
+          { "id": "l20e06", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Gewohnheit", "options": ["der", "die", "das"], "solution": "die", "hint": "'Gewohnheit' ist feminin.", "explanation": "'Gewohnheit' ist feminin: die Gewohnheit." },
+          { "id": "l20e07", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Konsum", "options": ["der", "die", "das"], "solution": "der", "hint": "'Konsum' ist maskulin.", "explanation": "'Konsum' ist maskulin: der Konsum." },
+          { "id": "l20e08", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Ich ersetze Fleisch durch Gemüse. Es gibt keinen ___. (Ersatz)", "solution": "Ersatz", "hint": "Ein Substantiv.", "explanation": "'Ersatz' ist das gesuchte Substantiv." },
+          { "id": "l20e09", "type": "fill-in-blank", "instruction": "Ergänze das Partikel.", "prompt": "Es fällt niemandem ___. (auffallen)", "solution": "auf", "hint": "Trennbares Verb.", "explanation": "'auffallen' ist trennbar: es fällt ... auf." },
+          { "id": "l20e10", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Ich ___ mich an den Verzicht. (gewöhnen)", "options": ["gewöhne", "gewöhnst", "gewöhnt", "gewöhnen"], "solution": "gewöhne", "hint": "'ich'-Form.", "explanation": "Die 'ich'-Form von 'sich gewöhnen' lautet 'gewöhne mich'." }
+        ],
+        "medium": [
+          { "id": "l20m01", "type": "sentence-scramble", "instruction": "Bilde einen Satz mit 'ohne dass'.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Er", "ging,", "ohne", "dass", "er", "sich", "verabschiedete"], "solution": "Er ging, ohne dass er sich verabschiedete.", "hint": "Verb am Ende des ohne dass-Satzes.", "explanation": "Im 'ohne dass'-Satz steht das konjugierte Verb am Ende." },
+          { "id": "l20m02", "type": "sentence-scramble", "instruction": "Bilde einen Satz mit 'ohne ... zu'.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Er", "ging,", "ohne", "sich", "zu", "verabschieden"], "solution": "Er ging, ohne sich zu verabschieden.", "hint": "'zu' + Infinitiv am Ende.", "explanation": "Bei gleichem Subjekt verwendet man 'ohne ... zu' + Infinitiv." },
+          { "id": "l20m03", "type": "sentence-scramble", "instruction": "Bilde einen Satz mit 'statt ... zu'.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Er", "schreibt", "eine", "SMS,", "statt", "anzurufen"], "solution": "Er schreibt eine SMS, statt anzurufen.", "hint": "'zu' verschmilzt mit trennbarem Verb.", "explanation": "Bei trennbaren Verben verschmilzt 'zu' mit dem Präfix: anzurufen." },
+          { "id": "l20m04", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "verzichte", "auf", "Fleisch"], "solution": "Ich verzichte auf Fleisch.", "hint": "Verb an Position 2.", "explanation": "Das konjugierte Verb steht an Position 2." },
+          { "id": "l20m05", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "reduziere", "meinen", "Konsum"], "solution": "Ich reduziere meinen Konsum.", "hint": "Verb an Position 2.", "explanation": "Das konjugierte Verb steht an Position 2." },
+          { "id": "l20m06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "gewöhne", "mich", "an", "den", "Verzicht"], "solution": "Ich gewöhne mich an den Verzicht.", "hint": "Reflexivpronomen nach dem Verb.", "explanation": "Das Reflexivpronomen 'mich' steht direkt nach dem konjugierten Verb." },
+          { "id": "l20m07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Statt dass er ___ (anrufen), schreibt er eine SMS.", "solution": "anruft", "hint": "3. Person Singular.", "explanation": "Die 'er'-Form von 'anrufen' lautet 'ruft ... an'." },
+          { "id": "l20m08", "type": "cloze-conjugation", "instruction": "Ergänze den Infinitiv.", "prompt": "Er ging, ohne sich zu ___ (verabschieden).", "solution": "verabschieden", "hint": "Infinitiv nach 'zu'.", "explanation": "Nach 'ohne ... zu' steht der reine Infinitiv." },
+          { "id": "l20m09", "type": "cloze-conjugation", "instruction": "Ergänze den Infinitiv.", "prompt": "Ich ersetze Fleisch durch Gemüse, statt Fleisch zu ___ (essen).", "solution": "essen", "hint": "Infinitiv nach 'zu'.", "explanation": "Nach 'statt ... zu' steht der reine Infinitiv." },
+          { "id": "l20m10", "type": "cloze-conjugation", "instruction": "Ergänze das Adjektiv.", "prompt": "Er lebt ___ (bewusst) und reduziert seinen Konsum.", "solution": "bewusst", "hint": "Unverändertes Adverb.", "explanation": "'bewusst' bleibt hier als Adverb unverändert." }
+        ],
+        "hard": [
+          { "id": "l20h01", "type": "targeted-transformation", "instruction": "Verbinde mit 'ohne dass'.", "prompt": "Er ging. Er verabschiedete sich nicht.", "solution": "Er ging, ohne dass er sich verabschiedete.", "hint": "Verb am Ende.", "explanation": "Im 'ohne dass'-Satz steht das konjugierte Verb am Ende." },
+          { "id": "l20h02", "type": "targeted-transformation", "instruction": "Verbinde mit 'ohne ... zu' (gleiches Subjekt).", "prompt": "Er ging. Er verabschiedete sich nicht.", "solution": "Er ging, ohne sich zu verabschieden.", "hint": "'zu' + Infinitiv am Ende.", "explanation": "Bei gleichem Subjekt verwendet man 'ohne ... zu' + Infinitiv." },
+          { "id": "l20h03", "type": "targeted-transformation", "instruction": "Verbinde mit 'statt ... zu' (gleiches Subjekt).", "prompt": "Er schreibt eine SMS. Er ruft nicht an.", "solution": "Er schreibt eine SMS, statt anzurufen.", "hint": "'zu' verschmilzt mit trennbarem Verb.", "explanation": "Bei trennbaren Verben verschmilzt 'zu' mit dem Präfix." },
+          { "id": "l20h04", "type": "targeted-transformation", "instruction": "Sage, dass du auf Fleisch verzichtest.", "prompt": "auf Fleisch / verzichten", "solution": "Ich verzichte auf Fleisch.", "hint": "Verb an Position 2.", "explanation": "Das konjugierte Verb steht an Position 2." },
+          { "id": "l20h05", "type": "targeted-transformation", "instruction": "Sage, dass du deinen Konsum reduzierst.", "prompt": "meinen Konsum / reduzieren", "solution": "Ich reduziere meinen Konsum.", "hint": "Verb an Position 2.", "explanation": "Das konjugierte Verb steht an Position 2." },
+          { "id": "l20h06", "type": "targeted-transformation", "instruction": "Sage, dass du dich an den Verzicht gewöhnst.", "prompt": "an den Verzicht / sich gewöhnen", "solution": "Ich gewöhne mich an den Verzicht.", "hint": "Reflexivpronomen nach dem Verb.", "explanation": "Das Reflexivpronomen 'mich' steht direkt nach dem konjugierten Verb." },
+          { "id": "l20h07", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Er ging, ohne er sich verabschiedete.", "solution": "Er ging, ohne dass er sich verabschiedete.", "hint": "'ohne dass' braucht 'dass'.", "explanation": "Bei verschiedenen Subjekten braucht man 'ohne dass', nicht nur 'ohne'." },
+          { "id": "l20h08", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Er schreibt eine SMS, statt zu anrufen.", "solution": "Er schreibt eine SMS, statt anzurufen.", "hint": "'zu' verschmilzt mit trennbarem Verb.", "explanation": "Bei trennbaren Verben verschmilzt 'zu' mit dem Präfix: anzurufen." },
+          { "id": "l20h09", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Er ging, ohne sich verabschieden zu.", "solution": "Er ging, ohne sich zu verabschieden.", "hint": "'zu' steht vor dem Infinitiv.", "explanation": "'zu' steht direkt vor dem Infinitiv, nicht danach." },
+          { "id": "l20h10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich verzichte Fleisch.", "solution": "Ich verzichte auf Fleisch.", "hint": "'verzichten' braucht die Präposition 'auf'.", "explanation": "'verzichten' wird mit der Präposition 'auf' verwendet." }
+        ]
+      },
+      "test": [
+        { "id": "l20t01", "type": "multiple-choice", "instruction": "Wähle den richtigen Konnektor.", "prompt": "Er ging, ___ er sich verabschiedete.", "options": ["ohne dass", "damit", "weil", "obwohl"], "solution": "ohne dass", "explanation": "'ohne dass' zeigt an, dass etwas Erwartetes nicht passiert ist." },
+        { "id": "l20t02", "type": "multiple-choice", "instruction": "Wähle das richtige Wort.", "prompt": "Er schreibt eine SMS, ___ anzurufen.", "options": ["statt", "ohne dass", "damit", "weil"], "solution": "statt", "explanation": "'statt ... zu' drückt eine Alternative aus." },
+        { "id": "l20t03", "type": "fill-in-blank", "instruction": "Ergänze das Partikel.", "prompt": "Es fällt niemandem ___. (auffallen)", "solution": "auf", "explanation": "'auffallen' ist trennbar: es fällt ... auf." },
+        { "id": "l20t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Gewohnheit", "options": ["der", "die", "das"], "solution": "die", "explanation": "'Gewohnheit' ist feminin: die Gewohnheit." },
+        { "id": "l20t05", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Ich ___ auf Fleisch. (verzichten)", "options": ["verzichte", "verzichtest", "verzichtet", "verzichten"], "solution": "verzichte", "explanation": "Die 'ich'-Form von 'verzichten' lautet 'verzichte'." },
+        { "id": "l20t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz mit 'statt ... zu'.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Er", "schreibt", "eine", "SMS,", "statt", "anzurufen"], "solution": "Er schreibt eine SMS, statt anzurufen.", "explanation": "Bei trennbaren Verben verschmilzt 'zu' mit dem Präfix: anzurufen." },
+        { "id": "l20t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Statt dass er ___ (anrufen), schreibt er eine SMS.", "solution": "anruft", "explanation": "Die 'er'-Form von 'anrufen' lautet 'ruft ... an'." },
+        { "id": "l20t08", "type": "targeted-transformation", "instruction": "Verbinde mit 'ohne ... zu' (gleiches Subjekt).", "prompt": "Er ging. Er verabschiedete sich nicht.", "solution": "Er ging, ohne sich zu verabschieden.", "explanation": "Bei gleichem Subjekt verwendet man 'ohne ... zu' + Infinitiv." },
+        { "id": "l20t09", "type": "targeted-transformation", "instruction": "Sage, dass du deinen Konsum reduzierst.", "prompt": "meinen Konsum / reduzieren", "solution": "Ich reduziere meinen Konsum.", "explanation": "Das konjugierte Verb steht an Position 2." },
+        { "id": "l20t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Er ging, ohne er sich verabschiedete.", "solution": "Er ging, ohne dass er sich verabschiedete.", "explanation": "Bei verschiedenen Subjekten braucht man 'ohne dass', nicht nur 'ohne'." }
+      ]
+    },
+    {
+      "lektionId": "b1-m7-l21",
+      "level": "B1",
+      "modulNumber": 7,
+      "lektionNumber": 21,
+      "title": "Regeln am Arbeitsplatz",
+      "grammarFocus": [
+        "Passiv mit Modalverben"
+      ],
+      "vocabulary": [
+        { "id": "l21v01", "term": "die Vorschrift", "translation": "la norma", "partOfSpeech": "noun", "gender": "die", "plural": "die Vorschriften", "example": "Die Vorschrift muss beachtet werden." },
+        { "id": "l21v02", "term": "beachten", "translation": "respetar", "partOfSpeech": "verb", "example": "Die Vorschrift muss beachtet werden." },
+        { "id": "l21v03", "term": "die Sicherheit", "translation": "la seguridad", "partOfSpeech": "noun", "gender": "die", "example": "Die Sicherheit muss gewährleistet werden." },
+        { "id": "l21v04", "term": "gewährleisten", "translation": "garantizar", "partOfSpeech": "verb", "example": "Die Sicherheit muss gewährleistet werden." },
+        { "id": "l21v05", "term": "die Schutzkleidung", "translation": "la ropa de protección", "partOfSpeech": "noun", "gender": "die", "example": "Die Schutzkleidung muss getragen werden." },
+        { "id": "l21v06", "term": "tragen", "translation": "llevar", "partOfSpeech": "verb", "example": "Die Schutzkleidung muss getragen werden." },
+        { "id": "l21v07", "term": "der Helm", "translation": "el casco", "partOfSpeech": "noun", "gender": "der", "plural": "die Helme", "example": "Der Helm muss getragen werden." },
+        { "id": "l21v08", "term": "kontrollieren", "translation": "controlar", "partOfSpeech": "verb", "example": "Die Maschine muss kontrolliert werden." },
+        { "id": "l21v09", "term": "die Maschine", "translation": "la máquina", "partOfSpeech": "noun", "gender": "die", "plural": "die Maschinen", "example": "Die Maschine muss kontrolliert werden." },
+        { "id": "l21v10", "term": "reparieren", "translation": "reparar", "partOfSpeech": "verb", "example": "Die Maschine kann repariert werden." },
+        { "id": "l21v11", "term": "melden", "translation": "informar", "partOfSpeech": "verb", "example": "Ein Unfall muss gemeldet werden." },
+        { "id": "l21v12", "term": "der Unfall", "translation": "el accidente", "partOfSpeech": "noun", "gender": "der", "plural": "die Unfälle", "example": "Ein Unfall muss gemeldet werden." },
+        { "id": "l21v13", "term": "dürfen", "translation": "poder / tener permitido", "partOfSpeech": "verb", "example": "Das darf nicht vergessen werden." },
+        { "id": "l21v14", "term": "vergessen", "translation": "olvidar", "partOfSpeech": "verb", "example": "Das darf nicht vergessen werden." },
+        { "id": "l21v15", "term": "erlauben", "translation": "permitir", "partOfSpeech": "verb", "example": "Das ist nicht erlaubt." },
+        { "id": "l21v16", "term": "verbieten", "translation": "prohibir", "partOfSpeech": "verb", "example": "Das Rauchen ist hier verboten." }
+      ],
+      "practice": {
+        "easy": [
+          { "id": "l21e01", "type": "multiple-choice", "instruction": "Wähle das richtige Partizip II.", "prompt": "Die Vorschrift muss ___ werden. (beachten)", "options": ["beachtet", "beachten", "beachtete", "beachte"], "solution": "beachtet", "hint": "Passiv mit Modalverb.", "explanation": "Im Passiv mit Modalverb steht das Partizip II vor 'werden'." },
+          { "id": "l21e02", "type": "multiple-choice", "instruction": "Wähle das richtige Partizip II.", "prompt": "Die Sicherheit muss ___ werden. (gewährleisten)", "options": ["gewährleistet", "gewährleisten", "gewährleistete", "gewährleiste"], "solution": "gewährleistet", "hint": "Passiv mit Modalverb.", "explanation": "Im Passiv mit Modalverb steht das Partizip II vor 'werden'." },
+          { "id": "l21e03", "type": "multiple-choice", "instruction": "Wähle das richtige Partizip II.", "prompt": "Der Helm muss ___ werden. (tragen)", "options": ["getragen", "tragen", "trug", "trägt"], "solution": "getragen", "hint": "Unregelmäßiges Verb.", "explanation": "Das Partizip II von 'tragen' lautet 'getragen'." },
+          { "id": "l21e04", "type": "multiple-choice", "instruction": "Wähle das richtige Partizip II.", "prompt": "Die Maschine muss ___ werden. (kontrollieren)", "options": ["kontrolliert", "kontrollieren", "kontrollierte", "kontrolliere"], "solution": "kontrolliert", "hint": "Regelmäßiges Verb.", "explanation": "Das Partizip II von 'kontrollieren' lautet 'kontrolliert'." },
+          { "id": "l21e05", "type": "multiple-choice", "instruction": "Wähle das richtige Partizip II.", "prompt": "Ein Unfall muss ___ werden. (melden)", "options": ["gemeldet", "melden", "meldete", "melde"], "solution": "gemeldet", "hint": "Regelmäßiges Verb.", "explanation": "Das Partizip II von 'melden' lautet 'gemeldet'." },
+          { "id": "l21e06", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Vorschrift", "options": ["der", "die", "das"], "solution": "die", "hint": "'Vorschrift' ist feminin.", "explanation": "'Vorschrift' ist feminin: die Vorschrift." },
+          { "id": "l21e07", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Unfall", "options": ["der", "die", "das"], "solution": "der", "hint": "'Unfall' ist maskulin.", "explanation": "'Unfall' ist maskulin: der Unfall." },
+          { "id": "l21e08", "type": "fill-in-blank", "instruction": "Ergänze das Partizip II.", "prompt": "Die Maschine kann ___ werden. (reparieren)", "solution": "repariert", "hint": "Regelmäßiges Verb.", "explanation": "Das Partizip II von 'reparieren' lautet 'repariert'." },
+          { "id": "l21e09", "type": "fill-in-blank", "instruction": "Ergänze das Partizip II.", "prompt": "Das Rauchen ist hier ___. (verbieten)", "solution": "verboten", "hint": "Unregelmäßiges Verb.", "explanation": "Das Partizip II von 'verbieten' lautet 'verboten'." },
+          { "id": "l21e10", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Die ___ muss getragen werden.", "options": ["Schutzkleidung", "Vorschrift", "Sicherheit", "Maschine"], "solution": "Schutzkleidung", "hint": "Kleidung zum Schutz.", "explanation": "'Schutzkleidung' bezeichnet Kleidung, die vor Gefahren schützt." }
+        ],
+        "medium": [
+          { "id": "l21m01", "type": "sentence-scramble", "instruction": "Bilde einen Satz im Passiv mit Modalverb.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Die", "Vorschrift", "muss", "beachtet", "werden"], "solution": "Die Vorschrift muss beachtet werden.", "hint": "Partizip II vor 'werden'.", "explanation": "Im Passiv mit Modalverb steht das Partizip II vor 'werden'." },
+          { "id": "l21m02", "type": "sentence-scramble", "instruction": "Bilde einen Satz im Passiv mit Modalverb.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Die", "Sicherheit", "muss", "gewährleistet", "werden"], "solution": "Die Sicherheit muss gewährleistet werden.", "hint": "Partizip II vor 'werden'.", "explanation": "Im Passiv mit Modalverb steht das Partizip II vor 'werden'." },
+          { "id": "l21m03", "type": "sentence-scramble", "instruction": "Bilde einen Satz im Passiv mit Modalverb.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Der", "Helm", "muss", "getragen", "werden"], "solution": "Der Helm muss getragen werden.", "hint": "Partizip II vor 'werden'.", "explanation": "Im Passiv mit Modalverb steht das Partizip II vor 'werden'." },
+          { "id": "l21m04", "type": "sentence-scramble", "instruction": "Bilde einen Satz im Passiv mit Modalverb.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Die", "Maschine", "kann", "repariert", "werden"], "solution": "Die Maschine kann repariert werden.", "hint": "Partizip II vor 'werden'.", "explanation": "Im Passiv mit Modalverb steht das Partizip II vor 'werden'." },
+          { "id": "l21m05", "type": "sentence-scramble", "instruction": "Bilde einen Satz im Passiv mit Modalverb.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ein", "Unfall", "muss", "gemeldet", "werden"], "solution": "Ein Unfall muss gemeldet werden.", "hint": "Partizip II vor 'werden'.", "explanation": "Im Passiv mit Modalverb steht das Partizip II vor 'werden'." },
+          { "id": "l21m06", "type": "sentence-scramble", "instruction": "Bilde einen Satz im Passiv mit Modalverb.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Das", "darf", "nicht", "vergessen", "werden"], "solution": "Das darf nicht vergessen werden.", "hint": "Partizip II vor 'werden'.", "explanation": "Im Passiv mit Modalverb steht das Partizip II vor 'werden'." },
+          { "id": "l21m07", "type": "cloze-conjugation", "instruction": "Ergänze das Partizip II.", "prompt": "Die Schutzkleidung muss ___ (tragen) werden.", "solution": "getragen", "hint": "Unregelmäßiges Verb.", "explanation": "Das Partizip II von 'tragen' lautet 'getragen'." },
+          { "id": "l21m08", "type": "cloze-conjugation", "instruction": "Ergänze das Partizip II.", "prompt": "Die Maschine muss regelmäßig ___ (kontrollieren) werden.", "solution": "kontrolliert", "hint": "Regelmäßiges Verb.", "explanation": "Das Partizip II von 'kontrollieren' lautet 'kontrolliert'." },
+          { "id": "l21m09", "type": "cloze-conjugation", "instruction": "Ergänze das Partizip II.", "prompt": "Ein Unfall muss sofort ___ (melden) werden.", "solution": "gemeldet", "hint": "Regelmäßiges Verb.", "explanation": "Das Partizip II von 'melden' lautet 'gemeldet'." },
+          { "id": "l21m10", "type": "cloze-conjugation", "instruction": "Ergänze das Partizip II.", "prompt": "Die Sicherheit muss ___ (gewährleisten) werden.", "solution": "gewährleistet", "hint": "Regelmäßiges Verb.", "explanation": "Das Partizip II von 'gewährleisten' lautet 'gewährleistet'." }
+        ],
+        "hard": [
+          { "id": "l21h01", "type": "targeted-transformation", "instruction": "Bilde das Passiv mit Modalverb.", "prompt": "Man muss die Vorschrift beachten.", "solution": "Die Vorschrift muss beachtet werden.", "hint": "Partizip II vor 'werden'.", "explanation": "Im Passiv mit Modalverb steht das Partizip II vor 'werden'." },
+          { "id": "l21h02", "type": "targeted-transformation", "instruction": "Bilde das Passiv mit Modalverb.", "prompt": "Man muss den Helm tragen.", "solution": "Der Helm muss getragen werden.", "hint": "Partizip II vor 'werden'.", "explanation": "Im Passiv mit Modalverb steht das Partizip II vor 'werden'." },
+          { "id": "l21h03", "type": "targeted-transformation", "instruction": "Bilde das Passiv mit Modalverb.", "prompt": "Man kann die Maschine reparieren.", "solution": "Die Maschine kann repariert werden.", "hint": "Partizip II vor 'werden'.", "explanation": "Im Passiv mit Modalverb steht das Partizip II vor 'werden'." },
+          { "id": "l21h04", "type": "targeted-transformation", "instruction": "Sage, dass ein Unfall gemeldet werden muss.", "prompt": "ein Unfall / melden / müssen (Passiv)", "solution": "Ein Unfall muss gemeldet werden.", "hint": "Partizip II vor 'werden'.", "explanation": "Im Passiv mit Modalverb steht das Partizip II vor 'werden'." },
+          { "id": "l21h05", "type": "targeted-transformation", "instruction": "Sage, dass die Sicherheit gewährleistet werden muss.", "prompt": "die Sicherheit / gewährleisten / müssen (Passiv)", "solution": "Die Sicherheit muss gewährleistet werden.", "hint": "Partizip II vor 'werden'.", "explanation": "Im Passiv mit Modalverb steht das Partizip II vor 'werden'." },
+          { "id": "l21h06", "type": "targeted-transformation", "instruction": "Sage, dass das nicht vergessen werden darf.", "prompt": "das / vergessen / dürfen (Passiv, verneint)", "solution": "Das darf nicht vergessen werden.", "hint": "Partizip II vor 'werden'.", "explanation": "Im Passiv mit Modalverb steht das Partizip II vor 'werden'." },
+          { "id": "l21h07", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Die Vorschrift muss beachten werden.", "solution": "Die Vorschrift muss beachtet werden.", "hint": "Partizip II statt Infinitiv.", "explanation": "Im Passiv mit Modalverb steht das Partizip II, nicht der Infinitiv." },
+          { "id": "l21h08", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Der Helm muss tragen werden.", "solution": "Der Helm muss getragen werden.", "hint": "Partizip II statt Infinitiv.", "explanation": "Im Passiv mit Modalverb steht das Partizip II, nicht der Infinitiv." },
+          { "id": "l21h09", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Die Maschine kann repariert sein.", "solution": "Die Maschine kann repariert werden.", "hint": "Passiv mit Modalverb braucht 'werden'.", "explanation": "Das Passiv mit Modalverb bildet man mit 'werden', nicht mit 'sein'." },
+          { "id": "l21h10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ein Unfall muss gemeldet.", "solution": "Ein Unfall muss gemeldet werden.", "hint": "'werden' nicht vergessen.", "explanation": "Im Passiv mit Modalverb darf 'werden' am Satzende nicht fehlen." }
+        ]
+      },
+      "test": [
+        { "id": "l21t01", "type": "multiple-choice", "instruction": "Wähle das richtige Partizip II.", "prompt": "Die Vorschrift muss ___ werden. (beachten)", "options": ["beachtet", "beachten", "beachtete", "beachte"], "solution": "beachtet", "explanation": "Im Passiv mit Modalverb steht das Partizip II vor 'werden'." },
+        { "id": "l21t02", "type": "multiple-choice", "instruction": "Wähle das richtige Partizip II.", "prompt": "Der Helm muss ___ werden. (tragen)", "options": ["getragen", "tragen", "trug", "trägt"], "solution": "getragen", "explanation": "Das Partizip II von 'tragen' lautet 'getragen'." },
+        { "id": "l21t03", "type": "fill-in-blank", "instruction": "Ergänze das Partizip II.", "prompt": "Die Maschine kann ___ werden. (reparieren)", "solution": "repariert", "explanation": "Das Partizip II von 'reparieren' lautet 'repariert'." },
+        { "id": "l21t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Unfall", "options": ["der", "die", "das"], "solution": "der", "explanation": "'Unfall' ist maskulin: der Unfall." },
+        { "id": "l21t05", "type": "multiple-choice", "instruction": "Wähle das richtige Partizip II.", "prompt": "Ein Unfall muss ___ werden. (melden)", "options": ["gemeldet", "melden", "meldete", "melde"], "solution": "gemeldet", "explanation": "Das Partizip II von 'melden' lautet 'gemeldet'." },
+        { "id": "l21t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz im Passiv mit Modalverb.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Die", "Sicherheit", "muss", "gewährleistet", "werden"], "solution": "Die Sicherheit muss gewährleistet werden.", "explanation": "Im Passiv mit Modalverb steht das Partizip II vor 'werden'." },
+        { "id": "l21t07", "type": "cloze-conjugation", "instruction": "Ergänze das Partizip II.", "prompt": "Ein Unfall muss sofort ___ (melden) werden.", "solution": "gemeldet", "explanation": "Das Partizip II von 'melden' lautet 'gemeldet'." },
+        { "id": "l21t08", "type": "targeted-transformation", "instruction": "Bilde das Passiv mit Modalverb.", "prompt": "Man muss die Vorschrift beachten.", "solution": "Die Vorschrift muss beachtet werden.", "explanation": "Im Passiv mit Modalverb steht das Partizip II vor 'werden'." },
+        { "id": "l21t09", "type": "targeted-transformation", "instruction": "Sage, dass das nicht vergessen werden darf.", "prompt": "das / vergessen / dürfen (Passiv, verneint)", "solution": "Das darf nicht vergessen werden.", "explanation": "Im Passiv mit Modalverb steht das Partizip II vor 'werden'." },
+        { "id": "l21t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Der Helm muss tragen werden.", "solution": "Der Helm muss getragen werden.", "explanation": "Im Passiv mit Modalverb steht das Partizip II, nicht der Infinitiv." }
+      ]
+    }
+  ]
+}

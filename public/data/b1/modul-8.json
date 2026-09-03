@@ -1,0 +1,243 @@
+{
+  "modulId": "b1-m8",
+  "level": "B1",
+  "modulNumber": 8,
+  "title": "Politik, Rückblicke und Zukunft",
+  "lektionen": [
+    {
+      "lektionId": "b1-m8-l22",
+      "level": "B1",
+      "modulNumber": 8,
+      "lektionNumber": 22,
+      "title": "Ein politisches Leben",
+      "grammarFocus": [
+        "Politik-Vokabular",
+        "Perfekt/Präteritum in der Biografie"
+      ],
+      "vocabulary": [
+        { "id": "l22v01", "term": "die Politik", "translation": "la política", "partOfSpeech": "noun", "gender": "die", "example": "Sie interessiert sich für Politik." },
+        { "id": "l22v02", "term": "die Partei", "translation": "el partido", "partOfSpeech": "noun", "gender": "die", "plural": "die Parteien", "example": "Er trat in eine Partei ein." },
+        { "id": "l22v03", "term": "wählen", "translation": "votar / elegir", "partOfSpeech": "verb", "example": "Die Bürger wählen den Bundestag." },
+        { "id": "l22v04", "term": "die Wahl", "translation": "la elección", "partOfSpeech": "noun", "gender": "die", "plural": "die Wahlen", "example": "Die Wahl fand im September statt." },
+        { "id": "l22v05", "term": "die Regierung", "translation": "el gobierno", "partOfSpeech": "noun", "gender": "die", "plural": "die Regierungen", "example": "Die Regierung hat ein neues Gesetz beschlossen." },
+        { "id": "l22v06", "term": "das Gesetz", "translation": "la ley", "partOfSpeech": "noun", "gender": "das", "plural": "die Gesetze", "example": "Die Regierung hat ein neues Gesetz beschlossen." },
+        { "id": "l22v07", "term": "beschließen", "translation": "decidir / aprobar", "partOfSpeech": "verb", "example": "Die Regierung hat ein neues Gesetz beschlossen." },
+        { "id": "l22v08", "term": "der Bürgermeister", "translation": "el alcalde", "partOfSpeech": "noun", "gender": "der", "plural": "die Bürgermeister", "example": "Sie wurde Bürgermeisterin." },
+        { "id": "l22v09", "term": "kandidieren", "translation": "postularse", "partOfSpeech": "verb", "example": "Er kandidierte für das Amt." },
+        { "id": "l22v10", "term": "die Demonstration", "translation": "la manifestación", "partOfSpeech": "noun", "gender": "die", "plural": "die Demonstrationen", "example": "Sie organisierte eine Demonstration." },
+        { "id": "l22v11", "term": "sich engagieren", "translation": "comprometerse", "partOfSpeech": "verb", "example": "Sie engagierte sich für Umweltschutz." },
+        { "id": "l22v12", "term": "der Umweltschutz", "translation": "la protección del medio ambiente", "partOfSpeech": "noun", "gender": "der", "example": "Sie engagierte sich für Umweltschutz." },
+        { "id": "l22v13", "term": "gründen", "translation": "fundar", "partOfSpeech": "verb", "example": "Er gründete eine Bürgerinitiative." },
+        { "id": "l22v14", "term": "die Bürgerinitiative", "translation": "la iniciativa ciudadana", "partOfSpeech": "noun", "gender": "die", "plural": "die Bürgerinitiativen", "example": "Er gründete eine Bürgerinitiative." },
+        { "id": "l22v15", "term": "die Karriere", "translation": "la carrera", "partOfSpeech": "noun", "gender": "die", "plural": "die Karrieren", "example": "Sie machte eine politische Karriere." },
+        { "id": "l22v16", "term": "geboren", "translation": "nacido", "partOfSpeech": "adjective", "example": "Sie wurde 1975 geboren." }
+      ],
+      "practice": {
+        "easy": [
+          { "id": "l22e01", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Die Bürger ___ den Bundestag.", "options": ["wählen", "wählt", "wähle", "gewählt"], "solution": "wählen", "hint": "Plural, Präsens.", "explanation": "Die Plural-Form von 'wählen' im Präsens lautet 'wählen'." },
+          { "id": "l22e02", "type": "multiple-choice", "instruction": "Wähle das richtige Partizip II.", "prompt": "Die Regierung hat ein neues Gesetz ___. (beschließen)", "options": ["beschlossen", "beschließte", "beschließt", "beschließen"], "solution": "beschlossen", "hint": "Unregelmäßiges Verb.", "explanation": "Das Partizip II von 'beschließen' lautet 'beschlossen'." },
+          { "id": "l22e03", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Sie ___ sich für Umweltschutz. (engagieren, Präteritum)", "options": ["engagierte", "engagiert", "engagiere", "engagierten"], "solution": "engagierte", "hint": "3. Person Singular Präteritum.", "explanation": "Die 'sie'-Form (Singular) von 'engagieren' im Präteritum lautet 'engagierte'." },
+          { "id": "l22e04", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Er ___ für das Amt. (kandidieren, Präteritum)", "options": ["kandidierte", "kandidiert", "kandidiere", "kandidierten"], "solution": "kandidierte", "hint": "3. Person Singular Präteritum.", "explanation": "Die 'er'-Form von 'kandidieren' im Präteritum lautet 'kandidierte'." },
+          { "id": "l22e05", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Sie ___ 1975 geboren.", "options": ["wurde", "wurden", "wird", "ist"], "solution": "wurde", "hint": "Präteritum Passiv, Singular.", "explanation": "Passiv Präteritum Singular: 'wurde' + Partizip II." },
+          { "id": "l22e06", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Wahl", "options": ["der", "die", "das"], "solution": "die", "hint": "'Wahl' ist feminin.", "explanation": "'Wahl' ist feminin: die Wahl." },
+          { "id": "l22e07", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Gesetz", "options": ["der", "die", "das"], "solution": "das", "hint": "'Gesetz' ist neutral.", "explanation": "'Gesetz' ist neutral: das Gesetz." },
+          { "id": "l22e08", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Er gründete eine ___. (Bürgerinitiative)", "solution": "Bürgerinitiative", "hint": "Ein Substantiv.", "explanation": "'Bürgerinitiative' ist das gesuchte Substantiv." },
+          { "id": "l22e09", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Sie machte eine politische ___. (Karriere)", "solution": "Karriere", "hint": "Ein Substantiv.", "explanation": "'Karriere' ist das gesuchte Substantiv." },
+          { "id": "l22e10", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Die Wahl fand im ___ statt.", "options": ["September", "Gesetz", "Partei", "Umweltschutz"], "solution": "September", "hint": "Ein Monat.", "explanation": "'September' ist der gesuchte Monat." }
+        ],
+        "medium": [
+          { "id": "l22m01", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Die", "Bürger", "wählen", "den", "Bundestag"], "solution": "Die Bürger wählen den Bundestag.", "hint": "Verb an Position 2.", "explanation": "Das konjugierte Verb steht an Position 2." },
+          { "id": "l22m02", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Die", "Regierung", "hat", "ein", "neues", "Gesetz", "beschlossen"], "solution": "Die Regierung hat ein neues Gesetz beschlossen.", "hint": "Partizip II am Satzende.", "explanation": "Im Perfekt steht das Partizip II am Satzende." },
+          { "id": "l22m03", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Sie", "engagierte", "sich", "für", "Umweltschutz"], "solution": "Sie engagierte sich für Umweltschutz.", "hint": "Verb an Position 2.", "explanation": "Das konjugierte Verb steht an Position 2." },
+          { "id": "l22m04", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Er", "kandidierte", "für", "das", "Amt"], "solution": "Er kandidierte für das Amt.", "hint": "Verb an Position 2.", "explanation": "Das konjugierte Verb steht an Position 2." },
+          { "id": "l22m05", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Sie", "wurde", "1975", "geboren"], "solution": "Sie wurde 1975 geboren.", "hint": "Partizip II am Satzende.", "explanation": "'geboren' steht als Partizip II am Satzende." },
+          { "id": "l22m06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Er", "gründete", "eine", "Bürgerinitiative"], "solution": "Er gründete eine Bürgerinitiative.", "hint": "Verb an Position 2.", "explanation": "Das konjugierte Verb steht an Position 2." },
+          { "id": "l22m07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Sie ___ (organisieren, Präteritum) eine Demonstration.", "solution": "organisierte", "hint": "3. Person Singular Präteritum.", "explanation": "Die 'sie'-Form von 'organisieren' im Präteritum lautet 'organisierte'." },
+          { "id": "l22m08", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Er ___ (treten) in eine Partei ein.", "solution": "trat", "hint": "Präteritum, unregelmäßig.", "explanation": "Das Präteritum von 'treten' (in 'eintreten') lautet 'trat'." },
+          { "id": "l22m09", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Die Regierung ___ (beschließen, Präteritum) ein neues Gesetz.", "solution": "beschloss", "hint": "Unregelmäßiges Verb.", "explanation": "Das Präteritum von 'beschließen' lautet 'beschloss'." },
+          { "id": "l22m10", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Sie ___ (werden, Präteritum) Bürgermeisterin.", "solution": "wurde", "hint": "3. Person Singular.", "explanation": "Das Präteritum von 'werden' in der 'sie'-Form lautet 'wurde'." }
+        ],
+        "hard": [
+          { "id": "l22h01", "type": "targeted-transformation", "instruction": "Erzähle im Perfekt.", "prompt": "Sie engagiert sich für Umweltschutz.", "solution": "Sie hat sich für Umweltschutz engagiert.", "hint": "Partizip II am Satzende.", "explanation": "Im Perfekt steht das Partizip II am Satzende." },
+          { "id": "l22h02", "type": "targeted-transformation", "instruction": "Erzähle im Perfekt.", "prompt": "Er gründet eine Bürgerinitiative.", "solution": "Er hat eine Bürgerinitiative gegründet.", "hint": "Partizip II am Satzende.", "explanation": "Im Perfekt steht das Partizip II am Satzende." },
+          { "id": "l22h03", "type": "targeted-transformation", "instruction": "Erzähle im Präteritum.", "prompt": "Die Regierung beschließt ein neues Gesetz.", "solution": "Die Regierung beschloss ein neues Gesetz.", "hint": "Unregelmäßiges Verb.", "explanation": "Das Präteritum von 'beschließen' lautet 'beschloss'." },
+          { "id": "l22h04", "type": "targeted-transformation", "instruction": "Sage, dass sie 1975 geboren wurde.", "prompt": "1975 / geboren werden", "solution": "Sie wurde 1975 geboren.", "hint": "Partizip II am Satzende.", "explanation": "'geboren' steht als Partizip II am Satzende." },
+          { "id": "l22h05", "type": "targeted-transformation", "instruction": "Sage, dass er für das Amt kandidierte.", "prompt": "für das Amt / kandidieren", "solution": "Er kandidierte für das Amt.", "hint": "Verb an Position 2.", "explanation": "Das konjugierte Verb steht an Position 2." },
+          { "id": "l22h06", "type": "targeted-transformation", "instruction": "Sage, dass sie Bürgermeisterin wurde.", "prompt": "Bürgermeisterin / werden", "solution": "Sie wurde Bürgermeisterin.", "hint": "Verb an Position 2.", "explanation": "Das konjugierte Verb steht an Position 2." },
+          { "id": "l22h07", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Die Regierung hat ein neues Gesetz beschließt.", "solution": "Die Regierung hat ein neues Gesetz beschlossen.", "hint": "Partizip II statt Präsensform.", "explanation": "Im Perfekt steht nach 'hat' das Partizip II, nicht die Präsensform." },
+          { "id": "l22h08", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Sie hat sich engagiert für Umweltschutz.", "solution": "Sie hat sich für Umweltschutz engagiert.", "hint": "Partizip II steht am Satzende.", "explanation": "Im Perfekt steht das Partizip II am Satzende, nicht davor." },
+          { "id": "l22h09", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Er gründete ein Bürgerinitiative.", "solution": "Er gründete eine Bürgerinitiative.", "hint": "'Bürgerinitiative' ist feminin.", "explanation": "'Bürgerinitiative' ist feminin, daher der Akkusativartikel 'eine'." },
+          { "id": "l22h10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Sie wurde 1975 gebort.", "solution": "Sie wurde 1975 geboren.", "hint": "Unregelmäßiges Partizip II.", "explanation": "Das Partizip II von 'gebären' lautet 'geboren', nicht 'gebort'." }
+        ]
+      },
+      "test": [
+        { "id": "l22t01", "type": "multiple-choice", "instruction": "Wähle das richtige Partizip II.", "prompt": "Die Regierung hat ein neues Gesetz ___. (beschließen)", "options": ["beschlossen", "beschließte", "beschließt", "beschließen"], "solution": "beschlossen", "explanation": "Das Partizip II von 'beschließen' lautet 'beschlossen'." },
+        { "id": "l22t02", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Sie ___ 1975 geboren.", "options": ["wurde", "wurden", "wird", "ist"], "solution": "wurde", "explanation": "Passiv Präteritum Singular: 'wurde' + Partizip II." },
+        { "id": "l22t03", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Er gründete eine ___. (Bürgerinitiative)", "solution": "Bürgerinitiative", "explanation": "'Bürgerinitiative' ist das gesuchte Substantiv." },
+        { "id": "l22t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Gesetz", "options": ["der", "die", "das"], "solution": "das", "explanation": "'Gesetz' ist neutral: das Gesetz." },
+        { "id": "l22t05", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Er ___ für das Amt. (kandidieren, Präteritum)", "options": ["kandidierte", "kandidiert", "kandidiere", "kandidierten"], "solution": "kandidierte", "explanation": "Die 'er'-Form von 'kandidieren' im Präteritum lautet 'kandidierte'." },
+        { "id": "l22t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Er", "gründete", "eine", "Bürgerinitiative"], "solution": "Er gründete eine Bürgerinitiative.", "explanation": "Das konjugierte Verb steht an Position 2." },
+        { "id": "l22t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Die Regierung ___ (beschließen, Präteritum) ein neues Gesetz.", "solution": "beschloss", "explanation": "Das Präteritum von 'beschließen' lautet 'beschloss'." },
+        { "id": "l22t08", "type": "targeted-transformation", "instruction": "Erzähle im Perfekt.", "prompt": "Er gründet eine Bürgerinitiative.", "solution": "Er hat eine Bürgerinitiative gegründet.", "explanation": "Im Perfekt steht das Partizip II am Satzende." },
+        { "id": "l22t09", "type": "targeted-transformation", "instruction": "Sage, dass sie Bürgermeisterin wurde.", "prompt": "Bürgermeisterin / werden", "solution": "Sie wurde Bürgermeisterin.", "explanation": "Das konjugierte Verb steht an Position 2." },
+        { "id": "l22t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Sie wurde 1975 gebort.", "solution": "Sie wurde 1975 geboren.", "explanation": "Das Partizip II von 'gebären' lautet 'geboren', nicht 'gebort'." }
+      ]
+    },
+    {
+      "lektionId": "b1-m8-l23",
+      "level": "B1",
+      "modulNumber": 8,
+      "lektionNumber": 23,
+      "title": "Was wäre gewesen, wenn ...",
+      "grammarFocus": [
+        "Konjunktiv II der Vergangenheit (hätte/wäre + Partizip II)"
+      ],
+      "vocabulary": [
+        { "id": "l23v01", "term": "Was wäre gewesen, wenn ...", "translation": "¿Qué habría pasado si...?", "partOfSpeech": "phrase", "example": "Was wäre gewesen, wenn ich anders entschieden hätte?" },
+        { "id": "l23v02", "term": "bereuen", "translation": "arrepentirse", "partOfSpeech": "verb", "example": "Ich bereue diese Entscheidung." },
+        { "id": "l23v03", "term": "die Chance", "translation": "la oportunidad", "partOfSpeech": "noun", "gender": "die", "plural": "die Chancen", "example": "Ich habe die Chance verpasst." },
+        { "id": "l23v04", "term": "verpassen", "translation": "perder (una oportunidad)", "partOfSpeech": "verb", "example": "Ich habe die Chance verpasst." },
+        { "id": "l23v05", "term": "anders", "translation": "diferente", "partOfSpeech": "adjective", "example": "Ich hätte anders entschieden." },
+        { "id": "l23v06", "term": "rückblickend", "translation": "retrospectivamente", "partOfSpeech": "adverb", "example": "Rückblickend war das ein Fehler." },
+        { "id": "l23v07", "term": "der Fehler", "translation": "el error", "partOfSpeech": "noun", "gender": "der", "plural": "die Fehler", "example": "Das war ein Fehler." },
+        { "id": "l23v08", "term": "vermeiden", "translation": "evitar", "partOfSpeech": "verb", "example": "Ich hätte den Fehler vermeiden können." },
+        { "id": "l23v09", "term": "auswandern", "translation": "emigrar", "partOfSpeech": "verb", "example": "Wenn ich mutiger gewesen wäre, wäre ich ausgewandert." },
+        { "id": "l23v10", "term": "mutig", "translation": "valiente", "partOfSpeech": "adjective", "example": "Ich wäre mutiger gewesen." },
+        { "id": "l23v11", "term": "der Mut", "translation": "el valor", "partOfSpeech": "noun", "gender": "der", "example": "Mir fehlte der Mut." },
+        { "id": "l23v12", "term": "zögern", "translation": "dudar", "partOfSpeech": "verb", "example": "Ich habe zu lange gezögert." },
+        { "id": "l23v13", "term": "die Gelegenheit", "translation": "la oportunidad", "partOfSpeech": "noun", "gender": "die", "plural": "die Gelegenheiten", "example": "Ich habe die Gelegenheit verpasst." },
+        { "id": "l23v14", "term": "sich entscheiden", "translation": "decidirse", "partOfSpeech": "verb", "example": "Ich hätte mich anders entschieden." },
+        { "id": "l23v15", "term": "das Ergebnis", "translation": "el resultado", "partOfSpeech": "noun", "gender": "das", "plural": "die Ergebnisse", "example": "Das Ergebnis wäre anders gewesen." },
+        { "id": "l23v16", "term": "sich vorstellen", "translation": "imaginarse", "partOfSpeech": "verb", "example": "Ich kann mir vorstellen, wie es gewesen wäre." }
+      ],
+      "practice": {
+        "easy": [
+          { "id": "l23e01", "type": "multiple-choice", "instruction": "Wähle die richtige Form.", "prompt": "Ich ___ diese Entscheidung anders getroffen. (haben, Konjunktiv II)", "options": ["hätte", "wäre", "habe", "war"], "solution": "hätte", "hint": "Konjunktiv II von 'haben'.", "explanation": "Der Konjunktiv II von 'haben' lautet 'hätte'." },
+          { "id": "l23e02", "type": "multiple-choice", "instruction": "Wähle die richtige Form.", "prompt": "Ich ___ mutiger gewesen. (sein, Konjunktiv II)", "options": ["wäre", "hätte", "bin", "war"], "solution": "wäre", "hint": "Konjunktiv II von 'sein'.", "explanation": "Der Konjunktiv II von 'sein' lautet 'wäre'." },
+          { "id": "l23e03", "type": "multiple-choice", "instruction": "Wähle das richtige Partizip II.", "prompt": "Ich habe die Chance ___. (verpassen)", "options": ["verpasst", "verpasste", "verpasse", "verpassen"], "solution": "verpasst", "hint": "Regelmäßiges Verb.", "explanation": "Das Partizip II von 'verpassen' lautet 'verpasst'." },
+          { "id": "l23e04", "type": "multiple-choice", "instruction": "Wähle die richtige Form.", "prompt": "Ich hätte den Fehler ___ können. (vermeiden)", "options": ["vermeiden", "vermieden", "vermeidet", "vermied"], "solution": "vermeiden", "hint": "Doppelter Infinitiv bei Modalverben.", "explanation": "Bei Modalverben im Konjunktiv II der Vergangenheit steht der doppelte Infinitiv." },
+          { "id": "l23e05", "type": "multiple-choice", "instruction": "Wähle die richtige Form.", "prompt": "Wenn ich mutiger gewesen wäre, ___ ich ausgewandert. (sein, Konjunktiv II)", "options": ["wäre", "hätte", "bin", "war"], "solution": "wäre", "hint": "Konjunktiv II von 'sein'.", "explanation": "Der Konjunktiv II von 'sein' lautet 'wäre'." },
+          { "id": "l23e06", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Fehler", "options": ["der", "die", "das"], "solution": "der", "hint": "'Fehler' ist maskulin.", "explanation": "'Fehler' ist maskulin: der Fehler." },
+          { "id": "l23e07", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Gelegenheit", "options": ["der", "die", "das"], "solution": "die", "hint": "'Gelegenheit' ist feminin.", "explanation": "'Gelegenheit' ist feminin: die Gelegenheit." },
+          { "id": "l23e08", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Mir fehlte der ___. (Mut)", "solution": "Mut", "hint": "Ein Substantiv.", "explanation": "'Mut' ist das gesuchte Substantiv." },
+          { "id": "l23e09", "type": "fill-in-blank", "instruction": "Ergänze das Partizip II.", "prompt": "Ich habe zu lange ___. (zögern)", "solution": "gezögert", "hint": "Regelmäßiges Verb.", "explanation": "Das Partizip II von 'zögern' lautet 'gezögert'." },
+          { "id": "l23e10", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Das ___ wäre anders gewesen.", "options": ["Ergebnis", "Fehler", "Mut", "Chance"], "solution": "Ergebnis", "hint": "Ein Resultat.", "explanation": "'Ergebnis' bezeichnet ein Resultat." }
+        ],
+        "medium": [
+          { "id": "l23m01", "type": "sentence-scramble", "instruction": "Bilde einen Satz im Konjunktiv II der Vergangenheit.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "hätte", "diese", "Entscheidung", "anders", "getroffen"], "solution": "Ich hätte diese Entscheidung anders getroffen.", "hint": "'hätte' + Partizip II.", "explanation": "Der Konjunktiv II der Vergangenheit bildet man mit 'hätte' + Partizip II." },
+          { "id": "l23m02", "type": "sentence-scramble", "instruction": "Bilde einen Satz im Konjunktiv II der Vergangenheit.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "wäre", "mutiger", "gewesen"], "solution": "Ich wäre mutiger gewesen.", "hint": "'wäre' + Partizip II.", "explanation": "Der Konjunktiv II der Vergangenheit bildet man mit 'wäre' + Partizip II." },
+          { "id": "l23m03", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "habe", "die", "Chance", "verpasst"], "solution": "Ich habe die Chance verpasst.", "hint": "Partizip II am Satzende.", "explanation": "Im Perfekt steht das Partizip II am Satzende." },
+          { "id": "l23m04", "type": "sentence-scramble", "instruction": "Bilde einen Satz im Konjunktiv II der Vergangenheit.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "hätte", "den", "Fehler", "vermeiden", "können"], "solution": "Ich hätte den Fehler vermeiden können.", "hint": "Doppelter Infinitiv am Satzende.", "explanation": "Bei Modalverben im Konjunktiv II der Vergangenheit steht der doppelte Infinitiv am Satzende." },
+          { "id": "l23m05", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Mir", "fehlte", "der", "Mut"], "solution": "Mir fehlte der Mut.", "hint": "Verb an Position 2.", "explanation": "Das konjugierte Verb steht an Position 2." },
+          { "id": "l23m06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "habe", "zu", "lange", "gezögert"], "solution": "Ich habe zu lange gezögert.", "hint": "Partizip II am Satzende.", "explanation": "Im Perfekt steht das Partizip II am Satzende." },
+          { "id": "l23m07", "type": "cloze-conjugation", "instruction": "Ergänze den Konjunktiv II von 'sein'.", "prompt": "Wenn ich mutiger gewesen ___ (sein), wäre ich ausgewandert.", "solution": "wäre", "hint": "Konjunktiv II von 'sein'.", "explanation": "Der Konjunktiv II von 'sein' lautet 'wäre'." },
+          { "id": "l23m08", "type": "cloze-conjugation", "instruction": "Ergänze den Konjunktiv II von 'haben'.", "prompt": "Wenn ich nicht gezögert ___ (haben), hätte ich die Chance genutzt.", "solution": "hätte", "hint": "Konjunktiv II von 'haben'.", "explanation": "Der Konjunktiv II von 'haben' lautet 'hätte'." },
+          { "id": "l23m09", "type": "cloze-conjugation", "instruction": "Ergänze den Konjunktiv II von 'sein'.", "prompt": "Das Ergebnis ___ (sein) anders gewesen, wenn ich anders entschieden hätte.", "solution": "wäre", "hint": "Konjunktiv II von 'sein'.", "explanation": "Der Konjunktiv II von 'sein' lautet 'wäre'." },
+          { "id": "l23m10", "type": "cloze-conjugation", "instruction": "Ergänze den Infinitiv.", "prompt": "Ich kann mir ___ (vorstellen), wie es gewesen wäre.", "solution": "vorstellen", "hint": "Infinitiv nach 'kann'.", "explanation": "Nach dem Modalverb 'kann' steht der Infinitiv." }
+        ],
+        "hard": [
+          { "id": "l23h01", "type": "targeted-transformation", "instruction": "Bilde den Konjunktiv II der Vergangenheit.", "prompt": "Ich habe die Entscheidung nicht anders getroffen.", "solution": "Ich hätte die Entscheidung anders getroffen.", "hint": "'hätte' + Partizip II.", "explanation": "Der Konjunktiv II der Vergangenheit bildet man mit 'hätte' + Partizip II." },
+          { "id": "l23h02", "type": "targeted-transformation", "instruction": "Bilde den Konjunktiv II der Vergangenheit.", "prompt": "Ich bin nicht mutiger gewesen.", "solution": "Ich wäre mutiger gewesen.", "hint": "'wäre' + Partizip II.", "explanation": "Der Konjunktiv II der Vergangenheit bildet man mit 'wäre' + Partizip II." },
+          { "id": "l23h03", "type": "targeted-transformation", "instruction": "Bilde einen irrealen Bedingungssatz der Vergangenheit.", "prompt": "Ich war mutiger. Ich bin ausgewandert.", "solution": "Wenn ich mutiger gewesen wäre, wäre ich ausgewandert.", "hint": "'wäre' + Partizip II in beiden Teilsätzen.", "explanation": "Im irrealen Bedingungssatz der Vergangenheit steht in beiden Teilsätzen 'wäre'/'hätte' + Partizip II." },
+          { "id": "l23h04", "type": "targeted-transformation", "instruction": "Sage, dass du die Chance verpasst hast.", "prompt": "die Chance / verpassen", "solution": "Ich habe die Chance verpasst.", "hint": "Partizip II am Satzende.", "explanation": "Im Perfekt steht das Partizip II am Satzende." },
+          { "id": "l23h05", "type": "targeted-transformation", "instruction": "Sage, dass du den Fehler hättest vermeiden können.", "prompt": "den Fehler / vermeiden können (Konjunktiv II)", "solution": "Ich hätte den Fehler vermeiden können.", "hint": "Doppelter Infinitiv am Satzende.", "explanation": "Bei Modalverben im Konjunktiv II der Vergangenheit steht der doppelte Infinitiv am Satzende." },
+          { "id": "l23h06", "type": "targeted-transformation", "instruction": "Sage, dass dir der Mut fehlte.", "prompt": "der Mut / fehlen", "solution": "Mir fehlte der Mut.", "hint": "Verb an Position 2.", "explanation": "Das konjugierte Verb steht an Position 2." },
+          { "id": "l23h07", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich habe mutiger gewesen.", "solution": "Ich wäre mutiger gewesen.", "hint": "'sein' im Konjunktiv II: wäre.", "explanation": "Mit 'sein'-Verben bildet man den Konjunktiv II der Vergangenheit mit 'wäre', nicht 'habe'." },
+          { "id": "l23h08", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich hätte diese Entscheidung anders treffen.", "solution": "Ich hätte diese Entscheidung anders getroffen.", "hint": "Partizip II, kein Modalverb hier.", "explanation": "Ohne Modalverb steht im Konjunktiv II der Vergangenheit das Partizip II, nicht der Infinitiv." },
+          { "id": "l23h09", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Wenn ich mutiger gewesen hätte, wäre ich ausgewandert.", "solution": "Wenn ich mutiger gewesen wäre, wäre ich ausgewandert.", "hint": "'sein' im Konjunktiv II: wäre, nicht hätte.", "explanation": "Mit 'sein'-Verben bildet man den Konjunktiv II der Vergangenheit mit 'wäre', nicht 'hätte'." },
+          { "id": "l23h10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich hätte den Fehler vermieden können.", "solution": "Ich hätte den Fehler vermeiden können.", "hint": "Doppelter Infinitiv bei Modalverben.", "explanation": "Bei Modalverben im Konjunktiv II der Vergangenheit steht der doppelte Infinitiv: vermeiden können." }
+        ]
+      },
+      "test": [
+        { "id": "l23t01", "type": "multiple-choice", "instruction": "Wähle die richtige Form.", "prompt": "Ich ___ diese Entscheidung anders getroffen. (haben, Konjunktiv II)", "options": ["hätte", "wäre", "habe", "war"], "solution": "hätte", "explanation": "Der Konjunktiv II von 'haben' lautet 'hätte'." },
+        { "id": "l23t02", "type": "multiple-choice", "instruction": "Wähle die richtige Form.", "prompt": "Ich ___ mutiger gewesen. (sein, Konjunktiv II)", "options": ["wäre", "hätte", "bin", "war"], "solution": "wäre", "explanation": "Der Konjunktiv II von 'sein' lautet 'wäre'." },
+        { "id": "l23t03", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Mir fehlte der ___. (Mut)", "solution": "Mut", "explanation": "'Mut' ist das gesuchte Substantiv." },
+        { "id": "l23t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Fehler", "options": ["der", "die", "das"], "solution": "der", "explanation": "'Fehler' ist maskulin: der Fehler." },
+        { "id": "l23t05", "type": "multiple-choice", "instruction": "Wähle die richtige Form.", "prompt": "Ich hätte den Fehler ___ können. (vermeiden)", "options": ["vermeiden", "vermieden", "vermeidet", "vermied"], "solution": "vermeiden", "explanation": "Bei Modalverben im Konjunktiv II der Vergangenheit steht der doppelte Infinitiv." },
+        { "id": "l23t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz im Konjunktiv II der Vergangenheit.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "wäre", "mutiger", "gewesen"], "solution": "Ich wäre mutiger gewesen.", "explanation": "Der Konjunktiv II der Vergangenheit bildet man mit 'wäre' + Partizip II." },
+        { "id": "l23t07", "type": "cloze-conjugation", "instruction": "Ergänze den Konjunktiv II von 'sein'.", "prompt": "Wenn ich mutiger gewesen ___ (sein), wäre ich ausgewandert.", "solution": "wäre", "explanation": "Der Konjunktiv II von 'sein' lautet 'wäre'." },
+        { "id": "l23t08", "type": "targeted-transformation", "instruction": "Bilde einen irrealen Bedingungssatz der Vergangenheit.", "prompt": "Ich war mutiger. Ich bin ausgewandert.", "solution": "Wenn ich mutiger gewesen wäre, wäre ich ausgewandert.", "explanation": "Im irrealen Bedingungssatz der Vergangenheit steht in beiden Teilsätzen 'wäre'/'hätte' + Partizip II." },
+        { "id": "l23t09", "type": "targeted-transformation", "instruction": "Sage, dass du den Fehler hättest vermeiden können.", "prompt": "den Fehler / vermeiden können (Konjunktiv II)", "solution": "Ich hätte den Fehler vermeiden können.", "explanation": "Bei Modalverben im Konjunktiv II der Vergangenheit steht der doppelte Infinitiv am Satzende." },
+        { "id": "l23t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Wenn ich mutiger gewesen hätte, wäre ich ausgewandert.", "solution": "Wenn ich mutiger gewesen wäre, wäre ich ausgewandert.", "explanation": "Mit 'sein'-Verben bildet man den Konjunktiv II der Vergangenheit mit 'wäre', nicht 'hätte'." }
+      ]
+    },
+    {
+      "lektionId": "b1-m8-l24",
+      "level": "B1",
+      "modulNumber": 8,
+      "lektionNumber": 24,
+      "title": "Zukunftsprognosen",
+      "grammarFocus": [
+        "Futur I (werden + Infinitiv) für Vorhersagen"
+      ],
+      "vocabulary": [
+        { "id": "l24v01", "term": "die Zukunft", "translation": "el futuro", "partOfSpeech": "noun", "gender": "die", "example": "Wie wird die Zukunft aussehen?" },
+        { "id": "l24v02", "term": "voraussagen", "translation": "predecir", "partOfSpeech": "verb", "example": "Niemand kann die Zukunft voraussagen." },
+        { "id": "l24v03", "term": "die Entwicklung", "translation": "el desarrollo", "partOfSpeech": "noun", "gender": "die", "plural": "die Entwicklungen", "example": "Die Entwicklung wird sich fortsetzen." },
+        { "id": "l24v04", "term": "sich verändern", "translation": "cambiar", "partOfSpeech": "verb", "example": "Die Welt wird sich verändern." },
+        { "id": "l24v05", "term": "der Fortschritt", "translation": "el progreso", "partOfSpeech": "noun", "gender": "der", "example": "Der Fortschritt wird weitergehen." },
+        { "id": "l24v06", "term": "die Technologie", "translation": "la tecnología", "partOfSpeech": "noun", "gender": "die", "plural": "die Technologien", "example": "Die Technologie wird sich weiterentwickeln." },
+        { "id": "l24v07", "term": "ersetzen", "translation": "reemplazar", "partOfSpeech": "verb", "example": "Roboter werden viele Berufe ersetzen." },
+        { "id": "l24v08", "term": "der Klimawandel", "translation": "el cambio climático", "partOfSpeech": "noun", "gender": "der", "example": "Der Klimawandel wird die Welt verändern." },
+        { "id": "l24v09", "term": "steigen", "translation": "subir / aumentar", "partOfSpeech": "verb", "example": "Die Temperatur wird steigen." },
+        { "id": "l24v10", "term": "sinken", "translation": "bajar / disminuir", "partOfSpeech": "verb", "example": "Die Kosten werden sinken." },
+        { "id": "l24v11", "term": "vermutlich", "translation": "probablemente", "partOfSpeech": "adverb", "example": "Es wird vermutlich wärmer werden." },
+        { "id": "l24v12", "term": "wahrscheinlich", "translation": "probable", "partOfSpeech": "adjective", "example": "Das wird wahrscheinlich passieren." },
+        { "id": "l24v13", "term": "die Prognose", "translation": "el pronóstico", "partOfSpeech": "noun", "gender": "die", "plural": "die Prognosen", "example": "Die Prognose ist positiv." },
+        { "id": "l24v14", "term": "sich entwickeln", "translation": "desarrollarse", "partOfSpeech": "verb", "example": "Die Stadt wird sich weiterentwickeln." },
+        { "id": "l24v15", "term": "der Wandel", "translation": "el cambio", "partOfSpeech": "noun", "gender": "der", "example": "Ein großer Wandel wird stattfinden." },
+        { "id": "l24v16", "term": "stattfinden", "translation": "tener lugar", "partOfSpeech": "verb", "example": "Ein großer Wandel wird stattfinden." }
+      ],
+      "practice": {
+        "easy": [
+          { "id": "l24e01", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Die Welt ___ sich verändern.", "options": ["wird", "werden", "wirst", "werde"], "solution": "wird", "hint": "3. Person Singular.", "explanation": "Die 'sie'-Form (Singular) von 'werden' lautet 'wird'." },
+          { "id": "l24e02", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Roboter ___ viele Berufe ersetzen.", "options": ["werden", "wird", "wirst", "werde"], "solution": "werden", "hint": "Plural.", "explanation": "Die Plural-Form von 'werden' lautet 'werden'." },
+          { "id": "l24e03", "type": "multiple-choice", "instruction": "Wähle den richtigen Infinitiv.", "prompt": "Die Temperatur wird ___.", "options": ["steigen", "gestiegen", "steigt", "stieg"], "solution": "steigen", "hint": "Futur I: 'werden' + Infinitiv.", "explanation": "Das Futur I bildet man mit 'werden' + Infinitiv." },
+          { "id": "l24e04", "type": "multiple-choice", "instruction": "Wähle den richtigen Infinitiv.", "prompt": "Die Kosten werden ___.", "options": ["sinken", "gesunken", "sinkt", "sank"], "solution": "sinken", "hint": "Futur I: 'werden' + Infinitiv.", "explanation": "Das Futur I bildet man mit 'werden' + Infinitiv." },
+          { "id": "l24e05", "type": "multiple-choice", "instruction": "Wähle den richtigen Infinitiv.", "prompt": "Niemand kann die Zukunft ___.", "options": ["voraussagen", "voraussagt", "vorausgesagt", "voraussage"], "solution": "voraussagen", "hint": "Infinitiv nach Modalverb.", "explanation": "Nach dem Modalverb 'kann' steht der Infinitiv." },
+          { "id": "l24e06", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Zukunft", "options": ["der", "die", "das"], "solution": "die", "hint": "'Zukunft' ist feminin.", "explanation": "'Zukunft' ist feminin: die Zukunft." },
+          { "id": "l24e07", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Klimawandel", "options": ["der", "die", "das"], "solution": "der", "hint": "'Klimawandel' ist maskulin.", "explanation": "'Klimawandel' ist maskulin: der Klimawandel." },
+          { "id": "l24e08", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Die ___ ist positiv. (Prognose)", "solution": "Prognose", "hint": "Ein Substantiv.", "explanation": "'Prognose' ist das gesuchte Substantiv." },
+          { "id": "l24e09", "type": "fill-in-blank", "instruction": "Ergänze den Infinitiv.", "prompt": "Ein großer Wandel wird ___. (stattfinden)", "solution": "stattfinden", "hint": "Futur I: 'werden' + Infinitiv.", "explanation": "Das Futur I bildet man mit 'werden' + Infinitiv." },
+          { "id": "l24e10", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Das wird ___ passieren.", "options": ["wahrscheinlich", "vermutet", "vermuten", "Prognose"], "solution": "wahrscheinlich", "hint": "Ein Adjektiv/Adverb.", "explanation": "'wahrscheinlich' drückt eine Vermutung über die Zukunft aus." }
+        ],
+        "medium": [
+          { "id": "l24m01", "type": "sentence-scramble", "instruction": "Bilde einen Satz im Futur I.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Die", "Welt", "wird", "sich", "verändern"], "solution": "Die Welt wird sich verändern.", "hint": "Infinitiv am Satzende.", "explanation": "Im Futur I steht der Infinitiv am Satzende." },
+          { "id": "l24m02", "type": "sentence-scramble", "instruction": "Bilde einen Satz im Futur I.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Roboter", "werden", "viele", "Berufe", "ersetzen"], "solution": "Roboter werden viele Berufe ersetzen.", "hint": "Infinitiv am Satzende.", "explanation": "Im Futur I steht der Infinitiv am Satzende." },
+          { "id": "l24m03", "type": "sentence-scramble", "instruction": "Bilde einen Satz im Futur I.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Die", "Temperatur", "wird", "steigen"], "solution": "Die Temperatur wird steigen.", "hint": "Infinitiv am Satzende.", "explanation": "Im Futur I steht der Infinitiv am Satzende." },
+          { "id": "l24m04", "type": "sentence-scramble", "instruction": "Bilde einen Satz im Futur I.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Die", "Kosten", "werden", "sinken"], "solution": "Die Kosten werden sinken.", "hint": "Infinitiv am Satzende.", "explanation": "Im Futur I steht der Infinitiv am Satzende." },
+          { "id": "l24m05", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Niemand", "kann", "die", "Zukunft", "voraussagen"], "solution": "Niemand kann die Zukunft voraussagen.", "hint": "Infinitiv am Satzende.", "explanation": "Nach dem Modalverb 'kann' steht der Infinitiv am Satzende." },
+          { "id": "l24m06", "type": "sentence-scramble", "instruction": "Bilde einen Satz im Futur I.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ein", "großer", "Wandel", "wird", "stattfinden"], "solution": "Ein großer Wandel wird stattfinden.", "hint": "Infinitiv am Satzende.", "explanation": "Im Futur I steht der Infinitiv am Satzende." },
+          { "id": "l24m07", "type": "cloze-conjugation", "instruction": "Konjugiere 'werden'.", "prompt": "Die Stadt ___ (werden) sich weiterentwickeln.", "solution": "wird", "hint": "3. Person Singular.", "explanation": "Die 'sie'-Form (Singular) von 'werden' lautet 'wird'." },
+          { "id": "l24m08", "type": "cloze-conjugation", "instruction": "Konjugiere 'werden'.", "prompt": "Der Fortschritt ___ (werden) weitergehen.", "solution": "wird", "hint": "3. Person Singular.", "explanation": "Die 'er'-Form (Singular) von 'werden' lautet 'wird'." },
+          { "id": "l24m09", "type": "cloze-conjugation", "instruction": "Konjugiere 'werden'.", "prompt": "Die Technologie ___ (werden) sich weiterentwickeln.", "solution": "wird", "hint": "3. Person Singular.", "explanation": "Die 'sie'-Form (Singular) von 'werden' lautet 'wird'." },
+          { "id": "l24m10", "type": "cloze-conjugation", "instruction": "Konjugiere 'werden'.", "prompt": "Es ___ (werden) vermutlich wärmer werden.", "solution": "wird", "hint": "3. Person Singular.", "explanation": "Die 'es'-Form von 'werden' lautet 'wird'." }
+        ],
+        "hard": [
+          { "id": "l24h01", "type": "targeted-transformation", "instruction": "Bilde das Futur I.", "prompt": "Die Welt verändert sich.", "solution": "Die Welt wird sich verändern.", "hint": "'werden' + Infinitiv.", "explanation": "Das Futur I bildet man mit 'werden' + Infinitiv." },
+          { "id": "l24h02", "type": "targeted-transformation", "instruction": "Bilde das Futur I.", "prompt": "Roboter ersetzen viele Berufe.", "solution": "Roboter werden viele Berufe ersetzen.", "hint": "'werden' + Infinitiv.", "explanation": "Das Futur I bildet man mit 'werden' + Infinitiv." },
+          { "id": "l24h03", "type": "targeted-transformation", "instruction": "Bilde das Futur I.", "prompt": "Die Temperatur steigt.", "solution": "Die Temperatur wird steigen.", "hint": "'werden' + Infinitiv.", "explanation": "Das Futur I bildet man mit 'werden' + Infinitiv." },
+          { "id": "l24h04", "type": "targeted-transformation", "instruction": "Sage, dass die Kosten sinken werden.", "prompt": "die Kosten / sinken (Futur I)", "solution": "Die Kosten werden sinken.", "hint": "'werden' + Infinitiv.", "explanation": "Das Futur I bildet man mit 'werden' + Infinitiv." },
+          { "id": "l24h05", "type": "targeted-transformation", "instruction": "Sage, dass niemand die Zukunft voraussagen kann.", "prompt": "niemand / die Zukunft / voraussagen können", "solution": "Niemand kann die Zukunft voraussagen.", "hint": "Infinitiv am Satzende.", "explanation": "Nach dem Modalverb 'kann' steht der Infinitiv am Satzende." },
+          { "id": "l24h06", "type": "targeted-transformation", "instruction": "Sage, dass ein großer Wandel stattfinden wird.", "prompt": "ein großer Wandel / stattfinden (Futur I)", "solution": "Ein großer Wandel wird stattfinden.", "hint": "'werden' + Infinitiv.", "explanation": "Das Futur I bildet man mit 'werden' + Infinitiv." },
+          { "id": "l24h07", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Die Welt wird sich verändert.", "solution": "Die Welt wird sich verändern.", "hint": "Infinitiv, nicht Partizip II.", "explanation": "Im Futur I steht nach 'wird' der Infinitiv, nicht das Partizip II." },
+          { "id": "l24h08", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Roboter wird viele Berufe ersetzen.", "solution": "Roboter werden viele Berufe ersetzen.", "hint": "Plural braucht 'werden'.", "explanation": "Bei Pluralsubjekten steht 'werden', nicht 'wird'." },
+          { "id": "l24h09", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Die Temperatur wird steigt.", "solution": "Die Temperatur wird steigen.", "hint": "Infinitiv am Satzende.", "explanation": "Im Futur I steht der Infinitiv, nicht die konjugierte Form, am Satzende." },
+          { "id": "l24h10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ein großer Wandel wird statt finden.", "solution": "Ein großer Wandel wird stattfinden.", "hint": "'stattfinden' bleibt zusammen.", "explanation": "Im Infinitiv bleibt das trennbare Verb 'stattfinden' als ein Wort zusammen." }
+        ]
+      },
+      "test": [
+        { "id": "l24t01", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Die Welt ___ sich verändern.", "options": ["wird", "werden", "wirst", "werde"], "solution": "wird", "explanation": "Die 'sie'-Form (Singular) von 'werden' lautet 'wird'." },
+        { "id": "l24t02", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Roboter ___ viele Berufe ersetzen.", "options": ["werden", "wird", "wirst", "werde"], "solution": "werden", "explanation": "Die Plural-Form von 'werden' lautet 'werden'." },
+        { "id": "l24t03", "type": "fill-in-blank", "instruction": "Ergänze den Infinitiv.", "prompt": "Ein großer Wandel wird ___. (stattfinden)", "solution": "stattfinden", "explanation": "Das Futur I bildet man mit 'werden' + Infinitiv." },
+        { "id": "l24t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Klimawandel", "options": ["der", "die", "das"], "solution": "der", "explanation": "'Klimawandel' ist maskulin: der Klimawandel." },
+        { "id": "l24t05", "type": "multiple-choice", "instruction": "Wähle den richtigen Infinitiv.", "prompt": "Niemand kann die Zukunft ___.", "options": ["voraussagen", "voraussagt", "vorausgesagt", "voraussage"], "solution": "voraussagen", "explanation": "Nach dem Modalverb 'kann' steht der Infinitiv." },
+        { "id": "l24t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz im Futur I.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Die", "Temperatur", "wird", "steigen"], "solution": "Die Temperatur wird steigen.", "explanation": "Im Futur I steht der Infinitiv am Satzende." },
+        { "id": "l24t07", "type": "cloze-conjugation", "instruction": "Konjugiere 'werden'.", "prompt": "Es ___ (werden) vermutlich wärmer werden.", "solution": "wird", "explanation": "Die 'es'-Form von 'werden' lautet 'wird'." },
+        { "id": "l24t08", "type": "targeted-transformation", "instruction": "Bilde das Futur I.", "prompt": "Roboter ersetzen viele Berufe.", "solution": "Roboter werden viele Berufe ersetzen.", "explanation": "Das Futur I bildet man mit 'werden' + Infinitiv." },
+        { "id": "l24t09", "type": "targeted-transformation", "instruction": "Sage, dass ein großer Wandel stattfinden wird.", "prompt": "ein großer Wandel / stattfinden (Futur I)", "solution": "Ein großer Wandel wird stattfinden.", "explanation": "Das Futur I bildet man mit 'werden' + Infinitiv." },
+        { "id": "l24t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Die Welt wird sich verändert.", "solution": "Die Welt wird sich verändern.", "explanation": "Im Futur I steht nach 'wird' der Infinitiv, nicht das Partizip II." }
+      ]
+    }
+  ]
+}

@@ -252,6 +252,54 @@ export const MODUL_CATALOG: ModulSummary[] = [
       { lektionId: 'b1-m4-l12', lektionNumber: 12, title: 'Im Restaurant' },
     ],
   },
+  {
+    modulId: 'b1-m5',
+    level: 'B1',
+    modulNumber: 5,
+    title: 'Roboter und Bewerbung',
+    path: 'data/b1/modul-5.json',
+    lektionen: [
+      { lektionId: 'b1-m5-l13', lektionNumber: 13, title: 'Tierwelt' },
+      { lektionId: 'b1-m5-l14', lektionNumber: 14, title: 'Bewerbung' },
+      { lektionId: 'b1-m5-l15', lektionNumber: 15, title: 'Mein Roboter' },
+    ],
+  },
+  {
+    modulId: 'b1-m6',
+    level: 'B1',
+    modulNumber: 6,
+    title: 'Bank, Straßenkunst und Klinikalltag',
+    path: 'data/b1/modul-6.json',
+    lektionen: [
+      { lektionId: 'b1-m6-l16', lektionNumber: 16, title: 'Bei der Bank' },
+      { lektionId: 'b1-m6-l17', lektionNumber: 17, title: 'Straßenkunst' },
+      { lektionId: 'b1-m6-l18', lektionNumber: 18, title: 'Im Klinikalltag' },
+    ],
+  },
+  {
+    modulId: 'b1-m7',
+    level: 'B1',
+    modulNumber: 7,
+    title: 'Behörden, Verzicht und Regeln',
+    path: 'data/b1/modul-7.json',
+    lektionen: [
+      { lektionId: 'b1-m7-l19', lektionNumber: 19, title: 'Beim Amt' },
+      { lektionId: 'b1-m7-l20', lektionNumber: 20, title: 'Verzicht und Alternativen' },
+      { lektionId: 'b1-m7-l21', lektionNumber: 21, title: 'Regeln am Arbeitsplatz' },
+    ],
+  },
+  {
+    modulId: 'b1-m8',
+    level: 'B1',
+    modulNumber: 8,
+    title: 'Politik, Rückblicke und Zukunft',
+    path: 'data/b1/modul-8.json',
+    lektionen: [
+      { lektionId: 'b1-m8-l22', lektionNumber: 22, title: 'Ein politisches Leben' },
+      { lektionId: 'b1-m8-l23', lektionNumber: 23, title: 'Was wäre gewesen, wenn ...' },
+      { lektionId: 'b1-m8-l24', lektionNumber: 24, title: 'Zukunftsprognosen' },
+    ],
+  },
 ];
 
 const modulCache = new Map<string, ModulPackage>();
