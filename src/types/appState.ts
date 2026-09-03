@@ -42,12 +42,35 @@ export interface LektionProgressEntry {
   test: TestScore;
 }
 
+// Per-word Leitner-box state for the Wortschatz-Trainer (see lib/vocabSrs.ts).
+// Keyed by normalized term (lib/vocabPool.ts) rather than the vocabulary
+// item's own `id`, since those ids are only unique within a single Lektion
+// and collide across Lektionen/Levels (e.g. every Lektion 1 starts its
+// vocab ids back at "l1v01").
+export interface VocabWordProgress {
+  box: number;
+  seenCount: number;
+  correctCount: number;
+  lastSeen: string;
+  dueAt: string;
+}
+
+export interface VocabTrainerState {
+  words: Record<string, VocabWordProgress>;
+  xp: number;
+  bestSessionStreak: number;
+  sessionsCompleted: number;
+  lastPracticeDate: string | null;
+  dailyStreak: number;
+}
+
 export interface AppState {
   version: 2;
   updatedAt: string;
   preferences: Preferences;
   vocabularyProgress: Record<string, VocabularyProgressEntry>;
   lektionProgress: Record<string, LektionProgressEntry>;
+  vocabTrainer: VocabTrainerState;
 }
 
 export const emptyTierScore = (): TierScore => ({
@@ -73,6 +96,23 @@ export const emptyLektionProgress = (): LektionProgressEntry => ({
   test: emptyTestScore(),
 });
 
+export const emptyVocabWordProgress = (): VocabWordProgress => ({
+  box: 0,
+  seenCount: 0,
+  correctCount: 0,
+  lastSeen: new Date(0).toISOString(),
+  dueAt: new Date(0).toISOString(),
+});
+
+export const emptyVocabTrainerState = (): VocabTrainerState => ({
+  words: {},
+  xp: 0,
+  bestSessionStreak: 0,
+  sessionsCompleted: 0,
+  lastPracticeDate: null,
+  dailyStreak: 0,
+});
+
 export const createInitialAppState = (): AppState => ({
   version: 2,
   updatedAt: new Date(0).toISOString(),
@@ -83,4 +123,5 @@ export const createInitialAppState = (): AppState => ({
   },
   vocabularyProgress: {},
   lektionProgress: {},
+  vocabTrainer: emptyVocabTrainerState(),
 });

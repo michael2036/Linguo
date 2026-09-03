@@ -95,9 +95,12 @@ const useStyles = makeStyles({
 interface VocabFlashcardsProps {
   items: VocabularyItem[];
   onComplete: (recognitionRatePercent: number) => void;
+  // Fired for each card as it's rated, before onComplete — lets the
+  // Wortschatz-Trainer update per-word spaced-repetition state live.
+  onCardComplete?: (item: VocabularyItem, known: boolean) => void;
 }
 
-export const VocabFlashcards = ({ items, onComplete }: VocabFlashcardsProps) => {
+export const VocabFlashcards = ({ items, onComplete, onCardComplete }: VocabFlashcardsProps) => {
   const styles = useStyles();
   const [index, setIndex] = useState(0);
   const [flipped, setFlipped] = useState(false);
@@ -118,6 +121,7 @@ export const VocabFlashcards = ({ items, onComplete }: VocabFlashcardsProps) => 
   }, []);
 
   const advance = (known: boolean) => {
+    onCardComplete?.(current, known);
     const nextKnown = knownCount + (known ? 1 : 0);
     setKnownCount(nextKnown);
     if (index + 1 >= items.length) {

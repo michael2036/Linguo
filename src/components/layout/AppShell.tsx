@@ -2,6 +2,8 @@ import type { ReactNode } from 'react';
 import { useLocation } from 'react-router-dom';
 import { Button, makeStyles, mergeClasses, shorthands, tokens, Text } from '@fluentui/react-components';
 import {
+  Brain24Regular,
+  Brain24Filled,
   Home24Regular,
   Home24Filled,
   Settings24Regular,
@@ -10,6 +12,7 @@ import {
 } from '@fluentui/react-icons';
 
 const HomeIcon = bundleIcon(Home24Filled, Home24Regular);
+const VocabTrainerIcon = bundleIcon(Brain24Filled, Brain24Regular);
 const SettingsIcon = bundleIcon(Settings24Filled, Settings24Regular);
 
 const useStyles = makeStyles({
@@ -129,6 +132,7 @@ export const AppShell = ({ children }: AppShellProps) => {
   const location = useLocation();
 
   const isHome = location.pathname === '/' || location.pathname.startsWith('/lektion');
+  const isVocabTrainer = location.pathname.startsWith('/vocab-trainer');
   const isSettings = location.pathname === '/settings';
 
   return (
@@ -144,6 +148,14 @@ export const AppShell = ({ children }: AppShellProps) => {
           <Button as="a" href="#/" appearance={isHome ? 'primary' : 'subtle'} icon={<HomeIcon />}>
             Lektionen
           </Button>
+          <Button
+            as="a"
+            href="#/vocab-trainer"
+            appearance={isVocabTrainer ? 'primary' : 'subtle'}
+            icon={<VocabTrainerIcon />}
+          >
+            Wortschatz
+          </Button>
           <Button as="a" href="#/settings" appearance={isSettings ? 'primary' : 'subtle'} icon={<SettingsIcon />}>
             Einstellungen
           </Button>
@@ -156,6 +168,10 @@ export const AppShell = ({ children }: AppShellProps) => {
         <a href="#/" className={mergeClasses(styles.navItem, isHome && styles.navItemActive)}>
           <HomeIcon />
           <span className={styles.navLabel}>Lektionen</span>
+        </a>
+        <a href="#/vocab-trainer" className={mergeClasses(styles.navItem, isVocabTrainer && styles.navItemActive)}>
+          <VocabTrainerIcon />
+          <span className={styles.navLabel}>Wortschatz</span>
         </a>
         <a href="#/settings" className={mergeClasses(styles.navItem, isSettings && styles.navItemActive)}>
           <SettingsIcon />

@@ -1,4 +1,5 @@
 import type { AppState } from '../types/appState';
+import { createInitialAppState } from '../types/appState';
 
 // Bumped to v2 alongside the AppState schema change (chapterProgress ->
 // lektionProgress, added Test tracking) -- old v1 data is a different shape
@@ -10,7 +11,11 @@ export const loadLocalState = (): AppState | null => {
   try {
     const raw = window.localStorage.getItem(STORAGE_KEY);
     if (!raw) return null;
-    return JSON.parse(raw) as AppState;
+    const parsed = JSON.parse(raw) as Partial<AppState>;
+    // Backfills any top-level field added to AppState after this user's data
+    // was last saved (e.g. `vocabTrainer`) with its default, rather than
+    // requiring a version bump for every additive change.
+    return { ...createInitialAppState(), ...parsed };
   } catch {
     return null;
   }

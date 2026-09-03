@@ -87,9 +87,12 @@ interface ExerciseRunnerProps {
   tierLabel: string;
   items: ExerciseItem[];
   onComplete: (scorePercent: number) => void;
+  // Fired for each item as it's graded, before onComplete — lets the
+  // Wortschatz-Trainer update per-word spaced-repetition state live.
+  onItemComplete?: (item: ExerciseItem, correct: boolean) => void;
 }
 
-export const ExerciseRunner = ({ tierLabel, items, onComplete }: ExerciseRunnerProps) => {
+export const ExerciseRunner = ({ tierLabel, items, onComplete, onItemComplete }: ExerciseRunnerProps) => {
   const styles = useStyles();
   const [index, setIndex] = useState(0);
   const [textValue, setTextValue] = useState('');
@@ -120,6 +123,7 @@ export const ExerciseRunner = ({ tierLabel, items, onComplete }: ExerciseRunnerP
       setShake(true);
       window.setTimeout(() => setShake(false), 400);
     }
+    onItemComplete?.(item, correct);
     setSubmitted(true);
   };
 

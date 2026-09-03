@@ -6,9 +6,10 @@ import type {
   ThemePreference,
   Tier,
 } from '../types/appState';
-import { createInitialAppState, emptyLektionProgress } from '../types/appState';
+import { createInitialAppState, emptyLektionProgress, emptyVocabTrainerState } from '../types/appState';
 import { getSyncPending, loadLocalState, saveLocalState, setSyncPending } from '../lib/localStore';
 import { computeLektionStatus } from '../lib/scoring';
+import { applyAnswer } from '../lib/vocabSrs';
 import { syncAppState } from '../lib/driveSync';
 import { isSignedIn, requestSignIn, signOut as googleSignOut } from '../lib/googleAuth';
 
@@ -25,6 +26,8 @@ interface AppStore {
   markVocabCompleted: (lektionId: string, recognitionRate: number) => void;
   recordTierResult: (lektionId: string, tier: Tier, score: number) => void;
   recordTestResult: (lektionId: string, score: number) => void;
+  recordVocabAnswer: (termKey: string, correct: boolean, xpOnCorrect: number) => void;
+  finishVocabSession: (bestStreakInSession: number) => void;
   resetProgress: () => void;
 
   connectGoogle: () => Promise<void>;
@@ -127,12 +130,74 @@ export const useAppStore = create<AppStore>((set, get) => ({
     persistAndMaybeSync(get, set);
   },
 
+  // Wortschatz-Trainer per-word result — updates that word's Leitner box
+  // (see lib/vocabSrs.ts) and awards XP on a correct answer. `termKey` is
+  // the normalized-term identity from lib/vocabPool.ts, not a vocabulary
+  // item id (those aren't globally unique).
+  recordVocabAnswer: (termKey, correct, xpOnCorrect) => {
+    set((s) => {
+      const trainer = s.state.vocabTrainer;
+      const nextWord = applyAnswer(trainer.words[termKey], correct);
+      return {
+        state: touch({
+          ...s.state,
+          vocabTrainer: {
+            ...trainer,
+            words: { ...trainer.words, [termKey]: nextWord },
+            xp: trainer.xp + (correct ? xpOnCorrect : 0),
+          },
+        }),
+      };
+    });
+    persistAndMaybeSync(get, set);
+  },
+
+  // Called once per finished practice/test round: records the session and
+  // rolls the daily streak forward (consecutive calendar days with at least
+  // one round played), resetting it if a day was missed.
+  finishVocabSession: (bestStreakInSession) => {
+    set((s) => {
+      const trainer = s.state.vocabTrainer;
+      const today = new Date().toISOString().slice(0, 10);
+      let dailyStreak: number;
+      if (trainer.lastPracticeDate === today) {
+        dailyStreak = trainer.dailyStreak;
+      } else if (trainer.lastPracticeDate) {
+        const diffDays = Math.round(
+          (new Date(`${today}T00:00:00`).getTime() - new Date(`${trainer.lastPracticeDate}T00:00:00`).getTime()) /
+            86_400_000,
+        );
+        dailyStreak = diffDays === 1 ? trainer.dailyStreak + 1 : 1;
+      } else {
+        dailyStreak = 1;
+      }
+      return {
+        state: touch({
+          ...s.state,
+          vocabTrainer: {
+            ...trainer,
+            sessionsCompleted: trainer.sessionsCompleted + 1,
+            bestSessionStreak: Math.max(trainer.bestSessionStreak, bestStreakInSession),
+            lastPracticeDate: today,
+            dailyStreak,
+          },
+        }),
+      };
+    });
+    persistAndMaybeSync(get, set);
+  },
+
   // Explicit user action from Settings — clears learning progress only,
   // never preferences. Distinct from disconnecting Google (FR-03), which
   // must never implicitly wipe local data.
   resetProgress: () => {
     set((s) => ({
-      state: touch({ ...s.state, vocabularyProgress: {}, lektionProgress: {} }),
+      state: touch({
+        ...s.state,
+        vocabularyProgress: {},
+        lektionProgress: {},
+        vocabTrainer: emptyVocabTrainerState(),
+      }),
     }));
     persistAndMaybeSync(get, set);
   },
