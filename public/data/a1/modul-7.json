@@ -1,0 +1,245 @@
+{
+  "modulId": "a1-m7",
+  "level": "A1",
+  "modulNumber": 7,
+  "title": "Haushalt, Arbeit und Regeln",
+  "lektionen": [
+    {
+      "lektionId": "a1-m7-l19",
+      "level": "A1",
+      "modulNumber": 7,
+      "lektionNumber": 19,
+      "title": "Haushalt",
+      "grammarFocus": [
+        "Imperativ (du-Form)",
+        "Hausarbeiten-Vokabular"
+      ],
+      "vocabulary": [
+        { "id": "l19v01", "term": "die Spülmaschine", "translation": "el lavavajillas", "partOfSpeech": "noun", "gender": "die", "plural": "die Spülmaschinen", "example": "Ich räume die Spülmaschine aus." },
+        { "id": "l19v02", "term": "ausräumen", "translation": "vaciar", "partOfSpeech": "verb", "example": "Räum die Spülmaschine aus!" },
+        { "id": "l19v03", "term": "abwaschen", "translation": "fregar", "partOfSpeech": "verb", "example": "Wasch das Geschirr ab!" },
+        { "id": "l19v04", "term": "das Geschirr", "translation": "la vajilla", "partOfSpeech": "noun", "gender": "das", "example": "Das Geschirr ist schmutzig." },
+        { "id": "l19v05", "term": "das Bett", "translation": "la cama", "partOfSpeech": "noun", "gender": "das", "plural": "die Betten", "example": "Mach die Betten!" },
+        { "id": "l19v06", "term": "die Wäsche", "translation": "la ropa (para lavar)", "partOfSpeech": "noun", "gender": "die", "example": "Wasch die Wäsche!" },
+        { "id": "l19v07", "term": "einkaufen", "translation": "comprar", "partOfSpeech": "verb", "example": "Kauf bitte ein!" },
+        { "id": "l19v08", "term": "sauber machen", "translation": "limpiar", "partOfSpeech": "phrase", "example": "Mach die Küche sauber!" },
+        { "id": "l19v09", "term": "der Boden", "translation": "el suelo", "partOfSpeech": "noun", "gender": "der", "plural": "die Böden", "example": "Wisch den Boden!" },
+        { "id": "l19v10", "term": "wischen", "translation": "fregar (el suelo)", "partOfSpeech": "verb", "example": "Wisch den Boden!" },
+        { "id": "l19v11", "term": "putzen", "translation": "limpiar", "partOfSpeech": "verb", "example": "Putz das Bad!" },
+        { "id": "l19v12", "term": "vergessen", "translation": "olvidar", "partOfSpeech": "verb", "example": "Vergiss das nicht!" },
+        { "id": "l19v13", "term": "sauer", "translation": "enfadado", "partOfSpeech": "adjective", "example": "Sei nicht gleich sauer!" },
+        { "id": "l19v14", "term": "helfen", "translation": "ayudar", "partOfSpeech": "verb", "example": "Du hast mir sehr geholfen." },
+        { "id": "l19v15", "term": "der Müll", "translation": "la basura", "partOfSpeech": "noun", "gender": "der", "example": "Wer bringt den Müll raus?" },
+        { "id": "l19v16", "term": "die Teeküche", "translation": "la cocina de oficina", "partOfSpeech": "noun", "gender": "die", "plural": "die Teeküchen", "example": "Das Geschirr ist in der Teeküche." }
+      ],
+      "practice": {
+        "easy": [
+          { "id": "l19e01", "type": "multiple-choice", "instruction": "Wähle die richtige Imperativform.", "prompt": "___ die Spülmaschine aus!", "options": ["Räum", "Räumst", "Räumt", "Räumen"], "solution": "Räum", "hint": "Imperativ 'du'-Form.", "explanation": "Der Imperativ für 'du' bei 'ausräumen' lautet 'Räum ... aus'." },
+          { "id": "l19e02", "type": "multiple-choice", "instruction": "Wähle die richtige Imperativform.", "prompt": "___ das Geschirr ab!", "options": ["Wasch", "Wäschst", "Wascht", "Waschen"], "solution": "Wasch", "hint": "Imperativ 'du'-Form.", "explanation": "Der Imperativ für 'du' bei 'abwaschen' lautet 'Wasch ... ab'." },
+          { "id": "l19e03", "type": "multiple-choice", "instruction": "Wähle die richtige Imperativform.", "prompt": "___ die Betten!", "options": ["Mach", "Machst", "Macht", "Machen"], "solution": "Mach", "hint": "Imperativ 'du'-Form.", "explanation": "Der Imperativ für 'du' bei 'machen' lautet 'Mach'." },
+          { "id": "l19e04", "type": "multiple-choice", "instruction": "Wähle die richtige Imperativform.", "prompt": "___ die Wäsche!", "options": ["Wasch", "Wäschst", "Wascht", "Waschen"], "solution": "Wasch", "hint": "Imperativ 'du'-Form.", "explanation": "Der Imperativ für 'du' bei 'waschen' lautet 'Wasch'." },
+          { "id": "l19e05", "type": "multiple-choice", "instruction": "Wähle die richtige Imperativform.", "prompt": "___ bitte nicht!", "options": ["Vergiss", "Vergisst", "Vergesst", "Vergessen"], "solution": "Vergiss", "hint": "Unregelmäßiger Imperativ.", "explanation": "Der Imperativ für 'du' bei 'vergessen' lautet 'Vergiss'." },
+          { "id": "l19e06", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Wäsche", "options": ["der", "die", "das"], "solution": "die", "hint": "'Wäsche' ist feminin.", "explanation": "'Wäsche' ist feminin: die Wäsche." },
+          { "id": "l19e07", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Geschirr", "options": ["der", "die", "das"], "solution": "das", "hint": "'Geschirr' ist neutral.", "explanation": "'Geschirr' ist neutral: das Geschirr." },
+          { "id": "l19e08", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Wer bringt den ___ raus? (Müll)", "solution": "Müll", "hint": "Ein Substantiv.", "explanation": "'Müll' ist das gesuchte Substantiv." },
+          { "id": "l19e09", "type": "fill-in-blank", "instruction": "Ergänze das Partizip II.", "prompt": "Du hast mir sehr ___. (helfen)", "solution": "geholfen", "hint": "Unregelmäßiges Verb.", "explanation": "Das Partizip II von 'helfen' lautet 'geholfen'." },
+          { "id": "l19e10", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Sei nicht gleich ___!", "options": ["sauer", "sauber", "satt", "süß"], "solution": "sauer", "hint": "Ärgerlich sein.", "explanation": "'sauer' bedeutet hier ärgerlich." }
+        ],
+        "medium": [
+          { "id": "l19m01", "type": "sentence-scramble", "instruction": "Bilde eine Aufforderung.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Räum", "die", "Spülmaschine", "aus"], "solution": "Räum die Spülmaschine aus!", "hint": "Trennbares Verb im Imperativ: Präfix am Satzende.", "explanation": "Im Imperativ steht das Präfix des trennbaren Verbs am Satzende." },
+          { "id": "l19m02", "type": "sentence-scramble", "instruction": "Bilde eine Aufforderung.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Wasch", "das", "Geschirr", "ab"], "solution": "Wasch das Geschirr ab!", "hint": "Trennbares Verb im Imperativ: Präfix am Satzende.", "explanation": "Im Imperativ steht das Präfix des trennbaren Verbs am Satzende." },
+          { "id": "l19m03", "type": "sentence-scramble", "instruction": "Bilde eine Aufforderung.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Mach", "die", "Betten"], "solution": "Mach die Betten!", "hint": "Imperativ 'du'-Form.", "explanation": "Der Imperativ für 'du' bei 'machen' lautet 'Mach'." },
+          { "id": "l19m04", "type": "sentence-scramble", "instruction": "Bilde eine Aufforderung.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Vergiss", "das", "nicht"], "solution": "Vergiss das nicht!", "hint": "Imperativ 'du'-Form.", "explanation": "Der Imperativ für 'du' bei 'vergessen' lautet 'Vergiss'." },
+          { "id": "l19m05", "type": "sentence-scramble", "instruction": "Bilde eine Aufforderung.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Sei", "nicht", "gleich", "sauer"], "solution": "Sei nicht gleich sauer!", "hint": "Imperativ von 'sein': Sei.", "explanation": "Der Imperativ für 'du' bei 'sein' lautet 'Sei'." },
+          { "id": "l19m06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Du", "hast", "mir", "sehr", "geholfen"], "solution": "Du hast mir sehr geholfen.", "hint": "Perfekt: Hilfsverb an Position 2.", "explanation": "Im Perfekt steht das Hilfsverb 'hast' an Position 2." },
+          { "id": "l19m07", "type": "cloze-conjugation", "instruction": "Bilde den Imperativ.", "prompt": "___ (wischen) den Boden!", "solution": "Wisch", "hint": "Imperativ 'du'-Form.", "explanation": "Der Imperativ für 'du' bei 'wischen' lautet 'Wisch'." },
+          { "id": "l19m08", "type": "cloze-conjugation", "instruction": "Bilde den Imperativ.", "prompt": "___ (putzen) das Bad!", "solution": "Putz", "hint": "Imperativ 'du'-Form.", "explanation": "Der Imperativ für 'du' bei 'putzen' lautet 'Putz'." },
+          { "id": "l19m09", "type": "cloze-conjugation", "instruction": "Bilde den Imperativ.", "prompt": "___ (einkaufen) bitte ein!", "solution": "Kauf", "hint": "Trennbares Verb im Imperativ.", "explanation": "Der Imperativ für 'du' bei 'einkaufen' lautet 'Kauf ... ein'." },
+          { "id": "l19m10", "type": "cloze-conjugation", "instruction": "Bilde den Imperativ.", "prompt": "___ (machen) die Küche sauber!", "solution": "Mach", "hint": "Imperativ 'du'-Form.", "explanation": "Der Imperativ für 'du' bei 'machen' lautet 'Mach'." }
+        ],
+        "hard": [
+          { "id": "l19h01", "type": "targeted-transformation", "instruction": "Fordere auf.", "prompt": "die Spülmaschine ausräumen", "solution": "Räum die Spülmaschine aus!", "hint": "Imperativ, trennbares Verb.", "explanation": "Im Imperativ steht das Präfix des trennbaren Verbs am Satzende." },
+          { "id": "l19h02", "type": "targeted-transformation", "instruction": "Fordere auf.", "prompt": "das Geschirr abwaschen", "solution": "Wasch das Geschirr ab!", "hint": "Imperativ, trennbares Verb.", "explanation": "Im Imperativ steht das Präfix des trennbaren Verbs am Satzende." },
+          { "id": "l19h03", "type": "targeted-transformation", "instruction": "Fordere auf.", "prompt": "die Betten machen", "solution": "Mach die Betten!", "hint": "Imperativ 'du'-Form.", "explanation": "Der Imperativ für 'du' bei 'machen' lautet 'Mach'." },
+          { "id": "l19h04", "type": "targeted-transformation", "instruction": "Fordere auf.", "prompt": "nicht vergessen", "solution": "Vergiss das nicht!", "hint": "Imperativ 'du'-Form.", "explanation": "Der Imperativ für 'du' bei 'vergessen' lautet 'Vergiss'." },
+          { "id": "l19h05", "type": "targeted-transformation", "instruction": "Fordere auf.", "prompt": "nicht sauer sein", "solution": "Sei nicht gleich sauer!", "hint": "Imperativ von 'sein'.", "explanation": "Der Imperativ für 'du' bei 'sein' lautet 'Sei'." },
+          { "id": "l19h06", "type": "targeted-transformation", "instruction": "Fordere auf.", "prompt": "den Boden wischen", "solution": "Wisch den Boden!", "hint": "Imperativ 'du'-Form.", "explanation": "Der Imperativ für 'du' bei 'wischen' lautet 'Wisch'." },
+          { "id": "l19h07", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Räumst die Spülmaschine aus!", "solution": "Räum die Spülmaschine aus!", "hint": "Imperativ 'du' ohne -st.", "explanation": "Der Imperativ für 'du' hat keine Endung '-st'." },
+          { "id": "l19h08", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Machst die Betten!", "solution": "Mach die Betten!", "hint": "Imperativ 'du' ohne -st.", "explanation": "Der Imperativ für 'du' hat keine Endung '-st'." },
+          { "id": "l19h09", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Vergisst das nicht!", "solution": "Vergiss das nicht!", "hint": "Unregelmäßiger Imperativ.", "explanation": "Der Imperativ für 'du' bei 'vergessen' lautet 'Vergiss', nicht 'Vergisst'." },
+          { "id": "l19h10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Sei nicht gleich sauber!", "solution": "Sei nicht gleich sauer!", "hint": "'sauer' bedeutet ärgerlich.", "explanation": "'sauer' (ärgerlich) darf nicht mit 'sauber' (limpio) verwechselt werden." }
+        ]
+      },
+      "test": [
+        { "id": "l19t01", "type": "multiple-choice", "instruction": "Wähle die richtige Imperativform.", "prompt": "___ die Spülmaschine aus!", "options": ["Räum", "Räumst", "Räumt", "Räumen"], "solution": "Räum", "explanation": "Der Imperativ für 'du' bei 'ausräumen' lautet 'Räum ... aus'." },
+        { "id": "l19t02", "type": "multiple-choice", "instruction": "Wähle die richtige Imperativform.", "prompt": "___ die Betten!", "options": ["Mach", "Machst", "Macht", "Machen"], "solution": "Mach", "explanation": "Der Imperativ für 'du' bei 'machen' lautet 'Mach'." },
+        { "id": "l19t03", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Wer bringt den ___ raus? (Müll)", "solution": "Müll", "explanation": "'Müll' ist das gesuchte Substantiv." },
+        { "id": "l19t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Geschirr", "options": ["der", "die", "das"], "solution": "das", "explanation": "'Geschirr' ist neutral: das Geschirr." },
+        { "id": "l19t05", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Sei nicht gleich ___!", "options": ["sauer", "sauber", "satt", "süß"], "solution": "sauer", "explanation": "'sauer' bedeutet hier ärgerlich." },
+        { "id": "l19t06", "type": "sentence-scramble", "instruction": "Bilde eine Aufforderung.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Vergiss", "das", "nicht"], "solution": "Vergiss das nicht!", "explanation": "Der Imperativ für 'du' bei 'vergessen' lautet 'Vergiss'." },
+        { "id": "l19t07", "type": "cloze-conjugation", "instruction": "Bilde den Imperativ.", "prompt": "___ (putzen) das Bad!", "solution": "Putz", "explanation": "Der Imperativ für 'du' bei 'putzen' lautet 'Putz'." },
+        { "id": "l19t08", "type": "targeted-transformation", "instruction": "Fordere auf.", "prompt": "die Betten machen", "solution": "Mach die Betten!", "explanation": "Der Imperativ für 'du' bei 'machen' lautet 'Mach'." },
+        { "id": "l19t09", "type": "targeted-transformation", "instruction": "Fordere auf.", "prompt": "nicht sauer sein", "solution": "Sei nicht gleich sauer!", "explanation": "Der Imperativ für 'du' bei 'sein' lautet 'Sei'." },
+        { "id": "l19t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Machst die Betten!", "solution": "Mach die Betten!", "explanation": "Der Imperativ für 'du' hat keine Endung '-st'." }
+      ]
+    },
+    {
+      "lektionId": "a1-m7-l20",
+      "level": "A1",
+      "modulNumber": 7,
+      "lektionNumber": 20,
+      "title": "Bewerbung",
+      "grammarFocus": [
+        "Berufsbezeichnungen",
+        "Perfekt-Wiederholung: haben und sein gemischt"
+      ],
+      "vocabulary": [
+        { "id": "l20v01", "term": "die Chefin", "translation": "la jefa", "partOfSpeech": "noun", "gender": "die", "plural": "die Chefinnen", "example": "May ist die Chefin." },
+        { "id": "l20v02", "term": "der Projektmanager", "translation": "el gerente de proyecto", "partOfSpeech": "noun", "gender": "der", "plural": "die Projektmanager", "example": "Er ist Projektmanager." },
+        { "id": "l20v03", "term": "die Organisationspsychologin", "translation": "la psicóloga organizacional", "partOfSpeech": "noun", "gender": "die", "plural": "die Organisationspsychologinnen", "example": "Sie ist Organisationspsychologin." },
+        { "id": "l20v04", "term": "der Logistikexperte", "translation": "el experto en logística", "partOfSpeech": "noun", "gender": "der", "plural": "die Logistikexperten", "example": "Er ist Logistikexperte." },
+        { "id": "l20v05", "term": "der IT-Berater", "translation": "el consultor de TI", "partOfSpeech": "noun", "gender": "der", "plural": "die IT-Berater", "example": "Er ist IT-Berater." },
+        { "id": "l20v06", "term": "zufrieden", "translation": "satisfecho", "partOfSpeech": "adjective", "example": "Ich bin sehr zufrieden." },
+        { "id": "l20v07", "term": "die Stelle", "translation": "el puesto de trabajo", "partOfSpeech": "noun", "gender": "die", "plural": "die Stellen", "example": "Ich habe die Stelle bekommen." },
+        { "id": "l20v08", "term": "bekommen", "translation": "recibir / conseguir", "partOfSpeech": "verb", "example": "Ich habe die Stelle bekommen." },
+        { "id": "l20v09", "term": "verpassen", "translation": "perder (algo)", "partOfSpeech": "verb", "example": "Ich habe den Bus verpasst." },
+        { "id": "l20v10", "term": "verlieren", "translation": "perder (un objeto)", "partOfSpeech": "verb", "example": "Ich habe mein Handy verloren." },
+        { "id": "l20v11", "term": "vergessen", "translation": "olvidar", "partOfSpeech": "verb", "example": "Ich habe mein Geld vergessen." },
+        { "id": "l20v12", "term": "das Päckchen", "translation": "el paquete pequeño", "partOfSpeech": "noun", "gender": "das", "plural": "die Päckchen", "example": "Ich habe ein Päckchen bekommen." },
+        { "id": "l20v13", "term": "der Spaß", "translation": "la diversión", "partOfSpeech": "noun", "gender": "der", "example": "Wir haben viel Spaß gehabt." },
+        { "id": "l20v14", "term": "der Freund", "translation": "el amigo", "partOfSpeech": "noun", "gender": "der", "plural": "die Freunde", "example": "Ich habe einen Freund besucht." },
+        { "id": "l20v15", "term": "spät", "translation": "tarde", "partOfSpeech": "adjective", "example": "Ich bin zu spät gekommen." },
+        { "id": "l20v16", "term": "gefallen", "translation": "gustar", "partOfSpeech": "verb", "example": "Das Kleid hat mir nicht gefallen." }
+      ],
+      "practice": {
+        "easy": [
+          { "id": "l20e01", "type": "multiple-choice", "instruction": "Wähle das richtige Hilfsverb.", "prompt": "Ich ___ die Stelle bekommen.", "options": ["habe", "bin", "hatte", "war"], "solution": "habe", "hint": "'bekommen' → Perfekt mit 'haben'.", "explanation": "'bekommen' bildet das Perfekt mit 'haben'." },
+          { "id": "l20e02", "type": "multiple-choice", "instruction": "Wähle das richtige Hilfsverb.", "prompt": "Ich ___ zu spät gekommen.", "options": ["bin", "habe", "war", "hatte"], "solution": "bin", "hint": "Bewegungsverb → Perfekt mit 'sein'.", "explanation": "'kommen' bildet das Perfekt mit 'sein'." },
+          { "id": "l20e03", "type": "multiple-choice", "instruction": "Wähle das richtige Partizip II.", "prompt": "Ich habe mein Handy ___. (verlieren)", "options": ["verloren", "verlorst", "verlor", "verliert"], "solution": "verloren", "hint": "Unregelmäßiges Verb.", "explanation": "Das Partizip II von 'verlieren' lautet 'verloren'." },
+          { "id": "l20e04", "type": "multiple-choice", "instruction": "Wähle das richtige Partizip II.", "prompt": "Ich habe den Bus ___. (verpassen)", "options": ["verpasst", "verpasse", "verpasste", "verpassen"], "solution": "verpasst", "hint": "Regelmäßiges Verb.", "explanation": "Das Partizip II von 'verpassen' lautet 'verpasst'." },
+          { "id": "l20e05", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Ich bin sehr ___.", "options": ["zufrieden", "verloren", "vergessen", "spät"], "solution": "zufrieden", "hint": "Ein Gefühl der Freude.", "explanation": "'zufrieden' beschreibt ein positives Gefühl." },
+          { "id": "l20e06", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Stelle", "options": ["der", "die", "das"], "solution": "die", "hint": "'Stelle' ist feminin.", "explanation": "'Stelle' ist feminin: die Stelle." },
+          { "id": "l20e07", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Spaß", "options": ["der", "die", "das"], "solution": "der", "hint": "'Spaß' ist maskulin.", "explanation": "'Spaß' ist maskulin: der Spaß." },
+          { "id": "l20e08", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Ich habe ein ___ bekommen. (Päckchen)", "solution": "Päckchen", "hint": "Ein Substantiv.", "explanation": "'Päckchen' ist das gesuchte Substantiv." },
+          { "id": "l20e09", "type": "fill-in-blank", "instruction": "Ergänze das Partizip II.", "prompt": "Das Kleid hat mir nicht ___. (gefallen)", "solution": "gefallen", "hint": "Unregelmäßiges Verb.", "explanation": "Das Partizip II von 'gefallen' lautet 'gefallen'." },
+          { "id": "l20e10", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "May ist die ___.", "options": ["Chefin", "Stelle", "Freund", "Spaß"], "solution": "Chefin", "hint": "Die Leiterin.", "explanation": "'Chefin' bezeichnet die Leiterin eines Unternehmens." }
+        ],
+        "medium": [
+          { "id": "l20m01", "type": "sentence-scramble", "instruction": "Bilde das Perfekt.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "habe", "die", "Stelle", "bekommen"], "solution": "Ich habe die Stelle bekommen.", "hint": "Hilfsverb 'habe', Partizip II am Ende.", "explanation": "'bekommen' bildet das Perfekt mit 'haben'; das Partizip II steht am Satzende." },
+          { "id": "l20m02", "type": "sentence-scramble", "instruction": "Bilde das Perfekt.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "bin", "zu", "spät", "gekommen"], "solution": "Ich bin zu spät gekommen.", "hint": "Hilfsverb 'bin', Partizip II am Ende.", "explanation": "'kommen' bildet das Perfekt mit 'sein'; das Partizip II steht am Satzende." },
+          { "id": "l20m03", "type": "sentence-scramble", "instruction": "Bilde das Perfekt.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "habe", "mein", "Handy", "verloren"], "solution": "Ich habe mein Handy verloren.", "hint": "Hilfsverb 'habe', Partizip II am Ende.", "explanation": "'verlieren' bildet das Perfekt mit 'haben'; das Partizip II steht am Satzende." },
+          { "id": "l20m04", "type": "sentence-scramble", "instruction": "Bilde das Perfekt.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "habe", "den", "Bus", "verpasst"], "solution": "Ich habe den Bus verpasst.", "hint": "Hilfsverb 'habe', Partizip II am Ende.", "explanation": "'verpassen' bildet das Perfekt mit 'haben'; das Partizip II steht am Satzende." },
+          { "id": "l20m05", "type": "sentence-scramble", "instruction": "Bilde das Perfekt.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Wir", "haben", "viel", "Spaß", "gehabt"], "solution": "Wir haben viel Spaß gehabt.", "hint": "Hilfsverb 'haben', Partizip II am Ende.", "explanation": "'haben' bildet das eigene Perfekt mit 'gehabt' am Satzende." },
+          { "id": "l20m06", "type": "sentence-scramble", "instruction": "Bilde das Perfekt.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "habe", "einen", "Freund", "besucht"], "solution": "Ich habe einen Freund besucht.", "hint": "Hilfsverb 'habe', Partizip II am Ende.", "explanation": "'besuchen' bildet das Perfekt mit 'haben'; das Partizip II steht am Satzende." },
+          { "id": "l20m07", "type": "cloze-conjugation", "instruction": "Konjugiere das Hilfsverb.", "prompt": "Du ___ (haben) dein Geld vergessen.", "solution": "hast", "hint": "'du'-Form.", "explanation": "Die 'du'-Form von 'haben' lautet 'hast'." },
+          { "id": "l20m08", "type": "cloze-conjugation", "instruction": "Konjugiere das Hilfsverb.", "prompt": "Er ___ (sein) zu spät gekommen.", "solution": "ist", "hint": "3. Person Singular.", "explanation": "Die 'er'-Form von 'sein' lautet 'ist'." },
+          { "id": "l20m09", "type": "cloze-conjugation", "instruction": "Konjugiere das Hilfsverb.", "prompt": "Wir ___ (haben) ein Päckchen bekommen.", "solution": "haben", "hint": "'wir'-Form.", "explanation": "Die 'wir'-Form von 'haben' lautet 'haben'." },
+          { "id": "l20m10", "type": "cloze-conjugation", "instruction": "Konjugiere das Hilfsverb.", "prompt": "Das Kleid ___ (haben) mir nicht gefallen.", "solution": "hat", "hint": "3. Person Singular.", "explanation": "Die 'es'-Form von 'haben' lautet 'hat'." }
+        ],
+        "hard": [
+          { "id": "l20h01", "type": "targeted-transformation", "instruction": "Bilde das Perfekt.", "prompt": "Ich bekomme die Stelle.", "solution": "Ich habe die Stelle bekommen.", "hint": "'bekommen' → Perfekt mit 'haben'.", "explanation": "'bekommen' bildet das Perfekt mit 'haben'." },
+          { "id": "l20h02", "type": "targeted-transformation", "instruction": "Bilde das Perfekt.", "prompt": "Ich komme zu spät.", "solution": "Ich bin zu spät gekommen.", "hint": "Bewegungsverb → Perfekt mit 'sein'.", "explanation": "'kommen' bildet das Perfekt mit 'sein'." },
+          { "id": "l20h03", "type": "targeted-transformation", "instruction": "Bilde das Perfekt.", "prompt": "Ich verliere mein Handy.", "solution": "Ich habe mein Handy verloren.", "hint": "Partizip II von 'verlieren'.", "explanation": "Das Partizip II von 'verlieren' lautet 'verloren'." },
+          { "id": "l20h04", "type": "targeted-transformation", "instruction": "Bilde das Perfekt.", "prompt": "Ich verpasse den Bus.", "solution": "Ich habe den Bus verpasst.", "hint": "Partizip II von 'verpassen'.", "explanation": "Das Partizip II von 'verpassen' lautet 'verpasst'." },
+          { "id": "l20h05", "type": "targeted-transformation", "instruction": "Bilde das Perfekt.", "prompt": "Wir haben viel Spaß.", "solution": "Wir haben viel Spaß gehabt.", "hint": "Partizip II von 'haben'.", "explanation": "Das Partizip II von 'haben' lautet 'gehabt'." },
+          { "id": "l20h06", "type": "targeted-transformation", "instruction": "Bilde das Perfekt.", "prompt": "Das Kleid gefällt mir nicht.", "solution": "Das Kleid hat mir nicht gefallen.", "hint": "Partizip II von 'gefallen'.", "explanation": "Das Partizip II von 'gefallen' lautet 'gefallen'." },
+          { "id": "l20h07", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich bin die Stelle bekommen.", "solution": "Ich habe die Stelle bekommen.", "hint": "'bekommen' braucht 'haben'.", "explanation": "'bekommen' bildet das Perfekt mit 'haben', nicht mit 'sein'." },
+          { "id": "l20h08", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich habe zu spät gekommen.", "solution": "Ich bin zu spät gekommen.", "hint": "Bewegungsverb braucht 'sein'.", "explanation": "'kommen' bildet das Perfekt mit 'sein', nicht mit 'haben'." },
+          { "id": "l20h09", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich habe mein Handy verlor.", "solution": "Ich habe mein Handy verloren.", "hint": "Partizip II: verloren.", "explanation": "Das Partizip II von 'verlieren' lautet korrekt 'verloren'." },
+          { "id": "l20h10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich habe den Bus verpasse.", "solution": "Ich habe den Bus verpasst.", "hint": "Partizip II: verpasst.", "explanation": "Das Partizip II von 'verpassen' lautet korrekt 'verpasst'." }
+        ]
+      },
+      "test": [
+        { "id": "l20t01", "type": "multiple-choice", "instruction": "Wähle das richtige Hilfsverb.", "prompt": "Ich ___ die Stelle bekommen.", "options": ["habe", "bin", "hatte", "war"], "solution": "habe", "explanation": "'bekommen' bildet das Perfekt mit 'haben'." },
+        { "id": "l20t02", "type": "multiple-choice", "instruction": "Wähle das richtige Hilfsverb.", "prompt": "Ich ___ zu spät gekommen.", "options": ["bin", "habe", "war", "hatte"], "solution": "bin", "explanation": "'kommen' bildet das Perfekt mit 'sein'." },
+        { "id": "l20t03", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Ich habe ein ___ bekommen. (Päckchen)", "solution": "Päckchen", "explanation": "'Päckchen' ist das gesuchte Substantiv." },
+        { "id": "l20t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Stelle", "options": ["der", "die", "das"], "solution": "die", "explanation": "'Stelle' ist feminin: die Stelle." },
+        { "id": "l20t05", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Ich bin sehr ___.", "options": ["zufrieden", "verloren", "vergessen", "spät"], "solution": "zufrieden", "explanation": "'zufrieden' beschreibt ein positives Gefühl." },
+        { "id": "l20t06", "type": "sentence-scramble", "instruction": "Bilde das Perfekt.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "habe", "den", "Bus", "verpasst"], "solution": "Ich habe den Bus verpasst.", "explanation": "'verpassen' bildet das Perfekt mit 'haben'; das Partizip II steht am Satzende." },
+        { "id": "l20t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Hilfsverb.", "prompt": "Wir ___ (haben) ein Päckchen bekommen.", "solution": "haben", "explanation": "Die 'wir'-Form von 'haben' lautet 'haben'." },
+        { "id": "l20t08", "type": "targeted-transformation", "instruction": "Bilde das Perfekt.", "prompt": "Ich komme zu spät.", "solution": "Ich bin zu spät gekommen.", "explanation": "'kommen' bildet das Perfekt mit 'sein'." },
+        { "id": "l20t09", "type": "targeted-transformation", "instruction": "Bilde das Perfekt.", "prompt": "Das Kleid gefällt mir nicht.", "solution": "Das Kleid hat mir nicht gefallen.", "explanation": "Das Partizip II von 'gefallen' lautet 'gefallen'." },
+        { "id": "l20t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich habe zu spät gekommen.", "solution": "Ich bin zu spät gekommen.", "explanation": "'kommen' bildet das Perfekt mit 'sein', nicht mit 'haben'." }
+      ]
+    },
+    {
+      "lektionId": "a1-m7-l21",
+      "level": "A1",
+      "modulNumber": 7,
+      "lektionNumber": 21,
+      "title": "Regeln",
+      "grammarFocus": [
+        "Modalverben: müssen und dürfen",
+        "Verbote und Erlaubnis ausdrücken"
+      ],
+      "vocabulary": [
+        { "id": "l21v01", "term": "müssen", "translation": "tener que", "partOfSpeech": "verb", "example": "Du musst pünktlich sein." },
+        { "id": "l21v02", "term": "dürfen", "translation": "poder / tener permiso", "partOfSpeech": "verb", "example": "Du darfst hier nicht rauchen." },
+        { "id": "l21v03", "term": "das Verbot", "translation": "la prohibición", "partOfSpeech": "noun", "gender": "das", "plural": "die Verbote", "example": "Hier gibt es ein Handyverbot." },
+        { "id": "l21v04", "term": "das Handyverbot", "translation": "la prohibición de móviles", "partOfSpeech": "noun", "gender": "das", "plural": "die Handyverbote", "example": "In der Schule gibt es ein Handyverbot." },
+        { "id": "l21v05", "term": "zelten", "translation": "acampar", "partOfSpeech": "verb", "example": "Zelten in der Natur ist verboten." },
+        { "id": "l21v06", "term": "die Natur", "translation": "la naturaleza", "partOfSpeech": "noun", "gender": "die", "example": "Wir zelten in der Natur." },
+        { "id": "l21v07", "term": "der Hund", "translation": "el perro", "partOfSpeech": "noun", "gender": "der", "plural": "die Hunde", "example": "Hunde im Restaurant sind nicht erlaubt." },
+        { "id": "l21v08", "term": "erlaubt", "translation": "permitido", "partOfSpeech": "adjective", "example": "Das ist nicht erlaubt." },
+        { "id": "l21v09", "term": "verboten", "translation": "prohibido", "partOfSpeech": "adjective", "example": "Rauchen ist verboten." },
+        { "id": "l21v10", "term": "die Regel", "translation": "la regla", "partOfSpeech": "noun", "gender": "die", "plural": "die Regeln", "example": "Das ist die Regel." },
+        { "id": "l21v11", "term": "man", "translation": "se (impersonal)", "partOfSpeech": "phrase", "example": "Man muss die Regeln beachten." },
+        { "id": "l21v12", "term": "beachten", "translation": "respetar", "partOfSpeech": "verb", "example": "Man muss die Regeln beachten." },
+        { "id": "l21v13", "term": "rauchen", "translation": "fumar", "partOfSpeech": "verb", "example": "Rauchen ist hier verboten." },
+        { "id": "l21v14", "term": "die Ruhe", "translation": "la tranquilidad", "partOfSpeech": "noun", "gender": "die", "example": "Hier ist Ruhe Pflicht." },
+        { "id": "l21v15", "term": "die Pflicht", "translation": "la obligación", "partOfSpeech": "noun", "gender": "die", "plural": "die Pflichten", "example": "Das ist Pflicht." },
+        { "id": "l21v16", "term": "dagegen", "translation": "en contra", "partOfSpeech": "adverb", "example": "Ich bin dagegen." }
+      ],
+      "practice": {
+        "easy": [
+          { "id": "l21e01", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Du ___ pünktlich sein. (müssen)", "options": ["musst", "muss", "müsst", "müssen"], "solution": "musst", "hint": "'du'-Form.", "explanation": "Die 'du'-Form von 'müssen' lautet 'musst'." },
+          { "id": "l21e02", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Du ___ hier nicht rauchen. (dürfen)", "options": ["darfst", "darf", "dürft", "dürfen"], "solution": "darfst", "hint": "'du'-Form.", "explanation": "Die 'du'-Form von 'dürfen' lautet 'darfst'." },
+          { "id": "l21e03", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Man ___ die Regeln beachten. (müssen)", "options": ["muss", "musst", "müsst", "müssen"], "solution": "muss", "hint": "'man'-Form.", "explanation": "Die 'man'-Form von 'müssen' lautet 'muss'." },
+          { "id": "l21e04", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Rauchen ist ___.", "options": ["verboten", "erlaubt", "Pflicht", "Regel"], "solution": "verboten", "hint": "Nicht erlaubt.", "explanation": "'verboten' bedeutet, dass etwas nicht erlaubt ist." },
+          { "id": "l21e05", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "In der Schule gibt es ein ___.", "options": ["Handyverbot", "Regel", "Pflicht", "Natur"], "solution": "Handyverbot", "hint": "Ein Verbot für Handys.", "explanation": "'Handyverbot' bezeichnet ein Verbot, das Handy zu benutzen." },
+          { "id": "l21e06", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Regel", "options": ["der", "die", "das"], "solution": "die", "hint": "'Regel' ist feminin.", "explanation": "'Regel' ist feminin: die Regel." },
+          { "id": "l21e07", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Natur", "options": ["der", "die", "das"], "solution": "die", "hint": "'Natur' ist feminin.", "explanation": "'Natur' ist feminin: die Natur." },
+          { "id": "l21e08", "type": "fill-in-blank", "instruction": "Ergänze das Verb.", "prompt": "Man muss die Regeln ___. (beachten)", "solution": "beachten", "hint": "Infinitiv nach Modalverb.", "explanation": "Nach dem Modalverb 'muss' steht der Infinitiv 'beachten'." },
+          { "id": "l21e09", "type": "fill-in-blank", "instruction": "Ergänze das Adverb.", "prompt": "Ich bin ___. (dagegen)", "solution": "dagegen", "hint": "Ablehnung ausdrücken.", "explanation": "'dagegen' drückt Ablehnung aus." },
+          { "id": "l21e10", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Das ist ___.", "options": ["Pflicht", "dagegen", "beachten", "müssen"], "solution": "Pflicht", "hint": "Eine Obligation.", "explanation": "'Pflicht' bedeutet eine Obligation." }
+        ],
+        "medium": [
+          { "id": "l21m01", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Du", "musst", "pünktlich", "sein"], "solution": "Du musst pünktlich sein.", "hint": "Infinitiv am Satzende.", "explanation": "Nach dem Modalverb 'musst' steht der Infinitiv am Satzende." },
+          { "id": "l21m02", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Du", "darfst", "hier", "nicht", "rauchen"], "solution": "Du darfst hier nicht rauchen.", "hint": "Infinitiv am Satzende.", "explanation": "Nach dem Modalverb 'darfst' steht der Infinitiv am Satzende." },
+          { "id": "l21m03", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Man", "muss", "die", "Regeln", "beachten"], "solution": "Man muss die Regeln beachten.", "hint": "Infinitiv am Satzende.", "explanation": "Nach dem Modalverb 'muss' steht der Infinitiv am Satzende." },
+          { "id": "l21m04", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Zelten", "in", "der", "Natur", "ist", "verboten"], "solution": "Zelten in der Natur ist verboten.", "hint": "Verb an Position 2.", "explanation": "Das konjugierte Verb steht an Position 2." },
+          { "id": "l21m05", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Hunde", "im", "Restaurant", "sind", "nicht", "erlaubt"], "solution": "Hunde im Restaurant sind nicht erlaubt.", "hint": "Verb an Position 2.", "explanation": "Das konjugierte Verb steht an Position 2." },
+          { "id": "l21m06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "bin", "dagegen"], "solution": "Ich bin dagegen.", "hint": "Verb an Position 2.", "explanation": "Das konjugierte Verb steht an Position 2." },
+          { "id": "l21m07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Ihr ___ (müssen) pünktlich sein.", "solution": "müsst", "hint": "'ihr'-Form.", "explanation": "Die 'ihr'-Form von 'müssen' lautet 'müsst'." },
+          { "id": "l21m08", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Wir ___ (dürfen) hier nicht rauchen.", "solution": "dürfen", "hint": "'wir'-Form.", "explanation": "Die 'wir'-Form von 'dürfen' lautet 'dürfen'." },
+          { "id": "l21m09", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Er ___ (müssen) die Regeln beachten.", "solution": "muss", "hint": "3. Person Singular.", "explanation": "Die 'er'-Form von 'müssen' lautet 'muss'." },
+          { "id": "l21m10", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Sie ___ (dürfen) hier zelten.", "solution": "darf", "hint": "3. Person Singular.", "explanation": "Die 'sie'-Form von 'dürfen' lautet 'darf'." }
+        ],
+        "hard": [
+          { "id": "l21h01", "type": "targeted-transformation", "instruction": "Sage, dass man pünktlich sein muss.", "prompt": "pünktlich sein / müssen", "solution": "Du musst pünktlich sein.", "hint": "'du'-Form von 'müssen'.", "explanation": "Die 'du'-Form von 'müssen' lautet 'musst'." },
+          { "id": "l21h02", "type": "targeted-transformation", "instruction": "Sage, dass Rauchen hier nicht erlaubt ist.", "prompt": "hier / rauchen dürfen (Verneinung)", "solution": "Du darfst hier nicht rauchen.", "hint": "'du'-Form von 'dürfen'.", "explanation": "Die 'du'-Form von 'dürfen' lautet 'darfst'." },
+          { "id": "l21h03", "type": "targeted-transformation", "instruction": "Sage, dass man die Regeln beachten muss.", "prompt": "die Regeln / beachten müssen", "solution": "Man muss die Regeln beachten.", "hint": "'man'-Form von 'müssen'.", "explanation": "Die 'man'-Form von 'müssen' lautet 'muss'." },
+          { "id": "l21h04", "type": "targeted-transformation", "instruction": "Sage, dass Zelten in der Natur verboten ist.", "prompt": "Zelten in der Natur / verboten", "solution": "Zelten in der Natur ist verboten.", "hint": "Verb an Position 2.", "explanation": "Das konjugierte Verb steht an Position 2." },
+          { "id": "l21h05", "type": "targeted-transformation", "instruction": "Sage, dass Hunde im Restaurant nicht erlaubt sind.", "prompt": "Hunde im Restaurant / nicht erlaubt", "solution": "Hunde im Restaurant sind nicht erlaubt.", "hint": "Verb an Position 2.", "explanation": "Das konjugierte Verb steht an Position 2." },
+          { "id": "l21h06", "type": "targeted-transformation", "instruction": "Sage, dass du dagegen bist.", "prompt": "dagegen sein", "solution": "Ich bin dagegen.", "hint": "Verb an Position 2.", "explanation": "Das konjugierte Verb steht an Position 2." },
+          { "id": "l21h07", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Du muss pünktlich sein.", "solution": "Du musst pünktlich sein.", "hint": "'du'-Form von 'müssen'.", "explanation": "Die 'du'-Form von 'müssen' lautet 'musst', nicht 'muss'." },
+          { "id": "l21h08", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Du darf hier nicht rauchen.", "solution": "Du darfst hier nicht rauchen.", "hint": "'du'-Form von 'dürfen'.", "explanation": "Die 'du'-Form von 'dürfen' lautet 'darfst', nicht 'darf'." },
+          { "id": "l21h09", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Man müssen die Regeln beachten.", "solution": "Man muss die Regeln beachten.", "hint": "'man'-Form von 'müssen'.", "explanation": "Die 'man'-Form von 'müssen' lautet 'muss', nicht 'müssen'." },
+          { "id": "l21h10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Zelten in der Natur ist verboten sein.", "solution": "Zelten in der Natur ist verboten.", "hint": "Nur ein Verb pro Satz.", "explanation": "Ein einfacher Satz hat nur eine konjugierte Verbform." }
+        ]
+      },
+      "test": [
+        { "id": "l21t01", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Du ___ pünktlich sein. (müssen)", "options": ["musst", "muss", "müsst", "müssen"], "solution": "musst", "explanation": "Die 'du'-Form von 'müssen' lautet 'musst'." },
+        { "id": "l21t02", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Du ___ hier nicht rauchen. (dürfen)", "options": ["darfst", "darf", "dürft", "dürfen"], "solution": "darfst", "explanation": "Die 'du'-Form von 'dürfen' lautet 'darfst'." },
+        { "id": "l21t03", "type": "fill-in-blank", "instruction": "Ergänze das Verb.", "prompt": "Man muss die Regeln ___. (beachten)", "solution": "beachten", "explanation": "Nach dem Modalverb 'muss' steht der Infinitiv 'beachten'." },
+        { "id": "l21t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Regel", "options": ["der", "die", "das"], "solution": "die", "explanation": "'Regel' ist feminin: die Regel." },
+        { "id": "l21t05", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Rauchen ist ___.", "options": ["verboten", "erlaubt", "Pflicht", "Regel"], "solution": "verboten", "explanation": "'verboten' bedeutet, dass etwas nicht erlaubt ist." },
+        { "id": "l21t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Man", "muss", "die", "Regeln", "beachten"], "solution": "Man muss die Regeln beachten.", "explanation": "Nach dem Modalverb 'muss' steht der Infinitiv am Satzende." },
+        { "id": "l21t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Er ___ (müssen) die Regeln beachten.", "solution": "muss", "explanation": "Die 'er'-Form von 'müssen' lautet 'muss'." },
+        { "id": "l21t08", "type": "targeted-transformation", "instruction": "Sage, dass Zelten in der Natur verboten ist.", "prompt": "Zelten in der Natur / verboten", "solution": "Zelten in der Natur ist verboten.", "explanation": "Das konjugierte Verb steht an Position 2." },
+        { "id": "l21t09", "type": "targeted-transformation", "instruction": "Sage, dass du dagegen bist.", "prompt": "dagegen sein", "solution": "Ich bin dagegen.", "explanation": "Das konjugierte Verb steht an Position 2." },
+        { "id": "l21t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Du muss pünktlich sein.", "solution": "Du musst pünktlich sein.", "explanation": "Die 'du'-Form von 'müssen' lautet 'musst', nicht 'muss'." }
+      ]
+    }
+  ]
+}
