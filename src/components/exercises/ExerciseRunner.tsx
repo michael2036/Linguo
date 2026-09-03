@@ -6,6 +6,20 @@ import { MultipleChoice } from './MultipleChoice';
 import { TextAnswerInput } from './TextAnswerInput';
 import { SentenceScramble } from './SentenceScramble';
 import { HintExplanation } from './HintExplanation';
+import { LinguoAvatar } from '../mascot/LinguoAvatar';
+import { LinguoFeedbackDrawer } from '../mascot/LinguoFeedbackDrawer';
+
+// Free-text exercise types ask the learner to produce or reshape German
+// themselves (vs. recognizing an option), so Linguo leans into a "thinking"
+// pose for these while the answer is still open — purely cosmetic, no
+// bearing on grading.
+const COMPLEX_TYPES: ExerciseType[] = [
+  'fill-in-blank',
+  'cloze-conjugation',
+  'targeted-transformation',
+  'error-correction',
+  'sentence-scramble',
+];
 
 const TYPE_LABELS: Record<ExerciseType, string> = {
   'multiple-choice': 'Multiple Choice',
@@ -29,6 +43,17 @@ const useStyles = makeStyles({
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'space-between',
+  },
+  cardHeaderRow: {
+    display: 'flex',
+    alignItems: 'flex-start',
+    justifyContent: 'space-between',
+    gap: tokens.spacingHorizontalS,
+  },
+  drawerSpacer: {
+    // Reserves room so the fixed feedback drawer never overlaps the last
+    // bit of card content once an answer has been graded.
+    height: '160px',
   },
   counter: {
     fontSize: '13px',
@@ -101,6 +126,10 @@ export const ExerciseRunner = ({ tierLabel, items, onComplete, onItemComplete }:
   const [submitted, setSubmitted] = useState(false);
   const [correctCount, setCorrectCount] = useState(0);
   const [shake, setShake] = useState(false);
+  // Session-local streak for Linguo's reaction only — does not feed scoring
+  // or progress tracking, which stay exactly as they were.
+  const [streak, setStreak] = useState(0);
+  const [lastCorrect, setLastCorrect] = useState(false);
 
   const item = items[index];
   const isLast = index === items.length - 1;
@@ -112,17 +141,19 @@ export const ExerciseRunner = ({ tierLabel, items, onComplete, onItemComplete }:
   };
 
   const canSubmit = currentAnswer().trim().length > 0;
-  const isAnswerCorrect = submitted && isCorrectAnswer(currentAnswer(), item.solution);
 
   const handleSubmit = () => {
     if (submitted || !canSubmit) return;
     const correct = isCorrectAnswer(currentAnswer(), item.solution);
     if (correct) {
       setCorrectCount((c) => c + 1);
+      setStreak((s) => s + 1);
     } else {
       setShake(true);
       window.setTimeout(() => setShake(false), 400);
+      setStreak(0);
     }
+    setLastCorrect(correct);
     onItemComplete?.(item, correct);
     setSubmitted(true);
   };
@@ -174,7 +205,16 @@ export const ExerciseRunner = ({ tierLabel, items, onComplete, onItemComplete }:
         {tierLabel}
       </Text>
       <Card className={`${styles.card} ${shake ? styles.cardShake : ''}`} key={item.id}>
-        <span className={styles.typeChip}>{TYPE_LABELS[item.type]}</span>
+        <div className={styles.cardHeaderRow}>
+          <span className={styles.typeChip}>{TYPE_LABELS[item.type]}</span>
+          {!submitted && (
+            <LinguoAvatar
+              expression={COMPLEX_TYPES.includes(item.type) ? 'thinking' : 'idle'}
+              size={40}
+              animate="bob"
+            />
+          )}
+        </div>
         <Text className={styles.instruction}>{item.instruction}</Text>
         <Text as="p" className={styles.prompt}>
           {item.prompt}
@@ -204,26 +244,29 @@ export const ExerciseRunner = ({ tierLabel, items, onComplete, onItemComplete }:
           <TextAnswerInput value={textValue} onChange={setTextValue} submitted={submitted} autoFocus />
         )}
 
-        <HintExplanation
-          hint={item.hint}
-          explanation={item.explanation}
-          submitted={submitted}
-          correct={isAnswerCorrect}
-          solution={item.solution}
-        />
+        <HintExplanation hint={item.hint} submitted={submitted} />
 
-        <div className={styles.footer}>
-          {!submitted ? (
+        {!submitted && (
+          <div className={styles.footer}>
             <Button className={styles.submitButton} appearance="primary" disabled={!canSubmit} onClick={handleSubmit}>
               Prüfen
             </Button>
-          ) : (
-            <Button className={styles.submitButton} appearance="primary" onClick={handleNext}>
-              {isLast ? 'Abschließen' : 'Weiter'}
-            </Button>
-          )}
-        </div>
+          </div>
+        )}
+
+        {submitted && <div className={styles.drawerSpacer} aria-hidden="true" />}
       </Card>
+
+      {submitted && (
+        <LinguoFeedbackDrawer
+          correct={lastCorrect}
+          solution={item.solution}
+          explanation={item.explanation}
+          streak={streak}
+          continueLabel={isLast ? 'Abschließen' : 'Weiter'}
+          onContinue={handleNext}
+        />
+      )}
     </div>
   );
 };

@@ -14,6 +14,8 @@ import { CurriculumSelectTree } from '../components/vocabTrainer/CurriculumSelec
 import { VocabGameStats } from '../components/vocabTrainer/VocabGameStats';
 import { ScoreRing } from '../components/badges/ScoreRing';
 import { Confetti } from '../components/celebration/Confetti';
+import { LinguoAvatar } from '../components/mascot/LinguoAvatar';
+import type { LinguoExpression } from '../components/mascot/linguoExpressions';
 
 type Stage = 'select' | 'mode-select' | 'practice' | 'test' | 'result';
 type ResultMode = 'practice' | 'test';
@@ -254,9 +256,11 @@ export const VocabTrainerPage = () => {
 
   if (stage === 'result' && resultMode) {
     const celebrate = resultScore === 100 || bestStreakDisplay >= 10;
+    const linguoExpression: LinguoExpression = celebrate ? 'celebrating' : (resultScore ?? 0) >= 60 ? 'happy' : 'encouraging';
     return (
       <div className={styles.resultWrap} role="status" aria-live="polite">
         {celebrate && <Confetti />}
+        <LinguoAvatar expression={linguoExpression} size={88} animate="pop" />
         <ScoreRing percent={resultScore ?? 0} />
         <Text className={styles.resultHeadline} as="h1" size={600}>
           {resultMode === 'practice' ? 'Runde geschafft!' : 'Test abgeschlossen!'}
