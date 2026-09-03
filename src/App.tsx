@@ -5,7 +5,7 @@ import { useAppStore } from './store/appState';
 import { AppShell } from './components/layout/AppShell';
 import { ErrorBoundary } from './components/ErrorBoundary';
 import { HomePage } from './pages/HomePage';
-import { ChapterPage } from './pages/ChapterPage';
+import { LektionPage } from './pages/LektionPage';
 import { SettingsPage } from './pages/SettingsPage';
 import { AboutPage } from './pages/AboutPage';
 import { PrivacyPage } from './pages/PrivacyPage';
@@ -26,7 +26,7 @@ function App() {
           <ErrorBoundary>
             <Routes>
               <Route path="/" element={<HomePage />} />
-              <Route path="/chapter/:chapterId" element={<ChapterPage />} />
+              <Route path="/lektion/:lektionId" element={<LektionPage />} />
               <Route path="/settings" element={<SettingsPage />} />
               <Route path="/about" element={<AboutPage />} />
               <Route path="/privacy" element={<PrivacyPage />} />

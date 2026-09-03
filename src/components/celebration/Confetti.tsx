@@ -37,7 +37,7 @@ interface Piece {
   drift: number;
 }
 
-// A tasteful one-shot confetti burst for the "chapter mastered" moment.
+// A tasteful one-shot confetti burst for the "Lektion mastered" moment.
 // Purely decorative and non-interactive (pointer-events: none), removed by
 // the parent once its short animation window ends.
 export const Confetti = ({ pieceCount = 60 }: { pieceCount?: number }) => {

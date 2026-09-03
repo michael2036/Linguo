@@ -35,7 +35,7 @@ export const NotFoundPage = () => {
         Diese Seite gibt es nicht
       </Text>
       <Text className={styles.subtitle}>
-        Der Link führt ins Leere. Vielleicht wurde das Kapitel verschoben oder existiert nicht mehr.
+        Der Link führt ins Leere. Vielleicht wurde die Lektion verschoben oder existiert nicht mehr.
       </Text>
       <Button appearance="primary" icon={<ArrowLeft24Regular />} onClick={() => navigate('/')}>
         Zurück zur Startseite

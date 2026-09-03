@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Button, ProgressBar, Text, makeStyles, tokens, shorthands } from '@fluentui/react-components';
 import { CheckmarkCircle24Regular, DismissCircle24Regular } from '@fluentui/react-icons';
-import type { VocabularyItem } from '../../types/chapter';
+import type { VocabularyItem } from '../../types/content';
 import { GenderBadge } from '../badges/GenderBadge';
 
 const useStyles = makeStyles({

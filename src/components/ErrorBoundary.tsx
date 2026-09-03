@@ -27,7 +27,7 @@ const useStyles = makeStyles({
 });
 
 // Guards the routed app against a crash in any single page (e.g. a
-// malformed chapter JSON) turning into a blank white screen. Local progress
+// malformed Modul JSON) turning into a blank white screen. Local progress
 // already persisted before the crash is untouched — only this render tree
 // resets on reload.
 const Fallback = () => {

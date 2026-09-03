@@ -1,6 +1,10 @@
 import type { AppState } from '../types/appState';
 
-const STORAGE_KEY = 'linguascaffold:app-state:v1';
+// Bumped to v2 alongside the AppState schema change (chapterProgress ->
+// lektionProgress, added Test tracking) -- old v1 data is a different shape
+// and would crash the new reducers if read back in, so it's intentionally
+// orphaned rather than migrated.
+const STORAGE_KEY = 'linguascaffold:app-state:v2';
 
 export const loadLocalState = (): AppState | null => {
   try {

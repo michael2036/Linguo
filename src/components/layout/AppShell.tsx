@@ -128,7 +128,7 @@ export const AppShell = ({ children }: AppShellProps) => {
   const styles = useStyles();
   const location = useLocation();
 
-  const isHome = location.pathname === '/' || location.pathname.startsWith('/chapter');
+  const isHome = location.pathname === '/' || location.pathname.startsWith('/lektion');
   const isSettings = location.pathname === '/settings';
 
   return (
@@ -142,7 +142,7 @@ export const AppShell = ({ children }: AppShellProps) => {
         </div>
         <nav className={styles.headerNav}>
           <Button as="a" href="#/" appearance={isHome ? 'primary' : 'subtle'} icon={<HomeIcon />}>
-            Kapitel
+            Lektionen
           </Button>
           <Button as="a" href="#/settings" appearance={isSettings ? 'primary' : 'subtle'} icon={<SettingsIcon />}>
             Einstellungen
@@ -155,7 +155,7 @@ export const AppShell = ({ children }: AppShellProps) => {
       <nav className={styles.bottomNav}>
         <a href="#/" className={mergeClasses(styles.navItem, isHome && styles.navItemActive)}>
           <HomeIcon />
-          <span className={styles.navLabel}>Kapitel</span>
+          <span className={styles.navLabel}>Lektionen</span>
         </a>
         <a href="#/settings" className={mergeClasses(styles.navItem, isSettings && styles.navItemActive)}>
           <SettingsIcon />

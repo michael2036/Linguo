@@ -2,9 +2,9 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "AppState",
   "type": "object",
-  "required": ["version", "updatedAt", "preferences", "vocabularyProgress", "chapterProgress"],
+  "required": ["version", "updatedAt", "preferences", "vocabularyProgress", "lektionProgress"],
   "properties": {
-    "version": { "type": "integer", "enum": [1] },
+    "version": { "type": "integer", "enum": [2] },
     "updatedAt": { "type": "string", "format": "date-time" },
     "preferences": {
       "type": "object",
@@ -27,21 +27,32 @@
         }
       }
     },
-    "chapterProgress": {
+    "lektionProgress": {
       "type": "object",
+      "description": "Keyed by lektionId (e.g. 'a1-m1-l1').",
       "additionalProperties": {
         "type": "object",
-        "required": ["vocabCompleted", "status", "levels"],
+        "required": ["vocabCompleted", "status", "practice", "test"],
         "properties": {
           "vocabCompleted": { "type": "boolean" },
           "status": { "enum": ["red", "yellow", "green"] },
-          "levels": {
+          "practice": {
             "type": "object",
             "required": ["easy", "medium", "hard"],
             "properties": {
               "easy": { "$ref": "#/definitions/tierScore" },
               "medium": { "$ref": "#/definitions/tierScore" },
               "hard": { "$ref": "#/definitions/tierScore" }
+            }
+          },
+          "test": {
+            "type": "object",
+            "description": "Direct Test Mode result — independent of `practice`, never gated by it. A high bestScore alone can move `status` to green.",
+            "required": ["attempted", "bestScore", "attempts"],
+            "properties": {
+              "attempted": { "type": "boolean" },
+              "bestScore": { "type": "number", "minimum": 0, "maximum": 100 },
+              "attempts": { "type": "integer", "minimum": 0 }
             }
           }
         }

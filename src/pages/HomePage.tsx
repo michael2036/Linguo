@@ -1,12 +1,12 @@
 import { useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Button, Card, CardHeader, Text, ProgressBar, makeStyles, tokens, shorthands } from '@fluentui/react-components';
-import { Book24Filled, ChevronRight24Regular, Sparkle24Filled, TrophyFilled } from '@fluentui/react-icons';
-import { CHAPTER_CATALOG, COURSE_CATALOG } from '../lib/chapterLoader';
-import { suggestNextStep } from '../lib/recommendation';
+import { Button, Card, Text, makeStyles, tokens, shorthands } from '@fluentui/react-components';
+import { ChevronRight20Regular, Sparkle24Filled, TrophyFilled } from '@fluentui/react-icons';
+import { LEVEL_CATALOG, MODUL_CATALOG } from '../lib/curriculumLoader';
+import { suggestNextStep, allLektionenMastered } from '../lib/recommendation';
 import { useAppStore } from '../store/appState';
 import { TrafficLightBadge } from '../components/badges/TrafficLightBadge';
-import { emptyChapterProgress } from '../types/appState';
+import { emptyLektionProgress } from '../types/appState';
 
 const useStyles = makeStyles({
   wrap: {
@@ -108,77 +108,74 @@ const useStyles = makeStyles({
       width: 'auto',
     },
   },
-  courseSection: {
+  levelSection: {
     display: 'flex',
     flexDirection: 'column',
-    ...shorthands.gap('10px'),
+    ...shorthands.gap('14px'),
   },
-  courseHeader: {
+  levelTitle: {
+    fontFamily: 'var(--font-display)',
+    fontWeight: 700,
+  },
+  modulGrid: {
+    display: 'grid',
+    gridTemplateColumns: '1fr',
+    ...shorthands.gap('14px'),
+    '@media (min-width: 720px)': {
+      gridTemplateColumns: '1fr 1fr',
+    },
+  },
+  modulCard: {
+    display: 'flex',
+    flexDirection: 'column',
+    ...shorthands.gap('4px'),
+    ...shorthands.padding('16px'),
+  },
+  modulHeader: {
     display: 'flex',
     alignItems: 'baseline',
     ...shorthands.gap('8px'),
+    marginBottom: '8px',
   },
-  courseTitle: {
+  modulTitle: {
     fontFamily: 'var(--font-display)',
     fontWeight: 600,
   },
-  coursePublisher: {
+  modulEyebrow: {
     fontSize: '12px',
     color: tokens.colorNeutralForeground3,
   },
-  grid: {
-    display: 'grid',
-    gridTemplateColumns: '1fr',
-    ...shorthands.gap('12px'),
-    '@media (min-width: 600px)': {
-      gridTemplateColumns: 'repeat(2, 1fr)',
-    },
-  },
-  card: {
-    cursor: 'pointer',
-    minHeight: '44px',
-    ...shorthands.padding('4px'),
-    transitionProperty: 'transform, box-shadow, border-color',
-    transitionDuration: tokens.durationFaster,
-    ':hover': {
-      transform: 'translateY(-2px)',
-      boxShadow: tokens.shadow8,
-      ...shorthands.borderColor(tokens.colorBrandStroke1),
-    },
-  },
-  cardIcon: {
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    width: '44px',
-    height: '44px',
-    borderRadius: tokens.borderRadiusMedium,
-    backgroundColor: tokens.colorBrandBackground2,
-    color: tokens.colorBrandForeground1,
-    flexShrink: 0,
-  },
-  cardTitleRow: {
+  lektionRow: {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'space-between',
-    ...shorthands.gap('8px'),
+    ...shorthands.gap('10px'),
+    ...shorthands.padding('10px', '4px'),
+    minHeight: '44px',
+    cursor: 'pointer',
+    ...shorthands.borderRadius(tokens.borderRadiusMedium),
+    transitionProperty: 'background-color',
+    transitionDuration: tokens.durationFaster,
+    ':hover': {
+      backgroundColor: tokens.colorNeutralBackground3,
+    },
   },
-  cardMeta: {
+  lektionText: {
+    display: 'flex',
+    flexDirection: 'column',
+    minWidth: 0,
+  },
+  lektionTitle: {
+    fontWeight: 600,
+    overflow: 'hidden',
+    textOverflow: 'ellipsis',
+    whiteSpace: 'nowrap',
+  },
+  lektionMeta: {
     display: 'flex',
     alignItems: 'center',
     ...shorthands.gap('8px'),
-    marginTop: '6px',
-  },
-  cardLevel: {
-    fontSize: '12px',
-    fontWeight: 700,
-    color: tokens.colorNeutralForeground3,
-    ...shorthands.padding('2px', '8px'),
-    ...shorthands.borderRadius(tokens.borderRadiusCircular),
-    ...shorthands.border('1px', 'solid', tokens.colorNeutralStroke2),
-  },
-  cardProgress: {
-    marginTop: '12px',
+    flexShrink: 0,
   },
   chevron: {
     color: tokens.colorNeutralForeground3,
@@ -191,24 +188,17 @@ export const HomePage = () => {
   const navigate = useNavigate();
   const state = useAppStore((s) => s.state);
 
+  const allLektionen = useMemo(() => MODUL_CATALOG.flatMap((m) => m.lektionen), []);
+
   const stats = useMemo(() => {
-    const entries = CHAPTER_CATALOG.map((c) => state.chapterProgress[c.chapterId] ?? emptyChapterProgress());
+    const entries = allLektionen.map((l) => state.lektionProgress[l.lektionId] ?? emptyLektionProgress());
     const mastered = entries.filter((e) => e.status === 'green').length;
     const inProgress = entries.filter((e) => e.status === 'yellow').length;
-    return { total: CHAPTER_CATALOG.length, mastered, inProgress };
-  }, [state.chapterProgress]);
+    return { total: allLektionen.length, mastered, inProgress };
+  }, [allLektionen, state.lektionProgress]);
 
-  const nextStep = useMemo(() => suggestNextStep(state.chapterProgress), [state.chapterProgress]);
-  const allMastered = stats.mastered === stats.total;
-
-  const coursesWithChapters = useMemo(
-    () =>
-      COURSE_CATALOG.map((course) => ({
-        course,
-        chapters: CHAPTER_CATALOG.filter((c) => c.courseId === course.courseId),
-      })).filter((group) => group.chapters.length > 0),
-    [],
-  );
+  const nextStep = useMemo(() => suggestNextStep(state.lektionProgress), [state.lektionProgress]);
+  const allMastered = useMemo(() => allLektionenMastered(state.lektionProgress), [state.lektionProgress]);
 
   return (
     <div className={styles.wrap}>
@@ -223,7 +213,7 @@ export const HomePage = () => {
         <div className={styles.heroStats}>
           <div className={styles.heroStat}>
             <Text className={styles.heroStatValue}>{stats.total}</Text>
-            <Text className={styles.heroStatLabel}>Kapitel</Text>
+            <Text className={styles.heroStatLabel}>Lektionen</Text>
           </div>
           <div className={styles.heroStat}>
             <Text className={styles.heroStatValue}>{stats.mastered}</Text>
@@ -238,8 +228,8 @@ export const HomePage = () => {
         {allMastered ? (
           <div className={styles.resumeCard}>
             <div className={styles.resumeText}>
-              <Text className={styles.resumeEyebrow}>Alle Kapitel gemeistert</Text>
-              <Text className={styles.resumeTitle}>Stark! Du hast jedes Kapitel auf Grün gebracht. 🎉</Text>
+              <Text className={styles.resumeEyebrow}>Alle Lektionen gemeistert</Text>
+              <Text className={styles.resumeTitle}>Stark! Du hast jede Lektion auf Grün gebracht. 🎉</Text>
             </div>
             <TrophyFilled fontSize={28} />
           </div>
@@ -249,14 +239,14 @@ export const HomePage = () => {
               <div className={styles.resumeText}>
                 <Text className={styles.resumeEyebrow}>{nextStep.hasStarted ? 'Weiter lernen' : 'Jetzt starten'}</Text>
                 <Text className={styles.resumeTitle}>
-                  {nextStep.courseTitle} · {nextStep.chapter.title}
+                  {nextStep.modulTitle} · {nextStep.lektionTitle}
                 </Text>
               </div>
               <Button
                 className={styles.resumeButton}
                 appearance="primary"
                 icon={<Sparkle24Filled />}
-                onClick={() => navigate(`/chapter/${nextStep.chapter.chapterId}`)}
+                onClick={() => navigate(`/lektion/${nextStep.lektionId}`)}
               >
                 {nextStep.hasStarted ? 'Fortsetzen' : 'Start'}
               </Button>
@@ -265,60 +255,45 @@ export const HomePage = () => {
         )}
       </section>
 
-      {coursesWithChapters.map(({ course, chapters }) => (
-        <section key={course.courseId} className={styles.courseSection}>
-          <div className={styles.courseHeader}>
-            <Text className={styles.courseTitle} size={500}>
-              {course.title}
-            </Text>
-            <Text className={styles.coursePublisher}>{course.publisher}</Text>
-          </div>
-          <div className={styles.grid}>
-            {chapters.map((chapter, i) => {
-              const progress = state.chapterProgress[chapter.chapterId] ?? emptyChapterProgress();
-              const stagesDone =
-                (progress.vocabCompleted ? 1 : 0) +
-                (progress.levels.easy.completed ? 1 : 0) +
-                (progress.levels.medium.completed ? 1 : 0) +
-                (progress.levels.hard.completed ? 1 : 0);
+      {LEVEL_CATALOG.map(({ level, title }) => {
+        const moduln = MODUL_CATALOG.filter((m) => m.level === level);
+        if (moduln.length === 0) return null;
 
-              return (
-                <Card
-                  key={chapter.chapterId}
-                  className={styles.card}
-                  style={{ animationName: 'ls-fade-up', animationDuration: tokens.durationSlower, animationDelay: `${i * 40}ms`, animationFillMode: 'backwards' }}
-                  onClick={() => navigate(`/chapter/${chapter.chapterId}`)}
-                >
-                  <CardHeader
-                    image={
-                      <span className={styles.cardIcon}>
-                        <Book24Filled />
-                      </span>
-                    }
-                    header={
-                      <div className={styles.cardTitleRow}>
-                        <Text weight="semibold">{`Kapitel ${chapter.chapterNumber}: ${chapter.title}`}</Text>
-                        <ChevronRight24Regular className={styles.chevron} />
-                      </div>
-                    }
-                    description={
-                      <div>
-                        <div className={styles.cardMeta}>
-                          <span className={styles.cardLevel}>{chapter.targetLevel}</span>
+        return (
+          <section key={level} className={styles.levelSection}>
+            <Text className={styles.levelTitle} as="h2" size={600}>
+              {title}
+            </Text>
+            <div className={styles.modulGrid}>
+              {moduln.map((modul) => (
+                <Card key={modul.modulId} className={styles.modulCard}>
+                  <div className={styles.modulHeader}>
+                    <Text className={styles.modulTitle}>{`Modul ${modul.modulNumber} · ${modul.title}`}</Text>
+                  </div>
+                  {modul.lektionen.map((lektion) => {
+                    const progress = state.lektionProgress[lektion.lektionId] ?? emptyLektionProgress();
+                    return (
+                      <div
+                        key={lektion.lektionId}
+                        className={styles.lektionRow}
+                        onClick={() => navigate(`/lektion/${lektion.lektionId}`)}
+                      >
+                        <div className={styles.lektionText}>
+                          <Text className={styles.lektionTitle}>{`Lektion ${lektion.lektionNumber}: ${lektion.title}`}</Text>
+                        </div>
+                        <div className={styles.lektionMeta}>
                           <TrafficLightBadge status={progress.status} />
-                        </div>
-                        <div className={styles.cardProgress}>
-                          <ProgressBar value={stagesDone / 4} thickness="medium" />
+                          <ChevronRight20Regular className={styles.chevron} />
                         </div>
                       </div>
-                    }
-                  />
+                    );
+                  })}
                 </Card>
-              );
-            })}
-          </div>
-        </section>
-      ))}
+              ))}
+            </div>
+          </section>
+        );
+      })}
     </div>
   );
 };

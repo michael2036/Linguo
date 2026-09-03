@@ -172,7 +172,7 @@ export const SettingsPage = () => {
       <Card className={styles.section}>
         <Label weight="semibold">Fortschritt</Label>
         <Text style={{ color: tokens.colorNeutralForeground3 }}>
-          Setzt den Lernfortschritt aller Kapitel und Vokabeln zurück. Design und Muttersprache
+          Setzt den Lernfortschritt aller Lektionen und Vokabeln zurück. Design und Muttersprache
           bleiben unverändert.
         </Text>
         <Dialog open={resetDialogOpen} onOpenChange={(_, data) => setResetDialogOpen(data.open)}>
@@ -185,7 +185,7 @@ export const SettingsPage = () => {
             <DialogBody>
               <DialogTitle>Fortschritt wirklich zurücksetzen?</DialogTitle>
               <DialogContent>
-                Alle Vokabel- und Kapitelfortschritte werden dauerhaft gelöscht. Diese Aktion kann
+                Alle Vokabel- und Lektionsfortschritte werden dauerhaft gelöscht. Diese Aktion kann
                 nicht rückgängig gemacht werden.
               </DialogContent>
               <DialogActions>

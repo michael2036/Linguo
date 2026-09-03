@@ -27,34 +27,71 @@ src/
     exercises/                 # one component per exercise type + shared runner
     vocab/VocabFlashcards.tsx  # Stage 0 flip-card primer
     badges/                    # TrafficLightBadge, GenderBadge, ScoreRing
-    celebration/Confetti.tsx   # one-shot burst on chapter mastery
+    celebration/Confetti.tsx   # one-shot burst on Lektion mastery
     legal/LegalDocument.tsx    # shared layout for Privacy/Terms
     ErrorBoundary.tsx          # crash guard around the routed pages
-  pages/                       # HomePage, ChapterPage, SettingsPage,
+  pages/                       # HomePage, LektionPage, SettingsPage,
                                 # AboutPage, PrivacyPage, TermsPage, NotFoundPage
   store/appState.ts            # zustand store — single source of truth for progress
   lib/
     scoring.ts                 # tier pass thresholds + traffic-light status logic
-    recommendation.ts          # "Weiter lernen" next-chapter suggestion
-    chapterLoader.ts           # fetches chapter JSON; CHAPTER_CATALOG + COURSE_CATALOG live here
+    recommendation.ts          # "Weiter lernen" next-Lektion suggestion
+    curriculumLoader.ts        # fetches Modul JSON; LEVEL_CATALOG + MODUL_CATALOG live here
     googleAuth.ts / driveSync.ts  # optional cloud sync, appdata-scoped
     localStore.ts              # localStorage persistence
-  types/                       # TS types mirroring the two JSON schemas
+  types/
+    content.ts                 # shared primitives: VocabularyItem, ExerciseItem
+    curriculum.ts               # Level -> Modul -> Lektion hierarchy types
+    appState.ts                 # persisted app state (progress, preferences)
   theme/brand.ts                # custom Fluent brand ramp (light + dark)
 public/
-  schemas/                     # the two JSON Schemas (app state, chapter)
-  data/<course-id>/chapter-*.json  # chapter content packs
+  schemas/                     # the two JSON Schemas (app state, modul)
+  data/<level>/modul-<N>.json  # curriculum content packs (level lowercase: a1, a2, b1)
   og-image.png                 # social preview image (excluded from SW precache)
 design/                        # source design assets (e.g. icon master), not shipped
 .agents/                       # content-authoring agent specs (see above)
 .github/workflows/deploy.yml   # GitHub Pages CI/CD
 ```
 
-Routes: `/` (home, grouped by course), `/chapter/:chapterId`, `/settings`,
-`/about`, `/privacy`, `/terms`, and a `*` catch-all `NotFoundPage`. The
-Privacy/Terms pages are real, live-linked pages — they're what Google's
-OAuth consent screen configuration points at, so don't remove or break their
-routes without updating that consent screen too.
+Routes: `/` (home, grouped by Level → Modul → Lektion), `/lektion/:lektionId`
+(mode-select → Übung or Test), `/settings`, `/about`, `/privacy`, `/terms`,
+and a `*` catch-all `NotFoundPage`. The Privacy/Terms pages are real,
+live-linked pages — they're what Google's OAuth consent screen configuration
+points at, so don't remove or break their routes without updating that
+consent screen too.
+
+## Curriculum architecture
+
+The app's content follows the real structure of the "Momente" (Hueber)
+textbook series it's sourced from, discovered by auditing all 14 available
+Kursbuch + Arbeitsbuch answer-key PDFs — see [PRD §7](PRD.md#7-agentic-content-authoring-pipeline)
+and [`.agents/`](.agents) for the full rationale:
+
+```
+Level (A1 / A2 / B1)
+ └─ Modul (1-8, numbered continuously across the level's two half-books)
+     └─ Lektion (exactly 3 per Modul)
+         ├─ vocabulary                       Stage 0 primer
+         ├─ practice.easy/medium/hard        merges both source books:
+         │                                   easy = Kursbuch (thematic),
+         │                                   medium/hard = Arbeitsbuch's
+         │                                   native leicht/schwer drill tiers
+         └─ test                             separate, originally-authored
+                                              bank for Direct Test Mode —
+                                              never gated by, or reachable
+                                              through, `practice`
+```
+
+Two decoupled pathways per Lektion, both reachable from `LektionPage`'s
+mode-select screen with zero prior clicks: **Übung** (Practice — vocab, then
+gated easy → medium → hard, same scaffolding model as before) and **Test**
+(Direct Test Mode — instantly accessible, no gating, and a strong score
+alone can move the Lektion to Green via `TEST_MASTERY_THRESHOLD` in
+`scoring.ts`).
+
+Only `a1-m1` (3 Lektionen) is built as of this writing — a deliberate pilot
+to validate the architecture before scaling to all 8 Moduln × 3 levels. See
+[`.agents/pipeline.md`](.agents/pipeline.md) to author more.
 
 ## Stack quick reference
 
@@ -94,18 +131,18 @@ build passing alone.
   inline** (e.g. `useAppStore(s => s.someMethod(id))` returning a fresh
   literal each call) — it re-triggers on every render and can produce an
   infinite update loop. Select the raw stored value and derive/default it
-  with `useMemo` in the component instead (see `ChapterPage.tsx` for the
+  with `useMemo` in the component instead (see `LektionPage.tsx` for the
   pattern).
-- **Traffic-light status, tier pass thresholds, and stage-unlock logic all
-  live in `src/lib/scoring.ts`** — it's the one place that encodes PRD
-  §4.3/FR-13. Don't reimplement that logic elsewhere.
-- **Chapter content is data, not code.** Don't hand-add exercises inside
-  components; author them as a chapter JSON pack via the
-  [`.agents/`](.agents) pipeline and register it in `CHAPTER_CATALOG`
-  (`src/lib/chapterLoader.ts`). If it's the first chapter from a new
-  textbook/course, also add an entry to `COURSE_CATALOG` in the same file —
-  the home page groups chapters by `courseId` and renders nothing sensible
-  for an unregistered course.
+- **Traffic-light status, tier pass thresholds, stage-unlock logic, and the
+  Test-Mode mastery threshold all live in `src/lib/scoring.ts`** — it's the
+  one place that encodes PRD §4.3/FR-13 plus the Practice/Test decoupling
+  from Phase 3. Don't reimplement that logic elsewhere.
+- **Curriculum content is data, not code.** Don't hand-add exercises inside
+  components; author them as a Modul JSON pack via the [`.agents/`](.agents)
+  pipeline and register it in `MODUL_CATALOG` (`src/lib/curriculumLoader.ts`).
+  If it's the first Modul for a new `level`, also add that level to
+  `LEVEL_CATALOG` in the same file — the home page groups Moduln by `level`
+  and renders nothing for an unregistered one.
 - **`GOOGLE_CLIENT_ID` in `src/lib/googleAuth.ts` is a real client ID**, not a
   placeholder — don't overwrite it casually. It only works from origins
   listed as Authorized JavaScript origins for that OAuth client in Google

@@ -1,7 +1,7 @@
 export type ThemePreference = 'system' | 'light' | 'dark';
 export type TargetLanguage = 'de';
 export type NativeLanguage = 'es' | 'en';
-export type ChapterStatus = 'red' | 'yellow' | 'green';
+export type LektionStatus = 'red' | 'yellow' | 'green';
 export type Tier = 'easy' | 'medium' | 'hard';
 
 export interface Preferences {
@@ -22,22 +22,32 @@ export interface TierScore {
   attempts: number;
 }
 
-export interface ChapterProgressEntry {
+// Direct Test Mode is deliberately decoupled from `practice` — it's never
+// gated by it, and tracked separately so a strong test score can fast-track
+// a Lektion to Green without requiring every practice tier to be cleared.
+export interface TestScore {
+  attempted: boolean;
+  bestScore: number;
+  attempts: number;
+}
+
+export interface LektionProgressEntry {
   vocabCompleted: boolean;
-  status: ChapterStatus;
-  levels: {
+  status: LektionStatus;
+  practice: {
     easy: TierScore;
     medium: TierScore;
     hard: TierScore;
   };
+  test: TestScore;
 }
 
 export interface AppState {
-  version: 1;
+  version: 2;
   updatedAt: string;
   preferences: Preferences;
   vocabularyProgress: Record<string, VocabularyProgressEntry>;
-  chapterProgress: Record<string, ChapterProgressEntry>;
+  lektionProgress: Record<string, LektionProgressEntry>;
 }
 
 export const emptyTierScore = (): TierScore => ({
@@ -46,18 +56,25 @@ export const emptyTierScore = (): TierScore => ({
   attempts: 0,
 });
 
-export const emptyChapterProgress = (): ChapterProgressEntry => ({
+export const emptyTestScore = (): TestScore => ({
+  attempted: false,
+  bestScore: 0,
+  attempts: 0,
+});
+
+export const emptyLektionProgress = (): LektionProgressEntry => ({
   vocabCompleted: false,
   status: 'red',
-  levels: {
+  practice: {
     easy: emptyTierScore(),
     medium: emptyTierScore(),
     hard: emptyTierScore(),
   },
+  test: emptyTestScore(),
 });
 
 export const createInitialAppState = (): AppState => ({
-  version: 1,
+  version: 2,
   updatedAt: new Date(0).toISOString(),
   preferences: {
     theme: 'system',
@@ -65,5 +82,5 @@ export const createInitialAppState = (): AppState => ({
     nativeLanguage: 'es',
   },
   vocabularyProgress: {},
-  chapterProgress: {},
+  lektionProgress: {},
 });

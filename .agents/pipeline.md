@@ -2,103 +2,146 @@
 pipeline: content-authoring
 stages:
   - didactic-generator.md
-  - pedagogical-critic.md
-output: public/data/<course-id>/chapter-XX.json
+  - pedagogical-critic.md (pass 1: vocabulary + practice)
+  - test-item-writer.md
+  - pedagogical-critic.md (pass 2: test)
+output: public/data/<level>/modul-<N>.json
 ---
 
 # Content Authoring Pipeline — Run Book
 
-End-to-end steps for turning one workbook chapter's answer key into a
-chapter pack the app can load. This runs offline, once per chapter, before
-anything is committed — there is no server-side agent in the shipped product.
+End-to-end steps for turning one Modul's worth of Kursbuch + Arbeitsbuch
+answer keys into a Modul pack the app can load. This runs offline, once per
+Modul, before anything is committed — there is no server-side agent in the
+shipped product.
+
+A Modul is always exactly 3 Lektionen (see [AGENTS.md](../AGENTS.md) for
+why). Run steps 1–4 once **per Lektion**, then assemble all 3 into one Modul
+file (step 5).
 
 ## 0. Prerequisites
 
-- The answer key (*Lösungsschlüssel*) pages for the chapter — drop the PDF
-  (or its extracted text) into [`.agents/input/`](input) named after the
-  chapter, e.g. `.agents/input/deutsch-a1-ch02.pdf`. See
+- Both source books' answer-key pages for this Modul — drop the PDFs into
+  [`.agents/input/`](input) named after the level and book type, e.g.
+  `.agents/input/a1-modul1-kb.pdf` and `.agents/input/a1-modul1-ab.pdf`. See
   [`.agents/input/README.md`](input/README.md) — that folder is gitignored
   on purpose, since the source material is copyrighted and only ever used as
   ephemeral input.
-- Chapter metadata decided up front: `book`, `chapterNumber`, `title`,
-  `targetLevel` (A1–C1), and a short list of `grammarFocus` points for the
-  chapter.
-- A `courseId` for where this chapter lives, e.g. `deutsch-a1` — reuse an
-  existing one under `public/data/` or introduce a new one for a new
-  book/level track.
+- Metadata decided up front for the Modul: `level` (A1/A2/B1), `modulNumber`
+  (1–8), a thematic `title`, and each of its 3 Lektionen's number + title.
 
 ## 1. Run Agent 1 — Didactic Generator
 
-Give an AI coding agent the contents of
+For each Lektion, give an AI coding agent
 [`didactic-generator.md`](didactic-generator.md) as its instructions, along
-with the answer-key text and chapter metadata from step 0. It returns one
-raw chapter JSON object (see that file for the exact shape).
+with that Lektion's KB + AB answer-key content and metadata from step 0. It
+returns one raw `{ vocabulary, practice }` object (no `test` yet — see that
+file for the exact shape).
 
 Do not skip straight to writing this into the repo — it hasn't been audited
 yet.
 
-## 2. Run Agent 2 — Pedagogical Critic & Auditor
+## 2. Run Agent 2 — Pedagogical Critic & Auditor (pass 1)
 
-Hand the raw JSON from step 1 to a fresh agent run using
+Hand the raw output from step 1 to a fresh agent run using
 [`pedagogical-critic.md`](pedagogical-critic.md) as its instructions. It
-returns the corrected, validated chapter JSON — this is the artifact that
-ships.
+returns corrected, validated `vocabulary` + `practice` — this is what Agent
+3 will build the test bank against.
 
-If you're running both stages in one session with the same agent, still
-treat them as two distinct passes with two distinct instruction sets: don't
-let the generator self-grade its own output in the same breath it wrote it.
-The value of the second pass is a genuinely independent read.
+Treat this as a genuinely independent pass: don't let the generator self-
+grade its own output in the same breath it wrote it.
 
-## 3. Validate structurally
+## 3. Run Agent 3 — Test Item Writer
 
-Before committing, confirm the output actually matches
-[`chapter-schema.json`](../public/schemas/chapter-schema.json). Any JSON
-Schema validator works, e.g.:
+Give a fresh agent [`test-item-writer.md`](test-item-writer.md) as its
+instructions, along with the *validated* `grammarFocus` + `vocabulary` from
+step 2 — deliberately **not** the `practice` items (see that file's
+Directive 1 for why). It returns the `test` array.
+
+## 4. Run Agent 2 again — Pedagogical Critic & Auditor (pass 2)
+
+Hand Agent 3's `test` output, plus the finished `practice` content, to
+another fresh Agent 2 run. This pass adds the independence check (§7 in
+[`pedagogical-critic.md`](pedagogical-critic.md)): reject anything in `test`
+that's a near-paraphrase of a specific `practice` item.
+
+You now have one complete, validated Lektion object:
+`{ lektionId, level, modulNumber, lektionNumber, title, grammarFocus,
+vocabulary, practice, test }`.
+
+## 5. Assemble the Modul and validate structurally
+
+Combine all 3 Lektion objects into one Modul object:
+
+```json
+{
+  "modulId": "<level>-m<modulNumber>",
+  "level": "<A1|A2|B1>",
+  "modulNumber": <N>,
+  "title": "<thematic title>",
+  "lektionen": [ /* exactly 3 Lektion objects */ ]
+}
+```
+
+Then confirm it matches
+[`modul-schema.json`](../public/schemas/modul-schema.json). Any JSON Schema
+validator works, e.g.:
 
 ```bash
-npx ajv-cli validate -s public/schemas/chapter-schema.json -d path/to/new-chapter.json
+npx ajv-cli validate -s public/schemas/modul-schema.json -d path/to/new-modul.json
 ```
 
 (Agent 2's checklist covers this by hand, but a structural validator catches
 typos — a missing `id`, an `options` array missing the `solution` — that are
 easy to miss on a careful read.)
 
-## 4. Place the file
+## 6. Place the file
 
 Save the validated JSON as:
 
 ```
-public/data/<courseId>/chapter-<NN>.json
+public/data/<level>/modul-<N>.json
 ```
 
-matching the pattern of the existing sample,
-[`public/data/deutsch-a1/chapter-01.json`](../public/data/deutsch-a1/chapter-01.json).
+lowercased, matching the pattern of the existing pilot,
+[`public/data/a1/modul-1.json`](../public/data/a1/modul-1.json).
 
-## 5. Register the chapter in the app
+## 7. Register the Modul in the app
 
-Add an entry to `CHAPTER_CATALOG` in
-[`src/lib/chapterLoader.ts`](../src/lib/chapterLoader.ts):
+Add an entry to `MODUL_CATALOG` in
+[`src/lib/curriculumLoader.ts`](../src/lib/curriculumLoader.ts):
 
 ```ts
 {
-  courseId: '<courseId>',
-  chapterId: '<chapterId>',       // must match chapterId inside the JSON
-  chapterNumber: <N>,
-  title: '<title>',
-  targetLevel: '<A1|A2|B1|B1+|B2|C1>',
-  path: 'data/<courseId>/chapter-<NN>.json',
+  modulId: '<level>-m<N>',
+  level: '<A1|A2|B1>',
+  modulNumber: <N>,
+  title: '<thematic title>',
+  path: 'data/<level>/modul-<N>.json',
+  lektionen: [
+    { lektionId: '<...-l1>', lektionNumber: <N>, title: '<...>' },
+    { lektionId: '<...-l2>', lektionNumber: <N>, title: '<...>' },
+    { lektionId: '<...-l3>', lektionNumber: <N>, title: '<...>' },
+  ],
 }
 ```
 
-The app fetches chapter packs at runtime relative to `import.meta.env.BASE_URL`,
-so no other wiring is needed — the new chapter appears on the home page as
-soon as this entry exists and the dev server / build picks up the new JSON
-file under `public/`.
+If it's the first Modul for a new `level`, also add that level to
+`LEVEL_CATALOG` in the same file. The app fetches Modul packs at runtime
+relative to `import.meta.env.BASE_URL`, so no other wiring is needed — the
+new Moduln appear on the home page as soon as this entry exists and the dev
+server / build picks up the new JSON file under `public/`.
 
-## 6. Smoke-test it
+## 8. Smoke-test it
 
-Run the app (`npm run dev`) and play through the new chapter once: Stage 0
-vocabulary primer, then all three exercise tiers. Confirm scores gate
-progression as expected (see [PRD §4.3](../PRD.md#43-pedagogical-engine--scaffolding-model))
-and that nothing renders empty (missing `hint`, malformed `scrambleChunks`,
-etc. tend to show up immediately in the UI).
+Run the app (`npm run dev`) and play through each new Lektion once: the
+vocabulary primer, all three practice tiers, and — separately — Direct Test
+Mode entered straight from the Lektion screen without touching practice
+first. Confirm:
+
+- Practice tiers gate as expected (vocab → easy → medium → hard).
+- Test Mode is reachable immediately, with no gating.
+- A strong Test score alone can move the Lektion to Green (see
+  `TEST_MASTERY_THRESHOLD` in `src/lib/scoring.ts`).
+- Nothing renders empty (missing `hint`, malformed `scrambleChunks`, etc.
+  tend to show up immediately in the UI).

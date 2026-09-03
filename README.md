@@ -25,7 +25,8 @@ npm run dev
 ```
 
 Open the printed local URL. The app is fully usable in guest mode with no
-sign-in — pick "Kapitel 1" and work through Stufe 0 → 3.
+sign-in — pick a Lektion and choose **Übung** (vocab → three graded
+practice tiers) or **Test** (instant, ungated assessment).
 
 ## Building
 
@@ -81,20 +82,26 @@ Terms of Service URL — the app ships both as real pages, once deployed:
 
 ## Content authoring
 
-Chapter packs live at `public/data/<course-id>/chapter-XX.json` and must
-match [`public/schemas/chapter-schema.json`](public/schemas/chapter-schema.json).
-`chapter-01.json` under `deutsch-a1` is a hand-authored sample chapter — use
-it as a reference for format and pedagogical structure (vocabulary with full
-morphological markers, three graded exercise tiers, hints, and rule-based
-explanations) when authoring further chapters.
+Content follows the real structure of the "Momente" (Hueber) textbook
+series: **Level** (A1/A2/B1) → **Modul** (1–8) → **Lektion** (exactly 3 per
+Modul). Modul packs live at `public/data/<level>/modul-<N>.json` and must
+match [`public/schemas/modul-schema.json`](public/schemas/modul-schema.json).
+`public/data/a1/modul-1.json` is a hand-authored pilot (3 Lektionen) — use it
+as a reference for format and pedagogical structure when authoring more.
 
-New chapters are meant to be produced by the two-agent offline authoring
+Each Lektion has two independent pathways: **Übung** (Practice — vocab, then
+three graded tiers merging both the Kursbuch and Arbeitsbuch's native
+easy/hard drill split) and **Test** (Direct Test Mode — a separate,
+originally-authored assessment bank, reachable instantly with no gating).
+
+New Moduln are meant to be produced by the three-agent offline authoring
 pipeline described in [`.agents/`](.agents) (Didactic Generator →
-Pedagogical Critic & Auditor), not written by hand — see
-[`.agents/pipeline.md`](.agents/pipeline.md) for the full workflow.
+Pedagogical Critic & Auditor → Test Item Writer → Auditor again), not
+written by hand — see [`.agents/pipeline.md`](.agents/pipeline.md) for the
+full workflow.
 
-To add a finished chapter to the app, add its entry to `CHAPTER_CATALOG` in
-[`src/lib/chapterLoader.ts`](src/lib/chapterLoader.ts). The home page groups
-chapters by course/textbook — if it's the first chapter from a new book,
-also add a matching entry to `COURSE_CATALOG` in the same file, which
-supplies the section header (book title + publisher) it's grouped under.
+To add a finished Modul to the app, add its entry to `MODUL_CATALOG` in
+[`src/lib/curriculumLoader.ts`](src/lib/curriculumLoader.ts). If it's the
+first Modul for a new level, also add that level to `LEVEL_CATALOG` in the
+same file, which supplies the section header the home page groups Moduln
+under.

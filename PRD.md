@@ -392,3 +392,69 @@ An autonomous agent tasked with generating the complete web application from thi
 4. **Offline Autonomy:** The PWA remains fully functional in Airplane Mode, running vocabulary flashcards and evaluating exercises with zero network requests.
 5. **Decentralized Cloud Sync:** Connecting a Google account requests only the `drive.appdata` scope, successfully reads and writes `app_state.json` inside the hidden `appDataFolder`, and applies Last-Write-Wins conflict resolution based on `updatedAt`.
 6. **Scaffolding Progression Enforcement:** Chapter exercises remain locked until the Stage 0 vocabulary primer achieves ≥ 80% mastery; completing all three tiers with passing scores updates the chapter indicator to Green.
+
+---
+
+## 9. Architecture Revision: Level → Modul → Lektion
+
+Following a full audit of 14 real Kursbuch + Arbeitsbuch answer-key PDFs
+(the "Momente" series, Hueber Verlag) across A1, A2, and B1, the original
+flat "course → chapter" content model in §6.2 was replaced with a hierarchy
+matching the source material's own structure, and the single-track
+scaffolding model in §4.3 was split into two independent pathways. This
+section is authoritative where it conflicts with §4.3/§6/§7; those sections
+otherwise still describe the underlying pedagogical philosophy correctly.
+
+### 9.1 Content hierarchy
+
+```
+Level (A1 / A2 / B1)
+ └─ Modul (1-8, numbered continuously across the level's two half-books)
+     └─ Lektion (exactly 3 per Modul — a fixed structural fact of the
+         source series, not a design choice)
+```
+
+A Lektion is the smallest directly-selectable unit — the user reaches it in
+at most two taps from the home page (Level section is already expanded;
+tap a Modul card's Lektion row). No separate "choose Kursbuch or
+Arbeitsbuch" navigation step exists: both source books feed one merged
+content pool per Lektion (§9.2), so the learner never has to decide which
+book they want to practice from.
+
+### 9.2 Practice content sourcing
+
+Each Lektion's `practice` tiers merge both source books, rather than
+treating Kursbuch and Arbeitsbuch as parallel, separately-navigable content:
+
+- **`easy`** draws on the **Kursbuch's** thematic, contextual exercises.
+- **`medium`** / **`hard`** draw on the **Arbeitsbuch's** own native
+  `leicht` / `schwer` difficulty split — a real, source-provided tiering
+  rather than one invented for the app.
+
+The Stage 0 → easy → medium → hard gating from §4.3 is unchanged within
+Practice mode.
+
+### 9.3 Direct Test Mode
+
+Each Lektion additionally has a `test` item bank: a separate, originally-
+authored assessment (never derived from, or overlapping with, `practice`)
+that is reachable **instantly, with zero gating** — no vocabulary primer or
+practice tier is required first. This is a deliberate second pathway
+alongside Practice, not a reward for completing it:
+
+- Entering Test Mode does not require any Practice progress.
+- A sufficiently strong Test score (see `TEST_MASTERY_THRESHOLD` in
+  `src/lib/scoring.ts`) can move a Lektion's mastery status to Green on its
+  own, independent of Practice tier completion — giving the diagnostic
+  "fast-track" value described in the original Phase 3 requirement.
+- Test content is authored by a dedicated third pipeline agent (Test Item
+  Writer) that never sees the Practice items, so the two stay genuinely
+  independent rather than one being a reshuffle of the other. See
+  [`.agents/test-item-writer.md`](.agents/test-item-writer.md).
+
+### 9.4 Rollout
+
+The architecture was validated with a single pilot Modul (`a1-m1`, 3
+Lektionen) before any further content was authored. Scaling to the full 8
+Moduln × 3 levels is expected to happen incrementally via the pipeline in
+[`.agents/pipeline.md`](.agents/pipeline.md), not as a single batch.

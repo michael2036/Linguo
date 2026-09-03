@@ -14,22 +14,25 @@ import {
   BookOpen24Filled,
   CheckmarkCircle24Filled,
   ChevronRight24Regular,
+  ClipboardTaskListLtr24Filled,
   LockClosed20Filled,
+  RocketFilled,
   SparkleFilled,
 } from '@fluentui/react-icons';
-import { CHAPTER_CATALOG, loadChapter } from '../lib/chapterLoader';
-import type { ChapterPackage } from '../types/chapter';
+import { MODUL_CATALOG, loadModul } from '../lib/curriculumLoader';
+import type { ModulPackage } from '../types/curriculum';
 import type { Tier } from '../types/appState';
 import { useAppStore } from '../store/appState';
 import { isTierUnlocked } from '../lib/scoring';
-import { emptyChapterProgress } from '../types/appState';
+import { emptyLektionProgress } from '../types/appState';
 import { VocabFlashcards } from '../components/vocab/VocabFlashcards';
 import { ExerciseRunner } from '../components/exercises/ExerciseRunner';
 import { TrafficLightBadge } from '../components/badges/TrafficLightBadge';
 import { ScoreRing } from '../components/badges/ScoreRing';
 import { Confetti } from '../components/celebration/Confetti';
 
-type Stage = 'overview' | 'vocab' | Tier | 'result';
+type Stage = 'mode-select' | 'practice-overview' | 'vocab' | Tier | 'test' | 'result';
+type ResultOrigin = 'vocab' | Tier | 'test';
 
 const TIER_LABELS: Record<Tier, string> = {
   easy: 'Stufe 1 · Grundlagen',
@@ -57,6 +60,13 @@ const useStyles = makeStyles({
     alignItems: 'flex-start',
     ...shorthands.gap('6px'),
   },
+  eyebrow: {
+    fontSize: '13px',
+    fontWeight: 600,
+    color: tokens.colorNeutralForeground3,
+    textTransform: 'uppercase',
+    letterSpacing: '0.03em',
+  },
   title: {
     fontFamily: 'var(--font-display)',
     fontWeight: 700,
@@ -73,6 +83,52 @@ const useStyles = makeStyles({
     backgroundColor: tokens.colorNeutralBackground3,
     ...shorthands.padding('3px', '9px'),
     ...shorthands.borderRadius(tokens.borderRadiusCircular),
+  },
+  modeGrid: {
+    display: 'grid',
+    gridTemplateColumns: '1fr',
+    ...shorthands.gap('14px'),
+    marginTop: '8px',
+    '@media (min-width: 560px)': {
+      gridTemplateColumns: '1fr 1fr',
+    },
+  },
+  modeCard: {
+    display: 'flex',
+    flexDirection: 'column',
+    ...shorthands.gap('10px'),
+    ...shorthands.padding('20px'),
+    ...shorthands.borderRadius(tokens.borderRadiusXLarge),
+    ...shorthands.border('1px', 'solid', tokens.colorNeutralStroke2),
+    backgroundColor: tokens.colorNeutralBackground1,
+    cursor: 'pointer',
+    minHeight: '44px',
+    textAlign: 'left',
+    transitionProperty: 'transform, box-shadow',
+    transitionDuration: tokens.durationFaster,
+    ':hover': {
+      transform: 'translateY(-2px)',
+      boxShadow: tokens.shadow8,
+    },
+  },
+  modeIcon: {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    width: '44px',
+    height: '44px',
+    borderRadius: tokens.borderRadiusMedium,
+    backgroundColor: tokens.colorBrandBackground2,
+    color: tokens.colorBrandForeground1,
+  },
+  modeTitle: {
+    fontFamily: 'var(--font-display)',
+    fontWeight: 600,
+    fontSize: tokens.fontSizeBase500,
+  },
+  modeBody: {
+    color: tokens.colorNeutralForeground3,
+    fontSize: '13px',
   },
   stageList: {
     display: 'flex',
@@ -178,71 +234,104 @@ const useStyles = makeStyles({
   },
 });
 
-export const ChapterPage = () => {
+export const LektionPage = () => {
   const styles = useStyles();
-  const { chapterId } = useParams<{ chapterId: string }>();
+  const { lektionId } = useParams<{ lektionId: string }>();
   const navigate = useNavigate();
-  const [pack, setPack] = useState<ChapterPackage | null>(null);
-  const [stage, setStage] = useState<Stage>('overview');
+  const [modul, setModul] = useState<ModulPackage | null>(null);
+  const [stage, setStage] = useState<Stage>('mode-select');
   const [lastResultScore, setLastResultScore] = useState<number | null>(null);
+  const [resultOrigin, setResultOrigin] = useState<ResultOrigin | null>(null);
   const [justMastered, setJustMastered] = useState(false);
 
-  const summary = useMemo(() => CHAPTER_CATALOG.find((c) => c.chapterId === chapterId), [chapterId]);
-  const storedProgress = useAppStore((s) => (chapterId ? s.state.chapterProgress[chapterId] : undefined));
-  const progress = useMemo(() => storedProgress ?? emptyChapterProgress(), [storedProgress]);
+  const modulSummary = useMemo(
+    () => MODUL_CATALOG.find((m) => m.lektionen.some((l) => l.lektionId === lektionId)),
+    [lektionId],
+  );
+  const storedProgress = useAppStore((s) => (lektionId ? s.state.lektionProgress[lektionId] : undefined));
+  const progress = useMemo(() => storedProgress ?? emptyLektionProgress(), [storedProgress]);
   const markVocabCompleted = useAppStore((s) => s.markVocabCompleted);
   const recordTierResult = useAppStore((s) => s.recordTierResult);
+  const recordTestResult = useAppStore((s) => s.recordTestResult);
 
   useEffect(() => {
-    if (!summary) return;
-    loadChapter(summary).then(setPack);
-  }, [summary]);
+    if (!modulSummary) return;
+    loadModul(modulSummary).then(setModul);
+  }, [modulSummary]);
 
-  if (!summary) {
-    return <Text>Kapitel nicht gefunden.</Text>;
+  if (!modulSummary || !lektionId) {
+    return <Text>Lektion nicht gefunden.</Text>;
   }
 
-  if (!pack || !progress) {
+  if (!modul || !progress) {
     return (
       <div className={styles.loading}>
-        <Spinner label="Kapitel wird geladen..." />
+        <Spinner label="Lektion wird geladen..." />
       </div>
     );
   }
 
+  const lektion = modul.lektionen.find((l) => l.lektionId === lektionId);
+  if (!lektion) {
+    return <Text>Lektion nicht gefunden.</Text>;
+  }
+
   const handleVocabComplete = (rate: number) => {
-    markVocabCompleted(summary.chapterId, rate);
+    markVocabCompleted(lektionId, rate);
     setLastResultScore(rate);
+    setResultOrigin('vocab');
     setJustMastered(false);
     setStage('result');
   };
 
   const handleTierComplete = (tier: Tier) => (score: number) => {
     const wasGreen = progress.status === 'green';
-    recordTierResult(summary.chapterId, tier, score);
-    const nowGreen = useAppStore.getState().state.chapterProgress[summary.chapterId]?.status === 'green';
+    recordTierResult(lektionId, tier, score);
+    const nowGreen = useAppStore.getState().state.lektionProgress[lektionId]?.status === 'green';
     setLastResultScore(score);
+    setResultOrigin(tier);
+    setJustMastered(!wasGreen && nowGreen);
+    setStage('result');
+  };
+
+  const handleTestComplete = (score: number) => {
+    const wasGreen = progress.status === 'green';
+    recordTestResult(lektionId, score);
+    const nowGreen = useAppStore.getState().state.lektionProgress[lektionId]?.status === 'green';
+    setLastResultScore(score);
+    setResultOrigin('test');
     setJustMastered(!wasGreen && nowGreen);
     setStage('result');
   };
 
   if (stage === 'vocab') {
-    return <VocabFlashcards items={pack.vocabulary} onComplete={handleVocabComplete} />;
+    return <VocabFlashcards items={lektion.vocabulary} onComplete={handleVocabComplete} />;
   }
 
   if (stage === 'easy' || stage === 'medium' || stage === 'hard') {
     return (
       <ExerciseRunner
         tierLabel={TIER_LABELS[stage]}
-        items={pack.exercises[stage]}
+        items={lektion.practice[stage]}
         onComplete={handleTierComplete(stage)}
       />
     );
   }
 
+  if (stage === 'test') {
+    return <ExerciseRunner tierLabel="Test" items={lektion.test} onComplete={handleTestComplete} />;
+  }
+
   if (stage === 'result') {
     const passed = lastResultScore !== null && lastResultScore >= 60;
-    const headline = justMastered ? 'Kapitel gemeistert!' : passed ? 'Stark gemacht!' : 'Weiter üben lohnt sich!';
+    const headline = justMastered
+      ? 'Lektion gemeistert!'
+      : resultOrigin === 'vocab'
+        ? 'Wortschatz gespeichert!'
+        : passed
+          ? 'Stark gemacht!'
+          : 'Weiter üben lohnt sich!';
+    const backTarget = resultOrigin === 'test' ? 'mode-select' : 'practice-overview';
     return (
       <div className={styles.resultWrap} role="status" aria-live="polite">
         {justMastered && <Confetti />}
@@ -255,69 +344,112 @@ export const ChapterPage = () => {
         </Text>
         {justMastered && (
           <Text style={{ color: tokens.colorNeutralForeground3, marginTop: '-10px' }}>
-            Alle drei Stufen bestanden — dieses Kapitel steht jetzt auf Grün.
+            {resultOrigin === 'test'
+              ? 'Starkes Testergebnis — diese Lektion steht jetzt auf Grün.'
+              : 'Alle drei Stufen bestanden — diese Lektion steht jetzt auf Grün.'}
           </Text>
         )}
         <TrafficLightBadge status={progress.status} />
-        <Button appearance="primary" icon={<SparkleFilled />} onClick={() => setStage('overview')}>
-          Zurück zur Kapitelübersicht
+        <Button appearance="primary" icon={<SparkleFilled />} onClick={() => setStage(backTarget)}>
+          {resultOrigin === 'test' ? 'Zurück zur Lektion' : 'Zurück zur Übungsübersicht'}
         </Button>
       </div>
     );
   }
 
+  if (stage === 'mode-select') {
+    return (
+      <div className={styles.wrap}>
+        <Button className={styles.backButton} appearance="subtle" icon={<ArrowLeft24Regular />} onClick={() => navigate('/')}>
+          Alle Lektionen
+        </Button>
+
+        <div className={styles.titleBlock}>
+          <Text className={styles.eyebrow}>{`Modul ${modul.modulNumber} · ${modul.title}`}</Text>
+          <Text className={styles.title} as="h1" size={700}>
+            {`Lektion ${lektion.lektionNumber}: ${lektion.title}`}
+          </Text>
+          <TrafficLightBadge status={progress.status} />
+          <div className={styles.focusChips}>
+            {lektion.grammarFocus.map((focus) => (
+              <span key={focus} className={styles.focusChip}>
+                {focus}
+              </span>
+            ))}
+          </div>
+        </div>
+
+        <div className={styles.modeGrid}>
+          <button className={styles.modeCard} onClick={() => setStage('practice-overview')}>
+            <span className={styles.modeIcon}>
+              <BookOpen24Filled />
+            </span>
+            <Text className={styles.modeTitle}>Übung</Text>
+            <Text className={styles.modeBody}>
+              Wortschatz lernen, dann drei Übungsstufen vom Erkennen bis zur freien Anwendung.
+            </Text>
+          </button>
+          <button className={styles.modeCard} onClick={() => setStage('test')}>
+            <span className={styles.modeIcon}>
+              <RocketFilled />
+            </span>
+            <Text className={styles.modeTitle}>Test</Text>
+            <Text className={styles.modeBody}>
+              Direkt zur Prüfung — ohne Wortschatz oder Übung vorher. Ideal, um deinen Stand
+              schnell zu checken.
+            </Text>
+          </button>
+        </div>
+      </div>
+    );
+  }
+
+  // stage === 'practice-overview'
   const stages: { key: Stage; label: string; sub: string; unlocked: boolean; done: boolean; score?: number }[] = [
     {
       key: 'vocab',
       label: 'Stufe 0 · Wortschatz',
-      sub: `${pack.vocabulary.length} Begriffe`,
+      sub: `${lektion.vocabulary.length} Begriffe`,
       unlocked: true,
       done: progress.vocabCompleted,
     },
     {
       key: 'easy',
       label: TIER_LABELS.easy,
-      sub: `${pack.exercises.easy.length} Aufgaben`,
+      sub: `${lektion.practice.easy.length} Aufgaben`,
       unlocked: isTierUnlocked(progress, 'easy'),
-      done: progress.levels.easy.completed,
-      score: progress.levels.easy.attempts > 0 ? progress.levels.easy.score : undefined,
+      done: progress.practice.easy.completed,
+      score: progress.practice.easy.attempts > 0 ? progress.practice.easy.score : undefined,
     },
     {
       key: 'medium',
       label: TIER_LABELS.medium,
-      sub: `${pack.exercises.medium.length} Aufgaben`,
+      sub: `${lektion.practice.medium.length} Aufgaben`,
       unlocked: isTierUnlocked(progress, 'medium'),
-      done: progress.levels.medium.completed,
-      score: progress.levels.medium.attempts > 0 ? progress.levels.medium.score : undefined,
+      done: progress.practice.medium.completed,
+      score: progress.practice.medium.attempts > 0 ? progress.practice.medium.score : undefined,
     },
     {
       key: 'hard',
       label: TIER_LABELS.hard,
-      sub: `${pack.exercises.hard.length} Aufgaben`,
+      sub: `${lektion.practice.hard.length} Aufgaben`,
       unlocked: isTierUnlocked(progress, 'hard'),
-      done: progress.levels.hard.completed,
-      score: progress.levels.hard.attempts > 0 ? progress.levels.hard.score : undefined,
+      done: progress.practice.hard.completed,
+      score: progress.practice.hard.attempts > 0 ? progress.practice.hard.score : undefined,
     },
   ];
 
   return (
     <div className={styles.wrap}>
-      <Button className={styles.backButton} appearance="subtle" icon={<ArrowLeft24Regular />} onClick={() => navigate('/')}>
-        Alle Kapitel
+      <Button className={styles.backButton} appearance="subtle" icon={<ArrowLeft24Regular />} onClick={() => setStage('mode-select')}>
+        Zurück zur Lektion
       </Button>
 
       <div className={styles.titleBlock}>
+        <Text className={styles.eyebrow}>Übung</Text>
         <Text className={styles.title} as="h1" size={700}>
-          {`Kapitel ${pack.chapterNumber}: ${pack.title}`}
+          {`Lektion ${lektion.lektionNumber}: ${lektion.title}`}
         </Text>
-        <TrafficLightBadge status={progress.status} />
-        <div className={styles.focusChips}>
-          {pack.grammarFocus.map((focus) => (
-            <span key={focus} className={styles.focusChip}>
-              {focus}
-            </span>
-          ))}
-        </div>
       </div>
 
       <div className={styles.stageList}>
@@ -358,6 +490,22 @@ export const ChapterPage = () => {
           </div>
         ))}
       </div>
+
+      {progress.test.attempted && (
+        <div className={styles.stageRow}>
+          <div className={styles.stageRail}>
+            <div className={mergeClasses(styles.stageNode, progress.test.bestScore >= 85 && styles.stageNodeDone)}>
+              <ClipboardTaskListLtr24Filled />
+            </div>
+          </div>
+          <div className={styles.stageCard}>
+            <div className={styles.stageTextBlock}>
+              <Text className={styles.stageLabel}>Test</Text>
+              <Text className={styles.stageSub}>Bestes Ergebnis: {progress.test.bestScore}%</Text>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };

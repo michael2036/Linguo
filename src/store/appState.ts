@@ -1,14 +1,14 @@
 import { create } from 'zustand';
 import type {
   AppState,
-  ChapterProgressEntry,
+  LektionProgressEntry,
   NativeLanguage,
   ThemePreference,
   Tier,
 } from '../types/appState';
-import { createInitialAppState, emptyChapterProgress } from '../types/appState';
+import { createInitialAppState, emptyLektionProgress } from '../types/appState';
 import { getSyncPending, loadLocalState, saveLocalState, setSyncPending } from '../lib/localStore';
-import { computeChapterStatus } from '../lib/scoring';
+import { computeLektionStatus } from '../lib/scoring';
 import { syncAppState } from '../lib/driveSync';
 import { isSignedIn, requestSignIn, signOut as googleSignOut } from '../lib/googleAuth';
 
@@ -22,8 +22,9 @@ interface AppStore {
   setTheme: (theme: ThemePreference) => void;
   setNativeLanguage: (lang: NativeLanguage) => void;
 
-  markVocabCompleted: (chapterId: string, recognitionRate: number) => void;
-  recordTierResult: (chapterId: string, tier: Tier, score: number) => void;
+  markVocabCompleted: (lektionId: string, recognitionRate: number) => void;
+  recordTierResult: (lektionId: string, tier: Tier, score: number) => void;
+  recordTestResult: (lektionId: string, score: number) => void;
   resetProgress: () => void;
 
   connectGoogle: () => Promise<void>;
@@ -64,37 +65,62 @@ export const useAppStore = create<AppStore>((set, get) => ({
     persistAndMaybeSync(get, set);
   },
 
-  markVocabCompleted: (chapterId, recognitionRate) => {
+  markVocabCompleted: (lektionId, recognitionRate) => {
     set((s) => {
-      const current = s.state.chapterProgress[chapterId] ?? emptyChapterProgress();
-      const updated: ChapterProgressEntry = { ...current, vocabCompleted: recognitionRate >= 80 };
-      updated.status = computeChapterStatus(updated);
+      const current = s.state.lektionProgress[lektionId] ?? emptyLektionProgress();
+      const updated: LektionProgressEntry = { ...current, vocabCompleted: recognitionRate >= 80 };
+      updated.status = computeLektionStatus(updated);
       return {
         state: touch({
           ...s.state,
-          chapterProgress: { ...s.state.chapterProgress, [chapterId]: updated },
+          lektionProgress: { ...s.state.lektionProgress, [lektionId]: updated },
         }),
       };
     });
     persistAndMaybeSync(get, set);
   },
 
-  recordTierResult: (chapterId, tier, score) => {
+  recordTierResult: (lektionId, tier, score) => {
     set((s) => {
-      const current = s.state.chapterProgress[chapterId] ?? emptyChapterProgress();
-      const prevTier = current.levels[tier];
-      const updated: ChapterProgressEntry = {
+      const current = s.state.lektionProgress[lektionId] ?? emptyLektionProgress();
+      const prevTier = current.practice[tier];
+      const updated: LektionProgressEntry = {
         ...current,
-        levels: {
-          ...current.levels,
+        practice: {
+          ...current.practice,
           [tier]: { completed: true, score, attempts: prevTier.attempts + 1 },
         },
       };
-      updated.status = computeChapterStatus(updated);
+      updated.status = computeLektionStatus(updated);
       return {
         state: touch({
           ...s.state,
-          chapterProgress: { ...s.state.chapterProgress, [chapterId]: updated },
+          lektionProgress: { ...s.state.lektionProgress, [lektionId]: updated },
+        }),
+      };
+    });
+    persistAndMaybeSync(get, set);
+  },
+
+  // Direct Test Mode result — independent of `practice`, per PRD Phase 3.
+  // Tracks the best score across attempts; a high enough score alone can
+  // fast-track the Lektion to Green (see computeLektionStatus).
+  recordTestResult: (lektionId, score) => {
+    set((s) => {
+      const current = s.state.lektionProgress[lektionId] ?? emptyLektionProgress();
+      const updated: LektionProgressEntry = {
+        ...current,
+        test: {
+          attempted: true,
+          bestScore: Math.max(current.test.bestScore, score),
+          attempts: current.test.attempts + 1,
+        },
+      };
+      updated.status = computeLektionStatus(updated);
+      return {
+        state: touch({
+          ...s.state,
+          lektionProgress: { ...s.state.lektionProgress, [lektionId]: updated },
         }),
       };
     });
@@ -106,7 +132,7 @@ export const useAppStore = create<AppStore>((set, get) => ({
   // must never implicitly wipe local data.
   resetProgress: () => {
     set((s) => ({
-      state: touch({ ...s.state, vocabularyProgress: {}, chapterProgress: {} }),
+      state: touch({ ...s.state, vocabularyProgress: {}, lektionProgress: {} }),
     }));
     persistAndMaybeSync(get, set);
   },

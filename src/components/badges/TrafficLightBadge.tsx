@@ -1,7 +1,7 @@
 import { makeStyles, tokens, shorthands } from '@fluentui/react-components';
-import type { ChapterStatus } from '../../types/appState';
+import type { LektionStatus } from '../../types/appState';
 
-const LABELS: Record<ChapterStatus, string> = {
+const LABELS: Record<LektionStatus, string> = {
   red: 'Übungsbedarf',
   yellow: 'In Bearbeitung',
   green: 'Gemeistert',
@@ -40,7 +40,7 @@ const useStyles = makeStyles({
   greenDot: { backgroundColor: tokens.colorPaletteGreenForeground1 },
 });
 
-export const TrafficLightBadge = ({ status }: { status: ChapterStatus }) => {
+export const TrafficLightBadge = ({ status }: { status: LektionStatus }) => {
   const styles = useStyles();
   const classByStatus = { red: styles.red, yellow: styles.yellow, green: styles.green } as const;
   const dotByStatus = { red: styles.redDot, yellow: styles.yellowDot, green: styles.greenDot } as const;

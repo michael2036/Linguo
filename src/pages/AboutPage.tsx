@@ -107,8 +107,9 @@ export const AboutPage = () => {
 
       <Text as="p" className={styles.lead}>
         Linguo ist ein kostenloser, lokaler Begleiter zum Deutschlernen — vom ersten Wort bis C1.
-        Jedes Kapitel führt dich vom Wortschatz über gezielte Übungen bis zur freien Anwendung,
-        ganz ohne Werbung, Abos oder versteckte Kosten.
+        Jede Lektion führt dich vom Wortschatz über gezielte Übungen bis zur freien Anwendung —
+        oder direkt in den Test, wenn du deinen Stand nur schnell checken willst. Ganz ohne
+        Werbung, Abos oder versteckte Kosten.
       </Text>
 
       <div className={styles.featureGrid}>

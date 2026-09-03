@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Button, Card, ProgressBar, Text, makeStyles, tokens, shorthands } from '@fluentui/react-components';
-import type { ExerciseItem, ExerciseType } from '../../types/chapter';
+import type { ExerciseItem, ExerciseType } from '../../types/content';
 import { isCorrectAnswer } from '../../lib/answerCheck';
 import { MultipleChoice } from './MultipleChoice';
 import { TextAnswerInput } from './TextAnswerInput';

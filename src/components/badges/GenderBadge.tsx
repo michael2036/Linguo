@@ -1,5 +1,5 @@
 import { makeStyles, tokens, shorthands } from '@fluentui/react-components';
-import type { Gender } from '../../types/chapter';
+import type { Gender } from '../../types/content';
 
 const useStyles = makeStyles({
   base: {
