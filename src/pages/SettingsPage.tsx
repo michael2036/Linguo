@@ -28,6 +28,7 @@ import {
 } from '@fluentui/react-icons';
 import { useAppStore } from '../store/appState';
 import type { NativeLanguage, ThemePreference } from '../types/appState';
+import { InstallAppPrompt } from '../components/InstallAppPrompt';
 
 const useStyles = makeStyles({
   wrap: {
@@ -101,6 +102,8 @@ export const SettingsPage = () => {
       <Text as="h1" size={700} className={styles.title}>
         Einstellungen
       </Text>
+
+      <InstallAppPrompt />
 
       <Card className={styles.section}>
         <Label weight="semibold">Design</Label>

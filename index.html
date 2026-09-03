@@ -27,8 +27,93 @@
     <meta name="twitter:image" content="https://michael2036.github.io/Linguo/og-image.png" />
 
     <title>Linguo</title>
+
+    <!--
+      Critical, inline splash-screen CSS — deliberately not in index.css.
+      This has to paint before any JS runs (the whole point is covering the
+      cold-start gap, most noticeable when launched standalone from an iOS/
+      Android home-screen icon with no browser chrome to hint loading), so
+      it can't wait on a bundled stylesheet.
+    -->
+    <style>
+      #app-splash {
+        position: fixed;
+        inset: 0;
+        z-index: 9999;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 14px;
+        background: linear-gradient(160deg, #4f30b5, #2f1b73);
+        color: #fff;
+        transition: opacity 420ms ease, visibility 420ms ease;
+      }
+      #app-splash.app-splash-hidden {
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+      }
+      .app-splash-logo {
+        width: 84px;
+        height: 84px;
+        border-radius: 20px;
+        box-shadow: 0 12px 32px rgba(0, 0, 0, 0.25);
+        animation: app-splash-pop 560ms cubic-bezier(0.2, 0.9, 0.3, 1.3);
+      }
+      .app-splash-word {
+        font-family: 'Lexend Variable', 'Segoe UI', system-ui, sans-serif;
+        font-size: 28px;
+        font-weight: 700;
+        letter-spacing: -0.01em;
+      }
+      .app-splash-tagline {
+        font-family: 'Inter Variable', 'Segoe UI', system-ui, sans-serif;
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.75);
+        margin-top: -8px;
+      }
+      .app-splash-spinner {
+        width: 28px;
+        height: 28px;
+        margin-top: 6px;
+        border-radius: 50%;
+        border: 3px solid rgba(255, 255, 255, 0.25);
+        border-top-color: #fff;
+        animation: app-splash-spin 800ms linear infinite;
+      }
+      @keyframes app-splash-pop {
+        from {
+          transform: scale(0.85);
+          opacity: 0;
+        }
+        to {
+          transform: scale(1);
+          opacity: 1;
+        }
+      }
+      @keyframes app-splash-spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .app-splash-logo {
+          animation: none;
+        }
+        .app-splash-spinner {
+          animation-duration: 1.4s;
+        }
+      }
+    </style>
   </head>
   <body>
+    <div id="app-splash" role="status" aria-live="polite">
+      <img class="app-splash-logo" src="%BASE_URL%icons/icon-192.png" alt="" />
+      <div class="app-splash-word">Linguo</div>
+      <div class="app-splash-tagline">Dein Begleiter zum Deutschlernen</div>
+      <div class="app-splash-spinner" aria-hidden="true"></div>
+    </div>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
