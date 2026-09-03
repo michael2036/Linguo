@@ -1,0 +1,245 @@
+{
+  "modulId": "b1-m2",
+  "level": "B1",
+  "modulNumber": 2,
+  "title": "Nachhaltigkeit und Mut",
+  "lektionen": [
+    {
+      "lektionId": "b1-m2-l4",
+      "level": "B1",
+      "modulNumber": 2,
+      "lektionNumber": 4,
+      "title": "Nachhaltig leben",
+      "grammarFocus": [
+        "Nachhaltigkeit-Vokabular",
+        "Reflexive Verben: sich verändern, sich gewöhnen"
+      ],
+      "vocabulary": [
+        { "id": "l4v01", "term": "die Umwelt", "translation": "el medio ambiente", "partOfSpeech": "noun", "gender": "die", "example": "Ich schütze die Umwelt." },
+        { "id": "l4v02", "term": "der Fehler", "translation": "el error", "partOfSpeech": "noun", "gender": "der", "plural": "die Fehler", "example": "Ich mache keinen Fehler." },
+        { "id": "l4v03", "term": "secondhand", "translation": "de segunda mano", "partOfSpeech": "adjective", "example": "Ich kaufe secondhand." },
+        { "id": "l4v04", "term": "das Fahrrad", "translation": "la bicicleta", "partOfSpeech": "noun", "gender": "das", "plural": "die Fahrräder", "example": "Ich fahre Fahrrad statt Auto." },
+        { "id": "l4v05", "term": "fliegen", "translation": "volar", "partOfSpeech": "verb", "example": "Ich fliege nicht in den Urlaub." },
+        { "id": "l4v06", "term": "der Lift", "translation": "el telesilla", "partOfSpeech": "noun", "gender": "der", "plural": "die Lifte", "example": "Ich nehme nicht den Lift." },
+        { "id": "l4v07", "term": "der Gymnastikkurs", "translation": "el curso de gimnasia", "partOfSpeech": "noun", "gender": "der", "plural": "die Gymnastikkurse", "example": "Ich mache einen Gymnastikkurs." },
+        { "id": "l4v08", "term": "miteinander", "translation": "entre sí", "partOfSpeech": "adverb", "example": "Wir chatten miteinander." },
+        { "id": "l4v09", "term": "gemeinsam", "translation": "juntos", "partOfSpeech": "adverb", "example": "Wir verbringen Zeit gemeinsam." },
+        { "id": "l4v10", "term": "verzichten", "translation": "renunciar", "partOfSpeech": "verb", "example": "Ich verzichte auf Fleisch." },
+        { "id": "l4v11", "term": "die Gewohnheit", "translation": "el hábito", "partOfSpeech": "noun", "gender": "die", "plural": "die Gewohnheiten", "example": "Ich habe eine neue Gewohnheit." },
+        { "id": "l4v12", "term": "sich verändern", "translation": "cambiar", "partOfSpeech": "verb", "example": "Ich möchte mich verändern." },
+        { "id": "l4v13", "term": "der Standard", "translation": "el estándar", "partOfSpeech": "noun", "gender": "der", "plural": "die Standards", "example": "Ich gewöhne mich an neue Standards." },
+        { "id": "l4v14", "term": "das Gehirn", "translation": "el cerebro", "partOfSpeech": "noun", "gender": "das", "plural": "die Gehirne", "example": "Das Gehirn braucht Zeit." },
+        { "id": "l4v15", "term": "die Wiederholung", "translation": "la repetición", "partOfSpeech": "noun", "gender": "die", "plural": "die Wiederholungen", "example": "Wie viele Wiederholungen sind nötig?" },
+        { "id": "l4v16", "term": "das Verhalten", "translation": "el comportamiento", "partOfSpeech": "noun", "gender": "das", "example": "Ich möchte mein Verhalten ändern." }
+      ],
+      "practice": {
+        "easy": [
+          { "id": "l4e01", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Ich schütze die ___.", "options": ["Umwelt", "Fehler", "Gewohnheit", "Verhalten"], "solution": "Umwelt", "hint": "Feminin.", "explanation": "'Umwelt' passt grammatisch und inhaltlich." },
+          { "id": "l4e02", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Ich kaufe ___.", "options": ["secondhand", "gemeinsam", "miteinander", "freiberuflich"], "solution": "secondhand", "hint": "Gebraucht.", "explanation": "'secondhand' bedeutet gebraucht." },
+          { "id": "l4e03", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Ich fahre ___ statt Auto.", "options": ["Fahrrad", "Lift", "Gymnastikkurs", "Gewohnheit"], "solution": "Fahrrad", "hint": "Ein Verkehrsmittel.", "explanation": "'Fahrrad' ist ein umweltfreundliches Verkehrsmittel." },
+          { "id": "l4e04", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Ich ___ auf Fleisch. (verzichten)", "options": ["verzichte", "verzichtest", "verzichtet", "verzichten"], "solution": "verzichte", "hint": "'ich'-Form.", "explanation": "Die 'ich'-Form von 'verzichten' lautet 'verzichte'." },
+          { "id": "l4e05", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Ich möchte mich ___. (sich verändern)", "options": ["verändern", "veränderst", "verändert", "ändern"], "solution": "verändern", "hint": "Infinitiv nach Modalverb.", "explanation": "Nach dem Modalverb 'möchte' steht der Infinitiv 'verändern'." },
+          { "id": "l4e06", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Umwelt", "options": ["der", "die", "das"], "solution": "die", "hint": "'Umwelt' ist feminin.", "explanation": "'Umwelt' ist feminin: die Umwelt." },
+          { "id": "l4e07", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Gewohnheit", "options": ["der", "die", "das"], "solution": "die", "hint": "'Gewohnheit' ist feminin.", "explanation": "'Gewohnheit' ist feminin: die Gewohnheit." },
+          { "id": "l4e08", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Ich habe eine neue ___. (Gewohnheit)", "solution": "Gewohnheit", "hint": "Ein Substantiv.", "explanation": "'Gewohnheit' ist das gesuchte Substantiv." },
+          { "id": "l4e09", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Das ___ braucht Zeit. (Gehirn)", "solution": "Gehirn", "hint": "Ein Substantiv.", "explanation": "'Gehirn' ist das gesuchte Substantiv." },
+          { "id": "l4e10", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Wie viele ___ sind nötig?", "options": ["Wiederholungen", "Standards", "Gewohnheiten", "Verhalten"], "solution": "Wiederholungen", "hint": "Etwas mehrmals tun.", "explanation": "'Wiederholungen' bezeichnet, wie oft man etwas übt." }
+        ],
+        "medium": [
+          { "id": "l4m01", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "schütze", "die", "Umwelt"], "solution": "Ich schütze die Umwelt.", "hint": "Verb an Position 2.", "explanation": "Das konjugierte Verb steht an Position 2." },
+          { "id": "l4m02", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "verzichte", "auf", "Fleisch"], "solution": "Ich verzichte auf Fleisch.", "hint": "Feste Präposition 'auf'.", "explanation": "'verzichten auf' ist eine feste Wortverbindung." },
+          { "id": "l4m03", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "möchte", "mich", "verändern"], "solution": "Ich möchte mich verändern.", "hint": "Infinitiv am Satzende.", "explanation": "Nach dem Modalverb 'möchte' steht der Infinitiv am Satzende." },
+          { "id": "l4m04", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "habe", "eine", "neue", "Gewohnheit"], "solution": "Ich habe eine neue Gewohnheit.", "hint": "Verb an Position 2.", "explanation": "Das konjugierte Verb steht an Position 2." },
+          { "id": "l4m05", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Wir", "chatten", "miteinander"], "solution": "Wir chatten miteinander.", "hint": "Verb an Position 2.", "explanation": "Das konjugierte Verb steht an Position 2." },
+          { "id": "l4m06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Wir", "verbringen", "Zeit", "gemeinsam"], "solution": "Wir verbringen Zeit gemeinsam.", "hint": "Verb an Position 2.", "explanation": "Das konjugierte Verb steht an Position 2." },
+          { "id": "l4m07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Du ___ (verzichten) auf Fleisch.", "solution": "verzichtest", "hint": "'du'-Form.", "explanation": "Die 'du'-Form von 'verzichten' lautet 'verzichtest'." },
+          { "id": "l4m08", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Er ___ (sich verändern) sich langsam.", "solution": "verändert", "hint": "3. Person Singular.", "explanation": "Die 'er'-Form von 'sich verändern' lautet 'verändert sich'." },
+          { "id": "l4m09", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Wir ___ (schützen) die Umwelt.", "solution": "schützen", "hint": "'wir'-Form.", "explanation": "Die 'wir'-Form von 'schützen' lautet 'schützen'." },
+          { "id": "l4m10", "type": "cloze-conjugation", "instruction": "Ergänze das Nomen.", "prompt": "Ich möchte mein ___ (Verhalten) ändern.", "solution": "Verhalten", "hint": "Ein Substantiv.", "explanation": "'Verhalten' ist das gesuchte Substantiv." }
+        ],
+        "hard": [
+          { "id": "l4h01", "type": "targeted-transformation", "instruction": "Sage, dass du die Umwelt schützt.", "prompt": "die Umwelt / schützen", "solution": "Ich schütze die Umwelt.", "hint": "'ich'-Form.", "explanation": "Die 'ich'-Form von 'schützen' lautet 'schütze'." },
+          { "id": "l4h02", "type": "targeted-transformation", "instruction": "Sage, dass du auf Fleisch verzichtest.", "prompt": "auf Fleisch / verzichten", "solution": "Ich verzichte auf Fleisch.", "hint": "'ich'-Form.", "explanation": "Die 'ich'-Form von 'verzichten' lautet 'verzichte'." },
+          { "id": "l4h03", "type": "targeted-transformation", "instruction": "Sage, dass du dich verändern möchtest.", "prompt": "sich verändern / möchten", "solution": "Ich möchte mich verändern.", "hint": "Infinitiv am Satzende.", "explanation": "Nach dem Modalverb 'möchte' steht der Infinitiv am Satzende." },
+          { "id": "l4h04", "type": "targeted-transformation", "instruction": "Sage, dass du eine neue Gewohnheit hast.", "prompt": "eine neue Gewohnheit / haben", "solution": "Ich habe eine neue Gewohnheit.", "hint": "'ich'-Form.", "explanation": "Die 'ich'-Form von 'haben' lautet 'habe'." },
+          { "id": "l4h05", "type": "targeted-transformation", "instruction": "Sage, dass ihr Zeit gemeinsam verbringt.", "prompt": "Zeit / gemeinsam / verbringen", "solution": "Wir verbringen Zeit gemeinsam.", "hint": "'wir'-Form.", "explanation": "Die 'wir'-Form von 'verbringen' lautet 'verbringen'." },
+          { "id": "l4h06", "type": "targeted-transformation", "instruction": "Sage, dass du dein Verhalten ändern möchtest.", "prompt": "mein Verhalten / ändern möchten", "solution": "Ich möchte mein Verhalten ändern.", "hint": "Infinitiv am Satzende.", "explanation": "Nach dem Modalverb 'möchte' steht der Infinitiv am Satzende." },
+          { "id": "l4h07", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich schütze der Umwelt.", "solution": "Ich schütze die Umwelt.", "hint": "'Umwelt' ist feminin.", "explanation": "'Umwelt' ist feminin; im Akkusativ heißt es 'die Umwelt'." },
+          { "id": "l4h08", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich verzichte an Fleisch.", "solution": "Ich verzichte auf Fleisch.", "hint": "Feste Präposition: verzichten auf.", "explanation": "'verzichten auf' ist eine feste Wortverbindung, nicht 'verzichten an'." },
+          { "id": "l4h09", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich möchte mir verändern.", "solution": "Ich möchte mich verändern.", "hint": "Reflexivpronomen: mich.", "explanation": "Zum Subjekt 'ich' gehört das Reflexivpronomen 'mich', nicht 'mir'." },
+          { "id": "l4h10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Wir verbringen Zeit gemeinsame.", "solution": "Wir verbringen Zeit gemeinsam.", "hint": "'gemeinsam' bleibt ohne Endung.", "explanation": "Als Adverb bleibt 'gemeinsam' ohne zusätzliche Endung." }
+        ]
+      },
+      "test": [
+        { "id": "l4t01", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Ich schütze die ___.", "options": ["Umwelt", "Fehler", "Gewohnheit", "Verhalten"], "solution": "Umwelt", "explanation": "'Umwelt' passt grammatisch und inhaltlich." },
+        { "id": "l4t02", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Ich ___ auf Fleisch. (verzichten)", "options": ["verzichte", "verzichtest", "verzichtet", "verzichten"], "solution": "verzichte", "explanation": "Die 'ich'-Form von 'verzichten' lautet 'verzichte'." },
+        { "id": "l4t03", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Ich habe eine neue ___. (Gewohnheit)", "solution": "Gewohnheit", "explanation": "'Gewohnheit' ist das gesuchte Substantiv." },
+        { "id": "l4t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Gewohnheit", "options": ["der", "die", "das"], "solution": "die", "explanation": "'Gewohnheit' ist feminin: die Gewohnheit." },
+        { "id": "l4t05", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Ich möchte mich ___. (sich verändern)", "options": ["verändern", "veränderst", "verändert", "ändern"], "solution": "verändern", "explanation": "Nach dem Modalverb 'möchte' steht der Infinitiv 'verändern'." },
+        { "id": "l4t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Wir", "verbringen", "Zeit", "gemeinsam"], "solution": "Wir verbringen Zeit gemeinsam.", "explanation": "Das konjugierte Verb steht an Position 2." },
+        { "id": "l4t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Wir ___ (schützen) die Umwelt.", "solution": "schützen", "explanation": "Die 'wir'-Form von 'schützen' lautet 'schützen'." },
+        { "id": "l4t08", "type": "targeted-transformation", "instruction": "Sage, dass du auf Fleisch verzichtest.", "prompt": "auf Fleisch / verzichten", "solution": "Ich verzichte auf Fleisch.", "explanation": "Die 'ich'-Form von 'verzichten' lautet 'verzichte'." },
+        { "id": "l4t09", "type": "targeted-transformation", "instruction": "Sage, dass du dein Verhalten ändern möchtest.", "prompt": "mein Verhalten / ändern möchten", "solution": "Ich möchte mein Verhalten ändern.", "explanation": "Nach dem Modalverb 'möchte' steht der Infinitiv am Satzende." },
+        { "id": "l4t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich verzichte an Fleisch.", "solution": "Ich verzichte auf Fleisch.", "explanation": "'verzichten auf' ist eine feste Wortverbindung, nicht 'verzichten an'." }
+      ]
+    },
+    {
+      "lektionId": "b1-m2-l5",
+      "level": "B1",
+      "modulNumber": 2,
+      "lektionNumber": 5,
+      "title": "Ein Projekt für alternatives Leben",
+      "grammarFocus": [
+        "Finalsätze mit 'um ... zu' (gleiches Subjekt)",
+        "Finalsätze mit 'damit' (unterschiedliches Subjekt)"
+      ],
+      "vocabulary": [
+        { "id": "l5v01", "term": "um ... zu", "translation": "para (mismo sujeto)", "partOfSpeech": "phrase", "example": "Ich mache Sport, um fit zu bleiben." },
+        { "id": "l5v02", "term": "damit", "translation": "para que (sujeto diferente)", "partOfSpeech": "phrase", "example": "Ich kaufe keine Süßigkeiten, damit meine Kinder gesunde Zähne haben." },
+        { "id": "l5v03", "term": "fit bleiben", "translation": "mantenerse en forma", "partOfSpeech": "phrase", "example": "Ich mache Sport, um fit zu bleiben." },
+        { "id": "l5v04", "term": "die Süßigkeit", "translation": "el dulce", "partOfSpeech": "noun", "gender": "die", "plural": "die Süßigkeiten", "example": "Ich kaufe keine Süßigkeiten." },
+        { "id": "l5v05", "term": "die Weiterbildung", "translation": "la formación continua", "partOfSpeech": "noun", "gender": "die", "plural": "die Weiterbildungen", "example": "Ich mache eine Weiterbildung." },
+        { "id": "l5v06", "term": "die Chance", "translation": "la oportunidad", "partOfSpeech": "noun", "gender": "die", "plural": "die Chancen", "example": "Ich habe bessere Chancen." },
+        { "id": "l5v07", "term": "langweilig", "translation": "aburrido", "partOfSpeech": "adjective", "example": "Das Buch ist nicht langweilig." },
+        { "id": "l5v08", "term": "die Zange", "translation": "los alicates", "partOfSpeech": "noun", "gender": "die", "plural": "die Zangen", "example": "Ich brauche eine Zange." },
+        { "id": "l5v09", "term": "reparieren", "translation": "reparar", "partOfSpeech": "verb", "example": "Ich repariere mein Fahrrad." },
+        { "id": "l5v10", "term": "die Pfanne", "translation": "la sartén", "partOfSpeech": "noun", "gender": "die", "plural": "die Pfannen", "example": "Ich brauche eine gute Pfanne." },
+        { "id": "l5v11", "term": "das Vitamin", "translation": "la vitamina", "partOfSpeech": "noun", "gender": "das", "plural": "die Vitamine", "example": "Ich nehme jeden Tag Vitamine." },
+        { "id": "l5v12", "term": "gesund bleiben", "translation": "mantenerse sano", "partOfSpeech": "phrase", "example": "Meine Mutter bleibt gesund." },
+        { "id": "l5v13", "term": "die Landwirtschaft", "translation": "la agricultura", "partOfSpeech": "noun", "gender": "die", "example": "Ich arbeite in der Landwirtschaft." },
+        { "id": "l5v14", "term": "der Kontakt", "translation": "el contacto", "partOfSpeech": "noun", "gender": "der", "plural": "die Kontakte", "example": "Ich bin in Kontakt mit meinem Opa." },
+        { "id": "l5v15", "term": "das Angebot", "translation": "la oferta", "partOfSpeech": "noun", "gender": "das", "plural": "die Angebote", "example": "Das kulturelle Angebot ist groß." },
+        { "id": "l5v16", "term": "nutzen", "translation": "aprovechar", "partOfSpeech": "verb", "example": "Ich nutze das Angebot." }
+      ],
+      "practice": {
+        "easy": [
+          { "id": "l5e01", "type": "multiple-choice", "instruction": "Wähle den richtigen Konnektor (gleiches Subjekt).", "prompt": "Ich mache Sport, ___ fit zu bleiben.", "options": ["um", "damit", "weil", "dass"], "solution": "um", "hint": "Gleiches Subjekt in beiden Satzteilen.", "explanation": "Bei gleichem Subjekt verwendet man 'um ... zu' + Infinitiv." },
+          { "id": "l5e02", "type": "multiple-choice", "instruction": "Wähle den richtigen Konnektor (unterschiedliches Subjekt).", "prompt": "Ich kaufe keine Süßigkeiten, ___ meine Kinder gesunde Zähne bekommen.", "options": ["damit", "um", "weil", "dass"], "solution": "damit", "hint": "Unterschiedliches Subjekt.", "explanation": "Bei unterschiedlichem Subjekt verwendet man 'damit' + Nebensatz." },
+          { "id": "l5e03", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Ich mache eine ___.", "options": ["Weiterbildung", "Zange", "Pfanne", "Vitamin"], "solution": "Weiterbildung", "hint": "Berufliche Fortbildung.", "explanation": "'Weiterbildung' bezeichnet eine berufliche Fortbildung." },
+          { "id": "l5e04", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Ich ___ das Angebot. (nutzen)", "options": ["nutze", "nutzt", "nutzen", "nützt"], "solution": "nutze", "hint": "'ich'-Form.", "explanation": "Die 'ich'-Form von 'nutzen' lautet 'nutze'." },
+          { "id": "l5e05", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Ich brauche eine ___, um mein Fahrrad zu reparieren.", "options": ["Zange", "Pfanne", "Weiterbildung", "Chance"], "solution": "Zange", "hint": "Ein Werkzeug.", "explanation": "'Zange' ist ein Werkzeug zum Reparieren." },
+          { "id": "l5e06", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Zange", "options": ["der", "die", "das"], "solution": "die", "hint": "'Zange' ist feminin.", "explanation": "'Zange' ist feminin: die Zange." },
+          { "id": "l5e07", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Weiterbildung", "options": ["der", "die", "das"], "solution": "die", "hint": "'Weiterbildung' ist feminin.", "explanation": "'Weiterbildung' ist feminin: die Weiterbildung." },
+          { "id": "l5e08", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Ich nehme jeden Tag ___. (Vitamine)", "solution": "Vitamine", "hint": "Plural.", "explanation": "'Vitamine' ist das gesuchte Substantiv im Plural." },
+          { "id": "l5e09", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Ich arbeite in der ___. (Landwirtschaft)", "solution": "Landwirtschaft", "hint": "Ein Substantiv.", "explanation": "'Landwirtschaft' ist das gesuchte Substantiv." },
+          { "id": "l5e10", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Das kulturelle ___ ist groß.", "options": ["Angebot", "Kontakt", "Chance", "Zange"], "solution": "Angebot", "hint": "Neutral.", "explanation": "'Angebot' passt grammatisch und inhaltlich." }
+        ],
+        "medium": [
+          { "id": "l5m01", "type": "sentence-scramble", "instruction": "Bilde einen Finalsatz mit 'um ... zu'.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "mache", "Sport,", "um", "fit", "zu", "bleiben"], "solution": "Ich mache Sport, um fit zu bleiben.", "hint": "Gleiches Subjekt.", "explanation": "Bei gleichem Subjekt verwendet man 'um ... zu' + Infinitiv." },
+          { "id": "l5m02", "type": "sentence-scramble", "instruction": "Bilde einen Finalsatz mit 'damit'.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "kaufe", "keine", "Süßigkeiten,", "damit", "meine", "Kinder", "gesunde", "Zähne", "bekommen"], "solution": "Ich kaufe keine Süßigkeiten, damit meine Kinder gesunde Zähne bekommen.", "hint": "Unterschiedliches Subjekt.", "explanation": "Bei unterschiedlichem Subjekt verwendet man 'damit' + Nebensatz." },
+          { "id": "l5m03", "type": "sentence-scramble", "instruction": "Bilde einen Finalsatz mit 'um ... zu'.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "mache", "eine", "Weiterbildung,", "um", "bessere", "Chancen", "zu", "haben"], "solution": "Ich mache eine Weiterbildung, um bessere Chancen zu haben.", "hint": "Gleiches Subjekt.", "explanation": "Bei gleichem Subjekt verwendet man 'um ... zu' + Infinitiv." },
+          { "id": "l5m04", "type": "sentence-scramble", "instruction": "Bilde einen Finalsatz mit 'um ... zu'.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "brauche", "eine", "Zange,", "um", "mein", "Fahrrad", "zu", "reparieren"], "solution": "Ich brauche eine Zange, um mein Fahrrad zu reparieren.", "hint": "Gleiches Subjekt.", "explanation": "Bei gleichem Subjekt verwendet man 'um ... zu' + Infinitiv." },
+          { "id": "l5m05", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "nutze", "das", "Angebot"], "solution": "Ich nutze das Angebot.", "hint": "Verb an Position 2.", "explanation": "Das konjugierte Verb steht an Position 2." },
+          { "id": "l5m06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "arbeite", "in", "der", "Landwirtschaft"], "solution": "Ich arbeite in der Landwirtschaft.", "hint": "Verb an Position 2.", "explanation": "Das konjugierte Verb steht an Position 2." },
+          { "id": "l5m07", "type": "cloze-conjugation", "instruction": "Ergänze den Konnektor.", "prompt": "Ich schreibe meinem Kollegen jeden Tag, ___ (damit) er weiß, woran ich arbeite.", "solution": "damit", "hint": "Unterschiedliches Subjekt.", "explanation": "Bei unterschiedlichem Subjekt verwendet man 'damit'." },
+          { "id": "l5m08", "type": "cloze-conjugation", "instruction": "Ergänze den Konnektor.", "prompt": "Ich mache jeden Tag Sport, ___ (um) fit zu bleiben.", "solution": "um", "hint": "Gleiches Subjekt.", "explanation": "Bei gleichem Subjekt verwendet man 'um ... zu'." },
+          { "id": "l5m09", "type": "cloze-conjugation", "instruction": "Ergänze den Konnektor.", "prompt": "Meine Mutter nimmt Vitamine, ___ (damit) sie gesund bleibt.", "solution": "damit", "hint": "Unterschiedliches Subjekt.", "explanation": "Bei unterschiedlichem Subjekt verwendet man 'damit'." },
+          { "id": "l5m10", "type": "cloze-conjugation", "instruction": "Ergänze den Konnektor.", "prompt": "Ich kaufe mir eine Zange, ___ (um) das Fahrrad zu reparieren.", "solution": "um", "hint": "Gleiches Subjekt.", "explanation": "Bei gleichem Subjekt verwendet man 'um ... zu'." }
+        ],
+        "hard": [
+          { "id": "l5h01", "type": "targeted-transformation", "instruction": "Verbinde mit 'um ... zu' (gleiches Subjekt).", "prompt": "Ich mache Sport. Ich bleibe fit.", "solution": "Ich mache Sport, um fit zu bleiben.", "hint": "Infinitiv statt zweitem Subjekt.", "explanation": "Bei gleichem Subjekt ersetzt 'um ... zu' + Infinitiv den zweiten Satz." },
+          { "id": "l5h02", "type": "targeted-transformation", "instruction": "Verbinde mit 'damit' (unterschiedliches Subjekt).", "prompt": "Ich kaufe keine Süßigkeiten. Meine Kinder bekommen gesunde Zähne.", "solution": "Ich kaufe keine Süßigkeiten, damit meine Kinder gesunde Zähne bekommen.", "hint": "Nebensatz mit eigenem Subjekt.", "explanation": "Bei unterschiedlichem Subjekt braucht man 'damit' + vollständigen Nebensatz." },
+          { "id": "l5h03", "type": "targeted-transformation", "instruction": "Verbinde mit 'um ... zu'.", "prompt": "Ich mache eine Weiterbildung. Ich habe bessere Chancen.", "solution": "Ich mache eine Weiterbildung, um bessere Chancen zu haben.", "hint": "Gleiches Subjekt.", "explanation": "Bei gleichem Subjekt verwendet man 'um ... zu' + Infinitiv." },
+          { "id": "l5h04", "type": "targeted-transformation", "instruction": "Verbinde mit 'damit'.", "prompt": "Ich schreibe eine E-Mail. Mein Kollege weiß, woran ich arbeite.", "solution": "Ich schreibe eine E-Mail, damit mein Kollege weiß, woran ich arbeite.", "hint": "Unterschiedliches Subjekt.", "explanation": "Bei unterschiedlichem Subjekt verwendet man 'damit'." },
+          { "id": "l5h05", "type": "targeted-transformation", "instruction": "Verbinde mit 'um ... zu'.", "prompt": "Ich brauche eine Zange. Ich repariere mein Fahrrad.", "solution": "Ich brauche eine Zange, um mein Fahrrad zu reparieren.", "hint": "Gleiches Subjekt.", "explanation": "Bei gleichem Subjekt verwendet man 'um ... zu' + Infinitiv." },
+          { "id": "l5h06", "type": "targeted-transformation", "instruction": "Verbinde mit 'damit'.", "prompt": "Meine Mutter nimmt Vitamine. Sie bleibt gesund.", "solution": "Meine Mutter nimmt Vitamine, damit sie gesund bleibt.", "hint": "Gleiches Subjekt, aber 'damit' auch möglich bei Betonung.", "explanation": "'damit' ist hier möglich, um den Zweck als eigenständigen Nebensatz zu betonen." },
+          { "id": "l5h07", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich mache Sport, um dass ich fit bleibe.", "solution": "Ich mache Sport, um fit zu bleiben.", "hint": "Bei gleichem Subjekt: um ... zu + Infinitiv.", "explanation": "Bei gleichem Subjekt verwendet man 'um ... zu' + Infinitiv, kein 'dass'." },
+          { "id": "l5h08", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich kaufe keine Süßigkeiten, um meine Kinder gesunde Zähne bekommen.", "solution": "Ich kaufe keine Süßigkeiten, damit meine Kinder gesunde Zähne bekommen.", "hint": "Unterschiedliches Subjekt braucht 'damit'.", "explanation": "Bei unterschiedlichem Subjekt muss 'damit' verwendet werden, nicht 'um ... zu'." },
+          { "id": "l5h09", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich mache Sport, um zu fit bleiben.", "solution": "Ich mache Sport, um fit zu bleiben.", "hint": "Reihenfolge: um + Adjektiv + zu + Infinitiv.", "explanation": "Die richtige Reihenfolge ist 'um fit zu bleiben', mit 'zu' direkt vor dem Infinitiv." },
+          { "id": "l5h10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich brauche eine Zange, um repariere mein Fahrrad.", "solution": "Ich brauche eine Zange, um mein Fahrrad zu reparieren.", "hint": "Nach 'um ... zu' steht der Infinitiv.", "explanation": "Nach 'um ... zu' steht der Infinitiv, nicht die konjugierte Verbform." }
+        ]
+      },
+      "test": [
+        { "id": "l5t01", "type": "multiple-choice", "instruction": "Wähle den richtigen Konnektor (gleiches Subjekt).", "prompt": "Ich mache Sport, ___ fit zu bleiben.", "options": ["um", "damit", "weil", "dass"], "solution": "um", "explanation": "Bei gleichem Subjekt verwendet man 'um ... zu' + Infinitiv." },
+        { "id": "l5t02", "type": "multiple-choice", "instruction": "Wähle den richtigen Konnektor (unterschiedliches Subjekt).", "prompt": "Ich kaufe keine Süßigkeiten, ___ meine Kinder gesunde Zähne bekommen.", "options": ["damit", "um", "weil", "dass"], "solution": "damit", "explanation": "Bei unterschiedlichem Subjekt verwendet man 'damit' + Nebensatz." },
+        { "id": "l5t03", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Ich nehme jeden Tag ___. (Vitamine)", "solution": "Vitamine", "explanation": "'Vitamine' ist das gesuchte Substantiv im Plural." },
+        { "id": "l5t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Weiterbildung", "options": ["der", "die", "das"], "solution": "die", "explanation": "'Weiterbildung' ist feminin: die Weiterbildung." },
+        { "id": "l5t05", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Ich brauche eine ___, um mein Fahrrad zu reparieren.", "options": ["Zange", "Pfanne", "Weiterbildung", "Chance"], "solution": "Zange", "explanation": "'Zange' ist ein Werkzeug zum Reparieren." },
+        { "id": "l5t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "nutze", "das", "Angebot"], "solution": "Ich nutze das Angebot.", "explanation": "Das konjugierte Verb steht an Position 2." },
+        { "id": "l5t07", "type": "cloze-conjugation", "instruction": "Ergänze den Konnektor.", "prompt": "Meine Mutter nimmt Vitamine, ___ (damit) sie gesund bleibt.", "solution": "damit", "explanation": "Bei unterschiedlichem Subjekt verwendet man 'damit'." },
+        { "id": "l5t08", "type": "targeted-transformation", "instruction": "Verbinde mit 'um ... zu'.", "prompt": "Ich mache eine Weiterbildung. Ich habe bessere Chancen.", "solution": "Ich mache eine Weiterbildung, um bessere Chancen zu haben.", "explanation": "Bei gleichem Subjekt verwendet man 'um ... zu' + Infinitiv." },
+        { "id": "l5t09", "type": "targeted-transformation", "instruction": "Verbinde mit 'damit'.", "prompt": "Meine Mutter nimmt Vitamine. Sie bleibt gesund.", "solution": "Meine Mutter nimmt Vitamine, damit sie gesund bleibt.", "explanation": "'damit' betont den Zweck als eigenständigen Nebensatz." },
+        { "id": "l5t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich mache Sport, um dass ich fit bleibe.", "solution": "Ich mache Sport, um fit zu bleiben.", "explanation": "Bei gleichem Subjekt verwendet man 'um ... zu' + Infinitiv, kein 'dass'." }
+      ]
+    },
+    {
+      "lektionId": "b1-m2-l6",
+      "level": "B1",
+      "modulNumber": 2,
+      "lektionNumber": 6,
+      "title": "Mut zur Selbstständigkeit",
+      "grammarFocus": [
+        "Konzessivsätze: obwohl (Nebensatz) vs. trotzdem (Position 1)",
+        "Konjunktiv II irreal: hätte, wäre, könnte, würde"
+      ],
+      "vocabulary": [
+        { "id": "l6v01", "term": "obwohl", "translation": "aunque", "partOfSpeech": "phrase", "example": "Ich habe etwas Neues gewagt, obwohl ich Angst hatte." },
+        { "id": "l6v02", "term": "trotzdem", "translation": "a pesar de eso", "partOfSpeech": "phrase", "example": "Ich hatte Angst, trotzdem habe ich es gewagt." },
+        { "id": "l6v03", "term": "freiberuflich", "translation": "autónomo (freelance)", "partOfSpeech": "adjective", "example": "Ich möchte freiberuflich arbeiten." },
+        { "id": "l6v04", "term": "die Freiheit", "translation": "la libertad", "partOfSpeech": "noun", "gender": "die", "example": "Ich genieße meine Freiheit." },
+        { "id": "l6v05", "term": "sich gewöhnen an", "translation": "acostumbrarse a", "partOfSpeech": "verb", "example": "Ich gewöhne mich an den Alltag." },
+        { "id": "l6v06", "term": "die Sicherheit", "translation": "la seguridad", "partOfSpeech": "noun", "gender": "die", "example": "Ich habe mehr Sicherheit." },
+        { "id": "l6v07", "term": "der Vorteil", "translation": "la ventaja", "partOfSpeech": "noun", "gender": "der", "plural": "die Vorteile", "example": "Das ist ein Vorteil." },
+        { "id": "l6v08", "term": "der Nachteil", "translation": "la desventaja", "partOfSpeech": "noun", "gender": "der", "plural": "die Nachteile", "example": "Das ist ein Nachteil." },
+        { "id": "l6v09", "term": "die Erfahrung", "translation": "la experiencia", "partOfSpeech": "noun", "gender": "die", "plural": "die Erfahrungen", "example": "Ich habe viel Erfahrung." },
+        { "id": "l6v10", "term": "das Erdhaus", "translation": "la casa de tierra", "partOfSpeech": "noun", "gender": "das", "plural": "die Erdhäuser", "example": "Wir bauen ein Erdhaus." },
+        { "id": "l6v11", "term": "der Zeltplatz", "translation": "el camping", "partOfSpeech": "noun", "gender": "der", "plural": "die Zeltplätze", "example": "Wir übernachten auf dem Zeltplatz." },
+        { "id": "l6v12", "term": "hätte", "translation": "tendría", "partOfSpeech": "phrase", "example": "Ich hätte gern mehr Zeit." },
+        { "id": "l6v13", "term": "wäre", "translation": "sería", "partOfSpeech": "phrase", "example": "Ich wäre gern frei." },
+        { "id": "l6v14", "term": "könnte", "translation": "podría", "partOfSpeech": "phrase", "example": "Ich könnte mich besonders gut um Tiere kümmern." },
+        { "id": "l6v15", "term": "würde", "translation": "haría", "partOfSpeech": "phrase", "example": "Ich würde mich von Essensresten ernähren." },
+        { "id": "l6v16", "term": "sich ernähren", "translation": "alimentarse", "partOfSpeech": "verb", "example": "Ich würde mich gesund ernähren." }
+      ],
+      "practice": {
+        "easy": [
+          { "id": "l6e01", "type": "multiple-choice", "instruction": "Wähle den richtigen Konnektor.", "prompt": "Ich habe etwas Neues gewagt, ___ ich Angst hatte.", "options": ["obwohl", "trotzdem", "weil", "dass"], "solution": "obwohl", "hint": "Nebensatzkonnektor.", "explanation": "'obwohl' leitet einen Nebensatz ein; das Verb steht am Ende." },
+          { "id": "l6e02", "type": "multiple-choice", "instruction": "Wähle den richtigen Konnektor.", "prompt": "Ich hatte Angst. ___ habe ich es gewagt.", "options": ["Trotzdem", "Obwohl", "Weil", "Dass"], "solution": "Trotzdem", "hint": "Position-1-Konnektor.", "explanation": "'trotzdem' steht an Position 1, danach folgt das Verb." },
+          { "id": "l6e03", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Ich möchte ___ arbeiten.", "options": ["freiberuflich", "sicher", "Erfahrung", "Vorteil"], "solution": "freiberuflich", "hint": "Selbstständig, ohne festen Arbeitgeber.", "explanation": "'freiberuflich' bedeutet selbstständig, ohne festen Arbeitgeber." },
+          { "id": "l6e04", "type": "multiple-choice", "instruction": "Wähle die richtige Konjunktiv-II-Form.", "prompt": "Ich ___ gern mehr Zeit.", "options": ["hätte", "habe", "hatte", "haben"], "solution": "hätte", "hint": "Konjunktiv II von 'haben'.", "explanation": "Die 'ich'-Form von 'haben' im Konjunktiv II lautet 'hätte'." },
+          { "id": "l6e05", "type": "multiple-choice", "instruction": "Wähle die richtige Konjunktiv-II-Form.", "prompt": "Ich ___ gern frei.", "options": ["wäre", "bin", "war", "sei"], "solution": "wäre", "hint": "Konjunktiv II von 'sein'.", "explanation": "Die 'ich'-Form von 'sein' im Konjunktiv II lautet 'wäre'." },
+          { "id": "l6e06", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Freiheit", "options": ["der", "die", "das"], "solution": "die", "hint": "'Freiheit' ist feminin.", "explanation": "'Freiheit' ist feminin: die Freiheit." },
+          { "id": "l6e07", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Sicherheit", "options": ["der", "die", "das"], "solution": "die", "hint": "'Sicherheit' ist feminin.", "explanation": "'Sicherheit' ist feminin: die Sicherheit." },
+          { "id": "l6e08", "type": "fill-in-blank", "instruction": "Ergänze das Verb.", "prompt": "Ich ___ mich an den Alltag. (sich gewöhnen)", "solution": "gewöhne", "hint": "'ich'-Form.", "explanation": "Die 'ich'-Form von 'sich gewöhnen' lautet 'gewöhne mich'." },
+          { "id": "l6e09", "type": "fill-in-blank", "instruction": "Ergänze die Konjunktiv-II-Form.", "prompt": "Ich ___ mich von Essensresten ernähren.", "solution": "würde", "hint": "Konjunktiv II von 'werden'.", "explanation": "Die 'ich'-Form von 'werden' im Konjunktiv II lautet 'würde'." },
+          { "id": "l6e10", "type": "multiple-choice", "instruction": "Wähle die richtige Konjunktiv-II-Form.", "prompt": "Ich ___ mich besonders gut um Tiere kümmern.", "options": ["könnte", "kann", "konnte", "könne"], "solution": "könnte", "hint": "Konjunktiv II von 'können'.", "explanation": "Die 'ich'-Form von 'können' im Konjunktiv II lautet 'könnte'." }
+        ],
+        "medium": [
+          { "id": "l6m01", "type": "sentence-scramble", "instruction": "Bilde einen Satz mit 'obwohl'.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "habe", "etwas", "Neues", "gewagt,", "obwohl", "ich", "Angst", "hatte"], "solution": "Ich habe etwas Neues gewagt, obwohl ich Angst hatte.", "hint": "Verb am Ende des obwohl-Satzes.", "explanation": "Im obwohl-Satz steht das konjugierte Verb ganz am Ende." },
+          { "id": "l6m02", "type": "sentence-scramble", "instruction": "Bilde einen Satz mit 'trotzdem'.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "hatte", "Angst,", "trotzdem", "habe", "ich", "es", "gewagt"], "solution": "Ich hatte Angst, trotzdem habe ich es gewagt.", "hint": "Verb direkt nach 'trotzdem'.", "explanation": "Nach 'trotzdem' steht das konjugierte Verb an Position 2." },
+          { "id": "l6m03", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "möchte", "freiberuflich", "arbeiten"], "solution": "Ich möchte freiberuflich arbeiten.", "hint": "Infinitiv am Satzende.", "explanation": "Nach dem Modalverb 'möchte' steht der Infinitiv am Satzende." },
+          { "id": "l6m04", "type": "sentence-scramble", "instruction": "Bilde einen Satz im Konjunktiv II.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "hätte", "gern", "mehr", "Zeit"], "solution": "Ich hätte gern mehr Zeit.", "hint": "Konjunktiv II an Position 2.", "explanation": "'hätte' als Konjunktiv II von 'haben' steht an Position 2." },
+          { "id": "l6m05", "type": "sentence-scramble", "instruction": "Bilde einen Satz im Konjunktiv II.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "wäre", "gern", "frei"], "solution": "Ich wäre gern frei.", "hint": "Konjunktiv II an Position 2.", "explanation": "'wäre' als Konjunktiv II von 'sein' steht an Position 2." },
+          { "id": "l6m06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "gewöhne", "mich", "an", "den", "Alltag"], "solution": "Ich gewöhne mich an den Alltag.", "hint": "Verb an Position 2.", "explanation": "Das konjugierte Verb steht an Position 2." },
+          { "id": "l6m07", "type": "cloze-conjugation", "instruction": "Bilde die Konjunktiv-II-Form.", "prompt": "Du ___ (haben) gern mehr Freiheit.", "solution": "hättest", "hint": "'du'-Form.", "explanation": "Die 'du'-Form von 'haben' im Konjunktiv II lautet 'hättest'." },
+          { "id": "l6m08", "type": "cloze-conjugation", "instruction": "Bilde die Konjunktiv-II-Form.", "prompt": "Er ___ (sein) gern frei.", "solution": "wäre", "hint": "3. Person Singular.", "explanation": "Die 'er'-Form von 'sein' im Konjunktiv II lautet 'wäre'." },
+          { "id": "l6m09", "type": "cloze-conjugation", "instruction": "Bilde die Konjunktiv-II-Form.", "prompt": "Wir ___ (können) uns gut um Tiere kümmern.", "solution": "könnten", "hint": "'wir'-Form.", "explanation": "Die 'wir'-Form von 'können' im Konjunktiv II lautet 'könnten'." },
+          { "id": "l6m10", "type": "cloze-conjugation", "instruction": "Bilde die Konjunktiv-II-Form.", "prompt": "Sie ___ (werden) sich gesund ernähren.", "solution": "würde", "hint": "3. Person Singular.", "explanation": "Die 'sie'-Form von 'werden' im Konjunktiv II lautet 'würde'." }
+        ],
+        "hard": [
+          { "id": "l6h01", "type": "targeted-transformation", "instruction": "Verbinde mit 'obwohl'.", "prompt": "Ich habe etwas Neues gewagt. Ich hatte Angst.", "solution": "Ich habe etwas Neues gewagt, obwohl ich Angst hatte.", "hint": "Verb am Ende des obwohl-Satzes.", "explanation": "Im obwohl-Satz steht das konjugierte Verb ganz am Ende." },
+          { "id": "l6h02", "type": "targeted-transformation", "instruction": "Verbinde mit 'trotzdem'.", "prompt": "Ich hatte Angst. Ich habe es gewagt.", "solution": "Ich hatte Angst, trotzdem habe ich es gewagt.", "hint": "Verb direkt nach 'trotzdem'.", "explanation": "Nach 'trotzdem' steht das konjugierte Verb an Position 2." },
+          { "id": "l6h03", "type": "targeted-transformation", "instruction": "Formuliere im Konjunktiv II.", "prompt": "Ich habe gern mehr Zeit.", "solution": "Ich hätte gern mehr Zeit.", "hint": "Konjunktiv II von 'haben'.", "explanation": "Die 'ich'-Form von 'haben' im Konjunktiv II lautet 'hätte'." },
+          { "id": "l6h04", "type": "targeted-transformation", "instruction": "Formuliere im Konjunktiv II.", "prompt": "Ich bin gern frei.", "solution": "Ich wäre gern frei.", "hint": "Konjunktiv II von 'sein'.", "explanation": "Die 'ich'-Form von 'sein' im Konjunktiv II lautet 'wäre'." },
+          { "id": "l6h05", "type": "targeted-transformation", "instruction": "Formuliere im Konjunktiv II.", "prompt": "Ich kann mich gut um Tiere kümmern.", "solution": "Ich könnte mich gut um Tiere kümmern.", "hint": "Konjunktiv II von 'können'.", "explanation": "Die 'ich'-Form von 'können' im Konjunktiv II lautet 'könnte'." },
+          { "id": "l6h06", "type": "targeted-transformation", "instruction": "Formuliere im Konjunktiv II.", "prompt": "Ich ernähre mich von Essensresten.", "solution": "Ich würde mich von Essensresten ernähren.", "hint": "Konjunktiv II von 'werden' + Infinitiv.", "explanation": "Die 'ich'-Form von 'werden' im Konjunktiv II lautet 'würde' + Infinitiv." },
+          { "id": "l6h07", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich habe etwas Neues gewagt, obwohl hatte ich Angst.", "solution": "Ich habe etwas Neues gewagt, obwohl ich Angst hatte.", "hint": "Verb am Ende im obwohl-Satz.", "explanation": "Im obwohl-Satz muss das konjugierte Verb ganz am Ende stehen." },
+          { "id": "l6h08", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich hatte Angst, trotzdem ich habe es gewagt.", "solution": "Ich hatte Angst, trotzdem habe ich es gewagt.", "hint": "Verb direkt nach 'trotzdem'.", "explanation": "Nach 'trotzdem' steht das konjugierte Verb direkt an Position 2." },
+          { "id": "l6h09", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich habe gern mehr Zeit.", "solution": "Ich hätte gern mehr Zeit.", "hint": "Konjunktiv II drückt einen Wunsch aus.", "explanation": "Für einen höflichen Wunsch verwendet man den Konjunktiv II 'hätte', nicht 'habe'." },
+          { "id": "l6h10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich kann mich gut um Tiere kümmern würde.", "solution": "Ich könnte mich gut um Tiere kümmern.", "hint": "Nur eine Konjunktiv-II-Form pro Satz.", "explanation": "Ein Satz braucht nur eine konjugierte Konjunktiv-II-Form." }
+        ]
+      },
+      "test": [
+        { "id": "l6t01", "type": "multiple-choice", "instruction": "Wähle den richtigen Konnektor.", "prompt": "Ich habe etwas Neues gewagt, ___ ich Angst hatte.", "options": ["obwohl", "trotzdem", "weil", "dass"], "solution": "obwohl", "explanation": "'obwohl' leitet einen Nebensatz ein; das Verb steht am Ende." },
+        { "id": "l6t02", "type": "multiple-choice", "instruction": "Wähle den richtigen Konnektor.", "prompt": "Ich hatte Angst. ___ habe ich es gewagt.", "options": ["Trotzdem", "Obwohl", "Weil", "Dass"], "solution": "Trotzdem", "explanation": "'trotzdem' steht an Position 1, danach folgt das Verb." },
+        { "id": "l6t03", "type": "fill-in-blank", "instruction": "Ergänze das Verb.", "prompt": "Ich ___ mich an den Alltag. (sich gewöhnen)", "solution": "gewöhne", "explanation": "Die 'ich'-Form von 'sich gewöhnen' lautet 'gewöhne mich'." },
+        { "id": "l6t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Freiheit", "options": ["der", "die", "das"], "solution": "die", "explanation": "'Freiheit' ist feminin: die Freiheit." },
+        { "id": "l6t05", "type": "multiple-choice", "instruction": "Wähle die richtige Konjunktiv-II-Form.", "prompt": "Ich ___ gern mehr Zeit.", "options": ["hätte", "habe", "hatte", "haben"], "solution": "hätte", "explanation": "Die 'ich'-Form von 'haben' im Konjunktiv II lautet 'hätte'." },
+        { "id": "l6t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz im Konjunktiv II.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "wäre", "gern", "frei"], "solution": "Ich wäre gern frei.", "explanation": "'wäre' als Konjunktiv II von 'sein' steht an Position 2." },
+        { "id": "l6t07", "type": "cloze-conjugation", "instruction": "Bilde die Konjunktiv-II-Form.", "prompt": "Wir ___ (können) uns gut um Tiere kümmern.", "solution": "könnten", "explanation": "Die 'wir'-Form von 'können' im Konjunktiv II lautet 'könnten'." },
+        { "id": "l6t08", "type": "targeted-transformation", "instruction": "Verbinde mit 'obwohl'.", "prompt": "Ich habe etwas Neues gewagt. Ich hatte Angst.", "solution": "Ich habe etwas Neues gewagt, obwohl ich Angst hatte.", "explanation": "Im obwohl-Satz steht das konjugierte Verb ganz am Ende." },
+        { "id": "l6t09", "type": "targeted-transformation", "instruction": "Formuliere im Konjunktiv II.", "prompt": "Ich kann mich gut um Tiere kümmern.", "solution": "Ich könnte mich gut um Tiere kümmern.", "explanation": "Die 'ich'-Form von 'können' im Konjunktiv II lautet 'könnte'." },
+        { "id": "l6t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich hatte Angst, trotzdem ich habe es gewagt.", "solution": "Ich hatte Angst, trotzdem habe ich es gewagt.", "explanation": "Nach 'trotzdem' steht das konjugierte Verb direkt an Position 2." }
+      ]
+    }
+  ]
+}

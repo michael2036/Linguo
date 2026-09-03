@@ -1,0 +1,245 @@
+{
+  "modulId": "b1-m3",
+  "level": "B1",
+  "modulNumber": 3,
+  "title": "Reisen und Diskussion",
+  "lektionen": [
+    {
+      "lektionId": "b1-m3-l7",
+      "level": "B1",
+      "modulNumber": 3,
+      "lektionNumber": 7,
+      "title": "Allein unterwegs",
+      "grammarFocus": [
+        "Indirekte Fragen mit Fragewort: wo, was, wer",
+        "Indirekte Fragen mit 'ob'"
+      ],
+      "vocabulary": [
+        { "id": "l7v01", "term": "berichten", "translation": "informar / relatar", "partOfSpeech": "verb", "example": "Sie berichtet von ihrer Reise." },
+        { "id": "l7v02", "term": "kennenlernen", "translation": "conocer", "partOfSpeech": "verb", "example": "Sie hat viele Menschen kennengelernt." },
+        { "id": "l7v03", "term": "übernachten", "translation": "pasar la noche", "partOfSpeech": "verb", "example": "Wo hat sie übernachtet?" },
+        { "id": "l7v04", "term": "das Zelt", "translation": "la tienda de campaña", "partOfSpeech": "noun", "gender": "das", "plural": "die Zelte", "example": "Sie hat im Zelt geschlafen." },
+        { "id": "l7v05", "term": "das Alleinsein", "translation": "la soledad (estar solo)", "partOfSpeech": "noun", "gender": "das", "example": "Sie hatte keine Probleme mit dem Alleinsein." },
+        { "id": "l7v06", "term": "der Spiegel", "translation": "el espejo", "partOfSpeech": "noun", "gender": "der", "plural": "die Spiegel", "example": "Sie hat in den Fahrradspiegel geschaut." },
+        { "id": "l7v07", "term": "traurig", "translation": "triste", "partOfSpeech": "adjective", "example": "Sie war manchmal traurig." },
+        { "id": "l7v08", "term": "die Künstlerin", "translation": "la artista", "partOfSpeech": "noun", "gender": "die", "plural": "die Künstlerinnen", "example": "Sie hat eine Künstlerin kennengelernt." },
+        { "id": "l7v09", "term": "das Strandkunstwerk", "translation": "la obra de arte en la playa", "partOfSpeech": "noun", "gender": "das", "plural": "die Strandkunstwerke", "example": "Sie haben ein Strandkunstwerk gebaut." },
+        { "id": "l7v10", "term": "anbieten", "translation": "ofrecer", "partOfSpeech": "verb", "example": "Er hat mir eine Übernachtung angeboten." },
+        { "id": "l7v11", "term": "sich fragen", "translation": "preguntarse", "partOfSpeech": "verb", "example": "Ich frage mich, ob das stimmt." },
+        { "id": "l7v12", "term": "wissen", "translation": "saber", "partOfSpeech": "verb", "example": "Ich weiß nicht, wo sie war." },
+        { "id": "l7v13", "term": "insgesamt", "translation": "en total / en general", "partOfSpeech": "adverb", "example": "Insgesamt ging es ihr gut." },
+        { "id": "l7v14", "term": "zurückkehren", "translation": "regresar", "partOfSpeech": "verb", "example": "Sie ist sofort zurückgekehrt." },
+        { "id": "l7v15", "term": "das Erlebnis", "translation": "la vivencia", "partOfSpeech": "noun", "gender": "das", "plural": "die Erlebnisse", "example": "Das war ein besonderes Erlebnis." },
+        { "id": "l7v16", "term": "das Vertrauen", "translation": "la confianza", "partOfSpeech": "noun", "gender": "das", "example": "Sie hat viel Vertrauen in fremde Menschen." }
+      ],
+      "practice": {
+        "easy": [
+          { "id": "l7e01", "type": "multiple-choice", "instruction": "Wähle das richtige Fragewort.", "prompt": "Ich weiß nicht, ___ sie übernachtet hat.", "options": ["wo", "ob", "was", "wer"], "solution": "wo", "hint": "Fragt nach dem Ort.", "explanation": "'wo' fragt nach dem Ort." },
+          { "id": "l7e02", "type": "multiple-choice", "instruction": "Wähle das richtige Fragewort.", "prompt": "Ich frage mich, ___ das stimmt.", "options": ["ob", "wo", "was", "wer"], "solution": "ob", "hint": "Leitet eine Ja/Nein-Frage ein.", "explanation": "'ob' leitet eine indirekte Ja/Nein-Frage ein." },
+          { "id": "l7e03", "type": "multiple-choice", "instruction": "Wähle das richtige Fragewort.", "prompt": "Ich weiß nicht, ___ sie gemacht hat.", "options": ["was", "ob", "wo", "wer"], "solution": "was", "hint": "Fragt nach einer Sache.", "explanation": "'was' fragt nach einer Sache." },
+          { "id": "l7e04", "type": "multiple-choice", "instruction": "Wähle das richtige Partizip II.", "prompt": "Sie hat viele Menschen ___. (kennenlernen)", "options": ["kennengelernt", "kennengelernen", "kennenlernte", "kennenlernt"], "solution": "kennengelernt", "hint": "Trennbares Verb.", "explanation": "Das Partizip II von 'kennenlernen' lautet 'kennengelernt'." },
+          { "id": "l7e05", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Sie hat im ___ geschlafen.", "options": ["Zelt", "Spiegel", "Erlebnis", "Alleinsein"], "solution": "Zelt", "hint": "Ein Ort zum Übernachten im Freien.", "explanation": "'Zelt' ist ein Ort zum Übernachten im Freien." },
+          { "id": "l7e06", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Zelt", "options": ["der", "die", "das"], "solution": "das", "hint": "'Zelt' ist neutral.", "explanation": "'Zelt' ist neutral: das Zelt." },
+          { "id": "l7e07", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Künstlerin", "options": ["der", "die", "das"], "solution": "die", "hint": "'Künstlerin' ist feminin.", "explanation": "'Künstlerin' ist feminin: die Künstlerin." },
+          { "id": "l7e08", "type": "fill-in-blank", "instruction": "Ergänze das Adverb.", "prompt": "___ ging es ihr gut. (insgesamt)", "solution": "Insgesamt", "hint": "Zusammenfassend.", "explanation": "'Insgesamt' fasst eine Erfahrung zusammen." },
+          { "id": "l7e09", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Das war ein besonderes ___. (Erlebnis)", "solution": "Erlebnis", "hint": "Ein Substantiv.", "explanation": "'Erlebnis' ist das gesuchte Substantiv." },
+          { "id": "l7e10", "type": "multiple-choice", "instruction": "Wähle das richtige Partizip II.", "prompt": "Sie ist sofort ___. (zurückkehren)", "options": ["zurückgekehrt", "zurückgekehren", "zurückkehrte", "zurückkehrt"], "solution": "zurückgekehrt", "hint": "Trennbares Verb.", "explanation": "Das Partizip II von 'zurückkehren' lautet 'zurückgekehrt'." }
+        ],
+        "medium": [
+          { "id": "l7m01", "type": "sentence-scramble", "instruction": "Bilde eine indirekte Frage.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "weiß", "nicht,", "wo", "sie", "übernachtet", "hat"], "solution": "Ich weiß nicht, wo sie übernachtet hat.", "hint": "Verb am Ende des wo-Satzes.", "explanation": "Im indirekten Fragesatz mit 'wo' steht das Verb am Ende." },
+          { "id": "l7m02", "type": "sentence-scramble", "instruction": "Bilde eine indirekte Frage.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "frage", "mich,", "ob", "das", "stimmt"], "solution": "Ich frage mich, ob das stimmt.", "hint": "Verb am Ende des ob-Satzes.", "explanation": "Im ob-Satz steht das Verb am Ende." },
+          { "id": "l7m03", "type": "sentence-scramble", "instruction": "Bilde eine indirekte Frage.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "weiß", "nicht,", "was", "sie", "gemacht", "hat"], "solution": "Ich weiß nicht, was sie gemacht hat.", "hint": "Verb am Ende des was-Satzes.", "explanation": "Im indirekten Fragesatz mit 'was' steht das Verb am Ende." },
+          { "id": "l7m04", "type": "sentence-scramble", "instruction": "Bilde das Perfekt.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Sie", "hat", "viele", "Menschen", "kennengelernt"], "solution": "Sie hat viele Menschen kennengelernt.", "hint": "Partizip II am Satzende.", "explanation": "Im Perfekt steht das Partizip II am Satzende." },
+          { "id": "l7m05", "type": "sentence-scramble", "instruction": "Bilde das Perfekt.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Sie", "hat", "im", "Zelt", "geschlafen"], "solution": "Sie hat im Zelt geschlafen.", "hint": "Partizip II am Satzende.", "explanation": "Im Perfekt steht das Partizip II am Satzende." },
+          { "id": "l7m06", "type": "sentence-scramble", "instruction": "Bilde das Perfekt.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Sie", "ist", "sofort", "zurückgekehrt"], "solution": "Sie ist sofort zurückgekehrt.", "hint": "Bewegungsverb → Perfekt mit 'sein'.", "explanation": "'zurückkehren' bildet das Perfekt mit 'sein'." },
+          { "id": "l7m07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Ich weiß nicht, ob sie ___ (haben) Probleme mit dem Alleinsein.", "solution": "hat", "hint": "3. Person Singular.", "explanation": "Die 'sie'-Form von 'haben' lautet 'hat'." },
+          { "id": "l7m08", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Ich frage mich, was sie dort ___ (machen).", "solution": "macht", "hint": "3. Person Singular.", "explanation": "Die 'sie'-Form von 'machen' lautet 'macht'." },
+          { "id": "l7m09", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Sie ___ (berichten) von ihrer Reise.", "solution": "berichtet", "hint": "3. Person Singular.", "explanation": "Die 'sie'-Form von 'berichten' lautet 'berichtet'." },
+          { "id": "l7m10", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Er ___ (anbieten) mir eine Übernachtung.", "solution": "bietet", "hint": "Trennbares Verb, 3. Person Singular.", "explanation": "Die 'er'-Form von 'anbieten' lautet 'bietet ... an'." }
+        ],
+        "hard": [
+          { "id": "l7h01", "type": "targeted-transformation", "instruction": "Bilde eine indirekte Frage mit 'wo'.", "prompt": "Wo hat sie übernachtet?", "solution": "Ich weiß nicht, wo sie übernachtet hat.", "hint": "Verb wandert ans Ende.", "explanation": "Bei der indirekten Frage wandert das konjugierte Verb ans Ende." },
+          { "id": "l7h02", "type": "targeted-transformation", "instruction": "Bilde eine indirekte Frage mit 'ob'.", "prompt": "Hat sie Probleme mit dem Alleinsein?", "solution": "Ich frage mich, ob sie Probleme mit dem Alleinsein hat.", "hint": "Verb wandert ans Ende.", "explanation": "Bei der indirekten Frage mit 'ob' wandert das konjugierte Verb ans Ende." },
+          { "id": "l7h03", "type": "targeted-transformation", "instruction": "Bilde eine indirekte Frage mit 'was'.", "prompt": "Was hat sie erlebt?", "solution": "Ich weiß nicht, was sie erlebt hat.", "hint": "Verb wandert ans Ende.", "explanation": "Bei der indirekten Frage wandert das konjugierte Verb ans Ende." },
+          { "id": "l7h04", "type": "targeted-transformation", "instruction": "Bilde eine indirekte Frage mit 'wer'.", "prompt": "Wer hat sie kennengelernt?", "solution": "Ich weiß nicht, wer sie kennengelernt hat.", "hint": "Verb wandert ans Ende.", "explanation": "Bei der indirekten Frage wandert das konjugierte Verb ans Ende." },
+          { "id": "l7h05", "type": "targeted-transformation", "instruction": "Bilde das Perfekt.", "prompt": "Sie lernt viele Menschen kennen.", "solution": "Sie hat viele Menschen kennengelernt.", "hint": "Partizip II von 'kennenlernen'.", "explanation": "Das Partizip II von 'kennenlernen' lautet 'kennengelernt'." },
+          { "id": "l7h06", "type": "targeted-transformation", "instruction": "Bilde das Perfekt.", "prompt": "Sie kehrt sofort zurück.", "solution": "Sie ist sofort zurückgekehrt.", "hint": "Bewegungsverb → Perfekt mit 'sein'.", "explanation": "'zurückkehren' bildet das Perfekt mit 'sein'." },
+          { "id": "l7h07", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich weiß nicht, wo hat sie übernachtet.", "solution": "Ich weiß nicht, wo sie übernachtet hat.", "hint": "Verb am Ende im indirekten Fragesatz.", "explanation": "Im indirekten Fragesatz muss das Verb ganz am Ende stehen." },
+          { "id": "l7h08", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich frage mich, ob stimmt das.", "solution": "Ich frage mich, ob das stimmt.", "hint": "Verb am Ende im ob-Satz.", "explanation": "Im ob-Satz muss das Verb ganz am Ende stehen." },
+          { "id": "l7h09", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Sie hat kennengelernt viele Menschen.", "solution": "Sie hat viele Menschen kennengelernt.", "hint": "Partizip II steht am Satzende.", "explanation": "Im Perfekt muss das Partizip II am Satzende stehen." },
+          { "id": "l7h10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Sie hat sofort zurückgekehrt.", "solution": "Sie ist sofort zurückgekehrt.", "hint": "Bewegungsverb braucht 'sein'.", "explanation": "'zurückkehren' bildet das Perfekt mit 'sein', nicht mit 'haben'." }
+        ]
+      },
+      "test": [
+        { "id": "l7t01", "type": "multiple-choice", "instruction": "Wähle das richtige Fragewort.", "prompt": "Ich weiß nicht, ___ sie übernachtet hat.", "options": ["wo", "ob", "was", "wer"], "solution": "wo", "explanation": "'wo' fragt nach dem Ort." },
+        { "id": "l7t02", "type": "multiple-choice", "instruction": "Wähle das richtige Fragewort.", "prompt": "Ich frage mich, ___ das stimmt.", "options": ["ob", "wo", "was", "wer"], "solution": "ob", "explanation": "'ob' leitet eine indirekte Ja/Nein-Frage ein." },
+        { "id": "l7t03", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Das war ein besonderes ___. (Erlebnis)", "solution": "Erlebnis", "explanation": "'Erlebnis' ist das gesuchte Substantiv." },
+        { "id": "l7t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Zelt", "options": ["der", "die", "das"], "solution": "das", "explanation": "'Zelt' ist neutral: das Zelt." },
+        { "id": "l7t05", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Sie hat im ___ geschlafen.", "options": ["Zelt", "Spiegel", "Erlebnis", "Alleinsein"], "solution": "Zelt", "explanation": "'Zelt' ist ein Ort zum Übernachten im Freien." },
+        { "id": "l7t06", "type": "sentence-scramble", "instruction": "Bilde das Perfekt.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Sie", "hat", "viele", "Menschen", "kennengelernt"], "solution": "Sie hat viele Menschen kennengelernt.", "explanation": "Im Perfekt steht das Partizip II am Satzende." },
+        { "id": "l7t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Sie ___ (berichten) von ihrer Reise.", "solution": "berichtet", "explanation": "Die 'sie'-Form von 'berichten' lautet 'berichtet'." },
+        { "id": "l7t08", "type": "targeted-transformation", "instruction": "Bilde eine indirekte Frage mit 'wo'.", "prompt": "Wo hat sie übernachtet?", "solution": "Ich weiß nicht, wo sie übernachtet hat.", "explanation": "Bei der indirekten Frage wandert das konjugierte Verb ans Ende." },
+        { "id": "l7t09", "type": "targeted-transformation", "instruction": "Bilde das Perfekt.", "prompt": "Sie kehrt sofort zurück.", "solution": "Sie ist sofort zurückgekehrt.", "explanation": "'zurückkehren' bildet das Perfekt mit 'sein'." },
+        { "id": "l7t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Sie hat sofort zurückgekehrt.", "solution": "Sie ist sofort zurückgekehrt.", "explanation": "'zurückkehren' bildet das Perfekt mit 'sein', nicht mit 'haben'." }
+      ]
+    },
+    {
+      "lektionId": "b1-m3-l8",
+      "level": "B1",
+      "modulNumber": 3,
+      "lektionNumber": 8,
+      "title": "Diskussion führen",
+      "grammarFocus": [
+        "Meinung äußern: meiner Meinung nach, ich bin der Ansicht",
+        "Zustimmen, widersprechen und ums Wort bitten"
+      ],
+      "vocabulary": [
+        { "id": "l8v01", "term": "meiner Meinung nach", "translation": "en mi opinión", "partOfSpeech": "phrase", "example": "Meiner Meinung nach ist das wichtig." },
+        { "id": "l8v02", "term": "der Ansicht sein", "translation": "ser de la opinión", "partOfSpeech": "phrase", "example": "Ich bin der Ansicht, dass das stimmt." },
+        { "id": "l8v03", "term": "zustimmen", "translation": "estar de acuerdo", "partOfSpeech": "verb", "example": "Das sehe ich auch so." },
+        { "id": "l8v04", "term": "widersprechen", "translation": "contradecir", "partOfSpeech": "verb", "example": "Da muss ich widersprechen." },
+        { "id": "l8v05", "term": "die Meinung", "translation": "la opinión", "partOfSpeech": "noun", "gender": "die", "plural": "die Meinungen", "example": "Das ist meine Meinung." },
+        { "id": "l8v06", "term": "das Wort", "translation": "la palabra", "partOfSpeech": "noun", "gender": "das", "plural": "die Wörter", "example": "Darf ich kurz das Wort ergänzen?" },
+        { "id": "l8v07", "term": "unterbrechen", "translation": "interrumpir", "partOfSpeech": "verb", "example": "Entschuldigung, wenn ich unterbreche." },
+        { "id": "l8v08", "term": "ausreden lassen", "translation": "dejar terminar de hablar", "partOfSpeech": "phrase", "example": "Lass mich bitte kurz ausreden." },
+        { "id": "l8v09", "term": "die Pflicht", "translation": "la obligación", "partOfSpeech": "noun", "gender": "die", "plural": "die Pflichten", "example": "Das ist unsere Pflicht." },
+        { "id": "l8v10", "term": "sich engagieren", "translation": "comprometerse", "partOfSpeech": "verb", "example": "Ich engagiere mich sozial." },
+        { "id": "l8v11", "term": "die Demonstration", "translation": "la manifestación", "partOfSpeech": "noun", "gender": "die", "plural": "die Demonstrationen", "example": "Wir gehen auf Demonstrationen." },
+        { "id": "l8v12", "term": "kämpfen", "translation": "luchar", "partOfSpeech": "verb", "example": "Wir kämpfen für unsere Rechte." },
+        { "id": "l8v13", "term": "die Zukunft", "translation": "el futuro", "partOfSpeech": "noun", "gender": "die", "example": "Das ist wichtig für unsere Zukunft." },
+        { "id": "l8v14", "term": "das Pflichtjahr", "translation": "el año de servicio obligatorio", "partOfSpeech": "noun", "gender": "das", "plural": "die Pflichtjahre", "example": "Ich mache ein Soziales Pflichtjahr." },
+        { "id": "l8v15", "term": "die Vorbereitung", "translation": "la preparación", "partOfSpeech": "noun", "gender": "die", "plural": "die Vorbereitungen", "example": "Das ist eine gute Vorbereitung." },
+        { "id": "l8v16", "term": "der Standpunkt", "translation": "el punto de vista", "partOfSpeech": "noun", "gender": "der", "plural": "die Standpunkte", "example": "Das ist mein Standpunkt." }
+      ],
+      "practice": {
+        "easy": [
+          { "id": "l8e01", "type": "multiple-choice", "instruction": "Wähle die passende Einleitung.", "prompt": "___ ist das wichtig.", "options": ["Meiner Meinung nach", "Ich bin der Ansicht", "Da muss ich widersprechen", "Das sehe ich auch so"], "solution": "Meiner Meinung nach", "hint": "Meinung einleiten.", "explanation": "'Meiner Meinung nach' leitet eine persönliche Meinung ein." },
+          { "id": "l8e02", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Das sehe ich auch ___.", "options": ["so", "anders", "nicht", "gar"], "solution": "so", "hint": "Zustimmung.", "explanation": "'Das sehe ich auch so' drückt Zustimmung aus." },
+          { "id": "l8e03", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Da muss ich ___. (widersprechen)", "options": ["widersprechen", "widersprichst", "widerspricht", "widersprecht"], "solution": "widersprechen", "hint": "Infinitiv nach Modalverb.", "explanation": "Nach dem Modalverb 'muss' steht der Infinitiv." },
+          { "id": "l8e04", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Entschuldigung, wenn ich ___. (unterbrechen)", "options": ["unterbreche", "unterbrichst", "unterbricht", "unterbrecht"], "solution": "unterbreche", "hint": "'ich'-Form.", "explanation": "Die 'ich'-Form von 'unterbrechen' lautet 'unterbreche'." },
+          { "id": "l8e05", "type": "multiple-choice", "instruction": "Wähle das richtige Verb.", "prompt": "Lass mich bitte kurz ___.", "options": ["ausreden", "ausrede", "ausredest", "ausredet"], "solution": "ausreden", "hint": "Infinitiv nach 'lass mich'.", "explanation": "Nach 'lass mich' steht der Infinitiv." },
+          { "id": "l8e06", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Meinung", "options": ["der", "die", "das"], "solution": "die", "hint": "'Meinung' ist feminin.", "explanation": "'Meinung' ist feminin: die Meinung." },
+          { "id": "l8e07", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Demonstration", "options": ["der", "die", "das"], "solution": "die", "hint": "'Demonstration' ist feminin.", "explanation": "'Demonstration' ist feminin: die Demonstration." },
+          { "id": "l8e08", "type": "fill-in-blank", "instruction": "Ergänze das Verb.", "prompt": "Wir ___ für unsere Rechte. (kämpfen)", "solution": "kämpfen", "hint": "'wir'-Form.", "explanation": "Die 'wir'-Form von 'kämpfen' lautet 'kämpfen'." },
+          { "id": "l8e09", "type": "fill-in-blank", "instruction": "Ergänze das Verb.", "prompt": "Ich ___ mich sozial. (sich engagieren)", "solution": "engagiere", "hint": "'ich'-Form.", "explanation": "Die 'ich'-Form von 'sich engagieren' lautet 'engagiere mich'." },
+          { "id": "l8e10", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Das ist mein ___.", "options": ["Standpunkt", "Pflichtjahr", "Vorbereitung", "Zukunft"], "solution": "Standpunkt", "hint": "Eine persönliche Position.", "explanation": "'Standpunkt' bezeichnet eine persönliche Position." }
+        ],
+        "medium": [
+          { "id": "l8m01", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Meiner", "Meinung", "nach", "ist", "das", "wichtig"], "solution": "Meiner Meinung nach ist das wichtig.", "hint": "Verb nach der Angabe an Position 1.", "explanation": "Nach der Angabe an Position 1 folgt das Verb an Position 2." },
+          { "id": "l8m02", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Das", "sehe", "ich", "auch", "so"], "solution": "Das sehe ich auch so.", "hint": "Verb an Position 2.", "explanation": "Das konjugierte Verb steht an Position 2." },
+          { "id": "l8m03", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Da", "muss", "ich", "widersprechen"], "solution": "Da muss ich widersprechen.", "hint": "Verb direkt nach 'da'.", "explanation": "Nach 'da' an Position 1 folgt das Verb an Position 2." },
+          { "id": "l8m04", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Lass", "mich", "bitte", "kurz", "ausreden"], "solution": "Lass mich bitte kurz ausreden.", "hint": "Infinitiv am Satzende.", "explanation": "Nach 'lass mich' steht der Infinitiv am Satzende." },
+          { "id": "l8m05", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Wir", "kämpfen", "für", "unsere", "Rechte"], "solution": "Wir kämpfen für unsere Rechte.", "hint": "Verb an Position 2.", "explanation": "Das konjugierte Verb steht an Position 2." },
+          { "id": "l8m06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "engagiere", "mich", "sozial"], "solution": "Ich engagiere mich sozial.", "hint": "Verb an Position 2.", "explanation": "Das konjugierte Verb steht an Position 2." },
+          { "id": "l8m07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Ich ___ (sein) der Ansicht, dass das stimmt.", "solution": "bin", "hint": "'ich'-Form.", "explanation": "Die 'ich'-Form von 'sein' lautet 'bin'." },
+          { "id": "l8m08", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Du ___ (widersprechen) mir oft.", "solution": "widersprichst", "hint": "Unregelmäßiges Verb, 'du'-Form.", "explanation": "Die 'du'-Form von 'widersprechen' lautet 'widersprichst'." },
+          { "id": "l8m09", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Wir ___ (kämpfen) für eine bessere Zukunft.", "solution": "kämpfen", "hint": "'wir'-Form.", "explanation": "Die 'wir'-Form von 'kämpfen' lautet 'kämpfen'." },
+          { "id": "l8m10", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Sie ___ (sich engagieren) sich für die Umwelt.", "solution": "engagiert", "hint": "3. Person Singular.", "explanation": "Die 'sie'-Form von 'sich engagieren' lautet 'engagiert sich'." }
+        ],
+        "hard": [
+          { "id": "l8h01", "type": "targeted-transformation", "instruction": "Äußere deine Meinung.", "prompt": "das ist wichtig", "solution": "Meiner Meinung nach ist das wichtig.", "hint": "Feste Wendung.", "explanation": "'Meiner Meinung nach' leitet eine persönliche Meinung ein." },
+          { "id": "l8h02", "type": "targeted-transformation", "instruction": "Stimme zu.", "prompt": "Zustimmung", "solution": "Das sehe ich auch so.", "hint": "Feste Wendung.", "explanation": "'Das sehe ich auch so' drückt Zustimmung aus." },
+          { "id": "l8h03", "type": "targeted-transformation", "instruction": "Widersprich höflich.", "prompt": "Widerspruch", "solution": "Da muss ich widersprechen.", "hint": "Feste Wendung.", "explanation": "'Da muss ich widersprechen' ist eine höfliche Widerspruchsformel." },
+          { "id": "l8h04", "type": "targeted-transformation", "instruction": "Bitte höflich darum, nicht unterbrochen zu werden.", "prompt": "ausreden lassen", "solution": "Lass mich bitte kurz ausreden.", "hint": "Feste Wendung.", "explanation": "'Lass mich bitte kurz ausreden' ist eine höfliche Bitte." },
+          { "id": "l8h05", "type": "targeted-transformation", "instruction": "Sage, dass ihr für eure Rechte kämpft.", "prompt": "für unsere Rechte / kämpfen", "solution": "Wir kämpfen für unsere Rechte.", "hint": "'wir'-Form.", "explanation": "Die 'wir'-Form von 'kämpfen' lautet 'kämpfen'." },
+          { "id": "l8h06", "type": "targeted-transformation", "instruction": "Sage, dass du dich sozial engagierst.", "prompt": "sozial / sich engagieren", "solution": "Ich engagiere mich sozial.", "hint": "'ich'-Form, reflexiv.", "explanation": "Die 'ich'-Form von 'sich engagieren' lautet 'engagiere mich'." },
+          { "id": "l8h07", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Meiner Meinung nach das ist wichtig.", "solution": "Meiner Meinung nach ist das wichtig.", "hint": "Verb an Position 2.", "explanation": "Nach der Angabe an Position 1 folgt das Verb direkt an Position 2." },
+          { "id": "l8h08", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Da ich muss widersprechen.", "solution": "Da muss ich widersprechen.", "hint": "Verb direkt nach 'da'.", "explanation": "Nach 'da' an Position 1 steht das Verb direkt an Position 2." },
+          { "id": "l8h09", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich engagiere sich sozial.", "solution": "Ich engagiere mich sozial.", "hint": "Reflexivpronomen: mich.", "explanation": "Zum Subjekt 'ich' gehört das Reflexivpronomen 'mich', nicht 'sich'." },
+          { "id": "l8h10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Wir kämpfen für unsere Recht.", "solution": "Wir kämpfen für unsere Rechte.", "hint": "Plural: Rechte.", "explanation": "'Rechte' steht hier im Plural, nicht im Singular 'Recht'." }
+        ]
+      },
+      "test": [
+        { "id": "l8t01", "type": "multiple-choice", "instruction": "Wähle die passende Einleitung.", "prompt": "___ ist das wichtig.", "options": ["Meiner Meinung nach", "Ich bin der Ansicht", "Da muss ich widersprechen", "Das sehe ich auch so"], "solution": "Meiner Meinung nach", "explanation": "'Meiner Meinung nach' leitet eine persönliche Meinung ein." },
+        { "id": "l8t02", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Da muss ich ___. (widersprechen)", "options": ["widersprechen", "widersprichst", "widerspricht", "widersprecht"], "solution": "widersprechen", "explanation": "Nach dem Modalverb 'muss' steht der Infinitiv." },
+        { "id": "l8t03", "type": "fill-in-blank", "instruction": "Ergänze das Verb.", "prompt": "Wir ___ für unsere Rechte. (kämpfen)", "solution": "kämpfen", "explanation": "Die 'wir'-Form von 'kämpfen' lautet 'kämpfen'." },
+        { "id": "l8t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Demonstration", "options": ["der", "die", "das"], "solution": "die", "explanation": "'Demonstration' ist feminin: die Demonstration." },
+        { "id": "l8t05", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Das ist mein ___.", "options": ["Standpunkt", "Pflichtjahr", "Vorbereitung", "Zukunft"], "solution": "Standpunkt", "explanation": "'Standpunkt' bezeichnet eine persönliche Position." },
+        { "id": "l8t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Das", "sehe", "ich", "auch", "so"], "solution": "Das sehe ich auch so.", "explanation": "Das konjugierte Verb steht an Position 2." },
+        { "id": "l8t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Wir ___ (kämpfen) für eine bessere Zukunft.", "solution": "kämpfen", "explanation": "Die 'wir'-Form von 'kämpfen' lautet 'kämpfen'." },
+        { "id": "l8t08", "type": "targeted-transformation", "instruction": "Äußere deine Meinung.", "prompt": "das ist wichtig", "solution": "Meiner Meinung nach ist das wichtig.", "explanation": "'Meiner Meinung nach' leitet eine persönliche Meinung ein." },
+        { "id": "l8t09", "type": "targeted-transformation", "instruction": "Sage, dass du dich sozial engagierst.", "prompt": "sozial / sich engagieren", "solution": "Ich engagiere mich sozial.", "explanation": "Die 'ich'-Form von 'sich engagieren' lautet 'engagiere mich'." },
+        { "id": "l8t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich engagiere sich sozial.", "solution": "Ich engagiere mich sozial.", "explanation": "Zum Subjekt 'ich' gehört das Reflexivpronomen 'mich', nicht 'sich'." }
+      ]
+    },
+    {
+      "lektionId": "b1-m3-l9",
+      "level": "B1",
+      "modulNumber": 3,
+      "lektionNumber": 9,
+      "title": "Sprachprobleme",
+      "grammarFocus": [
+        "'wegen' + Genitiv (formell) vs. + Dativ (mündlich)",
+        "Ausrufesätze"
+      ],
+      "vocabulary": [
+        { "id": "l9v01", "term": "wegen", "translation": "a causa de", "partOfSpeech": "phrase", "example": "Wegen des Dialekts verstehe ich nichts." },
+        { "id": "l9v02", "term": "der Dialekt", "translation": "el dialecto", "partOfSpeech": "noun", "gender": "der", "plural": "die Dialekte", "example": "Ich verstehe den Dialekt nicht." },
+        { "id": "l9v03", "term": "frustriert", "translation": "frustrado", "partOfSpeech": "adjective", "example": "Ich war frustriert." },
+        { "id": "l9v04", "term": "schrecklich", "translation": "terrible", "partOfSpeech": "adjective", "example": "Das war schrecklich!" },
+        { "id": "l9v05", "term": "das Verständnis", "translation": "el entendimiento", "partOfSpeech": "noun", "gender": "das", "example": "Ich habe Verständnisprobleme." },
+        { "id": "l9v06", "term": "die Vorlesung", "translation": "la clase magistral", "partOfSpeech": "noun", "gender": "die", "plural": "die Vorlesungen", "example": "Ich habe Probleme in der Vorlesung." },
+        { "id": "l9v07", "term": "die Herausforderung", "translation": "el desafío", "partOfSpeech": "noun", "gender": "die", "plural": "die Herausforderungen", "example": "Das war eine große Herausforderung." },
+        { "id": "l9v08", "term": "schaffen", "translation": "lograr", "partOfSpeech": "verb", "example": "Ich habe es geschafft." },
+        { "id": "l9v09", "term": "mündlich", "translation": "oral", "partOfSpeech": "adjective", "example": "Der Dativ ist mündlich üblich." },
+        { "id": "l9v10", "term": "formell", "translation": "formal", "partOfSpeech": "adjective", "example": "Das ist eine formelle Sprache." },
+        { "id": "l9v11", "term": "das Semester", "translation": "el semestre", "partOfSpeech": "noun", "gender": "das", "plural": "die Semester", "example": "Ich bin im ersten Semester." },
+        { "id": "l9v12", "term": "das Heimweh", "translation": "la nostalgia (por el hogar)", "partOfSpeech": "noun", "gender": "das", "example": "Ich habe Heimweh." },
+        { "id": "l9v13", "term": "der Kontakt", "translation": "el contacto", "partOfSpeech": "noun", "gender": "der", "plural": "die Kontakte", "example": "Ich habe internationale Kontakte." },
+        { "id": "l9v14", "term": "der Vorteil", "translation": "la ventaja", "partOfSpeech": "noun", "gender": "der", "plural": "die Vorteile", "example": "Das ist ein Vorteil." },
+        { "id": "l9v15", "term": "die Vorbereitung", "translation": "la preparación", "partOfSpeech": "noun", "gender": "die", "plural": "die Vorbereitungen", "example": "Trotz der Vorbereitung war es schwer." },
+        { "id": "l9v16", "term": "der Lebenslauf", "translation": "el currículum", "partOfSpeech": "noun", "gender": "der", "plural": "die Lebensläufe", "example": "Das ist gut für den Lebenslauf." }
+      ],
+      "practice": {
+        "easy": [
+          { "id": "l9e01", "type": "multiple-choice", "instruction": "Wähle die richtige Präposition.", "prompt": "___ des Dialekts verstehe ich nichts.", "options": ["Wegen", "Trotz", "Für", "Ohne"], "solution": "Wegen", "hint": "Kausale Präposition + Genitiv.", "explanation": "'wegen' + Genitiv drückt einen formellen Grund aus." },
+          { "id": "l9e02", "type": "multiple-choice", "instruction": "Wähle die richtige Form (Akkusativ).", "prompt": "Ich verstehe ___ nicht.", "options": ["den Dialekt", "der Dialekt", "dem Dialekt", "des Dialekts"], "solution": "den Dialekt", "hint": "Akkusativ maskulin.", "explanation": "'Dialekt' ist maskulin; im Akkusativ heißt es 'den Dialekt'." },
+          { "id": "l9e03", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Ich war ___.", "options": ["frustriert", "mündlich", "formell", "schrecklich"], "solution": "frustriert", "hint": "Ein Gefühl.", "explanation": "'frustriert' beschreibt ein Gefühl der Enttäuschung." },
+          { "id": "l9e04", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Das war ___!", "options": ["schrecklich", "mündlich", "formell", "frustriert"], "solution": "schrecklich", "hint": "Ausruf.", "explanation": "'schrecklich' passt in einem emotionalen Ausrufesatz." },
+          { "id": "l9e05", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Ich habe ___.", "options": ["Verständnisprobleme", "Heimweh", "Vorbereitung", "Lebenslauf"], "solution": "Verständnisprobleme", "hint": "Schwierigkeiten zu verstehen.", "explanation": "'Verständnisprobleme' bedeutet Schwierigkeiten beim Verstehen." },
+          { "id": "l9e06", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Vorlesung", "options": ["der", "die", "das"], "solution": "die", "hint": "'Vorlesung' ist feminin.", "explanation": "'Vorlesung' ist feminin: die Vorlesung." },
+          { "id": "l9e07", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Herausforderung", "options": ["der", "die", "das"], "solution": "die", "hint": "'Herausforderung' ist feminin.", "explanation": "'Herausforderung' ist feminin: die Herausforderung." },
+          { "id": "l9e08", "type": "fill-in-blank", "instruction": "Ergänze das Partizip II.", "prompt": "Ich habe es ___. (schaffen)", "solution": "geschafft", "hint": "Regelmäßiges Verb.", "explanation": "Das Partizip II von 'schaffen' lautet 'geschafft'." },
+          { "id": "l9e09", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Ich bin im ersten ___. (Semester)", "solution": "Semester", "hint": "Ein Substantiv.", "explanation": "'Semester' ist das gesuchte Substantiv." },
+          { "id": "l9e10", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Das ist gut für den ___.", "options": ["Lebenslauf", "Heimweh", "Kontakt", "Vorteil"], "solution": "Lebenslauf", "hint": "Ein Dokument für die Bewerbung.", "explanation": "'Lebenslauf' ist das Dokument, das man für Bewerbungen braucht." }
+        ],
+        "medium": [
+          { "id": "l9m01", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "war", "frustriert"], "solution": "Ich war frustriert.", "hint": "Verb an Position 2.", "explanation": "Das konjugierte Verb steht an Position 2." },
+          { "id": "l9m02", "type": "sentence-scramble", "instruction": "Bilde einen Ausrufesatz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Das", "war", "schrecklich!"], "solution": "Das war schrecklich!", "hint": "Verb an Position 2.", "explanation": "Auch im Ausrufesatz steht das konjugierte Verb an Position 2." },
+          { "id": "l9m03", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "habe", "Verständnisprobleme"], "solution": "Ich habe Verständnisprobleme.", "hint": "Verb an Position 2.", "explanation": "Das konjugierte Verb steht an Position 2." },
+          { "id": "l9m04", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Das", "war", "eine", "große", "Herausforderung"], "solution": "Das war eine große Herausforderung.", "hint": "Verb an Position 2.", "explanation": "Das konjugierte Verb steht an Position 2." },
+          { "id": "l9m05", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "habe", "Heimweh"], "solution": "Ich habe Heimweh.", "hint": "Verb an Position 2.", "explanation": "Das konjugierte Verb steht an Position 2." },
+          { "id": "l9m06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "habe", "es", "geschafft"], "solution": "Ich habe es geschafft.", "hint": "Partizip II am Satzende.", "explanation": "Im Perfekt steht das Partizip II am Satzende." },
+          { "id": "l9m07", "type": "cloze-conjugation", "instruction": "Ergänze die Präposition.", "prompt": "___ (wegen) des Heimwehs war es schwer.", "solution": "Wegen", "hint": "Kausale Präposition + Genitiv.", "explanation": "'wegen' + Genitiv drückt einen formellen Grund aus." },
+          { "id": "l9m08", "type": "cloze-conjugation", "instruction": "Ergänze das Nomen.", "prompt": "Trotz der ___ (Vorbereitung) war es schwer.", "solution": "Vorbereitung", "hint": "Ein Substantiv.", "explanation": "'Vorbereitung' ist das gesuchte Substantiv." },
+          { "id": "l9m09", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Ich ___ (haben) internationale Kontakte.", "solution": "habe", "hint": "'ich'-Form.", "explanation": "Die 'ich'-Form von 'haben' lautet 'habe'." },
+          { "id": "l9m10", "type": "cloze-conjugation", "instruction": "Ergänze das Nomen.", "prompt": "Das ist gut für meinen ___ (Lebenslauf).", "solution": "Lebenslauf", "hint": "Ein Substantiv.", "explanation": "'Lebenslauf' ist das gesuchte Substantiv." }
+        ],
+        "hard": [
+          { "id": "l9h01", "type": "targeted-transformation", "instruction": "Begründe formell mit 'wegen' + Genitiv.", "prompt": "der Dialekt", "solution": "Wegen des Dialekts verstehe ich nichts.", "hint": "'wegen' + Genitiv.", "explanation": "'wegen' + Genitiv drückt einen formellen Grund aus: wegen des Dialekts." },
+          { "id": "l9h02", "type": "targeted-transformation", "instruction": "Drücke Frustration in einem Ausruf aus.", "prompt": "schrecklich", "solution": "Mensch, war das schrecklich!", "hint": "Ausrufesatz.", "explanation": "'Mensch, war das schrecklich!' ist ein emotionaler Ausrufesatz." },
+          { "id": "l9h03", "type": "targeted-transformation", "instruction": "Sage, dass du Verständnisprobleme hast.", "prompt": "Verständnisprobleme / haben", "solution": "Ich habe Verständnisprobleme.", "hint": "'ich'-Form.", "explanation": "Die 'ich'-Form von 'haben' lautet 'habe'." },
+          { "id": "l9h04", "type": "targeted-transformation", "instruction": "Sage, dass das eine große Herausforderung war.", "prompt": "eine große Herausforderung", "solution": "Das war eine große Herausforderung.", "hint": "Verb an Position 2.", "explanation": "Das konjugierte Verb steht an Position 2." },
+          { "id": "l9h05", "type": "targeted-transformation", "instruction": "Sage, dass du es geschafft hast.", "prompt": "es / schaffen", "solution": "Ich habe es geschafft.", "hint": "Partizip II am Satzende.", "explanation": "Im Perfekt steht das Partizip II am Satzende." },
+          { "id": "l9h06", "type": "targeted-transformation", "instruction": "Sage, dass du Heimweh hast.", "prompt": "Heimweh / haben", "solution": "Ich habe Heimweh.", "hint": "'ich'-Form.", "explanation": "Die 'ich'-Form von 'haben' lautet 'habe'." },
+          { "id": "l9h07", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Wegen der Dialekt verstehe ich nichts.", "solution": "Wegen des Dialekts verstehe ich nichts.", "hint": "'wegen' + Genitiv.", "explanation": "'wegen' verlangt den Genitiv: des Dialekts, nicht 'der Dialekt'." },
+          { "id": "l9h08", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich habe geschaffen.", "solution": "Ich habe es geschafft.", "hint": "Partizip II von 'schaffen'.", "explanation": "Das Partizip II von 'schaffen' lautet 'geschafft', nicht 'geschaffen'." },
+          { "id": "l9h09", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Das war eine groß Herausforderung.", "solution": "Das war eine große Herausforderung.", "hint": "Akkusativ feminin: -e.", "explanation": "Im Akkusativ Feminin nach 'eine' muss das Adjektiv auf '-e' enden." },
+          { "id": "l9h10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich bin frustriert gewesen war.", "solution": "Ich war frustriert.", "hint": "Präteritum von 'sein': war.", "explanation": "Das Präteritum von 'sein' lautet 'war' — es braucht keine zusätzliche Verbform." }
+        ]
+      },
+      "test": [
+        { "id": "l9t01", "type": "multiple-choice", "instruction": "Wähle die richtige Präposition.", "prompt": "___ des Dialekts verstehe ich nichts.", "options": ["Wegen", "Trotz", "Für", "Ohne"], "solution": "Wegen", "explanation": "'wegen' + Genitiv drückt einen formellen Grund aus." },
+        { "id": "l9t02", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Ich war ___.", "options": ["frustriert", "mündlich", "formell", "schrecklich"], "solution": "frustriert", "explanation": "'frustriert' beschreibt ein Gefühl der Enttäuschung." },
+        { "id": "l9t03", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Ich bin im ersten ___. (Semester)", "solution": "Semester", "explanation": "'Semester' ist das gesuchte Substantiv." },
+        { "id": "l9t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Herausforderung", "options": ["der", "die", "das"], "solution": "die", "explanation": "'Herausforderung' ist feminin: die Herausforderung." },
+        { "id": "l9t05", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Das ist gut für den ___.", "options": ["Lebenslauf", "Heimweh", "Kontakt", "Vorteil"], "solution": "Lebenslauf", "explanation": "'Lebenslauf' ist das Dokument, das man für Bewerbungen braucht." },
+        { "id": "l9t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Das", "war", "eine", "große", "Herausforderung"], "solution": "Das war eine große Herausforderung.", "explanation": "Das konjugierte Verb steht an Position 2." },
+        { "id": "l9t07", "type": "cloze-conjugation", "instruction": "Ergänze das Nomen.", "prompt": "Trotz der ___ (Vorbereitung) war es schwer.", "solution": "Vorbereitung", "explanation": "'Vorbereitung' ist das gesuchte Substantiv." },
+        { "id": "l9t08", "type": "targeted-transformation", "instruction": "Begründe formell mit 'wegen' + Genitiv.", "prompt": "der Dialekt", "solution": "Wegen des Dialekts verstehe ich nichts.", "explanation": "'wegen' + Genitiv drückt einen formellen Grund aus." },
+        { "id": "l9t09", "type": "targeted-transformation", "instruction": "Sage, dass du es geschafft hast.", "prompt": "es / schaffen", "solution": "Ich habe es geschafft.", "explanation": "Im Perfekt steht das Partizip II am Satzende." },
+        { "id": "l9t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Wegen der Dialekt verstehe ich nichts.", "solution": "Wegen des Dialekts verstehe ich nichts.", "explanation": "'wegen' verlangt den Genitiv: des Dialekts, nicht 'der Dialekt'." }
+      ]
+    }
+  ]
+}

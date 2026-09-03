@@ -204,6 +204,54 @@ export const MODUL_CATALOG: ModulSummary[] = [
       { lektionId: 'a2-m8-l24', lektionNumber: 24, title: 'Regeln und Gesetze' },
     ],
   },
+  {
+    modulId: 'b1-m1',
+    level: 'B1',
+    modulNumber: 1,
+    title: 'Freundschaft und Zuversicht',
+    path: 'data/b1/modul-1.json',
+    lektionen: [
+      { lektionId: 'b1-m1-l1', lektionNumber: 1, title: 'Beste Freunde' },
+      { lektionId: 'b1-m1-l2', lektionNumber: 2, title: 'Zweifel und Zuversicht' },
+      { lektionId: 'b1-m1-l3', lektionNumber: 3, title: 'Objektbeschreibung' },
+    ],
+  },
+  {
+    modulId: 'b1-m2',
+    level: 'B1',
+    modulNumber: 2,
+    title: 'Nachhaltigkeit und Mut',
+    path: 'data/b1/modul-2.json',
+    lektionen: [
+      { lektionId: 'b1-m2-l4', lektionNumber: 4, title: 'Nachhaltig leben' },
+      { lektionId: 'b1-m2-l5', lektionNumber: 5, title: 'Ein Projekt für alternatives Leben' },
+      { lektionId: 'b1-m2-l6', lektionNumber: 6, title: 'Mut zur Selbstständigkeit' },
+    ],
+  },
+  {
+    modulId: 'b1-m3',
+    level: 'B1',
+    modulNumber: 3,
+    title: 'Reisen und Diskussion',
+    path: 'data/b1/modul-3.json',
+    lektionen: [
+      { lektionId: 'b1-m3-l7', lektionNumber: 7, title: 'Allein unterwegs' },
+      { lektionId: 'b1-m3-l8', lektionNumber: 8, title: 'Diskussion führen' },
+      { lektionId: 'b1-m3-l9', lektionNumber: 9, title: 'Sprachprobleme' },
+    ],
+  },
+  {
+    modulId: 'b1-m4',
+    level: 'B1',
+    modulNumber: 4,
+    title: 'Arbeit, Gegenstände und Erlebnisse',
+    path: 'data/b1/modul-4.json',
+    lektionen: [
+      { lektionId: 'b1-m4-l10', lektionNumber: 10, title: 'Bis ans Ziel' },
+      { lektionId: 'b1-m4-l11', lektionNumber: 11, title: 'Gegenstände beschreiben' },
+      { lektionId: 'b1-m4-l12', lektionNumber: 12, title: 'Im Restaurant' },
+    ],
+  },
 ];
 
 const modulCache = new Map<string, ModulPackage>();

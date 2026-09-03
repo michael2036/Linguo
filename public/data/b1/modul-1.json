@@ -1,0 +1,245 @@
+{
+  "modulId": "b1-m1",
+  "level": "B1",
+  "modulNumber": 1,
+  "title": "Freundschaft und Zuversicht",
+  "lektionen": [
+    {
+      "lektionId": "b1-m1-l1",
+      "level": "B1",
+      "modulNumber": 1,
+      "lektionNumber": 1,
+      "title": "Beste Freunde",
+      "grammarFocus": [
+        "Temporale Konnektoren: als (einmalig) vs. wenn (wiederholt)",
+        "Kausale Konnektoren: deshalb/daher/darum/deswegen (Position 1) vs. weil/denn (Nebensatz)"
+      ],
+      "vocabulary": [
+        { "id": "l1v01", "term": "als", "translation": "cuando (una vez, pasado)", "partOfSpeech": "phrase", "example": "Als ich in die Schule kam, habe ich Sara kennengelernt." },
+        { "id": "l1v02", "term": "wenn", "translation": "cuando (repetido)", "partOfSpeech": "phrase", "example": "Wenn ich Geburtstag hatte, sind wir in den Zoo gegangen." },
+        { "id": "l1v03", "term": "deshalb", "translation": "por eso", "partOfSpeech": "phrase", "example": "Ich mag Lesen, deshalb habe ich viele Bücher." },
+        { "id": "l1v04", "term": "daher", "translation": "por eso (formal)", "partOfSpeech": "phrase", "example": "Unsere Tochter hat Geburtstag, daher schenken wir ihr ein Fahrrad." },
+        { "id": "l1v05", "term": "darum", "translation": "por eso", "partOfSpeech": "phrase", "example": "Sie hat Geburtstag, darum schenken wir ihr ein Fahrrad." },
+        { "id": "l1v06", "term": "deswegen", "translation": "por eso", "partOfSpeech": "phrase", "example": "Ich habe große Angst, deswegen brauche ich Mut." },
+        { "id": "l1v07", "term": "das Vertrauen", "translation": "la confianza", "partOfSpeech": "noun", "gender": "das", "example": "Zwischen uns gibt es großes Vertrauen." },
+        { "id": "l1v08", "term": "die Verbundenheit", "translation": "el vínculo", "partOfSpeech": "noun", "gender": "die", "example": "Diese Verbundenheit ist besonders." },
+        { "id": "l1v09", "term": "sich erinnern", "translation": "recordar", "partOfSpeech": "verb", "example": "Ich erinnere mich genau daran." },
+        { "id": "l1v10", "term": "vergessen", "translation": "olvidar", "partOfSpeech": "verb", "example": "Das vergesse ich nie." },
+        { "id": "l1v11", "term": "spontan", "translation": "espontáneo", "partOfSpeech": "adjective", "example": "Er ist ein spontaner Typ." },
+        { "id": "l1v12", "term": "nachdenken", "translation": "reflexionar", "partOfSpeech": "verb", "example": "Ich muss erst nachdenken." },
+        { "id": "l1v13", "term": "ähnlich", "translation": "parecido", "partOfSpeech": "adjective", "example": "Wir sind uns gar nicht ähnlich." },
+        { "id": "l1v14", "term": "der Macher", "translation": "el hombre de acción", "partOfSpeech": "noun", "gender": "der", "plural": "die Macher", "example": "Ich bin eher der Macher." },
+        { "id": "l1v15", "term": "der Denker", "translation": "el pensador", "partOfSpeech": "noun", "gender": "der", "plural": "die Denker", "example": "Er ist eher ein Denker." },
+        { "id": "l1v16", "term": "beschließen", "translation": "decidir", "partOfSpeech": "verb", "example": "Wir haben beschlossen, ein Tattoo zu machen." }
+      ],
+      "practice": {
+        "easy": [
+          { "id": "l1e01", "type": "multiple-choice", "instruction": "Wähle den richtigen Konnektor.", "prompt": "___ ich in die Schule kam, habe ich Sara kennengelernt.", "options": ["Als", "Wenn", "Deshalb", "Weil"], "solution": "Als", "hint": "Einmaliges Ereignis in der Vergangenheit.", "explanation": "'als' verwendet man für ein einmaliges Ereignis in der Vergangenheit." },
+          { "id": "l1e02", "type": "multiple-choice", "instruction": "Wähle den richtigen Konnektor.", "prompt": "___ ich Geburtstag hatte, sind wir in den Zoo gegangen.", "options": ["Wenn", "Als", "Deshalb", "Weil"], "solution": "Wenn", "hint": "Wiederholtes Ereignis in der Vergangenheit.", "explanation": "'wenn' verwendet man für ein wiederholtes Ereignis in der Vergangenheit." },
+          { "id": "l1e03", "type": "multiple-choice", "instruction": "Wähle den richtigen Konnektor.", "prompt": "Ich mag Lesen, ___ habe ich viele Bücher.", "options": ["deshalb", "weil", "als", "wenn"], "solution": "deshalb", "hint": "Position-1-Konnektor.", "explanation": "'deshalb' steht an Position 1, danach folgt das Verb an Position 2." },
+          { "id": "l1e04", "type": "multiple-choice", "instruction": "Wähle den richtigen Konnektor.", "prompt": "Ich habe viele Bücher, ___ ich Lesen mag.", "options": ["weil", "deshalb", "darum", "daher"], "solution": "weil", "hint": "Nebensatzkonnektor, Verb am Ende.", "explanation": "'weil' leitet einen Nebensatz ein; das Verb steht am Ende." },
+          { "id": "l1e05", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Zwischen uns gibt es großes ___.", "options": ["Vertrauen", "Verbundenheit", "Macher", "Denker"], "solution": "Vertrauen", "hint": "Neutral.", "explanation": "'Vertrauen' passt grammatisch und inhaltlich als neutrales Substantiv." },
+          { "id": "l1e06", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Vertrauen", "options": ["der", "die", "das"], "solution": "das", "hint": "'Vertrauen' ist neutral.", "explanation": "'Vertrauen' ist neutral: das Vertrauen." },
+          { "id": "l1e07", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Verbundenheit", "options": ["der", "die", "das"], "solution": "die", "hint": "'Verbundenheit' ist feminin.", "explanation": "'Verbundenheit' ist feminin: die Verbundenheit." },
+          { "id": "l1e08", "type": "fill-in-blank", "instruction": "Ergänze das Verb.", "prompt": "Ich ___ mich genau daran. (erinnern)", "solution": "erinnere", "hint": "'ich'-Form, reflexiv.", "explanation": "Die 'ich'-Form von 'sich erinnern' lautet 'erinnere mich'." },
+          { "id": "l1e09", "type": "fill-in-blank", "instruction": "Ergänze das Verb.", "prompt": "Das ___ ich nie. (vergessen)", "solution": "vergesse", "hint": "'ich'-Form.", "explanation": "Die 'ich'-Form von 'vergessen' lautet 'vergesse'." },
+          { "id": "l1e10", "type": "multiple-choice", "instruction": "Wähle die richtige Adjektivendung.", "prompt": "Er ist ein ___ Typ.", "options": ["spontaner", "spontane", "spontanes", "spontan"], "solution": "spontaner", "hint": "Nominativ maskulin nach 'ein'.", "explanation": "Im Nominativ Maskulin nach 'ein' endet das Adjektiv auf '-er'." }
+        ],
+        "medium": [
+          { "id": "l1m01", "type": "sentence-scramble", "instruction": "Bilde einen Satz mit 'deshalb'.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "mag", "Lesen,", "deshalb", "habe", "ich", "viele", "Bücher"], "solution": "Ich mag Lesen, deshalb habe ich viele Bücher.", "hint": "Verb direkt nach 'deshalb'.", "explanation": "Nach 'deshalb' steht das konjugierte Verb an Position 2." },
+          { "id": "l1m02", "type": "sentence-scramble", "instruction": "Bilde einen Satz mit 'weil'.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "habe", "viele", "Bücher,", "weil", "ich", "Lesen", "mag"], "solution": "Ich habe viele Bücher, weil ich Lesen mag.", "hint": "Verb am Ende des weil-Satzes.", "explanation": "Im weil-Satz steht das konjugierte Verb ganz am Ende." },
+          { "id": "l1m03", "type": "sentence-scramble", "instruction": "Bilde einen Satz mit 'als'.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Als", "ich", "in", "die", "Schule", "kam,", "habe", "ich", "Sara", "kennengelernt"], "solution": "Als ich in die Schule kam, habe ich Sara kennengelernt.", "hint": "Verb am Ende des als-Satzes, Verb direkt danach im Hauptsatz.", "explanation": "Im als-Satz steht das Verb am Ende; im Hauptsatz danach folgt sofort das Verb." },
+          { "id": "l1m04", "type": "sentence-scramble", "instruction": "Bilde einen Satz mit 'wenn'.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Wenn", "ich", "Geburtstag", "hatte,", "sind", "wir", "in", "den", "Zoo", "gegangen"], "solution": "Wenn ich Geburtstag hatte, sind wir in den Zoo gegangen.", "hint": "Verb am Ende des wenn-Satzes.", "explanation": "Im wenn-Satz steht das Verb am Ende." },
+          { "id": "l1m05", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Zwischen", "uns", "gibt", "es", "großes", "Vertrauen"], "solution": "Zwischen uns gibt es großes Vertrauen.", "hint": "Verb an Position 2.", "explanation": "Das konjugierte Verb steht an Position 2." },
+          { "id": "l1m06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Wir", "sind", "uns", "gar", "nicht", "ähnlich"], "solution": "Wir sind uns gar nicht ähnlich.", "hint": "Verb an Position 2.", "explanation": "Das konjugierte Verb steht an Position 2." },
+          { "id": "l1m07", "type": "cloze-conjugation", "instruction": "Ergänze den Konnektor.", "prompt": "Unsere Tochter hat Geburtstag, ___ (daher) schenken wir ihr ein Fahrrad.", "solution": "daher", "hint": "Position-1-Konnektor.", "explanation": "'daher' steht an Position 1, danach folgt das Verb." },
+          { "id": "l1m08", "type": "cloze-conjugation", "instruction": "Ergänze den Konnektor.", "prompt": "Sie hat Geburtstag, ___ (darum) schenken wir ihr ein Fahrrad.", "solution": "darum", "hint": "Position-1-Konnektor.", "explanation": "'darum' steht an Position 1, danach folgt das Verb." },
+          { "id": "l1m09", "type": "cloze-conjugation", "instruction": "Ergänze den Konnektor.", "prompt": "Ich habe große Angst, ___ (deswegen) brauche ich Mut.", "solution": "deswegen", "hint": "Position-1-Konnektor.", "explanation": "'deswegen' steht an Position 1, danach folgt das Verb." },
+          { "id": "l1m10", "type": "cloze-conjugation", "instruction": "Bilde das Partizip II.", "prompt": "Wir haben ___ (beschließen), ein Tattoo zu machen.", "solution": "beschlossen", "hint": "Unregelmäßiges Verb.", "explanation": "Das Partizip II von 'beschließen' lautet 'beschlossen'." }
+        ],
+        "hard": [
+          { "id": "l1h01", "type": "targeted-transformation", "instruction": "Verbinde die Sätze mit 'deshalb'.", "prompt": "Ich mag Lesen. Ich habe viele Bücher.", "solution": "Ich mag Lesen, deshalb habe ich viele Bücher.", "hint": "Verb direkt nach 'deshalb'.", "explanation": "'deshalb' steht an Position 1; das Verb folgt direkt danach." },
+          { "id": "l1h02", "type": "targeted-transformation", "instruction": "Verbinde die Sätze mit 'weil'.", "prompt": "Ich habe viele Bücher. Ich mag Lesen.", "solution": "Ich habe viele Bücher, weil ich Lesen mag.", "hint": "Verb am Ende des weil-Satzes.", "explanation": "Im weil-Satz steht das Verb am Ende." },
+          { "id": "l1h03", "type": "targeted-transformation", "instruction": "Verbinde die Sätze mit 'als'.", "prompt": "Ich kam in die Schule. Ich habe Sara kennengelernt.", "solution": "Als ich in die Schule kam, habe ich Sara kennengelernt.", "hint": "Einmaliges Ereignis.", "explanation": "'als' verwendet man für ein einmaliges Ereignis in der Vergangenheit." },
+          { "id": "l1h04", "type": "targeted-transformation", "instruction": "Verbinde die Sätze mit 'wenn' (wiederholtes Ereignis).", "prompt": "Ich hatte Geburtstag. Wir sind in den Zoo gegangen.", "solution": "Wenn ich Geburtstag hatte, sind wir in den Zoo gegangen.", "hint": "Wiederholtes Ereignis.", "explanation": "'wenn' verwendet man für ein wiederholtes Ereignis in der Vergangenheit." },
+          { "id": "l1h05", "type": "targeted-transformation", "instruction": "Verbinde die Sätze mit 'darum'.", "prompt": "Unsere Tochter hat Geburtstag. Wir schenken ihr ein Fahrrad.", "solution": "Unsere Tochter hat Geburtstag, darum schenken wir ihr ein Fahrrad.", "hint": "Verb direkt nach 'darum'.", "explanation": "'darum' steht an Position 1; das Verb folgt direkt danach." },
+          { "id": "l1h06", "type": "targeted-transformation", "instruction": "Verbinde die Sätze mit 'denn'.", "prompt": "Maria kocht Spaghetti. Sie hat Hunger.", "solution": "Maria kocht Spaghetti, denn sie hat Hunger.", "hint": "Nach 'denn' folgt Hauptsatz-Wortstellung.", "explanation": "Nach 'denn' steht das Subjekt vor dem Verb, wie im Hauptsatz." },
+          { "id": "l1h07", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich mag Lesen, deshalb ich habe viele Bücher.", "solution": "Ich mag Lesen, deshalb habe ich viele Bücher.", "hint": "Verb direkt nach 'deshalb'.", "explanation": "Nach 'deshalb' steht das Verb direkt an Position 2, nicht das Subjekt." },
+          { "id": "l1h08", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich habe viele Bücher, weil ich mag Lesen.", "solution": "Ich habe viele Bücher, weil ich Lesen mag.", "hint": "Verb am Ende im weil-Satz.", "explanation": "Im weil-Satz muss das konjugierte Verb ganz am Ende stehen." },
+          { "id": "l1h09", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Als ich hatte Geburtstag, sind wir gegangen.", "solution": "Wenn ich Geburtstag hatte, sind wir gegangen.", "hint": "Wiederholtes Ereignis braucht 'wenn'.", "explanation": "Für ein wiederholtes Ereignis in der Vergangenheit verwendet man 'wenn', nicht 'als'." },
+          { "id": "l1h10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Maria kocht Spaghetti, denn hat sie Hunger.", "solution": "Maria kocht Spaghetti, denn sie hat Hunger.", "hint": "Nach 'denn' folgt Hauptsatz-Wortstellung.", "explanation": "Nach 'denn' steht das Subjekt vor dem Verb, wie im Hauptsatz." }
+        ]
+      },
+      "test": [
+        { "id": "l1t01", "type": "multiple-choice", "instruction": "Wähle den richtigen Konnektor.", "prompt": "___ ich in die Schule kam, habe ich Sara kennengelernt.", "options": ["Als", "Wenn", "Deshalb", "Weil"], "solution": "Als", "explanation": "'als' verwendet man für ein einmaliges Ereignis in der Vergangenheit." },
+        { "id": "l1t02", "type": "multiple-choice", "instruction": "Wähle den richtigen Konnektor.", "prompt": "Ich mag Lesen, ___ habe ich viele Bücher.", "options": ["deshalb", "weil", "als", "wenn"], "solution": "deshalb", "explanation": "'deshalb' steht an Position 1, danach folgt das Verb an Position 2." },
+        { "id": "l1t03", "type": "fill-in-blank", "instruction": "Ergänze das Verb.", "prompt": "Ich ___ mich genau daran. (erinnern)", "solution": "erinnere", "explanation": "Die 'ich'-Form von 'sich erinnern' lautet 'erinnere mich'." },
+        { "id": "l1t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Vertrauen", "options": ["der", "die", "das"], "solution": "das", "explanation": "'Vertrauen' ist neutral: das Vertrauen." },
+        { "id": "l1t05", "type": "multiple-choice", "instruction": "Wähle den richtigen Konnektor.", "prompt": "Ich habe viele Bücher, ___ ich Lesen mag.", "options": ["weil", "deshalb", "darum", "daher"], "solution": "weil", "explanation": "'weil' leitet einen Nebensatz ein; das Verb steht am Ende." },
+        { "id": "l1t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Zwischen", "uns", "gibt", "es", "großes", "Vertrauen"], "solution": "Zwischen uns gibt es großes Vertrauen.", "explanation": "Das konjugierte Verb steht an Position 2." },
+        { "id": "l1t07", "type": "cloze-conjugation", "instruction": "Ergänze den Konnektor.", "prompt": "Ich habe große Angst, ___ (deswegen) brauche ich Mut.", "solution": "deswegen", "explanation": "'deswegen' steht an Position 1, danach folgt das Verb." },
+        { "id": "l1t08", "type": "targeted-transformation", "instruction": "Verbinde die Sätze mit 'als'.", "prompt": "Ich kam in die Schule. Ich habe Sara kennengelernt.", "solution": "Als ich in die Schule kam, habe ich Sara kennengelernt.", "explanation": "'als' verwendet man für ein einmaliges Ereignis in der Vergangenheit." },
+        { "id": "l1t09", "type": "targeted-transformation", "instruction": "Verbinde die Sätze mit 'denn'.", "prompt": "Maria kocht Spaghetti. Sie hat Hunger.", "solution": "Maria kocht Spaghetti, denn sie hat Hunger.", "explanation": "Nach 'denn' steht das Subjekt vor dem Verb, wie im Hauptsatz." },
+        { "id": "l1t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich mag Lesen, deshalb ich habe viele Bücher.", "solution": "Ich mag Lesen, deshalb habe ich viele Bücher.", "explanation": "Nach 'deshalb' steht das Verb direkt an Position 2, nicht das Subjekt." }
+      ]
+    },
+    {
+      "lektionId": "b1-m1-l2",
+      "level": "B1",
+      "modulNumber": 1,
+      "lektionNumber": 2,
+      "title": "Zweifel und Zuversicht",
+      "grammarFocus": [
+        "Zweifel ausdrücken: bezweifeln, dass ...",
+        "Zuversicht ausdrücken und Mut machen"
+      ],
+      "vocabulary": [
+        { "id": "l2v01", "term": "der Zweifel", "translation": "la duda", "partOfSpeech": "noun", "gender": "der", "plural": "die Zweifel", "example": "Ich habe Zweifel." },
+        { "id": "l2v02", "term": "bezweifeln", "translation": "dudar", "partOfSpeech": "verb", "example": "Ich bezweifle, dass das klappt." },
+        { "id": "l2v03", "term": "die Zuversicht", "translation": "la confianza (en el futuro)", "partOfSpeech": "noun", "gender": "die", "example": "Ich habe große Zuversicht." },
+        { "id": "l2v04", "term": "überzeugt", "translation": "convencido", "partOfSpeech": "adjective", "example": "Ich bin überzeugt, dass das gut wird." },
+        { "id": "l2v05", "term": "unsicher", "translation": "inseguro", "partOfSpeech": "adjective", "example": "Ich bin mir unsicher." },
+        { "id": "l2v06", "term": "klappen", "translation": "salir bien", "partOfSpeech": "verb", "example": "Das wird schon klappen." },
+        { "id": "l2v07", "term": "sich vorstellen", "translation": "imaginarse", "partOfSpeech": "verb", "example": "Das kann ich mir gut vorstellen." },
+        { "id": "l2v08", "term": "sich Sorgen machen", "translation": "preocuparse", "partOfSpeech": "verb", "example": "Ich mache mir Sorgen." },
+        { "id": "l2v09", "term": "Mut machen", "translation": "dar ánimo", "partOfSpeech": "phrase", "example": "Ich will dir Mut machen." },
+        { "id": "l2v10", "term": "das Risiko", "translation": "el riesgo", "partOfSpeech": "noun", "gender": "das", "plural": "die Risiken", "example": "Das ist ein großes Risiko." },
+        { "id": "l2v11", "term": "wagen", "translation": "atreverse", "partOfSpeech": "verb", "example": "Ich wage etwas Neues." },
+        { "id": "l2v12", "term": "die Erfahrung", "translation": "la experiencia", "partOfSpeech": "noun", "gender": "die", "plural": "die Erfahrungen", "example": "Ich habe viel Erfahrung." },
+        { "id": "l2v13", "term": "verwirklichen", "translation": "realizar", "partOfSpeech": "verb", "example": "Wir verwirklichen unseren Traum." },
+        { "id": "l2v14", "term": "der Traum", "translation": "el sueño", "partOfSpeech": "noun", "gender": "der", "plural": "die Träume", "example": "Das ist unser Traum." },
+        { "id": "l2v15", "term": "das Vertrauen", "translation": "la confianza", "partOfSpeech": "noun", "gender": "das", "example": "Ich habe Vertrauen in dich." },
+        { "id": "l2v16", "term": "schaffen", "translation": "lograr", "partOfSpeech": "verb", "example": "Du schaffst das!" }
+      ],
+      "practice": {
+        "easy": [
+          { "id": "l2e01", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Ich ___, dass das klappt. (bezweifeln)", "options": ["bezweifle", "bezweifelst", "bezweifelt", "bezweifeln"], "solution": "bezweifle", "hint": "'ich'-Form.", "explanation": "Die 'ich'-Form von 'bezweifeln' lautet 'bezweifle'." },
+          { "id": "l2e02", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Ich bin ___, dass das gut wird.", "options": ["überzeugt", "unsicher", "Zweifel", "Risiko"], "solution": "überzeugt", "hint": "Ausdruck von Zuversicht.", "explanation": "'überzeugt sein, dass ...' drückt Zuversicht aus." },
+          { "id": "l2e03", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Das wird schon ___.", "options": ["klappen", "bezweifeln", "wagen", "schaffen"], "solution": "klappen", "hint": "Feste Wendung zum Mutmachen.", "explanation": "'Das wird schon klappen' ist eine feste Wendung zum Mutmachen." },
+          { "id": "l2e04", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Ich will dir ___ machen.", "options": ["Mut", "Sorgen", "Zweifel", "Risiko"], "solution": "Mut", "hint": "Feste Wendung.", "explanation": "'Mut machen' ist eine feste Wortverbindung." },
+          { "id": "l2e05", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Das ist ein großes ___.", "options": ["Risiko", "Mut", "Zuversicht", "Vertrauen"], "solution": "Risiko", "hint": "Neutral.", "explanation": "'Risiko' ist neutral und passt hier inhaltlich." },
+          { "id": "l2e06", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Zweifel", "options": ["der", "die", "das"], "solution": "der", "hint": "'Zweifel' ist maskulin.", "explanation": "'Zweifel' ist maskulin: der Zweifel." },
+          { "id": "l2e07", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Zuversicht", "options": ["der", "die", "das"], "solution": "die", "hint": "'Zuversicht' ist feminin.", "explanation": "'Zuversicht' ist feminin: die Zuversicht." },
+          { "id": "l2e08", "type": "fill-in-blank", "instruction": "Ergänze das Verb.", "prompt": "Ich ___ etwas Neues. (wagen)", "solution": "wage", "hint": "'ich'-Form.", "explanation": "Die 'ich'-Form von 'wagen' lautet 'wage'." },
+          { "id": "l2e09", "type": "fill-in-blank", "instruction": "Ergänze das Verb.", "prompt": "Wir ___ unseren Traum. (verwirklichen)", "solution": "verwirklichen", "hint": "'wir'-Form.", "explanation": "Die 'wir'-Form von 'verwirklichen' lautet 'verwirklichen'." },
+          { "id": "l2e10", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Du ___ das!", "options": ["schaffst", "schaffe", "schafft", "schaffen"], "solution": "schaffst", "hint": "'du'-Form.", "explanation": "Die 'du'-Form von 'schaffen' lautet 'schaffst'." }
+        ],
+        "medium": [
+          { "id": "l2m01", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "bezweifle,", "dass", "das", "klappt"], "solution": "Ich bezweifle, dass das klappt.", "hint": "Verb am Ende des dass-Satzes.", "explanation": "Im dass-Satz steht das konjugierte Verb am Ende." },
+          { "id": "l2m02", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "bin", "überzeugt,", "dass", "das", "gut", "wird"], "solution": "Ich bin überzeugt, dass das gut wird.", "hint": "Verb am Ende des dass-Satzes.", "explanation": "Im dass-Satz steht das konjugierte Verb am Ende." },
+          { "id": "l2m03", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Das", "wird", "schon", "klappen"], "solution": "Das wird schon klappen.", "hint": "Verb an Position 2.", "explanation": "Das konjugierte Verb steht an Position 2." },
+          { "id": "l2m04", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "will", "dir", "Mut", "machen"], "solution": "Ich will dir Mut machen.", "hint": "Infinitiv am Satzende.", "explanation": "Nach dem Modalverb 'will' steht der Infinitiv am Satzende." },
+          { "id": "l2m05", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Wir", "verwirklichen", "unseren", "Traum"], "solution": "Wir verwirklichen unseren Traum.", "hint": "Verb an Position 2.", "explanation": "Das konjugierte Verb steht an Position 2." },
+          { "id": "l2m06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Du", "schaffst", "das"], "solution": "Du schaffst das.", "hint": "Verb an Position 2.", "explanation": "Das konjugierte Verb steht an Position 2." },
+          { "id": "l2m07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Ich ___ (sich Sorgen machen) mir Sorgen.", "solution": "mache", "hint": "'ich'-Form.", "explanation": "Die 'ich'-Form von 'sich Sorgen machen' lautet 'mache mir Sorgen'." },
+          { "id": "l2m08", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Das kann ich mir gut ___ (sich vorstellen).", "solution": "vorstellen", "hint": "Infinitiv nach Modalverb.", "explanation": "Nach dem Modalverb 'kann' steht der Infinitiv 'vorstellen'." },
+          { "id": "l2m09", "type": "cloze-conjugation", "instruction": "Ergänze die Präposition.", "prompt": "Ich habe Vertrauen ___ (in) dich.", "solution": "in", "hint": "Feste Präposition.", "explanation": "'Vertrauen haben in' ist eine feste Wortverbindung." },
+          { "id": "l2m10", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Ich ___ (wagen) etwas Neues.", "solution": "wage", "hint": "'ich'-Form.", "explanation": "Die 'ich'-Form von 'wagen' lautet 'wage'." }
+        ],
+        "hard": [
+          { "id": "l2h01", "type": "targeted-transformation", "instruction": "Drücke Zweifel aus.", "prompt": "das klappt nicht", "solution": "Ich bezweifle, dass das klappt.", "hint": "'bezweifeln, dass ...'", "explanation": "Zweifel drückt man mit 'bezweifeln, dass ...' aus." },
+          { "id": "l2h02", "type": "targeted-transformation", "instruction": "Drücke Zuversicht aus.", "prompt": "das wird gut", "solution": "Ich bin überzeugt, dass das gut wird.", "hint": "'überzeugt sein, dass ...'", "explanation": "Zuversicht drückt man mit 'überzeugt sein, dass ...' aus." },
+          { "id": "l2h03", "type": "targeted-transformation", "instruction": "Mach jemandem Mut.", "prompt": "Mut machen", "solution": "Das wird schon klappen!", "hint": "Feste Wendung.", "explanation": "'Das wird schon klappen!' ist eine feste Wendung zum Mutmachen." },
+          { "id": "l2h04", "type": "targeted-transformation", "instruction": "Sage, dass du etwas Neues wagst.", "prompt": "etwas Neues / wagen", "solution": "Ich wage etwas Neues.", "hint": "'ich'-Form.", "explanation": "Die 'ich'-Form von 'wagen' lautet 'wage'." },
+          { "id": "l2h05", "type": "targeted-transformation", "instruction": "Sage, dass ihr euren Traum verwirklicht.", "prompt": "unseren Traum / verwirklichen", "solution": "Wir verwirklichen unseren Traum.", "hint": "'wir'-Form.", "explanation": "Die 'wir'-Form von 'verwirklichen' lautet 'verwirklichen'." },
+          { "id": "l2h06", "type": "targeted-transformation", "instruction": "Sage, dass du Vertrauen in jemanden hast.", "prompt": "Vertrauen / in dich", "solution": "Ich habe Vertrauen in dich.", "hint": "Feste Präposition 'in'.", "explanation": "'Vertrauen haben in' ist eine feste Wortverbindung." },
+          { "id": "l2h07", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich bezweifle, dass das klappt hat.", "solution": "Ich bezweifle, dass das klappt.", "hint": "Präsens genügt hier.", "explanation": "Für eine aktuelle Aussage genügt das Präsens; kein zusätzliches 'hat' nötig." },
+          { "id": "l2h08", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich bin überzeugt, dass das gut werden.", "solution": "Ich bin überzeugt, dass das gut wird.", "hint": "3. Person Singular im dass-Satz.", "explanation": "Im dass-Satz muss das Verb auf das Subjekt 'das' abgestimmt sein: wird." },
+          { "id": "l2h09", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich mache dir Mut machen.", "solution": "Ich will dir Mut machen.", "hint": "Nur ein Verb pro Aussage.", "explanation": "Ein Satz braucht nur ein konjugiertes Verb; hier passt 'will' + Infinitiv." },
+          { "id": "l2h10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Du schaffen das!", "solution": "Du schaffst das!", "hint": "'du'-Form von 'schaffen'.", "explanation": "Die 'du'-Form von 'schaffen' lautet 'schaffst', nicht 'schaffen'." }
+        ]
+      },
+      "test": [
+        { "id": "l2t01", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Ich ___, dass das klappt. (bezweifeln)", "options": ["bezweifle", "bezweifelst", "bezweifelt", "bezweifeln"], "solution": "bezweifle", "explanation": "Die 'ich'-Form von 'bezweifeln' lautet 'bezweifle'." },
+        { "id": "l2t02", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Ich bin ___, dass das gut wird.", "options": ["überzeugt", "unsicher", "Zweifel", "Risiko"], "solution": "überzeugt", "explanation": "'überzeugt sein, dass ...' drückt Zuversicht aus." },
+        { "id": "l2t03", "type": "fill-in-blank", "instruction": "Ergänze das Verb.", "prompt": "Wir ___ unseren Traum. (verwirklichen)", "solution": "verwirklichen", "explanation": "Die 'wir'-Form von 'verwirklichen' lautet 'verwirklichen'." },
+        { "id": "l2t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Zuversicht", "options": ["der", "die", "das"], "solution": "die", "explanation": "'Zuversicht' ist feminin: die Zuversicht." },
+        { "id": "l2t05", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Das ist ein großes ___.", "options": ["Risiko", "Mut", "Zuversicht", "Vertrauen"], "solution": "Risiko", "explanation": "'Risiko' ist neutral und passt hier inhaltlich." },
+        { "id": "l2t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "bin", "überzeugt,", "dass", "das", "gut", "wird"], "solution": "Ich bin überzeugt, dass das gut wird.", "explanation": "Im dass-Satz steht das konjugierte Verb am Ende." },
+        { "id": "l2t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Ich ___ (wagen) etwas Neues.", "solution": "wage", "explanation": "Die 'ich'-Form von 'wagen' lautet 'wage'." },
+        { "id": "l2t08", "type": "targeted-transformation", "instruction": "Drücke Zweifel aus.", "prompt": "das klappt nicht", "solution": "Ich bezweifle, dass das klappt.", "explanation": "Zweifel drückt man mit 'bezweifeln, dass ...' aus." },
+        { "id": "l2t09", "type": "targeted-transformation", "instruction": "Sage, dass ihr euren Traum verwirklicht.", "prompt": "unseren Traum / verwirklichen", "solution": "Wir verwirklichen unseren Traum.", "explanation": "Die 'wir'-Form von 'verwirklichen' lautet 'verwirklichen'." },
+        { "id": "l2t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Du schaffen das!", "solution": "Du schaffst das!", "explanation": "Die 'du'-Form von 'schaffen' lautet 'schaffst', nicht 'schaffen'." }
+      ]
+    },
+    {
+      "lektionId": "b1-m1-l3",
+      "level": "B1",
+      "modulNumber": 1,
+      "lektionNumber": 3,
+      "title": "Objektbeschreibung",
+      "grammarFocus": [
+        "Adjektivdeklination-Review: Nominativ, Akkusativ, Dativ",
+        "Deklination ohne Artikel (Nullartikel)"
+      ],
+      "vocabulary": [
+        { "id": "l3v01", "term": "das Häuschen", "translation": "la casita", "partOfSpeech": "noun", "gender": "das", "plural": "die Häuschen", "example": "Ein kleines Häuschen." },
+        { "id": "l3v02", "term": "der Tipp", "translation": "el consejo", "partOfSpeech": "noun", "gender": "der", "plural": "die Tipps", "example": "Beste Tipps." },
+        { "id": "l3v03", "term": "der Koffer", "translation": "la maleta", "partOfSpeech": "noun", "gender": "der", "plural": "die Koffer", "example": "Ein alter Koffer." },
+        { "id": "l3v04", "term": "die Begleitung", "translation": "el acompañamiento", "partOfSpeech": "noun", "gender": "die", "example": "Erfahrene Begleitung." },
+        { "id": "l3v05", "term": "der Autor", "translation": "el autor", "partOfSpeech": "noun", "gender": "der", "plural": "die Autoren", "example": "Innovative Autoren." },
+        { "id": "l3v06", "term": "das Leder", "translation": "el cuero", "partOfSpeech": "noun", "gender": "das", "example": "Braunes Leder." },
+        { "id": "l3v07", "term": "die Lage", "translation": "la ubicación", "partOfSpeech": "noun", "gender": "die", "plural": "die Lagen", "example": "Tolle Lage." },
+        { "id": "l3v08", "term": "die Kenntnisse", "translation": "los conocimientos", "partOfSpeech": "noun", "gender": "die", "example": "Gute Kenntnisse." },
+        { "id": "l3v09", "term": "das Kätzchen", "translation": "el gatito", "partOfSpeech": "noun", "gender": "das", "plural": "die Kätzchen", "example": "Süße Kätzchen." },
+        { "id": "l3v10", "term": "liebevoll", "translation": "cariñoso", "partOfSpeech": "adjective", "example": "Eine liebevolle Person." },
+        { "id": "l3v11", "term": "der Garten", "translation": "el jardín", "partOfSpeech": "noun", "gender": "der", "plural": "die Gärten", "example": "Ein schöner Garten." },
+        { "id": "l3v12", "term": "erfahren", "translation": "experimentado", "partOfSpeech": "adjective", "example": "Ein erfahrener Sänger." },
+        { "id": "l3v13", "term": "die Stimme", "translation": "la voz", "partOfSpeech": "noun", "gender": "die", "plural": "die Stimmen", "example": "Eine tolle Stimme." },
+        { "id": "l3v14", "term": "die Qualität", "translation": "la calidad", "partOfSpeech": "noun", "gender": "die", "plural": "die Qualitäten", "example": "Gute Qualität." },
+        { "id": "l3v15", "term": "das Material", "translation": "el material", "partOfSpeech": "noun", "gender": "das", "plural": "die Materialien", "example": "Nachhaltiges Material." },
+        { "id": "l3v16", "term": "abzugeben", "translation": "para regalar / entregar", "partOfSpeech": "phrase", "example": "Drei süße Kätzchen abzugeben." }
+      ],
+      "practice": {
+        "easy": [
+          { "id": "l3e01", "type": "multiple-choice", "instruction": "Wähle die richtige Adjektivendung.", "prompt": "Ein klein___ Häuschen.", "options": ["es", "er", "e", "en"], "solution": "es", "hint": "Nominativ neutral nach 'ein'.", "explanation": "Im Nominativ Neutral nach 'ein' endet das Adjektiv auf '-es'." },
+          { "id": "l3e02", "type": "multiple-choice", "instruction": "Wähle die richtige Adjektivendung.", "prompt": "Best___ Tipps.", "options": ["e", "er", "es", "en"], "solution": "e", "hint": "Nominativ Plural ohne Artikel.", "explanation": "Im Nominativ Plural ohne Artikel endet das Adjektiv auf '-e'." },
+          { "id": "l3e03", "type": "multiple-choice", "instruction": "Wähle die richtige Adjektivendung.", "prompt": "Ein alt___ Koffer. (Akkusativ)", "options": ["en", "er", "es", "e"], "solution": "en", "hint": "Akkusativ maskulin nach 'ein'.", "explanation": "Im Akkusativ Maskulin nach 'ein' endet das Adjektiv auf '-en'." },
+          { "id": "l3e04", "type": "multiple-choice", "instruction": "Wähle die richtige Adjektivendung.", "prompt": "Erfahren___ Begleitung.", "options": ["e", "er", "es", "en"], "solution": "e", "hint": "Nominativ feminin ohne Artikel.", "explanation": "Im Nominativ Feminin ohne Artikel endet das Adjektiv auf '-e'." },
+          { "id": "l3e05", "type": "multiple-choice", "instruction": "Wähle die richtige Adjektivendung.", "prompt": "Braun___ Leder. (Dativ, ohne Artikel)", "options": ["em", "er", "es", "e"], "solution": "em", "hint": "Dativ neutral ohne Artikel.", "explanation": "Im Dativ Neutral ohne Artikel endet das Adjektiv auf '-em'." },
+          { "id": "l3e06", "type": "multiple-choice", "instruction": "Wähle die richtige Adjektivendung.", "prompt": "Toll___ Lage. (Dativ, ohne Artikel)", "options": ["er", "em", "es", "e"], "solution": "er", "hint": "Dativ feminin ohne Artikel.", "explanation": "Im Dativ Feminin ohne Artikel endet das Adjektiv auf '-er'." },
+          { "id": "l3e07", "type": "multiple-choice", "instruction": "Wähle die richtige Adjektivendung.", "prompt": "Gut___ Kenntnissen. (Dativ Plural, ohne Artikel)", "options": ["en", "er", "em", "es"], "solution": "en", "hint": "Dativ Plural ohne Artikel.", "explanation": "Im Dativ Plural ohne Artikel endet das Adjektiv auf '-en'." },
+          { "id": "l3e08", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Süße ___. (Kätzchen)", "solution": "Kätzchen", "hint": "Ein Substantiv.", "explanation": "'Kätzchen' ist das gesuchte Substantiv." },
+          { "id": "l3e09", "type": "fill-in-blank", "instruction": "Ergänze die Adjektivform.", "prompt": "Eine ___ Person. (liebevoll)", "solution": "liebevolle", "hint": "Nominativ feminin nach 'eine'.", "explanation": "Im Nominativ Feminin nach 'eine' endet das Adjektiv auf '-e'." },
+          { "id": "l3e10", "type": "multiple-choice", "instruction": "Wähle die richtige Adjektivendung.", "prompt": "Ein erfahren___ Sänger. (Nominativ)", "options": ["er", "en", "es", "e"], "solution": "er", "hint": "Nominativ maskulin nach 'ein'.", "explanation": "Im Nominativ Maskulin nach 'ein' endet das Adjektiv auf '-er'." }
+        ],
+        "medium": [
+          { "id": "l3m01", "type": "sentence-scramble", "instruction": "Bilde einen Ausdruck.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ein", "kleines", "Häuschen"], "solution": "Ein kleines Häuschen.", "hint": "Nominativ neutral nach 'ein'.", "explanation": "Im Nominativ Neutral nach 'ein' endet das Adjektiv auf '-es'." },
+          { "id": "l3m02", "type": "sentence-scramble", "instruction": "Bilde einen Ausdruck.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Beste", "Tipps"], "solution": "Beste Tipps.", "hint": "Nominativ Plural ohne Artikel.", "explanation": "Im Nominativ Plural ohne Artikel endet das Adjektiv auf '-e'." },
+          { "id": "l3m03", "type": "sentence-scramble", "instruction": "Bilde einen Ausdruck.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ein", "alter", "Koffer"], "solution": "Ein alter Koffer.", "hint": "Nominativ maskulin nach 'ein'.", "explanation": "Im Nominativ Maskulin nach 'ein' endet das Adjektiv auf '-er'." },
+          { "id": "l3m04", "type": "sentence-scramble", "instruction": "Bilde einen Ausdruck.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Erfahrene", "Begleitung"], "solution": "Erfahrene Begleitung.", "hint": "Nominativ feminin ohne Artikel.", "explanation": "Im Nominativ Feminin ohne Artikel endet das Adjektiv auf '-e'." },
+          { "id": "l3m05", "type": "sentence-scramble", "instruction": "Bilde einen Ausdruck.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Braunes", "Leder"], "solution": "Braunes Leder.", "hint": "Nominativ neutral ohne Artikel.", "explanation": "Im Nominativ Neutral ohne Artikel endet das Adjektiv auf '-es'." },
+          { "id": "l3m06", "type": "sentence-scramble", "instruction": "Bilde einen Ausdruck.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Tolle", "Lage"], "solution": "Tolle Lage.", "hint": "Nominativ feminin ohne Artikel.", "explanation": "Im Nominativ Feminin ohne Artikel endet das Adjektiv auf '-e'." },
+          { "id": "l3m07", "type": "cloze-conjugation", "instruction": "Bilde die richtige Adjektivform.", "prompt": "Ich sehe einen alt___ (alt) Koffer.", "solution": "alten", "hint": "Akkusativ maskulin nach 'einen'.", "explanation": "Im Akkusativ Maskulin nach 'einen' endet das Adjektiv auf '-en'." },
+          { "id": "l3m08", "type": "cloze-conjugation", "instruction": "Bilde die richtige Adjektivform.", "prompt": "Das ist ein erfahren___ (erfahren) Sänger.", "solution": "erfahrener", "hint": "Nominativ maskulin nach 'ein'.", "explanation": "Im Nominativ Maskulin nach 'ein' endet das Adjektiv auf '-er'." },
+          { "id": "l3m09", "type": "cloze-conjugation", "instruction": "Bilde die richtige Adjektivform.", "prompt": "Sie hat eine toll___ (toll) Stimme.", "solution": "tolle", "hint": "Akkusativ feminin nach 'eine'.", "explanation": "Im Akkusativ Feminin nach 'eine' endet das Adjektiv auf '-e'." },
+          { "id": "l3m10", "type": "cloze-conjugation", "instruction": "Bilde die richtige Adjektivform.", "prompt": "Das ist ein nachhaltig___ (nachhaltig) Material.", "solution": "nachhaltiges", "hint": "Nominativ neutral nach 'ein'.", "explanation": "Im Nominativ Neutral nach 'ein' endet das Adjektiv auf '-es'." }
+        ],
+        "hard": [
+          { "id": "l3h01", "type": "targeted-transformation", "instruction": "Beschreibe attributiv (Nominativ, unbestimmter Artikel).", "prompt": "Häuschen / klein", "solution": "Ein kleines Häuschen.", "hint": "Nominativ neutral: -es.", "explanation": "Im Nominativ Neutral nach 'ein' endet das Adjektiv auf '-es'." },
+          { "id": "l3h02", "type": "targeted-transformation", "instruction": "Beschreibe attributiv (Akkusativ, unbestimmter Artikel).", "prompt": "Ich sehe ... / Koffer / alt", "solution": "Ich sehe einen alten Koffer.", "hint": "Akkusativ maskulin: -en.", "explanation": "Im Akkusativ Maskulin nach 'einen' endet das Adjektiv auf '-en'." },
+          { "id": "l3h03", "type": "targeted-transformation", "instruction": "Beschreibe attributiv (Nominativ, unbestimmter Artikel).", "prompt": "Das ist ... / Sänger / erfahren", "solution": "Das ist ein erfahrener Sänger.", "hint": "Nominativ maskulin: -er.", "explanation": "Im Nominativ Maskulin nach 'ein' endet das Adjektiv auf '-er'." },
+          { "id": "l3h04", "type": "targeted-transformation", "instruction": "Beschreibe attributiv (Akkusativ, unbestimmter Artikel).", "prompt": "Sie hat ... / Stimme / toll", "solution": "Sie hat eine tolle Stimme.", "hint": "Akkusativ feminin: -e.", "explanation": "Im Akkusativ Feminin nach 'eine' endet das Adjektiv auf '-e'." },
+          { "id": "l3h05", "type": "targeted-transformation", "instruction": "Beschreibe attributiv (Dativ, ohne Artikel).", "prompt": "Eine Tasche aus ... / Leder / braun", "solution": "Eine Tasche aus braunem Leder.", "hint": "Dativ neutral ohne Artikel: -em.", "explanation": "Im Dativ Neutral ohne Artikel endet das Adjektiv auf '-em'." },
+          { "id": "l3h06", "type": "targeted-transformation", "instruction": "Beschreibe attributiv (Dativ Plural, ohne Artikel).", "prompt": "Mit ... / Kenntnisse / gut", "solution": "Mit guten Kenntnissen.", "hint": "Dativ Plural ohne Artikel: -en.", "explanation": "Im Dativ Plural ohne Artikel endet das Adjektiv auf '-en'." },
+          { "id": "l3h07", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ein kleine Häuschen.", "solution": "Ein kleines Häuschen.", "hint": "Nominativ neutral: -es.", "explanation": "Im Nominativ Neutral nach 'ein' muss das Adjektiv auf '-es' enden." },
+          { "id": "l3h08", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich sehe ein alten Koffer.", "solution": "Ich sehe einen alten Koffer.", "hint": "Akkusativ maskulin: einen.", "explanation": "Im Akkusativ Maskulin muss der Artikel 'einen' lauten, nicht 'ein'." },
+          { "id": "l3h09", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Das ist ein erfahrene Sänger.", "solution": "Das ist ein erfahrener Sänger.", "hint": "Nominativ maskulin: -er.", "explanation": "Im Nominativ Maskulin nach 'ein' muss das Adjektiv auf '-er' enden." },
+          { "id": "l3h10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Sie hat eine tollen Stimme.", "solution": "Sie hat eine tolle Stimme.", "hint": "Akkusativ feminin: -e.", "explanation": "Im Akkusativ Feminin nach 'eine' muss das Adjektiv auf '-e' enden." }
+        ]
+      },
+      "test": [
+        { "id": "l3t01", "type": "multiple-choice", "instruction": "Wähle die richtige Adjektivendung.", "prompt": "Ein klein___ Häuschen.", "options": ["es", "er", "e", "en"], "solution": "es", "explanation": "Im Nominativ Neutral nach 'ein' endet das Adjektiv auf '-es'." },
+        { "id": "l3t02", "type": "multiple-choice", "instruction": "Wähle die richtige Adjektivendung.", "prompt": "Ein alt___ Koffer. (Akkusativ)", "options": ["en", "er", "es", "e"], "solution": "en", "explanation": "Im Akkusativ Maskulin nach 'ein' endet das Adjektiv auf '-en'." },
+        { "id": "l3t03", "type": "fill-in-blank", "instruction": "Ergänze die Adjektivform.", "prompt": "Eine ___ Person. (liebevoll)", "solution": "liebevolle", "explanation": "Im Nominativ Feminin nach 'eine' endet das Adjektiv auf '-e'." },
+        { "id": "l3t04", "type": "multiple-choice", "instruction": "Wähle die richtige Adjektivendung.", "prompt": "Ein erfahren___ Sänger. (Nominativ)", "options": ["er", "en", "es", "e"], "solution": "er", "explanation": "Im Nominativ Maskulin nach 'ein' endet das Adjektiv auf '-er'." },
+        { "id": "l3t05", "type": "multiple-choice", "instruction": "Wähle die richtige Adjektivendung.", "prompt": "Braun___ Leder. (Dativ, ohne Artikel)", "options": ["em", "er", "es", "e"], "solution": "em", "explanation": "Im Dativ Neutral ohne Artikel endet das Adjektiv auf '-em'." },
+        { "id": "l3t06", "type": "sentence-scramble", "instruction": "Bilde einen Ausdruck.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ein", "alter", "Koffer"], "solution": "Ein alter Koffer.", "explanation": "Im Nominativ Maskulin nach 'ein' endet das Adjektiv auf '-er'." },
+        { "id": "l3t07", "type": "cloze-conjugation", "instruction": "Bilde die richtige Adjektivform.", "prompt": "Sie hat eine toll___ (toll) Stimme.", "solution": "tolle", "explanation": "Im Akkusativ Feminin nach 'eine' endet das Adjektiv auf '-e'." },
+        { "id": "l3t08", "type": "targeted-transformation", "instruction": "Beschreibe attributiv (Akkusativ, unbestimmter Artikel).", "prompt": "Ich sehe ... / Koffer / alt", "solution": "Ich sehe einen alten Koffer.", "explanation": "Im Akkusativ Maskulin nach 'einen' endet das Adjektiv auf '-en'." },
+        { "id": "l3t09", "type": "targeted-transformation", "instruction": "Beschreibe attributiv (Dativ, ohne Artikel).", "prompt": "Eine Tasche aus ... / Leder / braun", "solution": "Eine Tasche aus braunem Leder.", "explanation": "Im Dativ Neutral ohne Artikel endet das Adjektiv auf '-em'." },
+        { "id": "l3t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich sehe ein alten Koffer.", "solution": "Ich sehe einen alten Koffer.", "explanation": "Im Akkusativ Maskulin muss der Artikel 'einen' lauten, nicht 'ein'." }
+      ]
+    }
+  ]
+}
