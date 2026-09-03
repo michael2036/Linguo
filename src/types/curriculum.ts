@@ -7,6 +7,9 @@ export type Level = 'A1' | 'A2' | 'B1';
 export interface LevelInfo {
   level: Level;
   title: string;
+  // Short, encouraging one-liner Linguo uses to introduce the level on the
+  // dashboard — presentational copy only, not part of the curriculum itself.
+  tagline: string;
 }
 
 // One Lektion — the smallest directly-selectable unit (PRD's "Direct Lesson

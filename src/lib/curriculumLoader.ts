@@ -3,9 +3,21 @@ import type { LevelInfo, ModulPackage, ModulSummary } from '../types/curriculum'
 // Levels the app has real Kursbuch+Arbeitsbuch source material for. Order
 // here is display order on the home page.
 export const LEVEL_CATALOG: LevelInfo[] = [
-  { level: 'A1', title: 'Deutsch A1' },
-  { level: 'A2', title: 'Deutsch A2' },
-  { level: 'B1', title: 'Deutsch B1' },
+  {
+    level: 'A1',
+    title: 'Deutsch A1',
+    tagline: 'Die Basics: dich vorstellen, erste Sätze bauen und deinen Grundwortschatz aufbauen.',
+  },
+  {
+    level: 'A2',
+    title: 'Deutsch A2',
+    tagline: 'Alltagskommunikation: über Vergangenes erzählen, deinen Tag beschreiben und sicherer werden.',
+  },
+  {
+    level: 'B1',
+    title: 'Deutsch B1',
+    tagline: 'Mehr Tiefe: deine Meinung vertreten, über Arbeit und Soziales sprechen und flüssiger werden.',
+  },
 ];
 
 // Static manifest of available Moduln. In a larger catalog this would be a

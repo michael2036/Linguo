@@ -1,18 +1,22 @@
-import { useMemo } from 'react';
+import { useMemo, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Button, Card, Text, makeStyles, tokens, shorthands } from '@fluentui/react-components';
-import { ChevronRight20Regular, Sparkle24Filled, TrophyFilled } from '@fluentui/react-icons';
+import { Brain24Filled, ChevronRight20Regular, Sparkle24Filled, TrophyFilled } from '@fluentui/react-icons';
 import { LEVEL_CATALOG, MODUL_CATALOG } from '../lib/curriculumLoader';
+import type { Level } from '../types/curriculum';
 import { suggestNextStep, allLektionenMastered } from '../lib/recommendation';
 import { useAppStore } from '../store/appState';
-import { TrafficLightBadge } from '../components/badges/TrafficLightBadge';
 import { emptyLektionProgress } from '../types/appState';
+import { LinguoLevelBanner } from '../components/mascot/LinguoLevelBanner';
+import type { LinguoExpression } from '../components/mascot/linguoExpressions';
+import { LevelTabs } from '../components/dashboard/LevelTabs';
+import { ModulPathCard } from '../components/dashboard/ModulPathCard';
 
 const useStyles = makeStyles({
   wrap: {
     display: 'flex',
     flexDirection: 'column',
-    ...shorthands.gap('28px'),
+    ...shorthands.gap('32px'),
   },
   hero: {
     display: 'flex',
@@ -108,80 +112,89 @@ const useStyles = makeStyles({
       width: 'auto',
     },
   },
-  levelSection: {
-    display: 'flex',
-    flexDirection: 'column',
-    ...shorthands.gap('14px'),
-  },
-  levelTitle: {
-    fontFamily: 'var(--font-display)',
-    fontWeight: 700,
-  },
-  modulGrid: {
-    display: 'grid',
-    gridTemplateColumns: '1fr',
-    ...shorthands.gap('14px'),
-    '@media (min-width: 720px)': {
-      gridTemplateColumns: '1fr 1fr',
-    },
-  },
-  modulCard: {
-    display: 'flex',
-    flexDirection: 'column',
-    ...shorthands.gap('4px'),
-    ...shorthands.padding('16px'),
-  },
-  modulHeader: {
-    display: 'flex',
-    alignItems: 'baseline',
-    ...shorthands.gap('8px'),
-    marginBottom: '8px',
-  },
-  modulTitle: {
-    fontFamily: 'var(--font-display)',
-    fontWeight: 600,
-  },
-  modulEyebrow: {
-    fontSize: '12px',
-    color: tokens.colorNeutralForeground3,
-  },
-  lektionRow: {
+  vocabCard: {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'space-between',
-    ...shorthands.gap('10px'),
-    ...shorthands.padding('10px', '4px'),
+    ...shorthands.gap('12px'),
+    ...shorthands.padding('16px', '18px'),
     minHeight: '44px',
     cursor: 'pointer',
-    ...shorthands.borderRadius(tokens.borderRadiusMedium),
-    transitionProperty: 'background-color',
+    transitionProperty: 'transform, box-shadow',
     transitionDuration: tokens.durationFaster,
     ':hover': {
-      backgroundColor: tokens.colorNeutralBackground3,
+      transform: 'translateY(-1px)',
+      boxShadow: tokens.shadow4,
     },
   },
-  lektionText: {
+  vocabLeft: {
+    display: 'flex',
+    alignItems: 'center',
+    ...shorthands.gap('12px'),
+    minWidth: 0,
+  },
+  vocabIcon: {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    width: '40px',
+    height: '40px',
+    flexShrink: 0,
+    borderRadius: tokens.borderRadiusMedium,
+    backgroundColor: tokens.colorBrandBackground2,
+    color: tokens.colorBrandForeground1,
+  },
+  vocabText: {
     display: 'flex',
     flexDirection: 'column',
     minWidth: 0,
   },
-  lektionTitle: {
+  vocabTitle: {
     fontWeight: 600,
-    overflow: 'hidden',
-    textOverflow: 'ellipsis',
-    whiteSpace: 'nowrap',
   },
-  lektionMeta: {
-    display: 'flex',
-    alignItems: 'center',
-    ...shorthands.gap('8px'),
-    flexShrink: 0,
+  vocabSub: {
+    fontSize: '12px',
+    color: tokens.colorNeutralForeground3,
   },
   chevron: {
     color: tokens.colorNeutralForeground3,
     flexShrink: 0,
   },
+  levelSection: {
+    display: 'flex',
+    flexDirection: 'column',
+    ...shorthands.gap('18px'),
+  },
+  modulGrid: {
+    display: 'grid',
+    gridTemplateColumns: '1fr',
+    ...shorthands.gap('16px'),
+    '@media (min-width: 720px)': {
+      gridTemplateColumns: '1fr 1fr',
+    },
+  },
 });
+
+// A level counts as mastered for the tab badge once every one of its
+// Lektionen is green — purely a UI read of existing progress, not a new
+// piece of tracked state.
+const useMasteredLevels = (): Level[] => {
+  const lektionProgress = useAppStore((s) => s.state.lektionProgress);
+  return useMemo(
+    () =>
+      LEVEL_CATALOG.filter(({ level }) => {
+        const lektionen = MODUL_CATALOG.filter((m) => m.level === level).flatMap((m) => m.lektionen);
+        return (
+          lektionen.length > 0 &&
+          lektionen.every((l) => (lektionProgress[l.lektionId] ?? emptyLektionProgress()).status === 'green')
+        );
+      }).map((l) => l.level),
+    [lektionProgress],
+  );
+};
+
+const levelOf = (lektionId: string): Level | undefined =>
+  MODUL_CATALOG.find((m) => m.lektionen.some((l) => l.lektionId === lektionId))?.level;
 
 export const HomePage = () => {
   const styles = useStyles();
@@ -199,6 +212,36 @@ export const HomePage = () => {
 
   const nextStep = useMemo(() => suggestNextStep(state.lektionProgress), [state.lektionProgress]);
   const allMastered = useMemo(() => allLektionenMastered(state.lektionProgress), [state.lektionProgress]);
+  const masteredLevels = useMasteredLevels();
+
+  // Defaults to wherever the learner should pick up next, so the level tab
+  // that opens is the one that's actually relevant right now.
+  const [activeLevel, setActiveLevel] = useState<Level>(
+    () => (nextStep && levelOf(nextStep.lektionId)) ?? LEVEL_CATALOG[0].level,
+  );
+
+  const activeLevelInfo = LEVEL_CATALOG.find((l) => l.level === activeLevel) ?? LEVEL_CATALOG[0];
+  const activeModuln = useMemo(() => MODUL_CATALOG.filter((m) => m.level === activeLevel), [activeLevel]);
+  const progressFor = (lektionId: string) => state.lektionProgress[lektionId] ?? emptyLektionProgress();
+
+  const activeLevelLektionen = useMemo(() => activeModuln.flatMap((m) => m.lektionen), [activeModuln]);
+  const activeLevelMasteredCount = useMemo(
+    () => activeLevelLektionen.filter((l) => progressFor(l.lektionId).status === 'green').length,
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [activeLevelLektionen, state.lektionProgress],
+  );
+  const isActiveLevelMastered = masteredLevels.includes(activeLevel);
+  const linguoExpression: LinguoExpression = isActiveLevelMastered
+    ? 'celebrating'
+    : activeLevelMasteredCount > 0
+      ? 'happy'
+      : 'idle';
+  const progressLabel =
+    activeLevelLektionen.length > 0
+      ? isActiveLevelMastered
+        ? `Alle ${activeLevelLektionen.length} Lektionen gemeistert — stark! 🎉`
+        : `${activeLevelMasteredCount} von ${activeLevelLektionen.length} Lektionen gemeistert`
+      : undefined;
 
   return (
     <div className={styles.wrap}>
@@ -255,45 +298,51 @@ export const HomePage = () => {
         )}
       </section>
 
-      {LEVEL_CATALOG.map(({ level, title }) => {
-        const moduln = MODUL_CATALOG.filter((m) => m.level === level);
-        if (moduln.length === 0) return null;
+      <Card className={styles.vocabCard} onClick={() => navigate('/vocab-trainer')}>
+        <div className={styles.vocabLeft}>
+          <span className={styles.vocabIcon}>
+            <Brain24Filled />
+          </span>
+          <div className={styles.vocabText}>
+            <Text className={styles.vocabTitle}>Wortschatz-Trainer</Text>
+            <Text className={styles.vocabSub}>Vokabeln aus jedem Modul gezielt üben — unabhängig vom Level.</Text>
+          </div>
+        </div>
+        <ChevronRight20Regular className={styles.chevron} />
+      </Card>
 
-        return (
-          <section key={level} className={styles.levelSection}>
-            <Text className={styles.levelTitle} as="h2" size={600}>
-              {title}
-            </Text>
-            <div className={styles.modulGrid}>
-              {moduln.map((modul) => (
-                <Card key={modul.modulId} className={styles.modulCard}>
-                  <div className={styles.modulHeader}>
-                    <Text className={styles.modulTitle}>{`Modul ${modul.modulNumber} · ${modul.title}`}</Text>
-                  </div>
-                  {modul.lektionen.map((lektion) => {
-                    const progress = state.lektionProgress[lektion.lektionId] ?? emptyLektionProgress();
-                    return (
-                      <div
-                        key={lektion.lektionId}
-                        className={styles.lektionRow}
-                        onClick={() => navigate(`/lektion/${lektion.lektionId}`)}
-                      >
-                        <div className={styles.lektionText}>
-                          <Text className={styles.lektionTitle}>{`Lektion ${lektion.lektionNumber}: ${lektion.title}`}</Text>
-                        </div>
-                        <div className={styles.lektionMeta}>
-                          <TrafficLightBadge status={progress.status} />
-                          <ChevronRight20Regular className={styles.chevron} />
-                        </div>
-                      </div>
-                    );
-                  })}
-                </Card>
-              ))}
-            </div>
-          </section>
-        );
-      })}
+      <section className={styles.levelSection}>
+        <LevelTabs
+          levels={LEVEL_CATALOG}
+          activeLevel={activeLevel}
+          masteredLevels={masteredLevels}
+          onSelect={setActiveLevel}
+        />
+
+        <LinguoLevelBanner
+          levelTitle={activeLevelInfo.title}
+          tagline={activeLevelInfo.tagline}
+          expression={linguoExpression}
+          progressLabel={progressLabel}
+        />
+
+        {activeModuln.length > 0 ? (
+          <div className={styles.modulGrid}>
+            {activeModuln.map((modul) => (
+              <ModulPathCard
+                key={modul.modulId}
+                modul={modul}
+                progressFor={progressFor}
+                onSelectLektion={(lektionId) => navigate(`/lektion/${lektionId}`)}
+              />
+            ))}
+          </div>
+        ) : (
+          <Text style={{ color: tokens.colorNeutralForeground3 }}>
+            Für dieses Level sind noch keine Module verfügbar.
+          </Text>
+        )}
+      </section>
     </div>
   );
 };

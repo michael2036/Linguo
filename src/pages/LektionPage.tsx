@@ -27,9 +27,12 @@ import { isTierUnlocked } from '../lib/scoring';
 import { emptyLektionProgress } from '../types/appState';
 import { VocabFlashcards } from '../components/vocab/VocabFlashcards';
 import { ExerciseRunner } from '../components/exercises/ExerciseRunner';
-import { TrafficLightBadge } from '../components/badges/TrafficLightBadge';
+import { LessonStatusBadge } from '../components/badges/LessonStatusBadge';
+import { getDisplayStatus } from '../lib/dashboardStatus';
 import { ScoreRing } from '../components/badges/ScoreRing';
 import { Confetti } from '../components/celebration/Confetti';
+import { LinguoAvatar } from '../components/mascot/LinguoAvatar';
+import type { LinguoExpression } from '../components/mascot/linguoExpressions';
 
 type Stage = 'mode-select' | 'practice-overview' | 'vocab' | Tier | 'test' | 'result';
 type ResultOrigin = 'vocab' | Tier | 'test';
@@ -332,9 +335,11 @@ export const LektionPage = () => {
           ? 'Stark gemacht!'
           : 'Weiter üben lohnt sich!';
     const backTarget = resultOrigin === 'test' ? 'mode-select' : 'practice-overview';
+    const linguoExpression: LinguoExpression = justMastered ? 'celebrating' : passed ? 'happy' : 'encouraging';
     return (
       <div className={styles.resultWrap} role="status" aria-live="polite">
         {justMastered && <Confetti />}
+        <LinguoAvatar expression={linguoExpression} size={88} animate="pop" />
         <ScoreRing percent={lastResultScore ?? 0} />
         <Text className={styles.resultHeadline} as="h1" size={600}>
           {headline}
@@ -349,7 +354,7 @@ export const LektionPage = () => {
               : 'Alle drei Stufen bestanden — diese Lektion steht jetzt auf Grün.'}
           </Text>
         )}
-        <TrafficLightBadge status={progress.status} />
+        <LessonStatusBadge status={getDisplayStatus(progress)} />
         <Button appearance="primary" icon={<SparkleFilled />} onClick={() => setStage(backTarget)}>
           {resultOrigin === 'test' ? 'Zurück zur Lektion' : 'Zurück zur Übungsübersicht'}
         </Button>
@@ -369,7 +374,7 @@ export const LektionPage = () => {
           <Text className={styles.title} as="h1" size={700}>
             {`Lektion ${lektion.lektionNumber}: ${lektion.title}`}
           </Text>
-          <TrafficLightBadge status={progress.status} />
+          <LessonStatusBadge status={getDisplayStatus(progress)} />
           <div className={styles.focusChips}>
             {lektion.grammarFocus.map((focus) => (
               <span key={focus} className={styles.focusChip}>
