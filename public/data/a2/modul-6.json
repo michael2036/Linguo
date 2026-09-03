@@ -1,0 +1,245 @@
+{
+  "modulId": "a2-m6",
+  "level": "A2",
+  "modulNumber": 6,
+  "title": "Medien und Kommunikation",
+  "lektionen": [
+    {
+      "lektionId": "a2-m6-l16",
+      "level": "A2",
+      "modulNumber": 6,
+      "lektionNumber": 16,
+      "title": "Medien",
+      "grammarFocus": [
+        "Reflexivpronomen: mich, dich, sich, uns, euch",
+        "Reflexivverben mit Präposition über"
+      ],
+      "vocabulary": [
+        { "id": "l16v01", "term": "das Medium", "translation": "el medio (de comunicación)", "partOfSpeech": "noun", "gender": "das", "plural": "die Medien", "example": "Soziale Medien sind sehr beliebt." },
+        { "id": "l16v02", "term": "die Nachrichten", "translation": "las noticias", "partOfSpeech": "noun", "gender": "die", "example": "Ich schaue jeden Abend die Nachrichten." },
+        { "id": "l16v03", "term": "der Fernseher", "translation": "el televisor", "partOfSpeech": "noun", "gender": "der", "plural": "die Fernseher", "example": "Der Fernseher ist kaputt." },
+        { "id": "l16v04", "term": "die Zeitung", "translation": "el periódico", "partOfSpeech": "noun", "gender": "die", "plural": "die Zeitungen", "example": "Ich lese die Zeitung." },
+        { "id": "l16v05", "term": "das Internet", "translation": "el internet", "partOfSpeech": "noun", "gender": "das", "example": "Ich surfe im Internet." },
+        { "id": "l16v06", "term": "sich informieren", "translation": "informarse", "partOfSpeech": "verb", "example": "Ich informiere mich über die Nachrichten." },
+        { "id": "l16v07", "term": "sich interessieren", "translation": "interesarse", "partOfSpeech": "verb", "example": "Ich interessiere mich für Politik." },
+        { "id": "l16v08", "term": "sich freuen", "translation": "alegrarse", "partOfSpeech": "verb", "example": "Ich freue mich über die guten Nachrichten." },
+        { "id": "l16v09", "term": "sich beschweren", "translation": "quejarse", "partOfSpeech": "verb", "example": "Ich beschwere mich über die Werbung." },
+        { "id": "l16v10", "term": "die Werbung", "translation": "la publicidad", "partOfSpeech": "noun", "gender": "die", "plural": "die Werbungen", "example": "Ich mag keine Werbung." },
+        { "id": "l16v11", "term": "der Artikel", "translation": "el artículo", "partOfSpeech": "noun", "gender": "der", "plural": "die Artikel", "example": "Ich lese einen interessanten Artikel." },
+        { "id": "l16v12", "term": "die Sendung", "translation": "el programa (de TV)", "partOfSpeech": "noun", "gender": "die", "plural": "die Sendungen", "example": "Die Sendung beginnt um 20 Uhr." },
+        { "id": "l16v13", "term": "der Bericht", "translation": "el informe / reportaje", "partOfSpeech": "noun", "gender": "der", "plural": "die Berichte", "example": "Der Bericht war sehr informativ." },
+        { "id": "l16v14", "term": "aktuell", "translation": "actual", "partOfSpeech": "adjective", "example": "Das ist eine aktuelle Nachricht." },
+        { "id": "l16v15", "term": "sich ärgern", "translation": "enfadarse", "partOfSpeech": "verb", "example": "Ich ärgere mich über die Werbung." },
+        { "id": "l16v16", "term": "sich amüsieren", "translation": "divertirse", "partOfSpeech": "verb", "example": "Wir amüsieren uns über die Sendung." }
+      ],
+      "practice": {
+        "easy": [
+          { "id": "l16e01", "type": "multiple-choice", "instruction": "Wähle das richtige Reflexivpronomen.", "prompt": "Ich interessiere ___ für Politik.", "options": ["mich", "dich", "sich", "uns"], "solution": "mich", "hint": "Reflexivpronomen für 'ich'.", "explanation": "Zum Subjekt 'ich' gehört das Reflexivpronomen 'mich'." },
+          { "id": "l16e02", "type": "multiple-choice", "instruction": "Wähle das richtige Reflexivpronomen.", "prompt": "Du interessierst ___ für Sport.", "options": ["dich", "mich", "sich", "euch"], "solution": "dich", "hint": "Reflexivpronomen für 'du'.", "explanation": "Zum Subjekt 'du' gehört das Reflexivpronomen 'dich'." },
+          { "id": "l16e03", "type": "multiple-choice", "instruction": "Wähle das richtige Reflexivpronomen.", "prompt": "Er interessiert ___ für Musik.", "options": ["sich", "ihn", "ihm", "ihr"], "solution": "sich", "hint": "Reflexivpronomen für 'er'.", "explanation": "Zum Subjekt 'er' gehört das Reflexivpronomen 'sich'." },
+          { "id": "l16e04", "type": "multiple-choice", "instruction": "Wähle das richtige Reflexivpronomen.", "prompt": "Wir interessieren ___ für Filme.", "options": ["uns", "euch", "sich", "mich"], "solution": "uns", "hint": "Reflexivpronomen für 'wir'.", "explanation": "Zum Subjekt 'wir' gehört das Reflexivpronomen 'uns'." },
+          { "id": "l16e05", "type": "multiple-choice", "instruction": "Wähle das richtige Reflexivpronomen.", "prompt": "Ihr interessiert ___ für Bücher.", "options": ["euch", "uns", "sich", "dich"], "solution": "euch", "hint": "Reflexivpronomen für 'ihr'.", "explanation": "Zum Subjekt 'ihr' gehört das Reflexivpronomen 'euch'." },
+          { "id": "l16e06", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Zeitung", "options": ["der", "die", "das"], "solution": "die", "hint": "'Zeitung' ist feminin.", "explanation": "'Zeitung' ist feminin: die Zeitung." },
+          { "id": "l16e07", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Werbung", "options": ["der", "die", "das"], "solution": "die", "hint": "'Werbung' ist feminin.", "explanation": "'Werbung' ist feminin: die Werbung." },
+          { "id": "l16e08", "type": "multiple-choice", "instruction": "Wähle das richtige Reflexivpronomen.", "prompt": "Ich freue ___ über die guten Nachrichten.", "options": ["mich", "dich", "sich", "euch"], "solution": "mich", "hint": "Reflexivpronomen für 'ich'.", "explanation": "Zum Subjekt 'ich' gehört das Reflexivpronomen 'mich'." },
+          { "id": "l16e09", "type": "fill-in-blank", "instruction": "Ergänze das Reflexivpronomen.", "prompt": "Ich ärgere ___ über die Werbung.", "solution": "mich", "hint": "Reflexivpronomen für 'ich'.", "explanation": "Zum Subjekt 'ich' gehört das Reflexivpronomen 'mich'." },
+          { "id": "l16e10", "type": "fill-in-blank", "instruction": "Ergänze das Reflexivpronomen.", "prompt": "Wir amüsieren ___ über die Sendung.", "solution": "uns", "hint": "Reflexivpronomen für 'wir'.", "explanation": "Zum Subjekt 'wir' gehört das Reflexivpronomen 'uns'." }
+        ],
+        "medium": [
+          { "id": "l16m01", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "interessiere", "mich", "für", "Politik"], "solution": "Ich interessiere mich für Politik.", "hint": "Reflexivpronomen direkt nach dem Verb.", "explanation": "Das Reflexivpronomen 'mich' steht direkt nach dem konjugierten Verb." },
+          { "id": "l16m02", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "freue", "mich", "über", "die", "guten", "Nachrichten"], "solution": "Ich freue mich über die guten Nachrichten.", "hint": "Reflexivpronomen direkt nach dem Verb.", "explanation": "Das Reflexivpronomen 'mich' steht direkt nach dem konjugierten Verb." },
+          { "id": "l16m03", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "beschwere", "mich", "über", "die", "Werbung"], "solution": "Ich beschwere mich über die Werbung.", "hint": "Reflexivpronomen direkt nach dem Verb.", "explanation": "Das Reflexivpronomen 'mich' steht direkt nach dem konjugierten Verb." },
+          { "id": "l16m04", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "ärgere", "mich", "über", "die", "Werbung"], "solution": "Ich ärgere mich über die Werbung.", "hint": "Reflexivpronomen direkt nach dem Verb.", "explanation": "Das Reflexivpronomen 'mich' steht direkt nach dem konjugierten Verb." },
+          { "id": "l16m05", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Wir", "amüsieren", "uns", "über", "die", "Sendung"], "solution": "Wir amüsieren uns über die Sendung.", "hint": "Reflexivpronomen direkt nach dem Verb.", "explanation": "Das Reflexivpronomen 'uns' steht direkt nach dem konjugierten Verb." },
+          { "id": "l16m06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "informiere", "mich", "über", "die", "Nachrichten"], "solution": "Ich informiere mich über die Nachrichten.", "hint": "Reflexivpronomen direkt nach dem Verb.", "explanation": "Das Reflexivpronomen 'mich' steht direkt nach dem konjugierten Verb." },
+          { "id": "l16m07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Du ___ (sich interessieren) dich für Musik.", "solution": "interessierst", "hint": "'du'-Form.", "explanation": "Die 'du'-Form von 'sich interessieren' lautet 'interessierst'." },
+          { "id": "l16m08", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Er ___ (sich freuen) sich über den Artikel.", "solution": "freut", "hint": "3. Person Singular.", "explanation": "Die 'er'-Form von 'sich freuen' lautet 'freut'." },
+          { "id": "l16m09", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Wir ___ (sich beschweren) uns über die Sendung.", "solution": "beschweren", "hint": "'wir'-Form.", "explanation": "Die 'wir'-Form von 'sich beschweren' lautet 'beschweren'." },
+          { "id": "l16m10", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Ihr ___ (sich ärgern) euch über die Werbung.", "solution": "ärgert", "hint": "'ihr'-Form.", "explanation": "Die 'ihr'-Form von 'sich ärgern' lautet 'ärgert'." }
+        ],
+        "hard": [
+          { "id": "l16h01", "type": "targeted-transformation", "instruction": "Bilde einen Satz mit 'sich interessieren für'.", "prompt": "ich / Politik", "solution": "Ich interessiere mich für Politik.", "hint": "Reflexivpronomen 'mich'.", "explanation": "'sich interessieren für' braucht das passende Reflexivpronomen und die Präposition 'für'." },
+          { "id": "l16h02", "type": "targeted-transformation", "instruction": "Bilde einen Satz mit 'sich freuen über'.", "prompt": "ich / die guten Nachrichten", "solution": "Ich freue mich über die guten Nachrichten.", "hint": "Reflexivpronomen 'mich'.", "explanation": "'sich freuen über' braucht das passende Reflexivpronomen und die Präposition 'über'." },
+          { "id": "l16h03", "type": "targeted-transformation", "instruction": "Bilde einen Satz mit 'sich beschweren über'.", "prompt": "ich / die Werbung", "solution": "Ich beschwere mich über die Werbung.", "hint": "Reflexivpronomen 'mich'.", "explanation": "'sich beschweren über' braucht das passende Reflexivpronomen und die Präposition 'über'." },
+          { "id": "l16h04", "type": "targeted-transformation", "instruction": "Bilde einen Satz mit 'sich ärgern über'.", "prompt": "wir / die Werbung", "solution": "Wir ärgern uns über die Werbung.", "hint": "Reflexivpronomen 'uns'.", "explanation": "'sich ärgern über' braucht das passende Reflexivpronomen und die Präposition 'über'." },
+          { "id": "l16h05", "type": "targeted-transformation", "instruction": "Bilde einen Satz mit 'sich amüsieren über'.", "prompt": "sie (Plural) / die Sendung", "solution": "Sie amüsieren sich über die Sendung.", "hint": "Reflexivpronomen 'sich'.", "explanation": "'sich amüsieren über' braucht das passende Reflexivpronomen und die Präposition 'über'." },
+          { "id": "l16h06", "type": "targeted-transformation", "instruction": "Bilde einen Satz mit 'sich informieren über'.", "prompt": "du / die Nachrichten", "solution": "Du informierst dich über die Nachrichten.", "hint": "Reflexivpronomen 'dich'.", "explanation": "'sich informieren über' braucht das passende Reflexivpronomen und die Präposition 'über'." },
+          { "id": "l16h07", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich interessiere sich für Politik.", "solution": "Ich interessiere mich für Politik.", "hint": "Das Reflexivpronomen muss zum Subjekt passen.", "explanation": "Zum Subjekt 'ich' gehört das Reflexivpronomen 'mich', nicht 'sich'." },
+          { "id": "l16h08", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Wir freuen sich über die Nachrichten.", "solution": "Wir freuen uns über die Nachrichten.", "hint": "Das Reflexivpronomen muss zum Subjekt passen.", "explanation": "Zum Subjekt 'wir' gehört das Reflexivpronomen 'uns', nicht 'sich'." },
+          { "id": "l16h09", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Du ärgerst mich über die Werbung.", "solution": "Du ärgerst dich über die Werbung.", "hint": "Das Reflexivpronomen muss zum Subjekt passen.", "explanation": "Zum Subjekt 'du' gehört das Reflexivpronomen 'dich', nicht 'mich'." },
+          { "id": "l16h10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ihr amüsiert uns über die Sendung.", "solution": "Ihr amüsiert euch über die Sendung.", "hint": "Das Reflexivpronomen muss zum Subjekt passen.", "explanation": "Zum Subjekt 'ihr' gehört das Reflexivpronomen 'euch', nicht 'uns'." }
+        ]
+      },
+      "test": [
+        { "id": "l16t01", "type": "multiple-choice", "instruction": "Wähle das richtige Reflexivpronomen.", "prompt": "Ich interessiere ___ für Politik.", "options": ["mich", "dich", "sich", "uns"], "solution": "mich", "explanation": "Zum Subjekt 'ich' gehört das Reflexivpronomen 'mich'." },
+        { "id": "l16t02", "type": "multiple-choice", "instruction": "Wähle das richtige Reflexivpronomen.", "prompt": "Wir interessieren ___ für Filme.", "options": ["uns", "euch", "sich", "mich"], "solution": "uns", "explanation": "Zum Subjekt 'wir' gehört das Reflexivpronomen 'uns'." },
+        { "id": "l16t03", "type": "fill-in-blank", "instruction": "Ergänze das Reflexivpronomen.", "prompt": "Ich ärgere ___ über die Werbung.", "solution": "mich", "explanation": "Zum Subjekt 'ich' gehört das Reflexivpronomen 'mich'." },
+        { "id": "l16t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Werbung", "options": ["der", "die", "das"], "solution": "die", "explanation": "'Werbung' ist feminin: die Werbung." },
+        { "id": "l16t05", "type": "multiple-choice", "instruction": "Wähle das richtige Reflexivpronomen.", "prompt": "Ich freue ___ über die guten Nachrichten.", "options": ["mich", "dich", "sich", "euch"], "solution": "mich", "explanation": "Zum Subjekt 'ich' gehört das Reflexivpronomen 'mich'." },
+        { "id": "l16t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "beschwere", "mich", "über", "die", "Werbung"], "solution": "Ich beschwere mich über die Werbung.", "explanation": "Das Reflexivpronomen 'mich' steht direkt nach dem konjugierten Verb." },
+        { "id": "l16t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Wir ___ (sich beschweren) uns über die Sendung.", "solution": "beschweren", "explanation": "Die 'wir'-Form von 'sich beschweren' lautet 'beschweren'." },
+        { "id": "l16t08", "type": "targeted-transformation", "instruction": "Bilde einen Satz mit 'sich ärgern über'.", "prompt": "wir / die Werbung", "solution": "Wir ärgern uns über die Werbung.", "explanation": "'sich ärgern über' braucht das passende Reflexivpronomen und die Präposition 'über'." },
+        { "id": "l16t09", "type": "targeted-transformation", "instruction": "Bilde einen Satz mit 'sich informieren über'.", "prompt": "du / die Nachrichten", "solution": "Du informierst dich über die Nachrichten.", "explanation": "'sich informieren über' braucht das passende Reflexivpronomen und die Präposition 'über'." },
+        { "id": "l16t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Wir freuen sich über die Nachrichten.", "solution": "Wir freuen uns über die Nachrichten.", "explanation": "Zum Subjekt 'wir' gehört das Reflexivpronomen 'uns', nicht 'sich'." }
+      ]
+    },
+    {
+      "lektionId": "a2-m6-l17",
+      "level": "A2",
+      "modulNumber": 6,
+      "lektionNumber": 17,
+      "title": "Gefühle und Reaktionen",
+      "grammarFocus": [
+        "Reflexivverben mit festen Präpositionen: auf, über, um, an",
+        "sich freuen auf (Zukunft) vs. sich freuen über (Gegenwart)"
+      ],
+      "vocabulary": [
+        { "id": "l17v01", "term": "sich freuen auf", "translation": "alegrarse por (algo futuro)", "partOfSpeech": "verb", "example": "Ich freue mich auf die Ferien." },
+        { "id": "l17v02", "term": "sich freuen über", "translation": "alegrarse por (algo presente)", "partOfSpeech": "verb", "example": "Ich freue mich über das Geschenk." },
+        { "id": "l17v03", "term": "sich Sorgen machen um", "translation": "preocuparse por", "partOfSpeech": "verb", "example": "Ich mache mir Sorgen um meine Familie." },
+        { "id": "l17v04", "term": "sich kümmern um", "translation": "encargarse de", "partOfSpeech": "verb", "example": "Ich kümmere mich um die Kinder." },
+        { "id": "l17v05", "term": "sich gewöhnen an", "translation": "acostumbrarse a", "partOfSpeech": "verb", "example": "Ich gewöhne mich an das Wetter." },
+        { "id": "l17v06", "term": "sich erinnern an", "translation": "recordar", "partOfSpeech": "verb", "example": "Ich erinnere mich an den Urlaub." },
+        { "id": "l17v07", "term": "sich verlassen auf", "translation": "confiar en", "partOfSpeech": "verb", "example": "Ich verlasse mich auf dich." },
+        { "id": "l17v08", "term": "sich vorbereiten auf", "translation": "prepararse para", "partOfSpeech": "verb", "example": "Ich bereite mich auf die Prüfung vor." },
+        { "id": "l17v09", "term": "die Ferien", "translation": "las vacaciones (escolares)", "partOfSpeech": "noun", "gender": "die", "example": "Ich freue mich auf die Ferien." },
+        { "id": "l17v10", "term": "die Sorge", "translation": "la preocupación", "partOfSpeech": "noun", "gender": "die", "plural": "die Sorgen", "example": "Ich habe Sorgen." },
+        { "id": "l17v11", "term": "die Prüfung", "translation": "el examen", "partOfSpeech": "noun", "gender": "die", "plural": "die Prüfungen", "example": "Ich bereite mich auf die Prüfung vor." },
+        { "id": "l17v12", "term": "das Wetter", "translation": "el clima", "partOfSpeech": "noun", "gender": "das", "example": "Ich gewöhne mich an das Wetter." },
+        { "id": "l17v13", "term": "der Urlaub", "translation": "las vacaciones", "partOfSpeech": "noun", "gender": "der", "plural": "die Urlaube", "example": "Ich erinnere mich an den Urlaub." },
+        { "id": "l17v14", "term": "vertrauen", "translation": "confiar", "partOfSpeech": "verb", "example": "Ich vertraue dir." },
+        { "id": "l17v15", "term": "die Erinnerung", "translation": "el recuerdo", "partOfSpeech": "noun", "gender": "die", "plural": "die Erinnerungen", "example": "Das ist eine schöne Erinnerung." },
+        { "id": "l17v16", "term": "sich entspannen", "translation": "relajarse", "partOfSpeech": "verb", "example": "Ich entspanne mich am Wochenende." }
+      ],
+      "practice": {
+        "easy": [
+          { "id": "l17e01", "type": "multiple-choice", "instruction": "Wähle die richtige Präposition.", "prompt": "Ich freue mich ___ die Ferien. (Zukunft)", "options": ["auf", "über", "an", "um"], "solution": "auf", "hint": "Vorfreude auf etwas Zukünftiges.", "explanation": "'sich freuen auf' verwendet man für etwas, das noch bevorsteht." },
+          { "id": "l17e02", "type": "multiple-choice", "instruction": "Wähle die richtige Präposition.", "prompt": "Ich freue mich ___ das Geschenk. (Gegenwart)", "options": ["über", "auf", "an", "um"], "solution": "über", "hint": "Freude über etwas Gegenwärtiges.", "explanation": "'sich freuen über' verwendet man für etwas Gegenwärtiges oder Vergangenes." },
+          { "id": "l17e03", "type": "multiple-choice", "instruction": "Wähle die richtige Präposition.", "prompt": "Ich mache mir Sorgen ___ meine Familie.", "options": ["um", "über", "an", "auf"], "solution": "um", "hint": "Feste Präposition bei 'Sorgen machen'.", "explanation": "'sich Sorgen machen um' ist eine feste Wortverbindung." },
+          { "id": "l17e04", "type": "multiple-choice", "instruction": "Wähle die richtige Präposition.", "prompt": "Ich kümmere mich ___ die Kinder.", "options": ["um", "über", "an", "auf"], "solution": "um", "hint": "Feste Präposition bei 'sich kümmern'.", "explanation": "'sich kümmern um' ist eine feste Wortverbindung." },
+          { "id": "l17e05", "type": "multiple-choice", "instruction": "Wähle die richtige Präposition.", "prompt": "Ich gewöhne mich ___ das Wetter.", "options": ["an", "auf", "über", "um"], "solution": "an", "hint": "Feste Präposition bei 'sich gewöhnen'.", "explanation": "'sich gewöhnen an' ist eine feste Wortverbindung." },
+          { "id": "l17e06", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Prüfung", "options": ["der", "die", "das"], "solution": "die", "hint": "'Prüfung' ist feminin.", "explanation": "'Prüfung' ist feminin: die Prüfung." },
+          { "id": "l17e07", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Sorge", "options": ["der", "die", "das"], "solution": "die", "hint": "'Sorge' ist feminin.", "explanation": "'Sorge' ist feminin: die Sorge." },
+          { "id": "l17e08", "type": "multiple-choice", "instruction": "Wähle die richtige Präposition.", "prompt": "Ich erinnere mich ___ den Urlaub.", "options": ["an", "auf", "über", "um"], "solution": "an", "hint": "Feste Präposition bei 'sich erinnern'.", "explanation": "'sich erinnern an' ist eine feste Wortverbindung." },
+          { "id": "l17e09", "type": "fill-in-blank", "instruction": "Ergänze die Präposition.", "prompt": "Ich verlasse mich ___ dich.", "solution": "auf", "hint": "Feste Präposition bei 'sich verlassen'.", "explanation": "'sich verlassen auf' ist eine feste Wortverbindung." },
+          { "id": "l17e10", "type": "fill-in-blank", "instruction": "Ergänze die Präposition.", "prompt": "Ich bereite mich ___ die Prüfung vor.", "solution": "auf", "hint": "Feste Präposition bei 'sich vorbereiten'.", "explanation": "'sich vorbereiten auf' ist eine feste Wortverbindung." }
+        ],
+        "medium": [
+          { "id": "l17m01", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "freue", "mich", "auf", "die", "Ferien"], "solution": "Ich freue mich auf die Ferien.", "hint": "Zukünftiges Ereignis → 'auf'.", "explanation": "'sich freuen auf' verwendet man für etwas Zukünftiges." },
+          { "id": "l17m02", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "freue", "mich", "über", "das", "Geschenk"], "solution": "Ich freue mich über das Geschenk.", "hint": "Gegenwärtiges Ereignis → 'über'.", "explanation": "'sich freuen über' verwendet man für etwas Gegenwärtiges." },
+          { "id": "l17m03", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "mache", "mir", "Sorgen", "um", "meine", "Familie"], "solution": "Ich mache mir Sorgen um meine Familie.", "hint": "Feste Präposition 'um'.", "explanation": "'sich Sorgen machen um' ist eine feste Wortverbindung." },
+          { "id": "l17m04", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "kümmere", "mich", "um", "die", "Kinder"], "solution": "Ich kümmere mich um die Kinder.", "hint": "Feste Präposition 'um'.", "explanation": "'sich kümmern um' ist eine feste Wortverbindung." },
+          { "id": "l17m05", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "gewöhne", "mich", "an", "das", "Wetter"], "solution": "Ich gewöhne mich an das Wetter.", "hint": "Feste Präposition 'an'.", "explanation": "'sich gewöhnen an' ist eine feste Wortverbindung." },
+          { "id": "l17m06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "bereite", "mich", "auf", "die", "Prüfung", "vor"], "solution": "Ich bereite mich auf die Prüfung vor.", "hint": "Feste Präposition 'auf', trennbares Verb.", "explanation": "'sich vorbereiten auf' ist eine feste Wortverbindung mit trennbarem Verb." },
+          { "id": "l17m07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Du ___ (sich erinnern) dich an den Urlaub.", "solution": "erinnerst", "hint": "'du'-Form.", "explanation": "Die 'du'-Form von 'sich erinnern' lautet 'erinnerst'." },
+          { "id": "l17m08", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Er ___ (sich verlassen) sich auf dich.", "solution": "verlässt", "hint": "Unregelmäßiges Verb, 3. Person Singular.", "explanation": "Die 'er'-Form von 'sich verlassen' lautet 'verlässt'." },
+          { "id": "l17m09", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Wir ___ (sich entspannen) uns am Wochenende.", "solution": "entspannen", "hint": "'wir'-Form.", "explanation": "Die 'wir'-Form von 'sich entspannen' lautet 'entspannen'." },
+          { "id": "l17m10", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Sie ___ (sich kümmern) sich um die Kinder.", "solution": "kümmert", "hint": "3. Person Singular.", "explanation": "Die 'sie'-Form von 'sich kümmern' lautet 'kümmert'." }
+        ],
+        "hard": [
+          { "id": "l17h01", "type": "targeted-transformation", "instruction": "Bilde einen Satz mit 'sich freuen auf'.", "prompt": "ich / die Ferien", "solution": "Ich freue mich auf die Ferien.", "hint": "Zukünftiges Ereignis.", "explanation": "'sich freuen auf' verwendet man für etwas Zukünftiges." },
+          { "id": "l17h02", "type": "targeted-transformation", "instruction": "Bilde einen Satz mit 'sich freuen über'.", "prompt": "ich / das Geschenk", "solution": "Ich freue mich über das Geschenk.", "hint": "Gegenwärtiges Ereignis.", "explanation": "'sich freuen über' verwendet man für etwas Gegenwärtiges." },
+          { "id": "l17h03", "type": "targeted-transformation", "instruction": "Bilde einen Satz mit 'sich Sorgen machen um'.", "prompt": "ich / meine Familie", "solution": "Ich mache mir Sorgen um meine Familie.", "hint": "Feste Präposition 'um'.", "explanation": "'sich Sorgen machen um' ist eine feste Wortverbindung." },
+          { "id": "l17h04", "type": "targeted-transformation", "instruction": "Bilde einen Satz mit 'sich gewöhnen an'.", "prompt": "ich / das Wetter", "solution": "Ich gewöhne mich an das Wetter.", "hint": "Feste Präposition 'an'.", "explanation": "'sich gewöhnen an' ist eine feste Wortverbindung." },
+          { "id": "l17h05", "type": "targeted-transformation", "instruction": "Bilde einen Satz mit 'sich erinnern an'.", "prompt": "ich / den Urlaub", "solution": "Ich erinnere mich an den Urlaub.", "hint": "Feste Präposition 'an'.", "explanation": "'sich erinnern an' ist eine feste Wortverbindung." },
+          { "id": "l17h06", "type": "targeted-transformation", "instruction": "Bilde einen Satz mit 'sich vorbereiten auf'.", "prompt": "ich / die Prüfung", "solution": "Ich bereite mich auf die Prüfung vor.", "hint": "Feste Präposition 'auf'.", "explanation": "'sich vorbereiten auf' ist eine feste Wortverbindung." },
+          { "id": "l17h07", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich freue mich über die Ferien. (noch nicht begonnen)", "solution": "Ich freue mich auf die Ferien.", "hint": "Für zukünftige Ereignisse verwendet man 'sich freuen auf'.", "explanation": "Für etwas, das noch bevorsteht, verwendet man 'sich freuen auf', nicht 'über'." },
+          { "id": "l17h08", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich mache mir Sorgen über meine Familie.", "solution": "Ich mache mir Sorgen um meine Familie.", "hint": "'sich Sorgen machen' braucht die Präposition 'um'.", "explanation": "'sich Sorgen machen' verlangt die feste Präposition 'um', nicht 'über'." },
+          { "id": "l17h09", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich gewöhne mich auf das Wetter.", "solution": "Ich gewöhne mich an das Wetter.", "hint": "'sich gewöhnen' braucht die Präposition 'an'.", "explanation": "'sich gewöhnen' verlangt die feste Präposition 'an', nicht 'auf'." },
+          { "id": "l17h10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich erinnere mich auf den Urlaub.", "solution": "Ich erinnere mich an den Urlaub.", "hint": "'sich erinnern' braucht die Präposition 'an'.", "explanation": "'sich erinnern' verlangt die feste Präposition 'an', nicht 'auf'." }
+        ]
+      },
+      "test": [
+        { "id": "l17t01", "type": "multiple-choice", "instruction": "Wähle die richtige Präposition.", "prompt": "Ich freue mich ___ die Ferien. (Zukunft)", "options": ["auf", "über", "an", "um"], "solution": "auf", "explanation": "'sich freuen auf' verwendet man für etwas Zukünftiges." },
+        { "id": "l17t02", "type": "multiple-choice", "instruction": "Wähle die richtige Präposition.", "prompt": "Ich freue mich ___ das Geschenk. (Gegenwart)", "options": ["über", "auf", "an", "um"], "solution": "über", "explanation": "'sich freuen über' verwendet man für etwas Gegenwärtiges." },
+        { "id": "l17t03", "type": "multiple-choice", "instruction": "Wähle die richtige Präposition.", "prompt": "Ich mache mir Sorgen ___ meine Familie.", "options": ["um", "über", "an", "auf"], "solution": "um", "explanation": "'sich Sorgen machen um' ist eine feste Wortverbindung." },
+        { "id": "l17t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Prüfung", "options": ["der", "die", "das"], "solution": "die", "explanation": "'Prüfung' ist feminin: die Prüfung." },
+        { "id": "l17t05", "type": "multiple-choice", "instruction": "Wähle die richtige Präposition.", "prompt": "Ich erinnere mich ___ den Urlaub.", "options": ["an", "auf", "über", "um"], "solution": "an", "explanation": "'sich erinnern an' ist eine feste Wortverbindung." },
+        { "id": "l17t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "gewöhne", "mich", "an", "das", "Wetter"], "solution": "Ich gewöhne mich an das Wetter.", "explanation": "'sich gewöhnen an' ist eine feste Wortverbindung." },
+        { "id": "l17t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Du ___ (sich erinnern) dich an den Urlaub.", "solution": "erinnerst", "explanation": "Die 'du'-Form von 'sich erinnern' lautet 'erinnerst'." },
+        { "id": "l17t08", "type": "targeted-transformation", "instruction": "Bilde einen Satz mit 'sich freuen auf'.", "prompt": "ich / die Ferien", "solution": "Ich freue mich auf die Ferien.", "explanation": "'sich freuen auf' verwendet man für etwas Zukünftiges." },
+        { "id": "l17t09", "type": "targeted-transformation", "instruction": "Bilde einen Satz mit 'sich vorbereiten auf'.", "prompt": "ich / die Prüfung", "solution": "Ich bereite mich auf die Prüfung vor.", "explanation": "'sich vorbereiten auf' ist eine feste Wortverbindung." },
+        { "id": "l17t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich mache mir Sorgen über meine Familie.", "solution": "Ich mache mir Sorgen um meine Familie.", "explanation": "'sich Sorgen machen' verlangt die feste Präposition 'um', nicht 'über'." }
+      ]
+    },
+    {
+      "lektionId": "a2-m6-l18",
+      "level": "A2",
+      "modulNumber": 6,
+      "lektionNumber": 18,
+      "title": "Digitale Kommunikation",
+      "grammarFocus": [
+        "trotzdem: Verb an Position 2",
+        "Trennbare Verben: herunterladen, hochladen, anrufen"
+      ],
+      "vocabulary": [
+        { "id": "l18v01", "term": "die Nachricht", "translation": "el mensaje", "partOfSpeech": "noun", "gender": "die", "plural": "die Nachrichten", "example": "Ich schreibe ihm eine Nachricht." },
+        { "id": "l18v02", "term": "die App", "translation": "la aplicación", "partOfSpeech": "noun", "gender": "die", "plural": "die Apps", "example": "Ich nutze eine neue App." },
+        { "id": "l18v03", "term": "chatten", "translation": "chatear", "partOfSpeech": "verb", "example": "Ich chatte mit meinen Freunden." },
+        { "id": "l18v04", "term": "herunterladen", "translation": "descargar", "partOfSpeech": "verb", "example": "Ich lade die App herunter." },
+        { "id": "l18v05", "term": "das Passwort", "translation": "la contraseña", "partOfSpeech": "noun", "gender": "das", "plural": "die Passwörter", "example": "Ich vergesse oft mein Passwort." },
+        { "id": "l18v06", "term": "speichern", "translation": "guardar", "partOfSpeech": "verb", "example": "Ich speichere die Datei." },
+        { "id": "l18v07", "term": "löschen", "translation": "borrar", "partOfSpeech": "verb", "example": "Ich lösche die alte Nachricht." },
+        { "id": "l18v08", "term": "hochladen", "translation": "subir (un archivo)", "partOfSpeech": "verb", "example": "Ich lade das Foto hoch." },
+        { "id": "l18v09", "term": "trotzdem", "translation": "a pesar de eso", "partOfSpeech": "phrase", "example": "Das Internet ist langsam, trotzdem arbeite ich weiter." },
+        { "id": "l18v10", "term": "die Verbindung", "translation": "la conexión", "partOfSpeech": "noun", "gender": "die", "plural": "die Verbindungen", "example": "Die Verbindung ist schlecht." },
+        { "id": "l18v11", "term": "langsam", "translation": "lento", "partOfSpeech": "adjective", "example": "Das Internet ist langsam." },
+        { "id": "l18v12", "term": "der Anhang", "translation": "el archivo adjunto", "partOfSpeech": "noun", "gender": "der", "plural": "die Anhänge", "example": "Ich schicke den Anhang." },
+        { "id": "l18v13", "term": "anrufen", "translation": "llamar (por teléfono)", "partOfSpeech": "verb", "example": "Ich rufe dich später an." },
+        { "id": "l18v14", "term": "die Videokonferenz", "translation": "la videoconferencia", "partOfSpeech": "noun", "gender": "die", "plural": "die Videokonferenzen", "example": "Wir haben eine Videokonferenz." },
+        { "id": "l18v15", "term": "der Bildschirm", "translation": "la pantalla", "partOfSpeech": "noun", "gender": "der", "plural": "die Bildschirme", "example": "Der Bildschirm ist kaputt." },
+        { "id": "l18v16", "term": "das Update", "translation": "la actualización", "partOfSpeech": "noun", "gender": "das", "plural": "die Updates", "example": "Ich installiere das Update." }
+      ],
+      "practice": {
+        "easy": [
+          { "id": "l18e01", "type": "multiple-choice", "instruction": "Wähle den passenden Konnektor.", "prompt": "Das Internet ist langsam, ___ arbeite ich weiter.", "options": ["trotzdem", "deshalb", "weil", "dass"], "solution": "trotzdem", "hint": "Zeigt einen Gegensatz an.", "explanation": "'trotzdem' zeigt einen Gegensatz zwischen zwei Aussagen an." },
+          { "id": "l18e02", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Trotzdem ___ ich weiter.", "options": ["arbeite", "arbeitest", "arbeitet", "arbeiten"], "solution": "arbeite", "hint": "Verb an Position 2 nach 'trotzdem'.", "explanation": "Nach 'trotzdem' an Position 1 steht das Verb an Position 2." },
+          { "id": "l18e03", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Ich ___ die App herunter.", "options": ["lade", "lädst", "lädt", "laden"], "solution": "lade", "hint": "'ich'-Form.", "explanation": "Die 'ich'-Form von 'herunterladen' lautet 'lade ... herunter'." },
+          { "id": "l18e04", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Ich ___ das Foto hoch.", "options": ["lade", "lädst", "lädt", "laden"], "solution": "lade", "hint": "'ich'-Form.", "explanation": "Die 'ich'-Form von 'hochladen' lautet 'lade ... hoch'." },
+          { "id": "l18e05", "type": "multiple-choice", "instruction": "Wähle das trennbare Präfix.", "prompt": "Ich rufe dich später ___.", "options": ["an", "ab", "auf", "aus"], "solution": "an", "hint": "'anrufen' ist trennbar.", "explanation": "'anrufen' ist ein trennbares Verb mit dem Präfix 'an'." },
+          { "id": "l18e06", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Nachricht", "options": ["der", "die", "das"], "solution": "die", "hint": "'Nachricht' ist feminin.", "explanation": "'Nachricht' ist feminin: die Nachricht." },
+          { "id": "l18e07", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Passwort", "options": ["der", "die", "das"], "solution": "das", "hint": "'Passwort' ist neutral.", "explanation": "'Passwort' ist neutral: das Passwort." },
+          { "id": "l18e08", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Die ___ ist schlecht.", "options": ["Verbindung", "Anhang", "Bildschirm", "Update"], "solution": "Verbindung", "hint": "Feminin, betrifft das Internet.", "explanation": "'Verbindung' bezeichnet die Internetverbindung." },
+          { "id": "l18e09", "type": "fill-in-blank", "instruction": "Ergänze das Verb.", "prompt": "Ich ___ die Datei. (speichern)", "solution": "speichere", "hint": "'ich'-Form.", "explanation": "Die 'ich'-Form von 'speichern' lautet 'speichere'." },
+          { "id": "l18e10", "type": "fill-in-blank", "instruction": "Ergänze das Verb.", "prompt": "Ich ___ die alte Nachricht. (löschen)", "solution": "lösche", "hint": "'ich'-Form.", "explanation": "Die 'ich'-Form von 'löschen' lautet 'lösche'." }
+        ],
+        "medium": [
+          { "id": "l18m01", "type": "sentence-scramble", "instruction": "Bilde einen Satz mit 'trotzdem'.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Das", "Internet", "ist", "langsam,", "trotzdem", "arbeite", "ich", "weiter"], "solution": "Das Internet ist langsam, trotzdem arbeite ich weiter.", "hint": "Verb direkt nach 'trotzdem'.", "explanation": "Nach 'trotzdem' steht das konjugierte Verb an Position 2: trotzdem arbeite ich." },
+          { "id": "l18m02", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "lade", "die", "App", "herunter"], "solution": "Ich lade die App herunter.", "hint": "Trennbares Verb: Präfix am Satzende.", "explanation": "Bei trennbaren Verben steht das Präfix 'herunter' am Satzende." },
+          { "id": "l18m03", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "lade", "das", "Foto", "hoch"], "solution": "Ich lade das Foto hoch.", "hint": "Trennbares Verb: Präfix am Satzende.", "explanation": "Bei trennbaren Verben steht das Präfix 'hoch' am Satzende." },
+          { "id": "l18m04", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "rufe", "dich", "später", "an"], "solution": "Ich rufe dich später an.", "hint": "Trennbares Verb: Präfix am Satzende.", "explanation": "Bei trennbaren Verben steht das Präfix 'an' am Satzende." },
+          { "id": "l18m05", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Wir", "haben", "eine", "Videokonferenz"], "solution": "Wir haben eine Videokonferenz.", "hint": "Verb an Position 2.", "explanation": "Das konjugierte Verb steht an Position 2." },
+          { "id": "l18m06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "speichere", "die", "Datei"], "solution": "Ich speichere die Datei.", "hint": "Verb an Position 2.", "explanation": "Das konjugierte Verb steht an Position 2." },
+          { "id": "l18m07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Er ___ (herunterladen) die App herunter.", "solution": "lädt", "hint": "3. Person Singular.", "explanation": "Die 'er'-Form von 'herunterladen' lautet 'lädt ... herunter'." },
+          { "id": "l18m08", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Sie ___ (hochladen) das Foto hoch.", "solution": "lädt", "hint": "3. Person Singular.", "explanation": "Die 'sie'-Form von 'hochladen' lautet 'lädt ... hoch'." },
+          { "id": "l18m09", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Wir ___ (installieren) das Update.", "solution": "installieren", "hint": "'wir'-Form.", "explanation": "Die 'wir'-Form von 'installieren' lautet 'installieren'." },
+          { "id": "l18m10", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Ich ___ (schicken) den Anhang.", "solution": "schicke", "hint": "'ich'-Form.", "explanation": "Die 'ich'-Form von 'schicken' lautet 'schicke'." }
+        ],
+        "hard": [
+          { "id": "l18h01", "type": "targeted-transformation", "instruction": "Verbinde die Sätze mit 'trotzdem'.", "prompt": "Das Internet ist langsam. Ich arbeite weiter.", "solution": "Das Internet ist langsam, trotzdem arbeite ich weiter.", "hint": "Verb direkt nach 'trotzdem'.", "explanation": "'trotzdem' zeigt einen Gegensatz an; das Verb steht direkt danach." },
+          { "id": "l18h02", "type": "targeted-transformation", "instruction": "Verbinde die Sätze mit 'trotzdem'.", "prompt": "Die Verbindung ist schlecht. Wir chatten weiter.", "solution": "Die Verbindung ist schlecht, trotzdem chatten wir weiter.", "hint": "Verb direkt nach 'trotzdem'.", "explanation": "'trotzdem' zeigt einen Gegensatz an; das Verb steht direkt danach." },
+          { "id": "l18h03", "type": "targeted-transformation", "instruction": "Verbinde die Sätze mit 'trotzdem'.", "prompt": "Ich vergesse oft mein Passwort. Ich benutze die App gern.", "solution": "Ich vergesse oft mein Passwort, trotzdem benutze ich die App gern.", "hint": "Verb direkt nach 'trotzdem'.", "explanation": "'trotzdem' zeigt einen Gegensatz an; das Verb steht direkt danach." },
+          { "id": "l18h04", "type": "targeted-transformation", "instruction": "Verbinde die Sätze mit 'trotzdem'.", "prompt": "Der Bildschirm ist kaputt. Ich sehe die Nachricht.", "solution": "Der Bildschirm ist kaputt, trotzdem sehe ich die Nachricht.", "hint": "Verb direkt nach 'trotzdem'.", "explanation": "'trotzdem' zeigt einen Gegensatz an; das Verb steht direkt danach." },
+          { "id": "l18h05", "type": "targeted-transformation", "instruction": "Bilde das Perfekt.", "prompt": "Ich lade die App herunter.", "solution": "Ich habe die App heruntergeladen.", "hint": "Unregelmäßiges Partizip II.", "explanation": "Das Partizip II von 'herunterladen' lautet 'heruntergeladen'." },
+          { "id": "l18h06", "type": "targeted-transformation", "instruction": "Bilde das Perfekt.", "prompt": "Ich lade das Foto hoch.", "solution": "Ich habe das Foto hochgeladen.", "hint": "Unregelmäßiges Partizip II.", "explanation": "Das Partizip II von 'hochladen' lautet 'hochgeladen'." },
+          { "id": "l18h07", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Das Internet ist langsam, trotzdem ich arbeite weiter.", "solution": "Das Internet ist langsam, trotzdem arbeite ich weiter.", "hint": "Nach 'trotzdem' steht das Verb direkt.", "explanation": "Nach 'trotzdem' steht das konjugierte Verb an Position 2, nicht das Subjekt." },
+          { "id": "l18h08", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Die Verbindung ist schlecht, trotzdem wir chatten weiter.", "solution": "Die Verbindung ist schlecht, trotzdem chatten wir weiter.", "hint": "Nach 'trotzdem' steht das Verb direkt.", "explanation": "Nach 'trotzdem' steht das konjugierte Verb an Position 2, nicht das Subjekt." },
+          { "id": "l18h09", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich habe die App runtergeladt.", "solution": "Ich habe die App heruntergeladen.", "hint": "Unregelmäßiges Partizip II: heruntergeladen.", "explanation": "Das Partizip II von 'herunterladen' lautet korrekt 'heruntergeladen'." },
+          { "id": "l18h10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich habe das Foto hochgeladt.", "solution": "Ich habe das Foto hochgeladen.", "hint": "Unregelmäßiges Partizip II: hochgeladen.", "explanation": "Das Partizip II von 'hochladen' lautet korrekt 'hochgeladen'." }
+        ]
+      },
+      "test": [
+        { "id": "l18t01", "type": "multiple-choice", "instruction": "Wähle den passenden Konnektor.", "prompt": "Das Internet ist langsam, ___ arbeite ich weiter.", "options": ["trotzdem", "deshalb", "weil", "dass"], "solution": "trotzdem", "explanation": "'trotzdem' zeigt einen Gegensatz zwischen zwei Aussagen an." },
+        { "id": "l18t02", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Trotzdem ___ ich weiter.", "options": ["arbeite", "arbeitest", "arbeitet", "arbeiten"], "solution": "arbeite", "explanation": "Nach 'trotzdem' an Position 1 steht das Verb an Position 2." },
+        { "id": "l18t03", "type": "fill-in-blank", "instruction": "Ergänze das Verb.", "prompt": "Ich ___ die Datei. (speichern)", "solution": "speichere", "explanation": "Die 'ich'-Form von 'speichern' lautet 'speichere'." },
+        { "id": "l18t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Passwort", "options": ["der", "die", "das"], "solution": "das", "explanation": "'Passwort' ist neutral: das Passwort." },
+        { "id": "l18t05", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Die ___ ist schlecht.", "options": ["Verbindung", "Anhang", "Bildschirm", "Update"], "solution": "Verbindung", "explanation": "'Verbindung' bezeichnet die Internetverbindung." },
+        { "id": "l18t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "lade", "die", "App", "herunter"], "solution": "Ich lade die App herunter.", "explanation": "Bei trennbaren Verben steht das Präfix 'herunter' am Satzende." },
+        { "id": "l18t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Wir ___ (installieren) das Update.", "solution": "installieren", "explanation": "Die 'wir'-Form von 'installieren' lautet 'installieren'." },
+        { "id": "l18t08", "type": "targeted-transformation", "instruction": "Verbinde die Sätze mit 'trotzdem'.", "prompt": "Das Internet ist langsam. Ich arbeite weiter.", "solution": "Das Internet ist langsam, trotzdem arbeite ich weiter.", "explanation": "'trotzdem' zeigt einen Gegensatz an; das Verb steht direkt danach." },
+        { "id": "l18t09", "type": "targeted-transformation", "instruction": "Bilde das Perfekt.", "prompt": "Ich lade die App herunter.", "solution": "Ich habe die App heruntergeladen.", "explanation": "Das Partizip II von 'herunterladen' lautet 'heruntergeladen'." },
+        { "id": "l18t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Das Internet ist langsam, trotzdem ich arbeite weiter.", "solution": "Das Internet ist langsam, trotzdem arbeite ich weiter.", "explanation": "Nach 'trotzdem' steht das konjugierte Verb an Position 2, nicht das Subjekt." }
+      ]
+    }
+  ]
+}

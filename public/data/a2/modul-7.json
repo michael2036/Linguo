@@ -1,0 +1,245 @@
+{
+  "modulId": "a2-m7",
+  "level": "A2",
+  "modulNumber": 7,
+  "title": "Rückblick und Beziehungen",
+  "lektionen": [
+    {
+      "lektionId": "a2-m7-l19",
+      "level": "A2",
+      "modulNumber": 7,
+      "lektionNumber": 19,
+      "title": "Als ich jung war",
+      "grammarFocus": [
+        "Modalverben im Präteritum: musste, konnte, wollte, durfte, mochte",
+        "Infinitiv am Satzende"
+      ],
+      "vocabulary": [
+        { "id": "l19v01", "term": "musste", "translation": "tenía que", "partOfSpeech": "phrase", "example": "Ich musste früh aufstehen." },
+        { "id": "l19v02", "term": "konnte", "translation": "podía", "partOfSpeech": "phrase", "example": "Ich konnte gut schwimmen." },
+        { "id": "l19v03", "term": "wollte", "translation": "quería", "partOfSpeech": "phrase", "example": "Ich wollte Arzt werden." },
+        { "id": "l19v04", "term": "durfte", "translation": "se me permitía", "partOfSpeech": "phrase", "example": "Ich durfte spät ins Bett gehen." },
+        { "id": "l19v05", "term": "mochte", "translation": "me gustaba", "partOfSpeech": "phrase", "example": "Ich mochte Schokolade." },
+        { "id": "l19v06", "term": "als Kind", "translation": "de niño", "partOfSpeech": "phrase", "example": "Als Kind spielte ich viel draußen." },
+        { "id": "l19v07", "term": "die Kindheit", "translation": "la infancia", "partOfSpeech": "noun", "gender": "die", "example": "Meine Kindheit war schön." },
+        { "id": "l19v08", "term": "früher", "translation": "antes", "partOfSpeech": "adverb", "example": "Früher wohnte ich in Berlin." },
+        { "id": "l19v09", "term": "das Fahrrad", "translation": "la bicicleta", "partOfSpeech": "noun", "gender": "das", "plural": "die Fahrräder", "example": "Ich fuhr mit dem Fahrrad zur Schule." },
+        { "id": "l19v10", "term": "die Schule", "translation": "la escuela", "partOfSpeech": "noun", "gender": "die", "plural": "die Schulen", "example": "Ich ging jeden Tag zur Schule." },
+        { "id": "l19v11", "term": "draußen", "translation": "afuera", "partOfSpeech": "adverb", "example": "Wir spielten draußen." },
+        { "id": "l19v12", "term": "verboten", "translation": "prohibido", "partOfSpeech": "adjective", "example": "Fernsehen war verboten." },
+        { "id": "l19v13", "term": "erlauben", "translation": "permitir", "partOfSpeech": "verb", "example": "Meine Eltern erlaubten mir viel." },
+        { "id": "l19v14", "term": "der Spielplatz", "translation": "el parque infantil", "partOfSpeech": "noun", "gender": "der", "plural": "die Spielplätze", "example": "Ich spielte auf dem Spielplatz." },
+        { "id": "l19v15", "term": "die Erinnerung", "translation": "el recuerdo", "partOfSpeech": "noun", "gender": "die", "plural": "die Erinnerungen", "example": "Das ist eine schöne Erinnerung." },
+        { "id": "l19v16", "term": "aufwachsen", "translation": "crecer", "partOfSpeech": "verb", "example": "Ich bin in München aufgewachsen." }
+      ],
+      "practice": {
+        "easy": [
+          { "id": "l19e01", "type": "multiple-choice", "instruction": "Wähle die richtige Präteritumform.", "prompt": "Ich ___ früh aufstehen.", "options": ["musste", "muss", "müsste", "musstest"], "solution": "musste", "hint": "Präteritum von 'müssen', 'ich'-Form.", "explanation": "Die 'ich'-Form von 'müssen' im Präteritum lautet 'musste'." },
+          { "id": "l19e02", "type": "multiple-choice", "instruction": "Wähle die richtige Präteritumform.", "prompt": "Ich ___ gut schwimmen.", "options": ["konnte", "kann", "könnte", "konntest"], "solution": "konnte", "hint": "Präteritum von 'können', 'ich'-Form.", "explanation": "Die 'ich'-Form von 'können' im Präteritum lautet 'konnte'." },
+          { "id": "l19e03", "type": "multiple-choice", "instruction": "Wähle die richtige Präteritumform.", "prompt": "Ich ___ Arzt werden.", "options": ["wollte", "will", "wollten", "wolltest"], "solution": "wollte", "hint": "Präteritum von 'wollen', 'ich'-Form.", "explanation": "Die 'ich'-Form von 'wollen' im Präteritum lautet 'wollte'." },
+          { "id": "l19e04", "type": "multiple-choice", "instruction": "Wähle die richtige Präteritumform.", "prompt": "Ich ___ spät ins Bett gehen.", "options": ["durfte", "darf", "dürfte", "durftest"], "solution": "durfte", "hint": "Präteritum von 'dürfen', 'ich'-Form.", "explanation": "Die 'ich'-Form von 'dürfen' im Präteritum lautet 'durfte'." },
+          { "id": "l19e05", "type": "multiple-choice", "instruction": "Wähle die richtige Präteritumform.", "prompt": "Ich ___ Schokolade.", "options": ["mochte", "mag", "möchte", "mochtest"], "solution": "mochte", "hint": "Präteritum von 'mögen', 'ich'-Form.", "explanation": "Die 'ich'-Form von 'mögen' im Präteritum lautet 'mochte'." },
+          { "id": "l19e06", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Kindheit", "options": ["der", "die", "das"], "solution": "die", "hint": "'Kindheit' ist feminin.", "explanation": "'Kindheit' ist feminin: die Kindheit." },
+          { "id": "l19e07", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Fahrrad", "options": ["der", "die", "das"], "solution": "das", "hint": "'Fahrrad' ist neutral.", "explanation": "'Fahrrad' ist neutral: das Fahrrad." },
+          { "id": "l19e08", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Fernsehen war ___.", "options": ["verboten", "erlaubt", "draußen", "früher"], "solution": "verboten", "hint": "Nicht erlaubt.", "explanation": "'verboten' bedeutet, dass etwas nicht erlaubt ist." },
+          { "id": "l19e09", "type": "fill-in-blank", "instruction": "Ergänze das Partizip II.", "prompt": "Ich bin in München ___. (aufwachsen)", "solution": "aufgewachsen", "hint": "Unregelmäßiges Verb.", "explanation": "Das Partizip II von 'aufwachsen' lautet 'aufgewachsen'." },
+          { "id": "l19e10", "type": "fill-in-blank", "instruction": "Ergänze das Adverb.", "prompt": "Wir spielten ___. (draußen)", "solution": "draußen", "hint": "Nicht drinnen.", "explanation": "'draußen' bezeichnet einen Ort im Freien." }
+        ],
+        "medium": [
+          { "id": "l19m01", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "musste", "früh", "aufstehen"], "solution": "Ich musste früh aufstehen.", "hint": "Infinitiv am Satzende.", "explanation": "Nach dem Modalverb im Präteritum steht der Infinitiv am Satzende." },
+          { "id": "l19m02", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "konnte", "gut", "schwimmen"], "solution": "Ich konnte gut schwimmen.", "hint": "Infinitiv am Satzende.", "explanation": "Nach dem Modalverb im Präteritum steht der Infinitiv am Satzende." },
+          { "id": "l19m03", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "wollte", "Arzt", "werden"], "solution": "Ich wollte Arzt werden.", "hint": "Infinitiv am Satzende.", "explanation": "Nach dem Modalverb im Präteritum steht der Infinitiv am Satzende." },
+          { "id": "l19m04", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "durfte", "spät", "ins", "Bett", "gehen"], "solution": "Ich durfte spät ins Bett gehen.", "hint": "Infinitiv am Satzende.", "explanation": "Nach dem Modalverb im Präteritum steht der Infinitiv am Satzende." },
+          { "id": "l19m05", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Als", "Kind", "spielte", "ich", "viel", "draußen"], "solution": "Als Kind spielte ich viel draußen.", "hint": "Verb an Position 2.", "explanation": "Das konjugierte Verb steht an Position 2." },
+          { "id": "l19m06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Früher", "wohnte", "ich", "in", "Berlin"], "solution": "Früher wohnte ich in Berlin.", "hint": "Verb an Position 2.", "explanation": "Das konjugierte Verb steht an Position 2." },
+          { "id": "l19m07", "type": "cloze-conjugation", "instruction": "Bilde die Präteritumform.", "prompt": "Du ___ (müssen) jeden Tag zur Schule gehen.", "solution": "musstest", "hint": "'du'-Form.", "explanation": "Die 'du'-Form von 'müssen' im Präteritum lautet 'musstest'." },
+          { "id": "l19m08", "type": "cloze-conjugation", "instruction": "Bilde die Präteritumform.", "prompt": "Er ___ (können) sehr gut Fußball spielen.", "solution": "konnte", "hint": "3. Person Singular.", "explanation": "Die 'er'-Form von 'können' im Präteritum lautet 'konnte'." },
+          { "id": "l19m09", "type": "cloze-conjugation", "instruction": "Bilde die Präteritumform.", "prompt": "Wir ___ (dürfen) draußen spielen.", "solution": "durften", "hint": "'wir'-Form.", "explanation": "Die 'wir'-Form von 'dürfen' im Präteritum lautet 'durften'." },
+          { "id": "l19m10", "type": "cloze-conjugation", "instruction": "Bilde die Präteritumform.", "prompt": "Sie ___ (wollen) Lehrerin werden.", "solution": "wollte", "hint": "3. Person Singular.", "explanation": "Die 'sie'-Form von 'wollen' im Präteritum lautet 'wollte'." }
+        ],
+        "hard": [
+          { "id": "l19h01", "type": "targeted-transformation", "instruction": "Bilde das Präteritum.", "prompt": "Ich muss früh aufstehen.", "solution": "Ich musste früh aufstehen.", "hint": "Präteritum von 'müssen'.", "explanation": "Die 'ich'-Form von 'müssen' im Präteritum lautet 'musste'." },
+          { "id": "l19h02", "type": "targeted-transformation", "instruction": "Bilde das Präteritum.", "prompt": "Ich kann gut schwimmen.", "solution": "Ich konnte gut schwimmen.", "hint": "Präteritum von 'können'.", "explanation": "Die 'ich'-Form von 'können' im Präteritum lautet 'konnte'." },
+          { "id": "l19h03", "type": "targeted-transformation", "instruction": "Bilde das Präteritum.", "prompt": "Ich will Arzt werden.", "solution": "Ich wollte Arzt werden.", "hint": "Präteritum von 'wollen'.", "explanation": "Die 'ich'-Form von 'wollen' im Präteritum lautet 'wollte'." },
+          { "id": "l19h04", "type": "targeted-transformation", "instruction": "Bilde das Präteritum.", "prompt": "Ich darf spät ins Bett gehen.", "solution": "Ich durfte spät ins Bett gehen.", "hint": "Präteritum von 'dürfen'.", "explanation": "Die 'ich'-Form von 'dürfen' im Präteritum lautet 'durfte'." },
+          { "id": "l19h05", "type": "targeted-transformation", "instruction": "Bilde das Präteritum.", "prompt": "Ich mag Schokolade.", "solution": "Ich mochte Schokolade.", "hint": "Präteritum von 'mögen'.", "explanation": "Die 'ich'-Form von 'mögen' im Präteritum lautet 'mochte'." },
+          { "id": "l19h06", "type": "targeted-transformation", "instruction": "Bilde das Präteritum.", "prompt": "Wir dürfen draußen spielen.", "solution": "Wir durften draußen spielen.", "hint": "Präteritum von 'dürfen'.", "explanation": "Die 'wir'-Form von 'dürfen' im Präteritum lautet 'durften'." },
+          { "id": "l19h07", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich muste früh aufstehen.", "solution": "Ich musste früh aufstehen.", "hint": "Präteritum von 'müssen' mit Doppel-s.", "explanation": "Das Präteritum von 'müssen' lautet korrekt 'musste', mit Doppel-s." },
+          { "id": "l19h08", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich konnte gut schwimmen könnte.", "solution": "Ich konnte gut schwimmen.", "hint": "Nur eine Modalverbform pro Satz.", "explanation": "Ein Satz braucht nur eine konjugierte Modalverbform, kein zusätzliches 'könnte'." },
+          { "id": "l19h09", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich wollte werden Arzt.", "solution": "Ich wollte Arzt werden.", "hint": "Infinitiv steht am Satzende.", "explanation": "Der Infinitiv 'werden' muss am Satzende stehen." },
+          { "id": "l19h10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich durfte gehen spät ins Bett.", "solution": "Ich durfte spät ins Bett gehen.", "hint": "Infinitiv steht am Satzende.", "explanation": "Der Infinitiv 'gehen' muss am Satzende stehen." }
+        ]
+      },
+      "test": [
+        { "id": "l19t01", "type": "multiple-choice", "instruction": "Wähle die richtige Präteritumform.", "prompt": "Ich ___ früh aufstehen.", "options": ["musste", "muss", "müsste", "musstest"], "solution": "musste", "explanation": "Die 'ich'-Form von 'müssen' im Präteritum lautet 'musste'." },
+        { "id": "l19t02", "type": "multiple-choice", "instruction": "Wähle die richtige Präteritumform.", "prompt": "Ich ___ gut schwimmen.", "options": ["konnte", "kann", "könnte", "konntest"], "solution": "konnte", "explanation": "Die 'ich'-Form von 'können' im Präteritum lautet 'konnte'." },
+        { "id": "l19t03", "type": "multiple-choice", "instruction": "Wähle die richtige Präteritumform.", "prompt": "Ich ___ Arzt werden.", "options": ["wollte", "will", "wollten", "wolltest"], "solution": "wollte", "explanation": "Die 'ich'-Form von 'wollen' im Präteritum lautet 'wollte'." },
+        { "id": "l19t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Fahrrad", "options": ["der", "die", "das"], "solution": "das", "explanation": "'Fahrrad' ist neutral: das Fahrrad." },
+        { "id": "l19t05", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Fernsehen war ___.", "options": ["verboten", "erlaubt", "draußen", "früher"], "solution": "verboten", "explanation": "'verboten' bedeutet, dass etwas nicht erlaubt ist." },
+        { "id": "l19t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Als", "Kind", "spielte", "ich", "viel", "draußen"], "solution": "Als Kind spielte ich viel draußen.", "explanation": "Das konjugierte Verb steht an Position 2." },
+        { "id": "l19t07", "type": "cloze-conjugation", "instruction": "Bilde die Präteritumform.", "prompt": "Wir ___ (dürfen) draußen spielen.", "solution": "durften", "explanation": "Die 'wir'-Form von 'dürfen' im Präteritum lautet 'durften'." },
+        { "id": "l19t08", "type": "targeted-transformation", "instruction": "Bilde das Präteritum.", "prompt": "Ich kann gut schwimmen.", "solution": "Ich konnte gut schwimmen.", "explanation": "Die 'ich'-Form von 'können' im Präteritum lautet 'konnte'." },
+        { "id": "l19t09", "type": "targeted-transformation", "instruction": "Bilde das Präteritum.", "prompt": "Ich mag Schokolade.", "solution": "Ich mochte Schokolade.", "explanation": "Die 'ich'-Form von 'mögen' im Präteritum lautet 'mochte'." },
+        { "id": "l19t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich muste früh aufstehen.", "solution": "Ich musste früh aufstehen.", "explanation": "Das Präteritum von 'müssen' lautet korrekt 'musste', mit Doppel-s." }
+      ]
+    },
+    {
+      "lektionId": "a2-m7-l20",
+      "level": "A2",
+      "modulNumber": 7,
+      "lektionNumber": 20,
+      "title": "Zu Hause und unterwegs",
+      "grammarFocus": [
+        "Wechselpräpositionen erweitert: zwischen, unter, über, vor, hinter, neben",
+        "Dativ (Position) vs. Akkusativ (Bewegung)"
+      ],
+      "vocabulary": [
+        { "id": "l20v01", "term": "zwischen", "translation": "entre", "partOfSpeech": "phrase", "example": "Die Katze liegt zwischen den Kissen." },
+        { "id": "l20v02", "term": "unter", "translation": "debajo de", "partOfSpeech": "phrase", "example": "Die Schuhe stehen unter dem Bett." },
+        { "id": "l20v03", "term": "über", "translation": "encima de / sobre", "partOfSpeech": "phrase", "example": "Die Lampe hängt über dem Tisch." },
+        { "id": "l20v04", "term": "vor", "translation": "delante de", "partOfSpeech": "phrase", "example": "Das Auto steht vor dem Haus." },
+        { "id": "l20v05", "term": "hinter", "translation": "detrás de", "partOfSpeech": "phrase", "example": "Der Garten ist hinter dem Haus." },
+        { "id": "l20v06", "term": "neben", "translation": "al lado de", "partOfSpeech": "phrase", "example": "Der Stuhl steht neben dem Tisch." },
+        { "id": "l20v07", "term": "die Katze", "translation": "el gato", "partOfSpeech": "noun", "gender": "die", "plural": "die Katzen", "example": "Die Katze liegt auf dem Sofa." },
+        { "id": "l20v08", "term": "der Hund", "translation": "el perro", "partOfSpeech": "noun", "gender": "der", "plural": "die Hunde", "example": "Der Hund schläft unter dem Tisch." },
+        { "id": "l20v09", "term": "das Bett", "translation": "la cama", "partOfSpeech": "noun", "gender": "das", "plural": "die Betten", "example": "Die Schuhe stehen unter dem Bett." },
+        { "id": "l20v10", "term": "der Garten", "translation": "el jardín", "partOfSpeech": "noun", "gender": "der", "plural": "die Gärten", "example": "Der Garten ist hinter dem Haus." },
+        { "id": "l20v11", "term": "das Auto", "translation": "el coche", "partOfSpeech": "noun", "gender": "das", "plural": "die Autos", "example": "Das Auto steht vor dem Haus." },
+        { "id": "l20v12", "term": "der Stuhl", "translation": "la silla", "partOfSpeech": "noun", "gender": "der", "plural": "die Stühle", "example": "Der Stuhl steht neben dem Tisch." },
+        { "id": "l20v13", "term": "das Kissen", "translation": "el cojín", "partOfSpeech": "noun", "gender": "das", "plural": "die Kissen", "example": "Die Katze liegt zwischen den Kissen." },
+        { "id": "l20v14", "term": "die Lampe", "translation": "la lámpara", "partOfSpeech": "noun", "gender": "die", "plural": "die Lampen", "example": "Die Lampe hängt über dem Tisch." },
+        { "id": "l20v15", "term": "parken", "translation": "aparcar", "partOfSpeech": "verb", "example": "Ich parke das Auto vor dem Haus." },
+        { "id": "l20v16", "term": "stellen", "translation": "poner (de pie)", "partOfSpeech": "verb", "example": "Ich stelle den Stuhl neben den Tisch." }
+      ],
+      "practice": {
+        "easy": [
+          { "id": "l20e01", "type": "multiple-choice", "instruction": "Wähle die richtige Präposition.", "prompt": "Die Katze liegt ___ den Kissen.", "options": ["zwischen", "unter", "über", "vor"], "solution": "zwischen", "hint": "Position in der Mitte von zwei Dingen.", "explanation": "'zwischen' beschreibt eine Position zwischen zwei Dingen." },
+          { "id": "l20e02", "type": "multiple-choice", "instruction": "Wähle die richtige Präposition.", "prompt": "Die Schuhe stehen ___ dem Bett.", "options": ["unter", "über", "vor", "hinter"], "solution": "unter", "hint": "Position darunter.", "explanation": "'unter' beschreibt eine Position darunter." },
+          { "id": "l20e03", "type": "multiple-choice", "instruction": "Wähle die richtige Präposition.", "prompt": "Die Lampe hängt ___ dem Tisch.", "options": ["über", "unter", "vor", "neben"], "solution": "über", "hint": "Position darüber.", "explanation": "'über' beschreibt eine Position darüber." },
+          { "id": "l20e04", "type": "multiple-choice", "instruction": "Wähle die richtige Präposition.", "prompt": "Das Auto steht ___ dem Haus.", "options": ["vor", "hinter", "unter", "neben"], "solution": "vor", "hint": "Position davor.", "explanation": "'vor' beschreibt eine Position davor." },
+          { "id": "l20e05", "type": "multiple-choice", "instruction": "Wähle die richtige Präposition.", "prompt": "Der Garten ist ___ dem Haus.", "options": ["hinter", "vor", "unter", "über"], "solution": "hinter", "hint": "Position dahinter.", "explanation": "'hinter' beschreibt eine Position dahinter." },
+          { "id": "l20e06", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Garten", "options": ["der", "die", "das"], "solution": "der", "hint": "'Garten' ist maskulin.", "explanation": "'Garten' ist maskulin: der Garten." },
+          { "id": "l20e07", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Katze", "options": ["der", "die", "das"], "solution": "die", "hint": "'Katze' ist feminin.", "explanation": "'Katze' ist feminin: die Katze." },
+          { "id": "l20e08", "type": "multiple-choice", "instruction": "Wähle die richtige Präposition.", "prompt": "Der Stuhl steht ___ dem Tisch.", "options": ["neben", "zwischen", "unter", "über"], "solution": "neben", "hint": "Position seitlich.", "explanation": "'neben' beschreibt eine Position seitlich daneben." },
+          { "id": "l20e09", "type": "fill-in-blank", "instruction": "Ergänze das Verb.", "prompt": "Ich ___ das Auto vor dem Haus. (parken)", "solution": "parke", "hint": "'ich'-Form.", "explanation": "Die 'ich'-Form von 'parken' lautet 'parke'." },
+          { "id": "l20e10", "type": "fill-in-blank", "instruction": "Ergänze die Präposition.", "prompt": "Ich stelle den Stuhl ___ den Tisch. (Akkusativ)", "solution": "neben", "hint": "Bewegung → Akkusativ.", "explanation": "Bei 'stellen' beschreibt man eine Bewegung; die Präposition steht mit Akkusativ." }
+        ],
+        "medium": [
+          { "id": "l20m01", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Die", "Katze", "liegt", "zwischen", "den", "Kissen"], "solution": "Die Katze liegt zwischen den Kissen.", "hint": "Dativ Plural: den.", "explanation": "Nach 'zwischen' im Dativ Plural steht 'den Kissen'." },
+          { "id": "l20m02", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Die", "Schuhe", "stehen", "unter", "dem", "Bett"], "solution": "Die Schuhe stehen unter dem Bett.", "hint": "Position → Dativ.", "explanation": "'stehen' beschreibt eine Position; die Präposition steht mit Dativ." },
+          { "id": "l20m03", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Die", "Lampe", "hängt", "über", "dem", "Tisch"], "solution": "Die Lampe hängt über dem Tisch.", "hint": "Position → Dativ.", "explanation": "'hängen' als Position; die Präposition steht mit Dativ." },
+          { "id": "l20m04", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Das", "Auto", "steht", "vor", "dem", "Haus"], "solution": "Das Auto steht vor dem Haus.", "hint": "Position → Dativ.", "explanation": "'stehen' beschreibt eine Position; die Präposition steht mit Dativ." },
+          { "id": "l20m05", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Der", "Garten", "ist", "hinter", "dem", "Haus"], "solution": "Der Garten ist hinter dem Haus.", "hint": "Position → Dativ.", "explanation": "Nach 'hinter' im Dativ steht 'dem Haus'." },
+          { "id": "l20m06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Der", "Stuhl", "steht", "neben", "dem", "Tisch"], "solution": "Der Stuhl steht neben dem Tisch.", "hint": "Position → Dativ.", "explanation": "'stehen' beschreibt eine Position; die Präposition steht mit Dativ." },
+          { "id": "l20m07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Ich ___ (stellen) den Stuhl neben den Tisch.", "solution": "stelle", "hint": "'ich'-Form.", "explanation": "Die 'ich'-Form von 'stellen' lautet 'stelle'." },
+          { "id": "l20m08", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Der Hund ___ (schlafen) unter dem Tisch.", "solution": "schläft", "hint": "3. Person Singular.", "explanation": "Die 'er'-Form von 'schlafen' lautet 'schläft'." },
+          { "id": "l20m09", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Ich ___ (parken) das Auto vor dem Haus.", "solution": "parke", "hint": "'ich'-Form.", "explanation": "Die 'ich'-Form von 'parken' lautet 'parke'." },
+          { "id": "l20m10", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Die Kinder ___ (spielen) hinter dem Haus.", "solution": "spielen", "hint": "3. Person Plural.", "explanation": "Die 'sie'-Form (Plural) von 'spielen' lautet 'spielen'." }
+        ],
+        "hard": [
+          { "id": "l20h01", "type": "targeted-transformation", "instruction": "Beschreibe die Position.", "prompt": "die Katze / zwischen den Kissen", "solution": "Die Katze liegt zwischen den Kissen.", "hint": "Position → Dativ.", "explanation": "'liegen' beschreibt eine Position; die Präposition steht mit Dativ." },
+          { "id": "l20h02", "type": "targeted-transformation", "instruction": "Beschreibe die Position.", "prompt": "die Schuhe / unter dem Bett", "solution": "Die Schuhe stehen unter dem Bett.", "hint": "Position → Dativ.", "explanation": "'stehen' beschreibt eine Position; die Präposition steht mit Dativ." },
+          { "id": "l20h03", "type": "targeted-transformation", "instruction": "Beschreibe die Position.", "prompt": "die Lampe / über dem Tisch", "solution": "Die Lampe hängt über dem Tisch.", "hint": "Position → Dativ.", "explanation": "'hängen' als Position; die Präposition steht mit Dativ." },
+          { "id": "l20h04", "type": "targeted-transformation", "instruction": "Beschreibe die Bewegung im Akkusativ.", "prompt": "ich / den Stuhl stellen / neben den Tisch", "solution": "Ich stelle den Stuhl neben den Tisch.", "hint": "Bewegung → Akkusativ.", "explanation": "'stellen' beschreibt eine Bewegung; die Präposition steht mit Akkusativ." },
+          { "id": "l20h05", "type": "targeted-transformation", "instruction": "Beschreibe die Position.", "prompt": "das Auto / vor dem Haus", "solution": "Das Auto steht vor dem Haus.", "hint": "Position → Dativ.", "explanation": "'stehen' beschreibt eine Position; die Präposition steht mit Dativ." },
+          { "id": "l20h06", "type": "targeted-transformation", "instruction": "Beschreibe die Position.", "prompt": "der Garten / hinter dem Haus", "solution": "Der Garten ist hinter dem Haus.", "hint": "Position → Dativ.", "explanation": "Nach 'hinter' im Dativ steht 'dem Haus'." },
+          { "id": "l20h07", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Die Katze liegt zwischen der Kissen.", "solution": "Die Katze liegt zwischen den Kissen.", "hint": "Dativ Plural: den.", "explanation": "Im Dativ Plural lautet der Artikel 'den', nicht 'der'." },
+          { "id": "l20h08", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Die Schuhe stehen unter das Bett.", "solution": "Die Schuhe stehen unter dem Bett.", "hint": "Position → Dativ.", "explanation": "Bei einer Position steht die Wechselpräposition mit Dativ, nicht Akkusativ." },
+          { "id": "l20h09", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich stelle den Stuhl neben dem Tisch.", "solution": "Ich stelle den Stuhl neben den Tisch.", "hint": "Bewegung → Akkusativ.", "explanation": "Bei einer Bewegung steht die Wechselpräposition mit Akkusativ, nicht Dativ." },
+          { "id": "l20h10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Das Auto steht vor das Haus.", "solution": "Das Auto steht vor dem Haus.", "hint": "Position → Dativ.", "explanation": "Bei einer Position steht die Wechselpräposition mit Dativ, nicht Akkusativ." }
+        ]
+      },
+      "test": [
+        { "id": "l20t01", "type": "multiple-choice", "instruction": "Wähle die richtige Präposition.", "prompt": "Die Katze liegt ___ den Kissen.", "options": ["zwischen", "unter", "über", "vor"], "solution": "zwischen", "explanation": "'zwischen' beschreibt eine Position zwischen zwei Dingen." },
+        { "id": "l20t02", "type": "multiple-choice", "instruction": "Wähle die richtige Präposition.", "prompt": "Die Schuhe stehen ___ dem Bett.", "options": ["unter", "über", "vor", "hinter"], "solution": "unter", "explanation": "'unter' beschreibt eine Position darunter." },
+        { "id": "l20t03", "type": "multiple-choice", "instruction": "Wähle die richtige Präposition.", "prompt": "Das Auto steht ___ dem Haus.", "options": ["vor", "hinter", "unter", "neben"], "solution": "vor", "explanation": "'vor' beschreibt eine Position davor." },
+        { "id": "l20t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Garten", "options": ["der", "die", "das"], "solution": "der", "explanation": "'Garten' ist maskulin: der Garten." },
+        { "id": "l20t05", "type": "multiple-choice", "instruction": "Wähle die richtige Präposition.", "prompt": "Der Stuhl steht ___ dem Tisch.", "options": ["neben", "zwischen", "unter", "über"], "solution": "neben", "explanation": "'neben' beschreibt eine Position seitlich daneben." },
+        { "id": "l20t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Der", "Garten", "ist", "hinter", "dem", "Haus"], "solution": "Der Garten ist hinter dem Haus.", "explanation": "Nach 'hinter' im Dativ steht 'dem Haus'." },
+        { "id": "l20t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Ich ___ (parken) das Auto vor dem Haus.", "solution": "parke", "explanation": "Die 'ich'-Form von 'parken' lautet 'parke'." },
+        { "id": "l20t08", "type": "targeted-transformation", "instruction": "Beschreibe die Position.", "prompt": "die Lampe / über dem Tisch", "solution": "Die Lampe hängt über dem Tisch.", "explanation": "'hängen' als Position; die Präposition steht mit Dativ." },
+        { "id": "l20t09", "type": "targeted-transformation", "instruction": "Beschreibe die Bewegung im Akkusativ.", "prompt": "ich / den Stuhl stellen / neben den Tisch", "solution": "Ich stelle den Stuhl neben den Tisch.", "explanation": "'stellen' beschreibt eine Bewegung; die Präposition steht mit Akkusativ." },
+        { "id": "l20t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Die Schuhe stehen unter das Bett.", "solution": "Die Schuhe stehen unter dem Bett.", "explanation": "Bei einer Position steht die Wechselpräposition mit Dativ, nicht Akkusativ." }
+      ]
+    },
+    {
+      "lektionId": "a2-m7-l21",
+      "level": "A2",
+      "modulNumber": 7,
+      "lektionNumber": 21,
+      "title": "Was ich mir wünsche",
+      "grammarFocus": [
+        "lassen-Konstruktion: lassen + Infinitiv",
+        "Relativsätze mit der/die/das"
+      ],
+      "vocabulary": [
+        { "id": "l21v01", "term": "lassen", "translation": "dejar / hacer que", "partOfSpeech": "verb", "example": "Ich lasse mein Auto reparieren." },
+        { "id": "l21v02", "term": "reparieren", "translation": "reparar", "partOfSpeech": "verb", "example": "Ich lasse mein Auto reparieren." },
+        { "id": "l21v03", "term": "schneiden", "translation": "cortar", "partOfSpeech": "verb", "example": "Ich lasse mir die Haare schneiden." },
+        { "id": "l21v04", "term": "die Haare", "translation": "el cabello", "partOfSpeech": "noun", "gender": "die", "example": "Ich lasse mir die Haare schneiden." },
+        { "id": "l21v05", "term": "der Freund", "translation": "el amigo", "partOfSpeech": "noun", "gender": "der", "plural": "die Freunde", "example": "Das ist der Freund, der mir hilft." },
+        { "id": "l21v06", "term": "die Freundin", "translation": "la amiga", "partOfSpeech": "noun", "gender": "die", "plural": "die Freundinnen", "example": "Das ist die Freundin, die ich kenne." },
+        { "id": "l21v07", "term": "das Auto", "translation": "el coche", "partOfSpeech": "noun", "gender": "das", "plural": "die Autos", "example": "Das ist das Auto, das ich kaufen möchte." },
+        { "id": "l21v08", "term": "die Werkstatt", "translation": "el taller", "partOfSpeech": "noun", "gender": "die", "plural": "die Werkstätten", "example": "Ich bringe das Auto in die Werkstatt." },
+        { "id": "l21v09", "term": "der Friseur", "translation": "el peluquero", "partOfSpeech": "noun", "gender": "der", "plural": "die Friseure", "example": "Ich gehe zum Friseur." },
+        { "id": "l21v10", "term": "bauen", "translation": "construir", "partOfSpeech": "verb", "example": "Ich lasse ein Haus bauen." },
+        { "id": "l21v11", "term": "reinigen", "translation": "limpiar", "partOfSpeech": "verb", "example": "Ich lasse die Jacke reinigen." },
+        { "id": "l21v12", "term": "die Reinigung", "translation": "la tintorería / limpieza", "partOfSpeech": "noun", "gender": "die", "plural": "die Reinigungen", "example": "Ich bringe die Jacke zur Reinigung." },
+        { "id": "l21v13", "term": "der Nachbar", "translation": "el vecino", "partOfSpeech": "noun", "gender": "der", "plural": "die Nachbarn", "example": "Das ist der Nachbar, der mir hilft." },
+        { "id": "l21v14", "term": "das Buch", "translation": "el libro", "partOfSpeech": "noun", "gender": "das", "plural": "die Bücher", "example": "Das ist das Buch, das ich lese." },
+        { "id": "l21v15", "term": "die Kollegin", "translation": "la colega", "partOfSpeech": "noun", "gender": "die", "plural": "die Kolleginnen", "example": "Das ist die Kollegin, die neben mir sitzt." },
+        { "id": "l21v16", "term": "kennenlernen", "translation": "conocer (a alguien)", "partOfSpeech": "verb", "example": "Das ist der Mann, den ich gestern kennengelernt habe." }
+      ],
+      "practice": {
+        "easy": [
+          { "id": "l21e01", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Ich lasse mein Auto ___.", "options": ["reparieren", "repariert", "reparierst", "repariere"], "solution": "reparieren", "hint": "Infinitiv nach 'lassen'.", "explanation": "Nach 'lassen' steht der Infinitiv." },
+          { "id": "l21e02", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Ich lasse mir die Haare ___.", "options": ["schneiden", "schneidet", "schneidest", "schneide"], "solution": "schneiden", "hint": "Infinitiv nach 'lassen'.", "explanation": "Nach 'lassen' steht der Infinitiv." },
+          { "id": "l21e03", "type": "multiple-choice", "instruction": "Wähle das richtige Relativpronomen.", "prompt": "Das ist der Freund, ___ mir hilft.", "options": ["der", "die", "das", "den"], "solution": "der", "hint": "Nominativ maskulin.", "explanation": "Für das Subjekt des Relativsatzes (maskulin, Nominativ) verwendet man 'der'." },
+          { "id": "l21e04", "type": "multiple-choice", "instruction": "Wähle das richtige Relativpronomen.", "prompt": "Das ist die Freundin, ___ ich kenne.", "options": ["die", "der", "das", "den"], "solution": "die", "hint": "Akkusativ feminin.", "explanation": "Für das Akkusativobjekt des Relativsatzes (feminin) verwendet man 'die'." },
+          { "id": "l21e05", "type": "multiple-choice", "instruction": "Wähle das richtige Relativpronomen.", "prompt": "Das ist das Auto, ___ ich kaufen möchte.", "options": ["das", "der", "die", "den"], "solution": "das", "hint": "Akkusativ neutral.", "explanation": "Für das Akkusativobjekt des Relativsatzes (neutral) verwendet man 'das'." },
+          { "id": "l21e06", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Werkstatt", "options": ["der", "die", "das"], "solution": "die", "hint": "'Werkstatt' ist feminin.", "explanation": "'Werkstatt' ist feminin: die Werkstatt." },
+          { "id": "l21e07", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Friseur", "options": ["der", "die", "das"], "solution": "der", "hint": "'Friseur' ist maskulin.", "explanation": "'Friseur' ist maskulin: der Friseur." },
+          { "id": "l21e08", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Ich lasse ein Haus ___.", "options": ["bauen", "baut", "baust", "baue"], "solution": "bauen", "hint": "Infinitiv nach 'lassen'.", "explanation": "Nach 'lassen' steht der Infinitiv." },
+          { "id": "l21e09", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Ich bringe die Jacke zur ___. (Reinigung)", "solution": "Reinigung", "hint": "Ort für Kleiderreinigung.", "explanation": "Die 'Reinigung' ist der Ort, an dem Kleidung gereinigt wird." },
+          { "id": "l21e10", "type": "fill-in-blank", "instruction": "Ergänze das Partizip II.", "prompt": "Das ist der Mann, den ich gestern ___ habe. (kennenlernen)", "solution": "kennengelernt", "hint": "Unregelmäßiges Verb.", "explanation": "Das Partizip II von 'kennenlernen' lautet 'kennengelernt'." }
+        ],
+        "medium": [
+          { "id": "l21m01", "type": "sentence-scramble", "instruction": "Bilde einen Satz mit 'lassen'.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "lasse", "mein", "Auto", "reparieren"], "solution": "Ich lasse mein Auto reparieren.", "hint": "Infinitiv am Satzende.", "explanation": "Nach 'lassen' steht der Infinitiv am Satzende." },
+          { "id": "l21m02", "type": "sentence-scramble", "instruction": "Bilde einen Satz mit 'lassen'.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "lasse", "mir", "die", "Haare", "schneiden"], "solution": "Ich lasse mir die Haare schneiden.", "hint": "Infinitiv am Satzende.", "explanation": "Nach 'lassen' steht der Infinitiv am Satzende." },
+          { "id": "l21m03", "type": "sentence-scramble", "instruction": "Bilde einen Relativsatz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Das", "ist", "der", "Freund,", "der", "mir", "hilft"], "solution": "Das ist der Freund, der mir hilft.", "hint": "Relativpronomen leitet den Nebensatz ein.", "explanation": "Das Relativpronomen 'der' leitet den Relativsatz ein; das Verb steht am Ende." },
+          { "id": "l21m04", "type": "sentence-scramble", "instruction": "Bilde einen Relativsatz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Das", "ist", "die", "Freundin,", "die", "ich", "kenne"], "solution": "Das ist die Freundin, die ich kenne.", "hint": "Relativpronomen leitet den Nebensatz ein.", "explanation": "Das Relativpronomen 'die' leitet den Relativsatz ein; das Verb steht am Ende." },
+          { "id": "l21m05", "type": "sentence-scramble", "instruction": "Bilde einen Relativsatz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Das", "ist", "das", "Auto,", "das", "ich", "kaufen", "möchte"], "solution": "Das ist das Auto, das ich kaufen möchte.", "hint": "Relativpronomen leitet den Nebensatz ein.", "explanation": "Das Relativpronomen 'das' leitet den Relativsatz ein; das Verb steht am Ende." },
+          { "id": "l21m06", "type": "sentence-scramble", "instruction": "Bilde einen Satz mit 'lassen'.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "lasse", "die", "Jacke", "reinigen"], "solution": "Ich lasse die Jacke reinigen.", "hint": "Infinitiv am Satzende.", "explanation": "Nach 'lassen' steht der Infinitiv am Satzende." },
+          { "id": "l21m07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb am Satzende.", "prompt": "Das ist die Kollegin, die neben mir ___ (sitzen).", "solution": "sitzt", "hint": "3. Person Singular am Satzende.", "explanation": "Im Relativsatz steht das konjugierte Verb 'sitzt' am Ende." },
+          { "id": "l21m08", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb am Satzende.", "prompt": "Das ist der Nachbar, der mir oft ___ (helfen).", "solution": "hilft", "hint": "3. Person Singular am Satzende.", "explanation": "Im Relativsatz steht das konjugierte Verb 'hilft' am Ende." },
+          { "id": "l21m09", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb am Satzende.", "prompt": "Das ist das Buch, das ich gerade ___ (lesen).", "solution": "lese", "hint": "'ich'-Form am Satzende.", "explanation": "Im Relativsatz steht das konjugierte Verb 'lese' am Ende." },
+          { "id": "l21m10", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Ich ___ (lassen) mein Auto reparieren.", "solution": "lasse", "hint": "'ich'-Form.", "explanation": "Die 'ich'-Form von 'lassen' lautet 'lasse'." }
+        ],
+        "hard": [
+          { "id": "l21h01", "type": "targeted-transformation", "instruction": "Verbinde die Sätze mit einem Relativpronomen.", "prompt": "Das ist der Freund. Der Freund hilft mir.", "solution": "Das ist der Freund, der mir hilft.", "hint": "Nominativ-Relativpronomen.", "explanation": "'der' als Relativpronomen ersetzt das Subjekt des zweiten Satzes." },
+          { "id": "l21h02", "type": "targeted-transformation", "instruction": "Verbinde die Sätze mit einem Relativpronomen.", "prompt": "Das ist die Freundin. Ich kenne die Freundin.", "solution": "Das ist die Freundin, die ich kenne.", "hint": "Akkusativ-Relativpronomen.", "explanation": "'die' als Relativpronomen ersetzt das Akkusativobjekt des zweiten Satzes." },
+          { "id": "l21h03", "type": "targeted-transformation", "instruction": "Verbinde die Sätze mit einem Relativpronomen.", "prompt": "Das ist das Auto. Ich möchte das Auto kaufen.", "solution": "Das ist das Auto, das ich kaufen möchte.", "hint": "Akkusativ-Relativpronomen.", "explanation": "'das' als Relativpronomen ersetzt das Akkusativobjekt des zweiten Satzes." },
+          { "id": "l21h04", "type": "targeted-transformation", "instruction": "Verbinde die Sätze mit einem Relativpronomen.", "prompt": "Das ist das Buch. Ich lese das Buch.", "solution": "Das ist das Buch, das ich lese.", "hint": "Akkusativ-Relativpronomen.", "explanation": "'das' als Relativpronomen ersetzt das Akkusativobjekt des zweiten Satzes." },
+          { "id": "l21h05", "type": "targeted-transformation", "instruction": "Formuliere mit 'lassen'.", "prompt": "Ich repariere mein Auto nicht selbst.", "solution": "Ich lasse mein Auto reparieren.", "hint": "'lassen' + Infinitiv.", "explanation": "'lassen' + Infinitiv drückt aus, dass jemand anderes die Handlung ausführt." },
+          { "id": "l21h06", "type": "targeted-transformation", "instruction": "Formuliere mit 'lassen'.", "prompt": "Ich schneide mir die Haare nicht selbst.", "solution": "Ich lasse mir die Haare schneiden.", "hint": "'lassen' + Infinitiv.", "explanation": "'lassen' + Infinitiv drückt aus, dass jemand anderes die Handlung ausführt." },
+          { "id": "l21h07", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Das ist der Freund, den mir hilft.", "solution": "Das ist der Freund, der mir hilft.", "hint": "Nominativ-Relativpronomen für das Subjekt.", "explanation": "Für das Subjekt des Relativsatzes braucht man das Nominativpronomen 'der', nicht 'den'." },
+          { "id": "l21h08", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Das ist die Freundin, der ich kenne.", "solution": "Das ist die Freundin, die ich kenne.", "hint": "Akkusativ-Relativpronomen für feminin.", "explanation": "Für das Akkusativobjekt (feminin) braucht man 'die', nicht 'der'." },
+          { "id": "l21h09", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich lasse mein Auto repariert.", "solution": "Ich lasse mein Auto reparieren.", "hint": "Nach 'lassen' steht der Infinitiv.", "explanation": "Nach 'lassen' steht der Infinitiv, nicht das Partizip II." },
+          { "id": "l21h10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Das ist das Auto, der ich kaufen möchte.", "solution": "Das ist das Auto, das ich kaufen möchte.", "hint": "Relativpronomen für neutral: das.", "explanation": "Für das Akkusativobjekt (neutral) braucht man 'das', nicht 'der'." }
+        ]
+      },
+      "test": [
+        { "id": "l21t01", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Ich lasse mein Auto ___.", "options": ["reparieren", "repariert", "reparierst", "repariere"], "solution": "reparieren", "explanation": "Nach 'lassen' steht der Infinitiv." },
+        { "id": "l21t02", "type": "multiple-choice", "instruction": "Wähle das richtige Relativpronomen.", "prompt": "Das ist der Freund, ___ mir hilft.", "options": ["der", "die", "das", "den"], "solution": "der", "explanation": "Für das Subjekt des Relativsatzes (maskulin, Nominativ) verwendet man 'der'." },
+        { "id": "l21t03", "type": "multiple-choice", "instruction": "Wähle das richtige Relativpronomen.", "prompt": "Das ist die Freundin, ___ ich kenne.", "options": ["die", "der", "das", "den"], "solution": "die", "explanation": "Für das Akkusativobjekt des Relativsatzes (feminin) verwendet man 'die'." },
+        { "id": "l21t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Werkstatt", "options": ["der", "die", "das"], "solution": "die", "explanation": "'Werkstatt' ist feminin: die Werkstatt." },
+        { "id": "l21t05", "type": "multiple-choice", "instruction": "Wähle das richtige Relativpronomen.", "prompt": "Das ist das Auto, ___ ich kaufen möchte.", "options": ["das", "der", "die", "den"], "solution": "das", "explanation": "Für das Akkusativobjekt des Relativsatzes (neutral) verwendet man 'das'." },
+        { "id": "l21t06", "type": "sentence-scramble", "instruction": "Bilde einen Relativsatz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Das", "ist", "der", "Freund,", "der", "mir", "hilft"], "solution": "Das ist der Freund, der mir hilft.", "explanation": "Das Relativpronomen 'der' leitet den Relativsatz ein; das Verb steht am Ende." },
+        { "id": "l21t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb am Satzende.", "prompt": "Das ist der Nachbar, der mir oft ___ (helfen).", "solution": "hilft", "explanation": "Im Relativsatz steht das konjugierte Verb 'hilft' am Ende." },
+        { "id": "l21t08", "type": "targeted-transformation", "instruction": "Verbinde die Sätze mit einem Relativpronomen.", "prompt": "Das ist die Freundin. Ich kenne die Freundin.", "solution": "Das ist die Freundin, die ich kenne.", "explanation": "'die' als Relativpronomen ersetzt das Akkusativobjekt des zweiten Satzes." },
+        { "id": "l21t09", "type": "targeted-transformation", "instruction": "Formuliere mit 'lassen'.", "prompt": "Ich repariere mein Auto nicht selbst.", "solution": "Ich lasse mein Auto reparieren.", "explanation": "'lassen' + Infinitiv drückt aus, dass jemand anderes die Handlung ausführt." },
+        { "id": "l21t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Das ist der Freund, den mir hilft.", "solution": "Das ist der Freund, der mir hilft.", "explanation": "Für das Subjekt des Relativsatzes braucht man das Nominativpronomen 'der', nicht 'den'." }
+      ]
+    }
+  ]
+}

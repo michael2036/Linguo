@@ -1,0 +1,245 @@
+{
+  "modulId": "a2-m4",
+  "level": "A2",
+  "modulNumber": 4,
+  "title": "Unterwegs und Wünsche",
+  "lektionen": [
+    {
+      "lektionId": "a2-m4-l10",
+      "level": "A2",
+      "modulNumber": 4,
+      "lektionNumber": 10,
+      "title": "Unterwegs",
+      "grammarFocus": [
+        "Trennbare Verben: einsteigen, aussteigen, umsteigen, abfahren, ankommen",
+        "Perfekt mit 'sein' bei Bewegungsverben"
+      ],
+      "vocabulary": [
+        { "id": "l10v01", "term": "der Bahnhof", "translation": "la estación de tren", "partOfSpeech": "noun", "gender": "der", "plural": "die Bahnhöfe", "example": "Der Zug fährt vom Bahnhof ab." },
+        { "id": "l10v02", "term": "der Zug", "translation": "el tren", "partOfSpeech": "noun", "gender": "der", "plural": "die Züge", "example": "Der Zug kommt um 9 Uhr an." },
+        { "id": "l10v03", "term": "die Haltestelle", "translation": "la parada", "partOfSpeech": "noun", "gender": "die", "plural": "die Haltestellen", "example": "Ich warte an der Haltestelle." },
+        { "id": "l10v04", "term": "einsteigen", "translation": "subir (a un vehículo)", "partOfSpeech": "verb", "example": "Ich steige in den Bus ein." },
+        { "id": "l10v05", "term": "aussteigen", "translation": "bajar (de un vehículo)", "partOfSpeech": "verb", "example": "Ich steige am Bahnhof aus." },
+        { "id": "l10v06", "term": "umsteigen", "translation": "hacer transbordo", "partOfSpeech": "verb", "example": "Ich muss in Berlin umsteigen." },
+        { "id": "l10v07", "term": "abfahren", "translation": "salir / partir", "partOfSpeech": "verb", "example": "Der Zug fährt um 8 Uhr ab." },
+        { "id": "l10v08", "term": "ankommen", "translation": "llegar", "partOfSpeech": "verb", "example": "Der Zug kommt pünktlich an." },
+        { "id": "l10v09", "term": "die Verspätung", "translation": "el retraso", "partOfSpeech": "noun", "gender": "die", "plural": "die Verspätungen", "example": "Der Zug hat Verspätung." },
+        { "id": "l10v10", "term": "das Gleis", "translation": "la vía", "partOfSpeech": "noun", "gender": "das", "plural": "die Gleise", "example": "Der Zug fährt von Gleis 3 ab." },
+        { "id": "l10v11", "term": "der Fahrplan", "translation": "el horario", "partOfSpeech": "noun", "gender": "der", "plural": "die Fahrpläne", "example": "Ich schaue in den Fahrplan." },
+        { "id": "l10v12", "term": "die Fahrkarte", "translation": "el billete", "partOfSpeech": "noun", "gender": "die", "plural": "die Fahrkarten", "example": "Ich kaufe eine Fahrkarte." },
+        { "id": "l10v13", "term": "der Stau", "translation": "el atasco", "partOfSpeech": "noun", "gender": "der", "plural": "die Staus", "example": "Wir stehen im Stau." },
+        { "id": "l10v14", "term": "pünktlich", "translation": "puntual", "partOfSpeech": "adjective", "example": "Der Bus kommt pünktlich." },
+        { "id": "l10v15", "term": "verpassen", "translation": "perder (el tren/bus)", "partOfSpeech": "verb", "example": "Ich habe den Zug verpasst." },
+        { "id": "l10v16", "term": "die U-Bahn", "translation": "el metro", "partOfSpeech": "noun", "gender": "die", "plural": "die U-Bahnen", "example": "Ich fahre mit der U-Bahn." }
+      ],
+      "practice": {
+        "easy": [
+          { "id": "l10e01", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Ich ___ in den Bus ein.", "options": ["steige", "steigst", "steigt", "steigen"], "solution": "steige", "hint": "'ich'-Form.", "explanation": "Die 'ich'-Form von 'einsteigen' lautet 'steige ... ein'." },
+          { "id": "l10e02", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Ich ___ am Bahnhof aus.", "options": ["steige", "steigst", "steigt", "steigen"], "solution": "steige", "hint": "'ich'-Form.", "explanation": "Die 'ich'-Form von 'aussteigen' lautet 'steige ... aus'." },
+          { "id": "l10e03", "type": "multiple-choice", "instruction": "Wähle das passende Verb.", "prompt": "Ich muss in Berlin ___.", "options": ["umsteigen", "einsteigen", "aussteigen", "abfahren"], "solution": "umsteigen", "hint": "Von einem Zug in einen anderen wechseln.", "explanation": "'umsteigen' bedeutet, von einem Verkehrsmittel in ein anderes zu wechseln." },
+          { "id": "l10e04", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Der Zug ___ um 8 Uhr ab.", "options": ["fährt", "fahre", "fahrt", "fahren"], "solution": "fährt", "hint": "3. Person Singular.", "explanation": "Die 'er'-Form von 'abfahren' lautet 'fährt ... ab'." },
+          { "id": "l10e05", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Der Zug ___ pünktlich an.", "options": ["kommt", "komme", "kommst", "kommen"], "solution": "kommt", "hint": "3. Person Singular.", "explanation": "Die 'er'-Form von 'ankommen' lautet 'kommt ... an'." },
+          { "id": "l10e06", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Bahnhof", "options": ["der", "die", "das"], "solution": "der", "hint": "'Bahnhof' ist maskulin.", "explanation": "'Bahnhof' ist maskulin: der Bahnhof." },
+          { "id": "l10e07", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Verspätung", "options": ["der", "die", "das"], "solution": "die", "hint": "'Verspätung' ist feminin.", "explanation": "'Verspätung' ist feminin: die Verspätung." },
+          { "id": "l10e08", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Der Zug fährt von ___ 3 ab.", "options": ["Gleis", "Fahrplan", "Fahrkarte", "Stau"], "solution": "Gleis", "hint": "Ort, an dem der Zug steht.", "explanation": "Züge fahren von einem bestimmten 'Gleis' ab." },
+          { "id": "l10e09", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Ich kaufe eine ___. (Fahrkarte)", "solution": "Fahrkarte", "hint": "Ticket für die Fahrt.", "explanation": "Für die Fahrt braucht man eine 'Fahrkarte'." },
+          { "id": "l10e10", "type": "fill-in-blank", "instruction": "Ergänze das Partizip II.", "prompt": "Ich habe den Zug ___. (verpassen)", "solution": "verpasst", "hint": "Regelmäßiges Verb.", "explanation": "Das Partizip II von 'verpassen' lautet 'verpasst'." }
+        ],
+        "medium": [
+          { "id": "l10m01", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "steige", "in", "den", "Bus", "ein"], "solution": "Ich steige in den Bus ein.", "hint": "Trennbares Verb: Präfix am Satzende.", "explanation": "Bei trennbaren Verben steht das Präfix 'ein' am Satzende." },
+          { "id": "l10m02", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "steige", "am", "Bahnhof", "aus"], "solution": "Ich steige am Bahnhof aus.", "hint": "Trennbares Verb: Präfix am Satzende.", "explanation": "Bei trennbaren Verben steht das Präfix 'aus' am Satzende." },
+          { "id": "l10m03", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "muss", "in", "Berlin", "umsteigen"], "solution": "Ich muss in Berlin umsteigen.", "hint": "Infinitiv nach Modalverb am Satzende.", "explanation": "Nach dem Modalverb 'muss' steht der Infinitiv am Satzende." },
+          { "id": "l10m04", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Der", "Zug", "fährt", "um", "8", "Uhr", "ab"], "solution": "Der Zug fährt um 8 Uhr ab.", "hint": "Trennbares Verb: Präfix am Satzende.", "explanation": "Bei trennbaren Verben steht das Präfix 'ab' am Satzende." },
+          { "id": "l10m05", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Der", "Zug", "kommt", "pünktlich", "an"], "solution": "Der Zug kommt pünktlich an.", "hint": "Trennbares Verb: Präfix am Satzende.", "explanation": "Bei trennbaren Verben steht das Präfix 'an' am Satzende." },
+          { "id": "l10m06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Wir", "stehen", "im", "Stau"], "solution": "Wir stehen im Stau.", "hint": "Verb an Position 2.", "explanation": "Das konjugierte Verb steht an Position 2." },
+          { "id": "l10m07", "type": "cloze-conjugation", "instruction": "Bilde das Partizip II.", "prompt": "Ich bin gestern in den Bus ___. (einsteigen, Perfekt)", "solution": "eingestiegen", "hint": "Unregelmäßiges Verb.", "explanation": "Das Partizip II von 'einsteigen' lautet 'eingestiegen'." },
+          { "id": "l10m08", "type": "cloze-conjugation", "instruction": "Bilde das Partizip II.", "prompt": "Ich bin am Bahnhof ___. (aussteigen, Perfekt)", "solution": "ausgestiegen", "hint": "Unregelmäßiges Verb.", "explanation": "Das Partizip II von 'aussteigen' lautet 'ausgestiegen'." },
+          { "id": "l10m09", "type": "cloze-conjugation", "instruction": "Bilde das Partizip II.", "prompt": "Der Zug ist pünktlich ___. (ankommen, Perfekt)", "solution": "angekommen", "hint": "Unregelmäßiges Verb.", "explanation": "Das Partizip II von 'ankommen' lautet 'angekommen'." },
+          { "id": "l10m10", "type": "cloze-conjugation", "instruction": "Bilde das Partizip II.", "prompt": "Der Zug ist um 8 Uhr ___. (abfahren, Perfekt)", "solution": "abgefahren", "hint": "Unregelmäßiges Verb.", "explanation": "Das Partizip II von 'abfahren' lautet 'abgefahren'." }
+        ],
+        "hard": [
+          { "id": "l10h01", "type": "targeted-transformation", "instruction": "Bilde das Perfekt.", "prompt": "Ich steige in den Bus ein.", "solution": "Ich bin in den Bus eingestiegen.", "hint": "Bewegungsverb → Perfekt mit 'sein'.", "explanation": "Bewegungsverben wie 'einsteigen' bilden das Perfekt mit 'sein'." },
+          { "id": "l10h02", "type": "targeted-transformation", "instruction": "Bilde das Perfekt.", "prompt": "Ich steige am Bahnhof aus.", "solution": "Ich bin am Bahnhof ausgestiegen.", "hint": "Bewegungsverb → Perfekt mit 'sein'.", "explanation": "Bewegungsverben wie 'aussteigen' bilden das Perfekt mit 'sein'." },
+          { "id": "l10h03", "type": "targeted-transformation", "instruction": "Bilde das Perfekt.", "prompt": "Der Zug kommt pünktlich an.", "solution": "Der Zug ist pünktlich angekommen.", "hint": "Bewegungsverb → Perfekt mit 'sein'.", "explanation": "Bewegungsverben wie 'ankommen' bilden das Perfekt mit 'sein'." },
+          { "id": "l10h04", "type": "targeted-transformation", "instruction": "Bilde das Perfekt.", "prompt": "Der Zug fährt um 8 Uhr ab.", "solution": "Der Zug ist um 8 Uhr abgefahren.", "hint": "Bewegungsverb → Perfekt mit 'sein'.", "explanation": "Bewegungsverben wie 'abfahren' bilden das Perfekt mit 'sein'." },
+          { "id": "l10h05", "type": "targeted-transformation", "instruction": "Bilde das Perfekt.", "prompt": "Ich steige in Berlin um.", "solution": "Ich bin in Berlin umgestiegen.", "hint": "Bewegungsverb → Perfekt mit 'sein'.", "explanation": "Bewegungsverben wie 'umsteigen' bilden das Perfekt mit 'sein'." },
+          { "id": "l10h06", "type": "targeted-transformation", "instruction": "Bilde das Perfekt.", "prompt": "Ich verpasse den Zug.", "solution": "Ich habe den Zug verpasst.", "hint": "Kein Bewegungsverb → Perfekt mit 'haben'.", "explanation": "'verpassen' ist kein Bewegungsverb und bildet das Perfekt mit 'haben'." },
+          { "id": "l10h07", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich habe in den Bus eingestiegen.", "solution": "Ich bin in den Bus eingestiegen.", "hint": "Bewegungsverben bilden das Perfekt mit 'sein'.", "explanation": "'einsteigen' ist ein Bewegungsverb und bildet das Perfekt mit 'sein', nicht 'haben'." },
+          { "id": "l10h08", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Der Zug hat pünktlich angekommen.", "solution": "Der Zug ist pünktlich angekommen.", "hint": "Bewegungsverben bilden das Perfekt mit 'sein'.", "explanation": "'ankommen' ist ein Bewegungsverb und bildet das Perfekt mit 'sein', nicht 'haben'." },
+          { "id": "l10h09", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich bin den Zug verpasst.", "solution": "Ich habe den Zug verpasst.", "hint": "'verpassen' ist kein Bewegungsverb.", "explanation": "'verpassen' bildet das Perfekt mit 'haben', nicht 'sein'." },
+          { "id": "l10h10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Der Zug ist von Gleis 3 abgefahrt.", "solution": "Der Zug ist von Gleis 3 abgefahren.", "hint": "Unregelmäßiges Partizip II.", "explanation": "Das Partizip II von 'abfahren' lautet 'abgefahren', nicht 'abgefahrt'." }
+        ]
+      },
+      "test": [
+        { "id": "l10t01", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Ich ___ in den Bus ein.", "options": ["steige", "steigst", "steigt", "steigen"], "solution": "steige", "explanation": "Die 'ich'-Form von 'einsteigen' lautet 'steige ... ein'." },
+        { "id": "l10t02", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Der Zug ___ um 8 Uhr ab.", "options": ["fährt", "fahre", "fahrt", "fahren"], "solution": "fährt", "explanation": "Die 'er'-Form von 'abfahren' lautet 'fährt ... ab'." },
+        { "id": "l10t03", "type": "multiple-choice", "instruction": "Wähle das passende Verb.", "prompt": "Ich muss in Berlin ___.", "options": ["umsteigen", "einsteigen", "aussteigen", "abfahren"], "solution": "umsteigen", "explanation": "'umsteigen' bedeutet, von einem Verkehrsmittel in ein anderes zu wechseln." },
+        { "id": "l10t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Bahnhof", "options": ["der", "die", "das"], "solution": "der", "explanation": "'Bahnhof' ist maskulin: der Bahnhof." },
+        { "id": "l10t05", "type": "fill-in-blank", "instruction": "Ergänze das Partizip II.", "prompt": "Ich habe den Zug ___. (verpassen)", "solution": "verpasst", "explanation": "Das Partizip II von 'verpassen' lautet 'verpasst'." },
+        { "id": "l10t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Der", "Zug", "kommt", "pünktlich", "an"], "solution": "Der Zug kommt pünktlich an.", "explanation": "Bei trennbaren Verben steht das Präfix 'an' am Satzende." },
+        { "id": "l10t07", "type": "cloze-conjugation", "instruction": "Bilde das Partizip II.", "prompt": "Der Zug ist pünktlich ___. (ankommen, Perfekt)", "solution": "angekommen", "explanation": "Das Partizip II von 'ankommen' lautet 'angekommen'." },
+        { "id": "l10t08", "type": "targeted-transformation", "instruction": "Bilde das Perfekt.", "prompt": "Ich steige am Bahnhof aus.", "solution": "Ich bin am Bahnhof ausgestiegen.", "explanation": "Bewegungsverben wie 'aussteigen' bilden das Perfekt mit 'sein'." },
+        { "id": "l10t09", "type": "targeted-transformation", "instruction": "Bilde das Perfekt.", "prompt": "Der Zug fährt um 8 Uhr ab.", "solution": "Der Zug ist um 8 Uhr abgefahren.", "explanation": "Bewegungsverben wie 'abfahren' bilden das Perfekt mit 'sein'." },
+        { "id": "l10t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich habe in den Bus eingestiegen.", "solution": "Ich bin in den Bus eingestiegen.", "explanation": "'einsteigen' ist ein Bewegungsverb und bildet das Perfekt mit 'sein'." }
+      ]
+    },
+    {
+      "lektionId": "a2-m4-l11",
+      "level": "A2",
+      "modulNumber": 4,
+      "lektionNumber": 11,
+      "title": "Träume und Wünsche",
+      "grammarFocus": [
+        "Konjunktiv II: wäre, hätte",
+        "Konjunktiv II: würde + Infinitiv"
+      ],
+      "vocabulary": [
+        { "id": "l11v01", "term": "wäre", "translation": "sería / estaría", "partOfSpeech": "phrase", "example": "Ich wäre gern reich." },
+        { "id": "l11v02", "term": "hätte", "translation": "tendría", "partOfSpeech": "phrase", "example": "Ich hätte gern mehr Zeit." },
+        { "id": "l11v03", "term": "würde", "translation": "haría (auxiliar del condicional)", "partOfSpeech": "phrase", "example": "Ich würde gern reisen." },
+        { "id": "l11v04", "term": "der Wunsch", "translation": "el deseo", "partOfSpeech": "noun", "gender": "der", "plural": "die Wünsche", "example": "Das ist mein größter Wunsch." },
+        { "id": "l11v05", "term": "der Traum", "translation": "el sueño", "partOfSpeech": "noun", "gender": "der", "plural": "die Träume", "example": "Das ist mein Traum." },
+        { "id": "l11v06", "term": "reisen", "translation": "viajar", "partOfSpeech": "verb", "example": "Ich würde gern um die Welt reisen." },
+        { "id": "l11v07", "term": "reich", "translation": "rico", "partOfSpeech": "adjective", "example": "Ich wäre gern reich." },
+        { "id": "l11v08", "term": "die Million", "translation": "el millón", "partOfSpeech": "noun", "gender": "die", "plural": "die Millionen", "example": "Ich hätte gern eine Million Euro." },
+        { "id": "l11v09", "term": "das Schloss", "translation": "el castillo", "partOfSpeech": "noun", "gender": "das", "plural": "die Schlösser", "example": "Ich hätte gern ein Schloss." },
+        { "id": "l11v10", "term": "die Insel", "translation": "la isla", "partOfSpeech": "noun", "gender": "die", "plural": "die Inseln", "example": "Ich würde gern auf einer Insel leben." },
+        { "id": "l11v11", "term": "auswandern", "translation": "emigrar", "partOfSpeech": "verb", "example": "Ich würde gern auswandern." },
+        { "id": "l11v12", "term": "die Villa", "translation": "la villa", "partOfSpeech": "noun", "gender": "die", "plural": "die Villen", "example": "Ich hätte gern eine Villa am Meer." },
+        { "id": "l11v13", "term": "das Meer", "translation": "el mar", "partOfSpeech": "noun", "gender": "das", "plural": "die Meere", "example": "Ich hätte gern eine Villa am Meer." },
+        { "id": "l11v14", "term": "sich wünschen", "translation": "desearse", "partOfSpeech": "verb", "example": "Ich wünsche mir mehr Freizeit." },
+        { "id": "l11v15", "term": "sich vorstellen", "translation": "imaginarse", "partOfSpeech": "verb", "example": "Ich kann mir das gut vorstellen." },
+        { "id": "l11v16", "term": "berühmt", "translation": "famoso", "partOfSpeech": "adjective", "example": "Ich wäre gern berühmt." }
+      ],
+      "practice": {
+        "easy": [
+          { "id": "l11e01", "type": "multiple-choice", "instruction": "Wähle die richtige Konjunktiv-II-Form.", "prompt": "Ich ___ gern reich.", "options": ["wäre", "war", "bin", "sein"], "solution": "wäre", "hint": "Konjunktiv II von 'sein'.", "explanation": "Die 'ich'-Form von 'sein' im Konjunktiv II lautet 'wäre'." },
+          { "id": "l11e02", "type": "multiple-choice", "instruction": "Wähle die richtige Konjunktiv-II-Form.", "prompt": "Ich ___ gern mehr Zeit.", "options": ["hätte", "hatte", "habe", "haben"], "solution": "hätte", "hint": "Konjunktiv II von 'haben'.", "explanation": "Die 'ich'-Form von 'haben' im Konjunktiv II lautet 'hätte'." },
+          { "id": "l11e03", "type": "multiple-choice", "instruction": "Wähle die richtige Konjunktiv-II-Form.", "prompt": "Ich ___ gern um die Welt reisen.", "options": ["würde", "werde", "wurde", "werden"], "solution": "würde", "hint": "Konjunktiv II von 'werden' als Hilfsverb.", "explanation": "Die 'ich'-Form von 'werden' im Konjunktiv II lautet 'würde'." },
+          { "id": "l11e04", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Ich ___ mir mehr Freizeit.", "options": ["wünsche", "wünscht", "wünschst", "wünschen"], "solution": "wünsche", "hint": "'ich'-Form.", "explanation": "Die 'ich'-Form von 'sich wünschen' lautet 'wünsche mir'." },
+          { "id": "l11e05", "type": "multiple-choice", "instruction": "Wähle das richtige Verb.", "prompt": "Ich kann mir das gut ___.", "options": ["vorstellen", "vorgestellt", "vorstelle", "vorstellst"], "solution": "vorstellen", "hint": "Infinitiv nach Modalverb.", "explanation": "Nach dem Modalverb 'kann' steht der Infinitiv." },
+          { "id": "l11e06", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Wunsch", "options": ["der", "die", "das"], "solution": "der", "hint": "'Wunsch' ist maskulin.", "explanation": "'Wunsch' ist maskulin: der Wunsch." },
+          { "id": "l11e07", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Traum", "options": ["der", "die", "das"], "solution": "der", "hint": "'Traum' ist maskulin.", "explanation": "'Traum' ist maskulin: der Traum." },
+          { "id": "l11e08", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Ich hätte gern eine Villa am ___.", "options": ["Meer", "Insel", "Schloss", "Million"], "solution": "Meer", "hint": "Gewässer.", "explanation": "'am Meer' ist eine feste Ortsangabe." },
+          { "id": "l11e09", "type": "fill-in-blank", "instruction": "Ergänze das Adjektiv.", "prompt": "Ich wäre gern ___. (berühmt)", "solution": "berühmt", "hint": "Bekannt sein.", "explanation": "'berühmt' bedeutet, dass man von vielen Menschen bekannt ist." },
+          { "id": "l11e10", "type": "fill-in-blank", "instruction": "Ergänze das Verb.", "prompt": "Ich würde gern ___. (auswandern)", "solution": "auswandern", "hint": "Infinitiv nach 'würde'.", "explanation": "Nach 'würde' steht der Infinitiv am Satzende." }
+        ],
+        "medium": [
+          { "id": "l11m01", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "wäre", "gern", "reich"], "solution": "Ich wäre gern reich.", "hint": "Konjunktiv II an Position 2.", "explanation": "'wäre' als Konjunktiv II von 'sein' steht an Position 2." },
+          { "id": "l11m02", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "hätte", "gern", "mehr", "Zeit"], "solution": "Ich hätte gern mehr Zeit.", "hint": "Konjunktiv II an Position 2.", "explanation": "'hätte' als Konjunktiv II von 'haben' steht an Position 2." },
+          { "id": "l11m03", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "würde", "gern", "um", "die", "Welt", "reisen"], "solution": "Ich würde gern um die Welt reisen.", "hint": "Konjunktiv II an Position 2, Infinitiv am Ende.", "explanation": "'würde' steht an Position 2, der Infinitiv 'reisen' am Satzende." },
+          { "id": "l11m04", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "würde", "gern", "auf", "einer", "Insel", "leben"], "solution": "Ich würde gern auf einer Insel leben.", "hint": "Konjunktiv II an Position 2, Infinitiv am Ende.", "explanation": "'würde' steht an Position 2, der Infinitiv 'leben' am Satzende." },
+          { "id": "l11m05", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "hätte", "gern", "eine", "Villa", "am", "Meer"], "solution": "Ich hätte gern eine Villa am Meer.", "hint": "Konjunktiv II an Position 2.", "explanation": "'hätte' als Konjunktiv II von 'haben' steht an Position 2." },
+          { "id": "l11m06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "wünsche", "mir", "mehr", "Freizeit"], "solution": "Ich wünsche mir mehr Freizeit.", "hint": "Verb an Position 2.", "explanation": "Das konjugierte Verb steht an Position 2." },
+          { "id": "l11m07", "type": "cloze-conjugation", "instruction": "Bilde die Konjunktiv-II-Form.", "prompt": "Du ___ (sein) bestimmt eine gute Chefin.", "solution": "wärst", "hint": "'du'-Form.", "explanation": "Die 'du'-Form von 'sein' im Konjunktiv II lautet 'wärst'." },
+          { "id": "l11m08", "type": "cloze-conjugation", "instruction": "Bilde die Konjunktiv-II-Form.", "prompt": "Wir ___ (haben) gern ein Schloss.", "solution": "hätten", "hint": "'wir'-Form.", "explanation": "Die 'wir'-Form von 'haben' im Konjunktiv II lautet 'hätten'." },
+          { "id": "l11m09", "type": "cloze-conjugation", "instruction": "Bilde die Konjunktiv-II-Form.", "prompt": "Sie ___ (werden) gern auswandern.", "solution": "würde", "hint": "3. Person Singular.", "explanation": "Die 'sie'-Form von 'werden' im Konjunktiv II lautet 'würde'." },
+          { "id": "l11m10", "type": "cloze-conjugation", "instruction": "Bilde die Konjunktiv-II-Form.", "prompt": "Ihr ___ (sein) sicher glücklich.", "solution": "wärt", "hint": "'ihr'-Form.", "explanation": "Die 'ihr'-Form von 'sein' im Konjunktiv II lautet 'wärt'." }
+        ],
+        "hard": [
+          { "id": "l11h01", "type": "targeted-transformation", "instruction": "Formuliere einen Wunsch mit 'wäre'.", "prompt": "reich sein", "solution": "Ich wäre gern reich.", "hint": "Konjunktiv II von 'sein'.", "explanation": "Wünsche mit 'sein' formuliert man mit 'wäre'." },
+          { "id": "l11h02", "type": "targeted-transformation", "instruction": "Formuliere einen Wunsch mit 'hätte'.", "prompt": "mehr Zeit haben", "solution": "Ich hätte gern mehr Zeit.", "hint": "Konjunktiv II von 'haben'.", "explanation": "Wünsche mit 'haben' formuliert man mit 'hätte'." },
+          { "id": "l11h03", "type": "targeted-transformation", "instruction": "Formuliere einen Wunsch mit 'würde'.", "prompt": "um die Welt reisen", "solution": "Ich würde gern um die Welt reisen.", "hint": "Konjunktiv II von 'werden' + Infinitiv.", "explanation": "Wünsche mit Vollverben formuliert man mit 'würde' + Infinitiv." },
+          { "id": "l11h04", "type": "targeted-transformation", "instruction": "Formuliere einen Wunsch mit 'würde'.", "prompt": "auf einer Insel leben", "solution": "Ich würde gern auf einer Insel leben.", "hint": "Konjunktiv II von 'werden' + Infinitiv.", "explanation": "Wünsche mit Vollverben formuliert man mit 'würde' + Infinitiv." },
+          { "id": "l11h05", "type": "targeted-transformation", "instruction": "Formuliere einen Wunsch mit 'hätte'.", "prompt": "eine Villa am Meer haben", "solution": "Ich hätte gern eine Villa am Meer.", "hint": "Konjunktiv II von 'haben'.", "explanation": "Wünsche mit 'haben' formuliert man mit 'hätte'." },
+          { "id": "l11h06", "type": "targeted-transformation", "instruction": "Formuliere einen Wunsch mit 'wäre'.", "prompt": "berühmt sein", "solution": "Ich wäre gern berühmt.", "hint": "Konjunktiv II von 'sein'.", "explanation": "Wünsche mit 'sein' formuliert man mit 'wäre'." },
+          { "id": "l11h07", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich würde gern reich.", "solution": "Ich wäre gern reich.", "hint": "Für 'sein' verwendet man 'wäre'.", "explanation": "Für den Zustand 'sein' verwendet man im Konjunktiv II 'wäre', nicht 'würde'." },
+          { "id": "l11h08", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich würde gern mehr Zeit.", "solution": "Ich hätte gern mehr Zeit.", "hint": "Für 'haben' verwendet man 'hätte'.", "explanation": "Für den Besitz mit 'haben' verwendet man im Konjunktiv II 'hätte', nicht 'würde'." },
+          { "id": "l11h09", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich hätte gern um die Welt reisen.", "solution": "Ich würde gern um die Welt reisen.", "hint": "Für Vollverben verwendet man 'würde' + Infinitiv.", "explanation": "Für die meisten Vollverben verwendet man im Konjunktiv II 'würde' + Infinitiv, nicht 'hätte'." },
+          { "id": "l11h10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Wir hätten gern ein Schloss haben.", "solution": "Wir hätten gern ein Schloss.", "hint": "Nach 'hätte' + Nomen braucht es keinen zusätzlichen Infinitiv.", "explanation": "Nach 'hätte' + Nomen steht kein zusätzlicher Infinitiv 'haben'." }
+        ]
+      },
+      "test": [
+        { "id": "l11t01", "type": "multiple-choice", "instruction": "Wähle die richtige Konjunktiv-II-Form.", "prompt": "Ich ___ gern reich.", "options": ["wäre", "war", "bin", "sein"], "solution": "wäre", "explanation": "Die 'ich'-Form von 'sein' im Konjunktiv II lautet 'wäre'." },
+        { "id": "l11t02", "type": "multiple-choice", "instruction": "Wähle die richtige Konjunktiv-II-Form.", "prompt": "Ich ___ gern mehr Zeit.", "options": ["hätte", "hatte", "habe", "haben"], "solution": "hätte", "explanation": "Die 'ich'-Form von 'haben' im Konjunktiv II lautet 'hätte'." },
+        { "id": "l11t03", "type": "multiple-choice", "instruction": "Wähle die richtige Konjunktiv-II-Form.", "prompt": "Ich ___ gern um die Welt reisen.", "options": ["würde", "werde", "wurde", "werden"], "solution": "würde", "explanation": "Die 'ich'-Form von 'werden' im Konjunktiv II lautet 'würde'." },
+        { "id": "l11t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Traum", "options": ["der", "die", "das"], "solution": "der", "explanation": "'Traum' ist maskulin: der Traum." },
+        { "id": "l11t05", "type": "fill-in-blank", "instruction": "Ergänze das Adjektiv.", "prompt": "Ich wäre gern ___. (berühmt)", "solution": "berühmt", "explanation": "'berühmt' bedeutet, dass man von vielen Menschen bekannt ist." },
+        { "id": "l11t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "hätte", "gern", "eine", "Villa", "am", "Meer"], "solution": "Ich hätte gern eine Villa am Meer.", "explanation": "'hätte' als Konjunktiv II von 'haben' steht an Position 2." },
+        { "id": "l11t07", "type": "cloze-conjugation", "instruction": "Bilde die Konjunktiv-II-Form.", "prompt": "Wir ___ (haben) gern ein Schloss.", "solution": "hätten", "explanation": "Die 'wir'-Form von 'haben' im Konjunktiv II lautet 'hätten'." },
+        { "id": "l11t08", "type": "targeted-transformation", "instruction": "Formuliere einen Wunsch mit 'würde'.", "prompt": "auf einer Insel leben", "solution": "Ich würde gern auf einer Insel leben.", "explanation": "Wünsche mit Vollverben formuliert man mit 'würde' + Infinitiv." },
+        { "id": "l11t09", "type": "targeted-transformation", "instruction": "Formuliere einen Wunsch mit 'wäre'.", "prompt": "berühmt sein", "solution": "Ich wäre gern berühmt.", "explanation": "Wünsche mit 'sein' formuliert man mit 'wäre'." },
+        { "id": "l11t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich würde gern reich.", "solution": "Ich wäre gern reich.", "explanation": "Für den Zustand 'sein' verwendet man im Konjunktiv II 'wäre', nicht 'würde'." }
+      ]
+    },
+    {
+      "lektionId": "a2-m4-l12",
+      "level": "A2",
+      "modulNumber": 4,
+      "lektionNumber": 12,
+      "title": "Entscheidungen",
+      "grammarFocus": [
+        "Indirekte Fragen mit 'ob'",
+        "Verb am Satzende im ob-Satz"
+      ],
+      "vocabulary": [
+        { "id": "l12v01", "term": "die Entscheidung", "translation": "la decisión", "partOfSpeech": "noun", "gender": "die", "plural": "die Entscheidungen", "example": "Ich muss eine Entscheidung treffen." },
+        { "id": "l12v02", "term": "ob", "translation": "si (condicional)", "partOfSpeech": "phrase", "example": "Ich weiß nicht, ob ich kommen kann." },
+        { "id": "l12v03", "term": "sich entscheiden", "translation": "decidirse", "partOfSpeech": "verb", "example": "Ich entscheide mich für das blaue Auto." },
+        { "id": "l12v04", "term": "überlegen", "translation": "reflexionar", "partOfSpeech": "verb", "example": "Ich überlege, ob ich mitkomme." },
+        { "id": "l12v05", "term": "unsicher", "translation": "inseguro", "partOfSpeech": "adjective", "example": "Ich bin unsicher, ob das die richtige Wahl ist." },
+        { "id": "l12v06", "term": "die Wahl", "translation": "la elección", "partOfSpeech": "noun", "gender": "die", "plural": "die Wahlen", "example": "Das ist eine schwierige Wahl." },
+        { "id": "l12v07", "term": "fragen", "translation": "preguntar", "partOfSpeech": "verb", "example": "Ich frage, ob er Zeit hat." },
+        { "id": "l12v08", "term": "wissen", "translation": "saber", "partOfSpeech": "verb", "example": "Ich weiß nicht, ob das stimmt." },
+        { "id": "l12v09", "term": "die Möglichkeit", "translation": "la posibilidad", "partOfSpeech": "noun", "gender": "die", "plural": "die Möglichkeiten", "example": "Es gibt zwei Möglichkeiten." },
+        { "id": "l12v10", "term": "die Option", "translation": "la opción", "partOfSpeech": "noun", "gender": "die", "plural": "die Optionen", "example": "Welche Option ist besser?" },
+        { "id": "l12v11", "term": "vielleicht", "translation": "quizás", "partOfSpeech": "adverb", "example": "Vielleicht komme ich mit." },
+        { "id": "l12v12", "term": "abwägen", "translation": "sopesar", "partOfSpeech": "verb", "example": "Ich wäge die Vor- und Nachteile ab." },
+        { "id": "l12v13", "term": "sich Zeit lassen", "translation": "tomarse tiempo", "partOfSpeech": "phrase", "example": "Ich lasse mir Zeit mit der Entscheidung." },
+        { "id": "l12v14", "term": "klappen", "translation": "salir bien / funcionar", "partOfSpeech": "verb", "example": "Ich weiß nicht, ob das klappt." },
+        { "id": "l12v15", "term": "bezahlbar", "translation": "asequible", "partOfSpeech": "adjective", "example": "Ich weiß nicht, ob die Wohnung bezahlbar ist." },
+        { "id": "l12v16", "term": "sich lohnen", "translation": "valer la pena", "partOfSpeech": "verb", "example": "Ich frage mich, ob sich das lohnt." }
+      ],
+      "practice": {
+        "easy": [
+          { "id": "l12e01", "type": "multiple-choice", "instruction": "Wähle den passenden Konnektor.", "prompt": "Ich weiß nicht, ___ ich kommen kann.", "options": ["ob", "dass", "weil", "wenn"], "solution": "ob", "hint": "Leitet eine indirekte Ja/Nein-Frage ein.", "explanation": "'ob' leitet eine indirekte Frage ein, auf die man mit Ja oder Nein antworten könnte." },
+          { "id": "l12e02", "type": "multiple-choice", "instruction": "Wähle den passenden Konnektor.", "prompt": "Ich frage, ___ er Zeit hat.", "options": ["ob", "dass", "weil", "wenn"], "solution": "ob", "hint": "Leitet eine indirekte Ja/Nein-Frage ein.", "explanation": "'ob' leitet eine indirekte Frage ein." },
+          { "id": "l12e03", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Ich weiß nicht, ob das ___.", "options": ["stimmt", "stimmen", "stimme", "stimmst"], "solution": "stimmt", "hint": "Verb am Satzende im ob-Satz.", "explanation": "Im ob-Satz steht das konjugierte Verb am Ende." },
+          { "id": "l12e04", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Ich ___ mich für das blaue Auto.", "options": ["entscheide", "entscheidest", "entscheidet", "entscheiden"], "solution": "entscheide", "hint": "'ich'-Form.", "explanation": "Die 'ich'-Form von 'sich entscheiden' lautet 'entscheide mich'." },
+          { "id": "l12e05", "type": "fill-in-blank", "instruction": "Ergänze den Konnektor.", "prompt": "Ich überlege, ___ ich mitkomme.", "solution": "ob", "hint": "Leitet eine indirekte Frage ein.", "explanation": "'ob' leitet eine indirekte Frage ein." },
+          { "id": "l12e06", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Entscheidung", "options": ["der", "die", "das"], "solution": "die", "hint": "'Entscheidung' ist feminin.", "explanation": "'Entscheidung' ist feminin: die Entscheidung." },
+          { "id": "l12e07", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Möglichkeit", "options": ["der", "die", "das"], "solution": "die", "hint": "'Möglichkeit' ist feminin.", "explanation": "'Möglichkeit' ist feminin: die Möglichkeit." },
+          { "id": "l12e08", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Das ist eine schwierige ___.", "options": ["Wahl", "Option", "Entscheidung", "Möglichkeit"], "solution": "Wahl", "hint": "Feste Kollokation.", "explanation": "'eine schwierige Wahl' ist eine feste Wortverbindung." },
+          { "id": "l12e09", "type": "fill-in-blank", "instruction": "Ergänze das Adjektiv.", "prompt": "Ich bin ___, ob das die richtige Wahl ist. (unsicher)", "solution": "unsicher", "hint": "Nicht sicher sein.", "explanation": "'unsicher sein' bedeutet, sich nicht sicher zu sein." },
+          { "id": "l12e10", "type": "fill-in-blank", "instruction": "Ergänze das Adjektiv.", "prompt": "Ich weiß nicht, ob die Wohnung ___ ist. (bezahlbar)", "solution": "bezahlbar", "hint": "Man kann es sich leisten.", "explanation": "'bezahlbar' bedeutet, dass man sich etwas finanziell leisten kann." }
+        ],
+        "medium": [
+          { "id": "l12m01", "type": "sentence-scramble", "instruction": "Bilde einen Satz mit 'ob'.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "weiß", "nicht,", "ob", "ich", "kommen", "kann"], "solution": "Ich weiß nicht, ob ich kommen kann.", "hint": "Verb am Ende des ob-Satzes.", "explanation": "Im ob-Satz steht das konjugierte Verb ganz am Ende: ob ... kann." },
+          { "id": "l12m02", "type": "sentence-scramble", "instruction": "Bilde einen Satz mit 'ob'.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "frage,", "ob", "er", "Zeit", "hat"], "solution": "Ich frage, ob er Zeit hat.", "hint": "Verb am Ende des ob-Satzes.", "explanation": "Im ob-Satz steht das konjugierte Verb ganz am Ende: ob ... hat." },
+          { "id": "l12m03", "type": "sentence-scramble", "instruction": "Bilde einen Satz mit 'ob'.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "überlege,", "ob", "ich", "mitkomme"], "solution": "Ich überlege, ob ich mitkomme.", "hint": "Verb am Ende des ob-Satzes.", "explanation": "Im ob-Satz steht das konjugierte Verb ganz am Ende: ob ... mitkomme." },
+          { "id": "l12m04", "type": "sentence-scramble", "instruction": "Bilde einen Satz mit 'ob'.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "weiß", "nicht,", "ob", "das", "stimmt"], "solution": "Ich weiß nicht, ob das stimmt.", "hint": "Verb am Ende des ob-Satzes.", "explanation": "Im ob-Satz steht das konjugierte Verb ganz am Ende: ob ... stimmt." },
+          { "id": "l12m05", "type": "sentence-scramble", "instruction": "Bilde einen Satz mit 'ob'.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "bin", "unsicher,", "ob", "das", "klappt"], "solution": "Ich bin unsicher, ob das klappt.", "hint": "Verb am Ende des ob-Satzes.", "explanation": "Im ob-Satz steht das konjugierte Verb ganz am Ende: ob ... klappt." },
+          { "id": "l12m06", "type": "sentence-scramble", "instruction": "Bilde einen Satz mit 'ob'.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "frage", "mich,", "ob", "sich", "das", "lohnt"], "solution": "Ich frage mich, ob sich das lohnt.", "hint": "Verb am Ende des ob-Satzes.", "explanation": "Im ob-Satz steht das konjugierte Verb ganz am Ende: ob ... lohnt." },
+          { "id": "l12m07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb am Satzende.", "prompt": "Ich weiß nicht, ob die Wohnung bezahlbar ___ (sein).", "solution": "ist", "hint": "3. Person Singular am Satzende.", "explanation": "Im ob-Satz steht das konjugierte Verb 'ist' am Ende." },
+          { "id": "l12m08", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb am Satzende.", "prompt": "Ich frage mich, ob sich das ___ (lohnen).", "solution": "lohnt", "hint": "3. Person Singular am Satzende.", "explanation": "Im ob-Satz steht das konjugierte Verb 'lohnt' am Ende." },
+          { "id": "l12m09", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb am Satzende.", "prompt": "Ich überlege, ob ich mich für die Option ___ (entscheiden).", "solution": "entscheide", "hint": "'ich'-Form am Satzende.", "explanation": "Im ob-Satz steht das konjugierte Verb 'entscheide' am Ende." },
+          { "id": "l12m10", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb am Satzende.", "prompt": "Wir wissen nicht, ob das Projekt ___ (klappen).", "solution": "klappt", "hint": "3. Person Singular am Satzende.", "explanation": "Im ob-Satz steht das konjugierte Verb 'klappt' am Ende." }
+        ],
+        "hard": [
+          { "id": "l12h01", "type": "targeted-transformation", "instruction": "Bilde eine indirekte Frage mit 'ob'.", "prompt": "Kann ich kommen?", "solution": "Ich weiß nicht, ob ich kommen kann.", "hint": "Verb wandert ans Satzende.", "explanation": "Bei der indirekten Frage mit 'ob' wandert das konjugierte Verb ans Ende." },
+          { "id": "l12h02", "type": "targeted-transformation", "instruction": "Bilde eine indirekte Frage mit 'ob'.", "prompt": "Hat er Zeit?", "solution": "Ich frage, ob er Zeit hat.", "hint": "Verb wandert ans Satzende.", "explanation": "Bei der indirekten Frage mit 'ob' wandert das konjugierte Verb ans Ende." },
+          { "id": "l12h03", "type": "targeted-transformation", "instruction": "Bilde eine indirekte Frage mit 'ob'.", "prompt": "Stimmt das?", "solution": "Ich weiß nicht, ob das stimmt.", "hint": "Verb wandert ans Satzende.", "explanation": "Bei der indirekten Frage mit 'ob' wandert das konjugierte Verb ans Ende." },
+          { "id": "l12h04", "type": "targeted-transformation", "instruction": "Bilde eine indirekte Frage mit 'ob'.", "prompt": "Klappt das?", "solution": "Ich bin unsicher, ob das klappt.", "hint": "Verb wandert ans Satzende.", "explanation": "Bei der indirekten Frage mit 'ob' wandert das konjugierte Verb ans Ende." },
+          { "id": "l12h05", "type": "targeted-transformation", "instruction": "Bilde eine indirekte Frage mit 'ob'.", "prompt": "Ist die Wohnung bezahlbar?", "solution": "Ich weiß nicht, ob die Wohnung bezahlbar ist.", "hint": "Verb wandert ans Satzende.", "explanation": "Bei der indirekten Frage mit 'ob' wandert das konjugierte Verb ans Ende." },
+          { "id": "l12h06", "type": "targeted-transformation", "instruction": "Bilde eine indirekte Frage mit 'ob'.", "prompt": "Lohnt sich das?", "solution": "Ich frage mich, ob sich das lohnt.", "hint": "Verb wandert ans Satzende.", "explanation": "Bei der indirekten Frage mit 'ob' wandert das konjugierte Verb ans Ende." },
+          { "id": "l12h07", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich weiß nicht, ob ich kann kommen.", "solution": "Ich weiß nicht, ob ich kommen kann.", "hint": "Im ob-Satz steht das Verb am Ende.", "explanation": "Im ob-Satz muss das konjugierte Verb ganz am Ende stehen." },
+          { "id": "l12h08", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich frage, ob hat er Zeit.", "solution": "Ich frage, ob er Zeit hat.", "hint": "Im ob-Satz steht das Verb am Ende.", "explanation": "Im ob-Satz muss das konjugierte Verb ganz am Ende stehen, nicht in Frage-Wortstellung." },
+          { "id": "l12h09", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich bin unsicher, ob klappt das.", "solution": "Ich bin unsicher, ob das klappt.", "hint": "Im ob-Satz steht das Verb am Ende.", "explanation": "Im ob-Satz muss das konjugierte Verb ganz am Ende stehen." },
+          { "id": "l12h10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich weiß nicht, ob ist die Wohnung bezahlbar.", "solution": "Ich weiß nicht, ob die Wohnung bezahlbar ist.", "hint": "Im ob-Satz steht das Verb am Ende.", "explanation": "Im ob-Satz muss das konjugierte Verb ganz am Ende stehen." }
+        ]
+      },
+      "test": [
+        { "id": "l12t01", "type": "multiple-choice", "instruction": "Wähle den passenden Konnektor.", "prompt": "Ich weiß nicht, ___ ich kommen kann.", "options": ["ob", "dass", "weil", "wenn"], "solution": "ob", "explanation": "'ob' leitet eine indirekte Frage ein." },
+        { "id": "l12t02", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Ich weiß nicht, ob das ___.", "options": ["stimmt", "stimmen", "stimme", "stimmst"], "solution": "stimmt", "explanation": "Im ob-Satz steht das konjugierte Verb am Ende." },
+        { "id": "l12t03", "type": "fill-in-blank", "instruction": "Ergänze den Konnektor.", "prompt": "Ich überlege, ___ ich mitkomme.", "solution": "ob", "explanation": "'ob' leitet eine indirekte Frage ein." },
+        { "id": "l12t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Möglichkeit", "options": ["der", "die", "das"], "solution": "die", "explanation": "'Möglichkeit' ist feminin: die Möglichkeit." },
+        { "id": "l12t05", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Das ist eine schwierige ___.", "options": ["Wahl", "Option", "Entscheidung", "Möglichkeit"], "solution": "Wahl", "explanation": "'eine schwierige Wahl' ist eine feste Wortverbindung." },
+        { "id": "l12t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz mit 'ob'.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "frage,", "ob", "er", "Zeit", "hat"], "solution": "Ich frage, ob er Zeit hat.", "explanation": "Im ob-Satz steht das konjugierte Verb ganz am Ende." },
+        { "id": "l12t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb am Satzende.", "prompt": "Ich frage mich, ob sich das ___ (lohnen).", "solution": "lohnt", "explanation": "Im ob-Satz steht das konjugierte Verb 'lohnt' am Ende." },
+        { "id": "l12t08", "type": "targeted-transformation", "instruction": "Bilde eine indirekte Frage mit 'ob'.", "prompt": "Ist die Wohnung bezahlbar?", "solution": "Ich weiß nicht, ob die Wohnung bezahlbar ist.", "explanation": "Bei der indirekten Frage mit 'ob' wandert das konjugierte Verb ans Ende." },
+        { "id": "l12t09", "type": "targeted-transformation", "instruction": "Bilde eine indirekte Frage mit 'ob'.", "prompt": "Lohnt sich das?", "solution": "Ich frage mich, ob sich das lohnt.", "explanation": "Bei der indirekten Frage mit 'ob' wandert das konjugierte Verb ans Ende." },
+        { "id": "l12t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich frage, ob hat er Zeit.", "solution": "Ich frage, ob er Zeit hat.", "explanation": "Im ob-Satz muss das konjugierte Verb ganz am Ende stehen." }
+      ]
+    }
+  ]
+}

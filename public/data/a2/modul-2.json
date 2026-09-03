@@ -1,0 +1,245 @@
+{
+  "modulId": "a2-m2",
+  "level": "A2",
+  "modulNumber": 2,
+  "title": "Arbeit und Freizeit",
+  "lektionen": [
+    {
+      "lektionId": "a2-m2-l4",
+      "level": "A2",
+      "modulNumber": 2,
+      "lektionNumber": 4,
+      "title": "Im Büro",
+      "grammarFocus": [
+        "deshalb: Hauptsatz-Hauptsatz-Verbindung mit Verb an Position 2",
+        "Folgen ausdrücken"
+      ],
+      "vocabulary": [
+        { "id": "l4v01", "term": "das Meeting", "translation": "la reunión", "partOfSpeech": "noun", "gender": "das", "plural": "die Meetings", "example": "Wir haben ein Meeting um 10 Uhr." },
+        { "id": "l4v02", "term": "die Präsentation", "translation": "la presentación", "partOfSpeech": "noun", "gender": "die", "plural": "die Präsentationen", "example": "Ich muss die Präsentation vorbereiten." },
+        { "id": "l4v03", "term": "der Termin", "translation": "la cita", "partOfSpeech": "noun", "gender": "der", "plural": "die Termine", "example": "Ich habe einen Termin verschoben." },
+        { "id": "l4v04", "term": "die Chefin", "translation": "la jefa", "partOfSpeech": "noun", "gender": "die", "plural": "die Chefinnen", "example": "Meine Chefin ist sehr nett." },
+        { "id": "l4v05", "term": "der Kollege", "translation": "el colega", "partOfSpeech": "noun", "gender": "der", "plural": "die Kollegen", "example": "Mein Kollege hilft mir oft." },
+        { "id": "l4v06", "term": "verschieben", "translation": "aplazar", "partOfSpeech": "verb", "example": "Wir haben den Termin verschoben." },
+        { "id": "l4v07", "term": "organisieren", "translation": "organizar", "partOfSpeech": "verb", "example": "Wir müssen das Meeting organisieren." },
+        { "id": "l4v08", "term": "die Überstunde", "translation": "la hora extra", "partOfSpeech": "noun", "gender": "die", "plural": "die Überstunden", "example": "Ich mache oft Überstunden." },
+        { "id": "l4v09", "term": "deshalb", "translation": "por eso", "partOfSpeech": "phrase", "example": "Ich habe viel Stress, deshalb bin ich müde." },
+        { "id": "l4v10", "term": "stressig", "translation": "estresante", "partOfSpeech": "adjective", "example": "Die Arbeit ist sehr stressig." },
+        { "id": "l4v11", "term": "die Arbeitszeit", "translation": "el horario laboral", "partOfSpeech": "noun", "gender": "die", "plural": "die Arbeitszeiten", "example": "Ich habe flexible Arbeitszeiten." },
+        { "id": "l4v12", "term": "flexibel", "translation": "flexible", "partOfSpeech": "adjective", "example": "Meine Arbeitszeiten sind flexibel." },
+        { "id": "l4v13", "term": "das Ausland", "translation": "el extranjero", "partOfSpeech": "noun", "gender": "das", "example": "Sie möchte im Ausland arbeiten." },
+        { "id": "l4v14", "term": "die Einladung", "translation": "la invitación", "partOfSpeech": "noun", "gender": "die", "plural": "die Einladungen", "example": "Ich habe die Einladung zum Meeting bekommen." },
+        { "id": "l4v15", "term": "telefonieren", "translation": "hablar por teléfono", "partOfSpeech": "verb", "example": "Ich telefoniere gerade mit Susa." },
+        { "id": "l4v16", "term": "das Mikrofon", "translation": "el micrófono", "partOfSpeech": "noun", "gender": "das", "plural": "die Mikrofone", "example": "Das Mikrofon funktioniert nicht." }
+      ],
+      "practice": {
+        "easy": [
+          { "id": "l4e01", "type": "multiple-choice", "instruction": "Wähle den passenden Konnektor.", "prompt": "Ich habe viel Stress, ___ bin ich müde.", "options": ["deshalb", "weil", "dass", "wenn"], "solution": "deshalb", "hint": "Zeigt eine Folge an.", "explanation": "'deshalb' verbindet zwei Hauptsätze und zeigt eine Folge." },
+          { "id": "l4e02", "type": "multiple-choice", "instruction": "Wähle den passenden Konnektor.", "prompt": "Ich muss noch heute das Meeting organisieren, ___ habe ich keine Zeit für die Pause.", "options": ["deshalb", "weil", "dass", "ob"], "solution": "deshalb", "hint": "Zeigt eine Folge an.", "explanation": "'deshalb' zeigt hier die Folge der vollen Agenda an." },
+          { "id": "l4e03", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Deshalb ___ ich viele Überstunden.", "options": ["mache", "machst", "macht", "machen"], "solution": "mache", "hint": "Verb an Position 2 nach 'deshalb'.", "explanation": "Nach 'deshalb' an Position 1 steht das konjugierte Verb an Position 2." },
+          { "id": "l4e04", "type": "fill-in-blank", "instruction": "Ergänze den Konnektor.", "prompt": "Ich verdiene gut, ___ mag ich meinen Job.", "solution": "deshalb", "hint": "Zeigt eine Folge an.", "explanation": "'deshalb' verbindet Ursache und Folge." },
+          { "id": "l4e05", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Meine Arbeitszeiten sind ___.", "options": ["flexibel", "stressig", "deshalb", "verschieben"], "solution": "flexibel", "hint": "Beschreibt anpassbare Arbeitszeiten.", "explanation": "'flexibel' beschreibt Arbeitszeiten, die sich anpassen lassen." },
+          { "id": "l4e06", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Präsentation", "options": ["der", "die", "das"], "solution": "die", "hint": "'Präsentation' ist feminin.", "explanation": "'Präsentation' ist feminin: die Präsentation." },
+          { "id": "l4e07", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Termin", "options": ["der", "die", "das"], "solution": "der", "hint": "'Termin' ist maskulin.", "explanation": "'Termin' ist maskulin: der Termin." },
+          { "id": "l4e08", "type": "fill-in-blank", "instruction": "Ergänze das Partizip II.", "prompt": "Ich habe den Termin ___. (verschieben)", "solution": "verschoben", "hint": "Unregelmäßiges Verb.", "explanation": "Das Partizip II von 'verschieben' lautet 'verschoben'." },
+          { "id": "l4e09", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Ich ___ gerade mit meinem Kollegen.", "options": ["telefoniere", "telefonierst", "telefoniert", "telefonieren"], "solution": "telefoniere", "hint": "'ich'-Form.", "explanation": "Die 'ich'-Form von 'telefonieren' lautet 'telefoniere'." },
+          { "id": "l4e10", "type": "fill-in-blank", "instruction": "Ergänze das Verb.", "prompt": "Wir müssen das Meeting ___. (organisieren)", "solution": "organisieren", "hint": "Infinitiv nach 'müssen'.", "explanation": "Nach Modalverben wie 'müssen' steht der Infinitiv am Satzende." }
+        ],
+        "medium": [
+          { "id": "l4m01", "type": "sentence-scramble", "instruction": "Bilde einen Satz mit 'deshalb'.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "habe", "viel", "Stress,", "deshalb", "bin", "ich", "müde"], "solution": "Ich habe viel Stress, deshalb bin ich müde.", "hint": "Verb direkt nach 'deshalb'.", "explanation": "Nach 'deshalb' steht das konjugierte Verb an Position 2: deshalb bin ich." },
+          { "id": "l4m02", "type": "sentence-scramble", "instruction": "Bilde einen Satz mit 'deshalb'.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "mag", "meinen", "Job,", "deshalb", "arbeite", "ich", "gern"], "solution": "Ich mag meinen Job, deshalb arbeite ich gern.", "hint": "Verb direkt nach 'deshalb'.", "explanation": "Nach 'deshalb' steht das konjugierte Verb an Position 2: deshalb arbeite ich." },
+          { "id": "l4m03", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Wir", "haben", "den", "Termin", "verschoben"], "solution": "Wir haben den Termin verschoben.", "hint": "Verb an Position 2.", "explanation": "Im Perfekt steht das Hilfsverb an Position 2." },
+          { "id": "l4m04", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Meine", "Chefin", "ist", "sehr", "nett"], "solution": "Meine Chefin ist sehr nett.", "hint": "Verb an Position 2.", "explanation": "Das konjugierte Verb steht an Position 2." },
+          { "id": "l4m05", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "möchte", "im", "Ausland", "arbeiten"], "solution": "Ich möchte im Ausland arbeiten.", "hint": "Verb an Position 2.", "explanation": "Das konjugierte Verb steht an Position 2." },
+          { "id": "l4m06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Mein", "Kollege", "hilft", "mir", "oft"], "solution": "Mein Kollege hilft mir oft.", "hint": "Verb an Position 2.", "explanation": "Das konjugierte Verb steht an Position 2." },
+          { "id": "l4m07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb nach 'deshalb'.", "prompt": "Ich verdiene gut, deshalb ___ (mögen) ich meinen Job.", "solution": "mag", "hint": "Unregelmäßiges Verb, 'ich'-Form.", "explanation": "Die 'ich'-Form von 'mögen' lautet 'mag'; sie steht direkt nach 'deshalb'." },
+          { "id": "l4m08", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb nach 'deshalb'.", "prompt": "Die Arbeit ist stressig, deshalb ___ (sein) ich oft müde.", "solution": "bin", "hint": "'ich'-Form von 'sein'.", "explanation": "Die 'ich'-Form von 'sein' lautet 'bin'; sie steht direkt nach 'deshalb'." },
+          { "id": "l4m09", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb nach 'deshalb'.", "prompt": "Ich habe keine Zeit, deshalb ___ (verschieben) ich den Termin.", "solution": "verschiebe", "hint": "'ich'-Form.", "explanation": "Die 'ich'-Form von 'verschieben' lautet 'verschiebe'; sie steht direkt nach 'deshalb'." },
+          { "id": "l4m10", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb nach 'deshalb'.", "prompt": "Wir organisieren das Meeting, deshalb ___ (haben) wir viel zu tun.", "solution": "haben", "hint": "'wir'-Form.", "explanation": "Die 'wir'-Form von 'haben' lautet 'haben'; sie steht direkt nach 'deshalb'." }
+        ],
+        "hard": [
+          { "id": "l4h01", "type": "targeted-transformation", "instruction": "Verbinde die Sätze mit 'deshalb'.", "prompt": "Ich habe viel Stress. Ich bin müde.", "solution": "Ich habe viel Stress, deshalb bin ich müde.", "hint": "Verb direkt nach 'deshalb'.", "explanation": "'deshalb' verbindet Ursache und Folge; das Verb steht direkt danach." },
+          { "id": "l4h02", "type": "targeted-transformation", "instruction": "Verbinde die Sätze mit 'deshalb'.", "prompt": "Die Arbeit macht mir Spaß. Ich arbeite gern.", "solution": "Die Arbeit macht mir Spaß, deshalb arbeite ich gern.", "hint": "Verb direkt nach 'deshalb'.", "explanation": "'deshalb' verbindet Ursache und Folge; das Verb steht direkt danach." },
+          { "id": "l4h03", "type": "targeted-transformation", "instruction": "Verbinde die Sätze mit 'deshalb'.", "prompt": "Ich verdiene gut. Ich mag meinen Job.", "solution": "Ich verdiene gut, deshalb mag ich meinen Job.", "hint": "Verb direkt nach 'deshalb'.", "explanation": "'deshalb' verbindet Ursache und Folge; das Verb steht direkt danach." },
+          { "id": "l4h04", "type": "targeted-transformation", "instruction": "Verbinde die Sätze mit 'deshalb'.", "prompt": "Ich habe keine Zeit. Ich verschiebe den Termin.", "solution": "Ich habe keine Zeit, deshalb verschiebe ich den Termin.", "hint": "Verb direkt nach 'deshalb'.", "explanation": "'deshalb' verbindet Ursache und Folge; das Verb steht direkt danach." },
+          { "id": "l4h05", "type": "targeted-transformation", "instruction": "Verbinde die Sätze mit 'deshalb'.", "prompt": "Ich habe flexible Arbeitszeiten. Ich bin zufrieden.", "solution": "Ich habe flexible Arbeitszeiten, deshalb bin ich zufrieden.", "hint": "Verb direkt nach 'deshalb'.", "explanation": "'deshalb' verbindet Ursache und Folge; das Verb steht direkt danach." },
+          { "id": "l4h06", "type": "targeted-transformation", "instruction": "Verbinde die Sätze mit 'deshalb'.", "prompt": "Wir haben viel Arbeit. Wir organisieren ein Meeting.", "solution": "Wir haben viel Arbeit, deshalb organisieren wir ein Meeting.", "hint": "Verb direkt nach 'deshalb'.", "explanation": "'deshalb' verbindet Ursache und Folge; das Verb steht direkt danach." },
+          { "id": "l4h07", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich habe viel Stress, deshalb ich bin müde.", "solution": "Ich habe viel Stress, deshalb bin ich müde.", "hint": "Was steht direkt nach 'deshalb'?", "explanation": "Nach 'deshalb' steht das konjugierte Verb an Position 2, nicht das Subjekt: deshalb bin ich." },
+          { "id": "l4h08", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich verdiene gut, deshalb ich mag meinen Job.", "solution": "Ich verdiene gut, deshalb mag ich meinen Job.", "hint": "Was steht direkt nach 'deshalb'?", "explanation": "Nach 'deshalb' steht das konjugierte Verb, nicht das Subjekt: deshalb mag ich." },
+          { "id": "l4h09", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich habe keine Zeit, deshalb ich verschiebe den Termin.", "solution": "Ich habe keine Zeit, deshalb verschiebe ich den Termin.", "hint": "Was steht direkt nach 'deshalb'?", "explanation": "Nach 'deshalb' steht das konjugierte Verb, nicht das Subjekt: deshalb verschiebe ich." },
+          { "id": "l4h10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Wir haben viel Arbeit, deshalb wir organisieren ein Meeting.", "solution": "Wir haben viel Arbeit, deshalb organisieren wir ein Meeting.", "hint": "Was steht direkt nach 'deshalb'?", "explanation": "Nach 'deshalb' steht das konjugierte Verb, nicht das Subjekt: deshalb organisieren wir." }
+        ]
+      },
+      "test": [
+        { "id": "l4t01", "type": "multiple-choice", "instruction": "Wähle den passenden Konnektor.", "prompt": "Ich habe viel Stress, ___ bin ich müde.", "options": ["deshalb", "weil", "dass", "wenn"], "solution": "deshalb", "explanation": "'deshalb' verbindet zwei Hauptsätze und zeigt eine Folge." },
+        { "id": "l4t02", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Deshalb ___ ich viele Überstunden.", "options": ["mache", "machst", "macht", "machen"], "solution": "mache", "explanation": "Nach 'deshalb' an Position 1 steht das Verb an Position 2." },
+        { "id": "l4t03", "type": "fill-in-blank", "instruction": "Ergänze den Konnektor.", "prompt": "Ich verdiene gut, ___ mag ich meinen Job.", "solution": "deshalb", "explanation": "'deshalb' verbindet Ursache und Folge." },
+        { "id": "l4t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Präsentation", "options": ["der", "die", "das"], "solution": "die", "explanation": "'Präsentation' ist feminin: die Präsentation." },
+        { "id": "l4t05", "type": "fill-in-blank", "instruction": "Ergänze das Partizip II.", "prompt": "Ich habe den Termin ___. (verschieben)", "solution": "verschoben", "explanation": "Das Partizip II von 'verschieben' lautet 'verschoben'." },
+        { "id": "l4t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Mein", "Kollege", "hilft", "mir", "oft"], "solution": "Mein Kollege hilft mir oft.", "explanation": "Das konjugierte Verb steht an Position 2." },
+        { "id": "l4t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb nach 'deshalb'.", "prompt": "Die Arbeit ist stressig, deshalb ___ (sein) ich oft müde.", "solution": "bin", "explanation": "Die 'ich'-Form von 'sein' steht direkt nach 'deshalb'." },
+        { "id": "l4t08", "type": "targeted-transformation", "instruction": "Verbinde die Sätze mit 'deshalb'.", "prompt": "Ich habe flexible Arbeitszeiten. Ich bin zufrieden.", "solution": "Ich habe flexible Arbeitszeiten, deshalb bin ich zufrieden.", "explanation": "'deshalb' verbindet Ursache und Folge; das Verb steht direkt danach." },
+        { "id": "l4t09", "type": "targeted-transformation", "instruction": "Verbinde die Sätze mit 'deshalb'.", "prompt": "Wir haben viel Arbeit. Wir organisieren ein Meeting.", "solution": "Wir haben viel Arbeit, deshalb organisieren wir ein Meeting.", "explanation": "'deshalb' verbindet Ursache und Folge; das Verb steht direkt danach." },
+        { "id": "l4t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich verdiene gut, deshalb ich mag meinen Job.", "solution": "Ich verdiene gut, deshalb mag ich meinen Job.", "explanation": "Nach 'deshalb' steht das konjugierte Verb, nicht das Subjekt." }
+      ]
+    },
+    {
+      "lektionId": "a2-m2-l5",
+      "level": "A2",
+      "modulNumber": 2,
+      "lektionNumber": 5,
+      "title": "Freizeit",
+      "grammarFocus": [
+        "Zeitpräpositionen: seit, vor, bis + Dativ",
+        "Fragewörter: Wann, Seit wann, Wie lange"
+      ],
+      "vocabulary": [
+        { "id": "l5v01", "term": "das Eishockey", "translation": "el hockey sobre hielo", "partOfSpeech": "noun", "gender": "das", "example": "Ich schaue gern Eishockey." },
+        { "id": "l5v02", "term": "das Spiel", "translation": "el partido", "partOfSpeech": "noun", "gender": "das", "plural": "die Spiele", "example": "Das Spiel war spannend." },
+        { "id": "l5v03", "term": "begeistert", "translation": "entusiasmado", "partOfSpeech": "adjective", "example": "Ich bin von dem Spiel begeistert." },
+        { "id": "l5v04", "term": "enttäuscht", "translation": "decepcionado", "partOfSpeech": "adjective", "example": "Sabine ist enttäuscht, weil ihre Mannschaft verloren hat." },
+        { "id": "l5v05", "term": "das Ballett", "translation": "el ballet", "partOfSpeech": "noun", "gender": "das", "plural": "die Ballette", "example": "Sie geht gern ins Ballett." },
+        { "id": "l5v06", "term": "das Basketballspiel", "translation": "el partido de baloncesto", "partOfSpeech": "noun", "gender": "das", "plural": "die Basketballspiele", "example": "Wir gehen zum Basketballspiel." },
+        { "id": "l5v07", "term": "das Ticket", "translation": "la entrada", "partOfSpeech": "noun", "gender": "das", "plural": "die Tickets", "example": "Ich habe zwei Tickets gekauft." },
+        { "id": "l5v08", "term": "seit", "translation": "desde", "partOfSpeech": "phrase", "example": "Ich spiele seit einem Jahr Basketball." },
+        { "id": "l5v09", "term": "vor", "translation": "hace (tiempo)", "partOfSpeech": "phrase", "example": "Vor einer Woche war ich im Stadion." },
+        { "id": "l5v10", "term": "bis", "translation": "hasta", "partOfSpeech": "phrase", "example": "Das Spiel dauert bis 22 Uhr." },
+        { "id": "l5v11", "term": "der Vorschlag", "translation": "la propuesta", "partOfSpeech": "noun", "gender": "der", "plural": "die Vorschläge", "example": "Ich habe einen Vorschlag." },
+        { "id": "l5v12", "term": "vorschlagen", "translation": "proponer", "partOfSpeech": "verb", "example": "Ich schlage vor, ins Kino zu gehen." },
+        { "id": "l5v13", "term": "zustimmen", "translation": "estar de acuerdo", "partOfSpeech": "verb", "example": "Sie stimmt meinem Vorschlag zu." },
+        { "id": "l5v14", "term": "ablehnen", "translation": "rechazar", "partOfSpeech": "verb", "example": "Er lehnt den Vorschlag ab." },
+        { "id": "l5v15", "term": "die Mannschaft", "translation": "el equipo", "partOfSpeech": "noun", "gender": "die", "plural": "die Mannschaften", "example": "Unsere Mannschaft hat gewonnen." },
+        { "id": "l5v16", "term": "gespannt", "translation": "expectante", "partOfSpeech": "adjective", "example": "Ich bin gespannt auf das Spiel." }
+      ],
+      "practice": {
+        "easy": [
+          { "id": "l5e01", "type": "multiple-choice", "instruction": "Wähle die richtige Präposition.", "prompt": "Ich spiele ___ einem Jahr Basketball.", "options": ["seit", "vor", "bis", "ab"], "solution": "seit", "hint": "Zeitspanne, die bis jetzt andauert.", "explanation": "'seit' beschreibt eine Zeitspanne, die bis jetzt andauert." },
+          { "id": "l5e02", "type": "multiple-choice", "instruction": "Wähle die richtige Präposition.", "prompt": "___ einer Woche war ich im Stadion.", "options": ["Vor", "Seit", "Bis", "Ab"], "solution": "Vor", "hint": "Einmaliger Zeitpunkt in der Vergangenheit.", "explanation": "'vor' + Dativ bezeichnet einen abgeschlossenen Zeitpunkt in der Vergangenheit." },
+          { "id": "l5e03", "type": "multiple-choice", "instruction": "Wähle die richtige Präposition.", "prompt": "Das Spiel dauert ___ 22 Uhr.", "options": ["bis", "seit", "vor", "nach"], "solution": "bis", "hint": "Endzeitpunkt.", "explanation": "'bis' bezeichnet den Endzeitpunkt einer Handlung." },
+          { "id": "l5e04", "type": "multiple-choice", "instruction": "Wähle das passende Adjektiv.", "prompt": "Das Spiel war toll! Ich bin total ___.", "options": ["begeistert", "enttäuscht", "traurig", "müde"], "solution": "begeistert", "hint": "Positive Reaktion.", "explanation": "'begeistert' drückt eine positive, enthusiastische Reaktion aus." },
+          { "id": "l5e05", "type": "multiple-choice", "instruction": "Wähle das passende Adjektiv.", "prompt": "Sabine ist ___, weil ihre Mannschaft verloren hat.", "options": ["enttäuscht", "begeistert", "zufrieden", "froh"], "solution": "enttäuscht", "hint": "Negative Reaktion auf eine Niederlage.", "explanation": "'enttäuscht' drückt aus, dass eine Erwartung nicht erfüllt wurde." },
+          { "id": "l5e06", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Mannschaft", "options": ["der", "die", "das"], "solution": "die", "hint": "'Mannschaft' ist feminin.", "explanation": "'Mannschaft' ist feminin: die Mannschaft." },
+          { "id": "l5e07", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Vorschlag", "options": ["der", "die", "das"], "solution": "der", "hint": "'Vorschlag' ist maskulin.", "explanation": "'Vorschlag' ist maskulin: der Vorschlag." },
+          { "id": "l5e08", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Sie ___ meinem Vorschlag zu.", "options": ["stimmt", "stimme", "stimmst", "stimmen"], "solution": "stimmt", "hint": "3. Person Singular.", "explanation": "Die 'sie'-Form von 'zustimmen' lautet 'stimmt ... zu'." },
+          { "id": "l5e09", "type": "fill-in-blank", "instruction": "Ergänze das Verb.", "prompt": "Ich ___ einen Ausflug vor. (vorschlagen)", "solution": "schlage", "hint": "Trennbares Verb, 'ich'-Form.", "explanation": "Die 'ich'-Form von 'vorschlagen' lautet 'schlage ... vor'." },
+          { "id": "l5e10", "type": "fill-in-blank", "instruction": "Ergänze das Verb.", "prompt": "Er ___ den Vorschlag ab. (ablehnen)", "solution": "lehnt", "hint": "Trennbares Verb, 'er'-Form.", "explanation": "Die 'er'-Form von 'ablehnen' lautet 'lehnt ... ab'." }
+        ],
+        "medium": [
+          { "id": "l5m01", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "spiele", "seit", "einem", "Jahr", "Basketball"], "solution": "Ich spiele seit einem Jahr Basketball.", "hint": "Verb an Position 2.", "explanation": "Das konjugierte Verb steht an Position 2." },
+          { "id": "l5m02", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Vor", "einer", "Woche", "war", "ich", "im", "Stadion"], "solution": "Vor einer Woche war ich im Stadion.", "hint": "Zeitangabe an Position 1, Verb an Position 2.", "explanation": "Steht die Zeitangabe am Satzanfang, folgt sofort das konjugierte Verb." },
+          { "id": "l5m03", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Das", "Spiel", "dauert", "bis", "22", "Uhr"], "solution": "Das Spiel dauert bis 22 Uhr.", "hint": "Verb an Position 2.", "explanation": "Das konjugierte Verb steht an Position 2." },
+          { "id": "l5m04", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Unsere", "Mannschaft", "hat", "gewonnen"], "solution": "Unsere Mannschaft hat gewonnen.", "hint": "Verb an Position 2.", "explanation": "Im Perfekt steht das Hilfsverb an Position 2." },
+          { "id": "l5m05", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "schlage", "einen", "Ausflug", "vor"], "solution": "Ich schlage einen Ausflug vor.", "hint": "Trennbares Verb: Präfix am Satzende.", "explanation": "Bei trennbaren Verben steht das Präfix 'vor' am Satzende." },
+          { "id": "l5m06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Sie", "stimmt", "meinem", "Vorschlag", "zu"], "solution": "Sie stimmt meinem Vorschlag zu.", "hint": "Trennbares Verb: Präfix am Satzende.", "explanation": "Bei trennbaren Verben steht das Präfix 'zu' am Satzende." },
+          { "id": "l5m07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Wir ___ (spielen) seit zwei Jahren zusammen.", "solution": "spielen", "hint": "'wir'-Form.", "explanation": "Die 'wir'-Form von 'spielen' lautet 'spielen'." },
+          { "id": "l5m08", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Er ___ (ablehnen) meinen Vorschlag.", "solution": "lehnt", "hint": "Trennbares Verb, 'er'-Form.", "explanation": "Die 'er'-Form von 'ablehnen' lautet 'lehnt ... ab'." },
+          { "id": "l5m09", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Ich ___ (zustimmen) deiner Idee.", "solution": "stimme", "hint": "Trennbares Verb, 'ich'-Form.", "explanation": "Die 'ich'-Form von 'zustimmen' lautet 'stimme ... zu'." },
+          { "id": "l5m10", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Das Spiel ___ (dauern) bis 22 Uhr.", "solution": "dauert", "hint": "3. Person Singular.", "explanation": "Die 'es'-Form von 'dauern' lautet 'dauert'." }
+        ],
+        "hard": [
+          { "id": "l5h01", "type": "targeted-transformation", "instruction": "Bilde die passende Frage.", "prompt": "Ich spiele seit einem Jahr Basketball. (Frage nach der Zeitspanne)", "solution": "Seit wann spielst du Basketball?", "hint": "Fragewort 'seit wann'.", "explanation": "'Seit wann' fragt nach dem Beginn einer andauernden Zeitspanne." },
+          { "id": "l5h02", "type": "targeted-transformation", "instruction": "Bilde die passende Frage.", "prompt": "Das Spiel beginnt um 20 Uhr. (Frage nach dem Zeitpunkt)", "solution": "Wann beginnt das Spiel?", "hint": "Fragewort 'wann'.", "explanation": "'Wann' fragt nach einem konkreten Zeitpunkt." },
+          { "id": "l5h03", "type": "targeted-transformation", "instruction": "Bilde die passende Frage.", "prompt": "Das Spiel dauert zwei Stunden. (Frage nach der Dauer)", "solution": "Wie lange dauert das Spiel?", "hint": "Fragewort 'wie lange'.", "explanation": "'Wie lange' fragt nach der Dauer einer Handlung." },
+          { "id": "l5h04", "type": "targeted-transformation", "instruction": "Formuliere den Satz als Vorschlag.", "prompt": "Wir gehen ins Kino.", "solution": "Ich schlage vor, ins Kino zu gehen.", "hint": "'vorschlagen' + zu + Infinitiv.", "explanation": "Ein Vorschlag lässt sich mit 'ich schlage vor, ... zu ...' formulieren." },
+          { "id": "l5h05", "type": "targeted-transformation", "instruction": "Verneine den Satz.", "prompt": "Sie stimmt meinem Vorschlag zu.", "solution": "Sie stimmt meinem Vorschlag nicht zu.", "hint": "'nicht' steht vor dem trennbaren Präfix.", "explanation": "Bei trennbaren Verben steht 'nicht' meist direkt vor dem Präfix: stimmt nicht zu." },
+          { "id": "l5h06", "type": "targeted-transformation", "instruction": "Bilde die passende Frage.", "prompt": "Ich spiele seit zwei Jahren Volleyball. (Frage nach der Zeitspanne)", "solution": "Seit wann spielst du Volleyball?", "hint": "Fragewort 'seit wann'.", "explanation": "'Seit wann' fragt nach dem Beginn einer andauernden Zeitspanne." },
+          { "id": "l5h07", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich spiele vor einem Jahr Basketball.", "solution": "Ich spiele seit einem Jahr Basketball.", "hint": "Andauernde Zeitspanne braucht 'seit'.", "explanation": "Für eine bis jetzt andauernde Zeitspanne verwendet man 'seit', nicht 'vor'." },
+          { "id": "l5h08", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Seit einer Woche war ich im Stadion.", "solution": "Vor einer Woche war ich im Stadion.", "hint": "Einmaliger Zeitpunkt in der Vergangenheit braucht 'vor'.", "explanation": "Für einen abgeschlossenen Zeitpunkt in der Vergangenheit verwendet man 'vor', nicht 'seit'." },
+          { "id": "l5h09", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Das Spiel dauert seit 22 Uhr.", "solution": "Das Spiel dauert bis 22 Uhr.", "hint": "Endzeitpunkt braucht 'bis'.", "explanation": "Für einen Endzeitpunkt verwendet man 'bis', nicht 'seit'." },
+          { "id": "l5h10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Sie stimmt meinem Vorschlag.", "solution": "Sie stimmt meinem Vorschlag zu.", "hint": "'zustimmen' ist trennbar.", "explanation": "'zustimmen' ist ein trennbares Verb; das 'zu' darf am Satzende nicht fehlen." }
+        ]
+      },
+      "test": [
+        { "id": "l5t01", "type": "multiple-choice", "instruction": "Wähle die richtige Präposition.", "prompt": "Ich spiele ___ einem Jahr Basketball.", "options": ["seit", "vor", "bis", "ab"], "solution": "seit", "explanation": "'seit' beschreibt eine Zeitspanne, die bis jetzt andauert." },
+        { "id": "l5t02", "type": "multiple-choice", "instruction": "Wähle die richtige Präposition.", "prompt": "___ einer Woche war ich im Stadion.", "options": ["Vor", "Seit", "Bis", "Ab"], "solution": "Vor", "explanation": "'vor' bezeichnet einen abgeschlossenen Zeitpunkt in der Vergangenheit." },
+        { "id": "l5t03", "type": "targeted-transformation", "instruction": "Bilde die passende Frage.", "prompt": "Ich spiele seit einem Jahr Basketball. (Frage nach der Zeitspanne)", "solution": "Seit wann spielst du Basketball?", "explanation": "'Seit wann' fragt nach dem Beginn einer andauernden Zeitspanne." },
+        { "id": "l5t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Mannschaft", "options": ["der", "die", "das"], "solution": "die", "explanation": "'Mannschaft' ist feminin: die Mannschaft." },
+        { "id": "l5t05", "type": "multiple-choice", "instruction": "Wähle das passende Adjektiv.", "prompt": "Sabine ist ___, weil ihre Mannschaft verloren hat.", "options": ["enttäuscht", "begeistert", "zufrieden", "froh"], "solution": "enttäuscht", "explanation": "'enttäuscht' drückt aus, dass eine Erwartung nicht erfüllt wurde." },
+        { "id": "l5t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Unsere", "Mannschaft", "hat", "gewonnen"], "solution": "Unsere Mannschaft hat gewonnen.", "explanation": "Im Perfekt steht das Hilfsverb an Position 2." },
+        { "id": "l5t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Das Spiel ___ (dauern) bis 22 Uhr.", "solution": "dauert", "explanation": "Die 'es'-Form von 'dauern' lautet 'dauert'." },
+        { "id": "l5t08", "type": "targeted-transformation", "instruction": "Bilde die passende Frage.", "prompt": "Das Spiel dauert zwei Stunden. (Frage nach der Dauer)", "solution": "Wie lange dauert das Spiel?", "explanation": "'Wie lange' fragt nach der Dauer einer Handlung." },
+        { "id": "l5t09", "type": "targeted-transformation", "instruction": "Verneine den Satz.", "prompt": "Sie stimmt meinem Vorschlag zu.", "solution": "Sie stimmt meinem Vorschlag nicht zu.", "explanation": "Bei trennbaren Verben steht 'nicht' meist direkt vor dem Präfix." },
+        { "id": "l5t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich spiele vor einem Jahr Basketball.", "solution": "Ich spiele seit einem Jahr Basketball.", "explanation": "Für eine bis jetzt andauernde Zeitspanne verwendet man 'seit', nicht 'vor'." }
+      ]
+    },
+    {
+      "lektionId": "a2-m2-l6",
+      "level": "A2",
+      "modulNumber": 2,
+      "lektionNumber": 6,
+      "title": "Fitness",
+      "grammarFocus": [
+        "Konjunktiv II: sollte (Ratschlag)",
+        "Konjunktiv II: könnte (Vorschlag)"
+      ],
+      "vocabulary": [
+        { "id": "l6v01", "term": "das Fitness-Programm", "translation": "el programa de ejercicio", "partOfSpeech": "noun", "gender": "das", "plural": "die Fitness-Programme", "example": "Ich starte mein Fitness-Programm." },
+        { "id": "l6v02", "term": "trainieren", "translation": "entrenar", "partOfSpeech": "verb", "example": "Ich trainiere jeden Tag." },
+        { "id": "l6v03", "term": "der Sport", "translation": "el deporte", "partOfSpeech": "noun", "gender": "der", "example": "Ich mache gern Sport." },
+        { "id": "l6v04", "term": "schlafen", "translation": "dormir", "partOfSpeech": "verb", "example": "Ich habe nur fünf Stunden geschlafen." },
+        { "id": "l6v05", "term": "der Ratschlag", "translation": "el consejo", "partOfSpeech": "noun", "gender": "der", "plural": "die Ratschläge", "example": "Ich habe einen guten Ratschlag." },
+        { "id": "l6v06", "term": "sollte", "translation": "debería", "partOfSpeech": "phrase", "example": "Du solltest mehr trainieren." },
+        { "id": "l6v07", "term": "könnte", "translation": "podría", "partOfSpeech": "phrase", "example": "Du könntest früher ins Bett gehen." },
+        { "id": "l6v08", "term": "der Urlaub", "translation": "las vacaciones", "partOfSpeech": "noun", "gender": "der", "plural": "die Urlaube", "example": "Du solltest mal Urlaub machen." },
+        { "id": "l6v09", "term": "verdoppeln", "translation": "duplicar", "partOfSpeech": "verb", "example": "Wir könnten die Trainingseinheiten verdoppeln." },
+        { "id": "l6v10", "term": "das Team", "translation": "el equipo", "partOfSpeech": "noun", "gender": "das", "plural": "die Teams", "example": "Er macht Sport im Team." },
+        { "id": "l6v11", "term": "das Volleyball", "translation": "el vóley", "partOfSpeech": "noun", "gender": "das", "example": "Er spielt gern Volleyball." },
+        { "id": "l6v12", "term": "das Tischtennis", "translation": "el tenis de mesa", "partOfSpeech": "noun", "gender": "das", "example": "Sie spielt Tischtennis." },
+        { "id": "l6v13", "term": "joggen", "translation": "hacer footing", "partOfSpeech": "verb", "example": "Ich gehe joggen." },
+        { "id": "l6v14", "term": "das Yoga", "translation": "el yoga", "partOfSpeech": "noun", "gender": "das", "example": "Sie macht gern Yoga." },
+        { "id": "l6v15", "term": "früh", "translation": "temprano", "partOfSpeech": "adverb", "example": "Geh abends früher ins Bett." },
+        { "id": "l6v16", "term": "dringend", "translation": "urgente", "partOfSpeech": "adjective", "example": "Du brauchst dringend mehr Schlaf." }
+      ],
+      "practice": {
+        "easy": [
+          { "id": "l6e01", "type": "multiple-choice", "instruction": "Wähle die richtige Konjunktiv-II-Form.", "prompt": "Du ___ mehr trainieren.", "options": ["solltest", "sollst", "solltet", "sollten"], "solution": "solltest", "hint": "Konjunktiv II von 'sollen', 'du'-Form.", "explanation": "Die 'du'-Form von 'sollen' im Konjunktiv II lautet 'solltest'." },
+          { "id": "l6e02", "type": "multiple-choice", "instruction": "Wähle die richtige Konjunktiv-II-Form.", "prompt": "Wir ___ die Trainingseinheiten verdoppeln.", "options": ["könnten", "können", "konntet", "könntest"], "solution": "könnten", "hint": "Konjunktiv II von 'können', 'wir'-Form.", "explanation": "Die 'wir'-Form von 'können' im Konjunktiv II lautet 'könnten'." },
+          { "id": "l6e03", "type": "multiple-choice", "instruction": "Wähle die richtige Konjunktiv-II-Form.", "prompt": "Du ___ mal Urlaub machen.", "options": ["solltest", "sollst", "sollte", "sollten"], "solution": "solltest", "hint": "'du'-Form.", "explanation": "Die 'du'-Form von 'sollen' im Konjunktiv II lautet 'solltest'." },
+          { "id": "l6e04", "type": "multiple-choice", "instruction": "Wähle die richtige Konjunktiv-II-Form.", "prompt": "Ich ___ heute Abend joggen gehen.", "options": ["könnte", "kann", "konnte", "könnten"], "solution": "könnte", "hint": "'ich'-Form.", "explanation": "Die 'ich'-Form von 'können' im Konjunktiv II lautet 'könnte'." },
+          { "id": "l6e05", "type": "fill-in-blank", "instruction": "Ergänze die Konjunktiv-II-Form.", "prompt": "Du ___ abends früher ins Bett gehen. (sollen, Ratschlag)", "solution": "solltest", "hint": "'du'-Form.", "explanation": "Die 'du'-Form von 'sollen' im Konjunktiv II lautet 'solltest'." },
+          { "id": "l6e06", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Ratschlag", "options": ["der", "die", "das"], "solution": "der", "hint": "'Ratschlag' ist maskulin.", "explanation": "'Ratschlag' ist maskulin: der Ratschlag." },
+          { "id": "l6e07", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Urlaub", "options": ["der", "die", "das"], "solution": "der", "hint": "'Urlaub' ist maskulin.", "explanation": "'Urlaub' ist maskulin: der Urlaub." },
+          { "id": "l6e08", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Ich ___ jeden Tag.", "options": ["trainiere", "trainierst", "trainiert", "trainieren"], "solution": "trainiere", "hint": "'ich'-Form.", "explanation": "Die 'ich'-Form von 'trainieren' lautet 'trainiere'." },
+          { "id": "l6e09", "type": "fill-in-blank", "instruction": "Ergänze das Partizip II.", "prompt": "Ich habe nur fünf Stunden ___. (schlafen)", "solution": "geschlafen", "hint": "Unregelmäßiges Verb.", "explanation": "Das Partizip II von 'schlafen' lautet 'geschlafen'." },
+          { "id": "l6e10", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Du brauchst ___ mehr Schlaf.", "options": ["dringend", "früh", "gern", "sehr"], "solution": "dringend", "hint": "Betont die Dringlichkeit.", "explanation": "'dringend' betont, wie notwendig etwas ist." }
+        ],
+        "medium": [
+          { "id": "l6m01", "type": "sentence-scramble", "instruction": "Bilde einen Satz mit einem Ratschlag.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Du", "solltest", "mehr", "trainieren"], "solution": "Du solltest mehr trainieren.", "hint": "Konjunktiv II an Position 2.", "explanation": "Das Modalverb im Konjunktiv II steht an Position 2, der Infinitiv am Ende." },
+          { "id": "l6m02", "type": "sentence-scramble", "instruction": "Bilde einen Satz mit einem Vorschlag.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Wir", "könnten", "die", "Trainingseinheiten", "verdoppeln"], "solution": "Wir könnten die Trainingseinheiten verdoppeln.", "hint": "Konjunktiv II an Position 2.", "explanation": "Das Modalverb im Konjunktiv II steht an Position 2, der Infinitiv am Ende." },
+          { "id": "l6m03", "type": "sentence-scramble", "instruction": "Bilde einen Satz mit einem Ratschlag.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Du", "solltest", "mal", "Urlaub", "machen"], "solution": "Du solltest mal Urlaub machen.", "hint": "Konjunktiv II an Position 2.", "explanation": "Das Modalverb im Konjunktiv II steht an Position 2, der Infinitiv am Ende." },
+          { "id": "l6m04", "type": "sentence-scramble", "instruction": "Bilde einen Satz mit einem Vorschlag.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "könnte", "heute", "Abend", "joggen", "gehen"], "solution": "Ich könnte heute Abend joggen gehen.", "hint": "Konjunktiv II an Position 2.", "explanation": "Das Modalverb im Konjunktiv II steht an Position 2, der Infinitiv am Ende." },
+          { "id": "l6m05", "type": "sentence-scramble", "instruction": "Bilde einen Satz mit einem Ratschlag.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Du", "solltest", "abends", "früher", "ins", "Bett", "gehen"], "solution": "Du solltest abends früher ins Bett gehen.", "hint": "Konjunktiv II an Position 2.", "explanation": "Das Modalverb im Konjunktiv II steht an Position 2, der Infinitiv am Ende." },
+          { "id": "l6m06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Er", "macht", "gern", "Sport", "im", "Team"], "solution": "Er macht gern Sport im Team.", "hint": "Verb an Position 2.", "explanation": "Das konjugierte Verb steht an Position 2." },
+          { "id": "l6m07", "type": "cloze-conjugation", "instruction": "Bilde die Konjunktiv-II-Form.", "prompt": "Du ___ (sollen) mehr Wasser trinken.", "solution": "solltest", "hint": "'du'-Form.", "explanation": "Die 'du'-Form von 'sollen' im Konjunktiv II lautet 'solltest'." },
+          { "id": "l6m08", "type": "cloze-conjugation", "instruction": "Bilde die Konjunktiv-II-Form.", "prompt": "Ihr ___ (können) auch Yoga machen.", "solution": "könntet", "hint": "'ihr'-Form.", "explanation": "Die 'ihr'-Form von 'können' im Konjunktiv II lautet 'könntet'." },
+          { "id": "l6m09", "type": "cloze-conjugation", "instruction": "Bilde die Konjunktiv-II-Form.", "prompt": "Sie ___ (sollen) weniger Stress haben.", "solution": "sollte", "hint": "3. Person Singular.", "explanation": "Die 'sie'-Form von 'sollen' im Konjunktiv II lautet 'sollte'." },
+          { "id": "l6m10", "type": "cloze-conjugation", "instruction": "Bilde die Konjunktiv-II-Form.", "prompt": "Wir ___ (können) zusammen trainieren.", "solution": "könnten", "hint": "'wir'-Form.", "explanation": "Die 'wir'-Form von 'können' im Konjunktiv II lautet 'könnten'." }
+        ],
+        "hard": [
+          { "id": "l6h01", "type": "targeted-transformation", "instruction": "Gib einen Ratschlag mit 'sollen'.", "prompt": "Er trainiert zu wenig.", "solution": "Er sollte mehr trainieren.", "hint": "Konjunktiv II von 'sollen'.", "explanation": "Ratschläge formuliert man mit dem Konjunktiv II von 'sollen'." },
+          { "id": "l6h02", "type": "targeted-transformation", "instruction": "Gib einen Vorschlag mit 'können'.", "prompt": "Wir machen zusammen Sport.", "solution": "Wir könnten zusammen Sport machen.", "hint": "Konjunktiv II von 'können'.", "explanation": "Vorschläge formuliert man mit dem Konjunktiv II von 'können'." },
+          { "id": "l6h03", "type": "targeted-transformation", "instruction": "Gib einen Ratschlag mit 'sollen'.", "prompt": "Sie schläft zu wenig.", "solution": "Sie sollte mehr schlafen.", "hint": "Konjunktiv II von 'sollen'.", "explanation": "Ratschläge formuliert man mit dem Konjunktiv II von 'sollen'." },
+          { "id": "l6h04", "type": "targeted-transformation", "instruction": "Gib einen Vorschlag mit 'können'.", "prompt": "Ich mache Yoga.", "solution": "Ich könnte Yoga machen.", "hint": "Konjunktiv II von 'können'.", "explanation": "Vorschläge formuliert man mit dem Konjunktiv II von 'können'." },
+          { "id": "l6h05", "type": "targeted-transformation", "instruction": "Gib einen Ratschlag mit 'sollen'.", "prompt": "Du machst nie Pause.", "solution": "Du solltest öfter Pause machen.", "hint": "Konjunktiv II von 'sollen'.", "explanation": "Ratschläge formuliert man mit dem Konjunktiv II von 'sollen'." },
+          { "id": "l6h06", "type": "targeted-transformation", "instruction": "Gib einen Vorschlag mit 'können'.", "prompt": "Wir verdoppeln die Trainingseinheiten.", "solution": "Wir könnten die Trainingseinheiten verdoppeln.", "hint": "Konjunktiv II von 'können'.", "explanation": "Vorschläge formuliert man mit dem Konjunktiv II von 'können'." },
+          { "id": "l6h07", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Du sollen mehr trainieren.", "solution": "Du solltest mehr trainieren.", "hint": "Konjunktiv-II-Form von 'sollen', 'du'-Form.", "explanation": "Die richtige Konjunktiv-II-Form für 'du' ist 'solltest', nicht 'sollen'." },
+          { "id": "l6h08", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Wir könnt die Einheiten verdoppeln.", "solution": "Wir könnten die Einheiten verdoppeln.", "hint": "Konjunktiv-II-Form von 'können', 'wir'-Form.", "explanation": "Die richtige Konjunktiv-II-Form für 'wir' ist 'könnten', nicht 'könnt'." },
+          { "id": "l6h09", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich könnte gehen joggen.", "solution": "Ich könnte joggen gehen.", "hint": "'joggen gehen' bleibt am Satzende zusammen.", "explanation": "Der feste Ausdruck 'joggen gehen' steht als Einheit am Satzende." },
+          { "id": "l6h10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Du solltest Urlaub gemacht.", "solution": "Du solltest Urlaub machen.", "hint": "Nach dem Modalverb steht der Infinitiv.", "explanation": "Nach einem Modalverb im Konjunktiv II steht der Infinitiv, nicht das Partizip II." }
+        ]
+      },
+      "test": [
+        { "id": "l6t01", "type": "multiple-choice", "instruction": "Wähle die richtige Konjunktiv-II-Form.", "prompt": "Du ___ mehr trainieren.", "options": ["solltest", "sollst", "solltet", "sollten"], "solution": "solltest", "explanation": "Die 'du'-Form von 'sollen' im Konjunktiv II lautet 'solltest'." },
+        { "id": "l6t02", "type": "multiple-choice", "instruction": "Wähle die richtige Konjunktiv-II-Form.", "prompt": "Wir ___ die Trainingseinheiten verdoppeln.", "options": ["könnten", "können", "konntet", "könntest"], "solution": "könnten", "explanation": "Die 'wir'-Form von 'können' im Konjunktiv II lautet 'könnten'." },
+        { "id": "l6t03", "type": "fill-in-blank", "instruction": "Ergänze die Konjunktiv-II-Form.", "prompt": "Du ___ abends früher ins Bett gehen. (sollen, Ratschlag)", "solution": "solltest", "explanation": "Die 'du'-Form von 'sollen' im Konjunktiv II lautet 'solltest'." },
+        { "id": "l6t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Urlaub", "options": ["der", "die", "das"], "solution": "der", "explanation": "'Urlaub' ist maskulin: der Urlaub." },
+        { "id": "l6t05", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Ich ___ jeden Tag.", "options": ["trainiere", "trainierst", "trainiert", "trainieren"], "solution": "trainiere", "explanation": "Die 'ich'-Form von 'trainieren' lautet 'trainiere'." },
+        { "id": "l6t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz mit einem Ratschlag.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Du", "solltest", "mal", "Urlaub", "machen"], "solution": "Du solltest mal Urlaub machen.", "explanation": "Das Modalverb im Konjunktiv II steht an Position 2, der Infinitiv am Ende." },
+        { "id": "l6t07", "type": "cloze-conjugation", "instruction": "Bilde die Konjunktiv-II-Form.", "prompt": "Sie ___ (sollen) weniger Stress haben.", "solution": "sollte", "explanation": "Die 'sie'-Form von 'sollen' im Konjunktiv II lautet 'sollte'." },
+        { "id": "l6t08", "type": "targeted-transformation", "instruction": "Gib einen Ratschlag mit 'sollen'.", "prompt": "Sie schläft zu wenig.", "solution": "Sie sollte mehr schlafen.", "explanation": "Ratschläge formuliert man mit dem Konjunktiv II von 'sollen'." },
+        { "id": "l6t09", "type": "targeted-transformation", "instruction": "Gib einen Vorschlag mit 'können'.", "prompt": "Ich mache Yoga.", "solution": "Ich könnte Yoga machen.", "explanation": "Vorschläge formuliert man mit dem Konjunktiv II von 'können'." },
+        { "id": "l6t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Du sollen mehr trainieren.", "solution": "Du solltest mehr trainieren.", "explanation": "Die richtige Konjunktiv-II-Form für 'du' ist 'solltest', nicht 'sollen'." }
+      ]
+    }
+  ]
+}

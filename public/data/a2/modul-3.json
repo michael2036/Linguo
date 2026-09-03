@@ -1,0 +1,245 @@
+{
+  "modulId": "a2-m3",
+  "level": "A2",
+  "modulNumber": 3,
+  "title": "Meinung und Orientierung",
+  "lektionen": [
+    {
+      "lektionId": "a2-m3-l7",
+      "level": "A2",
+      "modulNumber": 3,
+      "lektionNumber": 7,
+      "title": "Meine Meinung",
+      "grammarFocus": [
+        "dass-Sätze: Verb am Satzende",
+        "Meinung äußern: finden, glauben, denken, hoffen"
+      ],
+      "vocabulary": [
+        { "id": "l7v01", "term": "die Meinung", "translation": "la opinión", "partOfSpeech": "noun", "gender": "die", "plural": "die Meinungen", "example": "Ich sage meine Meinung." },
+        { "id": "l7v02", "term": "finden", "translation": "opinar / encontrar", "partOfSpeech": "verb", "example": "Ich finde, dass Deutsch schwer ist." },
+        { "id": "l7v03", "term": "glauben", "translation": "creer", "partOfSpeech": "verb", "example": "Ich glaube, dass er recht hat." },
+        { "id": "l7v04", "term": "denken", "translation": "pensar", "partOfSpeech": "verb", "example": "Ich denke, dass das eine gute Idee ist." },
+        { "id": "l7v05", "term": "die Idee", "translation": "la idea", "partOfSpeech": "noun", "gender": "die", "plural": "die Ideen", "example": "Das ist eine gute Idee." },
+        { "id": "l7v06", "term": "wichtig", "translation": "importante", "partOfSpeech": "adjective", "example": "Es ist wichtig, dass wir pünktlich sind." },
+        { "id": "l7v07", "term": "der Vorteil", "translation": "la ventaja", "partOfSpeech": "noun", "gender": "der", "plural": "die Vorteile", "example": "Ein Vorteil ist, dass es günstig ist." },
+        { "id": "l7v08", "term": "der Nachteil", "translation": "la desventaja", "partOfSpeech": "noun", "gender": "der", "plural": "die Nachteile", "example": "Ein Nachteil ist, dass es lange dauert." },
+        { "id": "l7v09", "term": "hoffen", "translation": "esperar", "partOfSpeech": "verb", "example": "Ich hoffe, dass es klappt." },
+        { "id": "l7v10", "term": "schade", "translation": "una pena", "partOfSpeech": "adjective", "example": "Es ist schade, dass du nicht kommst." },
+        { "id": "l7v11", "term": "sicher", "translation": "seguro", "partOfSpeech": "adjective", "example": "Ich bin sicher, dass sie kommt." },
+        { "id": "l7v12", "term": "die Ansicht", "translation": "el punto de vista", "partOfSpeech": "noun", "gender": "die", "plural": "die Ansichten", "example": "Meiner Ansicht nach ist das richtig." },
+        { "id": "l7v13", "term": "recht haben", "translation": "tener razón", "partOfSpeech": "phrase", "example": "Ich glaube, dass er recht hat." },
+        { "id": "l7v14", "term": "bezweifeln", "translation": "dudar", "partOfSpeech": "verb", "example": "Ich bezweifle, dass das stimmt." },
+        { "id": "l7v15", "term": "überzeugt", "translation": "convencido", "partOfSpeech": "adjective", "example": "Ich bin überzeugt, dass es funktioniert." },
+        { "id": "l7v16", "term": "die Erfahrung", "translation": "la experiencia", "partOfSpeech": "noun", "gender": "die", "plural": "die Erfahrungen", "example": "Ich finde, dass Erfahrung wichtig ist." }
+      ],
+      "practice": {
+        "easy": [
+          { "id": "l7e01", "type": "multiple-choice", "instruction": "Wähle den passenden Konnektor.", "prompt": "Ich finde, ___ Deutsch nicht so schwer ist.", "options": ["dass", "weil", "wenn", "ob"], "solution": "dass", "hint": "Leitet eine Meinung ein.", "explanation": "'dass' leitet einen Nebensatz mit einer Meinung oder Aussage ein." },
+          { "id": "l7e02", "type": "multiple-choice", "instruction": "Wähle den passenden Konnektor.", "prompt": "Es ist wichtig, ___ wir pünktlich sind.", "options": ["dass", "weil", "wenn", "deshalb"], "solution": "dass", "hint": "Leitet eine Aussage ein.", "explanation": "'dass' leitet hier den Nebensatz nach 'es ist wichtig' ein." },
+          { "id": "l7e03", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Ich glaube, dass er recht ___.", "options": ["hat", "hatte", "haben", "habt"], "solution": "hat", "hint": "Verb am Satzende im dass-Satz.", "explanation": "Im dass-Satz steht das konjugierte Verb am Ende." },
+          { "id": "l7e04", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Ich ___, dass das eine gute Idee ist.", "options": ["denke", "denkst", "denkt", "denken"], "solution": "denke", "hint": "'ich'-Form.", "explanation": "Die 'ich'-Form von 'denken' lautet 'denke'." },
+          { "id": "l7e05", "type": "fill-in-blank", "instruction": "Ergänze den Konnektor.", "prompt": "Ich hoffe, ___ es klappt.", "solution": "dass", "hint": "Leitet eine Aussage ein.", "explanation": "'dass' leitet hier den Nebensatz nach 'ich hoffe' ein." },
+          { "id": "l7e06", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Meinung", "options": ["der", "die", "das"], "solution": "die", "hint": "'Meinung' ist feminin.", "explanation": "'Meinung' ist feminin: die Meinung." },
+          { "id": "l7e07", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Vorteil", "options": ["der", "die", "das"], "solution": "der", "hint": "'Vorteil' ist maskulin.", "explanation": "'Vorteil' ist maskulin: der Vorteil." },
+          { "id": "l7e08", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Ich bin ___, dass sie kommt.", "options": ["sicher", "schade", "wichtig", "froh"], "solution": "sicher", "hint": "Drückt Gewissheit aus.", "explanation": "'sicher sein, dass ...' drückt Gewissheit über eine Aussage aus." },
+          { "id": "l7e09", "type": "fill-in-blank", "instruction": "Konjugiere das Verb.", "prompt": "Ein Nachteil ist, dass es lange ___. (dauern)", "solution": "dauert", "hint": "3. Person Singular.", "explanation": "Die 'es'-Form von 'dauern' lautet 'dauert'." },
+          { "id": "l7e10", "type": "fill-in-blank", "instruction": "Konjugiere das Verb.", "prompt": "Es ist schade, dass du nicht ___. (kommen)", "solution": "kommst", "hint": "'du'-Form.", "explanation": "Die 'du'-Form von 'kommen' lautet 'kommst'." }
+        ],
+        "medium": [
+          { "id": "l7m01", "type": "sentence-scramble", "instruction": "Bilde einen Satz mit 'dass'.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "finde,", "dass", "Deutsch", "nicht", "so", "schwer", "ist"], "solution": "Ich finde, dass Deutsch nicht so schwer ist.", "hint": "Verb am Ende des dass-Satzes.", "explanation": "Im dass-Satz steht das konjugierte Verb ganz am Ende: dass ... ist." },
+          { "id": "l7m02", "type": "sentence-scramble", "instruction": "Bilde einen Satz mit 'dass'.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "glaube,", "dass", "er", "recht", "hat"], "solution": "Ich glaube, dass er recht hat.", "hint": "Verb am Ende des dass-Satzes.", "explanation": "Im dass-Satz steht das konjugierte Verb ganz am Ende: dass ... hat." },
+          { "id": "l7m03", "type": "sentence-scramble", "instruction": "Bilde einen Satz mit 'dass'.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Es", "ist", "wichtig,", "dass", "wir", "pünktlich", "sind"], "solution": "Es ist wichtig, dass wir pünktlich sind.", "hint": "Verb am Ende des dass-Satzes.", "explanation": "Im dass-Satz steht das konjugierte Verb ganz am Ende: dass ... sind." },
+          { "id": "l7m04", "type": "sentence-scramble", "instruction": "Bilde einen Satz mit 'dass'.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ein", "Vorteil", "ist,", "dass", "es", "günstig", "ist"], "solution": "Ein Vorteil ist, dass es günstig ist.", "hint": "Verb am Ende des dass-Satzes.", "explanation": "Im dass-Satz steht das konjugierte Verb ganz am Ende: dass ... ist." },
+          { "id": "l7m05", "type": "sentence-scramble", "instruction": "Bilde einen Satz mit 'dass'.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "hoffe,", "dass", "es", "klappt"], "solution": "Ich hoffe, dass es klappt.", "hint": "Verb am Ende des dass-Satzes.", "explanation": "Im dass-Satz steht das konjugierte Verb ganz am Ende: dass ... klappt." },
+          { "id": "l7m06", "type": "sentence-scramble", "instruction": "Bilde einen Satz mit 'dass'.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "bin", "sicher,", "dass", "sie", "kommt"], "solution": "Ich bin sicher, dass sie kommt.", "hint": "Verb am Ende des dass-Satzes.", "explanation": "Im dass-Satz steht das konjugierte Verb ganz am Ende: dass ... kommt." },
+          { "id": "l7m07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb am Satzende.", "prompt": "Ich finde, dass Erfahrung sehr wichtig ___ (sein).", "solution": "ist", "hint": "3. Person Singular am Satzende.", "explanation": "Im dass-Satz steht das konjugierte Verb 'ist' am Ende." },
+          { "id": "l7m08", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb am Satzende.", "prompt": "Ich glaube, dass er die Idee gut ___ (finden).", "solution": "findet", "hint": "3. Person Singular am Satzende.", "explanation": "Im dass-Satz steht das konjugierte Verb 'findet' am Ende." },
+          { "id": "l7m09", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb am Satzende.", "prompt": "Ich bezweifle, dass das ___ (stimmen).", "solution": "stimmt", "hint": "3. Person Singular am Satzende.", "explanation": "Im dass-Satz steht das konjugierte Verb 'stimmt' am Ende." },
+          { "id": "l7m10", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb am Satzende.", "prompt": "Ein Nachteil ist, dass es lange ___ (dauern).", "solution": "dauert", "hint": "3. Person Singular am Satzende.", "explanation": "Im dass-Satz steht das konjugierte Verb 'dauert' am Ende." }
+        ],
+        "hard": [
+          { "id": "l7h01", "type": "targeted-transformation", "instruction": "Formuliere eine Meinung mit 'dass'.", "prompt": "Deutsch ist nicht so schwer. (ich finde)", "solution": "Ich finde, dass Deutsch nicht so schwer ist.", "hint": "Verb wandert ans Satzende.", "explanation": "Beim Einbetten in einen dass-Satz wandert das konjugierte Verb ans Ende." },
+          { "id": "l7h02", "type": "targeted-transformation", "instruction": "Formuliere eine Meinung mit 'dass'.", "prompt": "Er hat recht. (ich glaube)", "solution": "Ich glaube, dass er recht hat.", "hint": "Verb wandert ans Satzende.", "explanation": "Beim Einbetten in einen dass-Satz wandert das konjugierte Verb ans Ende." },
+          { "id": "l7h03", "type": "targeted-transformation", "instruction": "Formuliere eine Meinung mit 'dass'.", "prompt": "Das ist eine gute Idee. (ich denke)", "solution": "Ich denke, dass das eine gute Idee ist.", "hint": "Verb wandert ans Satzende.", "explanation": "Beim Einbetten in einen dass-Satz wandert das konjugierte Verb ans Ende." },
+          { "id": "l7h04", "type": "targeted-transformation", "instruction": "Formuliere eine Meinung mit 'dass'.", "prompt": "Es klappt. (ich hoffe)", "solution": "Ich hoffe, dass es klappt.", "hint": "Verb wandert ans Satzende.", "explanation": "Beim Einbetten in einen dass-Satz wandert das konjugierte Verb ans Ende." },
+          { "id": "l7h05", "type": "targeted-transformation", "instruction": "Formuliere eine Meinung mit 'dass'.", "prompt": "Erfahrung ist wichtig. (ich finde)", "solution": "Ich finde, dass Erfahrung wichtig ist.", "hint": "Verb wandert ans Satzende.", "explanation": "Beim Einbetten in einen dass-Satz wandert das konjugierte Verb ans Ende." },
+          { "id": "l7h06", "type": "targeted-transformation", "instruction": "Formuliere eine Meinung mit 'dass'.", "prompt": "Das stimmt nicht. (ich bezweifle)", "solution": "Ich bezweifle, dass das stimmt.", "hint": "Verb wandert ans Satzende.", "explanation": "Beim Einbetten in einen dass-Satz wandert das konjugierte Verb ans Ende." },
+          { "id": "l7h07", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich finde, dass Deutsch ist nicht so schwer.", "solution": "Ich finde, dass Deutsch nicht so schwer ist.", "hint": "Im dass-Satz steht das Verb am Ende.", "explanation": "Im dass-Satz muss das konjugierte Verb ganz am Ende stehen." },
+          { "id": "l7h08", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich glaube, dass er hat recht.", "solution": "Ich glaube, dass er recht hat.", "hint": "Im dass-Satz steht das Verb am Ende.", "explanation": "Im dass-Satz muss das konjugierte Verb ganz am Ende stehen." },
+          { "id": "l7h09", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Es ist wichtig, dass wir sind pünktlich.", "solution": "Es ist wichtig, dass wir pünktlich sind.", "hint": "Im dass-Satz steht das Verb am Ende.", "explanation": "Im dass-Satz muss das konjugierte Verb ganz am Ende stehen." },
+          { "id": "l7h10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich bin überzeugt, dass es funktioniert gut.", "solution": "Ich bin überzeugt, dass es gut funktioniert.", "hint": "Das konjugierte Verb steht ganz am Ende, Adverbien davor.", "explanation": "Im dass-Satz steht das Verb ganz am Ende; das Adverb 'gut' steht davor." }
+        ]
+      },
+      "test": [
+        { "id": "l7t01", "type": "multiple-choice", "instruction": "Wähle den passenden Konnektor.", "prompt": "Ich finde, ___ Deutsch nicht so schwer ist.", "options": ["dass", "weil", "wenn", "ob"], "solution": "dass", "explanation": "'dass' leitet einen Nebensatz mit einer Meinung ein." },
+        { "id": "l7t02", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Ich glaube, dass er recht ___.", "options": ["hat", "hatte", "haben", "habt"], "solution": "hat", "explanation": "Im dass-Satz steht das konjugierte Verb am Ende." },
+        { "id": "l7t03", "type": "fill-in-blank", "instruction": "Ergänze den Konnektor.", "prompt": "Ich hoffe, ___ es klappt.", "solution": "dass", "explanation": "'dass' leitet hier den Nebensatz nach 'ich hoffe' ein." },
+        { "id": "l7t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Vorteil", "options": ["der", "die", "das"], "solution": "der", "explanation": "'Vorteil' ist maskulin: der Vorteil." },
+        { "id": "l7t05", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Ich bin ___, dass sie kommt.", "options": ["sicher", "schade", "wichtig", "froh"], "solution": "sicher", "explanation": "'sicher sein, dass ...' drückt Gewissheit aus." },
+        { "id": "l7t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz mit 'dass'.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "glaube,", "dass", "er", "recht", "hat"], "solution": "Ich glaube, dass er recht hat.", "explanation": "Im dass-Satz steht das konjugierte Verb ganz am Ende." },
+        { "id": "l7t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb am Satzende.", "prompt": "Ein Nachteil ist, dass es lange ___ (dauern).", "solution": "dauert", "explanation": "Im dass-Satz steht das konjugierte Verb 'dauert' am Ende." },
+        { "id": "l7t08", "type": "targeted-transformation", "instruction": "Formuliere eine Meinung mit 'dass'.", "prompt": "Das ist eine gute Idee. (ich denke)", "solution": "Ich denke, dass das eine gute Idee ist.", "explanation": "Beim Einbetten in einen dass-Satz wandert das konjugierte Verb ans Ende." },
+        { "id": "l7t09", "type": "targeted-transformation", "instruction": "Formuliere eine Meinung mit 'dass'.", "prompt": "Das stimmt nicht. (ich bezweifle)", "solution": "Ich bezweifle, dass das stimmt.", "explanation": "Beim Einbetten in einen dass-Satz wandert das konjugierte Verb ans Ende." },
+        { "id": "l7t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich glaube, dass er hat recht.", "solution": "Ich glaube, dass er recht hat.", "explanation": "Im dass-Satz muss das konjugierte Verb ganz am Ende stehen." }
+      ]
+    },
+    {
+      "lektionId": "a2-m3-l8",
+      "level": "A2",
+      "modulNumber": 3,
+      "lektionNumber": 8,
+      "title": "Im Krankenhaus",
+      "grammarFocus": [
+        "W-Fragen: Wo, Wer, Was, Wohin",
+        "Verb direkt nach dem Fragewort"
+      ],
+      "vocabulary": [
+        { "id": "l8v01", "term": "das Krankenhaus", "translation": "el hospital", "partOfSpeech": "noun", "gender": "das", "plural": "die Krankenhäuser", "example": "Ich gehe ins Krankenhaus." },
+        { "id": "l8v02", "term": "die Abteilung", "translation": "el departamento", "partOfSpeech": "noun", "gender": "die", "plural": "die Abteilungen", "example": "Wo ist die Abteilung für Kardiologie?" },
+        { "id": "l8v03", "term": "die Anmeldung", "translation": "la recepción", "partOfSpeech": "noun", "gender": "die", "plural": "die Anmeldungen", "example": "Die Anmeldung ist im Erdgeschoss." },
+        { "id": "l8v04", "term": "der Arzt", "translation": "el médico", "partOfSpeech": "noun", "gender": "der", "plural": "die Ärzte", "example": "Der Arzt untersucht den Patienten." },
+        { "id": "l8v05", "term": "die Ärztin", "translation": "la médica", "partOfSpeech": "noun", "gender": "die", "plural": "die Ärztinnen", "example": "Die Ärztin ist sehr freundlich." },
+        { "id": "l8v06", "term": "die Untersuchung", "translation": "el examen médico", "partOfSpeech": "noun", "gender": "die", "plural": "die Untersuchungen", "example": "Ich habe eine Untersuchung." },
+        { "id": "l8v07", "term": "das Wartezimmer", "translation": "la sala de espera", "partOfSpeech": "noun", "gender": "das", "plural": "die Wartezimmer", "example": "Bitte warten Sie im Wartezimmer." },
+        { "id": "l8v08", "term": "zuständig", "translation": "responsable / encargado", "partOfSpeech": "adjective", "example": "Wer ist für diese Abteilung zuständig?" },
+        { "id": "l8v09", "term": "der Stock", "translation": "el piso", "partOfSpeech": "noun", "gender": "der", "plural": "die Stockwerke", "example": "Die Abteilung ist im dritten Stock." },
+        { "id": "l8v10", "term": "das Erdgeschoss", "translation": "la planta baja", "partOfSpeech": "noun", "gender": "das", "example": "Die Anmeldung ist im Erdgeschoss." },
+        { "id": "l8v11", "term": "der Aufzug", "translation": "el ascensor", "partOfSpeech": "noun", "gender": "der", "plural": "die Aufzüge", "example": "Nehmen Sie den Aufzug in den zweiten Stock." },
+        { "id": "l8v12", "term": "die Notaufnahme", "translation": "urgencias", "partOfSpeech": "noun", "gender": "die", "plural": "die Notaufnahmen", "example": "Die Notaufnahme ist rund um die Uhr geöffnet." },
+        { "id": "l8v13", "term": "die Sprechstunde", "translation": "la consulta", "partOfSpeech": "noun", "gender": "die", "plural": "die Sprechstunden", "example": "Die Sprechstunde beginnt um 9 Uhr." },
+        { "id": "l8v14", "term": "sich informieren", "translation": "informarse", "partOfSpeech": "verb", "example": "Ich informiere mich über die Öffnungszeiten." },
+        { "id": "l8v15", "term": "die Öffnungszeit", "translation": "el horario de apertura", "partOfSpeech": "noun", "gender": "die", "plural": "die Öffnungszeiten", "example": "Die Öffnungszeiten stehen an der Tür." },
+        { "id": "l8v16", "term": "der Empfang", "translation": "la recepción", "partOfSpeech": "noun", "gender": "der", "plural": "die Empfänge", "example": "Fragen Sie am Empfang." }
+      ],
+      "practice": {
+        "easy": [
+          { "id": "l8e01", "type": "multiple-choice", "instruction": "Wähle das richtige Fragewort.", "prompt": "___ ist die Anmeldung?", "options": ["Wo", "Wer", "Was", "Wohin"], "solution": "Wo", "hint": "Fragt nach dem Ort.", "explanation": "'Wo' fragt nach dem Ort, an dem sich etwas befindet." },
+          { "id": "l8e02", "type": "multiple-choice", "instruction": "Wähle das richtige Fragewort.", "prompt": "___ ist für diese Abteilung zuständig?", "options": ["Wer", "Wo", "Was", "Wann"], "solution": "Wer", "hint": "Fragt nach einer Person.", "explanation": "'Wer' fragt nach einer Person." },
+          { "id": "l8e03", "type": "multiple-choice", "instruction": "Wähle das richtige Fragewort.", "prompt": "___ muss ich für die Untersuchung mitbringen?", "options": ["Was", "Wer", "Wo", "Wie"], "solution": "Was", "hint": "Fragt nach einer Sache.", "explanation": "'Was' fragt nach einer Sache." },
+          { "id": "l8e04", "type": "multiple-choice", "instruction": "Wähle das richtige Fragewort.", "prompt": "___ muss ich gehen, um zur Notaufnahme zu kommen?", "options": ["Wohin", "Wo", "Woher", "Wann"], "solution": "Wohin", "hint": "Fragt nach dem Ziel einer Bewegung.", "explanation": "'Wohin' fragt nach dem Ziel einer Bewegung." },
+          { "id": "l8e05", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Die Anmeldung ist im ___.", "options": ["Erdgeschoss", "Aufzug", "Wartezimmer", "Stock"], "solution": "Erdgeschoss", "hint": "Ebene im Erdgeschoss eines Gebäudes.", "explanation": "'Erdgeschoss' bezeichnet die unterste Ebene eines Gebäudes." },
+          { "id": "l8e06", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Abteilung", "options": ["der", "die", "das"], "solution": "die", "hint": "'Abteilung' ist feminin.", "explanation": "'Abteilung' ist feminin: die Abteilung." },
+          { "id": "l8e07", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Krankenhaus", "options": ["der", "die", "das"], "solution": "das", "hint": "'Krankenhaus' ist neutral.", "explanation": "'Krankenhaus' ist neutral: das Krankenhaus." },
+          { "id": "l8e08", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Bitte warten Sie im ___.", "options": ["Wartezimmer", "Aufzug", "Erdgeschoss", "Empfang"], "solution": "Wartezimmer", "hint": "Raum zum Warten.", "explanation": "'Wartezimmer' ist der Raum, in dem Patienten warten." },
+          { "id": "l8e09", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Nehmen Sie den ___ in den zweiten Stock. (Aufzug)", "solution": "Aufzug", "hint": "Transportmittel zwischen Stockwerken.", "explanation": "Der 'Aufzug' bringt Personen zwischen den Stockwerken." },
+          { "id": "l8e10", "type": "fill-in-blank", "instruction": "Ergänze das Verb.", "prompt": "Ich ___ mich über die Öffnungszeiten. (informieren)", "solution": "informiere", "hint": "'ich'-Form, reflexives Verb.", "explanation": "Die 'ich'-Form von 'sich informieren' lautet 'ich informiere mich'." }
+        ],
+        "medium": [
+          { "id": "l8m01", "type": "sentence-scramble", "instruction": "Bilde eine Frage.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Wo", "ist", "die", "Anmeldung?"], "solution": "Wo ist die Anmeldung?", "hint": "Verb direkt nach dem Fragewort.", "explanation": "Im W-Fragesatz steht das Verb direkt nach dem Fragewort." },
+          { "id": "l8m02", "type": "sentence-scramble", "instruction": "Bilde eine Frage.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Wer", "ist", "für", "diese", "Abteilung", "zuständig?"], "solution": "Wer ist für diese Abteilung zuständig?", "hint": "Verb direkt nach dem Fragewort.", "explanation": "Im W-Fragesatz steht das Verb direkt nach dem Fragewort." },
+          { "id": "l8m03", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Die", "Abteilung", "ist", "im", "dritten", "Stock"], "solution": "Die Abteilung ist im dritten Stock.", "hint": "Verb an Position 2.", "explanation": "Das konjugierte Verb steht an Position 2." },
+          { "id": "l8m04", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Die", "Notaufnahme", "ist", "rund", "um", "die", "Uhr", "geöffnet"], "solution": "Die Notaufnahme ist rund um die Uhr geöffnet.", "hint": "Verb an Position 2.", "explanation": "Das konjugierte Verb steht an Position 2." },
+          { "id": "l8m05", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Die", "Sprechstunde", "beginnt", "um", "9", "Uhr"], "solution": "Die Sprechstunde beginnt um 9 Uhr.", "hint": "Verb an Position 2.", "explanation": "Das konjugierte Verb steht an Position 2." },
+          { "id": "l8m06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Fragen", "Sie", "am", "Empfang"], "solution": "Fragen Sie am Empfang.", "hint": "Höflichkeitsform, Verb an Position 1.", "explanation": "In der höflichen Aufforderung steht das Verb an Position 1." },
+          { "id": "l8m07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Der Arzt ___ (untersuchen) den Patienten.", "solution": "untersucht", "hint": "3. Person Singular.", "explanation": "Die 'er'-Form von 'untersuchen' lautet 'untersucht'." },
+          { "id": "l8m08", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Die Ärztin ___ (sein) sehr freundlich.", "solution": "ist", "hint": "3. Person Singular.", "explanation": "Die 'sie'-Form von 'sein' lautet 'ist'." },
+          { "id": "l8m09", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Ich ___ (informieren) mich über die Öffnungszeiten.", "solution": "informiere", "hint": "'ich'-Form.", "explanation": "Die 'ich'-Form von 'sich informieren' lautet 'informiere'." },
+          { "id": "l8m10", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Die Öffnungszeiten ___ (stehen) an der Tür.", "solution": "stehen", "hint": "3. Person Plural.", "explanation": "Die 'sie'-Form (Plural) von 'stehen' lautet 'stehen'." }
+        ],
+        "hard": [
+          { "id": "l8h01", "type": "targeted-transformation", "instruction": "Bilde eine Frage nach dem Ort.", "prompt": "Die Anmeldung ist im Erdgeschoss.", "solution": "Wo ist die Anmeldung?", "hint": "Fragewort 'wo'.", "explanation": "'Wo' fragt nach dem Ort." },
+          { "id": "l8h02", "type": "targeted-transformation", "instruction": "Bilde eine Frage nach der Person.", "prompt": "Die Ärztin ist zuständig.", "solution": "Wer ist zuständig?", "hint": "Fragewort 'wer'.", "explanation": "'Wer' fragt nach einer Person." },
+          { "id": "l8h03", "type": "targeted-transformation", "instruction": "Bilde eine Frage nach der Sache.", "prompt": "Ich brauche den Ausweis für die Untersuchung.", "solution": "Was brauche ich für die Untersuchung?", "hint": "Fragewort 'was'.", "explanation": "'Was' fragt nach einer Sache." },
+          { "id": "l8h04", "type": "targeted-transformation", "instruction": "Bilde eine Frage nach der Richtung.", "prompt": "Ich gehe zur Notaufnahme.", "solution": "Wohin gehe ich?", "hint": "Fragewort 'wohin'.", "explanation": "'Wohin' fragt nach dem Ziel einer Bewegung." },
+          { "id": "l8h05", "type": "targeted-transformation", "instruction": "Verbinde die Sätze mit 'dass'.", "prompt": "Ich glaube. Der Arzt ist heute nicht da.", "solution": "Ich glaube, dass der Arzt heute nicht da ist.", "hint": "Verb wandert ans Satzende.", "explanation": "Beim Einbetten in einen dass-Satz wandert das konjugierte Verb ans Ende." },
+          { "id": "l8h06", "type": "targeted-transformation", "instruction": "Formuliere höflich mit 'bitte'.", "prompt": "Sagen Sie mir, wo die Notaufnahme ist.", "solution": "Bitte sagen Sie mir, wo die Notaufnahme ist.", "hint": "'Bitte' am Satzanfang.", "explanation": "Eine höfliche Bitte beginnt oft mit 'Bitte'." },
+          { "id": "l8h07", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Wo die Anmeldung ist?", "solution": "Wo ist die Anmeldung?", "hint": "Verb direkt nach dem Fragewort.", "explanation": "Im W-Fragesatz steht das Verb direkt nach dem Fragewort." },
+          { "id": "l8h08", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Wer zuständig ist für diese Abteilung?", "solution": "Wer ist für diese Abteilung zuständig?", "hint": "Verb direkt nach dem Fragewort.", "explanation": "Im W-Fragesatz steht das Verb direkt nach dem Fragewort." },
+          { "id": "l8h09", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Wohin ich gehe zur Notaufnahme?", "solution": "Wohin gehe ich zur Notaufnahme?", "hint": "Verb direkt nach dem Fragewort.", "explanation": "Im W-Fragesatz steht das Verb direkt nach dem Fragewort." },
+          { "id": "l8h10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Was ich muss mitbringen?", "solution": "Was muss ich mitbringen?", "hint": "Verb direkt nach dem Fragewort.", "explanation": "Im W-Fragesatz steht das konjugierte Verb direkt nach dem Fragewort." }
+        ]
+      },
+      "test": [
+        { "id": "l8t01", "type": "multiple-choice", "instruction": "Wähle das richtige Fragewort.", "prompt": "___ ist die Anmeldung?", "options": ["Wo", "Wer", "Was", "Wohin"], "solution": "Wo", "explanation": "'Wo' fragt nach dem Ort." },
+        { "id": "l8t02", "type": "multiple-choice", "instruction": "Wähle das richtige Fragewort.", "prompt": "___ ist für diese Abteilung zuständig?", "options": ["Wer", "Wo", "Was", "Wann"], "solution": "Wer", "explanation": "'Wer' fragt nach einer Person." },
+        { "id": "l8t03", "type": "multiple-choice", "instruction": "Wähle das richtige Fragewort.", "prompt": "___ muss ich für die Untersuchung mitbringen?", "options": ["Was", "Wer", "Wo", "Wie"], "solution": "Was", "explanation": "'Was' fragt nach einer Sache." },
+        { "id": "l8t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Krankenhaus", "options": ["der", "die", "das"], "solution": "das", "explanation": "'Krankenhaus' ist neutral: das Krankenhaus." },
+        { "id": "l8t05", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Die Anmeldung ist im ___.", "options": ["Erdgeschoss", "Aufzug", "Wartezimmer", "Stock"], "solution": "Erdgeschoss", "explanation": "'Erdgeschoss' bezeichnet die unterste Ebene eines Gebäudes." },
+        { "id": "l8t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Die", "Notaufnahme", "ist", "rund", "um", "die", "Uhr", "geöffnet"], "solution": "Die Notaufnahme ist rund um die Uhr geöffnet.", "explanation": "Das konjugierte Verb steht an Position 2." },
+        { "id": "l8t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Die Ärztin ___ (sein) sehr freundlich.", "solution": "ist", "explanation": "Die 'sie'-Form von 'sein' lautet 'ist'." },
+        { "id": "l8t08", "type": "targeted-transformation", "instruction": "Bilde eine Frage nach dem Ort.", "prompt": "Die Anmeldung ist im Erdgeschoss.", "solution": "Wo ist die Anmeldung?", "explanation": "'Wo' fragt nach dem Ort." },
+        { "id": "l8t09", "type": "targeted-transformation", "instruction": "Bilde eine Frage nach der Richtung.", "prompt": "Ich gehe zur Notaufnahme.", "solution": "Wohin gehe ich?", "explanation": "'Wohin' fragt nach dem Ziel einer Bewegung." },
+        { "id": "l8t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Wer zuständig ist für diese Abteilung?", "solution": "Wer ist für diese Abteilung zuständig?", "explanation": "Im W-Fragesatz steht das Verb direkt nach dem Fragewort." }
+      ]
+    },
+    {
+      "lektionId": "a2-m3-l9",
+      "level": "A2",
+      "modulNumber": 3,
+      "lektionNumber": 9,
+      "title": "Zuhause",
+      "grammarFocus": [
+        "Wechselpräpositionen: legen/stellen/hängen + Akkusativ (Bewegung)",
+        "Wechselpräpositionen: liegen/stehen/hängen + Dativ (Position)"
+      ],
+      "vocabulary": [
+        { "id": "l9v01", "term": "legen", "translation": "poner (echado)", "partOfSpeech": "verb", "example": "Ich lege das Buch auf den Tisch." },
+        { "id": "l9v02", "term": "liegen", "translation": "estar (echado)", "partOfSpeech": "verb", "example": "Das Buch liegt auf dem Tisch." },
+        { "id": "l9v03", "term": "stellen", "translation": "poner (de pie)", "partOfSpeech": "verb", "example": "Ich stelle die Vase auf den Tisch." },
+        { "id": "l9v04", "term": "stehen", "translation": "estar (de pie)", "partOfSpeech": "verb", "example": "Die Vase steht auf dem Tisch." },
+        { "id": "l9v05", "term": "hängen", "translation": "colgar / estar colgado", "partOfSpeech": "verb", "example": "Das Bild hängt an der Wand." },
+        { "id": "l9v06", "term": "das Regal", "translation": "la estantería", "partOfSpeech": "noun", "gender": "das", "plural": "die Regale", "example": "Die Bücher stehen im Regal." },
+        { "id": "l9v07", "term": "der Schrank", "translation": "el armario", "partOfSpeech": "noun", "gender": "der", "plural": "die Schränke", "example": "Die Kleidung liegt im Schrank." },
+        { "id": "l9v08", "term": "die Wand", "translation": "la pared", "partOfSpeech": "noun", "gender": "die", "plural": "die Wände", "example": "Das Bild hängt an der Wand." },
+        { "id": "l9v09", "term": "die Vase", "translation": "el jarrón", "partOfSpeech": "noun", "gender": "die", "plural": "die Vasen", "example": "Die Vase steht auf dem Tisch." },
+        { "id": "l9v10", "term": "das Kissen", "translation": "el cojín", "partOfSpeech": "noun", "gender": "das", "plural": "die Kissen", "example": "Das Kissen liegt auf dem Sofa." },
+        { "id": "l9v11", "term": "die Schublade", "translation": "el cajón", "partOfSpeech": "noun", "gender": "die", "plural": "die Schubladen", "example": "Die Schlüssel liegen in der Schublade." },
+        { "id": "l9v12", "term": "der Teppich", "translation": "la alfombra", "partOfSpeech": "noun", "gender": "der", "plural": "die Teppiche", "example": "Der Teppich liegt auf dem Boden." },
+        { "id": "l9v13", "term": "die Lampe", "translation": "la lámpara", "partOfSpeech": "noun", "gender": "die", "plural": "die Lampen", "example": "Die Lampe steht auf dem Schreibtisch." },
+        { "id": "l9v14", "term": "der Haken", "translation": "el gancho", "partOfSpeech": "noun", "gender": "der", "plural": "die Haken", "example": "Der Schlüssel hängt am Haken." },
+        { "id": "l9v15", "term": "der Boden", "translation": "el suelo", "partOfSpeech": "noun", "gender": "der", "plural": "die Böden", "example": "Der Teppich liegt auf dem Boden." },
+        { "id": "l9v16", "term": "die Ecke", "translation": "el rincón", "partOfSpeech": "noun", "gender": "die", "plural": "die Ecken", "example": "Der Schrank steht in der Ecke." }
+      ],
+      "practice": {
+        "easy": [
+          { "id": "l9e01", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel (Bewegung).", "prompt": "Ich lege das Buch auf ___ Tisch.", "options": ["den", "dem", "der", "das"], "solution": "den", "hint": "Bewegung → Akkusativ.", "explanation": "Bei 'legen' beschreibt man eine Bewegung; die Wechselpräposition steht dann mit Akkusativ." },
+          { "id": "l9e02", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel (Position).", "prompt": "Das Buch liegt auf ___ Tisch.", "options": ["dem", "den", "der", "das"], "solution": "dem", "hint": "Position → Dativ.", "explanation": "Bei 'liegen' beschreibt man eine Position; die Wechselpräposition steht dann mit Dativ." },
+          { "id": "l9e03", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel (Bewegung).", "prompt": "Ich stelle die Vase auf ___ Tisch.", "options": ["den", "dem", "der", "das"], "solution": "den", "hint": "Bewegung → Akkusativ.", "explanation": "Bei 'stellen' beschreibt man eine Bewegung; die Wechselpräposition steht dann mit Akkusativ." },
+          { "id": "l9e04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel (Position).", "prompt": "Die Vase steht auf ___ Tisch.", "options": ["dem", "den", "der", "das"], "solution": "dem", "hint": "Position → Dativ.", "explanation": "Bei 'stehen' beschreibt man eine Position; die Wechselpräposition steht dann mit Dativ." },
+          { "id": "l9e05", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel (Bewegung).", "prompt": "Ich hänge das Bild an ___ Wand.", "options": ["die", "der", "dem", "den"], "solution": "die", "hint": "Bewegung → Akkusativ.", "explanation": "Bei 'hängen' als Bewegung steht die Wechselpräposition mit Akkusativ." },
+          { "id": "l9e06", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel (Position).", "prompt": "Das Bild hängt an ___ Wand.", "options": ["der", "die", "dem", "den"], "solution": "der", "hint": "Position → Dativ.", "explanation": "Bei 'hängen' als Position steht die Wechselpräposition mit Dativ." },
+          { "id": "l9e07", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Die Bücher stehen im ___.", "options": ["Regal", "Schrank", "Boden", "Ecke"], "solution": "Regal", "hint": "Möbelstück für Bücher.", "explanation": "Bücher stehen typischerweise im 'Regal'." },
+          { "id": "l9e08", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Schrank", "options": ["der", "die", "das"], "solution": "der", "hint": "'Schrank' ist maskulin.", "explanation": "'Schrank' ist maskulin: der Schrank." },
+          { "id": "l9e09", "type": "multiple-choice", "instruction": "Wähle das richtige Verb.", "prompt": "Der Teppich ___ auf dem Boden.", "options": ["liegt", "legt", "steht", "stellt"], "solution": "liegt", "hint": "Flache Position.", "explanation": "Ein flacher Gegenstand wie ein Teppich 'liegt'." },
+          { "id": "l9e10", "type": "multiple-choice", "instruction": "Wähle das richtige Verb.", "prompt": "Die Lampe ___ auf dem Schreibtisch.", "options": ["steht", "stellt", "liegt", "legt"], "solution": "steht", "hint": "Aufrechte Position.", "explanation": "Ein aufrecht stehender Gegenstand wie eine Lampe 'steht'." }
+        ],
+        "medium": [
+          { "id": "l9m01", "type": "sentence-scramble", "instruction": "Bilde einen Satz (Bewegung).", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "lege", "das", "Buch", "auf", "den", "Tisch"], "solution": "Ich lege das Buch auf den Tisch.", "hint": "Bewegung → Akkusativ.", "explanation": "'legen' beschreibt eine Bewegung; die Präposition steht mit Akkusativ." },
+          { "id": "l9m02", "type": "sentence-scramble", "instruction": "Bilde einen Satz (Position).", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Das", "Buch", "liegt", "auf", "dem", "Tisch"], "solution": "Das Buch liegt auf dem Tisch.", "hint": "Position → Dativ.", "explanation": "'liegen' beschreibt eine Position; die Präposition steht mit Dativ." },
+          { "id": "l9m03", "type": "sentence-scramble", "instruction": "Bilde einen Satz (Bewegung).", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "hänge", "das", "Bild", "an", "die", "Wand"], "solution": "Ich hänge das Bild an die Wand.", "hint": "Bewegung → Akkusativ.", "explanation": "'hängen' als Bewegung; die Präposition steht mit Akkusativ." },
+          { "id": "l9m04", "type": "sentence-scramble", "instruction": "Bilde einen Satz (Position).", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Das", "Bild", "hängt", "an", "der", "Wand"], "solution": "Das Bild hängt an der Wand.", "hint": "Position → Dativ.", "explanation": "'hängen' als Position; die Präposition steht mit Dativ." },
+          { "id": "l9m05", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Die", "Schlüssel", "liegen", "in", "der", "Schublade"], "solution": "Die Schlüssel liegen in der Schublade.", "hint": "Position → Dativ.", "explanation": "'liegen' beschreibt eine Position; die Präposition steht mit Dativ." },
+          { "id": "l9m06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Der", "Schrank", "steht", "in", "der", "Ecke"], "solution": "Der Schrank steht in der Ecke.", "hint": "Position → Dativ.", "explanation": "'stehen' beschreibt eine Position; die Präposition steht mit Dativ." },
+          { "id": "l9m07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Ich ___ (stellen) die Vase auf den Tisch.", "solution": "stelle", "hint": "'ich'-Form.", "explanation": "Die 'ich'-Form von 'stellen' lautet 'stelle'." },
+          { "id": "l9m08", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Die Vase ___ (stehen) auf dem Tisch.", "solution": "steht", "hint": "3. Person Singular.", "explanation": "Die 'sie'-Form von 'stehen' lautet 'steht'." },
+          { "id": "l9m09", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Das Kissen ___ (liegen) auf dem Sofa.", "solution": "liegt", "hint": "3. Person Singular.", "explanation": "Die 'es'-Form von 'liegen' lautet 'liegt'." },
+          { "id": "l9m10", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Der Schlüssel ___ (hängen) am Haken.", "solution": "hängt", "hint": "3. Person Singular.", "explanation": "Die 'er'-Form von 'hängen' lautet 'hängt'." }
+        ],
+        "hard": [
+          { "id": "l9h01", "type": "targeted-transformation", "instruction": "Beschreibe die Bewegung mit 'legen'.", "prompt": "das Buch / auf den Tisch", "solution": "Ich lege das Buch auf den Tisch.", "hint": "Bewegung → Akkusativ.", "explanation": "'legen' beschreibt eine Bewegung; die Präposition steht mit Akkusativ." },
+          { "id": "l9h02", "type": "targeted-transformation", "instruction": "Beschreibe die Position mit 'liegen'.", "prompt": "das Buch / auf dem Tisch", "solution": "Das Buch liegt auf dem Tisch.", "hint": "Position → Dativ.", "explanation": "'liegen' beschreibt eine Position; die Präposition steht mit Dativ." },
+          { "id": "l9h03", "type": "targeted-transformation", "instruction": "Beschreibe die Bewegung mit 'stellen'.", "prompt": "die Vase / auf den Tisch", "solution": "Ich stelle die Vase auf den Tisch.", "hint": "Bewegung → Akkusativ.", "explanation": "'stellen' beschreibt eine Bewegung; die Präposition steht mit Akkusativ." },
+          { "id": "l9h04", "type": "targeted-transformation", "instruction": "Beschreibe die Position mit 'stehen'.", "prompt": "die Vase / auf dem Tisch", "solution": "Die Vase steht auf dem Tisch.", "hint": "Position → Dativ.", "explanation": "'stehen' beschreibt eine Position; die Präposition steht mit Dativ." },
+          { "id": "l9h05", "type": "targeted-transformation", "instruction": "Beschreibe die Bewegung mit 'hängen'.", "prompt": "das Bild / an die Wand", "solution": "Ich hänge das Bild an die Wand.", "hint": "Bewegung → Akkusativ.", "explanation": "'hängen' als Bewegung; die Präposition steht mit Akkusativ." },
+          { "id": "l9h06", "type": "targeted-transformation", "instruction": "Beschreibe die Position mit 'hängen'.", "prompt": "das Bild / an der Wand", "solution": "Das Bild hängt an der Wand.", "hint": "Position → Dativ.", "explanation": "'hängen' als Position; die Präposition steht mit Dativ." },
+          { "id": "l9h07", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich lege das Buch auf dem Tisch.", "solution": "Ich lege das Buch auf den Tisch.", "hint": "'legen' beschreibt eine Bewegung.", "explanation": "'legen' braucht den Akkusativ, da eine Bewegung beschrieben wird." },
+          { "id": "l9h08", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Das Buch liegt auf den Tisch.", "solution": "Das Buch liegt auf dem Tisch.", "hint": "'liegen' beschreibt eine Position.", "explanation": "'liegen' braucht den Dativ, da eine Position beschrieben wird." },
+          { "id": "l9h09", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich hänge das Bild an der Wand.", "solution": "Ich hänge das Bild an die Wand.", "hint": "'hängen' als Bewegung braucht den Akkusativ.", "explanation": "Wird eine Bewegung beschrieben, steht 'hängen' mit Akkusativ." },
+          { "id": "l9h10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Das Bild hängt an die Wand.", "solution": "Das Bild hängt an der Wand.", "hint": "'hängen' als Position braucht den Dativ.", "explanation": "Wird eine Position beschrieben, steht 'hängen' mit Dativ." }
+        ]
+      },
+      "test": [
+        { "id": "l9t01", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel (Bewegung).", "prompt": "Ich lege das Buch auf ___ Tisch.", "options": ["den", "dem", "der", "das"], "solution": "den", "explanation": "Bei 'legen' beschreibt man eine Bewegung; die Präposition steht mit Akkusativ." },
+        { "id": "l9t02", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel (Position).", "prompt": "Das Buch liegt auf ___ Tisch.", "options": ["dem", "den", "der", "das"], "solution": "dem", "explanation": "Bei 'liegen' beschreibt man eine Position; die Präposition steht mit Dativ." },
+        { "id": "l9t03", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel (Bewegung).", "prompt": "Ich hänge das Bild an ___ Wand.", "options": ["die", "der", "dem", "den"], "solution": "die", "explanation": "'hängen' als Bewegung; die Präposition steht mit Akkusativ." },
+        { "id": "l9t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel (Position).", "prompt": "Das Bild hängt an ___ Wand.", "options": ["der", "die", "dem", "den"], "solution": "der", "explanation": "'hängen' als Position; die Präposition steht mit Dativ." },
+        { "id": "l9t05", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Schrank", "options": ["der", "die", "das"], "solution": "der", "explanation": "'Schrank' ist maskulin: der Schrank." },
+        { "id": "l9t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Der", "Schrank", "steht", "in", "der", "Ecke"], "solution": "Der Schrank steht in der Ecke.", "explanation": "'stehen' beschreibt eine Position; die Präposition steht mit Dativ." },
+        { "id": "l9t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Die Vase ___ (stehen) auf dem Tisch.", "solution": "steht", "explanation": "Die 'sie'-Form von 'stehen' lautet 'steht'." },
+        { "id": "l9t08", "type": "targeted-transformation", "instruction": "Beschreibe die Bewegung mit 'stellen'.", "prompt": "die Vase / auf den Tisch", "solution": "Ich stelle die Vase auf den Tisch.", "explanation": "'stellen' beschreibt eine Bewegung; die Präposition steht mit Akkusativ." },
+        { "id": "l9t09", "type": "targeted-transformation", "instruction": "Beschreibe die Position mit 'hängen'.", "prompt": "das Bild / an der Wand", "solution": "Das Bild hängt an der Wand.", "explanation": "'hängen' als Position; die Präposition steht mit Dativ." },
+        { "id": "l9t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Das Buch liegt auf den Tisch.", "solution": "Das Buch liegt auf dem Tisch.", "explanation": "'liegen' braucht den Dativ, da eine Position beschrieben wird." }
+      ]
+    }
+  ]
+}
