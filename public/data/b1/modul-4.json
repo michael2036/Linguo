@@ -19,7 +19,7 @@
         { "id": "l10v02", "term": "bis", "translation": "hasta que", "partOfSpeech": "phrase", "example": "Ich arbeite, bis ich meine Ziele erreicht habe." },
         { "id": "l10v03", "term": "die Tätigkeit", "translation": "la actividad laboral", "partOfSpeech": "noun", "gender": "die", "plural": "die Tätigkeiten", "example": "Meine Tätigkeit macht Spaß." },
         { "id": "l10v04", "term": "sinnvoll", "translation": "con sentido", "partOfSpeech": "adjective", "example": "Das ist eine sinnvolle Arbeit." },
-        { "id": "l10v05", "term": "kritisieren", "translation": "criticar", "partOfSpeech": "verb", "example": "Mein Chef kritisiert mich oft." },
+        { "id": "l10v05", "term": "kritisieren", "translation": "criticar", "partOfSpeech": "verb", "preterite": "kritisierte", "participle": "kritisiert", "auxiliary": "haben", "irregular": false, "example": "Mein Chef kritisiert mich oft." },
         { "id": "l10v06", "term": "unmotiviert", "translation": "desmotivado", "partOfSpeech": "adjective", "example": "Er ist total unmotiviert." },
         { "id": "l10v07", "term": "das Feedback", "translation": "la retroalimentación", "partOfSpeech": "noun", "gender": "das", "example": "Meine Chefin gibt mir Feedback." },
         { "id": "l10v08", "term": "motiviert", "translation": "motivado", "partOfSpeech": "adjective", "example": "Er arbeitet motiviert." },
@@ -30,7 +30,7 @@
         { "id": "l10v13", "term": "das Team", "translation": "el equipo", "partOfSpeech": "noun", "gender": "das", "plural": "die Teams", "example": "Ich arbeite in einem neuen Team." },
         { "id": "l10v14", "term": "sich selbst organisieren", "translation": "organizarse solo", "partOfSpeech": "phrase", "example": "Er kann seine Aufgaben nicht mehr selbst organisieren." },
         { "id": "l10v15", "term": "die Aufgabe", "translation": "la tarea", "partOfSpeech": "noun", "gender": "die", "plural": "die Aufgaben", "example": "Ich habe viele Aufgaben." },
-        { "id": "l10v16", "term": "warten", "translation": "esperar", "partOfSpeech": "verb", "example": "Er wartet nur noch, bis er einen neuen Job hat." }
+        { "id": "l10v16", "term": "warten", "translation": "esperar", "partOfSpeech": "verb", "preterite": "wartete", "participle": "gewartet", "auxiliary": "haben", "irregular": false, "example": "Er wartet nur noch, bis er einen neuen Job hat." }
       ],
       "practice": {
         "easy": [
@@ -106,9 +106,9 @@
         { "id": "l11v10", "term": "der USB-Stick", "translation": "la memoria USB", "partOfSpeech": "noun", "gender": "der", "plural": "die USB-Sticks", "example": "Ich speichere Dateien auf dem USB-Stick." },
         { "id": "l11v11", "term": "der Gegenstand", "translation": "el objeto", "partOfSpeech": "noun", "gender": "der", "plural": "die Gegenstände", "example": "Das ist ein nützlicher Gegenstand." },
         { "id": "l11v12", "term": "aus Stoff", "translation": "de tela", "partOfSpeech": "phrase", "example": "Die Tasche ist aus Stoff." },
-        { "id": "l11v13", "term": "wegwerfen", "translation": "tirar", "partOfSpeech": "verb", "example": "Ich werfe das weg." },
-        { "id": "l11v14", "term": "speichern", "translation": "guardar (datos)", "partOfSpeech": "verb", "example": "Ich speichere die Datei." },
-        { "id": "l11v15", "term": "transportieren", "translation": "transportar", "partOfSpeech": "verb", "example": "Ich transportiere etwas in der Tasche." },
+        { "id": "l11v13", "term": "wegwerfen", "translation": "tirar", "partOfSpeech": "verb", "preterite": "warf weg", "participle": "weggeworfen", "auxiliary": "haben", "irregular": true, "example": "Ich werfe das weg." },
+        { "id": "l11v14", "term": "speichern", "translation": "guardar (datos)", "partOfSpeech": "verb", "preterite": "speicherte", "participle": "gespeichert", "auxiliary": "haben", "irregular": false, "example": "Ich speichere die Datei." },
+        { "id": "l11v15", "term": "transportieren", "translation": "transportar", "partOfSpeech": "verb", "preterite": "transportierte", "participle": "transportiert", "auxiliary": "haben", "irregular": false, "example": "Ich transportiere etwas in der Tasche." },
         { "id": "l11v16", "term": "secondhand", "translation": "de segunda mano", "partOfSpeech": "adjective", "example": "Ein Handy, das jemand secondhand verkauft." }
       ],
       "practice": {
@@ -186,9 +186,9 @@
         { "id": "l12v11", "term": "der Appetit", "translation": "el apetito", "partOfSpeech": "noun", "gender": "der", "example": "Ich bekomme Appetit." },
         { "id": "l12v12", "term": "das Gericht", "translation": "el plato (de comida)", "partOfSpeech": "noun", "gender": "das", "plural": "die Gerichte", "example": "Das Gericht sieht lecker aus." },
         { "id": "l12v13", "term": "begeistert", "translation": "entusiasmado", "partOfSpeech": "adjective", "example": "Ich war begeistert." },
-        { "id": "l12v14", "term": "fotografieren", "translation": "fotografiar", "partOfSpeech": "verb", "example": "Sie dürfen das Gericht nicht fotografieren." },
-        { "id": "l12v15", "term": "übernachten", "translation": "pasar la noche", "partOfSpeech": "verb", "example": "Wir haben am See übernachtet." },
-        { "id": "l12v16", "term": "tanzen", "translation": "bailar", "partOfSpeech": "verb", "example": "Ich habe so viel getanzt." }
+        { "id": "l12v14", "term": "fotografieren", "translation": "fotografiar", "partOfSpeech": "verb", "preterite": "fotografierte", "participle": "fotografiert", "auxiliary": "haben", "irregular": false, "example": "Sie dürfen das Gericht nicht fotografieren." },
+        { "id": "l12v15", "term": "übernachten", "translation": "pasar la noche", "partOfSpeech": "verb", "preterite": "übernachtete", "participle": "übernachtet", "auxiliary": "haben", "irregular": false, "example": "Wir haben am See übernachtet." },
+        { "id": "l12v16", "term": "tanzen", "translation": "bailar", "partOfSpeech": "verb", "preterite": "tanzte", "participle": "getanzt", "auxiliary": "haben", "irregular": false, "example": "Ich habe so viel getanzt." }
       ],
       "practice": {
         "easy": [

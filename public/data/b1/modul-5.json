@@ -24,13 +24,13 @@
         { "id": "l13v07", "term": "scheußlich", "translation": "horrible", "partOfSpeech": "adjective", "example": "Die Spinne ist scheußlich." },
         { "id": "l13v08", "term": "gefährlich", "translation": "peligroso", "partOfSpeech": "adjective", "example": "Der Tiger ist gefährlich." },
         { "id": "l13v09", "term": "wild", "translation": "salvaje", "partOfSpeech": "adjective", "example": "Der Tiger ist wild." },
-        { "id": "l13v10", "term": "klettern", "translation": "trepar", "partOfSpeech": "verb", "example": "Die Ziege klettert gern." },
+        { "id": "l13v10", "term": "klettern", "translation": "trepar", "partOfSpeech": "verb", "preterite": "kletterte", "participle": "geklettert", "auxiliary": "sein", "irregular": false, "example": "Die Ziege klettert gern." },
         { "id": "l13v11", "term": "dumm", "translation": "torpe / poco inteligente", "partOfSpeech": "adjective", "example": "Die Kuh gilt als dumm." },
         { "id": "l13v12", "term": "elegant", "translation": "elegante", "partOfSpeech": "adjective", "example": "Der Hirsch ist elegant." },
-        { "id": "l13v13", "term": "jagen", "translation": "cazar", "partOfSpeech": "verb", "example": "Der Fuchs jagt." },
+        { "id": "l13v13", "term": "jagen", "translation": "cazar", "partOfSpeech": "verb", "preterite": "jagte", "participle": "gejagt", "auxiliary": "haben", "irregular": false, "example": "Der Fuchs jagt." },
         { "id": "l13v14", "term": "sportlich", "translation": "deportivo", "partOfSpeech": "adjective", "example": "Der Mann, der da joggt, ist weder sportlich noch schnell." },
         { "id": "l13v15", "term": "das Picknick", "translation": "el pícnic", "partOfSpeech": "noun", "gender": "das", "plural": "die Picknicks", "example": "Das Picknick sieht lecker aus." },
-        { "id": "l13v16", "term": "gelaunt", "translation": "de humor", "partOfSpeech": "adjective", "example": "Das Paar ist sowohl gut gelaunt als auch lustig." }
+        { "id": "l13v16", "term": "gut gelaunt", "translation": "de buen humor", "partOfSpeech": "adjective", "example": "Das Paar ist sowohl gut gelaunt als auch lustig." }
       ],
       "practice": {
         "easy": [
@@ -101,14 +101,14 @@
         { "id": "l14v05", "term": "das Vorstellungsgespräch", "translation": "la entrevista de trabajo", "partOfSpeech": "noun", "gender": "das", "plural": "die Vorstellungsgespräche", "example": "Ich habe ein Vorstellungsgespräch." },
         { "id": "l14v06", "term": "die Zusage", "translation": "la aceptación (respuesta positiva)", "partOfSpeech": "noun", "gender": "die", "plural": "die Zusagen", "example": "Ich bekomme eine Zusage." },
         { "id": "l14v07", "term": "die Absage", "translation": "el rechazo", "partOfSpeech": "noun", "gender": "die", "plural": "die Absagen", "example": "Ich bekomme eine Absage." },
-        { "id": "l14v08", "term": "die Probezeit", "translation": "el período de prueba", "partOfSpeech": "noun", "gender": "die", "example": "Ich bin in der Probezeit." },
+        { "id": "l14v08", "term": "die Probezeit", "translation": "el período de prueba", "partOfSpeech": "noun", "gender": "die", "plural": "die Probezeiten", "example": "Ich bin in der Probezeit." },
         { "id": "l14v09", "term": "die Branche", "translation": "el sector (empresarial)", "partOfSpeech": "noun", "gender": "die", "plural": "die Branchen", "example": "Das hängt von der Branche ab." },
         { "id": "l14v10", "term": "das Unternehmen", "translation": "la empresa", "partOfSpeech": "noun", "gender": "das", "plural": "die Unternehmen", "example": "Ich möchte in diesem Unternehmen arbeiten." },
         { "id": "l14v11", "term": "nichts", "translation": "nada", "partOfSpeech": "phrase", "example": "Ich möchte nichts machen, was langweilig ist." },
         { "id": "l14v12", "term": "alles", "translation": "todo", "partOfSpeech": "phrase", "example": "Alles, was ich mache, ist wichtig." },
         { "id": "l14v13", "term": "überall", "translation": "en todas partes", "partOfSpeech": "adverb", "example": "Ich kann überall arbeiten, wo es Strom gibt." },
         { "id": "l14v14", "term": "der Kollege", "translation": "el colega", "partOfSpeech": "noun", "gender": "der", "plural": "die Kollegen", "example": "Ich möchte nette Kolleginnen und Kollegen haben." },
-        { "id": "l14v15", "term": "helfen", "translation": "ayudar", "partOfSpeech": "verb", "example": "Ich möchte etwas machen, was anderen Menschen hilft." },
+        { "id": "l14v15", "term": "helfen", "translation": "ayudar", "partOfSpeech": "verb", "preterite": "half", "participle": "geholfen", "auxiliary": "haben", "irregular": true, "example": "Ich möchte etwas machen, was anderen Menschen hilft." },
         { "id": "l14v16", "term": "der Strom", "translation": "la electricidad", "partOfSpeech": "noun", "gender": "der", "example": "Ich kann überall arbeiten, wo es Strom gibt." }
       ],
       "practice": {
@@ -172,21 +172,21 @@
         "'lassen' + Infinitiv (kausativ): jemand anderes erledigt es"
       ],
       "vocabulary": [
-        { "id": "l15v01", "term": "lassen", "translation": "dejar que otro haga algo", "partOfSpeech": "verb", "example": "Ich lasse mir den Kaffee bringen." },
-        { "id": "l15v02", "term": "zubereiten", "translation": "preparar", "partOfSpeech": "verb", "example": "Ich lasse ihn mein Frühstück zubereiten." },
+        { "id": "l15v01", "term": "lassen", "translation": "dejar que otro haga algo", "partOfSpeech": "verb", "preterite": "ließ", "participle": "gelassen", "auxiliary": "haben", "irregular": true, "example": "Ich lasse mir den Kaffee bringen." },
+        { "id": "l15v02", "term": "zubereiten", "translation": "preparar", "partOfSpeech": "verb", "preterite": "bereitete zu", "participle": "zubereitet", "auxiliary": "haben", "irregular": false, "example": "Ich lasse ihn mein Frühstück zubereiten." },
         { "id": "l15v03", "term": "in Ordnung bringen", "translation": "poner en orden", "partOfSpeech": "phrase", "example": "Ich lasse ihn die Wohnung in Ordnung bringen." },
         { "id": "l15v04", "term": "die Einkaufsliste", "translation": "la lista de la compra", "partOfSpeech": "noun", "gender": "die", "plural": "die Einkaufslisten", "example": "Ich schicke ihm die Einkaufsliste." },
         { "id": "l15v05", "term": "tagsüber", "translation": "durante el día", "partOfSpeech": "adverb", "example": "Tagsüber ist er beschäftigt." },
         { "id": "l15v06", "term": "das Frühstück", "translation": "el desayuno", "partOfSpeech": "noun", "gender": "das", "plural": "die Frühstücke", "example": "Ich lasse mir mein Frühstück bringen." },
         { "id": "l15v07", "term": "der Roboter", "translation": "el robot", "partOfSpeech": "noun", "gender": "der", "plural": "die Roboter", "example": "Mein Roboter heißt Erwin." },
-        { "id": "l15v08", "term": "programmieren", "translation": "programar", "partOfSpeech": "verb", "example": "Ich lasse den Roboter programmieren." },
+        { "id": "l15v08", "term": "programmieren", "translation": "programar", "partOfSpeech": "verb", "preterite": "programmierte", "participle": "programmiert", "auxiliary": "haben", "irregular": false, "example": "Ich lasse den Roboter programmieren." },
         { "id": "l15v09", "term": "humanoid", "translation": "humanoide", "partOfSpeech": "adjective", "example": "Das ist ein humanoider Roboter." },
-        { "id": "l15v10", "term": "sich anfühlen", "translation": "sentirse", "partOfSpeech": "verb", "example": "Der Roboter fühlt sich an wie ein Mensch." },
+        { "id": "l15v10", "term": "sich anfühlen", "translation": "sentirse", "partOfSpeech": "verb", "preterite": "fühlte sich an", "participle": "sich angefühlt", "auxiliary": "haben", "irregular": false, "example": "Der Roboter fühlt sich an wie ein Mensch." },
         { "id": "l15v11", "term": "der Partner", "translation": "la pareja", "partOfSpeech": "noun", "gender": "der", "plural": "die Partner", "example": "Der Roboter ist mein idealer Partner." },
         { "id": "l15v12", "term": "die Wissenschaftlerin", "translation": "la científica", "partOfSpeech": "noun", "gender": "die", "plural": "die Wissenschaftlerinnen", "example": "Alma ist Wissenschaftlerin." },
         { "id": "l15v13", "term": "das Testgutachten", "translation": "el informe de prueba", "partOfSpeech": "noun", "gender": "das", "plural": "die Testgutachten", "example": "Ich soll ein Gutachten schreiben." },
-        { "id": "l15v14", "term": "sortieren", "translation": "ordenar", "partOfSpeech": "verb", "example": "Er sortiert alle Bücher." },
-        { "id": "l15v15", "term": "aufräumen", "translation": "ordenar", "partOfSpeech": "verb", "example": "Er räumt auf." },
+        { "id": "l15v14", "term": "sortieren", "translation": "ordenar", "partOfSpeech": "verb", "preterite": "sortierte", "participle": "sortiert", "auxiliary": "haben", "irregular": false, "example": "Er sortiert alle Bücher." },
+        { "id": "l15v15", "term": "aufräumen", "translation": "ordenar", "partOfSpeech": "verb", "preterite": "räumte auf", "participle": "aufgeräumt", "auxiliary": "haben", "irregular": false, "example": "Er räumt auf." },
         { "id": "l15v16", "term": "einsam", "translation": "solitario", "partOfSpeech": "adjective", "example": "Der Roboter hilft einsamen Menschen." }
       ],
       "practice": {
