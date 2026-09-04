@@ -458,3 +458,77 @@ The architecture was validated with a single pilot Modul (`a1-m1`, 3
 Lektionen) before any further content was authored. Scaling to the full 8
 Moduln × 3 levels is expected to happen incrementally via the pipeline in
 [`.agents/pipeline.md`](.agents/pipeline.md), not as a single batch.
+
+---
+
+## 10. v1 Revision: Vocabulary Linguistic Profiles & Student Simulation
+
+Moving from functional MVP to a shippable v1 surfaced two gaps: the
+vocabulary model only stored bare term↔translation pairs (no way to test a
+noun's plural or a verb's principal parts), and the content-authoring
+pipeline's quality gate reviewed exercises with the answer already in view,
+which misses items that are only ambiguous or trivially guessable to
+someone actually attempting them cold. This section is authoritative where
+it conflicts with §6.2/§7; those sections otherwise still describe the
+underlying content model and pipeline structure correctly.
+
+### 10.1 Vocabulary schema extension
+
+`vocabularyItem` (§6.2, and the authoritative `public/schemas/modul-schema.json`)
+gains four optional properties, all additive and backward-compatible —
+existing content without them is still valid and renders exactly as before:
+
+```json
+"preterite": { "type": "string" },
+"participle": { "type": "string" },
+"auxiliary": { "enum": ["haben", "sein"] },
+"irregular": { "type": "boolean" }
+```
+
+`preterite` is the 3rd-person-singular Präteritum (e.g. `"sah"`);
+`participle` is the Partizip II alone, without its auxiliary (e.g.
+`"gesehen"`, not `"hat gesehen"` — the app composes the two using
+`auxiliary`). `plural` (already part of the schema) becomes the expected
+norm for common countable nouns going forward, not just an occasional
+extra. Nouns without a natural plural (abstract/mass nouns like *das
+Vertrauen*, *die Politik*) correctly omit it, same as the existing allowance
+for articleless nouns to omit `gender`.
+
+The Wortschatz-Trainer's flashcard primer displays the fuller profile when
+present (principal-parts row, regularity tag); its graded Test Mode
+generates one additional grammatical item per eligible word — article,
+plural, Präteritum, Partizip II, or auxiliary, chosen at random rather than
+all at once — alongside the existing translation item, reusing the
+`multiple-choice`/`fill-in-blank` exercise shapes rather than introducing
+new ones.
+
+As of this revision, B1's vocabulary (8 Moduln, 24 Lektionen) carries the
+full profile; A1/A2 do not yet and are unaffected (the new fields are
+optional, so existing content simply doesn't generate the extra quiz item
+types until backfilled). Backfilling the remaining two levels is expected
+to happen incrementally, the same rollout philosophy as §9.4.
+
+### 10.2 Student simulation in the Pedagogical Critic
+
+Rather than introduce a fourth pipeline agent, [Agent 2's
+spec](.agents/pedagogical-critic.md) was extended with an explicit
+methodology: before running its audit checklist on any item, it first
+attempts to solve that item *blind* — `type`/`instruction`/`prompt`/
+`options` only, with `solution`/`hint`/`explanation` covered, the way an
+active learner at the target CEFR level actually would sitting down to it
+cold. Only after that blind attempt does it reveal the real solution and
+compare. Two checks are built directly on this evidence rather than a
+read-through judgment call:
+
+- **Unambiguous solutions** (§7.2, existing) — did the blind attempt
+  converge on the one credited answer?
+- **Answer leakage** (new) — did the blind attempt land on the right answer
+  *without actually applying the grammar point being tested* (a single
+  grammatically well-formed option, the answer legible in the instruction
+  or a parenthetical, a surface pattern giving it away)? An item can pass
+  the ambiguity check and still fail this one — leakage means the item
+  isn't testing anything, regardless of whether it has one clean answer.
+
+The pipeline's stage count, roster, and hand-off contract (§7, `.agents/pipeline.md`)
+are otherwise unchanged — this is a strengthening of Agent 2's existing
+audit protocol, not a new stage.

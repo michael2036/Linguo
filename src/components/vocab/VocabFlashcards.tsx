@@ -77,6 +77,21 @@ const useStyles = makeStyles({
     fontStyle: 'italic',
     color: tokens.colorNeutralForeground2,
   },
+  principalParts: {
+    marginTop: '6px',
+    fontFamily: 'var(--font-display)',
+    fontWeight: 600,
+  },
+  regularityTag: {
+    display: 'inline-block',
+    marginTop: '4px',
+    fontSize: '11px',
+    fontWeight: 600,
+    color: tokens.colorNeutralForeground3,
+    backgroundColor: tokens.colorNeutralBackground3,
+    ...shorthands.padding('2px', '8px'),
+    ...shorthands.borderRadius(tokens.borderRadiusCircular),
+  },
   actions: {
     display: 'flex',
     ...shorthands.gap('12px'),
@@ -161,6 +176,17 @@ export const VocabFlashcards = ({ items, onComplete, onCardComplete }: VocabFlas
               {current.partOfSpeech}
               {current.plural ? ` · Plural: ${current.plural}` : ''}
             </Text>
+            {current.partOfSpeech === 'verb' && current.preterite && current.participle && (
+              <>
+                <Text className={styles.principalParts}>
+                  {current.term} · {current.preterite} ·{' '}
+                  {current.auxiliary === 'sein' ? 'ist' : 'hat'} {current.participle}
+                </Text>
+                <span className={styles.regularityTag}>
+                  {current.irregular ? 'unregelmäßig' : 'regelmäßig'}
+                </span>
+              </>
+            )}
             <Text className={styles.example}>{current.example}</Text>
           </div>
         </div>

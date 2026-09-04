@@ -3,6 +3,7 @@
 
 export type PartOfSpeech = 'noun' | 'verb' | 'adjective' | 'adverb' | 'phrase';
 export type Gender = 'der' | 'die' | 'das' | null;
+export type Auxiliary = 'haben' | 'sein';
 
 export interface VocabularyItem {
   id: string;
@@ -12,6 +13,14 @@ export interface VocabularyItem {
   gender?: Gender;
   plural?: string;
   example: string;
+  // Verb principal parts (partOfSpeech === 'verb' only). `preterite` is the
+  // 3rd-person-singular Präteritum (e.g. "sah"); `participle` is the
+  // Partizip II alone, without its auxiliary (e.g. "gesehen", not "hat
+  // gesehen") — the UI composes the two with `auxiliary`.
+  preterite?: string;
+  participle?: string;
+  auxiliary?: Auxiliary;
+  irregular?: boolean;
 }
 
 export type ExerciseType =

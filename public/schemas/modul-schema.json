@@ -65,7 +65,11 @@
         "partOfSpeech": { "enum": ["noun", "verb", "adjective", "adverb", "phrase"] },
         "gender": { "enum": ["der", "die", "das", null] },
         "plural": { "type": "string" },
-        "example": { "type": "string" }
+        "example": { "type": "string" },
+        "preterite": { "type": "string" },
+        "participle": { "type": "string" },
+        "auxiliary": { "enum": ["haben", "sein"] },
+        "irregular": { "type": "boolean" }
       }
     },
     "exerciseItem": {

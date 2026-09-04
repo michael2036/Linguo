@@ -23,6 +23,13 @@ gradeable drills, installable on any device and fully usable offline.
     instantly with no gating or prerequisite practice.
 - **Six exercise types** — multiple-choice, fill-in-the-blank, sentence
   scramble, cloze conjugation, targeted transformation, and error correction.
+- **Full German linguistic profiles for vocabulary** (B1 so far) — nouns
+  carry gender and plural, verbs carry their principal parts (Präteritum,
+  Partizip II, `haben`/`sein`) and regularity; the Wortschatz-Trainer tests
+  all of it, not just term↔translation recall.
+- **Linguo**, the app's mascot, guides the home page's level selector and
+  reacts to every graded answer in an animated feedback drawer — sprite-based,
+  no video/GIF assets.
 - **Optional cross-device sync** via the user's own Google Drive
   `appDataFolder` — no client secret, no custom backend, last-write-wins
   conflict resolution.
@@ -73,14 +80,18 @@ Content follows the real structure of the "Momente" (Hueber) textbook
 series: **Level** (A1/A2/B1) → **Modul** (1–8) → **Lektion** (exactly 3 per
 Modul, 24 per level).
 
-| Level | Moduln authored |
-|---|---|
-| A1 | 1 / 8 (pilot) |
-| A2 | 8 / 8 ✅ |
-| B1 | 0 / 8 |
+| Level | Moduln authored | Vocabulary linguistic profiles |
+|---|---|---|
+| A1 | 8 / 8 ✅ | not yet backfilled |
+| A2 | 8 / 8 ✅ | not yet backfilled |
+| B1 | 8 / 8 ✅ | ✅ full noun/verb profiles |
 
 Modul packs live at `public/data/<level>/modul-<N>.json` and must validate
 against [`public/schemas/modul-schema.json`](public/schemas/modul-schema.json).
+"Vocabulary linguistic profiles" means the richer per-word data (noun
+plural, verb principal parts) described in [PRD §10](PRD.md#10-v1-revision-vocabulary-linguistic-profiles--student-simulation)
+— those fields are optional, so A1/A2 work normally today and just don't
+generate the extra grammar quiz items until backfilled.
 
 ## Content authoring
 
@@ -137,8 +148,10 @@ Service URL — the app ships both as real pages once deployed:
 
 ## Contributing
 
-Contributions are welcome, especially new curriculum content (see
-[Content authoring](#content-authoring)) and B1/A1 Modul coverage. Please
-open an issue or PR — for anything content-related, follow the
-`.agents/pipeline.md` workflow so exercises stay copyright-safe and
-consistent with the existing schema.
+Contributions are welcome, especially backfilling A1/A2 vocabulary with the
+noun/verb linguistic profiles B1 already has (see [Curriculum
+coverage](#curriculum-coverage) and [Content authoring](#content-authoring)).
+Please open an issue or PR — for anything content-related, follow the
+`.agents/pipeline.md` workflow, including its blind-solve student-simulation
+audit step, so exercises stay copyright-safe, unambiguous, and consistent
+with the existing schema.
