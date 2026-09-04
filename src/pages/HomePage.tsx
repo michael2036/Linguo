@@ -1,16 +1,13 @@
-import { useMemo, useState } from 'react';
+import { useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Button, Card, Text, makeStyles, tokens, shorthands } from '@fluentui/react-components';
-import { Brain24Filled, ChevronRight20Regular, Sparkle24Filled, TrophyFilled } from '@fluentui/react-icons';
+import { Button, Text, makeStyles, tokens, shorthands } from '@fluentui/react-components';
+import { Sparkle24Filled, TrophyFilled } from '@fluentui/react-icons';
 import { LEVEL_CATALOG, MODUL_CATALOG } from '../lib/curriculumLoader';
 import type { Level } from '../types/curriculum';
 import { suggestNextStep, allLektionenMastered } from '../lib/recommendation';
 import { useAppStore } from '../store/appState';
 import { emptyLektionProgress } from '../types/appState';
-import { LinguoLevelBanner } from '../components/mascot/LinguoLevelBanner';
-import type { LinguoExpression } from '../components/mascot/linguoExpressions';
-import { LevelTabs } from '../components/dashboard/LevelTabs';
-import { ModulPathCard } from '../components/dashboard/ModulPathCard';
+import { LevelCard } from '../components/dashboard/LevelCard';
 
 const useStyles = makeStyles({
   wrap: {
@@ -112,89 +109,39 @@ const useStyles = makeStyles({
       width: 'auto',
     },
   },
-  vocabCard: {
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    ...shorthands.gap('12px'),
-    ...shorthands.padding('16px', '18px'),
-    minHeight: '44px',
-    cursor: 'pointer',
-    transitionProperty: 'transform, box-shadow',
-    transitionDuration: tokens.durationFaster,
-    ':hover': {
-      transform: 'translateY(-1px)',
-      boxShadow: tokens.shadow4,
-    },
-  },
-  vocabLeft: {
-    display: 'flex',
-    alignItems: 'center',
-    ...shorthands.gap('12px'),
-    minWidth: 0,
-  },
-  vocabIcon: {
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    width: '40px',
-    height: '40px',
-    flexShrink: 0,
-    borderRadius: tokens.borderRadiusMedium,
-    backgroundColor: tokens.colorBrandBackground2,
-    color: tokens.colorBrandForeground1,
-  },
-  vocabText: {
-    display: 'flex',
-    flexDirection: 'column',
-    minWidth: 0,
-  },
-  vocabTitle: {
-    fontWeight: 600,
-  },
-  vocabSub: {
-    fontSize: '12px',
-    color: tokens.colorNeutralForeground3,
-  },
-  chevron: {
-    color: tokens.colorNeutralForeground3,
-    flexShrink: 0,
-  },
   levelSection: {
     display: 'flex',
     flexDirection: 'column',
-    ...shorthands.gap('18px'),
+    ...shorthands.gap('14px'),
   },
-  modulGrid: {
+  sectionTitle: {
+    fontFamily: 'var(--font-display)',
+    fontWeight: 700,
+  },
+  levelGrid: {
     display: 'grid',
     gridTemplateColumns: '1fr',
-    ...shorthands.gap('16px'),
-    '@media (min-width: 720px)': {
-      gridTemplateColumns: '1fr 1fr',
+    ...shorthands.gap('14px'),
+    '@media (min-width: 640px)': {
+      gridTemplateColumns: 'repeat(3, 1fr)',
     },
   },
 });
 
-// A level counts as mastered for the tab badge once every one of its
-// Lektionen is green — purely a UI read of existing progress, not a new
-// piece of tracked state.
-const useMasteredLevels = (): Level[] => {
+// Per-level {mastered, total} counts for the portal's level cards — a pure
+// UI read of existing progress, not a new piece of tracked state.
+const useLevelStats = (): Record<Level, { mastered: number; total: number }> => {
   const lektionProgress = useAppStore((s) => s.state.lektionProgress);
-  return useMemo(
-    () =>
-      LEVEL_CATALOG.filter(({ level }) => {
-        const lektionen = MODUL_CATALOG.filter((m) => m.level === level).flatMap((m) => m.lektionen);
-        return (
-          lektionen.length > 0 &&
-          lektionen.every((l) => (lektionProgress[l.lektionId] ?? emptyLektionProgress()).status === 'green')
-        );
-      }).map((l) => l.level),
-    [lektionProgress],
-  );
+  return useMemo(() => {
+    const result = {} as Record<Level, { mastered: number; total: number }>;
+    for (const { level } of LEVEL_CATALOG) {
+      const lektionen = MODUL_CATALOG.filter((m) => m.level === level).flatMap((m) => m.lektionen);
+      const mastered = lektionen.filter((l) => (lektionProgress[l.lektionId] ?? emptyLektionProgress()).status === 'green').length;
+      result[level] = { mastered, total: lektionen.length };
+    }
+    return result;
+  }, [lektionProgress]);
 };
-
-const levelOf = (lektionId: string): Level | undefined =>
-  MODUL_CATALOG.find((m) => m.lektionen.some((l) => l.lektionId === lektionId))?.level;
 
 export const HomePage = () => {
   const styles = useStyles();
@@ -212,36 +159,7 @@ export const HomePage = () => {
 
   const nextStep = useMemo(() => suggestNextStep(state.lektionProgress), [state.lektionProgress]);
   const allMastered = useMemo(() => allLektionenMastered(state.lektionProgress), [state.lektionProgress]);
-  const masteredLevels = useMasteredLevels();
-
-  // Defaults to wherever the learner should pick up next, so the level tab
-  // that opens is the one that's actually relevant right now.
-  const [activeLevel, setActiveLevel] = useState<Level>(
-    () => (nextStep && levelOf(nextStep.lektionId)) ?? LEVEL_CATALOG[0].level,
-  );
-
-  const activeLevelInfo = LEVEL_CATALOG.find((l) => l.level === activeLevel) ?? LEVEL_CATALOG[0];
-  const activeModuln = useMemo(() => MODUL_CATALOG.filter((m) => m.level === activeLevel), [activeLevel]);
-  const progressFor = (lektionId: string) => state.lektionProgress[lektionId] ?? emptyLektionProgress();
-
-  const activeLevelLektionen = useMemo(() => activeModuln.flatMap((m) => m.lektionen), [activeModuln]);
-  const activeLevelMasteredCount = useMemo(
-    () => activeLevelLektionen.filter((l) => progressFor(l.lektionId).status === 'green').length,
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-    [activeLevelLektionen, state.lektionProgress],
-  );
-  const isActiveLevelMastered = masteredLevels.includes(activeLevel);
-  const linguoExpression: LinguoExpression = isActiveLevelMastered
-    ? 'celebrating'
-    : activeLevelMasteredCount > 0
-      ? 'happy'
-      : 'idle';
-  const progressLabel =
-    activeLevelLektionen.length > 0
-      ? isActiveLevelMastered
-        ? `Alle ${activeLevelLektionen.length} Lektionen gemeistert — stark! 🎉`
-        : `${activeLevelMasteredCount} von ${activeLevelLektionen.length} Lektionen gemeistert`
-      : undefined;
+  const levelStats = useLevelStats();
 
   return (
     <div className={styles.wrap}>
@@ -298,50 +216,21 @@ export const HomePage = () => {
         )}
       </section>
 
-      <Card className={styles.vocabCard} onClick={() => navigate('/vocab-trainer')}>
-        <div className={styles.vocabLeft}>
-          <span className={styles.vocabIcon}>
-            <Brain24Filled />
-          </span>
-          <div className={styles.vocabText}>
-            <Text className={styles.vocabTitle}>Wortschatz-Trainer</Text>
-            <Text className={styles.vocabSub}>Vokabeln aus jedem Modul gezielt üben — unabhängig vom Level.</Text>
-          </div>
-        </div>
-        <ChevronRight20Regular className={styles.chevron} />
-      </Card>
-
       <section className={styles.levelSection}>
-        <LevelTabs
-          levels={LEVEL_CATALOG}
-          activeLevel={activeLevel}
-          masteredLevels={masteredLevels}
-          onSelect={setActiveLevel}
-        />
-
-        <LinguoLevelBanner
-          levelTitle={activeLevelInfo.title}
-          tagline={activeLevelInfo.tagline}
-          expression={linguoExpression}
-          progressLabel={progressLabel}
-        />
-
-        {activeModuln.length > 0 ? (
-          <div className={styles.modulGrid}>
-            {activeModuln.map((modul) => (
-              <ModulPathCard
-                key={modul.modulId}
-                modul={modul}
-                progressFor={progressFor}
-                onSelectLektion={(lektionId) => navigate(`/lektion/${lektionId}`)}
-              />
-            ))}
-          </div>
-        ) : (
-          <Text style={{ color: tokens.colorNeutralForeground3 }}>
-            Für dieses Level sind noch keine Module verfügbar.
-          </Text>
-        )}
+        <Text className={styles.sectionTitle} as="h2" size={500}>
+          Wähle ein Level
+        </Text>
+        <div className={styles.levelGrid}>
+          {LEVEL_CATALOG.map((level) => (
+            <LevelCard
+              key={level.level}
+              level={level}
+              masteredCount={levelStats[level.level]?.mastered ?? 0}
+              totalCount={levelStats[level.level]?.total ?? 0}
+              onClick={() => navigate(`/levels/${level.level.toLowerCase()}`)}
+            />
+          ))}
+        </div>
       </section>
     </div>
   );

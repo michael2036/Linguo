@@ -55,7 +55,7 @@ textarea {
 a:focus-visible,
 button:focus-visible,
 [tabindex]:focus-visible {
-  outline: 2px solid var(--colorBrandStroke1, #4f30b5);
+  outline: 2px solid var(--colorBrandStroke1, #307fb5);
   outline-offset: 2px;
   border-radius: 4px;
 }
@@ -67,6 +67,22 @@ button:focus-visible,
   }
   to {
     opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Position-only entrance, no opacity dip. Used for large/complex subtrees
+   (a whole page-content swap, not a single small card) — fading a big
+   subtree in via opacity means every descendant's text sits at reduced
+   contrast for the length of the animation, which reads as a readability
+   bug (reported as "black on gray" in dark mode) rather than a transition.
+   ls-fade-up is fine for small, self-contained elements; this is for
+   anything wrapping a page's worth of content. */
+@keyframes ls-slide-in {
+  from {
+    transform: translateY(8px);
+  }
+  to {
     transform: translateY(0);
   }
 }
@@ -113,16 +129,6 @@ button:focus-visible,
   100% {
     transform: translateY(105vh) translateX(var(--ls-confetti-drift, 0px)) rotate(600deg);
     opacity: 0.3;
-  }
-}
-
-@keyframes ls-linguo-bob {
-  0%,
-  100% {
-    transform: translateY(0) rotate(0deg);
-  }
-  50% {
-    transform: translateY(-5px) rotate(-2deg);
   }
 }
 

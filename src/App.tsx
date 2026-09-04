@@ -5,6 +5,7 @@ import { useAppStore } from './store/appState';
 import { AppShell } from './components/layout/AppShell';
 import { ErrorBoundary } from './components/ErrorBoundary';
 import { HomePage } from './pages/HomePage';
+import { LevelHubPage } from './pages/LevelHubPage';
 import { LektionPage } from './pages/LektionPage';
 import { VocabTrainerPage } from './pages/VocabTrainerPage';
 import { SettingsPage } from './pages/SettingsPage';
@@ -27,6 +28,7 @@ function App() {
           <ErrorBoundary>
             <Routes>
               <Route path="/" element={<HomePage />} />
+              <Route path="/levels/:levelId" element={<LevelHubPage />} />
               <Route path="/lektion/:lektionId" element={<LektionPage />} />
               <Route path="/vocab-trainer" element={<VocabTrainerPage />} />
               <Route path="/settings" element={<SettingsPage />} />

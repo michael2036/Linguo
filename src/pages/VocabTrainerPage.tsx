@@ -15,6 +15,7 @@ import { VocabGameStats } from '../components/vocabTrainer/VocabGameStats';
 import { ScoreRing } from '../components/badges/ScoreRing';
 import { Confetti } from '../components/celebration/Confetti';
 import { LinguoAvatar } from '../components/mascot/LinguoAvatar';
+import { LinguoLaunchOverlay } from '../components/mascot/LinguoLaunchOverlay';
 import type { LinguoExpression } from '../components/mascot/linguoExpressions';
 
 type Stage = 'select' | 'mode-select' | 'practice' | 'test' | 'result';
@@ -156,6 +157,12 @@ export const VocabTrainerPage = () => {
   const [quizItems, setQuizItems] = useState<ExerciseItem[]>([]);
   const quizKeyById = useRef<Record<string, string>>({});
 
+  // Set only while the launch overlay is showing for "Übung"/"Test" (or
+  // "Noch eine Runde") — mirrors LektionPage.tsx's enterActivity pattern so
+  // both exercise-runner entry points in the app share the same brief
+  // "presenting the activity" beat before content actually mounts.
+  const [launchTarget, setLaunchTarget] = useState<'practice' | 'test' | null>(null);
+
   const [resultMode, setResultMode] = useState<ResultMode | null>(null);
   const [resultScore, setResultScore] = useState<number | null>(null);
   const [xpEarned, setXpEarned] = useState(0);
@@ -233,6 +240,22 @@ export const VocabTrainerPage = () => {
     setStage('result');
   };
 
+  if (launchTarget) {
+    const isPractice = launchTarget === 'practice';
+    return (
+      <LinguoLaunchOverlay
+        title={isPractice ? 'Wortschatz' : 'Test'}
+        subtitle={isPractice ? 'Karteikarten wiederholen.' : 'Zeig, was du drauf hast.'}
+        expression={isPractice ? 'happy' : 'confident'}
+        onDone={() => {
+          if (isPractice) startPractice();
+          else startTest();
+          setLaunchTarget(null);
+        }}
+      />
+    );
+  }
+
   if (stage === 'practice') {
     return (
       <VocabFlashcards
@@ -270,11 +293,7 @@ export const VocabTrainerPage = () => {
         </Text>
         <VocabGameStats trainer={vocabTrainer} masteredCount={masteredCount} poolSize={pool?.length ?? 0} />
         <div className={styles.resultActions}>
-          <Button
-            appearance="primary"
-            icon={<RocketFilled />}
-            onClick={() => (resultMode === 'practice' ? startPractice() : startTest())}
-          >
+          <Button appearance="primary" icon={<RocketFilled />} onClick={() => setLaunchTarget(resultMode)}>
             Noch eine Runde
           </Button>
           <Button appearance="outline" onClick={() => setStage('select')}>
@@ -311,7 +330,7 @@ export const VocabTrainerPage = () => {
         <VocabGameStats trainer={vocabTrainer} masteredCount={masteredCount} poolSize={pool.length} />
 
         <div className={styles.modeGrid}>
-          <button className={styles.modeCard} onClick={startPractice}>
+          <button className={styles.modeCard} onClick={() => setLaunchTarget('practice')}>
             <span className={styles.modeIcon}>
               <BookOpen24Filled />
             </span>
@@ -321,7 +340,7 @@ export const VocabTrainerPage = () => {
               wiederholen musst.
             </Text>
           </button>
-          <button className={styles.modeCard} onClick={startTest}>
+          <button className={styles.modeCard} onClick={() => setLaunchTarget('test')}>
             <span className={styles.modeIcon}>
               <RocketFilled />
             </span>

@@ -131,7 +131,10 @@ export const AppShell = ({ children }: AppShellProps) => {
   const styles = useStyles();
   const location = useLocation();
 
-  const isHome = location.pathname === '/' || location.pathname.startsWith('/lektion');
+  const isHome =
+    location.pathname === '/' ||
+    location.pathname.startsWith('/lektion') ||
+    location.pathname.startsWith('/levels');
   const isVocabTrainer = location.pathname.startsWith('/vocab-trainer');
   const isSettings = location.pathname === '/settings';
 

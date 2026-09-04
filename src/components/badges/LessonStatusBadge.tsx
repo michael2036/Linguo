@@ -1,13 +1,14 @@
 import type { ReactElement } from 'react';
 import { makeStyles, mergeClasses, tokens, shorthands } from '@fluentui/react-components';
-import { LockClosed16Regular, BookOpen16Filled, CheckmarkCircle16Filled, Warning16Filled } from '@fluentui/react-icons';
+import { Circle16Regular, BookOpen16Filled, CheckmarkCircle16Filled, Warning16Filled } from '@fluentui/react-icons';
 import type { DisplayStatus } from '../../lib/dashboardStatus';
 
-// UI psychology: nothing here is red-by-default. A Lektion nobody has
-// touched yet reads as neutral ("not started"), never as a warning — see
-// lib/dashboardStatus.ts. Amber/red is reserved for the one case that
-// actually earns it: a mastered Lektion Linguo thinks deserves a quick
-// second look.
+// UI psychology: nothing here is red-by-default, and nothing is a lock —
+// every Lektion is always open (see AGENTS.md's "no gating" note). A
+// Lektion nobody has touched yet reads as neutral ("not started"), never
+// as restricted or as a warning — see lib/dashboardStatus.ts. Amber/red is
+// reserved for the one case that actually earns it: a mastered Lektion
+// Linguo thinks deserves a quick second look.
 const LABELS: Record<DisplayStatus, string> = {
   unattempted: 'Noch nicht begonnen',
   'in-progress': 'In Bearbeitung',
@@ -16,7 +17,7 @@ const LABELS: Record<DisplayStatus, string> = {
 };
 
 const ICONS: Record<DisplayStatus, ReactElement> = {
-  unattempted: <LockClosed16Regular />,
+  unattempted: <Circle16Regular />,
   'in-progress': <BookOpen16Filled />,
   completed: <CheckmarkCircle16Filled />,
   'needs-review': <Warning16Filled />,

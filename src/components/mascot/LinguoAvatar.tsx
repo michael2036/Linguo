@@ -12,12 +12,6 @@ const useStyles = makeStyles({
     imageRendering: 'pixelated',
     borderRadius: '18%',
   },
-  bob: {
-    animationName: 'ls-linguo-bob',
-    animationDuration: '2.4s',
-    animationIterationCount: 'infinite',
-    animationTimingFunction: 'ease-in-out',
-  },
   popIn: {
     animationName: 'ls-linguo-pop-in',
     animationDuration: '520ms',
@@ -28,7 +22,7 @@ const useStyles = makeStyles({
 interface LinguoAvatarProps {
   expression: LinguoExpression;
   size?: number;
-  animate?: 'bob' | 'pop' | 'none';
+  animate?: 'pop' | 'none';
   className?: string;
 }
 
@@ -46,7 +40,6 @@ export const LinguoAvatar = ({ expression, size = 56, animate = 'none', classNam
       aria-label={`Linguo, das Maskottchen: ${expression}`}
       className={mergeClasses(
         styles.avatar,
-        animate === 'bob' && styles.bob,
         animate === 'pop' && styles.popIn,
         className,
       )}

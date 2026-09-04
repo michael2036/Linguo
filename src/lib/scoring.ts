@@ -51,14 +51,6 @@ export const computeLektionStatus = (entry: LektionProgressEntry): LektionStatus
   return 'red';
 };
 
-export const isTierUnlocked = (entry: LektionProgressEntry, tier: Tier): boolean => {
-  if (!entry.vocabCompleted) return false;
-  if (tier === 'easy') return true;
-  if (tier === 'medium') return entry.practice.easy.completed && tierPassed('easy', entry.practice.easy.score);
-  return entry.practice.medium.completed && tierPassed('medium', entry.practice.medium.score);
-};
-
-// Direct Test Mode per PRD Phase 3: instantly accessible, never gated by
-// vocab or practice progress — this exists mainly to document that
-// intentional absence of a check, not to encode real logic.
-export const isTestUnlocked = (): boolean => true;
+// Navigation is intentionally open: vocab, all three practice tiers, and
+// Test are all reachable at any time (see AGENTS.md's "no gating" note) —
+// this file only computes *mastery* (green/yellow/red), never access.

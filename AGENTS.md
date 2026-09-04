@@ -26,17 +26,28 @@ src/
     layout/AppShell.tsx        # header, bottom nav, safe-area insets
     exercises/                 # one component per exercise type + shared runner
     vocab/VocabFlashcards.tsx  # Stage 0 flip-card primer
-    badges/                    # TrafficLightBadge, GenderBadge, ScoreRing
+    vocabTrainer/               # cross-Lektion Wortschatz-Trainer (select tree, stats)
+    mascot/                     # LinguoAvatar (sprite-sliced), LinguoFeedbackDrawer,
+                                 # LinguoLevelBanner, LinguoLaunchOverlay — see
+                                 # "Linguo the mascot" below
+    dashboard/                  # LevelCard (portal), ModulPathCard (level hub)
+    badges/                     # LessonStatusBadge, GenderBadge, ScoreRing
     celebration/Confetti.tsx   # one-shot burst on Lektion mastery
     legal/LegalDocument.tsx    # shared layout for Privacy/Terms
+    InstallAppPrompt.tsx        # "add to home screen" / PWA install nudge
     ErrorBoundary.tsx          # crash guard around the routed pages
-  pages/                       # HomePage, LektionPage, SettingsPage,
-                                # AboutPage, PrivacyPage, TermsPage, NotFoundPage
+  pages/                       # HomePage (portal), LevelHubPage, LektionPage,
+                                # VocabTrainerPage, SettingsPage, AboutPage,
+                                # PrivacyPage, TermsPage, NotFoundPage
   store/appState.ts            # zustand store — single source of truth for progress
   lib/
-    scoring.ts                 # tier pass thresholds + traffic-light status logic
+    scoring.ts                 # tier pass thresholds + green/yellow/red status logic
+    dashboardStatus.ts          # UI-only re-read of progress into 4 display buckets
+                                 # (unattempted/in-progress/completed/needs-review) —
+                                 # does NOT change scoring.ts, see "UI status" below
     recommendation.ts          # "Weiter lernen" next-Lektion suggestion
     curriculumLoader.ts        # fetches Modul JSON; LEVEL_CATALOG + MODUL_CATALOG live here
+    vocabPool.ts / vocabSrs.ts / vocabQuiz.ts / vocabGame.ts  # Wortschatz-Trainer engine
     googleAuth.ts / driveSync.ts  # optional cloud sync, appdata-scoped
     localStore.ts              # localStorage persistence
   types/
@@ -53,9 +64,10 @@ design/                        # source design assets (e.g. icon master), not sh
 .github/workflows/deploy.yml   # GitHub Pages CI/CD
 ```
 
-Routes: `/` (home, grouped by Level → Modul → Lektion), `/lektion/:lektionId`
-(mode-select → Übung or Test), `/settings`, `/about`, `/privacy`, `/terms`,
-and a `*` catch-all `NotFoundPage`. The Privacy/Terms pages are real,
+Routes: `/` (portal — three level cards, no lesson detail), `/levels/:levelId`
+(one level's Moduln/Lektionen, `levelId` lowercase e.g. `a1`), `/lektion/:lektionId`
+(mode-select → Übung or Test), `/vocab-trainer`, `/settings`, `/about`,
+`/privacy`, `/terms`, and a `*` catch-all `NotFoundPage`. The Privacy/Terms pages are real,
 live-linked pages — they're what Google's OAuth consent screen configuration
 points at, so don't remove or break their routes without updating that
 consent screen too.
@@ -84,14 +96,53 @@ Level (A1 / A2 / B1)
 
 Two decoupled pathways per Lektion, both reachable from `LektionPage`'s
 mode-select screen with zero prior clicks: **Übung** (Practice — vocab, then
-gated easy → medium → hard, same scaffolding model as before) and **Test**
-(Direct Test Mode — instantly accessible, no gating, and a strong score
-alone can move the Lektion to Green via `TEST_MASTERY_THRESHOLD` in
-`scoring.ts`).
+all three tiers) and **Test** (instantly accessible). Navigation is
+intentionally open end to end — vocab, all three practice tiers, and Test
+are all reachable in any order, no lock icons, nothing disabled (adult
+self-directed learners jump around freely). `scoring.ts` still computes
+*mastery* the same way it always has (`TEST_MASTERY_THRESHOLD`, tier pass
+thresholds); only the old navigation *gate* (`isTierUnlocked`) was removed —
+don't reintroduce it. `LektionPage.tsx`'s practice-overview does keep one
+soft, non-restrictive cue: the first not-yet-done tier gets a brand-accent
+highlight as a "start here" suggestion, but every row is equally clickable.
 
-Only `a1-m1` (3 Lektionen) is built as of this writing — a deliberate pilot
-to validate the architecture before scaling to all 8 Moduln × 3 levels. See
+All 8 Moduln (24 Lektionen) are built for A1, A2, and B1 as of this
+writing — the pilot (`a1-m1`) validated the architecture before scaling to
+the rest. C1/C2 aren't authored yet; `LEVEL_CATALOG`/the modul schema's
+`level` enum only cover A1–B1 today. See
 [`.agents/pipeline.md`](.agents/pipeline.md) to author more.
+
+### Vocabulary linguistic profiles
+
+`VocabularyItem` (`src/types/content.ts`) carries more than term↔translation:
+nouns get `gender` + `plural` (the `term` string already includes the
+article, e.g. `"das Vertrauen"` — don't re-prepend it when building a
+prompt, see `vocabQuiz.ts`'s gender-quiz item for the pattern), and verbs get
+`preterite` (3rd-person Präteritum), `participle` (Partizip II *alone*,
+without its auxiliary), `auxiliary` (`'haben' | 'sein'`), and `irregular`.
+All four verb fields and `plural` are optional — omitted for content that
+hasn't been backfilled yet (only B1's vocabulary carries the full profile as
+of this writing; A1/A2 are unaffected and still work, they just don't
+generate the extra quiz item types below). `VocabFlashcards.tsx` renders the
+principal-parts row when present; `vocabQuiz.ts`'s `buildVocabQuizItems`
+generates one bonus graded item per eligible word (article, plural,
+Präteritum, Partizip II, or auxiliary — chosen at random, not all at once,
+to keep session length bounded) alongside the base translation item, reusing
+the existing `multiple-choice`/`fill-in-blank` `ExerciseItem` shapes rather
+than adding new exercise types.
+
+### UI status vs. scoring status
+
+`LektionStatus` (`red`/`yellow`/`green`, `scoring.ts`) is the real,
+persisted mastery state — don't touch it for a UI-only change.
+`dashboardStatus.ts`'s `getDisplayStatus` is a separate, purely
+presentational re-read of `LektionProgressEntry` into four UI buckets
+(`unattempted`/`in-progress`/`completed`/`needs-review`), used by
+`LessonStatusBadge`/`LessonStatusNode` everywhere a status shows on screen.
+The point is to never show red on content nobody has touched yet — red is
+reserved for `needs-review`, a *mastered* Lektion whose representative score
+fell under a threshold. If you add a new place that displays Lektion status,
+go through `getDisplayStatus`, not raw `progress.status`.
 
 ## Stack quick reference
 
@@ -149,6 +200,35 @@ build passing alone.
   Cloud Console (see README's Google Drive sync section); a sign-in failure
   from an unlisted origin (e.g. a different port, or before Pages is
   deployed) is expected, not a code bug.
+- **Linguo the mascot** (`src/components/mascot/`) is one sprite sheet
+  (`src/linguo_sprites.jpeg`, a 4x4 grid of expressions) sliced purely via
+  CSS `background-position` in `LinguoAvatar.tsx` — no per-expression image
+  assets to keep in sync. `animate="pop"` is a one-shot settle-in animation
+  for a fresh mount; there's no looping/idle animation on purpose (an
+  earlier infinite rock/tilt loop read as an animation bug, not "alive" —
+  don't reintroduce a continuous loop here). `LinguoFeedbackDrawer` is the
+  bottom-sheet reaction after grading an `ExerciseRunner` item;
+  `LinguoLevelBanner` is the speech-bubble intro at the top of a Level Hub
+  page; `LinguoLaunchOverlay` is the brief full-screen "presenting the
+  activity" beat shown before vocab/a practice tier/Test actually mounts —
+  wired in via each page's own `launchTarget` state (see `LektionPage.tsx`'s
+  `enterActivity` and `VocabTrainerPage.tsx`'s equivalent), not a route-level
+  transition. Only use it for genuine "opening an activity" moments, not
+  plain page navigation (mode-select ↔ practice-overview stays instant).
+- **Multiple-choice auto-submits on selection** (`ExerciseRunner.tsx`) —
+  clicking an option or pressing its 1–4 digit shortcut grades it
+  immediately, no separate "Prüfen" confirmation step (that button is only
+  rendered for free-text/scramble types, which do need an explicit submit).
+  `handleSubmit` takes an optional answer-override parameter for exactly
+  this — it's called with the just-clicked option directly rather than
+  relying on `choiceValue` state, which wouldn't have updated yet in the
+  same synchronous handler.
+- **`ExerciseRunner`'s Enter-key listener is registered on the capture
+  phase**, not bubble (`{ capture: true }`) — deliberate, so it fires
+  regardless of anything downstream (e.g. Fluent's `Input`) potentially
+  stopping propagation on its way back up. If you add another window-level
+  keydown handler in an exercise-adjacent component, prefer capture there
+  too rather than assuming bubble-phase will reach you.
 - **GitHub Pages base path is case-sensitive.** `REPO_BASE` in
   `vite.config.ts` must exactly match the repo's actual name casing
   (`/Linguo/`, capital L) — a mismatch 404s every asset while the root HTML

@@ -71,7 +71,7 @@ export const LinguoLevelBanner = ({ levelTitle, tagline, expression, progressLab
   return (
     <div className={styles.banner}>
       <span className={styles.avatarSlot}>
-        <LinguoAvatar expression={expression} size={64} animate="bob" />
+        <LinguoAvatar expression={expression} size={64} animate="pop" />
       </span>
       <div className={styles.bubble}>
         <Text className={styles.levelTitle} as="h2">

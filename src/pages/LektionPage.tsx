@@ -15,7 +15,6 @@ import {
   CheckmarkCircle24Filled,
   ChevronRight24Regular,
   ClipboardTaskListLtr24Filled,
-  LockClosed20Filled,
   RocketFilled,
   SparkleFilled,
 } from '@fluentui/react-icons';
@@ -23,7 +22,6 @@ import { MODUL_CATALOG, loadModul } from '../lib/curriculumLoader';
 import type { ModulPackage } from '../types/curriculum';
 import type { Tier } from '../types/appState';
 import { useAppStore } from '../store/appState';
-import { isTierUnlocked } from '../lib/scoring';
 import { emptyLektionProgress } from '../types/appState';
 import { VocabFlashcards } from '../components/vocab/VocabFlashcards';
 import { ExerciseRunner } from '../components/exercises/ExerciseRunner';
@@ -32,7 +30,18 @@ import { getDisplayStatus } from '../lib/dashboardStatus';
 import { ScoreRing } from '../components/badges/ScoreRing';
 import { Confetti } from '../components/celebration/Confetti';
 import { LinguoAvatar } from '../components/mascot/LinguoAvatar';
+import { LinguoLaunchOverlay } from '../components/mascot/LinguoLaunchOverlay';
 import type { LinguoExpression } from '../components/mascot/linguoExpressions';
+
+// Every "opening an activity" entry point (vocab primer, a practice tier,
+// or Test) shows the same brief launch beat first — see enterActivity below.
+const ACTIVITY_LAUNCH: Record<'vocab' | Tier | 'test', { title: string; subtitle: string; expression: LinguoExpression }> = {
+  vocab: { title: 'Wortschatz', subtitle: 'Neue Begriffe kennenlernen.', expression: 'happy' },
+  easy: { title: 'Stufe 1 · Grundlagen', subtitle: 'Erkennen und wiederholen.', expression: 'thinking' },
+  medium: { title: 'Stufe 2 · Anwendung', subtitle: 'Jetzt wird es aktiver.', expression: 'thinking' },
+  hard: { title: 'Stufe 3 · Meisterschaft', subtitle: 'Freie Anwendung — du schaffst das!', expression: 'confident' },
+  test: { title: 'Test', subtitle: 'Zeig, was du drauf hast.', expression: 'confident' },
+};
 
 type Stage = 'mode-select' | 'practice-overview' | 'vocab' | Tier | 'test' | 'result';
 type ResultOrigin = 'vocab' | Tier | 'test';
@@ -202,9 +211,6 @@ const useStyles = makeStyles({
       boxShadow: tokens.shadow4,
     },
   },
-  stageCardLocked: {
-    opacity: 0.6,
-  },
   stageTextBlock: {
     display: 'flex',
     flexDirection: 'column',
@@ -231,13 +237,37 @@ const useStyles = makeStyles({
     paddingBottom: '24px',
     textAlign: 'center',
   },
+  // Keyed by `stage` at every call site below so switching between
+  // mode-select/practice-overview/a tier/result always remounts and
+  // replays this slide-in, rather than silently reusing the previous
+  // stage's DOM node when both happen to render a plain <div> at the root.
+  // Position-only (ls-slide-in, not ls-fade-up) — this wraps a whole
+  // page's worth of content, and an opacity fade over that much text reads
+  // as a readability bug (low-contrast flash), not a transition.
+  stageEnter: {
+    animationName: 'ls-slide-in',
+    animationDuration: tokens.durationSlower,
+    animationTimingFunction: tokens.curveDecelerateMid,
+  },
   resultHeadline: {
     fontFamily: 'var(--font-display)',
     fontWeight: 700,
   },
 });
 
+// React's own recommended fix for "reset all state when a prop/route param
+// changes": remount via `key`, rather than an effect full of setState calls
+// (which also trips oxlint's set-state-in-effect rule). Without this, React
+// Router reusing this component instance across two different Lektion URLs
+// would leave `stage` (and the rest) stuck wherever the previous Lektion
+// left off — e.g. still deep in "Stufe 3" — instead of starting fresh at
+// mode-select for the newly-loaded Lektion.
 export const LektionPage = () => {
+  const { lektionId } = useParams<{ lektionId: string }>();
+  return <LektionPageInner key={lektionId} />;
+};
+
+const LektionPageInner = () => {
   const styles = useStyles();
   const { lektionId } = useParams<{ lektionId: string }>();
   const navigate = useNavigate();
@@ -246,6 +276,12 @@ export const LektionPage = () => {
   const [lastResultScore, setLastResultScore] = useState<number | null>(null);
   const [resultOrigin, setResultOrigin] = useState<ResultOrigin | null>(null);
   const [justMastered, setJustMastered] = useState(false);
+  // Set only for the five "opening an activity" targets (vocab/tier/test) —
+  // while set, a full-screen LinguoLaunchOverlay renders instead of the
+  // normal stage content; its onDone flips `stage` for real. Pure
+  // navigation (mode-select <-> practice-overview, "back" buttons) skips
+  // this and calls setStage directly, since nothing is being "opened".
+  const [launchTarget, setLaunchTarget] = useState<'vocab' | Tier | 'test' | null>(null);
 
   const modulSummary = useMemo(
     () => MODUL_CATALOG.find((m) => m.lektionen.some((l) => l.lektionId === lektionId)),
@@ -279,6 +315,23 @@ export const LektionPage = () => {
     return <Text>Lektion nicht gefunden.</Text>;
   }
 
+  const enterActivity = (target: 'vocab' | Tier | 'test') => setLaunchTarget(target);
+
+  if (launchTarget) {
+    const launch = ACTIVITY_LAUNCH[launchTarget];
+    return (
+      <LinguoLaunchOverlay
+        title={launch.title}
+        subtitle={launch.subtitle}
+        expression={launch.expression}
+        onDone={() => {
+          setStage(launchTarget);
+          setLaunchTarget(null);
+        }}
+      />
+    );
+  }
+
   const handleVocabComplete = (rate: number) => {
     markVocabCompleted(lektionId, rate);
     setLastResultScore(rate);
@@ -308,21 +361,31 @@ export const LektionPage = () => {
   };
 
   if (stage === 'vocab') {
-    return <VocabFlashcards items={lektion.vocabulary} onComplete={handleVocabComplete} />;
+    return (
+      <div key={stage} className={styles.stageEnter}>
+        <VocabFlashcards items={lektion.vocabulary} onComplete={handleVocabComplete} />
+      </div>
+    );
   }
 
   if (stage === 'easy' || stage === 'medium' || stage === 'hard') {
     return (
-      <ExerciseRunner
-        tierLabel={TIER_LABELS[stage]}
-        items={lektion.practice[stage]}
-        onComplete={handleTierComplete(stage)}
-      />
+      <div key={stage} className={styles.stageEnter}>
+        <ExerciseRunner
+          tierLabel={TIER_LABELS[stage]}
+          items={lektion.practice[stage]}
+          onComplete={handleTierComplete(stage)}
+        />
+      </div>
     );
   }
 
   if (stage === 'test') {
-    return <ExerciseRunner tierLabel="Test" items={lektion.test} onComplete={handleTestComplete} />;
+    return (
+      <div key={stage} className={styles.stageEnter}>
+        <ExerciseRunner tierLabel="Test" items={lektion.test} onComplete={handleTestComplete} />
+      </div>
+    );
   }
 
   if (stage === 'result') {
@@ -334,10 +397,56 @@ export const LektionPage = () => {
         : passed
           ? 'Stark gemacht!'
           : 'Weiter üben lohnt sich!';
-    const backTarget = resultOrigin === 'test' ? 'mode-select' : 'practice-overview';
     const linguoExpression: LinguoExpression = justMastered ? 'celebrating' : passed ? 'happy' : 'encouraging';
+    const levelPath = `/levels/${modul.level.toLowerCase()}`;
+
+    // Chains one activity into the next instead of dumping the learner back
+    // on a generic overview — the whole point of the "intuitive next step"
+    // requirement. Always paired with a lower-emphasis way out, so this is
+    // a nudge forward, never a new gate.
+    let primaryLabel: string;
+    let primaryIcon = <ChevronRight24Regular />;
+    let onPrimary: () => void;
+    let secondaryLabel: string;
+    let onSecondary: () => void;
+    switch (resultOrigin) {
+      case 'vocab':
+        primaryLabel = 'Weiter zu Stufe 1';
+        onPrimary = () => enterActivity('easy');
+        secondaryLabel = 'Zurück zur Übersicht';
+        onSecondary = () => setStage('practice-overview');
+        break;
+      case 'easy':
+        primaryLabel = 'Weiter zu Stufe 2';
+        onPrimary = () => enterActivity('medium');
+        secondaryLabel = 'Zurück zur Übersicht';
+        onSecondary = () => setStage('practice-overview');
+        break;
+      case 'medium':
+        primaryLabel = 'Weiter zu Stufe 3';
+        onPrimary = () => enterActivity('hard');
+        secondaryLabel = 'Zurück zur Übersicht';
+        onSecondary = () => setStage('practice-overview');
+        break;
+      case 'hard':
+        primaryLabel = 'Test versuchen';
+        primaryIcon = <RocketFilled />;
+        onPrimary = () => enterActivity('test');
+        secondaryLabel = 'Zur Levelübersicht';
+        onSecondary = () => navigate(levelPath);
+        break;
+      case 'test':
+      default:
+        primaryLabel = 'Zur Levelübersicht';
+        primaryIcon = <SparkleFilled />;
+        onPrimary = () => navigate(levelPath);
+        secondaryLabel = 'Zurück zur Lektion';
+        onSecondary = () => setStage('mode-select');
+        break;
+    }
+
     return (
-      <div className={styles.resultWrap} role="status" aria-live="polite">
+      <div key={stage} className={mergeClasses(styles.resultWrap, styles.stageEnter)} role="status" aria-live="polite">
         {justMastered && <Confetti />}
         <LinguoAvatar expression={linguoExpression} size={88} animate="pop" />
         <ScoreRing percent={lastResultScore ?? 0} />
@@ -355,16 +464,21 @@ export const LektionPage = () => {
           </Text>
         )}
         <LessonStatusBadge status={getDisplayStatus(progress)} />
-        <Button appearance="primary" icon={<SparkleFilled />} onClick={() => setStage(backTarget)}>
-          {resultOrigin === 'test' ? 'Zurück zur Lektion' : 'Zurück zur Übungsübersicht'}
-        </Button>
+        <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: 10 }}>
+          <Button appearance="outline" onClick={onSecondary}>
+            {secondaryLabel}
+          </Button>
+          <Button appearance="primary" icon={primaryIcon} onClick={onPrimary}>
+            {primaryLabel}
+          </Button>
+        </div>
       </div>
     );
   }
 
   if (stage === 'mode-select') {
     return (
-      <div className={styles.wrap}>
+      <div key={stage} className={mergeClasses(styles.wrap, styles.stageEnter)}>
         <Button className={styles.backButton} appearance="subtle" icon={<ArrowLeft24Regular />} onClick={() => navigate('/')}>
           Alle Lektionen
         </Button>
@@ -394,7 +508,7 @@ export const LektionPage = () => {
               Wortschatz lernen, dann drei Übungsstufen vom Erkennen bis zur freien Anwendung.
             </Text>
           </button>
-          <button className={styles.modeCard} onClick={() => setStage('test')}>
+          <button className={styles.modeCard} onClick={() => enterActivity('test')}>
             <span className={styles.modeIcon}>
               <RocketFilled />
             </span>
@@ -409,20 +523,21 @@ export const LektionPage = () => {
     );
   }
 
-  // stage === 'practice-overview'
-  const stages: { key: Stage; label: string; sub: string; unlocked: boolean; done: boolean; score?: number }[] = [
+  // stage === 'practice-overview'. Every stage is always open — no gating,
+  // no lock icon (see AGENTS.md). `isRecommendedNext` below is a soft nudge
+  // only: the first not-yet-done stage gets a brand-accent highlight to
+  // suggest where to go, but every row is equally clickable regardless.
+  const stages: { key: Stage; label: string; sub: string; done: boolean; score?: number }[] = [
     {
       key: 'vocab',
       label: 'Stufe 0 · Wortschatz',
       sub: `${lektion.vocabulary.length} Begriffe`,
-      unlocked: true,
       done: progress.vocabCompleted,
     },
     {
       key: 'easy',
       label: TIER_LABELS.easy,
       sub: `${lektion.practice.easy.length} Aufgaben`,
-      unlocked: isTierUnlocked(progress, 'easy'),
       done: progress.practice.easy.completed,
       score: progress.practice.easy.attempts > 0 ? progress.practice.easy.score : undefined,
     },
@@ -430,7 +545,6 @@ export const LektionPage = () => {
       key: 'medium',
       label: TIER_LABELS.medium,
       sub: `${lektion.practice.medium.length} Aufgaben`,
-      unlocked: isTierUnlocked(progress, 'medium'),
       done: progress.practice.medium.completed,
       score: progress.practice.medium.attempts > 0 ? progress.practice.medium.score : undefined,
     },
@@ -438,14 +552,14 @@ export const LektionPage = () => {
       key: 'hard',
       label: TIER_LABELS.hard,
       sub: `${lektion.practice.hard.length} Aufgaben`,
-      unlocked: isTierUnlocked(progress, 'hard'),
       done: progress.practice.hard.completed,
       score: progress.practice.hard.attempts > 0 ? progress.practice.hard.score : undefined,
     },
   ];
+  const recommendedNextKey = stages.find((s) => !s.done)?.key;
 
   return (
-    <div className={styles.wrap}>
+    <div key={stage} className={mergeClasses(styles.wrap, styles.stageEnter)}>
       <Button className={styles.backButton} appearance="subtle" icon={<ArrowLeft24Regular />} onClick={() => setStage('mode-select')}>
         Zurück zur Lektion
       </Button>
@@ -464,33 +578,26 @@ export const LektionPage = () => {
               <div
                 className={mergeClasses(
                   styles.stageNode,
-                  s.unlocked && !s.done && styles.stageNodeUnlocked,
+                  !s.done && s.key === recommendedNextKey && styles.stageNodeUnlocked,
                   s.done && styles.stageNodeDone,
                 )}
               >
-                {s.done ? <CheckmarkCircle24Filled /> : s.unlocked ? <BookOpen24Filled /> : <LockClosed20Filled />}
+                {s.done ? <CheckmarkCircle24Filled /> : <BookOpen24Filled />}
               </div>
               {i < stages.length - 1 && (
                 <div className={mergeClasses(styles.stageConnector, s.done && styles.stageConnectorDone)} />
               )}
             </div>
 
-            <div
-              className={mergeClasses(styles.stageCard, s.unlocked ? styles.stageCardUnlocked : styles.stageCardLocked)}
-              onClick={() => s.unlocked && setStage(s.key)}
-            >
+            <div className={mergeClasses(styles.stageCard, styles.stageCardUnlocked)} onClick={() => enterActivity(s.key as 'vocab' | Tier)}>
               <div className={styles.stageTextBlock}>
                 <Text className={styles.stageLabel}>{s.label}</Text>
-                <Text className={styles.stageSub}>
-                  {s.unlocked ? s.sub : 'Schließe die vorherige Stufe ab, um freizuschalten.'}
-                </Text>
+                <Text className={styles.stageSub}>{s.sub}</Text>
               </div>
-              {s.unlocked && (
-                <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-                  {s.score !== undefined && <Text className={styles.stageScore}>{s.score}%</Text>}
-                  <ChevronRight24Regular />
-                </div>
-              )}
+              <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+                {s.score !== undefined && <Text className={styles.stageScore}>{s.score}%</Text>}
+                <ChevronRight24Regular />
+              </div>
             </div>
           </div>
         ))}
