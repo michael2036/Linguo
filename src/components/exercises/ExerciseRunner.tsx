@@ -142,9 +142,16 @@ export const ExerciseRunner = ({ tierLabel, items, onComplete, onItemComplete }:
 
   const canSubmit = currentAnswer().trim().length > 0;
 
-  const handleSubmit = () => {
-    if (submitted || !canSubmit) return;
-    const correct = isCorrectAnswer(currentAnswer(), item.solution);
+  // `answerOverride` lets multiple-choice auto-submit the instant an option
+  // is picked, without waiting for a re-render to see the new `choiceValue`
+  // state (React batches that update, so reading `currentAnswer()`
+  // synchronously right after `setChoiceValue` would still see the old
+  // value).
+  const handleSubmit = (answerOverride?: string) => {
+    if (submitted) return;
+    const answer = answerOverride ?? currentAnswer();
+    if (!answer.trim()) return;
+    const correct = isCorrectAnswer(answer, item.solution);
     if (correct) {
       setCorrectCount((c) => c + 1);
       setStreak((s) => s + 1);
@@ -156,6 +163,16 @@ export const ExerciseRunner = ({ tierLabel, items, onComplete, onItemComplete }:
     setLastCorrect(correct);
     onItemComplete?.(item, correct);
     setSubmitted(true);
+  };
+
+  // Multiple-choice is a true one-click answer: picking an option grades it
+  // immediately rather than waiting for a separate "Prüfen" confirmation —
+  // there's no ambiguity to resolve between selecting and submitting like
+  // there is for free-text input.
+  const handleChoiceSelect = (option: string) => {
+    if (submitted) return;
+    setChoiceValue(option);
+    handleSubmit(option);
   };
 
   const handleNext = () => {
@@ -171,8 +188,14 @@ export const ExerciseRunner = ({ tierLabel, items, onComplete, onItemComplete }:
     setSubmitted(false);
   };
 
-  // UR-05 desktop keyboard shortcuts: 1-4 select a multiple-choice option,
-  // Enter submits (or advances once already submitted).
+  // UR-05 desktop keyboard shortcuts: 1-4 answer a multiple-choice item
+  // immediately (mirrors the click behavior), Enter submits free-text/
+  // scramble types (or advances once already submitted). Registered on the
+  // capture phase, not bubble — Fluent's Input swallows Enter internally
+  // before it would otherwise bubble up to a window-level listener, which
+  // previously made Enter silently do nothing while a text field was
+  // focused (the single biggest source of "why do I need to reach for the
+  // mouse" friction on desktop).
   useEffect(() => {
     const handler = (e: KeyboardEvent) => {
       if (e.key === 'Enter') {
@@ -184,12 +207,12 @@ export const ExerciseRunner = ({ tierLabel, items, onComplete, onItemComplete }:
       if (item.type === 'multiple-choice' && !submitted && item.options) {
         const digit = Number(e.key);
         if (digit >= 1 && digit <= item.options.length) {
-          setChoiceValue(item.options[digit - 1]);
+          handleChoiceSelect(item.options[digit - 1]);
         }
       }
     };
-    window.addEventListener('keydown', handler);
-    return () => window.removeEventListener('keydown', handler);
+    window.addEventListener('keydown', handler, { capture: true });
+    return () => window.removeEventListener('keydown', handler, { capture: true });
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [item, submitted, textValue, scrambleValue, choiceValue]);
 
@@ -211,7 +234,7 @@ export const ExerciseRunner = ({ tierLabel, items, onComplete, onItemComplete }:
             <LinguoAvatar
               expression={COMPLEX_TYPES.includes(item.type) ? 'thinking' : 'idle'}
               size={40}
-              animate="bob"
+              animate="pop"
             />
           )}
         </div>
@@ -224,7 +247,7 @@ export const ExerciseRunner = ({ tierLabel, items, onComplete, onItemComplete }:
           <MultipleChoice
             options={item.options}
             value={choiceValue}
-            onChange={setChoiceValue}
+            onChange={handleChoiceSelect}
             submitted={submitted}
             solution={item.solution}
           />
@@ -246,9 +269,14 @@ export const ExerciseRunner = ({ tierLabel, items, onComplete, onItemComplete }:
 
         <HintExplanation hint={item.hint} submitted={submitted} />
 
-        {!submitted && (
+        {!submitted && item.type !== 'multiple-choice' && (
           <div className={styles.footer}>
-            <Button className={styles.submitButton} appearance="primary" disabled={!canSubmit} onClick={handleSubmit}>
+            <Button
+              className={styles.submitButton}
+              appearance="primary"
+              disabled={!canSubmit}
+              onClick={() => handleSubmit()}
+            >
               Prüfen
             </Button>
           </div>

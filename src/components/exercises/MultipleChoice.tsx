@@ -1,5 +1,4 @@
 import { Button, makeStyles, shorthands, tokens } from '@fluentui/react-components';
-import { mergeClasses } from '@fluentui/react-components';
 
 const useStyles = makeStyles({
   grid: {
@@ -29,14 +28,6 @@ const useStyles = makeStyles({
     fontWeight: 700,
     flexShrink: 0,
   },
-  correct: {
-    ...shorthands.borderColor(tokens.colorPaletteGreenBorder2),
-    backgroundColor: tokens.colorPaletteGreenBackground2,
-  },
-  incorrect: {
-    ...shorthands.borderColor(tokens.colorPaletteRedBorder2),
-    backgroundColor: tokens.colorPaletteRedBackground2,
-  },
 });
 
 interface MultipleChoiceProps {
@@ -55,14 +46,25 @@ export const MultipleChoice = ({ options, value, onChange, submitted, solution }
       {options.map((option, index) => {
         const isSelected = value === option;
         const isSolution = option === solution;
-        let stateClass = '';
-        if (submitted && isSolution) stateClass = styles.correct;
-        else if (submitted && isSelected && !isSolution) stateClass = styles.incorrect;
+        // Fluent's own Button recipe styles and this component's makeStyles
+        // output land in the same Griffel cascade layer, so which one wins
+        // depends on atomic-class insertion order across the whole app —
+        // not something this component controls or can rely on (in
+        // practice the "correct" green class would win here but the
+        // "incorrect" red one silently wouldn't, in both themes). Inline
+        // style always wins regardless, so use it for this state color.
+        let stateStyle: { backgroundColor: string; borderColor: string } | undefined;
+        if (submitted && isSolution) {
+          stateStyle = { backgroundColor: tokens.colorPaletteGreenBackground2, borderColor: tokens.colorPaletteGreenBorder2 };
+        } else if (submitted && isSelected && !isSolution) {
+          stateStyle = { backgroundColor: tokens.colorPaletteRedBackground2, borderColor: tokens.colorPaletteRedBorder2 };
+        }
 
         return (
           <Button
             key={option}
-            className={mergeClasses(styles.option, stateClass)}
+            className={styles.option}
+            style={stateStyle}
             appearance={isSelected && !submitted ? 'primary' : 'outline'}
             disabled={submitted}
             onClick={() => onChange(option)}
