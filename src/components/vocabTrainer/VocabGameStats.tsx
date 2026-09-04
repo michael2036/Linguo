@@ -1,5 +1,5 @@
 import { Text, makeStyles, tokens, shorthands } from '@fluentui/react-components';
-import { CheckmarkCircle24Filled, Fire24Filled, Sparkle24Filled, TrophyFilled } from '@fluentui/react-icons';
+import { CheckmarkCircle24Filled, Fire24Filled, Sparkle24Filled, Trophy24Filled } from '@fluentui/react-icons';
 import type { VocabTrainerState } from '../../types/appState';
 import { XP_PER_LEVEL, levelForXp, xpIntoLevel } from '../../lib/vocabGame';
 
@@ -61,7 +61,7 @@ export const VocabGameStats = ({ trainer, masteredCount, poolSize }: VocabGameSt
         <Text className={styles.statLabel}>Tage in Folge</Text>
       </div>
       <div className={styles.stat}>
-        <TrophyFilled />
+        <Trophy24Filled />
         <Text className={styles.statValue}>
           {masteredCount}/{poolSize}
         </Text>

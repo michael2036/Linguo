@@ -5,7 +5,7 @@
     <link rel="icon" type="image/png" href="%BASE_URL%icons/favicon.png" />
     <link rel="apple-touch-icon" href="%BASE_URL%icons/apple-touch-icon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1.0, user-scalable=no" />
-    <meta name="theme-color" content="#4f30b5" />
+    <meta name="theme-color" content="#307fb5" />
     <meta name="description" content="Linguo — your zero-cost, local-first German practice companion." />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -45,7 +45,7 @@
         align-items: center;
         justify-content: center;
         gap: 14px;
-        background: linear-gradient(160deg, #4f30b5, #2f1b73);
+        background: linear-gradient(160deg, #307fb5, #194d71);
         color: #fff;
         transition: opacity 420ms ease, visibility 420ms ease;
       }
@@ -58,8 +58,22 @@
         width: 84px;
         height: 84px;
         border-radius: 20px;
+        position: relative;
+        overflow: hidden;
         box-shadow: 0 12px 32px rgba(0, 0, 0, 0.25);
         animation: app-splash-pop 560ms cubic-bezier(0.2, 0.9, 0.3, 1.3);
+      }
+      .app-splash-logo img {
+        /* Linguo's face sheet is a 4x4 sprite; this crops to the top-left
+           cell (the idle expression) — same math as LinguoAvatar.tsx, just
+           via an absolutely-positioned <img> instead of background-position,
+           since this runs before any bundled CSS exists to reference. */
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 400%;
+        height: 400%;
+        image-rendering: pixelated;
       }
       .app-splash-word {
         font-family: 'Lexend Variable', 'Segoe UI', system-ui, sans-serif;
@@ -109,7 +123,9 @@
   </head>
   <body>
     <div id="app-splash" role="status" aria-live="polite">
-      <img class="app-splash-logo" src="%BASE_URL%icons/icon-192.png" alt="" />
+      <div class="app-splash-logo">
+        <img src="/src/linguo_sprites.jpeg" alt="" />
+      </div>
       <div class="app-splash-word">Linguo</div>
       <div class="app-splash-tagline">Dein Begleiter zum Deutschlernen</div>
       <div class="app-splash-spinner" aria-hidden="true"></div>
