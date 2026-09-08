@@ -27,10 +27,10 @@
         { "id": "l10v10", "term": "der Rucksack", "translation": "la mochila", "partOfSpeech": "noun", "gender": "der", "plural": "die Rucksäcke", "example": "Ich trage einen Rucksack." },
         { "id": "l10v11", "term": "der Bahnhof", "translation": "la estación de tren", "partOfSpeech": "noun", "gender": "der", "plural": "die Bahnhöfe", "example": "Ich warte am Bahnhof." },
         { "id": "l10v12", "term": "der Flughafen", "translation": "el aeropuerto", "partOfSpeech": "noun", "gender": "der", "plural": "die Flughäfen", "example": "Wir fahren zum Flughafen." },
-        { "id": "l10v13", "term": "anrufen", "translation": "llamar (por teléfono)", "partOfSpeech": "verb", "example": "Ich rufe dich an." },
-        { "id": "l10v14", "term": "abholen", "translation": "recoger", "partOfSpeech": "verb", "example": "Ich hole dich ab." },
-        { "id": "l10v15", "term": "ankommen", "translation": "llegar", "partOfSpeech": "verb", "example": "Der Zug kommt an." },
-        { "id": "l10v16", "term": "umsteigen", "translation": "hacer transbordo", "partOfSpeech": "verb", "example": "Ich steige in Köln um." }
+        { "id": "l10v13", "term": "anrufen", "translation": "llamar (por teléfono)", "partOfSpeech": "verb", "preterite": "rief an", "participle": "angerufen", "auxiliary": "haben", "irregular": true, "example": "Ich rufe dich an." },
+        { "id": "l10v14", "term": "abholen", "translation": "recoger", "partOfSpeech": "verb", "preterite": "holte ab", "participle": "abgeholt", "auxiliary": "haben", "irregular": false, "example": "Ich hole dich ab." },
+        { "id": "l10v15", "term": "ankommen", "translation": "llegar", "partOfSpeech": "verb", "preterite": "kam an", "participle": "angekommen", "auxiliary": "sein", "irregular": true, "example": "Der Zug kommt an." },
+        { "id": "l10v16", "term": "umsteigen", "translation": "hacer transbordo", "partOfSpeech": "verb", "preterite": "stieg um", "participle": "umgestiegen", "auxiliary": "sein", "irregular": true, "example": "Ich steige in Köln um." }
       ],
       "practice": {
         "easy": [
@@ -43,7 +43,7 @@
           { "id": "l10e07", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Flugzeug", "options": ["der", "die", "das"], "solution": "das", "hint": "'Flugzeug' ist neutral.", "explanation": "'Flugzeug' ist neutral: das Flugzeug." },
           { "id": "l10e08", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Ich packe den ___. (Koffer)", "solution": "Koffer", "hint": "Ein Substantiv.", "explanation": "'Koffer' ist das gesuchte Substantiv." },
           { "id": "l10e09", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Wir fahren zum ___. (Flughafen)", "solution": "Flughafen", "hint": "Ein Substantiv.", "explanation": "'Flughafen' ist das gesuchte Substantiv." },
-          { "id": "l10e10", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Mein ___ ist schwer.", "options": ["Gepäck", "Bahnhof", "Rucksack", "Bus"], "solution": "Gepäck", "hint": "Alles, was man mitnimmt.", "explanation": "'Gepäck' bezeichnet alles, was man auf Reisen mitnimmt." }
+          { "id": "l10e10", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Ich habe einen Koffer und zwei Taschen dabei. Mein ganzes ___ ist schwer.", "options": ["Gepäck", "Bahnhof", "Zug", "Bus"], "solution": "Gepäck", "hint": "Alles, was man mitnimmt.", "explanation": "'Gepäck' bezeichnet alles, was man auf Reisen mitnimmt; 'Bahnhof', 'Zug' und 'Bus' kann man nicht besitzen oder tragen." }
         ],
         "medium": [
           { "id": "l10m01", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "rufe", "dich", "an"], "solution": "Ich rufe dich an.", "hint": "Trennbares Verb: Präfix am Satzende.", "explanation": "Bei trennbaren Verben steht das Präfix 'an' am Satzende." },
@@ -71,16 +71,16 @@
         ]
       },
       "test": [
-        { "id": "l10t01", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Ich ___ dich an. (anrufen)", "options": ["rufe", "rufst", "ruft", "rufen"], "solution": "rufe", "explanation": "Die 'ich'-Form von 'anrufen' lautet 'rufe ... an'." },
-        { "id": "l10t02", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Ich ___ dich ab. (abholen)", "options": ["hole", "holst", "holt", "holen"], "solution": "hole", "explanation": "Die 'ich'-Form von 'abholen' lautet 'hole ... ab'." },
-        { "id": "l10t03", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Wir fahren zum ___. (Flughafen)", "solution": "Flughafen", "explanation": "'Flughafen' ist das gesuchte Substantiv." },
-        { "id": "l10t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Bahnhof", "options": ["der", "die", "das"], "solution": "der", "explanation": "'Bahnhof' ist maskulin: der Bahnhof." },
-        { "id": "l10t05", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Mein ___ ist schwer.", "options": ["Gepäck", "Bahnhof", "Rucksack", "Bus"], "solution": "Gepäck", "explanation": "'Gepäck' bezeichnet alles, was man auf Reisen mitnimmt." },
-        { "id": "l10t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "steige", "in", "Köln", "um"], "solution": "Ich steige in Köln um.", "explanation": "Bei trennbaren Verben steht das Präfix 'um' am Satzende." },
-        { "id": "l10t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Er ___ (abholen) mich ab.", "solution": "holt", "explanation": "Die 'er'-Form von 'abholen' lautet 'holt ... ab'." },
-        { "id": "l10t08", "type": "targeted-transformation", "instruction": "Sage, dass der Zug ankommt.", "prompt": "der Zug / ankommen", "solution": "Der Zug kommt an.", "explanation": "Bei trennbaren Verben steht das Präfix 'an' am Satzende." },
-        { "id": "l10t09", "type": "targeted-transformation", "instruction": "Sage, dass du umsteigst.", "prompt": "umsteigen", "solution": "Ich steige um.", "explanation": "Bei trennbaren Verben steht das Präfix 'um' am Satzende." },
-        { "id": "l10t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich abhole dich.", "solution": "Ich hole dich ab.", "explanation": "Bei trennbaren Verben steht das Präfix am Satzende, nicht am Verb vorne." }
+        { "id": "l10t01", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Du ___ mich an. (anrufen)", "options": ["rufst", "rufe", "ruft", "rufen"], "solution": "rufst", "explanation": "Die 'du'-Form von 'anrufen' lautet 'rufst ... an'." },
+        { "id": "l10t02", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Wir ___ euch ab. (abholen)", "options": ["holen", "holt", "holst", "hole"], "solution": "holen", "explanation": "Die 'wir'-Form von 'abholen' lautet 'holen ... ab'." },
+        { "id": "l10t03", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Ich trage meine ___ zum Zug. (Tasche)", "solution": "Tasche", "explanation": "'Tasche' ist das gesuchte Substantiv." },
+        { "id": "l10t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Flughafen", "options": ["der", "die", "das"], "solution": "der", "explanation": "'Flughafen' ist maskulin: der Flughafen." },
+        { "id": "l10t05", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Ich packe Kleidung und Schuhe hinein und trage ihn am Griff. Das ist mein ___.", "options": ["Koffer", "Bahnhof", "Flughafen", "Zug"], "solution": "Koffer", "explanation": "'Koffer' bezeichnet das Gepäckstück, in das man Kleidung packt." },
+        { "id": "l10t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Der", "Bus", "kommt", "am", "Bahnhof", "an"], "solution": "Der Bus kommt am Bahnhof an.", "explanation": "Bei trennbaren Verben steht das Präfix 'an' am Satzende." },
+        { "id": "l10t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Ihr ___ (umsteigen) in Berlin um.", "solution": "steigt", "explanation": "Die 'ihr'-Form von 'umsteigen' lautet 'steigt ... um'." },
+        { "id": "l10t08", "type": "targeted-transformation", "instruction": "Sage, dass das Flugzeug ankommt.", "prompt": "das Flugzeug / ankommen", "solution": "Das Flugzeug kommt an.", "explanation": "Bei trennbaren Verben steht das Präfix 'an' am Satzende." },
+        { "id": "l10t09", "type": "targeted-transformation", "instruction": "Sage, dass du in München umsteigst.", "prompt": "in München / umsteigen", "solution": "Ich steige in München um.", "explanation": "Bei trennbaren Verben steht das Präfix 'um' am Satzende." },
+        { "id": "l10t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Der Bus ankommt am Bahnhof.", "solution": "Der Bus kommt am Bahnhof an.", "explanation": "Bei trennbaren Verben steht das Präfix am Satzende, nicht am Verb vorne." }
       ]
     },
     {
@@ -93,22 +93,22 @@
         "Perfekt mit 'haben': regelmäßige, unregelmäßige und trennbare Verben"
       ],
       "vocabulary": [
-        { "id": "l11v01", "term": "machen", "translation": "hacer", "partOfSpeech": "verb", "example": "Ich habe Sport gemacht." },
-        { "id": "l11v02", "term": "hören", "translation": "escuchar", "partOfSpeech": "verb", "example": "Ich habe Musik gehört." },
-        { "id": "l11v03", "term": "kochen", "translation": "cocinar", "partOfSpeech": "verb", "example": "Ich habe Nudeln gekocht." },
-        { "id": "l11v04", "term": "trinken", "translation": "beber", "partOfSpeech": "verb", "example": "Ich habe Kaffee getrunken." },
-        { "id": "l11v05", "term": "schreiben", "translation": "escribir", "partOfSpeech": "verb", "example": "Ich habe eine E-Mail geschrieben." },
-        { "id": "l11v06", "term": "essen", "translation": "comer", "partOfSpeech": "verb", "example": "Ich habe Pizza gegessen." },
-        { "id": "l11v07", "term": "singen", "translation": "cantar", "partOfSpeech": "verb", "example": "Ich habe gesungen." },
-        { "id": "l11v08", "term": "einkaufen", "translation": "hacer la compra", "partOfSpeech": "verb", "example": "Ich habe eingekauft." },
-        { "id": "l11v09", "term": "fernsehen", "translation": "ver la televisión", "partOfSpeech": "verb", "example": "Ich habe ferngesehen." },
-        { "id": "l11v10", "term": "abwaschen", "translation": "fregar los platos", "partOfSpeech": "verb", "example": "Ich habe abgewaschen." },
-        { "id": "l11v11", "term": "fotografieren", "translation": "fotografiar", "partOfSpeech": "verb", "example": "Ich habe fotografiert." },
-        { "id": "l11v12", "term": "telefonieren", "translation": "hablar por teléfono", "partOfSpeech": "verb", "example": "Ich habe telefoniert." },
-        { "id": "l11v13", "term": "aufräumen", "translation": "ordenar", "partOfSpeech": "verb", "example": "Ich habe aufgeräumt." },
+        { "id": "l11v01", "term": "machen", "translation": "hacer", "partOfSpeech": "verb", "preterite": "machte", "participle": "gemacht", "auxiliary": "haben", "irregular": false, "example": "Ich habe Sport gemacht." },
+        { "id": "l11v02", "term": "hören", "translation": "escuchar", "partOfSpeech": "verb", "preterite": "hörte", "participle": "gehört", "auxiliary": "haben", "irregular": false, "example": "Ich habe Musik gehört." },
+        { "id": "l11v03", "term": "kochen", "translation": "cocinar", "partOfSpeech": "verb", "preterite": "kochte", "participle": "gekocht", "auxiliary": "haben", "irregular": false, "example": "Ich habe Nudeln gekocht." },
+        { "id": "l11v04", "term": "trinken", "translation": "beber", "partOfSpeech": "verb", "preterite": "trank", "participle": "getrunken", "auxiliary": "haben", "irregular": true, "example": "Ich habe Kaffee getrunken." },
+        { "id": "l11v05", "term": "schreiben", "translation": "escribir", "partOfSpeech": "verb", "preterite": "schrieb", "participle": "geschrieben", "auxiliary": "haben", "irregular": true, "example": "Ich habe eine E-Mail geschrieben." },
+        { "id": "l11v06", "term": "essen", "translation": "comer", "partOfSpeech": "verb", "preterite": "aß", "participle": "gegessen", "auxiliary": "haben", "irregular": true, "example": "Ich habe Pizza gegessen." },
+        { "id": "l11v07", "term": "singen", "translation": "cantar", "partOfSpeech": "verb", "preterite": "sang", "participle": "gesungen", "auxiliary": "haben", "irregular": true, "example": "Ich habe gesungen." },
+        { "id": "l11v08", "term": "einkaufen", "translation": "hacer la compra", "partOfSpeech": "verb", "preterite": "kaufte ein", "participle": "eingekauft", "auxiliary": "haben", "irregular": false, "example": "Ich habe eingekauft." },
+        { "id": "l11v09", "term": "fernsehen", "translation": "ver la televisión", "partOfSpeech": "verb", "preterite": "sah fern", "participle": "ferngesehen", "auxiliary": "haben", "irregular": true, "example": "Ich habe ferngesehen." },
+        { "id": "l11v10", "term": "abwaschen", "translation": "fregar los platos", "partOfSpeech": "verb", "preterite": "wusch ab", "participle": "abgewaschen", "auxiliary": "haben", "irregular": true, "example": "Ich habe abgewaschen." },
+        { "id": "l11v11", "term": "fotografieren", "translation": "fotografiar", "partOfSpeech": "verb", "preterite": "fotografierte", "participle": "fotografiert", "auxiliary": "haben", "irregular": false, "example": "Ich habe fotografiert." },
+        { "id": "l11v12", "term": "telefonieren", "translation": "hablar por teléfono", "partOfSpeech": "verb", "preterite": "telefonierte", "participle": "telefoniert", "auxiliary": "haben", "irregular": false, "example": "Ich habe telefoniert." },
+        { "id": "l11v13", "term": "aufräumen", "translation": "ordenar", "partOfSpeech": "verb", "preterite": "räumte auf", "participle": "aufgeräumt", "auxiliary": "haben", "irregular": false, "example": "Ich habe aufgeräumt." },
         { "id": "l11v14", "term": "der Spaziergang", "translation": "el paseo", "partOfSpeech": "noun", "gender": "der", "plural": "die Spaziergänge", "example": "Ich habe einen Spaziergang gemacht." },
         { "id": "l11v15", "term": "das Internet", "translation": "el internet", "partOfSpeech": "noun", "gender": "das", "example": "Ich habe im Internet gesurft." },
-        { "id": "l11v16", "term": "treffen", "translation": "encontrarse (con alguien)", "partOfSpeech": "verb", "example": "Ich habe Freunde getroffen." }
+        { "id": "l11v16", "term": "treffen", "translation": "encontrarse (con alguien)", "partOfSpeech": "verb", "preterite": "traf", "participle": "getroffen", "auxiliary": "haben", "irregular": true, "example": "Ich habe Freunde getroffen." }
       ],
       "practice": {
         "easy": [
@@ -149,16 +149,16 @@
         ]
       },
       "test": [
-        { "id": "l11t01", "type": "multiple-choice", "instruction": "Wähle das richtige Partizip II.", "prompt": "Ich habe Sport ___. (machen)", "options": ["gemacht", "gemachen", "machte", "macht"], "solution": "gemacht", "explanation": "Das Partizip II von 'machen' lautet 'gemacht'." },
-        { "id": "l11t02", "type": "multiple-choice", "instruction": "Wähle das richtige Partizip II.", "prompt": "Ich habe Kaffee ___. (trinken)", "options": ["getrunken", "getrinkt", "trank", "trinkt"], "solution": "getrunken", "explanation": "Das Partizip II von 'trinken' lautet 'getrunken'." },
-        { "id": "l11t03", "type": "fill-in-blank", "instruction": "Ergänze das Partizip II.", "prompt": "Ich habe ___. (aufräumen)", "solution": "aufgeräumt", "explanation": "Das Partizip II von 'aufräumen' lautet 'aufgeräumt'." },
-        { "id": "l11t04", "type": "multiple-choice", "instruction": "Wähle das richtige Partizip II.", "prompt": "Ich habe Pizza ___. (essen)", "options": ["gegessen", "gegesst", "aß", "isst"], "solution": "gegessen", "explanation": "Das Partizip II von 'essen' lautet 'gegessen'." },
-        { "id": "l11t05", "type": "multiple-choice", "instruction": "Wähle das richtige Partizip II.", "prompt": "Ich habe ___. (einkaufen)", "options": ["eingekauft", "gekauft", "einkauft", "kauft ein"], "solution": "eingekauft", "explanation": "Das Partizip II von 'einkaufen' lautet 'eingekauft'." },
-        { "id": "l11t06", "type": "sentence-scramble", "instruction": "Bilde das Perfekt.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "habe", "eine", "E-Mail", "geschrieben"], "solution": "Ich habe eine E-Mail geschrieben.", "explanation": "Im Perfekt steht 'habe' an Position 2 und das Partizip II am Satzende." },
-        { "id": "l11t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Hilfsverb.", "prompt": "Wir ___ (haben) telefoniert.", "solution": "haben", "explanation": "Die 'wir'-Form von 'haben' lautet 'haben'." },
-        { "id": "l11t08", "type": "targeted-transformation", "instruction": "Bilde das Perfekt.", "prompt": "Ich trinke Kaffee.", "solution": "Ich habe Kaffee getrunken.", "explanation": "Das Partizip II von 'trinken' lautet 'getrunken'." },
-        { "id": "l11t09", "type": "targeted-transformation", "instruction": "Bilde das Perfekt.", "prompt": "Ich sehe fern.", "solution": "Ich habe ferngesehen.", "explanation": "Das Partizip II von 'fernsehen' lautet 'ferngesehen'." },
-        { "id": "l11t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich habe eine E-Mail schreiben.", "solution": "Ich habe eine E-Mail geschrieben.", "explanation": "Das Partizip II von 'schreiben' lautet 'geschrieben', nicht 'schreiben'." }
+        { "id": "l11t01", "type": "multiple-choice", "instruction": "Wähle das richtige Partizip II.", "prompt": "Ich habe einen Spaziergang ___. (machen)", "options": ["gemacht", "gemachen", "machte", "macht"], "solution": "gemacht", "explanation": "Das Partizip II von 'machen' lautet 'gemacht'." },
+        { "id": "l11t02", "type": "multiple-choice", "instruction": "Wähle das richtige Partizip II.", "prompt": "Wir haben Freunde ___. (treffen)", "options": ["getroffen", "getreffen", "traf", "trifft"], "solution": "getroffen", "explanation": "Das Partizip II von 'treffen' lautet 'getroffen'." },
+        { "id": "l11t03", "type": "fill-in-blank", "instruction": "Ergänze das Partizip II.", "prompt": "Ich habe die Küche ___. (aufräumen)", "solution": "aufgeräumt", "explanation": "Das Partizip II von 'aufräumen' lautet 'aufgeräumt'." },
+        { "id": "l11t04", "type": "multiple-choice", "instruction": "Wähle das richtige Partizip II.", "prompt": "Er hat das Geschirr ___. (abwaschen)", "options": ["abgewaschen", "abgewascht", "wusch ab", "wäscht ab"], "solution": "abgewaschen", "explanation": "Das Partizip II von 'abwaschen' lautet 'abgewaschen'." },
+        { "id": "l11t05", "type": "multiple-choice", "instruction": "Wähle das richtige Partizip II.", "prompt": "Ich habe im Park ___. (fotografieren)", "options": ["fotografiert", "gefotografiert", "fotografierte", "fotografiere"], "solution": "fotografiert", "explanation": "Verben auf '-ieren' bilden das Partizip II ohne 'ge-': fotografiert." },
+        { "id": "l11t06", "type": "sentence-scramble", "instruction": "Bilde das Perfekt.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Wir", "haben", "telefoniert"], "solution": "Wir haben telefoniert.", "explanation": "Im Perfekt steht 'haben' an Position 2 und das Partizip II am Satzende." },
+        { "id": "l11t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Hilfsverb.", "prompt": "Ihr ___ (haben) eingekauft.", "solution": "habt", "explanation": "Die 'ihr'-Form von 'haben' lautet 'habt'." },
+        { "id": "l11t08", "type": "targeted-transformation", "instruction": "Bilde das Perfekt.", "prompt": "Ich koche Nudeln.", "solution": "Ich habe Nudeln gekocht.", "explanation": "Das Partizip II von 'kochen' lautet 'gekocht'." },
+        { "id": "l11t09", "type": "targeted-transformation", "instruction": "Bilde das Perfekt.", "prompt": "Ich singe.", "solution": "Ich habe gesungen.", "explanation": "Das Partizip II von 'singen' lautet 'gesungen'." },
+        { "id": "l11t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich habe Nudeln kochen.", "solution": "Ich habe Nudeln gekocht.", "explanation": "Im Perfekt steht nach 'habe' das Partizip II, nicht der Infinitiv." }
       ]
     },
     {
@@ -172,22 +172,22 @@
         "Präteritum von sein/haben: war, hatte"
       ],
       "vocabulary": [
-        { "id": "l12v01", "term": "ankommen", "translation": "llegar", "partOfSpeech": "verb", "example": "Ich bin angekommen." },
-        { "id": "l12v02", "term": "fahren", "translation": "conducir / viajar", "partOfSpeech": "verb", "example": "Ich bin nach Berlin gefahren." },
-        { "id": "l12v03", "term": "gehen", "translation": "ir", "partOfSpeech": "verb", "example": "Ich bin nach Hause gegangen." },
-        { "id": "l12v04", "term": "kommen", "translation": "venir", "partOfSpeech": "verb", "example": "Ich bin spät gekommen." },
-        { "id": "l12v05", "term": "bleiben", "translation": "quedarse", "partOfSpeech": "verb", "example": "Ich bin zu Hause geblieben." },
-        { "id": "l12v06", "term": "laufen", "translation": "correr", "partOfSpeech": "verb", "example": "Lea ist einen Marathon gelaufen." },
+        { "id": "l12v01", "term": "ankommen", "translation": "llegar", "partOfSpeech": "verb", "preterite": "kam an", "participle": "angekommen", "auxiliary": "sein", "irregular": true, "example": "Ich bin angekommen." },
+        { "id": "l12v02", "term": "fahren", "translation": "conducir / viajar", "partOfSpeech": "verb", "preterite": "fuhr", "participle": "gefahren", "auxiliary": "sein", "irregular": true, "example": "Ich bin nach Berlin gefahren." },
+        { "id": "l12v03", "term": "gehen", "translation": "ir", "partOfSpeech": "verb", "preterite": "ging", "participle": "gegangen", "auxiliary": "sein", "irregular": true, "example": "Ich bin nach Hause gegangen." },
+        { "id": "l12v04", "term": "kommen", "translation": "venir", "partOfSpeech": "verb", "preterite": "kam", "participle": "gekommen", "auxiliary": "sein", "irregular": true, "example": "Ich bin spät gekommen." },
+        { "id": "l12v05", "term": "bleiben", "translation": "quedarse", "partOfSpeech": "verb", "preterite": "blieb", "participle": "geblieben", "auxiliary": "sein", "irregular": true, "example": "Ich bin zu Hause geblieben." },
+        { "id": "l12v06", "term": "laufen", "translation": "correr", "partOfSpeech": "verb", "preterite": "lief", "participle": "gelaufen", "auxiliary": "sein", "irregular": true, "example": "Lea ist einen Marathon gelaufen." },
         { "id": "l12v07", "term": "der Marathon", "translation": "el maratón", "partOfSpeech": "noun", "gender": "der", "plural": "die Marathons", "example": "Lea ist einen Marathon gelaufen." },
         { "id": "l12v08", "term": "war", "translation": "era / estaba", "partOfSpeech": "phrase", "example": "Ich war müde." },
         { "id": "l12v09", "term": "hatte", "translation": "tenía", "partOfSpeech": "phrase", "example": "Ich hatte Zeit." },
-        { "id": "l12v10", "term": "aufstehen", "translation": "levantarse", "partOfSpeech": "verb", "example": "Ich bin früh aufgestanden." },
-        { "id": "l12v11", "term": "fliegen", "translation": "volar", "partOfSpeech": "verb", "example": "Ich bin nach Spanien geflogen." },
+        { "id": "l12v10", "term": "aufstehen", "translation": "levantarse", "partOfSpeech": "verb", "preterite": "stand auf", "participle": "aufgestanden", "auxiliary": "sein", "irregular": true, "example": "Ich bin früh aufgestanden." },
+        { "id": "l12v11", "term": "fliegen", "translation": "volar", "partOfSpeech": "verb", "preterite": "flog", "participle": "geflogen", "auxiliary": "sein", "irregular": true, "example": "Ich bin nach Spanien geflogen." },
         { "id": "l12v12", "term": "besonders", "translation": "especial", "partOfSpeech": "adjective", "example": "Das war ein besonderer Tag." },
         { "id": "l12v13", "term": "müde", "translation": "cansado", "partOfSpeech": "adjective", "example": "Ich war müde." },
         { "id": "l12v14", "term": "das Ereignis", "translation": "el evento", "partOfSpeech": "noun", "gender": "das", "plural": "die Ereignisse", "example": "Das war ein tolles Ereignis." },
         { "id": "l12v15", "term": "die Reise", "translation": "el viaje", "partOfSpeech": "noun", "gender": "die", "plural": "die Reisen", "example": "Die Reise war schön." },
-        { "id": "l12v16", "term": "passieren", "translation": "suceder / pasar", "partOfSpeech": "verb", "example": "Was ist passiert?" }
+        { "id": "l12v16", "term": "passieren", "translation": "suceder / pasar", "partOfSpeech": "verb", "preterite": "passierte", "participle": "passiert", "auxiliary": "sein", "irregular": false, "example": "Was ist passiert?" }
       ],
       "practice": {
         "easy": [
@@ -200,7 +200,7 @@
           { "id": "l12e07", "type": "multiple-choice", "instruction": "Wähle das richtige Partizip II.", "prompt": "Ich bin nach Spanien ___. (fliegen)", "options": ["geflogen", "geflogt", "flog", "fliegt"], "solution": "geflogen", "hint": "Unregelmäßiges Verb.", "explanation": "Das Partizip II von 'fliegen' lautet 'geflogen'." },
           { "id": "l12e08", "type": "fill-in-blank", "instruction": "Ergänze das Partizip II.", "prompt": "Was ist ___? (passieren)", "solution": "passiert", "hint": "Regelmäßiges Verb.", "explanation": "Das Partizip II von 'passieren' lautet 'passiert'." },
           { "id": "l12e09", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Die ___ war schön. (Reise)", "solution": "Reise", "hint": "Ein Substantiv.", "explanation": "'Reise' ist das gesuchte Substantiv." },
-          { "id": "l12e10", "type": "multiple-choice", "instruction": "Wähle die richtige Adjektivendung.", "prompt": "Das war ein ___ Tag.", "options": ["besonderer", "besonders", "besondere", "besonderes"], "solution": "besonderer", "hint": "Nominativ maskulin nach 'ein'.", "explanation": "Im Nominativ Maskulin nach 'ein' endet das Adjektiv auf '-er'." }
+          { "id": "l12e10", "type": "multiple-choice", "instruction": "Wähle die richtige Form.", "prompt": "Der Tag war ___.", "options": ["besonders", "besonderer", "besondere", "besonderes"], "solution": "besonders", "hint": "Nach 'sein' bleibt das Adjektiv ohne Endung.", "explanation": "Prädikative Adjektive nach 'sein' bekommen keine Endung: 'Der Tag war besonders.'" }
         ],
         "medium": [
           { "id": "l12m01", "type": "sentence-scramble", "instruction": "Bilde das Perfekt.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "bin", "nach", "Berlin", "gefahren"], "solution": "Ich bin nach Berlin gefahren.", "hint": "Hilfsverb 'bin', Partizip II am Ende.", "explanation": "Bewegungsverben bilden das Perfekt mit 'sein'; das Partizip II steht am Satzende." },
@@ -228,16 +228,16 @@
         ]
       },
       "test": [
-        { "id": "l12t01", "type": "multiple-choice", "instruction": "Wähle das richtige Hilfsverb.", "prompt": "Ich ___ nach Berlin gefahren.", "options": ["bin", "habe", "war", "hatte"], "solution": "bin", "explanation": "Bewegungsverben wie 'fahren' bilden das Perfekt mit 'sein'." },
-        { "id": "l12t02", "type": "multiple-choice", "instruction": "Wähle das richtige Hilfsverb.", "prompt": "Lea ___ einen Marathon gelaufen.", "options": ["ist", "hat", "war", "hatte"], "solution": "ist", "explanation": "Bewegungsverben wie 'laufen' bilden das Perfekt mit 'sein'." },
-        { "id": "l12t03", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Die ___ war schön. (Reise)", "solution": "Reise", "explanation": "'Reise' ist das gesuchte Substantiv." },
-        { "id": "l12t04", "type": "multiple-choice", "instruction": "Wähle die richtige Präteritumform.", "prompt": "Ich ___ müde.", "options": ["war", "bin", "hatte", "habe"], "solution": "war", "explanation": "Die 'ich'-Form von 'sein' im Präteritum lautet 'war'." },
-        { "id": "l12t05", "type": "multiple-choice", "instruction": "Wähle die richtige Präteritumform.", "prompt": "Ich ___ Zeit.", "options": ["hatte", "habe", "war", "bin"], "solution": "hatte", "explanation": "Die 'ich'-Form von 'haben' im Präteritum lautet 'hatte'." },
-        { "id": "l12t06", "type": "sentence-scramble", "instruction": "Bilde das Perfekt.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "bin", "zu", "Hause", "geblieben"], "solution": "Ich bin zu Hause geblieben.", "explanation": "'bleiben' bildet das Perfekt mit 'sein'; das Partizip II steht am Satzende." },
-        { "id": "l12t07", "type": "cloze-conjugation", "instruction": "Bilde die Präteritumform.", "prompt": "Er ___ (haben) keine Zeit.", "solution": "hatte", "explanation": "Die 'er'-Form von 'haben' im Präteritum lautet 'hatte'." },
-        { "id": "l12t08", "type": "targeted-transformation", "instruction": "Bilde das Perfekt.", "prompt": "Lea läuft einen Marathon.", "solution": "Lea ist einen Marathon gelaufen.", "explanation": "Bewegungsverben wie 'laufen' bilden das Perfekt mit 'sein'." },
-        { "id": "l12t09", "type": "targeted-transformation", "instruction": "Bilde das Präteritum.", "prompt": "Ich habe Zeit.", "solution": "Ich hatte Zeit.", "explanation": "Die 'ich'-Form von 'haben' im Präteritum lautet 'hatte'." },
-        { "id": "l12t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Lea hat einen Marathon gelaufen.", "solution": "Lea ist einen Marathon gelaufen.", "explanation": "Bewegungsverben bilden das Perfekt mit 'sein', nicht mit 'haben'." }
+        { "id": "l12t01", "type": "multiple-choice", "instruction": "Wähle das richtige Hilfsverb.", "prompt": "Ich ___ früh aufgestanden.", "options": ["bin", "habe", "war", "hatte"], "solution": "bin", "explanation": "Bewegungsverben wie 'aufstehen' bilden das Perfekt mit 'sein'." },
+        { "id": "l12t02", "type": "multiple-choice", "instruction": "Wähle das richtige Hilfsverb.", "prompt": "Wir ___ nach Spanien geflogen.", "options": ["sind", "haben", "waren", "hatten"], "solution": "sind", "explanation": "Bewegungsverben wie 'fliegen' bilden das Perfekt mit 'sein'." },
+        { "id": "l12t03", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Das war ein tolles ___. (Ereignis)", "solution": "Ereignis", "explanation": "'Ereignis' ist das gesuchte Substantiv." },
+        { "id": "l12t04", "type": "multiple-choice", "instruction": "Wähle die richtige Präteritumform.", "prompt": "Du ___ gestern müde.", "options": ["warst", "bist", "hattest", "hast"], "solution": "warst", "explanation": "Die 'du'-Form von 'sein' im Präteritum lautet 'warst'." },
+        { "id": "l12t05", "type": "multiple-choice", "instruction": "Wähle die richtige Präteritumform.", "prompt": "Wir ___ keine Zeit.", "options": ["hatten", "haben", "waren", "sind"], "solution": "hatten", "explanation": "Die 'wir'-Form von 'haben' im Präteritum lautet 'hatten'." },
+        { "id": "l12t06", "type": "sentence-scramble", "instruction": "Bilde das Perfekt.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "bin", "früh", "aufgestanden"], "solution": "Ich bin früh aufgestanden.", "explanation": "Bewegungsverben bilden das Perfekt mit 'sein'; das Partizip II steht am Satzende." },
+        { "id": "l12t07", "type": "cloze-conjugation", "instruction": "Bilde die Präteritumform.", "prompt": "Ihr ___ (sein) gestern in Berlin.", "solution": "wart", "explanation": "Die 'ihr'-Form von 'sein' im Präteritum lautet 'wart'." },
+        { "id": "l12t08", "type": "targeted-transformation", "instruction": "Bilde das Perfekt.", "prompt": "Ich komme spät.", "solution": "Ich bin spät gekommen.", "explanation": "Bewegungsverben wie 'kommen' bilden das Perfekt mit 'sein'." },
+        { "id": "l12t09", "type": "targeted-transformation", "instruction": "Bilde das Präteritum.", "prompt": "Wir sind müde.", "solution": "Wir waren müde.", "explanation": "Die 'wir'-Form von 'sein' im Präteritum lautet 'waren'." },
+        { "id": "l12t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich habe früh aufgestanden.", "solution": "Ich bin früh aufgestanden.", "explanation": "Bewegungsverben bilden das Perfekt mit 'sein', nicht mit 'haben'." }
       ]
     }
   ]

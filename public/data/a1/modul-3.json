@@ -15,13 +15,13 @@
         "Gradadverbien: gut, sehr gut, nicht so gut, gar nicht"
       ],
       "vocabulary": [
-        { "id": "l7v01", "term": "schwimmen", "translation": "nadar", "partOfSpeech": "verb", "example": "Ich schwimme gut." },
+        { "id": "l7v01", "term": "schwimmen", "translation": "nadar", "partOfSpeech": "verb", "preterite": "schwamm", "participle": "geschwommen", "auxiliary": "haben", "irregular": true, "example": "Ich schwimme gut." },
         { "id": "l7v02", "term": "Gitarre spielen", "translation": "tocar la guitarra", "partOfSpeech": "phrase", "example": "Ich spiele Gitarre." },
-        { "id": "l7v03", "term": "backen", "translation": "hornear", "partOfSpeech": "verb", "example": "Ich backe gern." },
-        { "id": "l7v04", "term": "malen", "translation": "pintar", "partOfSpeech": "verb", "example": "Ich male ein bisschen." },
-        { "id": "l7v05", "term": "tanzen", "translation": "bailar", "partOfSpeech": "verb", "example": "Ich tanze sehr gut." },
+        { "id": "l7v03", "term": "backen", "translation": "hornear", "partOfSpeech": "verb", "preterite": "backte", "participle": "gebacken", "auxiliary": "haben", "irregular": true, "example": "Ich backe gern." },
+        { "id": "l7v04", "term": "malen", "translation": "pintar", "partOfSpeech": "verb", "preterite": "malte", "participle": "gemalt", "auxiliary": "haben", "irregular": false, "example": "Ich male ein bisschen." },
+        { "id": "l7v05", "term": "tanzen", "translation": "bailar", "partOfSpeech": "verb", "preterite": "tanzte", "participle": "getanzt", "auxiliary": "haben", "irregular": false, "example": "Ich tanze sehr gut." },
         { "id": "l7v06", "term": "Fußball spielen", "translation": "jugar al fútbol", "partOfSpeech": "phrase", "example": "Ich spiele Fußball." },
-        { "id": "l7v07", "term": "singen", "translation": "cantar", "partOfSpeech": "verb", "example": "Ich singe nicht so gut." },
+        { "id": "l7v07", "term": "singen", "translation": "cantar", "partOfSpeech": "verb", "preterite": "sang", "participle": "gesungen", "auxiliary": "haben", "irregular": true, "example": "Ich singe nicht so gut." },
         { "id": "l7v08", "term": "das Hobby", "translation": "el pasatiempo", "partOfSpeech": "noun", "gender": "das", "plural": "die Hobbys", "example": "Mein Hobby ist Malen." },
         { "id": "l7v09", "term": "gut", "translation": "bien", "partOfSpeech": "adverb", "example": "Ich schwimme gut." },
         { "id": "l7v10", "term": "nicht so gut", "translation": "no tan bien", "partOfSpeech": "phrase", "example": "Ich singe nicht so gut." },
@@ -30,7 +30,7 @@
         { "id": "l7v13", "term": "ein bisschen", "translation": "un poco", "partOfSpeech": "phrase", "example": "Ich male ein bisschen." },
         { "id": "l7v14", "term": "toll", "translation": "genial", "partOfSpeech": "adjective", "example": "Das ist toll!" },
         { "id": "l7v15", "term": "super", "translation": "súper", "partOfSpeech": "adjective", "example": "Fußball spielen super." },
-        { "id": "l7v16", "term": "finden", "translation": "opinar / encontrar", "partOfSpeech": "verb", "example": "Erika findet das toll." }
+        { "id": "l7v16", "term": "finden", "translation": "opinar / encontrar", "partOfSpeech": "verb", "preterite": "fand", "participle": "gefunden", "auxiliary": "haben", "irregular": true, "example": "Erika findet das toll." }
       ],
       "practice": {
         "easy": [
@@ -40,7 +40,7 @@
           { "id": "l7e04", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Ich ___ ein bisschen. (malen)", "options": ["male", "malst", "malt", "malen"], "solution": "male", "hint": "'ich'-Form.", "explanation": "Die 'ich'-Form von 'malen' lautet 'male'." },
           { "id": "l7e05", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Ich ___ sehr gut. (tanzen)", "options": ["tanze", "tanzt", "tanzst", "tanzen"], "solution": "tanze", "hint": "'ich'-Form.", "explanation": "Die 'ich'-Form von 'tanzen' lautet 'tanze'." },
           { "id": "l7e06", "type": "multiple-choice", "instruction": "Wähle die passende Angabe.", "prompt": "Ich kann keine Note treffen. Ich singe ___.", "options": ["nicht so gut", "sehr gut", "gut", "toll"], "solution": "nicht so gut", "hint": "Negative Selbsteinschätzung.", "explanation": "'nicht so gut' passt zu einer schwachen Fähigkeit." },
-          { "id": "l7e07", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Das ist ___!", "options": ["toll", "backen", "malen", "singen"], "solution": "toll", "hint": "Ein Adjektiv.", "explanation": "'toll' ist ein Adjektiv für Begeisterung." },
+          { "id": "l7e07", "type": "multiple-choice", "instruction": "Wähle das Wort für 'genial'.", "prompt": "Das ist ___!", "options": ["toll", "backen", "malen", "singen"], "solution": "toll", "hint": "Achte auf die Bedeutung, nicht nur auf die Wortart.", "explanation": "'toll' bedeutet 'genial' und drückt Begeisterung aus." },
           { "id": "l7e08", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Mein ___ ist Malen. (Hobby)", "solution": "Hobby", "hint": "Ein Substantiv.", "explanation": "'Hobby' ist das gesuchte Substantiv." },
           { "id": "l7e09", "type": "fill-in-blank", "instruction": "Ergänze das Verb.", "prompt": "Ich ___ Fußball. (spielen)", "solution": "spiele", "hint": "'ich'-Form.", "explanation": "Die 'ich'-Form von 'spielen' lautet 'spiele'." },
           { "id": "l7e10", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Erika ___ das toll. (finden)", "options": ["findet", "finde", "findest", "finden"], "solution": "findet", "hint": "3. Person Singular.", "explanation": "Die 'sie'-Form von 'finden' lautet 'findet'." }
@@ -71,16 +71,16 @@
         ]
       },
       "test": [
-        { "id": "l7t01", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Ich ___ gut. (schwimmen)", "options": ["schwimme", "schwimmst", "schwimmt", "schwimmen"], "solution": "schwimme", "explanation": "Die 'ich'-Form von 'schwimmen' lautet 'schwimme'." },
-        { "id": "l7t02", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Ich ___ Gitarre. (spielen)", "options": ["spiele", "spielst", "spielt", "spielen"], "solution": "spiele", "explanation": "Die 'ich'-Form von 'spielen' lautet 'spiele'." },
-        { "id": "l7t03", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Mein ___ ist Malen. (Hobby)", "solution": "Hobby", "explanation": "'Hobby' ist das gesuchte Substantiv." },
-        { "id": "l7t04", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Das ist ___!", "options": ["toll", "backen", "malen", "singen"], "solution": "toll", "explanation": "'toll' ist ein Adjektiv für Begeisterung." },
-        { "id": "l7t05", "type": "multiple-choice", "instruction": "Wähle die passende Angabe.", "prompt": "Ich kann keine Note treffen. Ich singe ___.", "options": ["nicht so gut", "sehr gut", "gut", "toll"], "solution": "nicht so gut", "explanation": "'nicht so gut' passt zu einer schwachen Fähigkeit." },
-        { "id": "l7t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Erika", "findet", "das", "toll"], "solution": "Erika findet das toll.", "explanation": "Das konjugierte Verb steht an Position 2." },
-        { "id": "l7t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Er ___ (backen) gern.", "solution": "backt", "explanation": "Die 'er'-Form von 'backen' lautet 'backt'." },
-        { "id": "l7t08", "type": "targeted-transformation", "instruction": "Sage, dass du sehr gut Gitarre spielst.", "prompt": "sehr gut / Gitarre spielen", "solution": "Ich spiele sehr gut Gitarre.", "explanation": "Die 'ich'-Form von 'spielen' lautet 'spiele'." },
-        { "id": "l7t09", "type": "targeted-transformation", "instruction": "Sage, dass du nicht so gut singst.", "prompt": "nicht so gut / singen", "solution": "Ich singe nicht so gut.", "explanation": "Die 'ich'-Form von 'singen' lautet 'singe'." },
-        { "id": "l7t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Erika finden das toll.", "solution": "Erika findet das toll.", "explanation": "Die 'sie'-Form von 'finden' lautet 'findet', nicht 'finden'." }
+        { "id": "l7t01", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Tom ___ Fußball. (spielen)", "options": ["spielt", "spiele", "spielst", "spielen"], "solution": "spielt", "explanation": "Die 'er'-Form von 'spielen' lautet 'spielt'." },
+        { "id": "l7t02", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Wir ___ gern. (backen)", "options": ["backen", "backt", "bäckst", "backe"], "solution": "backen", "explanation": "Die 'wir'-Form von 'backen' lautet 'backen'." },
+        { "id": "l7t03", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Schwimmen ist mein Lieblings___. (Hobby)", "solution": "Hobby", "explanation": "'Hobby' ist das gesuchte Substantiv." },
+        { "id": "l7t04", "type": "multiple-choice", "instruction": "Wähle das Wort für 'súper'.", "prompt": "Nach dem Konzert sagt Klara: 'Wow, das war ___!'", "options": ["super", "toll", "backen", "singen"], "solution": "super", "explanation": "'super' ist die deutsche Entsprechung von 'súper'." },
+        { "id": "l7t05", "type": "multiple-choice", "instruction": "Wähle die passende Angabe.", "prompt": "Mia tanzt jeden Tag drei Stunden im Ballettstudio. Sie tanzt ___.", "options": ["sehr gut", "gar nicht", "nicht so gut", "ein bisschen"], "solution": "sehr gut", "explanation": "'sehr gut' passt zu einer starken Fähigkeit, die durch viel Übung entsteht." },
+        { "id": "l7t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Tom", "spielt", "gern", "Fußball"], "solution": "Tom spielt gern Fußball.", "explanation": "Das konjugierte Verb steht an Position 2." },
+        { "id": "l7t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Ihr ___ (singen) sehr gut.", "solution": "singt", "explanation": "Die 'ihr'-Form von 'singen' lautet 'singt'." },
+        { "id": "l7t08", "type": "targeted-transformation", "instruction": "Sage, dass du ein bisschen Gitarre spielst.", "prompt": "ein bisschen / Gitarre spielen", "solution": "Ich spiele ein bisschen Gitarre.", "explanation": "Die 'ich'-Form von 'spielen' lautet 'spiele'." },
+        { "id": "l7t09", "type": "targeted-transformation", "instruction": "Frage einen Freund, ob er gut schwimmt.", "prompt": "gut / schwimmen", "solution": "Schwimmst du gut?", "explanation": "In der Ja/Nein-Frage steht das Verb an Position 1; die 'du'-Form von 'schwimmen' lautet 'schwimmst'." },
+        { "id": "l7t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Tom spielen Fußball.", "solution": "Tom spielt Fußball.", "explanation": "Die 'er'-Form von 'spielen' lautet 'spielt', nicht 'spielen'." }
       ]
     },
     {
@@ -102,13 +102,13 @@
         { "id": "l8v06", "term": "der Vorschlag", "translation": "la propuesta", "partOfSpeech": "noun", "gender": "der", "plural": "die Vorschläge", "example": "Das ist ein guter Vorschlag." },
         { "id": "l8v07", "term": "heute Nachmittag", "translation": "esta tarde", "partOfSpeech": "phrase", "example": "Heute Nachmittag um vier." },
         { "id": "l8v08", "term": "um vier Uhr", "translation": "a las cuatro", "partOfSpeech": "phrase", "example": "Wir treffen uns um vier Uhr." },
-        { "id": "l8v09", "term": "sich treffen", "translation": "encontrarse", "partOfSpeech": "verb", "example": "Wir treffen uns im Kino." },
-        { "id": "l8v10", "term": "gehen", "translation": "ir", "partOfSpeech": "verb", "example": "Gehen wir ins Kino?" },
+        { "id": "l8v09", "term": "sich treffen", "translation": "encontrarse", "partOfSpeech": "verb", "preterite": "traf sich", "participle": "sich getroffen", "auxiliary": "haben", "irregular": true, "example": "Wir treffen uns im Kino." },
+        { "id": "l8v10", "term": "gehen", "translation": "ir", "partOfSpeech": "verb", "preterite": "ging", "participle": "gegangen", "auxiliary": "sein", "irregular": true, "example": "Gehen wir ins Kino?" },
         { "id": "l8v11", "term": "der Film", "translation": "la película", "partOfSpeech": "noun", "gender": "der", "plural": "die Filme", "example": "Der Film ist gut." },
         { "id": "l8v12", "term": "die Karte", "translation": "la entrada", "partOfSpeech": "noun", "gender": "die", "plural": "die Karten", "example": "Ich kaufe eine Karte." },
-        { "id": "l8v13", "term": "anfangen", "translation": "empezar", "partOfSpeech": "verb", "example": "Der Film fängt um sechs an." },
+        { "id": "l8v13", "term": "anfangen", "translation": "empezar", "partOfSpeech": "verb", "preterite": "fing an", "participle": "angefangen", "auxiliary": "haben", "irregular": true, "example": "Der Film fängt um sechs an." },
         { "id": "l8v14", "term": "der Nachmittag", "translation": "la tarde", "partOfSpeech": "noun", "gender": "der", "plural": "die Nachmittage", "example": "Heute Nachmittag treffen wir uns." },
-        { "id": "l8v15", "term": "mitkommen", "translation": "venir con", "partOfSpeech": "verb", "example": "Kommst du mit?" },
+        { "id": "l8v15", "term": "mitkommen", "translation": "venir con", "partOfSpeech": "verb", "preterite": "kam mit", "participle": "mitgekommen", "auxiliary": "sein", "irregular": true, "example": "Kommst du mit?" },
         { "id": "l8v16", "term": "die Verabredung", "translation": "la cita / quedada", "partOfSpeech": "noun", "gender": "die", "plural": "die Verabredungen", "example": "Wir haben eine Verabredung." }
       ],
       "practice": {
@@ -150,16 +150,16 @@
         ]
       },
       "test": [
-        { "id": "l8t01", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "___ wir ins Kino?", "options": ["Gehen", "Geht", "Gehst", "Geh"], "solution": "Gehen", "explanation": "Die 'wir'-Form von 'gehen' lautet 'gehen'." },
-        { "id": "l8t02", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Der Film ___ um sechs an. (anfangen)", "options": ["fängt", "fangt", "fange", "fangen"], "solution": "fängt", "explanation": "Die 'er'-Form von 'anfangen' lautet 'fängt ... an'." },
-        { "id": "l8t03", "type": "fill-in-blank", "instruction": "Ergänze die Präposition.", "prompt": "Gehen wir ___ den Park?", "solution": "in", "explanation": "'in den Park' beschreibt das Ziel der Bewegung." },
-        { "id": "l8t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Film", "options": ["der", "die", "das"], "solution": "der", "explanation": "'Film' ist maskulin: der Film." },
-        { "id": "l8t05", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Wir haben eine ___.", "options": ["Verabredung", "Karte", "Film", "Vorschlag"], "solution": "Verabredung", "explanation": "'Verabredung' bezeichnet ein geplantes Treffen." },
-        { "id": "l8t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Der", "Film", "fängt", "um", "sechs", "an"], "solution": "Der Film fängt um sechs an.", "explanation": "Bei trennbaren Verben steht das Präfix 'an' am Satzende." },
-        { "id": "l8t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Wir ___ (sich treffen) uns im Park.", "solution": "treffen", "explanation": "Die 'wir'-Form von 'sich treffen' lautet 'treffen'." },
-        { "id": "l8t08", "type": "targeted-transformation", "instruction": "Mache einen Vorschlag.", "prompt": "Park", "solution": "Gehen wir in den Park?", "explanation": "'Park' ist maskulin; im Akkusativ heißt es 'in den Park'." },
-        { "id": "l8t09", "type": "targeted-transformation", "instruction": "Frage, ob jemand mitkommt.", "prompt": "mitkommen", "solution": "Kommst du mit?", "explanation": "Bei trennbaren Verben steht das Präfix am Satzende." },
-        { "id": "l8t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Gehen wir ins Park?", "solution": "Gehen wir in den Park?", "explanation": "'Park' ist maskulin; im Akkusativ heißt es 'in den Park', nicht 'ins Park'." }
+        { "id": "l8t01", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "___ wir ins Museum?", "options": ["Gehen", "Geht", "Gehst", "Geh"], "solution": "Gehen", "explanation": "Die 'wir'-Form von 'gehen' lautet 'gehen'." },
+        { "id": "l8t02", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Das Konzert ___ um acht an. (anfangen)", "options": ["fängt", "fangt", "fange", "fangen"], "solution": "fängt", "explanation": "Die 'es'-Form von 'anfangen' lautet 'fängt ... an'." },
+        { "id": "l8t03", "type": "fill-in-blank", "instruction": "Ergänze die Präposition.", "prompt": "Gehen wir ___ Restaurant? (in das)", "solution": "ins", "explanation": "'in das' verschmilzt zu 'ins'." },
+        { "id": "l8t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Museum", "options": ["der", "die", "das"], "solution": "das", "explanation": "'Museum' ist neutral: das Museum." },
+        { "id": "l8t05", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Ich habe zwei Kinokarten gekauft. Kommst du mit? Wir haben eine ___.", "options": ["Verabredung", "Karte", "Museum", "Nachmittag"], "solution": "Verabredung", "explanation": "'Verabredung' bezeichnet ein geplantes Treffen; die Karten wurden schon erwähnt (zwei Kinokarten)." },
+        { "id": "l8t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Das", "Konzert", "fängt", "um", "acht", "an"], "solution": "Das Konzert fängt um acht an.", "explanation": "Bei trennbaren Verben steht das Präfix 'an' am Satzende." },
+        { "id": "l8t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Ich ___ (sich treffen) mich mit Lena.", "solution": "treffe", "explanation": "Die 'ich'-Form von 'sich treffen' lautet 'treffe'." },
+        { "id": "l8t08", "type": "targeted-transformation", "instruction": "Mache einen Vorschlag.", "prompt": "Museum", "solution": "Gehen wir ins Museum?", "explanation": "'in das Museum' verschmilzt zu 'ins Museum'." },
+        { "id": "l8t09", "type": "targeted-transformation", "instruction": "Sage, wann das Konzert anfängt.", "prompt": "um acht", "solution": "Das Konzert fängt um acht an.", "explanation": "Bei trennbaren Verben steht das Präfix 'an' am Satzende." },
+        { "id": "l8t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Gehen wir in Museum?", "solution": "Gehen wir ins Museum?", "explanation": "'in das Museum' muss zu 'ins Museum' verschmelzen." }
       ]
     },
     {
@@ -173,15 +173,15 @@
         "Konjugation von 'essen' (unregelmäßig)"
       ],
       "vocabulary": [
-        { "id": "l9v01", "term": "mögen", "translation": "gustar", "partOfSpeech": "verb", "example": "Ich mag Schokolade." },
-        { "id": "l9v02", "term": "essen", "translation": "comer", "partOfSpeech": "verb", "example": "Ich esse gern Nudeln." },
+        { "id": "l9v01", "term": "mögen", "translation": "gustar", "partOfSpeech": "verb", "preterite": "mochte", "participle": "gemocht", "auxiliary": "haben", "irregular": true, "example": "Ich mag Schokolade." },
+        { "id": "l9v02", "term": "essen", "translation": "comer", "partOfSpeech": "verb", "preterite": "aß", "participle": "gegessen", "auxiliary": "haben", "irregular": true, "example": "Ich esse gern Nudeln." },
         { "id": "l9v03", "term": "das Fleisch", "translation": "la carne", "partOfSpeech": "noun", "gender": "das", "example": "Ich esse Fleisch." },
         { "id": "l9v04", "term": "der Salat", "translation": "la ensalada", "partOfSpeech": "noun", "gender": "der", "plural": "die Salate", "example": "Ich mag Salat." },
         { "id": "l9v05", "term": "die Tomate", "translation": "el tomate", "partOfSpeech": "noun", "gender": "die", "plural": "die Tomaten", "example": "Ich esse Tomaten." },
         { "id": "l9v06", "term": "der Ketchup", "translation": "el kétchup", "partOfSpeech": "noun", "gender": "der", "example": "Ich mag Ketchup." },
         { "id": "l9v07", "term": "der Schokoladenkuchen", "translation": "el pastel de chocolate", "partOfSpeech": "noun", "gender": "der", "plural": "die Schokoladenkuchen", "example": "Ich mag Schokoladenkuchen." },
         { "id": "l9v08", "term": "der Nusskuchen", "translation": "el pastel de nueces", "partOfSpeech": "noun", "gender": "der", "plural": "die Nusskuchen", "example": "Ich mag Nusskuchen." },
-        { "id": "l9v09", "term": "brauchen", "translation": "necesitar", "partOfSpeech": "verb", "example": "Ich brauche keinen Salat." },
+        { "id": "l9v09", "term": "brauchen", "translation": "necesitar", "partOfSpeech": "verb", "preterite": "brauchte", "participle": "gebraucht", "auxiliary": "haben", "irregular": false, "example": "Ich brauche keinen Salat." },
         { "id": "l9v10", "term": "prima", "translation": "genial", "partOfSpeech": "adjective", "example": "Na prima!" },
         { "id": "l9v11", "term": "dann", "translation": "entonces", "partOfSpeech": "adverb", "example": "Dann brauche ich keinen Salat." },
         { "id": "l9v12", "term": "das Gemüse", "translation": "la verdura", "partOfSpeech": "noun", "gender": "das", "example": "Ich esse gern Gemüse." },
@@ -196,7 +196,7 @@
           { "id": "l9e02", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "___ du Salat? (mögen)", "options": ["Magst", "Mag", "Mögt", "Mögen"], "solution": "Magst", "hint": "'du'-Form.", "explanation": "Die 'du'-Form von 'mögen' lautet 'magst'." },
           { "id": "l9e03", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Ich ___ gern Nudeln. (essen)", "options": ["esse", "isst", "esst", "essen"], "solution": "esse", "hint": "'ich'-Form.", "explanation": "Die 'ich'-Form von 'essen' lautet 'esse'." },
           { "id": "l9e04", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Er ___ gern Fleisch. (essen)", "options": ["isst", "esse", "esst", "essen"], "solution": "isst", "hint": "3. Person Singular, unregelmäßig.", "explanation": "Die 'er'-Form von 'essen' lautet 'isst'." },
-          { "id": "l9e05", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Na ___!", "options": ["prima", "dann", "gern", "mag"], "solution": "prima", "hint": "Ausdruck der Freude.", "explanation": "'Na prima!' drückt Freude aus." },
+          { "id": "l9e05", "type": "multiple-choice", "instruction": "Wähle das Wort für 'genial'.", "prompt": "Na ___!", "options": ["prima", "dann", "gern", "mag"], "solution": "prima", "hint": "Achte auf die Bedeutung, nicht nur auf die Wortart.", "explanation": "'prima' bedeutet 'genial' und drückt hier Freude aus." },
           { "id": "l9e06", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Salat", "options": ["der", "die", "das"], "solution": "der", "hint": "'Salat' ist maskulin.", "explanation": "'Salat' ist maskulin: der Salat." },
           { "id": "l9e07", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Tomate", "options": ["der", "die", "das"], "solution": "die", "hint": "'Tomate' ist feminin.", "explanation": "'Tomate' ist feminin: die Tomate." },
           { "id": "l9e08", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Ich esse gern ___. (Gemüse)", "solution": "Gemüse", "hint": "Ein Substantiv.", "explanation": "'Gemüse' ist das gesuchte Substantiv." },
@@ -229,16 +229,16 @@
         ]
       },
       "test": [
-        { "id": "l9t01", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Ich ___ Schokolade. (mögen)", "options": ["mag", "magst", "mögt", "mögen"], "solution": "mag", "explanation": "Die 'ich'-Form von 'mögen' lautet 'mag'." },
-        { "id": "l9t02", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "___ du Salat? (mögen)", "options": ["Magst", "Mag", "Mögt", "Mögen"], "solution": "Magst", "explanation": "Die 'du'-Form von 'mögen' lautet 'magst'." },
-        { "id": "l9t03", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Ich esse gern ___. (Gemüse)", "solution": "Gemüse", "explanation": "'Gemüse' ist das gesuchte Substantiv." },
-        { "id": "l9t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Tomate", "options": ["der", "die", "das"], "solution": "die", "explanation": "'Tomate' ist feminin: die Tomate." },
-        { "id": "l9t05", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Er ___ gern Fleisch. (essen)", "options": ["isst", "esse", "esst", "essen"], "solution": "isst", "explanation": "Die 'er'-Form von 'essen' lautet 'isst'." },
-        { "id": "l9t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "mag", "Nusskuchen"], "solution": "Ich mag Nusskuchen.", "explanation": "Das konjugierte Verb steht an Position 2." },
-        { "id": "l9t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Wir ___ (essen) gern Obst.", "solution": "essen", "explanation": "Die 'wir'-Form von 'essen' lautet 'essen'." },
-        { "id": "l9t08", "type": "targeted-transformation", "instruction": "Sage, dass du gern Nudeln isst.", "prompt": "gern / Nudeln / essen", "solution": "Ich esse gern Nudeln.", "explanation": "Die 'ich'-Form von 'essen' lautet 'esse'." },
-        { "id": "l9t09", "type": "targeted-transformation", "instruction": "Frage, ob jemand Salat mag.", "prompt": "Salat / mögen", "solution": "Magst du Salat?", "explanation": "Die 'du'-Form von 'mögen' lautet 'magst'." },
-        { "id": "l9t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Er esst gern Fleisch.", "solution": "Er isst gern Fleisch.", "explanation": "Die 'er'-Form von 'essen' lautet 'isst', nicht 'esst'." }
+        { "id": "l9t01", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Wir ___ Käse. (mögen)", "options": ["mögen", "magst", "mag", "mögt"], "solution": "mögen", "explanation": "Die 'wir'-Form von 'mögen' lautet 'mögen'." },
+        { "id": "l9t02", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "___ ihr Ketchup? (mögen)", "options": ["Mögt", "Magst", "Mag", "Mögen"], "solution": "Mögt", "explanation": "Die 'ihr'-Form von 'mögen' lautet 'mögt'." },
+        { "id": "l9t03", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Ich mag frisches ___. (Obst)", "solution": "Obst", "explanation": "'Obst' ist das gesuchte Substantiv." },
+        { "id": "l9t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Käse", "options": ["der", "die", "das"], "solution": "der", "explanation": "'Käse' ist maskulin: der Käse." },
+        { "id": "l9t05", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Sie ___ gern Brot mit Käse. (essen)", "options": ["isst", "esse", "esst", "essen"], "solution": "isst", "explanation": "Die 'sie'-Form (Singular) von 'essen' lautet 'isst'." },
+        { "id": "l9t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "mag", "Schokoladenkuchen"], "solution": "Ich mag Schokoladenkuchen.", "explanation": "Das konjugierte Verb steht an Position 2." },
+        { "id": "l9t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Du ___ (essen) gern Tomaten.", "solution": "isst", "explanation": "Die 'du'-Form von 'essen' lautet 'isst'." },
+        { "id": "l9t08", "type": "targeted-transformation", "instruction": "Sage, dass du Gemüse magst.", "prompt": "Gemüse / mögen", "solution": "Ich mag Gemüse.", "explanation": "Die 'ich'-Form von 'mögen' lautet 'mag'." },
+        { "id": "l9t09", "type": "targeted-transformation", "instruction": "Frage, ob jemand Fleisch mag.", "prompt": "Fleisch / mögen", "solution": "Magst du Fleisch?", "explanation": "Die 'du'-Form von 'mögen' lautet 'magst'." },
+        { "id": "l9t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Wir mag Nusskuchen.", "solution": "Wir mögen Nusskuchen.", "explanation": "Die 'wir'-Form von 'mögen' lautet 'mögen', nicht 'mag'." }
       ]
     }
   ]
