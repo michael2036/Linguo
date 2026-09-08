@@ -29,7 +29,7 @@
         { "id": "l22v12", "term": "cool", "translation": "genial (informal)", "partOfSpeech": "adjective", "example": "Das ist cool!" },
         { "id": "l22v13", "term": "der Preis", "translation": "el precio", "partOfSpeech": "noun", "gender": "der", "plural": "die Preise", "example": "Der Preis ist niedrig." },
         { "id": "l22v14", "term": "besonders", "translation": "especialmente", "partOfSpeech": "adverb", "example": "Das ist besonders gut." },
-        { "id": "l22v15", "term": "tauschen", "translation": "intercambiar", "partOfSpeech": "verb", "example": "Ich tausche Kleidung." },
+        { "id": "l22v15", "term": "tauschen", "translation": "intercambiar", "partOfSpeech": "verb", "preterite": "tauschte", "participle": "getauscht", "auxiliary": "haben", "irregular": false, "example": "Ich tausche Kleidung." },
         { "id": "l22v16", "term": "Second-Hand", "translation": "de segunda mano", "partOfSpeech": "adjective", "example": "Ich kaufe Second-Hand." }
       ],
       "practice": {
@@ -71,16 +71,16 @@
         ]
       },
       "test": [
-        { "id": "l22t01", "type": "multiple-choice", "instruction": "Wähle die richtige Superlativform.", "prompt": "Qualität ist am ___.", "options": ["wichtigsten", "wichtiger", "wichtig", "wichtige"], "solution": "wichtigsten", "explanation": "Der Superlativ von 'wichtig' mit 'am' lautet 'am wichtigsten'." },
-        { "id": "l22t02", "type": "multiple-choice", "instruction": "Wähle das richtige Vergleichswort.", "prompt": "So teuer ___ neu.", "options": ["wie", "als", "so", "am"], "solution": "wie", "explanation": "Bei Gleichheit verwendet man 'so ... wie'." },
-        { "id": "l22t03", "type": "fill-in-blank", "instruction": "Ergänze das Verb.", "prompt": "Ich ___ Kleidung. (tauschen)", "solution": "tausche", "explanation": "Die 'ich'-Form von 'tauschen' lautet 'tausche'." },
-        { "id": "l22t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Preis", "options": ["der", "die", "das"], "solution": "der", "explanation": "'Preis' ist maskulin: der Preis." },
-        { "id": "l22t05", "type": "multiple-choice", "instruction": "Wähle das richtige Vergleichswort.", "prompt": "Teurer ___ neu.", "options": ["als", "wie", "so", "am"], "solution": "als", "explanation": "Beim Komparativ verwendet man 'als'." },
-        { "id": "l22t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "trage", "am", "liebsten", "Jeans"], "solution": "Ich trage am liebsten Jeans.", "explanation": "Das konjugierte Verb steht an Position 2." },
-        { "id": "l22t07", "type": "cloze-conjugation", "instruction": "Ergänze das Nomen.", "prompt": "Der ___ (Preis) ist niedrig.", "solution": "Preis", "explanation": "'Preis' bezeichnet, wie viel etwas kostet." },
-        { "id": "l22t08", "type": "targeted-transformation", "instruction": "Sage, dass Qualität am wichtigsten ist.", "prompt": "Qualität / am wichtigsten", "solution": "Qualität ist am wichtigsten.", "explanation": "Der Superlativ von 'wichtig' mit 'am' lautet 'am wichtigsten'." },
-        { "id": "l22t09", "type": "targeted-transformation", "instruction": "Vergleiche ungleich.", "prompt": "teurer / als / neu", "solution": "Teurer als neu.", "explanation": "Beim Komparativ verwendet man 'als'." },
-        { "id": "l22t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "So teuer als neu.", "solution": "So teuer wie neu.", "explanation": "Bei Gleichheit verwendet man 'so ... wie', nicht 'so ... als'." }
+        { "id": "l22t01", "type": "multiple-choice", "instruction": "Wähle die richtige Superlativform.", "prompt": "Der Preis ist am ___.", "options": ["wichtigsten", "wichtiger", "wichtig", "wichtige"], "solution": "wichtigsten", "explanation": "Der Superlativ von 'wichtig' mit 'am' lautet 'am wichtigsten'." },
+        { "id": "l22t02", "type": "multiple-choice", "instruction": "Wähle die richtige Superlativform.", "prompt": "Ich trage ___ Second-Hand-Kleidung.", "options": ["am liebsten", "gern", "lieber", "liebste"], "solution": "am liebsten", "explanation": "Der Superlativ von 'gern' lautet 'am liebsten'." },
+        { "id": "l22t03", "type": "fill-in-blank", "instruction": "Ergänze das Adjektiv.", "prompt": "Dieses T-Shirt ist ___. (selbstgemacht)", "solution": "selbstgemacht", "explanation": "'selbstgemacht' ist das gesuchte Adjektiv." },
+        { "id": "l22t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Kleidertausch", "options": ["der", "die", "das"], "solution": "der", "explanation": "'Kleidertausch' ist maskulin: der Kleidertausch." },
+        { "id": "l22t05", "type": "multiple-choice", "instruction": "Wähle das richtige Vergleichswort.", "prompt": "Die Jacke ist so schön ___ die andere.", "options": ["wie", "als", "so", "am"], "solution": "wie", "explanation": "Bei Gleichheit verwendet man 'so ... wie'." },
+        { "id": "l22t06", "type": "sentence-scramble", "instruction": "Bilde einen Vergleich.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Die", "Hose", "ist", "billiger", "als", "das", "Kleid"], "solution": "Die Hose ist billiger als das Kleid.", "explanation": "Beim Komparativ verwendet man 'als'." },
+        { "id": "l22t07", "type": "cloze-conjugation", "instruction": "Ergänze das Adverb.", "prompt": "Diese Kleidung ist ganz ___. (besonders)", "solution": "besonders", "explanation": "'besonders' verstärkt die Aussage." },
+        { "id": "l22t08", "type": "targeted-transformation", "instruction": "Sage, dass du gern Second-Hand-Kleidung trägst.", "prompt": "gern / Second-Hand-Kleidung / tragen", "solution": "Ich trage gern Second-Hand-Kleidung.", "explanation": "Die 'ich'-Form von 'tragen' lautet 'trage'." },
+        { "id": "l22t09", "type": "targeted-transformation", "instruction": "Vergleiche gleich.", "prompt": "billig / wie / neu", "solution": "So billig wie neu.", "explanation": "Bei Gleichheit verwendet man 'so ... wie'." },
+        { "id": "l22t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "So billig als neu.", "solution": "So billig wie neu.", "explanation": "Bei Gleichheit verwendet man 'so ... wie', nicht 'so ... als'." }
       ]
     },
     {
@@ -94,22 +94,22 @@
         "Wechselpräpositionen im Akkusativ bei Reisezielen"
       ],
       "vocabulary": [
-        { "id": "l23v01", "term": "regnen", "translation": "llover", "partOfSpeech": "verb", "example": "Es regnet." },
+        { "id": "l23v01", "term": "regnen", "translation": "llover", "partOfSpeech": "verb", "preterite": "regnete", "participle": "geregnet", "auxiliary": "haben", "irregular": false, "example": "Es regnet." },
         { "id": "l23v02", "term": "sonnig", "translation": "soleado", "partOfSpeech": "adjective", "example": "Es ist sonnig." },
-        { "id": "l23v03", "term": "schneien", "translation": "nevar", "partOfSpeech": "verb", "example": "Es schneit." },
+        { "id": "l23v03", "term": "schneien", "translation": "nevar", "partOfSpeech": "verb", "preterite": "schneite", "participle": "geschneit", "auxiliary": "haben", "irregular": false, "example": "Es schneit." },
         { "id": "l23v04", "term": "bewölkt", "translation": "nublado", "partOfSpeech": "adjective", "example": "Es ist bewölkt." },
         { "id": "l23v05", "term": "windig", "translation": "ventoso", "partOfSpeech": "adjective", "example": "Es ist windig." },
         { "id": "l23v06", "term": "neblig", "translation": "con niebla", "partOfSpeech": "adjective", "example": "Es ist neblig." },
-        { "id": "l23v07", "term": "donnern", "translation": "tronar", "partOfSpeech": "verb", "example": "Es donnert." },
-        { "id": "l23v08", "term": "blitzen", "translation": "relampaguear", "partOfSpeech": "verb", "example": "Es blitzt." },
-        { "id": "l23v09", "term": "hageln", "translation": "granizar", "partOfSpeech": "verb", "example": "Es hagelt." },
+        { "id": "l23v07", "term": "donnern", "translation": "tronar", "partOfSpeech": "verb", "preterite": "donnerte", "participle": "gedonnert", "auxiliary": "haben", "irregular": false, "example": "Es donnert." },
+        { "id": "l23v08", "term": "blitzen", "translation": "relampaguear", "partOfSpeech": "verb", "preterite": "blitzte", "participle": "geblitzt", "auxiliary": "haben", "irregular": false, "example": "Es blitzt." },
+        { "id": "l23v09", "term": "hageln", "translation": "granizar", "partOfSpeech": "verb", "preterite": "hagelte", "participle": "gehagelt", "auxiliary": "haben", "irregular": false, "example": "Es hagelt." },
         { "id": "l23v10", "term": "der Grad", "translation": "el grado (temperatura)", "partOfSpeech": "noun", "gender": "der", "plural": "die Grade", "example": "Es hat zehn Grad." },
         { "id": "l23v11", "term": "der Himmel", "translation": "el cielo", "partOfSpeech": "noun", "gender": "der", "example": "Der Himmel ist wolkenlos." },
         { "id": "l23v12", "term": "der Berg", "translation": "la montaña", "partOfSpeech": "noun", "gender": "der", "plural": "die Berge", "example": "Wir gehen in die Berge." },
         { "id": "l23v13", "term": "das Meer", "translation": "el mar", "partOfSpeech": "noun", "gender": "das", "plural": "die Meere", "example": "Wir fahren ans Meer." },
         { "id": "l23v14", "term": "die Wüste", "translation": "el desierto", "partOfSpeech": "noun", "gender": "die", "plural": "die Wüsten", "example": "Wir reisen in die Wüste." },
         { "id": "l23v15", "term": "der Schneemann", "translation": "el muñeco de nieve", "partOfSpeech": "noun", "gender": "der", "plural": "die Schneemänner", "example": "Er baut gern Schneemänner." },
-        { "id": "l23v16", "term": "mögen", "translation": "gustar", "partOfSpeech": "verb", "example": "Magst du Schnee?" }
+        { "id": "l23v16", "term": "mögen", "translation": "gustar", "partOfSpeech": "verb", "preterite": "mochte", "participle": "gemocht", "auxiliary": "haben", "irregular": true, "example": "Magst du Schnee?" }
       ],
       "practice": {
         "easy": [
@@ -150,16 +150,16 @@
         ]
       },
       "test": [
-        { "id": "l23t01", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Es ___. (regnen)", "options": ["regnet", "regne", "regnest", "regnen"], "solution": "regnet", "explanation": "Die 'es'-Form von 'regnen' lautet 'regnet'." },
-        { "id": "l23t02", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Es ist ___.", "options": ["sonnig", "regnen", "schneien", "donnern"], "solution": "sonnig", "explanation": "'sonnig' ist ein Adjektiv fürs Wetter." },
-        { "id": "l23t03", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Es hat zehn ___. (Grad)", "solution": "Grad", "explanation": "'Grad' ist die gesuchte Temperatureinheit." },
-        { "id": "l23t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Himmel", "options": ["der", "die", "das"], "solution": "der", "explanation": "'Himmel' ist maskulin: der Himmel." },
-        { "id": "l23t05", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Es ist ___.", "options": ["windig", "regnet", "schneit", "Grad"], "solution": "windig", "explanation": "'windig' ist ein Adjektiv fürs Wetter." },
-        { "id": "l23t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Wir", "gehen", "in", "die", "Berge"], "solution": "Wir gehen in die Berge.", "explanation": "'in die Berge' beschreibt eine Bewegung; die Präposition steht mit Akkusativ." },
-        { "id": "l23t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Es ___ (hageln).", "solution": "hagelt", "explanation": "Die 'es'-Form von 'hageln' lautet 'hagelt'." },
-        { "id": "l23t08", "type": "targeted-transformation", "instruction": "Beschreibe das Wetter.", "prompt": "Gewitter", "solution": "Es donnert und blitzt.", "explanation": "Ein Gewitter beschreibt man mit 'es donnert und blitzt'." },
-        { "id": "l23t09", "type": "targeted-transformation", "instruction": "Begründe mit 'weil'.", "prompt": "Ich mag Schnee. Ich fahre gern Ski.", "solution": "Ich mag Schnee, weil ich gern Ski fahre.", "explanation": "Im weil-Satz steht das konjugierte Verb am Ende." },
-        { "id": "l23t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Wir gehen in der Berge.", "solution": "Wir gehen in die Berge.", "explanation": "Bei einer Bewegung steht die Wechselpräposition mit Akkusativ, nicht Dativ." }
+        { "id": "l23t01", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Heute ist es ___.", "options": ["bewölkt", "regnet", "schneit", "donnert"], "solution": "bewölkt", "explanation": "'bewölkt' ist ein Adjektiv fürs Wetter und passt nach 'ist'." },
+        { "id": "l23t02", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Draußen ist es ganz ___.", "options": ["neblig", "regnet", "schneit", "hagelt"], "solution": "neblig", "explanation": "'neblig' ist ein Adjektiv fürs Wetter und passt nach 'ist'." },
+        { "id": "l23t03", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Im Winter fahren wir gern in die ___. (Berge)", "solution": "Berge", "explanation": "'Berge' ist das gesuchte Substantiv." },
+        { "id": "l23t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Meer", "options": ["der", "die", "das"], "solution": "das", "explanation": "'Meer' ist neutral: das Meer." },
+        { "id": "l23t05", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Im Winter bauen Kinder gern einen ___.", "options": ["Schneemann", "Berg", "Himmel", "Grad"], "solution": "Schneemann", "explanation": "Aus Schnee baut man einen Schneemann." },
+        { "id": "l23t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Es", "ist", "heute", "sehr", "bewölkt"], "solution": "Es ist heute sehr bewölkt.", "explanation": "Das konjugierte Verb steht an Position 2." },
+        { "id": "l23t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Es ___ (donnern) laut in der Nacht.", "solution": "donnert", "explanation": "Die 'es'-Form von 'donnern' lautet 'donnert'." },
+        { "id": "l23t08", "type": "targeted-transformation", "instruction": "Beschreibe das Wetter.", "prompt": "Nebel", "solution": "Es ist neblig.", "explanation": "Wetteradjektive verwendet man mit 'es ist'." },
+        { "id": "l23t09", "type": "targeted-transformation", "instruction": "Begründe mit 'weil'.", "prompt": "Ich fahre in die Berge. Ich mag Schnee.", "solution": "Ich fahre in die Berge, weil ich Schnee mag.", "explanation": "Im weil-Satz steht das konjugierte Verb am Ende." },
+        { "id": "l23t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Wir fahren in der Wüste.", "solution": "Wir fahren in die Wüste.", "explanation": "Bei einer Bewegung (Reiseziel) steht die Wechselpräposition mit Akkusativ, nicht Dativ." }
       ]
     },
     {
@@ -180,10 +180,10 @@
         { "id": "l24v05", "term": "die Hochzeit", "translation": "la boda", "partOfSpeech": "noun", "gender": "die", "plural": "die Hochzeiten", "example": "Ich gratuliere dir zur Hochzeit!" },
         { "id": "l24v06", "term": "die Prüfung", "translation": "el examen", "partOfSpeech": "noun", "gender": "die", "plural": "die Prüfungen", "example": "Herzlichen Glückwunsch zur Prüfung!" },
         { "id": "l24v07", "term": "der Feiertag", "translation": "el día festivo", "partOfSpeech": "noun", "gender": "der", "plural": "die Feiertage", "example": "Schönen Feiertag!" },
-        { "id": "l24v08", "term": "gratulieren", "translation": "felicitar", "partOfSpeech": "verb", "example": "Ich gratuliere dir." },
+        { "id": "l24v08", "term": "gratulieren", "translation": "felicitar", "partOfSpeech": "verb", "preterite": "gratulierte", "participle": "gratuliert", "auxiliary": "haben", "irregular": false, "example": "Ich gratuliere dir." },
         { "id": "l24v09", "term": "der Glückwunsch", "translation": "la felicitación", "partOfSpeech": "noun", "gender": "der", "plural": "die Glückwünsche", "example": "Herzlichen Glückwunsch!" },
         { "id": "l24v10", "term": "würde", "translation": "haría (condicional)", "partOfSpeech": "phrase", "example": "Ich würde gern spielen." },
-        { "id": "l24v11", "term": "bleiben", "translation": "quedarse", "partOfSpeech": "verb", "example": "Ich würde gern bleiben." },
+        { "id": "l24v11", "term": "bleiben", "translation": "quedarse", "partOfSpeech": "verb", "preterite": "blieb", "participle": "geblieben", "auxiliary": "sein", "irregular": true, "example": "Ich würde gern bleiben." },
         { "id": "l24v12", "term": "vom", "translation": "desde el", "partOfSpeech": "phrase", "example": "Vom 26. Februar bis zum 11. März." },
         { "id": "l24v13", "term": "bis zum", "translation": "hasta el", "partOfSpeech": "phrase", "example": "Bis zum 11. März." },
         { "id": "l24v14", "term": "am", "translation": "el (fecha)", "partOfSpeech": "phrase", "example": "Am 23. September." },
@@ -229,16 +229,16 @@
         ]
       },
       "test": [
-        { "id": "l24t01", "type": "multiple-choice", "instruction": "Wähle den passenden Glückwunsch.", "prompt": "___ Weihnachten!", "options": ["Frohe", "Gutes", "Schönen", "Herzlichen"], "solution": "Frohe", "explanation": "'Frohe Weihnachten!' ist die feste Glückwunschformel." },
-        { "id": "l24t02", "type": "multiple-choice", "instruction": "Wähle den passenden Glückwunsch.", "prompt": "___ Glückwunsch zur Prüfung!", "options": ["Herzlichen", "Frohe", "Gutes", "Schönen"], "solution": "Herzlichen", "explanation": "'Herzlichen Glückwunsch!' ist die feste Glückwunschformel." },
-        { "id": "l24t03", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Mein ___ ist im Mai. (Geburtstag)", "solution": "Geburtstag", "explanation": "'Geburtstag' ist das gesuchte Substantiv." },
-        { "id": "l24t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Hochzeit", "options": ["der", "die", "das"], "solution": "die", "explanation": "'Hochzeit' ist feminin: die Hochzeit." },
-        { "id": "l24t05", "type": "multiple-choice", "instruction": "Wähle die richtige Konjunktiv-II-Form.", "prompt": "Ich ___ gern spielen.", "options": ["würde", "würdest", "würdet", "würden"], "solution": "würde", "explanation": "Die 'ich'-Form von 'werden' im Konjunktiv II lautet 'würde'." },
-        { "id": "l24t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "gratuliere", "dir", "zur", "Hochzeit"], "solution": "Ich gratuliere dir zur Hochzeit.", "explanation": "Das konjugierte Verb steht an Position 2." },
-        { "id": "l24t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Sie ___ (gratulieren) ihm zum Geburtstag.", "solution": "gratuliert", "explanation": "Die 'sie'-Form von 'gratulieren' lautet 'gratuliert'." },
-        { "id": "l24t08", "type": "targeted-transformation", "instruction": "Gratuliere zur Prüfung.", "prompt": "die Prüfung", "solution": "Herzlichen Glückwunsch zur Prüfung!", "explanation": "'Herzlichen Glückwunsch!' ist die feste Glückwunschformel." },
-        { "id": "l24t09", "type": "targeted-transformation", "instruction": "Sage, dass du gern bleiben würdest.", "prompt": "gern bleiben / würde", "solution": "Ich würde gern bleiben.", "explanation": "Nach 'würde' steht der Infinitiv am Satzende." },
-        { "id": "l24t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich gratuliere dich zur Hochzeit.", "solution": "Ich gratuliere dir zur Hochzeit.", "explanation": "'gratulieren' verlangt den Dativ: dir, nicht dich." }
+        { "id": "l24t01", "type": "multiple-choice", "instruction": "Wähle den passenden Glückwunsch.", "prompt": "___ Ostern!", "options": ["Frohe", "Gutes", "Schönen", "Herzlichen"], "solution": "Frohe", "explanation": "'Frohe Ostern!' ist die feste Glückwunschformel." },
+        { "id": "l24t02", "type": "multiple-choice", "instruction": "Wähle den passenden Feiertag.", "prompt": "Am 31. Dezember feiern wir ___.", "options": ["Silvester", "Ostern", "Weihnachten", "Geburtstag"], "solution": "Silvester", "explanation": "Der 31. Dezember ist Silvester." },
+        { "id": "l24t03", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Ich wünsche dir einen schönen ___. (Feiertag)", "solution": "Feiertag", "explanation": "'Feiertag' ist das gesuchte Substantiv." },
+        { "id": "l24t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Feiertag", "options": ["der", "die", "das"], "solution": "der", "explanation": "'Feiertag' ist maskulin: der Feiertag." },
+        { "id": "l24t05", "type": "multiple-choice", "instruction": "Wähle die richtige Konjunktiv-II-Form.", "prompt": "Wir ___ gern bleiben.", "options": ["würden", "würde", "würdest", "würdet"], "solution": "würden", "explanation": "Die 'wir'-Form von 'werden' im Konjunktiv II lautet 'würden'." },
+        { "id": "l24t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Wir", "feiern", "vom", "24.", "Dezember", "bis", "zum", "1.", "Januar"], "solution": "Wir feiern vom 24. Dezember bis zum 1. Januar.", "explanation": "'vom ... bis zum' beschreibt eine Zeitspanne mit Beginn und Ende." },
+        { "id": "l24t07", "type": "cloze-conjugation", "instruction": "Ergänze die Präposition.", "prompt": "Wir bleiben ___ (bis zum) 6. Januar hier.", "solution": "bis zum", "explanation": "'bis zum' leitet das Ende einer Zeitspanne ein." },
+        { "id": "l24t08", "type": "targeted-transformation", "instruction": "Gratuliere zum Geburtstag.", "prompt": "der Geburtstag", "solution": "Herzlichen Glückwunsch zum Geburtstag!", "explanation": "'Herzlichen Glückwunsch!' ist die feste Glückwunschformel; bei 'der Geburtstag' verwendet man 'zum'." },
+        { "id": "l24t09", "type": "targeted-transformation", "instruction": "Sage, dass ihr gern feiern würdet.", "prompt": "ihr / gern feiern / würde", "solution": "Ihr würdet gern feiern.", "explanation": "Die 'ihr'-Form von 'werden' im Konjunktiv II lautet 'würdet'." },
+        { "id": "l24t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Wir würde gern feiern.", "solution": "Wir würden gern feiern.", "explanation": "Die 'wir'-Form von 'werden' im Konjunktiv II lautet 'würden', nicht 'würde'." }
       ]
     }
   ]
