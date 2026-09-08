@@ -15,22 +15,22 @@
         "Pronomen-Reihenfolge: Pronomen vor Nomen"
       ],
       "vocabulary": [
-        { "id": "l13v01", "term": "schenken", "translation": "regalar", "partOfSpeech": "verb", "example": "Ich schenke ihm ein Buch." },
+        { "id": "l13v01", "term": "schenken", "translation": "regalar", "partOfSpeech": "verb", "preterite": "schenkte", "participle": "geschenkt", "auxiliary": "haben", "irregular": false, "example": "Ich schenke ihm ein Buch." },
         { "id": "l13v02", "term": "das Geschenk", "translation": "el regalo", "partOfSpeech": "noun", "gender": "das", "plural": "die Geschenke", "example": "Das Geschenk ist für dich." },
-        { "id": "l13v03", "term": "geben", "translation": "dar", "partOfSpeech": "verb", "example": "Ich gebe es ihm." },
-        { "id": "l13v04", "term": "zeigen", "translation": "mostrar", "partOfSpeech": "verb", "example": "Ich zeige es dir." },
-        { "id": "l13v05", "term": "leihen", "translation": "prestar", "partOfSpeech": "verb", "example": "Ich leihe ihm mein Auto." },
-        { "id": "l13v06", "term": "erklären", "translation": "explicar", "partOfSpeech": "verb", "example": "Ich erkläre es ihr." },
+        { "id": "l13v03", "term": "geben", "translation": "dar", "partOfSpeech": "verb", "preterite": "gab", "participle": "gegeben", "auxiliary": "haben", "irregular": true, "example": "Ich gebe es ihm." },
+        { "id": "l13v04", "term": "zeigen", "translation": "mostrar", "partOfSpeech": "verb", "preterite": "zeigte", "participle": "gezeigt", "auxiliary": "haben", "irregular": false, "example": "Ich zeige es dir." },
+        { "id": "l13v05", "term": "leihen", "translation": "prestar", "partOfSpeech": "verb", "preterite": "lieh", "participle": "geliehen", "auxiliary": "haben", "irregular": true, "example": "Ich leihe ihm mein Auto." },
+        { "id": "l13v06", "term": "erklären", "translation": "explicar", "partOfSpeech": "verb", "preterite": "erklärte", "participle": "erklärt", "auxiliary": "haben", "irregular": false, "example": "Ich erkläre es ihr." },
         { "id": "l13v07", "term": "der Empfänger", "translation": "el destinatario", "partOfSpeech": "noun", "gender": "der", "plural": "die Empfänger", "example": "Wer ist der Empfänger?" },
-        { "id": "l13v08", "term": "verschenken", "translation": "regalar (desprenderse de algo)", "partOfSpeech": "verb", "example": "Ich verschenke meine alten Bücher." },
-        { "id": "l13v09", "term": "mitbringen", "translation": "traer", "partOfSpeech": "verb", "example": "Ich bringe ihr Blumen mit." },
-        { "id": "l13v10", "term": "schicken", "translation": "enviar", "partOfSpeech": "verb", "example": "Ich schicke es ihm per Post." },
-        { "id": "l13v11", "term": "zurückgeben", "translation": "devolver", "partOfSpeech": "verb", "example": "Ich gebe ihr das Buch zurück." },
+        { "id": "l13v08", "term": "verschenken", "translation": "regalar (desprenderse de algo)", "partOfSpeech": "verb", "preterite": "verschenkte", "participle": "verschenkt", "auxiliary": "haben", "irregular": false, "example": "Ich verschenke meine alten Bücher." },
+        { "id": "l13v09", "term": "mitbringen", "translation": "traer", "partOfSpeech": "verb", "preterite": "brachte mit", "participle": "mitgebracht", "auxiliary": "haben", "irregular": true, "example": "Ich bringe ihr Blumen mit." },
+        { "id": "l13v10", "term": "schicken", "translation": "enviar", "partOfSpeech": "verb", "preterite": "schickte", "participle": "geschickt", "auxiliary": "haben", "irregular": false, "example": "Ich schicke es ihm per Post." },
+        { "id": "l13v11", "term": "zurückgeben", "translation": "devolver", "partOfSpeech": "verb", "preterite": "gab zurück", "participle": "zurückgegeben", "auxiliary": "haben", "irregular": true, "example": "Ich gebe ihr das Buch zurück." },
         { "id": "l13v12", "term": "der Geburtstag", "translation": "el cumpleaños", "partOfSpeech": "noun", "gender": "der", "plural": "die Geburtstage", "example": "Ich schenke ihr etwas zum Geburtstag." },
-        { "id": "l13v13", "term": "überraschen", "translation": "sorprender", "partOfSpeech": "verb", "example": "Ich überrasche ihn mit einem Geschenk." },
+        { "id": "l13v13", "term": "überraschen", "translation": "sorprender", "partOfSpeech": "verb", "preterite": "überraschte", "participle": "überrascht", "auxiliary": "haben", "irregular": false, "example": "Ich überrasche ihn mit einem Geschenk." },
         { "id": "l13v14", "term": "die Überraschung", "translation": "la sorpresa", "partOfSpeech": "noun", "gender": "die", "plural": "die Überraschungen", "example": "Das ist eine schöne Überraschung." },
         { "id": "l13v15", "term": "die Blume", "translation": "la flor", "partOfSpeech": "noun", "gender": "die", "plural": "die Blumen", "example": "Ich bringe ihr Blumen mit." },
-        { "id": "l13v16", "term": "verpacken", "translation": "envolver", "partOfSpeech": "verb", "example": "Ich verpacke das Geschenk." }
+        { "id": "l13v16", "term": "verpacken", "translation": "envolver", "partOfSpeech": "verb", "preterite": "verpackte", "participle": "verpackt", "auxiliary": "haben", "irregular": false, "example": "Ich verpacke das Geschenk." }
       ],
       "practice": {
         "easy": [
@@ -71,16 +71,16 @@
         ]
       },
       "test": [
-        { "id": "l13t01", "type": "multiple-choice", "instruction": "Wähle das richtige Pronomen.", "prompt": "Ich schenke ___ ein Buch. (meinem Bruder)", "options": ["ihm", "ihn", "ihr", "sie"], "solution": "ihm", "explanation": "'meinem Bruder' wird durch das Dativpronomen 'ihm' ersetzt." },
-        { "id": "l13t02", "type": "multiple-choice", "instruction": "Wähle das richtige Pronomen.", "prompt": "Ich gebe es ___. (meiner Schwester)", "options": ["ihr", "sie", "ihm", "es"], "solution": "ihr", "explanation": "'meiner Schwester' wird durch das Dativpronomen 'ihr' ersetzt." },
-        { "id": "l13t03", "type": "fill-in-blank", "instruction": "Ersetze das Nomen durch ein Pronomen.", "prompt": "Ich bringe ___ Blumen mit. (meiner Mutter)", "solution": "ihr", "explanation": "'meiner Mutter' wird durch das Dativpronomen 'ihr' ersetzt." },
-        { "id": "l13t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Geschenk", "options": ["der", "die", "das"], "solution": "das", "explanation": "'Geschenk' ist neutral: das Geschenk." },
-        { "id": "l13t05", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Ich ___ ihm ein Buch.", "options": ["schenke", "schenkst", "schenkt", "schenken"], "solution": "schenke", "explanation": "Die 'ich'-Form von 'schenken' lautet 'schenke'." },
-        { "id": "l13t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz mit Pronomen und Nomen.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "gebe", "ihm", "das", "Buch"], "solution": "Ich gebe ihm das Buch.", "explanation": "Steht ein Pronomen neben einem Nomen, kommt das Pronomen zuerst." },
-        { "id": "l13t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Er ___ (mitbringen) ihr Blumen mit.", "solution": "bringt", "explanation": "Die 'er'-Form von 'mitbringen' lautet 'bringt ... mit'." },
-        { "id": "l13t08", "type": "targeted-transformation", "instruction": "Ersetze beide Objekte durch Pronomen.", "prompt": "Ich gebe meinem Bruder das Buch.", "solution": "Ich gebe es ihm.", "explanation": "Bei zwei Pronomen steht das Akkusativobjekt vor dem Dativobjekt." },
-        { "id": "l13t09", "type": "targeted-transformation", "instruction": "Ersetze das Dativobjekt durch ein Pronomen.", "prompt": "Ich bringe meiner Mutter Blumen mit.", "solution": "Ich bringe ihr Blumen mit.", "explanation": "'meiner Mutter' wird zu 'ihr' und steht vor dem Nomen 'Blumen'." },
-        { "id": "l13t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich gebe ihm es.", "solution": "Ich gebe es ihm.", "explanation": "Bei zwei Pronomen muss das Akkusativobjekt vor dem Dativobjekt stehen." }
+        { "id": "l13t01", "type": "multiple-choice", "instruction": "Wähle das richtige Pronomen.", "prompt": "Ich zeige ___ die Überraschung. (meinem Kollegen)", "options": ["ihm", "ihn", "ihr", "sie"], "solution": "ihm", "explanation": "'meinem Kollegen' wird durch das Dativpronomen 'ihm' ersetzt." },
+        { "id": "l13t02", "type": "multiple-choice", "instruction": "Wähle das richtige Pronomen.", "prompt": "Ich schicke ___ ein Geschenk. (meiner Kollegin)", "options": ["ihr", "sie", "ihm", "es"], "solution": "ihr", "explanation": "'meiner Kollegin' wird durch das Dativpronomen 'ihr' ersetzt." },
+        { "id": "l13t03", "type": "fill-in-blank", "instruction": "Ersetze das Nomen durch ein Pronomen.", "prompt": "Ich bringe ___ eine Überraschung mit. (meinem Kollegen)", "solution": "ihm", "explanation": "'meinem Kollegen' wird durch das Dativpronomen 'ihm' ersetzt." },
+        { "id": "l13t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Empfänger", "options": ["der", "die", "das"], "solution": "der", "explanation": "'Empfänger' ist maskulin: der Empfänger." },
+        { "id": "l13t05", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Du ___ das Geschenk.", "options": ["verpackst", "verpackt", "verpacke", "verpacken"], "solution": "verpackst", "explanation": "Die 'du'-Form von 'verpacken' lautet 'verpackst'." },
+        { "id": "l13t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz mit Pronomen und Nomen.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "schicke", "ihr", "das", "Geschenk"], "solution": "Ich schicke ihr das Geschenk.", "explanation": "Steht ein Pronomen neben einem Nomen, kommt das Pronomen zuerst." },
+        { "id": "l13t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Sie ___ (zurückgeben) ihm das Buch zurück.", "solution": "gibt", "explanation": "Die 'sie'-Form von 'zurückgeben' lautet 'gibt ... zurück'." },
+        { "id": "l13t08", "type": "targeted-transformation", "instruction": "Ersetze beide Objekte durch Pronomen.", "prompt": "Ich erkläre meinem Kollegen die Aufgabe.", "solution": "Ich erkläre sie ihm.", "explanation": "'die Aufgabe' wird zu 'sie'; bei zwei Pronomen steht das Akkusativpronomen vor dem Dativpronomen." },
+        { "id": "l13t09", "type": "targeted-transformation", "instruction": "Ersetze das Dativobjekt durch ein Pronomen.", "prompt": "Ich schenke meiner Tante Blumen.", "solution": "Ich schenke ihr Blumen.", "explanation": "'meiner Tante' wird zu 'ihr' und steht vor dem Nomen 'Blumen'." },
+        { "id": "l13t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich schicke ihr es.", "solution": "Ich schicke es ihr.", "explanation": "Bei zwei Pronomen muss das Akkusativobjekt vor dem Dativobjekt stehen: es ihr." }
       ]
     },
     {
@@ -94,13 +94,13 @@
         "Adjektivdeklination: Nominativ/Akkusativ nach unbestimmtem Artikel"
       ],
       "vocabulary": [
-        { "id": "l14v01", "term": "helfen", "translation": "ayudar", "partOfSpeech": "verb", "example": "Kann ich dir helfen?" },
+        { "id": "l14v01", "term": "helfen", "translation": "ayudar", "partOfSpeech": "verb", "preterite": "half", "participle": "geholfen", "auxiliary": "haben", "irregular": true, "example": "Kann ich dir helfen?" },
         { "id": "l14v02", "term": "die Hilfe", "translation": "la ayuda", "partOfSpeech": "noun", "gender": "die", "example": "Ich brauche Hilfe." },
-        { "id": "l14v03", "term": "anbieten", "translation": "ofrecer", "partOfSpeech": "verb", "example": "Ich biete dir meine Hilfe an." },
-        { "id": "l14v04", "term": "ablehnen", "translation": "rechazar", "partOfSpeech": "verb", "example": "Danke, aber ich lehne ab." },
+        { "id": "l14v03", "term": "anbieten", "translation": "ofrecer", "partOfSpeech": "verb", "preterite": "bot an", "participle": "angeboten", "auxiliary": "haben", "irregular": true, "example": "Ich biete dir meine Hilfe an." },
+        { "id": "l14v04", "term": "ablehnen", "translation": "rechazar", "partOfSpeech": "verb", "preterite": "lehnte ab", "participle": "abgelehnt", "auxiliary": "haben", "irregular": false, "example": "Danke, aber ich lehne ab." },
         { "id": "l14v05", "term": "der Koffer", "translation": "la maleta", "partOfSpeech": "noun", "gender": "der", "plural": "die Koffer", "example": "Das ist ein schwerer Koffer." },
         { "id": "l14v06", "term": "schwer", "translation": "pesado", "partOfSpeech": "adjective", "example": "Der Koffer ist schwer." },
-        { "id": "l14v07", "term": "tragen", "translation": "llevar / cargar", "partOfSpeech": "verb", "example": "Ich trage den schweren Koffer." },
+        { "id": "l14v07", "term": "tragen", "translation": "llevar / cargar", "partOfSpeech": "verb", "preterite": "trug", "participle": "getragen", "auxiliary": "haben", "irregular": true, "example": "Ich trage den schweren Koffer." },
         { "id": "l14v08", "term": "freundlich", "translation": "amable", "partOfSpeech": "adjective", "example": "Das ist ein freundlicher Kollege." },
         { "id": "l14v09", "term": "nett", "translation": "agradable", "partOfSpeech": "adjective", "example": "Sie ist eine nette Nachbarin." },
         { "id": "l14v10", "term": "die Nachbarin", "translation": "la vecina", "partOfSpeech": "noun", "gender": "die", "plural": "die Nachbarinnen", "example": "Meine Nachbarin ist sehr nett." },
@@ -138,7 +138,7 @@
         ],
         "hard": [
           { "id": "l14h01", "type": "targeted-transformation", "instruction": "Biete Hilfe an.", "prompt": "du / den Koffer tragen", "solution": "Kann ich dir den Koffer tragen?", "hint": "Frage mit 'kann ich dir'.", "explanation": "Hilfe bietet man höflich mit 'Kann ich dir ... ?' an." },
-          { "id": "l14h02", "type": "targeted-transformation", "instruction": "Lehne höflich ab.", "prompt": "Danke, aber du brauchst keine Hilfe zu geben.", "solution": "Danke, aber ich lehne ab.", "hint": "Höfliche Ablehnung mit 'danke, aber'.", "explanation": "Eine höfliche Ablehnung beginnt oft mit 'Danke, aber ...'." },
+          { "id": "l14h02", "type": "targeted-transformation", "instruction": "Lehne das Hilfsangebot höflich ab.", "prompt": "Kann ich dir helfen?", "solution": "Danke, aber ich lehne ab.", "hint": "Höfliche Ablehnung mit 'danke, aber'.", "explanation": "Eine höfliche Ablehnung eines Hilfsangebots beginnt oft mit 'Danke, aber ...'." },
           { "id": "l14h03", "type": "targeted-transformation", "instruction": "Beschreibe mit Adjektiv im Nominativ.", "prompt": "der Koffer / schwer", "solution": "Das ist ein schwerer Koffer.", "hint": "Nominativ maskulin: -er.", "explanation": "Im Nominativ Maskulin nach 'ein' endet das Adjektiv auf '-er'." },
           { "id": "l14h04", "type": "targeted-transformation", "instruction": "Beschreibe mit Adjektiv im Nominativ.", "prompt": "die Nachbarin / nett", "solution": "Das ist eine nette Nachbarin.", "hint": "Nominativ feminin: -e.", "explanation": "Im Nominativ Feminin nach 'eine' endet das Adjektiv auf '-e'." },
           { "id": "l14h05", "type": "targeted-transformation", "instruction": "Beschreibe mit Adjektiv im Akkusativ.", "prompt": "Ich trage den Koffer. (schwer)", "solution": "Ich trage den schweren Koffer.", "hint": "Akkusativ maskulin: -en.", "explanation": "Im Akkusativ Maskulin nach 'den' endet das Adjektiv auf '-en'." },
@@ -150,16 +150,16 @@
         ]
       },
       "test": [
-        { "id": "l14t01", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Kann ich dir ___?", "options": ["helfen", "hilfst", "hilft", "helft"], "solution": "helfen", "explanation": "Nach dem Modalverb 'kann' steht der Infinitiv 'helfen'." },
-        { "id": "l14t02", "type": "multiple-choice", "instruction": "Wähle die richtige Adjektivendung.", "prompt": "Das ist ein ___ Koffer. (schwer)", "options": ["schwerer", "schweres", "schwere", "schweren"], "solution": "schwerer", "explanation": "Im Nominativ Maskulin nach 'ein' endet das Adjektiv auf '-er'." },
-        { "id": "l14t03", "type": "multiple-choice", "instruction": "Wähle die richtige Adjektivendung.", "prompt": "Das ist eine ___ Nachbarin. (nett)", "options": ["nette", "netter", "nettes", "netten"], "solution": "nette", "explanation": "Im Nominativ Feminin nach 'eine' endet das Adjektiv auf '-e'." },
-        { "id": "l14t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Koffer", "options": ["der", "die", "das"], "solution": "der", "explanation": "'Koffer' ist maskulin: der Koffer." },
-        { "id": "l14t05", "type": "multiple-choice", "instruction": "Wähle die richtige Adjektivendung.", "prompt": "Ich trage den ___ Koffer. (schwer, Akkusativ)", "options": ["schweren", "schwerer", "schweres", "schwere"], "solution": "schweren", "explanation": "Im Akkusativ Maskulin nach 'den' endet das Adjektiv auf '-en'." },
-        { "id": "l14t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "biete", "dir", "meine", "Hilfe", "an"], "solution": "Ich biete dir meine Hilfe an.", "explanation": "Bei trennbaren Verben steht das Präfix 'an' am Satzende." },
-        { "id": "l14t07", "type": "cloze-conjugation", "instruction": "Bilde die richtige Adjektivform.", "prompt": "Ich trage einen ___ (schwer) Koffer.", "solution": "schweren", "explanation": "Im Akkusativ Maskulin nach 'einen' endet das Adjektiv auf '-en'." },
-        { "id": "l14t08", "type": "targeted-transformation", "instruction": "Beschreibe mit Adjektiv im Nominativ.", "prompt": "der Koffer / schwer", "solution": "Das ist ein schwerer Koffer.", "explanation": "Im Nominativ Maskulin nach 'ein' endet das Adjektiv auf '-er'." },
-        { "id": "l14t09", "type": "targeted-transformation", "instruction": "Beschreibe mit Adjektiv im Akkusativ.", "prompt": "Ich trage den Koffer. (schwer)", "solution": "Ich trage den schweren Koffer.", "explanation": "Im Akkusativ Maskulin nach 'den' endet das Adjektiv auf '-en'." },
-        { "id": "l14t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Das ist ein schwere Koffer.", "solution": "Das ist ein schwerer Koffer.", "explanation": "Im Nominativ Maskulin nach 'ein' muss das Adjektiv auf '-er' enden." }
+        { "id": "l14t01", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "___ du mir bitte den Koffer tragen?", "options": ["Hilfst", "Hilft", "Helfe", "Helfen"], "solution": "Hilfst", "explanation": "Die 'du'-Form von 'helfen' lautet 'hilfst' (Vokalwechsel e→i)." },
+        { "id": "l14t02", "type": "multiple-choice", "instruction": "Wähle die richtige Adjektivendung.", "prompt": "Das ist eine ___ Kollegin. (freundlich)", "options": ["freundliche", "freundlicher", "freundliches", "freundlichen"], "solution": "freundliche", "explanation": "Im Nominativ Feminin nach 'eine' endet das Adjektiv auf '-e'." },
+        { "id": "l14t03", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Nachbar", "options": ["der", "die", "das"], "solution": "der", "explanation": "'Nachbar' ist maskulin: der Nachbar." },
+        { "id": "l14t04", "type": "multiple-choice", "instruction": "Wähle die richtige Adjektivendung.", "prompt": "Ich habe einen ___ Nachbarn. (nett)", "options": ["netten", "netter", "nettes", "nette"], "solution": "netten", "explanation": "Im Akkusativ Maskulin nach 'einen' endet das Adjektiv auf '-en'." },
+        { "id": "l14t05", "type": "multiple-choice", "instruction": "Wähle die richtige Adjektivendung.", "prompt": "Das ist ein ___ Nachbar. (nett)", "options": ["netter", "nette", "nettes", "netten"], "solution": "netter", "explanation": "Im Nominativ Maskulin nach 'ein' endet das Adjektiv auf '-er'." },
+        { "id": "l14t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "bin", "dir", "sehr", "dankbar"], "solution": "Ich bin dir sehr dankbar.", "explanation": "Das konjugierte Verb steht an Position 2, das prädikative Adjektiv am Satzende." },
+        { "id": "l14t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Wir ___ (anbieten) unsere Hilfe.", "solution": "bieten", "explanation": "Die 'wir'-Form von 'anbieten' lautet 'bieten ... an'." },
+        { "id": "l14t08", "type": "targeted-transformation", "instruction": "Biete Hilfe an.", "prompt": "du / die Tasche tragen", "solution": "Kann ich dir die Tasche tragen?", "explanation": "Hilfe bietet man höflich mit 'Kann ich dir ... ?' an." },
+        { "id": "l14t09", "type": "targeted-transformation", "instruction": "Beschreibe mit Adjektiv im Nominativ.", "prompt": "die Kollegin / freundlich", "solution": "Das ist eine freundliche Kollegin.", "explanation": "Im Nominativ Feminin nach 'eine' endet das Adjektiv auf '-e'." },
+        { "id": "l14t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Das ist ein nette Nachbar.", "solution": "Das ist ein netter Nachbar.", "explanation": "Im Nominativ Maskulin nach 'ein' muss das Adjektiv auf '-er' enden." }
       ]
     },
     {
@@ -188,7 +188,7 @@
         { "id": "l15v13", "term": "ehrlich", "translation": "honesto", "partOfSpeech": "adjective", "example": "Sei ehrlich zu dir selbst." },
         { "id": "l15v14", "term": "der Erfolg", "translation": "el éxito", "partOfSpeech": "noun", "gender": "der", "plural": "die Erfolge", "example": "Ich wünsche dir viel Erfolg." },
         { "id": "l15v15", "term": "sich Mühe geben", "translation": "esforzarse", "partOfSpeech": "phrase", "example": "Gib dir Mühe!" },
-        { "id": "l15v16", "term": "aufgeben", "translation": "rendirse", "partOfSpeech": "verb", "example": "Gib nicht auf!" }
+        { "id": "l15v16", "term": "aufgeben", "translation": "rendirse", "partOfSpeech": "verb", "preterite": "gab auf", "participle": "aufgegeben", "auxiliary": "haben", "irregular": true, "example": "Gib nicht auf!" }
       ],
       "practice": {
         "easy": [
@@ -229,16 +229,16 @@
         ]
       },
       "test": [
-        { "id": "l15t01", "type": "multiple-choice", "instruction": "Wähle die richtige Adjektivendung.", "prompt": "Bei einem ___ Problem hilft ein guter Rat. (groß, Dativ)", "options": ["großen", "großer", "großes", "große"], "solution": "großen", "explanation": "Im Dativ endet das Adjektiv nach 'einem' auf '-en'." },
-        { "id": "l15t02", "type": "multiple-choice", "instruction": "Wähle die richtige Adjektivendung.", "prompt": "Mit einem ___ Plan schaffst du das. (gut, Dativ)", "options": ["guten", "guter", "gutes", "gute"], "solution": "guten", "explanation": "Im Dativ endet das Adjektiv nach 'einem' auf '-en'." },
-        { "id": "l15t03", "type": "multiple-choice", "instruction": "Wähle die richtige Form.", "prompt": "Sei ___! (mutig)", "options": ["mutig", "mutige", "mutiger", "mutiges"], "solution": "mutig", "explanation": "Ein prädikatives Adjektiv nach 'sein' bekommt keine Endung." },
-        { "id": "l15t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Rat", "options": ["der", "die", "das"], "solution": "der", "explanation": "'Rat' ist maskulin: der Rat." },
-        { "id": "l15t05", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Ich wünsche dir viel ___. (Erfolg)", "solution": "Erfolg", "explanation": "'Erfolg' bezeichnet ein positives, erfolgreiches Ergebnis." },
-        { "id": "l15t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Nach", "einem", "langen", "Tag", "brauche", "ich", "Ruhe"], "solution": "Nach einem langen Tag brauche ich Ruhe.", "explanation": "'nach' verlangt den Dativ; das Adjektiv endet nach 'einem' auf '-en'." },
-        { "id": "l15t07", "type": "cloze-conjugation", "instruction": "Bilde die richtige Adjektivform.", "prompt": "Mit einem ___ (gut) Freund ist alles leichter.", "solution": "guten", "explanation": "Im Dativ endet das Adjektiv nach 'einem' auf '-en'." },
-        { "id": "l15t08", "type": "targeted-transformation", "instruction": "Gib einen Rat mit 'bei' + Dativ.", "prompt": "ein großes Problem / ein guter Rat hilft", "solution": "Bei einem großen Problem hilft ein guter Rat.", "explanation": "'bei' verlangt den Dativ; das Adjektiv endet auf '-en'." },
-        { "id": "l15t09", "type": "targeted-transformation", "instruction": "Formuliere eine Aufforderung.", "prompt": "nicht aufgeben", "solution": "Gib nicht auf!", "explanation": "Im Imperativ steht das Präfix des trennbaren Verbs am Satzende." },
-        { "id": "l15t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Bei einem große Problem hilft ein guter Rat.", "solution": "Bei einem großen Problem hilft ein guter Rat.", "explanation": "Im Dativ muss das Adjektiv nach 'einem' auf '-en' enden." }
+        { "id": "l15t01", "type": "multiple-choice", "instruction": "Wähle die richtige Adjektivendung.", "prompt": "Bei einem ___ Fehler bleibt man ruhig. (klein, Dativ)", "options": ["kleinen", "kleiner", "kleines", "kleine"], "solution": "kleinen", "explanation": "Im Dativ endet das Adjektiv nach 'einem' auf '-en'." },
+        { "id": "l15t02", "type": "multiple-choice", "instruction": "Wähle die richtige Adjektivendung.", "prompt": "Mit einer ___ Lösung ist das Problem schnell gelöst. (einfach, Dativ)", "options": ["einfachen", "einfacher", "einfaches", "einfache"], "solution": "einfachen", "explanation": "Im Dativ endet das Adjektiv nach 'einer' ebenfalls auf '-en'." },
+        { "id": "l15t03", "type": "multiple-choice", "instruction": "Wähle die richtige Adjektivendung.", "prompt": "Nach einem ___ Erfolg feiert man gern. (groß, Dativ)", "options": ["großen", "großer", "großes", "große"], "solution": "großen", "explanation": "Im Dativ endet das Adjektiv nach 'einem' auf '-en'." },
+        { "id": "l15t04", "type": "multiple-choice", "instruction": "Wähle die richtige Form.", "prompt": "Sei ___ bei der Arbeit! (geduldig)", "options": ["geduldig", "geduldige", "geduldiger", "geduldiges"], "solution": "geduldig", "explanation": "Ein prädikatives Adjektiv nach 'sein' bekommt keine Endung." },
+        { "id": "l15t05", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Ich brauche einen guten ___. (Plan)", "solution": "Plan", "explanation": "'Plan' bezeichnet eine gute Vorbereitung für ein Ziel." },
+        { "id": "l15t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Bei", "einem", "großen", "Fehler", "sollte", "man", "ehrlich", "sein"], "solution": "Bei einem großen Fehler sollte man ehrlich sein.", "explanation": "'bei' verlangt den Dativ; das Adjektiv endet nach 'einem' auf '-en'." },
+        { "id": "l15t07", "type": "cloze-conjugation", "instruction": "Bilde die richtige Adjektivform.", "prompt": "Mit einem ___ (klug) Plan erreicht man viel.", "solution": "klugen", "explanation": "Im Dativ endet das Adjektiv nach 'einem' auf '-en'." },
+        { "id": "l15t08", "type": "targeted-transformation", "instruction": "Gib einen Rat mit 'nach' + Dativ.", "prompt": "ein großer Erfolg / man sollte feiern", "solution": "Nach einem großen Erfolg sollte man feiern.", "explanation": "'nach' verlangt den Dativ; das Adjektiv endet auf '-en'." },
+        { "id": "l15t09", "type": "targeted-transformation", "instruction": "Formuliere eine Aufforderung.", "prompt": "geduldig sein", "solution": "Sei geduldig!", "explanation": "Der Imperativ von 'sein' für 'du' lautet 'sei'." },
+        { "id": "l15t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Bei einem groß Problem braucht man Geduld.", "solution": "Bei einem großen Problem braucht man Geduld.", "explanation": "Im Dativ muss das Adjektiv nach 'einem' auf '-en' enden." }
       ]
     }
   ]
