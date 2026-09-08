@@ -18,18 +18,18 @@
       "vocabulary": [
         { "id": "l1v01", "term": "das Jubiläum", "translation": "el aniversario", "partOfSpeech": "noun", "gender": "das", "plural": "die Jubiläen", "example": "Antonio feiert das 60-jährige Jubiläum seines Eiscafés." },
         { "id": "l1v02", "term": "der Freund", "translation": "el amigo", "partOfSpeech": "noun", "gender": "der", "plural": "die Freunde", "example": "Er hat alle Freunde eingeladen." },
-        { "id": "l1v03", "term": "gewinnen", "translation": "ganar", "partOfSpeech": "verb", "example": "Wir haben den Wettbewerb gewonnen." },
-        { "id": "l1v04", "term": "verlieren", "translation": "perder", "partOfSpeech": "verb", "example": "Er hat sein Handy verloren." },
-        { "id": "l1v05", "term": "probieren", "translation": "probar", "partOfSpeech": "verb", "example": "Hast du das neue Eis schon probiert?" },
-        { "id": "l1v06", "term": "einladen", "translation": "invitar", "partOfSpeech": "verb", "example": "Wir haben alle Nachbarn eingeladen." },
-        { "id": "l1v07", "term": "stattfinden", "translation": "tener lugar", "partOfSpeech": "verb", "example": "Die Feier hat im Garten stattgefunden." },
-        { "id": "l1v08", "term": "verstehen", "translation": "entender", "partOfSpeech": "verb", "example": "Ich habe die Frage nicht verstanden." },
-        { "id": "l1v09", "term": "bekommen", "translation": "recibir", "partOfSpeech": "verb", "example": "Ich habe ein schönes Geschenk bekommen." },
-        { "id": "l1v10", "term": "besuchen", "translation": "visitar", "partOfSpeech": "verb", "example": "Wir haben unsere Großeltern besucht." },
-        { "id": "l1v11", "term": "funktionieren", "translation": "funcionar", "partOfSpeech": "verb", "example": "Die Kaffeemaschine hat nicht funktioniert." },
-        { "id": "l1v12", "term": "abholen", "translation": "recoger (a alguien)", "partOfSpeech": "verb", "example": "Er hat mich vom Bahnhof abgeholt." },
-        { "id": "l1v13", "term": "mitbringen", "translation": "traer", "partOfSpeech": "verb", "example": "Sie hat einen Kuchen mitgebracht." },
-        { "id": "l1v14", "term": "verpassen", "translation": "perder (un tren, una oportunidad)", "partOfSpeech": "verb", "example": "Ich habe den Bus verpasst." },
+        { "id": "l1v03", "term": "gewinnen", "translation": "ganar", "partOfSpeech": "verb", "preterite": "gewann", "participle": "gewonnen", "auxiliary": "haben", "irregular": true, "example": "Wir haben den Wettbewerb gewonnen." },
+        { "id": "l1v04", "term": "verlieren", "translation": "perder", "partOfSpeech": "verb", "preterite": "verlor", "participle": "verloren", "auxiliary": "haben", "irregular": true, "example": "Er hat sein Handy verloren." },
+        { "id": "l1v05", "term": "probieren", "translation": "probar", "partOfSpeech": "verb", "preterite": "probierte", "participle": "probiert", "auxiliary": "haben", "irregular": false, "example": "Hast du das neue Eis schon probiert?" },
+        { "id": "l1v06", "term": "einladen", "translation": "invitar", "partOfSpeech": "verb", "preterite": "lud ein", "participle": "eingeladen", "auxiliary": "haben", "irregular": true, "example": "Wir haben alle Nachbarn eingeladen." },
+        { "id": "l1v07", "term": "stattfinden", "translation": "tener lugar", "partOfSpeech": "verb", "preterite": "fand statt", "participle": "stattgefunden", "auxiliary": "haben", "irregular": true, "example": "Die Feier hat im Garten stattgefunden." },
+        { "id": "l1v08", "term": "verstehen", "translation": "entender", "partOfSpeech": "verb", "preterite": "verstand", "participle": "verstanden", "auxiliary": "haben", "irregular": true, "example": "Ich habe die Frage nicht verstanden." },
+        { "id": "l1v09", "term": "bekommen", "translation": "recibir", "partOfSpeech": "verb", "preterite": "bekam", "participle": "bekommen", "auxiliary": "haben", "irregular": true, "example": "Ich habe ein schönes Geschenk bekommen." },
+        { "id": "l1v10", "term": "besuchen", "translation": "visitar", "partOfSpeech": "verb", "preterite": "besuchte", "participle": "besucht", "auxiliary": "haben", "irregular": false, "example": "Wir haben unsere Großeltern besucht." },
+        { "id": "l1v11", "term": "funktionieren", "translation": "funcionar", "partOfSpeech": "verb", "preterite": "funktionierte", "participle": "funktioniert", "auxiliary": "haben", "irregular": false, "example": "Die Kaffeemaschine hat nicht funktioniert." },
+        { "id": "l1v12", "term": "abholen", "translation": "recoger (a alguien)", "partOfSpeech": "verb", "preterite": "holte ab", "participle": "abgeholt", "auxiliary": "haben", "irregular": false, "example": "Er hat mich vom Bahnhof abgeholt." },
+        { "id": "l1v13", "term": "mitbringen", "translation": "traer", "partOfSpeech": "verb", "preterite": "brachte mit", "participle": "mitgebracht", "auxiliary": "haben", "irregular": true, "example": "Sie hat einen Kuchen mitgebracht." },
+        { "id": "l1v14", "term": "verpassen", "translation": "perder (un tren, una oportunidad)", "partOfSpeech": "verb", "preterite": "verpasste", "participle": "verpasst", "auxiliary": "haben", "irregular": false, "example": "Ich habe den Bus verpasst." },
         { "id": "l1v15", "term": "die Nichte", "translation": "la sobrina", "partOfSpeech": "noun", "gender": "die", "plural": "die Nichten", "example": "Meine Nichte war auch auf der Feier." },
         { "id": "l1v16", "term": "vor einem Jahr", "translation": "hace un año", "partOfSpeech": "phrase", "example": "Vor einem Jahr habe ich hier angefangen." }
       ],
@@ -72,16 +72,16 @@
         ]
       },
       "test": [
-        { "id": "l1t01", "type": "multiple-choice", "instruction": "Wähle das richtige Partizip II.", "prompt": "Wir haben den Kuchen ___.", "options": ["probiert", "probieren", "probierte", "probierst"], "solution": "probiert", "explanation": "Regelmäßige Verben bilden das Partizip II mit ge-...-t." },
-        { "id": "l1t02", "type": "multiple-choice", "instruction": "Wähle das richtige Partizip II.", "prompt": "Sie hat einen Kuchen ___.", "options": ["mitgebracht", "gebracht", "mitbringt", "mitbrachte"], "solution": "mitgebracht", "explanation": "Das Partizip II von 'mitbringen' lautet 'mitgebracht'." },
-        { "id": "l1t03", "type": "fill-in-blank", "instruction": "Ergänze das Partizip II.", "prompt": "Ich habe die Antwort nicht ___. (verstehen)", "solution": "verstanden", "explanation": "Verben mit 'ver-' bilden das Partizip II ohne 'ge-': verstanden." },
-        { "id": "l1t04", "type": "fill-in-blank", "instruction": "Ergänze das Partizip II.", "prompt": "Wir haben unsere Nachbarn ___. (besuchen)", "solution": "besucht", "explanation": "Verben mit 'be-' bilden das Partizip II ohne 'ge-': besucht." },
-        { "id": "l1t05", "type": "multiple-choice", "instruction": "Wähle das richtige Partizip II.", "prompt": "Das Handy hat nicht ___.", "options": ["funktioniert", "gefunktioniert", "funktionierte", "funktionierten"], "solution": "funktioniert", "explanation": "Verben auf -ieren bekommen kein 'ge-'." },
-        { "id": "l1t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Er", "hat", "alle", "Freunde", "eingeladen"], "solution": "Er hat alle Freunde eingeladen.", "explanation": "Im Perfekt steht das Hilfsverb an Position 2, das Partizip II am Ende." },
-        { "id": "l1t07", "type": "cloze-conjugation", "instruction": "Bilde das Partizip II.", "prompt": "Ich habe den Zug ___. (verpassen)", "solution": "verpasst", "explanation": "Verben mit 'ver-' bilden das Partizip II ohne 'ge-': verpasst." },
-        { "id": "l1t08", "type": "targeted-transformation", "instruction": "Setze den Satz ins Perfekt.", "prompt": "Ich bekomme ein Geschenk.", "solution": "Ich habe ein Geschenk bekommen.", "explanation": "Verben mit 'be-' bilden das Partizip II ohne 'ge-': bekommen." },
-        { "id": "l1t09", "type": "targeted-transformation", "instruction": "Setze den Satz ins Perfekt.", "prompt": "Die Feier findet im Garten statt.", "solution": "Die Feier hat im Garten stattgefunden.", "explanation": "Das Partizip II von 'stattfinden' lautet 'stattgefunden'." },
-        { "id": "l1t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich habe die Frage nicht verstehen.", "solution": "Ich habe die Frage nicht verstanden.", "explanation": "Das korrekte Partizip II von 'verstehen' lautet 'verstanden'." }
+        { "id": "l1t01", "type": "multiple-choice", "instruction": "Wähle das richtige Partizip II.", "prompt": "Die Mannschaft hat das Spiel ___.", "options": ["gewonnen", "gewinnt", "gewinnen", "gewann"], "solution": "gewonnen", "explanation": "Das Partizip II von 'gewinnen' lautet 'gewonnen'." },
+        { "id": "l1t02", "type": "multiple-choice", "instruction": "Wähle das richtige Partizip II.", "prompt": "Mein Bruder hat sein Handy ___.", "options": ["verloren", "verliert", "verlieren", "verlor"], "solution": "verloren", "explanation": "Das Partizip II von 'verlieren' lautet 'verloren'." },
+        { "id": "l1t03", "type": "fill-in-blank", "instruction": "Ergänze das Partizip II.", "prompt": "Die Kinder haben ihre Tante ___. (besuchen)", "solution": "besucht", "explanation": "Verben mit 'be-' bilden das Partizip II ohne 'ge-': besucht." },
+        { "id": "l1t04", "type": "fill-in-blank", "instruction": "Ergänze das Partizip II.", "prompt": "Wir haben unseren Zug leider ___. (verpassen)", "solution": "verpasst", "explanation": "Verben mit 'ver-' bilden das Partizip II ohne 'ge-': verpasst." },
+        { "id": "l1t05", "type": "multiple-choice", "instruction": "Wähle das richtige Partizip II.", "prompt": "Der Drucker hat heute nicht ___.", "options": ["funktioniert", "gefunktioniert", "funktionierte", "funktionierten"], "solution": "funktioniert", "explanation": "Verben auf -ieren bekommen kein 'ge-'." },
+        { "id": "l1t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Die", "Studenten", "haben", "den", "Text", "nicht", "verstanden"], "solution": "Die Studenten haben den Text nicht verstanden.", "explanation": "Im Perfekt steht das Hilfsverb an Position 2, das Partizip II am Ende." },
+        { "id": "l1t07", "type": "cloze-conjugation", "instruction": "Bilde das Partizip II.", "prompt": "Die Firma hat viele Kunden zur Feier ___. (einladen)", "solution": "eingeladen", "explanation": "Bei trennbaren Verben steht 'ge' zwischen Vorsilbe und Stamm: ein-ge-laden." },
+        { "id": "l1t08", "type": "targeted-transformation", "instruction": "Setze den Satz ins Perfekt.", "prompt": "Meine Schwester bekommt eine Einladung.", "solution": "Meine Schwester hat eine Einladung bekommen.", "explanation": "Verben mit 'be-' bilden das Partizip II ohne 'ge-': bekommen." },
+        { "id": "l1t09", "type": "targeted-transformation", "instruction": "Setze den Satz ins Perfekt.", "prompt": "Das Konzert findet im Stadtpark statt.", "solution": "Das Konzert hat im Stadtpark stattgefunden.", "explanation": "Das Partizip II von 'stattfinden' lautet 'stattgefunden'." },
+        { "id": "l1t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Wir haben den Wettbewerb verlieren.", "solution": "Wir haben den Wettbewerb verloren.", "explanation": "Das korrekte Partizip II von 'verlieren' lautet 'verloren', nicht der Infinitiv 'verlieren'." }
       ]
     },
     {
@@ -98,8 +98,8 @@
         { "id": "l2v01", "term": "die Panne", "translation": "la avería", "partOfSpeech": "noun", "gender": "die", "plural": "die Pannen", "example": "Wir hatten eine Panne auf der Autobahn." },
         { "id": "l2v02", "term": "die Pannenhilfe", "translation": "la asistencia en carretera", "partOfSpeech": "noun", "gender": "die", "example": "Ich habe die Pannenhilfe angerufen." },
         { "id": "l2v03", "term": "die Werkstatt", "translation": "el taller", "partOfSpeech": "noun", "gender": "die", "plural": "die Werkstätten", "example": "Das Auto muss in die Werkstatt." },
-        { "id": "l2v04", "term": "reparieren", "translation": "reparar", "partOfSpeech": "verb", "example": "Der Mechaniker repariert das Auto." },
-        { "id": "l2v05", "term": "anrufen", "translation": "llamar (por teléfono)", "partOfSpeech": "verb", "example": "Ich habe die Werkstatt angerufen." },
+        { "id": "l2v04", "term": "reparieren", "translation": "reparar", "partOfSpeech": "verb", "preterite": "reparierte", "participle": "repariert", "auxiliary": "haben", "irregular": false, "example": "Der Mechaniker repariert das Auto." },
+        { "id": "l2v05", "term": "anrufen", "translation": "llamar (por teléfono)", "partOfSpeech": "verb", "preterite": "rief an", "participle": "angerufen", "auxiliary": "haben", "irregular": true, "example": "Ich habe die Werkstatt angerufen." },
         { "id": "l2v06", "term": "das Mietfahrrad", "translation": "la bicicleta de alquiler", "partOfSpeech": "noun", "gender": "das", "plural": "die Mietfahrräder", "example": "Ich habe mir ein Mietfahrrad genommen." },
         { "id": "l2v07", "term": "traurig", "translation": "triste", "partOfSpeech": "adjective", "example": "Ich war total traurig über die Panne." },
         { "id": "l2v08", "term": "die Idee", "translation": "la idea", "partOfSpeech": "noun", "gender": "die", "plural": "die Ideen", "example": "Ich hatte eine gute Idee." },
@@ -108,7 +108,7 @@
         { "id": "l2v11", "term": "weil", "translation": "porque", "partOfSpeech": "phrase", "example": "Ich rufe die Pannenhilfe an, weil das Auto nicht fährt." },
         { "id": "l2v12", "term": "leider", "translation": "desgraciadamente", "partOfSpeech": "adverb", "example": "Leider kann ich es nicht reparieren." },
         { "id": "l2v13", "term": "stehen bleiben", "translation": "quedarse parado (un vehículo)", "partOfSpeech": "phrase", "example": "Mein Wagen ist einfach stehen geblieben." },
-        { "id": "l2v14", "term": "helfen", "translation": "ayudar", "partOfSpeech": "verb", "example": "Der Pannenhelfer hat mir schnell geholfen." },
+        { "id": "l2v14", "term": "helfen", "translation": "ayudar", "partOfSpeech": "verb", "preterite": "half", "participle": "geholfen", "auxiliary": "haben", "irregular": true, "example": "Der Pannenhelfer hat mir schnell geholfen." },
         { "id": "l2v15", "term": "das Glück", "translation": "la suerte", "partOfSpeech": "noun", "gender": "das", "example": "Ich hatte Glück: Der Helfer war schnell da." },
         { "id": "l2v16", "term": "kaputt", "translation": "roto / averiado", "partOfSpeech": "adjective", "example": "Der Reifen ist kaputt." }
       ],
@@ -151,16 +151,16 @@
         ]
       },
       "test": [
-        { "id": "l2t01", "type": "multiple-choice", "instruction": "Wähle den passenden Konnektor.", "prompt": "Ich rufe die Werkstatt an, ___ ich Hilfe brauche.", "options": ["weil", "dass", "wenn", "ob"], "solution": "weil", "explanation": "'weil' leitet den Grund-Nebensatz ein." },
-        { "id": "l2t02", "type": "fill-in-blank", "instruction": "Ergänze den Konnektor.", "prompt": "Wir haben eine Panne, ___ der Reifen kaputt ist.", "solution": "weil", "explanation": "'weil' nennt den Grund für die Panne." },
-        { "id": "l2t03", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Batterie", "options": ["der", "die", "das"], "solution": "die", "explanation": "'Batterie' ist feminin: die Batterie." },
-        { "id": "l2t04", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Der Mechaniker ___ das Auto.", "options": ["repariert", "reparierte", "reparieren", "reparierst"], "solution": "repariert", "explanation": "Die 'er'-Form von 'reparieren' lautet 'repariert'." },
-        { "id": "l2t05", "type": "fill-in-blank", "instruction": "Ergänze das Partizip II.", "prompt": "Ich habe die Pannenhilfe ___. (anrufen)", "solution": "angerufen", "explanation": "Das Partizip II von 'anrufen' lautet 'angerufen'." },
-        { "id": "l2t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Der", "Pannenhelfer", "hat", "mir", "schnell", "geholfen"], "solution": "Der Pannenhelfer hat mir schnell geholfen.", "explanation": "Im Hauptsatz steht das konjugierte Verb an Position 2." },
-        { "id": "l2t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb im weil-Satz.", "prompt": "Ich nehme ein Mietfahrrad, weil mein Auto nicht ___. (fahren)", "solution": "fährt", "explanation": "Im weil-Satz steht das konjugierte Verb am Ende." },
-        { "id": "l2t08", "type": "targeted-transformation", "instruction": "Verbinde die Sätze mit 'weil'.", "prompt": "Ich brauche Hilfe. Ich rufe die Werkstatt an.", "solution": "Ich rufe die Werkstatt an, weil ich Hilfe brauche.", "explanation": "'weil' leitet den Grund ein; das Verb steht im Nebensatz am Ende." },
-        { "id": "l2t09", "type": "targeted-transformation", "instruction": "Verbinde die Sätze mit 'weil'.", "prompt": "Ich hatte Glück. Der Helfer war schnell da.", "solution": "Ich hatte Glück, weil der Helfer schnell da war.", "explanation": "'weil' leitet den Grund ein; das Verb steht im Nebensatz am Ende." },
-        { "id": "l2t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich bin traurig, weil ist das Auto kaputt.", "solution": "Ich bin traurig, weil das Auto kaputt ist.", "explanation": "Im weil-Satz steht das konjugierte Verb am Ende: ...kaputt ist." }
+        { "id": "l2t01", "type": "multiple-choice", "instruction": "Wähle den passenden Konnektor.", "prompt": "Ich rufe meinen Nachbarn an, ___ mein Auto stehen geblieben ist.", "options": ["weil", "dass", "wenn", "ob"], "solution": "weil", "explanation": "'weil' leitet den Grund-Nebensatz ein." },
+        { "id": "l2t02", "type": "fill-in-blank", "instruction": "Ergänze den Konnektor.", "prompt": "Ich bin froh, ___ die Werkstatt so schnell war.", "solution": "weil", "explanation": "'weil' nennt den Grund für die Freude." },
+        { "id": "l2t03", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Idee", "options": ["der", "die", "das"], "solution": "die", "explanation": "'Idee' ist feminin: die Idee." },
+        { "id": "l2t04", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Meine Nachbarin ___ das Fahrrad.", "options": ["repariert", "reparierte", "reparieren", "reparierst"], "solution": "repariert", "explanation": "Die 'sie'-Form von 'reparieren' lautet 'repariert'." },
+        { "id": "l2t05", "type": "fill-in-blank", "instruction": "Ergänze das Partizip II.", "prompt": "Er hat die Werkstatt gestern ___. (anrufen)", "solution": "angerufen", "explanation": "Das Partizip II von 'anrufen' lautet 'angerufen'." },
+        { "id": "l2t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Meine", "Schwester", "hat", "mir", "sofort", "geholfen"], "solution": "Meine Schwester hat mir sofort geholfen.", "explanation": "Im Hauptsatz steht das konjugierte Verb an Position 2." },
+        { "id": "l2t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb im weil-Satz.", "prompt": "Ich rufe die Werkstatt an, weil die Batterie leer ___. (sein)", "solution": "ist", "explanation": "Im weil-Satz steht das konjugierte Verb am Ende." },
+        { "id": "l2t08", "type": "targeted-transformation", "instruction": "Verbinde die Sätze mit 'weil'.", "prompt": "Der Reifen ist kaputt. Ich brauche die Pannenhilfe.", "solution": "Ich brauche die Pannenhilfe, weil der Reifen kaputt ist.", "explanation": "'weil' leitet den Grund ein; das Verb steht im Nebensatz am Ende." },
+        { "id": "l2t09", "type": "targeted-transformation", "instruction": "Verbinde die Sätze mit 'weil'.", "prompt": "Ich habe eine gute Idee. Ich bin froh.", "solution": "Ich bin froh, weil ich eine gute Idee habe.", "explanation": "'weil' leitet den Grund ein; das Verb steht im Nebensatz am Ende." },
+        { "id": "l2t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich rufe die Werkstatt an, weil ist die Batterie leer.", "solution": "Ich rufe die Werkstatt an, weil die Batterie leer ist.", "explanation": "Im weil-Satz steht das konjugierte Verb am Ende: ...leer ist." }
       ]
     },
     {
@@ -175,11 +175,11 @@
       ],
       "vocabulary": [
         { "id": "l3v01", "term": "der Umzug", "translation": "la mudanza", "partOfSpeech": "noun", "gender": "der", "plural": "die Umzüge", "example": "Der Umzug nach Hamburg war anstrengend." },
-        { "id": "l3v02", "term": "umziehen", "translation": "mudarse", "partOfSpeech": "verb", "example": "Wir ziehen nächste Woche um." },
+        { "id": "l3v02", "term": "umziehen", "translation": "mudarse", "partOfSpeech": "verb", "preterite": "zog um", "participle": "umgezogen", "auxiliary": "sein", "irregular": true, "example": "Wir ziehen nächste Woche um." },
         { "id": "l3v03", "term": "möbliert", "translation": "amueblado", "partOfSpeech": "adjective", "example": "Die Wohnung ist möbliert." },
         { "id": "l3v04", "term": "gemütlich", "translation": "acogedor", "partOfSpeech": "adjective", "example": "Unsere neue Wohnung ist sehr gemütlich." },
         { "id": "l3v05", "term": "der Nachbar", "translation": "el vecino", "partOfSpeech": "noun", "gender": "der", "plural": "die Nachbarn", "example": "Unsere Nachbarn sind sehr freundlich." },
-        { "id": "l3v06", "term": "vermissen", "translation": "echar de menos", "partOfSpeech": "verb", "example": "Ich vermisse meine alte Stadt." },
+        { "id": "l3v06", "term": "vermissen", "translation": "echar de menos", "partOfSpeech": "verb", "preterite": "vermisste", "participle": "vermisst", "auxiliary": "haben", "irregular": false, "example": "Ich vermisse meine alte Stadt." },
         { "id": "l3v07", "term": "das Zimmer", "translation": "la habitación", "partOfSpeech": "noun", "gender": "das", "plural": "die Zimmer", "example": "Unser Zimmer ist groß." },
         { "id": "l3v08", "term": "der Garten", "translation": "el jardín", "partOfSpeech": "noun", "gender": "der", "plural": "die Gärten", "example": "Ihr Garten ist wunderschön." },
         { "id": "l3v09", "term": "die Wohnung", "translation": "el apartamento", "partOfSpeech": "noun", "gender": "die", "plural": "die Wohnungen", "example": "Eure Wohnung liegt zentral." },
@@ -188,7 +188,7 @@
         { "id": "l3v12", "term": "ihr", "translation": "su (de ellos/ellas)", "partOfSpeech": "phrase", "example": "Das ist ihre Küche." },
         { "id": "l3v13", "term": "der Norden", "translation": "el norte", "partOfSpeech": "noun", "gender": "der", "example": "Hamburg liegt im Norden von Deutschland." },
         { "id": "l3v14", "term": "der Süden", "translation": "el sur", "partOfSpeech": "noun", "gender": "der", "example": "Freiburg liegt im Süden von Deutschland." },
-        { "id": "l3v15", "term": "liegen", "translation": "estar situado", "partOfSpeech": "verb", "example": "Die Stadt liegt im Westen." },
+        { "id": "l3v15", "term": "liegen", "translation": "estar situado", "partOfSpeech": "verb", "preterite": "lag", "participle": "gelegen", "auxiliary": "haben", "irregular": true, "example": "Die Stadt liegt im Westen." },
         { "id": "l3v16", "term": "die Miete", "translation": "el alquiler", "partOfSpeech": "noun", "gender": "die", "plural": "die Mieten", "example": "Die Miete ist hier günstig." }
       ],
       "practice": {
@@ -226,20 +226,20 @@
           { "id": "l3h07", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Das ist unser Wohnung.", "solution": "Das ist unsere Wohnung.", "hint": "'Wohnung' ist feminin.", "explanation": "Vor femininen Nomen im Nominativ steht 'unsere', nicht 'unser'." },
           { "id": "l3h08", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ist das eure Balkon?", "solution": "Ist das euer Balkon?", "hint": "'Balkon' ist maskulin.", "explanation": "Vor maskulinen Nomen im Nominativ steht 'euer' ohne Endung, nicht 'eure'." },
           { "id": "l3h09", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Das ist ihr Küche.", "solution": "Das ist ihre Küche.", "hint": "'Küche' ist feminin.", "explanation": "Vor femininen Nomen im Nominativ steht 'ihre', nicht 'ihr'." },
-          { "id": "l3h10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Unsere Zimmer ist groß.", "solution": "Unser Zimmer ist groß.", "hint": "'Zimmer' ist neutral.", "explanation": "Vor neutralen Nomen im Nominativ steht 'unser' ohne Endung, nicht 'unsere'." }
+          { "id": "l3h10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Unsere Haus ist groß.", "solution": "Unser Haus ist groß.", "hint": "'Haus' ist neutral.", "explanation": "Vor neutralen Nomen im Nominativ steht 'unser' ohne Endung, nicht 'unsere'." }
         ]
       },
       "test": [
-        { "id": "l3t01", "type": "multiple-choice", "instruction": "Wähle den richtigen Possessivartikel.", "prompt": "Das ist ___ Wohnung. (wir)", "options": ["unsere", "unser", "unseren", "unserem"], "solution": "unsere", "explanation": "Vor femininen Nomen im Nominativ steht 'unsere'." },
-        { "id": "l3t02", "type": "multiple-choice", "instruction": "Wähle den richtigen Possessivartikel.", "prompt": "Ist das ___ Garten? (ihr = vosotros)", "options": ["euer", "eure", "euren", "eurem"], "solution": "euer", "explanation": "Vor maskulinen Nomen im Nominativ steht 'euer' ohne Endung." },
-        { "id": "l3t03", "type": "multiple-choice", "instruction": "Wähle den richtigen Possessivartikel.", "prompt": "Das ist ___ Küche. (sie = ellos)", "options": ["ihre", "ihr", "ihren", "ihrem"], "solution": "ihre", "explanation": "Vor femininen Nomen im Nominativ steht 'ihre'." },
-        { "id": "l3t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Miete", "options": ["der", "die", "das"], "solution": "die", "explanation": "'Miete' ist feminin: die Miete." },
-        { "id": "l3t05", "type": "fill-in-blank", "instruction": "Ergänze das Verb.", "prompt": "Wir ___ nächste Woche um. (umziehen)", "solution": "ziehen", "explanation": "Die 'wir'-Form von 'umziehen' lautet 'ziehen ... um'." },
-        { "id": "l3t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Eure", "Wohnung", "liegt", "zentral"], "solution": "Eure Wohnung liegt zentral.", "explanation": "Das konjugierte Verb steht an Position 2." },
-        { "id": "l3t07", "type": "cloze-conjugation", "instruction": "Ergänze den passenden Possessivartikel.", "prompt": "Das ist ___ (wir) Garten.", "solution": "unser", "explanation": "Vor maskulinen Nomen im Nominativ steht 'unser' ohne Endung." },
-        { "id": "l3t08", "type": "targeted-transformation", "instruction": "Sag es mit einem Possessivartikel.", "prompt": "Der Balkon gehört euch.", "solution": "Das ist euer Balkon.", "explanation": "Was 'euch' gehört, wird mit 'euer/eure' ausgedrückt." },
-        { "id": "l3t09", "type": "targeted-transformation", "instruction": "Bilde die passende Frage.", "prompt": "Lukas wohnt jetzt in Freiburg. (Frage nach dem Wohnort)", "solution": "Wo wohnt Lukas jetzt?", "explanation": "'Wo' fragt nach dem Ort." },
-        { "id": "l3t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Das ist ihr Küche.", "solution": "Das ist ihre Küche.", "explanation": "Vor femininen Nomen im Nominativ steht 'ihre', nicht 'ihr'." }
+        { "id": "l3t01", "type": "multiple-choice", "instruction": "Wähle den richtigen Possessivartikel.", "prompt": "Ist das ___ Miete? (wir)", "options": ["unsere", "unser", "unseren", "unserem"], "solution": "unsere", "explanation": "Vor femininen Nomen im Nominativ steht 'unsere'." },
+        { "id": "l3t02", "type": "multiple-choice", "instruction": "Wähle den richtigen Possessivartikel.", "prompt": "Ist das ___ Nachbar? (ihr = vosotros)", "options": ["euer", "eure", "euren", "eurem"], "solution": "euer", "explanation": "Vor maskulinen Nomen im Nominativ steht 'euer' ohne Endung." },
+        { "id": "l3t03", "type": "multiple-choice", "instruction": "Wähle den richtigen Possessivartikel.", "prompt": "Das ist ___ Wohnung. (sie = ellos)", "options": ["ihre", "ihr", "ihren", "ihrem"], "solution": "ihre", "explanation": "Vor femininen Nomen im Nominativ steht 'ihre'." },
+        { "id": "l3t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Umzug", "options": ["der", "die", "das"], "solution": "der", "explanation": "'Umzug' ist maskulin: der Umzug." },
+        { "id": "l3t05", "type": "fill-in-blank", "instruction": "Ergänze das Verb.", "prompt": "Er ___ nächsten Monat um. (umziehen)", "solution": "zieht", "explanation": "Die 'er'-Form von 'umziehen' lautet 'zieht ... um'." },
+        { "id": "l3t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Unser", "Nachbar", "ist", "sehr", "freundlich"], "solution": "Unser Nachbar ist sehr freundlich.", "explanation": "Das konjugierte Verb steht an Position 2." },
+        { "id": "l3t07", "type": "cloze-conjugation", "instruction": "Ergänze den passenden Possessivartikel.", "prompt": "Wie groß ist ___ (wir) Zimmer?", "solution": "unser", "explanation": "Vor neutralen Nomen im Nominativ steht 'unser' ohne Endung." },
+        { "id": "l3t08", "type": "targeted-transformation", "instruction": "Sag es mit einem Possessivartikel.", "prompt": "Der Garten gehört uns.", "solution": "Das ist unser Garten.", "explanation": "Was 'uns' gehört, wird mit 'unser/unsere' ausgedrückt: unser Garten." },
+        { "id": "l3t09", "type": "targeted-transformation", "instruction": "Bilde die passende Frage.", "prompt": "Paul zieht im Sommer um. (Frage nach dem Zeitpunkt)", "solution": "Wann zieht Paul um?", "explanation": "'Wann' fragt nach einem Zeitpunkt." },
+        { "id": "l3t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Das ist ihr Miete.", "solution": "Das ist ihre Miete.", "explanation": "Vor femininen Nomen im Nominativ steht 'ihre', nicht 'ihr'." }
       ]
     }
   ]
