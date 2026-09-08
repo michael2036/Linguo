@@ -502,11 +502,10 @@ all at once — alongside the existing translation item, reusing the
 `multiple-choice`/`fill-in-blank` exercise shapes rather than introducing
 new ones.
 
-As of this revision, B1's vocabulary (8 Moduln, 24 Lektionen) carries the
-full profile; A1/A2 do not yet and are unaffected (the new fields are
-optional, so existing content simply doesn't generate the extra quiz item
-types until backfilled). Backfilling the remaining two levels is expected
-to happen incrementally, the same rollout philosophy as §9.4.
+As of this revision, all three levels' vocabulary (A1, A2, B1 — 24 Moduln,
+72 Lektionen total) carries the full profile; the fields remain optional in
+the schema so a future new level works fine without them, it just won't
+generate the extra quiz item types until backfilled.
 
 ### 10.2 Student simulation in the Pedagogical Critic
 

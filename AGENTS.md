@@ -121,9 +121,10 @@ prompt, see `vocabQuiz.ts`'s gender-quiz item for the pattern), and verbs get
 `preterite` (3rd-person Präteritum), `participle` (Partizip II *alone*,
 without its auxiliary), `auxiliary` (`'haben' | 'sein'`), and `irregular`.
 All four verb fields and `plural` are optional — omitted for content that
-hasn't been backfilled yet (only B1's vocabulary carries the full profile as
-of this writing; A1/A2 are unaffected and still work, they just don't
-generate the extra quiz item types below). `VocabFlashcards.tsx` renders the
+hasn't been backfilled yet (all three levels' vocabulary carries the full
+profile as of this writing; a future new level would work fine without it,
+it just wouldn't generate the extra quiz item types below).
+`VocabFlashcards.tsx` renders the
 principal-parts row when present; `vocabQuiz.ts`'s `buildVocabQuizItems`
 generates one bonus graded item per eligible word (article, plural,
 Präteritum, Partizip II, or auxiliary — chosen at random, not all at once,

@@ -82,16 +82,14 @@ Modul, 24 per level).
 
 | Level | Moduln authored | Vocabulary linguistic profiles |
 |---|---|---|
-| A1 | 8 / 8 ✅ | not yet backfilled |
-| A2 | 8 / 8 ✅ | not yet backfilled |
+| A1 | 8 / 8 ✅ | ✅ full noun/verb profiles |
+| A2 | 8 / 8 ✅ | ✅ full noun/verb profiles |
 | B1 | 8 / 8 ✅ | ✅ full noun/verb profiles |
 
 Modul packs live at `public/data/<level>/modul-<N>.json` and must validate
 against [`public/schemas/modul-schema.json`](public/schemas/modul-schema.json).
 "Vocabulary linguistic profiles" means the richer per-word data (noun
-plural, verb principal parts) described in [PRD §10](PRD.md#10-v1-revision-vocabulary-linguistic-profiles--student-simulation)
-— those fields are optional, so A1/A2 work normally today and just don't
-generate the extra grammar quiz items until backfilled.
+plural, verb principal parts) described in [PRD §10](PRD.md#10-v1-revision-vocabulary-linguistic-profiles--student-simulation).
 
 ## Content authoring
 
@@ -148,10 +146,9 @@ Service URL — the app ships both as real pages once deployed:
 
 ## Contributing
 
-Contributions are welcome, especially backfilling A1/A2 vocabulary with the
-noun/verb linguistic profiles B1 already has (see [Curriculum
-coverage](#curriculum-coverage) and [Content authoring](#content-authoring)).
-Please open an issue or PR — for anything content-related, follow the
-`.agents/pipeline.md` workflow, including its blind-solve student-simulation
-audit step, so exercises stay copyright-safe, unambiguous, and consistent
-with the existing schema.
+Contributions are welcome, especially new C1/C2 curriculum content (see
+[Curriculum coverage](#curriculum-coverage) and [Content
+authoring](#content-authoring)). Please open an issue or PR — for anything
+content-related, follow the `.agents/pipeline.md` workflow, including its
+blind-solve student-simulation audit step, so exercises stay copyright-safe,
+unambiguous, and consistent with the existing schema.
