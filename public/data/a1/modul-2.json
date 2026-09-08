@@ -27,8 +27,8 @@
         { "id": "l4v10", "term": "die Wohnung", "translation": "el apartamento", "partOfSpeech": "noun", "gender": "die", "plural": "die Wohnungen", "example": "Meine Wohnung ist klein." },
         { "id": "l4v11", "term": "teuer", "translation": "caro", "partOfSpeech": "adjective", "example": "Das Sofa ist teuer." },
         { "id": "l4v12", "term": "günstig", "translation": "económico", "partOfSpeech": "adjective", "example": "Der Stuhl ist günstig." },
-        { "id": "l4v13", "term": "brauchen", "translation": "necesitar", "partOfSpeech": "verb", "example": "Ich brauche einen Schrank." },
-        { "id": "l4v14", "term": "haben", "translation": "tener", "partOfSpeech": "verb", "example": "Ich habe eine Lampe." },
+        { "id": "l4v13", "term": "brauchen", "translation": "necesitar", "partOfSpeech": "verb", "preterite": "brauchte", "participle": "gebraucht", "auxiliary": "haben", "irregular": false, "example": "Ich brauche einen Schrank." },
+        { "id": "l4v14", "term": "haben", "translation": "tener", "partOfSpeech": "verb", "preterite": "hatte", "participle": "gehabt", "auxiliary": "haben", "irregular": true, "example": "Ich habe eine Lampe." },
         { "id": "l4v15", "term": "das Möbelgeschäft", "translation": "la tienda de muebles", "partOfSpeech": "noun", "gender": "das", "plural": "die Möbelgeschäfte", "example": "Ich kaufe im Möbelgeschäft ein." },
         { "id": "l4v16", "term": "der Bildschirm", "translation": "la pantalla", "partOfSpeech": "noun", "gender": "der", "plural": "die Bildschirme", "example": "Ich brauche einen Bildschirm." }
       ],
@@ -71,16 +71,16 @@
         ]
       },
       "test": [
-        { "id": "l4t01", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Tisch ist braun.", "options": ["Der", "Die", "Das", "Den"], "solution": "Der", "explanation": "'Tisch' ist maskulin: der Tisch." },
-        { "id": "l4t02", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel (Akkusativ).", "prompt": "Ich brauche ___ Stuhl.", "options": ["einen", "ein", "eine", "einem"], "solution": "einen", "explanation": "Im Akkusativ Maskulin heißt der unbestimmte Artikel 'einen'." },
-        { "id": "l4t03", "type": "fill-in-blank", "instruction": "Ergänze das Verb.", "prompt": "Ich ___ eine Lampe. (haben)", "solution": "habe", "explanation": "Die 'ich'-Form von 'haben' lautet 'habe'." },
-        { "id": "l4t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Sofa", "options": ["der", "die", "das"], "solution": "das", "explanation": "'Sofa' ist neutral: das Sofa." },
-        { "id": "l4t05", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Der Stuhl kostet nur 10 Euro. Er ist ___.", "options": ["günstig", "teuer", "bequem", "hell"], "solution": "günstig", "explanation": "'günstig' bedeutet, dass etwas wenig kostet." },
-        { "id": "l4t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Meine", "Wohnung", "ist", "klein"], "solution": "Meine Wohnung ist klein.", "explanation": "Das konjugierte Verb steht an Position 2." },
-        { "id": "l4t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Er ___ (brauchen) einen Teppich.", "solution": "braucht", "explanation": "Die 'er'-Form von 'brauchen' lautet 'braucht'." },
-        { "id": "l4t08", "type": "targeted-transformation", "instruction": "Sage, dass du ein Sofa brauchst.", "prompt": "ein Sofa / brauchen", "solution": "Ich brauche ein Sofa.", "explanation": "Nach 'brauchen' steht das Objekt im Akkusativ: ein Sofa." },
-        { "id": "l4t09", "type": "targeted-transformation", "instruction": "Sage, dass die Lampe hell ist.", "prompt": "die Lampe / hell", "solution": "Die Lampe ist hell.", "explanation": "Das konjugierte Verb steht an Position 2." },
-        { "id": "l4t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich habe einen Lampe.", "solution": "Ich habe eine Lampe.", "explanation": "'Lampe' ist feminin; im Akkusativ muss es 'eine Lampe' heißen." }
+        { "id": "l4t01", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Schrank ist groß.", "options": ["Der", "Die", "Das", "Den"], "solution": "Der", "explanation": "'Schrank' ist maskulin: der Schrank." },
+        { "id": "l4t02", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel (Akkusativ).", "prompt": "Ich brauche ___ Teppich.", "options": ["einen", "ein", "eine", "einem"], "solution": "einen", "explanation": "'Teppich' ist maskulin; im Akkusativ heißt der unbestimmte Artikel 'einen'." },
+        { "id": "l4t03", "type": "fill-in-blank", "instruction": "Ergänze das Verb.", "prompt": "Ich ___ ein Regal. (haben)", "solution": "habe", "explanation": "Die 'ich'-Form von 'haben' lautet 'habe'." },
+        { "id": "l4t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Regal ist voll.", "options": ["Das", "Der", "Die", "Den"], "solution": "Das", "explanation": "'Regal' ist neutral: das Regal." },
+        { "id": "l4t05", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Das Sofa kostet 900 Euro. Es ist ___.", "options": ["teuer", "günstig", "bequem", "hell"], "solution": "teuer", "explanation": "'teuer' bedeutet, dass etwas viel kostet." },
+        { "id": "l4t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Mein", "Sessel", "ist", "sehr", "bequem"], "solution": "Mein Sessel ist sehr bequem.", "explanation": "Das konjugierte Verb steht an Position 2." },
+        { "id": "l4t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Ihr ___ (brauchen) einen Tisch.", "solution": "braucht", "explanation": "Die 'ihr'-Form von 'brauchen' lautet 'braucht'." },
+        { "id": "l4t08", "type": "targeted-transformation", "instruction": "Sage, dass du ein Regal brauchst.", "prompt": "ein Regal / brauchen", "solution": "Ich brauche ein Regal.", "explanation": "'Regal' ist neutral; im Akkusativ heißt es 'ein Regal'." },
+        { "id": "l4t09", "type": "targeted-transformation", "instruction": "Sage, dass der Teppich rot ist.", "prompt": "der Teppich / rot", "solution": "Der Teppich ist rot.", "explanation": "Das konjugierte Verb steht an Position 2." },
+        { "id": "l4t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich brauche ein Schrank.", "solution": "Ich brauche einen Schrank.", "explanation": "'Schrank' ist maskulin; im Akkusativ muss es 'einen Schrank' heißen." }
       ]
     },
     {
@@ -106,8 +106,8 @@
         { "id": "l5v10", "term": "grün", "translation": "verde", "partOfSpeech": "adjective", "example": "Das Glas ist grün." },
         { "id": "l5v11", "term": "rot", "translation": "rojo", "partOfSpeech": "adjective", "example": "Das Auto ist rot." },
         { "id": "l5v12", "term": "das Glas", "translation": "el vaso", "partOfSpeech": "noun", "gender": "das", "plural": "die Gläser", "example": "Das Glas ist blau." },
-        { "id": "l5v13", "term": "kaufen", "translation": "comprar", "partOfSpeech": "verb", "example": "Ich kaufe ein Handy." },
-        { "id": "l5v14", "term": "kosten", "translation": "costar", "partOfSpeech": "verb", "example": "Was kostet die Uhr?" },
+        { "id": "l5v13", "term": "kaufen", "translation": "comprar", "partOfSpeech": "verb", "preterite": "kaufte", "participle": "gekauft", "auxiliary": "haben", "irregular": false, "example": "Ich kaufe ein Handy." },
+        { "id": "l5v14", "term": "kosten", "translation": "costar", "partOfSpeech": "verb", "preterite": "kostete", "participle": "gekostet", "auxiliary": "haben", "irregular": false, "example": "Was kostet die Uhr?" },
         { "id": "l5v15", "term": "noch einmal", "translation": "de nuevo", "partOfSpeech": "phrase", "example": "Wie bitte? Noch einmal, bitte." },
         { "id": "l5v16", "term": "danke schön", "translation": "muchas gracias", "partOfSpeech": "phrase", "example": "Danke schön! Bitte sehr." }
       ],
@@ -150,16 +150,16 @@
         ]
       },
       "test": [
-        { "id": "l5t01", "type": "multiple-choice", "instruction": "Wähle die richtige Verneinung.", "prompt": "Ich habe ___ Auto.", "options": ["kein", "keinen", "keine", "keiner"], "solution": "kein", "explanation": "'Auto' ist neutral; die Verneinung im Akkusativ lautet 'kein'." },
-        { "id": "l5t02", "type": "multiple-choice", "instruction": "Wähle die richtige Verneinung.", "prompt": "Ich habe ___ Schlüssel.", "options": ["keinen", "kein", "keine", "keiner"], "solution": "keinen", "explanation": "'Schlüssel' ist maskulin; die Verneinung im Akkusativ lautet 'keinen'." },
-        { "id": "l5t03", "type": "fill-in-blank", "instruction": "Ergänze das Verb.", "prompt": "Was ___ die Uhr? (kosten)", "solution": "kostet", "explanation": "Die 'sie'-Form von 'kosten' lautet 'kostet'." },
-        { "id": "l5t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Uhr", "options": ["der", "die", "das"], "solution": "die", "explanation": "'Uhr' ist feminin: die Uhr." },
-        { "id": "l5t05", "type": "multiple-choice", "instruction": "Wähle die passende Farbe.", "prompt": "Das Auto ist ___.", "options": ["rot", "blau", "grün", "gelb"], "solution": "rot", "explanation": "'rot' ist eine Farbe." },
-        { "id": "l5t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "brauche", "ein", "Handy"], "solution": "Ich brauche ein Handy.", "explanation": "'Handy' ist neutral; im Akkusativ heißt es 'ein Handy'." },
-        { "id": "l5t07", "type": "cloze-conjugation", "instruction": "Ergänze die Verneinung.", "prompt": "Ich habe ___ (kein, Akkusativ maskulin) Schirm.", "solution": "keinen", "explanation": "'Schirm' ist maskulin; die Verneinung im Akkusativ lautet 'keinen'." },
-        { "id": "l5t08", "type": "targeted-transformation", "instruction": "Sage, dass du keinen Schlüssel hast.", "prompt": "keinen Schlüssel / haben", "solution": "Ich habe keinen Schlüssel.", "explanation": "'Schlüssel' ist maskulin; die Verneinung im Akkusativ lautet 'keinen'." },
-        { "id": "l5t09", "type": "targeted-transformation", "instruction": "Frage nach dem Preis der Uhr.", "prompt": "die Uhr / kosten", "solution": "Was kostet die Uhr?", "explanation": "'Was kostet ...?' fragt nach dem Preis." },
-        { "id": "l5t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich habe kein Schlüssel.", "solution": "Ich habe keinen Schlüssel.", "explanation": "'Schlüssel' ist maskulin; die Verneinung im Akkusativ lautet 'keinen'." }
+        { "id": "l5t01", "type": "multiple-choice", "instruction": "Wähle die richtige Verneinung.", "prompt": "Ich habe ___ Feuerzeug.", "options": ["kein", "keinen", "keine", "keiner"], "solution": "kein", "explanation": "'Feuerzeug' ist neutral; die Verneinung im Akkusativ lautet 'kein'." },
+        { "id": "l5t02", "type": "multiple-choice", "instruction": "Wähle die richtige Verneinung.", "prompt": "Ich habe ___ Geldbeutel.", "options": ["keinen", "kein", "keine", "keiner"], "solution": "keinen", "explanation": "'Geldbeutel' ist maskulin; die Verneinung im Akkusativ lautet 'keinen'." },
+        { "id": "l5t03", "type": "fill-in-blank", "instruction": "Ergänze das Verb.", "prompt": "Ich ___ ein Taschentuch. (brauchen)", "solution": "brauche", "explanation": "Die 'ich'-Form von 'brauchen' lautet 'brauche'." },
+        { "id": "l5t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Glas ist grün.", "options": ["Das", "Der", "Die", "Den"], "solution": "Das", "explanation": "'Glas' ist neutral: das Glas." },
+        { "id": "l5t05", "type": "multiple-choice", "instruction": "Wähle die passende Farbe.", "prompt": "Der Schirm ist ___.", "options": ["grün", "laut", "teuer", "neu"], "solution": "grün", "explanation": "'grün' ist eine Farbe." },
+        { "id": "l5t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "habe", "kein", "Feuerzeug"], "solution": "Ich habe kein Feuerzeug.", "explanation": "'Feuerzeug' ist neutral; die Verneinung im Akkusativ lautet 'kein'." },
+        { "id": "l5t07", "type": "cloze-conjugation", "instruction": "Ergänze die Verneinung.", "prompt": "Ich habe ___ (kein, Akkusativ feminin) Uhr.", "solution": "keine", "explanation": "'Uhr' ist feminin; die Verneinung im Akkusativ lautet 'keine'." },
+        { "id": "l5t08", "type": "targeted-transformation", "instruction": "Sage, dass du keinen Geldbeutel hast.", "prompt": "keinen Geldbeutel / haben", "solution": "Ich habe keinen Geldbeutel.", "explanation": "'Geldbeutel' ist maskulin; die Verneinung im Akkusativ lautet 'keinen'." },
+        { "id": "l5t09", "type": "targeted-transformation", "instruction": "Frage nach dem Preis des Handys.", "prompt": "das Handy / kosten", "solution": "Was kostet das Handy?", "explanation": "'Was kostet ...?' fragt nach dem Preis." },
+        { "id": "l5t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich brauche keine Taschentuch.", "solution": "Ich brauche kein Taschentuch.", "explanation": "'Taschentuch' ist neutral; die Verneinung im Akkusativ lautet 'kein', nicht 'keine'." }
       ]
     },
     {
@@ -184,7 +184,7 @@
         { "id": "l6v09", "term": "die E-Mail", "translation": "el correo electrónico", "partOfSpeech": "noun", "gender": "die", "plural": "die E-Mails", "example": "Ich schreibe eine E-Mail." },
         { "id": "l6v10", "term": "das Passwort", "translation": "la contraseña", "partOfSpeech": "noun", "gender": "das", "plural": "die Passwörter", "example": "Ich vergesse mein Passwort." },
         { "id": "l6v11", "term": "Lust haben auf", "translation": "tener ganas de", "partOfSpeech": "phrase", "example": "Hast du Lust auf Kino?" },
-        { "id": "l6v12", "term": "vorschlagen", "translation": "proponer", "partOfSpeech": "verb", "example": "Ich schlage einen Termin vor." },
+        { "id": "l6v12", "term": "vorschlagen", "translation": "proponer", "partOfSpeech": "verb", "preterite": "schlug vor", "participle": "vorgeschlagen", "auxiliary": "haben", "irregular": true, "example": "Ich schlage einen Termin vor." },
         { "id": "l6v13", "term": "leider", "translation": "lamentablemente", "partOfSpeech": "adverb", "example": "Leider habe ich keine Zeit." },
         { "id": "l6v14", "term": "klar", "translation": "claro", "partOfSpeech": "adjective", "example": "Ja, klar!" },
         { "id": "l6v15", "term": "okay", "translation": "de acuerdo", "partOfSpeech": "adjective", "example": "Okay, das passt." },
@@ -196,7 +196,7 @@
           { "id": "l6e02", "type": "multiple-choice", "instruction": "Wähle die richtige Uhrzeit-Angabe.", "prompt": "___ vier.", "options": ["Halb", "Viertel", "Fünf", "Zehn"], "solution": "Halb", "hint": "3:30 Uhr.", "explanation": "'Halb vier' bedeutet 3:30 Uhr." },
           { "id": "l6e03", "type": "multiple-choice", "instruction": "Wähle die passende Tageszeit.", "prompt": "Am ___ arbeite ich.", "options": ["Vormittag", "Mittag", "Nachmittag", "Abend"], "solution": "Vormittag", "hint": "Frühe Tageszeit.", "explanation": "'Vormittag' ist die Zeit vor dem Mittag." },
           { "id": "l6e04", "type": "multiple-choice", "instruction": "Wähle die richtige Präposition.", "prompt": "Hast du Lust ___ Kino?", "options": ["auf", "an", "in", "zu"], "solution": "auf", "hint": "Feste Präposition bei 'Lust haben'.", "explanation": "'Lust haben auf' ist eine feste Wortverbindung." },
-          { "id": "l6e05", "type": "multiple-choice", "instruction": "Wähle die passende Zusage.", "prompt": "Ja, ___!", "options": ["klar", "leider", "okay", "Lust"], "solution": "klar", "hint": "Zustimmung.", "explanation": "'Ja, klar!' drückt Zustimmung aus." },
+          { "id": "l6e05", "type": "multiple-choice", "instruction": "Wähle die passende Zusage.", "prompt": "Ja, ___!", "options": ["klar", "leider", "vielleicht", "Lust"], "solution": "klar", "hint": "Zustimmung.", "explanation": "'Ja, klar!' drückt sichere Zustimmung aus; 'vielleicht' würde 'ja' widersprechen, 'leider' eine Absage einleiten." },
           { "id": "l6e06", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Termin", "options": ["der", "die", "das"], "solution": "der", "hint": "'Termin' ist maskulin.", "explanation": "'Termin' ist maskulin: der Termin." },
           { "id": "l6e07", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ E-Mail", "options": ["der", "die", "das"], "solution": "die", "hint": "'E-Mail' ist feminin.", "explanation": "'E-Mail' ist feminin: die E-Mail." },
           { "id": "l6e08", "type": "fill-in-blank", "instruction": "Ergänze das Verb.", "prompt": "Ich ___ eine E-Mail. (schreiben)", "solution": "schreibe", "hint": "'ich'-Form.", "explanation": "Die 'ich'-Form von 'schreiben' lautet 'schreibe'." },
@@ -229,16 +229,16 @@
         ]
       },
       "test": [
-        { "id": "l6t01", "type": "multiple-choice", "instruction": "Wähle die richtige Uhrzeit-Angabe.", "prompt": "___ nach drei.", "options": ["Viertel", "Halb", "Fünf", "Zehn"], "solution": "Viertel", "explanation": "'Viertel nach drei' bedeutet 3:15 Uhr." },
-        { "id": "l6t02", "type": "multiple-choice", "instruction": "Wähle die richtige Uhrzeit-Angabe.", "prompt": "___ vier.", "options": ["Halb", "Viertel", "Fünf", "Zehn"], "solution": "Halb", "explanation": "'Halb vier' bedeutet 3:30 Uhr." },
-        { "id": "l6t03", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Ich habe keine ___. (Zeit)", "solution": "Zeit", "explanation": "'Zeit' ist das gesuchte Substantiv." },
-        { "id": "l6t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Termin", "options": ["der", "die", "das"], "solution": "der", "explanation": "'Termin' ist maskulin: der Termin." },
-        { "id": "l6t05", "type": "multiple-choice", "instruction": "Wähle die richtige Präposition.", "prompt": "Hast du Lust ___ Kino?", "options": ["auf", "an", "in", "zu"], "solution": "auf", "explanation": "'Lust haben auf' ist eine feste Wortverbindung." },
-        { "id": "l6t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Leider", "habe", "ich", "keine", "Zeit"], "solution": "Leider habe ich keine Zeit.", "explanation": "Nach 'leider' an Position 1 steht das Verb an Position 2." },
-        { "id": "l6t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Er ___ (haben) keine Zeit.", "solution": "hat", "explanation": "Die 'er'-Form von 'haben' lautet 'hat'." },
-        { "id": "l6t08", "type": "targeted-transformation", "instruction": "Sage die Uhrzeit.", "prompt": "3:15 Uhr", "solution": "Viertel nach drei.", "explanation": "'Viertel nach drei' bedeutet 3:15 Uhr." },
-        { "id": "l6t09", "type": "targeted-transformation", "instruction": "Sage die Uhrzeit.", "prompt": "3:30 Uhr", "solution": "Halb vier.", "explanation": "'Halb vier' bedeutet 3:30 Uhr." },
-        { "id": "l6t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Leider ich habe keine Zeit.", "solution": "Leider habe ich keine Zeit.", "explanation": "Nach 'leider' an Position 1 steht das Verb an Position 2." }
+        { "id": "l6t01", "type": "multiple-choice", "instruction": "Wähle die richtige Uhrzeit-Angabe.", "prompt": "___ nach fünf.", "options": ["Viertel", "Halb", "Zehn", "Fünf"], "solution": "Viertel", "explanation": "'Viertel nach fünf' bedeutet 5:15 Uhr." },
+        { "id": "l6t02", "type": "multiple-choice", "instruction": "Wähle die richtige Uhrzeit-Angabe.", "prompt": "___ sechs.", "options": ["Halb", "Viertel", "Fünf", "Zehn"], "solution": "Halb", "explanation": "'Halb sechs' bedeutet 5:30 Uhr." },
+        { "id": "l6t03", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Am ___ lese ich gern ein Buch. (Abend)", "solution": "Abend", "explanation": "'Abend' ist die Tageszeit nach dem Nachmittag." },
+        { "id": "l6t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Passwort", "options": ["das", "der", "die"], "solution": "das", "explanation": "'Passwort' ist neutral: das Passwort." },
+        { "id": "l6t05", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Wir treffen uns um drei? – Ja, ___.", "options": ["okay", "leider", "Lust", "Zeit"], "solution": "okay", "explanation": "'okay' drückt Zustimmung zu einem Vorschlag aus." },
+        { "id": "l6t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "vergesse", "oft", "mein", "Passwort"], "solution": "Ich vergesse oft mein Passwort.", "explanation": "Das konjugierte Verb steht an Position 2." },
+        { "id": "l6t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Du ___ (vorschlagen) einen Film vor.", "solution": "schlägst", "explanation": "Die 'du'-Form von 'vorschlagen' lautet 'schlägst ... vor' (Stammvokalwechsel a → ä)." },
+        { "id": "l6t08", "type": "targeted-transformation", "instruction": "Mache einen Vorschlag.", "prompt": "Pizza heute Mittag", "solution": "Hast du Lust auf Pizza heute Mittag?", "explanation": "Ein Vorschlag lässt sich mit 'Hast du Lust auf ... ?' formulieren." },
+        { "id": "l6t09", "type": "targeted-transformation", "instruction": "Sage die Uhrzeit.", "prompt": "7:30 Uhr", "solution": "Halb acht.", "explanation": "'Halb acht' bedeutet 7:30 Uhr – 'halb' bezieht sich auf die kommende Stunde." },
+        { "id": "l6t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Hast du Lust an Pizza?", "solution": "Hast du Lust auf Pizza?", "explanation": "'Lust haben auf' ist eine feste Wortverbindung, nicht 'Lust an'." }
       ]
     }
   ]
