@@ -17,12 +17,12 @@
       "vocabulary": [
         { "id": "l16v01", "term": "das Problem", "translation": "el problema", "partOfSpeech": "noun", "gender": "das", "plural": "die Probleme", "example": "Wir haben ein Problem." },
         { "id": "l16v02", "term": "die Hilfe", "translation": "la ayuda", "partOfSpeech": "noun", "gender": "die", "example": "Wir brauchen Ihre Hilfe." },
-        { "id": "l16v03", "term": "reparieren", "translation": "reparar", "partOfSpeech": "verb", "example": "Ich kann das reparieren." },
-        { "id": "l16v04", "term": "funktionieren", "translation": "funcionar", "partOfSpeech": "verb", "example": "Der Aufzug funktioniert nicht." },
+        { "id": "l16v03", "term": "reparieren", "translation": "reparar", "partOfSpeech": "verb", "preterite": "reparierte", "participle": "repariert", "auxiliary": "haben", "irregular": false, "example": "Ich kann das reparieren." },
+        { "id": "l16v04", "term": "funktionieren", "translation": "funcionar", "partOfSpeech": "verb", "preterite": "funktionierte", "participle": "funktioniert", "auxiliary": "haben", "irregular": false, "example": "Der Aufzug funktioniert nicht." },
         { "id": "l16v05", "term": "der Aufzug", "translation": "el ascensor", "partOfSpeech": "noun", "gender": "der", "plural": "die Aufzüge", "example": "Der Aufzug funktioniert nicht." },
         { "id": "l16v06", "term": "das Netz", "translation": "la señal (de red)", "partOfSpeech": "noun", "gender": "das", "example": "Er hat zu wenig Netz." },
         { "id": "l16v07", "term": "der Kontakt", "translation": "el contacto", "partOfSpeech": "noun", "gender": "der", "plural": "die Kontakte", "example": "Ich brauche Kontakt." },
-        { "id": "l16v08", "term": "sollen", "translation": "deber", "partOfSpeech": "verb", "example": "Mein Arzt sagt, ich soll viel trinken." },
+        { "id": "l16v08", "term": "sollen", "translation": "deber", "partOfSpeech": "verb", "preterite": "sollte", "participle": "gesollt", "auxiliary": "haben", "irregular": true, "example": "Mein Arzt sagt, ich soll viel trinken." },
         { "id": "l16v09", "term": "die Kollegin", "translation": "la colega", "partOfSpeech": "noun", "gender": "die", "plural": "die Kolleginnen", "example": "Meine Kollegin sagt, ich soll Milch trinken." },
         { "id": "l16v10", "term": "der Tipp", "translation": "el consejo", "partOfSpeech": "noun", "gender": "der", "plural": "die Tipps", "example": "Hier ist ein Tipp." },
         { "id": "l16v11", "term": "natürlich", "translation": "por supuesto", "partOfSpeech": "adverb", "example": "Ja, natürlich." },
@@ -71,16 +71,16 @@
         ]
       },
       "test": [
-        { "id": "l16t01", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Wir haben ein ___.", "options": ["Problem", "Netz", "Kontakt", "Tipp"], "solution": "Problem", "explanation": "'Problem' bezeichnet eine Schwierigkeit." },
-        { "id": "l16t02", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Der Aufzug ___ nicht. (funktionieren)", "options": ["funktioniert", "funktioniere", "funktionierst", "funktionieren"], "solution": "funktioniert", "explanation": "Die 'er'-Form von 'funktionieren' lautet 'funktioniert'." },
-        { "id": "l16t03", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Ich habe ein ___. (Vorstellungsgespräch)", "solution": "Vorstellungsgespräch", "explanation": "'Vorstellungsgespräch' ist das gesuchte Substantiv." },
-        { "id": "l16t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Hilfe", "options": ["der", "die", "das"], "solution": "die", "explanation": "'Hilfe' ist feminin: die Hilfe." },
-        { "id": "l16t05", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Mein Arzt sagt, ich ___ viel trinken.", "options": ["soll", "sollst", "sollt", "sollen"], "solution": "soll", "explanation": "Die 'ich'-Form von 'sollen' lautet 'soll'." },
-        { "id": "l16t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "kann", "das", "reparieren"], "solution": "Ich kann das reparieren.", "explanation": "Nach dem Modalverb 'kann' steht der Infinitiv am Satzende." },
-        { "id": "l16t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Wir ___ (sollen) pünktlich sein.", "solution": "sollen", "explanation": "Die 'wir'-Form von 'sollen' lautet 'sollen'." },
-        { "id": "l16t08", "type": "targeted-transformation", "instruction": "Gib eine indirekte Empfehlung wieder.", "prompt": "der Arzt sagt es: viel trinken", "solution": "Mein Arzt sagt, ich soll viel trinken.", "explanation": "Eine indirekte Empfehlung wird oft mit 'sollen' wiedergegeben." },
-        { "id": "l16t09", "type": "targeted-transformation", "instruction": "Sage höflich ab.", "prompt": "Absage", "solution": "Leider kann ich nicht helfen.", "explanation": "Eine höfliche Absage beginnt oft mit 'Leider'." },
-        { "id": "l16t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Mein Arzt sagt, ich sollen viel trinken.", "solution": "Mein Arzt sagt, ich soll viel trinken.", "explanation": "Die 'ich'-Form von 'sollen' lautet 'soll', nicht 'sollen'." }
+        { "id": "l16t01", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Mein Handy hat kein ___.", "options": ["Netz", "Kontakt", "Tipp", "Problem"], "solution": "Netz", "explanation": "'Netz' ist neutral (kein Netz) und bedeutet hier fehlenden Empfang; 'Kontakt' und 'Tipp' sind maskulin (bräuchten 'keinen') und 'Problem' passt inhaltlich nicht zum Handy." },
+        { "id": "l16t02", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Die Kollegin ___ das nicht. (reparieren)", "options": ["repariert", "repariere", "reparierst", "reparieren"], "solution": "repariert", "explanation": "Die 'sie'-Form von 'reparieren' lautet 'repariert'." },
+        { "id": "l16t03", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Ich brauche ___. (Kontakt)", "solution": "Kontakt", "explanation": "'Kontakt' ist das gesuchte Substantiv." },
+        { "id": "l16t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Aufzug", "options": ["der", "die", "das"], "solution": "der", "explanation": "'Aufzug' ist maskulin: der Aufzug." },
+        { "id": "l16t05", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Ihr ___ pünktlich sein. (sollen)", "options": ["sollt", "soll", "sollst", "sollen"], "solution": "sollt", "explanation": "Die 'ihr'-Form von 'sollen' lautet 'sollt'." },
+        { "id": "l16t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Meine", "Kollegin", "hat", "ein", "Vorstellungsgespräch"], "solution": "Meine Kollegin hat ein Vorstellungsgespräch.", "explanation": "Das konjugierte Verb steht an Position 2." },
+        { "id": "l16t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Er ___ (sollen) viel trinken.", "solution": "soll", "explanation": "Die 'er'-Form von 'sollen' lautet 'soll'." },
+        { "id": "l16t08", "type": "targeted-transformation", "instruction": "Gib eine indirekte Empfehlung wieder.", "prompt": "meine Kollegin sagt es: Milch trinken", "solution": "Meine Kollegin sagt, ich soll Milch trinken.", "explanation": "Eine indirekte Empfehlung wird oft mit 'sollen' wiedergegeben." },
+        { "id": "l16t09", "type": "targeted-transformation", "instruction": "Sage, dass das Netz nicht funktioniert.", "prompt": "das Netz / funktionieren", "solution": "Das Netz funktioniert nicht.", "explanation": "Die 'es'-Form von 'funktionieren' lautet 'funktioniert'." },
+        { "id": "l16t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Meine Kollegin sagt, ich sollst Milch trinken.", "solution": "Meine Kollegin sagt, ich soll Milch trinken.", "explanation": "Die 'ich'-Form von 'sollen' lautet 'soll', nicht 'sollst' (das ist die 'du'-Form)." }
       ]
     },
     {
@@ -94,14 +94,14 @@
         "'wollen' + Infinitiv"
       ],
       "vocabulary": [
-        { "id": "l17v01", "term": "werden", "translation": "convertirse en / (futuro)", "partOfSpeech": "verb", "example": "Ich werde Astronaut." },
+        { "id": "l17v01", "term": "werden", "translation": "convertirse en / (futuro)", "partOfSpeech": "verb", "preterite": "wurde", "participle": "geworden", "auxiliary": "sein", "irregular": true, "example": "Ich werde Astronaut." },
         { "id": "l17v02", "term": "auf jeden Fall", "translation": "sin duda", "partOfSpeech": "phrase", "example": "Ich werde auf jeden Fall Astronaut." },
-        { "id": "l17v03", "term": "wollen", "translation": "querer", "partOfSpeech": "verb", "example": "Ich will Medizin studieren." },
-        { "id": "l17v04", "term": "gründen", "translation": "fundar", "partOfSpeech": "verb", "example": "Wir wollen ein Start-up gründen." },
+        { "id": "l17v03", "term": "wollen", "translation": "querer", "partOfSpeech": "verb", "preterite": "wollte", "participle": "gewollt", "auxiliary": "haben", "irregular": true, "example": "Ich will Medizin studieren." },
+        { "id": "l17v04", "term": "gründen", "translation": "fundar", "partOfSpeech": "verb", "preterite": "gründete", "participle": "gegründet", "auxiliary": "haben", "irregular": false, "example": "Wir wollen ein Start-up gründen." },
         { "id": "l17v05", "term": "das Start-up", "translation": "la start-up", "partOfSpeech": "noun", "gender": "das", "plural": "die Start-ups", "example": "Wir gründen ein Start-up." },
-        { "id": "l17v06", "term": "verdienen", "translation": "ganar (dinero)", "partOfSpeech": "verb", "example": "Ich will Geld verdienen." },
+        { "id": "l17v06", "term": "verdienen", "translation": "ganar (dinero)", "partOfSpeech": "verb", "preterite": "verdiente", "participle": "verdient", "auxiliary": "haben", "irregular": false, "example": "Ich will Geld verdienen." },
         { "id": "l17v07", "term": "der Blog", "translation": "el blog", "partOfSpeech": "noun", "gender": "der", "plural": "die Blogs", "example": "Ich will mit einem Blog Geld verdienen." },
-        { "id": "l17v08", "term": "studieren", "translation": "estudiar (en la universidad)", "partOfSpeech": "verb", "example": "Ich will Medizin studieren." },
+        { "id": "l17v08", "term": "studieren", "translation": "estudiar (en la universidad)", "partOfSpeech": "verb", "example": "Ich will Medizin studieren.", "preterite": "studierte", "participle": "studiert", "auxiliary": "haben", "irregular": false },
         { "id": "l17v09", "term": "die Ausbildung", "translation": "la formación profesional", "partOfSpeech": "noun", "gender": "die", "plural": "die Ausbildungen", "example": "Ich mache eine Ausbildung." },
         { "id": "l17v10", "term": "die Wirtschaft", "translation": "la economía", "partOfSpeech": "noun", "gender": "die", "example": "Ich studiere Wirtschaft." },
         { "id": "l17v11", "term": "die Modefirma", "translation": "la empresa de moda", "partOfSpeech": "noun", "gender": "die", "plural": "die Modefirmen", "example": "Ich arbeite bei einer Modefirma." },
@@ -150,16 +150,16 @@
         ]
       },
       "test": [
-        { "id": "l17t01", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Ich ___ auf jeden Fall Astronaut. (werden)", "options": ["werde", "wirst", "wird", "werden"], "solution": "werde", "explanation": "Die 'ich'-Form von 'werden' lautet 'werde'." },
-        { "id": "l17t02", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Ich ___ Medizin studieren. (wollen)", "options": ["will", "willst", "wollt", "wollen"], "solution": "will", "explanation": "Die 'ich'-Form von 'wollen' lautet 'will'." },
-        { "id": "l17t03", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Ich studiere ___. (Wirtschaft)", "solution": "Wirtschaft", "explanation": "'Wirtschaft' ist das gesuchte Studienfach." },
-        { "id": "l17t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Ausbildung", "options": ["der", "die", "das"], "solution": "die", "explanation": "'Ausbildung' ist feminin: die Ausbildung." },
-        { "id": "l17t05", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Astronaut ist mein ___.", "options": ["Traumberuf", "Geld", "Ausbildung", "Wirtschaft"], "solution": "Traumberuf", "explanation": "'Traumberuf' bezeichnet den Wunschberuf." },
-        { "id": "l17t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Wir", "wollen", "ein", "Start-up", "gründen"], "solution": "Wir wollen ein Start-up gründen.", "explanation": "Nach dem Modalverb 'wollen' steht der Infinitiv am Satzende." },
-        { "id": "l17t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Wir ___ (werden) berühmt.", "solution": "werden", "explanation": "Die 'wir'-Form von 'werden' lautet 'werden'." },
-        { "id": "l17t08", "type": "targeted-transformation", "instruction": "Sage, dass er Krankenpfleger wird.", "prompt": "Krankenpfleger / werden", "solution": "Er wird Krankenpfleger.", "explanation": "Die 'er'-Form von 'werden' lautet 'wird'." },
-        { "id": "l17t09", "type": "targeted-transformation", "instruction": "Sage, dass du eine Ausbildung machst.", "prompt": "eine Ausbildung / machen", "solution": "Ich mache eine Ausbildung.", "explanation": "Das konjugierte Verb steht an Position 2." },
-        { "id": "l17t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Wir will ein Start-up gründen.", "solution": "Wir wollen ein Start-up gründen.", "explanation": "Die 'wir'-Form von 'wollen' lautet 'wollen', nicht 'will'." }
+        { "id": "l17t01", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Sie ___ Influencerin. (werden)", "options": ["wird", "wirst", "werde", "werden"], "solution": "wird", "explanation": "Die 'sie'-Form (Singular) von 'werden' lautet 'wird'." },
+        { "id": "l17t02", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Ihr ___ eine Ausbildung machen. (wollen)", "options": ["wollt", "will", "wollen", "willst"], "solution": "wollt", "explanation": "Die 'ihr'-Form von 'wollen' lautet 'wollt'." },
+        { "id": "l17t03", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Ich arbeite bei einer ___. (Modefirma)", "solution": "Modefirma", "explanation": "'Modefirma' ist das gesuchte Substantiv." },
+        { "id": "l17t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Start-up", "options": ["der", "die", "das"], "solution": "das", "explanation": "'Start-up' ist neutral: das Start-up." },
+        { "id": "l17t05", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Sie backt ___ Kuchen.", "options": ["vegane", "Wirtschaft", "Geld", "Ausbildung"], "solution": "vegane", "explanation": "'vegane' ist das einzige Adjektiv unter den Optionen; nur ein Adjektiv kann 'Kuchen' beschreiben." },
+        { "id": "l17t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Wir", "wollen", "berühmt", "werden"], "solution": "Wir wollen berühmt werden.", "explanation": "Nach dem Modalverb 'wollen' steht der Infinitiv (hier 'werden') am Satzende." },
+        { "id": "l17t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Ich ___ (wollen) eine Ausbildung machen.", "solution": "will", "explanation": "Die 'ich'-Form von 'wollen' lautet 'will'." },
+        { "id": "l17t08", "type": "targeted-transformation", "instruction": "Sage, dass du vegane Kuchen backen willst.", "prompt": "vegane Kuchen / backen wollen", "solution": "Ich will vegane Kuchen backen.", "explanation": "Nach dem Modalverb 'will' steht der Infinitiv am Satzende." },
+        { "id": "l17t09", "type": "targeted-transformation", "instruction": "Sage, dass sie ein Start-up gründen will.", "prompt": "ein Start-up / gründen wollen (sie)", "solution": "Sie will ein Start-up gründen.", "explanation": "Die 'sie'-Form (Singular) von 'wollen' lautet 'will'." },
+        { "id": "l17t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich will eine Ausbildung machst.", "solution": "Ich will eine Ausbildung machen.", "explanation": "Nach dem Modalverb 'will' steht der Infinitiv 'machen', nicht die konjugierte Form 'machst'." }
       ]
     },
     {
@@ -229,16 +229,16 @@
         ]
       },
       "test": [
-        { "id": "l18t01", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Mein ___ tut weh.", "options": ["Kopf", "Auge", "Hand", "Arm"], "solution": "Kopf", "explanation": "'Kopf' ist ein Körperteil." },
-        { "id": "l18t02", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Ich habe ___.", "options": ["Fieber", "Kopf", "Bein", "Hand"], "solution": "Fieber", "explanation": "'Fieber' bedeutet erhöhte Körpertemperatur." },
-        { "id": "l18t03", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Ich habe ___. (Schnupfen)", "solution": "Schnupfen", "explanation": "'Schnupfen' ist das gesuchte Substantiv." },
-        { "id": "l18t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Nase", "options": ["der", "die", "das"], "solution": "die", "explanation": "'Nase' ist feminin: die Nase." },
-        { "id": "l18t05", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Du ___ im Bett bleiben. (sollen)", "options": ["sollst", "soll", "sollt", "sollen"], "solution": "sollst", "explanation": "Die 'du'-Form von 'sollen' lautet 'sollst'." },
-        { "id": "l18t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "habe", "eine", "Erkältung"], "solution": "Ich habe eine Erkältung.", "explanation": "Das konjugierte Verb steht an Position 2." },
-        { "id": "l18t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Er ___ (sollen) im Bett bleiben.", "solution": "soll", "explanation": "Die 'er'-Form von 'sollen' lautet 'soll'." },
-        { "id": "l18t08", "type": "targeted-transformation", "instruction": "Gib den Rat, im Bett zu bleiben.", "prompt": "im Bett bleiben", "solution": "Du sollst im Bett bleiben.", "explanation": "Ratschläge formuliert man oft mit 'sollen' + Infinitiv." },
-        { "id": "l18t09", "type": "targeted-transformation", "instruction": "Sage, dass dein Rücken weh tut.", "prompt": "der Rücken / weh tun", "solution": "Mein Rücken tut weh.", "explanation": "'weh tun' ist der feste Ausdruck für Schmerzen." },
-        { "id": "l18t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Du soll im Bett bleiben.", "solution": "Du sollst im Bett bleiben.", "explanation": "Die 'du'-Form von 'sollen' lautet 'sollst', nicht 'soll'." }
+        { "id": "l18t01", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Mein ___ tut weh.", "options": ["Hals", "Fieber", "Husten", "Erkältung"], "solution": "Hals", "explanation": "'Hals' ist ein Körperteil, der wehtun kann." },
+        { "id": "l18t02", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Er hat ___.", "options": ["Schnupfen", "Auge", "Bein", "Arm"], "solution": "Schnupfen", "explanation": "'Schnupfen' ist ein Krankheitssymptom; die anderen Wörter sind Körperteile." },
+        { "id": "l18t03", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Mein ___ tut weh. (Arm)", "solution": "Arm", "explanation": "'Arm' ist das gesuchte Substantiv." },
+        { "id": "l18t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Bein", "options": ["der", "die", "das"], "solution": "das", "explanation": "'Bein' ist neutral: das Bein." },
+        { "id": "l18t05", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "Ihr ___ im Bett bleiben. (sollen)", "options": ["sollt", "soll", "sollst", "sollen"], "solution": "sollt", "explanation": "Die 'ihr'-Form von 'sollen' lautet 'sollt'." },
+        { "id": "l18t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Mein", "Hals", "tut", "weh"], "solution": "Mein Hals tut weh.", "explanation": "Das konjugierte Verb steht an Position 2." },
+        { "id": "l18t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Meine Augen ___ (tun) weh.", "solution": "tun", "explanation": "Bei einem Plural-Subjekt (die Augen) lautet die Form von 'tun' im Plural 'tun', nicht 'tut'." },
+        { "id": "l18t08", "type": "targeted-transformation", "instruction": "Sage, dass dein Hals weh tut.", "prompt": "der Hals / weh tun", "solution": "Mein Hals tut weh.", "explanation": "'weh tun' ist der feste Ausdruck für Schmerzen." },
+        { "id": "l18t09", "type": "targeted-transformation", "instruction": "Sage, dass du Husten und Fieber hast.", "prompt": "Husten und Fieber / haben", "solution": "Ich habe Husten und Fieber.", "explanation": "Die 'ich'-Form von 'haben' lautet 'habe'; 'Husten' und 'Fieber' stehen ohne Artikel." },
+        { "id": "l18t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Meine Augen tut weh.", "solution": "Meine Augen tun weh.", "explanation": "Bei einem Plural-Subjekt (die Augen) lautet das Verb 'tun', nicht 'tut'." }
       ]
     }
   ]

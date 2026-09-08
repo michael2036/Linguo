@@ -38,7 +38,7 @@
           { "id": "l13e02", "type": "multiple-choice", "instruction": "Wähle den richtigen Possessivartikel.", "prompt": "Das ist ___ Buch.", "options": ["dein", "deine", "deinen", "deiner"], "solution": "dein", "hint": "'Buch' ist neutral, Nominativ.", "explanation": "'Buch' ist neutral; im Nominativ heißt es 'dein Buch'." },
           { "id": "l13e03", "type": "multiple-choice", "instruction": "Wähle den richtigen Possessivartikel.", "prompt": "Das ist ___ Auto.", "options": ["sein", "seine", "seinen", "seiner"], "solution": "sein", "hint": "'Auto' ist neutral, Nominativ.", "explanation": "'Auto' ist neutral; im Nominativ heißt es 'sein Auto'." },
           { "id": "l13e04", "type": "multiple-choice", "instruction": "Wähle den richtigen Possessivartikel.", "prompt": "Das ist ___ Haus.", "options": ["ihr", "ihre", "ihren", "ihrer"], "solution": "ihr", "hint": "'Haus' ist neutral, Nominativ.", "explanation": "'Haus' ist neutral; im Nominativ heißt es 'ihr Haus'." },
-          { "id": "l13e05", "type": "multiple-choice", "instruction": "Wähle das richtige Pronomen.", "prompt": "Das gehört ___.", "options": ["mir", "mich", "dir", "dich"], "solution": "mir", "hint": "'gehören' verlangt den Dativ.", "explanation": "'gehören' verlangt den Dativ: das gehört mir." },
+          { "id": "l13e05", "type": "multiple-choice", "instruction": "Wähle das richtige Pronomen.", "prompt": "Ich habe das gekauft. Das gehört ___.", "options": ["mir", "mich", "dir", "dich"], "solution": "mir", "hint": "'gehören' verlangt den Dativ.", "explanation": "'gehören' verlangt den Dativ: das gehört mir." },
           { "id": "l13e06", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Bibliothek", "options": ["der", "die", "das"], "solution": "die", "hint": "'Bibliothek' ist feminin.", "explanation": "'Bibliothek' ist feminin: die Bibliothek." },
           { "id": "l13e07", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Markt", "options": ["der", "die", "das"], "solution": "der", "hint": "'Markt' ist maskulin.", "explanation": "'Markt' ist maskulin: der Markt." },
           { "id": "l13e08", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Ich schreibe einen ___. (Blog)", "solution": "Blog", "hint": "Ein Substantiv.", "explanation": "'Blog' ist das gesuchte Substantiv." },
@@ -71,16 +71,16 @@
         ]
       },
       "test": [
-        { "id": "l13t01", "type": "multiple-choice", "instruction": "Wähle den richtigen Possessivartikel.", "prompt": "Das ist ___ Blog.", "options": ["mein", "meine", "meinen", "meiner"], "solution": "mein", "explanation": "'Blog' ist maskulin; im Nominativ heißt es 'mein Blog'." },
-        { "id": "l13t02", "type": "multiple-choice", "instruction": "Wähle den richtigen Possessivartikel.", "prompt": "Das ist ___ Auto.", "options": ["sein", "seine", "seinen", "seiner"], "solution": "sein", "explanation": "'Auto' ist neutral; im Nominativ heißt es 'sein Auto'." },
-        { "id": "l13t03", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Die ___ ist hoch. (Miete)", "solution": "Miete", "explanation": "'Miete' ist das gesuchte Substantiv." },
-        { "id": "l13t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Markt", "options": ["der", "die", "das"], "solution": "der", "explanation": "'Markt' ist maskulin: der Markt." },
-        { "id": "l13t05", "type": "multiple-choice", "instruction": "Wähle das richtige Pronomen.", "prompt": "Das gehört ___.", "options": ["mir", "mich", "dir", "dich"], "solution": "mir", "explanation": "'gehören' verlangt den Dativ: das gehört mir." },
-        { "id": "l13t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Das", "ist", "ihr", "Haus"], "solution": "Das ist ihr Haus.", "explanation": "Das konjugierte Verb steht an Position 2." },
-        { "id": "l13t07", "type": "cloze-conjugation", "instruction": "Ergänze den Possessivartikel.", "prompt": "Das ist ___ (sein) Auto.", "solution": "sein", "explanation": "'Auto' ist neutral; im Nominativ heißt es 'sein Auto'." },
-        { "id": "l13t08", "type": "targeted-transformation", "instruction": "Sage, dass das Haus ihr gehört.", "prompt": "ihr Haus", "solution": "Das ist ihr Haus.", "explanation": "'Haus' ist neutral; im Nominativ heißt es 'ihr Haus'." },
-        { "id": "l13t09", "type": "targeted-transformation", "instruction": "Sage, dass du es jemandem gibst.", "prompt": "geben / dir", "solution": "Ich gebe es dir.", "explanation": "'dir' ist das Dativobjekt des Satzes." },
-        { "id": "l13t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Das gehört mich.", "solution": "Das gehört mir.", "explanation": "'gehören' verlangt den Dativ: mir, nicht mich." }
+        { "id": "l13t01", "type": "multiple-choice", "instruction": "Wähle den richtigen Possessivartikel.", "prompt": "Das ist ___ Spielplatz.", "options": ["mein", "meine", "meinen", "meiner"], "solution": "mein", "explanation": "'Spielplatz' ist maskulin; im Nominativ heißt es 'mein Spielplatz'." },
+        { "id": "l13t02", "type": "multiple-choice", "instruction": "Wähle den richtigen Possessivartikel.", "prompt": "Das ist ___ Kind.", "options": ["ihr", "ihre", "ihren", "ihrer"], "solution": "ihr", "explanation": "'Kind' ist neutral; im Nominativ heißt es 'ihr Kind'." },
+        { "id": "l13t03", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Das ___ ist alt. (Schloss)", "solution": "Schloss", "explanation": "'Schloss' ist das gesuchte Substantiv." },
+        { "id": "l13t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Altstadt", "options": ["der", "die", "das"], "solution": "die", "explanation": "'Altstadt' ist feminin: die Altstadt." },
+        { "id": "l13t05", "type": "multiple-choice", "instruction": "Wähle das richtige Pronomen.", "prompt": "Das ist deine Idee. Der Tipp gehört ___.", "options": ["mir", "mich", "dir", "dich"], "solution": "dir", "explanation": "'gehören' verlangt den Dativ: der Tipp gehört dir." },
+        { "id": "l13t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Ich", "gebe", "dir", "den", "Tipp"], "solution": "Ich gebe dir den Tipp.", "explanation": "'dir' ist das Dativobjekt; das konjugierte Verb steht an Position 2." },
+        { "id": "l13t07", "type": "cloze-conjugation", "instruction": "Ergänze den Possessivartikel.", "prompt": "Das ist ___ (dein) Markt.", "solution": "dein", "explanation": "'Markt' ist maskulin; im Nominativ heißt es 'dein Markt'." },
+        { "id": "l13t08", "type": "targeted-transformation", "instruction": "Sage, dass der Blog dir gehört.", "prompt": "der Blog / gehören", "solution": "Der Blog gehört mir.", "explanation": "'gehören' verlangt den Dativ: der Blog gehört mir." },
+        { "id": "l13t09", "type": "targeted-transformation", "instruction": "Sage, dass ihr Schloss alt ist.", "prompt": "ihr Schloss / alt", "solution": "Ihr Schloss ist alt.", "explanation": "'Schloss' ist neutral; im Nominativ heißt es 'ihr Schloss'." },
+        { "id": "l13t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Der Zoo gehört mich.", "solution": "Der Zoo gehört mir.", "explanation": "'gehören' verlangt den Dativ: mir, nicht mich." }
       ]
     },
     {
@@ -105,17 +105,17 @@
         { "id": "l14v09", "term": "geradeaus", "translation": "todo recto", "partOfSpeech": "adverb", "example": "Gehen Sie geradeaus." },
         { "id": "l14v10", "term": "nach rechts", "translation": "a la derecha", "partOfSpeech": "phrase", "example": "Biegen Sie nach rechts ab." },
         { "id": "l14v11", "term": "nach links", "translation": "a la izquierda", "partOfSpeech": "phrase", "example": "Gehen Sie nach links." },
-        { "id": "l14v12", "term": "abbiegen", "translation": "girar / doblar", "partOfSpeech": "verb", "example": "Biegen Sie nach links ab." },
+        { "id": "l14v12", "term": "abbiegen", "translation": "girar / doblar", "partOfSpeech": "verb", "preterite": "bog ab", "participle": "abgebogen", "auxiliary": "sein", "irregular": true, "example": "Biegen Sie nach links ab." },
         { "id": "l14v13", "term": "weit", "translation": "lejos", "partOfSpeech": "adjective", "example": "Ist das weit?" },
         { "id": "l14v14", "term": "zu Fuß", "translation": "a pie", "partOfSpeech": "phrase", "example": "Kann ich zu Fuß gehen?" },
-        { "id": "l14v15", "term": "entschuldigen", "translation": "disculpar", "partOfSpeech": "verb", "example": "Entschuldigung, können Sie mir helfen?" },
+        { "id": "l14v15", "term": "entschuldigen", "translation": "disculpar", "partOfSpeech": "verb", "preterite": "entschuldigte", "participle": "entschuldigt", "auxiliary": "haben", "irregular": false, "example": "Entschuldigung, können Sie mir helfen?" },
         { "id": "l14v16", "term": "der Weg", "translation": "el camino", "partOfSpeech": "noun", "gender": "der", "plural": "die Wege", "example": "Ich kenne den Weg nicht." }
       ],
       "practice": {
         "easy": [
           { "id": "l14e01", "type": "multiple-choice", "instruction": "Wähle die richtige Präposition.", "prompt": "Der Kindergarten ist ___ der Schule.", "options": ["neben", "unter", "über", "zwischen"], "solution": "neben", "hint": "Position seitlich.", "explanation": "'neben' beschreibt eine Position seitlich daneben." },
           { "id": "l14e02", "type": "multiple-choice", "instruction": "Wähle die richtige Verbform.", "prompt": "___ Sie geradeaus.", "options": ["Gehen", "Geht", "Gehst", "Geh"], "solution": "Gehen", "hint": "Höflichkeitsform.", "explanation": "Die Höflichkeitsform des Imperativs verwendet 'Sie' + Verb." },
-          { "id": "l14e03", "type": "multiple-choice", "instruction": "Wähle die richtige Richtung.", "prompt": "Biegen Sie nach ___ ab.", "options": ["rechts", "links", "geradeaus", "zu Fuß"], "solution": "rechts", "hint": "Eine Richtung.", "explanation": "'rechts' ist eine Richtungsangabe." },
+          { "id": "l14e03", "type": "multiple-choice", "instruction": "Wähle die richtige Richtung.", "prompt": "Biegen Sie nach ___ ab.", "options": ["rechts", "oben", "geradeaus", "zu Fuß"], "solution": "rechts", "hint": "Eine Richtung, mit der man abbiegen kann.", "explanation": "'rechts' ist eine Richtungsangabe, die mit 'abbiegen' verwendet wird; 'oben', 'geradeaus' und 'zu Fuß' passen nicht zu 'abbiegen'." },
           { "id": "l14e04", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Ist das ___?", "options": ["weit", "rechts", "links", "Fuß"], "solution": "weit", "hint": "Fragt nach der Entfernung.", "explanation": "'weit' fragt nach der Entfernung." },
           { "id": "l14e05", "type": "multiple-choice", "instruction": "Wähle die passende Wendung.", "prompt": "Kann ich ___ gehen?", "options": ["zu Fuß", "geradeaus", "rechts", "weit"], "solution": "zu Fuß", "hint": "Ohne Fahrzeug.", "explanation": "'zu Fuß' bedeutet ohne Fahrzeug." },
           { "id": "l14e06", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Kreuzung", "options": ["der", "die", "das"], "solution": "die", "hint": "'Kreuzung' ist feminin.", "explanation": "'Kreuzung' ist feminin: die Kreuzung." },
@@ -150,16 +150,16 @@
         ]
       },
       "test": [
-        { "id": "l14t01", "type": "multiple-choice", "instruction": "Wähle die richtige Präposition.", "prompt": "Der Kindergarten ist ___ der Schule.", "options": ["neben", "unter", "über", "zwischen"], "solution": "neben", "explanation": "'neben' beschreibt eine Position seitlich daneben." },
-        { "id": "l14t02", "type": "multiple-choice", "instruction": "Wähle die richtige Richtung.", "prompt": "Biegen Sie nach ___ ab.", "options": ["rechts", "links", "geradeaus", "zu Fuß"], "solution": "rechts", "explanation": "'rechts' ist eine Richtungsangabe." },
-        { "id": "l14t03", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Ich kenne den ___ nicht. (Weg)", "solution": "Weg", "explanation": "'Weg' ist das gesuchte Substantiv." },
-        { "id": "l14t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Apotheke", "options": ["der", "die", "das"], "solution": "die", "explanation": "'Apotheke' ist feminin: die Apotheke." },
-        { "id": "l14t05", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "An der ___ links.", "options": ["Ampel", "Post", "Polizei", "Schule"], "solution": "Ampel", "explanation": "'Ampel' regelt den Verkehr mit Licht." },
-        { "id": "l14t06", "type": "sentence-scramble", "instruction": "Bilde eine Frage.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Kann", "ich", "zu", "Fuß", "gehen?"], "solution": "Kann ich zu Fuß gehen?", "explanation": "In der Ja/Nein-Frage steht das Modalverb an Position 1." },
-        { "id": "l14t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Die Post ___ (sein) am Markt.", "solution": "ist", "explanation": "Die 'sie'-Form von 'sein' lautet 'ist'." },
-        { "id": "l14t08", "type": "targeted-transformation", "instruction": "Fordere höflich auf.", "prompt": "nach rechts abbiegen", "solution": "Biegen Sie nach rechts ab.", "explanation": "Bei trennbaren Verben steht das Präfix 'ab' am Satzende." },
-        { "id": "l14t09", "type": "targeted-transformation", "instruction": "Sage, dass du den Weg nicht kennst.", "prompt": "den Weg / kennen / nicht", "solution": "Ich kenne den Weg nicht.", "explanation": "'nicht' steht hier am Satzende." },
-        { "id": "l14t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Biegen Sie nach rechts.", "solution": "Biegen Sie nach rechts ab.", "explanation": "Das Präfix 'ab' des trennbaren Verbs 'abbiegen' darf nicht fehlen." }
+        { "id": "l14t01", "type": "multiple-choice", "instruction": "Wähle die richtige Präposition.", "prompt": "Die Apotheke ist ___ der Kreuzung.", "options": ["an", "auf", "in", "über"], "solution": "an", "explanation": "'an der Kreuzung' ist die übliche Ortsangabe; 'an' + Dativ beschreibt eine Position." },
+        { "id": "l14t02", "type": "multiple-choice", "instruction": "Wähle die richtige Richtung.", "prompt": "Biegen Sie nach ___ ab.", "options": ["links", "oben", "zu Fuß", "weit"], "solution": "links", "explanation": "'links' ist eine Richtungsangabe, die mit 'abbiegen' verwendet wird; 'oben', 'zu Fuß' und 'weit' passen nicht zu 'abbiegen'." },
+        { "id": "l14t03", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Ich kenne die ___ nicht. (Post)", "solution": "Post", "explanation": "'Post' ist das gesuchte Substantiv." },
+        { "id": "l14t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Polizei", "options": ["der", "die", "das"], "solution": "die", "explanation": "'Polizei' ist feminin: die Polizei." },
+        { "id": "l14t05", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Wenn man krank ist, geht man zur ___.", "options": ["Apotheke", "Ampel", "Kreuzung", "Post"], "solution": "Apotheke", "explanation": "Bei Krankheit geht man in die Apotheke, um Medikamente zu holen." },
+        { "id": "l14t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Die", "Polizei", "ist", "an", "der", "Kreuzung"], "solution": "Die Polizei ist an der Kreuzung.", "explanation": "Die Wechselpräposition 'an' beschreibt mit Dativ eine Position." },
+        { "id": "l14t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Ich ___ (kennen) die Apotheke nicht.", "solution": "kenne", "explanation": "Die 'ich'-Form von 'kennen' lautet 'kenne'." },
+        { "id": "l14t08", "type": "targeted-transformation", "instruction": "Fordere höflich auf, an der Kreuzung abzubiegen.", "prompt": "an der Kreuzung / abbiegen", "solution": "Biegen Sie an der Kreuzung ab.", "explanation": "Bei trennbaren Verben steht das Präfix 'ab' am Satzende." },
+        { "id": "l14t09", "type": "targeted-transformation", "instruction": "Frage, ob das Krankenhaus weit ist.", "prompt": "das Krankenhaus / weit", "solution": "Ist das Krankenhaus weit?", "explanation": "In der Ja/Nein-Frage steht das Verb an Position 1." },
+        { "id": "l14t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Er kennt der Weg nicht.", "solution": "Er kennt den Weg nicht.", "explanation": "Nach 'kennen' steht der Akkusativ; maskulin lautet er 'den Weg', nicht 'der Weg'." }
       ]
     },
     {
@@ -181,7 +181,7 @@
         { "id": "l15v06", "term": "die Tür", "translation": "la puerta", "partOfSpeech": "noun", "gender": "die", "plural": "die Türen", "example": "Die Tür ist zu." },
         { "id": "l15v07", "term": "das Bad", "translation": "el baño", "partOfSpeech": "noun", "gender": "das", "plural": "die Bäder", "example": "Das Bad ist klein." },
         { "id": "l15v08", "term": "das Zimmer", "translation": "la habitación", "partOfSpeech": "noun", "gender": "das", "plural": "die Zimmer", "example": "Das Zimmer ist frei." },
-        { "id": "l15v09", "term": "mieten", "translation": "alquilar", "partOfSpeech": "verb", "example": "Ich möchte das Zimmer mieten." },
+        { "id": "l15v09", "term": "mieten", "translation": "alquilar", "partOfSpeech": "verb", "preterite": "mietete", "participle": "gemietet", "auxiliary": "haben", "irregular": false, "example": "Ich möchte das Zimmer mieten." },
         { "id": "l15v10", "term": "gemütlich", "translation": "acogedor", "partOfSpeech": "adjective", "example": "Das Zimmer ist gemütlich." },
         { "id": "l15v11", "term": "laut", "translation": "ruidoso", "partOfSpeech": "adjective", "example": "Die Straße ist laut." },
         { "id": "l15v12", "term": "klein", "translation": "pequeño", "partOfSpeech": "adjective", "example": "Das Zimmer ist klein." },
@@ -229,16 +229,16 @@
         ]
       },
       "test": [
-        { "id": "l15t01", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Das Zimmer ist ___.", "options": ["gemütlich", "laut", "klein", "frei"], "solution": "gemütlich", "explanation": "'gemütlich' beschreibt ein angenehmes Zimmer." },
-        { "id": "l15t02", "type": "multiple-choice", "instruction": "Wähle den Infinitiv.", "prompt": "Ich möchte das Zimmer ___.", "options": ["mieten", "miete", "mietest", "mietet"], "solution": "mieten", "explanation": "Nach dem Modalverb 'möchte' steht der Infinitiv." },
-        { "id": "l15t03", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Ich wohne in einer ___. (WG)", "solution": "WG", "explanation": "'WG' steht für Wohngemeinschaft." },
-        { "id": "l15t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Küche", "options": ["der", "die", "das"], "solution": "die", "explanation": "'Küche' ist feminin: die Küche." },
-        { "id": "l15t05", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Mein ___ ist nett.", "options": ["Mitbewohner", "Flur", "Balkon", "Quadratmeter"], "solution": "Mitbewohner", "explanation": "'Mitbewohner' bezeichnet eine Person, mit der man wohnt." },
-        { "id": "l15t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Die", "Straße", "ist", "laut"], "solution": "Die Straße ist laut.", "explanation": "Das konjugierte Verb steht an Position 2." },
-        { "id": "l15t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Die Tür ___ (sein) zu.", "solution": "ist", "explanation": "Die 'sie'-Form von 'sein' lautet 'ist'." },
-        { "id": "l15t08", "type": "targeted-transformation", "instruction": "Sage, dass du das Zimmer mieten möchtest.", "prompt": "das Zimmer / mieten möchten", "solution": "Ich möchte das Zimmer mieten.", "explanation": "Nach dem Modalverb 'möchte' steht der Infinitiv am Satzende." },
-        { "id": "l15t09", "type": "targeted-transformation", "instruction": "Sage, dass die Miete inklusive Nebenkosten ist.", "prompt": "die Miete / inklusive Nebenkosten", "solution": "Die Miete ist inklusive Nebenkosten.", "explanation": "Das konjugierte Verb steht an Position 2." },
-        { "id": "l15t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Das Zimmer sind gemütlich.", "solution": "Das Zimmer ist gemütlich.", "explanation": "Bei einem Singular-Subjekt lautet das Verb 'ist', nicht 'sind'." }
+        { "id": "l15t01", "type": "multiple-choice", "instruction": "Wähle den richtigen Possessivartikel.", "prompt": "Ich sehe ___ Küche.", "options": ["ihr", "ihre", "ihren", "ihrer"], "solution": "ihre", "explanation": "'Küche' ist feminin; im Akkusativ heißt es (wie im Nominativ) 'ihre Küche'." },
+        { "id": "l15t02", "type": "multiple-choice", "instruction": "Wähle den richtigen Possessivartikel.", "prompt": "Ich putze ___ Fenster.", "options": ["sein", "seine", "seinen", "seiner"], "solution": "seine", "explanation": "Im Plural (Fenster) lautet der Possessivartikel im Akkusativ 'seine Fenster'." },
+        { "id": "l15t03", "type": "fill-in-blank", "instruction": "Ergänze das Nomen.", "prompt": "Der ___ ist lang. (Flur)", "solution": "Flur", "explanation": "'Flur' ist das gesuchte Substantiv." },
+        { "id": "l15t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Toilette", "options": ["der", "die", "das"], "solution": "die", "explanation": "'Toilette' ist feminin: die Toilette." },
+        { "id": "l15t05", "type": "multiple-choice", "instruction": "Wähle das passende Wort.", "prompt": "Das Zimmer ist sehr ___.", "options": ["klein", "inklusive", "mieten", "Quadratmeter"], "solution": "klein", "explanation": "'klein' ist das einzige Adjektiv, das die Größe des Zimmers beschreibt." },
+        { "id": "l15t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Der", "Flur", "ist", "lang"], "solution": "Der Flur ist lang.", "explanation": "Das konjugierte Verb steht an Position 2." },
+        { "id": "l15t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Die Küche ___ (sein) klein.", "solution": "ist", "explanation": "Die 'sie'-Form von 'sein' lautet 'ist'." },
+        { "id": "l15t08", "type": "targeted-transformation", "instruction": "Sage, dass der Balkon groß ist.", "prompt": "der Balkon / groß", "solution": "Der Balkon ist groß.", "explanation": "Das konjugierte Verb steht an Position 2." },
+        { "id": "l15t09", "type": "targeted-transformation", "instruction": "Sage, dass ihr das Zimmer mieten möchtet.", "prompt": "das Zimmer / mieten möchten (ihr)", "solution": "Ihr möchtet das Zimmer mieten.", "explanation": "Die 'ihr'-Form von 'möchten' lautet 'möchtet'; der Infinitiv steht am Satzende." },
+        { "id": "l15t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Der Balkon sind klein.", "solution": "Der Balkon ist klein.", "explanation": "Bei einem Singular-Subjekt lautet das Verb 'ist', nicht 'sind'." }
       ]
     }
   ]
