@@ -16,20 +16,20 @@
       ],
       "vocabulary": [
         { "id": "l22v01", "term": "die Fabrik", "translation": "la fábrica", "partOfSpeech": "noun", "gender": "die", "plural": "die Fabriken", "example": "Die Autos werden in der Fabrik gebaut." },
-        { "id": "l22v02", "term": "herstellen", "translation": "fabricar", "partOfSpeech": "verb", "example": "Die Firma stellt Möbel her." },
-        { "id": "l22v03", "term": "produzieren", "translation": "producir", "partOfSpeech": "verb", "example": "Die Fabrik produziert Autos." },
+        { "id": "l22v02", "term": "herstellen", "translation": "fabricar", "partOfSpeech": "verb", "preterite": "stellte her", "participle": "hergestellt", "auxiliary": "haben", "irregular": false, "example": "Die Firma stellt Möbel her." },
+        { "id": "l22v03", "term": "produzieren", "translation": "producir", "partOfSpeech": "verb", "preterite": "produzierte", "participle": "produziert", "auxiliary": "haben", "irregular": false, "example": "Die Fabrik produziert Autos." },
         { "id": "l22v04", "term": "der Kunde", "translation": "el cliente", "partOfSpeech": "noun", "gender": "der", "plural": "die Kunden", "example": "Der Kunde wartet." },
         { "id": "l22v05", "term": "der Junge", "translation": "el chico", "partOfSpeech": "noun", "gender": "der", "plural": "die Jungen", "example": "Ich sehe den Jungen." },
         { "id": "l22v06", "term": "der Mensch", "translation": "el ser humano", "partOfSpeech": "noun", "gender": "der", "plural": "die Menschen", "example": "Ich kenne diesen Menschen." },
         { "id": "l22v07", "term": "der Student", "translation": "el estudiante", "partOfSpeech": "noun", "gender": "der", "plural": "die Studenten", "example": "Ich helfe dem Studenten." },
         { "id": "l22v08", "term": "die Maschine", "translation": "la máquina", "partOfSpeech": "noun", "gender": "die", "plural": "die Maschinen", "example": "Die Maschine läuft." },
-        { "id": "l22v09", "term": "verpacken", "translation": "envolver / empaquetar", "partOfSpeech": "verb", "example": "Die Produkte werden verpackt." },
-        { "id": "l22v10", "term": "liefern", "translation": "entregar", "partOfSpeech": "verb", "example": "Die Ware wird geliefert." },
+        { "id": "l22v09", "term": "verpacken", "translation": "envolver / empaquetar", "partOfSpeech": "verb", "preterite": "verpackte", "participle": "verpackt", "auxiliary": "haben", "irregular": false, "example": "Die Produkte werden verpackt." },
+        { "id": "l22v10", "term": "liefern", "translation": "entregar", "partOfSpeech": "verb", "preterite": "lieferte", "participle": "geliefert", "auxiliary": "haben", "irregular": false, "example": "Die Ware wird geliefert." },
         { "id": "l22v11", "term": "die Ware", "translation": "la mercancía", "partOfSpeech": "noun", "gender": "die", "plural": "die Waren", "example": "Die Ware wird geliefert." },
-        { "id": "l22v12", "term": "kontrollieren", "translation": "controlar", "partOfSpeech": "verb", "example": "Die Qualität wird kontrolliert." },
+        { "id": "l22v12", "term": "kontrollieren", "translation": "controlar", "partOfSpeech": "verb", "preterite": "kontrollierte", "participle": "kontrolliert", "auxiliary": "haben", "irregular": false, "example": "Die Qualität wird kontrolliert." },
         { "id": "l22v13", "term": "die Qualität", "translation": "la calidad", "partOfSpeech": "noun", "gender": "die", "example": "Die Qualität wird kontrolliert." },
         { "id": "l22v14", "term": "der Prozess", "translation": "el proceso", "partOfSpeech": "noun", "gender": "der", "plural": "die Prozesse", "example": "Der Prozess dauert lange." },
-        { "id": "l22v15", "term": "montieren", "translation": "montar", "partOfSpeech": "verb", "example": "Die Teile werden montiert." },
+        { "id": "l22v15", "term": "montieren", "translation": "montar", "partOfSpeech": "verb", "preterite": "montierte", "participle": "montiert", "auxiliary": "haben", "irregular": false, "example": "Die Teile werden montiert." },
         { "id": "l22v16", "term": "das Produkt", "translation": "el producto", "partOfSpeech": "noun", "gender": "das", "plural": "die Produkte", "example": "Das Produkt wird verkauft." }
       ],
       "practice": {
@@ -71,16 +71,16 @@
         ]
       },
       "test": [
-        { "id": "l22t01", "type": "multiple-choice", "instruction": "Wähle die richtige Passivform.", "prompt": "Die Autos ___ in der Fabrik gebaut.", "options": ["werden", "werde", "wirst", "wird"], "solution": "werden", "explanation": "Bei einem Plural-Subjekt lautet das Passiv-Hilfsverb 'werden'." },
-        { "id": "l22t02", "type": "multiple-choice", "instruction": "Wähle die richtige Passivform.", "prompt": "Die Ware ___ geliefert.", "options": ["wird", "werden", "werde", "wirst"], "solution": "wird", "explanation": "Bei einem Singular-Subjekt lautet das Passiv-Hilfsverb 'wird'." },
-        { "id": "l22t03", "type": "multiple-choice", "instruction": "Wähle die richtige n-Deklination.", "prompt": "Ich sehe den ___. (Junge, Akkusativ)", "options": ["Jungen", "Junge", "Jungens", "Jung"], "solution": "Jungen", "explanation": "Bei der n-Deklination endet 'der Junge' im Akkusativ auf '-n'." },
-        { "id": "l22t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Kunde", "options": ["der", "die", "das"], "solution": "der", "explanation": "'Kunde' ist maskulin: der Kunde." },
-        { "id": "l22t05", "type": "multiple-choice", "instruction": "Wähle die richtige n-Deklination.", "prompt": "Der ___ wartet. (Kunde, Nominativ)", "options": ["Kunde", "Kunden", "Kundes", "Kund"], "solution": "Kunde", "explanation": "Bei der n-Deklination hat 'der Kunde' im Nominativ Singular keine zusätzliche Endung." },
-        { "id": "l22t06", "type": "sentence-scramble", "instruction": "Bilde einen Passivsatz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Die", "Qualität", "wird", "kontrolliert"], "solution": "Die Qualität wird kontrolliert.", "explanation": "Im Passiv steht 'wird' an Position 2 und das Partizip II am Satzende." },
-        { "id": "l22t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Passiv-Hilfsverb.", "prompt": "Die Teile ___ (werden) montiert.", "solution": "werden", "explanation": "Bei einem Plural-Subjekt lautet das Passiv-Hilfsverb 'werden'." },
-        { "id": "l22t08", "type": "targeted-transformation", "instruction": "Bilde das Passiv.", "prompt": "Die Firma liefert die Ware.", "solution": "Die Ware wird geliefert.", "explanation": "Im Passiv wird das Akkusativobjekt des Aktivsatzes zum Subjekt." },
-        { "id": "l22t09", "type": "targeted-transformation", "instruction": "Dekliniere im Dativ.", "prompt": "der Student (ich helfe ...)", "solution": "Ich helfe dem Studenten.", "explanation": "Bei der n-Deklination endet 'der Student' im Dativ auf '-en'." },
-        { "id": "l22t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich sehe den Junge.", "solution": "Ich sehe den Jungen.", "explanation": "Bei der n-Deklination muss 'der Junge' im Akkusativ auf '-n' enden." }
+        { "id": "l22t01", "type": "multiple-choice", "instruction": "Wähle die richtige Passivform.", "prompt": "Die Maschinen ___ in der Fabrik montiert.", "options": ["werden", "werde", "wirst", "wird"], "solution": "werden", "explanation": "Bei einem Plural-Subjekt lautet das Passiv-Hilfsverb 'werden'." },
+        { "id": "l22t02", "type": "multiple-choice", "instruction": "Wähle die richtige Passivform.", "prompt": "Das Produkt ___ verpackt.", "options": ["wird", "werden", "werde", "wirst"], "solution": "wird", "explanation": "Bei einem Singular-Subjekt lautet das Passiv-Hilfsverb 'wird'." },
+        { "id": "l22t03", "type": "multiple-choice", "instruction": "Wähle die richtige n-Deklination.", "prompt": "Ich kenne den ___. (Kunde, Akkusativ)", "options": ["Kunden", "Kunde", "Kundes", "Kund"], "solution": "Kunden", "explanation": "Bei der n-Deklination endet 'der Kunde' im Akkusativ auf '-n'." },
+        { "id": "l22t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Maschine", "options": ["der", "die", "das"], "solution": "die", "explanation": "'Maschine' ist feminin: die Maschine." },
+        { "id": "l22t05", "type": "multiple-choice", "instruction": "Wähle die richtige n-Deklination.", "prompt": "Der ___ arbeitet hier. (Student, Nominativ)", "options": ["Student", "Studenten", "Studentes", "Stud"], "solution": "Student", "explanation": "Bei der n-Deklination hat 'der Student' im Nominativ Singular keine zusätzliche Endung." },
+        { "id": "l22t06", "type": "sentence-scramble", "instruction": "Bilde einen Passivsatz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Die", "Maschinen", "werden", "montiert"], "solution": "Die Maschinen werden montiert.", "explanation": "Im Passiv steht 'werden' an Position 2 und das Partizip II am Satzende." },
+        { "id": "l22t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Passiv-Hilfsverb.", "prompt": "Die Ware ___ (werden) kontrolliert.", "solution": "wird", "explanation": "Bei einem Singular-Subjekt lautet das Passiv-Hilfsverb 'wird'." },
+        { "id": "l22t08", "type": "targeted-transformation", "instruction": "Bilde das Passiv.", "prompt": "Die Fabrik produziert die Maschinen.", "solution": "Die Maschinen werden produziert.", "explanation": "Im Passiv wird das Akkusativobjekt des Aktivsatzes zum Subjekt." },
+        { "id": "l22t09", "type": "targeted-transformation", "instruction": "Dekliniere im Dativ.", "prompt": "der Kunde (ich helfe ...)", "solution": "Ich helfe dem Kunden.", "explanation": "Bei der n-Deklination endet 'der Kunde' im Dativ auf '-n'." },
+        { "id": "l22t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich sehe den Student.", "solution": "Ich sehe den Studenten.", "explanation": "Bei der n-Deklination muss 'der Student' im Akkusativ auf '-en' enden." }
       ]
     },
     {
@@ -94,21 +94,21 @@
         "Relativsätze im Dativ: dem, der"
       ],
       "vocabulary": [
-        { "id": "l23v01", "term": "erzählen", "translation": "contar (una historia)", "partOfSpeech": "verb", "example": "Ich erzähle eine Geschichte." },
+        { "id": "l23v01", "term": "erzählen", "translation": "contar (una historia)", "partOfSpeech": "verb", "preterite": "erzählte", "participle": "erzählt", "auxiliary": "haben", "irregular": false, "example": "Ich erzähle eine Geschichte." },
         { "id": "l23v02", "term": "die Geschichte", "translation": "la historia", "partOfSpeech": "noun", "gender": "die", "plural": "die Geschichten", "example": "Das ist eine spannende Geschichte." },
         { "id": "l23v03", "term": "es war einmal", "translation": "érase una vez", "partOfSpeech": "phrase", "example": "Es war einmal ein König." },
         { "id": "l23v04", "term": "der König", "translation": "el rey", "partOfSpeech": "noun", "gender": "der", "plural": "die Könige", "example": "Es war einmal ein König." },
         { "id": "l23v05", "term": "die Prinzessin", "translation": "la princesa", "partOfSpeech": "noun", "gender": "die", "plural": "die Prinzessinnen", "example": "Die Prinzessin lebte im Schloss." },
-        { "id": "l23v06", "term": "passieren", "translation": "pasar / suceder", "partOfSpeech": "verb", "example": "Was ist passiert?" },
+        { "id": "l23v06", "term": "passieren", "translation": "pasar / suceder", "partOfSpeech": "verb", "preterite": "passierte", "participle": "passiert", "auxiliary": "sein", "irregular": false, "example": "Was ist passiert?" },
         { "id": "l23v07", "term": "plötzlich", "translation": "de repente", "partOfSpeech": "adverb", "example": "Plötzlich kam ein Sturm." },
         { "id": "l23v08", "term": "das Ende", "translation": "el final", "partOfSpeech": "noun", "gender": "das", "plural": "die Enden", "example": "Das Ende war überraschend." },
         { "id": "l23v09", "term": "der Anfang", "translation": "el comienzo", "partOfSpeech": "noun", "gender": "der", "plural": "die Anfänge", "example": "Am Anfang war alles ruhig." },
         { "id": "l23v10", "term": "spannend", "translation": "emocionante", "partOfSpeech": "adjective", "example": "Das war eine spannende Geschichte." },
         { "id": "l23v11", "term": "der Held", "translation": "el héroe", "partOfSpeech": "noun", "gender": "der", "plural": "die Helden", "example": "Der Held rettete das Dorf." },
         { "id": "l23v12", "term": "das Dorf", "translation": "el pueblo", "partOfSpeech": "noun", "gender": "das", "plural": "die Dörfer", "example": "Der Held rettete das Dorf." },
-        { "id": "l23v13", "term": "besiegen", "translation": "vencer", "partOfSpeech": "verb", "example": "Er besiegte den Drachen." },
+        { "id": "l23v13", "term": "besiegen", "translation": "vencer", "partOfSpeech": "verb", "preterite": "besiegte", "participle": "besiegt", "auxiliary": "haben", "irregular": false, "example": "Er besiegte den Drachen." },
         { "id": "l23v14", "term": "der Drache", "translation": "el dragón", "partOfSpeech": "noun", "gender": "der", "plural": "die Drachen", "example": "Er besiegte den Drachen." },
-        { "id": "l23v15", "term": "retten", "translation": "salvar", "partOfSpeech": "verb", "example": "Der Held rettete das Dorf." },
+        { "id": "l23v15", "term": "retten", "translation": "salvar", "partOfSpeech": "verb", "preterite": "rettete", "participle": "gerettet", "auxiliary": "haben", "irregular": false, "example": "Der Held rettete das Dorf." },
         { "id": "l23v16", "term": "glücklich", "translation": "feliz", "partOfSpeech": "adjective", "example": "Am Ende waren alle glücklich." }
       ],
       "practice": {
@@ -141,7 +141,7 @@
           { "id": "l23h02", "type": "targeted-transformation", "instruction": "Bilde das Präteritum.", "prompt": "Plötzlich kommt ein Sturm.", "solution": "Plötzlich kam ein Sturm.", "hint": "Präteritum von 'kommen'.", "explanation": "Die Präteritumform von 'kommen' für Singular lautet 'kam'." },
           { "id": "l23h03", "type": "targeted-transformation", "instruction": "Bilde das Präteritum.", "prompt": "Der Held rettet das Dorf.", "solution": "Der Held rettete das Dorf.", "hint": "Präteritum von 'retten'.", "explanation": "Die Präteritumform von 'retten' für Singular lautet 'rettete'." },
           { "id": "l23h04", "type": "targeted-transformation", "instruction": "Bilde das Präteritum.", "prompt": "Er besiegt den Drachen.", "solution": "Er besiegte den Drachen.", "hint": "Präteritum von 'besiegen'.", "explanation": "Die Präteritumform von 'besiegen' für Singular lautet 'besiegte'." },
-          { "id": "l23h05", "type": "targeted-transformation", "instruction": "Verbinde die Sätze mit einem Relativpronomen im Dativ.", "prompt": "Das ist der Held. Ich vertraue dem Held.", "solution": "Das ist der Held, dem ich vertraue.", "hint": "Dativ-Relativpronomen maskulin: dem.", "explanation": "'vertrauen' verlangt den Dativ; das Relativpronomen lautet 'dem'." },
+          { "id": "l23h05", "type": "targeted-transformation", "instruction": "Verbinde die Sätze mit einem Relativpronomen im Dativ.", "prompt": "Das ist der Held. Ich vertraue dem Helden.", "solution": "Das ist der Held, dem ich vertraue.", "hint": "Dativ-Relativpronomen maskulin: dem.", "explanation": "'vertrauen' verlangt den Dativ; das Relativpronomen lautet 'dem'." },
           { "id": "l23h06", "type": "targeted-transformation", "instruction": "Verbinde die Sätze mit einem Relativpronomen im Dativ.", "prompt": "Das ist die Prinzessin. Ich helfe der Prinzessin.", "solution": "Das ist die Prinzessin, der ich helfe.", "hint": "Dativ-Relativpronomen feminin: der.", "explanation": "'helfen' verlangt den Dativ; das Relativpronomen lautet 'der'." },
           { "id": "l23h07", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Es waren einmal ein König.", "solution": "Es war einmal ein König.", "hint": "'ein König' ist Singular.", "explanation": "Da 'ein König' Singular ist, muss das Verb 'war' lauten, nicht 'waren'." },
           { "id": "l23h08", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Er besiegt den Drachen gestern.", "solution": "Er besiegte den Drachen gestern.", "hint": "Vergangene Erzählungen brauchen das Präteritum.", "explanation": "Für Erzählungen über die Vergangenheit verwendet man das Präteritum, nicht das Präsens." },
@@ -150,16 +150,16 @@
         ]
       },
       "test": [
-        { "id": "l23t01", "type": "multiple-choice", "instruction": "Wähle die richtige Präteritumform.", "prompt": "Es ___ einmal ein König.", "options": ["war", "ist", "wäre", "waren"], "solution": "war", "explanation": "Die Präteritumform von 'sein' für Singular lautet 'war'." },
-        { "id": "l23t02", "type": "multiple-choice", "instruction": "Wähle die richtige Präteritumform.", "prompt": "Plötzlich ___ ein Sturm.", "options": ["kam", "kommt", "käme", "kamen"], "solution": "kam", "explanation": "Die Präteritumform von 'kommen' für Singular lautet 'kam'." },
-        { "id": "l23t03", "type": "multiple-choice", "instruction": "Wähle die richtige Präteritumform.", "prompt": "Der Held ___ das Dorf.", "options": ["rettete", "rettet", "rette", "retteten"], "solution": "rettete", "explanation": "Die Präteritumform von 'retten' für Singular lautet 'rettete'." },
-        { "id": "l23t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Ende", "options": ["der", "die", "das"], "solution": "das", "explanation": "'Ende' ist neutral: das Ende." },
-        { "id": "l23t05", "type": "multiple-choice", "instruction": "Wähle die richtige Präteritumform.", "prompt": "Am Ende ___ alle glücklich.", "options": ["waren", "war", "ist", "sind"], "solution": "waren", "explanation": "Die Präteritumform von 'sein' für Plural lautet 'waren'." },
-        { "id": "l23t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Er", "besiegte", "den", "Drachen"], "solution": "Er besiegte den Drachen.", "explanation": "Bei der n-Deklination endet 'der Drache' im Akkusativ auf '-n'." },
-        { "id": "l23t07", "type": "cloze-conjugation", "instruction": "Bilde die Präteritumform.", "prompt": "Wir ___ (besiegen) den Drachen.", "solution": "besiegten", "explanation": "Die 'wir'-Form von 'besiegen' im Präteritum lautet 'besiegten'." },
-        { "id": "l23t08", "type": "targeted-transformation", "instruction": "Bilde das Präteritum.", "prompt": "Der Held rettet das Dorf.", "solution": "Der Held rettete das Dorf.", "explanation": "Die Präteritumform von 'retten' für Singular lautet 'rettete'." },
-        { "id": "l23t09", "type": "targeted-transformation", "instruction": "Verbinde die Sätze mit einem Relativpronomen im Dativ.", "prompt": "Das ist die Prinzessin. Ich helfe der Prinzessin.", "solution": "Das ist die Prinzessin, der ich helfe.", "explanation": "'helfen' verlangt den Dativ; das Relativpronomen lautet 'der'." },
-        { "id": "l23t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Ich sehe den Drache.", "solution": "Ich sehe den Drachen.", "explanation": "Bei der n-Deklination muss 'der Drache' im Akkusativ auf '-n' enden." }
+        { "id": "l23t01", "type": "multiple-choice", "instruction": "Wähle die richtige Präteritumform.", "prompt": "Am Anfang ___ im Dorf alles ruhig.", "options": ["war", "ist", "wäre", "waren"], "solution": "war", "explanation": "Die Präteritumform von 'sein' für Singular lautet 'war'." },
+        { "id": "l23t02", "type": "multiple-choice", "instruction": "Wähle die richtige Präteritumform.", "prompt": "Der König ___ die Prinzessin.", "options": ["rettete", "rettet", "rette", "retteten"], "solution": "rettete", "explanation": "Die Präteritumform von 'retten' für Singular lautet 'rettete'." },
+        { "id": "l23t03", "type": "multiple-choice", "instruction": "Wähle die richtige Präteritumform.", "prompt": "Die Helden ___ das Dorf.", "options": ["retteten", "rettete", "retten", "rettetet"], "solution": "retteten", "explanation": "Die Präteritumform von 'retten' für Plural lautet 'retteten'." },
+        { "id": "l23t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Anfang", "options": ["der", "die", "das"], "solution": "der", "explanation": "'Anfang' ist maskulin: der Anfang." },
+        { "id": "l23t05", "type": "multiple-choice", "instruction": "Wähle die richtige Präteritumform.", "prompt": "Plötzlich ___ ein Drache.", "options": ["kam", "kommt", "käme", "kamen"], "solution": "kam", "explanation": "Die Präteritumform von 'kommen' für Singular lautet 'kam'." },
+        { "id": "l23t06", "type": "sentence-scramble", "instruction": "Bilde einen Satz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Die", "Prinzessin", "rettete", "den", "König"], "solution": "Die Prinzessin rettete den König.", "explanation": "Das konjugierte Verb steht an Position 2; 'retten' im Präteritum lautet 'rettete'." },
+        { "id": "l23t07", "type": "cloze-conjugation", "instruction": "Bilde die Präteritumform.", "prompt": "Ihr ___ (erzählen) eine spannende Geschichte.", "solution": "erzähltet", "explanation": "Die 'ihr'-Form von 'erzählen' im Präteritum lautet 'erzähltet'." },
+        { "id": "l23t08", "type": "targeted-transformation", "instruction": "Bilde das Präteritum.", "prompt": "Die Prinzessin wohnt im Schloss.", "solution": "Die Prinzessin wohnte im Schloss.", "explanation": "Die Präteritumform von 'wohnen' für Singular lautet 'wohnte'." },
+        { "id": "l23t09", "type": "targeted-transformation", "instruction": "Verbinde die Sätze mit einem Relativpronomen im Dativ.", "prompt": "Das ist der Held. Ich danke dem Helden.", "solution": "Das ist der Held, dem ich danke.", "explanation": "'danken' verlangt den Dativ; das Relativpronomen lautet 'dem'." },
+        { "id": "l23t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Das ist der König, den ich vertraue.", "solution": "Das ist der König, dem ich vertraue.", "explanation": "'vertrauen' verlangt den Dativ; das Relativpronomen muss 'dem' lauten, nicht 'den'." }
       ]
     },
     {
@@ -175,19 +175,19 @@
       "vocabulary": [
         { "id": "l24v01", "term": "das Gesetz", "translation": "la ley", "partOfSpeech": "noun", "gender": "das", "plural": "die Gesetze", "example": "Das Gesetz wurde geändert." },
         { "id": "l24v02", "term": "die Regel", "translation": "la regla", "partOfSpeech": "noun", "gender": "die", "plural": "die Regeln", "example": "Die Regel muss eingehalten werden." },
-        { "id": "l24v03", "term": "ändern", "translation": "cambiar", "partOfSpeech": "verb", "example": "Das Gesetz wurde geändert." },
-        { "id": "l24v04", "term": "einhalten", "translation": "cumplir", "partOfSpeech": "verb", "example": "Die Regel muss eingehalten werden." },
-        { "id": "l24v05", "term": "verbieten", "translation": "prohibir", "partOfSpeech": "verb", "example": "Rauchen wurde verboten." },
-        { "id": "l24v06", "term": "erlauben", "translation": "permitir", "partOfSpeech": "verb", "example": "Parken wurde hier erlaubt." },
+        { "id": "l24v03", "term": "ändern", "translation": "cambiar", "partOfSpeech": "verb", "preterite": "änderte", "participle": "geändert", "auxiliary": "haben", "irregular": false, "example": "Das Gesetz wurde geändert." },
+        { "id": "l24v04", "term": "einhalten", "translation": "cumplir", "partOfSpeech": "verb", "preterite": "hielt ein", "participle": "eingehalten", "auxiliary": "haben", "irregular": true, "example": "Die Regel muss eingehalten werden." },
+        { "id": "l24v05", "term": "verbieten", "translation": "prohibir", "partOfSpeech": "verb", "preterite": "verbot", "participle": "verboten", "auxiliary": "haben", "irregular": true, "example": "Rauchen wurde verboten." },
+        { "id": "l24v06", "term": "erlauben", "translation": "permitir", "partOfSpeech": "verb", "preterite": "erlaubte", "participle": "erlaubt", "auxiliary": "haben", "irregular": false, "example": "Parken wurde hier erlaubt." },
         { "id": "l24v07", "term": "das Verbot", "translation": "la prohibición", "partOfSpeech": "noun", "gender": "das", "plural": "die Verbote", "example": "Das Verbot gilt seit 2020." },
         { "id": "l24v08", "term": "die Erlaubnis", "translation": "el permiso", "partOfSpeech": "noun", "gender": "die", "example": "Ich brauche eine Erlaubnis." },
-        { "id": "l24v09", "term": "beschließen", "translation": "decidir / acordar", "partOfSpeech": "verb", "example": "Das Gesetz wurde beschlossen." },
+        { "id": "l24v09", "term": "beschließen", "translation": "decidir / acordar", "partOfSpeech": "verb", "preterite": "beschloss", "participle": "beschlossen", "auxiliary": "haben", "irregular": true, "example": "Das Gesetz wurde beschlossen." },
         { "id": "l24v10", "term": "die Regierung", "translation": "el gobierno", "partOfSpeech": "noun", "gender": "die", "plural": "die Regierungen", "example": "Die Regierung hat das Gesetz beschlossen." },
         { "id": "l24v11", "term": "das Parlament", "translation": "el parlamento", "partOfSpeech": "noun", "gender": "das", "plural": "die Parlamente", "example": "Das Parlament hat abgestimmt." },
-        { "id": "l24v12", "term": "abstimmen", "translation": "votar", "partOfSpeech": "verb", "example": "Das Parlament hat abgestimmt." },
-        { "id": "l24v13", "term": "gelten", "translation": "ser válido / aplicar", "partOfSpeech": "verb", "example": "Das Gesetz gilt ab Januar." },
+        { "id": "l24v12", "term": "abstimmen", "translation": "votar", "partOfSpeech": "verb", "preterite": "stimmte ab", "participle": "abgestimmt", "auxiliary": "haben", "irregular": false, "example": "Das Parlament hat abgestimmt." },
+        { "id": "l24v13", "term": "gelten", "translation": "ser válido / aplicar", "partOfSpeech": "verb", "preterite": "galt", "participle": "gegolten", "auxiliary": "haben", "irregular": true, "example": "Das Gesetz gilt ab Januar." },
         { "id": "l24v14", "term": "die Strafe", "translation": "la multa / el castigo", "partOfSpeech": "noun", "gender": "die", "plural": "die Strafen", "example": "Bei Verstoß droht eine Strafe." },
-        { "id": "l24v15", "term": "bestrafen", "translation": "castigar", "partOfSpeech": "verb", "example": "Verstöße werden bestraft." },
+        { "id": "l24v15", "term": "bestrafen", "translation": "castigar", "partOfSpeech": "verb", "preterite": "bestrafte", "participle": "bestraft", "auxiliary": "haben", "irregular": false, "example": "Verstöße werden bestraft." },
         { "id": "l24v16", "term": "der Bürger", "translation": "el ciudadano", "partOfSpeech": "noun", "gender": "der", "plural": "die Bürger", "example": "Die Bürger müssen die Regeln beachten." }
       ],
       "practice": {
@@ -201,7 +201,7 @@
           { "id": "l24e07", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Regel", "options": ["der", "die", "das"], "solution": "die", "hint": "'Regel' ist feminin.", "explanation": "'Regel' ist feminin: die Regel." },
           { "id": "l24e08", "type": "multiple-choice", "instruction": "Wähle das richtige Partizip II.", "prompt": "Das Parlament hat ___.", "options": ["abgestimmt", "abstimmt", "abgestimmen", "abstimmte"], "solution": "abgestimmt", "hint": "Partizip II von 'abstimmen'.", "explanation": "Das Partizip II von 'abstimmen' lautet 'abgestimmt'." },
           { "id": "l24e09", "type": "fill-in-blank", "instruction": "Ergänze das Verb.", "prompt": "Das Gesetz ___ ab Januar. (gelten)", "solution": "gilt", "hint": "3. Person Singular.", "explanation": "Die 'es'-Form von 'gelten' lautet 'gilt'." },
-          { "id": "l24e10", "type": "fill-in-blank", "instruction": "Ergänze das Verb.", "prompt": "Die Bürger müssen die Regeln ___. (beachten)", "solution": "beachten", "hint": "Infinitiv nach Modalverb.", "explanation": "Nach dem Modalverb 'müssen' steht der Infinitiv 'beachten'." }
+          { "id": "l24e10", "type": "fill-in-blank", "instruction": "Ergänze das Verb.", "prompt": "Die Bürger müssen die Regeln ___. (respetar)", "solution": "beachten", "hint": "Infinitiv nach Modalverb.", "explanation": "Nach dem Modalverb 'müssen' steht der Infinitiv 'beachten'." }
         ],
         "medium": [
           { "id": "l24m01", "type": "sentence-scramble", "instruction": "Bilde einen Passivsatz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Das", "Gesetz", "wurde", "geändert"], "solution": "Das Gesetz wurde geändert.", "hint": "'wurde' an Position 2, Partizip II am Ende.", "explanation": "Im Passiv Präteritum steht 'wurde' an Position 2 und das Partizip II am Satzende." },
@@ -229,16 +229,16 @@
         ]
       },
       "test": [
-        { "id": "l24t01", "type": "multiple-choice", "instruction": "Wähle die richtige Passivform.", "prompt": "Das Gesetz ___ geändert.", "options": ["wurde", "wird", "werden", "wurden"], "solution": "wurde", "explanation": "Die Präteritum-Passivform für Singular lautet 'wurde'." },
-        { "id": "l24t02", "type": "multiple-choice", "instruction": "Wähle die richtige Passivform mit Modalverb.", "prompt": "Die Regel muss ___.", "options": ["eingehalten werden", "einhalten werden", "eingehalten sein", "einhalten sein"], "solution": "eingehalten werden", "explanation": "Passiv mit Modalverb bildet man mit Partizip II + 'werden' am Satzende." },
-        { "id": "l24t03", "type": "multiple-choice", "instruction": "Wähle die richtige Passivform.", "prompt": "Verstöße ___ bestraft.", "options": ["werden", "wird", "wurde", "wurden"], "solution": "werden", "explanation": "Die Präsens-Passivform für Plural lautet 'werden'." },
-        { "id": "l24t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Gesetz", "options": ["der", "die", "das"], "solution": "das", "explanation": "'Gesetz' ist neutral: das Gesetz." },
-        { "id": "l24t05", "type": "multiple-choice", "instruction": "Wähle die richtige Passivform.", "prompt": "Das Gesetz ___ beschlossen.", "options": ["wurde", "wird", "werden", "wurden"], "solution": "wurde", "explanation": "Die Präteritum-Passivform für Singular lautet 'wurde'." },
-        { "id": "l24t06", "type": "sentence-scramble", "instruction": "Bilde einen Passivsatz mit Modalverb.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Die", "Regel", "muss", "eingehalten", "werden"], "solution": "Die Regel muss eingehalten werden.", "explanation": "Im Passiv mit Modalverb steht das Partizip II vor 'werden' am Satzende." },
-        { "id": "l24t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Das Gesetz ___ (gelten) seit 2020.", "solution": "gilt", "explanation": "Die 'es'-Form von 'gelten' lautet 'gilt'." },
-        { "id": "l24t08", "type": "targeted-transformation", "instruction": "Bilde das Passiv Präteritum.", "prompt": "Die Regierung änderte das Gesetz.", "solution": "Das Gesetz wurde geändert.", "explanation": "Im Passiv wird das Akkusativobjekt des Aktivsatzes zum Subjekt; das Hilfsverb im Präteritum ist 'wurde'." },
-        { "id": "l24t09", "type": "targeted-transformation", "instruction": "Bilde das Passiv mit Modalverb.", "prompt": "Man muss die Regel einhalten.", "solution": "Die Regel muss eingehalten werden.", "explanation": "Passiv mit Modalverb bildet man mit Partizip II + 'werden' am Satzende." },
-        { "id": "l24t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Verstöße wird bestraft.", "solution": "Verstöße werden bestraft.", "explanation": "Bei einem Plural-Subjekt muss das Passiv-Hilfsverb 'werden' lauten, nicht 'wird'." }
+        { "id": "l24t01", "type": "multiple-choice", "instruction": "Wähle die richtige Passivform.", "prompt": "Parken ___ vor dem Haus erlaubt.", "options": ["wurde", "wird", "werden", "wurden"], "solution": "wurde", "explanation": "Die Präteritum-Passivform für Singular lautet 'wurde'." },
+        { "id": "l24t02", "type": "multiple-choice", "instruction": "Wähle die richtige Passivform.", "prompt": "Das Verbot ___ 2020 beschlossen.", "options": ["wurde", "wird", "werden", "wurden"], "solution": "wurde", "explanation": "Die Präteritum-Passivform für Singular lautet 'wurde'." },
+        { "id": "l24t03", "type": "multiple-choice", "instruction": "Wähle die richtige Passivform mit Modalverb.", "prompt": "Die Gesetze müssen ___.", "options": ["eingehalten werden", "einhalten werden", "eingehalten sein", "einhalten sein"], "solution": "eingehalten werden", "explanation": "Passiv mit Modalverb bildet man mit Partizip II + 'werden' am Satzende, unabhängig vom Numerus des Subjekts." },
+        { "id": "l24t04", "type": "multiple-choice", "instruction": "Wähle den richtigen Artikel.", "prompt": "___ Strafe", "options": ["der", "die", "das"], "solution": "die", "explanation": "'Strafe' ist feminin: die Strafe." },
+        { "id": "l24t05", "type": "multiple-choice", "instruction": "Wähle die richtige Passivform.", "prompt": "Die Regeln ___ beachtet.", "options": ["werden", "wird", "wurde", "wurden"], "solution": "werden", "explanation": "Die Präsens-Passivform für Plural lautet 'werden'." },
+        { "id": "l24t06", "type": "sentence-scramble", "instruction": "Bilde einen Passivsatz.", "prompt": "Baue den Satz aus den Wörtern.", "scrambleChunks": ["Das", "Verbot", "wurde", "beschlossen"], "solution": "Das Verbot wurde beschlossen.", "explanation": "Im Passiv Präteritum steht 'wurde' an Position 2 und das Partizip II am Satzende." },
+        { "id": "l24t07", "type": "cloze-conjugation", "instruction": "Konjugiere das Verb in Klammern.", "prompt": "Die Strafe ___ (gelten) für alle Bürger.", "solution": "gilt", "explanation": "Die 'es'-Form von 'gelten' lautet 'gilt'." },
+        { "id": "l24t08", "type": "targeted-transformation", "instruction": "Bilde das Passiv Präteritum.", "prompt": "Die Regierung erlaubte das Parken.", "solution": "Das Parken wurde erlaubt.", "explanation": "Im Passiv wird das Akkusativobjekt des Aktivsatzes zum Subjekt; das Hilfsverb im Präteritum ist 'wurde'." },
+        { "id": "l24t09", "type": "targeted-transformation", "instruction": "Bilde das Passiv mit Modalverb.", "prompt": "Man muss die Gesetze beachten.", "solution": "Die Gesetze müssen beachtet werden.", "explanation": "Passiv mit Modalverb bildet man mit Partizip II + 'werden' am Satzende; bei einem Plural-Subjekt lautet das Modalverb 'müssen'." },
+        { "id": "l24t10", "type": "error-correction", "instruction": "Finde und korrigiere den Fehler.", "prompt": "Die Gesetze muss beachtet werden.", "solution": "Die Gesetze müssen beachtet werden.", "explanation": "Bei einem Plural-Subjekt muss das Modalverb 'müssen' lauten, nicht 'muss'." }
       ]
     }
   ]
