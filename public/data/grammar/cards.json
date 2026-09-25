@@ -1,0 +1,6664 @@
+{
+  "cards": [
+    {
+      "id": "a1-verb-position-2",
+      "level": "A1",
+      "category": "satzbau",
+      "title": "Das Verb steht auf Platz 2",
+      "subtitle": "Egal, was vorne steht — das Verb kommt direkt danach.",
+      "lektionIds": [
+        "a1-m1-l1",
+        "a1-m1-l3"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Platz 1",
+          "Platz 2",
+          "…"
+        ],
+        "highlightColumn": 1,
+        "rows": [
+          [
+            "Ich",
+            "wohne",
+            "in Berlin."
+          ],
+          [
+            "Heute",
+            "gehe",
+            "ich ins Kino."
+          ],
+          [
+            "Am Montag",
+            "hat",
+            "er Kurs."
+          ],
+          [
+            "Woher",
+            "kommst",
+            "du?"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "text": "Ich [lerne] heute Deutsch.",
+          "result": "Heute [lerne] ich Deutsch."
+        }
+      ],
+      "warning": {
+        "wrong": "Heute ich gehe ins Kino.",
+        "right": "Heute gehe ich ins Kino.",
+        "note": "Nach „heute“ kommt sofort das Verb."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Verb auf Platz 1",
+            "lines": [
+              "Ja/Nein-Fragen: [Kommst] du mit?",
+              "Imperativ: [Komm] mit!"
+            ]
+          },
+          {
+            "title": "Zählen nicht mit",
+            "lines": [
+              "und, aber, oder, denn:",
+              "Ich bleibe, denn ich [bin] müde."
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Morgen ___ wir nach Hamburg. (fahren)",
+            "answer": "fahren"
+          },
+          {
+            "prompt": "im Sommer / ich / reise / nach Spanien",
+            "answer": "Im Sommer reise ich nach Spanien."
+          },
+          {
+            "prompt": "Richtig? „Dann ich esse.“",
+            "answer": "Nein: Dann esse ich."
+          }
+        ]
+      }
+    },
+    {
+      "id": "a1-w-fragen-ja-nein",
+      "level": "A1",
+      "category": "satzbau",
+      "title": "W-Frage oder Ja/Nein-Frage?",
+      "subtitle": "Vorne steht das W-Wort — oder direkt das Verb.",
+      "lektionIds": [
+        "a1-m1-l3"
+      ],
+      "visual": {
+        "kind": "columns",
+        "columns": [
+          {
+            "label": "W-Frage",
+            "sublabel": "W-Wort · Verb · …",
+            "tone": "accent",
+            "lines": true,
+            "items": [
+              "[Woher] {kommst} du?",
+              "[Was] {machst} du?"
+            ]
+          },
+          {
+            "label": "Ja/Nein-Frage",
+            "sublabel": "Verb auf Platz 1",
+            "tone": "success",
+            "lines": true,
+            "items": [
+              "{Kommst} du aus Rom?",
+              "{Hast} du Zeit?"
+            ]
+          }
+        ]
+      },
+      "examples": [
+        {
+          "text": "Du wohnst in Köln.",
+          "result": "{Wohnst} du in Köln?"
+        },
+        {
+          "text": "[Wo] {wohnst} du? – In Köln."
+        }
+      ],
+      "warning": {
+        "wrong": "Wo du wohnst?",
+        "right": "Wo wohnst du?",
+        "note": "Nach dem W-Wort kommt sofort das Verb."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "W-Wörter",
+            "lines": [
+              "wer? was? wo? woher? wohin?",
+              "wie? wann? wie alt? wie viel?"
+            ]
+          },
+          {
+            "title": "Antworten",
+            "lines": [
+              "W-Frage → eine Information: In Köln.",
+              "Ja/Nein-Frage → Ja. / Nein."
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "___ heißt du? – Anna.",
+            "answer": "Wie"
+          },
+          {
+            "prompt": "du / Kaffee / trinkst / ?",
+            "answer": "Trinkst du Kaffee?"
+          },
+          {
+            "prompt": "Richtig? „Woher du kommst?“",
+            "answer": "Nein: Woher kommst du?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a1-satzklammer-trennbar",
+      "level": "A1",
+      "category": "satzbau",
+      "title": "Trennbare Verben: die Satzklammer",
+      "subtitle": "Das Verb auf Platz 2, die Vorsilbe ganz am Ende.",
+      "lektionIds": [
+        "a1-m4-l10"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Verb",
+          "Mitte",
+          "Vorsilbe"
+        ],
+        "rows": [
+          [
+            "Ich [rufe]",
+            "dich morgen",
+            "[an]."
+          ],
+          [
+            "Der Zug [kommt]",
+            "um 8 Uhr",
+            "[an]."
+          ],
+          [
+            "Wo [steigst]",
+            "du",
+            "[um]?"
+          ]
+        ]
+      },
+      "tip": "Im Infinitiv zusammen: [an]rufen, [ab]holen, [ein]kaufen",
+      "examples": [
+        {
+          "text": "aufstehen: Er [steht] um 7 Uhr [auf]."
+        },
+        {
+          "text": "einkaufen: Wir [kaufen] heute [ein]."
+        }
+      ],
+      "warning": {
+        "wrong": "Ich anrufe dich morgen.",
+        "right": "Ich rufe dich morgen an.",
+        "note": "Die Vorsilbe geht ans Ende."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Typische Vorsilben",
+            "lines": [
+              "an-, ab-, auf-, aus-, ein-, mit-, um-, zu-"
+            ]
+          },
+          {
+            "title": "Mit Modalverb",
+            "lines": [
+              "Ich muss dich [anrufen]. — zusammen am Ende"
+            ]
+          },
+          {
+            "title": "Perfekt",
+            "lines": [
+              "an[ge]rufen · ab[ge]holt · an[ge]kommen"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Wann ___ der Bus ___? (ankommen)",
+            "answer": "kommt … an"
+          },
+          {
+            "prompt": "Ich ___ dich um 5 Uhr ___. (abholen)",
+            "answer": "hole … ab"
+          },
+          {
+            "prompt": "Richtig? „Er einkauft heute.“",
+            "answer": "Nein: Er kauft heute ein."
+          }
+        ]
+      }
+    },
+    {
+      "id": "a1-satzklammer-modalverb",
+      "level": "A1",
+      "category": "satzbau",
+      "title": "Modalverb + Infinitiv",
+      "subtitle": "Das Modalverb auf Platz 2, der Infinitiv ganz am Ende.",
+      "lektionIds": [
+        "a1-m6-l16",
+        "a1-m6-l17",
+        "a1-m7-l21"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Modalverb",
+          "Mitte",
+          "Infinitiv"
+        ],
+        "rows": [
+          [
+            "Ich [muss]",
+            "heute",
+            "{arbeiten}."
+          ],
+          [
+            "Du [kannst]",
+            "gut",
+            "{schwimmen}."
+          ],
+          [
+            "Hier [darf]",
+            "man nicht",
+            "{rauchen}."
+          ],
+          [
+            "[Willst]",
+            "du Pizza",
+            "{essen}?"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "text": "Ich arbeite heute.",
+          "result": "Ich [muss] heute {arbeiten}."
+        },
+        {
+          "text": "Wir [wollen] am Samstag ins Kino {gehen}."
+        }
+      ],
+      "warning": {
+        "wrong": "Ich muss arbeiten heute.",
+        "right": "Ich muss heute arbeiten.",
+        "note": "Der Infinitiv steht ganz am Ende."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Infinitiv ohne zu",
+            "lines": [
+              "Ich [kann] {schwimmen}. — nicht: zu schwimmen"
+            ]
+          },
+          {
+            "title": "Trennbare Verben",
+            "lines": [
+              "Ich [muss] früh {aufstehen}."
+            ]
+          },
+          {
+            "title": "Ja/Nein-Frage",
+            "lines": [
+              "[Kannst] du mir {helfen}?"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "ich / morgen / arbeiten / muss",
+            "answer": "Ich muss morgen arbeiten."
+          },
+          {
+            "prompt": "Du ___ hier nicht parken. (dürfen)",
+            "answer": "darfst"
+          },
+          {
+            "prompt": "Richtig? „Er will zu schlafen.“",
+            "answer": "Nein: Er will schlafen."
+          }
+        ]
+      }
+    },
+    {
+      "id": "a1-nicht-kein",
+      "level": "A1",
+      "category": "satzbau",
+      "title": "nicht oder kein?",
+      "subtitle": "Nomen ohne Artikel oder mit ein → kein.",
+      "lektionIds": [
+        "a1-m2-l5"
+      ],
+      "visual": {
+        "kind": "columns",
+        "columns": [
+          {
+            "label": "kein",
+            "sublabel": "statt ein / ohne Artikel",
+            "tone": "accent",
+            "lines": true,
+            "items": [
+              "Das ist [kein] Tisch.",
+              "Ich habe [keine] Zeit.",
+              "Er hat [keinen] Hund."
+            ]
+          },
+          {
+            "label": "nicht",
+            "sublabel": "Verb, Adjektiv, der/die/das",
+            "tone": "success",
+            "lines": true,
+            "items": [
+              "Ich komme {nicht}.",
+              "Das ist {nicht} teuer.",
+              "Das ist {nicht} mein Buch."
+            ]
+          }
+        ]
+      },
+      "examples": [
+        {
+          "text": "Ich habe einen Bruder.",
+          "result": "Ich habe [keinen] Bruder."
+        }
+      ],
+      "warning": {
+        "wrong": "Ich habe nicht Zeit.",
+        "right": "Ich habe keine Zeit.",
+        "note": "Nomen ohne Artikel → kein."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "kein wie ein",
+            "lines": [
+              "[kein] Tisch · [keine] Lampe · [kein] Sofa",
+              "Akkusativ maskulin: [keinen] Stuhl",
+              "Plural: [keine] Stühle"
+            ]
+          },
+          {
+            "title": "Wo steht nicht?",
+            "lines": [
+              "Am Ende: Ich schlafe {nicht}.",
+              "Vor dem Adjektiv: {nicht} gut"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Ich habe ___ Auto.",
+            "answer": "kein"
+          },
+          {
+            "prompt": "Das Wetter ist ___ schön.",
+            "answer": "nicht"
+          },
+          {
+            "prompt": "Wir haben ___ Kinder.",
+            "answer": "keine"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a1-imperativ",
+      "level": "A1",
+      "category": "verben",
+      "title": "Imperativ: du, ihr, Sie",
+      "subtitle": "Bitten und Aufforderungen — das Verb steht vorne.",
+      "lektionIds": [
+        "a1-m7-l19"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Form",
+          "kommen",
+          "nehmen"
+        ],
+        "rows": [
+          [
+            "du",
+            "[Komm]!",
+            "[Nimm]!"
+          ],
+          [
+            "ihr",
+            "[Kommt]!",
+            "[Nehmt]!"
+          ],
+          [
+            "Sie",
+            "[Kommen] Sie!",
+            "[Nehmen] Sie!"
+          ]
+        ]
+      },
+      "tip": "du-Form: du kommst → ohne du, ohne -st → [Komm]!",
+      "examples": [
+        {
+          "text": "[Mach] bitte das Fenster zu!"
+        },
+        {
+          "text": "[Rufen] Sie mich bitte morgen an!"
+        }
+      ],
+      "warning": {
+        "wrong": "Nehme das Brot!",
+        "right": "Nimm das Brot!",
+        "note": "du nimmst → Nimm! Das i bleibt."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Besondere Formen",
+            "lines": [
+              "sein: [Sei]! [Seid]! [Seien] Sie!",
+              "fahren: [Fahr]! (ohne ä)",
+              "arbeiten: [Arbeite]!"
+            ]
+          },
+          {
+            "title": "Trennbare Verben",
+            "lines": [
+              "[Räum] bitte dein Zimmer [auf]!"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "___ bitte langsam! (sprechen, du)",
+            "answer": "Sprich"
+          },
+          {
+            "prompt": "___ leise, Kinder! (sein, ihr)",
+            "answer": "Seid"
+          },
+          {
+            "prompt": "___ Sie bitte Platz! (nehmen)",
+            "answer": "Nehmen"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a1-praesens-endungen",
+      "level": "A1",
+      "category": "verben",
+      "title": "Präsens: regelmäßige Endungen",
+      "subtitle": "Stamm + Endung — der Stamm bleibt gleich.",
+      "lektionIds": [
+        "a1-m1-l1",
+        "a1-m1-l2",
+        "a1-m3-l7"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Person",
+          "wohnen"
+        ],
+        "rows": [
+          [
+            "ich",
+            "wohn[e]"
+          ],
+          [
+            "du",
+            "wohn[st]"
+          ],
+          [
+            "er/sie/es · ihr",
+            "wohn[t]"
+          ],
+          [
+            "wir · sie/Sie",
+            "wohn[en]"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "text": "Woher [kommst] du? – Ich [komme] aus Rom."
+        }
+      ],
+      "warning": {
+        "wrong": "Er wohnen in Wien.",
+        "right": "Er wohnt in Wien.",
+        "note": "er/sie/es → Endung -t."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Tipp",
+            "lines": [
+              "Stamm = Infinitiv ohne -en: wohn-, lern-, komm-"
+            ]
+          },
+          {
+            "title": "Stamm auf -t oder -d",
+            "lines": [
+              "arbeiten: du arbeit[est], er arbeit[et]",
+              "finden: du find[est], er find[et]"
+            ]
+          },
+          {
+            "title": "Stamm auf -s, -ß, -z",
+            "lines": [
+              "heißen: du heiß[t] · tanzen: du tanz[t]"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Du ___ in Berlin. (wohnen)",
+            "answer": "wohnst"
+          },
+          {
+            "prompt": "Ihr ___ viel. (lernen)",
+            "answer": "lernt"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a1-praesens-vokalwechsel",
+      "level": "A1",
+      "category": "verben",
+      "title": "Präsens mit Vokalwechsel",
+      "subtitle": "Nur bei du und er/sie/es ändert sich der Vokal.",
+      "lektionIds": [
+        "a1-m3-l9"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Infinitiv",
+          "du",
+          "er/sie/es"
+        ],
+        "rows": [
+          [
+            "e → i: essen",
+            "[isst]",
+            "[isst]"
+          ],
+          [
+            "e → i: nehmen",
+            "[nimmst]",
+            "[nimmt]"
+          ],
+          [
+            "e → ie: sehen",
+            "[siehst]",
+            "[sieht]"
+          ],
+          [
+            "a → ä: fahren",
+            "[fährst]",
+            "[fährt]"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "text": "Ich fahre mit dem Bus. Er [fährt] mit dem Rad."
+        }
+      ],
+      "warning": {
+        "wrong": "Er esst gern Pizza.",
+        "right": "Er isst gern Pizza.",
+        "note": "er/sie/es: e → i."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Tipp",
+            "lines": [
+              "ich, wir, ihr, sie/Sie: kein Wechsel — ich esse, wir fahren"
+            ]
+          },
+          {
+            "title": "Mehr Verben",
+            "lines": [
+              "e → i: [sprechen], [geben], [helfen], [treffen]",
+              "e → ie: [lesen]",
+              "a → ä: [schlafen], [tragen], [waschen]"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "___ du Deutsch? (sprechen)",
+            "answer": "Sprichst"
+          },
+          {
+            "prompt": "Sie ___ ein Buch. (lesen)",
+            "answer": "liest"
+          },
+          {
+            "prompt": "Das Kind ___ lange. (schlafen)",
+            "answer": "schläft"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a1-sein-haben",
+      "level": "A1",
+      "category": "verben",
+      "title": "sein und haben",
+      "subtitle": "Die zwei wichtigsten Verben — beide unregelmäßig.",
+      "lektionIds": [
+        "a1-m1-l1",
+        "a1-m1-l2"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Person",
+          "sein",
+          "haben"
+        ],
+        "rows": [
+          [
+            "ich",
+            "[bin]",
+            "{habe}"
+          ],
+          [
+            "du",
+            "[bist]",
+            "{hast}"
+          ],
+          [
+            "er/sie/es",
+            "[ist]",
+            "{hat}"
+          ],
+          [
+            "wir · sie/Sie",
+            "[sind]",
+            "{haben}"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "text": "Ich [bin] 25 und {habe} eine Tochter."
+        },
+        {
+          "text": "[Bist] du müde? – Nein, ich {habe} Hunger."
+        }
+      ],
+      "warning": {
+        "wrong": "Ich habe 30 Jahre alt.",
+        "right": "Ich bin 30 Jahre alt.",
+        "note": "Alter: sein, nicht haben."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "ihr",
+            "lines": [
+              "ihr [seid] · ihr {habt}"
+            ]
+          },
+          {
+            "title": "sein + …",
+            "lines": [
+              "Name, Herkunft, Beruf: Ich [bin] Lehrerin.",
+              "Adjektiv: Das [ist] teuer."
+            ]
+          },
+          {
+            "title": "haben + Nomen",
+            "lines": [
+              "Ich {habe} einen Bruder / Zeit / Hunger."
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "___ ihr aus Italien? (sein)",
+            "answer": "Seid"
+          },
+          {
+            "prompt": "Er ___ keine Zeit. (haben)",
+            "answer": "hat"
+          },
+          {
+            "prompt": "Wir ___ Studenten. (sein)",
+            "answer": "sind"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a1-modalverben-praesens",
+      "level": "A1",
+      "category": "verben",
+      "title": "Modalverben im Präsens",
+      "subtitle": "ich und er/sie/es: gleiche Form, ohne Endung.",
+      "lektionIds": [
+        "a1-m3-l9",
+        "a1-m6-l16",
+        "a1-m6-l17",
+        "a1-m7-l21"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Infinitiv",
+          "ich · er/sie/es",
+          "du"
+        ],
+        "rows": [
+          [
+            "können",
+            "[kann]",
+            "[kannst]"
+          ],
+          [
+            "müssen",
+            "[muss]",
+            "[musst]"
+          ],
+          [
+            "dürfen",
+            "[darf]",
+            "[darfst]"
+          ],
+          [
+            "wollen",
+            "[will]",
+            "[willst]"
+          ]
+        ]
+      },
+      "tip": "wir, sie, Sie = Infinitiv: wir [können], Sie [müssen]",
+      "examples": [
+        {
+          "text": "Er [kann] gut kochen."
+        }
+      ],
+      "warning": {
+        "wrong": "Er kannt gut schwimmen.",
+        "right": "Er kann gut schwimmen.",
+        "note": "ich und er/sie/es: keine Endung."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Weitere Modalverben",
+            "lines": [
+              "sollen: ich/er [soll], du [sollst]",
+              "mögen: ich/er [mag], du [magst]",
+              "möchten: ich/er [möchte], du [möchtest]"
+            ]
+          },
+          {
+            "title": "Bedeutung",
+            "lines": [
+              "können = Fähigkeit · müssen = Pflicht",
+              "dürfen = Erlaubnis · wollen = Plan"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "___ du mir helfen? (können)",
+            "answer": "Kannst"
+          },
+          {
+            "prompt": "Er ___ heute arbeiten. (müssen)",
+            "answer": "muss"
+          },
+          {
+            "prompt": "Ich ___ keinen Fisch. (mögen)",
+            "answer": "mag"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a1-perfekt-haben",
+      "level": "A1",
+      "category": "verben",
+      "title": "Perfekt mit haben",
+      "subtitle": "haben auf Platz 2, das Partizip II am Ende.",
+      "lektionIds": [
+        "a1-m4-l11"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "haben",
+          "Mitte",
+          "Partizip II"
+        ],
+        "rows": [
+          [
+            "Ich [habe]",
+            "Pizza",
+            "{gegessen}."
+          ],
+          [
+            "Wir [haben]",
+            "Deutsch",
+            "{gelernt}."
+          ],
+          [
+            "Er [hat]",
+            "mich",
+            "{angerufen}."
+          ],
+          [
+            "[Hast]",
+            "du gut",
+            "{geschlafen}?"
+          ]
+        ]
+      },
+      "tip": "Die meisten Verben bilden das Perfekt mit haben.",
+      "examples": [
+        {
+          "text": "Ich kaufe ein Buch.",
+          "result": "Ich [habe] ein Buch {gekauft}."
+        },
+        {
+          "text": "Was [hast] du gestern {gemacht}?"
+        }
+      ],
+      "warning": {
+        "wrong": "Ich habe gekauft ein Buch.",
+        "right": "Ich habe ein Buch gekauft.",
+        "note": "Das Partizip steht ganz am Ende."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Wann?",
+            "lines": [
+              "Für Vergangenes im Gespräch:",
+              "Gestern [habe] ich lange {gearbeitet}."
+            ]
+          },
+          {
+            "title": "Zeitangabe vorne",
+            "lines": [
+              "Am Montag [hat] sie Tennis {gespielt}."
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Ich ___ Kaffee ___. (trinken)",
+            "answer": "habe … getrunken"
+          },
+          {
+            "prompt": "___ du die Hausaufgaben ___? (machen)",
+            "answer": "Hast … gemacht"
+          },
+          {
+            "prompt": "Er ___ ein Buch ___. (lesen)",
+            "answer": "hat … gelesen"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a1-perfekt-sein",
+      "level": "A1",
+      "category": "verben",
+      "title": "Perfekt mit sein",
+      "subtitle": "Bewegung von A nach B oder eine Veränderung → sein.",
+      "lektionIds": [
+        "a1-m4-l12",
+        "a1-m7-l20"
+      ],
+      "visual": {
+        "kind": "columns",
+        "columns": [
+          {
+            "label": "sein",
+            "sublabel": "Bewegung · Veränderung",
+            "tone": "accent",
+            "inline": true,
+            "items": [
+              "gehen",
+              "fahren",
+              "kommen",
+              "fliegen",
+              "aufstehen"
+            ]
+          },
+          {
+            "label": "haben",
+            "sublabel": "fast alle anderen",
+            "tone": "success",
+            "inline": true,
+            "items": [
+              "essen",
+              "lernen",
+              "arbeiten",
+              "schlafen",
+              "kaufen"
+            ]
+          }
+        ]
+      },
+      "examples": [
+        {
+          "text": "Ich [bin] nach Wien gefahren."
+        }
+      ],
+      "warning": {
+        "wrong": "Ich habe nach Hause gegangen.",
+        "right": "Ich bin nach Hause gegangen.",
+        "note": "gehen = Bewegung → sein."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Formen",
+            "lines": [
+              "gehen – [ist] gegangen · fahren – [ist] gefahren",
+              "kommen – [ist] gekommen · fliegen – [ist] geflogen"
+            ]
+          },
+          {
+            "title": "Auch mit sein",
+            "lines": [
+              "sein – [ist] gewesen · bleiben – [ist] geblieben",
+              "Was [ist] passiert?"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Wir ___ ins Kino gegangen.",
+            "answer": "sind"
+          },
+          {
+            "prompt": "Ich ___ lange geschlafen.",
+            "answer": "habe"
+          },
+          {
+            "prompt": "Wann ___ du aufgestanden?",
+            "answer": "bist"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a1-partizip-ii",
+      "level": "A1",
+      "category": "verben",
+      "title": "Partizip II bauen",
+      "subtitle": "Meist ge- am Anfang — aber nicht immer.",
+      "lektionIds": [
+        "a1-m1-l1",
+        "a1-m4-l11"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Muster",
+          "Beispiel"
+        ],
+        "rows": [
+          [
+            "[ge]- … -[t]",
+            "machen → [ge]mach[t]"
+          ],
+          [
+            "[ge]- … -[en]",
+            "schreiben → [ge]schrieb[en]"
+          ],
+          [
+            "trennbar",
+            "einkaufen → ein[ge]kauft"
+          ],
+          [
+            "{ohne ge-}",
+            "studieren → {studiert}"
+          ]
+        ]
+      },
+      "tip": "Ohne ge-: Verben auf -ieren und mit be-, ver-, er-",
+      "examples": [
+        {
+          "text": "Ich habe Tennis [ge]spiel[t]."
+        },
+        {
+          "text": "Sie hat mich {besucht}."
+        }
+      ],
+      "warning": {
+        "wrong": "Ich habe Mathe gestudiert.",
+        "right": "Ich habe Mathe studiert.",
+        "note": "-ieren: kein ge-."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Unregelmäßig — lernen!",
+            "lines": [
+              "essen – [ge]gessen · trinken – [ge]trunken",
+              "sehen – [ge]sehen · finden – [ge]funden",
+              "nehmen – [ge]nommen · gehen – [ge]gangen"
+            ]
+          },
+          {
+            "title": "Stamm auf -t",
+            "lines": [
+              "arbeiten – [ge]arbeit[et]"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "fotografieren → ___",
+            "answer": "fotografiert"
+          },
+          {
+            "prompt": "verstehen → ___",
+            "answer": "verstanden"
+          },
+          {
+            "prompt": "abholen → ___",
+            "answer": "abgeholt"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a1-praeteritum-war-hatte",
+      "level": "A1",
+      "category": "verben",
+      "title": "Präteritum: war und hatte",
+      "subtitle": "Für sein und haben nimmt man meist das Präteritum.",
+      "lektionIds": [
+        "a1-m4-l12"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Person",
+          "sein",
+          "haben"
+        ],
+        "rows": [
+          [
+            "ich · er/sie/es",
+            "[war]",
+            "{hatte}"
+          ],
+          [
+            "du",
+            "[warst]",
+            "{hattest}"
+          ],
+          [
+            "wir · sie/Sie",
+            "[waren]",
+            "{hatten}"
+          ],
+          [
+            "ihr",
+            "[wart]",
+            "{hattet}"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "text": "Ich bin müde.",
+          "result": "Gestern [war] ich müde."
+        }
+      ],
+      "warning": {
+        "wrong": "Wir war im Kino.",
+        "right": "Wir waren im Kino.",
+        "note": "wir → waren, mit -en."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "ich = er",
+            "lines": [
+              "ich [war] – er [war] · ich {hatte} – er {hatte}"
+            ]
+          },
+          {
+            "title": "Perfekt? Selten",
+            "lines": [
+              "ich [war] = ich bin gewesen",
+              "ich {hatte} = ich habe gehabt"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Wo ___ du gestern? (sein)",
+            "answer": "warst"
+          },
+          {
+            "prompt": "Wir ___ viel Glück. (haben)",
+            "answer": "hatten"
+          },
+          {
+            "prompt": "Die Party ___ super. (sein)",
+            "answer": "war"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a1-futur-werden",
+      "level": "A1",
+      "category": "verben",
+      "title": "Futur mit werden",
+      "subtitle": "werden auf Platz 2, der Infinitiv am Ende.",
+      "lektionIds": [
+        "a1-m6-l17"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Person",
+          "werden"
+        ],
+        "rows": [
+          [
+            "ich",
+            "[werde]"
+          ],
+          [
+            "du",
+            "[wirst]"
+          ],
+          [
+            "er/sie/es",
+            "[wird]"
+          ],
+          [
+            "wir · sie/Sie",
+            "[werden]"
+          ]
+        ]
+      },
+      "tip": "Oft reicht Präsens + Zeit: Morgen fahre ich nach Wien.",
+      "examples": [
+        {
+          "text": "Ich [werde] nächstes Jahr in Wien {studieren}."
+        },
+        {
+          "text": "Es [wird] morgen {regnen}."
+        }
+      ],
+      "warning": {
+        "wrong": "Ich werde arbeiten in Berlin.",
+        "right": "Ich werde in Berlin arbeiten.",
+        "note": "Der Infinitiv steht ganz am Ende."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "ihr",
+            "lines": [
+              "ihr [werdet]"
+            ]
+          },
+          {
+            "title": "Pläne und Vorhersagen",
+            "lines": [
+              "Ich [werde] mehr Sport {machen}.",
+              "Es [wird] bald {schneien}."
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Du ___ bald gut Deutsch sprechen.",
+            "answer": "wirst"
+          },
+          {
+            "prompt": "Wir ___ im Sommer nach Italien fahren.",
+            "answer": "werden"
+          },
+          {
+            "prompt": "ich / werde / morgen / anrufen / dich",
+            "answer": "Ich werde dich morgen anrufen."
+          }
+        ]
+      }
+    },
+    {
+      "id": "a1-wuerde-infinitiv",
+      "level": "A1",
+      "category": "verben",
+      "title": "würde + Infinitiv",
+      "subtitle": "Für höfliche Bitten und für Wünsche.",
+      "lektionIds": [
+        "a1-m8-l24"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Person",
+          "würde"
+        ],
+        "rows": [
+          [
+            "ich · er/sie/es",
+            "[würde]"
+          ],
+          [
+            "du",
+            "[würdest]"
+          ],
+          [
+            "wir · sie/Sie",
+            "[würden]"
+          ],
+          [
+            "ihr",
+            "[würdet]"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "text": "[Würden] Sie mir bitte {helfen}?"
+        },
+        {
+          "text": "Ich [würde] gern nach Japan {reisen}."
+        }
+      ],
+      "warning": {
+        "wrong": "Würdest du das Fenster öffnest?",
+        "right": "Würdest du das Fenster öffnen?",
+        "note": "Nach würde: Infinitiv am Ende."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Höflicher als Imperativ",
+            "lines": [
+              "Mach das Fenster zu!",
+              "→ [Würdest] du das Fenster {zumachen}?"
+            ]
+          },
+          {
+            "title": "Wünsche",
+            "lines": [
+              "Ich [würde] gern mehr {schlafen}."
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "___ Sie das bitte wiederholen?",
+            "answer": "Würden"
+          },
+          {
+            "prompt": "Wir ___ gern ein Fest feiern.",
+            "answer": "würden"
+          },
+          {
+            "prompt": "Er würde gern Pilot ___. (werden)",
+            "answer": "werden"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a1-genus-tipps",
+      "level": "A1",
+      "category": "nomen",
+      "title": "der, die oder das?",
+      "subtitle": "Den Artikel immer mitlernen — manche Endungen helfen.",
+      "lektionIds": [
+        "a1-m2-l4"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "der",
+          "die",
+          "das"
+        ],
+        "rows": [
+          [
+            "Tage, Monate",
+            "[-ung]",
+            "[-chen]"
+          ],
+          [
+            "Jahreszeiten",
+            "[-heit], [-keit]",
+            "[-um]"
+          ],
+          [
+            "Beruf auf [-er]",
+            "oft [-e]",
+            "[-ment]"
+          ]
+        ]
+      },
+      "tip": "Im Plural immer [die]: die Tische, die Lampen, die Sofas",
+      "examples": [
+        {
+          "text": "der Montag · der Mai · der Sommer"
+        },
+        {
+          "text": "die Wohnung · das Mädchen · das Zentrum"
+        }
+      ],
+      "warning": {
+        "wrong": "der Mädchen",
+        "right": "das Mädchen",
+        "note": "-chen ist immer das."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Tipp zum Lernen",
+            "lines": [
+              "Nomen mit Artikel und Farbe lernen:",
+              "[der] Tisch · {die} Lampe · das Sofa"
+            ]
+          },
+          {
+            "title": "Zusammengesetzte Nomen",
+            "lines": [
+              "Das letzte Wort bestimmt den Artikel:",
+              "das Haus + die Tür = [die] Haustür"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "___ Zeitung",
+            "answer": "die"
+          },
+          {
+            "prompt": "___ Brötchen",
+            "answer": "das"
+          },
+          {
+            "prompt": "___ Freitag",
+            "answer": "der"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a1-plural",
+      "level": "A1",
+      "category": "nomen",
+      "title": "Pluralformen",
+      "subtitle": "Mehrere Endungen — den Plural immer mitlernen.",
+      "lektionIds": [
+        "a1-m1-l2"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Endung",
+          "Singular → Plural"
+        ],
+        "rows": [
+          [
+            "-e",
+            "der Tisch → die Tisch[e]"
+          ],
+          [
+            "¨-er",
+            "das Buch → die B[ü]ch[er]"
+          ],
+          [
+            "-(e)n",
+            "die Lampe → die Lampe[n]"
+          ],
+          [
+            "-s",
+            "das Auto → die Auto[s]"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "text": "Ich habe zwei Br[ü]der und drei Schwester[n]."
+        },
+        {
+          "text": "die Lehrerin → die Lehrerin[nen]"
+        }
+      ],
+      "warning": {
+        "wrong": "zwei Kinds",
+        "right": "zwei Kinder",
+        "note": "-s nur bei wenigen Wörtern."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Tipp",
+            "lines": [
+              "Artikel im Plural: immer [die]"
+            ]
+          },
+          {
+            "title": "Tipps",
+            "lines": [
+              "feminin auf -e → [-n]: die Tasche[n]",
+              "-in → [-nen]: die Freundin[nen]",
+              "Wörter wie Handy, Kino → [-s]"
+            ]
+          },
+          {
+            "title": "Ohne Endung",
+            "lines": [
+              "-er, -el, -en: der Lehrer → die Lehrer",
+              "manchmal Umlaut: der Vater → die V[ä]ter"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "das Buch → die ___",
+            "answer": "Bücher"
+          },
+          {
+            "prompt": "die Tasche → die ___",
+            "answer": "Taschen"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a1-nominativ-akkusativ",
+      "level": "A1",
+      "category": "nomen",
+      "title": "Nominativ und Akkusativ",
+      "subtitle": "Im Akkusativ ändert sich nur der maskuline Artikel.",
+      "lektionIds": [
+        "a1-m2-l4",
+        "a1-m2-l5"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Genus",
+          "Nominativ",
+          "Akkusativ"
+        ],
+        "rows": [
+          [
+            "maskulin",
+            "der / ein",
+            "[den] / [einen]"
+          ],
+          [
+            "feminin",
+            "die / eine",
+            "die / eine"
+          ],
+          [
+            "neutral",
+            "das / ein",
+            "das / ein"
+          ],
+          [
+            "Plural",
+            "die / –",
+            "die / –"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "text": "Der Tisch ist neu.",
+          "result": "Ich kaufe [den] Tisch."
+        }
+      ],
+      "warning": {
+        "wrong": "Ich habe ein Bruder.",
+        "right": "Ich habe einen Bruder.",
+        "note": "haben + Akkusativ: einen."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Tipp",
+            "lines": [
+              "Akkusativ = das Objekt. Frage: Wen? oder Was?"
+            ]
+          },
+          {
+            "title": "Verben mit Akkusativ",
+            "lines": [
+              "haben, brauchen, kaufen, suchen, sehen",
+              "es gibt: Es gibt [einen] Park."
+            ]
+          },
+          {
+            "title": "kein und mein auch",
+            "lines": [
+              "[keinen] Tisch · [meinen] Bruder"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Ich suche ___ Schrank. (ein)",
+            "answer": "einen"
+          },
+          {
+            "prompt": "Wir brauchen ___ Sofa. (ein)",
+            "answer": "ein"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a1-possessivartikel",
+      "level": "A1",
+      "category": "nomen",
+      "title": "Possessivartikel: mein, dein …",
+      "subtitle": "Wem gehört es? Die Endung ist wie bei ein.",
+      "lektionIds": [
+        "a1-m1-l3",
+        "a1-m5-l13",
+        "a1-m5-l15"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Person",
+          "Possessivartikel"
+        ],
+        "rows": [
+          [
+            "ich · du",
+            "mein · dein"
+          ],
+          [
+            "er/es · sie",
+            "[sein] · {ihr}"
+          ],
+          [
+            "wir · ihr",
+            "unser · euer"
+          ],
+          [
+            "sie · Sie",
+            "ihr · Ihr"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "text": "Das ist Tom. [Sein] Hund heißt Rex."
+        },
+        {
+          "text": "Das ist Lisa. {Ihr} Bruder ist Arzt."
+        }
+      ],
+      "warning": {
+        "wrong": "Anna und sein Bruder",
+        "right": "Anna und ihr Bruder",
+        "note": "Anna = sie → ihr."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Endungen wie ein",
+            "lines": [
+              "mein Vater · mein Kind",
+              "mein[e] Mutter · mein[e] Eltern",
+              "Akkusativ maskulin: mein[en] Vater"
+            ]
+          },
+          {
+            "title": "euer",
+            "lines": [
+              "euer Sohn, aber: eure Tochter"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Wie heißt ___ Frau, Herr Kim? (Sie)",
+            "answer": "Ihre"
+          },
+          {
+            "prompt": "Peter besucht ___ Mutter.",
+            "answer": "seine"
+          },
+          {
+            "prompt": "Ich suche ___ Schlüssel. (mein, Akk.)",
+            "answer": "meinen"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a1-personalpronomen",
+      "level": "A1",
+      "category": "nomen",
+      "title": "Personalpronomen: ich, mich, mir",
+      "subtitle": "Wer? Wen? Wem? — das Pronomen ändert sich.",
+      "lektionIds": [
+        "a1-m5-l13"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Nominativ",
+          "Akkusativ",
+          "Dativ"
+        ],
+        "rows": [
+          [
+            "ich",
+            "[mich]",
+            "{mir}"
+          ],
+          [
+            "du",
+            "[dich]",
+            "{dir}"
+          ],
+          [
+            "er",
+            "[ihn]",
+            "{ihm}"
+          ],
+          [
+            "sie",
+            "[sie]",
+            "{ihr}"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "text": "Ich rufe [dich] morgen an."
+        },
+        {
+          "text": "Kannst du {mir} helfen?"
+        }
+      ],
+      "warning": {
+        "wrong": "Das gefällt mich.",
+        "right": "Das gefällt mir.",
+        "note": "gefallen = immer Dativ."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Die anderen",
+            "lines": [
+              "es → [es] → {ihm}",
+              "wir → [uns] → {uns} · ihr → [euch] → {euch}",
+              "sie → [sie] → {ihnen} · Sie → [Sie] → {Ihnen}"
+            ]
+          },
+          {
+            "title": "Verben mit Dativ",
+            "lines": [
+              "helfen, gefallen, gehören, danken",
+              "Wie geht es {dir}?"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Ich liebe ___. (du)",
+            "answer": "dich"
+          },
+          {
+            "prompt": "Das Buch gehört ___. (er)",
+            "answer": "ihm"
+          },
+          {
+            "prompt": "Kannst du ___ helfen? (wir)",
+            "answer": "uns"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a1-berufe-maennlich-weiblich",
+      "level": "A1",
+      "category": "nomen",
+      "title": "Berufe: männlich und weiblich",
+      "subtitle": "Für Frauen: -in, im Plural -innen.",
+      "lektionIds": [
+        "a1-m1-l2"
+      ],
+      "visual": {
+        "kind": "columns",
+        "columns": [
+          {
+            "label": "männlich",
+            "tone": "accent",
+            "items": [
+              "der Lehrer",
+              "der Arzt",
+              "der Koch"
+            ]
+          },
+          {
+            "label": "weiblich",
+            "tone": "success",
+            "items": [
+              "die Lehrer{in}",
+              "die Ärzt{in}",
+              "die Köch{in}"
+            ]
+          }
+        ]
+      },
+      "tip": "Plural: die Lehrer · die Lehrer{innen}",
+      "examples": [
+        {
+          "text": "Er ist Lehrer. Sie ist Lehrer{in}."
+        },
+        {
+          "text": "Meine Schwester arbeitet als Ärzt{in}."
+        }
+      ],
+      "warning": {
+        "wrong": "Sie ist Lehrer.",
+        "right": "Sie ist Lehrerin.",
+        "note": "Eine Frau → Beruf mit -in."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Oft mit Umlaut",
+            "lines": [
+              "der Arzt → die Ärzt{in}",
+              "der Koch → die Köch{in}"
+            ]
+          },
+          {
+            "title": "Ohne Artikel",
+            "lines": [
+              "Ich bin Lehrer{in}. — nicht: eine Lehrerin"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "der Verkäufer → die ___",
+            "answer": "Verkäuferin"
+          },
+          {
+            "prompt": "die Studentin → Plural: die ___",
+            "answer": "Studentinnen"
+          },
+          {
+            "prompt": "der Arzt → die ___",
+            "answer": "Ärztin"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a1-praepositionen-akkusativ",
+      "level": "A1",
+      "category": "praepositionen",
+      "title": "Präpositionen mit Akkusativ",
+      "subtitle": "Danach steht immer der Akkusativ.",
+      "lektionIds": [],
+      "visual": {
+        "kind": "columns",
+        "columns": [
+          {
+            "label": "+ Akkusativ",
+            "tone": "accent",
+            "inline": true,
+            "items": [
+              "durch",
+              "für",
+              "gegen",
+              "ohne",
+              "um"
+            ]
+          }
+        ]
+      },
+      "tip": "Nur maskulin ändert sich: der → [den] · Merkwort: DOGFU",
+      "examples": [
+        {
+          "text": "Das Geschenk ist für [den] Vater."
+        },
+        {
+          "text": "Wir gehen durch [den] Park."
+        }
+      ],
+      "warning": {
+        "wrong": "Ich komme ohne dem Hund.",
+        "right": "Ich komme ohne den Hund.",
+        "note": "ohne = immer Akkusativ."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Mit Pronomen",
+            "lines": [
+              "für [mich], für [dich], für [ihn], für [sie]",
+              "für [uns], für [euch], für [Sie]"
+            ]
+          },
+          {
+            "title": "um + Uhrzeit",
+            "lines": [
+              "Der Kurs beginnt [um] 9 Uhr."
+            ]
+          },
+          {
+            "title": "Gesprochen",
+            "lines": [
+              "für das → fürs, um das → ums"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Ich kaufe Blumen für ___ Mutter. (mein)",
+            "answer": "meine"
+          },
+          {
+            "prompt": "Er läuft gegen ___ Baum. (der)",
+            "answer": "den"
+          },
+          {
+            "prompt": "Ohne ___ gehe ich nicht. (du)",
+            "answer": "dich"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a1-praepositionen-dativ",
+      "level": "A1",
+      "category": "praepositionen",
+      "title": "Präpositionen mit Dativ",
+      "subtitle": "Danach steht immer der Dativ.",
+      "lektionIds": [
+        "a1-m1-l1"
+      ],
+      "visual": {
+        "kind": "columns",
+        "columns": [
+          {
+            "label": "+ Dativ",
+            "tone": "success",
+            "inline": true,
+            "items": [
+              "aus",
+              "bei",
+              "mit",
+              "nach",
+              "seit",
+              "von",
+              "zu"
+            ]
+          }
+        ]
+      },
+      "tip": "Artikel: der/das → {dem}, die → {der}, Plural → {den}",
+      "examples": [
+        {
+          "text": "Ich fahre mit {dem} Bus."
+        },
+        {
+          "text": "Ich komme aus {der} Schweiz."
+        }
+      ],
+      "warning": {
+        "wrong": "Ich fahre mit den Bus.",
+        "right": "Ich fahre mit dem Bus.",
+        "note": "mit = immer Dativ."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Kurzformen",
+            "lines": [
+              "zu dem → {zum}, zu der → {zur}",
+              "bei dem → {beim}, von dem → {vom}"
+            ]
+          },
+          {
+            "title": "nach oder zu?",
+            "lines": [
+              "Städte und Länder: {nach} Berlin",
+              "Personen und Orte: {zum} Arzt"
+            ]
+          },
+          {
+            "title": "Mit Pronomen",
+            "lines": [
+              "mit {mir}, mit {dir}, mit {ihm}, mit {ihr}",
+              "mit {uns}, mit {euch}, mit {Ihnen}"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Ich gehe ___ Arzt. (zu + der)",
+            "answer": "zum"
+          },
+          {
+            "prompt": "Sie wohnt seit ___ Jahr hier. (ein)",
+            "answer": "einem"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a1-wechselpraepositionen-wo",
+      "level": "A1",
+      "category": "praepositionen",
+      "title": "Wo? — Präposition + Dativ",
+      "subtitle": "Man ist schon da: ein Ort, keine Bewegung.",
+      "lektionIds": [
+        "a1-m5-l14"
+      ],
+      "visual": {
+        "kind": "columns",
+        "columns": [
+          {
+            "label": "Wo? · Dativ",
+            "tone": "success",
+            "inline": true,
+            "items": [
+              "in",
+              "an",
+              "auf",
+              "unter",
+              "vor",
+              "hinter",
+              "neben"
+            ]
+          }
+        ]
+      },
+      "tip": "Auch: über, zwischen · Kurz: in dem → {im}, an dem → {am}",
+      "examples": [
+        {
+          "text": "Ich bin {im} Kino."
+        },
+        {
+          "text": "Das Buch liegt auf {dem} Tisch."
+        }
+      ],
+      "warning": {
+        "wrong": "Ich wohne in die Stadt.",
+        "right": "Ich wohne in der Stadt.",
+        "note": "Wo? → Dativ: in der."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Artikel im Dativ",
+            "lines": [
+              "der / das → {dem} · die → {der}",
+              "Plural → {den}: in {den} Bergen"
+            ]
+          },
+          {
+            "title": "Den Weg beschreiben",
+            "lines": [
+              "Die Bank ist neben {der} Post.",
+              "Das Café ist {am} Bahnhof."
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Die Katze liegt unter ___ Sofa.",
+            "answer": "dem"
+          },
+          {
+            "prompt": "Ich warte vor ___ Schule.",
+            "answer": "der"
+          },
+          {
+            "prompt": "Wir sind ___ Park. (in + dem)",
+            "answer": "im"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a1-wechselpraepositionen-wohin",
+      "level": "A1",
+      "category": "praepositionen",
+      "title": "Wohin? — Präposition + Akkusativ",
+      "subtitle": "Man geht oder fährt: Bewegung zu einem Ziel.",
+      "lektionIds": [
+        "a1-m3-l8",
+        "a1-m8-l23"
+      ],
+      "visual": {
+        "kind": "columns",
+        "columns": [
+          {
+            "label": "Wohin? · Akkusativ",
+            "tone": "accent",
+            "inline": true,
+            "items": [
+              "in",
+              "an",
+              "auf",
+              "unter",
+              "vor",
+              "hinter",
+              "neben"
+            ]
+          }
+        ]
+      },
+      "tip": "Kurz: in das → [ins], an das → [ans]",
+      "examples": [
+        {
+          "text": "Ich gehe [ins] Kino."
+        },
+        {
+          "text": "Wir fahren an [den] See."
+        }
+      ],
+      "warning": {
+        "wrong": "Ich gehe in dem Park.",
+        "right": "Ich gehe in den Park.",
+        "note": "Wohin? → Akkusativ."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Wo oder wohin?",
+            "lines": [
+              "[Wohin]? Ich gehe [in die] Stadt.",
+              "{Wo}? Ich bin {in der} Stadt."
+            ]
+          },
+          {
+            "title": "nach oder in?",
+            "lines": [
+              "Städte, Länder: nach Berlin, nach Spanien",
+              "Mit Artikel: [in die] Schweiz, [in die] USA"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Wir gehen heute ___ Kino. (in + das)",
+            "answer": "ins"
+          },
+          {
+            "prompt": "Im Urlaub fahren wir in ___ Berge.",
+            "answer": "die"
+          },
+          {
+            "prompt": "Er legt das Handy auf ___ Tisch.",
+            "answer": "den"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a1-zeitangaben-uhrzeit",
+      "level": "A1",
+      "category": "praepositionen",
+      "title": "um, am, im — und die Uhrzeit",
+      "subtitle": "Uhrzeit, Tag, Monat: jede Zeit hat ihre Präposition.",
+      "lektionIds": [
+        "a1-m2-l6",
+        "a1-m8-l24"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Wort",
+          "Wofür?",
+          "Beispiel"
+        ],
+        "rows": [
+          [
+            "[um]",
+            "Uhrzeit",
+            "um 8 Uhr"
+          ],
+          [
+            "[am]",
+            "Tag, Tageszeit",
+            "am Montag"
+          ],
+          [
+            "[im]",
+            "Monat, Jahreszeit",
+            "im Mai"
+          ]
+        ]
+      },
+      "tip": "halb acht = 7:30 — eine halbe Stunde vor acht",
+      "examples": [
+        {
+          "text": "Der Kurs beginnt [am] Montag [um] 9 Uhr."
+        },
+        {
+          "text": "Es ist 7:30.",
+          "result": "Es ist [halb] acht."
+        }
+      ],
+      "warning": {
+        "wrong": "7:30 = halb sieben",
+        "right": "7:30 = halb acht",
+        "note": "halb zählt zur nächsten Stunde."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Uhrzeit informell",
+            "lines": [
+              "8:15 → Viertel nach acht",
+              "8:45 → Viertel vor neun",
+              "8:10 → zehn nach acht · 8:50 → zehn vor neun"
+            ]
+          },
+          {
+            "title": "Ausnahmen",
+            "lines": [
+              "in der Nacht · am Wochenende",
+              "von 9 bis 17 Uhr"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Der Film beginnt ___ 20 Uhr.",
+            "answer": "um"
+          },
+          {
+            "prompt": "Wir haben ___ Freitag frei.",
+            "answer": "am"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a1-komparativ-superlativ",
+      "level": "A1",
+      "category": "adjektive",
+      "title": "Komparativ, Superlativ: wie oder als?",
+      "subtitle": "Gleich → so … wie. Anders → -er als.",
+      "lektionIds": [
+        "a1-m8-l22"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Grundform",
+          "Komparativ",
+          "Superlativ"
+        ],
+        "rows": [
+          [
+            "klein",
+            "klein[er]",
+            "am klein[sten]"
+          ],
+          [
+            "alt",
+            "ält[er]",
+            "am ält[esten]"
+          ],
+          [
+            "gut",
+            "[besser]",
+            "am [besten]"
+          ],
+          [
+            "gern",
+            "[lieber]",
+            "am [liebsten]"
+          ]
+        ]
+      },
+      "tip": "Gleich: so groß {wie} · Anders: größer [als]",
+      "examples": [
+        {
+          "text": "Tom ist so alt {wie} Anna."
+        },
+        {
+          "text": "Ben ist älter [als] Anna."
+        }
+      ],
+      "warning": {
+        "wrong": "Er ist größer wie ich.",
+        "right": "Er ist größer als ich.",
+        "note": "Nach dem Komparativ kommt als."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Oft mit Umlaut",
+            "lines": [
+              "alt → älter · jung → jünger",
+              "groß → größer · warm → wärmer"
+            ]
+          },
+          {
+            "title": "Besondere Formen",
+            "lines": [
+              "viel → mehr → am meisten",
+              "hoch → höher → am höchsten"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Das Hemd ist billiger ___ die Jacke.",
+            "answer": "als"
+          },
+          {
+            "prompt": "Ich trinke ___ Tee als Kaffee. (gern)",
+            "answer": "lieber"
+          },
+          {
+            "prompt": "Das rote Kleid ist am ___. (schön)",
+            "answer": "schönsten"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a1-ausdruecke-mit-es",
+      "level": "A1",
+      "category": "redemittel",
+      "title": "Ausdrücke mit es",
+      "subtitle": "Hier ist es kein Ding — nur ein Platzhalter.",
+      "lektionIds": [
+        "a1-m8-l23"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Wofür?",
+          "Beispiel"
+        ],
+        "rows": [
+          [
+            "Wetter",
+            "[Es] regnet. [Es] ist kalt."
+          ],
+          [
+            "es gibt + Akk.",
+            "[Es] gibt hier einen Park."
+          ],
+          [
+            "Befinden",
+            "Wie geht [es] dir?"
+          ],
+          [
+            "Uhrzeit",
+            "[Es] ist drei Uhr."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "text": "Es ist kalt.",
+          "result": "Heute ist [es] kalt."
+        },
+        {
+          "text": "In der Stadt gibt [es] ein Kino."
+        }
+      ],
+      "warning": {
+        "wrong": "Heute ist kalt.",
+        "right": "Heute ist es kalt.",
+        "note": "Das es darf nicht fehlen."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Wetter",
+            "lines": [
+              "[Es] regnet / schneit / ist sonnig.",
+              "[Es] ist warm / kalt / windig."
+            ]
+          },
+          {
+            "title": "es gibt + Akkusativ",
+            "lines": [
+              "[Es] gibt {einen} Supermarkt hier.",
+              "Gibt [es] hier {einen} Bahnhof?"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Wie ___ es dir? – Gut, danke.",
+            "answer": "geht"
+          },
+          {
+            "prompt": "Hier gibt es ___ Park. (ein)",
+            "answer": "einen"
+          },
+          {
+            "prompt": "Morgen ___ es. (schneien)",
+            "answer": "schneit"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2-nebensatz-verb-ende",
+      "level": "A2",
+      "category": "satzbau",
+      "title": "Nebensatz: Verb am Ende",
+      "subtitle": "Nach weil, dass, ob und wenn geht das Verb ans Ende.",
+      "lektionIds": [
+        "a2-m1-l2",
+        "a2-m3-l7",
+        "a2-m4-l12"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Wort",
+          "Nebensatz"
+        ],
+        "rows": [
+          [
+            "weil",
+            "…, weil er krank [ist]."
+          ],
+          [
+            "dass",
+            "…, dass sie morgen [kommt]."
+          ],
+          [
+            "ob",
+            "…, ob du Zeit [hast]."
+          ],
+          [
+            "wenn",
+            "…, wenn es [regnet]."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "text": "Ich glaube, dass der Kurs um 9 Uhr [beginnt]."
+        }
+      ],
+      "warning": {
+        "wrong": "…, dass er kommt morgen.",
+        "right": "…, dass er morgen kommt.",
+        "note": "Im Nebensatz: Verb ans Ende."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Zwei Verben",
+            "lines": [
+              "…, weil ich arbeiten [muss].",
+              "…, dass er gekommen [ist]."
+            ]
+          },
+          {
+            "title": "Trennbare Verben",
+            "lines": [
+              "…, wenn der Zug [ankommt]."
+            ]
+          },
+          {
+            "title": "Nebensatz vorne",
+            "lines": [
+              "Wenn es [regnet], {bleibe} ich hier.",
+              "Verb, Komma, Verb."
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Ich hoffe, dass du bald ___. (kommen)",
+            "answer": "kommst"
+          },
+          {
+            "prompt": "Ich glaube, dass … (er / krank / ist)",
+            "answer": "Ich glaube, dass er krank ist."
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2-indirekte-fragen",
+      "level": "A2",
+      "category": "satzbau",
+      "title": "Indirekte Fragen: ob oder W-Wort?",
+      "subtitle": "Höflich fragen — das Verb geht ans Ende.",
+      "lektionIds": [
+        "a2-m4-l12"
+      ],
+      "visual": {
+        "kind": "columns",
+        "columns": [
+          {
+            "label": "ob",
+            "sublabel": "Ja/Nein-Frage",
+            "tone": "accent",
+            "lines": true,
+            "items": [
+              "Kommt er?",
+              "Weißt du, [ob] er [kommt]?"
+            ]
+          },
+          {
+            "label": "W-Wort",
+            "sublabel": "W-Frage",
+            "tone": "success",
+            "lines": true,
+            "items": [
+              "Wann kommt er?",
+              "Weißt du, {wann} er {kommt}?"
+            ]
+          }
+        ]
+      },
+      "examples": [
+        {
+          "text": "Können Sie mir sagen, {wo} der Bahnhof {ist}?"
+        },
+        {
+          "text": "Ich weiß nicht, [ob] ich Zeit [habe]."
+        }
+      ],
+      "warning": {
+        "wrong": "Weißt du, wann kommt der Bus?",
+        "right": "Weißt du, wann der Bus kommt?",
+        "note": "Auch nach W-Wort: Verb ans Ende."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "So fängt man an",
+            "lines": [
+              "Weißt du, … / Wissen Sie, …",
+              "Können Sie mir sagen, …",
+              "Ich weiß nicht, … / Ich frage mich, …"
+            ]
+          },
+          {
+            "title": "Satzzeichen",
+            "lines": [
+              "Frage vorne → ?  Ich weiß nicht, … → ."
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Ist das Museum offen? → Wissen Sie, …",
+            "answer": "Wissen Sie, ob das Museum offen ist?"
+          },
+          {
+            "prompt": "Wo wohnt sie? → Ich weiß nicht, …",
+            "answer": "Ich weiß nicht, wo sie wohnt."
+          },
+          {
+            "prompt": "Ich frage mich, ___ er Zeit hat. (Ja/Nein)",
+            "answer": "ob"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2-relativsaetze-nom-akk",
+      "level": "A2",
+      "category": "satzbau",
+      "title": "Relativsätze: der, die, das, den",
+      "subtitle": "Mehr über ein Nomen sagen — Verb am Ende.",
+      "lektionIds": [
+        "a2-m7-l21"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Nomen",
+          "Nominativ",
+          "Akkusativ"
+        ],
+        "rows": [
+          [
+            "der Mann",
+            "der",
+            "[den]"
+          ],
+          [
+            "das Kind",
+            "das",
+            "das"
+          ],
+          [
+            "die Frau",
+            "die",
+            "die"
+          ],
+          [
+            "die Leute",
+            "die",
+            "die"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "text": "Das ist der Film, [den] ich sehen will."
+        }
+      ],
+      "warning": {
+        "wrong": "Der Film, der ich sehe, ist gut.",
+        "right": "Der Film, den ich sehe, ist gut.",
+        "note": "ich ist Subjekt → Film: Akkusativ."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Tipp",
+            "lines": [
+              "Nur maskulin im Akkusativ ändert sich: der → [den]"
+            ]
+          },
+          {
+            "title": "Welcher Kasus?",
+            "lines": [
+              "Der Mann hilft mir. → Nominativ: [der]",
+              "Ich kenne den Mann. → Akkusativ: [den]"
+            ]
+          },
+          {
+            "title": "Genus vom Nomen",
+            "lines": [
+              "die Stadt, [die] …",
+              "das Auto, [das] …"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Das ist der Arzt, ___ ich gut finde.",
+            "answer": "den"
+          },
+          {
+            "prompt": "Wo ist die Tasche, ___ hier lag?",
+            "answer": "die"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2-relativsaetze-dativ",
+      "level": "A2",
+      "category": "satzbau",
+      "title": "Relativsätze im Dativ",
+      "subtitle": "Das Verb oder die Präposition braucht Dativ.",
+      "lektionIds": [
+        "a2-m8-l23"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Nomen",
+          "Dativ"
+        ],
+        "rows": [
+          [
+            "der Mann",
+            "{dem}"
+          ],
+          [
+            "das Kind",
+            "{dem}"
+          ],
+          [
+            "die Frau",
+            "{der}"
+          ],
+          [
+            "die Leute",
+            "{denen}"
+          ]
+        ]
+      },
+      "tip": "Plural: {denen} — nicht „den“",
+      "examples": [
+        {
+          "text": "Das ist der Freund, {dem} ich oft helfe."
+        },
+        {
+          "text": "Die Kollegin, mit {der} ich arbeite, ist nett."
+        }
+      ],
+      "warning": {
+        "wrong": "Die Kinder, den ich helfe, …",
+        "right": "Die Kinder, denen ich helfe, …",
+        "note": "Plural im Dativ: denen."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Mit Präposition",
+            "lines": [
+              "Die Präposition steht vorne:",
+              "der Stuhl, auf {dem} ich sitze"
+            ]
+          },
+          {
+            "title": "Verben mit Dativ",
+            "lines": [
+              "helfen, danken, gefallen, gehören"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Das ist die Frau, ___ ich das Buch gebe.",
+            "answer": "der"
+          },
+          {
+            "prompt": "Die Leute, ___ ich danke, sind nett.",
+            "answer": "denen"
+          },
+          {
+            "prompt": "Das Haus, in ___ wir wohnen, ist alt.",
+            "answer": "dem"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2-zwei-pronomen",
+      "level": "A2",
+      "category": "satzbau",
+      "title": "Zwei Pronomen: es ihm",
+      "subtitle": "Bei zwei Pronomen: erst Akkusativ, dann Dativ.",
+      "lektionIds": [
+        "a2-m5-l13"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Objekte",
+          "Reihenfolge"
+        ],
+        "rows": [
+          [
+            "2 Nomen",
+            "{Dativ} → [Akkusativ]"
+          ],
+          [
+            "Pronomen + Nomen",
+            "Pronomen zuerst"
+          ],
+          [
+            "2 Pronomen",
+            "[Akkusativ] → {Dativ}"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "text": "Ich schenke {meiner Mutter} [den Schal].",
+          "result": "Ich schenke [ihn] {ihr}."
+        },
+        {
+          "text": "Ich zeige {dir} [das Foto].",
+          "result": "Ich zeige [es] {dir}."
+        }
+      ],
+      "warning": {
+        "wrong": "Ich gebe ihm es.",
+        "right": "Ich gebe es ihm.",
+        "note": "Zwei Pronomen: Akkusativ zuerst."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Pronomen + Nomen",
+            "lines": [
+              "Ich gebe [es] {meinem Bruder}.",
+              "Ich gebe {ihm} [das Buch]."
+            ]
+          },
+          {
+            "title": "Im Perfekt",
+            "lines": [
+              "Ich habe [es] {ihr} geschenkt."
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Ich leihe dir das Auto. → zwei Pronomen",
+            "answer": "Ich leihe es dir."
+          },
+          {
+            "prompt": "Er bringt ___ ___. (die Blumen, seiner Frau)",
+            "answer": "sie ihr"
+          },
+          {
+            "prompt": "Richtig? „Ich zeige ihr ihn.“",
+            "answer": "Nein: Ich zeige ihn ihr."
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2-perfekt-trennbar-ohne-ge",
+      "level": "A2",
+      "category": "verben",
+      "title": "Perfekt: trennbar und ohne ge-",
+      "subtitle": "ge- steht in der Mitte — oder fehlt ganz.",
+      "lektionIds": [
+        "a2-m1-l1",
+        "a2-m4-l10"
+      ],
+      "visual": {
+        "kind": "columns",
+        "columns": [
+          {
+            "label": "trennbar",
+            "sublabel": "ge- in der Mitte",
+            "tone": "accent",
+            "items": [
+              "ein[ge]kauft",
+              "an[ge]rufen",
+              "ab[ge]fahren"
+            ]
+          },
+          {
+            "label": "ohne ge-",
+            "sublabel": "-ieren, be-, ver-, er-",
+            "tone": "success",
+            "items": [
+              "studiert",
+              "bezahlt",
+              "vergessen",
+              "erzählt"
+            ]
+          }
+        ]
+      },
+      "examples": [
+        {
+          "text": "Wir sind um 8 Uhr ab[ge]fahren."
+        },
+        {
+          "text": "Er hat mir alles {erzählt}."
+        }
+      ],
+      "warning": {
+        "wrong": "Ich habe Medizin gestudiert.",
+        "right": "Ich habe Medizin studiert.",
+        "note": "Verben auf -ieren: kein ge-."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "haben oder sein?",
+            "lines": [
+              "Bewegung: Ich [bin] ausgestiegen.",
+              "Sonst meist: Ich {habe} angerufen."
+            ]
+          },
+          {
+            "title": "Trennbar oder nicht?",
+            "lines": [
+              "Betonung vorne: [ein]kaufen → eingekauft",
+              "be-, ver-, er- trennt man nie."
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Wann bist du ___? (ankommen)",
+            "answer": "angekommen"
+          },
+          {
+            "prompt": "Ich habe das Handy ___. (reparieren)",
+            "answer": "repariert"
+          },
+          {
+            "prompt": "Hast du den Schlüssel ___? (vergessen)",
+            "answer": "vergessen"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2-praeteritum-modalverben",
+      "level": "A2",
+      "category": "verben",
+      "title": "Präteritum: Modalverben",
+      "subtitle": "Kein Umlaut, dafür -te.",
+      "lektionIds": [
+        "a2-m7-l19"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Infinitiv",
+          "ich / er",
+          "wir / sie"
+        ],
+        "highlightColumn": 1,
+        "rows": [
+          [
+            "müssen",
+            "musste",
+            "mussten"
+          ],
+          [
+            "können",
+            "konnte",
+            "konnten"
+          ],
+          [
+            "wollen",
+            "wollte",
+            "wollten"
+          ],
+          [
+            "dürfen",
+            "durfte",
+            "durften"
+          ]
+        ]
+      },
+      "tip": "mögen → [mochte] · sollen → [sollte]",
+      "examples": [
+        {
+          "text": "Als Kind [musste] ich früh ins Bett."
+        },
+        {
+          "text": "Früher [durfte] ich nicht lange fernsehen."
+        }
+      ],
+      "warning": {
+        "wrong": "Als Kind müsste ich viel helfen.",
+        "right": "Als Kind musste ich viel helfen.",
+        "note": "müsste ist Konjunktiv II."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Alle Formen",
+            "lines": [
+              "ich musste, du musstest, er musste",
+              "wir mussten, ihr musstet, sie mussten"
+            ]
+          },
+          {
+            "title": "Infinitiv am Ende",
+            "lines": [
+              "Ich [wollte] Ärztin {werden}."
+            ]
+          },
+          {
+            "title": "Nicht verwechseln",
+            "lines": [
+              "konnte (früher) ≠ könnte (vielleicht)"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Früher ___ ich gut schwimmen. (können)",
+            "answer": "konnte"
+          },
+          {
+            "prompt": "Wir ___ dort nicht rauchen. (dürfen)",
+            "answer": "durften"
+          },
+          {
+            "prompt": "Als Kind ___ du Pilot werden, oder? (wollen)",
+            "answer": "wolltest"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2-praeteritum-erzaehlen",
+      "level": "A2",
+      "category": "verben",
+      "title": "Präteritum beim Erzählen",
+      "subtitle": "In Geschichten und Märchen steht meist das Präteritum.",
+      "lektionIds": [
+        "a2-m8-l23"
+      ],
+      "visual": {
+        "kind": "columns",
+        "columns": [
+          {
+            "label": "regelmäßig",
+            "sublabel": "Stamm + -te",
+            "tone": "accent",
+            "lines": true,
+            "items": [
+              "machen → mach[te]",
+              "sagen → sag[te]",
+              "wohnen → wohn[te]"
+            ]
+          },
+          {
+            "label": "unregelmäßig",
+            "sublabel": "neuer Stamm",
+            "tone": "success",
+            "lines": true,
+            "items": [
+              "gehen → {ging}",
+              "kommen → {kam}",
+              "sehen → {sah}",
+              "finden → {fand}"
+            ]
+          }
+        ]
+      },
+      "examples": [
+        {
+          "text": "Plötzlich {kam} ein Sturm."
+        },
+        {
+          "text": "Die Leute warte[ten] im Haus."
+        }
+      ],
+      "warning": {
+        "wrong": "Er gehte nach Hause.",
+        "right": "Er ging nach Hause.",
+        "note": "gehen ist unregelmäßig: ging."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Endungen",
+            "lines": [
+              "ich ging, du ging[st], er ging",
+              "wir ging[en], ihr ging[t], sie ging[en]",
+              "ich und er: keine Endung!"
+            ]
+          },
+          {
+            "title": "Sehr wichtig",
+            "lines": [
+              "sein → {war}, haben → {hatte}, werden → {wurde}"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Gestern ___ er lange. (arbeiten)",
+            "answer": "arbeitete"
+          },
+          {
+            "prompt": "Sie ___ den Schlüssel. (finden)",
+            "answer": "fand"
+          },
+          {
+            "prompt": "Wir ___ sehr müde. (sein)",
+            "answer": "waren"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2-sollte-koennte",
+      "level": "A2",
+      "category": "verben",
+      "title": "Rat mit sollte, Idee mit könnte",
+      "subtitle": "Höflich raten oder etwas vorschlagen.",
+      "lektionIds": [
+        "a2-m2-l6"
+      ],
+      "visual": {
+        "kind": "columns",
+        "columns": [
+          {
+            "label": "sollte",
+            "sublabel": "Rat",
+            "tone": "accent",
+            "lines": true,
+            "items": [
+              "Du [solltest]",
+              "mehr schlafen."
+            ]
+          },
+          {
+            "label": "könnte",
+            "sublabel": "Vorschlag",
+            "tone": "success",
+            "lines": true,
+            "items": [
+              "Wir {könnten}",
+              "joggen gehen."
+            ]
+          }
+        ]
+      },
+      "examples": [
+        {
+          "text": "Sie [sollten] weniger Kaffee trinken."
+        },
+        {
+          "text": "{Könntest} du mir bitte helfen?"
+        }
+      ],
+      "warning": {
+        "wrong": "Du solltest mehr Sport machst.",
+        "right": "Du solltest mehr Sport machen.",
+        "note": "Infinitiv am Satzende."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Formen",
+            "lines": [
+              "ich [sollte], du [solltest], wir [sollten]",
+              "ich {könnte}, du {könntest}, wir {könnten}"
+            ]
+          },
+          {
+            "title": "Nicht verwechseln",
+            "lines": [
+              "konnte (Präteritum) ≠ {könnte}"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Du hast Fieber. Du ___ zum Arzt gehen.",
+            "answer": "solltest"
+          },
+          {
+            "prompt": "Wir ___ am Samstag schwimmen gehen. (Vorschlag)",
+            "answer": "könnten"
+          },
+          {
+            "prompt": "___ Sie das Fenster öffnen? (höfliche Bitte)",
+            "answer": "Könnten"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2-waere-haette-wuerde",
+      "level": "A2",
+      "category": "verben",
+      "title": "Wünsche: wäre, hätte, würde",
+      "subtitle": "Nicht real — aber schön.",
+      "lektionIds": [
+        "a2-m4-l11"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Real",
+          "Wunsch"
+        ],
+        "highlightColumn": 1,
+        "rows": [
+          [
+            "ich bin",
+            "ich wäre"
+          ],
+          [
+            "ich habe",
+            "ich hätte"
+          ],
+          [
+            "ich reise",
+            "ich würde reisen"
+          ]
+        ]
+      },
+      "tip": "Oft mit gern: Ich [hätte] gern mehr Zeit.",
+      "examples": [
+        {
+          "text": "Ich [wäre] jetzt gern am Meer."
+        },
+        {
+          "text": "Wir [würden] gern um die Welt reisen."
+        }
+      ],
+      "warning": {
+        "wrong": "Ich wäre gern mehr Zeit.",
+        "right": "Ich hätte gern mehr Zeit.",
+        "note": "Zeit haben → hätte."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Formen",
+            "lines": [
+              "ich [wäre], du [wärst], wir [wären]",
+              "ich [hätte], du [hättest], wir [hätten]",
+              "ich [würde], du [würdest], wir [würden]"
+            ]
+          },
+          {
+            "title": "Höflich",
+            "lines": [
+              "Ich [hätte] gern einen Kaffee.",
+              "[Würden] Sie mir helfen?"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Ich ___ gern Millionär. (sein)",
+            "answer": "wäre"
+          },
+          {
+            "prompt": "Wir ___ gern einen Hund. (haben)",
+            "answer": "hätten"
+          },
+          {
+            "prompt": "Er ___ gern Gitarre spielen. (würde-Form)",
+            "answer": "würde"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2-reflexive-verben",
+      "level": "A2",
+      "category": "verben",
+      "title": "Reflexive Verben",
+      "subtitle": "Die Handlung geht zurück zur Person selbst.",
+      "lektionIds": [
+        "a2-m6-l16"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Person",
+          "Reflexivpronomen"
+        ],
+        "highlightColumn": 1,
+        "rows": [
+          [
+            "ich / du",
+            "mich / dich"
+          ],
+          [
+            "er / sie / es",
+            "sich"
+          ],
+          [
+            "wir / ihr",
+            "uns / euch"
+          ],
+          [
+            "sie / Sie",
+            "sich"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "text": "Ich freue [mich] auf das Wochenende."
+        },
+        {
+          "text": "Wir treffen [uns] um acht."
+        }
+      ],
+      "warning": {
+        "wrong": "Wir treffen sich morgen.",
+        "right": "Wir treffen uns morgen.",
+        "note": "sich nur bei er, sie, es, Sie."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Häufige Verben",
+            "lines": [
+              "sich freuen, sich ärgern, sich treffen",
+              "sich informieren, sich beeilen, sich setzen"
+            ]
+          },
+          {
+            "title": "Satzbau",
+            "lines": [
+              "Heute ärgere ich [mich].",
+              "Perfekt: Ich habe [mich] gefreut."
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Beeil ___! (du)",
+            "answer": "dich"
+          },
+          {
+            "prompt": "Sie informieren ___ im Internet. (Plural)",
+            "answer": "sich"
+          },
+          {
+            "prompt": "Wir setzen ___ ans Fenster.",
+            "answer": "uns"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2-verben-praepositionen",
+      "level": "A2",
+      "category": "verben",
+      "title": "Verben mit Präposition",
+      "subtitle": "Lerne die Präposition immer mit dem Verb.",
+      "lektionIds": [
+        "a2-m6-l17"
+      ],
+      "visual": {
+        "kind": "columns",
+        "columns": [
+          {
+            "label": "+ Akkusativ",
+            "tone": "accent",
+            "lines": true,
+            "items": [
+              "warten [auf]",
+              "sich freuen [auf/über]",
+              "sich ärgern [über]",
+              "sich kümmern [um]",
+              "denken [an]"
+            ]
+          },
+          {
+            "label": "+ Dativ",
+            "tone": "success",
+            "lines": true,
+            "items": [
+              "sprechen {mit}",
+              "träumen {von}",
+              "Angst haben {vor}",
+              "teilnehmen {an}"
+            ]
+          }
+        ]
+      },
+      "examples": [
+        {
+          "text": "Ich warte [auf den] Bus."
+        },
+        {
+          "text": "Sie spricht {mit dem} Chef."
+        }
+      ],
+      "warning": {
+        "wrong": "Ich warte für den Bus.",
+        "right": "Ich warte auf den Bus.",
+        "note": "warten auf — nicht für."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Tipp",
+            "lines": [
+              "sich freuen [auf] = kommt noch · [über] = ist schon da"
+            ]
+          },
+          {
+            "title": "auf oder über?",
+            "lines": [
+              "Ich freue mich [auf] die Ferien. (bald)",
+              "Ich freue mich [über] das Geschenk. (schon da)"
+            ]
+          },
+          {
+            "title": "Fragen",
+            "lines": [
+              "Sache: [Worauf] wartest du?",
+              "Person: [Auf wen] wartest du?"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Wir warten ___ den Zug.",
+            "answer": "auf"
+          },
+          {
+            "prompt": "Sie freut sich ___ die Blumen. (hat sie schon)",
+            "answer": "über"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2-lassen-infinitiv",
+      "level": "A2",
+      "category": "verben",
+      "title": "lassen + Infinitiv",
+      "subtitle": "Jemand anders macht es für mich.",
+      "lektionIds": [
+        "a2-m7-l21"
+      ],
+      "visual": {
+        "kind": "columns",
+        "columns": [
+          {
+            "label": "selbst",
+            "sublabel": "Ich mache es",
+            "tone": "accent",
+            "lines": true,
+            "items": [
+              "Ich [repariere]",
+              "mein Auto."
+            ]
+          },
+          {
+            "label": "lassen",
+            "sublabel": "Jemand macht es für mich",
+            "tone": "success",
+            "lines": true,
+            "items": [
+              "Ich {lasse} mein Auto",
+              "{reparieren}."
+            ]
+          }
+        ]
+      },
+      "examples": [
+        {
+          "text": "Sie {lässt} sich die Haare {schneiden}."
+        },
+        {
+          "text": "Wir {lassen} das Sofa {liefern}."
+        }
+      ],
+      "warning": {
+        "wrong": "Ich lasse mein Auto repariert.",
+        "right": "Ich lasse mein Auto reparieren.",
+        "note": "lassen + Infinitiv, kein Partizip."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Formen",
+            "lines": [
+              "ich lasse, du {lässt}, er {lässt}",
+              "wir lassen, ihr lasst, sie lassen"
+            ]
+          },
+          {
+            "title": "Für mich selbst",
+            "lines": [
+              "Ich lasse [mir] die Haare schneiden."
+            ]
+          },
+          {
+            "title": "Perfekt",
+            "lines": [
+              "Ich habe das Auto reparieren {lassen}."
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Er ___ sein Fahrrad reparieren. (lassen)",
+            "answer": "lässt"
+          },
+          {
+            "prompt": "Ich lasse mir die Haare ___. (schneiden)",
+            "answer": "schneiden"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2-passiv-praesens",
+      "level": "A2",
+      "category": "verben",
+      "title": "Passiv: werden + Partizip II",
+      "subtitle": "Wichtig ist, was passiert — nicht wer es tut.",
+      "lektionIds": [
+        "a2-m8-l22"
+      ],
+      "visual": {
+        "kind": "columns",
+        "columns": [
+          {
+            "label": "Aktiv",
+            "sublabel": "Wer tut es?",
+            "tone": "accent",
+            "lines": true,
+            "items": [
+              "Die Arbeiter [bauen]",
+              "das Auto."
+            ]
+          },
+          {
+            "label": "Passiv",
+            "sublabel": "Was passiert?",
+            "tone": "success",
+            "lines": true,
+            "items": [
+              "Das Auto {wird}",
+              "{gebaut}."
+            ]
+          }
+        ]
+      },
+      "tip": "Wer? → von + Dativ: von den Arbeitern",
+      "examples": [
+        {
+          "text": "Die Pakete {werden} heute {geliefert}."
+        },
+        {
+          "text": "Hier {wird} Deutsch {gesprochen}."
+        }
+      ],
+      "warning": {
+        "wrong": "Die Ware wird morgen liefern.",
+        "right": "Die Ware wird morgen geliefert.",
+        "note": "Passiv braucht das Partizip II."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "werden",
+            "lines": [
+              "ich werde, du {wirst}, er {wird}",
+              "wir werden, ihr werdet, sie werden"
+            ]
+          },
+          {
+            "title": "Aktiv → Passiv",
+            "lines": [
+              "Man kontrolliert [den] Motor.",
+              "→ [Der] Motor {wird} kontrolliert."
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Die Briefe ___ sortiert. (werden)",
+            "answer": "werden"
+          },
+          {
+            "prompt": "Das Essen wird jetzt ___. (kochen)",
+            "answer": "gekocht"
+          },
+          {
+            "prompt": "Man repariert das Dach. → Passiv",
+            "answer": "Das Dach wird repariert."
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2-passiv-praeteritum-modal",
+      "level": "A2",
+      "category": "verben",
+      "title": "Passiv: wurde und muss … werden",
+      "subtitle": "Passiv in der Vergangenheit und mit Modalverb.",
+      "lektionIds": [
+        "a2-m8-l24"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Form",
+          "Beispiel"
+        ],
+        "rows": [
+          [
+            "Präsens",
+            "Das Haus [wird] gebaut."
+          ],
+          [
+            "Präteritum",
+            "Das Haus [wurde] gebaut."
+          ],
+          [
+            "Modalverb",
+            "Das Haus {muss} gebaut {werden}."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "text": "Das Gesetz [wurde] 2010 geändert."
+        },
+        {
+          "text": "Hier {darf} nicht geraucht {werden}."
+        }
+      ],
+      "warning": {
+        "wrong": "Das muss sofort werden bezahlt.",
+        "right": "Das muss sofort bezahlt werden.",
+        "note": "werden steht ganz am Ende."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "wurde",
+            "lines": [
+              "ich wurde, du [wurdest], er wurde",
+              "wir [wurden], ihr [wurdet], sie [wurden]"
+            ]
+          },
+          {
+            "title": "Mit Modalverb",
+            "lines": [
+              "muss, kann, darf, soll + Partizip II + {werden}",
+              "Früher: Das {musste} gemacht {werden}."
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Die Brücke ___ 1990 gebaut. (Präteritum)",
+            "answer": "wurde"
+          },
+          {
+            "prompt": "Der Müll muss getrennt ___.",
+            "answer": "werden"
+          },
+          {
+            "prompt": "Die Regeln ___ gestern erklärt. (Präteritum)",
+            "answer": "wurden"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2-verben-mit-dativ",
+      "level": "A2",
+      "category": "verben",
+      "title": "Verben mit Dativ",
+      "subtitle": "Diese Verben brauchen den Dativ — ohne Präposition.",
+      "lektionIds": [],
+      "visual": {
+        "kind": "columns",
+        "columns": [
+          {
+            "label": "+ Dativ",
+            "tone": "success",
+            "inline": true,
+            "items": [
+              "helfen",
+              "danken",
+              "gefallen",
+              "gehören",
+              "gratulieren",
+              "schmecken",
+              "passen"
+            ]
+          }
+        ]
+      },
+      "tip": "{mir}, {dir}, {ihm}, {ihr}, {uns}, {euch}, {ihnen}, {Ihnen}",
+      "examples": [
+        {
+          "text": "Ich helfe {meinem} Bruder."
+        },
+        {
+          "text": "Das Kleid gefällt {mir}."
+        }
+      ],
+      "warning": {
+        "wrong": "Kannst du mich helfen?",
+        "right": "Kannst du mir helfen?",
+        "note": "helfen braucht immer Dativ."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Die Sache ist Subjekt",
+            "lines": [
+              "Die Schuhe gefallen {mir}.",
+              "Das Buch gehört {ihm}."
+            ]
+          },
+          {
+            "title": "Artikel im Dativ",
+            "lines": [
+              "der/das → {dem}, die → {der}",
+              "Plural → {den} + -n: den Kinder{n}"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Ich danke ___ für die Hilfe. (du)",
+            "answer": "dir"
+          },
+          {
+            "prompt": "Die Suppe schmeckt ___ nicht. (wir)",
+            "answer": "uns"
+          },
+          {
+            "prompt": "Gehört das Handy ___ Lehrerin? (die)",
+            "answer": "der"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2-possessivartikel",
+      "level": "A2",
+      "category": "nomen",
+      "title": "Possessivartikel: alle Formen",
+      "subtitle": "Wem gehört es? Endungen wie bei ein und kein.",
+      "lektionIds": [
+        "a2-m1-l3"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Person",
+          "Artikel"
+        ],
+        "highlightColumn": 1,
+        "rows": [
+          [
+            "ich / du",
+            "mein / dein"
+          ],
+          [
+            "er, es / sie",
+            "sein / ihr"
+          ],
+          [
+            "wir / ihr",
+            "unser / euer"
+          ],
+          [
+            "sie / Sie",
+            "ihr / Ihr"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "text": "Das sind [unser] Sohn und [unsere] Tochter."
+        }
+      ],
+      "warning": {
+        "wrong": "Anna und sein Mann kommen.",
+        "right": "Anna und ihr Mann kommen.",
+        "note": "Anna ist eine Frau → ihr."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Tipp",
+            "lines": [
+              "euer + Endung verliert das e: [eure] Wohnung"
+            ]
+          },
+          {
+            "title": "Endungen (Nominativ)",
+            "lines": [
+              "der, das → unser",
+              "die, Plural → unser[e]"
+            ]
+          },
+          {
+            "title": "Akkusativ maskulin",
+            "lines": [
+              "Ich suche unser[en] Hund."
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Paul und ___ Frau wohnen hier. (er)",
+            "answer": "seine"
+          },
+          {
+            "prompt": "Kinder, wo ist ___ Lehrerin? (ihr)",
+            "answer": "eure"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2-n-deklination",
+      "level": "A2",
+      "category": "nomen",
+      "title": "n-Deklination",
+      "subtitle": "Manche maskuline Nomen bekommen -(e)n — außer im Nominativ.",
+      "lektionIds": [
+        "a2-m8-l22"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Nominativ",
+          "Akkusativ",
+          "Dativ"
+        ],
+        "rows": [
+          [
+            "der Kunde",
+            "den Kunde[n]",
+            "dem Kunde[n]"
+          ],
+          [
+            "der Junge",
+            "den Junge[n]",
+            "dem Junge[n]"
+          ],
+          [
+            "der Student",
+            "den Student[en]",
+            "dem Student[en]"
+          ],
+          [
+            "der Herr",
+            "den Herr[n]",
+            "dem Herr[n]"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "text": "Ich frage den Kolleg[en]."
+        },
+        {
+          "text": "Wir helfen dem Nachbar[n]."
+        }
+      ],
+      "warning": {
+        "wrong": "Ich kenne den Student.",
+        "right": "Ich kenne den Studenten.",
+        "note": "Auch im Akkusativ: -en."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Tipp",
+            "lines": [
+              "Typisch: -e (Kollege), -ent, -ist, -ant"
+            ]
+          },
+          {
+            "title": "Wer gehört dazu?",
+            "lines": [
+              "maskulin, meist Personen oder Tiere:",
+              "Kunde, Junge, Kollege, Löwe",
+              "Student, Polizist, Praktikant, Mensch"
+            ]
+          },
+          {
+            "title": "Plural",
+            "lines": [
+              "immer -(e)n: die Kunden, die Studenten"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Der Chef begrüßt den ___. (Kunde)",
+            "answer": "Kunden"
+          },
+          {
+            "prompt": "Ich spreche mit dem ___. (Polizist)",
+            "answer": "Polizisten"
+          },
+          {
+            "prompt": "Richtig? „Der Studenten wartet.“",
+            "answer": "Nein: Der Student wartet."
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2-legen-liegen",
+      "level": "A2",
+      "category": "praepositionen",
+      "title": "legen oder liegen?",
+      "subtitle": "Tust du etwas, oder ist es so?",
+      "lektionIds": [
+        "a2-m3-l9",
+        "a2-m7-l20"
+      ],
+      "visual": {
+        "kind": "columns",
+        "columns": [
+          {
+            "label": "Wohin? · Akkusativ",
+            "sublabel": "Du tust etwas",
+            "tone": "accent",
+            "items": [
+              "legen",
+              "stellen",
+              "hängen"
+            ]
+          },
+          {
+            "label": "Wo? · Dativ",
+            "sublabel": "Es ist so",
+            "tone": "success",
+            "items": [
+              "liegen",
+              "stehen",
+              "hängen"
+            ]
+          }
+        ]
+      },
+      "examples": [
+        {
+          "text": "Ich [lege] das Buch auf [den] Tisch.",
+          "result": "Es {liegt} auf {dem} Tisch."
+        },
+        {
+          "text": "Wir [hängen] das Bild an [die] Wand.",
+          "result": "Es {hängt} an {der} Wand."
+        }
+      ],
+      "warning": {
+        "wrong": "Ich liege das Buch auf den Tisch.",
+        "right": "Ich lege das Buch auf den Tisch.",
+        "note": "Du legst es — du tust etwas."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Formen",
+            "lines": [
+              "[legen] – legte – hat gelegt",
+              "{liegen} – lag – hat gelegen",
+              "[stellen] – stellte – hat gestellt",
+              "{stehen} – stand – hat gestanden",
+              "[hängen] – hängte – hat gehängt",
+              "{hängen} – hing – hat gehangen"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Ich ___ den Teller auf den Tisch. (stehend)",
+            "answer": "stelle"
+          },
+          {
+            "prompt": "Der Schlüssel ___ unter d___ Sofa.",
+            "answer": "liegt, dem"
+          },
+          {
+            "prompt": "Wohin hast du den Mantel ___?",
+            "answer": "gehängt"
+          }
+        ]
+      },
+      "tip": "Kurzformen: [ins] · {im} · [ans] · {am}"
+    },
+    {
+      "id": "a2-wo-wohin-woher",
+      "level": "A2",
+      "category": "praepositionen",
+      "title": "Wo? Wohin? Woher?",
+      "subtitle": "Ort, Ziel oder Herkunft?",
+      "lektionIds": [
+        "a2-m3-l8"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Wo?",
+          "Wohin?",
+          "Woher?"
+        ],
+        "highlightColumn": 1,
+        "rows": [
+          [
+            "im Kino",
+            "ins Kino",
+            "aus dem Kino"
+          ],
+          [
+            "beim Arzt",
+            "zum Arzt",
+            "vom Arzt"
+          ],
+          [
+            "in Berlin",
+            "nach Berlin",
+            "aus Berlin"
+          ],
+          [
+            "zu Hause",
+            "nach Hause",
+            "von zu Hause"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "text": "[Wohin] fährst du? — [Nach] Wien."
+        },
+        {
+          "text": "{Wo} arbeitest du? — {Im} Krankenhaus."
+        }
+      ],
+      "warning": {
+        "wrong": "Ich gehe jetzt zu Hause.",
+        "right": "Ich gehe jetzt nach Hause.",
+        "note": "Wohin? → nach Hause."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Länder mit Artikel",
+            "lines": [
+              "Wo? {in der} Schweiz",
+              "Wohin? [in die] Schweiz",
+              "Woher? aus der Schweiz"
+            ]
+          },
+          {
+            "title": "Kurzformen",
+            "lines": [
+              "in dem → {im}, in das → [ins]",
+              "zu dem → [zum], von dem → vom"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "___ kommst du? — Aus Spanien.",
+            "answer": "Woher"
+          },
+          {
+            "prompt": "Wir fliegen ___ Türkei. (Wohin?)",
+            "answer": "in die"
+          },
+          {
+            "prompt": "Er ist gerade ___ Arzt. (bei + der)",
+            "answer": "beim"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2-wechselpraepositionen",
+      "level": "A2",
+      "category": "praepositionen",
+      "title": "Wechselpräpositionen",
+      "subtitle": "Wohin? → Akkusativ. Wo? → Dativ.",
+      "lektionIds": [
+        "a2-m7-l20"
+      ],
+      "visual": {
+        "kind": "columns",
+        "columns": [
+          {
+            "label": "Wohin? · Akkusativ",
+            "sublabel": "Bewegung zum Ziel",
+            "tone": "accent",
+            "lines": true,
+            "items": [
+              "[in den] Schrank",
+              "[auf den] Tisch",
+              "[an die] Wand"
+            ]
+          },
+          {
+            "label": "Wo? · Dativ",
+            "sublabel": "Position",
+            "tone": "success",
+            "lines": true,
+            "items": [
+              "{im} Schrank",
+              "{auf dem} Tisch",
+              "{an der} Wand"
+            ]
+          }
+        ]
+      },
+      "examples": [
+        {
+          "text": "Ich hänge die Lampe [über den] Tisch.",
+          "result": "Sie hängt {über dem} Tisch."
+        },
+        {
+          "text": "Er setzt sich [zwischen die] Kinder.",
+          "result": "Er sitzt {zwischen den} Kindern."
+        }
+      ],
+      "warning": {
+        "wrong": "Das Bild hängt über das Sofa.",
+        "right": "Das Bild hängt über dem Sofa.",
+        "note": "Es hängt da → Dativ."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Tipp",
+            "lines": [
+              "an · auf · hinter · in · neben · über · unter · vor · zwischen"
+            ]
+          },
+          {
+            "title": "Verben",
+            "lines": [
+              "Wohin? [legen, stellen, setzen, hängen]",
+              "Wo? {liegen, stehen, sitzen, hängen}"
+            ]
+          },
+          {
+            "title": "Kurzformen",
+            "lines": [
+              "[ins], [ans] · {im}, {am}"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Die Katze springt auf ___ Sofa.",
+            "answer": "das"
+          },
+          {
+            "prompt": "Das Auto steht hinter ___ Haus.",
+            "answer": "dem"
+          },
+          {
+            "prompt": "Ich stelle die Vase neben ___ Fernseher.",
+            "answer": "den"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2-seit-vor-bis",
+      "level": "A2",
+      "category": "praepositionen",
+      "title": "seit, vor oder bis?",
+      "subtitle": "Seit wann? Wann? Bis wann?",
+      "lektionIds": [
+        "a2-m2-l5"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Frage",
+          "Antwort"
+        ],
+        "rows": [
+          [
+            "Seit wann?",
+            "[seit] {einem} Jahr — bis heute"
+          ],
+          [
+            "Wann?",
+            "[vor] {einer} Woche — vorbei"
+          ],
+          [
+            "Bis wann?",
+            "[bis] Freitag, [bis] 18 Uhr"
+          ]
+        ]
+      },
+      "tip": "seit und vor + Dativ · bis meist ohne Artikel",
+      "examples": [
+        {
+          "text": "Ich lerne [seit] {einem} Jahr Deutsch."
+        },
+        {
+          "text": "Er ist [vor] {einer} Stunde gekommen."
+        }
+      ],
+      "warning": {
+        "wrong": "Ich wohne hier seit zwei Jahre.",
+        "right": "Ich wohne hier seit zwei Jahren.",
+        "note": "Dativ Plural: -n am Ende."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "seit + Präsens",
+            "lines": [
+              "Ich [arbeite] seit Mai hier. (noch jetzt)"
+            ]
+          },
+          {
+            "title": "Dativ",
+            "lines": [
+              "seit/vor {einem} Monat, {einer} Woche",
+              "seit/vor zwei Jahr{en}, drei Tag{en}"
+            ]
+          },
+          {
+            "title": "bis + Artikel",
+            "lines": [
+              "bis zum Wochenende, bis zur Pause"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Ich warte ___ einer Stunde. (und warte noch)",
+            "answer": "seit"
+          },
+          {
+            "prompt": "___ drei Tagen war ich in Berlin.",
+            "answer": "Vor"
+          },
+          {
+            "prompt": "Der Kurs geht ___ Juni.",
+            "answer": "bis"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2-praepositionen-uebersicht",
+      "level": "A2",
+      "category": "praepositionen",
+      "title": "Akkusativ, Dativ oder Wechsel?",
+      "subtitle": "Drei Gruppen — lerne jede Präposition mit ihrem Kasus.",
+      "lektionIds": [],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Kasus",
+          "Präpositionen"
+        ],
+        "rows": [
+          [
+            "[Akkusativ]",
+            "durch, für, gegen, ohne, um"
+          ],
+          [
+            "{Dativ}",
+            "aus, bei, mit, nach, seit, von, zu"
+          ],
+          [
+            "Wechsel",
+            "an, auf, hinter, in, neben, über, unter, vor, zwischen"
+          ]
+        ]
+      },
+      "tip": "Wechsel: Wohin? → [Akkusativ] · Wo? → {Dativ}",
+      "examples": [
+        {
+          "text": "Wir fahren [durch den] Tunnel."
+        },
+        {
+          "text": "Ich wohne {bei meiner} Tante."
+        }
+      ],
+      "warning": {
+        "wrong": "Ich gehe zu die Bank.",
+        "right": "Ich gehe zur Bank.",
+        "note": "zu + Dativ: zu der → zur."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Wechsel: Wohin oder Wo?",
+            "lines": [
+              "Ich gehe [in den] Park.",
+              "Ich bin {im} Park."
+            ]
+          },
+          {
+            "title": "Kurzformen",
+            "lines": [
+              "[fürs], [ums] · {zum}, {zur}, {beim}, {vom}",
+              "[ins], [ans] · {im}, {am}"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Ich gehe ohne ___ Mantel raus. (der)",
+            "answer": "den"
+          },
+          {
+            "prompt": "Sie fährt mit ___ Zug. (der)",
+            "answer": "dem"
+          },
+          {
+            "prompt": "Das Buch liegt auf ___ Tisch. (der)",
+            "answer": "dem"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2-adjektive-nach-ein",
+      "level": "A2",
+      "category": "adjektive",
+      "title": "Adjektive nach ein",
+      "subtitle": "Nominativ und Akkusativ: Das Adjektiv zeigt das Genus.",
+      "lektionIds": [
+        "a2-m5-l14"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Genus",
+          "Nominativ",
+          "Akkusativ"
+        ],
+        "rows": [
+          [
+            "der",
+            "ein alt[er] Tisch",
+            "einen alt[en] Tisch"
+          ],
+          [
+            "das",
+            "ein neu[es] Sofa",
+            "ein neu[es] Sofa"
+          ],
+          [
+            "die",
+            "eine groß[e] Lampe",
+            "eine groß[e] Lampe"
+          ]
+        ]
+      },
+      "tip": "Nur nach einen: [-en] · sonst -er, -es, -e",
+      "examples": [
+        {
+          "text": "Ich suche einen günstig[en] Tisch."
+        },
+        {
+          "text": "Das ist ein schön[es] Geschenk."
+        }
+      ],
+      "warning": {
+        "wrong": "Ich habe einen neuer Job.",
+        "right": "Ich habe einen neuen Job.",
+        "note": "Nach einen: immer -en."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Genauso nach",
+            "lines": [
+              "kein, mein, dein, unser …",
+              "mein alt[er] Freund, kein gut[es] Buch"
+            ]
+          },
+          {
+            "title": "Plural",
+            "lines": [
+              "ohne Artikel: neu[e] Schuhe",
+              "mit keine, meine …: meine neu[en] Schuhe"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Das ist ein toll___ Film.",
+            "answer": "-er (toller)"
+          },
+          {
+            "prompt": "Ich brauche eine warm___ Jacke.",
+            "answer": "-e (warme)"
+          },
+          {
+            "prompt": "Er kauft einen schnell___ Wagen.",
+            "answer": "-en (schnellen)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2-adjektive-dativ",
+      "level": "A2",
+      "category": "adjektive",
+      "title": "Adjektive im Dativ",
+      "subtitle": "Mit Artikel im Dativ endet das Adjektiv immer auf -en.",
+      "lektionIds": [
+        "a2-m5-l15"
+      ],
+      "visual": {
+        "kind": "columns",
+        "columns": [
+          {
+            "label": "Dativ: immer -en",
+            "tone": "success",
+            "lines": true,
+            "items": [
+              "mit einem neu{en} Auto",
+              "mit einer nett{en} Kollegin",
+              "mit meinem alt{en} Freund",
+              "mit meinen gut{en} Freunden"
+            ]
+          }
+        ]
+      },
+      "tip": "Plural: Auch das Nomen bekommt -n: mit Kinder{n}",
+      "examples": [
+        {
+          "text": "Ich helfe einer alt{en} Dame."
+        },
+        {
+          "text": "Wir wohnen in einem klein{en} Dorf."
+        }
+      ],
+      "warning": {
+        "wrong": "Ich fahre mit einem neues Auto.",
+        "right": "Ich fahre mit einem neuen Auto.",
+        "note": "Dativ: Adjektiv immer auf -en."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Wann Dativ?",
+            "lines": [
+              "nach aus, bei, mit, nach, seit, von, zu",
+              "Wo? + in, auf, an …: in einem klein{en} Haus"
+            ]
+          },
+          {
+            "title": "Plural ohne Artikel",
+            "lines": [
+              "mit neu{en} Freunde{n}"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Ich spreche mit einer freundlich___ Frau.",
+            "answer": "-en (freundlichen)"
+          },
+          {
+            "prompt": "Er wohnt bei seinem älter___ Bruder.",
+            "answer": "-en (älteren)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2-weil-denn-deshalb",
+      "level": "A2",
+      "category": "konnektoren",
+      "title": "weil, denn oder deshalb?",
+      "subtitle": "Drei Wege, einen Grund zu nennen — drei Verbpositionen.",
+      "lektionIds": [
+        "a2-m1-l2",
+        "a2-m2-l4"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Wort",
+          "Wo steht das Verb?"
+        ],
+        "rows": [
+          [
+            "weil",
+            "…, weil ich müde [bin]."
+          ],
+          [
+            "denn",
+            "…, denn ich [bin] müde."
+          ],
+          [
+            "deshalb",
+            "…, deshalb [gehe] ich."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "text": "Ich bin krank, deshalb [bleibe] ich zu Hause."
+        }
+      ],
+      "warning": {
+        "wrong": "…, weil ich bin krank.",
+        "right": "…, weil ich krank bin.",
+        "note": "Im weil-Satz geht das Verb ans Ende."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Grund oder Folge?",
+            "lines": [
+              "[weil], [denn] → der Grund",
+              "{deshalb} → die Folge"
+            ]
+          },
+          {
+            "title": "Gesprochen",
+            "lines": [
+              "Im Alltag hört man auch „weil ich bin müde“.",
+              "Im Test: Verb ans Ende."
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Ich lerne Deutsch, ___ ich in Wien arbeite.",
+            "answer": "weil"
+          },
+          {
+            "prompt": "Es regnet, ___ bleiben wir drinnen.",
+            "answer": "deshalb"
+          },
+          {
+            "prompt": "Sie kommt nicht, denn sie ___ keine Zeit. (haben)",
+            "answer": "hat"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2-trotzdem",
+      "level": "A2",
+      "category": "konnektoren",
+      "title": "trotzdem: Verb direkt danach",
+      "subtitle": "Gegen die Erwartung — und das Verb kommt sofort.",
+      "lektionIds": [
+        "a2-m6-l18"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Platz 1",
+          "Platz 2",
+          "…"
+        ],
+        "highlightColumn": 1,
+        "rows": [
+          [
+            "Trotzdem",
+            "gehe",
+            "ich joggen."
+          ],
+          [
+            "Ich",
+            "gehe",
+            "trotzdem joggen."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "text": "Es ist kalt. [Trotzdem] [gehe] ich schwimmen."
+        },
+        {
+          "text": "Mein Handy ist alt. Ich mag es [trotzdem]."
+        }
+      ],
+      "warning": {
+        "wrong": "Trotzdem ich gehe schwimmen.",
+        "right": "Trotzdem gehe ich schwimmen.",
+        "note": "Nach trotzdem kommt sofort das Verb."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "trotzdem oder deshalb?",
+            "lines": [
+              "{deshalb} → Folge, wie erwartet",
+              "[trotzdem] → gegen die Erwartung"
+            ]
+          },
+          {
+            "title": "Beispiel",
+            "lines": [
+              "Ich bin müde. {Deshalb} schlafe ich.",
+              "Ich bin müde. [Trotzdem] lerne ich."
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Ich habe keine Lust. ___ mache ich die Hausaufgaben.",
+            "answer": "Trotzdem"
+          },
+          {
+            "prompt": "Der Zug ist voll. Trotzdem ___ wir ein. (steigen)",
+            "answer": "steigen"
+          },
+          {
+            "prompt": "Richtig? „Trotzdem er kommt mit.“",
+            "answer": "Nein: Trotzdem kommt er mit."
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-tekamolo",
+      "level": "B1",
+      "category": "satzbau",
+      "title": "Mittelfeld: TeKaMoLo",
+      "subtitle": "Wann, warum, wie, wo — meist in dieser Reihenfolge.",
+      "lektionIds": [],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Angabe",
+          "Frage · Beispiel"
+        ],
+        "rows": [
+          [
+            "[Te]mporal",
+            "Wann? — morgen"
+          ],
+          [
+            "[Ka]usal",
+            "Warum? — wegen des Regens"
+          ],
+          [
+            "[Mo]dal",
+            "Wie? — mit dem Bus"
+          ],
+          [
+            "[Lo]kal",
+            "Wo? Wohin? — zur Arbeit"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "text": "Ich fahre [morgen] mit dem Bus {zur Arbeit}."
+        }
+      ],
+      "warning": {
+        "wrong": "Ich fahre zur Arbeit morgen.",
+        "right": "Ich fahre morgen zur Arbeit.",
+        "note": "Die Zeit kommt vor dem Ort."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Objekte",
+            "lines": [
+              "Nomen: {Dativ} vor [Akkusativ]",
+              "Ich gebe {dem Kind} [den Ball].",
+              "Pronomen: [Akkusativ] zuerst",
+              "Ich gebe [ihn] {ihm}."
+            ]
+          },
+          {
+            "title": "Nur eine Faustregel",
+            "lines": [
+              "Für Betonung geht auch eine andere Reihenfolge."
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "zur Uni / heute / fahre / ich / mit dem Rad",
+            "answer": "Ich fahre heute mit dem Rad zur Uni."
+          },
+          {
+            "prompt": "Besser? „Er arbeitet in Köln seit 2020.“",
+            "answer": "Er arbeitet seit 2020 in Köln."
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-indirekte-fragen",
+      "level": "B1",
+      "category": "satzbau",
+      "title": "Indirekte Fragen",
+      "subtitle": "Höflich fragen — das Verb geht ans Ende.",
+      "lektionIds": [
+        "b1-m3-l7"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Direkt",
+          "Indirekt"
+        ],
+        "rows": [
+          [
+            "Wo wohnt er?",
+            "…, [wo] er [wohnt]."
+          ],
+          [
+            "Was macht sie?",
+            "…, [was] sie [macht]."
+          ],
+          [
+            "Kommt er?",
+            "…, {ob} er {kommt}."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "text": "Wissen Sie, [wann] der Zug [fährt]?"
+        },
+        {
+          "text": "Ich weiß nicht, {ob} das {stimmt}."
+        }
+      ],
+      "warning": {
+        "wrong": "Können Sie mir sagen, wo ist die Post?",
+        "right": "Können Sie mir sagen, wo die Post ist?",
+        "note": "Indirekte Frage: Verb ans Ende."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "ob, nicht wenn",
+            "lines": [
+              "Ja/Nein-Frage → {ob}",
+              "Ich frage, {ob} du Zeit hast."
+            ]
+          },
+          {
+            "title": "Typische Anfänge",
+            "lines": [
+              "Weißt du, …? · Können Sie mir sagen, …?",
+              "Ich frage mich, … · Ich weiß nicht, …"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Ich weiß nicht, ___ er morgen kommt. (Ja/Nein)",
+            "answer": "ob"
+          },
+          {
+            "prompt": "Weißt du, wo der Schlüssel ___? (liegen)",
+            "answer": "liegt"
+          },
+          {
+            "prompt": "„Wie spät ist es?“ → Können Sie mir sagen, …",
+            "answer": "…, wie spät es ist?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-relativsatz-praeposition",
+      "level": "B1",
+      "category": "satzbau",
+      "title": "Relativsätze mit Präposition",
+      "subtitle": "Die Präposition steht vor dem Relativpronomen.",
+      "lektionIds": [
+        "b1-m4-l11"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Präposition",
+          "Relativsatz"
+        ],
+        "rows": [
+          [
+            "mit + Dativ",
+            "der Freund, {mit dem} ich …"
+          ],
+          [
+            "in + Dativ",
+            "die Stadt, {in der} ich …"
+          ],
+          [
+            "für + Akkusativ",
+            "der Kurs, [für den] ich …"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "text": "Das ist der Freund. Ich reise {mit ihm}.",
+          "result": "Das ist der Freund, {mit dem} ich reise."
+        }
+      ],
+      "warning": {
+        "wrong": "Die Frau, mit die ich arbeite, …",
+        "right": "Die Frau, mit der ich arbeite, …",
+        "note": "mit = Dativ → der."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Relativpronomen Dativ",
+            "lines": [
+              "der/das → {dem} · die → {der}",
+              "Plural → {denen}"
+            ]
+          },
+          {
+            "title": "Relativpronomen Akkusativ",
+            "lines": [
+              "der → [den] · die → [die] · das → [das]"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Das ist das Haus, in ___ ich wohne.",
+            "answer": "dem"
+          },
+          {
+            "prompt": "Das sind die Freunde, mit ___ ich lerne.",
+            "answer": "denen"
+          },
+          {
+            "prompt": "Der Kurs, für ___ ich zahle, ist gut.",
+            "answer": "den"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-relativsatz-was-wo",
+      "level": "B1",
+      "category": "satzbau",
+      "title": "Relativsätze mit was und wo",
+      "subtitle": "Nach alles, nichts, etwas → was. Nach Orten → wo.",
+      "lektionIds": [
+        "b1-m5-l14"
+      ],
+      "visual": {
+        "kind": "columns",
+        "columns": [
+          {
+            "label": "was",
+            "sublabel": "nach Pronomen",
+            "tone": "accent",
+            "inline": true,
+            "items": [
+              "alles",
+              "nichts",
+              "etwas",
+              "vieles",
+              "das"
+            ]
+          },
+          {
+            "label": "wo",
+            "sublabel": "nach Orten",
+            "tone": "success",
+            "inline": true,
+            "items": [
+              "die Stadt",
+              "das Land",
+              "überall",
+              "dort"
+            ]
+          }
+        ]
+      },
+      "examples": [
+        {
+          "text": "Das ist alles, [was] ich [weiß]."
+        },
+        {
+          "text": "Wien ist die Stadt, {wo} ich {wohne}."
+        }
+      ],
+      "warning": {
+        "wrong": "Das ist alles, das ich weiß.",
+        "right": "Das ist alles, was ich weiß.",
+        "note": "Nach alles steht was."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Tipp",
+            "lines": [
+              "Auch nach Superlativ: das Beste, [was] …"
+            ]
+          },
+          {
+            "title": "wo = in dem / in der",
+            "lines": [
+              "die Stadt, {wo} ich wohne",
+              "= die Stadt, {in der} ich wohne"
+            ]
+          },
+          {
+            "title": "was nach ganzem Satz",
+            "lines": [
+              "Er hat angerufen, [was] mich freut."
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Gibt es etwas, ___ du nicht magst?",
+            "answer": "was"
+          },
+          {
+            "prompt": "Ich suche ein Café, ___ man gut arbeiten kann.",
+            "answer": "wo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-konjunktiv-2-gegenwart",
+      "level": "B1",
+      "category": "verben",
+      "title": "Wenn ich Zeit hätte …",
+      "subtitle": "Konjunktiv II: nicht real, nur vorgestellt.",
+      "lektionIds": [
+        "b1-m2-l6"
+      ],
+      "visual": {
+        "kind": "columns",
+        "columns": [
+          {
+            "label": "Realität",
+            "sublabel": "Indikativ",
+            "tone": "neutral",
+            "lines": true,
+            "items": [
+              "Ich habe keine Zeit.",
+              "Ich komme nicht."
+            ]
+          },
+          {
+            "label": "Irreal",
+            "sublabel": "Konjunktiv II",
+            "tone": "accent",
+            "lines": true,
+            "items": [
+              "Wenn ich Zeit [hätte],",
+              "[würde] ich [kommen]."
+            ]
+          }
+        ]
+      },
+      "examples": [
+        {
+          "text": "Wenn ich reich [wäre], [würde] ich reisen."
+        },
+        {
+          "text": "Wenn du hier [wärst], [könnten] wir kochen."
+        }
+      ],
+      "warning": {
+        "wrong": "Wenn ich Zeit habe, würde ich kommen.",
+        "right": "Wenn ich Zeit hätte, würde ich kommen.",
+        "note": "Beide Teile im Konjunktiv II."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Formen",
+            "lines": [
+              "haben → [hätte] · sein → [wäre]",
+              "können → [könnte] · müssen → [müsste]",
+              "andere Verben: [würde] + Infinitiv"
+            ]
+          },
+          {
+            "title": "Ohne wenn",
+            "lines": [
+              "[Hätte] ich Zeit, [würde] ich kommen."
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Wenn ich mehr Geld ___, würde ich reisen. (haben)",
+            "answer": "hätte"
+          },
+          {
+            "prompt": "Wenn es wärmer ___, würden wir schwimmen. (sein)",
+            "answer": "wäre"
+          },
+          {
+            "prompt": "Wenn er Zeit hätte, ___ er uns helfen. (können)",
+            "answer": "könnte"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-konjunktiv-2-vergangenheit",
+      "level": "B1",
+      "category": "verben",
+      "title": "Hätte ich das nur gewusst!",
+      "subtitle": "Konjunktiv II Vergangenheit: Es ist nicht passiert.",
+      "lektionIds": [
+        "b1-m8-l23"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Perfekt",
+          "Konjunktiv II"
+        ],
+        "rows": [
+          [
+            "ich habe gelernt",
+            "ich [hätte] gelernt"
+          ],
+          [
+            "ich bin gefahren",
+            "ich {wäre} gefahren"
+          ]
+        ]
+      },
+      "tip": "[hätte] oder {wäre} + Partizip II",
+      "examples": [
+        {
+          "text": "Wenn ich gelernt [hätte], [hätte] ich bestanden."
+        },
+        {
+          "text": "Ich {wäre} gern mitgekommen."
+        }
+      ],
+      "warning": {
+        "wrong": "Ich hätte früher gekommen.",
+        "right": "Ich wäre früher gekommen.",
+        "note": "kommen bildet das Perfekt mit sein."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Mit Modalverb",
+            "lines": [
+              "Ich [hätte] anrufen sollen.",
+              "Du [hättest] das machen können."
+            ]
+          },
+          {
+            "title": "Bedauern",
+            "lines": [
+              "Wenn ich doch mehr Zeit gehabt [hätte]!"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Wenn ich den Bus nicht verpasst ___, wäre ich pünktlich gewesen. (haben)",
+            "answer": "hätte"
+          },
+          {
+            "prompt": "Ich ___ gern mitgefahren. (sein)",
+            "answer": "wäre"
+          },
+          {
+            "prompt": "Du hättest mich fragen ___. (können)",
+            "answer": "können"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-plusquamperfekt",
+      "level": "B1",
+      "category": "verben",
+      "title": "Plusquamperfekt",
+      "subtitle": "Die Vergangenheit vor der Vergangenheit.",
+      "lektionIds": [
+        "b1-m6-l18"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Perfekt",
+          "Plusquamperfekt"
+        ],
+        "rows": [
+          [
+            "ich habe gegessen",
+            "ich [hatte] gegessen"
+          ],
+          [
+            "sie ist gegangen",
+            "sie {war} gegangen"
+          ]
+        ]
+      },
+      "tip": "[hatte] oder {war} + Partizip II",
+      "examples": [
+        {
+          "text": "Als ich ankam, {war} der Zug schon {abgefahren}."
+        },
+        {
+          "text": "Ich [hatte] schon gegessen, als er kam."
+        }
+      ],
+      "warning": {
+        "wrong": "Ich hatte nach Hause gegangen.",
+        "right": "Ich war nach Hause gegangen.",
+        "note": "gehen → sein, auch hier."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Reihenfolge",
+            "lines": [
+              "zuerst: Plusquamperfekt",
+              "danach: Präteritum oder Perfekt"
+            ]
+          },
+          {
+            "title": "Typisch mit",
+            "lines": [
+              "nachdem, schon, vorher"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Er ___ den Film schon gesehen. (haben)",
+            "answer": "hatte"
+          },
+          {
+            "prompt": "Wir ___ schon losgefahren, als du anriefst. (sein)",
+            "answer": "waren"
+          },
+          {
+            "prompt": "Nachdem sie das Buch ___ hatte, schlief sie. (lesen)",
+            "answer": "gelesen"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-passiv",
+      "level": "B1",
+      "category": "verben",
+      "title": "Passiv in allen Zeiten",
+      "subtitle": "Wichtig ist die Handlung, nicht die Person.",
+      "lektionIds": [
+        "b1-m7-l19",
+        "b1-m7-l21"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Zeit",
+          "Passiv"
+        ],
+        "rows": [
+          [
+            "Präsens",
+            "Es [wird] gebaut."
+          ],
+          [
+            "Präteritum",
+            "Es [wurde] gebaut."
+          ],
+          [
+            "Perfekt",
+            "Es [ist] gebaut {worden}."
+          ],
+          [
+            "Modalverb",
+            "Es [muss] gebaut {werden}."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "text": "Der Antrag [wurde] gestern geprüft."
+        },
+        {
+          "text": "Hier [darf] nicht geraucht {werden}."
+        }
+      ],
+      "warning": {
+        "wrong": "Das Haus ist gebaut geworden.",
+        "right": "Das Haus ist gebaut worden.",
+        "note": "Passiv-Perfekt: worden, nicht geworden."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Wer macht es?",
+            "lines": [
+              "von + Dativ: Es wurde von Anna gemalt."
+            ]
+          },
+          {
+            "title": "Plusquamperfekt",
+            "lines": [
+              "Es [war] gebaut {worden}."
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Die Briefe ___ gestern verschickt. (Präteritum)",
+            "answer": "wurden"
+          },
+          {
+            "prompt": "Das Formular muss ___ werden. (ausfüllen)",
+            "answer": "ausgefüllt"
+          },
+          {
+            "prompt": "Das Auto ist repariert ___.",
+            "answer": "worden"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-lassen",
+      "level": "B1",
+      "category": "verben",
+      "title": "etwas machen lassen",
+      "subtitle": "Nicht ich mache es — jemand anderes macht es.",
+      "lektionIds": [
+        "b1-m5-l15"
+      ],
+      "visual": {
+        "kind": "columns",
+        "columns": [
+          {
+            "label": "selbst",
+            "sublabel": "ich tue es",
+            "tone": "accent",
+            "lines": true,
+            "items": [
+              "Ich [repariere]",
+              "das Auto."
+            ]
+          },
+          {
+            "label": "lassen",
+            "sublabel": "jemand anderes tut es",
+            "tone": "success",
+            "lines": true,
+            "items": [
+              "Ich {lasse} das Auto",
+              "{reparieren}."
+            ]
+          }
+        ]
+      },
+      "examples": [
+        {
+          "text": "Ich {lasse} mir die Haare {schneiden}."
+        },
+        {
+          "text": "Wir {lassen} das Essen {liefern}."
+        }
+      ],
+      "warning": {
+        "wrong": "Ich lasse das Auto repariert.",
+        "right": "Ich lasse das Auto reparieren.",
+        "note": "lassen + Infinitiv, kein Partizip."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Perfekt",
+            "lines": [
+              "Ich habe das Auto reparieren {lassen}."
+            ]
+          },
+          {
+            "title": "Andere Bedeutungen",
+            "lines": [
+              "erlauben: Sie lässt ihn spielen.",
+              "nicht mitnehmen: Ich lasse den Schirm hier."
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Er ___ seine Wohnung streichen. (lassen)",
+            "answer": "lässt"
+          },
+          {
+            "prompt": "Ich habe den Computer reparieren ___.",
+            "answer": "lassen"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-futur-1",
+      "level": "B1",
+      "category": "verben",
+      "title": "Futur I: Prognosen",
+      "subtitle": "Was wird passieren? werden + Infinitiv am Ende.",
+      "lektionIds": [
+        "b1-m8-l24"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Person",
+          "werden"
+        ],
+        "highlightColumn": 1,
+        "rows": [
+          [
+            "ich",
+            "werde"
+          ],
+          [
+            "du",
+            "wirst"
+          ],
+          [
+            "er / sie / es",
+            "wird"
+          ],
+          [
+            "wir / sie / Sie",
+            "werden"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "text": "In 20 Jahren [werden] Autos selbst {fahren}."
+        },
+        {
+          "text": "Die Preise [werden] {steigen}."
+        }
+      ],
+      "warning": {
+        "wrong": "Morgen wird es regnet.",
+        "right": "Morgen wird es regnen.",
+        "note": "Nach werden: Infinitiv."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Futur oder Präsens?",
+            "lines": [
+              "Plan mit Zeitangabe: Präsens reicht.",
+              "Morgen [fahre] ich nach Wien."
+            ]
+          },
+          {
+            "title": "Auch",
+            "lines": [
+              "ihr [werdet]",
+              "Vermutung: Er [wird] wohl krank {sein}."
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Roboter ___ viele Jobs ersetzen. (werden)",
+            "answer": "werden"
+          },
+          {
+            "prompt": "Du ___ die Prüfung schaffen! (werden)",
+            "answer": "wirst"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-perfekt-praeteritum",
+      "level": "B1",
+      "category": "verben",
+      "title": "Perfekt oder Präteritum?",
+      "subtitle": "Sprechen oder schreiben — die Zeit ist dieselbe.",
+      "lektionIds": [
+        "b1-m8-l22"
+      ],
+      "visual": {
+        "kind": "columns",
+        "columns": [
+          {
+            "label": "Perfekt",
+            "sublabel": "gesprochen · Gespräch, Chat",
+            "tone": "accent",
+            "lines": true,
+            "items": [
+              "Ich [habe] gestern",
+              "lange [gearbeitet]."
+            ]
+          },
+          {
+            "label": "Präteritum",
+            "sublabel": "geschrieben · Bericht, Buch",
+            "tone": "success",
+            "lines": true,
+            "items": [
+              "Er {arbeitete}",
+              "viele Jahre in Bonn."
+            ]
+          }
+        ]
+      },
+      "tip": "Auch gesprochen: {war}, {hatte}, {konnte}, {musste}",
+      "examples": [
+        {
+          "text": "Gestern [habe] ich Pizza [gegessen]."
+        }
+      ],
+      "warning": {
+        "wrong": "Ich habe nicht kommen gekonnt.",
+        "right": "Ich konnte nicht kommen.",
+        "note": "Modalverben: meist Präteritum."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Biografie",
+            "lines": [
+              "Er {wurde} 1950 geboren.",
+              "Er {studierte}, {heiratete}, {zog} nach Bonn."
+            ]
+          },
+          {
+            "title": "Perfekt: haben oder sein?",
+            "lines": [
+              "Bewegung, Veränderung → ist gezogen",
+              "sonst → hat studiert"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Sie ___ 1975 in Wien geboren. (werden, Präteritum)",
+            "answer": "wurde"
+          },
+          {
+            "prompt": "Chat: Was ___ du gestern gemacht? (haben)",
+            "answer": "hast"
+          },
+          {
+            "prompt": "Er ___ Politik. (studieren, Präteritum)",
+            "answer": "studierte"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-reflexiv-akk-dat",
+      "level": "B1",
+      "category": "verben",
+      "title": "mich oder mir?",
+      "subtitle": "Gibt es noch ein Akkusativ-Objekt? Dann Dativ.",
+      "lektionIds": [
+        "b1-m2-l4"
+      ],
+      "visual": {
+        "kind": "columns",
+        "columns": [
+          {
+            "label": "Akkusativ",
+            "sublabel": "kein anderes Objekt",
+            "tone": "accent",
+            "lines": true,
+            "items": [
+              "Ich wasche [mich]."
+            ]
+          },
+          {
+            "label": "Dativ",
+            "sublabel": "+ Akkusativ-Objekt",
+            "tone": "success",
+            "lines": true,
+            "items": [
+              "Ich wasche {mir}",
+              "die Hände."
+            ]
+          }
+        ]
+      },
+      "examples": [
+        {
+          "text": "Ich ziehe [mich] an.",
+          "result": "Ich ziehe {mir} die Jacke an."
+        },
+        {
+          "text": "Du kämmst [dich].",
+          "result": "Du kämmst {dir} die Haare."
+        }
+      ],
+      "warning": {
+        "wrong": "Ich wasche mich die Hände.",
+        "right": "Ich wasche mir die Hände.",
+        "note": "die Hände ist schon Akkusativ."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Nur ich und du ändern sich",
+            "lines": [
+              "[mich], [dich] → {mir}, {dir}",
+              "sonst gleich: sich, uns, euch, sich"
+            ]
+          },
+          {
+            "title": "Immer Dativ",
+            "lines": [
+              "sich etwas wünschen, merken, vorstellen",
+              "Ich wünsche {mir} ein Fahrrad."
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Ich putze ___ die Zähne.",
+            "answer": "mir"
+          },
+          {
+            "prompt": "Freust du ___ auf den Urlaub?",
+            "answer": "dich"
+          },
+          {
+            "prompt": "Kannst du ___ das merken? (du)",
+            "answer": "dir"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-genitiv-praepositionen",
+      "level": "B1",
+      "category": "praepositionen",
+      "title": "Genitiv: wegen, trotz, während",
+      "subtitle": "Nach diesen Präpositionen steht der Genitiv.",
+      "lektionIds": [
+        "b1-m3-l9"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Nominativ",
+          "Genitiv"
+        ],
+        "rows": [
+          [
+            "der Regen",
+            "wegen [des] Regen[s]"
+          ],
+          [
+            "das Wetter",
+            "trotz [des] Wetter[s]"
+          ],
+          [
+            "die Arbeit",
+            "während {der} Arbeit"
+          ],
+          [
+            "die Kosten",
+            "wegen {der} Kosten"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "text": "Wegen [des] Stau[s] kam ich zu spät."
+        },
+        {
+          "text": "Trotz {der} Kälte gehen wir raus."
+        }
+      ],
+      "warning": {
+        "wrong": "wegen des Regen",
+        "right": "wegen des Regens",
+        "note": "Maskulin und neutral: Nomen + -s."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Artikel",
+            "lines": [
+              "der/das → [des] · die/Plural → {der}",
+              "ein → [eines] · eine → {einer}"
+            ]
+          },
+          {
+            "title": "Gesprochen",
+            "lines": [
+              "Im Alltag oft Dativ: wegen dem Regen",
+              "Im Brief und im Test: Genitiv"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Wegen ___ Streiks fährt kein Zug. (der)",
+            "answer": "des"
+          },
+          {
+            "prompt": "Während ___ Pause trinke ich Kaffee. (die)",
+            "answer": "der"
+          },
+          {
+            "prompt": "Er kam wegen seines Vater___.",
+            "answer": "-s"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-adjektivdeklination",
+      "level": "B1",
+      "category": "adjektive",
+      "title": "Adjektivendungen: der, ein, ohne",
+      "subtitle": "Die Signal-Endung steht am Artikel oder am Adjektiv.",
+      "lektionIds": [
+        "b1-m1-l3"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "maskulin",
+          "der …",
+          "ein …"
+        ],
+        "rows": [
+          [
+            "Nom.",
+            "der alt{e} Tisch",
+            "ein alt[er] Tisch"
+          ],
+          [
+            "Akk.",
+            "den alt{en} Tisch",
+            "einen alt{en} Tisch"
+          ],
+          [
+            "Dat.",
+            "dem alt{en} Tisch",
+            "einem alt{en} Tisch"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "text": "Das ist ein klein[es] Haus."
+        }
+      ],
+      "warning": {
+        "wrong": "mit einem gutem Freund",
+        "right": "mit einem guten Freund",
+        "note": "Nach einem: immer -en."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Tipp",
+            "lines": [
+              "Ohne Artikel: Endung wie der Artikel: heiß[er] Tee, kalt[e] Milch"
+            ]
+          },
+          {
+            "title": "Dativ und Plural",
+            "lines": [
+              "Dativ mit Artikel: immer {-en}",
+              "die neu{en} Schuhe · neu[e] Schuhe"
+            ]
+          },
+          {
+            "title": "ein + neutral",
+            "lines": [
+              "ein klein[es] Kind (Nom. und Akk.)"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Ich suche ein günstig___ Zimmer.",
+            "answer": "-es"
+          },
+          {
+            "prompt": "Wir wohnen in einem alt___ Haus.",
+            "answer": "-en"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-obwohl-trotzdem",
+      "level": "B1",
+      "category": "konnektoren",
+      "title": "obwohl oder trotzdem?",
+      "subtitle": "Etwas passiert — gegen die Erwartung.",
+      "lektionIds": [
+        "b1-m2-l6"
+      ],
+      "visual": {
+        "kind": "columns",
+        "columns": [
+          {
+            "label": "obwohl",
+            "sublabel": "Nebensatz · Verb am Ende",
+            "tone": "accent",
+            "lines": true,
+            "items": [
+              "[Obwohl] es [regnet],",
+              "gehen wir spazieren."
+            ]
+          },
+          {
+            "label": "trotzdem",
+            "sublabel": "Hauptsatz · Verb danach",
+            "tone": "success",
+            "lines": true,
+            "items": [
+              "Es regnet.",
+              "{Trotzdem} {gehen} wir spazieren."
+            ]
+          }
+        ]
+      },
+      "examples": [
+        {
+          "text": "[Obwohl] ich müde [bin], lerne ich weiter."
+        },
+        {
+          "text": "Ich bin müde. {Trotzdem} {lerne} ich weiter."
+        }
+      ],
+      "warning": {
+        "wrong": "Obwohl ich bin müde, …",
+        "right": "Obwohl ich müde bin, …",
+        "note": "obwohl schickt das Verb ans Ende."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Gleiche Idee",
+            "lines": [
+              "[obwohl] und {trotzdem} sagen dasselbe —",
+              "nur die Satzstellung ist anders."
+            ]
+          },
+          {
+            "title": "Nicht verwechseln",
+            "lines": [
+              "trotz + Genitiv: Trotz des Regens gehen wir."
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "___ er krank ist, arbeitet er.",
+            "answer": "Obwohl"
+          },
+          {
+            "prompt": "Er ist krank. ___ arbeitet er.",
+            "answer": "Trotzdem"
+          },
+          {
+            "prompt": "Obwohl sie wenig Zeit ___, hilft sie. (haben)",
+            "answer": "hat"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-um-zu-damit",
+      "level": "B1",
+      "category": "konnektoren",
+      "title": "um … zu oder damit?",
+      "subtitle": "Ein Ziel — aber wer handelt?",
+      "lektionIds": [
+        "b1-m2-l5"
+      ],
+      "visual": {
+        "kind": "columns",
+        "columns": [
+          {
+            "label": "um … zu",
+            "sublabel": "gleiche Person",
+            "tone": "accent",
+            "lines": true,
+            "items": [
+              "Ich lerne,",
+              "[um] die Prüfung [zu schaffen]."
+            ]
+          },
+          {
+            "label": "damit",
+            "sublabel": "andere Person",
+            "tone": "success",
+            "lines": true,
+            "items": [
+              "Ich erkläre es,",
+              "{damit} du es {verstehst}."
+            ]
+          }
+        ]
+      },
+      "examples": [
+        {
+          "text": "Sie spart, [um] ein Auto [zu kaufen]."
+        },
+        {
+          "text": "Er spricht langsam, {damit} alle ihn {verstehen}."
+        }
+      ],
+      "warning": {
+        "wrong": "Ich lerne, um ich die Prüfung schaffe.",
+        "right": "Ich lerne, um die Prüfung zu schaffen.",
+        "note": "Nach um kein Subjekt — zu + Infinitiv am Ende."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Trennbare Verben",
+            "lines": [
+              "um früh [aufzustehen] — zu steht in der Mitte."
+            ]
+          },
+          {
+            "title": "Gleiche Person",
+            "lines": [
+              "damit geht auch, aber um … zu klingt natürlicher."
+            ]
+          },
+          {
+            "title": "Frage",
+            "lines": [
+              "Wozu? → [um … zu] / {damit}"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Ich gehe früh ins Bett, ___ fit zu sein.",
+            "answer": "um"
+          },
+          {
+            "prompt": "Mach das Licht an, ___ ich etwas sehe.",
+            "answer": "damit"
+          },
+          {
+            "prompt": "Er ruft an, um sich ___. (entschuldigen)",
+            "answer": "zu entschuldigen"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-konnektoren-position",
+      "level": "B1",
+      "category": "konnektoren",
+      "title": "Konnektoren: Wo steht das Verb?",
+      "subtitle": "Position 0, Position 1 oder Nebensatz.",
+      "lektionIds": [],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Konnektor",
+          "Verb"
+        ],
+        "rows": [
+          [
+            "und, aber, denn",
+            "…, aber ich [bin] müde."
+          ],
+          [
+            "deshalb, trotzdem",
+            "…, trotzdem [bin] ich da."
+          ],
+          [
+            "weil, obwohl, dass",
+            "…, obwohl ich müde [bin]."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "text": "Ich bin müde, aber ich [gehe] mit."
+        },
+        {
+          "text": "Ich gehe mit, obwohl ich müde [bin]."
+        }
+      ],
+      "warning": {
+        "wrong": "…, aber gehe ich mit.",
+        "right": "…, aber ich gehe mit.",
+        "note": "aber zählt nicht mit."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Position 0 · zählt nicht",
+            "lines": [
+              "und, aber, oder, denn, sondern"
+            ]
+          },
+          {
+            "title": "Position 1 · Verb danach",
+            "lines": [
+              "deshalb, trotzdem, dann, sonst, danach"
+            ]
+          },
+          {
+            "title": "Nebensatz · Verb am Ende",
+            "lines": [
+              "weil, obwohl, dass, wenn, als, damit, ob"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Es regnet, ___ bleiben wir zu Hause. (Folge)",
+            "answer": "deshalb (darum, daher)"
+          },
+          {
+            "prompt": "Ich bleibe hier, denn ich ___ krank. (sein)",
+            "answer": "bin"
+          },
+          {
+            "prompt": "Er kommt nicht, weil er keine Zeit ___. (haben)",
+            "answer": "hat"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-als-wenn",
+      "level": "B1",
+      "category": "konnektoren",
+      "title": "als oder wenn?",
+      "subtitle": "Vergangenheit: einmal oder immer wieder?",
+      "lektionIds": [
+        "b1-m1-l1"
+      ],
+      "visual": {
+        "kind": "columns",
+        "columns": [
+          {
+            "label": "als",
+            "sublabel": "einmal in der Vergangenheit",
+            "tone": "accent",
+            "lines": true,
+            "items": [
+              "[Als] ich zehn [war],",
+              "zogen wir nach Köln."
+            ]
+          },
+          {
+            "label": "wenn",
+            "sublabel": "immer wieder · jedes Mal",
+            "tone": "success",
+            "lines": true,
+            "items": [
+              "{Wenn} ich Ferien {hatte},",
+              "fuhr ich zu Oma."
+            ]
+          }
+        ]
+      },
+      "examples": [
+        {
+          "text": "[Als] ich 18 [wurde], feierte ich groß."
+        },
+        {
+          "text": "{Wenn} es {regnete}, spielten wir drinnen."
+        }
+      ],
+      "warning": {
+        "wrong": "Wenn ich ein Kind war, …",
+        "right": "Als ich ein Kind war, …",
+        "note": "Die Kindheit war einmal → als."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Gegenwart und Zukunft",
+            "lines": [
+              "Immer {wenn}: {Wenn} ich Zeit habe, lese ich."
+            ]
+          },
+          {
+            "title": "Signalwörter",
+            "lines": [
+              "{immer wenn}, {jedes Mal wenn} → wenn"
+            ]
+          },
+          {
+            "title": "Nicht verwechseln",
+            "lines": [
+              "als im Vergleich: Er ist größer als ich."
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "___ ich in Berlin ankam, regnete es.",
+            "answer": "Als"
+          },
+          {
+            "prompt": "___ wir Oma besuchten, gab es Kuchen. (jedes Mal)",
+            "answer": "Wenn"
+          },
+          {
+            "prompt": "___ du morgen kommst, koche ich.",
+            "answer": "Wenn"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-gruende",
+      "level": "B1",
+      "category": "konnektoren",
+      "title": "Gründe: weil, denn, deshalb & Co.",
+      "subtitle": "weil und denn nennen den Grund, deshalb & Co. die Folge.",
+      "lektionIds": [
+        "b1-m1-l1"
+      ],
+      "visual": {
+        "kind": "columns",
+        "columns": [
+          {
+            "label": "Grund",
+            "sublabel": "Warum?",
+            "tone": "accent",
+            "inline": true,
+            "items": [
+              "weil",
+              "denn"
+            ]
+          },
+          {
+            "label": "Folge",
+            "sublabel": "Position 1 · Verb danach",
+            "tone": "success",
+            "inline": true,
+            "items": [
+              "deshalb",
+              "daher",
+              "darum",
+              "deswegen"
+            ]
+          }
+        ]
+      },
+      "examples": [
+        {
+          "text": "Ich hatte Hunger, {darum} {habe} ich gekocht."
+        },
+        {
+          "text": "Der Zug fiel aus, {daher} {kam} ich zu spät."
+        }
+      ],
+      "warning": {
+        "wrong": "Es regnet, darum wir bleiben hier.",
+        "right": "Es regnet, darum bleiben wir hier.",
+        "note": "Nach darum kommt sofort das Verb."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Tipp",
+            "lines": [
+              "[weil]: Verb am Ende · [denn]: Verb auf Platz 2"
+            ]
+          },
+          {
+            "title": "Alle vier gleich",
+            "lines": [
+              "{deshalb} = {daher} = {darum} = {deswegen}",
+              "daher klingt etwas formeller."
+            ]
+          },
+          {
+            "title": "Auch in der Mitte",
+            "lines": [
+              "Ich bleibe {deshalb} zu Hause."
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Ich kam nicht, ___ ich krank war. (weil/deshalb)",
+            "answer": "weil"
+          },
+          {
+            "prompt": "Der Bus kam nicht. ___ bin ich gelaufen. (darum/denn)",
+            "answer": "Darum"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-sodass",
+      "level": "B1",
+      "category": "konnektoren",
+      "title": "sodass oder so … dass?",
+      "subtitle": "Eine Ursache — und ihre Folge.",
+      "lektionIds": [
+        "b1-m4-l12"
+      ],
+      "visual": {
+        "kind": "columns",
+        "columns": [
+          {
+            "label": "sodass",
+            "sublabel": "nach dem Hauptsatz",
+            "tone": "accent",
+            "lines": true,
+            "items": [
+              "Es regnete stark,",
+              "[sodass] wir nass [wurden]."
+            ]
+          },
+          {
+            "label": "so … dass",
+            "sublabel": "so vor dem Adjektiv",
+            "tone": "success",
+            "lines": true,
+            "items": [
+              "Es regnete {so} stark,",
+              "{dass} wir nass {wurden}."
+            ]
+          }
+        ]
+      },
+      "examples": [
+        {
+          "text": "Ich verschlief, [sodass] ich den Bus [verpasste]."
+        },
+        {
+          "text": "Die Suppe war {so} heiß, {dass} ich warten {musste}."
+        }
+      ],
+      "warning": {
+        "wrong": "Er war so müde, sodass er schlief.",
+        "right": "Er war so müde, dass er schlief.",
+        "note": "so steht schon da — nur dass."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Schreibweise",
+            "lines": [
+              "[sodass] oder [so dass] — beides richtig."
+            ]
+          },
+          {
+            "title": "Auch mit Adverb",
+            "lines": [
+              "Er lief {so} schnell, {dass} …",
+              "Es gab {so} viel Essen, {dass} …"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Der Film war ___ lang, dass ich einschlief.",
+            "answer": "so"
+          },
+          {
+            "prompt": "Es schneite stark, ___ die Schule ausfiel.",
+            "answer": "sodass"
+          },
+          {
+            "prompt": "Ich war so nervös, dass ich nicht schlafen ___. (können, Präteritum)",
+            "answer": "konnte"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-seit-bis",
+      "level": "B1",
+      "category": "konnektoren",
+      "title": "seit und bis im Nebensatz",
+      "subtitle": "Wann hat es angefangen — wann hört es auf?",
+      "lektionIds": [
+        "b1-m4-l10"
+      ],
+      "visual": {
+        "kind": "columns",
+        "columns": [
+          {
+            "label": "seit",
+            "sublabel": "Beginn bis jetzt",
+            "tone": "accent",
+            "lines": true,
+            "items": [
+              "[Seit] ich hier [wohne],",
+              "bin ich glücklich."
+            ]
+          },
+          {
+            "label": "bis",
+            "sublabel": "Endpunkt",
+            "tone": "success",
+            "lines": true,
+            "items": [
+              "Warte hier,",
+              "{bis} ich {komme}."
+            ]
+          }
+        ]
+      },
+      "examples": [
+        {
+          "text": "[Seit] sie Sport [macht], schläft sie besser."
+        },
+        {
+          "text": "Wir warten, {bis} der Regen {aufhört}."
+        }
+      ],
+      "warning": {
+        "wrong": "Seit ich wohne hier, …",
+        "right": "Seit ich hier wohne, …",
+        "note": "seit schickt das Verb ans Ende."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Dauert es noch? → Präsens",
+            "lines": [
+              "[Seit] ich Deutsch [lerne], lese ich mehr."
+            ]
+          },
+          {
+            "title": "Auch als Präposition",
+            "lines": [
+              "[seit] + Dativ: seit einem Jahr",
+              "{bis}: bis Montag, bis 18 Uhr"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "___ ich Deutsch lerne, verstehe ich mehr.",
+            "answer": "Seit"
+          },
+          {
+            "prompt": "Bleib im Bett, ___ du gesund bist.",
+            "answer": "bis"
+          },
+          {
+            "prompt": "Seit er in Berlin ___, fährt er Rad. (wohnen)",
+            "answer": "wohnt"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-nachdem-bevor-waehrend",
+      "level": "B1",
+      "category": "konnektoren",
+      "title": "nachdem, bevor, während",
+      "subtitle": "Vorher, nachher oder gleichzeitig?",
+      "lektionIds": [
+        "b1-m6-l18"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Konnektor",
+          "Was passiert zuerst?"
+        ],
+        "highlightColumn": 0,
+        "rows": [
+          [
+            "nachdem",
+            "der Nebensatz"
+          ],
+          [
+            "bevor",
+            "der Hauptsatz"
+          ],
+          [
+            "während",
+            "beides gleichzeitig"
+          ]
+        ]
+      },
+      "tip": "nachdem: [Plusquamperfekt] → dann {Präteritum}",
+      "examples": [
+        {
+          "text": "Nachdem ich gegessen [hatte], {ging} ich los."
+        },
+        {
+          "text": "Während ich koche, höre ich Musik."
+        }
+      ],
+      "warning": {
+        "wrong": "Nachdem ich aß, ging ich los.",
+        "right": "Nachdem ich gegessen hatte, ging ich los.",
+        "note": "nachdem: eine Zeitstufe früher."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Zeitenfolge mit nachdem",
+            "lines": [
+              "[Perfekt] → {Präsens}",
+              "[Plusquamperfekt] → {Präteritum}/{Perfekt}"
+            ]
+          },
+          {
+            "title": "Nicht verwechseln",
+            "lines": [
+              "während + Genitiv: während des Kurses"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "___ ich schlafe, lese ich noch. (vorher)",
+            "answer": "Bevor"
+          },
+          {
+            "prompt": "Nachdem sie angekommen ___, rief sie an. (sein)",
+            "answer": "war"
+          },
+          {
+            "prompt": "Ich koche, ___ du den Tisch deckst. (gleichzeitig)",
+            "answer": "während"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-indem",
+      "level": "B1",
+      "category": "konnektoren",
+      "title": "indem: Wie macht man das?",
+      "subtitle": "indem nennt das Mittel oder die Methode.",
+      "lektionIds": [
+        "b1-m6-l17"
+      ],
+      "visual": {
+        "kind": "columns",
+        "columns": [
+          {
+            "label": "Frage",
+            "sublabel": "Wie?",
+            "tone": "accent",
+            "lines": true,
+            "items": [
+              "[Wie] lernst du Wörter?"
+            ]
+          },
+          {
+            "label": "Antwort",
+            "sublabel": "indem · Verb am Ende",
+            "tone": "success",
+            "lines": true,
+            "items": [
+              "{Indem} ich Karten {schreibe}."
+            ]
+          }
+        ]
+      },
+      "examples": [
+        {
+          "text": "Man spart Geld, {indem} man selbst {kocht}."
+        },
+        {
+          "text": "Er lernte Deutsch, {indem} er viel {las}."
+        }
+      ],
+      "warning": {
+        "wrong": "Ich lerne, in dem ich lese.",
+        "right": "Ich lerne, indem ich lese.",
+        "note": "indem schreibt man zusammen."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Auch möglich",
+            "lines": [
+              "{indem} ich jogge = [durch] Joggen"
+            ]
+          },
+          {
+            "title": "Nicht verwechseln",
+            "lines": [
+              "das Haus, in dem ich wohne → Relativsatz"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Wie bleibst du fit? – ___ ich jeden Tag laufe.",
+            "answer": "Indem"
+          },
+          {
+            "prompt": "Man spart Strom, indem man das Licht ___. (ausmachen)",
+            "answer": "ausmacht"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-ohne-statt",
+      "level": "B1",
+      "category": "konnektoren",
+      "title": "ohne … zu / statt … zu",
+      "subtitle": "Etwas passiert nicht — oder etwas anderes passiert.",
+      "lektionIds": [
+        "b1-m7-l20"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "",
+          "gleiche Person",
+          "andere Person"
+        ],
+        "rows": [
+          [
+            "ohne",
+            "ohne … [zu]",
+            "{ohne dass}"
+          ],
+          [
+            "statt",
+            "statt … [zu]",
+            "{statt dass}"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "text": "Er ging, ohne Tschüss [zu sagen]."
+        },
+        {
+          "text": "Ich koche, {statt dass} wir essen {gehen}."
+        }
+      ],
+      "warning": {
+        "wrong": "Er ging, ohne er Tschüss sagte.",
+        "right": "Er ging, ohne Tschüss zu sagen.",
+        "note": "Nach ohne kein Subjekt — zu + Infinitiv."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "statt = anstatt",
+            "lines": [
+              "[anstatt] … zu = [statt] … zu"
+            ]
+          },
+          {
+            "title": "Trennbare Verben",
+            "lines": [
+              "ohne [anzurufen] · statt [aufzuräumen]"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Er fährt Rad, ___ das Auto zu nehmen.",
+            "answer": "statt"
+          },
+          {
+            "prompt": "Sie ging raus, ___ jemand sie sah.",
+            "answer": "ohne dass"
+          },
+          {
+            "prompt": "Er spielt, statt ___. (aufräumen)",
+            "answer": "aufzuräumen"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-doppelkonnektoren",
+      "level": "B1",
+      "category": "konnektoren",
+      "title": "weder … noch, sowohl … als auch",
+      "subtitle": "Zwei Teile gehören zusammen.",
+      "lektionIds": [
+        "b1-m5-l13"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Paar",
+          "Bedeutung"
+        ],
+        "rows": [
+          [
+            "[weder] … [noch]",
+            "nicht A und nicht B"
+          ],
+          [
+            "[sowohl] … [als auch]",
+            "A und B"
+          ],
+          [
+            "[nicht nur] … [sondern auch]",
+            "A und sogar B"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "text": "Ich trinke [weder] Kaffee [noch] Tee."
+        },
+        {
+          "text": "Sie spricht [sowohl] Englisch [als auch] Spanisch."
+        }
+      ],
+      "warning": {
+        "wrong": "Ich habe weder Zeit noch kein Geld.",
+        "right": "Ich habe weder Zeit noch Geld.",
+        "note": "weder … noch ist schon negativ."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Mit ganzen Sätzen",
+            "lines": [
+              "Er kocht [nicht nur], [sondern] er backt [auch]."
+            ]
+          },
+          {
+            "title": "Verb im Plural",
+            "lines": [
+              "[Sowohl] Anna [als auch] Tom kommen."
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Ich esse ___ Fleisch ___ Fisch. (beides nicht)",
+            "answer": "weder, noch"
+          },
+          {
+            "prompt": "Er spricht ___ Deutsch, ___ auch Arabisch. (betont)",
+            "answer": "nicht nur, sondern"
+          },
+          {
+            "prompt": "Sowohl Lisa als auch Max ___ mit. (kommen)",
+            "answer": "kommen"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-je-desto",
+      "level": "B1",
+      "category": "konnektoren",
+      "title": "je … desto",
+      "subtitle": "Ändert sich das eine, ändert sich das andere.",
+      "lektionIds": [
+        "b1-m6-l16"
+      ],
+      "visual": {
+        "kind": "columns",
+        "columns": [
+          {
+            "label": "je",
+            "sublabel": "Verb am Ende",
+            "tone": "accent",
+            "lines": true,
+            "items": [
+              "[Je] mehr ich [übe],"
+            ]
+          },
+          {
+            "label": "desto / umso",
+            "sublabel": "Verb direkt danach",
+            "tone": "success",
+            "lines": true,
+            "items": [
+              "{desto} besser {spreche} ich."
+            ]
+          }
+        ]
+      },
+      "tip": "Beide Teile brauchen einen Komparativ.",
+      "examples": [
+        {
+          "text": "[Je] länger ich [warte], {desto} nervöser {werde} ich."
+        },
+        {
+          "text": "Je früher, desto besser."
+        }
+      ],
+      "warning": {
+        "wrong": "Je mehr ich übe, desto ich spreche besser.",
+        "right": "Je mehr ich übe, desto besser spreche ich.",
+        "note": "desto + Komparativ, dann das Verb."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "umso = desto",
+            "lines": [
+              "Je älter, {umso} klüger."
+            ]
+          },
+          {
+            "title": "Satzbau",
+            "lines": [
+              "[Je] + Komparativ … Verb am Ende,",
+              "{desto} + Komparativ + Verb + Subjekt"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Je ___ das Wetter, desto mehr Leute kommen. (gut)",
+            "answer": "besser"
+          },
+          {
+            "prompt": "Je mehr er arbeitet, desto müder ___ er. (sein)",
+            "answer": "ist"
+          },
+          {
+            "prompt": "Je später es wird, ___ leiser wird es.",
+            "answer": "desto (umso)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-meinung-diskussion",
+      "level": "B1",
+      "category": "redemittel",
+      "title": "Meinung, Zustimmung, Widerspruch",
+      "subtitle": "Feste Sätze für jede Diskussion.",
+      "lektionIds": [
+        "b1-m3-l8"
+      ],
+      "visual": {
+        "kind": "columns",
+        "columns": [
+          {
+            "label": "Zustimmen",
+            "tone": "accent",
+            "lines": true,
+            "items": [
+              "Das sehe ich auch so.",
+              "Da hast du recht."
+            ]
+          },
+          {
+            "label": "Widersprechen",
+            "tone": "success",
+            "lines": true,
+            "items": [
+              "Das sehe ich anders.",
+              "Da bin ich anderer Meinung."
+            ]
+          }
+        ]
+      },
+      "examples": [
+        {
+          "text": "Meiner Meinung nach [ist] das zu teuer."
+        },
+        {
+          "text": "Ich bin der Ansicht, dass wir mehr tun [müssen]."
+        }
+      ],
+      "warning": {
+        "wrong": "Meiner Meinung nach das ist gut.",
+        "right": "Meiner Meinung nach ist das gut.",
+        "note": "Das Verb kommt direkt danach."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Tipp",
+            "lines": [
+              "Meinung: Ich finde, … · Ich bin der Ansicht, dass …"
+            ]
+          },
+          {
+            "title": "Ums Wort bitten",
+            "lines": [
+              "Darf ich kurz etwas sagen?",
+              "Entschuldigung, wenn ich unterbreche, …"
+            ]
+          },
+          {
+            "title": "Teilweise zustimmen",
+            "lines": [
+              "Da hast du zwar recht, aber …",
+              "Das stimmt, aber …"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Du stimmst zu: Das sehe ich auch ___.",
+            "answer": "so"
+          },
+          {
+            "prompt": "Du widersprichst: Da bin ich anderer ___.",
+            "answer": "Meinung"
+          }
+        ]
+      }
+    }
+  ]
+}
