@@ -1,4 +1,4 @@
-import { makeStyles, tokens, shorthands } from '@fluentui/react-components';
+import { makeStyles, tokens, shorthands, mergeClasses } from '@fluentui/react-components';
 import type { Gender } from '../../types/content';
 
 const useStyles = makeStyles({
@@ -20,5 +20,5 @@ export const GenderBadge = ({ gender }: { gender: Gender | undefined }) => {
   const styles = useStyles();
   if (!gender) return null;
   const classByGender = { der: styles.der, die: styles.die, das: styles.das } as const;
-  return <span className={`${styles.base} ${classByGender[gender]}`}>{gender}</span>;
+  return <span className={mergeClasses(styles.base, classByGender[gender])}>{gender}</span>;
 };

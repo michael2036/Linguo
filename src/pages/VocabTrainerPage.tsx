@@ -145,8 +145,8 @@ export const VocabTrainerPage = () => {
   const navigate = useNavigate();
 
   const vocabTrainer = useAppStore((s) => s.state.vocabTrainer);
-  const recordVocabAnswer = useAppStore((s) => s.recordVocabAnswer);
-  const finishVocabSession = useAppStore((s) => s.finishVocabSession);
+  const recordTrainerAnswer = useAppStore((s) => s.recordTrainerAnswer);
+  const finishTrainerSession = useAppStore((s) => s.finishTrainerSession);
 
   const [stage, setStage] = useState<Stage>('select');
   const [selectedLektionIds, setSelectedLektionIds] = useState<Set<string>>(new Set());
@@ -219,7 +219,7 @@ export const VocabTrainerPage = () => {
   };
 
   const handlePracticeCard = (item: VocabularyItem, known: boolean) => {
-    recordVocabAnswer(normalizeTermKey(item.term), known, PRACTICE_XP_PER_CORRECT);
+    recordTrainerAnswer('vocabTrainer', normalizeTermKey(item.term), known, PRACTICE_XP_PER_CORRECT);
     if (known) setXpEarned((xp) => xp + PRACTICE_XP_PER_CORRECT);
     bumpStreak(known);
   };
@@ -227,13 +227,13 @@ export const VocabTrainerPage = () => {
   const handleQuizItem = (item: ExerciseItem, correct: boolean) => {
     const key = quizKeyById.current[item.id];
     if (!key) return;
-    recordVocabAnswer(key, correct, TEST_XP_PER_CORRECT);
+    recordTrainerAnswer('vocabTrainer', key, correct, TEST_XP_PER_CORRECT);
     if (correct) setXpEarned((xp) => xp + TEST_XP_PER_CORRECT);
     bumpStreak(correct);
   };
 
   const finishSession = (mode: ResultMode, score: number) => {
-    finishVocabSession(bestStreakRef.current);
+    finishTrainerSession('vocabTrainer', bestStreakRef.current);
     setBestStreakDisplay(bestStreakRef.current);
     setResultMode(mode);
     setResultScore(score);

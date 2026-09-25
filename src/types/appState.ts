@@ -64,6 +64,11 @@ export interface VocabTrainerState {
   dailyStreak: number;
 }
 
+// The Verben-Trainer reuses the same Leitner/XP/streak model; its `words`
+// map is keyed by "<verb>::<skill>" (see lib/verbQuiz.ts), so each tense of
+// each verb is learned and reviewed on its own schedule.
+export type TrainerKind = 'vocabTrainer' | 'verbTrainer';
+
 export interface AppState {
   version: 2;
   updatedAt: string;
@@ -71,6 +76,7 @@ export interface AppState {
   vocabularyProgress: Record<string, VocabularyProgressEntry>;
   lektionProgress: Record<string, LektionProgressEntry>;
   vocabTrainer: VocabTrainerState;
+  verbTrainer: VocabTrainerState;
 }
 
 export const emptyTierScore = (): TierScore => ({
@@ -124,4 +130,5 @@ export const createInitialAppState = (): AppState => ({
   vocabularyProgress: {},
   lektionProgress: {},
   vocabTrainer: emptyVocabTrainerState(),
+  verbTrainer: emptyVocabTrainerState(),
 });

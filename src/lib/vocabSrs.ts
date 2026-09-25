@@ -1,6 +1,5 @@
 import type { VocabWordProgress } from '../types/appState';
 import { emptyVocabWordProgress } from '../types/appState';
-import type { VocabularyItem } from '../types/content';
 
 // Leitner-system spaced repetition: each correct answer promotes a word one
 // box (reviewed less often afterwards), each miss demotes it one box
@@ -50,18 +49,20 @@ const priority = (progress: VocabWordProgress | undefined, nowMs: number): numbe
   return (MAX_BOX - progress.box) * 20 + overdueDays;
 };
 
-export const pickPracticeQueue = (
-  pool: VocabularyItem[],
+export const pickPracticeQueue = <T,>(
+  pool: T[],
   wordProgress: Record<string, VocabWordProgress>,
-  keyOf: (item: VocabularyItem) => string,
+  keyOf: (item: T) => string,
   size: number,
-): VocabularyItem[] => {
+): T[] => {
+  // Shuffled first so equal-priority items (e.g. everything never seen)
+  // come out in random order rather than curriculum order — sort is stable.
   const nowMs = Date.now();
-  const ranked = [...pool].sort(
+  const ranked = shuffle(pool).sort(
     (a, b) => priority(wordProgress[keyOf(b)], nowMs) - priority(wordProgress[keyOf(a)], nowMs),
   );
   return shuffle(ranked.slice(0, Math.min(size, ranked.length)));
 };
 
-export const pickTestQueue = (pool: VocabularyItem[], size: number): VocabularyItem[] =>
+export const pickTestQueue = <T,>(pool: T[], size: number): T[] =>
   shuffle(pool).slice(0, Math.min(size, pool.length));
