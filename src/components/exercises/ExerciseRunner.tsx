@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Button, Card, ProgressBar, Text, makeStyles, tokens, shorthands } from '@fluentui/react-components';
+import { Button, Card, ProgressBar, Text, makeStyles, tokens, shorthands, mergeClasses } from '@fluentui/react-components';
 import type { ExerciseItem, ExerciseType } from '../../types/content';
 import { isCorrectAnswer } from '../../lib/answerCheck';
 import { MultipleChoice } from './MultipleChoice';
@@ -227,7 +227,7 @@ export const ExerciseRunner = ({ tierLabel, items, onComplete, onItemComplete }:
       <Text align="center" style={{ color: tokens.colorNeutralForeground3, fontSize: 13 }}>
         {tierLabel}
       </Text>
-      <Card className={`${styles.card} ${shake ? styles.cardShake : ''}`} key={item.id}>
+      <Card className={mergeClasses(styles.card, shake && styles.cardShake)} key={item.id}>
         <div className={styles.cardHeaderRow}>
           <span className={styles.typeChip}>{TYPE_LABELS[item.type]}</span>
           {!submitted && (

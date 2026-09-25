@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Button, ProgressBar, Text, makeStyles, tokens, shorthands } from '@fluentui/react-components';
+import { Button, ProgressBar, Text, makeStyles, tokens, shorthands, mergeClasses } from '@fluentui/react-components';
 import { CheckmarkCircle24Regular, DismissCircle24Regular } from '@fluentui/react-icons';
 import type { VocabularyItem } from '../../types/content';
 import { GenderBadge } from '../badges/GenderBadge';
@@ -163,14 +163,14 @@ export const VocabFlashcards = ({ items, onComplete, onCardComplete }: VocabFlas
 
       <div className={styles.scene}>
         <div
-          className={`${styles.card} ${flipped ? styles.cardFlipped : ''}`}
+          className={mergeClasses(styles.card, flipped && styles.cardFlipped)}
           onClick={() => setFlipped((f) => !f)}
         >
-          <div className={`${styles.face} ${styles.faceFront}`}>
+          <div className={mergeClasses(styles.face, styles.faceFront)}>
             <Text className={styles.term}>{current.term}</Text>
             <GenderBadge gender={current.gender} />
           </div>
-          <div className={`${styles.face} ${styles.faceBack}`}>
+          <div className={mergeClasses(styles.face, styles.faceBack)}>
             <Text className={styles.term}>{current.translation}</Text>
             <Text className={styles.meta}>
               {current.partOfSpeech}

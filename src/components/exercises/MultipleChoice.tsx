@@ -53,11 +53,21 @@ export const MultipleChoice = ({ options, value, onChange, submitted, solution }
         // practice the "correct" green class would win here but the
         // "incorrect" red one silently wouldn't, in both themes). Inline
         // style always wins regardless, so use it for this state color.
-        let stateStyle: { backgroundColor: string; borderColor: string } | undefined;
+        // Explicit text color too: the buttons are `disabled` once graded,
+        // and Fluent's disabled gray text is unreadable on these fills.
+        let stateStyle: { backgroundColor: string; borderColor: string; color: string } | undefined;
         if (submitted && isSolution) {
-          stateStyle = { backgroundColor: tokens.colorPaletteGreenBackground2, borderColor: tokens.colorPaletteGreenBorder2 };
+          stateStyle = {
+            backgroundColor: tokens.colorPaletteGreenBackground2,
+            borderColor: tokens.colorPaletteGreenBorder2,
+            color: tokens.colorNeutralForeground1,
+          };
         } else if (submitted && isSelected && !isSolution) {
-          stateStyle = { backgroundColor: tokens.colorPaletteRedBackground2, borderColor: tokens.colorPaletteRedBorder2 };
+          stateStyle = {
+            backgroundColor: tokens.colorPaletteRedBackground2,
+            borderColor: tokens.colorPaletteRedBorder2,
+            color: tokens.colorNeutralForeground1,
+          };
         }
 
         return (
