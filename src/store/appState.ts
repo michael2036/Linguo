@@ -5,6 +5,7 @@ import type {
   NativeLanguage,
   ThemePreference,
   Tier,
+  TrainerKind,
 } from '../types/appState';
 import { createInitialAppState, emptyLektionProgress, emptyVocabTrainerState } from '../types/appState';
 import { getSyncPending, loadLocalState, saveLocalState, setSyncPending } from '../lib/localStore';
@@ -26,8 +27,8 @@ interface AppStore {
   markVocabCompleted: (lektionId: string, recognitionRate: number) => void;
   recordTierResult: (lektionId: string, tier: Tier, score: number) => void;
   recordTestResult: (lektionId: string, score: number) => void;
-  recordVocabAnswer: (termKey: string, correct: boolean, xpOnCorrect: number) => void;
-  finishVocabSession: (bestStreakInSession: number) => void;
+  recordTrainerAnswer: (trainer: TrainerKind, key: string, correct: boolean, xpOnCorrect: number) => void;
+  finishTrainerSession: (trainer: TrainerKind, bestStreakInSession: number) => void;
   resetProgress: () => void;
 
   connectGoogle: () => Promise<void>;
@@ -130,20 +131,21 @@ export const useAppStore = create<AppStore>((set, get) => ({
     persistAndMaybeSync(get, set);
   },
 
-  // Wortschatz-Trainer per-word result — updates that word's Leitner box
-  // (see lib/vocabSrs.ts) and awards XP on a correct answer. `termKey` is
-  // the normalized-term identity from lib/vocabPool.ts, not a vocabulary
-  // item id (those aren't globally unique).
-  recordVocabAnswer: (termKey, correct, xpOnCorrect) => {
+  // Trainer per-item result — updates that item's Leitner box (see
+  // lib/vocabSrs.ts) and awards XP on a correct answer. `key` is the
+  // normalized term (Wortschatz, lib/vocabPool.ts) or "<verb>::<skill>"
+  // (Verben, lib/verbQuiz.ts) — never a curriculum item id, since those
+  // aren't globally unique.
+  recordTrainerAnswer: (trainerKind, key, correct, xpOnCorrect) => {
     set((s) => {
-      const trainer = s.state.vocabTrainer;
-      const nextWord = applyAnswer(trainer.words[termKey], correct);
+      const trainer = s.state[trainerKind];
+      const nextWord = applyAnswer(trainer.words[key], correct);
       return {
         state: touch({
           ...s.state,
-          vocabTrainer: {
+          [trainerKind]: {
             ...trainer,
-            words: { ...trainer.words, [termKey]: nextWord },
+            words: { ...trainer.words, [key]: nextWord },
             xp: trainer.xp + (correct ? xpOnCorrect : 0),
           },
         }),
@@ -152,12 +154,12 @@ export const useAppStore = create<AppStore>((set, get) => ({
     persistAndMaybeSync(get, set);
   },
 
-  // Called once per finished practice/test round: records the session and
-  // rolls the daily streak forward (consecutive calendar days with at least
-  // one round played), resetting it if a day was missed.
-  finishVocabSession: (bestStreakInSession) => {
+  // Called once per finished round: records the session and rolls the
+  // daily streak forward (consecutive calendar days with at least one round
+  // played), resetting it if a day was missed.
+  finishTrainerSession: (trainerKind, bestStreakInSession) => {
     set((s) => {
-      const trainer = s.state.vocabTrainer;
+      const trainer = s.state[trainerKind];
       const today = new Date().toISOString().slice(0, 10);
       let dailyStreak: number;
       if (trainer.lastPracticeDate === today) {
@@ -174,7 +176,7 @@ export const useAppStore = create<AppStore>((set, get) => ({
       return {
         state: touch({
           ...s.state,
-          vocabTrainer: {
+          [trainerKind]: {
             ...trainer,
             sessionsCompleted: trainer.sessionsCompleted + 1,
             bestSessionStreak: Math.max(trainer.bestSessionStreak, bestStreakInSession),
@@ -197,6 +199,7 @@ export const useAppStore = create<AppStore>((set, get) => ({
         vocabularyProgress: {},
         lektionProgress: {},
         vocabTrainer: emptyVocabTrainerState(),
+        verbTrainer: emptyVocabTrainerState(),
       }),
     }));
     persistAndMaybeSync(get, set);
@@ -219,8 +222,12 @@ export const useAppStore = create<AppStore>((set, get) => ({
     set({ syncing: true, lastSyncError: null });
     const result = await syncAppState(get().state);
     if (result.ok && result.resolvedState) {
-      set({ state: result.resolvedState, syncing: false, syncPending: false });
-      saveLocalState(result.resolvedState);
+      // A remote copy written by an older app version may predate a
+      // top-level field (e.g. `verbTrainer`) — backfill defaults, same as
+      // loadLocalState does for local data.
+      const resolved: AppState = { ...createInitialAppState(), ...result.resolvedState };
+      set({ state: resolved, syncing: false, syncPending: false });
+      saveLocalState(resolved);
       setSyncPending(false);
     } else {
       // Fails silently for the user (FR-05); pending flag stays set so the

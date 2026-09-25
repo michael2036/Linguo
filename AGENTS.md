@@ -27,6 +27,7 @@ src/
     exercises/                 # one component per exercise type + shared runner
     vocab/VocabFlashcards.tsx  # Stage 0 flip-card primer
     vocabTrainer/               # cross-Lektion Wortschatz-Trainer (select tree, stats)
+    verbTrainer/                # Verben-Trainer: VerbTable, VerbCards, VerbList, skill progress
     mascot/                     # LinguoAvatar (sprite-sliced), LinguoFeedbackDrawer,
                                  # LinguoLevelBanner, LinguoLaunchOverlay — see
                                  # "Linguo the mascot" below
@@ -37,7 +38,7 @@ src/
     InstallAppPrompt.tsx        # "add to home screen" / PWA install nudge
     ErrorBoundary.tsx          # crash guard around the routed pages
   pages/                       # HomePage (portal), LevelHubPage, LektionPage,
-                                # VocabTrainerPage, SettingsPage, AboutPage,
+                                # VocabTrainerPage, VerbTrainerPage, SettingsPage, AboutPage,
                                 # PrivacyPage, TermsPage, NotFoundPage
   store/appState.ts            # zustand store — single source of truth for progress
   lib/
@@ -48,6 +49,8 @@ src/
     recommendation.ts          # "Weiter lernen" next-Lektion suggestion
     curriculumLoader.ts        # fetches Modul JSON; LEVEL_CATALOG + MODUL_CATALOG live here
     vocabPool.ts / vocabSrs.ts / vocabQuiz.ts / vocabGame.ts  # Wortschatz-Trainer engine
+    verbConjugation.ts / verbPool.ts / verbQuiz.ts  # Verben-Trainer: conjugation
+                                 # engine, pool, exercise generation — see below
     googleAuth.ts / driveSync.ts  # optional cloud sync, appdata-scoped
     localStore.ts              # localStorage persistence
   types/
@@ -66,7 +69,7 @@ design/                        # source design assets (e.g. icon master), not sh
 
 Routes: `/` (portal — three level cards, no lesson detail), `/levels/:levelId`
 (one level's Moduln/Lektionen, `levelId` lowercase e.g. `a1`), `/lektion/:lektionId`
-(mode-select → Übung or Test), `/vocab-trainer`, `/settings`, `/about`,
+(mode-select → Übung or Test), `/vocab-trainer`, `/verb-trainer`, `/settings`, `/about`,
 `/privacy`, `/terms`, and a `*` catch-all `NotFoundPage`. The Privacy/Terms pages are real,
 live-linked pages — they're what Google's OAuth consent screen configuration
 points at, so don't remove or break their routes without updating that
@@ -131,6 +134,41 @@ Präteritum, Partizip II, or auxiliary — chosen at random, not all at once,
 to keep session length bounded) alongside the base translation item, reusing
 the existing `multiple-choice`/`fill-in-blank` `ExerciseItem` shapes rather
 than adding new exercise types.
+
+### Verben-Trainer
+
+`/verb-trainer` drills every conjugatable verb in the selected Lektionen's
+vocabulary — there is no separate verb content to author. `verbConjugation.ts`
+derives Präsens, Präteritum and Perfekt for all persons from the four stored
+principal-part fields, placing separable prefixes and reflexive pronouns
+itself ("stehe auf", "habe mich erinnert", "stelle mir vor"). Rules cover
+regular verbs completely; irregularity lives in small override tables in
+that file:
+
+- `FULL_PRESENT` — presents no rule can produce (sein, haben, werden,
+  wissen, tun, the modals).
+- `STEM_CHANGE` — present-tense vowel changes in du/er (fahren → fährt).
+  **Adding a new strong verb with a vowel change to the curriculum means
+  adding its simple verb here**, or it will conjugate like a regular verb.
+  Matching is by suffix and only for `irregular` verbs, so "vergessen" uses
+  the "essen" entry but "beantragen" never picks up "tragen".
+- `DATIVE_REFLEXIVE`, `WEATHER_VERBS`/`THIRD_PERSON_ONLY`, `DUAL_AUXILIARY`,
+  `MIXED_STRENGTH` — pronoun case, which persons are worth drilling, and
+  verbs where a "wrong" auxiliary or weak form is actually also correct (so
+  it's never offered as a distractor, and the haben/sein or
+  regelmäßig/unregelmäßig question is skipped).
+
+Präteritum person endings need no table — they follow from the stored 3rd
+person form. Multi-word idioms ("sich Sorgen machen") are skipped by
+`parseVerb` and stay in the Wortschatz-Trainer only. Progress reuses the
+Leitner model in `state.verbTrainer`, keyed `"<verb>::<skill>"` (skill =
+`praesens`/`praeteritum`/`perfekt`/`stammformen`), so each tense of each
+verb is scheduled independently. Multiple-choice distractors come from
+`typicalMistakes` (regularized forms, the other auxiliary) before falling
+back to other persons' forms, so an item tests the rule rather than word
+recognition. When touching the engine, re-dump every curriculum verb's
+table and read it — every regular verb's Präteritum/Perfekt must be
+reproducible by the weak rule.
 
 ### UI status vs. scoring status
 

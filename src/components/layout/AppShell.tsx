@@ -8,11 +8,14 @@ import {
   Home24Filled,
   Settings24Regular,
   Settings24Filled,
+  TextGrammarWand24Filled,
+  TextGrammarWand24Regular,
   bundleIcon,
 } from '@fluentui/react-icons';
 
 const HomeIcon = bundleIcon(Home24Filled, Home24Regular);
 const VocabTrainerIcon = bundleIcon(Brain24Filled, Brain24Regular);
+const VerbTrainerIcon = bundleIcon(TextGrammarWand24Filled, TextGrammarWand24Regular);
 const SettingsIcon = bundleIcon(Settings24Filled, Settings24Regular);
 
 const useStyles = makeStyles({
@@ -136,6 +139,7 @@ export const AppShell = ({ children }: AppShellProps) => {
     location.pathname.startsWith('/lektion') ||
     location.pathname.startsWith('/levels');
   const isVocabTrainer = location.pathname.startsWith('/vocab-trainer');
+  const isVerbTrainer = location.pathname.startsWith('/verb-trainer');
   const isSettings = location.pathname === '/settings';
 
   return (
@@ -159,6 +163,14 @@ export const AppShell = ({ children }: AppShellProps) => {
           >
             Wortschatz
           </Button>
+          <Button
+            as="a"
+            href="#/verb-trainer"
+            appearance={isVerbTrainer ? 'primary' : 'subtle'}
+            icon={<VerbTrainerIcon />}
+          >
+            Verben
+          </Button>
           <Button as="a" href="#/settings" appearance={isSettings ? 'primary' : 'subtle'} icon={<SettingsIcon />}>
             Einstellungen
           </Button>
@@ -175,6 +187,10 @@ export const AppShell = ({ children }: AppShellProps) => {
         <a href="#/vocab-trainer" className={mergeClasses(styles.navItem, isVocabTrainer && styles.navItemActive)}>
           <VocabTrainerIcon />
           <span className={styles.navLabel}>Wortschatz</span>
+        </a>
+        <a href="#/verb-trainer" className={mergeClasses(styles.navItem, isVerbTrainer && styles.navItemActive)}>
+          <VerbTrainerIcon />
+          <span className={styles.navLabel}>Verben</span>
         </a>
         <a href="#/settings" className={mergeClasses(styles.navItem, isSettings && styles.navItemActive)}>
           <SettingsIcon />
