@@ -18,6 +18,7 @@ workflow directly, without a human re-explaining it first.
 | [`didactic-generator.md`](didactic-generator.md) | Agent 1 — Senior DaF Curriculum Designer | Kursbuch + Arbeitsbuch answer keys, Lektion syllabus | Raw `vocabulary` + `practice` (unvalidated) |
 | [`pedagogical-critic.md`](pedagogical-critic.md) | Agent 2 — CEFR Quality Inspector, Linguistic Auditor & Student Simulator | Raw output from Agent 1 or Agent 3 | Validated, schema-conformant JSON — runs twice per Lektion. Audits every item by first attempting it *blind* (no `solution`/`hint`/`explanation` in view) as an active learner would, then checks that blind attempt for ambiguity, answer leakage, and cognitive load before ever reading the answer key. |
 | [`test-item-writer.md`](test-item-writer.md) | Agent 3 — Assessment Item Writer | Validated `grammarFocus` + `vocabulary` only (never `practice`) | Raw `test` bank for Direct Test Mode |
+| [`grammar-card-writer.md`](grammar-card-writer.md) | Grammar Card Author (standalone) | A topic from the card list + its Lektionen' `grammarFocus` | One entry in `public/data/grammar/cards.json` |
 
 ## Orchestration
 

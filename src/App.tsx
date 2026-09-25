@@ -9,6 +9,7 @@ import { LevelHubPage } from './pages/LevelHubPage';
 import { LektionPage } from './pages/LektionPage';
 import { VocabTrainerPage } from './pages/VocabTrainerPage';
 import { VerbTrainerPage } from './pages/VerbTrainerPage';
+import { GrammarPage } from './pages/GrammarPage';
 import { SettingsPage } from './pages/SettingsPage';
 import { AboutPage } from './pages/AboutPage';
 import { PrivacyPage } from './pages/PrivacyPage';
@@ -33,6 +34,7 @@ function App() {
               <Route path="/lektion/:lektionId" element={<LektionPage />} />
               <Route path="/vocab-trainer" element={<VocabTrainerPage />} />
               <Route path="/verb-trainer" element={<VerbTrainerPage />} />
+              <Route path="/grammar" element={<GrammarPage />} />
               <Route path="/settings" element={<SettingsPage />} />
               <Route path="/about" element={<AboutPage />} />
               <Route path="/privacy" element={<PrivacyPage />} />

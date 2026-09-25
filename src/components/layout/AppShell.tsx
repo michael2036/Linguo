@@ -8,6 +8,8 @@ import {
   Home24Filled,
   Settings24Regular,
   Settings24Filled,
+  BookLetter24Filled,
+  BookLetter24Regular,
   TextGrammarWand24Filled,
   TextGrammarWand24Regular,
   bundleIcon,
@@ -16,6 +18,7 @@ import {
 const HomeIcon = bundleIcon(Home24Filled, Home24Regular);
 const VocabTrainerIcon = bundleIcon(Brain24Filled, Brain24Regular);
 const VerbTrainerIcon = bundleIcon(TextGrammarWand24Filled, TextGrammarWand24Regular);
+const GrammarIcon = bundleIcon(BookLetter24Filled, BookLetter24Regular);
 const SettingsIcon = bundleIcon(Settings24Filled, Settings24Regular);
 
 const useStyles = makeStyles({
@@ -140,6 +143,7 @@ export const AppShell = ({ children }: AppShellProps) => {
     location.pathname.startsWith('/levels');
   const isVocabTrainer = location.pathname.startsWith('/vocab-trainer');
   const isVerbTrainer = location.pathname.startsWith('/verb-trainer');
+  const isGrammar = location.pathname.startsWith('/grammar');
   const isSettings = location.pathname === '/settings';
 
   return (
@@ -171,6 +175,9 @@ export const AppShell = ({ children }: AppShellProps) => {
           >
             Verben
           </Button>
+          <Button as="a" href="#/grammar" appearance={isGrammar ? 'primary' : 'subtle'} icon={<GrammarIcon />}>
+            Grammatik
+          </Button>
           <Button as="a" href="#/settings" appearance={isSettings ? 'primary' : 'subtle'} icon={<SettingsIcon />}>
             Einstellungen
           </Button>
@@ -191,6 +198,10 @@ export const AppShell = ({ children }: AppShellProps) => {
         <a href="#/verb-trainer" className={mergeClasses(styles.navItem, isVerbTrainer && styles.navItemActive)}>
           <VerbTrainerIcon />
           <span className={styles.navLabel}>Verben</span>
+        </a>
+        <a href="#/grammar" className={mergeClasses(styles.navItem, isGrammar && styles.navItemActive)}>
+          <GrammarIcon />
+          <span className={styles.navLabel}>Grammatik</span>
         </a>
         <a href="#/settings" className={mergeClasses(styles.navItem, isSettings && styles.navItemActive)}>
           <SettingsIcon />

@@ -28,6 +28,7 @@ src/
     vocab/VocabFlashcards.tsx  # Stage 0 flip-card primer
     vocabTrainer/               # cross-Lektion Wortschatz-Trainer (select tree, stats)
     verbTrainer/                # Verben-Trainer: VerbTable, VerbCards, VerbList, skill progress
+    grammar/                    # GrammarCardView (one-screen card, front/back), Marked
     mascot/                     # LinguoAvatar (sprite-sliced), LinguoFeedbackDrawer,
                                  # LinguoLevelBanner, LinguoLaunchOverlay — see
                                  # "Linguo the mascot" below
@@ -38,7 +39,7 @@ src/
     InstallAppPrompt.tsx        # "add to home screen" / PWA install nudge
     ErrorBoundary.tsx          # crash guard around the routed pages
   pages/                       # HomePage (portal), LevelHubPage, LektionPage,
-                                # VocabTrainerPage, VerbTrainerPage, SettingsPage, AboutPage,
+                                # VocabTrainerPage, VerbTrainerPage, GrammarPage, SettingsPage, AboutPage,
                                 # PrivacyPage, TermsPage, NotFoundPage
   store/appState.ts            # zustand store — single source of truth for progress
   lib/
@@ -49,6 +50,7 @@ src/
     recommendation.ts          # "Weiter lernen" next-Lektion suggestion
     curriculumLoader.ts        # fetches Modul JSON; LEVEL_CATALOG + MODUL_CATALOG live here
     vocabPool.ts / vocabSrs.ts / vocabQuiz.ts / vocabGame.ts  # Wortschatz-Trainer engine
+    grammarCards.ts             # loads public/data/grammar/cards.json; [x]/{x} highlight parser
     verbConjugation.ts / verbPool.ts / verbQuiz.ts  # Verben-Trainer: conjugation
                                  # engine, pool, exercise generation — see below
     googleAuth.ts / driveSync.ts  # optional cloud sync, appdata-scoped
@@ -69,7 +71,7 @@ design/                        # source design assets (e.g. icon master), not sh
 
 Routes: `/` (portal — three level cards, no lesson detail), `/levels/:levelId`
 (one level's Moduln/Lektionen, `levelId` lowercase e.g. `a1`), `/lektion/:lektionId`
-(mode-select → Übung or Test), `/vocab-trainer`, `/verb-trainer`, `/settings`, `/about`,
+(mode-select → Übung or Test), `/vocab-trainer`, `/verb-trainer`, `/grammar`, `/settings`, `/about`,
 `/privacy`, `/terms`, and a `*` catch-all `NotFoundPage`. The Privacy/Terms pages are real,
 live-linked pages — they're what Google's OAuth consent screen configuration
 points at, so don't remove or break their routes without updating that
@@ -169,6 +171,18 @@ back to other persons' forms, so an item tests the rule rather than word
 recognition. When touching the engine, re-dump every curriculum verb's
 table and read it — every regular verb's Präteritum/Perfekt must be
 reproducible by the weak rule.
+
+### Grammatik cards
+
+`/grammar` shows one-screen review cards, one grammar topic each, from
+`public/data/grammar/cards.json` (schema: `public/schemas/grammar-cards-schema.json`).
+Linguo accompanies a course, so a card is a reminder, not a lesson: title,
+one visual (two contrasting columns or a small table), 1–2 examples, one
+typical mistake, and a back side with forms and a self-check. Every card
+must fit a 390 × 844 phone screen on both sides; the schema's length limits
+enforce most of that, but check new cards in the browser at that size. Text
+fields use `[x]` / `{x}` for the two highlight tones. Authoring rules:
+[`.agents/grammar-card-writer.md`](.agents/grammar-card-writer.md).
 
 ### UI status vs. scoring status
 
