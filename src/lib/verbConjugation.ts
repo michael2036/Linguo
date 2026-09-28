@@ -78,7 +78,17 @@ const DATIVE_REFLEXIVE = new Set(['wünschen', 'vorstellen', 'merken']);
 // Konzerte finden statt") — "ich finde statt" is grammatical noise, so
 // drills never ask for the other persons. Weather verbs only take "es".
 const WEATHER_VERBS = new Set(['regnen', 'schneien', 'donnern', 'blitzen', 'hageln']);
-const THIRD_PERSON_ONLY = new Set(['lohnen', 'stattfinden', 'klappen', 'passieren', 'anfühlen']);
+const THIRD_PERSON_ONLY = new Set([
+  'lohnen',
+  'stattfinden',
+  'klappen',
+  'passieren',
+  'anfühlen',
+  'gelingen',
+  'vergehen',
+  'schwerfallen',
+  'ausfallen',
+]);
 
 const personsFor = (infinitive: string): Person[] => {
   if (WEATHER_VERBS.has(infinitive)) return ['er'];
