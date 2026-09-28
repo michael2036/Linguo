@@ -143,6 +143,7 @@ const STEM_CHANGE: Record<string, [string, string]> = {
   vergessen: ['vergisst', 'vergisst'],
   wachsen: ['wächst', 'wächst'],
   waschen: ['wäschst', 'wäscht'],
+  werben: ['wirbst', 'wirbt'],
   werfen: ['wirfst', 'wirft'],
 };
 
