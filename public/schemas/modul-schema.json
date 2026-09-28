@@ -6,7 +6,7 @@
   "required": ["modulId", "level", "modulNumber", "title", "lektionen"],
   "properties": {
     "modulId": { "type": "string" },
-    "level": { "enum": ["A1", "A2", "B1"] },
+    "level": { "enum": ["A1", "A2", "B1", "B1+"] },
     "modulNumber": { "type": "integer", "minimum": 1, "maximum": 8 },
     "title": { "type": "string" },
     "lektionen": {
@@ -22,7 +22,7 @@
       "required": ["lektionId", "level", "modulNumber", "lektionNumber", "title", "grammarFocus", "vocabulary", "practice", "test"],
       "properties": {
         "lektionId": { "type": "string" },
-        "level": { "enum": ["A1", "A2", "B1"] },
+        "level": { "enum": ["A1", "A2", "B1", "B1+"] },
         "modulNumber": { "type": "integer", "minimum": 1, "maximum": 8 },
         "lektionNumber": { "type": "integer", "minimum": 1, "maximum": 24 },
         "title": { "type": "string" },

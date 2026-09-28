@@ -29,7 +29,7 @@
       "additionalProperties": false,
       "properties": {
         "id": { "type": "string", "pattern": "^(a1|a2|b1)-[a-z0-9-]+$" },
-        "level": { "enum": ["A1", "A2", "B1"] },
+        "level": { "enum": ["A1", "A2", "B1", "B1+"] },
         "category": { "enum": ["satzbau", "verben", "nomen", "praepositionen", "adjektive", "konnektoren", "redemittel"] },
         "title": { "type": "string", "maxLength": 40 },
         "subtitle": { "type": "string", "maxLength": 70 },

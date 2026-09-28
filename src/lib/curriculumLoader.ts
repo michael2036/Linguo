@@ -1,7 +1,8 @@
 import type { LevelInfo, ModulPackage, ModulSummary } from '../types/curriculum';
 
-// Levels the app has real Kursbuch+Arbeitsbuch source material for. Order
-// here is display order on the home page.
+// Levels the app has real source material for (A1-B1: Momente Kursbuch +
+// Arbeitsbuch; B1+: Kontext B1+ express Übungsbuch). Order here is display
+// order on the home page.
 export const LEVEL_CATALOG: LevelInfo[] = [
   {
     level: 'A1',
@@ -17,6 +18,11 @@ export const LEVEL_CATALOG: LevelInfo[] = [
     level: 'B1',
     title: 'Deutsch B1',
     tagline: 'Mehr Tiefe: deine Meinung vertreten, über Arbeit und Soziales sprechen und flüssiger werden.',
+  },
+  {
+    level: 'B1+',
+    title: 'Deutsch B1+',
+    tagline: 'Vertiefen und festigen: Passiv, Relativsätze, Konnektoren und Konjunktiv II sicher anwenden.',
   },
 ];
 
@@ -310,6 +316,102 @@ export const MODUL_CATALOG: ModulSummary[] = [
       { lektionId: 'b1-m8-l22', lektionNumber: 22, title: 'Ein politisches Leben' },
       { lektionId: 'b1-m8-l23', lektionNumber: 23, title: 'Was wäre gewesen, wenn ...' },
       { lektionId: 'b1-m8-l24', lektionNumber: 24, title: 'Zukunftsprognosen' },
+    ],
+  },
+  {
+    modulId: 'b1plus-m1',
+    level: 'B1+',
+    modulNumber: 1,
+    title: 'Mit der Zeit',
+    path: 'data/b1plus/modul-1.json',
+    lektionen: [
+      { lektionId: 'b1plus-m1-l1', lektionNumber: 1, title: 'Zeit – früher und heute' },
+      { lektionId: 'b1plus-m1-l2', lektionNumber: 2, title: 'Tag für Tag' },
+      { lektionId: 'b1plus-m1-l3', lektionNumber: 3, title: 'Wie die Zeit vergeht' },
+    ],
+  },
+  {
+    modulId: 'b1plus-m2',
+    level: 'B1+',
+    modulNumber: 2,
+    title: 'Alles Kopfsache?',
+    path: 'data/b1plus/modul-2.json',
+    lektionen: [
+      { lektionId: 'b1plus-m2-l4', lektionNumber: 4, title: 'Man lernt nie aus' },
+      { lektionId: 'b1plus-m2-l5', lektionNumber: 5, title: 'Wissen oder googeln?' },
+      { lektionId: 'b1plus-m2-l6', lektionNumber: 6, title: 'Übung macht den Meister?' },
+    ],
+  },
+  {
+    modulId: 'b1plus-m3',
+    level: 'B1+',
+    modulNumber: 3,
+    title: 'Wie wir wohnen',
+    path: 'data/b1plus/modul-3.json',
+    lektionen: [
+      { lektionId: 'b1plus-m3-l7', lektionNumber: 7, title: 'Ordnung ist das halbe Leben' },
+      { lektionId: 'b1plus-m3-l8', lektionNumber: 8, title: 'Hereinspaziert!' },
+      { lektionId: 'b1plus-m3-l9', lektionNumber: 9, title: 'Wenn alle schlafen' },
+    ],
+  },
+  {
+    modulId: 'b1plus-m4',
+    level: 'B1+',
+    modulNumber: 4,
+    title: 'Rund um die Arbeit',
+    path: 'data/b1plus/modul-4.json',
+    lektionen: [
+      { lektionId: 'b1plus-m4-l10', lektionNumber: 10, title: 'Was machen Sie so beruflich?' },
+      { lektionId: 'b1plus-m4-l11', lektionNumber: 11, title: 'Ein neuer Job' },
+      { lektionId: 'b1plus-m4-l12', lektionNumber: 12, title: 'Nie wieder Arbeit?!' },
+    ],
+  },
+  {
+    modulId: 'b1plus-m5',
+    level: 'B1+',
+    modulNumber: 5,
+    title: 'Was wir brauchen',
+    path: 'data/b1plus/modul-5.json',
+    lektionen: [
+      { lektionId: 'b1plus-m5-l13', lektionNumber: 13, title: 'Meins ist deins' },
+      { lektionId: 'b1plus-m5-l14', lektionNumber: 14, title: 'Heute ein Muss – morgen vergessen?' },
+      { lektionId: 'b1plus-m5-l15', lektionNumber: 15, title: 'Weniger ist mehr' },
+    ],
+  },
+  {
+    modulId: 'b1plus-m6',
+    level: 'B1+',
+    modulNumber: 6,
+    title: 'Bist du fit?',
+    path: 'data/b1plus/modul-6.json',
+    lektionen: [
+      { lektionId: 'b1plus-m6-l16', lektionNumber: 16, title: 'Essen – aber wie?' },
+      { lektionId: 'b1plus-m6-l17', lektionNumber: 17, title: 'Gesund und munter?' },
+      { lektionId: 'b1plus-m6-l18', lektionNumber: 18, title: 'Mach mit!' },
+    ],
+  },
+  {
+    modulId: 'b1plus-m7',
+    level: 'B1+',
+    modulNumber: 7,
+    title: 'Alle zusammen',
+    path: 'data/b1plus/modul-7.json',
+    lektionen: [
+      { lektionId: 'b1plus-m7-l19', lektionNumber: 19, title: 'Das finde ich wichtig' },
+      { lektionId: 'b1plus-m7-l20', lektionNumber: 20, title: 'Am Ende der Welt' },
+      { lektionId: 'b1plus-m7-l21', lektionNumber: 21, title: 'Neu hier?!' },
+    ],
+  },
+  {
+    modulId: 'b1plus-m8',
+    level: 'B1+',
+    modulNumber: 8,
+    title: 'Natürlich!',
+    path: 'data/b1plus/modul-8.json',
+    lektionen: [
+      { lektionId: 'b1plus-m8-l22', lektionNumber: 22, title: 'Klimawandel' },
+      { lektionId: 'b1plus-m8-l23', lektionNumber: 23, title: 'Was ziehe ich an?' },
+      { lektionId: 'b1plus-m8-l24', lektionNumber: 24, title: 'Gute Nacht!' },
     ],
   },
 ];

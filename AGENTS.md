@@ -62,15 +62,16 @@ src/
   theme/brand.ts                # custom Fluent brand ramp (light + dark)
 public/
   schemas/                     # the two JSON Schemas (app state, modul)
-  data/<level>/modul-<N>.json  # curriculum content packs (level lowercase: a1, a2, b1)
+  data/<level>/modul-<N>.json  # curriculum content packs (level lowercase: a1, a2, b1;
+                               # B1+ lives under b1plus/)
   og-image.png                 # social preview image (excluded from SW precache)
 design/                        # source design assets (e.g. icon master), not shipped
 .agents/                       # content-authoring agent specs (see above)
 .github/workflows/deploy.yml   # GitHub Pages CI/CD
 ```
 
-Routes: `/` (portal — three level cards, no lesson detail), `/levels/:levelId`
-(one level's Moduln/Lektionen, `levelId` lowercase e.g. `a1`), `/lektion/:lektionId`
+Routes: `/` (portal — one card per level, no lesson detail), `/levels/:levelId`
+(one level's Moduln/Lektionen, `levelId` lowercase e.g. `a1`, `b1+`), `/lektion/:lektionId`
 (mode-select → Übung or Test), `/vocab-trainer`, `/verb-trainer`, `/grammar`, `/settings`, `/about`,
 `/privacy`, `/terms`, and a `*` catch-all `NotFoundPage`. The Privacy/Terms pages are real,
 live-linked pages — they're what Google's OAuth consent screen configuration
@@ -113,8 +114,17 @@ highlight as a "start here" suggestion, but every row is equally clickable.
 
 All 8 Moduln (24 Lektionen) are built for A1, A2, and B1 as of this
 writing — the pilot (`a1-m1`) validated the architecture before scaling to
-the rest. C1/C2 aren't authored yet; `LEVEL_CATALOG`/the modul schema's
-`level` enum only cover A1–B1 today. See
+the rest.
+
+**B1+** comes from a different series, "Kontext B1+ express" (Klett), and
+was authored from its *Übungsbuch* answer key only (no Kursbuch key), so all
+three practice tiers draw on that one book. Kontext's own structure (8
+Kapitel × 3 Moduln) maps onto Linguo's: Kapitel → Modul, Kontext-Modul →
+Lektion, so B1+ also has 8 Moduln / 24 Lektionen. Its ids use `b1plus`
+(`b1plus-m3-l8`, `public/data/b1plus/`) because `+` is awkward in ids and
+file paths, but the `level` value itself is the string `"B1+"`.
+C1/C2 aren't authored yet; `LEVEL_CATALOG`/the modul schema's `level` enum
+only cover A1–B1+ today. See
 [`.agents/pipeline.md`](.agents/pipeline.md) to author more.
 
 ### Vocabulary linguistic profiles

@@ -1,8 +1,9 @@
 import type { ExerciseItem, VocabularyItem } from './content';
 
-// Only the levels we hold real source material (Momente Kursbuch +
-// Arbeitsbuch) for. Extend when a new level's PDFs are ingested.
-export type Level = 'A1' | 'A2' | 'B1';
+// Only the levels we hold real source material for (A1-B1: Momente Kursbuch +
+// Arbeitsbuch; B1+: Kontext B1+ express). Extend when a new level's PDFs are
+// ingested.
+export type Level = 'A1' | 'A2' | 'B1' | 'B1+';
 
 export interface LevelInfo {
   level: Level;
