@@ -1,0 +1,2459 @@
+{
+  "modulId": "b1plus-m5",
+  "level": "B1+",
+  "modulNumber": 5,
+  "title": "Was wir brauchen …",
+  "lektionen": [
+    {
+      "lektionId": "b1plus-m5-l13",
+      "level": "B1+",
+      "modulNumber": 5,
+      "lektionNumber": 13,
+      "title": "Meins ist deins",
+      "grammarFocus": [
+        "Passiv Präsens und Präteritum (wird/wurde + Partizip II)",
+        "Passiv Perfekt (ist … worden)",
+        "Passiv mit Modalverben (kann … genutzt werden)",
+        "Agens mit von + Dativ"
+      ],
+      "vocabulary": [
+        {
+          "id": "l13v01",
+          "term": "teilen",
+          "translation": "compartir",
+          "partOfSpeech": "verb",
+          "preterite": "teilte",
+          "participle": "geteilt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Im Studentenwohnheim teilen wir uns eine große Küche."
+        },
+        {
+          "id": "l13v02",
+          "term": "nutzen",
+          "translation": "usar / aprovechar",
+          "partOfSpeech": "verb",
+          "preterite": "nutzte",
+          "participle": "genutzt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Viele Pendler nutzen morgens die Leihräder am Bahnhof."
+        },
+        {
+          "id": "l13v03",
+          "term": "ausleihen",
+          "translation": "tomar prestado",
+          "partOfSpeech": "verb",
+          "preterite": "lieh aus",
+          "participle": "ausgeliehen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Für die Renovierung habe ich eine Leiter ausgeliehen."
+        },
+        {
+          "id": "l13v04",
+          "term": "verleihen",
+          "translation": "prestar / alquilar",
+          "partOfSpeech": "verb",
+          "preterite": "verlieh",
+          "participle": "verliehen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Der Sportverein verleiht Zelte an seine Mitglieder."
+        },
+        {
+          "id": "l13v05",
+          "term": "besitzen",
+          "translation": "poseer",
+          "partOfSpeech": "verb",
+          "preterite": "besaß",
+          "participle": "besessen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Meine Kollegin besitzt kein eigenes Auto."
+        },
+        {
+          "id": "l13v06",
+          "term": "benötigen",
+          "translation": "necesitar",
+          "partOfSpeech": "verb",
+          "preterite": "benötigte",
+          "participle": "benötigt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Für den Umzug benötigen wir noch ein paar Kisten."
+        },
+        {
+          "id": "l13v07",
+          "term": "verschenken",
+          "translation": "regalar",
+          "partOfSpeech": "verb",
+          "preterite": "verschenkte",
+          "participle": "verschenkt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Nach dem Umzug verschenkt Jonas seine alten Möbel."
+        },
+        {
+          "id": "l13v08",
+          "term": "unterstützen",
+          "translation": "apoyar",
+          "partOfSpeech": "verb",
+          "preterite": "unterstützte",
+          "participle": "unterstützt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Die Gemeinde unterstützt das Projekt mit 5000 Euro."
+        },
+        {
+          "id": "l13v09",
+          "term": "fördern",
+          "translation": "fomentar / promover",
+          "partOfSpeech": "verb",
+          "preterite": "förderte",
+          "participle": "gefördert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Das Programm fördert den nachhaltigen Konsum."
+        },
+        {
+          "id": "l13v10",
+          "term": "herunterladen",
+          "translation": "descargar",
+          "partOfSpeech": "verb",
+          "preterite": "lud herunter",
+          "participle": "heruntergeladen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Zuerst musst du die App herunterladen."
+        },
+        {
+          "id": "l13v11",
+          "term": "abstellen",
+          "translation": "dejar / aparcar",
+          "partOfSpeech": "verb",
+          "preterite": "stellte ab",
+          "participle": "abgestellt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Bitte stell das Fahrrad im Hinterhof ab."
+        },
+        {
+          "id": "l13v12",
+          "term": "gießen",
+          "translation": "regar",
+          "partOfSpeech": "verb",
+          "preterite": "goss",
+          "participle": "gegossen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Kannst du während meines Urlaubs die Tomaten gießen?"
+        },
+        {
+          "id": "l13v13",
+          "term": "das Werkzeug",
+          "translation": "la herramienta",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Werkzeuge",
+          "example": "Das Werkzeug liegt in der Kiste neben der Tür."
+        },
+        {
+          "id": "l13v14",
+          "term": "die Nachbarschaft",
+          "translation": "el vecindario",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Nachbarschaften",
+          "example": "In unserer Nachbarschaft hilft man sich gegenseitig."
+        },
+        {
+          "id": "l13v15",
+          "term": "die Bohrmaschine",
+          "translation": "el taladro",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Bohrmaschinen",
+          "example": "Eine Bohrmaschine braucht man nur ein paar Minuten im Jahr."
+        },
+        {
+          "id": "l13v16",
+          "term": "das Lastenfahrrad",
+          "translation": "la bicicleta de carga",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Lastenfahrräder",
+          "example": "Mit dem Lastenfahrrad transportiert Mira ihre Einkäufe."
+        },
+        {
+          "id": "l13v17",
+          "term": "die Gemeinschaft",
+          "translation": "la comunidad",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Gemeinschaften",
+          "example": "Der Garten wird von einer kleinen Gemeinschaft gepflegt."
+        },
+        {
+          "id": "l13v18",
+          "term": "das Konzept",
+          "translation": "el concepto",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Konzepte",
+          "example": "Das Konzept des Teilens überzeugt immer mehr Menschen."
+        },
+        {
+          "id": "l13v19",
+          "term": "der Besitz",
+          "translation": "la propiedad / la posesión",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "example": "Für viele junge Leute ist Besitz nicht mehr so wichtig."
+        },
+        {
+          "id": "l13v20",
+          "term": "die Plattform",
+          "translation": "la plataforma",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Plattformen",
+          "example": "Über diese Plattform kann man Werkzeug tauschen."
+        },
+        {
+          "id": "l13v21",
+          "term": "weltweit",
+          "translation": "en todo el mundo",
+          "partOfSpeech": "adverb",
+          "example": "Das Angebot wird inzwischen weltweit genutzt."
+        },
+        {
+          "id": "l13v22",
+          "term": "inzwischen",
+          "translation": "mientras tanto / ya (a estas alturas)",
+          "partOfSpeech": "adverb",
+          "example": "Anfangs war die Idee neu, inzwischen ist sie ganz normal."
+        },
+        {
+          "id": "l13v23",
+          "term": "in erster Linie",
+          "translation": "ante todo / principalmente",
+          "partOfSpeech": "phrase",
+          "example": "Die Tauschbörse ist in erster Linie für Familien gedacht."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l13e01",
+            "type": "multiple-choice",
+            "instruction": "Wähle die richtige Form von 'werden' (Passiv Präsens).",
+            "prompt": "In unserem Viertel ___ viele Werkzeuge geteilt.",
+            "options": [
+              "werden",
+              "wird",
+              "haben",
+              "worden"
+            ],
+            "solution": "werden",
+            "hint": "Das Subjekt ist 'viele Werkzeuge' – Singular oder Plural?",
+            "explanation": "Passiv Präsens = werden + Partizip II. Das Subjekt 'viele Werkzeuge' ist Plural, also 'werden'. 'wird' passt nur zu einem Subjekt im Singular, 'haben' bildet kein Passiv, 'worden' gehört ins Perfekt."
+          },
+          {
+            "id": "l13e02",
+            "type": "multiple-choice",
+            "instruction": "Wähle das richtige Partizip II.",
+            "prompt": "Die Bohrmaschine wird von einem Nachbarn ___. (verleihen)",
+            "options": [
+              "verliehen",
+              "verleiht",
+              "verleihen",
+              "verlieh"
+            ],
+            "solution": "verliehen",
+            "hint": "Im Passiv steht am Satzende immer das Partizip II.",
+            "explanation": "Passiv = werden + Partizip II. 'verleihen' ist unregelmäßig und hat ein untrennbares Präfix: Partizip II 'verliehen' (ohne ge-). 'verleiht' ist Präsens, 'verlieh' ist Präteritum."
+          },
+          {
+            "id": "l13e03",
+            "type": "multiple-choice",
+            "instruction": "Wähle die richtige Form nach 'von' (Agens).",
+            "prompt": "Die Gartenstühle werden im Sommer ___ Hausverwaltung zur Verfügung gestellt.",
+            "options": [
+              "von der",
+              "von die",
+              "vom",
+              "von den"
+            ],
+            "solution": "von der",
+            "hint": "'von' verlangt immer den Dativ.",
+            "explanation": "Wer etwas tut (das Agens), steht im Passiv mit 'von' + Dativ. 'die Hausverwaltung' im Dativ: 'der' → 'von der Hausverwaltung'. 'von die' ist Akkusativ, 'vom' (von dem) passt nur zu maskulinen/neutralen Nomen, 'von den' ist Plural."
+          },
+          {
+            "id": "l13e04",
+            "type": "multiple-choice",
+            "instruction": "Wähle die richtige Form (Passiv Präteritum).",
+            "prompt": "Letzten Sommer ___ im Park ein Tauschfest veranstaltet.",
+            "options": [
+              "wurde",
+              "wurden",
+              "wird",
+              "hat"
+            ],
+            "solution": "wurde",
+            "hint": "Präteritum von 'werden', Subjekt im Singular.",
+            "explanation": "Passiv Präteritum = wurde(n) + Partizip II. Subjekt ist 'ein Tauschfest' (Singular), also 'wurde'. 'wurden' ist Plural, 'wird' ist Präsens und passt nicht zu 'letzten Sommer', 'hat' bildet kein Passiv."
+          },
+          {
+            "id": "l13e05",
+            "type": "multiple-choice",
+            "instruction": "Wähle die richtige Form (Passiv Perfekt).",
+            "prompt": "Die Werkzeuge sind nach der Reparatur schon gereinigt ___.",
+            "options": [
+              "worden",
+              "geworden",
+              "werden",
+              "gehabt"
+            ],
+            "solution": "worden",
+            "hint": "Im Passiv Perfekt verliert das Partizip von 'werden' sein ge-.",
+            "explanation": "Passiv Perfekt = sein + Partizip II + worden. 'geworden' benutzt man nur, wenn 'werden' Vollverb ist (Er ist Arzt geworden). Im Passiv heißt es immer 'worden'."
+          },
+          {
+            "id": "l13e06",
+            "type": "multiple-choice",
+            "instruction": "Wähle die richtige Form (Passiv mit Modalverb).",
+            "prompt": "Das Carsharing-Auto kann ganz einfach per App ___ werden.",
+            "options": [
+              "gebucht",
+              "buchen",
+              "bucht",
+              "gebuchen"
+            ],
+            "solution": "gebucht",
+            "hint": "Modalverb + Partizip II + werden.",
+            "explanation": "Passiv mit Modalverb: Modalverb (konjugiert) + Partizip II + 'werden' (Infinitiv) am Ende. 'buchen' ist regelmäßig: Partizip II 'gebucht'. 'gebuchen' gibt es nicht."
+          },
+          {
+            "id": "l13e07",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze die richtige Form von 'werden' (Passiv Präsens).",
+            "prompt": "Wenn wir verreisen, ___ unsere Katzen von einer Nachbarin gefüttert.",
+            "solution": "werden",
+            "hint": "Subjekt: 'die Katzen'.",
+            "explanation": "Passiv Präsens: werden + Partizip II. 'unsere Katzen' ist Plural → 'werden'. Die Nachbarin ist das Agens (von + Dativ), nicht das Subjekt – deshalb nicht 'wird'."
+          },
+          {
+            "id": "l13e08",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze die richtige Form von 'werden' (Passiv Präteritum).",
+            "prompt": "Das Lastenfahrrad ___ gestern von einem Studenten ausgeliehen.",
+            "solution": "wurde",
+            "hint": "'gestern' → Vergangenheit; Subjekt im Singular.",
+            "explanation": "Passiv Präteritum: wurde + Partizip II. Das Subjekt 'das Lastenfahrrad' ist Singular, also 'wurde'. 'wird' wäre Präsens und passt nicht zu 'gestern'."
+          },
+          {
+            "id": "l13e09",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Hilfsverb (Passiv Perfekt).",
+            "prompt": "Die Tausch-App ___ inzwischen weltweit millionenfach heruntergeladen worden.",
+            "solution": "ist",
+            "hint": "Das Passiv Perfekt bildet man immer mit 'sein'.",
+            "explanation": "Passiv Perfekt = sein + Partizip II + worden. Subjekt 'die Tausch-App' ist Singular → 'ist'. Mit 'hat' kann man kein Passiv Perfekt bilden."
+          },
+          {
+            "id": "l13e10",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das fehlende Wort (Passiv mit Modalverb).",
+            "prompt": "Kaputte Geräte sollen nicht weggeworfen, sondern repariert ___.",
+            "solution": "werden",
+            "hint": "Am Ende steht der Infinitiv des Passiv-Hilfsverbs.",
+            "explanation": "Passiv mit Modalverb: Modalverb + Partizip II + werden. Nach 'sollen' steht am Satzende der Infinitiv 'werden', nicht 'wird' oder 'worden'."
+          },
+          {
+            "id": "l13e11",
+            "type": "multiple-choice",
+            "instruction": "Welcher Satz steht im Passiv?",
+            "prompt": "Nur ein Satz ist ein Passivsatz.",
+            "options": [
+              "Die Leiter wird oft geteilt.",
+              "Die Leiter wird immer teurer.",
+              "Meine Nachbarin wird Lehrerin.",
+              "Der Nachbar teilt die Leiter."
+            ],
+            "solution": "Die Leiter wird oft geteilt.",
+            "hint": "Passiv = werden + Partizip II.",
+            "explanation": "Nur in 'Die Leiter wird oft geteilt' steht 'werden' mit einem Partizip II (geteilt) – das ist Passiv. 'wird teurer' und 'wird Lehrerin' zeigen 'werden' als Vollverb (Veränderung), 'teilt' ist Aktiv."
+          },
+          {
+            "id": "l13e12",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das fehlende Wort (Passiv Perfekt).",
+            "prompt": "Der alte Kinderwagen ist schon an eine junge Familie verschenkt ___.",
+            "solution": "worden",
+            "hint": "Passiv Perfekt: ist + Partizip II + …",
+            "explanation": "Das Passiv Perfekt endet immer mit 'worden' (ohne ge-). 'geworden' ist nur richtig, wenn 'werden' Vollverb ist."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l13m01",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Passivsatz im Präsens. Beginne mit 'Im Hinterhaus'.",
+            "prompt": "Baue den Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "Im Hinterhaus",
+              "wird",
+              "eine Nähmaschine von vier Studentinnen",
+              "genutzt."
+            ],
+            "solution": "Im Hinterhaus wird eine Nähmaschine von vier Studentinnen genutzt.",
+            "hint": "'werden' auf Position 2, Partizip II ans Ende.",
+            "explanation": "Im Passiv steht die konjugierte Form von 'werden' auf Position 2, das Partizip II bildet die Satzklammer am Ende. Beginnt der Satz mit 'Im Hinterhaus', steht 'wird' direkt danach."
+          },
+          {
+            "id": "l13m02",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Passivsatz im Präteritum. Beginne mit 'Das Straßenfest'.",
+            "prompt": "Baue den Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "Das Straßenfest",
+              "wurde",
+              "im Mai von den Anwohnern",
+              "geplant."
+            ],
+            "solution": "Das Straßenfest wurde im Mai von den Anwohnern geplant.",
+            "hint": "'wurde' auf Position 2.",
+            "explanation": "Passiv Präteritum: wurde + … + Partizip II am Ende. Das Agens 'von den Anwohnern' steht im Mittelfeld."
+          },
+          {
+            "id": "l13m03",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Passivsatz im Perfekt. Beginne mit 'Die Bohrmaschine'.",
+            "prompt": "Baue den Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "Die Bohrmaschine",
+              "ist",
+              "gestern",
+              "abgeholt",
+              "worden."
+            ],
+            "solution": "Die Bohrmaschine ist gestern abgeholt worden.",
+            "hint": "Am Ende stehen zwei Verbteile: Partizip II + worden.",
+            "explanation": "Passiv Perfekt: sein (Position 2) + Partizip II + worden. 'worden' steht immer ganz am Ende, direkt nach dem Partizip II."
+          },
+          {
+            "id": "l13m04",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Passivsatz mit Modalverb. Beginne mit 'Das Werkzeug'.",
+            "prompt": "Baue den Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "Das Werkzeug",
+              "darf",
+              "nur von Mitgliedern",
+              "ausgeliehen",
+              "werden."
+            ],
+            "solution": "Das Werkzeug darf nur von Mitgliedern ausgeliehen werden.",
+            "hint": "Modalverb auf Position 2, am Ende Partizip II + werden.",
+            "explanation": "Passiv mit Modalverb: Das Modalverb ist konjugiert (Position 2), am Satzende stehen Partizip II und der Infinitiv 'werden'."
+          },
+          {
+            "id": "l13m05",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz mit Nebensatz. Beginne mit 'Ich finde gut,'.",
+            "prompt": "Baue den Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "Ich finde gut,",
+              "dass",
+              "hier so viele Dinge",
+              "geteilt",
+              "werden."
+            ],
+            "solution": "Ich finde gut, dass hier so viele Dinge geteilt werden.",
+            "hint": "Im dass-Satz steht das konjugierte Verb am Ende.",
+            "explanation": "Im Nebensatz steht das konjugierte 'werden' ganz am Ende, nach dem Partizip II: '…, dass … geteilt werden.'"
+          },
+          {
+            "id": "l13m06",
+            "type": "sentence-scramble",
+            "instruction": "Bilde eine Ja/Nein-Frage im Passiv Perfekt.",
+            "prompt": "Baue den Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "Ist",
+              "der Kinderwagen schon",
+              "verschenkt",
+              "worden?"
+            ],
+            "solution": "Ist der Kinderwagen schon verschenkt worden?",
+            "hint": "Ja/Nein-Frage: Das konjugierte Verb steht auf Position 1.",
+            "explanation": "In einer Ja/Nein-Frage steht das konjugierte Hilfsverb 'ist' am Anfang. Partizip II und 'worden' bleiben am Ende."
+          },
+          {
+            "id": "l13m07",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze die richtige Form von 'werden' (Passiv Präsens).",
+            "prompt": "Im Gemeinschaftsgarten ___ jeden Samstag Gemüse geerntet.",
+            "solution": "wird",
+            "hint": "'Gemüse' ist hier Singular.",
+            "explanation": "Passiv Präsens: werden + Partizip II. Das Subjekt 'Gemüse' ist ein Singular (Sammelbegriff), also 'wird'."
+          },
+          {
+            "id": "l13m08",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze die richtige Form von 'werden' (Passiv Präteritum).",
+            "prompt": "Früher ___ die Bohrmaschinen im Keller aufbewahrt.",
+            "solution": "wurden",
+            "hint": "'Früher' → Präteritum; Subjekt im Plural.",
+            "explanation": "Passiv Präteritum: wurde(n) + Partizip II. 'die Bohrmaschinen' ist Plural → 'wurden'."
+          },
+          {
+            "id": "l13m09",
+            "type": "cloze-conjugation",
+            "instruction": "Setze das Partizip II ein.",
+            "prompt": "Die Kinderkleidung wird auf dem Tauschmarkt kostenlos ___. (abgeben)",
+            "solution": "abgegeben",
+            "hint": "Trennbares Verb: -ge- steht zwischen Präfix und Stamm.",
+            "explanation": "'abgeben' ist trennbar und unregelmäßig (geben – gab – gegeben): ab + ge + geben → 'abgegeben'. Im Passiv steht nach 'wird' das Partizip II am Satzende, nicht der Infinitiv 'abgeben'."
+          },
+          {
+            "id": "l13m10",
+            "type": "cloze-conjugation",
+            "instruction": "Setze das Partizip II ein.",
+            "prompt": "Die neue Tausch-App ist schon tausendmal ___ worden. (herunterladen)",
+            "solution": "heruntergeladen",
+            "hint": "Trennbares Verb: -ge- steht zwischen Präfix und Stamm.",
+            "explanation": "'herunterladen' ist trennbar und unregelmäßig: herunter + ge + laden → 'heruntergeladen'."
+          },
+          {
+            "id": "l13m11",
+            "type": "cloze-conjugation",
+            "instruction": "Setze das Partizip II ein.",
+            "prompt": "Das Lastenrad muss vor der Fahrt online ___ werden. (reservieren)",
+            "solution": "reserviert",
+            "hint": "Verben auf -ieren bilden das Partizip ohne ge-.",
+            "explanation": "Verben auf '-ieren' haben kein ge- im Partizip II: reservieren → 'reserviert'. Nach dem Modalverb 'muss' folgen Partizip II + werden."
+          },
+          {
+            "id": "l13m12",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze die richtige Form von 'werden' (Passiv Präsens).",
+            "prompt": "Seit letztem Jahr ___ das Nachbarschaftsprojekt von der Stadt gefördert.",
+            "solution": "wird",
+            "hint": "Subjekt: 'das Nachbarschaftsprojekt'.",
+            "explanation": "Passiv Präsens: werden + Partizip II. 'das Nachbarschaftsprojekt' ist Singular → 'wird'. 'die Stadt' ist das Agens mit 'von + Dativ' (von der Stadt), nicht das Subjekt."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l13h01",
+            "type": "targeted-transformation",
+            "instruction": "Forme ins Passiv Präsens um. Nenne das Agens mit 'von'. Beginne mit 'Die Werkzeuge'.",
+            "prompt": "Die Nachbarn teilen die Werkzeuge.",
+            "solution": "Die Werkzeuge werden von den Nachbarn geteilt.",
+            "hint": "Akkusativobjekt → Subjekt; Subjekt → von + Dativ.",
+            "explanation": "Im Passiv wird das Akkusativobjekt (die Werkzeuge) zum Subjekt. Das Aktiv-Subjekt wird zum Agens mit 'von' + Dativ: 'die Nachbarn' → 'von den Nachbarn'. Plural-Subjekt → 'werden'."
+          },
+          {
+            "id": "l13h02",
+            "type": "targeted-transformation",
+            "instruction": "Forme ins Passiv Präteritum um. Nenne das Agens mit 'von'. Beginne mit 'Die Tauschbörse'.",
+            "prompt": "Eine Studentin gründete die Tauschbörse.",
+            "solution": "Die Tauschbörse wurde von einer Studentin gegründet.",
+            "hint": "wurde + Partizip II; 'eine Studentin' im Dativ.",
+            "explanation": "Passiv Präteritum: wurde + Partizip II. Das Agens steht mit 'von' + Dativ: 'eine Studentin' → 'von einer Studentin'."
+          },
+          {
+            "id": "l13h03",
+            "type": "targeted-transformation",
+            "instruction": "Forme ins Passiv Perfekt um (ohne Agens). Beginne mit 'Der Fahrradkeller'.",
+            "prompt": "Man hat den Fahrradkeller gestern aufgeräumt.",
+            "solution": "Der Fahrradkeller ist gestern aufgeräumt worden.",
+            "hint": "'man' fällt im Passiv weg. Perfekt: ist … worden.",
+            "explanation": "Sätze mit 'man' formt man ohne Agens ins Passiv um – 'man' verschwindet. Passiv Perfekt: ist + Partizip II + worden (nicht 'hat', nicht 'geworden')."
+          },
+          {
+            "id": "l13h04",
+            "type": "targeted-transformation",
+            "instruction": "Forme ins Passiv mit Modalverb um (ohne Agens). Beginne mit 'Die Räder'.",
+            "prompt": "Man kann die Räder rund um die Uhr ausleihen.",
+            "solution": "Die Räder können rund um die Uhr ausgeliehen werden.",
+            "hint": "Modalverb an das neue Subjekt anpassen; am Ende Partizip II + werden.",
+            "explanation": "Passiv mit Modalverb: Modalverb + Partizip II + werden. Das neue Subjekt 'die Räder' ist Plural, deshalb 'können' statt 'kann'."
+          },
+          {
+            "id": "l13h05",
+            "type": "targeted-transformation",
+            "instruction": "Forme ins Passiv mit Modalverb im Präteritum um (ohne Agens). Beginne mit 'Die Kisten'.",
+            "prompt": "Man musste die Kisten bis Freitag abholen.",
+            "solution": "Die Kisten mussten bis Freitag abgeholt werden.",
+            "hint": "Das Modalverb bleibt im Präteritum.",
+            "explanation": "Nur das Modalverb zeigt die Zeit: 'mussten' (Plural, weil 'die Kisten' Subjekt ist). Am Ende: Partizip II 'abgeholt' + 'werden'."
+          },
+          {
+            "id": "l13h06",
+            "type": "targeted-transformation",
+            "instruction": "Forme ins Aktiv Präsens um. Beginne mit 'Mein Sohn'.",
+            "prompt": "Der Rasen wird von meinem Sohn gemäht.",
+            "solution": "Mein Sohn mäht den Rasen.",
+            "hint": "Das Agens wird wieder zum Subjekt.",
+            "explanation": "Beim Umformen ins Aktiv wird das Agens (von meinem Sohn) zum Subjekt im Nominativ (mein Sohn), das Passiv-Subjekt wird Akkusativobjekt (der Rasen → den Rasen). 'mähen' im Präsens, 3. Person: 'mäht'."
+          },
+          {
+            "id": "l13h07",
+            "type": "targeted-transformation",
+            "instruction": "Forme ins Passiv Perfekt um. Nenne das Agens mit 'von'. Beginne mit 'Die Waschmaschine'.",
+            "prompt": "Ein Hausmeister hat die Waschmaschine repariert.",
+            "solution": "Die Waschmaschine ist von einem Hausmeister repariert worden.",
+            "hint": "Perfekt Aktiv mit 'hat' → Passiv Perfekt mit 'ist … worden'.",
+            "explanation": "Auch wenn das Aktiv mit 'haben' gebildet wird, steht das Passiv Perfekt immer mit 'sein': ist + Partizip II + worden. Agens: 'von einem Hausmeister' (Dativ)."
+          },
+          {
+            "id": "l13h08",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler.",
+            "prompt": "Der Gemeinschaftsgrill wird von allen Mietern nutzt.",
+            "solution": "Der Gemeinschaftsgrill wird von allen Mietern genutzt.",
+            "hint": "Welche Verbform braucht das Passiv am Satzende?",
+            "explanation": "Passiv = werden + Partizip II. 'nutzt' ist eine Präsensform (er nutzt); am Satzende braucht das Passiv das Partizip II 'genutzt' (ge- + nutz + -t)."
+          },
+          {
+            "id": "l13h09",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere die zwei Fehler.",
+            "prompt": "Die Bücher ist schon verschenkt geworden.",
+            "solution": "Die Bücher sind schon verschenkt worden.",
+            "hint": "Prüfe das Hilfsverb (Subjekt Plural) und die Form von 'werden'.",
+            "explanation": "'Die Bücher' ist Plural → 'sind'. Im Passiv Perfekt heißt es 'worden', nicht 'geworden' ('geworden' nur bei 'werden' als Vollverb)."
+          },
+          {
+            "id": "l13h10",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler (Passiv mit Modalverb im Präsens).",
+            "prompt": "Die Campingstühle können im Vereinsheim ausgeliehen worden.",
+            "solution": "Die Campingstühle können im Vereinsheim ausgeliehen werden.",
+            "hint": "Nach Modalverb + Partizip II steht der Infinitiv.",
+            "explanation": "Passiv mit Modalverb im Präsens: Modalverb + Partizip II + 'werden' (Infinitiv). 'worden' gehört nur ins Passiv Perfekt."
+          },
+          {
+            "id": "l13h11",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler.",
+            "prompt": "Das Projekt wird von die Stadt unterstützt.",
+            "solution": "Das Projekt wird von der Stadt unterstützt.",
+            "hint": "'von' steht immer mit einem bestimmten Kasus.",
+            "explanation": "Das Agens steht mit 'von' + Dativ. 'die Stadt' im Dativ heißt 'der Stadt' → 'von der Stadt'."
+          },
+          {
+            "id": "l13h12",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Der Satz soll mit 'Gestern' beginnen.",
+            "prompt": "Gestern die Mülltonnen wurden geleert.",
+            "solution": "Gestern wurden die Mülltonnen geleert.",
+            "hint": "Wo steht das konjugierte Verb im Hauptsatz?",
+            "explanation": "Im Hauptsatz steht das konjugierte Verb auf Position 2. Steht 'Gestern' auf Position 1, folgt direkt 'wurden', dann das Subjekt 'die Mülltonnen'."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l13t01",
+          "type": "multiple-choice",
+          "instruction": "Wähle die richtige Form von 'werden'.",
+          "prompt": "Früher ___ in unserem Haus kaum etwas geteilt – heute gibt es sogar einen Werkzeugschrank für alle.",
+          "options": [
+            "wurde",
+            "wird",
+            "werden",
+            "worden"
+          ],
+          "solution": "wurde",
+          "explanation": "'Früher' verlangt das Passiv Präteritum: wurde + Partizip II. 'wird' ist Präsens, 'werden' passt nicht zum Singular, 'worden' steht nur im Passiv Perfekt."
+        },
+        {
+          "id": "l13t02",
+          "type": "multiple-choice",
+          "instruction": "Wähle die richtige Form.",
+          "prompt": "Das Lastenfahrrad ist letzte Woche von drei Familien ___ worden.",
+          "options": [
+            "genutzt",
+            "nutzen",
+            "genutzte",
+            "geworden"
+          ],
+          "solution": "genutzt",
+          "explanation": "Passiv Perfekt: sein + Partizip II + worden. Das Partizip II von 'nutzen' ist 'genutzt' (ohne Endung)."
+        },
+        {
+          "id": "l13t03",
+          "type": "multiple-choice",
+          "instruction": "Wähle die richtige Angabe: Wer macht die Handlung (Agens)?",
+          "prompt": "Die Tauschbörse im Stadtteil wird ___ unterstützt.",
+          "options": [
+            "von der Stadt",
+            "von die Stadt",
+            "durch der Stadt",
+            "bei der Stadt"
+          ],
+          "solution": "von der Stadt",
+          "explanation": "Das Agens im Passiv steht mit 'von' + Dativ: von der Stadt. 'von die Stadt' hat den falschen Kasus, 'durch' verlangt den Akkusativ, 'bei' nennt kein Agens."
+        },
+        {
+          "id": "l13t04",
+          "type": "cloze-conjugation",
+          "instruction": "Setze das Partizip II des Verbs in Klammern ein.",
+          "prompt": "Die Beete im Gemeinschaftsgarten werden jeden Abend ___. (gießen)",
+          "solution": "gegossen",
+          "explanation": "Passiv Präsens: werden + Partizip II. 'gießen' ist unregelmäßig: gießen – goss – gegossen, nicht 'gegießt'."
+        },
+        {
+          "id": "l13t05",
+          "type": "cloze-conjugation",
+          "instruction": "Setze 'werden' im Präteritum ein.",
+          "prompt": "Im letzten Sommer ___ unser Zelt dreimal an Freunde verliehen. (werden)",
+          "solution": "wurde",
+          "explanation": "Passiv Präteritum: wurde + Partizip II. Subjekt ist 'unser Zelt' (Singular), deshalb 'wurde', nicht 'wurden'."
+        },
+        {
+          "id": "l13t06",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze das fehlende Wort im Passiv Perfekt.",
+          "prompt": "Die alten Möbel sind schon im Frühling gespendet ___.",
+          "solution": "worden",
+          "explanation": "Im Passiv Perfekt heißt es 'ist/sind + Partizip II + worden'. Die Form 'geworden' gibt es nur beim Vollverb 'werden' (z. B. 'Er ist Arzt geworden')."
+        },
+        {
+          "id": "l13t07",
+          "type": "cloze-conjugation",
+          "instruction": "Setze 'werden' im Präsens ein.",
+          "prompt": "Nach der Benutzung ___ das Werkzeug sofort in die Kiste zurückgelegt. (werden)",
+          "solution": "wird",
+          "explanation": "Passiv Präsens: wird + Partizip II. 'das Werkzeug' ist Singular, deshalb 'wird'."
+        },
+        {
+          "id": "l13t08",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Passivsatz mit Modalverb. Beginne mit 'Die App'.",
+          "prompt": "Baue den Satz aus den Wörtern.",
+          "scrambleChunks": [
+            "Die App",
+            "kann",
+            "kostenlos",
+            "heruntergeladen",
+            "werden."
+          ],
+          "solution": "Die App kann kostenlos heruntergeladen werden.",
+          "explanation": "Passiv mit Modalverb: Modalverb an Position 2, am Ende Partizip II + 'werden' im Infinitiv."
+        },
+        {
+          "id": "l13t09",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz im Passiv Perfekt. Beginne mit 'Das Konzept'.",
+          "prompt": "Baue den Satz aus den Wörtern.",
+          "scrambleChunks": [
+            "Das Konzept",
+            "ist",
+            "von",
+            "der",
+            "Gemeinde",
+            "gefördert",
+            "worden."
+          ],
+          "solution": "Das Konzept ist von der Gemeinde gefördert worden.",
+          "explanation": "Passiv Perfekt: 'ist' an Position 2, am Satzende Partizip II + 'worden'. Das Agens steht mit 'von' + Dativ."
+        },
+        {
+          "id": "l13t10",
+          "type": "targeted-transformation",
+          "instruction": "Forme ins Passiv Präsens um. Beginne mit 'Das übrige Brot' und nenne das Agens mit 'von'.",
+          "prompt": "Eine Bäckerei spendet das übrige Brot.",
+          "solution": "Das übrige Brot wird von einer Bäckerei gespendet.",
+          "explanation": "Das Akkusativobjekt 'das übrige Brot' wird zum Subjekt; das Verb ist 'wird' (Singular) + Partizip II 'gespendet' am Ende. Das Agens 'eine Bäckerei' steht mit 'von' + Dativ: von einer Bäckerei (nicht 'von eine Bäckerei')."
+        },
+        {
+          "id": "l13t11",
+          "type": "targeted-transformation",
+          "instruction": "Forme ins Passiv Präteritum um, ohne Agens. Beginne mit 'Früher'.",
+          "prompt": "Früher verlieh der Verein Zelte.",
+          "solution": "Früher wurden Zelte verliehen.",
+          "explanation": "'Zelte' ist Plural, deshalb 'wurden'. Das Agens 'der Verein' fällt weg; das Partizip II 'verliehen' steht am Ende."
+        },
+        {
+          "id": "l13t12",
+          "type": "targeted-transformation",
+          "instruction": "Forme ins Passiv mit Modalverb um. Beginne mit 'Das Lastenfahrrad'.",
+          "prompt": "Man kann das Lastenfahrrad am Bahnhof abstellen.",
+          "solution": "Das Lastenfahrrad kann am Bahnhof abgestellt werden.",
+          "explanation": "'man' verschwindet im Passiv. Das Modalverb bleibt an Position 2, am Ende stehen Partizip II + werden: 'abgestellt werden'."
+        },
+        {
+          "id": "l13t13",
+          "type": "targeted-transformation",
+          "instruction": "Forme ins Passiv Perfekt um, ohne Agens. Beginne mit 'Der Bollerwagen'.",
+          "prompt": "Man hat den Bollerwagen gestern zurückgebracht.",
+          "solution": "Der Bollerwagen ist gestern zurückgebracht worden.",
+          "explanation": "Passiv Perfekt bildet man immer mit 'sein': ist + Partizip II + worden. 'man' fällt weg, 'den Bollerwagen' wird Subjekt 'der Bollerwagen'. 'hat … worden' und 'geworden' sind falsch."
+        },
+        {
+          "id": "l13t14",
+          "type": "error-correction",
+          "instruction": "Finde und korrigiere den Fehler. Schreibe den ganzen Satz.",
+          "prompt": "Das Fahrrad ist gestern von meinem Mitbewohner ausgeliehen geworden.",
+          "solution": "Das Fahrrad ist gestern von meinem Mitbewohner ausgeliehen worden.",
+          "explanation": "Im Passiv Perfekt steht 'worden', nicht 'geworden'. 'geworden' ist das Partizip des Vollverbs 'werden'."
+        },
+        {
+          "id": "l13t15",
+          "type": "error-correction",
+          "instruction": "Finde und korrigiere den Fehler. Schreibe den ganzen Satz.",
+          "prompt": "Die Grillstelle darf nur bis 22 Uhr benutzt wird.",
+          "solution": "Die Grillstelle darf nur bis 22 Uhr benutzt werden.",
+          "explanation": "Nach einem Modalverb steht 'werden' im Infinitiv am Satzende: darf … benutzt werden. 'wird' ist hier falsch, weil schon 'darf' konjugiert ist – ein Satz hat nur ein konjugiertes Verb."
+        }
+      ]
+    },
+    {
+      "lektionId": "b1plus-m5-l14",
+      "level": "B1+",
+      "modulNumber": 5,
+      "lektionNumber": 14,
+      "title": "Heute ein Muss – morgen vergessen?",
+      "grammarFocus": [
+        "Grafiken beschreiben (Die Grafik zeigt …, dargestellt, Interessant ist, dass …)",
+        "Mengen- und Prozentangaben (die meisten, nur wenige, ein Drittel)",
+        "Vergleiche (doppelt so viele … wie, mehr … als)"
+      ],
+      "vocabulary": [
+        {
+          "id": "l14v01",
+          "term": "die Grafik",
+          "translation": "el gráfico",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Grafiken",
+          "example": "Die Grafik zeigt, wofür Studierende ihr Geld ausgeben."
+        },
+        {
+          "id": "l14v02",
+          "term": "darstellen",
+          "translation": "representar",
+          "partOfSpeech": "verb",
+          "preterite": "stellte dar",
+          "participle": "dargestellt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "In der Tabelle werden die Ergebnisse dargestellt."
+        },
+        {
+          "id": "l14v03",
+          "term": "die Umfrage",
+          "translation": "la encuesta",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Umfragen",
+          "example": "An der Umfrage haben 1500 Personen teilgenommen."
+        },
+        {
+          "id": "l14v04",
+          "term": "befragen",
+          "translation": "encuestar / preguntar",
+          "partOfSpeech": "verb",
+          "preterite": "befragte",
+          "participle": "befragt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Das Institut befragte Jugendliche zwischen 14 und 19 Jahren."
+        },
+        {
+          "id": "l14v05",
+          "term": "der Anteil",
+          "translation": "la proporción / la parte",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Anteile",
+          "example": "Der Anteil der Online-Käufe wächst jedes Jahr."
+        },
+        {
+          "id": "l14v06",
+          "term": "das Prozent",
+          "translation": "el por ciento",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Prozente",
+          "example": "Nur zwölf Prozent der Befragten kaufen noch CDs."
+        },
+        {
+          "id": "l14v07",
+          "term": "die Hälfte",
+          "translation": "la mitad",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Hälften",
+          "example": "Die Hälfte meines Gehalts geht für die Miete drauf."
+        },
+        {
+          "id": "l14v08",
+          "term": "das Drittel",
+          "translation": "el tercio",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Drittel",
+          "example": "Ein Drittel der Kleidung im Schrank trage ich nie."
+        },
+        {
+          "id": "l14v09",
+          "term": "der Durchschnitt",
+          "translation": "el promedio",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Durchschnitte",
+          "example": "Im Durchschnitt besitzt ein Haushalt drei Handys."
+        },
+        {
+          "id": "l14v10",
+          "term": "der Trend",
+          "translation": "la tendencia",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Trends",
+          "example": "Gebrauchte Kleidung zu kaufen ist gerade ein großer Trend."
+        },
+        {
+          "id": "l14v11",
+          "term": "der Konsum",
+          "translation": "el consumo",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "example": "Der Konsum von Fleisch geht langsam zurück."
+        },
+        {
+          "id": "l14v12",
+          "term": "die Anschaffung",
+          "translation": "la adquisición / la compra",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Anschaffungen",
+          "example": "Ein neues Sofa ist eine teure Anschaffung."
+        },
+        {
+          "id": "l14v13",
+          "term": "anschaffen",
+          "translation": "adquirir / comprarse",
+          "partOfSpeech": "verb",
+          "preterite": "schaffte an",
+          "participle": "angeschafft",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Wir haben endlich eine Spülmaschine angeschafft."
+        },
+        {
+          "id": "l14v14",
+          "term": "ausgeben",
+          "translation": "gastar",
+          "partOfSpeech": "verb",
+          "preterite": "gab aus",
+          "participle": "ausgegeben",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Für Bücher gibt Paula viel Geld aus."
+        },
+        {
+          "id": "l14v15",
+          "term": "steigen",
+          "translation": "subir / aumentar",
+          "partOfSpeech": "verb",
+          "preterite": "stieg",
+          "participle": "gestiegen",
+          "auxiliary": "sein",
+          "irregular": true,
+          "example": "Die Preise für Lebensmittel sind stark gestiegen."
+        },
+        {
+          "id": "l14v16",
+          "term": "sinken",
+          "translation": "bajar / disminuir",
+          "partOfSpeech": "verb",
+          "preterite": "sank",
+          "participle": "gesunken",
+          "auxiliary": "sein",
+          "irregular": true,
+          "example": "Die Zahl der Festnetzanschlüsse sinkt seit Jahren."
+        },
+        {
+          "id": "l14v17",
+          "term": "zunehmen",
+          "translation": "aumentar",
+          "partOfSpeech": "verb",
+          "preterite": "nahm zu",
+          "participle": "zugenommen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Der Onlinehandel hat stark zugenommen."
+        },
+        {
+          "id": "l14v18",
+          "term": "abnehmen",
+          "translation": "disminuir",
+          "partOfSpeech": "verb",
+          "preterite": "nahm ab",
+          "participle": "abgenommen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Das Interesse an Zeitschriften nimmt ab."
+        },
+        {
+          "id": "l14v19",
+          "term": "verzichten",
+          "translation": "renunciar / prescindir",
+          "partOfSpeech": "verb",
+          "preterite": "verzichtete",
+          "participle": "verzichtet",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Aus Umweltgründen verzichtet Lukas auf ein Auto."
+        },
+        {
+          "id": "l14v20",
+          "term": "unverzichtbar",
+          "translation": "imprescindible",
+          "partOfSpeech": "adjective",
+          "example": "Für viele ist das Smartphone heute unverzichtbar."
+        },
+        {
+          "id": "l14v21",
+          "term": "die meisten",
+          "translation": "la mayoría",
+          "partOfSpeech": "phrase",
+          "example": "Die meisten Befragten kaufen lieber im Geschäft ein."
+        },
+        {
+          "id": "l14v22",
+          "term": "zusammenfassend",
+          "translation": "en resumen",
+          "partOfSpeech": "adverb",
+          "example": "Zusammenfassend kann man sagen, dass Secondhand beliebter wird."
+        },
+        {
+          "id": "l14v23",
+          "term": "im Vergleich zu",
+          "translation": "en comparación con",
+          "partOfSpeech": "phrase",
+          "example": "Im Vergleich zu früher kaufen wir mehr online."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l14e01",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Verb.",
+            "prompt": "Die Grafik ___, wie viel Geld junge Menschen für Kleidung ausgeben.",
+            "options": [
+              "zeigt",
+              "stellt",
+              "zeichnet",
+              "schaut"
+            ],
+            "solution": "zeigt",
+            "hint": "Mit welchem Verb (ohne Präfix) beginnt man eine Grafikbeschreibung?",
+            "explanation": "Man sagt: 'Die Grafik zeigt, …'. 'stellt' wäre nur mit 'dar' richtig (stellt … dar), 'zeichnet' und 'schaut' passen nicht zu einer Grafik als Subjekt."
+          },
+          {
+            "id": "l14e02",
+            "type": "multiple-choice",
+            "instruction": "Wähle die richtige Form.",
+            "prompt": "In der Grafik wird ___, wie sich der Konsum verändert hat.",
+            "options": [
+              "dargestellt",
+              "darstellt",
+              "gestellt",
+              "dargestellen"
+            ],
+            "solution": "dargestellt",
+            "hint": "Passiv: wird + Partizip II eines trennbaren Verbs.",
+            "explanation": "'darstellen' ist trennbar: dar + ge + stellt → 'dargestellt'. Nach 'wird' braucht man im Passiv das Partizip II. 'gestellt' fehlt das Präfix, die anderen Formen gibt es nicht."
+          },
+          {
+            "id": "l14e03",
+            "type": "multiple-choice",
+            "instruction": "Ergänze die passende Mengenangabe.",
+            "prompt": "___ Befragten besitzen ein Smartphone – nämlich 92 Prozent.",
+            "options": [
+              "Die meisten",
+              "Nur wenige",
+              "Ein Drittel der",
+              "Die Hälfte der"
+            ],
+            "solution": "Die meisten",
+            "hint": "92 Prozent sind fast alle.",
+            "explanation": "92 Prozent ist ein sehr großer Anteil → 'die meisten'. 'Nur wenige' wären z. B. 5 Prozent, 'ein Drittel' ca. 33 Prozent, 'die Hälfte' 50 Prozent."
+          },
+          {
+            "id": "l14e04",
+            "type": "multiple-choice",
+            "instruction": "Ergänze die passende Mengenangabe.",
+            "prompt": "Nur 7 Prozent lesen noch eine gedruckte Zeitung. Das sind ___ der Befragten.",
+            "options": [
+              "nur wenige",
+              "die meisten",
+              "viele",
+              "fast alle"
+            ],
+            "solution": "nur wenige",
+            "hint": "7 Prozent ist ein kleiner Anteil.",
+            "explanation": "Einen kleinen Anteil (hier 7 Prozent) beschreibt man mit '(nur) wenige'. 'die meisten', 'viele' und 'fast alle' bezeichnen einen großen Anteil und widersprechen der Zahl."
+          },
+          {
+            "id": "l14e05",
+            "type": "multiple-choice",
+            "instruction": "Ergänze den passenden Bruch.",
+            "prompt": "50 Prozent der Befragten – das ist ___ der Befragten.",
+            "options": [
+              "die Hälfte",
+              "ein Drittel",
+              "ein Viertel",
+              "die Mehrheit"
+            ],
+            "solution": "die Hälfte",
+            "hint": "50 von 100.",
+            "explanation": "50 Prozent = die Hälfte. Ein Drittel ≈ 33 Prozent, ein Viertel = 25 Prozent. 'Die Mehrheit' bedeutet mehr als 50 Prozent."
+          },
+          {
+            "id": "l14e06",
+            "type": "multiple-choice",
+            "instruction": "Ergänze den passenden Bruch.",
+            "prompt": "Etwa 33 Prozent der Haushalte haben ein E-Bike – also ungefähr ___.",
+            "options": [
+              "ein Drittel",
+              "ein Viertel",
+              "die Hälfte",
+              "ein Fünftel"
+            ],
+            "solution": "ein Drittel",
+            "hint": "100 : 3 ≈ 33.",
+            "explanation": "Ein Drittel sind etwa 33 Prozent. Ein Viertel = 25, die Hälfte = 50, ein Fünftel = 20 Prozent."
+          },
+          {
+            "id": "l14e07",
+            "type": "multiple-choice",
+            "instruction": "Wähle das richtige Partizip II.",
+            "prompt": "Die Zahl der E-Book-Leser ist in den letzten Jahren stark ___.",
+            "options": [
+              "gestiegen",
+              "gestiegt",
+              "gesteigen",
+              "steigt"
+            ],
+            "solution": "gestiegen",
+            "hint": "'steigen' ist unregelmäßig und bildet das Perfekt mit 'sein'.",
+            "explanation": "steigen – stieg – ist gestiegen. Die Formen 'gestiegt' und 'gesteigen' gibt es nicht; nach 'ist' braucht man das Partizip II, nicht die Präsensform 'steigt'."
+          },
+          {
+            "id": "l14e08",
+            "type": "multiple-choice",
+            "instruction": "Ergänze das Redemittel.",
+            "prompt": "___ ist, dass Männer mehr Geld für Technik ausgeben als Frauen.",
+            "options": [
+              "Interessant",
+              "Interessiert",
+              "Interesse",
+              "Interessierend"
+            ],
+            "solution": "Interessant",
+            "hint": "Gesucht ist ein Adjektiv, das etwas Besonderes hervorhebt.",
+            "explanation": "Das Redemittel heißt 'Interessant ist, dass …'. 'Interessiert' beschreibt Personen (Ich bin interessiert), 'Interesse' ist ein Nomen, 'Interessierend' benutzt man so nicht."
+          },
+          {
+            "id": "l14e09",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Vergleichswort.",
+            "prompt": "Frauen geben 50 Euro, Männer 30 Euro für Bücher aus. Frauen geben also 20 Euro ___ aus als Männer.",
+            "solution": "mehr",
+            "hint": "Komparativ von 'viel'.",
+            "explanation": "Vergleich mit Komparativ + 'als': viel → mehr. Frauen geben mehr aus (50 > 30). 'weniger' wäre inhaltlich falsch."
+          },
+          {
+            "id": "l14e10",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Vergleichswort.",
+            "prompt": "Heute kaufen doppelt so viele Menschen online ein ___ vor zehn Jahren.",
+            "solution": "wie",
+            "hint": "'so … wie' oder Komparativ + 'als'?",
+            "explanation": "Nach 'so' (auch 'doppelt so', 'genauso') steht beim Vergleich 'wie'. 'als' benutzt man nur nach dem Komparativ (mehr als, größer als)."
+          },
+          {
+            "id": "l14e11",
+            "type": "multiple-choice",
+            "instruction": "Ergänze das Redemittel für den Schluss.",
+            "prompt": "___ kann man sagen, dass Nachhaltigkeit beim Einkaufen immer wichtiger wird.",
+            "options": [
+              "Zusammenfassend",
+              "Erstens",
+              "Im Gegenteil",
+              "Zum Beispiel"
+            ],
+            "solution": "Zusammenfassend",
+            "hint": "Am Ende einer Grafikbeschreibung fasst man das Ergebnis zusammen.",
+            "explanation": "Mit 'Zusammenfassend kann man sagen, dass …' beendet man eine Grafikbeschreibung. 'Erstens' leitet einen ersten Punkt ein, 'Im Gegenteil' einen Kontrast, 'Zum Beispiel' ein Beispiel."
+          },
+          {
+            "id": "l14e12",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze die Präposition.",
+            "prompt": "Die Grafik ___ dem Titel „Was ist uns wichtig?“ stammt aus dem Jahr 2024.",
+            "solution": "mit",
+            "hint": "Die Grafik ___ dem Titel … – welche Präposition verlangt hier den Dativ?",
+            "explanation": "Man sagt: 'die Grafik mit dem Titel …'. 'mit' verlangt den Dativ (dem Titel)."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l14m01",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Die Grafik zeigt,'.",
+            "prompt": "Baue den Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "Die Grafik zeigt,",
+              "wie oft",
+              "Jugendliche ein neues Handy",
+              "kaufen."
+            ],
+            "solution": "Die Grafik zeigt, wie oft Jugendliche ein neues Handy kaufen.",
+            "hint": "Im indirekten Fragesatz steht das Verb am Ende.",
+            "explanation": "Nach 'Die Grafik zeigt' folgt ein indirekter Fragesatz mit 'wie oft'. Im Nebensatz steht das konjugierte Verb 'kaufen' am Ende, das Subjekt 'Jugendliche' direkt nach dem Fragewort."
+          },
+          {
+            "id": "l14m02",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Interessant ist,'.",
+            "prompt": "Baue den Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "Interessant ist,",
+              "dass",
+              "nur wenige Befragte",
+              "ein Tablet",
+              "besitzen."
+            ],
+            "solution": "Interessant ist, dass nur wenige Befragte ein Tablet besitzen.",
+            "hint": "dass-Satz: Verb am Ende.",
+            "explanation": "Nach dem Redemittel 'Interessant ist, …' folgt ein dass-Satz. Das Subjekt steht vor dem Objekt, das konjugierte Verb 'besitzen' am Ende."
+          },
+          {
+            "id": "l14m03",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'In der Grafik'.",
+            "prompt": "Baue den Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "In der Grafik",
+              "wird",
+              "dargestellt,",
+              "wie viel Geld",
+              "Familien für Essen",
+              "ausgeben."
+            ],
+            "solution": "In der Grafik wird dargestellt, wie viel Geld Familien für Essen ausgeben.",
+            "hint": "Passiv im Hauptsatz, danach ein indirekter Fragesatz.",
+            "explanation": "Hauptsatz im Passiv: 'In der Grafik wird dargestellt'. Danach folgt der Nebensatz mit 'wie viel Geld'; das Verb 'ausgeben' steht am Ende."
+          },
+          {
+            "id": "l14m04",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Im Vergleich zu 2015'.",
+            "prompt": "Baue den Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "Im Vergleich zu 2015",
+              "ist",
+              "der Anteil",
+              "deutlich",
+              "gestiegen."
+            ],
+            "solution": "Im Vergleich zu 2015 ist der Anteil deutlich gestiegen.",
+            "hint": "Perfekt von 'steigen' mit 'sein'; Verb auf Position 2.",
+            "explanation": "'Im Vergleich zu 2015' steht auf Position 1, dann folgt das Hilfsverb 'ist'. Das Partizip 'gestiegen' steht am Ende. 'steigen' bildet das Perfekt mit 'sein'."
+          },
+          {
+            "id": "l14m05",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Heute'.",
+            "prompt": "Baue den Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "Heute",
+              "kaufen",
+              "doppelt so viele Menschen",
+              "online ein",
+              "wie früher."
+            ],
+            "solution": "Heute kaufen doppelt so viele Menschen online ein wie früher.",
+            "hint": "Trennbares Verb: Präfix 'ein' ans Ende der Satzklammer; Vergleich danach.",
+            "explanation": "'einkaufen' ist trennbar: 'kaufen … ein'. Der Vergleich mit 'wie früher' steht hinter der Satzklammer (nach 'ein')."
+          },
+          {
+            "id": "l14m06",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Zusammenfassend'.",
+            "prompt": "Baue den Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "Zusammenfassend",
+              "kann",
+              "man",
+              "sagen,",
+              "dass",
+              "der Konsum",
+              "abnimmt."
+            ],
+            "solution": "Zusammenfassend kann man sagen, dass der Konsum abnimmt.",
+            "hint": "Position 2: Modalverb; im dass-Satz das Verb am Ende.",
+            "explanation": "'Zusammenfassend' steht auf Position 1, deshalb folgt 'kann' und dann das Subjekt 'man'. Im dass-Satz steht das trennbare Verb zusammen am Ende: 'abnimmt'."
+          },
+          {
+            "id": "l14m07",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb im Präsens. (steigen)",
+            "prompt": "Der Anteil der Online-Käufer ___ seit Jahren.",
+            "solution": "steigt",
+            "hint": "3. Person Singular; 'seit' + Präsens.",
+            "explanation": "Subjekt 'der Anteil' ist Singular → 'steigt'. Mit 'seit' beschreibt man im Deutschen eine Entwicklung, die bis heute dauert – deshalb Präsens."
+          },
+          {
+            "id": "l14m08",
+            "type": "cloze-conjugation",
+            "instruction": "Setze das Partizip II ein. (sinken)",
+            "prompt": "Die Preise für Elektronik sind im letzten Jahr ___.",
+            "solution": "gesunken",
+            "hint": "sinken – sank – …",
+            "explanation": "'sinken' ist unregelmäßig: sinken – sank – ist gesunken. Als Bewegung/Veränderung bildet es das Perfekt mit 'sein'."
+          },
+          {
+            "id": "l14m09",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb im Präteritum. (besitzen)",
+            "prompt": "Im Jahr 2010 ___ meine Eltern noch kein Smartphone.",
+            "solution": "besaßen",
+            "hint": "Präteritum, 3. Person Plural.",
+            "explanation": "'besitzen' ist unregelmäßig: besitzen – besaß – besessen. 3. Person Plural Präteritum: 'besaßen'."
+          },
+          {
+            "id": "l14m10",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb im Präsens. (ausgeben)",
+            "prompt": "Wie viel Geld ___ du im Monat für Kleidung aus?",
+            "solution": "gibst",
+            "hint": "Trennbares Verb mit Vokalwechsel e → i.",
+            "explanation": "'ausgeben' ist trennbar; 'geben' wechselt in der 2. und 3. Person Singular den Vokal: du gibst … aus."
+          },
+          {
+            "id": "l14m11",
+            "type": "cloze-conjugation",
+            "instruction": "Setze das Partizip II ein. (zunehmen)",
+            "prompt": "Die Zahl der Nutzer hat stark ___.",
+            "solution": "zugenommen",
+            "hint": "Trennbar: -ge- zwischen Präfix und Stamm.",
+            "explanation": "zunehmen – nahm zu – hat zugenommen. Bei trennbaren Verben steht 'ge' zwischen Präfix und Stamm: zu-ge-nommen."
+          },
+          {
+            "id": "l14m12",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze die richtige Form von 'werden' (Passiv Präsens).",
+            "prompt": "In der Grafik ___ die Ergebnisse einer Umfrage dargestellt.",
+            "solution": "werden",
+            "hint": "Was ist das Subjekt?",
+            "explanation": "Passiv Präsens: werden + Partizip II. Subjekt ist 'die Ergebnisse' (Plural) → 'werden'. 'einer Umfrage' ist ein Genitivattribut, nicht das Subjekt."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l14h01",
+            "type": "targeted-transformation",
+            "instruction": "Forme ins Passiv Präsens mit dem Verb 'darstellen' um. Beginne mit 'In der Grafik'.",
+            "prompt": "Die Grafik zeigt die Ausgaben für Freizeit.",
+            "solution": "In der Grafik werden die Ausgaben für Freizeit dargestellt.",
+            "hint": "Das neue Subjekt ist 'die Ausgaben' – Singular oder Plural?",
+            "explanation": "Typisches Redemittel: 'In der Grafik wird/werden … dargestellt.' Das Subjekt 'die Ausgaben' ist Plural, deshalb 'werden'. Partizip II von 'darstellen': 'dargestellt'."
+          },
+          {
+            "id": "l14h02",
+            "type": "targeted-transformation",
+            "instruction": "Vergleiche mit 'doppelt so viele … wie'. Beginne mit 'Frauen kaufen'.",
+            "prompt": "Frauen: 30 Kleidungsstücke, Männer: 15 Kleidungsstücke.",
+            "solution": "Frauen kaufen doppelt so viele Kleidungsstücke wie Männer.",
+            "hint": "30 ist das Doppelte von 15.",
+            "explanation": "Vergleich mit 'so … wie': doppelt so viele + Nomen + wie. Nach 'so' steht nie 'als'."
+          },
+          {
+            "id": "l14h03",
+            "type": "targeted-transformation",
+            "instruction": "Beginne mit 'Interessant ist, dass'.",
+            "prompt": "Nur wenige Jugendliche lesen Zeitung.",
+            "solution": "Interessant ist, dass nur wenige Jugendliche Zeitung lesen.",
+            "hint": "dass-Satz: konjugiertes Verb ans Ende.",
+            "explanation": "Nach 'Interessant ist, dass …' folgt ein Nebensatz – das konjugierte Verb 'lesen' steht am Ende."
+          },
+          {
+            "id": "l14h04",
+            "type": "targeted-transformation",
+            "instruction": "Beginne mit 'Zusammenfassend kann man sagen, dass'.",
+            "prompt": "Die meisten Befragten sparen für den Urlaub.",
+            "solution": "Zusammenfassend kann man sagen, dass die meisten Befragten für den Urlaub sparen.",
+            "hint": "Das Verb wandert ans Ende.",
+            "explanation": "Im dass-Satz steht das konjugierte Verb 'sparen' am Ende; die restliche Wortstellung bleibt gleich."
+          },
+          {
+            "id": "l14h05",
+            "type": "targeted-transformation",
+            "instruction": "Forme ins Passiv Präteritum um. Nenne das Agens mit 'von'. Beginne mit '2000 Personen'.",
+            "prompt": "Eine Forschungsgruppe befragte 2000 Personen.",
+            "solution": "2000 Personen wurden von einer Forschungsgruppe befragt.",
+            "hint": "Plural-Subjekt → wurden; von + Dativ.",
+            "explanation": "Das Akkusativobjekt '2000 Personen' wird Subjekt (Plural → 'wurden'). Das Agens steht mit 'von' + Dativ: 'von einer Forschungsgruppe'. Partizip II: 'befragt'."
+          },
+          {
+            "id": "l14h06",
+            "type": "targeted-transformation",
+            "instruction": "Setze ins Perfekt.",
+            "prompt": "Der Anteil steigt stark.",
+            "solution": "Der Anteil ist stark gestiegen.",
+            "hint": "'steigen' ist eine Veränderung – welches Hilfsverb?",
+            "explanation": "'steigen' bildet das Perfekt mit 'sein' (Zustandsveränderung): ist gestiegen. 'hat gestiegen' ist falsch."
+          },
+          {
+            "id": "l14h07",
+            "type": "targeted-transformation",
+            "instruction": "Setze ins Perfekt.",
+            "prompt": "Die Zahl der Radfahrer nimmt zu.",
+            "solution": "Die Zahl der Radfahrer hat zugenommen.",
+            "hint": "'zunehmen' bildet das Perfekt mit 'haben'.",
+            "explanation": "Anders als 'steigen' bildet 'zunehmen' das Perfekt mit 'haben': hat zugenommen. Beim trennbaren Verb steht 'ge' in der Mitte: zu-ge-nommen."
+          },
+          {
+            "id": "l14h08",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler.",
+            "prompt": "Die meisten Befragte besitzen ein Fahrrad.",
+            "solution": "Die meisten Befragten besitzen ein Fahrrad.",
+            "hint": "Nach 'die meisten' wird das Wort wie ein Adjektiv dekliniert.",
+            "explanation": "'Befragte' ist ein nominalisiertes Adjektiv. Nach dem bestimmten Artikel im Plural ('die meisten') endet es auf '-en': die meisten Befragten."
+          },
+          {
+            "id": "l14h09",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler.",
+            "prompt": "Im Jahr 2024 haben dreimal so viele Jugendliche ein E-Bike gekauft als 2019.",
+            "solution": "Im Jahr 2024 haben dreimal so viele Jugendliche ein E-Bike gekauft wie 2019.",
+            "hint": "so … wie oder Komparativ + als?",
+            "explanation": "Nach 'so' (auch 'dreimal so viele', 'doppelt so viele') steht beim Vergleich 'wie'. 'als' steht nur nach einem Komparativ (mehr als, weniger als)."
+          },
+          {
+            "id": "l14h10",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler.",
+            "prompt": "Die Preise sind im letzten Jahr gesinkt.",
+            "solution": "Die Preise sind im letzten Jahr gesunken.",
+            "hint": "'sinken' ist ein unregelmäßiges Verb.",
+            "explanation": "sinken – sank – ist gesunken. Eine regelmäßige Form 'gesinkt' gibt es nicht."
+          },
+          {
+            "id": "l14h11",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler.",
+            "prompt": "Frauen geben mehr Geld für Bücher aus wie Männer.",
+            "solution": "Frauen geben mehr Geld für Bücher aus als Männer.",
+            "hint": "Nach 'mehr' steht ein anderes Vergleichswort.",
+            "explanation": "'mehr' ist ein Komparativ (viel – mehr). Nach dem Komparativ steht 'als', nicht 'wie'."
+          },
+          {
+            "id": "l14h12",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler.",
+            "prompt": "Interessant ist, dass nur wenige Menschen verzichten auf ihr Auto.",
+            "solution": "Interessant ist, dass nur wenige Menschen auf ihr Auto verzichten.",
+            "hint": "Wo steht das Verb im dass-Satz?",
+            "explanation": "Im Nebensatz mit 'dass' steht das konjugierte Verb am Ende: '…, dass nur wenige Menschen auf ihr Auto verzichten.'"
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l14t01",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Verb.",
+          "prompt": "Die Grafik ___ den Anteil der Haushalte mit einem Haustier.",
+          "options": [
+            "zeigt",
+            "stellt",
+            "beträgt",
+            "nimmt"
+          ],
+          "solution": "zeigt",
+          "explanation": "'Die Grafik zeigt …' ist die typische Einleitung einer Grafikbeschreibung. 'stellt' allein ist unvollständig – es heißt 'stellt … dar'. 'beträgt' passt nur zu Zahlen (Der Anteil beträgt 40 %), 'nimmt' ergibt keinen Sinn."
+        },
+        {
+          "id": "l14t02",
+          "type": "multiple-choice",
+          "instruction": "Wähle die richtige Form.",
+          "prompt": "Die Umfrageergebnisse werden in einem Balkendiagramm ___.",
+          "options": [
+            "dargestellt",
+            "darstellt",
+            "gestellt dar",
+            "darzustellen"
+          ],
+          "solution": "dargestellt",
+          "explanation": "Passiv: werden + Partizip II am Satzende. 'darstellen' ist trennbar, deshalb steht 'ge' zwischen Präfix und Stamm: dar-ge-stellt. 'darstellt' ist konjugiert, 'gestellt dar' ist keine Form, 'darzustellen' ist ein zu-Infinitiv."
+        },
+        {
+          "id": "l14t03",
+          "type": "multiple-choice",
+          "instruction": "Wähle die passende Mengenangabe.",
+          "prompt": "Von 300 Befragten gehen 100 regelmäßig ins Kino. Das ist ___ der Befragten.",
+          "options": [
+            "ein Drittel",
+            "die Hälfte",
+            "ein Viertel",
+            "die meisten"
+          ],
+          "solution": "ein Drittel",
+          "explanation": "100 von 300 sind etwa 33 % – also ein Drittel. Die Hälfte wären 150 (50 %), ein Viertel 75 (25 %). 'Die meisten' bedeutet deutlich mehr als die Hälfte."
+        },
+        {
+          "id": "l14t04",
+          "type": "multiple-choice",
+          "instruction": "Wähle die passende Mengenangabe.",
+          "prompt": "Rund 80 Prozent der Befragten kaufen ihre Brille im Fachgeschäft, also ___ der Befragten.",
+          "options": [
+            "die meisten",
+            "nur wenige",
+            "die Hälfte",
+            "ein Viertel"
+          ],
+          "solution": "die meisten",
+          "explanation": "80 % ist ein großer Anteil, deutlich mehr als die Hälfte – dafür sagt man 'die meisten'. 'Nur wenige' passt zu sehr kleinen Anteilen, 'die Hälfte' sind 50 %, 'ein Viertel' 25 %."
+        },
+        {
+          "id": "l14t05",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze das fehlende Verb im Präsens.",
+          "prompt": "Interessant ___, dass immer mehr Menschen gebrauchte Handys kaufen.",
+          "solution": "ist",
+          "explanation": "Die feste Wendung lautet 'Interessant ist, dass …'. Das Adjektiv steht auf Position 1, deshalb folgt das Verb 'ist' direkt danach (Verb an Position 2)."
+        },
+        {
+          "id": "l14t06",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze das Vergleichswort.",
+          "prompt": "Studierende geben doppelt so viel Geld für Miete aus ___ für Lebensmittel.",
+          "solution": "wie",
+          "explanation": "Nach 'so … wie' (auch 'doppelt so viel … wie') steht 'wie'. 'als' steht nur nach dem Komparativ (mehr als)."
+        },
+        {
+          "id": "l14t07",
+          "type": "multiple-choice",
+          "instruction": "Wähle die richtige Präposition.",
+          "prompt": "Im Vergleich ___ 2010 kaufen heute doppelt so viele Menschen Bio-Produkte.",
+          "solution": "zu",
+          "explanation": "Die feste Wendung lautet 'im Vergleich zu' + Dativ (seltener auch 'im Vergleich mit'). 'von' und 'für' passen nicht zu 'Vergleich', 'als' ist keine Präposition, sondern steht nach einem Komparativ.",
+          "options": [
+            "zu",
+            "von",
+            "für",
+            "als"
+          ]
+        },
+        {
+          "id": "l14t08",
+          "type": "cloze-conjugation",
+          "instruction": "Setze das Verb in Klammern im Präsens ein.",
+          "prompt": "Seit 2018 ___ der Anteil der Lebensmittel-Onlinebestellungen jedes Jahr. (wachsen)",
+          "solution": "wächst",
+          "explanation": "'wachsen' hat in der 2. und 3. Person Singular einen Vokalwechsel a → ä: er wächst. Subjekt ist 'der Anteil' (Singular); der Plural 'der Lebensmittel-Onlinebestellungen' ist nur ein Genitivattribut und bestimmt das Verb nicht."
+        },
+        {
+          "id": "l14t09",
+          "type": "cloze-conjugation",
+          "instruction": "Setze das Partizip II des Verbs in Klammern ein.",
+          "prompt": "Die Nachfrage nach Gebrauchtwagen ist im letzten Jahr deutlich ___. (zurückgehen)",
+          "solution": "zurückgegangen",
+          "explanation": "'zurückgehen' ist trennbar und unregelmäßig: ging zurück – zurückgegangen ('ge' steht zwischen Präfix und Stamm). Es drückt eine Veränderung aus und bildet das Perfekt deshalb mit 'sein' ('ist … zurückgegangen')."
+        },
+        {
+          "id": "l14t10",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz. Beginne mit 'Die meisten Befragten'.",
+          "prompt": "Baue den Satz aus den Wörtern.",
+          "scrambleChunks": [
+            "Die meisten Befragten",
+            "verzichten",
+            "ungern",
+            "auf",
+            "ihr",
+            "Smartphone."
+          ],
+          "solution": "Die meisten Befragten verzichten ungern auf ihr Smartphone.",
+          "explanation": "'die meisten' ist Plural, deshalb 'verzichten'. Das Verb steht an Position 2; 'verzichten' verbindet sich mit 'auf' + Akkusativ."
+        },
+        {
+          "id": "l14t11",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz. Beginne mit 'Laut der Grafik'.",
+          "prompt": "Baue den Satz aus den Wörtern.",
+          "scrambleChunks": [
+            "Laut der Grafik",
+            "besitzt",
+            "nur ein Viertel",
+            "der Haushalte",
+            "einen Zweitwagen."
+          ],
+          "solution": "Laut der Grafik besitzt nur ein Viertel der Haushalte einen Zweitwagen.",
+          "explanation": "Nach 'Laut der Grafik' auf Position 1 folgt das Verb 'besitzt' (Position 2), dann das Subjekt 'nur ein Viertel der Haushalte'. Das Genitivattribut 'der Haushalte' steht direkt hinter 'ein Viertel'."
+        },
+        {
+          "id": "l14t12",
+          "type": "targeted-transformation",
+          "instruction": "Mache aus der Frage einen indirekten Fragesatz. Beginne mit 'Die Grafik zeigt,'.",
+          "prompt": "Wie viel Geld geben Familien für Energie aus?",
+          "solution": "Die Grafik zeigt, wie viel Geld Familien für Energie ausgeben.",
+          "explanation": "Im indirekten Fragesatz bleibt das Fragewort 'wie viel' am Anfang, das konjugierte Verb geht ans Ende. Das trennbare Verb steht dann wieder zusammen: ausgeben. Vor 'wie' steht ein Komma."
+        },
+        {
+          "id": "l14t13",
+          "type": "targeted-transformation",
+          "instruction": "Setze den Satz ins Präteritum.",
+          "prompt": "Der Umsatz mit Secondhand-Mode steigt um 20 Prozent.",
+          "solution": "Der Umsatz mit Secondhand-Mode stieg um 20 Prozent.",
+          "explanation": "'steigen' ist unregelmäßig: steigen – stieg – gestiegen. Das Präteritum 'stieg' benutzt man oft in Grafikbeschreibungen für vergangene Entwicklungen; 'steigte' gibt es nicht."
+        },
+        {
+          "id": "l14t14",
+          "type": "error-correction",
+          "instruction": "Finde und korrigiere den Fehler. Schreibe den ganzen Satz.",
+          "prompt": "Die meisten Befragten kauft Lebensmittel im Supermarkt.",
+          "solution": "Die meisten Befragten kaufen Lebensmittel im Supermarkt.",
+          "explanation": "'die meisten Befragten' ist Plural, deshalb muss das Verb im Plural stehen: kaufen."
+        },
+        {
+          "id": "l14t15",
+          "type": "error-correction",
+          "instruction": "Finde und korrigiere den Fehler. Schreibe den ganzen Satz.",
+          "prompt": "Senioren kaufen fast so oft online ein als Studierende.",
+          "solution": "Senioren kaufen fast so oft online ein wie Studierende.",
+          "explanation": "Bei Gleichheit ('so oft … wie', 'so viel … wie') steht 'wie'. 'als' steht nur nach einem Komparativ (öfter als, mehr als)."
+        }
+      ]
+    },
+    {
+      "lektionId": "b1plus-m5-l15",
+      "level": "B1+",
+      "modulNumber": 5,
+      "lektionNumber": 15,
+      "title": "Weniger ist mehr",
+      "grammarFocus": [
+        "Temporale Präpositionen (vor, nach, in, seit, bis, am, um, im, vom … bis)",
+        "innerhalb/außerhalb + Genitiv, beim + nominalisierter Infinitiv",
+        "Reklamation schreiben",
+        "Komposita mit Fugen-s"
+      ],
+      "vocabulary": [
+        {
+          "id": "l15v01",
+          "term": "aussortieren",
+          "translation": "descartar / seleccionar",
+          "partOfSpeech": "verb",
+          "preterite": "sortierte aus",
+          "participle": "aussortiert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Jeden Herbst sortiere ich meine Sommerkleidung aus."
+        },
+        {
+          "id": "l15v02",
+          "term": "entrümpeln",
+          "translation": "despejar (de trastos)",
+          "partOfSpeech": "verb",
+          "preterite": "entrümpelte",
+          "participle": "entrümpelt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Am Samstag entrümpeln wir endlich den Dachboden."
+        },
+        {
+          "id": "l15v03",
+          "term": "wegwerfen",
+          "translation": "tirar (a la basura)",
+          "partOfSpeech": "verb",
+          "preterite": "warf weg",
+          "participle": "weggeworfen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Den kaputten Toaster habe ich weggeworfen."
+        },
+        {
+          "id": "l15v04",
+          "term": "umtauschen",
+          "translation": "cambiar (un producto)",
+          "partOfSpeech": "verb",
+          "preterite": "tauschte um",
+          "participle": "umgetauscht",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Die Schuhe waren zu klein, deshalb habe ich sie umgetauscht."
+        },
+        {
+          "id": "l15v05",
+          "term": "zurückschicken",
+          "translation": "devolver (por correo)",
+          "partOfSpeech": "verb",
+          "preterite": "schickte zurück",
+          "participle": "zurückgeschickt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Ich schicke das Paket morgen zurück."
+        },
+        {
+          "id": "l15v06",
+          "term": "reklamieren",
+          "translation": "reclamar",
+          "partOfSpeech": "verb",
+          "preterite": "reklamierte",
+          "participle": "reklamiert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Ben hat den defekten Kopfhörer reklamiert."
+        },
+        {
+          "id": "l15v07",
+          "term": "feststellen",
+          "translation": "constatar / notar",
+          "partOfSpeech": "verb",
+          "preterite": "stellte fest",
+          "participle": "festgestellt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Beim Auspacken habe ich festgestellt, dass ein Teil fehlt."
+        },
+        {
+          "id": "l15v08",
+          "term": "funktionieren",
+          "translation": "funcionar",
+          "partOfSpeech": "verb",
+          "preterite": "funktionierte",
+          "participle": "funktioniert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Der neue Wasserkocher funktioniert nicht."
+        },
+        {
+          "id": "l15v09",
+          "term": "der Flohmarkt",
+          "translation": "el mercadillo / el rastro",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Flohmärkte",
+          "example": "Auf dem Flohmarkt verkaufen wir unsere alten Spiele."
+        },
+        {
+          "id": "l15v10",
+          "term": "der Keller",
+          "translation": "el sótano",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Keller",
+          "example": "Im Keller stehen noch zehn Kisten vom Umzug."
+        },
+        {
+          "id": "l15v11",
+          "term": "der Platz",
+          "translation": "el espacio / el sitio",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "example": "Nach dem Aufräumen haben wir endlich wieder Platz."
+        },
+        {
+          "id": "l15v12",
+          "term": "der Minimalismus",
+          "translation": "el minimalismo",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "example": "Minimalismus bedeutet, mit wenigen Dingen zu leben."
+        },
+        {
+          "id": "l15v13",
+          "term": "die Reklamation",
+          "translation": "la reclamación",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Reklamationen",
+          "example": "Ihre Reklamation haben wir erhalten."
+        },
+        {
+          "id": "l15v14",
+          "term": "die Rückerstattung",
+          "translation": "el reembolso",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Rückerstattungen",
+          "example": "Ich bitte um Rückerstattung des Kaufpreises."
+        },
+        {
+          "id": "l15v15",
+          "term": "der Umtausch",
+          "translation": "el cambio (de un producto)",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "example": "Ein Umtausch ist nur mit Kassenbon möglich."
+        },
+        {
+          "id": "l15v16",
+          "term": "der Betrag",
+          "translation": "el importe",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Beträge",
+          "example": "Der Betrag wird innerhalb einer Woche überwiesen."
+        },
+        {
+          "id": "l15v17",
+          "term": "die Ware",
+          "translation": "la mercancía / el artículo",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Waren",
+          "example": "Die Ware kam beschädigt bei mir an."
+        },
+        {
+          "id": "l15v18",
+          "term": "die Bestellnummer",
+          "translation": "el número de pedido",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Bestellnummern",
+          "example": "Bitte geben Sie immer Ihre Bestellnummer an."
+        },
+        {
+          "id": "l15v19",
+          "term": "die Garantie",
+          "translation": "la garantía",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Garantien",
+          "example": "Auf das Gerät gibt es zwei Jahre Garantie."
+        },
+        {
+          "id": "l15v20",
+          "term": "die Übernachtungsmöglichkeit",
+          "translation": "la posibilidad de alojamiento",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Übernachtungsmöglichkeiten",
+          "example": "In dem kleinen Dorf gibt es kaum Übernachtungsmöglichkeiten."
+        },
+        {
+          "id": "l15v21",
+          "term": "überflüssig",
+          "translation": "superfluo / innecesario",
+          "partOfSpeech": "adjective",
+          "example": "Überflüssige Dinge verschenke ich an Freunde."
+        },
+        {
+          "id": "l15v22",
+          "term": "defekt",
+          "translation": "defectuoso / averiado",
+          "partOfSpeech": "adjective",
+          "example": "Das Display ist schon nach einer Woche defekt."
+        },
+        {
+          "id": "l15v23",
+          "term": "innerhalb einer Woche",
+          "translation": "dentro de una semana",
+          "partOfSpeech": "phrase",
+          "example": "Die Reparatur ist innerhalb einer Woche fertig."
+        },
+        {
+          "id": "l15v24",
+          "term": "außerhalb der Öffnungszeiten",
+          "translation": "fuera del horario de apertura",
+          "partOfSpeech": "phrase",
+          "example": "Außerhalb der Öffnungszeiten können Sie uns eine E-Mail schreiben."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l15e01",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Präposition.",
+            "prompt": "Wir wollten nicht so viele Kisten mitnehmen. Deshalb haben wir ___ dem Umzug den Keller entrümpelt.",
+            "options": [
+              "vor",
+              "seit",
+              "bis",
+              "um"
+            ],
+            "solution": "vor",
+            "hint": "Das Entrümpeln passierte zeitlich früher als der Umzug.",
+            "explanation": "'vor' + Dativ bezeichnet einen Zeitpunkt früher als ein Ereignis: vor dem Umzug. 'seit' beschreibt etwas, das bis heute andauert, 'bis' braucht hier 'zum', 'um' steht bei Uhrzeiten."
+          },
+          {
+            "id": "l15e02",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Präposition.",
+            "prompt": "Eine Reklamation ist nur ___ von 14 Tagen nach dem Kauf möglich.",
+            "options": [
+              "innerhalb",
+              "außerhalb",
+              "seit",
+              "um"
+            ],
+            "solution": "innerhalb",
+            "hint": "Gemeint ist ein Zeitraum, in dem etwas möglich ist.",
+            "explanation": "'innerhalb' bedeutet 'in einem Zeitraum von' (Genitiv oder – ohne Artikel – 'von' + Dativ). 'außerhalb' wäre inhaltlich falsch, 'seit' und 'um' passen nicht zu 'von 14 Tagen'."
+          },
+          {
+            "id": "l15e03",
+            "type": "multiple-choice",
+            "instruction": "Wähle die richtige Form.",
+            "prompt": "Der Flohmarkt findet ___ 3. bis 5. Mai statt.",
+            "options": [
+              "vom",
+              "von",
+              "am",
+              "im"
+            ],
+            "solution": "vom",
+            "hint": "Vor einem Datum mit Ordinalzahl steht ein Artikel.",
+            "explanation": "Zeitraum mit Datum: 'vom … bis (zum) …'. 'vom' = von + dem (Dativ). 'von' ohne Artikel ist vor einem Datum falsch, 'am' und 'im' bezeichnen keinen Zeitraum von … bis."
+          },
+          {
+            "id": "l15e04",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Präposition.",
+            "prompt": "___ der Geschäftszeiten ist die Hotline leider nicht erreichbar, zum Beispiel nachts.",
+            "options": [
+              "Außerhalb",
+              "Innerhalb",
+              "Während",
+              "Seit"
+            ],
+            "solution": "Außerhalb",
+            "hint": "Nachts ist das Geschäft geschlossen.",
+            "explanation": "'außerhalb' + Genitiv = nicht in dieser Zeit. Nachts liegt außerhalb der Geschäftszeiten. 'Innerhalb' und 'Während' würden bedeuten, dass die Hotline während der Öffnungszeiten nicht erreichbar ist – das widerspricht 'nachts'."
+          },
+          {
+            "id": "l15e05",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze die passende Präposition.",
+            "prompt": "Keine Sorge, Ihr Ersatzgerät kommt ___ drei Tagen bei Ihnen an – also am Donnerstag.",
+            "solution": "in",
+            "hint": "Zeitpunkt in der Zukunft, von jetzt aus gerechnet.",
+            "explanation": "Für einen Zeitpunkt in der Zukunft (von heute aus) benutzt man 'in' + Dativ: in drei Tagen. 'nach' benutzt man für einen Zeitpunkt nach einem anderen Ereignis, 'vor' für die Vergangenheit."
+          },
+          {
+            "id": "l15e06",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze die passende Präposition.",
+            "prompt": "Wir treffen uns pünktlich ___ 18 Uhr am Eingang vom Flohmarkt.",
+            "solution": "um",
+            "hint": "Uhrzeit.",
+            "explanation": "Bei einer genauen Uhrzeit steht 'um': um 18 Uhr. 'gegen' wäre ungefähr und passt nicht zu 'pünktlich'; 'am' steht bei Tagen, 'im' bei Monaten und Jahreszeiten."
+          },
+          {
+            "id": "l15e07",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze Präposition und Artikel (ein Wort).",
+            "prompt": "___ Frühling entrümpeln viele Familien ihren Dachboden.",
+            "solution": "Im",
+            "hint": "Jahreszeiten und Monate.",
+            "explanation": "Vor Jahreszeiten und Monaten steht 'im' (in + dem): im Frühling, im Mai. 'Am' steht vor Tagen und Tageszeiten."
+          },
+          {
+            "id": "l15e08",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze Präposition und Artikel (ein Wort).",
+            "prompt": "___ Wochenende sortiere ich meinen Kleiderschrank aus.",
+            "solution": "Am",
+            "hint": "Wochentage und das Wochenende.",
+            "explanation": "Vor Wochentagen und 'Wochenende' steht 'am' (an + dem): am Samstag, am Wochenende."
+          },
+          {
+            "id": "l15e09",
+            "type": "multiple-choice",
+            "instruction": "Wähle die richtige Form.",
+            "prompt": "___ Aufräumen habe ich meinen alten Ring wiedergefunden.",
+            "options": [
+              "Beim",
+              "Bei",
+              "Zum",
+              "Im"
+            ],
+            "solution": "Beim",
+            "hint": "bei + dem + nominalisierter Infinitiv.",
+            "explanation": "'beim' + nominalisierter Infinitiv bedeutet 'während man etwas tut': Beim Aufräumen = während ich aufgeräumt habe. Nominalisierte Infinitive sind neutral, deshalb 'beim' (bei + dem), nicht 'bei'. 'Zum Aufräumen' drückt einen Zweck aus."
+          },
+          {
+            "id": "l15e10",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze die passende Präposition.",
+            "prompt": "___ zwei Jahren wohne ich in einer kleinen Wohnung und besitze nur wenige Dinge.",
+            "solution": "Seit",
+            "hint": "Die Situation begann in der Vergangenheit und dauert bis heute.",
+            "explanation": "'seit' + Dativ beschreibt eine Dauer, die bis jetzt andauert – das Verb steht im Präsens. 'Vor zwei Jahren' würde einen Zeitpunkt nennen und passt nicht zu 'wohne'."
+          },
+          {
+            "id": "l15e11",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze die passende Präposition.",
+            "prompt": "Der Laden hat heute von 9 ___ 20 Uhr geöffnet.",
+            "solution": "bis",
+            "hint": "von … ___ …: Anfang und Ende.",
+            "explanation": "Anfang und Ende eines Zeitraums: 'von … bis …'. Vor einer Uhrzeit steht 'bis' ohne Artikel."
+          },
+          {
+            "id": "l15e12",
+            "type": "multiple-choice",
+            "instruction": "Welches Kompositum ist richtig?",
+            "prompt": "die Verpackung + das Material → ?",
+            "options": [
+              "das Verpackungsmaterial",
+              "das Verpackungmaterial",
+              "die Verpackungsmaterial",
+              "das Verpackungenmaterial"
+            ],
+            "solution": "das Verpackungsmaterial",
+            "hint": "Nach Wörtern auf -ung folgt ein Fugen-s.",
+            "explanation": "Endet das Bestimmungswort auf '-ung', '-heit', '-keit', '-schaft' oder '-ion', steht ein Fugen-s: Verpackung + s + Material. Der Artikel kommt immer vom Grundwort am Ende: das Material → das Verpackungsmaterial, nicht 'die'."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l15m01",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Nach dem Frühstück'.",
+            "prompt": "Baue den Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "Nach dem Frühstück",
+              "sortiere",
+              "ich",
+              "meine Kleidung",
+              "aus."
+            ],
+            "solution": "Nach dem Frühstück sortiere ich meine Kleidung aus.",
+            "hint": "Trennbares Verb: Präfix ans Ende.",
+            "explanation": "'Nach dem Frühstück' steht auf Position 1, das Verb 'sortiere' auf Position 2, dann das Subjekt. Das Präfix 'aus' steht am Satzende."
+          },
+          {
+            "id": "l15m02",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Seit einem Jahr'.",
+            "prompt": "Baue den Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "Seit einem Jahr",
+              "lebe",
+              "ich",
+              "mit weniger Dingen."
+            ],
+            "solution": "Seit einem Jahr lebe ich mit weniger Dingen.",
+            "hint": "'seit' + Präsens.",
+            "explanation": "'seit' beschreibt eine Dauer bis heute, deshalb Präsens ('lebe'). Nach der Zeitangabe auf Position 1 folgt das Verb, dann das Subjekt."
+          },
+          {
+            "id": "l15m03",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Innerhalb einer Woche'.",
+            "prompt": "Baue den Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "Innerhalb einer Woche",
+              "habe",
+              "ich",
+              "den Keller",
+              "entrümpelt."
+            ],
+            "solution": "Innerhalb einer Woche habe ich den Keller entrümpelt.",
+            "hint": "'innerhalb' + Genitiv; Perfekt: Partizip am Ende.",
+            "explanation": "'innerhalb einer Woche' (Genitiv) steht auf Position 1. Dann: Hilfsverb 'habe' – Subjekt – Objekt – Partizip II am Ende."
+          },
+          {
+            "id": "l15m04",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Beim Aussortieren'.",
+            "prompt": "Baue den Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "Beim Aussortieren",
+              "habe",
+              "ich",
+              "alte Fotos",
+              "gefunden."
+            ],
+            "solution": "Beim Aussortieren habe ich alte Fotos gefunden.",
+            "hint": "beim + nominalisierter Infinitiv = während man etwas tut.",
+            "explanation": "'Beim Aussortieren' ist eine Zeitangabe (während ich aussortiert habe) auf Position 1. Danach folgen Hilfsverb, Subjekt, Objekt und Partizip II."
+          },
+          {
+            "id": "l15m05",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz für eine Reklamation. Beginne mit 'Leider'.",
+            "prompt": "Baue den Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "Leider",
+              "musste",
+              "ich",
+              "feststellen,",
+              "dass",
+              "der Staubsauger",
+              "nicht",
+              "funktioniert."
+            ],
+            "solution": "Leider musste ich feststellen, dass der Staubsauger nicht funktioniert.",
+            "hint": "Im dass-Satz steht 'nicht' direkt vor dem Verb am Ende.",
+            "explanation": "Typischer Einstieg einer Reklamation: 'Leider musste ich feststellen, dass …'. Im Nebensatz steht das konjugierte Verb am Ende, 'nicht' davor."
+          },
+          {
+            "id": "l15m06",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz für eine Reklamation. Beginne mit 'Ich bitte'.",
+            "prompt": "Baue den Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "Ich bitte",
+              "Sie",
+              "um Rückerstattung",
+              "des Kaufpreises."
+            ],
+            "solution": "Ich bitte Sie um Rückerstattung des Kaufpreises.",
+            "hint": "jemanden um etwas bitten.",
+            "explanation": "Redemittel: 'Ich bitte Sie um Rückerstattung des Kaufpreises.' – 'bitten' + Akkusativ (Sie) + 'um' + Akkusativ; 'des Kaufpreises' ist ein Genitivattribut."
+          },
+          {
+            "id": "l15m07",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb im Präteritum. (entrümpeln)",
+            "prompt": "Letzten Winter ___ wir den ganzen Dachboden.",
+            "solution": "entrümpelten",
+            "hint": "Regelmäßiges Verb, 1. Person Plural.",
+            "explanation": "'entrümpeln' ist regelmäßig: Stamm 'entrümpel' + -te + -n → wir entrümpelten."
+          },
+          {
+            "id": "l15m08",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb im Präsens. (wegwerfen)",
+            "prompt": "Kaputte Dinge ___ man am besten sofort weg.",
+            "solution": "wirft",
+            "hint": "'man' = 3. Person Singular; Vokalwechsel e → i.",
+            "explanation": "'werfen' wechselt in der 2. und 3. Person Singular den Vokal: du wirfst, er/man wirft. 'weg' ist das trennbare Präfix am Satzende."
+          },
+          {
+            "id": "l15m09",
+            "type": "cloze-conjugation",
+            "instruction": "Setze das Partizip II ein. (umtauschen)",
+            "prompt": "Ich habe die Jacke gestern im Geschäft ___.",
+            "solution": "umgetauscht",
+            "hint": "Trennbares Verb: -ge- in der Mitte.",
+            "explanation": "'umtauschen' ist trennbar und regelmäßig: um + ge + tauscht → 'umgetauscht'."
+          },
+          {
+            "id": "l15m10",
+            "type": "cloze-conjugation",
+            "instruction": "Setze das Partizip II ein. (reklamieren)",
+            "prompt": "Der Kunde hat den defekten Wasserkocher ___.",
+            "solution": "reklamiert",
+            "hint": "Verben auf -ieren.",
+            "explanation": "Verben auf '-ieren' bilden das Partizip II ohne ge-: reklamieren → 'reklamiert'."
+          },
+          {
+            "id": "l15m11",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze den Imperativ (Sie-Form). (zurückschicken)",
+            "prompt": "Bitte ___ Sie die Ware innerhalb von 14 Tagen zurück.",
+            "solution": "schicken",
+            "hint": "Imperativ Sie-Form = Infinitivform + Sie; Präfix ans Ende.",
+            "explanation": "Der Imperativ in der Sie-Form hat die Form des Infinitivs: 'schicken Sie'. Das trennbare Präfix 'zurück' steht am Satzende."
+          },
+          {
+            "id": "l15m12",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb im Präsens. (besitzen)",
+            "prompt": "Seit dem Umzug ___ meine Schwester nur noch 100 Dinge.",
+            "solution": "besitzt",
+            "hint": "3. Person Singular; 'seit' + Präsens.",
+            "explanation": "Mit 'seit' steht das Präsens. 'besitzen', 3. Person Singular: 'sie besitzt' (Stamm endet auf -z, deshalb nur -t)."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l15h01",
+            "type": "targeted-transformation",
+            "instruction": "Forme mit 'beim' + nominalisiertem Infinitiv um. Beginne mit 'Beim'.",
+            "prompt": "Wenn ich aufräume, höre ich Musik.",
+            "solution": "Beim Aufräumen höre ich Musik.",
+            "hint": "aufräumen → das Aufräumen; bei + dem = beim.",
+            "explanation": "Aus einem wenn-/während-Satz wird 'beim' + nominalisierter Infinitiv. Der Infinitiv wird großgeschrieben und ist neutral (das Aufräumen) – daher 'beim'. Das Verb 'höre' bleibt auf Position 2."
+          },
+          {
+            "id": "l15h02",
+            "type": "targeted-transformation",
+            "instruction": "Forme mit 'beim' + nominalisiertem Infinitiv um. Beginne mit 'Beim'.",
+            "prompt": "Während ich einkaufe, vergleiche ich die Preise.",
+            "solution": "Beim Einkaufen vergleiche ich die Preise.",
+            "hint": "einkaufen → das Einkaufen.",
+            "explanation": "'Während ich einkaufe' = 'Beim Einkaufen'. Nominalisierte Infinitive schreibt man groß; danach steht das Verb auf Position 2: 'vergleiche ich'."
+          },
+          {
+            "id": "l15h03",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze den Nebensatz durch 'nach' + Nomen (der Umzug). Beginne mit 'Nach'.",
+            "prompt": "Nachdem ich umgezogen war, habe ich vieles verschenkt.",
+            "solution": "Nach dem Umzug habe ich vieles verschenkt.",
+            "hint": "'nach' verlangt den Dativ.",
+            "explanation": "Die Präposition 'nach' + Dativ ersetzt den Nebensatz mit 'nachdem': nach dem Umzug. Danach folgen Verb (Position 2) und Subjekt."
+          },
+          {
+            "id": "l15h04",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze den Nebensatz durch 'vor' + Nomen (der Kauf). Beginne mit 'Vor'.",
+            "prompt": "Bevor ich etwas kaufe, prüfe ich die Garantie.",
+            "solution": "Vor dem Kauf prüfe ich die Garantie.",
+            "hint": "'vor' + Dativ.",
+            "explanation": "'Bevor ich etwas kaufe' wird zu 'Vor dem Kauf' (vor + Dativ). 'der Kauf' im Dativ: 'dem Kauf'."
+          },
+          {
+            "id": "l15h05",
+            "type": "targeted-transformation",
+            "instruction": "Bilde ein Kompositum mit Artikel.",
+            "prompt": "der Plan für die Zukunft",
+            "solution": "der Zukunftsplan",
+            "hint": "Fugen-s nach 'Zukunft'; Artikel vom Grundwort.",
+            "explanation": "Das Grundwort (Plan) steht am Ende und bestimmt den Artikel: der Plan → der Zukunftsplan. 'Zukunft' bekommt ein Fugen-s."
+          },
+          {
+            "id": "l15h06",
+            "type": "targeted-transformation",
+            "instruction": "Bilde ein Kompositum mit Artikel.",
+            "prompt": "die Zeit der Arbeit",
+            "solution": "die Arbeitszeit",
+            "hint": "Fugen-s nach 'Arbeit'.",
+            "explanation": "Grundwort 'die Zeit' bestimmt den Artikel. 'Arbeit' wird mit Fugen-s angeschlossen: die Arbeitszeit."
+          },
+          {
+            "id": "l15h07",
+            "type": "targeted-transformation",
+            "instruction": "Bilde ein Kompositum mit Artikel.",
+            "prompt": "die Leitung der Abteilung",
+            "solution": "die Abteilungsleitung",
+            "hint": "Welches Wort ist das Grundwort? Nach -ung folgt ein Fugen-s.",
+            "explanation": "Das Grundwort steht am Ende und bestimmt den Artikel: die Leitung → die Abteilungsleitung. Das Bestimmungswort 'Abteilung' endet auf '-ung', deshalb steht ein Fugen-s."
+          },
+          {
+            "id": "l15h08",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler.",
+            "prompt": "Seit drei Wochen habe ich die Ware bestellt, aber sie ist noch nicht da.",
+            "solution": "Vor drei Wochen habe ich die Ware bestellt, aber sie ist noch nicht da.",
+            "hint": "Die Bestellung ist ein abgeschlossener Zeitpunkt in der Vergangenheit.",
+            "explanation": "Für einen Zeitpunkt in der Vergangenheit benutzt man 'vor' + Dativ: vor drei Wochen. 'seit' passt nur zu einer Dauer bis heute und steht meistens mit Präsens."
+          },
+          {
+            "id": "l15h09",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler.",
+            "prompt": "Warte kurz, ich bin gleich fertig. Ich komme nach zehn Minuten.",
+            "solution": "Warte kurz, ich bin gleich fertig. Ich komme in zehn Minuten.",
+            "hint": "Zeitpunkt in der Zukunft, von jetzt aus gerechnet.",
+            "explanation": "Für die Zukunft (von jetzt aus) benutzt man 'in': in zehn Minuten. 'nach zehn Minuten' bezieht sich auf ein anderes Ereignis, nicht auf den Moment des Sprechens."
+          },
+          {
+            "id": "l15h10",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler.",
+            "prompt": "Jedes Jahr am Juli macht der Laden drei Wochen Betriebsurlaub.",
+            "solution": "Jedes Jahr im Juli macht der Laden drei Wochen Betriebsurlaub.",
+            "hint": "Monate brauchen eine andere Präposition als Tage.",
+            "explanation": "Vor Monaten und Jahreszeiten steht 'im': im Juli. 'am' steht vor Tagen und Datumsangaben (am Montag, am 3. Juli)."
+          },
+          {
+            "id": "l15h11",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler.",
+            "prompt": "Bei Aufräumen habe ich viele alte Briefe gefunden.",
+            "solution": "Beim Aufräumen habe ich viele alte Briefe gefunden.",
+            "hint": "Der nominalisierte Infinitiv braucht einen Artikel.",
+            "explanation": "Vor einem nominalisierten Infinitiv steht 'beim' (bei + dem): beim Aufräumen. Ohne Artikel ist die Form falsch."
+          },
+          {
+            "id": "l15h12",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler.",
+            "prompt": "Leider muss ich feststellen, dass die Fernbedienung funktioniert nicht.",
+            "solution": "Leider muss ich feststellen, dass die Fernbedienung nicht funktioniert.",
+            "hint": "Wortstellung im dass-Satz.",
+            "explanation": "Im Nebensatz mit 'dass' steht das konjugierte Verb am Ende; 'nicht' steht davor: '…, dass die Fernbedienung nicht funktioniert.'"
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l15t01",
+          "type": "multiple-choice",
+          "instruction": "Wähle die richtige Präposition.",
+          "prompt": "Der Laden ist ___ 24. Dezember bis zum 2. Januar geschlossen.",
+          "options": [
+            "vom",
+            "von",
+            "am",
+            "im"
+          ],
+          "solution": "vom",
+          "explanation": "Bei Zeiträumen mit Datum heißt es 'vom … bis zum …': vom = von + dem. 'von' ohne Artikel passt nicht vor einem Datum, 'am' steht nur bei einem einzelnen Tag, 'im' bei Monaten."
+        },
+        {
+          "id": "l15t02",
+          "type": "multiple-choice",
+          "instruction": "Wähle die richtige Präposition.",
+          "prompt": "Die Waschmaschine läuft ___ Nacht, weil der Strom dann billiger ist.",
+          "options": [
+            "in der",
+            "am",
+            "im",
+            "um"
+          ],
+          "solution": "in der",
+          "explanation": "Bei Tageszeiten steht meist 'am' (am Morgen, am Abend) – die Ausnahme ist 'in der Nacht'. 'im' benutzt man bei Monaten und Jahreszeiten, 'um' bei Uhrzeiten."
+        },
+        {
+          "id": "l15t03",
+          "type": "multiple-choice",
+          "instruction": "Wähle die richtige Präposition.",
+          "prompt": "Der Betrag wird ___ einer Woche auf Ihr Konto überwiesen.",
+          "options": [
+            "innerhalb",
+            "seit",
+            "um",
+            "bis"
+          ],
+          "solution": "innerhalb",
+          "explanation": "'innerhalb' + Genitiv bedeutet 'im Zeitraum von': innerhalb einer Woche. 'seit', 'um' und 'bis' passen nicht zum Genitiv und nicht zur Bedeutung."
+        },
+        {
+          "id": "l15t04",
+          "type": "multiple-choice",
+          "instruction": "Welches Kompositum ist richtig?",
+          "prompt": "die Übernachtung + die Möglichkeit",
+          "options": [
+            "die Übernachtungsmöglichkeit",
+            "die Übernachtungmöglichkeit",
+            "die Übernachtungenmöglichkeit",
+            "das Übernachtungsmöglichkeit"
+          ],
+          "solution": "die Übernachtungsmöglichkeit",
+          "explanation": "Nach Wörtern auf -ung steht im Kompositum ein Fugen-s. Der Artikel kommt vom Grundwort (dem letzten Wort): die Möglichkeit → die Übernachtungsmöglichkeit."
+        },
+        {
+          "id": "l15t05",
+          "type": "multiple-choice",
+          "instruction": "Wähle die richtige Präposition.",
+          "prompt": "Den Mixer habe ich ___ einem Monat gekauft, und jetzt ist er schon kaputt.",
+          "options": [
+            "vor",
+            "seit",
+            "in",
+            "um"
+          ],
+          "solution": "vor",
+          "explanation": "'vor' + Dativ nennt einen abgeschlossenen Zeitpunkt in der Vergangenheit: vor einem Monat gekauft. 'seit' beschreibt etwas, das bis heute andauert – der Kauf ist aber abgeschlossen. 'in' verweist auf die Zukunft, 'um' steht bei Uhrzeiten."
+        },
+        {
+          "id": "l15t06",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze die Präposition mit Artikel (ein Wort), die Gleichzeitigkeit ausdrückt.",
+          "prompt": "___ Bügeln höre ich gern Podcasts.",
+          "solution": "Beim",
+          "explanation": "'beim' (bei + dem) + nominalisierter Infinitiv bedeutet 'während/wenn man etwas tut'. Der nominalisierte Infinitiv 'das Bügeln' ist neutral, deshalb 'beim'. 'Zum Bügeln' würde einen Zweck ausdrücken, keine Gleichzeitigkeit."
+        },
+        {
+          "id": "l15t07",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze die Präposition. Die Handlung hat in der Vergangenheit begonnen und dauert bis heute.",
+          "prompt": "___ letztem Herbst fahre ich nur noch mit dem Fahrrad zur Arbeit.",
+          "solution": "Seit",
+          "explanation": "'seit' + Dativ drückt aus, dass etwas in der Vergangenheit begonnen hat und bis heute andauert – deshalb steht das Verb im Präsens (fahre). 'vor' würde einen abgeschlossenen Zeitpunkt nennen und passt nicht zum Präsens."
+        },
+        {
+          "id": "l15t08",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze die Präposition.",
+          "prompt": "Das Freibad ist im Winter geschlossen. ___ der Badesaison kann man dort also nicht schwimmen.",
+          "solution": "Außerhalb",
+          "explanation": "'außerhalb' + Genitiv bedeutet 'nicht in diesem Zeitraum'. Im Winter ist keine Badesaison, also kann man außerhalb der Badesaison nicht schwimmen – 'innerhalb' oder 'während' würde das Gegenteil bedeuten."
+        },
+        {
+          "id": "l15t09",
+          "type": "cloze-conjugation",
+          "instruction": "Setze das Verb in Klammern im Präteritum ein (nur das konjugierte Verb).",
+          "prompt": "Sehr geehrte Damen und Herren, am 12. März ___ Ihre Lieferung leider unvollständig bei mir an. (ankommen)",
+          "solution": "kam",
+          "explanation": "'ankommen' ist unregelmäßig und trennbar: kommt an – kam an – angekommen. Im Hauptsatz steht 'kam' an Position 2, das Präfix 'an' am Satzende. Subjekt ist 'Ihre Lieferung' (3. Person Singular)."
+        },
+        {
+          "id": "l15t10",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz. Beginne mit 'Nach der Reparatur'.",
+          "prompt": "Baue den Satz aus den Wörtern.",
+          "scrambleChunks": [
+            "Nach der Reparatur",
+            "funktioniert",
+            "der",
+            "Drucker",
+            "wieder",
+            "einwandfrei."
+          ],
+          "solution": "Nach der Reparatur funktioniert der Drucker wieder einwandfrei.",
+          "explanation": "'Nach der Reparatur' (nach + Dativ) steht auf Position 1, deshalb folgt das Verb 'funktioniert' direkt danach; das Subjekt 'der Drucker' steht hinter dem Verb."
+        },
+        {
+          "id": "l15t11",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz für eine Reklamation. Beginne mit 'Ich'.",
+          "prompt": "Baue den Satz aus den Wörtern.",
+          "scrambleChunks": [
+            "Ich",
+            "erwarte",
+            "Ihre",
+            "Antwort",
+            "innerhalb",
+            "einer",
+            "Woche."
+          ],
+          "solution": "Ich erwarte Ihre Antwort innerhalb einer Woche.",
+          "explanation": "Verb 'erwarte' an Position 2, dann das Akkusativobjekt 'Ihre Antwort'. 'innerhalb' verlangt den Genitiv: innerhalb einer Woche."
+        },
+        {
+          "id": "l15t12",
+          "type": "targeted-transformation",
+          "instruction": "Forme den Nebensatz in eine Präposition mit nominalisiertem Infinitiv um. Beginne mit 'Beim'.",
+          "prompt": "Wenn ich packe, vergesse ich oft etwas.",
+          "solution": "Beim Packen vergesse ich oft etwas.",
+          "explanation": "'wenn ich packe' (gleichzeitig) wird zu 'beim Packen' – der nominalisierte Infinitiv wird großgeschrieben. Da die Präpositionalgruppe auf Position 1 steht, folgt direkt das Verb 'vergesse'."
+        },
+        {
+          "id": "l15t13",
+          "type": "targeted-transformation",
+          "instruction": "Forme den Nebensatz in eine Präposition mit Nomen um. Beginne mit 'Während'.",
+          "prompt": "Während die Renovierung lief, haben wir bei Freunden gewohnt.",
+          "solution": "Während der Renovierung haben wir bei Freunden gewohnt.",
+          "explanation": "Der Nebensatz mit der Konjunktion 'während' wird zur Präposition 'während' + Genitiv: während der Renovierung. Die Präpositionalgruppe steht auf Position 1, deshalb folgt direkt das Verb 'haben'."
+        },
+        {
+          "id": "l15t14",
+          "type": "error-correction",
+          "instruction": "Finde und korrigiere den Fehler. Schreibe den ganzen Satz.",
+          "prompt": "Innerhalb den nächsten zwei Wochen erhalten Sie eine Gutschrift.",
+          "solution": "Innerhalb der nächsten zwei Wochen erhalten Sie eine Gutschrift.",
+          "explanation": "'innerhalb' verlangt den Genitiv: im Plural heißt es 'der nächsten zwei Wochen', nicht 'den' (Dativ)."
+        },
+        {
+          "id": "l15t15",
+          "type": "error-correction",
+          "instruction": "Finde und korrigiere den Fehler. Schreibe den ganzen Satz.",
+          "prompt": "Leider ist der Rechnungbetrag viel zu hoch.",
+          "solution": "Leider ist der Rechnungsbetrag viel zu hoch.",
+          "explanation": "Nach Nomen auf -ung steht im Kompositum ein Fugen-s: die Rechnung + der Betrag = der Rechnungsbetrag. Der Artikel kommt vom Grundwort 'der Betrag'."
+        }
+      ]
+    }
+  ]
+}
