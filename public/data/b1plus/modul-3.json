@@ -1,0 +1,2465 @@
+{
+  "modulId": "b1plus-m3",
+  "level": "B1+",
+  "modulNumber": 3,
+  "title": "Wie wir wohnen …",
+  "lektionen": [
+    {
+      "lektionId": "b1plus-m3-l7",
+      "level": "B1+",
+      "modulNumber": 3,
+      "lektionNumber": 7,
+      "title": "Ordnung ist das halbe Leben",
+      "grammarFocus": [
+        "Wechselpräpositionen: Wo? (Dativ) / Wohin? (Akkusativ)",
+        "legen/liegen, stellen/stehen, hängen",
+        "Lokale Präpositionen: innerhalb/außerhalb + Genitiv, gegenüber von, um … herum, von … aus",
+        "Haushalt: putzen, spülen, aussortieren"
+      ],
+      "vocabulary": [
+        {
+          "id": "l7v01",
+          "term": "die Ordnung",
+          "translation": "el orden",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "In meiner Küche herrscht endlich wieder Ordnung."
+        },
+        {
+          "id": "l7v02",
+          "term": "aufräumen",
+          "translation": "ordenar / recoger",
+          "partOfSpeech": "verb",
+          "preterite": "räumte auf",
+          "participle": "aufgeräumt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Am Samstag räumen wir gemeinsam den Keller auf."
+        },
+        {
+          "id": "l7v03",
+          "term": "aussortieren",
+          "translation": "descartar / seleccionar",
+          "partOfSpeech": "verb",
+          "preterite": "sortierte aus",
+          "participle": "aussortiert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Einmal im Jahr sortiere ich alte Kleidung aus."
+        },
+        {
+          "id": "l7v04",
+          "term": "spenden",
+          "translation": "donar",
+          "partOfSpeech": "verb",
+          "preterite": "spendete",
+          "participle": "gespendet",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Die Spielsachen spenden wir einem Kindergarten."
+        },
+        {
+          "id": "l7v05",
+          "term": "spülen",
+          "translation": "fregar (los platos)",
+          "partOfSpeech": "verb",
+          "preterite": "spülte",
+          "participle": "gespült",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Wer gekocht hat, muss nicht spülen."
+        },
+        {
+          "id": "l7v06",
+          "term": "putzen",
+          "translation": "limpiar",
+          "partOfSpeech": "verb",
+          "preterite": "putzte",
+          "participle": "geputzt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Im Frühling putzen wir alle Fenster."
+        },
+        {
+          "id": "l7v07",
+          "term": "wegwerfen",
+          "translation": "tirar (a la basura)",
+          "partOfSpeech": "verb",
+          "preterite": "warf weg",
+          "participle": "weggeworfen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Kaputte Stecker werfe ich sofort weg."
+        },
+        {
+          "id": "l7v08",
+          "term": "legen",
+          "translation": "poner (en horizontal)",
+          "partOfSpeech": "verb",
+          "preterite": "legte",
+          "participle": "gelegt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Leg die Zeitung bitte auf den Stapel."
+        },
+        {
+          "id": "l7v09",
+          "term": "liegen",
+          "translation": "estar (en horizontal)",
+          "partOfSpeech": "verb",
+          "preterite": "lag",
+          "participle": "gelegen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Die Fernbedienung liegt unter dem Kissen."
+        },
+        {
+          "id": "l7v10",
+          "term": "stellen",
+          "translation": "poner (de pie)",
+          "partOfSpeech": "verb",
+          "preterite": "stellte",
+          "participle": "gestellt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Wir stellen das Sofa an die Wand."
+        },
+        {
+          "id": "l7v11",
+          "term": "stehen",
+          "translation": "estar (de pie)",
+          "partOfSpeech": "verb",
+          "preterite": "stand",
+          "participle": "gestanden",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Das Bügelbrett steht hinter der Tür."
+        },
+        {
+          "id": "l7v12",
+          "term": "der Haken",
+          "translation": "el gancho",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Haken",
+          "example": "Die Hundeleine hängt am Haken neben der Tür."
+        },
+        {
+          "id": "l7v13",
+          "term": "das Regal",
+          "translation": "la estantería",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Regale",
+          "example": "Das Regal ist voller Kochbücher."
+        },
+        {
+          "id": "l7v14",
+          "term": "der Schrank",
+          "translation": "el armario",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Schränke",
+          "example": "Im Schrank ist kein Platz mehr für Winterjacken."
+        },
+        {
+          "id": "l7v15",
+          "term": "die Schublade",
+          "translation": "el cajón",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Schubladen",
+          "example": "Die Batterien sind in der obersten Schublade."
+        },
+        {
+          "id": "l7v16",
+          "term": "das Geschirr",
+          "translation": "la vajilla",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "example": "Das Geschirr stapelt sich schon in der Spüle."
+        },
+        {
+          "id": "l7v17",
+          "term": "der Müll",
+          "translation": "la basura",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "example": "Wer bringt heute den Müll runter?"
+        },
+        {
+          "id": "l7v18",
+          "term": "der Haushalt",
+          "translation": "el hogar / las tareas domésticas",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Haushalte",
+          "example": "In unserem Haushalt hat jeder eine feste Aufgabe."
+        },
+        {
+          "id": "l7v19",
+          "term": "die Einrichtung",
+          "translation": "el mobiliario / la decoración",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Einrichtungen",
+          "example": "Die Einrichtung ist hell und modern."
+        },
+        {
+          "id": "l7v20",
+          "term": "die Steckdose",
+          "translation": "el enchufe",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Steckdosen",
+          "example": "Neben dem Bett fehlt eine Steckdose."
+        },
+        {
+          "id": "l7v21",
+          "term": "innerhalb",
+          "translation": "dentro de (+ genitivo)",
+          "partOfSpeech": "phrase",
+          "example": "Innerhalb des Hauses darf man nicht rauchen."
+        },
+        {
+          "id": "l7v22",
+          "term": "außerhalb",
+          "translation": "fuera de (+ genitivo)",
+          "partOfSpeech": "phrase",
+          "example": "Der Supermarkt liegt außerhalb des Dorfes."
+        },
+        {
+          "id": "l7v23",
+          "term": "gegenüber",
+          "translation": "enfrente de (+ dativo)",
+          "partOfSpeech": "phrase",
+          "example": "Gegenüber vom Bahnhof gibt es ein Café."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l7e01",
+            "type": "multiple-choice",
+            "instruction": "Wähle den richtigen Artikel.",
+            "prompt": "Ich lege die Handtücher in ___ Schrank.",
+            "options": [
+              "den",
+              "dem",
+              "der"
+            ],
+            "solution": "den",
+            "hint": "Wohin? oder Wo? – 'legen' zeigt eine Bewegung.",
+            "explanation": "'legen' beantwortet die Frage 'Wohin?' – nach der Wechselpräposition 'in' steht dann der Akkusativ: in den Schrank. 'dem' wäre Dativ (Wo?), 'der' passt nicht zum maskulinen Nomen 'Schrank'."
+          },
+          {
+            "id": "l7e02",
+            "type": "multiple-choice",
+            "instruction": "Wähle den richtigen Artikel.",
+            "prompt": "Die Handtücher liegen jetzt in ___ Schrank.",
+            "options": [
+              "dem",
+              "den",
+              "das"
+            ],
+            "solution": "dem",
+            "hint": "'liegen' beschreibt einen Ort ohne Bewegung.",
+            "explanation": "'liegen' beantwortet die Frage 'Wo?' – nach 'in' steht dann der Dativ: in dem (im) Schrank. 'den' wäre Akkusativ (Wohin?), 'das' ist neutral."
+          },
+          {
+            "id": "l7e03",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Verb.",
+            "prompt": "Kannst du die Vase bitte auf den Tisch ___?",
+            "options": [
+              "stellen",
+              "stehen",
+              "sitzen"
+            ],
+            "solution": "stellen",
+            "hint": "Akkusativ nach 'auf' = Bewegung (Wohin?).",
+            "explanation": "'auf den Tisch' (Akkusativ) zeigt eine Richtung – dafür braucht man das Handlungsverb 'stellen' mit Objekt (die Vase). 'stehen' und 'sitzen' beschreiben einen Zustand (Wo?) und haben kein Akkusativobjekt."
+          },
+          {
+            "id": "l7e04",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Verb.",
+            "prompt": "Der Staubsauger ___ im Flur hinter der Tür.",
+            "options": [
+              "steht",
+              "stellt",
+              "legt"
+            ],
+            "solution": "steht",
+            "hint": "Hier gibt es kein Objekt und keine Bewegung.",
+            "explanation": "'im Flur' ist Dativ (Wo?) – also braucht man das Zustandsverb 'stehen'. 'stellen' und 'legen' brauchen ein Akkusativobjekt und eine Richtung (Wohin?)."
+          },
+          {
+            "id": "l7e05",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Verb.",
+            "prompt": "Das Bild ___ schon seit Jahren an der Wand.",
+            "options": [
+              "hängt",
+              "stellt",
+              "legt"
+            ],
+            "solution": "hängt",
+            "hint": "Ein Bild an der Wand: Wie ist seine Position?",
+            "explanation": "'an der Wand' ist Dativ (Wo?), und ein Bild ist nicht gestellt oder gelegt, sondern es hängt. 'stellen' und 'legen' wären außerdem Handlungsverben mit Akkusativobjekt."
+          },
+          {
+            "id": "l7e06",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Präposition.",
+            "prompt": "___ des Stadtzentrums gibt es kaum günstige Wohnungen.",
+            "options": [
+              "Innerhalb",
+              "Gegenüber",
+              "Um",
+              "Von"
+            ],
+            "solution": "Innerhalb",
+            "hint": "Achte auf den Kasus von 'des Stadtzentrums'.",
+            "explanation": "'des Stadtzentrums' ist Genitiv – 'innerhalb' verlangt den Genitiv. 'gegenüber' und 'von' verlangen den Dativ (gegenüber dem …, von dem …), 'um … herum' den Akkusativ."
+          },
+          {
+            "id": "l7e07",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze die Präposition.",
+            "prompt": "Die Bäckerei liegt auf der anderen Straßenseite, also direkt ___ vom Bahnhof.",
+            "solution": "gegenüber",
+            "hint": "Auf der anderen Straßenseite = ? von + Dativ.",
+            "explanation": "'gegenüber von' + Dativ nennt einen Ort auf der anderen Seite: gegenüber vom (= von dem) Bahnhof. 'neben' würde ohne 'von' stehen (neben dem Bahnhof)."
+          },
+          {
+            "id": "l7e08",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze den zweiten Teil der Präposition.",
+            "prompt": "Um den Tisch ___ stehen sechs Stühle.",
+            "solution": "herum",
+            "hint": "'um …' + Akkusativ + ein zweites Wort.",
+            "explanation": "Die Präposition 'um … herum' + Akkusativ beschreibt etwas, das rund um einen Ort ist: um den Tisch herum."
+          },
+          {
+            "id": "l7e09",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze den zweiten Teil der Präposition.",
+            "prompt": "Vom Balkon ___ sieht man den ganzen Park.",
+            "solution": "aus",
+            "hint": "'von …' + Dativ + ein zweites Wort für den Standpunkt.",
+            "explanation": "'von … aus' + Dativ nennt den Standpunkt, von dem man etwas sieht oder startet: vom Balkon aus."
+          },
+          {
+            "id": "l7e10",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Partizip.",
+            "prompt": "Nach dem Essen muss noch das Geschirr ___ werden.",
+            "options": [
+              "gespült",
+              "gebügelt",
+              "gestaubsaugt"
+            ],
+            "solution": "gespült",
+            "hint": "Was macht man mit schmutzigen Tellern?",
+            "explanation": "Geschirr wird gespült. Man bügelt Kleidung und staubsaugt den Boden oder den Teppich."
+          },
+          {
+            "id": "l7e11",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Verb.",
+            "prompt": "Kleidung, die ich nicht mehr trage, ___ ich aus und bringe sie zur Kleiderspende.",
+            "options": [
+              "sortiere",
+              "spüle",
+              "putze"
+            ],
+            "solution": "sortiere",
+            "hint": "Gesucht ist ein trennbares Verb mit 'aus-'.",
+            "explanation": "'aussortieren' bedeutet: Dinge auswählen, die man nicht mehr braucht. Im Präsens steht das Präfix 'aus' am Satzende. 'ausspülen' und 'ausputzen' passen nicht zu Kleidung, die man weggibt."
+          },
+          {
+            "id": "l7e12",
+            "type": "multiple-choice",
+            "instruction": "Wähle den richtigen Artikel.",
+            "prompt": "Der Schlüssel hängt am Haken neben ___ Tür.",
+            "options": [
+              "der",
+              "die",
+              "den"
+            ],
+            "solution": "der",
+            "hint": "'hängt' ohne Objekt = Zustand. Welcher Kasus?",
+            "explanation": "Hier fragt man 'Wo?' – nach 'neben' steht also der Dativ. 'die Tür' ist feminin, im Dativ: der Tür. 'die' wäre Akkusativ (Wohin?)."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l7m01",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz aus den Bausteinen.",
+            "prompt": "Bringe die Bausteine in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Ich",
+              "stelle",
+              "die",
+              "neuen",
+              "Bücher",
+              "ins",
+              "Regal"
+            ],
+            "solution": "Ich stelle die neuen Bücher ins Regal.",
+            "hint": "Wohin? → Akkusativ; ins = in das.",
+            "explanation": "'stellen' zeigt eine Bewegung (Wohin?), deshalb 'in das' = 'ins Regal' im Akkusativ. Das konjugierte Verb steht an Position 2."
+          },
+          {
+            "id": "l7m02",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz aus den Bausteinen.",
+            "prompt": "Bringe die Bausteine in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Die",
+              "Bücher",
+              "stehen",
+              "jetzt",
+              "im",
+              "Regal"
+            ],
+            "solution": "Die Bücher stehen jetzt im Regal.",
+            "hint": "Wo? → Dativ; im = in dem.",
+            "explanation": "'stehen' beschreibt einen Zustand (Wo?), deshalb 'in dem' = 'im Regal' im Dativ. Das Verb steht an Position 2."
+          },
+          {
+            "id": "l7m03",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz aus den Bausteinen.",
+            "prompt": "Bringe die Bausteine in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Außerhalb",
+              "der",
+              "Stadt",
+              "sind",
+              "die",
+              "Mieten",
+              "günstiger"
+            ],
+            "solution": "Außerhalb der Stadt sind die Mieten günstiger.",
+            "hint": "'außerhalb' + Genitiv steht am Satzanfang.",
+            "explanation": "'außerhalb' verlangt den Genitiv: außerhalb der Stadt. Steht die Ortsangabe auf Position 1, folgt direkt das Verb 'sind', dann das Subjekt."
+          },
+          {
+            "id": "l7m04",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz aus den Bausteinen.",
+            "prompt": "Bringe die Bausteine in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Um",
+              "den",
+              "Brunnen",
+              "herum",
+              "stehen",
+              "alte",
+              "Bänke"
+            ],
+            "solution": "Um den Brunnen herum stehen alte Bänke.",
+            "hint": "'um' und 'herum' umrahmen das Nomen.",
+            "explanation": "Die Präposition 'um … herum' umschließt das Nomen im Akkusativ: um den Brunnen herum. Danach folgt das Verb auf Position 2."
+          },
+          {
+            "id": "l7m05",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz aus den Bausteinen.",
+            "prompt": "Bringe die Bausteine in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Von",
+              "meinem",
+              "Fenster",
+              "aus",
+              "sehe",
+              "ich",
+              "den",
+              "Fluss"
+            ],
+            "solution": "Von meinem Fenster aus sehe ich den Fluss.",
+            "hint": "'von … aus' umrahmt den Standpunkt.",
+            "explanation": "'von … aus' + Dativ: von meinem Fenster aus. Diese Angabe steht auf Position 1, deshalb folgt direkt das Verb 'sehe' und dann das Subjekt 'ich'."
+          },
+          {
+            "id": "l7m06",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz aus den Bausteinen.",
+            "prompt": "Bringe die Bausteine in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Hast",
+              "du",
+              "das",
+              "Handtuch",
+              "in",
+              "die",
+              "Waschmaschine",
+              "gelegt"
+            ],
+            "solution": "Hast du das Handtuch in die Waschmaschine gelegt?",
+            "hint": "Ja/Nein-Frage: Verb zuerst; Partizip am Ende.",
+            "explanation": "In der Ja/Nein-Frage steht das Hilfsverb 'hast' vorne, das Partizip 'gelegt' am Ende. 'legen' = Wohin? → Akkusativ: in die Waschmaschine."
+          },
+          {
+            "id": "l7m07",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze den Artikel im richtigen Kasus.",
+            "prompt": "Die Katze schläft am liebsten auf ___ (das) Sofa.",
+            "solution": "dem",
+            "hint": "Schlafen: Bewegung oder Ort?",
+            "explanation": "Die Katze schläft an einem Ort (Wo?) – nach 'auf' steht der Dativ: auf dem Sofa. 'das' wäre Akkusativ (Wohin?)."
+          },
+          {
+            "id": "l7m08",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze den Artikel im richtigen Kasus.",
+            "prompt": "Tim legt die Decke auf ___ (das) Sofa.",
+            "solution": "das",
+            "hint": "'legen' = Wohin?",
+            "explanation": "'legen' zeigt eine Richtung (Wohin?) – nach 'auf' steht der Akkusativ. Das neutrale 'das Sofa' bleibt im Akkusativ 'das'. 'dem' wäre Dativ (Wo?)."
+          },
+          {
+            "id": "l7m09",
+            "type": "cloze-conjugation",
+            "instruction": "Setze das Verb ins Präteritum.",
+            "prompt": "Gestern ___ (legen) ich den Brief auf den Schreibtisch, aber jetzt ist er weg.",
+            "solution": "legte",
+            "hint": "'legen' ist regelmäßig.",
+            "explanation": "'legen' ist ein regelmäßiges Verb: ich legte. Nicht verwechseln mit 'liegen' (Präteritum: lag)."
+          },
+          {
+            "id": "l7m10",
+            "type": "cloze-conjugation",
+            "instruction": "Setze das Verb ins Präteritum.",
+            "prompt": "Der Brief ___ (liegen) gestern noch auf dem Schreibtisch.",
+            "solution": "lag",
+            "hint": "'liegen' ist unregelmäßig.",
+            "explanation": "'liegen' ist unregelmäßig: liegen – lag – gelegen. 'legte' gehört zum Handlungsverb 'legen'."
+          },
+          {
+            "id": "l7m11",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze den Artikel im richtigen Kasus.",
+            "prompt": "Innerhalb ___ (eine) Woche müssen wir die Wohnung räumen.",
+            "solution": "einer",
+            "hint": "'innerhalb' verlangt den Genitiv.",
+            "explanation": "Nach 'innerhalb' steht der Genitiv; feminin 'eine Woche' wird im Genitiv zu 'einer Woche'."
+          },
+          {
+            "id": "l7m12",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze den Artikel im richtigen Kasus.",
+            "prompt": "Der Spiegel hängt zwischen ___ (die) beiden Fenstern.",
+            "solution": "den",
+            "hint": "Wo hängt er? Dativ Plural.",
+            "explanation": "'hängt' ohne Objekt beschreibt einen Ort (Wo?) – nach 'zwischen' steht der Dativ. Der Artikel im Dativ Plural ist 'den' (und das Nomen bekommt -n: Fenstern)."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l7h01",
+            "type": "targeted-transformation",
+            "instruction": "Beschreibe das Ergebnis mit 'liegen' im Präsens. Beginne mit 'Jetzt liegt'.",
+            "prompt": "Ich lege das Handy auf den Tisch.",
+            "solution": "Jetzt liegt das Handy auf dem Tisch.",
+            "hint": "Aus Wohin? (Akkusativ) wird Wo? (Dativ).",
+            "explanation": "'legen' + Akkusativ (Wohin?) wird zu 'liegen' + Dativ (Wo?): auf den Tisch → auf dem Tisch."
+          },
+          {
+            "id": "l7h02",
+            "type": "targeted-transformation",
+            "instruction": "Beschreibe das Ergebnis mit 'stehen' im Präsens. Beginne mit 'Jetzt steht' und verwende die Kurzform (am/im).",
+            "prompt": "Sie stellt die Pflanze ans Fenster.",
+            "solution": "Jetzt steht die Pflanze am Fenster.",
+            "hint": "ans = an das (Akk.), am = an dem (Dat.).",
+            "explanation": "'stellen' + Akkusativ (ans Fenster) wird zu 'stehen' + Dativ (am Fenster)."
+          },
+          {
+            "id": "l7h03",
+            "type": "targeted-transformation",
+            "instruction": "Beschreibe das Ergebnis mit 'hängen' im Präsens. Beginne mit 'Jetzt hängt' und verwende die Kurzform (am/im).",
+            "prompt": "Er hängt die Jacke an den Haken.",
+            "solution": "Jetzt hängt die Jacke am Haken.",
+            "hint": "Ohne Objekt: Wo? → Dativ.",
+            "explanation": "Transitives 'hängen' mit Objekt fragt 'Wohin?' (an den Haken, Akkusativ). Beschreibt man das Ergebnis, fragt man 'Wo?' → Dativ: am Haken."
+          },
+          {
+            "id": "l7h04",
+            "type": "targeted-transformation",
+            "instruction": "Wer hat das gemacht? Bilde einen Satz mit 'stellen' im Perfekt. Beginne mit 'Er hat die Schuhe'.",
+            "prompt": "Die Schuhe stehen jetzt im Flur.",
+            "solution": "Er hat die Schuhe in den Flur gestellt.",
+            "hint": "Handlungsverb → Wohin? → Akkusativ.",
+            "explanation": "Mit dem Handlungsverb 'stellen' fragt man 'Wohin?' – nach 'in' steht der Akkusativ: in den Flur. Perfekt: hat … gestellt."
+          },
+          {
+            "id": "l7h05",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Schreibe den ganzen Satz.",
+            "prompt": "Der Park liegt außerhalb dem Zentrum.",
+            "solution": "Der Park liegt außerhalb des Zentrums.",
+            "hint": "Welchen Kasus verlangt 'außerhalb'?",
+            "explanation": "'außerhalb' steht mit dem Genitiv: des Zentrums (neutral, Genitiv-Endung -s). Der Dativ 'dem Zentrum' ist hier falsch."
+          },
+          {
+            "id": "l7h06",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Schreibe den ganzen Satz.",
+            "prompt": "Innerhalb einem Monat haben wir alles renoviert.",
+            "solution": "Innerhalb eines Monats haben wir alles renoviert.",
+            "hint": "'innerhalb' + Genitiv; maskuline Nomen bekommen -s.",
+            "explanation": "'innerhalb' verlangt den Genitiv: eines Monats. 'einem Monat' ist Dativ."
+          },
+          {
+            "id": "l7h07",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Schreibe den ganzen Satz.",
+            "prompt": "Ich habe den Mantel in dem Schrank gehängt.",
+            "solution": "Ich habe den Mantel in den Schrank gehängt.",
+            "hint": "'gehängt' mit Objekt = Wohin?",
+            "explanation": "Das transitive 'hängen' (hängte, gehängt) beschreibt eine Bewegung (Wohin?) – nach 'in' steht deshalb der Akkusativ: in den Schrank."
+          },
+          {
+            "id": "l7h08",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Schreibe den ganzen Satz.",
+            "prompt": "Die Teller stehen schon in die Spülmaschine.",
+            "solution": "Die Teller stehen schon in der Spülmaschine.",
+            "hint": "'stehen' = Zustand.",
+            "explanation": "'stehen' beschreibt einen Ort (Wo?) – nach 'in' steht der Dativ: in der Spülmaschine. 'in die' (Akkusativ) passt nur zu 'stellen'."
+          },
+          {
+            "id": "l7h09",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Schreibe den ganzen Satz.",
+            "prompt": "Kannst du das Glas bitte auf den Tisch stehen?",
+            "solution": "Kannst du das Glas bitte auf den Tisch stellen?",
+            "hint": "Mit Objekt und Akkusativ braucht man das Handlungsverb.",
+            "explanation": "'das Glas' ist ein Akkusativobjekt und 'auf den Tisch' zeigt die Richtung (Wohin?). Dafür braucht man 'stellen'; 'stehen' hat kein Objekt."
+          },
+          {
+            "id": "l7h10",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Schreibe den ganzen Satz.",
+            "prompt": "Um dem Haus herum wachsen hohe Hecken.",
+            "solution": "Um das Haus herum wachsen hohe Hecken.",
+            "hint": "'um … herum' verlangt immer denselben Kasus.",
+            "explanation": "'um … herum' steht immer mit dem Akkusativ: um das Haus herum. Es ist keine Wechselpräposition."
+          },
+          {
+            "id": "l7h11",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Schreibe den ganzen Satz.",
+            "prompt": "Vom Dach an sieht man die Berge.",
+            "solution": "Vom Dach aus sieht man die Berge.",
+            "hint": "Standpunkt: 'von … ?'",
+            "explanation": "Den Standpunkt, von dem aus man etwas sieht, nennt man mit 'von … aus': vom Dach aus. 'von … an' ist zeitlich (von heute an)."
+          },
+          {
+            "id": "l7h12",
+            "type": "targeted-transformation",
+            "instruction": "Setze den Satz ins Perfekt.",
+            "prompt": "Ich sortiere die alten Zeitschriften aus.",
+            "solution": "Ich habe die alten Zeitschriften aussortiert.",
+            "hint": "Verben auf -ieren bilden das Partizip ohne 'ge-'.",
+            "explanation": "'aussortieren' endet auf -ieren, deshalb gibt es kein 'ge-': aussortiert. Perfekt mit 'haben', das Partizip steht am Satzende."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l7t01",
+          "type": "multiple-choice",
+          "instruction": "Wähle die richtige Präposition mit Artikel.",
+          "prompt": "Die Autoschlüssel liegen ___ Schublade neben der Haustür.",
+          "options": [
+            "in der",
+            "in die",
+            "in den",
+            "im"
+          ],
+          "solution": "in der",
+          "explanation": "'liegen' beschreibt einen Ort (Wo?) → Dativ: in der Schublade. 'in die' wäre Akkusativ (Wohin?) und passt nur zu 'legen'."
+        },
+        {
+          "id": "l7t02",
+          "type": "multiple-choice",
+          "instruction": "Wähle den richtigen Artikel.",
+          "prompt": "Hast du die neuen Gläser schon auf ___ Regal gestellt?",
+          "options": [
+            "das",
+            "dem",
+            "den",
+            "der"
+          ],
+          "solution": "das",
+          "explanation": "'stellen' ist eine Bewegung (Wohin?) → Akkusativ. 'das Regal' bleibt im Akkusativ 'das'. 'dem' wäre Dativ (Wo?) und passt nur zu 'stehen'; 'den' und 'der' haben das falsche Genus."
+        },
+        {
+          "id": "l7t03",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Verb.",
+          "prompt": "Das nasse Handtuch ___ am Haken neben der Dusche.",
+          "options": [
+            "hängt",
+            "liegt",
+            "legt",
+            "stellt"
+          ],
+          "solution": "hängt",
+          "explanation": "An einem Haken 'hängt' etwas. 'legt' und 'stellt' brauchen ein Akkusativobjekt (jemand legt/stellt etwas), und 'liegen' passt nicht zu einem Haken."
+        },
+        {
+          "id": "l7t04",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze die Präposition mit Genitiv.",
+          "prompt": "___ der Wohnung ist Rauchen verboten, nur auf dem Balkon ist es erlaubt.",
+          "solution": "Innerhalb",
+          "explanation": "'innerhalb' + Genitiv bedeutet 'drinnen, im Bereich von': innerhalb der Wohnung. 'außerhalb' passt nicht, weil der Balkon selbst außerhalb der Wohnung liegt – dort ist Rauchen ja erlaubt."
+        },
+        {
+          "id": "l7t05",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze den Artikel im richtigen Kasus.",
+          "prompt": "Rauchen ist nur außerhalb ___ Gebäudes erlaubt.",
+          "solution": "des",
+          "explanation": "'außerhalb' steht mit Genitiv: das Gebäude → des Gebäudes. 'dem' (Dativ) ist in der Standardsprache falsch."
+        },
+        {
+          "id": "l7t06",
+          "type": "cloze-conjugation",
+          "instruction": "Setze das Verb in der angegebenen Form ein.",
+          "prompt": "Wohin ___ du die schweren Einkaufstaschen? (stellen, Präsens)",
+          "solution": "stellst",
+          "explanation": "Präsens, 2. Person Singular: du stellst. 'Wohin?' zeigt eine Bewegung, deshalb 'stellen' und nicht 'stehen'."
+        },
+        {
+          "id": "l7t07",
+          "type": "cloze-conjugation",
+          "instruction": "Setze das Verb in der angegebenen Form ein.",
+          "prompt": "Die Fernbedienung ___ gestern den ganzen Abend unter dem Sofakissen. (liegen, Präteritum)",
+          "solution": "lag",
+          "explanation": "'liegen' ist unregelmäßig: liegen – lag – gelegen. Es beschreibt einen Zustand (Wo? → Dativ 'unter dem Sofakissen'). 'legte' gehört zu 'legen'."
+        },
+        {
+          "id": "l7t08",
+          "type": "cloze-conjugation",
+          "instruction": "Setze das Verb in der angegebenen Form ein.",
+          "prompt": "Jedes Frühjahr ___ meine Mitbewohnerin ihre alten Schuhe aus. (aussortieren, Präsens)",
+          "solution": "sortiert",
+          "explanation": "'aussortieren' ist trennbar: Das Präfix 'aus' steht am Satzende, im Verb-Platz steht nur die konjugierte Form. Verben auf -ieren sind regelmäßig: sie sortiert."
+        },
+        {
+          "id": "l7t09",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz aus den Teilen.",
+          "prompt": "Beginne mit 'Die Apotheke'.",
+          "scrambleChunks": [
+            "Die Apotheke",
+            "befindet sich",
+            "gegenüber",
+            "vom Supermarkt."
+          ],
+          "solution": "Die Apotheke befindet sich gegenüber vom Supermarkt.",
+          "explanation": "'gegenüber von' + Dativ nennt die Position auf der anderen Seite: gegenüber vom (= von dem) Supermarkt. 'gegenüber' steht direkt vor 'von'; das Verb steht auf Position 2."
+        },
+        {
+          "id": "l7t10",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz aus den Teilen.",
+          "prompt": "Beginne mit 'Von der Küche'.",
+          "scrambleChunks": [
+            "Von der Küche",
+            "aus",
+            "kann",
+            "man",
+            "den Garten",
+            "sehen."
+          ],
+          "solution": "Von der Küche aus kann man den Garten sehen.",
+          "explanation": "'von … aus' + Dativ nennt den Standpunkt, von dem man etwas sieht; 'aus' folgt direkt auf das Nomen. Mit Modalverb steht 'kann' auf Position 2 und der Infinitiv 'sehen' am Ende."
+        },
+        {
+          "id": "l7t11",
+          "type": "targeted-transformation",
+          "instruction": "Beschreibe die Handlung, die zu diesem Ergebnis geführt hat. Antworte im Präsens und beginne mit 'Ich stelle die Gläser'.",
+          "prompt": "Die Gläser stehen jetzt auf der Fensterbank.",
+          "solution": "Ich stelle die Gläser auf die Fensterbank.",
+          "explanation": "Die Handlung (Wohin?) braucht 'stellen' + Akkusativ: auf die Fensterbank. Das Ergebnis (Wo?) ist 'stehen' + Dativ: auf der Fensterbank."
+        },
+        {
+          "id": "l7t12",
+          "type": "targeted-transformation",
+          "instruction": "Beschreibe die Handlung davor im Perfekt. Beginne mit 'Ich habe die Lampe'.",
+          "prompt": "Die Lampe hängt über dem Esstisch.",
+          "solution": "Ich habe die Lampe über den Esstisch gehängt.",
+          "explanation": "Bei der Handlung (Wohin?) steht 'über' mit Akkusativ: über den Esstisch. Das transitive 'hängen' ist regelmäßig: gehängt. 'gehangen' gehört zum Zustand ('Die Lampe hat über dem Esstisch gehangen')."
+        },
+        {
+          "id": "l7t13",
+          "type": "error-correction",
+          "instruction": "Finde den Fehler und schreibe den ganzen Satz richtig.",
+          "prompt": "Sie legt die Zeitung jeden Morgen neben dem Teller.",
+          "solution": "Sie legt die Zeitung jeden Morgen neben den Teller.",
+          "explanation": "'legen' ist eine Bewegung (Wohin?) → Akkusativ: neben den Teller. 'neben dem Teller' (Dativ) passt nur zum Zustand 'liegen'."
+        },
+        {
+          "id": "l7t14",
+          "type": "error-correction",
+          "instruction": "Finde den Fehler und schreibe den ganzen Satz richtig.",
+          "prompt": "Das große Familienfoto hängt über das Sofa.",
+          "solution": "Das große Familienfoto hängt über dem Sofa.",
+          "explanation": "Hier beschreibt 'hängen' einen Zustand (Wo?) → Dativ: über dem Sofa. Akkusativ 'über das Sofa' bräuchte eine Bewegung."
+        },
+        {
+          "id": "l7t15",
+          "type": "error-correction",
+          "instruction": "Finde den Fehler und schreibe den ganzen Satz richtig.",
+          "prompt": "Die Kinder haben ihre Schuhe unter das Bett gestanden.",
+          "solution": "Die Kinder haben ihre Schuhe unter das Bett gestellt.",
+          "explanation": "Wer etwas an einen Ort bringt, 'stellt' es (Akkusativ: unter das Bett). 'stehen – gestanden' hat kein Objekt und beschreibt nur den Zustand."
+        }
+      ]
+    },
+    {
+      "lektionId": "b1plus-m3-l8",
+      "level": "B1+",
+      "modulNumber": 3,
+      "lektionNumber": 8,
+      "title": "Hereinspaziert!",
+      "grammarFocus": [
+        "Wohnen und Wohnkosten",
+        "Überraschung ausdrücken: Ich wundere mich, dass … / Es ist (nicht) üblich, dass …",
+        "Kommasetzung: Nebensatz, Relativsatz, Infinitivsatz, Aufzählung"
+      ],
+      "vocabulary": [
+        {
+          "id": "l8v01",
+          "term": "die Miete",
+          "translation": "el alquiler",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Mieten",
+          "example": "Die Miete ist am ersten Tag des Monats fällig."
+        },
+        {
+          "id": "l8v02",
+          "term": "das Einkommen",
+          "translation": "los ingresos",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Einkommen",
+          "example": "Mit einem kleinen Einkommen ist die Wohnungssuche schwer."
+        },
+        {
+          "id": "l8v03",
+          "term": "die Tendenz",
+          "translation": "la tendencia",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Tendenzen",
+          "example": "Die Preise für Wohnungen haben eine steigende Tendenz."
+        },
+        {
+          "id": "l8v04",
+          "term": "der Heimwerker",
+          "translation": "el aficionado al bricolaje",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Heimwerker",
+          "example": "Als Heimwerker baut Bruno seine Möbel selbst."
+        },
+        {
+          "id": "l8v05",
+          "term": "das Geschick",
+          "translation": "la habilidad / la maña",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "example": "Zum Tapezieren braucht man etwas Geschick."
+        },
+        {
+          "id": "l8v06",
+          "term": "die Kaution",
+          "translation": "la fianza",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Kautionen",
+          "example": "Die Kaution bekommen wir beim Auszug zurück."
+        },
+        {
+          "id": "l8v07",
+          "term": "der Mietvertrag",
+          "translation": "el contrato de alquiler",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Mietverträge",
+          "example": "Der Mietvertrag läuft zunächst zwei Jahre."
+        },
+        {
+          "id": "l8v08",
+          "term": "der Vermieter",
+          "translation": "el casero / el arrendador",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Vermieter",
+          "example": "Unser Vermieter repariert alles sehr schnell."
+        },
+        {
+          "id": "l8v09",
+          "term": "die Wohnfläche",
+          "translation": "la superficie habitable",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Wohnflächen",
+          "example": "Die Wohnfläche beträgt 68 Quadratmeter."
+        },
+        {
+          "id": "l8v10",
+          "term": "die Lage",
+          "translation": "la ubicación",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Lagen",
+          "example": "Die Wohnung ist klein, aber die Lage ist perfekt."
+        },
+        {
+          "id": "l8v11",
+          "term": "das Treppenhaus",
+          "translation": "la escalera (del edificio)",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Treppenhäuser",
+          "example": "Im Treppenhaus riecht es nach frischer Farbe."
+        },
+        {
+          "id": "l8v12",
+          "term": "der Aufzug",
+          "translation": "el ascensor",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Aufzüge",
+          "example": "Der Aufzug ist schon wieder kaputt."
+        },
+        {
+          "id": "l8v13",
+          "term": "die Etage",
+          "translation": "la planta / el piso",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Etagen",
+          "example": "Wir wohnen in der dritten Etage."
+        },
+        {
+          "id": "l8v14",
+          "term": "einziehen",
+          "translation": "mudarse (a una vivienda)",
+          "partOfSpeech": "verb",
+          "preterite": "zog ein",
+          "participle": "eingezogen",
+          "auxiliary": "sein",
+          "irregular": true,
+          "example": "Nächste Woche ziehen neue Mieter ein."
+        },
+        {
+          "id": "l8v15",
+          "term": "besichtigen",
+          "translation": "visitar (una vivienda)",
+          "partOfSpeech": "verb",
+          "preterite": "besichtigte",
+          "participle": "besichtigt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Am Freitag besichtigen wir zwei Wohnungen."
+        },
+        {
+          "id": "l8v16",
+          "term": "vereinbaren",
+          "translation": "acordar / concertar",
+          "partOfSpeech": "verb",
+          "preterite": "vereinbarte",
+          "participle": "vereinbart",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Können wir einen Termin für Dienstag vereinbaren?"
+        },
+        {
+          "id": "l8v17",
+          "term": "überweisen",
+          "translation": "transferir",
+          "partOfSpeech": "verb",
+          "preterite": "überwies",
+          "participle": "überwiesen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Ich überweise die Miete immer pünktlich."
+        },
+        {
+          "id": "l8v18",
+          "term": "unterschreiben",
+          "translation": "firmar",
+          "partOfSpeech": "verb",
+          "preterite": "unterschrieb",
+          "participle": "unterschrieben",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Bitte unterschreiben Sie hier unten."
+        },
+        {
+          "id": "l8v19",
+          "term": "renovieren",
+          "translation": "reformar / renovar",
+          "partOfSpeech": "verb",
+          "preterite": "renovierte",
+          "participle": "renoviert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Wir renovieren gerade das Kinderzimmer."
+        },
+        {
+          "id": "l8v20",
+          "term": "sich wundern",
+          "translation": "sorprenderse / extrañarse",
+          "partOfSpeech": "verb",
+          "preterite": "wunderte sich",
+          "participle": "sich gewundert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Ich wundere mich über die hohen Preise."
+        },
+        {
+          "id": "l8v21",
+          "term": "üblich",
+          "translation": "habitual / usual",
+          "partOfSpeech": "adjective",
+          "example": "Ein kleines Gastgeschenk ist hier üblich."
+        },
+        {
+          "id": "l8v22",
+          "term": "überrascht",
+          "translation": "sorprendido",
+          "partOfSpeech": "adjective",
+          "example": "Ich war überrascht, wie groß der Garten ist."
+        },
+        {
+          "id": "l8v23",
+          "term": "die Gewohnheit",
+          "translation": "la costumbre",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Gewohnheiten",
+          "example": "Jedes Land hat eigene Gewohnheiten beim Essen."
+        },
+        {
+          "id": "l8v24",
+          "term": "der Gast",
+          "translation": "el invitado",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Gäste",
+          "example": "Unsere Gäste kommen um sieben Uhr."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l8e01",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Wort.",
+            "prompt": "Fast ein Drittel ihres ___ gibt Lena für die Miete aus.",
+            "options": [
+              "Einkommens",
+              "Geschicks",
+              "Mietvertrags",
+              "Treppenhauses"
+            ],
+            "solution": "Einkommens",
+            "hint": "Wovon bezahlt man die Miete?",
+            "explanation": "Die Miete bezahlt man vom Einkommen – dem Geld, das man verdient. Geschick, Mietvertrag und Treppenhaus kann man nicht 'ausgeben'."
+          },
+          {
+            "id": "l8e02",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Wort.",
+            "prompt": "Wer seine Regale selbst baut und die Wände selbst streicht, ist ein echter ___.",
+            "options": [
+              "Heimwerker",
+              "Vermieter",
+              "Gast"
+            ],
+            "solution": "Heimwerker",
+            "hint": "Jemand, der zu Hause selbst handwerklich arbeitet.",
+            "explanation": "Ein Heimwerker macht Reparaturen und Bauarbeiten in der eigenen Wohnung selbst. Ein Vermieter vermietet eine Wohnung, ein Gast ist zu Besuch."
+          },
+          {
+            "id": "l8e03",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Wort.",
+            "prompt": "Die Mieten in Großstädten steigen seit Jahren, und die ___ zeigt weiter nach oben.",
+            "options": [
+              "Tendenz",
+              "Kaution",
+              "Lage"
+            ],
+            "solution": "Tendenz",
+            "hint": "Wie entwickelt sich etwas?",
+            "explanation": "Die Tendenz beschreibt die Richtung einer Entwicklung (steigend, fallend). Die Kaution ist eine Sicherheit für den Vermieter, die Lage ist der Ort einer Wohnung."
+          },
+          {
+            "id": "l8e04",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Wort.",
+            "prompt": "Beim Einzug zahlt man dem Vermieter oft eine ___ von drei Monatsmieten.",
+            "options": [
+              "Kaution",
+              "Tendenz",
+              "Wohnfläche"
+            ],
+            "solution": "Kaution",
+            "hint": "Dieses Geld bekommt man beim Auszug zurück.",
+            "explanation": "Die Kaution ist Geld, das der Vermieter als Sicherheit behält und beim Auszug zurückzahlt. Tendenz und Wohnfläche kann man nicht bezahlen."
+          },
+          {
+            "id": "l8e05",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Verb.",
+            "prompt": "In meiner Heimat trägt niemand Hausschuhe. Ich ___ mich, dass hier alle welche tragen.",
+            "options": [
+              "wundere",
+              "überrasche",
+              "staune"
+            ],
+            "solution": "wundere",
+            "hint": "Gesucht ist ein reflexives Verb.",
+            "explanation": "'sich wundern, dass …' drückt Überraschung aus. 'staunen' ist nicht reflexiv, und 'mich überraschen' würde bedeuten, dass ich mich selbst überrasche."
+          },
+          {
+            "id": "l8e06",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Wort.",
+            "prompt": "Bei uns ist es nicht ___, dass Gäste beim Kochen helfen.",
+            "options": [
+              "üblich",
+              "gewohnt",
+              "normalerweise"
+            ],
+            "solution": "üblich",
+            "hint": "'Es ist (nicht) … , dass …' – gesucht ist ein Adjektiv.",
+            "explanation": "'Es ist (nicht) üblich, dass …' beschreibt eine Gewohnheit in einer Gruppe oder einem Land. 'gewohnt' braucht eine Person (Ich bin es gewohnt), 'normalerweise' ist ein Adverb und passt nicht nach 'ist'."
+          },
+          {
+            "id": "l8e07",
+            "type": "multiple-choice",
+            "instruction": "Wähle die richtige Form.",
+            "prompt": "Ich bin ___, dass die Wohnung so günstig ist.",
+            "options": [
+              "überrascht",
+              "überraschend",
+              "überraschen"
+            ],
+            "solution": "überrascht",
+            "hint": "Wie fühlt sich die Person?",
+            "explanation": "Nach 'Ich bin …' beschreibt das Partizip II 'überrascht' das Gefühl der Person. 'überraschend' beschreibt eine Sache (Das ist überraschend), 'überraschen' ist der Infinitiv."
+          },
+          {
+            "id": "l8e08",
+            "type": "multiple-choice",
+            "instruction": "Welcher Satz hat die richtigen Kommas?",
+            "prompt": "Relativsatz: Wohnung mit Balkon",
+            "options": [
+              "Wir suchen eine Wohnung, die einen Balkon hat.",
+              "Wir suchen eine Wohnung die, einen Balkon hat.",
+              "Wir suchen, eine Wohnung die einen Balkon hat."
+            ],
+            "solution": "Wir suchen eine Wohnung, die einen Balkon hat.",
+            "hint": "Das Komma steht vor dem Relativpronomen.",
+            "explanation": "Ein Relativsatz wird durch ein Komma vom Hauptsatz getrennt. Das Komma steht direkt vor dem Relativpronomen 'die', nicht danach und nicht mitten im Hauptsatz."
+          },
+          {
+            "id": "l8e09",
+            "type": "multiple-choice",
+            "instruction": "Welcher Satz hat die richtigen Kommas?",
+            "prompt": "Infinitivsatz nach einem Nomen",
+            "options": [
+              "Wir haben keine Zeit, die Küche heute noch zu streichen.",
+              "Wir haben keine Zeit die Küche, heute noch zu streichen.",
+              "Wir haben, keine Zeit die Küche heute noch zu streichen."
+            ],
+            "solution": "Wir haben keine Zeit, die Küche heute noch zu streichen.",
+            "hint": "Der Infinitivsatz beginnt direkt nach dem Nomen.",
+            "explanation": "Hängt ein Infinitivsatz von einem Nomen ab (keine Zeit), muss ein Komma stehen – und zwar vor dem ganzen Infinitivsatz 'die Küche heute noch zu streichen', nicht in seiner Mitte."
+          },
+          {
+            "id": "l8e10",
+            "type": "multiple-choice",
+            "instruction": "Welcher Satz hat die richtigen Kommas?",
+            "prompt": "Aufzählung: Räume in der Wohnung",
+            "options": [
+              "In der Wohnung gibt es eine Küche, ein Bad und zwei Schlafzimmer.",
+              "In der Wohnung gibt es eine Küche, ein Bad, und zwei Schlafzimmer.",
+              "In der Wohnung gibt es, eine Küche ein Bad und zwei Schlafzimmer."
+            ],
+            "solution": "In der Wohnung gibt es eine Küche, ein Bad und zwei Schlafzimmer.",
+            "hint": "Was passiert vor 'und' in einer Aufzählung?",
+            "explanation": "In einer Aufzählung trennt man die Teile mit Kommas; vor dem letzten Teil mit 'und' steht kein Komma."
+          },
+          {
+            "id": "l8e11",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Partizip II von 'besichtigen'.",
+            "prompt": "Wir haben die Wohnung am Samstag ___ und am Montag den Mietvertrag unterschrieben.",
+            "solution": "besichtigt",
+            "hint": "Untrennbares Präfix 'be-': kein 'ge-'.",
+            "explanation": "'besichtigen' ist regelmäßig und hat das untrennbare Präfix 'be-'. Deshalb bekommt das Partizip II kein 'ge-': besichtigt (nicht *gebesichtigt)."
+          },
+          {
+            "id": "l8e12",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Kompositum mit 'Miet-'.",
+            "prompt": "Wer eine Wohnung mietet, unterschreibt einen ___.",
+            "solution": "Mietvertrag",
+            "hint": "Miet- + ein Dokument mit Regeln (der …).",
+            "explanation": "Der Mietvertrag regelt Miete, Kaution und Kündigung. Das Kompositum hat den Artikel des Grundworts: der Vertrag → der Mietvertrag."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l8m01",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz aus den Bausteinen.",
+            "prompt": "Bringe die Bausteine in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Ich",
+              "wundere",
+              "mich,",
+              "dass",
+              "die",
+              "Nebenkosten",
+              "so",
+              "hoch",
+              "sind."
+            ],
+            "solution": "Ich wundere mich, dass die Nebenkosten so hoch sind.",
+            "hint": "Nach dem Komma folgt der dass-Satz, Verb am Ende.",
+            "explanation": "Hauptsatz 'Ich wundere mich' + Komma + Nebensatz mit 'dass'. Im Nebensatz steht das konjugierte Verb 'sind' am Ende."
+          },
+          {
+            "id": "l8m02",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz aus den Bausteinen.",
+            "prompt": "Bringe die Bausteine in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Bei",
+              "uns",
+              "ist",
+              "es",
+              "nicht",
+              "üblich,",
+              "dass",
+              "Gäste",
+              "Blumen",
+              "mitbringen."
+            ],
+            "solution": "Bei uns ist es nicht üblich, dass Gäste Blumen mitbringen.",
+            "hint": "'Bei uns' steht vorne; Komma vor 'dass'.",
+            "explanation": "'Bei uns' steht auf Position 1, dann folgt das Verb 'ist'. Der dass-Satz wird mit Komma abgetrennt; das trennbare Verb 'mitbringen' steht im Nebensatz zusammen am Ende."
+          },
+          {
+            "id": "l8m03",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz aus den Bausteinen.",
+            "prompt": "Bringe die Bausteine in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Die",
+              "Wohnung,",
+              "die",
+              "wir",
+              "gestern",
+              "besichtigt",
+              "haben,",
+              "war",
+              "zu",
+              "teuer."
+            ],
+            "solution": "Die Wohnung, die wir gestern besichtigt haben, war zu teuer.",
+            "hint": "Der Relativsatz steht in der Mitte zwischen zwei Kommas.",
+            "explanation": "Ein Relativsatz in der Satzmitte wird von zwei Kommas eingeschlossen. Im Relativsatz steht das konjugierte Verb 'haben' am Ende; danach geht der Hauptsatz mit 'war' weiter."
+          },
+          {
+            "id": "l8m04",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz aus den Bausteinen.",
+            "prompt": "Bringe die Bausteine in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Wir",
+              "haben",
+              "den",
+              "Plan,",
+              "die",
+              "alte",
+              "Küche",
+              "selbst",
+              "zu",
+              "renovieren."
+            ],
+            "solution": "Wir haben den Plan, die alte Küche selbst zu renovieren.",
+            "hint": "Infinitivsatz nach einem Nomen: Komma und 'zu' vor dem Infinitiv.",
+            "explanation": "Der Infinitivsatz hängt vom Nomen 'den Plan' ab, deshalb steht ein Komma. 'zu' steht direkt vor dem Infinitiv am Ende."
+          },
+          {
+            "id": "l8m05",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz aus den Bausteinen.",
+            "prompt": "Bringe die Bausteine in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Wir",
+              "sparen,",
+              "um",
+              "bald",
+              "eine",
+              "größere",
+              "Wohnung",
+              "mieten",
+              "zu",
+              "können."
+            ],
+            "solution": "Wir sparen, um bald eine größere Wohnung mieten zu können.",
+            "hint": "'um … zu' + Infinitiv; bei Modalverben steht 'zu' vor dem Modalverb.",
+            "explanation": "Vor 'um … zu' steht immer ein Komma. Mit Modalverb lautet das Ende 'mieten zu können'."
+          },
+          {
+            "id": "l8m06",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz aus den Bausteinen.",
+            "prompt": "Bringe die Bausteine in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Obwohl",
+              "das",
+              "Einkommen",
+              "gestiegen",
+              "ist,",
+              "reicht",
+              "es",
+              "kaum",
+              "für",
+              "die",
+              "Miete."
+            ],
+            "solution": "Obwohl das Einkommen gestiegen ist, reicht es kaum für die Miete.",
+            "hint": "Nebensatz zuerst: Verb-Komma-Verb.",
+            "explanation": "Steht der Nebensatz mit 'obwohl' vorne, endet er mit dem Verb 'ist' und einem Komma. Danach beginnt der Hauptsatz direkt mit dem Verb 'reicht' (Muster: Verb, Verb); das Subjekt 'es' folgt erst danach."
+          },
+          {
+            "id": "l8m07",
+            "type": "cloze-conjugation",
+            "instruction": "Setze das Verb ins Präteritum.",
+            "prompt": "Wir ___ (einziehen) im März in die neue Wohnung ein.",
+            "solution": "zogen",
+            "hint": "Unregelmäßig: ziehen – zog – gezogen.",
+            "explanation": "'einziehen' ist trennbar und unregelmäßig. Präteritum 'wir zogen', das Präfix 'ein' steht am Satzende."
+          },
+          {
+            "id": "l8m08",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Partizip II.",
+            "prompt": "Hast du die Kaution schon ___ (überweisen)?",
+            "solution": "überwiesen",
+            "hint": "Untrennbares Präfix 'über-': kein 'ge-'.",
+            "explanation": "'überweisen' ist untrennbar und unregelmäßig: überweisen – überwies – überwiesen. Untrennbare Verben bilden das Partizip ohne 'ge-'."
+          },
+          {
+            "id": "l8m09",
+            "type": "cloze-conjugation",
+            "instruction": "Setze das Verb ins Präteritum.",
+            "prompt": "Gestern ___ (unterschreiben) Frau Aydın den Mietvertrag.",
+            "solution": "unterschrieb",
+            "hint": "Unregelmäßig wie 'schreiben'; 'unter-' ist hier untrennbar.",
+            "explanation": "'unterschreiben' ist untrennbar: unterschreiben – unterschrieb – unterschrieben. Das Präfix bleibt am Verb."
+          },
+          {
+            "id": "l8m10",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb im Präsens.",
+            "prompt": "Ich ___ (wundern) mich, dass hier alle so früh zu Abend essen.",
+            "solution": "wundere",
+            "hint": "Verben auf -ern: ich-Form.",
+            "explanation": "'sich wundern' ist regelmäßig: ich wundere mich. Bei Verben auf -ern bleibt in der ich-Form das -e erhalten (ich wundere)."
+          },
+          {
+            "id": "l8m11",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Partizip II.",
+            "prompt": "Wir haben einen Termin für die Besichtigung ___ (vereinbaren).",
+            "solution": "vereinbart",
+            "hint": "Untrennbares Präfix 'ver-'.",
+            "explanation": "'vereinbaren' ist regelmäßig und untrennbar: vereinbart – ohne 'ge-'."
+          },
+          {
+            "id": "l8m12",
+            "type": "cloze-conjugation",
+            "instruction": "Setze das Verb ins Präteritum.",
+            "prompt": "Die Handwerker ___ (renovieren) das Bad in nur zwei Tagen.",
+            "solution": "renovierten",
+            "hint": "Verben auf -ieren sind regelmäßig.",
+            "explanation": "'renovieren' ist regelmäßig: sie renovierten (Plural, Präteritum mit -te- + -n)."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l8h01",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Schreibe den ganzen Satz.",
+            "prompt": "Ich finde es toll dass ihr uns besucht.",
+            "solution": "Ich finde es toll, dass ihr uns besucht.",
+            "hint": "Es fehlt ein Satzzeichen.",
+            "explanation": "Ein Nebensatz mit 'dass' wird immer durch ein Komma vom Hauptsatz getrennt."
+          },
+          {
+            "id": "l8h02",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Schreibe den ganzen Satz.",
+            "prompt": "Das ist der Nachbar der immer so laut Musik hört.",
+            "solution": "Das ist der Nachbar, der immer so laut Musik hört.",
+            "hint": "Wo beginnt der Relativsatz?",
+            "explanation": "Vor dem Relativpronomen 'der' beginnt ein Relativsatz – er wird mit Komma abgetrennt."
+          },
+          {
+            "id": "l8h03",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Schreibe den ganzen Satz.",
+            "prompt": "Wir brauchen Farbe Pinsel, und eine Leiter.",
+            "solution": "Wir brauchen Farbe, Pinsel und eine Leiter.",
+            "hint": "Aufzählung: Wo gehört das Komma hin – und wo nicht?",
+            "explanation": "In einer Aufzählung stehen Kommas zwischen den Teilen (Farbe, Pinsel), aber vor 'und' steht kein Komma."
+          },
+          {
+            "id": "l8h04",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Schreibe den ganzen Satz.",
+            "prompt": "Er spart jeden Monat Geld um später ein Haus zu kaufen.",
+            "solution": "Er spart jeden Monat Geld, um später ein Haus zu kaufen.",
+            "hint": "Infinitivsatz mit 'um … zu'.",
+            "explanation": "Infinitivsätze mit 'um … zu' (auch 'ohne … zu', 'statt … zu') werden immer mit Komma abgetrennt."
+          },
+          {
+            "id": "l8h05",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Schreibe den ganzen Satz.",
+            "prompt": "Die Küche, die wir selbst eingerichtet haben ist unser Lieblingsraum.",
+            "solution": "Die Küche, die wir selbst eingerichtet haben, ist unser Lieblingsraum.",
+            "hint": "Ein eingeschobener Relativsatz braucht zwei Kommas.",
+            "explanation": "Steht der Relativsatz in der Satzmitte, schließt man ihn mit einem zweiten Komma ab – nach dem Verb 'haben', bevor der Hauptsatz mit 'ist' weitergeht."
+          },
+          {
+            "id": "l8h06",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Schreibe den ganzen Satz.",
+            "prompt": "Wenn der Vermieter zustimmt dürfen wir die Wand streichen.",
+            "solution": "Wenn der Vermieter zustimmt, dürfen wir die Wand streichen.",
+            "hint": "Wo endet der Nebensatz?",
+            "explanation": "Der wenn-Satz endet mit dem Verb 'zustimmt'. Zwischen Nebensatz und Hauptsatz steht ein Komma – typisch ist das Muster Verb, Verb."
+          },
+          {
+            "id": "l8h07",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Schreibe den ganzen Satz.",
+            "prompt": "Ich wundere mich dass, die Miete so niedrig ist.",
+            "solution": "Ich wundere mich, dass die Miete so niedrig ist.",
+            "hint": "Das Komma steht an der falschen Stelle.",
+            "explanation": "Das Komma steht vor der Konjunktion 'dass', nicht danach."
+          },
+          {
+            "id": "l8h08",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde die Sätze mit 'dass'. Beginne mit 'Ich wundere mich, dass' und behalte die Reihenfolge der Wörter im zweiten Satz bei – nur das Verb wandert.",
+            "prompt": "Ich wundere mich. In Deutschland ziehen viele Menschen ihre Schuhe im Flur aus.",
+            "solution": "Ich wundere mich, dass in Deutschland viele Menschen ihre Schuhe im Flur ausziehen.",
+            "hint": "Im dass-Satz steht das Verb am Ende; trennbare Verben werden wieder zusammengeschrieben.",
+            "explanation": "Im Nebensatz mit 'dass' steht das konjugierte Verb am Ende. Das trennbare Verb 'ausziehen' wird dort zusammengeschrieben: … im Flur ausziehen."
+          },
+          {
+            "id": "l8h09",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde die Sätze mit 'dass'. Beginne mit 'Es ist hier ganz normal, dass'.",
+            "prompt": "Es ist hier ganz normal. Man duzt die Nachbarn.",
+            "solution": "Es ist hier ganz normal, dass man die Nachbarn duzt.",
+            "hint": "Komma vor 'dass', Verb ans Ende.",
+            "explanation": "Mit 'Es ist normal/üblich, dass …' beschreibt man Gewohnheiten. Im dass-Satz steht das Verb 'duzt' am Ende."
+          },
+          {
+            "id": "l8h10",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde die Sätze mit einem Relativsatz. Beginne mit 'Der Heimwerker, der'.",
+            "prompt": "Der Heimwerker hat unser Bad renoviert. Er wohnt im Erdgeschoss.",
+            "solution": "Der Heimwerker, der im Erdgeschoss wohnt, hat unser Bad renoviert.",
+            "hint": "Relativsatz in der Mitte: zwei Kommas.",
+            "explanation": "Der Relativsatz 'der im Erdgeschoss wohnt' steht direkt nach seinem Bezugswort und wird von zwei Kommas eingeschlossen; das Verb 'wohnt' steht am Ende."
+          },
+          {
+            "id": "l8h11",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze den dass-Satz durch einen Infinitivsatz mit 'zu'. Beginne mit 'Es ist wichtig,'.",
+            "prompt": "Es ist wichtig, dass man die Miete pünktlich überweist.",
+            "solution": "Es ist wichtig, die Miete pünktlich zu überweisen.",
+            "hint": "Bei 'man' kann der dass-Satz zum Infinitivsatz werden.",
+            "explanation": "Ist das Subjekt allgemein (man), kann man den dass-Satz durch einen zu-Infinitiv ersetzen: 'man' fällt weg, 'zu' steht vor dem Infinitiv. Wegen 'es' im Hauptsatz steht ein Komma."
+          },
+          {
+            "id": "l8h12",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde die Sätze mit 'um … zu'. Beginne mit 'Wir renovieren'.",
+            "prompt": "Wir renovieren die Wohnung selbst. Wir wollen Geld sparen.",
+            "solution": "Wir renovieren die Wohnung selbst, um Geld zu sparen.",
+            "hint": "Gleiches Subjekt → 'um … zu'; das Modalverb 'wollen' fällt weg.",
+            "explanation": "Wenn beide Sätze dasselbe Subjekt haben, drückt 'um … zu' das Ziel aus. 'wollen' fällt weg, weil 'um … zu' schon die Absicht ausdrückt. Vor 'um' steht immer ein Komma."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l8t01",
+          "type": "multiple-choice",
+          "instruction": "Wähle die richtige Form.",
+          "prompt": "Mein Mitbewohner ___ sich, dass man hier sonntags keinen Lärm machen darf.",
+          "options": [
+            "wundert",
+            "wundere",
+            "wunderst",
+            "überrascht"
+          ],
+          "solution": "wundert",
+          "explanation": "'sich wundern' ist ein reflexives Verb; 3. Person Singular: er wundert sich. 'überrascht' passt nicht, weil 'überraschen' kein reflexives Verb ist ('Es überrascht ihn, dass …')."
+        },
+        {
+          "id": "l8t02",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Wort.",
+          "prompt": "In meinem Heimatland ist es ___, dass man beim Einzug alle Nachbarn zu einem Fest einlädt.",
+          "options": [
+            "üblich",
+            "überrascht",
+            "gewöhnt",
+            "normalerweise"
+          ],
+          "solution": "üblich",
+          "explanation": "'Es ist (nicht) üblich, dass …' beschreibt eine Gewohnheit/Norm. 'normalerweise' ist ein Adverb und kann nicht nach 'es ist' stehen; 'überrascht' und 'gewöhnt' beschreiben Personen, nicht eine Sitte."
+        },
+        {
+          "id": "l8t03",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Nomen.",
+          "prompt": "Unsere Wohnung liegt in der fünften ___, aber zum Glück gibt es einen Aufzug.",
+          "options": [
+            "Etage",
+            "Lage",
+            "Kaution",
+            "Wohnfläche"
+          ],
+          "solution": "Etage",
+          "explanation": "Die Etage (= das Stockwerk) gibt an, wie hoch eine Wohnung im Haus liegt: in der fünften Etage. 'Lage' ist der Ort in der Stadt, 'Kaution' eine Zahlung, 'Wohnfläche' die Größe in Quadratmetern."
+        },
+        {
+          "id": "l8t04",
+          "type": "multiple-choice",
+          "instruction": "Welcher Satz hat die richtige Kommasetzung?",
+          "prompt": "Wähle den korrekten Satz.",
+          "options": [
+            "Wir hoffen, dass der Vermieter bald antwortet.",
+            "Wir hoffen dass, der Vermieter bald antwortet.",
+            "Wir hoffen dass der Vermieter, bald antwortet.",
+            "Wir hoffen dass der Vermieter bald antwortet."
+          ],
+          "solution": "Wir hoffen, dass der Vermieter bald antwortet.",
+          "explanation": "Vor einem Nebensatz mit 'dass' steht ein Komma, und zwar direkt vor 'dass' – nicht danach und nicht mitten im Nebensatz. Ohne Komma ist der Satz falsch."
+        },
+        {
+          "id": "l8t05",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze das passende Nomen (ein einfaches Wort, kein zusammengesetztes Nomen, ohne Artikel).",
+          "prompt": "Die ___ für unsere Zweizimmerwohnung beträgt 850 Euro im Monat, ohne Strom.",
+          "solution": "Miete",
+          "explanation": "Die monatliche Zahlung für eine Wohnung heißt 'die Miete'. 'Kaution' zahlt man nur einmal beim Einzug; 'Einkommen' ist das Geld, das man verdient."
+        },
+        {
+          "id": "l8t06",
+          "type": "cloze-conjugation",
+          "instruction": "Setze das Verb in der angegebenen Form ein.",
+          "prompt": "Am Wochenende ___ Familie Okafor drei Wohnungen. (besichtigen, Präteritum)",
+          "solution": "besichtigte",
+          "explanation": "'besichtigen' ist regelmäßig und untrennbar ('be-' bleibt beim Verb): besichtigen – besichtigte – besichtigt. 'Familie Okafor' ist Singular, also 3. Person Singular: besichtigte."
+        },
+        {
+          "id": "l8t07",
+          "type": "cloze-conjugation",
+          "instruction": "Setze das Verb in der angegebenen Form ein.",
+          "prompt": "Wann ___ eure neuen Nachbarn eigentlich ein? (einziehen, Präsens)",
+          "solution": "ziehen",
+          "explanation": "'einziehen' ist trennbar: 'ein' steht am Ende, im Verb-Platz steht die konjugierte Form. Subjekt ist 'eure neuen Nachbarn' (Plural) → sie ziehen."
+        },
+        {
+          "id": "l8t08",
+          "type": "cloze-conjugation",
+          "instruction": "Setze das Verb in der angegebenen Form ein.",
+          "prompt": "___ du dich auch über die hohen Nebenkosten? (sich wundern, Präsens)",
+          "solution": "Wunderst",
+          "explanation": "In der Ja/Nein-Frage steht das Verb auf Position 1: du wunderst dich. Das Reflexivpronomen 'dich' passt zu 'du'."
+        },
+        {
+          "id": "l8t09",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz aus den Teilen.",
+          "prompt": "Beginne mit 'Unsere Gäste'.",
+          "scrambleChunks": [
+            "Unsere Gäste",
+            "wundern sich,",
+            "dass",
+            "wir",
+            "keinen Fernseher",
+            "haben."
+          ],
+          "solution": "Unsere Gäste wundern sich, dass wir keinen Fernseher haben.",
+          "explanation": "Nach 'sich wundern' folgt ein Komma und der dass-Satz. Im Nebensatz steht das Subjekt 'wir' direkt nach 'dass' und das Verb 'haben' am Ende."
+        },
+        {
+          "id": "l8t10",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz aus den Teilen.",
+          "prompt": "Beginne mit 'Die Nachbarin,'.",
+          "scrambleChunks": [
+            "Die Nachbarin,",
+            "die",
+            "unter uns",
+            "wohnt,",
+            "gießt",
+            "unsere Blumen."
+          ],
+          "solution": "Die Nachbarin, die unter uns wohnt, gießt unsere Blumen.",
+          "explanation": "Der Relativsatz steht direkt nach dem Nomen und zwischen zwei Kommas; das Verb 'wohnt' steht am Ende des Relativsatzes. Danach geht der Hauptsatz mit dem Verb 'gießt' weiter."
+        },
+        {
+          "id": "l8t11",
+          "type": "targeted-transformation",
+          "instruction": "Mache aus dem ersten Satz einen Relativsatz. Beginne mit 'Die Vermieterin, die'.",
+          "prompt": "Die Vermieterin wohnt in Hamburg. Sie kommt nur einmal im Jahr vorbei.",
+          "solution": "Die Vermieterin, die in Hamburg wohnt, kommt nur einmal im Jahr vorbei.",
+          "explanation": "Ein eingeschobener Relativsatz steht zwischen zwei Kommas. Das Relativpronomen 'die' (Nominativ, feminin) steht am Anfang, das Verb 'wohnt' am Ende des Relativsatzes; danach folgt das Verb des Hauptsatzes."
+        },
+        {
+          "id": "l8t12",
+          "type": "targeted-transformation",
+          "instruction": "Verbinde die Sätze mit einem Infinitivsatz (zu). Beginne mit 'Es ist nicht leicht,' und behalte die Reihenfolge der Satzglieder bei.",
+          "prompt": "Es ist nicht leicht. Man findet in der Innenstadt eine günstige Wohnung.",
+          "solution": "Es ist nicht leicht, in der Innenstadt eine günstige Wohnung zu finden.",
+          "explanation": "Nach 'Es ist nicht leicht' folgt ein Infinitivsatz mit 'zu' am Ende; das Subjekt 'man' fällt weg. Ein Komma trennt Hauptsatz und Infinitivsatz."
+        },
+        {
+          "id": "l8t13",
+          "type": "error-correction",
+          "instruction": "Es fehlen zwei Kommas. Schreibe den Satz richtig.",
+          "prompt": "Der Aufzug den wir jeden Tag benutzen ist schon wieder kaputt.",
+          "solution": "Der Aufzug, den wir jeden Tag benutzen, ist schon wieder kaputt.",
+          "explanation": "Ein Relativsatz in der Satzmitte wird auf beiden Seiten durch Kommas abgetrennt: vor dem Relativpronomen 'den' und nach dem Verb 'benutzen'."
+        },
+        {
+          "id": "l8t14",
+          "type": "error-correction",
+          "instruction": "Es fehlt ein Komma. Schreibe den Satz richtig.",
+          "prompt": "Weil die Lage so gut ist nehmen wir die Wohnung trotz der hohen Miete.",
+          "solution": "Weil die Lage so gut ist, nehmen wir die Wohnung trotz der hohen Miete.",
+          "explanation": "Steht der Nebensatz vorn, trennt ein Komma ihn vom Hauptsatz: nach dem Verb 'ist', vor 'nehmen'."
+        },
+        {
+          "id": "l8t15",
+          "type": "error-correction",
+          "instruction": "Ein Komma ist falsch. Schreibe den Satz richtig.",
+          "prompt": "Im Treppenhaus, stehen Fahrräder, Kinderwagen und Umzugskartons.",
+          "solution": "Im Treppenhaus stehen Fahrräder, Kinderwagen und Umzugskartons.",
+          "explanation": "Zwischen Position 1 und dem Verb steht kein Komma. In einer Aufzählung trennt man die Glieder mit Kommas, vor 'und' steht keins."
+        }
+      ]
+    },
+    {
+      "lektionId": "b1plus-m3-l9",
+      "level": "B1+",
+      "modulNumber": 3,
+      "lektionNumber": 9,
+      "title": "Wenn alle schlafen …",
+      "grammarFocus": [
+        "Adjektivdeklination ohne Artikel (Nullartikel)",
+        "Vergleich: Adjektivendungen nach bestimmtem und unbestimmtem Artikel",
+        "Zeitadverbien: tagsüber, nachts, täglich, tagein, tagaus"
+      ],
+      "vocabulary": [
+        {
+          "id": "l9v01",
+          "term": "tagsüber",
+          "translation": "durante el día",
+          "partOfSpeech": "adverb",
+          "example": "Tagsüber ist das Viertel voller Leben."
+        },
+        {
+          "id": "l9v02",
+          "term": "nachts",
+          "translation": "por la noche",
+          "partOfSpeech": "adverb",
+          "example": "Nachts fahren hier kaum Autos."
+        },
+        {
+          "id": "l9v03",
+          "term": "täglich",
+          "translation": "a diario / diario",
+          "partOfSpeech": "adverb",
+          "example": "Der Bus fährt täglich um 5 Uhr."
+        },
+        {
+          "id": "l9v04",
+          "term": "tagein, tagaus",
+          "translation": "día tras día",
+          "partOfSpeech": "phrase",
+          "example": "Tagein, tagaus hört er denselben Wecker."
+        },
+        {
+          "id": "l9v05",
+          "term": "übernächtigt",
+          "translation": "trasnochado / con falta de sueño",
+          "partOfSpeech": "adjective",
+          "example": "Nach der Party war Mia total übernächtigt."
+        },
+        {
+          "id": "l9v06",
+          "term": "die Nachtschicht",
+          "translation": "el turno de noche",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Nachtschichten",
+          "example": "Die Pflegerin hat diese Woche Nachtschicht."
+        },
+        {
+          "id": "l9v07",
+          "term": "der Stromausfall",
+          "translation": "el apagón",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Stromausfälle",
+          "example": "Beim Stromausfall saßen wir im Dunkeln."
+        },
+        {
+          "id": "l9v08",
+          "term": "die Baustelle",
+          "translation": "la obra",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Baustellen",
+          "example": "Die Baustelle vor dem Haus ist sehr laut."
+        },
+        {
+          "id": "l9v09",
+          "term": "die Nachbarschaft",
+          "translation": "el vecindario",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Nachbarschaften",
+          "example": "In unserer Nachbarschaft kennt man sich."
+        },
+        {
+          "id": "l9v10",
+          "term": "die Umgebung",
+          "translation": "el entorno / los alrededores",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Umgebungen",
+          "example": "In einer grünen Umgebung schlafe ich viel besser."
+        },
+        {
+          "id": "l9v11",
+          "term": "der Lärm",
+          "translation": "el ruido",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "example": "Der Lärm der Straße hält mich wach."
+        },
+        {
+          "id": "l9v12",
+          "term": "die Ruhe",
+          "translation": "la tranquilidad",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Nach 22 Uhr herrscht im Haus Ruhe."
+        },
+        {
+          "id": "l9v13",
+          "term": "der Schlaf",
+          "translation": "el sueño",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "example": "Tiefer Schlaf ist wichtig für die Gesundheit."
+        },
+        {
+          "id": "l9v14",
+          "term": "einschlafen",
+          "translation": "dormirse",
+          "partOfSpeech": "verb",
+          "preterite": "schlief ein",
+          "participle": "eingeschlafen",
+          "auxiliary": "sein",
+          "irregular": true,
+          "example": "Bei offenem Fenster schlafe ich schnell ein."
+        },
+        {
+          "id": "l9v15",
+          "term": "aufwachen",
+          "translation": "despertarse",
+          "partOfSpeech": "verb",
+          "preterite": "wachte auf",
+          "participle": "aufgewacht",
+          "auxiliary": "sein",
+          "irregular": false,
+          "example": "Heute bin ich um vier Uhr aufgewacht."
+        },
+        {
+          "id": "l9v16",
+          "term": "verursachen",
+          "translation": "causar / provocar",
+          "partOfSpeech": "verb",
+          "preterite": "verursachte",
+          "participle": "verursacht",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Ein Sturm hat den Schaden verursacht."
+        },
+        {
+          "id": "l9v17",
+          "term": "sich erholen",
+          "translation": "recuperarse / descansar",
+          "partOfSpeech": "verb",
+          "preterite": "erholte sich",
+          "participle": "sich erholt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Am Wochenende erhole ich mich im Garten."
+        },
+        {
+          "id": "l9v18",
+          "term": "ausfallen",
+          "translation": "cortarse / fallar",
+          "partOfSpeech": "verb",
+          "preterite": "fiel aus",
+          "participle": "ausgefallen",
+          "auxiliary": "sein",
+          "irregular": true,
+          "example": "Gestern ist in der ganzen Straße der Strom ausgefallen."
+        },
+        {
+          "id": "l9v19",
+          "term": "die Kerze",
+          "translation": "la vela",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Kerzen",
+          "example": "Wir zünden eine Kerze an."
+        },
+        {
+          "id": "l9v20",
+          "term": "dunkel",
+          "translation": "oscuro",
+          "partOfSpeech": "adjective",
+          "example": "Im Winter wird es früh dunkel."
+        },
+        {
+          "id": "l9v21",
+          "term": "ruhig",
+          "translation": "tranquilo",
+          "partOfSpeech": "adjective",
+          "example": "Wir suchen eine ruhige Wohnung."
+        },
+        {
+          "id": "l9v22",
+          "term": "der Frühaufsteher",
+          "translation": "el madrugador",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Frühaufsteher",
+          "example": "Als Frühaufsteher joggt Paul schon um sechs."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l9e01",
+            "type": "multiple-choice",
+            "instruction": "Wähle die richtige Adjektivendung.",
+            "prompt": "Ich trinke abends gern ___ Tee.",
+            "options": [
+              "heißen",
+              "heißer",
+              "heißem"
+            ],
+            "solution": "heißen",
+            "hint": "Kein Artikel, Akkusativ maskulin.",
+            "explanation": "Ohne Artikel zeigt das Adjektiv den Kasus – wie der bestimmte Artikel: den Tee → heißen Tee. '-er' wäre Nominativ, '-em' Dativ."
+          },
+          {
+            "id": "l9e02",
+            "type": "multiple-choice",
+            "instruction": "Wähle die richtige Adjektivendung.",
+            "prompt": "Bei ___ Wetter gehen wir nachts spazieren.",
+            "options": [
+              "gutem",
+              "gutes",
+              "guten"
+            ],
+            "solution": "gutem",
+            "hint": "'bei' + Dativ, neutral, kein Artikel.",
+            "explanation": "'bei' verlangt den Dativ. Ohne Artikel übernimmt das Adjektiv die Endung von 'dem': gutem Wetter. '-es' wäre Nominativ/Akkusativ."
+          },
+          {
+            "id": "l9e03",
+            "type": "multiple-choice",
+            "instruction": "Wähle die richtige Adjektivendung.",
+            "prompt": "Das Hotel liegt in ___ Lage, direkt am Marktplatz.",
+            "options": [
+              "zentraler",
+              "zentrale",
+              "zentralen"
+            ],
+            "solution": "zentraler",
+            "hint": "'in' + Dativ (Wo?), feminin, kein Artikel.",
+            "explanation": "'in zentraler Lage' beschreibt einen Ort (Wo? → Dativ). Ohne Artikel hat das Adjektiv die Endung des Artikels im Dativ feminin (der): zentraler. '-e' wäre Nominativ/Akkusativ, '-en' steht nur nach einem Artikel (in der zentralen Lage)."
+          },
+          {
+            "id": "l9e04",
+            "type": "multiple-choice",
+            "instruction": "Wähle die richtige Adjektivendung.",
+            "prompt": "___ Nachbarn sind ein echtes Glück.",
+            "options": [
+              "Nette",
+              "Netten",
+              "Netter"
+            ],
+            "solution": "Nette",
+            "hint": "Nominativ Plural ohne Artikel.",
+            "explanation": "Im Nominativ Plural ohne Artikel endet das Adjektiv wie der Artikel 'die' auf -e: nette Nachbarn. '-en' steht nur nach einem Artikel (die netten Nachbarn)."
+          },
+          {
+            "id": "l9e05",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Zeitadverb.",
+            "prompt": "Die Bäckerin arbeitet nachts und schläft deshalb ___.",
+            "options": [
+              "tagsüber",
+              "nachts",
+              "nächtlich"
+            ],
+            "solution": "tagsüber",
+            "hint": "Das Gegenteil von 'nachts'.",
+            "explanation": "'tagsüber' bedeutet 'während des Tages'. Wer nachts arbeitet, schläft tagsüber. 'nächtlich' ist ein Adjektiv (die nächtliche Ruhe)."
+          },
+          {
+            "id": "l9e06",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Wort.",
+            "prompt": "Wer die ganze Nacht nicht geschlafen hat, ist am nächsten Morgen ___.",
+            "options": [
+              "übernächtigt",
+              "ausgeschlafen",
+              "tagsüber"
+            ],
+            "solution": "übernächtigt",
+            "hint": "Wie fühlt man sich nach einer Nacht ohne Schlaf?",
+            "explanation": "'übernächtigt' heißt: müde, weil man zu wenig geschlafen hat. 'ausgeschlafen' ist das Gegenteil, 'tagsüber' ist ein Zeitadverb."
+          },
+          {
+            "id": "l9e07",
+            "type": "multiple-choice",
+            "instruction": "Wähle die richtige Adjektivendung.",
+            "prompt": "Das ist ein ___ Problem.",
+            "options": [
+              "großes",
+              "großer",
+              "großen"
+            ],
+            "solution": "großes",
+            "hint": "Unbestimmter Artikel 'ein' + neutrales Nomen im Nominativ.",
+            "explanation": "Nach 'ein' (Nominativ neutral) zeigt das Adjektiv das Genus: ein großes Problem. '-er' wäre maskulin (ein großer Baum)."
+          },
+          {
+            "id": "l9e08",
+            "type": "multiple-choice",
+            "instruction": "Wähle die richtige Adjektivendung.",
+            "prompt": "Das ___ Problem ist der Lärm von der Baustelle.",
+            "options": [
+              "große",
+              "großes",
+              "großen"
+            ],
+            "solution": "große",
+            "hint": "Nach dem bestimmten Artikel zeigt der Artikel schon das Genus.",
+            "explanation": "Nach 'das' (Nominativ) endet das Adjektiv auf -e: das große Problem. '-es' braucht man nur ohne Artikel oder nach 'ein'."
+          },
+          {
+            "id": "l9e09",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze 'tief' mit der richtigen Endung.",
+            "prompt": "Nach einer langen Nachtschicht braucht Jonas ___ Schlaf.",
+            "solution": "tiefen",
+            "hint": "Akkusativ maskulin, kein Artikel.",
+            "explanation": "'brauchen' + Akkusativ; ohne Artikel übernimmt das Adjektiv die Endung von 'den': tiefen Schlaf."
+          },
+          {
+            "id": "l9e10",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze 'stark' mit der richtigen Endung.",
+            "prompt": "Mit ___ Kaffee kommt Jonas durch die Nacht.",
+            "solution": "starkem",
+            "hint": "'mit' + Dativ, maskulin, kein Artikel.",
+            "explanation": "'mit' verlangt den Dativ. Ohne Artikel hat das Adjektiv die Endung von 'dem': starkem Kaffee."
+          },
+          {
+            "id": "l9e11",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze 'hell' mit der richtigen Endung.",
+            "prompt": "___ Licht stört mich beim Einschlafen.",
+            "solution": "Helles",
+            "hint": "Nominativ neutral, kein Artikel.",
+            "explanation": "'Licht' ist neutral und hier Subjekt (Nominativ). Ohne Artikel endet das Adjektiv wie 'das': helles Licht."
+          },
+          {
+            "id": "l9e12",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze 'warm' mit der richtigen Endung.",
+            "prompt": "Während des Stromausfalls saßen wir bei ___ Kerzenlicht im Treppenhaus.",
+            "solution": "warmem",
+            "hint": "'bei' + Dativ, neutral, kein Artikel.",
+            "explanation": "'bei' verlangt den Dativ; 'das Kerzenlicht' ist neutral. Ohne Artikel: warmem Kerzenlicht (wie 'dem')."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l9m01",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz aus den Bausteinen.",
+            "prompt": "Bringe die Bausteine in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Tagsüber",
+              "ist",
+              "es",
+              "in",
+              "unserer",
+              "Straße",
+              "sehr",
+              "laut"
+            ],
+            "solution": "Tagsüber ist es in unserer Straße sehr laut.",
+            "hint": "Das Zeitadverb steht auf Position 1.",
+            "explanation": "Steht 'Tagsüber' auf Position 1, folgt direkt das Verb 'ist' und dann das Subjekt 'es'."
+          },
+          {
+            "id": "l9m02",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz aus den Bausteinen.",
+            "prompt": "Bringe die Bausteine in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Nachts",
+              "hört",
+              "man",
+              "nur",
+              "den",
+              "Wind"
+            ],
+            "solution": "Nachts hört man nur den Wind.",
+            "hint": "Zeitadverb vorne, dann Verb.",
+            "explanation": "'Nachts' steht auf Position 1, das Verb 'hört' auf Position 2, danach das Subjekt 'man'."
+          },
+          {
+            "id": "l9m03",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz aus den Bausteinen.",
+            "prompt": "Bringe die Bausteine in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Frische",
+              "Luft",
+              "hilft",
+              "mir",
+              "beim",
+              "Einschlafen"
+            ],
+            "solution": "Frische Luft hilft mir beim Einschlafen.",
+            "hint": "Das Subjekt ohne Artikel steht vorne.",
+            "explanation": "'Frische Luft' ist das Subjekt (Nominativ feminin ohne Artikel: -e). Das Verb 'hilft' steht auf Position 2."
+          },
+          {
+            "id": "l9m04",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz aus den Bausteinen.",
+            "prompt": "Bringe die Bausteine in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Das",
+              "Hostel",
+              "bietet",
+              "ruhige",
+              "Zimmer",
+              "mit",
+              "kleinem",
+              "Balkon"
+            ],
+            "solution": "Das Hostel bietet ruhige Zimmer mit kleinem Balkon.",
+            "hint": "Akkusativ Plural ohne Artikel: -e; 'mit' + Dativ maskulin ohne Artikel: -em.",
+            "explanation": "Ohne Artikel zeigt das Adjektiv den Kasus: 'ruhige Zimmer' (Akkusativ Plural, wie 'die') und 'mit kleinem Balkon' (Dativ maskulin, wie 'dem'). Das Verb 'bietet' steht auf Position 2."
+          },
+          {
+            "id": "l9m05",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz aus den Bausteinen.",
+            "prompt": "Bringe die Bausteine in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Bei",
+              "starkem",
+              "Regen",
+              "fällt",
+              "der",
+              "Strom",
+              "aus"
+            ],
+            "solution": "Bei starkem Regen fällt der Strom aus.",
+            "hint": "Trennbares Verb: Präfix am Ende.",
+            "explanation": "'Bei starkem Regen' (Dativ ohne Artikel: -em) steht auf Position 1, dann das Verb 'fällt'; das Präfix 'aus' steht am Satzende."
+          },
+          {
+            "id": "l9m06",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze die Adjektivendung.",
+            "prompt": "Sie wünscht sich ___ (ruhig) Nachbarn.",
+            "solution": "ruhige",
+            "hint": "Akkusativ Plural ohne Artikel.",
+            "explanation": "Im Akkusativ Plural ohne Artikel endet das Adjektiv auf -e (wie 'die'): ruhige Nachbarn."
+          },
+          {
+            "id": "l9m07",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze die Adjektivendung.",
+            "prompt": "Wir sitzen bei ___ (gut) Musik auf dem Balkon.",
+            "solution": "guter",
+            "hint": "'bei' + Dativ, feminin, kein Artikel.",
+            "explanation": "'die Musik' ist feminin; im Dativ ohne Artikel endet das Adjektiv wie 'der': guter Musik."
+          },
+          {
+            "id": "l9m08",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze die Adjektivendung.",
+            "prompt": "Ein ___ (lang) Arbeitstag liegt hinter ihm.",
+            "solution": "langer",
+            "hint": "'ein' + maskulin, Nominativ.",
+            "explanation": "Nach 'ein' zeigt der Artikel das Genus nicht (ein = maskulin oder neutral), deshalb übernimmt das Adjektiv die Endung: ein langer Arbeitstag."
+          },
+          {
+            "id": "l9m09",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze die Adjektivendung.",
+            "prompt": "Der ___ (lang) Arbeitstag ist endlich vorbei.",
+            "solution": "lange",
+            "hint": "Bestimmter Artikel, Nominativ Singular.",
+            "explanation": "Nach dem bestimmten Artikel 'der' (Nominativ) endet das Adjektiv auf -e: der lange Arbeitstag."
+          },
+          {
+            "id": "l9m10",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze die Adjektivendung.",
+            "prompt": "In ___ (dunkel) Räumen schlafe ich am besten.",
+            "solution": "dunklen",
+            "hint": "Dativ Plural ohne Artikel; bei 'dunkel' fällt ein -e- weg.",
+            "explanation": "Im Dativ Plural endet das Adjektiv ohne Artikel auf -en (wie 'den'). Bei 'dunkel' fällt das -e- vor der Endung weg: dunklen."
+          },
+          {
+            "id": "l9m11",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze die Adjektivendung.",
+            "prompt": "Mit einem ___ (alt) Radio hören wir nachts Musik.",
+            "solution": "alten",
+            "hint": "Nach 'einem' (Dativ) …",
+            "explanation": "Nach 'einem' ist der Dativ schon sichtbar, deshalb endet das Adjektiv auf -en: mit einem alten Radio."
+          },
+          {
+            "id": "l9m12",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze die Adjektivendung.",
+            "prompt": "Für meinen Tee brauche ich ___ (heiß) Wasser.",
+            "solution": "heißes",
+            "hint": "Akkusativ neutral ohne Artikel.",
+            "explanation": "'das Wasser' ist neutral; im Akkusativ ohne Artikel endet das Adjektiv wie 'das': heißes Wasser."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l9h01",
+            "type": "targeted-transformation",
+            "instruction": "Lass den Artikel vor dem Adjektiv weg und passe die Adjektivendung an. Ändere sonst nichts.",
+            "prompt": "Der frische Kaffee hilft gegen Müdigkeit.",
+            "solution": "Frischer Kaffee hilft gegen Müdigkeit.",
+            "hint": "Ohne Artikel trägt das Adjektiv die Artikel-Endung.",
+            "explanation": "Ohne Artikel muss das Adjektiv den Kasus zeigen: der → -er. Also: frischer Kaffee (Nominativ maskulin)."
+          },
+          {
+            "id": "l9h02",
+            "type": "targeted-transformation",
+            "instruction": "Lass den Artikel vor dem Adjektiv weg und passe die Adjektivendung an. Ändere sonst nichts.",
+            "prompt": "Ich trinke den heißen Tee gern vor dem Schlafen.",
+            "solution": "Ich trinke heißen Tee gern vor dem Schlafen.",
+            "hint": "Akkusativ maskulin: Ändert sich die Endung?",
+            "explanation": "Im Akkusativ maskulin endet das Adjektiv mit und ohne Artikel auf -en: den heißen Tee → heißen Tee."
+          },
+          {
+            "id": "l9h03",
+            "type": "targeted-transformation",
+            "instruction": "Lass den Artikel vor dem Adjektiv weg und passe die Adjektivendung an. Ändere sonst nichts.",
+            "prompt": "Mit dem kalten Wasser wasche ich mein Gesicht.",
+            "solution": "Mit kaltem Wasser wasche ich mein Gesicht.",
+            "hint": "Dativ neutral ohne Artikel: wie 'dem'.",
+            "explanation": "Ohne Artikel übernimmt das Adjektiv die Dativ-Endung -em: mit kaltem Wasser."
+          },
+          {
+            "id": "l9h04",
+            "type": "targeted-transformation",
+            "instruction": "Lass den Artikel vor dem Adjektiv weg und passe die Adjektivendung an. Ändere sonst nichts.",
+            "prompt": "Das gute Essen macht glücklich.",
+            "solution": "Gutes Essen macht glücklich.",
+            "hint": "Nominativ neutral ohne Artikel: wie 'das'.",
+            "explanation": "Ohne Artikel zeigt das Adjektiv das neutrale Genus mit -es: gutes Essen."
+          },
+          {
+            "id": "l9h05",
+            "type": "targeted-transformation",
+            "instruction": "Lass den Artikel vor dem Adjektiv weg und passe die Adjektivendung an. Ändere sonst nichts.",
+            "prompt": "Die netten Nachbarn helfen immer.",
+            "solution": "Nette Nachbarn helfen immer.",
+            "hint": "Nominativ Plural ohne Artikel: wie 'die'.",
+            "explanation": "Nach 'die' (Plural) endet das Adjektiv auf -en, ohne Artikel dagegen auf -e: nette Nachbarn."
+          },
+          {
+            "id": "l9h06",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Schreibe den ganzen Satz.",
+            "prompt": "Bei schlechtes Wetter bleiben wir zu Hause.",
+            "solution": "Bei schlechtem Wetter bleiben wir zu Hause.",
+            "hint": "Welchen Kasus verlangt 'bei'?",
+            "explanation": "'bei' steht mit dem Dativ. Ohne Artikel endet das Adjektiv im Dativ neutral auf -em: bei schlechtem Wetter."
+          },
+          {
+            "id": "l9h07",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Schreibe den ganzen Satz.",
+            "prompt": "Er arbeitet nachts und schläft tagsüber in ein dunkles Zimmer.",
+            "solution": "Er arbeitet nachts und schläft tagsüber in einem dunklen Zimmer.",
+            "hint": "Schlafen: Wo? oder Wohin?",
+            "explanation": "'schlafen' beschreibt einen Ort (Wo?) – nach 'in' steht der Dativ: in einem dunklen Zimmer. Nach 'einem' endet das Adjektiv auf -en."
+          },
+          {
+            "id": "l9h08",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler, ohne ein Wort hinzuzufügen. Schreibe den ganzen Satz.",
+            "prompt": "Wir suchen eine Wohnung mit großen Balkon.",
+            "solution": "Wir suchen eine Wohnung mit großem Balkon.",
+            "hint": "'mit' + Dativ maskulin ohne Artikel.",
+            "explanation": "Ohne Artikel trägt das Adjektiv die Dativ-Endung von 'dem': mit großem Balkon. '-en' wäre nur nach einem Artikel richtig (mit einem großen Balkon) – ein Artikel soll hier aber nicht ergänzt werden."
+          },
+          {
+            "id": "l9h09",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler, ohne ein Wort hinzuzufügen. Schreibe den ganzen Satz.",
+            "prompt": "Ich wünsche mir ruhigen Nächte.",
+            "solution": "Ich wünsche mir ruhige Nächte.",
+            "hint": "Akkusativ Plural ohne Artikel.",
+            "explanation": "Im Akkusativ Plural ohne Artikel endet das Adjektiv auf -e (wie 'die'): ruhige Nächte."
+          },
+          {
+            "id": "l9h10",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Schreibe den ganzen Satz.",
+            "prompt": "Hinter dem Haus liegt ein großes Park.",
+            "solution": "Hinter dem Haus liegt ein großer Park.",
+            "hint": "Welches Genus hat 'Park'?",
+            "explanation": "'der Park' ist maskulin. Nach 'ein' im Nominativ maskulin endet das Adjektiv auf -er: ein großer Park. '-es' gehört zu neutralen Nomen."
+          },
+          {
+            "id": "l9h11",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Schreibe den ganzen Satz.",
+            "prompt": "Mit viel Geduld und gutem Laune schafft man alles.",
+            "solution": "Mit viel Geduld und guter Laune schafft man alles.",
+            "hint": "'die Laune' ist feminin.",
+            "explanation": "'mit' + Dativ; 'Laune' ist feminin, deshalb endet das Adjektiv ohne Artikel auf -er (wie 'der'): guter Laune. '-em' gibt es nur bei maskulin/neutral."
+          },
+          {
+            "id": "l9h12",
+            "type": "targeted-transformation",
+            "instruction": "Setze das Subjekt in den Plural ohne Artikel.",
+            "prompt": "Auf dem Dach steht eine alte Antenne.",
+            "solution": "Auf dem Dach stehen alte Antennen.",
+            "hint": "Plural ohne Artikel: Adjektiv auf -e; auch das Verb ändert sich.",
+            "explanation": "Ohne Artikel endet das Adjektiv im Nominativ Plural auf -e: alte Antennen. Das Verb passt sich dem Plural an: stehen."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l9t01",
+          "type": "multiple-choice",
+          "instruction": "Wähle die richtige Adjektivendung.",
+          "prompt": "Nach ___ Arbeit freue ich mich auf mein Bett.",
+          "options": [
+            "langer",
+            "langen",
+            "lange",
+            "langem"
+          ],
+          "solution": "langer",
+          "explanation": "'nach' verlangt Dativ; 'die Arbeit' ist feminin. Ohne Artikel übernimmt das Adjektiv die Endung von 'der' (Dativ feminin): nach langer Arbeit. '-en' stünde nur nach einem Artikel ('nach der langen Arbeit')."
+        },
+        {
+          "id": "l9t02",
+          "type": "multiple-choice",
+          "instruction": "Wähle die richtige Adjektivendung.",
+          "prompt": "Im Winter trage ich nachts ___ Socken.",
+          "options": [
+            "dicke",
+            "dicken",
+            "dicker",
+            "dickes"
+          ],
+          "solution": "dicke",
+          "explanation": "'die Socken' im Akkusativ Plural ohne Artikel → Endung wie 'die': dicke Socken. '-en' gäbe es nur nach dem Artikel ('die dicken Socken')."
+        },
+        {
+          "id": "l9t03",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Zeitadverb.",
+          "prompt": "Die Baustelle vor unserem Haus ist ___ laut, aber nachts ist es endlich ruhig.",
+          "options": [
+            "tagsüber",
+            "nachts",
+            "nie",
+            "gestern"
+          ],
+          "solution": "tagsüber",
+          "explanation": "'tagsüber' bedeutet 'während des Tages' und bildet den Gegensatz zu 'nachts'. 'nachts' widerspricht dem zweiten Teil, 'nie laut' passt nicht zu 'endlich ruhig', und 'gestern' passt nicht zum Präsens 'ist'."
+        },
+        {
+          "id": "l9t04",
+          "type": "multiple-choice",
+          "instruction": "Wähle die richtige Adjektivendung.",
+          "prompt": "Wir wohnen jetzt in einer ___ Seitenstraße.",
+          "options": [
+            "ruhigen",
+            "ruhige",
+            "ruhiger",
+            "ruhigem"
+          ],
+          "solution": "ruhigen",
+          "explanation": "Nach dem unbestimmten Artikel im Dativ ('einer') bekommt das Adjektiv '-en'. Ohne Artikel wäre es 'in ruhiger Seitenstraße' – der Artikel trägt hier schon das Signal."
+        },
+        {
+          "id": "l9t05",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze das Adjektiv in Klammern mit der richtigen Endung.",
+          "prompt": "Nach der Nachtschicht schlafe ich nur mit ___ Vorhängen. (dick)",
+          "solution": "dicken",
+          "explanation": "'mit' verlangt Dativ; 'die Vorhänge' im Dativ Plural ohne Artikel → Endung wie 'den': mit dicken Vorhängen."
+        },
+        {
+          "id": "l9t06",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze das Adjektiv in Klammern mit der richtigen Endung.",
+          "prompt": "___ Musik aus der Nachbarwohnung hält mich wach. (laut)",
+          "solution": "Laute",
+          "explanation": "'die Musik' ist Subjekt (Nominativ feminin). Ohne Artikel zeigt das Adjektiv das Signal von 'die': laute Musik."
+        },
+        {
+          "id": "l9t07",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze das Adjektiv in Klammern mit der richtigen Endung.",
+          "prompt": "___ Frühstück ist nach der Nachtschicht besonders wichtig. (warm)",
+          "solution": "Warmes",
+          "explanation": "'das Frühstück' ist Subjekt (Nominativ neutral). Ohne Artikel übernimmt das Adjektiv das Signal von 'das': warmes Frühstück. Mit Artikel wäre es 'das warme Frühstück'."
+        },
+        {
+          "id": "l9t08",
+          "type": "cloze-conjugation",
+          "instruction": "Setze das Verb in der angegebenen Form ein.",
+          "prompt": "Letzte Nacht ___ ich wegen des Gewitters dreimal auf. (aufwachen, Präteritum)",
+          "solution": "wachte",
+          "explanation": "'aufwachen' ist regelmäßig und trennbar: wachen – wachte – aufgewacht. Im Präteritum steht 'wachte' auf Position 2, 'auf' am Satzende."
+        },
+        {
+          "id": "l9t09",
+          "type": "cloze-conjugation",
+          "instruction": "Setze das Verb in der angegebenen Form ein.",
+          "prompt": "Wie ___ du bei diesem Baustellenlärm überhaupt ein? (einschlafen, Präsens)",
+          "solution": "schläfst",
+          "explanation": "'schlafen' hat im Präsens einen Vokalwechsel bei du/er: du schläfst. 'ein' steht als trennbares Präfix am Ende."
+        },
+        {
+          "id": "l9t10",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz aus den Teilen.",
+          "prompt": "Beginne mit 'Nachts'.",
+          "scrambleChunks": [
+            "Nachts",
+            "arbeitet",
+            "sie",
+            "im Krankenhaus."
+          ],
+          "solution": "Nachts arbeitet sie im Krankenhaus.",
+          "explanation": "Das Zeitadverb 'Nachts' steht auf Position 1, dann folgt das Verb 'arbeitet'. Das Subjekt-Pronomen 'sie' steht direkt nach dem Verb."
+        },
+        {
+          "id": "l9t11",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz aus den Teilen.",
+          "prompt": "Beginne mit 'Tagsüber'.",
+          "scrambleChunks": [
+            "Tagsüber",
+            "trinke",
+            "ich",
+            "viel",
+            "kaltes Wasser."
+          ],
+          "solution": "Tagsüber trinke ich viel kaltes Wasser.",
+          "explanation": "'Tagsüber' auf Position 1, Verb auf Position 2, dann das Subjekt 'ich'. 'viel' steht vor 'kaltes Wasser'; ohne Artikel trägt das Adjektiv die Endung von 'das': kaltes Wasser."
+        },
+        {
+          "id": "l9t12",
+          "type": "targeted-transformation",
+          "instruction": "Schreibe den Satz ohne Artikel (Plural nicht verwenden).",
+          "prompt": "Das frische Obst vom Markt ist gesund.",
+          "solution": "Frisches Obst vom Markt ist gesund.",
+          "explanation": "Ohne Artikel übernimmt das Adjektiv das Signal von 'das': frisches Obst. Mit bestimmtem Artikel hatte es nur '-e'."
+        },
+        {
+          "id": "l9t13",
+          "type": "targeted-transformation",
+          "instruction": "Schreibe den Satz ohne Artikel.",
+          "prompt": "Er schläft nur bei einem offenen Fenster.",
+          "solution": "Er schläft nur bei offenem Fenster.",
+          "explanation": "Dativ neutral ohne Artikel → '-em' (wie 'dem'). Nach 'einem' reicht '-en', weil der Artikel das Signal schon trägt."
+        },
+        {
+          "id": "l9t14",
+          "type": "error-correction",
+          "instruction": "Finde den Fehler und schreibe den ganzen Satz richtig.",
+          "prompt": "Wir wünschen euch eine gute Nacht und süßen Träume.",
+          "solution": "Wir wünschen euch eine gute Nacht und süße Träume.",
+          "explanation": "'die Träume' ist Akkusativ Plural ohne Artikel → Endung wie 'die': süße Träume. '-en' wäre nur nach einem Artikel richtig ('die süßen Träume')."
+        },
+        {
+          "id": "l9t15",
+          "type": "error-correction",
+          "instruction": "Finde den Fehler und schreibe den ganzen Satz richtig.",
+          "prompt": "Zum Frühstück gibt es tagein, tagaus Brot mit frischen Käse.",
+          "solution": "Zum Frühstück gibt es tagein, tagaus Brot mit frischem Käse.",
+          "explanation": "'mit' + Dativ, 'der Käse' ohne Artikel → frischem Käse (wie 'dem'). '-en' wäre nur nach einem Artikel richtig ('mit dem frischen Käse')."
+        }
+      ]
+    }
+  ]
+}
