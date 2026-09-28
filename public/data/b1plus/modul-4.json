@@ -1,0 +1,2438 @@
+{
+  "modulId": "b1plus-m4",
+  "level": "B1+",
+  "modulNumber": 4,
+  "title": "Rund um die Arbeit",
+  "lektionen": [
+    {
+      "lektionId": "b1plus-m4-l10",
+      "level": "B1+",
+      "modulNumber": 4,
+      "lektionNumber": 10,
+      "title": "Was machen Sie so beruflich?",
+      "grammarFocus": [
+        "Genitiv: Artikel und Endung -s/-es (auch n-Deklination)",
+        "Präpositionen mit Genitiv: trotz, während, wegen, dank, aufgrund, infolge",
+        "innerhalb/außerhalb + Genitiv",
+        "Berufe und Tätigkeiten"
+      ],
+      "vocabulary": [
+        {
+          "id": "l10v01",
+          "term": "der Beruf",
+          "translation": "la profesión",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Berufe",
+          "example": "Welchen Beruf möchtest du später einmal ausüben?"
+        },
+        {
+          "id": "l10v02",
+          "term": "der Erzieher",
+          "translation": "el educador (infantil)",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Erzieher",
+          "example": "Der Erzieher liest den Kindern jeden Mittag eine Geschichte vor."
+        },
+        {
+          "id": "l10v03",
+          "term": "der Pfleger",
+          "translation": "el enfermero / el cuidador",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Pfleger",
+          "example": "Der Pfleger misst bei allen Patienten zweimal am Tag den Blutdruck."
+        },
+        {
+          "id": "l10v04",
+          "term": "der Programmierer",
+          "translation": "el programador",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Programmierer",
+          "example": "Die Programmierer testen die neue App seit Montag."
+        },
+        {
+          "id": "l10v05",
+          "term": "der Berater",
+          "translation": "el asesor",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Berater",
+          "example": "Ein unabhängiger Berater hat uns bei der Versicherung geholfen."
+        },
+        {
+          "id": "l10v06",
+          "term": "die Schicht",
+          "translation": "el turno",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Schichten",
+          "example": "Meine Schwester arbeitet diese Woche in der Schicht von 6 bis 14 Uhr."
+        },
+        {
+          "id": "l10v07",
+          "term": "der Feierabend",
+          "translation": "el fin de la jornada laboral",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Feierabende",
+          "example": "Nach Feierabend geht Ole gern mit seinem Hund spazieren."
+        },
+        {
+          "id": "l10v08",
+          "term": "das Gehalt",
+          "translation": "el sueldo",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Gehälter",
+          "example": "Im zweiten Jahr steigt das Gehalt um fünf Prozent."
+        },
+        {
+          "id": "l10v09",
+          "term": "der Betrieb",
+          "translation": "la empresa / el negocio",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Betriebe",
+          "example": "Der kleine Betrieb bildet jedes Jahr zwei junge Leute aus."
+        },
+        {
+          "id": "l10v10",
+          "term": "die Besprechung",
+          "translation": "la reunión",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Besprechungen",
+          "example": "Die Besprechung am Freitag dauert höchstens eine halbe Stunde."
+        },
+        {
+          "id": "l10v11",
+          "term": "die Fortbildung",
+          "translation": "la formación continua",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Fortbildungen",
+          "example": "Die Firma bezahlt allen Angestellten zwei Fortbildungen pro Jahr."
+        },
+        {
+          "id": "l10v12",
+          "term": "der Vertrag",
+          "translation": "el contrato",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Verträge",
+          "example": "Bitte lesen Sie den Vertrag genau, bevor Sie unterschreiben."
+        },
+        {
+          "id": "l10v13",
+          "term": "die Probezeit",
+          "translation": "el período de prueba",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Probezeiten",
+          "example": "Die Probezeit dauert bei uns sechs Monate."
+        },
+        {
+          "id": "l10v14",
+          "term": "das Arbeitsklima",
+          "translation": "el ambiente de trabajo",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "example": "In unserer Abteilung ist das Arbeitsklima sehr angenehm."
+        },
+        {
+          "id": "l10v15",
+          "term": "beraten",
+          "translation": "asesorar",
+          "partOfSpeech": "verb",
+          "preterite": "beriet",
+          "participle": "beraten",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Die Apothekerin berät ihre Kundschaft sehr geduldig."
+        },
+        {
+          "id": "l10v16",
+          "term": "betreuen",
+          "translation": "atender / cuidar",
+          "partOfSpeech": "verb",
+          "preterite": "betreute",
+          "participle": "betreut",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Im Sommer betreut Kemal eine Gruppe von Jugendlichen im Ferienlager."
+        },
+        {
+          "id": "l10v17",
+          "term": "verschreiben",
+          "translation": "recetar",
+          "partOfSpeech": "verb",
+          "preterite": "verschrieb",
+          "participle": "verschrieben",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Der Hausarzt hat mir ein Mittel gegen Husten verschrieben."
+        },
+        {
+          "id": "l10v18",
+          "term": "verhandeln",
+          "translation": "negociar",
+          "partOfSpeech": "verb",
+          "preterite": "verhandelte",
+          "participle": "verhandelt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Die Gewerkschaft verhandelt mit den Arbeitgebern über höhere Löhne."
+        },
+        {
+          "id": "l10v19",
+          "term": "teilnehmen",
+          "translation": "participar",
+          "partOfSpeech": "verb",
+          "preterite": "nahm teil",
+          "participle": "teilgenommen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Nächste Woche nehme ich an einem Erste-Hilfe-Kurs teil."
+        },
+        {
+          "id": "l10v20",
+          "term": "ausüben",
+          "translation": "ejercer",
+          "partOfSpeech": "verb",
+          "preterite": "übte aus",
+          "participle": "ausgeübt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Seit zwanzig Jahren übt sie ihren Beruf mit Begeisterung aus."
+        },
+        {
+          "id": "l10v21",
+          "term": "trotz",
+          "translation": "a pesar de (+ genitivo)",
+          "partOfSpeech": "phrase",
+          "example": "Trotz des Gewitters fand das Konzert im Park statt."
+        },
+        {
+          "id": "l10v22",
+          "term": "während",
+          "translation": "durante (+ genitivo)",
+          "partOfSpeech": "phrase",
+          "example": "Während des Studiums hat Pia in einem Café gejobbt."
+        },
+        {
+          "id": "l10v23",
+          "term": "dank",
+          "translation": "gracias a (+ genitivo)",
+          "partOfSpeech": "phrase",
+          "example": "Dank der neuen Maschine geht die Arbeit viel schneller."
+        },
+        {
+          "id": "l10v24",
+          "term": "aufgrund",
+          "translation": "debido a (+ genitivo)",
+          "partOfSpeech": "phrase",
+          "example": "Aufgrund der hohen Nachfrage stellt die Bäckerei zwei Verkäufer ein."
+        },
+        {
+          "id": "l10v25",
+          "term": "innerhalb",
+          "translation": "dentro de (+ genitivo)",
+          "partOfSpeech": "phrase",
+          "example": "Die Reparatur ist innerhalb eines Tages erledigt."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l10e01",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Präposition.",
+            "prompt": "___ der großen Hitze arbeiteten die Bauarbeiter ohne Pause weiter.",
+            "options": [
+              "Trotz",
+              "Dank",
+              "Innerhalb",
+              "Wegen"
+            ],
+            "solution": "Trotz",
+            "hint": "Die Hitze spricht eigentlich gegen das Weiterarbeiten.",
+            "explanation": "'trotz' + Genitiv drückt einen Gegengrund aus: Etwas passiert, obwohl etwas dagegen spricht. 'wegen' und 'dank' nennen einen Grund, 'innerhalb' einen Zeitraum – beides passt hier nicht."
+          },
+          {
+            "id": "l10e02",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Präposition.",
+            "prompt": "Der Programmierer arbeitet am liebsten ___ der Mittagspause, weil es dann im Büro ganz ruhig ist.",
+            "options": [
+              "während",
+              "infolge",
+              "dank"
+            ],
+            "solution": "während",
+            "hint": "Gesucht ist eine Zeitangabe.",
+            "explanation": "'während' + Genitiv bedeutet 'in der Zeit von'. 'infolge' nennt eine Folge, 'dank' einen positiven Grund – beides ergibt hier keinen Sinn."
+          },
+          {
+            "id": "l10e03",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Präposition.",
+            "prompt": "___ ihrer guten Sprachkenntnisse bekam Frau Okafor die Stelle sofort.",
+            "options": [
+              "Dank",
+              "Trotz",
+              "Während",
+              "Außerhalb"
+            ],
+            "solution": "Dank",
+            "hint": "Die Sprachkenntnisse sind ein positiver Grund.",
+            "explanation": "'dank' + Genitiv nennt einen Grund mit positiver Wirkung. 'trotz' wäre ein Gegengrund – gute Sprachkenntnisse sprechen aber nicht gegen die Stelle."
+          },
+          {
+            "id": "l10e04",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Präposition.",
+            "prompt": "Bitte schicken Sie uns die unterschriebenen Unterlagen ___ einer Woche zurück.",
+            "options": [
+              "innerhalb",
+              "außerhalb",
+              "trotz",
+              "während"
+            ],
+            "solution": "innerhalb",
+            "hint": "Es geht um eine Frist.",
+            "explanation": "'innerhalb' + Genitiv gibt einen Zeitraum an, in dem etwas passieren muss (eine Frist). 'außerhalb' bedeutet 'nicht in diesem Zeitraum', 'während' beschreibt Gleichzeitigkeit, keine Frist."
+          },
+          {
+            "id": "l10e05",
+            "type": "multiple-choice",
+            "instruction": "Wähle den richtigen Artikel im Genitiv.",
+            "prompt": "Über die Höhe ___ Gehalts sprechen wir erst im zweiten Gespräch.",
+            "options": [
+              "des",
+              "der",
+              "dem",
+              "den"
+            ],
+            "solution": "des",
+            "hint": "'das Gehalt' ist neutral.",
+            "explanation": "Maskuline und neutrale Nomen haben im Genitiv den Artikel 'des' und die Endung -s/-es: des Gehalts. 'der' wäre Genitiv feminin oder Plural, 'dem' ist Dativ, 'den' Akkusativ."
+          },
+          {
+            "id": "l10e06",
+            "type": "multiple-choice",
+            "instruction": "Wähle den richtigen Artikel im Genitiv.",
+            "prompt": "Die Hilfsbereitschaft ___ Kolleginnen hat mir den Start leicht gemacht.",
+            "options": [
+              "der",
+              "des",
+              "den",
+              "die"
+            ],
+            "solution": "der",
+            "hint": "'Kolleginnen' ist Plural.",
+            "explanation": "Im Genitiv Plural lautet der bestimmte Artikel 'der': die Hilfsbereitschaft der Kolleginnen. 'des' gibt es nur bei maskulinen und neutralen Nomen im Singular."
+          },
+          {
+            "id": "l10e07",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze den bestimmten Artikel im Genitiv.",
+            "prompt": "Der Parkplatz ___ Betriebs ist leider immer voll.",
+            "solution": "des",
+            "hint": "'der Betrieb' ist maskulin.",
+            "explanation": "Maskulin im Genitiv: des + Nomen mit -s/-es (des Betriebs). Den Artikel 'der' hat der Genitiv nur bei femininen Nomen und im Plural."
+          },
+          {
+            "id": "l10e08",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze die Genitivendung.",
+            "prompt": "Die Länge des ersten Satz___ im Anschreiben stört die Personalchefin.",
+            "solution": "es",
+            "hint": "Das Nomen endet auf -z.",
+            "explanation": "Maskuline und neutrale Nomen auf -s, -ß, -x, -z bekommen im Genitiv -es: des Satzes. Nur -s ist hier nicht möglich, weil man 'Satzs' nicht aussprechen könnte."
+          },
+          {
+            "id": "l10e09",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze die Genitivendung.",
+            "prompt": "Die Vorschläge des neuen Kolleg___ finde ich wirklich gut.",
+            "solution": "en",
+            "hint": "'der Kollege' gehört zur n-Deklination.",
+            "explanation": "Nomen der n-Deklination (der Kollege, der Kunde, der Praktikant) haben außer im Nominativ Singular überall die Endung -(e)n, auch im Genitiv: des Kollegen. Ein Genitiv-s bekommen sie nicht."
+          },
+          {
+            "id": "l10e10",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze den bestimmten Artikel.",
+            "prompt": "Wegen ___ Nachtschicht war Herr Brandt am Morgen sehr müde.",
+            "solution": "der",
+            "hint": "'wegen' steht mit Genitiv; 'die Nachtschicht' ist feminin.",
+            "explanation": "Nach 'wegen' steht in der geschriebenen Standardsprache der Genitiv. Feminine Nomen haben im Genitiv den Artikel 'der': wegen der Nachtschicht. 'die' wäre Nominativ/Akkusativ."
+          },
+          {
+            "id": "l10e11",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Präposition.",
+            "prompt": "___ eines Unfalls auf der Autobahn kamen viele Mitarbeiter zu spät.",
+            "options": [
+              "Infolge",
+              "Trotz",
+              "Innerhalb",
+              "Dank"
+            ],
+            "solution": "Infolge",
+            "hint": "Der Unfall ist die Ursache, und die Folge ist negativ.",
+            "explanation": "'infolge' + Genitiv nennt eine Ursache, aus der eine (meist negative) Folge entsteht. 'dank' passt nur bei positiven Folgen, 'trotz' drückt einen Gegengrund aus, 'innerhalb' einen Zeitraum."
+          },
+          {
+            "id": "l10e12",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Verb.",
+            "prompt": "Nach der Schule ___ ein Student unsere beiden Töchter, bis wir von der Arbeit kommen.",
+            "options": [
+              "betreut",
+              "verschreibt",
+              "verhandelt",
+              "programmiert"
+            ],
+            "solution": "betreut",
+            "hint": "Was macht man mit Kindern, wenn die Eltern nicht da sind?",
+            "explanation": "Kinder 'betreut' man: Man passt auf sie auf und kümmert sich um sie. Medikamente 'verschreibt' eine Ärztin, Verträge 'verhandelt' man, Apps 'programmiert' man – keines davon passt zu 'Töchter'."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l10m01",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Trotz des Stresses",
+              "arbeitet",
+              "Lena",
+              "gern",
+              "in der Klinik."
+            ],
+            "solution": "Trotz des Stresses arbeitet Lena gern in der Klinik.",
+            "hint": "Die Präpositionalgruppe steht auf Position 1.",
+            "explanation": "Eine Präpositionalgruppe mit Genitiv (Trotz des Stresses) kann Position 1 besetzen. Dann folgt das Verb auf Position 2 und das Subjekt direkt danach."
+          },
+          {
+            "id": "l10m02",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Während der Besprechung",
+              "macht",
+              "der Teamleiter",
+              "Notizen."
+            ],
+            "solution": "Während der Besprechung macht der Teamleiter Notizen.",
+            "hint": "Verb auf Position 2, Subjekt danach.",
+            "explanation": "'Während der Besprechung' ist eine Zeitangabe auf Position 1. Das konjugierte Verb 'macht' steht auf Position 2, das Subjekt folgt direkt nach dem Verb."
+          },
+          {
+            "id": "l10m03",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Wegen der vielen Überstunden",
+              "ist",
+              "Herr Kaya",
+              "oft müde."
+            ],
+            "solution": "Wegen der vielen Überstunden ist Herr Kaya oft müde.",
+            "hint": "Beginne mit dem Grund.",
+            "explanation": "Nach 'wegen' steht der Genitiv (Plural: der vielen Überstunden). Steht die Angabe vorne, rückt das Subjekt hinter das Verb."
+          },
+          {
+            "id": "l10m04",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Dank der neuen Software",
+              "spart",
+              "das Team",
+              "viel Zeit."
+            ],
+            "solution": "Dank der neuen Software spart das Team viel Zeit.",
+            "hint": "Verb-zweit-Regel beachten.",
+            "explanation": "'Dank der neuen Software' (Genitiv feminin) steht auf Position 1, das Verb 'spart' auf Position 2, dann das Subjekt 'das Team'."
+          },
+          {
+            "id": "l10m05",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Die Qualität",
+              "des Kaffees",
+              "im Pausenraum",
+              "ist",
+              "deutlich besser geworden."
+            ],
+            "solution": "Die Qualität des Kaffees im Pausenraum ist deutlich besser geworden.",
+            "hint": "Das Genitivattribut steht direkt hinter seinem Nomen.",
+            "explanation": "Ein Genitivattribut folgt direkt auf das Nomen, das es näher bestimmt: die Qualität des Kaffees. Das ganze Subjekt (die Qualität des Kaffees im Pausenraum) steht auf Position 1, das Hilfsverb 'ist' auf Position 2, das Partizip 'geworden' am Satzende."
+          },
+          {
+            "id": "l10m06",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Innerhalb der Probezeit",
+              "kann",
+              "man",
+              "kurzfristig kündigen."
+            ],
+            "solution": "Innerhalb der Probezeit kann man kurzfristig kündigen.",
+            "hint": "Modalverb auf Position 2, Infinitiv am Ende.",
+            "explanation": "'innerhalb' + Genitiv (der Probezeit) steht vorne. Das Modalverb 'kann' steht auf Position 2, der Infinitiv 'kündigen' am Ende."
+          },
+          {
+            "id": "l10m07",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb in Klammern.",
+            "prompt": "Die Ärztin ___ (verschreiben, Präsens) dem Patienten ein Mittel gegen die Schmerzen.",
+            "solution": "verschreibt",
+            "hint": "3. Person Singular Präsens.",
+            "explanation": "'verschreiben' ist untrennbar (Präfix ver-) und hat im Präsens keinen Vokalwechsel: sie verschreibt."
+          },
+          {
+            "id": "l10m08",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb in Klammern.",
+            "prompt": "Gestern ___ (beraten, Präteritum) der Berater zwei neue Kundinnen.",
+            "solution": "beriet",
+            "hint": "Unregelmäßiges Verb: raten – riet.",
+            "explanation": "'beraten' bildet das Präteritum wie 'raten': beriet. Die Form 'beratete' gibt es nicht."
+          },
+          {
+            "id": "l10m09",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb in Klammern.",
+            "prompt": "Letzte Woche ___ (teilnehmen, Präteritum) unsere ganze Abteilung an einer Schulung teil.",
+            "solution": "nahm",
+            "hint": "Trennbares Verb: Das Präfix steht schon am Satzende.",
+            "explanation": "'teilnehmen' ist trennbar und unregelmäßig (nehmen – nahm). Im Hauptsatz steht 'nahm' auf Position 2, 'teil' am Satzende."
+          },
+          {
+            "id": "l10m10",
+            "type": "cloze-conjugation",
+            "instruction": "Setze die Nomengruppe in den Genitiv.",
+            "prompt": "Wegen ___ (das schlechte Wetter) fiel das Betriebsfest aus.",
+            "solution": "des schlechten Wetters",
+            "hint": "Neutral: Artikel, Adjektiv und Nomen ändern sich.",
+            "explanation": "Genitiv neutral: des + Adjektiv mit -en + Nomen mit -s: des schlechten Wetters. Nach dem Artikel 'des' hat das Adjektiv immer die Endung -en."
+          },
+          {
+            "id": "l10m11",
+            "type": "cloze-conjugation",
+            "instruction": "Setze die Nomengruppe in den Genitiv.",
+            "prompt": "Trotz ___ (die hohe Miete) wohnt die Pflegerin in der Innenstadt.",
+            "solution": "der hohen Miete",
+            "hint": "Feminin im Genitiv: der …",
+            "explanation": "Genitiv feminin: der + Adjektiv mit -en + Nomen ohne Endung: der hohen Miete. Feminine Nomen bekommen im Genitiv kein -s."
+          },
+          {
+            "id": "l10m12",
+            "type": "cloze-conjugation",
+            "instruction": "Setze die Nomengruppe in den Genitiv.",
+            "prompt": "Während ___ (die Einarbeitung) hilft mir eine erfahrene Kollegin.",
+            "solution": "der Einarbeitung",
+            "hint": "'während' + Genitiv, 'die Einarbeitung' ist feminin.",
+            "explanation": "'während' verlangt den Genitiv. Feminine Nomen: der Einarbeitung – ohne Endung am Nomen."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l10h01",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze den weil-Satz durch 'wegen' + Genitiv mit bestimmtem Artikel. Beginne mit 'Wegen' und behalte die Zeitform.",
+            "prompt": "Weil der Regen stark war, kam der Handwerker zu spät.",
+            "solution": "Wegen des starken Regens kam der Handwerker zu spät.",
+            "hint": "Aus 'stark' wird ein Adjektiv vor dem Nomen.",
+            "explanation": "Aus dem Nebensatz wird eine Nomengruppe im Genitiv: der Regen ist stark → des starken Regens. Nach 'des' endet das Adjektiv auf -en, das Nomen bekommt -s. Danach folgt direkt das Verb."
+          },
+          {
+            "id": "l10h02",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze den obwohl-Satz durch 'trotz' + Genitiv mit bestimmtem Artikel. Beginne mit 'Trotz' und behalte die Zeitform.",
+            "prompt": "Obwohl die Bezahlung schlecht ist, bleibt Jonas in der Firma.",
+            "solution": "Trotz der schlechten Bezahlung bleibt Jonas in der Firma.",
+            "hint": "'obwohl' → 'trotz'; 'die Bezahlung' ist feminin.",
+            "explanation": "'obwohl' (Nebensatz) entspricht 'trotz' + Genitiv. Feminin: der schlechten Bezahlung. Nach der Präpositionalgruppe steht das Verb auf Position 2."
+          },
+          {
+            "id": "l10h03",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze den Nebensatz durch 'während' + Genitiv mit bestimmtem Artikel. Beginne mit 'Während'.",
+            "prompt": "Während die Konferenz stattfand, schaltete Frau Petrović ihr Handy aus.",
+            "solution": "Während der Konferenz schaltete Frau Petrović ihr Handy aus.",
+            "hint": "'während' kann Konnektor oder Präposition sein.",
+            "explanation": "Als Präposition verlangt 'während' den Genitiv: während der Konferenz. Das Verb 'stattfinden' fällt weg; das Hauptverb 'schaltete' rückt auf Position 2."
+          },
+          {
+            "id": "l10h04",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze den weil-Satz durch 'dank' + Genitiv mit bestimmtem Artikel. Beginne mit 'Dank' und behalte die Zeitform.",
+            "prompt": "Weil die Einarbeitung gut war, fand sich Tim schnell zurecht.",
+            "solution": "Dank der guten Einarbeitung fand sich Tim schnell zurecht.",
+            "hint": "Der Grund ist positiv.",
+            "explanation": "'dank' nennt einen positiven Grund und steht mit Genitiv: der guten Einarbeitung (feminin, Adjektiv auf -en)."
+          },
+          {
+            "id": "l10h05",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze den weil-Satz durch 'aufgrund' + Genitiv mit bestimmtem Artikel. Beginne mit 'Aufgrund' und behalte die Zeitform.",
+            "prompt": "Weil die Nachfrage groß ist, sucht die Firma neue Programmierer.",
+            "solution": "Aufgrund der großen Nachfrage sucht die Firma neue Programmierer.",
+            "hint": "'aufgrund' ist etwas formeller als 'wegen'.",
+            "explanation": "'aufgrund' + Genitiv nennt einen Grund, typisch für die Schriftsprache: aufgrund der großen Nachfrage. Das Verb folgt direkt auf Position 2."
+          },
+          {
+            "id": "l10h06",
+            "type": "error-correction",
+            "instruction": "Finde den Fehler und schreibe den Satz richtig.",
+            "prompt": "Innerhalb dem Gebäude ist das Rauchen verboten.",
+            "solution": "Innerhalb des Gebäudes ist das Rauchen verboten.",
+            "hint": "Welchen Kasus verlangt 'innerhalb'?",
+            "explanation": "'innerhalb' steht mit Genitiv: des Gebäudes. Neutrale Nomen bekommen im Genitiv -s oder -es; bei 'Gebäude' (Endung -e) nur -s. 'dem' ist Dativ."
+          },
+          {
+            "id": "l10h07",
+            "type": "error-correction",
+            "instruction": "Finde den Fehler und schreibe den Satz richtig.",
+            "prompt": "Trotz dem dichten Verkehr kamen alle Gäste pünktlich zum Firmenfest.",
+            "solution": "Trotz des dichten Verkehrs kamen alle Gäste pünktlich zum Firmenfest.",
+            "hint": "In der Standardsprache steht nach 'trotz' der Genitiv.",
+            "explanation": "'trotz' verlangt im geschriebenen Standarddeutsch den Genitiv: des dichten Verkehrs (maskulin: Artikel 'des', Adjektiv auf -en, Nomen auf -s). 'trotz dem' mit Dativ ist nur umgangssprachlich."
+          },
+          {
+            "id": "l10h08",
+            "type": "error-correction",
+            "instruction": "Finde den Fehler und schreibe den Satz richtig.",
+            "prompt": "Wegen dem Fehler im System konnte niemand E-Mails verschicken.",
+            "solution": "Wegen des Fehlers im System konnte niemand E-Mails verschicken.",
+            "hint": "Genitiv maskulin: Artikel und Nomen ändern sich.",
+            "explanation": "Nach 'wegen' steht in der Standardsprache der Genitiv: des Fehlers. Nomen auf -er bekommen nur -s."
+          },
+          {
+            "id": "l10h09",
+            "type": "error-correction",
+            "instruction": "Finde den Fehler und schreibe den Satz richtig.",
+            "prompt": "Während des Praktikum hat Sofia sehr viel gelernt.",
+            "solution": "Während des Praktikums hat Sofia sehr viel gelernt.",
+            "hint": "Achte auf die Endung des Nomens.",
+            "explanation": "Im Genitiv maskulin und neutral braucht nicht nur der Artikel, sondern auch das Nomen eine Endung: des Praktikums."
+          },
+          {
+            "id": "l10h10",
+            "type": "error-correction",
+            "instruction": "Finde den Fehler und schreibe den Satz richtig.",
+            "prompt": "Die Meinung des Kundes ist uns sehr wichtig.",
+            "solution": "Die Meinung des Kunden ist uns sehr wichtig.",
+            "hint": "'der Kunde' gehört zur n-Deklination.",
+            "explanation": "Nomen der n-Deklination bekommen im Genitiv -n statt -s: des Kunden. 'Kundes' gibt es nicht."
+          },
+          {
+            "id": "l10h11",
+            "type": "error-correction",
+            "instruction": "Finde den Fehler und schreibe den Satz richtig.",
+            "prompt": "Dank die Unterstützung ihres Teams erreichte die Managerin ihr Ziel.",
+            "solution": "Dank der Unterstützung ihres Teams erreichte die Managerin ihr Ziel.",
+            "hint": "Nach 'dank' steht nicht der Akkusativ.",
+            "explanation": "'dank' steht mit Genitiv (feminin: der Unterstützung). 'die' ist Nominativ oder Akkusativ und nach 'dank' falsch."
+          },
+          {
+            "id": "l10h12",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze den Nebensatz durch 'außerhalb' + Genitiv mit bestimmtem Artikel. Beginne mit 'Außerhalb'; 'Arbeitszeit' bleibt im Singular.",
+            "prompt": "Wenn die Arbeitszeit vorbei ist, beantwortet Frau Lindner keine E-Mails.",
+            "solution": "Außerhalb der Arbeitszeit beantwortet Frau Lindner keine E-Mails.",
+            "hint": "'die Arbeitszeit' ist feminin.",
+            "explanation": "'außerhalb' + Genitiv bedeutet 'nicht in diesem Zeitraum/Bereich': außerhalb der Arbeitszeit. Danach steht das Verb auf Position 2."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l10t01",
+          "type": "multiple-choice",
+          "instruction": "Wähle die passende Präposition.",
+          "prompt": "___ der Nachtschicht trinkt die Pflegerin viel Kaffee, um wach zu bleiben.",
+          "options": [
+            "Während",
+            "Trotz",
+            "Dank",
+            "Außerhalb"
+          ],
+          "solution": "Während",
+          "explanation": "'Während' + Genitiv nennt einen Zeitraum: in der Zeit der Nachtschicht trinkt sie Kaffee. 'Trotz' (Gegensatz), 'dank' (positiver Grund) und 'außerhalb' (nicht in der Schicht – dann muss sie nicht wach bleiben) passen inhaltlich nicht."
+        },
+        {
+          "id": "l10t02",
+          "type": "multiple-choice",
+          "instruction": "Wähle den richtigen Artikel.",
+          "prompt": "Das Büro ___ Beraters liegt im zweiten Stock.",
+          "options": [
+            "des",
+            "dem",
+            "der",
+            "den"
+          ],
+          "solution": "des",
+          "explanation": "Genitiv maskulin: 'des' + Nomen mit -s (des Beraters). 'dem' ist Dativ, 'den' Akkusativ."
+        },
+        {
+          "id": "l10t03",
+          "type": "multiple-choice",
+          "instruction": "Wähle die richtige Form.",
+          "prompt": "Die Ideen des ___ haben wir sofort umgesetzt. (der Praktikant)",
+          "options": [
+            "Praktikanten",
+            "Praktikants",
+            "Praktikant",
+            "Praktikantens"
+          ],
+          "solution": "Praktikanten",
+          "explanation": "'Praktikant' gehört zur n-Deklination (wie Student, Kunde, Kollege): Im Genitiv bekommt es -en, nicht -s: des Praktikanten. Formen mit -s sind hier falsch."
+        },
+        {
+          "id": "l10t04",
+          "type": "multiple-choice",
+          "instruction": "Wähle die passende Präposition.",
+          "prompt": "___ einer Fortbildung kann Mia jetzt auch Firmenkunden betreuen.",
+          "options": [
+            "Dank",
+            "Trotz",
+            "Während",
+            "Außerhalb"
+          ],
+          "solution": "Dank",
+          "explanation": "'Dank' + Genitiv nennt einen positiven Grund: Die Fortbildung hat ihr geholfen. 'Trotz' wäre ein Gegensatz, 'während' passt nicht zu 'jetzt'."
+        },
+        {
+          "id": "l10t05",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze den unbestimmten Artikel im Genitiv.",
+          "prompt": "Die neue Filiale soll innerhalb ___ Jahres eröffnen.",
+          "solution": "eines",
+          "explanation": "'innerhalb' steht mit Genitiv. 'Jahr' ist neutral, Genitiv unbestimmt: eines Jahres (Nomen mit -es). 'ein' wäre Nominativ/Akkusativ, 'einem' Dativ."
+        },
+        {
+          "id": "l10t06",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze den bestimmten Artikel im Genitiv.",
+          "prompt": "Trotz ___ langen Arbeitswegs fährt Timo jeden Tag gern ins Büro.",
+          "solution": "des",
+          "explanation": "'Arbeitsweg' ist maskulin; Genitiv: des langen Arbeitswegs (Artikel des, Adjektiv -en, Nomen -s). 'dem' wäre Dativ – nach 'trotz' steht in der Standardsprache der Genitiv."
+        },
+        {
+          "id": "l10t07",
+          "type": "cloze-conjugation",
+          "instruction": "Ergänze das Verb im Präsens.",
+          "prompt": "Frau Özdemir ___ seit vielen Jahren kleine Handwerksbetriebe. (beraten)",
+          "solution": "berät",
+          "explanation": "'beraten' hat in der 3. Person Singular einen Vokalwechsel: er/sie berät (nicht 'beratet')."
+        },
+        {
+          "id": "l10t08",
+          "type": "cloze-conjugation",
+          "instruction": "Ergänze das Verb im Präteritum.",
+          "prompt": "Vor seiner Rente ___ Herr Braun fast vierzig Jahre den Beruf des Tischlers aus. (ausüben)",
+          "solution": "übte",
+          "explanation": "'ausüben' ist regelmäßig und trennbar: Präteritum 'übte … aus'. In die Lücke kommt nur der konjugierte Teil 'übte'; das Präfix 'aus' steht schon am Satzende."
+        },
+        {
+          "id": "l10t09",
+          "type": "sentence-scramble",
+          "instruction": "Ordne die Satzteile. Beginne mit 'Wegen'.",
+          "prompt": "Bilde einen korrekten Satz aus den Teilen.",
+          "scrambleChunks": [
+            "Wegen",
+            "des",
+            "Streiks",
+            "fällt",
+            "die",
+            "Besprechung",
+            "aus."
+          ],
+          "solution": "Wegen des Streiks fällt die Besprechung aus.",
+          "explanation": "'wegen' + Genitiv (des Streiks) steht auf Position 1, danach folgt direkt das Verb (Position 2), das Präfix 'aus' steht am Ende."
+        },
+        {
+          "id": "l10t10",
+          "type": "sentence-scramble",
+          "instruction": "Ordne die Satzteile. Beginne mit 'Während'.",
+          "prompt": "Bilde einen korrekten Satz aus den Teilen.",
+          "scrambleChunks": [
+            "Während",
+            "des",
+            "Umbaus",
+            "arbeiten",
+            "alle",
+            "im",
+            "Homeoffice."
+          ],
+          "solution": "Während des Umbaus arbeiten alle im Homeoffice.",
+          "explanation": "'während des Umbaus' (Genitiv maskulin: des + -s) ist Position 1, dann kommt das konjugierte Verb 'arbeiten' auf Position 2, danach das Subjekt 'alle'."
+        },
+        {
+          "id": "l10t11",
+          "type": "targeted-transformation",
+          "instruction": "Ersetze den weil-Satz durch 'wegen' + Genitiv. Beginne mit 'Wegen der Krankheit …'.",
+          "prompt": "Die Werkstatt bleibt geschlossen, weil der Chef krank ist.",
+          "solution": "Wegen der Krankheit des Chefs bleibt die Werkstatt geschlossen.",
+          "explanation": "Aus 'weil der Chef krank ist' wird eine Nominalgruppe: die Krankheit des Chefs (Genitiv maskulin mit -s). Nach 'Wegen …' auf Position 1 folgt das Verb."
+        },
+        {
+          "id": "l10t12",
+          "type": "targeted-transformation",
+          "instruction": "Ersetze den obwohl-Satz durch 'trotz' + Genitiv. Verwende das Nomen 'seine Erfahrung'.",
+          "prompt": "Obwohl er viel Erfahrung hatte, bekam Herr Wolf die Stelle nicht.",
+          "solution": "Trotz seiner Erfahrung bekam Herr Wolf die Stelle nicht.",
+          "explanation": "'trotz' + Genitiv: seine Erfahrung (feminin) → seiner Erfahrung. Die Präpositionalgruppe steht auf Position 1, danach folgt direkt das Verb 'bekam', dann das Subjekt 'Herr Wolf'."
+        },
+        {
+          "id": "l10t13",
+          "type": "targeted-transformation",
+          "instruction": "Ersetze den Nebensatz durch 'während' + Genitiv. Verwende 'seine Ausbildung'.",
+          "prompt": "Während er eine Ausbildung machte, wohnte Emil bei seinen Eltern.",
+          "solution": "Während seiner Ausbildung wohnte Emil bei seinen Eltern.",
+          "explanation": "Präposition 'während' + Genitiv: seine Ausbildung → seiner Ausbildung (feminin). Danach folgt direkt das Verb 'wohnte'."
+        },
+        {
+          "id": "l10t14",
+          "type": "error-correction",
+          "instruction": "Finde den Fehler und schreibe den ganzen Satz richtig.",
+          "prompt": "Aufgrund dem großen Mangel an Fachkräften sucht die Klinik Pfleger im Ausland.",
+          "solution": "Aufgrund des großen Mangels an Fachkräften sucht die Klinik Pfleger im Ausland.",
+          "explanation": "'aufgrund' verlangt den Genitiv: des großen Mangels (maskulin: Artikel des, Adjektiv -en, Nomen -s). 'dem großen Mangel' ist Dativ und nach 'aufgrund' falsch."
+        },
+        {
+          "id": "l10t15",
+          "type": "error-correction",
+          "instruction": "Finde den Fehler und schreibe den ganzen Satz richtig.",
+          "prompt": "Die Arbeit des Programmierer ist sehr abwechslungsreich.",
+          "solution": "Die Arbeit des Programmierers ist sehr abwechslungsreich.",
+          "explanation": "Maskuline Nomen bekommen im Genitiv Singular ein -s: des Programmierers. 'Programmierer' gehört nicht zur n-Deklination."
+        }
+      ]
+    },
+    {
+      "lektionId": "b1plus-m4-l11",
+      "level": "B1+",
+      "modulNumber": 4,
+      "lektionNumber": 11,
+      "title": "Ein neuer Job",
+      "grammarFocus": [
+        "Nomen aus Adjektiven: -heit, -keit, -ität, -schaft",
+        "Bewerbung: Anschreiben, Lebenslauf, Vorstellungsgespräch",
+        "Smalltalk mit Kolleginnen und Kollegen"
+      ],
+      "vocabulary": [
+        {
+          "id": "l11v01",
+          "term": "die Bewerbung",
+          "translation": "la solicitud de empleo",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Bewerbungen",
+          "example": "Bis Freitag muss meine Bewerbung bei der Stadtbibliothek sein."
+        },
+        {
+          "id": "l11v02",
+          "term": "sich bewerben",
+          "translation": "presentar una solicitud (para)",
+          "partOfSpeech": "verb",
+          "preterite": "bewarb sich",
+          "participle": "sich beworben",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Samira bewirbt sich um eine Stelle als Laborantin."
+        },
+        {
+          "id": "l11v03",
+          "term": "die Stellenanzeige",
+          "translation": "la oferta de empleo",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Stellenanzeigen",
+          "example": "Die Stellenanzeige habe ich auf der Webseite des Hotels gefunden."
+        },
+        {
+          "id": "l11v04",
+          "term": "die Stelle",
+          "translation": "el puesto",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Stellen",
+          "example": "Die Stelle ist ab dem ersten März frei."
+        },
+        {
+          "id": "l11v05",
+          "term": "das Anschreiben",
+          "translation": "la carta de presentación",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Anschreiben",
+          "example": "Im Anschreiben erkläre ich kurz, warum mich die Arbeit reizt."
+        },
+        {
+          "id": "l11v06",
+          "term": "der Lebenslauf",
+          "translation": "el currículum",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Lebensläufe",
+          "example": "Mein Lebenslauf ist nur zwei Seiten lang."
+        },
+        {
+          "id": "l11v07",
+          "term": "das Vorstellungsgespräch",
+          "translation": "la entrevista de trabajo",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Vorstellungsgespräche",
+          "example": "Vor dem Vorstellungsgespräch war Diego ziemlich nervös."
+        },
+        {
+          "id": "l11v08",
+          "term": "die Erfahrung",
+          "translation": "la experiencia",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Erfahrungen",
+          "example": "Im Ausland habe ich wichtige Erfahrungen gesammelt."
+        },
+        {
+          "id": "l11v09",
+          "term": "das Netzwerk",
+          "translation": "la red de contactos",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Netzwerke",
+          "example": "Über ihr berufliches Netzwerk hat Ines den neuen Job bekommen."
+        },
+        {
+          "id": "l11v10",
+          "term": "knüpfen",
+          "translation": "establecer (contactos)",
+          "partOfSpeech": "verb",
+          "preterite": "knüpfte",
+          "participle": "geknüpft",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Auf der Messe hat Paul viele neue Kontakte geknüpft."
+        },
+        {
+          "id": "l11v11",
+          "term": "hochladen",
+          "translation": "subir (un archivo)",
+          "partOfSpeech": "verb",
+          "preterite": "lud hoch",
+          "participle": "hochgeladen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Bitte laden Sie Ihre Zeugnisse als PDF hoch."
+        },
+        {
+          "id": "l11v12",
+          "term": "verfassen",
+          "translation": "redactar",
+          "partOfSpeech": "verb",
+          "preterite": "verfasste",
+          "participle": "verfasst",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Die Journalistin verfasst jeden Tag einen kurzen Kommentar."
+        },
+        {
+          "id": "l11v13",
+          "term": "angeben",
+          "translation": "indicar",
+          "partOfSpeech": "verb",
+          "preterite": "gab an",
+          "participle": "angegeben",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Im Formular muss man seine Telefonnummer angeben."
+        },
+        {
+          "id": "l11v14",
+          "term": "begegnen",
+          "translation": "encontrarse (con alguien)",
+          "partOfSpeech": "verb",
+          "preterite": "begegnete",
+          "participle": "begegnet",
+          "auxiliary": "sein",
+          "irregular": false,
+          "example": "Im Treppenhaus bin ich heute der neuen Nachbarin begegnet."
+        },
+        {
+          "id": "l11v15",
+          "term": "die Flexibilität",
+          "translation": "la flexibilidad",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "In der Gastronomie ist Flexibilität besonders wichtig."
+        },
+        {
+          "id": "l11v16",
+          "term": "die Lernbereitschaft",
+          "translation": "la disposición para aprender",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Die Chefin schätzt die Lernbereitschaft ihrer Auszubildenden."
+        },
+        {
+          "id": "l11v17",
+          "term": "die Zuverlässigkeit",
+          "translation": "la fiabilidad",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Zuverlässigkeit ist im Rettungsdienst unverzichtbar."
+        },
+        {
+          "id": "l11v18",
+          "term": "die Belastbarkeit",
+          "translation": "la resistencia al estrés",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Die Arbeit in der Notaufnahme verlangt große Belastbarkeit."
+        },
+        {
+          "id": "l11v19",
+          "term": "teamfähig",
+          "translation": "capaz de trabajar en equipo",
+          "partOfSpeech": "adjective",
+          "example": "Wir suchen eine teamfähige Kollegin für unser Labor."
+        },
+        {
+          "id": "l11v20",
+          "term": "verantwortungsbewusst",
+          "translation": "responsable",
+          "partOfSpeech": "adjective",
+          "example": "Als Busfahrer muss man sehr verantwortungsbewusst sein."
+        },
+        {
+          "id": "l11v21",
+          "term": "belastbar",
+          "translation": "resistente al estrés",
+          "partOfSpeech": "adjective",
+          "example": "Auch in der Hochsaison bleibt unser Koch belastbar und gut gelaunt."
+        },
+        {
+          "id": "l11v22",
+          "term": "zuverlässig",
+          "translation": "fiable",
+          "partOfSpeech": "adjective",
+          "example": "Mein Nachbar ist zuverlässig und gießt immer meine Blumen."
+        },
+        {
+          "id": "l11v23",
+          "term": "kreativ",
+          "translation": "creativo",
+          "partOfSpeech": "adjective",
+          "example": "Für die Schaufenster suchen wir eine kreative Dekorateurin."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l11e01",
+            "type": "multiple-choice",
+            "instruction": "Wähle das richtige Nomen.",
+            "prompt": "Wer sich schnell auf neue Situationen einstellen kann, zeigt ___.",
+            "options": [
+              "Flexibilität",
+              "Flexibelheit",
+              "Flexibelkeit",
+              "Flexibelschaft"
+            ],
+            "solution": "Flexibilität",
+            "hint": "Adjektive auf -ibel/-el aus dem Lateinischen …",
+            "explanation": "Adjektive mit lateinischer Herkunft (flexibel, kreativ, mobil) bilden das Nomen meist mit -ität: die Flexibilität. Dabei wird aus -ibel die Form -ibil-. -heit, -keit und -schaft passen hier nicht."
+          },
+          {
+            "id": "l11e02",
+            "type": "multiple-choice",
+            "instruction": "Wähle das richtige Nomen.",
+            "prompt": "Unsere neue Kollegin hält jede Absprache ein. Ihre ___ schätzen alle.",
+            "options": [
+              "Zuverlässigkeit",
+              "Zuverlässigheit",
+              "Zuverlässität",
+              "Zuverlässigschaft"
+            ],
+            "solution": "Zuverlässigkeit",
+            "hint": "Das Adjektiv endet auf -ig.",
+            "explanation": "Adjektive auf -ig, -lich, -bar und -sam bilden das Nomen mit -keit: zuverlässig → die Zuverlässigkeit."
+          },
+          {
+            "id": "l11e03",
+            "type": "multiple-choice",
+            "instruction": "Wähle das richtige Nomen.",
+            "prompt": "Herr Yilmaz lernt sehr gern Neues. Diese ___ gefällt seiner Chefin.",
+            "options": [
+              "Lernbereitschaft",
+              "Lernbereitheit",
+              "Lernbereitkeit",
+              "Lernbereitung"
+            ],
+            "solution": "Lernbereitschaft",
+            "hint": "bereit → die Bereitschaft",
+            "explanation": "Zu 'bereit' gehört das Nomen 'die Bereitschaft' (mit -schaft). Deshalb: lernbereit → die Lernbereitschaft, hilfsbereit → die Hilfsbereitschaft."
+          },
+          {
+            "id": "l11e04",
+            "type": "multiple-choice",
+            "instruction": "Wähle das richtige Nomen.",
+            "prompt": "In unserem Team zählt ___: Jeder sagt ehrlich, was er denkt.",
+            "options": [
+              "Offenheit",
+              "Offenkeit",
+              "Offenität",
+              "Offenschaft"
+            ],
+            "solution": "Offenheit",
+            "hint": "Die meisten einfachen Adjektive nehmen -heit.",
+            "explanation": "Viele einfache Adjektive (offen, sicher, frei, gesund) bilden das Nomen mit -heit: die Offenheit. -keit steht vor allem nach -ig, -lich, -bar, -sam."
+          },
+          {
+            "id": "l11e05",
+            "type": "fill-in-blank",
+            "instruction": "Bilde aus dem Adjektiv in Klammern das Nomen.",
+            "prompt": "Auch in stressigen Wochen bleibt Mia ruhig. Ihre ___ (belastbar) ist beeindruckend.",
+            "solution": "Belastbarkeit",
+            "hint": "Adjektive auf -bar …",
+            "explanation": "Adjektive auf -bar bilden das Nomen mit -keit: belastbar → die Belastbarkeit. Wie alle Nomen auf -keit ist es feminin."
+          },
+          {
+            "id": "l11e06",
+            "type": "fill-in-blank",
+            "instruction": "Bilde aus dem Adjektiv in Klammern das Nomen.",
+            "prompt": "Für den Job in der Werbeagentur braucht man viel ___ (kreativ).",
+            "solution": "Kreativität",
+            "hint": "Adjektive auf -iv …",
+            "explanation": "Adjektive auf -iv mit lateinischer Herkunft bilden das Nomen mit -ität: kreativ → die Kreativität."
+          },
+          {
+            "id": "l11e07",
+            "type": "fill-in-blank",
+            "instruction": "Bilde aus dem Adjektiv in Klammern das Nomen.",
+            "prompt": "Der Personalchef lobte die ___ (pünktlich) der Bewerberin.",
+            "solution": "Pünktlichkeit",
+            "hint": "Adjektive auf -lich …",
+            "explanation": "Adjektive auf -lich bilden das Nomen mit -keit: pünktlich → die Pünktlichkeit. 'Pünktlichheit' gibt es nicht."
+          },
+          {
+            "id": "l11e08",
+            "type": "fill-in-blank",
+            "instruction": "Bilde aus dem Adjektiv in Klammern das Nomen.",
+            "prompt": "In der Buchhaltung arbeitet man mit großer ___ (genau).",
+            "solution": "Genauigkeit",
+            "hint": "Hier kommt noch eine Silbe vor -keit dazu.",
+            "explanation": "Bei einigen Adjektiven steht vor -keit ein -ig-: genau → die Genauigkeit (ebenso: leicht → die Leichtigkeit)."
+          },
+          {
+            "id": "l11e09",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Wort.",
+            "prompt": "In meinem ___ stehen alle Stationen meiner Ausbildung und Berufserfahrung in einer Tabelle.",
+            "options": [
+              "Lebenslauf",
+              "Anschreiben",
+              "Vorstellungsgespräch",
+              "Stellenanzeige"
+            ],
+            "solution": "Lebenslauf",
+            "hint": "Welches Dokument ist tabellarisch?",
+            "explanation": "Der Lebenslauf listet Ausbildung und Berufsstationen in einer Tabelle auf. Das Anschreiben ist ein Brief, das Vorstellungsgespräch ein Gespräch, die Stellenanzeige kommt von der Firma."
+          },
+          {
+            "id": "l11e10",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Wort.",
+            "prompt": "Im ___ erkläre ich auf einer Seite, warum ich mich für die Stelle interessiere.",
+            "options": [
+              "Anschreiben",
+              "Lebenslauf",
+              "Zeugnis",
+              "Netzwerk"
+            ],
+            "solution": "Anschreiben",
+            "hint": "Welches Dokument ist ein persönlicher Brief?",
+            "explanation": "Im Anschreiben (einem Brief) begründet man seine Motivation. Lebenslauf und Zeugnis enthalten Daten und Bewertungen, ein Netzwerk ist kein Dokument."
+          },
+          {
+            "id": "l11e11",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Partizip.",
+            "prompt": "Ich habe alle Unterlagen im Online-Portal der Firma ___.",
+            "options": [
+              "hochgeladen",
+              "verfasst",
+              "geknüpft",
+              "begegnet"
+            ],
+            "solution": "hochgeladen",
+            "hint": "Dateien kommen ins Internet …",
+            "explanation": "Dateien lädt man in ein Portal hoch: hochgeladen. Einen Text 'verfasst' man, Kontakte 'knüpft' man, und 'begegnet' bildet das Perfekt mit 'sein'."
+          },
+          {
+            "id": "l11e12",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Partizip.",
+            "prompt": "Kennen wir uns schon? Ich glaube, wir sind uns bisher nur kurz im Aufzug ___.",
+            "options": [
+              "begegnet",
+              "getroffen",
+              "kennengelernt",
+              "vorgestellt"
+            ],
+            "solution": "begegnet",
+            "hint": "Achte auf das Hilfsverb 'sind'.",
+            "explanation": "'begegnen' bildet das Perfekt mit 'sein': Wir sind uns begegnet. 'getroffen', 'kennengelernt' und 'vorgestellt' bilden das Perfekt mit 'haben' (wir haben uns getroffen) und passen deshalb nicht zu 'sind'."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l11m01",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Ich",
+              "bewerbe",
+              "mich",
+              "um die Stelle",
+              "als Pflegefachkraft."
+            ],
+            "solution": "Ich bewerbe mich um die Stelle als Pflegefachkraft.",
+            "hint": "Das Reflexivpronomen steht direkt hinter dem Verb.",
+            "explanation": "Bei 'sich bewerben um' steht das Reflexivpronomen direkt nach dem konjugierten Verb: Ich bewerbe mich … Die Präposition 'um' leitet das Ziel ein."
+          },
+          {
+            "id": "l11m02",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "In der Bewerbung",
+              "sollte",
+              "man",
+              "seine Stärken",
+              "nennen."
+            ],
+            "solution": "In der Bewerbung sollte man seine Stärken nennen.",
+            "hint": "Modalverb auf Position 2, Infinitiv ans Ende.",
+            "explanation": "Satzklammer: Das Modalverb 'sollte' steht auf Position 2, der Infinitiv 'nennen' am Satzende. Das Subjekt 'man' folgt nach dem Verb, weil Position 1 besetzt ist."
+          },
+          {
+            "id": "l11m03",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Durch das Praktikum",
+              "habe",
+              "ich",
+              "meine Teamfähigkeit",
+              "verbessert."
+            ],
+            "solution": "Durch das Praktikum habe ich meine Teamfähigkeit verbessert.",
+            "hint": "Perfekt: Hilfsverb auf Position 2.",
+            "explanation": "Im Perfekt steht das Hilfsverb 'habe' auf Position 2 und das Partizip 'verbessert' am Ende. Das Subjekt 'ich' folgt direkt nach dem Hilfsverb."
+          },
+          {
+            "id": "l11m04",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Am Ende des Gesprächs",
+              "stellte",
+              "die Bewerberin",
+              "eigene Fragen."
+            ],
+            "solution": "Am Ende des Gesprächs stellte die Bewerberin eigene Fragen.",
+            "hint": "Zeitangabe vorne, dann das Verb.",
+            "explanation": "Die Zeitangabe 'Am Ende des Gesprächs' (mit Genitivattribut) steht auf Position 1, das Verb 'stellte' auf Position 2, danach das Subjekt."
+          },
+          {
+            "id": "l11m05",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz für das Ende eines Gesprächs.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Es war schön,",
+              "Sie",
+              "endlich persönlich",
+              "kennenzulernen."
+            ],
+            "solution": "Es war schön, Sie endlich persönlich kennenzulernen.",
+            "hint": "Der Infinitiv mit 'zu' steht am Ende.",
+            "explanation": "Nach 'Es war schön,' folgt ein Infinitivsatz: Ergänzungen zuerst (Sie, endlich persönlich), der Infinitiv mit 'zu' am Ende. Bei trennbaren Verben steht 'zu' zwischen Präfix und Verb: kennenzulernen. So verabschiedet man sich höflich im Smalltalk."
+          },
+          {
+            "id": "l11m06",
+            "type": "sentence-scramble",
+            "instruction": "Bilde eine höfliche Frage.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Könnten Sie",
+              "mir",
+              "den Weg zur Kantine",
+              "zeigen?"
+            ],
+            "solution": "Könnten Sie mir den Weg zur Kantine zeigen?",
+            "hint": "Ja/Nein-Frage: Das Verb steht vorne, das Pronomen früh.",
+            "explanation": "In einer höflichen Ja/Nein-Frage steht 'Könnten' auf Position 1, der Infinitiv 'zeigen' am Ende. Das Dativpronomen 'mir' steht vor der Akkusativergänzung mit Nomen (den Weg zur Kantine)."
+          },
+          {
+            "id": "l11m07",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb in Klammern.",
+            "prompt": "Letztes Jahr ___ (sich bewerben, Präteritum) sich Amir bei drei Firmen.",
+            "solution": "bewarb",
+            "hint": "Unregelmäßig: werben – warb.",
+            "explanation": "'bewerben' ist unregelmäßig: bewerben – bewarb – hat beworben. Die Form 'bewerbte' ist falsch."
+          },
+          {
+            "id": "l11m08",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb in Klammern.",
+            "prompt": "Ich ___ (hochladen, Präsens) meine Unterlagen gerade ins Portal hoch.",
+            "solution": "lade",
+            "hint": "Trennbares Verb: Das Präfix steht schon am Ende.",
+            "explanation": "'hochladen' ist trennbar. In der 1. Person Singular gibt es keinen Vokalwechsel: ich lade … hoch (aber: er lädt … hoch)."
+          },
+          {
+            "id": "l11m09",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb in Klammern.",
+            "prompt": "Auf Fachmessen ___ (knüpfen, Präsens) Jana immer neue Kontakte.",
+            "solution": "knüpft",
+            "hint": "3. Person Singular Präsens.",
+            "explanation": "'knüpfen' ist regelmäßig: sie knüpft. Das Subjekt 'Jana' steht nach dem Verb, weil 'Auf Fachmessen' Position 1 besetzt."
+          },
+          {
+            "id": "l11m10",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb in Klammern.",
+            "prompt": "In der Stellenanzeige ___ (angeben, Präsens) die Firma kein Gehalt an.",
+            "solution": "gibt",
+            "hint": "Trennbar und mit Vokalwechsel e → i.",
+            "explanation": "'angeben' ist trennbar; 'geben' wechselt in der 3. Person Singular den Vokal: sie gibt … an."
+          },
+          {
+            "id": "l11m11",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb in Klammern.",
+            "prompt": "Der Bewerber ___ (sich vorbereiten, Präteritum) sich gründlich auf das Gespräch vor.",
+            "solution": "bereitete",
+            "hint": "Regelmäßiges trennbares Verb; der Stamm endet auf -t.",
+            "explanation": "'vorbereiten' ist regelmäßig und trennbar. Weil der Stamm auf -t endet, braucht das Präteritum ein -e-: bereitete … vor."
+          },
+          {
+            "id": "l11m12",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb in Klammern.",
+            "prompt": "Gestern ___ (begegnen, Präteritum) wir uns zufällig in der Kantine.",
+            "solution": "begegneten",
+            "hint": "1. Person Plural Präteritum.",
+            "explanation": "'begegnen' ist regelmäßig. Nach dem Stamm auf -n (nach Konsonant) steht ein -e-: wir begegneten."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l11h01",
+            "type": "targeted-transformation",
+            "instruction": "Bilde den Satz mit dem Nomen. Verwende den Rahmen in Klammern.",
+            "prompt": "Frau Novak ist sehr zuverlässig. (Ihre … ist beeindruckend.)",
+            "solution": "Ihre Zuverlässigkeit ist beeindruckend.",
+            "hint": "Adjektiv auf -ig → Nomen auf …",
+            "explanation": "zuverlässig → die Zuverlässigkeit (-keit nach -ig). Das Nomen ist feminin, deshalb 'Ihre'."
+          },
+          {
+            "id": "l11h02",
+            "type": "targeted-transformation",
+            "instruction": "Bilde den Satz mit dem Nomen. Verwende den Rahmen in Klammern.",
+            "prompt": "Paul ist offen für neue Ideen. (Seine … für neue Ideen gefällt uns.)",
+            "solution": "Seine Offenheit für neue Ideen gefällt uns.",
+            "hint": "Einfaches Adjektiv → -heit",
+            "explanation": "offen → die Offenheit. Einfache Adjektive ohne typische Endung bekommen meist -heit."
+          },
+          {
+            "id": "l11h03",
+            "type": "targeted-transformation",
+            "instruction": "Bilde den Satz mit dem Nomen. Verwende den Rahmen in Klammern.",
+            "prompt": "Die Bewerberin ist sehr kreativ. (Ihre … hat die Jury überzeugt.)",
+            "solution": "Ihre Kreativität hat die Jury überzeugt.",
+            "hint": "Adjektiv auf -iv → …",
+            "explanation": "kreativ → die Kreativität. Lateinische Adjektive auf -iv/-ibel/-al bilden das Nomen mit -ität."
+          },
+          {
+            "id": "l11h04",
+            "type": "targeted-transformation",
+            "instruction": "Bilde den Satz mit dem Nomen. Verwende den Rahmen in Klammern.",
+            "prompt": "Der Praktikant ist hilfsbereit. (Seine … ist im ganzen Team bekannt.)",
+            "solution": "Seine Hilfsbereitschaft ist im ganzen Team bekannt.",
+            "hint": "bereit → die Bereitschaft",
+            "explanation": "Zusammensetzungen mit '-bereit' bilden das Nomen mit -schaft: hilfsbereit → die Hilfsbereitschaft."
+          },
+          {
+            "id": "l11h05",
+            "type": "targeted-transformation",
+            "instruction": "Bilde den Satz mit dem Nomen. Verwende den Rahmen in Klammern.",
+            "prompt": "Mein Kollege ist ehrlich. (Ich schätze seine … sehr.)",
+            "solution": "Ich schätze seine Ehrlichkeit sehr.",
+            "hint": "Adjektiv auf -lich …",
+            "explanation": "ehrlich → die Ehrlichkeit (-keit nach -lich). 'seine' steht im Akkusativ feminin und bleibt deshalb unverändert."
+          },
+          {
+            "id": "l11h06",
+            "type": "targeted-transformation",
+            "instruction": "Bilde den Satz mit dem Adjektiv. Verwende den Rahmen in Klammern.",
+            "prompt": "Der Kundenberater spricht mit großer Freundlichkeit. (Der Kundenberater spricht sehr … .)",
+            "solution": "Der Kundenberater spricht sehr freundlich.",
+            "hint": "Entferne die Nomen-Endung.",
+            "explanation": "Die Endung -keit fällt weg: die Freundlichkeit → freundlich. Als Adverb beim Verb bleibt das Adjektiv ohne Endung."
+          },
+          {
+            "id": "l11h07",
+            "type": "error-correction",
+            "instruction": "Finde den Fehler und schreibe den Satz richtig.",
+            "prompt": "Die Flexibelheit der Mitarbeiter ist uns sehr wichtig.",
+            "solution": "Die Flexibilität der Mitarbeiter ist uns sehr wichtig.",
+            "hint": "Lateinisches Adjektiv → besondere Endung.",
+            "explanation": "Zu 'flexibel' gehört das Nomen 'die Flexibilität' (-ität, aus -ibel wird -ibil-). 'Flexibelheit' gibt es nicht."
+          },
+          {
+            "id": "l11h08",
+            "type": "error-correction",
+            "instruction": "Finde den Fehler und schreibe den Satz richtig.",
+            "prompt": "Bei dieser Stelle zählt vor allem Teamfähigheit.",
+            "solution": "Bei dieser Stelle zählt vor allem Teamfähigkeit.",
+            "hint": "Das Adjektiv endet auf -ig.",
+            "explanation": "Nach -ig steht -keit, nicht -heit: teamfähig → die Teamfähigkeit."
+          },
+          {
+            "id": "l11h09",
+            "type": "error-correction",
+            "instruction": "Finde den Fehler und schreibe den Satz richtig.",
+            "prompt": "Der Chef lobt ihre Pünktlichheit.",
+            "solution": "Der Chef lobt ihre Pünktlichkeit.",
+            "hint": "Das Adjektiv endet auf -lich.",
+            "explanation": "Nach -lich steht -keit: pünktlich → die Pünktlichkeit."
+          },
+          {
+            "id": "l11h10",
+            "type": "error-correction",
+            "instruction": "Finde den Fehler und schreibe den Satz richtig.",
+            "prompt": "Der Sicherheit am Arbeitsplatz ist sehr wichtig.",
+            "solution": "Die Sicherheit am Arbeitsplatz ist sehr wichtig.",
+            "hint": "Welches Genus haben Nomen auf -heit?",
+            "explanation": "Alle Nomen auf -heit, -keit, -ität und -schaft sind feminin: die Sicherheit. Als Subjekt steht der Nominativ: 'die'."
+          },
+          {
+            "id": "l11h11",
+            "type": "error-correction",
+            "instruction": "Finde den Fehler und schreibe den Satz richtig.",
+            "prompt": "Ich habe mich bei die Firma Nordlicht beworben.",
+            "solution": "Ich habe mich bei der Firma Nordlicht beworben.",
+            "hint": "'bei' verlangt immer den Dativ.",
+            "explanation": "Die Präposition 'bei' steht mit Dativ: bei der Firma. 'die' ist Nominativ oder Akkusativ."
+          },
+          {
+            "id": "l11h12",
+            "type": "error-correction",
+            "instruction": "Finde den Fehler und schreibe den Satz richtig.",
+            "prompt": "Heute Morgen haben wir uns zufällig im Treppenhaus begegnet.",
+            "solution": "Heute Morgen sind wir uns zufällig im Treppenhaus begegnet.",
+            "hint": "Welches Hilfsverb braucht 'begegnen'?",
+            "explanation": "'begegnen' bildet das Perfekt mit 'sein': Wir sind uns begegnet. Mit 'haben' ginge nur ein anderes Verb, z. B. 'Wir haben uns getroffen'."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l11t01",
+          "type": "multiple-choice",
+          "instruction": "Welches Nomen passt zum Adjektiv 'zuverlässig'?",
+          "prompt": "zuverlässig → ___",
+          "options": [
+            "die Zuverlässigkeit",
+            "die Zuverlässigheit",
+            "die Zuverlässigschaft",
+            "die Zuverlässität"
+          ],
+          "solution": "die Zuverlässigkeit",
+          "explanation": "Adjektive auf -ig bilden das Nomen mit -keit: zuverlässig → die Zuverlässigkeit. Alle Nomen auf -keit sind feminin."
+        },
+        {
+          "id": "l11t02",
+          "type": "multiple-choice",
+          "instruction": "Welches Nomen passt zum Adjektiv 'flexibel'?",
+          "prompt": "flexibel → ___",
+          "options": [
+            "die Flexibilität",
+            "die Flexibelheit",
+            "die Flexibelkeit",
+            "die Flexibelschaft"
+          ],
+          "solution": "die Flexibilität",
+          "explanation": "Fremdwörter auf -el/-il bilden das Nomen oft mit -ität: flexibel → die Flexibilität, stabil → die Stabilität."
+        },
+        {
+          "id": "l11t03",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Wort.",
+          "prompt": "Jeden Morgen liest Olga im Internet ___, um eine passende Stelle zu finden.",
+          "options": [
+            "Stellenanzeigen",
+            "Lebensläufe",
+            "Anschreiben",
+            "Vorstellungsgespräche"
+          ],
+          "solution": "Stellenanzeigen",
+          "explanation": "In Stellenanzeigen beschreiben Firmen freie Stellen – dort sucht man einen Job. Lebensläufe und Anschreiben schreiben die Bewerber selbst, ein Vorstellungsgespräch führt man, man liest es nicht."
+        },
+        {
+          "id": "l11t04",
+          "type": "multiple-choice",
+          "instruction": "Welche Frage passt gut zum Smalltalk mit einer neuen Kollegin in der Kaffeeküche?",
+          "prompt": "Du triffst die neue Kollegin an ihrem dritten Arbeitstag.",
+          "options": [
+            "Und, wie gefällt es Ihnen bisher bei uns?",
+            "Wie viel verdienen Sie eigentlich?",
+            "Warum haben Sie Ihre letzte Stelle verloren?"
+          ],
+          "solution": "Und, wie gefällt es Ihnen bisher bei uns?",
+          "explanation": "Smalltalk bleibt locker und positiv. Fragen nach Gehalt oder nach einer Kündigung sind zu privat und unhöflich."
+        },
+        {
+          "id": "l11t05",
+          "type": "fill-in-blank",
+          "instruction": "Bilde das Nomen aus dem Adjektiv in Klammern.",
+          "prompt": "In der Notaufnahme ist die ___ des Personals besonders wichtig. (belastbar)",
+          "solution": "Belastbarkeit",
+          "explanation": "Adjektive auf -bar bilden das Nomen mit -keit: belastbar → die Belastbarkeit. Nomen schreibt man groß."
+        },
+        {
+          "id": "l11t06",
+          "type": "fill-in-blank",
+          "instruction": "Bilde das Nomen aus dem Adjektiv in Klammern.",
+          "prompt": "Im Kundenservice legen wir großen Wert auf die ___ unserer Mitarbeiter. (höflich)",
+          "solution": "Höflichkeit",
+          "explanation": "Adjektive auf -lich bilden das Nomen mit -keit: höflich → die Höflichkeit. '-heit' ist hier falsch."
+        },
+        {
+          "id": "l11t07",
+          "type": "fill-in-blank",
+          "instruction": "Bilde das Nomen aus dem Adjektiv in Klammern.",
+          "prompt": "Wir erwarten die ___, gelegentlich auch am Samstag zu arbeiten. (bereit)",
+          "solution": "Bereitschaft",
+          "explanation": "'bereit' bildet das Nomen mit -schaft: die Bereitschaft (wie die Lernbereitschaft). '-heit' passt hier nicht."
+        },
+        {
+          "id": "l11t08",
+          "type": "cloze-conjugation",
+          "instruction": "Ergänze das Verb im Präteritum.",
+          "prompt": "Die Spedition ___ Nadia letzte Woche zu einem Vorstellungsgespräch ein. (einladen)",
+          "solution": "lud",
+          "explanation": "'einladen' ist unregelmäßig und trennbar: einladen – lud … ein – hat eingeladen. In die Lücke kommt 'lud'; 'ladete' gibt es nicht, und 'ein' steht schon am Satzende."
+        },
+        {
+          "id": "l11t09",
+          "type": "cloze-conjugation",
+          "instruction": "Ergänze das Verb im Imperativ (Sie-Form).",
+          "prompt": "Bitte ___ Sie Ihren Lebenslauf bis Montag im Portal hoch. (hochladen)",
+          "solution": "laden",
+          "explanation": "Imperativ Sie-Form = Infinitivform + Sie: 'laden Sie … hoch'. Das trennbare Präfix 'hoch' steht am Satzende."
+        },
+        {
+          "id": "l11t10",
+          "type": "cloze-conjugation",
+          "instruction": "Ergänze das Hilfsverb im Perfekt.",
+          "prompt": "Auf der Jobmesse ___ ich gestern einer alten Schulfreundin begegnet. (Hilfsverb)",
+          "solution": "bin",
+          "explanation": "'begegnen' bildet das Perfekt mit 'sein': ich bin begegnet. Es steht mit Dativ (einer Schulfreundin)."
+        },
+        {
+          "id": "l11t11",
+          "type": "sentence-scramble",
+          "instruction": "Ordne die Satzteile. Beginne mit 'Nach'.",
+          "prompt": "Bilde einen korrekten Satz aus den Teilen.",
+          "scrambleChunks": [
+            "Nach",
+            "dem",
+            "Vorstellungsgespräch",
+            "hat",
+            "Lukas",
+            "eine",
+            "Dankesmail",
+            "geschrieben."
+          ],
+          "solution": "Nach dem Vorstellungsgespräch hat Lukas eine Dankesmail geschrieben.",
+          "explanation": "Die Zeitangabe 'Nach dem Vorstellungsgespräch' ist Position 1, das Hilfsverb 'hat' steht auf Position 2, danach das Subjekt. Das Partizip 'geschrieben' bildet die Satzklammer am Ende."
+        },
+        {
+          "id": "l11t12",
+          "type": "sentence-scramble",
+          "instruction": "Ordne die Satzteile zu einer Smalltalk-Frage.",
+          "prompt": "Bilde einen korrekten Satz aus den Teilen.",
+          "scrambleChunks": [
+            "Seit",
+            "wann",
+            "arbeiten",
+            "Sie",
+            "in",
+            "dieser",
+            "Firma?"
+          ],
+          "solution": "Seit wann arbeiten Sie in dieser Firma?",
+          "explanation": "W-Frage: Fragewort ('Seit wann') auf Position 1, dann direkt das Verb, dann das Subjekt 'Sie'."
+        },
+        {
+          "id": "l11t13",
+          "type": "targeted-transformation",
+          "instruction": "Forme um mit dem Nomen zu 'gelassen'. Beginne mit 'Ihre große …' und behalte den Rest des zweiten Satzes.",
+          "prompt": "Frau Berger bleibt auch bei Kritik sehr gelassen. Das hilft ihr im Kundenservice.",
+          "solution": "Ihre große Gelassenheit hilft ihr im Kundenservice.",
+          "explanation": "Aus dem Adjektiv 'gelassen' wird mit -heit das Nomen 'die Gelassenheit' (feminin, großgeschrieben). Das Nomen ist jetzt Subjekt, das Verb 'hilft' steht auf Position 2."
+        },
+        {
+          "id": "l11t14",
+          "type": "error-correction",
+          "instruction": "Finde den Fehler und schreibe den ganzen Satz richtig.",
+          "prompt": "Beim Korrekturlesen ist Gründlichheit das Wichtigste.",
+          "solution": "Beim Korrekturlesen ist Gründlichkeit das Wichtigste.",
+          "explanation": "Adjektive auf -lich bekommen -keit, nicht -heit: gründlich → die Gründlichkeit."
+        },
+        {
+          "id": "l11t15",
+          "type": "error-correction",
+          "instruction": "Finde den Fehler und schreibe den ganzen Satz richtig.",
+          "prompt": "Meine Schwester hat sich um eine Stelle als Erzieherin beworbt.",
+          "solution": "Meine Schwester hat sich um eine Stelle als Erzieherin beworben.",
+          "explanation": "'sich bewerben' ist unregelmäßig (bewerben – bewarb – hat beworben); das Partizip II endet auf -en: 'beworben', nicht 'beworbt'."
+        }
+      ]
+    },
+    {
+      "lektionId": "b1plus-m4-l12",
+      "level": "B1+",
+      "modulNumber": 4,
+      "lektionNumber": 12,
+      "title": "Nie wieder Arbeit?!",
+      "grammarFocus": [
+        "Kausale Konnektoren: weil, da, denn, deshalb/deswegen/darum",
+        "Konzessive Konnektoren: obwohl, trotzdem",
+        "Konsekutive Konnektoren: sodass, so … dass",
+        "Verbstellung nach Konnektoren"
+      ],
+      "vocabulary": [
+        {
+          "id": "l12v01",
+          "term": "die Anerkennung",
+          "translation": "el reconocimiento",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Für ihr Engagement bekam die Hausmeisterin viel Anerkennung."
+        },
+        {
+          "id": "l12v02",
+          "term": "der Tagesablauf",
+          "translation": "la rutina diaria",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Tagesabläufe",
+          "example": "Rentner brauchen oft einen neuen Tagesablauf."
+        },
+        {
+          "id": "l12v03",
+          "term": "die Herausforderung",
+          "translation": "el reto",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Herausforderungen",
+          "example": "Das neue Projekt ist eine echte Herausforderung für das Team."
+        },
+        {
+          "id": "l12v04",
+          "term": "das Einkommen",
+          "translation": "los ingresos",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Einkommen",
+          "example": "Mit zwei Einkommen kann sich die Familie eine größere Wohnung leisten."
+        },
+        {
+          "id": "l12v05",
+          "term": "die Abwechslung",
+          "translation": "la variedad",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Ich mag meinen Job, weil er viel Abwechslung bietet."
+        },
+        {
+          "id": "l12v06",
+          "term": "die Zusammenarbeit",
+          "translation": "la colaboración",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Vielen Dank für die gute Zusammenarbeit!"
+        },
+        {
+          "id": "l12v07",
+          "term": "die Abteilung",
+          "translation": "el departamento",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Abteilungen",
+          "example": "Unsere Abteilung zieht nächsten Monat in den dritten Stock."
+        },
+        {
+          "id": "l12v08",
+          "term": "die Rente",
+          "translation": "la jubilación / la pensión",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Renten",
+          "example": "Mein Onkel geht im Herbst in Rente."
+        },
+        {
+          "id": "l12v09",
+          "term": "der Vorgesetzte",
+          "translation": "el superior",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Vorgesetzten",
+          "example": "Der Vorgesetzte hat den Urlaubsantrag sofort genehmigt."
+        },
+        {
+          "id": "l12v10",
+          "term": "die Überstunde",
+          "translation": "la hora extra",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Überstunden",
+          "example": "Im Dezember macht das ganze Lager viele Überstunden."
+        },
+        {
+          "id": "l12v11",
+          "term": "aufgeben",
+          "translation": "dejar / abandonar",
+          "partOfSpeech": "verb",
+          "preterite": "gab auf",
+          "participle": "aufgegeben",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Nach zehn Jahren hat Björn seinen sicheren Bürojob aufgegeben."
+        },
+        {
+          "id": "l12v12",
+          "term": "verdienen",
+          "translation": "ganar (dinero)",
+          "partOfSpeech": "verb",
+          "preterite": "verdiente",
+          "participle": "verdient",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Als Studentin verdiente sie ihr Geld in einer Bäckerei."
+        },
+        {
+          "id": "l12v13",
+          "term": "genießen",
+          "translation": "disfrutar",
+          "partOfSpeech": "verb",
+          "preterite": "genoss",
+          "participle": "genossen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Am Wochenende genießen wir die Ruhe im Garten."
+        },
+        {
+          "id": "l12v14",
+          "term": "sich anstrengen",
+          "translation": "esforzarse",
+          "partOfSpeech": "verb",
+          "preterite": "strengte sich an",
+          "participle": "sich angestrengt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Für die Prüfung hat sich Ayla wirklich angestrengt."
+        },
+        {
+          "id": "l12v15",
+          "term": "sich langweilen",
+          "translation": "aburrirse",
+          "partOfSpeech": "verb",
+          "preterite": "langweilte sich",
+          "participle": "sich gelangweilt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Ohne Aufgaben langweilt sich unser Praktikant schnell."
+        },
+        {
+          "id": "l12v16",
+          "term": "entscheiden",
+          "translation": "decidir",
+          "partOfSpeech": "verb",
+          "preterite": "entschied",
+          "participle": "entschieden",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Über das Budget entscheidet die Geschäftsführung."
+        },
+        {
+          "id": "l12v17",
+          "term": "verlockend",
+          "translation": "tentador",
+          "partOfSpeech": "adjective",
+          "example": "Das Angebot, nur noch drei Tage pro Woche zu arbeiten, klingt verlockend."
+        },
+        {
+          "id": "l12v18",
+          "term": "zufrieden",
+          "translation": "satisfecho",
+          "partOfSpeech": "adjective",
+          "example": "Mit ihrem neuen Arbeitsplatz ist Frau Haas sehr zufrieden."
+        },
+        {
+          "id": "l12v19",
+          "term": "weil",
+          "translation": "porque",
+          "partOfSpeech": "phrase",
+          "example": "Ich fahre mit dem Rad zur Arbeit, weil es gesünder ist."
+        },
+        {
+          "id": "l12v20",
+          "term": "denn",
+          "translation": "pues / porque",
+          "partOfSpeech": "phrase",
+          "example": "Heute bleibe ich zu Hause, denn ich habe Fieber."
+        },
+        {
+          "id": "l12v21",
+          "term": "obwohl",
+          "translation": "aunque",
+          "partOfSpeech": "phrase",
+          "example": "Obwohl es spät war, antwortete er noch auf die E-Mail."
+        },
+        {
+          "id": "l12v22",
+          "term": "trotzdem",
+          "translation": "a pesar de ello / aun así",
+          "partOfSpeech": "phrase",
+          "example": "Der Weg ist weit, trotzdem gehe ich zu Fuß."
+        },
+        {
+          "id": "l12v23",
+          "term": "sodass",
+          "translation": "de modo que",
+          "partOfSpeech": "phrase",
+          "example": "Es schneite stark, sodass der Bus nicht fahren konnte."
+        },
+        {
+          "id": "l12v24",
+          "term": "deswegen",
+          "translation": "por eso",
+          "partOfSpeech": "phrase",
+          "example": "Die Kantine ist geschlossen, deswegen bestellen wir Pizza."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l12e01",
+            "type": "multiple-choice",
+            "instruction": "Wähle den passenden Konnektor.",
+            "prompt": "Karim sucht eine neue Stelle, ___ seine Arbeit ihn langweilt.",
+            "options": [
+              "weil",
+              "obwohl",
+              "trotzdem",
+              "deshalb"
+            ],
+            "solution": "weil",
+            "hint": "Nebensatz mit Grund; das Verb steht am Ende.",
+            "explanation": "'weil' leitet einen Nebensatz mit einem Grund ein, das Verb steht am Ende (langweilt). 'deshalb' und 'trotzdem' verlangen Verb-zweit direkt danach, 'obwohl' drückt einen Gegengrund aus."
+          },
+          {
+            "id": "l12e02",
+            "type": "multiple-choice",
+            "instruction": "Wähle den passenden Konnektor.",
+            "prompt": "Lisa geht gern ins Büro, ___ sie dort manchmal Stress hat.",
+            "options": [
+              "obwohl",
+              "weil",
+              "denn",
+              "sodass"
+            ],
+            "solution": "obwohl",
+            "hint": "Der Stress spricht eigentlich gegen das 'gern'.",
+            "explanation": "'obwohl' leitet einen konzessiven Nebensatz ein: ein Gegengrund, der die Handlung nicht verhindert. 'weil' ergibt keinen Sinn, 'denn' würde Verb-zweit verlangen (denn sie hat …), 'sodass' nennt eine Folge."
+          },
+          {
+            "id": "l12e03",
+            "type": "multiple-choice",
+            "instruction": "Wähle den passenden Konnektor.",
+            "prompt": "Ich brauche mehr Zeit für meine Familie, ___ arbeite ich jetzt nur noch vier Tage.",
+            "options": [
+              "deshalb",
+              "denn",
+              "obwohl",
+              "weil"
+            ],
+            "solution": "deshalb",
+            "hint": "Direkt nach der Lücke kommt das Verb.",
+            "explanation": "'deshalb' ist ein Adverb auf Position 1 des zweiten Hauptsatzes – deshalb folgt direkt das Verb (arbeite). Nach 'denn' käme das Subjekt, nach 'weil'/'obwohl' stünde das Verb am Ende."
+          },
+          {
+            "id": "l12e04",
+            "type": "multiple-choice",
+            "instruction": "Wähle den passenden Konnektor.",
+            "prompt": "Moritz hat den ganzen Monat Überstunden gemacht, ___ er am Ende völlig erschöpft war.",
+            "options": [
+              "sodass",
+              "trotzdem",
+              "denn",
+              "deswegen"
+            ],
+            "solution": "sodass",
+            "hint": "Das Verb steht am Satzende – und es geht um eine Folge.",
+            "explanation": "'sodass' leitet einen Nebensatz mit einer Folge ein (Verb am Ende: war). 'deswegen' drückt auch eine Folge aus, verlangt aber Verb-zweit (deswegen war er …)."
+          },
+          {
+            "id": "l12e05",
+            "type": "multiple-choice",
+            "instruction": "Wähle den passenden Konnektor.",
+            "prompt": "Die Arbeit im Tierheim ist schlecht bezahlt. ___ macht Nele sie mit viel Freude.",
+            "options": [
+              "Trotzdem",
+              "Deshalb",
+              "Obwohl",
+              "Denn"
+            ],
+            "solution": "Trotzdem",
+            "hint": "Gegensatz – und direkt danach steht das Verb.",
+            "explanation": "'trotzdem' drückt einen Gegensatz aus und steht auf Position 1, das Verb folgt direkt. 'Obwohl' bräuchte das Verb am Ende, 'Denn' das Subjekt vor dem Verb, 'Deshalb' ergibt inhaltlich keinen Sinn."
+          },
+          {
+            "id": "l12e06",
+            "type": "multiple-choice",
+            "instruction": "Wähle den passenden Konnektor.",
+            "prompt": "Viele Menschen möchten nicht ganz aufhören zu arbeiten, ___ ihnen fehlt sonst die Anerkennung.",
+            "options": [
+              "denn",
+              "weil",
+              "obwohl",
+              "deshalb"
+            ],
+            "solution": "denn",
+            "hint": "Nach der Lücke: 'ihnen fehlt' – normale Wortstellung.",
+            "explanation": "'denn' verbindet zwei Hauptsätze und steht auf Position 0: Danach folgt ein normaler Aussagesatz (ihnen fehlt …). Bei 'weil' stünde das Verb am Ende, bei 'deshalb' direkt nach dem Konnektor."
+          },
+          {
+            "id": "l12e07",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das fehlende Wort.",
+            "prompt": "Ich finde meinen Job ___ spannend, dass ich nie auf die Uhr schaue.",
+            "solution": "so",
+            "hint": "Zweiteiliger Konnektor mit '…, dass'.",
+            "explanation": "Konsekutiv mit 'so … dass': 'so' steht vor dem Adjektiv, 'dass' leitet die Folge ein."
+          },
+          {
+            "id": "l12e08",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze: 'denn' oder 'weil'.",
+            "prompt": "Tom macht eine Weltreise, ___ er braucht eine Pause vom Job.",
+            "solution": "denn",
+            "hint": "Wo steht das Verb nach der Lücke?",
+            "explanation": "Nach der Lücke steht das Verb auf Position 2 (er braucht). Das passt nur zu 'denn'. Nach 'weil' müsste das Verb am Ende stehen: weil er eine Pause braucht."
+          },
+          {
+            "id": "l12e09",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze: 'Da' oder 'Deshalb'.",
+            "prompt": "___ die Firma schließt, suchen alle Mitarbeiter eine neue Stelle.",
+            "solution": "Da",
+            "hint": "Im ersten Satzteil steht das Verb am Ende.",
+            "explanation": "'da' ist ein kausaler Nebensatz-Konnektor (Verb am Ende: schließt) und steht oft vorne. 'Deshalb' wäre ein Adverb im Hauptsatz – danach müsste das Verb direkt folgen."
+          },
+          {
+            "id": "l12e10",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze: 'Obwohl' oder 'Trotzdem'.",
+            "prompt": "Frau Weber könnte schon in Rente gehen. ___ arbeitet sie weiter.",
+            "solution": "Trotzdem",
+            "hint": "Direkt nach der Lücke steht das Verb.",
+            "explanation": "'trotzdem' steht auf Position 1 eines Hauptsatzes, das Verb folgt direkt (arbeitet). Nach 'obwohl' müsste das Verb am Ende stehen."
+          },
+          {
+            "id": "l12e11",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze: 'sodass' oder 'obwohl'.",
+            "prompt": "Das Team war gut organisiert, ___ das Projekt pünktlich fertig wurde.",
+            "solution": "sodass",
+            "hint": "Der zweite Teil ist das Ergebnis des ersten.",
+            "explanation": "Die gute Organisation hat eine Folge: Das Projekt wurde pünktlich fertig. Folgen leitet man mit 'sodass' ein. 'obwohl' würde einen Gegengrund ausdrücken."
+          },
+          {
+            "id": "l12e12",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Wort.",
+            "prompt": "Ohne feste Termine fehlt vielen Menschen ein klarer ___.",
+            "options": [
+              "Tagesablauf",
+              "Feierabend",
+              "Einkommen",
+              "Anerkennung"
+            ],
+            "solution": "Tagesablauf",
+            "hint": "Achte auf 'ein klarer' – maskulin.",
+            "explanation": "'der Tagesablauf' ist die feste Struktur eines Tages – genau das fehlt ohne Termine. 'Einkommen' (neutral) und 'Anerkennung' (feminin) passen nicht zu 'ein klarer', 'Feierabend' ergibt inhaltlich keinen Sinn."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l12m01",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Ich arbeite gern im Team,",
+              "weil",
+              "ich",
+              "Abwechslung",
+              "brauche."
+            ],
+            "solution": "Ich arbeite gern im Team, weil ich Abwechslung brauche.",
+            "hint": "Im weil-Satz steht das Verb am Ende.",
+            "explanation": "'weil' leitet einen Nebensatz ein: Subjekt direkt nach 'weil', das konjugierte Verb ganz am Ende."
+          },
+          {
+            "id": "l12m02",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Das Gehalt ist niedrig,",
+              "trotzdem",
+              "bleibt",
+              "Sven",
+              "in der Firma."
+            ],
+            "solution": "Das Gehalt ist niedrig, trotzdem bleibt Sven in der Firma.",
+            "hint": "Nach 'trotzdem' kommt sofort das Verb.",
+            "explanation": "'trotzdem' besetzt Position 1 im zweiten Hauptsatz. Deshalb steht das Verb 'bleibt' direkt danach, dann das Subjekt."
+          },
+          {
+            "id": "l12m03",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Obwohl",
+              "Maria",
+              "gern arbeitet,",
+              "freut sie sich",
+              "auf die Rente."
+            ],
+            "solution": "Obwohl Maria gern arbeitet, freut sie sich auf die Rente.",
+            "hint": "Nebensatz vorne → Hauptsatz beginnt mit dem Verb.",
+            "explanation": "Steht der obwohl-Satz vorne, besetzt er Position 1. Der Hauptsatz beginnt dann mit dem Verb: …, freut sie sich …"
+          },
+          {
+            "id": "l12m04",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Der Chef war krank,",
+              "deshalb",
+              "fiel",
+              "die Besprechung",
+              "aus."
+            ],
+            "solution": "Der Chef war krank, deshalb fiel die Besprechung aus.",
+            "hint": "Verb direkt nach 'deshalb', Präfix ans Ende.",
+            "explanation": "Nach 'deshalb' folgt direkt das konjugierte Verb (fiel). Das trennbare Präfix 'aus' von 'ausfallen' steht am Satzende."
+          },
+          {
+            "id": "l12m05",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Die Arbeit war",
+              "so anstrengend,",
+              "dass",
+              "Ben sofort",
+              "einschlief."
+            ],
+            "solution": "Die Arbeit war so anstrengend, dass Ben sofort einschlief.",
+            "hint": "'so' vor dem Adjektiv, im dass-Satz Verb ans Ende.",
+            "explanation": "Konsekutiv 'so … dass': 'so' steht vor dem Adjektiv im Hauptsatz, der dass-Satz nennt die Folge. Im Nebensatz steht 'einschlief' ungetrennt am Ende."
+          },
+          {
+            "id": "l12m06",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Ich kündige nicht,",
+              "denn",
+              "mir",
+              "gefällt",
+              "mein Team."
+            ],
+            "solution": "Ich kündige nicht, denn mir gefällt mein Team.",
+            "hint": "'denn' zählt nicht als Position.",
+            "explanation": "'denn' steht auf Position 0. Danach folgt ein normaler Hauptsatz mit dem Verb auf Position 2: mir (Position 1) gefällt (Position 2)."
+          },
+          {
+            "id": "l12m07",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb in Klammern.",
+            "prompt": "Viele Menschen ___ (aufgeben, Präsens) ihren Job nicht auf, obwohl sie unzufrieden sind.",
+            "solution": "geben",
+            "hint": "3. Person Plural – ohne Vokalwechsel.",
+            "explanation": "'aufgeben' ist trennbar. Im Plural gibt es keinen Vokalwechsel: sie geben … auf (nur du gibst, er gibt)."
+          },
+          {
+            "id": "l12m08",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb in Klammern.",
+            "prompt": "Weil Jan zu viel ___ (arbeiten, Präsens), hat er kaum Freizeit.",
+            "solution": "arbeitet",
+            "hint": "Stamm auf -t → Hilfsvokal -e-.",
+            "explanation": "Im weil-Satz steht das Verb am Ende. Bei Stämmen auf -t steht vor der Endung -t ein -e-: er arbeitet."
+          },
+          {
+            "id": "l12m09",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb in Klammern.",
+            "prompt": "Paula verdient wenig, trotzdem ___ (genießen, Präsens) sie ihren Beruf.",
+            "solution": "genießt",
+            "hint": "Stamm auf -ß: nur -t als Endung.",
+            "explanation": "'genießen' – Stamm 'genieß-' + -t = genießt. Nach 'trotzdem' steht das Verb auf Position 2."
+          },
+          {
+            "id": "l12m10",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb in Klammern.",
+            "prompt": "Obwohl Tarek sich sehr ___ (anstrengen, Präteritum), bekam er keine Beförderung.",
+            "solution": "anstrengte",
+            "hint": "Im Nebensatz bleibt das trennbare Verb zusammen.",
+            "explanation": "Im Nebensatz steht das konjugierte Verb am Ende, und trennbare Verben werden nicht getrennt: …, obwohl er sich anstrengte."
+          },
+          {
+            "id": "l12m11",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb in Klammern.",
+            "prompt": "Da ich mich im langen Urlaub ___ (langweilen, Präteritum), freute ich mich wieder auf die Arbeit.",
+            "solution": "langweilte",
+            "hint": "Regelmäßiges Verb, Präteritum mit -te.",
+            "explanation": "'langweilen' ist regelmäßig: ich langweilte mich. Im da-Satz steht das Verb am Ende."
+          },
+          {
+            "id": "l12m12",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb in Klammern.",
+            "prompt": "Nach langem Überlegen ___ (entscheiden, Präteritum) Tanja, nur noch halbtags zu arbeiten.",
+            "solution": "entschied",
+            "hint": "Unregelmäßig: ei → ie.",
+            "explanation": "'entscheiden' ist unregelmäßig: entscheiden – entschied – hat entschieden. 'entscheidete' ist falsch."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l12h01",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde die Sätze mit Komma und 'weil' zu einem Satz. Beginne mit dem ersten Satz.",
+            "prompt": "Leon wechselt die Stelle. Er möchte mehr verdienen.",
+            "solution": "Leon wechselt die Stelle, weil er mehr verdienen möchte.",
+            "hint": "Im Nebensatz steht das Modalverb ganz am Ende.",
+            "explanation": "Im weil-Satz steht das konjugierte Verb am Ende, auch nach dem Infinitiv: …, weil er mehr verdienen möchte. Vor 'weil' steht ein Komma."
+          },
+          {
+            "id": "l12h02",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde die Sätze mit 'obwohl'. Beginne mit 'Obwohl'.",
+            "prompt": "Sara hat viel Freizeit. Sie ist nicht glücklich.",
+            "solution": "Obwohl Sara viel Freizeit hat, ist sie nicht glücklich.",
+            "hint": "Nebensatz vorne → Hauptsatz beginnt mit dem Verb.",
+            "explanation": "Der obwohl-Satz steht auf Position 1 (Verb am Ende: hat). Deshalb beginnt der Hauptsatz mit dem Verb: ist sie …"
+          },
+          {
+            "id": "l12h03",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde die Sätze mit Komma und 'deswegen' zu einem Satz. Beginne mit dem ersten Satz.",
+            "prompt": "Das Büro liegt weit weg. Herr Kim arbeitet oft im Homeoffice.",
+            "solution": "Das Büro liegt weit weg, deswegen arbeitet Herr Kim oft im Homeoffice.",
+            "hint": "Nach 'deswegen' folgt direkt das Verb.",
+            "explanation": "'deswegen' ist ein Adverb auf Position 1: danach das Verb (arbeitet), dann das Subjekt. 'deswegen Herr Kim arbeitet' wäre falsch."
+          },
+          {
+            "id": "l12h04",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde die Sätze mit 'so … dass'. Setze 'so' vor 'stressig'.",
+            "prompt": "Die Woche war stressig. Ich habe am Wochenende nur geschlafen.",
+            "solution": "Die Woche war so stressig, dass ich am Wochenende nur geschlafen habe.",
+            "hint": "Im dass-Satz steht das Hilfsverb am Ende.",
+            "explanation": "'so' verstärkt das Adjektiv, der dass-Satz nennt die Folge. Im Nebensatz steht das Hilfsverb 'habe' nach dem Partizip am Ende."
+          },
+          {
+            "id": "l12h05",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde die Sätze mit Komma und 'denn' zu einem Satz. Beginne mit dem ersten Satz.",
+            "prompt": "Frau Arslan geht früh in Rente. Sie möchte mehr reisen.",
+            "solution": "Frau Arslan geht früh in Rente, denn sie möchte mehr reisen.",
+            "hint": "'denn' ändert die Wortstellung nicht.",
+            "explanation": "'denn' verbindet zwei Hauptsätze. Der zweite Satz bleibt unverändert: sie möchte mehr reisen."
+          },
+          {
+            "id": "l12h06",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde die Sätze mit Komma und 'trotzdem' zu einem Satz. Beginne mit dem ersten Satz.",
+            "prompt": "Der Job ist anstrengend. Emil liebt seine Arbeit.",
+            "solution": "Der Job ist anstrengend, trotzdem liebt Emil seine Arbeit.",
+            "hint": "Nach 'trotzdem': Verb vor dem Subjekt.",
+            "explanation": "'trotzdem' steht auf Position 1 des zweiten Hauptsatzes, das Verb 'liebt' auf Position 2, das Subjekt 'Emil' danach."
+          },
+          {
+            "id": "l12h07",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde die Sätze mit Komma und 'sodass' zu einem Satz. Beginne mit dem ersten Satz.",
+            "prompt": "Der Zug hatte Verspätung. Nora kam zu spät zur Besprechung.",
+            "solution": "Der Zug hatte Verspätung, sodass Nora zu spät zur Besprechung kam.",
+            "hint": "'sodass' leitet einen Nebensatz ein.",
+            "explanation": "'sodass' nennt die Folge und leitet einen Nebensatz ein: Das Verb 'kam' steht am Ende."
+          },
+          {
+            "id": "l12h08",
+            "type": "error-correction",
+            "instruction": "Finde den Fehler und schreibe den Satz richtig. Behalte 'weil'.",
+            "prompt": "Ich bleibe heute länger, weil ich muss noch einen Bericht schreiben.",
+            "solution": "Ich bleibe heute länger, weil ich noch einen Bericht schreiben muss.",
+            "hint": "Wo steht das Verb im weil-Satz?",
+            "explanation": "Im weil-Satz steht das konjugierte Verb am Ende: …, weil ich noch einen Bericht schreiben muss. Die Wortstellung mit Verb auf Position 2 ist nur nach 'denn' korrekt."
+          },
+          {
+            "id": "l12h09",
+            "type": "error-correction",
+            "instruction": "Finde den Fehler und schreibe den Satz richtig. Behalte 'deshalb'.",
+            "prompt": "Er schläft schlecht, deshalb er ist oft müde.",
+            "solution": "Er schläft schlecht, deshalb ist er oft müde.",
+            "hint": "'deshalb' besetzt Position 1.",
+            "explanation": "Nach 'deshalb' folgt direkt das Verb, dann das Subjekt: deshalb ist er …"
+          },
+          {
+            "id": "l12h10",
+            "type": "error-correction",
+            "instruction": "Finde den Fehler und schreibe den Satz richtig. Behalte 'obwohl' am Satzanfang.",
+            "prompt": "Obwohl sie wenig verdient, sie ist zufrieden.",
+            "solution": "Obwohl sie wenig verdient, ist sie zufrieden.",
+            "hint": "Nebensatz vorne → Verb zuerst im Hauptsatz.",
+            "explanation": "Der obwohl-Satz ist Position 1. Der Hauptsatz beginnt deshalb mit dem Verb: ist sie zufrieden."
+          },
+          {
+            "id": "l12h11",
+            "type": "error-correction",
+            "instruction": "Finde den Fehler und schreibe den Satz richtig. Behalte 'denn'.",
+            "prompt": "Wir machen jetzt Pause, denn wir den ganzen Vormittag gearbeitet haben.",
+            "solution": "Wir machen jetzt Pause, denn wir haben den ganzen Vormittag gearbeitet.",
+            "hint": "Nach 'denn' steht ein normaler Hauptsatz.",
+            "explanation": "'denn' verbindet Hauptsätze: Das Hilfsverb steht auf Position 2 (wir haben …), das Partizip am Ende. Verb-Endstellung gibt es nur nach 'weil'/'da'."
+          },
+          {
+            "id": "l12h12",
+            "type": "error-correction",
+            "instruction": "Finde den Fehler und schreibe den Satz richtig.",
+            "prompt": "Der Vortrag war so langweilig, dass ich bin fast eingeschlafen.",
+            "solution": "Der Vortrag war so langweilig, dass ich fast eingeschlafen bin.",
+            "hint": "Im dass-Satz steht das Hilfsverb am Ende.",
+            "explanation": "Im dass-Satz steht das konjugierte Verb am Ende, im Perfekt also das Hilfsverb nach dem Partizip: …, dass ich fast eingeschlafen bin. Verb-zweit ('dass ich bin …') gibt es nur im Hauptsatz."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l12t01",
+          "type": "multiple-choice",
+          "instruction": "Wähle den passenden Konnektor.",
+          "prompt": "Frau Ahmadi lernt abends Spanisch, ___ sie bald in Madrid arbeiten möchte.",
+          "options": [
+            "weil",
+            "deshalb",
+            "trotzdem",
+            "obwohl"
+          ],
+          "solution": "weil",
+          "explanation": "Das Verb 'möchte' steht am Ende – also ein Nebensatz. Er nennt einen Grund: 'weil'. 'obwohl' wäre ein Gegensatz; nach 'deshalb'/'trotzdem' müsste das Verb direkt folgen (Position 2)."
+        },
+        {
+          "id": "l12t02",
+          "type": "multiple-choice",
+          "instruction": "Wähle den passenden Konnektor.",
+          "prompt": "Das Büro hat keine Klimaanlage. ___ arbeitet Hanna im Sommer gern dort.",
+          "options": [
+            "Trotzdem",
+            "Deshalb",
+            "Obwohl",
+            "Weil"
+          ],
+          "solution": "Trotzdem",
+          "explanation": "Das Verb 'arbeitet' steht direkt nach der Lücke (Position 2), also ein Adverb. Inhaltlich ein Gegensatz (keine Klimaanlage, aber gern): 'Trotzdem'. 'Deshalb' wäre ein Grund; 'Obwohl' und 'Weil' leiten Nebensätze ein (Verb am Ende)."
+        },
+        {
+          "id": "l12t03",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Wort.",
+          "prompt": "Im Großraumbüro war es ___ laut, dass Malte Kopfhörer aufsetzte.",
+          "options": [
+            "so",
+            "sodass",
+            "zu",
+            "sehr"
+          ],
+          "solution": "so",
+          "explanation": "Konsekutiv mit Adjektiv: 'so + Adjektiv, dass …' (so laut, dass …). 'sodass' steht direkt nach dem Komma, nicht vor dem Adjektiv; 'zu' und 'sehr' verbinden sich nicht mit 'dass'."
+        },
+        {
+          "id": "l12t04",
+          "type": "multiple-choice",
+          "instruction": "Welcher Satz ist korrekt?",
+          "prompt": "Wähle den grammatisch richtigen Satz.",
+          "options": [
+            "Ich mache Überstunden, denn wir haben ein großes Projekt.",
+            "Ich mache Überstunden, denn wir ein großes Projekt haben.",
+            "Ich mache Überstunden, deshalb wir haben ein großes Projekt.",
+            "Ich mache Überstunden, weil wir haben ein großes Projekt."
+          ],
+          "solution": "Ich mache Überstunden, denn wir haben ein großes Projekt.",
+          "explanation": "Nach 'denn' bleibt die normale Wortstellung (Verb auf Position 2). Nach 'weil' steht das Verb am Ende; nach 'deshalb' kommt direkt das Verb."
+        },
+        {
+          "id": "l12t05",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze den konzessiven Konnektor (Nebensatz).",
+          "prompt": "___ Ida ihre Kolleginnen sehr mag, wechselt sie im Herbst die Abteilung.",
+          "solution": "Obwohl",
+          "explanation": "Gegensatz: Sie mag die Kolleginnen, wechselt aber trotzdem → konzessiv. Das Verb 'mag' am Ende zeigt einen Nebensatz: 'Obwohl'. 'Trotzdem' würde das Verb auf Position 2 verlangen."
+        },
+        {
+          "id": "l12t06",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze den konsekutiven Konnektor (ein Wort).",
+          "prompt": "Der Drucker war kaputt, ___ wir die Unterlagen nicht rechtzeitig schicken konnten.",
+          "solution": "sodass",
+          "explanation": "'sodass' leitet eine Folge ein und ist ein Nebensatz (Verb am Ende). 'deshalb' würde das Verb direkt danach verlangen."
+        },
+        {
+          "id": "l12t07",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze 'deshalb' oder 'trotzdem'.",
+          "prompt": "Mein Job bietet viel Abwechslung, ___ macht mir die Arbeit Spaß.",
+          "solution": "deshalb",
+          "explanation": "Die Abwechslung ist der Grund für den Spaß – also eine Folge: 'deshalb'. 'trotzdem' würde einen Gegensatz ausdrücken."
+        },
+        {
+          "id": "l12t08",
+          "type": "sentence-scramble",
+          "instruction": "Ordne die Satzteile. Beginne mit 'Obwohl'.",
+          "prompt": "Bilde einen korrekten Satz aus den Teilen.",
+          "scrambleChunks": [
+            "Obwohl",
+            "das Team",
+            "sehr nett",
+            "war,",
+            "kündigte",
+            "Olga",
+            "ihre Stelle."
+          ],
+          "solution": "Obwohl das Team sehr nett war, kündigte Olga ihre Stelle.",
+          "explanation": "Im obwohl-Satz steht das Verb 'war' am Ende. Der Nebensatz besetzt Position 1, deshalb folgt direkt das Verb 'kündigte' und dann das Subjekt – Verb, Komma, Verb."
+        },
+        {
+          "id": "l12t09",
+          "type": "sentence-scramble",
+          "instruction": "Ordne die Satzteile. Beginne mit 'Die Kantine'; der zweite Hauptsatz beginnt mit 'deshalb'.",
+          "prompt": "Bilde einen korrekten Satz aus den Teilen.",
+          "scrambleChunks": [
+            "Die",
+            "Kantine",
+            "war",
+            "voll,",
+            "deshalb",
+            "aß",
+            "Jan",
+            "im",
+            "Büro."
+          ],
+          "solution": "Die Kantine war voll, deshalb aß Jan im Büro.",
+          "explanation": "'deshalb' steht auf Position 1 im zweiten Hauptsatz; danach kommt sofort das Verb 'aß', dann das Subjekt."
+        },
+        {
+          "id": "l12t10",
+          "type": "cloze-conjugation",
+          "instruction": "Ergänze das Partizip II.",
+          "prompt": "Obwohl Kemal nur drei Tage frei hatte, hat er die Pause sehr ___. (genießen)",
+          "solution": "genossen",
+          "explanation": "'genießen' ist unregelmäßig: genießen – genoss – hat genossen. Das Partizip II endet auf -en und hat den Vokal o. Weil 'ge-' hier schon ein untrennbarer Teil des Verbs ist, kommt kein zusätzliches ge- dazu: nicht 'gegenossen', nicht 'genießt'."
+        },
+        {
+          "id": "l12t11",
+          "type": "targeted-transformation",
+          "instruction": "Verbinde mit 'deshalb'. Beginne mit 'Herr Kraus ist 67, deshalb …' und verwende 'er'.",
+          "prompt": "Herr Kraus geht in Rente, weil er 67 ist.",
+          "solution": "Herr Kraus ist 67, deshalb geht er in Rente.",
+          "explanation": "Der Grund steht jetzt im ersten Satz, die Folge nach 'deshalb'. Nach 'deshalb' kommt das Verb auf Position 2, dann das Subjekt: 'deshalb geht er'."
+        },
+        {
+          "id": "l12t12",
+          "type": "targeted-transformation",
+          "instruction": "Verbinde die Sätze mit 'obwohl'. Beginne mit 'Obwohl'.",
+          "prompt": "Das Wetter war schlecht. Trotzdem genossen wir den Ausflug.",
+          "solution": "Obwohl das Wetter schlecht war, genossen wir den Ausflug.",
+          "explanation": "'Trotzdem' (Hauptsatz) wird zu 'obwohl' (Nebensatz): Das Verb 'war' geht ans Ende, der Hauptsatz beginnt mit dem Verb 'genossen'."
+        },
+        {
+          "id": "l12t13",
+          "type": "targeted-transformation",
+          "instruction": "Ersetze 'denn' durch 'weil'. Der Hauptsatz bleibt vorn.",
+          "prompt": "Selin langweilt sich im Büro, denn sie hat zu wenige Aufgaben.",
+          "solution": "Selin langweilt sich im Büro, weil sie zu wenige Aufgaben hat.",
+          "explanation": "Nach 'denn' steht das Verb auf Position 2, nach 'weil' am Satzende: '… weil sie zu wenige Aufgaben hat'."
+        },
+        {
+          "id": "l12t14",
+          "type": "targeted-transformation",
+          "instruction": "Verbinde mit 'so … dass'. Beginne mit 'Das Angebot war so verlockend, …'.",
+          "prompt": "Das Angebot war sehr verlockend. Deshalb kündigte Ole sofort.",
+          "solution": "Das Angebot war so verlockend, dass Ole sofort kündigte.",
+          "explanation": "'so' steht vor dem Adjektiv, 'dass' leitet den Nebensatz mit der Folge ein – das Verb 'kündigte' steht am Ende."
+        },
+        {
+          "id": "l12t15",
+          "type": "error-correction",
+          "instruction": "Finde den Fehler und schreibe den ganzen Satz richtig. 'darum' bleibt direkt nach dem Komma.",
+          "prompt": "Ich hatte heute viele Termine, darum ich konnte nicht zurückrufen.",
+          "solution": "Ich hatte heute viele Termine, darum konnte ich nicht zurückrufen.",
+          "explanation": "'darum' besetzt im zweiten Hauptsatz Position 1; das konjugierte Verb 'konnte' muss direkt folgen (Position 2), das Subjekt 'ich' kommt danach."
+        }
+      ]
+    }
+  ]
+}
