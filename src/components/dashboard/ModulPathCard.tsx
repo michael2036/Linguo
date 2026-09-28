@@ -44,6 +44,9 @@ const useStyles = makeStyles({
   },
   lektionButton: {
     flex: 1,
+    // Lets the title shrink below its content width so the ellipsis below
+    // kicks in instead of long titles overflowing the card.
+    minWidth: 0,
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'space-between',
@@ -64,6 +67,7 @@ const useStyles = makeStyles({
   },
   lektionTitle: {
     fontWeight: 600,
+    minWidth: 0,
     overflow: 'hidden',
     textOverflow: 'ellipsis',
     whiteSpace: 'nowrap',
