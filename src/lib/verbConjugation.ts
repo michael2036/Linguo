@@ -70,8 +70,9 @@ export interface Verb {
 const MODALS = new Set(['können', 'müssen', 'dürfen', 'sollen', 'wollen', 'mögen']);
 
 // Reflexives whose pronoun is dative in their taught sense ("ich wünsche
-// mir", "ich stelle mir vor" = imagine). Everything else is accusative.
-const DATIVE_REFLEXIVE = new Set(['wünschen', 'vorstellen']);
+// mir", "ich stelle mir vor" = imagine, "ich merke mir"). Everything else
+// is accusative.
+const DATIVE_REFLEXIVE = new Set(['wünschen', 'vorstellen', 'merken']);
 
 // Verbs that are only natural in the 3rd person ("das lohnt sich", "die
 // Konzerte finden statt") — "ich finde statt" is grammatical noise, so
