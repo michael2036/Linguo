@@ -1,0 +1,2427 @@
+{
+  "modulId": "b1plus-m2",
+  "level": "B1+",
+  "modulNumber": 2,
+  "title": "Alles Kopfsache?",
+  "lektionen": [
+    {
+      "lektionId": "b1plus-m2-l4",
+      "level": "B1+",
+      "modulNumber": 2,
+      "lektionNumber": 4,
+      "title": "Man lernt nie aus",
+      "grammarFocus": [
+        "Infinitiv mit zu (nach versuchen, vergessen, anfangen, versprechen, erlauben; Es ist wichtig/sinnvoll …)",
+        "Infinitiv ohne zu (Modalverben, gehen, lernen, sehen, hören, lassen)",
+        "Formelle E-Mail: einen Termin verschieben"
+      ],
+      "vocabulary": [
+        {
+          "id": "l4v01",
+          "term": "der Lernstoff",
+          "translation": "la materia de estudio",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "example": "Vor der Prüfung wiederhole ich den ganzen Lernstoff."
+        },
+        {
+          "id": "l4v02",
+          "term": "wiederholen",
+          "translation": "repasar / repetir",
+          "partOfSpeech": "verb",
+          "preterite": "wiederholte",
+          "participle": "wiederholt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Wir wiederholen die Vokabeln jeden Freitag."
+        },
+        {
+          "id": "l4v03",
+          "term": "sich merken",
+          "translation": "memorizar / recordar",
+          "partOfSpeech": "verb",
+          "preterite": "merkte sich",
+          "participle": "sich gemerkt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Neue Wörter merke ich mir mit bunten Karten."
+        },
+        {
+          "id": "l4v04",
+          "term": "teilnehmen",
+          "translation": "participar",
+          "partOfSpeech": "verb",
+          "preterite": "nahm teil",
+          "participle": "teilgenommen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Nächste Woche nehme ich an einem Workshop über Fotografie teil."
+        },
+        {
+          "id": "l4v05",
+          "term": "vertiefen",
+          "translation": "profundizar",
+          "partOfSpeech": "verb",
+          "preterite": "vertiefte",
+          "participle": "vertieft",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Im Abendkurs möchte ich meine Englischkenntnisse vertiefen."
+        },
+        {
+          "id": "l4v06",
+          "term": "sich vorbereiten",
+          "translation": "prepararse",
+          "partOfSpeech": "verb",
+          "preterite": "bereitete sich vor",
+          "participle": "sich vorbereitet",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Sie bereitet sich gründlich auf das Vorstellungsgespräch vor."
+        },
+        {
+          "id": "l4v07",
+          "term": "die Prüfung",
+          "translation": "el examen",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Prüfungen",
+          "example": "Die mündliche Prüfung dauert fünfzehn Minuten."
+        },
+        {
+          "id": "l4v08",
+          "term": "bestehen",
+          "translation": "aprobar",
+          "partOfSpeech": "verb",
+          "preterite": "bestand",
+          "participle": "bestanden",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Mein Bruder hat die Prüfung mit einer guten Note bestanden."
+        },
+        {
+          "id": "l4v09",
+          "term": "das Referat",
+          "translation": "la exposición / el trabajo oral",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Referate",
+          "example": "Morgen halte ich ein Referat über erneuerbare Energien."
+        },
+        {
+          "id": "l4v10",
+          "term": "das Zeugnis",
+          "translation": "el boletín de notas / el certificado",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Zeugnisse",
+          "example": "Am Ende des Schuljahres bekommen alle ein Zeugnis."
+        },
+        {
+          "id": "l4v11",
+          "term": "versuchen",
+          "translation": "intentar",
+          "partOfSpeech": "verb",
+          "preterite": "versuchte",
+          "participle": "versucht",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Ich versuche, jeden Tag ein bisschen Deutsch zu sprechen."
+        },
+        {
+          "id": "l4v12",
+          "term": "versprechen",
+          "translation": "prometer",
+          "partOfSpeech": "verb",
+          "preterite": "versprach",
+          "participle": "versprochen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Er verspricht, pünktlich zu sein."
+        },
+        {
+          "id": "l4v13",
+          "term": "erlauben",
+          "translation": "permitir",
+          "partOfSpeech": "verb",
+          "preterite": "erlaubte",
+          "participle": "erlaubt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Meine Eltern erlauben mir, am Wochenende länger aufzubleiben."
+        },
+        {
+          "id": "l4v14",
+          "term": "vergessen",
+          "translation": "olvidar",
+          "partOfSpeech": "verb",
+          "preterite": "vergaß",
+          "participle": "vergessen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Vergiss nicht, dein Heft mitzubringen!"
+        },
+        {
+          "id": "l4v15",
+          "term": "ausprobieren",
+          "translation": "probar",
+          "partOfSpeech": "verb",
+          "preterite": "probierte aus",
+          "participle": "ausprobiert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Im Urlaub möchte ich Surfen ausprobieren."
+        },
+        {
+          "id": "l4v16",
+          "term": "sich weiterentwickeln",
+          "translation": "seguir desarrollándose",
+          "partOfSpeech": "verb",
+          "preterite": "entwickelte sich weiter",
+          "participle": "sich weiterentwickelt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Wer neugierig bleibt, entwickelt sich weiter."
+        },
+        {
+          "id": "l4v17",
+          "term": "die Neugier",
+          "translation": "la curiosidad",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Kinder lernen aus Neugier."
+        },
+        {
+          "id": "l4v18",
+          "term": "sich die Zeit einteilen",
+          "translation": "organizarse el tiempo",
+          "partOfSpeech": "phrase",
+          "example": "Wer neben der Arbeit studiert, muss sich die Zeit klug einteilen."
+        },
+        {
+          "id": "l4v19",
+          "term": "die Erklärung",
+          "translation": "la explicación",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Erklärungen",
+          "example": "Danke für die klare Erklärung!"
+        },
+        {
+          "id": "l4v20",
+          "term": "die Notiz",
+          "translation": "la nota / el apunte",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Notizen",
+          "example": "Während des Vortrags mache ich mir Notizen."
+        },
+        {
+          "id": "l4v21",
+          "term": "verschieben",
+          "translation": "aplazar",
+          "partOfSpeech": "verb",
+          "preterite": "verschob",
+          "participle": "verschoben",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Können wir das Gespräch auf Donnerstag verschieben?"
+        },
+        {
+          "id": "l4v22",
+          "term": "bedauerlicherweise",
+          "translation": "lamentablemente",
+          "partOfSpeech": "adverb",
+          "example": "Bedauerlicherweise ist der Kurs schon ausgebucht."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l4e01",
+            "type": "multiple-choice",
+            "instruction": "Wähle die richtige Form.",
+            "prompt": "Ich habe vergessen, dich ___.",
+            "options": [
+              "anzurufen",
+              "anrufen",
+              "zu anrufen",
+              "angerufen"
+            ],
+            "solution": "anzurufen",
+            "hint": "Nach 'vergessen' + trennbares Verb.",
+            "explanation": "Nach Verben wie 'versuchen', 'vergessen', 'anfangen', 'versprechen', 'erlauben' und nach 'Es ist + Adjektiv' steht der Infinitiv mit 'zu'. Bei trennbaren Verben steht 'zu' zwischen Präfix und Stamm und alles wird zusammengeschrieben (anrufen → anzurufen). 'zu anrufen' ist falsch geschrieben, 'anrufen' fehlt das 'zu'."
+          },
+          {
+            "id": "l4e02",
+            "type": "multiple-choice",
+            "instruction": "Wähle die richtige Form.",
+            "prompt": "Wir müssen den Lernstoff jede Woche ___.",
+            "options": [
+              "wiederholen",
+              "zu wiederholen",
+              "wiederzuholen",
+              "wiederholt"
+            ],
+            "solution": "wiederholen",
+            "hint": "Was folgt auf ein Modalverb?",
+            "explanation": "Nach Modalverben sowie nach 'gehen', 'lernen', 'sehen', 'hören' und 'lassen' steht der Infinitiv ohne 'zu'. Nach 'müssen' also nur 'wiederholen'. 'wiederholen' ist hier untrennbar – 'wiederzuholen' gibt es nicht."
+          },
+          {
+            "id": "l4e03",
+            "type": "multiple-choice",
+            "instruction": "Wähle die richtige Form.",
+            "prompt": "Meine kleine Tochter lernt gerade ___.",
+            "options": [
+              "schwimmen",
+              "zu schwimmen",
+              "geschwommen",
+              "schwamm"
+            ],
+            "solution": "schwimmen",
+            "hint": "'lernen' + einfache Tätigkeit.",
+            "explanation": "Nach 'lernen' steht bei einem einfachen Infinitiv kein 'zu': 'Sie lernt schwimmen.' Nach Modalverben sowie nach 'gehen', 'lernen', 'sehen', 'hören' und 'lassen' steht der Infinitiv ohne 'zu'."
+          },
+          {
+            "id": "l4e04",
+            "type": "multiple-choice",
+            "instruction": "Wähle die richtige Form.",
+            "prompt": "Es ist sinnvoll, sich beim Lernen Notizen ___.",
+            "options": [
+              "zu machen",
+              "machen",
+              "gemacht",
+              "zu gemacht"
+            ],
+            "solution": "zu machen",
+            "hint": "Nach 'Es ist + Adjektiv'.",
+            "explanation": "Nach Verben wie 'versuchen', 'vergessen', 'anfangen', 'versprechen', 'erlauben' und nach 'Es ist + Adjektiv' steht der Infinitiv mit 'zu'. Ohne 'zu' oder mit Partizip ist der Satz falsch."
+          },
+          {
+            "id": "l4e05",
+            "type": "multiple-choice",
+            "instruction": "Wähle die richtige Form.",
+            "prompt": "Am Sonntag gehen wir mit Freunden ___.",
+            "options": [
+              "wandern",
+              "zu wandern",
+              "gewandert",
+              "wanderten"
+            ],
+            "solution": "wandern",
+            "hint": "'gehen' + Infinitiv.",
+            "explanation": "Nach 'gehen' steht der Infinitiv ohne 'zu': 'Wir gehen wandern.' Nach Modalverben sowie nach 'gehen', 'lernen', 'sehen', 'hören' und 'lassen' steht der Infinitiv ohne 'zu'."
+          },
+          {
+            "id": "l4e06",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze den Infinitiv – mit oder ohne 'zu'.",
+            "prompt": "Die Kursleiterin hat uns erlaubt, im Test ein Wörterbuch ___. (benutzen)",
+            "solution": "zu benutzen",
+            "hint": "Nach 'erlauben'.",
+            "explanation": "Nach 'erlauben' folgt ein Infinitiv mit 'zu': 'zu benutzen'. Nach Verben wie 'versuchen', 'vergessen', 'anfangen', 'versprechen', 'erlauben' und nach 'Es ist + Adjektiv' steht der Infinitiv mit 'zu'."
+          },
+          {
+            "id": "l4e07",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze den Infinitiv – mit oder ohne 'zu'.",
+            "prompt": "Tim hat versprochen, mir beim Umzug ___. (helfen)",
+            "solution": "zu helfen",
+            "hint": "Nach 'versprechen'.",
+            "explanation": "Nach 'versprechen' steht der Infinitiv mit 'zu'. Nach Verben wie 'versuchen', 'vergessen', 'anfangen', 'versprechen', 'erlauben' und nach 'Es ist + Adjektiv' steht der Infinitiv mit 'zu'."
+          },
+          {
+            "id": "l4e08",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze den Infinitiv – mit oder ohne 'zu'.",
+            "prompt": "Ich höre meinen Nachbarn jeden Morgen im Bad ___. (singen)",
+            "solution": "singen",
+            "hint": "Wahrnehmungsverb 'hören'.",
+            "explanation": "Nach 'hören' und 'sehen' steht der Infinitiv ohne 'zu'. Nach Modalverben sowie nach 'gehen', 'lernen', 'sehen', 'hören' und 'lassen' steht der Infinitiv ohne 'zu'."
+          },
+          {
+            "id": "l4e09",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze den Infinitiv – mit oder ohne 'zu'.",
+            "prompt": "Hast du schon angefangen, für die Prüfung ___? (lernen)",
+            "solution": "zu lernen",
+            "hint": "Nach 'anfangen'.",
+            "explanation": "Nach 'anfangen' steht der Infinitiv mit 'zu'. Nach Verben wie 'versuchen', 'vergessen', 'anfangen', 'versprechen', 'erlauben' und nach 'Es ist + Adjektiv' steht der Infinitiv mit 'zu'."
+          },
+          {
+            "id": "l4e10",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze den Infinitiv – mit oder ohne 'zu'.",
+            "prompt": "Versuch doch mal, die neuen Vokabeln laut ___. (vorlesen)",
+            "solution": "vorzulesen",
+            "hint": "Trennbares Verb nach 'versuchen'.",
+            "explanation": "Nach 'versuchen' steht 'zu'. Bei trennbaren Verben steht 'zu' zwischen Präfix und Stamm und alles wird zusammengeschrieben (anrufen → anzurufen). Also: 'vorzulesen', nicht 'zu vorlesen'."
+          },
+          {
+            "id": "l4e11",
+            "type": "multiple-choice",
+            "instruction": "Wähle die richtige Form.",
+            "prompt": "Ich lasse mein Fahrrad in der Werkstatt ___.",
+            "options": [
+              "reparieren",
+              "zu reparieren",
+              "repariert",
+              "reparierte"
+            ],
+            "solution": "reparieren",
+            "hint": "'lassen' + Infinitiv.",
+            "explanation": "Nach 'lassen' steht der Infinitiv ohne 'zu'. Nach Modalverben sowie nach 'gehen', 'lernen', 'sehen', 'hören' und 'lassen' steht der Infinitiv ohne 'zu'."
+          },
+          {
+            "id": "l4e12",
+            "type": "multiple-choice",
+            "instruction": "Du schreibst eine formelle E-Mail an deine Kursleiterin. Wähle die passende Anrede.",
+            "prompt": "___ (an Frau Behrens)",
+            "options": [
+              "Sehr geehrte Frau Behrens,",
+              "Hallo Behrens,",
+              "Hi Frau Behrens,",
+              "Liebe Grüße, Frau Behrens"
+            ],
+            "solution": "Sehr geehrte Frau Behrens,",
+            "hint": "Formell = höflich und mit Nachnamen.",
+            "explanation": "In formellen E-Mails beginnt man mit 'Sehr geehrte Frau …,' bzw. 'Sehr geehrter Herr …,'. 'Hallo'/'Hi' sind informell, 'Liebe Grüße' ist ein Gruß am Ende."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l4m01",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz aus den Satzteilen.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Ich",
+              "habe",
+              "vergessen,",
+              "die Hausaufgaben",
+              "abzugeben."
+            ],
+            "solution": "Ich habe vergessen, die Hausaufgaben abzugeben.",
+            "hint": "Der zu-Infinitiv steht am Ende.",
+            "explanation": "Nach 'vergessen' folgt ein Infinitivsatz mit Komma; das Verb mit 'zu' steht am Ende: 'abzugeben'. Bei trennbaren Verben steht 'zu' zwischen Präfix und Stamm und alles wird zusammengeschrieben (anrufen → anzurufen)."
+          },
+          {
+            "id": "l4m02",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz aus den Satzteilen.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Es",
+              "ist",
+              "wichtig,",
+              "genug",
+              "zu",
+              "schlafen."
+            ],
+            "solution": "Es ist wichtig, genug zu schlafen.",
+            "hint": "Es ist + Adjektiv, + zu-Infinitiv.",
+            "explanation": "Nach 'Es ist wichtig' steht ein Infinitivsatz; 'zu' + Infinitiv bilden das Satzende."
+          },
+          {
+            "id": "l4m03",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz aus den Satzteilen.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Mein",
+              "Chef",
+              "erlaubt",
+              "mir,",
+              "früher",
+              "nach Hause",
+              "zu",
+              "gehen."
+            ],
+            "solution": "Mein Chef erlaubt mir, früher nach Hause zu gehen.",
+            "hint": "Wem erlaubt er etwas? Danach der Infinitivsatz.",
+            "explanation": "'erlauben' + Dativ + Infinitivsatz mit 'zu'. 'zu gehen' steht am Ende des Infinitivsatzes."
+          },
+          {
+            "id": "l4m04",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz aus den Satzteilen.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Sie",
+              "geht",
+              "jeden Samstag",
+              "schwimmen."
+            ],
+            "solution": "Sie geht jeden Samstag schwimmen.",
+            "hint": "'gehen' + Infinitiv ohne zu.",
+            "explanation": "Nach 'gehen' steht der zweite Infinitiv ohne 'zu' am Satzende."
+          },
+          {
+            "id": "l4m05",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz aus den Satzteilen.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Hast",
+              "du",
+              "Lust,",
+              "mit mir ins Kino",
+              "zu",
+              "gehen?"
+            ],
+            "solution": "Hast du Lust, mit mir ins Kino zu gehen?",
+            "hint": "Ja/Nein-Frage: Verb zuerst.",
+            "explanation": "In einer Ja/Nein-Frage steht das Verb auf Position 1. Nach 'Lust haben' folgt ein Infinitivsatz mit 'zu'."
+          },
+          {
+            "id": "l4m06",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz aus den Satzteilen.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Er",
+              "hat",
+              "angefangen,",
+              "Spanisch",
+              "zu",
+              "lernen."
+            ],
+            "solution": "Er hat angefangen, Spanisch zu lernen.",
+            "hint": "Perfekt + Infinitivsatz.",
+            "explanation": "'angefangen' schließt den Hauptsatz ab, nach dem Komma folgt der Infinitivsatz mit 'zu lernen' am Ende."
+          },
+          {
+            "id": "l4m07",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze den Infinitiv – mit oder ohne 'zu'.",
+            "prompt": "Wir haben geplant, im Sommer nach Wien ___. (fahren)",
+            "solution": "zu fahren",
+            "hint": "Nach 'planen'.",
+            "explanation": "Nach 'planen' steht der Infinitiv mit 'zu'. Nach Verben wie 'versuchen', 'vergessen', 'anfangen', 'versprechen', 'erlauben' und nach 'Es ist + Adjektiv' steht der Infinitiv mit 'zu'."
+          },
+          {
+            "id": "l4m08",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze den Infinitiv – mit oder ohne 'zu'.",
+            "prompt": "Kannst du mir die Regel noch einmal ___? (erklären)",
+            "solution": "erklären",
+            "hint": "Modalverb 'können'.",
+            "explanation": "Nach Modalverben sowie nach 'gehen', 'lernen', 'sehen', 'hören' und 'lassen' steht der Infinitiv ohne 'zu'. Also 'erklären' ohne 'zu'."
+          },
+          {
+            "id": "l4m09",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze den Infinitiv – mit oder ohne 'zu'.",
+            "prompt": "Vergiss nicht, den Wecker ___! (einstellen)",
+            "solution": "einzustellen",
+            "hint": "Trennbares Verb + zu.",
+            "explanation": "Nach 'vergessen' steht 'zu'. Bei trennbaren Verben steht 'zu' zwischen Präfix und Stamm und alles wird zusammengeschrieben (anrufen → anzurufen). → 'einzustellen'."
+          },
+          {
+            "id": "l4m10",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze den Infinitiv – mit oder ohne 'zu'.",
+            "prompt": "Ich lasse mir beim Friseur die Haare ___. (schneiden)",
+            "solution": "schneiden",
+            "hint": "'lassen' + Infinitiv.",
+            "explanation": "Nach 'lassen' steht der Infinitiv ohne 'zu'."
+          },
+          {
+            "id": "l4m11",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze den Infinitiv – mit oder ohne 'zu'.",
+            "prompt": "Hör auf, dich über kleine Fehler ___! (ärgern)",
+            "solution": "zu ärgern",
+            "hint": "Nach 'aufhören'.",
+            "explanation": "Nach 'aufhören' steht der Infinitiv mit 'zu'. Das Reflexivpronomen 'dich' steht vorn im Infinitivsatz."
+          },
+          {
+            "id": "l4m12",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze den Infinitiv – mit oder ohne 'zu'.",
+            "prompt": "Nina hat keine Zeit, sich auf die Prüfung ___. (vorbereiten)",
+            "solution": "vorzubereiten",
+            "hint": "'Zeit haben' + trennbares Verb.",
+            "explanation": "Nach 'keine Zeit haben' steht ein Infinitiv mit 'zu'. Bei trennbaren Verben steht 'zu' zwischen Präfix und Stamm und alles wird zusammengeschrieben (anrufen → anzurufen). → 'vorzubereiten'."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l4h01",
+            "type": "targeted-transformation",
+            "instruction": "Bilde einen Infinitivsatz. Beginne mit 'Ich versuche,' und behalte die Reihenfolge der Satzglieder bei.",
+            "prompt": "Ich lerne jeden Tag neue Wörter.",
+            "solution": "Ich versuche, jeden Tag neue Wörter zu lernen.",
+            "hint": "Subjekt fällt weg, 'zu' + Infinitiv ans Ende.",
+            "explanation": "Im Infinitivsatz fällt das Subjekt weg, das Verb steht als 'zu' + Infinitiv am Ende. Nach Verben wie 'versuchen', 'vergessen', 'anfangen', 'versprechen', 'erlauben' und nach 'Es ist + Adjektiv' steht der Infinitiv mit 'zu'."
+          },
+          {
+            "id": "l4h02",
+            "type": "targeted-transformation",
+            "instruction": "Bilde einen Infinitivsatz. Beginne mit 'Ich verspreche dir,' und behalte die Reihenfolge der Satzglieder bei.",
+            "prompt": "Ich rufe dich morgen an.",
+            "solution": "Ich verspreche dir, dich morgen anzurufen.",
+            "hint": "Trennbares Verb.",
+            "explanation": "Im Infinitivsatz fällt das Subjekt 'ich' weg, das Objekt 'dich' bleibt. 'anrufen' ist trennbar, darum steht 'zu' zwischen Präfix und Stamm: 'anzurufen' (nicht 'zu anrufen')."
+          },
+          {
+            "id": "l4h03",
+            "type": "targeted-transformation",
+            "instruction": "Bilde einen Infinitivsatz. Beginne mit 'Es ist sinnvoll,' und behalte die Reihenfolge der Satzglieder bei.",
+            "prompt": "Man macht sich beim Lesen Notizen.",
+            "solution": "Es ist sinnvoll, sich beim Lesen Notizen zu machen.",
+            "hint": "Aus 'man macht sich' wird 'sich … zu machen'.",
+            "explanation": "Nach 'Es ist + Adjektiv' steht der zu-Infinitiv. 'man' fällt weg, das Reflexivpronomen bleibt als 'sich' am Anfang des Infinitivsatzes."
+          },
+          {
+            "id": "l4h04",
+            "type": "targeted-transformation",
+            "instruction": "Bilde einen Infinitivsatz. Beginne mit 'Ich habe keine Zeit,'.",
+            "prompt": "Ich gehe heute einkaufen.",
+            "solution": "Ich habe keine Zeit, heute einkaufen zu gehen.",
+            "hint": "'gehen' bekommt das 'zu'.",
+            "explanation": "'einkaufen gehen' ist Infinitiv ohne 'zu' + 'gehen'. Im Infinitivsatz bekommt nur das letzte Verb 'zu': 'einkaufen zu gehen'."
+          },
+          {
+            "id": "l4h05",
+            "type": "targeted-transformation",
+            "instruction": "Bilde einen Infinitivsatz. Beginne mit 'Die Eltern erlauben den Kindern,'.",
+            "prompt": "Die Kinder dürfen im Garten spielen.",
+            "solution": "Die Eltern erlauben den Kindern, im Garten zu spielen.",
+            "hint": "'erlauben' ersetzt 'dürfen'.",
+            "explanation": "'erlauben' drückt schon die Erlaubnis aus, darum fällt 'dürfen' weg. Nach 'erlauben' folgt der Infinitiv mit 'zu'."
+          },
+          {
+            "id": "l4h06",
+            "type": "targeted-transformation",
+            "instruction": "Bilde einen Infinitivsatz. Beginne mit 'Es fällt mir schwer,'.",
+            "prompt": "Ich stehe früh auf.",
+            "solution": "Es fällt mir schwer, früh aufzustehen.",
+            "hint": "Trennbares Verb.",
+            "explanation": "Nach 'Es fällt mir schwer' steht ein zu-Infinitiv. 'aufstehen' ist trennbar → 'aufzustehen'."
+          },
+          {
+            "id": "l4h07",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Schreibe den ganzen Satz richtig.",
+            "prompt": "Ich habe vergessen, die Tür abschließen.",
+            "solution": "Ich habe vergessen, die Tür abzuschließen.",
+            "hint": "Nach 'vergessen' fehlt etwas.",
+            "explanation": "Nach 'vergessen' braucht man 'zu'. Bei trennbarem 'abschließen' steht es in der Mitte: 'abzuschließen'."
+          },
+          {
+            "id": "l4h08",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Schreibe den ganzen Satz richtig.",
+            "prompt": "Wir müssen morgen früh zu arbeiten.",
+            "solution": "Wir müssen morgen früh arbeiten.",
+            "hint": "Modalverb.",
+            "explanation": "Nach Modalverben steht der Infinitiv ohne 'zu'. Das 'zu' muss weg."
+          },
+          {
+            "id": "l4h09",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Schreibe den ganzen Satz richtig.",
+            "prompt": "Es ist nicht leicht, eine neue Sprache lernen.",
+            "solution": "Es ist nicht leicht, eine neue Sprache zu lernen.",
+            "hint": "Es ist + Adjektiv.",
+            "explanation": "Nach 'Es ist + Adjektiv' folgt ein Infinitivsatz mit 'zu': 'zu lernen'."
+          },
+          {
+            "id": "l4h10",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Schreibe den ganzen Satz richtig.",
+            "prompt": "Sie hat angefangen, im Chor zu mitsingen.",
+            "solution": "Sie hat angefangen, im Chor mitzusingen.",
+            "hint": "Position von 'zu' bei trennbaren Verben.",
+            "explanation": "Bei trennbaren Verben steht 'zu' zwischen Präfix und Stamm und alles wird zusammengeschrieben (anrufen → anzurufen). Richtig ist also 'mitzusingen'."
+          },
+          {
+            "id": "l4h11",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Schreibe den ganzen Satz richtig.",
+            "prompt": "Ich gehe am Wochenende mit meiner Schwester zu tanzen.",
+            "solution": "Ich gehe am Wochenende mit meiner Schwester tanzen.",
+            "hint": "'gehen' + Infinitiv.",
+            "explanation": "Nach 'gehen' steht der Infinitiv ohne 'zu': 'tanzen gehen'."
+          },
+          {
+            "id": "l4h12",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Schreibe den ganzen Satz richtig.",
+            "prompt": "Sehr geehrte Frau Behrens, leider ich kann den Termin am Dienstag nicht wahrnehmen.",
+            "solution": "Sehr geehrte Frau Behrens, leider kann ich den Termin am Dienstag nicht wahrnehmen.",
+            "hint": "Wortstellung nach 'leider'.",
+            "explanation": "Im Hauptsatz steht das konjugierte Verb auf Position 2. 'leider' besetzt schon Position 1, deshalb folgt direkt das Verb und dann erst das Subjekt: 'leider kann ich …'. 'leider ich kann' hätte das Verb auf Position 3."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l4t01",
+          "type": "multiple-choice",
+          "instruction": "Wähle die richtige Form.",
+          "prompt": "Mist, ich habe vergessen, den Herd ___.",
+          "options": [
+            "auszuschalten",
+            "ausschalten",
+            "zu ausschalten",
+            "ausschaltet"
+          ],
+          "solution": "auszuschalten",
+          "explanation": "Nach 'vergessen' folgt der Infinitiv mit 'zu'. Bei trennbaren Verben steht 'zu' zwischen Präfix und Verb: aus-zu-schalten. 'zu ausschalten' trennt falsch, 'ausschalten' fehlt das 'zu'."
+        },
+        {
+          "id": "l4t02",
+          "type": "multiple-choice",
+          "instruction": "Wähle die richtige Form.",
+          "prompt": "Am Wochenende lassen wir die Kinder morgens länger ___.",
+          "options": [
+            "schlafen",
+            "zu schlafen",
+            "geschlafen",
+            "schläft"
+          ],
+          "solution": "schlafen",
+          "explanation": "Nach 'lassen' steht der Infinitiv ohne 'zu' am Satzende – genau wie nach Modalverben. 'zu schlafen' ist hier falsch, 'geschlafen' und 'schläft' sind keine Infinitive."
+        },
+        {
+          "id": "l4t03",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze den Infinitiv von 'vertiefen' – mit oder ohne 'zu'.",
+          "prompt": "Nach dem Grundkurs ist es sinnvoll, die Kenntnisse in einem Aufbaukurs ___.",
+          "solution": "zu vertiefen",
+          "explanation": "Nach 'Es ist sinnvoll/wichtig, …' steht der Infinitiv mit 'zu'. 'vertiefen' ist nicht trennbar, deshalb steht 'zu' davor: zu vertiefen."
+        },
+        {
+          "id": "l4t04",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze den Infinitiv von 'teilnehmen' – mit oder ohne 'zu'.",
+          "prompt": "Im August möchte Samira an einem Sommerkurs in Graz ___.",
+          "solution": "teilnehmen",
+          "explanation": "Nach Modalverben wie 'möchte' steht der Infinitiv ohne 'zu' am Satzende. 'teilzunehmen' wäre nur nach Verben wie 'versuchen' oder 'vorhaben' richtig."
+        },
+        {
+          "id": "l4t05",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze den Infinitiv von 'ausprobieren' – mit oder ohne 'zu'.",
+          "prompt": "Hast du Lust, heute Abend die neue Vokabel-App ___?",
+          "solution": "auszuprobieren",
+          "explanation": "Nach 'Lust haben' folgt der Infinitiv mit 'zu'. Bei trennbaren Verben steht 'zu' zwischen Präfix und Stamm: aus-zu-probieren."
+        },
+        {
+          "id": "l4t06",
+          "type": "cloze-conjugation",
+          "instruction": "Setze das Verb im Präteritum ein.",
+          "prompt": "Nach dem Streit ___ (versprechen) mir Jonas, nie wieder zu spät zu kommen.",
+          "solution": "versprach",
+          "explanation": "'versprechen' ist unregelmäßig: versprechen – versprach – versprochen. Die 3. Person Singular im Präteritum hat keine Endung: er versprach."
+        },
+        {
+          "id": "l4t07",
+          "type": "cloze-conjugation",
+          "instruction": "Setze das Verb im Präsens ein.",
+          "prompt": "Seit dem Frühling ___ (lernen) meine Nachbarin Gitarre spielen.",
+          "solution": "lernt",
+          "explanation": "'lernen' gehört zu den Verben, nach denen der Infinitiv ohne 'zu' steht: Sie lernt Gitarre spielen. Präsens, 3. Person Singular: lernt."
+        },
+        {
+          "id": "l4t08",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz. Beginne mit 'Vom Balkon aus'.",
+          "prompt": "Baue den Satz aus den Teilen.",
+          "scrambleChunks": [
+            "Vom Balkon aus",
+            "sehe",
+            "ich",
+            "die Kinder",
+            "Fußball spielen."
+          ],
+          "solution": "Vom Balkon aus sehe ich die Kinder Fußball spielen.",
+          "explanation": "Nach 'sehen' und 'hören' steht der Infinitiv ohne 'zu' am Satzende: … die Kinder Fußball spielen. Weil 'Vom Balkon aus' auf Position 1 steht, folgt das Verb 'sehe' auf Position 2 und das Subjekt 'ich' direkt danach."
+        },
+        {
+          "id": "l4t09",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz.",
+          "prompt": "Baue den Satz aus den Teilen.",
+          "scrambleChunks": [
+            "Karim",
+            "hat",
+            "angefangen,",
+            "sich",
+            "für Fotografie",
+            "zu interessieren."
+          ],
+          "solution": "Karim hat angefangen, sich für Fotografie zu interessieren.",
+          "explanation": "'anfangen' verlangt einen Infinitiv mit 'zu'. Nach dem Komma beginnt der Infinitivsatz; das Reflexivpronomen 'sich' steht vorne, 'zu interessieren' ganz am Ende."
+        },
+        {
+          "id": "l4t10",
+          "type": "targeted-transformation",
+          "instruction": "Formuliere den Satz mit 'versuchen' im Präsens um. Beginne mit 'Lena versucht,' (mit Komma).",
+          "prompt": "Lena hört mit dem Rauchen auf.",
+          "solution": "Lena versucht, mit dem Rauchen aufzuhören.",
+          "explanation": "Nach 'versuchen' steht ein Infinitivsatz mit 'zu'. Das konjugierte Verb 'hört … auf' wird zum Infinitiv am Satzende; bei trennbaren Verben steht 'zu' zwischen Präfix und Stamm: aufzuhören."
+        },
+        {
+          "id": "l4t11",
+          "type": "targeted-transformation",
+          "instruction": "Formuliere den Satz mit einem Infinitiv mit 'zu' um (ohne 'dass'). Beginne mit 'Es ist wichtig,' (mit Komma).",
+          "prompt": "Man muss sich die Arbeit am Referat gut einteilen.",
+          "solution": "Es ist wichtig, sich die Arbeit am Referat gut einzuteilen.",
+          "explanation": "Nach 'Es ist wichtig, …' kann ein Infinitiv mit 'zu' folgen. 'man' und 'muss' fallen weg. 'einteilen' ist trennbar: ein-zu-teilen."
+        },
+        {
+          "id": "l4t12",
+          "type": "error-correction",
+          "instruction": "Finde und korrigiere den Fehler.",
+          "prompt": "Kannst du mir bitte das Salz zu geben?",
+          "solution": "Kannst du mir bitte das Salz geben?",
+          "explanation": "Nach Modalverben wie 'können' steht der Infinitiv immer ohne 'zu'. Das 'zu' muss also weg."
+        },
+        {
+          "id": "l4t13",
+          "type": "error-correction",
+          "instruction": "Finde und korrigiere den Fehler.",
+          "prompt": "Mein Vermieter hat mir erlaubt, eine Katze halten.",
+          "solution": "Mein Vermieter hat mir erlaubt, eine Katze zu halten.",
+          "explanation": "Nach 'erlauben' folgt ein Infinitivsatz mit 'zu'. Ohne 'zu' ist der Satz falsch: …, eine Katze zu halten."
+        },
+        {
+          "id": "l4t14",
+          "type": "multiple-choice",
+          "instruction": "Welcher Satz passt in eine formelle E-Mail, in der Sie einen Termin verschieben möchten?",
+          "prompt": "Sie schreiben an Frau Dr. Keller:",
+          "options": [
+            "Bedauerlicherweise muss ich unseren Termin am Dienstag verschieben.",
+            "Hey, Dienstag klappt bei mir nicht, sorry!",
+            "Du, ich kann am Dienstag leider nicht.",
+            "Dienstag geht nicht, mach einen neuen Termin."
+          ],
+          "solution": "Bedauerlicherweise muss ich unseren Termin am Dienstag verschieben.",
+          "explanation": "In einer formellen E-Mail benutzt man die Sie-Form und höfliche Wörter wie 'bedauerlicherweise'. 'Hey', 'sorry' und die du-Form passen nur zu Freunden."
+        },
+        {
+          "id": "l4t15",
+          "type": "multiple-choice",
+          "instruction": "Wähle die richtige Form.",
+          "prompt": "Wäre es möglich, unser Gespräch auf Freitag ___?",
+          "options": [
+            "zu verschieben",
+            "verschieben",
+            "verschoben",
+            "zu verschoben"
+          ],
+          "solution": "zu verschieben",
+          "explanation": "Nach 'Wäre es möglich, …' folgt ein Infinitiv mit 'zu'. 'verschieben' ist nicht trennbar, deshalb steht 'zu' davor."
+        }
+      ]
+    },
+    {
+      "lektionId": "b1plus-m2-l5",
+      "level": "B1+",
+      "modulNumber": 2,
+      "lektionNumber": 5,
+      "title": "Wissen oder googeln?",
+      "grammarFocus": [
+        "Wortschatz: Wissen und Medien (recherchieren, hinterfragen, verfügen über)",
+        "Höfliche und indirekte Fragen (Können Sie mir sagen, wo/ob …?)",
+        "Imperativ in der Sie-Form für Regeln und Ratschläge"
+      ],
+      "vocabulary": [
+        {
+          "id": "l5v01",
+          "term": "das Wissen",
+          "translation": "el conocimiento / el saber",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "example": "Im Internet ist sehr viel Wissen frei zugänglich."
+        },
+        {
+          "id": "l5v02",
+          "term": "gebildet",
+          "translation": "culto / instruido",
+          "partOfSpeech": "adjective",
+          "example": "Meine Großmutter ist sehr gebildet und liest jeden Tag."
+        },
+        {
+          "id": "l5v03",
+          "term": "hinterfragen",
+          "translation": "cuestionar",
+          "partOfSpeech": "verb",
+          "preterite": "hinterfragte",
+          "participle": "hinterfragt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Man sollte Nachrichten aus sozialen Netzwerken immer hinterfragen."
+        },
+        {
+          "id": "l5v04",
+          "term": "vermitteln",
+          "translation": "transmitir / enseñar",
+          "partOfSpeech": "verb",
+          "preterite": "vermittelte",
+          "participle": "vermittelt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Ein guter Lehrer vermittelt Wissen mit Freude."
+        },
+        {
+          "id": "l5v05",
+          "term": "die Datenflut",
+          "translation": "la avalancha de datos",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Bei der Datenflut im Netz verliert man schnell den Überblick."
+        },
+        {
+          "id": "l5v06",
+          "term": "recherchieren",
+          "translation": "investigar / buscar información",
+          "partOfSpeech": "verb",
+          "preterite": "recherchierte",
+          "participle": "recherchiert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Für meinen Artikel recherchiere ich in der Bibliothek."
+        },
+        {
+          "id": "l5v07",
+          "term": "verfügen",
+          "translation": "disponer (de)",
+          "partOfSpeech": "verb",
+          "preterite": "verfügte",
+          "participle": "verfügt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Das Hotel verfügt über einen großen Garten."
+        },
+        {
+          "id": "l5v08",
+          "term": "unterscheiden",
+          "translation": "distinguir",
+          "partOfSpeech": "verb",
+          "preterite": "unterschied",
+          "participle": "unterschieden",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Kannst du echte und falsche Nachrichten unterscheiden?"
+        },
+        {
+          "id": "l5v09",
+          "term": "die Quelle",
+          "translation": "la fuente",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Quellen",
+          "example": "Gib bitte immer die Quelle deiner Informationen an."
+        },
+        {
+          "id": "l5v10",
+          "term": "die Suchmaschine",
+          "translation": "el buscador",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Suchmaschinen",
+          "example": "Ich tippe die Frage einfach in eine Suchmaschine ein."
+        },
+        {
+          "id": "l5v11",
+          "term": "zuverlässig",
+          "translation": "fiable",
+          "partOfSpeech": "adjective",
+          "example": "Diese Webseite ist eine zuverlässige Quelle."
+        },
+        {
+          "id": "l5v12",
+          "term": "die Allgemeinbildung",
+          "translation": "la cultura general",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Quizsendungen testen die Allgemeinbildung."
+        },
+        {
+          "id": "l5v13",
+          "term": "nachschlagen",
+          "translation": "consultar (en un libro)",
+          "partOfSpeech": "verb",
+          "preterite": "schlug nach",
+          "participle": "nachgeschlagen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Unbekannte Wörter schlage ich im Wörterbuch nach."
+        },
+        {
+          "id": "l5v14",
+          "term": "das Gedächtnis",
+          "translation": "la memoria",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "example": "Er hat ein gutes Gedächtnis für Zahlen."
+        },
+        {
+          "id": "l5v15",
+          "term": "die Höflichkeit",
+          "translation": "la cortesía",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Höflichkeit öffnet viele Türen."
+        },
+        {
+          "id": "l5v16",
+          "term": "ausreden",
+          "translation": "terminar de hablar",
+          "partOfSpeech": "verb",
+          "preterite": "redete aus",
+          "participle": "ausgeredet",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Bitte lassen Sie mich ausreden!"
+        },
+        {
+          "id": "l5v17",
+          "term": "der Gesprächspartner",
+          "translation": "el interlocutor",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Gesprächspartner",
+          "example": "Hören Sie Ihrem Gesprächspartner aufmerksam zu."
+        },
+        {
+          "id": "l5v18",
+          "term": "beachten",
+          "translation": "tener en cuenta / respetar",
+          "partOfSpeech": "verb",
+          "preterite": "beachtete",
+          "participle": "beachtet",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Beachten Sie bitte die Hausordnung."
+        },
+        {
+          "id": "l5v19",
+          "term": "die Auskunft",
+          "translation": "la información (que se da)",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Auskünfte",
+          "example": "Am Schalter bekommen Sie Auskunft über die Züge."
+        },
+        {
+          "id": "l5v20",
+          "term": "folgendermaßen",
+          "translation": "de la siguiente manera",
+          "partOfSpeech": "adverb",
+          "example": "Das funktioniert folgendermaßen: Sie drücken zuerst auf Start."
+        },
+        {
+          "id": "l5v21",
+          "term": "Gern geschehen.",
+          "translation": "De nada. / Con gusto.",
+          "partOfSpeech": "phrase",
+          "example": "– Danke für Ihre Hilfe! – Gern geschehen."
+        },
+        {
+          "id": "l5v22",
+          "term": "der Umgang",
+          "translation": "el trato",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "example": "Der Umgang mit Kunden macht ihr Spaß."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l5e01",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Verb.",
+            "prompt": "Eine gute Lehrerin kann Wissen verständlich ___.",
+            "options": [
+              "vermitteln",
+              "verfügen",
+              "unterscheiden",
+              "recherchieren"
+            ],
+            "solution": "vermitteln",
+            "hint": "Wissen an andere weitergeben.",
+            "explanation": "'Wissen vermitteln' heißt, Wissen an andere weitergeben. 'verfügen' braucht 'über', 'unterscheiden' und 'recherchieren' passen inhaltlich nicht."
+          },
+          {
+            "id": "l5e02",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Verb.",
+            "prompt": "Unsere Firma ___ über moderne Technik.",
+            "options": [
+              "verfügt",
+              "vermittelt",
+              "hinterfragt",
+              "recherchiert"
+            ],
+            "solution": "verfügt",
+            "hint": "Welches Verb steht mit 'über'?",
+            "explanation": "'verfügen über + Akkusativ' bedeutet 'etwas haben/besitzen'. Die anderen Verben stehen nicht mit 'über' in dieser Bedeutung."
+          },
+          {
+            "id": "l5e03",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Verb.",
+            "prompt": "Kinder müssen lernen, zwischen Werbung und Information zu ___.",
+            "options": [
+              "unterscheiden",
+              "verfügen",
+              "vermitteln",
+              "nachschlagen"
+            ],
+            "solution": "unterscheiden",
+            "hint": "zwischen A und B …",
+            "explanation": "'zwischen A und B unterscheiden' = den Unterschied erkennen. Die anderen Verben passen nicht zu 'zwischen … und …'."
+          },
+          {
+            "id": "l5e04",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Nomen.",
+            "prompt": "Jeden Tag bekommen wir Hunderte Nachrichten und E-Mails – eine echte ___.",
+            "options": [
+              "Datenflut",
+              "Allgemeinbildung",
+              "Auskunft",
+              "Quelle"
+            ],
+            "solution": "Datenflut",
+            "hint": "Sehr viele Informationen auf einmal.",
+            "explanation": "Eine 'Datenflut' ist eine riesige Menge an Informationen. 'Allgemeinbildung', 'Auskunft' und 'Quelle' bedeuten etwas anderes."
+          },
+          {
+            "id": "l5e05",
+            "type": "multiple-choice",
+            "instruction": "Du sprichst eine fremde Person auf der Straße an. Welche Frage ist höflich?",
+            "prompt": "Wie beginnst du am besten?",
+            "options": [
+              "Entschuldigen Sie bitte, könnten Sie mir kurz helfen?",
+              "He, wo ist der Bahnhof?",
+              "Sag mal, wo ist der Bahnhof?",
+              "Bahnhof – wo?"
+            ],
+            "solution": "Entschuldigen Sie bitte, könnten Sie mir kurz helfen?",
+            "hint": "Sie-Form und Konjunktiv II wirken höflich.",
+            "explanation": "Fremde Erwachsene spricht man mit 'Sie' an. 'Entschuldigen Sie bitte' und der Konjunktiv II 'könnten' machen die Frage höflich. 'He' und 'Sag mal' duzen die Person und klingen unhöflich, 'Bahnhof – wo?' ist gar kein Satz."
+          },
+          {
+            "id": "l5e06",
+            "type": "multiple-choice",
+            "instruction": "Wähle die richtige indirekte Frage.",
+            "prompt": "Können Sie mir sagen, ___?",
+            "options": [
+              "wo die Bibliothek ist",
+              "wo ist die Bibliothek",
+              "wo die Bibliothek sein",
+              "ist wo die Bibliothek"
+            ],
+            "solution": "wo die Bibliothek ist",
+            "hint": "Indirekte Frage = Nebensatz.",
+            "explanation": "Eine indirekte W-Frage ist ein Nebensatz: Das konjugierte Verb steht am Ende ('wo die Bibliothek ist')."
+          },
+          {
+            "id": "l5e07",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Einleitewort.",
+            "prompt": "Können Sie mir sagen, ___ ich hier mit Karte bezahlen kann? – Ja, natürlich.",
+            "options": [
+              "ob",
+              "dass",
+              "wenn",
+              "weil"
+            ],
+            "solution": "ob",
+            "hint": "Die Antwort ist 'Ja'.",
+            "explanation": "Eine indirekte Ja/Nein-Frage wird mit 'ob' eingeleitet. 'dass' leitet eine Aussage ein, keine Frage; 'wenn' ist eine Bedingung oder Zeitangabe ('falls'/'immer wenn') und 'weil' nennt einen Grund."
+          },
+          {
+            "id": "l5e08",
+            "type": "fill-in-blank",
+            "instruction": "Bilde den Imperativ in der Sie-Form.",
+            "prompt": "___ Sie bitte Ihr Handy während des Unterrichts aus! (ausschalten)",
+            "solution": "Schalten",
+            "hint": "Verb + Sie; Präfix ans Ende.",
+            "explanation": "Imperativ Sie-Form = Infinitivform + 'Sie'. Bei trennbaren Verben steht das Präfix am Ende: 'Schalten Sie … aus!'"
+          },
+          {
+            "id": "l5e09",
+            "type": "fill-in-blank",
+            "instruction": "Bilde den Imperativ in der Sie-Form.",
+            "prompt": "___ Sie nicht, sich bei Ihrer Gastgeberin zu bedanken! (vergessen)",
+            "solution": "Vergessen",
+            "hint": "Sie-Form = Infinitivform.",
+            "explanation": "Im Imperativ der Sie-Form gibt es keinen Vokalwechsel: 'Vergessen Sie …!' (nicht 'Vergiss')."
+          },
+          {
+            "id": "l5e10",
+            "type": "fill-in-blank",
+            "instruction": "Bilde den Imperativ in der Sie-Form.",
+            "prompt": "___ Sie bitte etwas leiser, die Kollegen arbeiten! (sprechen)",
+            "solution": "Sprechen",
+            "hint": "Kein Vokalwechsel in der Sie-Form.",
+            "explanation": "Die Sie-Form des Imperativs ist immer gleich wie der Infinitiv: 'Sprechen Sie …!' 'Sprich' ist die du-Form."
+          },
+          {
+            "id": "l5e11",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Antwort.",
+            "prompt": "– Vielen Dank für Ihre Hilfe! – ___",
+            "options": [
+              "Gern geschehen.",
+              "Das macht nichts.",
+              "Gute Besserung.",
+              "Ebenfalls."
+            ],
+            "solution": "Gern geschehen.",
+            "hint": "Antwort auf 'Danke'.",
+            "explanation": "Auf einen Dank antwortet man mit 'Gern geschehen.' oder 'Bitte schön.'. 'Das macht nichts' antwortet auf eine Entschuldigung, 'Gute Besserung' wünscht man Kranken."
+          },
+          {
+            "id": "l5e12",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Nomen im Plural.",
+            "prompt": "Wer sich gut informieren will, sollte mehrere ___ vergleichen. (die Quelle)",
+            "solution": "Quellen",
+            "hint": "Plural von Nomen auf -e.",
+            "explanation": "Feminine Nomen auf '-e' bilden den Plural meist mit '-n': die Quelle → die Quellen."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l5m01",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz aus den Satzteilen.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Können",
+              "Sie",
+              "mir",
+              "sagen,",
+              "wo",
+              "der Bahnhof",
+              "ist?"
+            ],
+            "solution": "Können Sie mir sagen, wo der Bahnhof ist?",
+            "hint": "Das Verb der indirekten Frage steht am Ende.",
+            "explanation": "Nach 'Können Sie mir sagen,' folgt ein Nebensatz mit dem Fragewort 'wo'; das konjugierte Verb 'ist' steht am Ende."
+          },
+          {
+            "id": "l5m02",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz aus den Satzteilen.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Wissen",
+              "Sie,",
+              "wann",
+              "die Bibliothek",
+              "schließt?"
+            ],
+            "solution": "Wissen Sie, wann die Bibliothek schließt?",
+            "hint": "Einleitung + W-Wort + … + Verb.",
+            "explanation": "In der indirekten Frage mit 'wann' steht das Verb 'schließt' am Satzende."
+          },
+          {
+            "id": "l5m03",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz aus den Satzteilen.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Ich",
+              "möchte",
+              "wissen,",
+              "ob",
+              "der Kurs",
+              "noch",
+              "freie Plätze",
+              "hat."
+            ],
+            "solution": "Ich möchte wissen, ob der Kurs noch freie Plätze hat.",
+            "hint": "Ja/Nein-Frage indirekt → 'ob'.",
+            "explanation": "Indirekte Ja/Nein-Fragen beginnen mit 'ob'; das Verb 'hat' steht am Ende."
+          },
+          {
+            "id": "l5m04",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz aus den Satzteilen.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Lassen",
+              "Sie",
+              "Ihre Gäste",
+              "ausreden!"
+            ],
+            "solution": "Lassen Sie Ihre Gäste ausreden!",
+            "hint": "Imperativ: Verb zuerst.",
+            "explanation": "Im Imperativ der Sie-Form steht das Verb 'Lassen' auf Position 1, danach 'Sie'. Nach 'lassen' steht der zweite Infinitiv ohne 'zu' am Satzende: 'ausreden'."
+          },
+          {
+            "id": "l5m05",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz aus den Satzteilen.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Hinterfragen",
+              "Sie",
+              "Nachrichten",
+              "aus dem Internet!"
+            ],
+            "solution": "Hinterfragen Sie Nachrichten aus dem Internet!",
+            "hint": "Imperativ Sie-Form: Verb + Sie + Ergänzung.",
+            "explanation": "Imperativ Sie-Form: Das Verb steht auf Position 1, direkt danach 'Sie', dann die Ergänzungen. 'aus dem Internet' gehört zu 'Nachrichten' und steht direkt dahinter. 'hinterfragen' ist untrennbar, es bleibt zusammen."
+          },
+          {
+            "id": "l5m06",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz aus den Satzteilen.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Könnten",
+              "Sie",
+              "mir",
+              "erklären,",
+              "wie",
+              "diese App",
+              "funktioniert?"
+            ],
+            "solution": "Könnten Sie mir erklären, wie diese App funktioniert?",
+            "hint": "Höfliche Frage mit Konjunktiv II + indirekte Frage.",
+            "explanation": "'Könnten Sie …' ist eine höfliche Bitte. Danach folgt eine indirekte Frage mit dem Verb am Ende."
+          },
+          {
+            "id": "l5m07",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb im Präsens.",
+            "prompt": "___ du über genug Zeit für das Projekt? (verfügen)",
+            "solution": "Verfügst",
+            "hint": "du-Form, Ja/Nein-Frage.",
+            "explanation": "Die du-Form im Präsens endet auf '-st': 'du verfügst'. In der Ja/Nein-Frage steht das Verb auf Position 1. 'verfügen über + Akkusativ' bedeutet 'haben'."
+          },
+          {
+            "id": "l5m08",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb im Präsens.",
+            "prompt": "Die Journalistin ___ seit Wochen zu diesem Thema. (recherchieren)",
+            "solution": "recherchiert",
+            "hint": "3. Person Singular.",
+            "explanation": "Bei 'sie' (Singular) endet das Verb auf '-t': 'sie recherchiert'."
+          },
+          {
+            "id": "l5m09",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb im Präsens.",
+            "prompt": "Kannst du mir sagen, wie spät es ___? (sein)",
+            "solution": "ist",
+            "hint": "Verb am Ende der indirekten Frage.",
+            "explanation": "In der indirekten Frage steht das konjugierte Verb am Ende: 'wie spät es ist'."
+          },
+          {
+            "id": "l5m10",
+            "type": "cloze-conjugation",
+            "instruction": "Setze das Verb ins Präteritum.",
+            "prompt": "Früher ___ man unbekannte Wörter im Lexikon nach. (nachschlagen)",
+            "solution": "schlug",
+            "hint": "Unregelmäßiges Verb, trennbar.",
+            "explanation": "'nachschlagen' ist unregelmäßig: schlagen – schlug – geschlagen. Das Präfix 'nach' steht am Satzende."
+          },
+          {
+            "id": "l5m11",
+            "type": "cloze-conjugation",
+            "instruction": "Bilde den Imperativ in der Sie-Form.",
+            "prompt": "___ Sie im Gespräch nicht ständig auf Ihr Handy! (schauen)",
+            "solution": "Schauen",
+            "hint": "Sie-Form = Infinitivform.",
+            "explanation": "Imperativ Sie-Form: Infinitiv + 'Sie', das Verb steht vorn: 'Schauen Sie …!'"
+          },
+          {
+            "id": "l5m12",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb im Präsens.",
+            "prompt": "Unser Lehrer ___ den Stoff sehr anschaulich. (vermitteln)",
+            "solution": "vermittelt",
+            "hint": "3. Person Singular.",
+            "explanation": "'er/sie/es' → Endung '-t': 'er vermittelt'."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l5h01",
+            "type": "targeted-transformation",
+            "instruction": "Formuliere als indirekte Frage. Beginne mit 'Können Sie mir sagen,'.",
+            "prompt": "Wo ist die nächste Apotheke?",
+            "solution": "Können Sie mir sagen, wo die nächste Apotheke ist?",
+            "hint": "Verb ans Ende.",
+            "explanation": "Aus der direkten W-Frage wird ein Nebensatz: W-Wort + Subjekt + … + Verb am Ende."
+          },
+          {
+            "id": "l5h02",
+            "type": "targeted-transformation",
+            "instruction": "Formuliere als indirekte Frage. Beginne mit 'Wissen Sie,'.",
+            "prompt": "Wann fährt der letzte Bus?",
+            "solution": "Wissen Sie, wann der letzte Bus fährt?",
+            "hint": "Verb ans Ende.",
+            "explanation": "In der indirekten Frage steht 'fährt' am Ende: 'wann der letzte Bus fährt'."
+          },
+          {
+            "id": "l5h03",
+            "type": "targeted-transformation",
+            "instruction": "Formuliere als indirekte Frage. Beginne mit 'Können Sie mir sagen,'.",
+            "prompt": "Hat die Post am Samstag geöffnet?",
+            "solution": "Können Sie mir sagen, ob die Post am Samstag geöffnet hat?",
+            "hint": "Ja/Nein-Frage → 'ob'.",
+            "explanation": "Direkte Ja/Nein-Fragen werden mit 'ob' indirekt; das konjugierte Verb 'hat' steht ganz am Ende."
+          },
+          {
+            "id": "l5h04",
+            "type": "targeted-transformation",
+            "instruction": "Formuliere als indirekte Frage. Beginne mit 'Ich möchte gern wissen,'.",
+            "prompt": "Wie viel kostet der Sprachkurs?",
+            "solution": "Ich möchte gern wissen, wie viel der Sprachkurs kostet.",
+            "hint": "Aussagesatz → Punkt.",
+            "explanation": "'wie viel' leitet den Nebensatz ein, das Verb 'kostet' steht am Ende. Nach 'Ich möchte wissen' endet der Satz mit einem Punkt."
+          },
+          {
+            "id": "l5h05",
+            "type": "targeted-transformation",
+            "instruction": "Formuliere als indirekte Frage. Beginne mit 'Wissen Sie,'.",
+            "prompt": "Kann ich hier das WLAN benutzen?",
+            "solution": "Wissen Sie, ob ich hier das WLAN benutzen kann?",
+            "hint": "Modalverb ganz ans Ende.",
+            "explanation": "Ja/Nein-Frage → 'ob'. Im Nebensatz steht das Modalverb 'kann' nach dem Infinitiv am Ende."
+          },
+          {
+            "id": "l5h06",
+            "type": "targeted-transformation",
+            "instruction": "Bilde den Imperativ in der Sie-Form. Behalte die Reihenfolge der übrigen Satzglieder bei.",
+            "prompt": "Sie sollen pünktlich zum Termin kommen.",
+            "solution": "Kommen Sie pünktlich zum Termin!",
+            "hint": "Verb auf Position 1.",
+            "explanation": "Aus 'Sie sollen …' wird ein Imperativ: 'sollen' fällt weg, das Vollverb steht in der Infinitivform auf Position 1, 'Sie' auf Position 2: 'Kommen Sie …!'"
+          },
+          {
+            "id": "l5h07",
+            "type": "targeted-transformation",
+            "instruction": "Bilde den Imperativ in der Sie-Form. Behalte die Reihenfolge der übrigen Satzglieder bei.",
+            "prompt": "Sie sollen Ihr Telefon im Kino ausschalten.",
+            "solution": "Schalten Sie Ihr Telefon im Kino aus!",
+            "hint": "Trennbares Verb.",
+            "explanation": "Imperativ Sie-Form: 'sollen' fällt weg, das Verb kommt auf Position 1. 'ausschalten' ist trennbar: 'Schalten Sie … aus!' – das Präfix 'aus' steht am Satzende."
+          },
+          {
+            "id": "l5h08",
+            "type": "targeted-transformation",
+            "instruction": "Bilde den Imperativ in der Sie-Form. Behalte die Reihenfolge der übrigen Satzglieder bei.",
+            "prompt": "Sie sollen nicht immer dazwischenreden.",
+            "solution": "Reden Sie nicht immer dazwischen!",
+            "hint": "Trennbares Verb, 'nicht' bleibt.",
+            "explanation": "'dazwischenreden' ist trennbar: 'Reden Sie … dazwischen!'. 'nicht immer' bleibt vor dem Präfix."
+          },
+          {
+            "id": "l5h09",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Schreibe den ganzen Satz richtig.",
+            "prompt": "Können Sie mir sagen, wo ist der Ausgang?",
+            "solution": "Können Sie mir sagen, wo der Ausgang ist?",
+            "hint": "Verbposition im Nebensatz.",
+            "explanation": "In der indirekten Frage steht das Verb am Ende: 'wo der Ausgang ist'."
+          },
+          {
+            "id": "l5h10",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Schreibe den ganzen Satz richtig.",
+            "prompt": "Wissen Sie, wenn der Zug pünktlich ist?",
+            "solution": "Wissen Sie, ob der Zug pünktlich ist?",
+            "hint": "Indirekte Ja/Nein-Frage.",
+            "explanation": "Indirekte Ja/Nein-Fragen beginnen mit 'ob', nicht mit 'wenn'."
+          },
+          {
+            "id": "l5h11",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Schreibe den ganzen Satz richtig.",
+            "prompt": "Nehmt Sie bitte Platz!",
+            "solution": "Nehmen Sie bitte Platz!",
+            "hint": "Sie-Form.",
+            "explanation": "Die Sie-Form des Imperativs hat immer die Infinitivform: 'Nehmen Sie …'. 'Nehmt' ist die ihr-Form ('Nehmt bitte Platz!') und passt nicht zu 'Sie'."
+          },
+          {
+            "id": "l5h12",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Schreibe den ganzen Satz richtig.",
+            "prompt": "Man muss Informationen aus dem Internet hinterfragen, weil nicht alle Quellen sind zuverlässig.",
+            "solution": "Man muss Informationen aus dem Internet hinterfragen, weil nicht alle Quellen zuverlässig sind.",
+            "hint": "Nebensatz mit 'weil'.",
+            "explanation": "Im Nebensatz mit 'weil' steht das konjugierte Verb 'sind' am Ende."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l5t01",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Wort.",
+          "prompt": "Können Sie mir sagen, ___ der Zug nach Bern abfährt? – Um 14.32 Uhr.",
+          "options": [
+            "wann",
+            "ob",
+            "wenn",
+            "dass"
+          ],
+          "solution": "wann",
+          "explanation": "Die Antwort nennt eine Uhrzeit, also war die direkte Frage 'Wann fährt der Zug ab?'. In der indirekten Frage bleibt das Fragewort erhalten: …, wann der Zug abfährt. 'ob' leitet nur Ja/Nein-Fragen ein; 'wenn' und 'dass' sind keine Fragewörter."
+        },
+        {
+          "id": "l5t02",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Wort.",
+          "prompt": "Wissen Sie, ___ das Museum einen Audioguide auf Spanisch hat? – Ja, sogar in fünf Sprachen.",
+          "options": [
+            "ob",
+            "wenn",
+            "denn",
+            "als"
+          ],
+          "solution": "ob",
+          "explanation": "Eine Ja/Nein-Frage ('Hat das Museum einen Audioguide?') wird in der indirekten Frage mit 'ob' eingeleitet. 'wenn' ist eine Bedingung oder Zeit, 'denn' und 'als' leiten keine indirekten Fragen ein."
+        },
+        {
+          "id": "l5t03",
+          "type": "multiple-choice",
+          "instruction": "Wähle die richtige Wortstellung.",
+          "prompt": "Ich würde gern wissen, ___.",
+          "options": [
+            "woher diese Informationen stammen",
+            "woher stammen diese Informationen",
+            "woher diese Informationen stammt",
+            "diese Informationen woher stammen"
+          ],
+          "solution": "woher diese Informationen stammen",
+          "explanation": "In der indirekten Frage steht das konjugierte Verb am Ende des Nebensatzes und passt zum Subjekt: die Informationen (Plural) → stammen. 'woher stammen diese Informationen' ist die Wortstellung der direkten Frage."
+        },
+        {
+          "id": "l5t04",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze das passende Verb im Infinitiv: hinterfragen, verfügen oder unterscheiden.",
+          "prompt": "Auch Statistiken in der Zeitung sollte man kritisch ___.",
+          "solution": "hinterfragen",
+          "explanation": "'hinterfragen' bedeutet: kritisch prüfen, ob etwas stimmt. 'verfügen' braucht 'über' und bedeutet 'haben', 'unterscheiden' braucht zwei Dinge, die man auseinanderhält."
+        },
+        {
+          "id": "l5t05",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze das passende Nomen im Plural: Quelle, Auskunft oder Gedächtnis.",
+          "prompt": "Am Telefon hat mir die Mitarbeiterin alle nötigen ___ zu meinem Visum gegeben.",
+          "solution": "Auskünfte",
+          "explanation": "Eine 'Auskunft' ist eine Information, die man auf eine Frage bekommt. Plural mit Umlaut: die Auskünfte. 'Quellen' gibt man in einem Text an; ein 'Gedächtnis' gibt man niemandem."
+        },
+        {
+          "id": "l5t06",
+          "type": "cloze-conjugation",
+          "instruction": "Setze das Verb im Präsens ein.",
+          "prompt": "Warum ___ (hinterfragen) ihr nie, was in eurem Klassenchat steht?",
+          "solution": "hinterfragt",
+          "explanation": "'hinterfragen' ist nicht trennbar – das Präfix 'hinter' bleibt am Verb. Präsens, 2. Person Plural: ihr hinterfragt."
+        },
+        {
+          "id": "l5t07",
+          "type": "cloze-conjugation",
+          "instruction": "Setze das Verb im Präteritum ein.",
+          "prompt": "Als kleines Kind ___ (unterscheiden) ich Märchen und Wirklichkeit noch nicht.",
+          "solution": "unterschied",
+          "explanation": "'unterscheiden' ist unregelmäßig: unterscheiden – unterschied – unterschieden. 1. Person Singular Präteritum hat keine Endung: ich unterschied."
+        },
+        {
+          "id": "l5t08",
+          "type": "sentence-scramble",
+          "instruction": "Bilde eine höfliche indirekte Frage.",
+          "prompt": "Baue den Satz aus den Teilen.",
+          "scrambleChunks": [
+            "Können",
+            "Sie",
+            "mir",
+            "sagen,",
+            "wo",
+            "ich",
+            "eine Auskunft",
+            "bekomme?"
+          ],
+          "solution": "Können Sie mir sagen, wo ich eine Auskunft bekomme?",
+          "explanation": "Nach der Einleitung 'Können Sie mir sagen, …' folgt ein Nebensatz: Fragewort – Subjekt – … – Verb am Ende."
+        },
+        {
+          "id": "l5t09",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Ratschlag im Imperativ (Sie-Form).",
+          "prompt": "Baue den Satz aus den Teilen.",
+          "scrambleChunks": [
+            "Probieren",
+            "Sie",
+            "die neue Suchfunktion",
+            "aus."
+          ],
+          "solution": "Probieren Sie die neue Suchfunktion aus.",
+          "explanation": "Imperativ Sie-Form: Verb auf Position 1, danach 'Sie'. Bei trennbaren Verben wie 'ausprobieren' steht das Präfix 'aus' am Satzende."
+        },
+        {
+          "id": "l5t10",
+          "type": "targeted-transformation",
+          "instruction": "Mach eine indirekte Frage. Beginne mit 'Können Sie mir sagen,' (mit Komma).",
+          "prompt": "Wo finde ich zuverlässige Quellen?",
+          "solution": "Können Sie mir sagen, wo ich zuverlässige Quellen finde?",
+          "explanation": "W-Fragen werden mit dem Fragewort eingeleitet; das Verb 'finde' wandert ans Ende des Nebensatzes."
+        },
+        {
+          "id": "l5t11",
+          "type": "targeted-transformation",
+          "instruction": "Mach eine indirekte Frage. Beginne mit 'Wissen Sie,' (mit Komma).",
+          "prompt": "Ist diese Webseite zuverlässig?",
+          "solution": "Wissen Sie, ob diese Webseite zuverlässig ist?",
+          "explanation": "Ja/Nein-Fragen werden in der indirekten Frage mit 'ob' eingeleitet; das Verb 'ist' steht am Ende."
+        },
+        {
+          "id": "l5t12",
+          "type": "targeted-transformation",
+          "instruction": "Formuliere den Rat im Imperativ (Sie-Form). Setze 'bitte' direkt nach 'Sie'.",
+          "prompt": "Sie sollten die Hausordnung beachten.",
+          "solution": "Beachten Sie bitte die Hausordnung.",
+          "explanation": "Imperativ Sie-Form: Infinitiv auf Position 1 + 'Sie'. Das Modalverb 'sollten' fällt weg."
+        },
+        {
+          "id": "l5t13",
+          "type": "error-correction",
+          "instruction": "Finde und korrigiere den Fehler.",
+          "prompt": "Ich möchte gern wissen, warum ist die Seite nicht erreichbar.",
+          "solution": "Ich möchte gern wissen, warum die Seite nicht erreichbar ist.",
+          "explanation": "In der indirekten Frage steht das konjugierte Verb am Ende des Nebensatzes: …, warum die Seite nicht erreichbar ist. Die Wortstellung der direkten Frage ('warum ist …') ist hier falsch."
+        },
+        {
+          "id": "l5t14",
+          "type": "error-correction",
+          "instruction": "Finde und korrigiere den Fehler.",
+          "prompt": "Nachschlagen Sie das Wort im Wörterbuch.",
+          "solution": "Schlagen Sie das Wort im Wörterbuch nach.",
+          "explanation": "Auch im Imperativ wird ein trennbares Verb getrennt: Der Stamm steht vorne, das Präfix 'nach' am Satzende."
+        },
+        {
+          "id": "l5t15",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Nomen.",
+          "prompt": "Meine Oma ist 90, aber ihr ___ ist noch ausgezeichnet: Sie vergisst keinen einzigen Geburtstag.",
+          "options": [
+            "Gedächtnis",
+            "Umgang",
+            "Gesprächspartner"
+          ],
+          "solution": "Gedächtnis",
+          "explanation": "Das 'Gedächtnis' ist die Fähigkeit, sich an Dinge zu erinnern. Der 'Umgang' beschreibt, wie man mit Menschen oder Dingen umgeht, und ein 'Gesprächspartner' ist eine Person – beides passt nicht zu 'nichts vergessen'."
+        }
+      ]
+    },
+    {
+      "lektionId": "b1plus-m2-l6",
+      "level": "B1+",
+      "modulNumber": 2,
+      "lektionNumber": 6,
+      "title": "Übung macht den Meister?",
+      "grammarFocus": [
+        "Modalverben im Präsens und Präteritum",
+        "Alternativen zu Modalverben: Es ist erlaubt/verboten/möglich/erforderlich + zu-Infinitiv",
+        "verpflichtet sein / in der Lage sein + zu-Infinitiv"
+      ],
+      "vocabulary": [
+        {
+          "id": "l6v01",
+          "term": "die Begabung",
+          "translation": "el talento / el don",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Begabungen",
+          "example": "Sie hat eine besondere Begabung für Musik."
+        },
+        {
+          "id": "l6v02",
+          "term": "der Fleiß",
+          "translation": "la diligencia / el esfuerzo",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "example": "Mit Fleiß hat er die Prüfung geschafft."
+        },
+        {
+          "id": "l6v03",
+          "term": "die Motivation",
+          "translation": "la motivación",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Am Anfang war meine Motivation sehr hoch."
+        },
+        {
+          "id": "l6v04",
+          "term": "die Fähigkeit",
+          "translation": "la capacidad / la habilidad",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Fähigkeiten",
+          "example": "Zuhören ist eine wichtige Fähigkeit."
+        },
+        {
+          "id": "l6v05",
+          "term": "die Begeisterung",
+          "translation": "el entusiasmo",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Die Kinder spielen mit großer Begeisterung Fußball."
+        },
+        {
+          "id": "l6v06",
+          "term": "das Interesse",
+          "translation": "el interés",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Interessen",
+          "example": "Hast du Interesse an Geschichte?"
+        },
+        {
+          "id": "l6v07",
+          "term": "beherrschen",
+          "translation": "dominar",
+          "partOfSpeech": "verb",
+          "preterite": "beherrschte",
+          "participle": "beherrscht",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Mein Kollege beherrscht vier Sprachen."
+        },
+        {
+          "id": "l6v08",
+          "term": "erreichen",
+          "translation": "alcanzar / lograr",
+          "partOfSpeech": "verb",
+          "preterite": "erreichte",
+          "participle": "erreicht",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Mit Geduld kann man seine Ziele erreichen."
+        },
+        {
+          "id": "l6v09",
+          "term": "ausbilden",
+          "translation": "formar (profesionalmente)",
+          "partOfSpeech": "verb",
+          "preterite": "bildete aus",
+          "participle": "ausgebildet",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Die Bäckerei bildet jedes Jahr zwei junge Leute aus."
+        },
+        {
+          "id": "l6v10",
+          "term": "gelten",
+          "translation": "valer / regir",
+          "partOfSpeech": "verb",
+          "preterite": "galt",
+          "participle": "gegolten",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Im Schwimmbad gelten strenge Regeln."
+        },
+        {
+          "id": "l6v11",
+          "term": "verpflichtet sein",
+          "translation": "estar obligado",
+          "partOfSpeech": "phrase",
+          "example": "Autofahrer sind verpflichtet, einen Führerschein dabeizuhaben."
+        },
+        {
+          "id": "l6v12",
+          "term": "in der Lage sein",
+          "translation": "ser capaz",
+          "partOfSpeech": "phrase",
+          "example": "Nach dem Kurs bin ich in der Lage, eine Website zu bauen."
+        },
+        {
+          "id": "l6v13",
+          "term": "erforderlich",
+          "translation": "necesario / requerido",
+          "partOfSpeech": "adjective",
+          "example": "Für diesen Job sind gute Englischkenntnisse erforderlich."
+        },
+        {
+          "id": "l6v14",
+          "term": "das Talent",
+          "translation": "el talento",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Talente",
+          "example": "Er hat kein Talent zum Zeichnen, aber viel Spaß dabei."
+        },
+        {
+          "id": "l6v15",
+          "term": "der Meister",
+          "translation": "el maestro (artesano)",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Meister",
+          "example": "Der Meister zeigt dem Lehrling, wie man Holz bearbeitet."
+        },
+        {
+          "id": "l6v16",
+          "term": "das Fachgebiet",
+          "translation": "el campo / la especialidad",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Fachgebiete",
+          "example": "Ihr Fachgebiet ist die Kinderheilkunde."
+        },
+        {
+          "id": "l6v17",
+          "term": "die Vorbereitung",
+          "translation": "la preparación",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Vorbereitungen",
+          "example": "Eine gute Vorbereitung ist die halbe Miete."
+        },
+        {
+          "id": "l6v18",
+          "term": "üben",
+          "translation": "practicar",
+          "partOfSpeech": "verb",
+          "preterite": "übte",
+          "participle": "geübt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Ich übe jeden Abend eine halbe Stunde Gitarre."
+        },
+        {
+          "id": "l6v19",
+          "term": "trainieren",
+          "translation": "entrenar",
+          "partOfSpeech": "verb",
+          "preterite": "trainierte",
+          "participle": "trainiert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Die Mannschaft trainiert dreimal pro Woche."
+        },
+        {
+          "id": "l6v20",
+          "term": "ablegen",
+          "translation": "hacer / presentarse a (un examen)",
+          "partOfSpeech": "verb",
+          "preterite": "legte ab",
+          "participle": "abgelegt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Im Juni lege ich die B1-Prüfung ab."
+        },
+        {
+          "id": "l6v21",
+          "term": "sich vertraut machen mit",
+          "translation": "familiarizarse con",
+          "partOfSpeech": "phrase",
+          "example": "Neue Mitarbeiter machen sich in der ersten Woche mit der Software vertraut."
+        },
+        {
+          "id": "l6v22",
+          "term": "die Übung",
+          "translation": "la práctica / el ejercicio",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Übungen",
+          "example": "Übung macht den Meister."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l6e01",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Modalverb.",
+            "prompt": "Als Kind ___ ich jeden Tag Klavier üben – meine Mutter bestand darauf.",
+            "options": [
+              "musste",
+              "muss",
+              "durfte",
+              "wollte"
+            ],
+            "solution": "musste",
+            "hint": "Pflicht in der Vergangenheit.",
+            "explanation": "Die Mutter bestand darauf → eine Pflicht → 'müssen'. 'Als Kind' zeigt die Vergangenheit, also Präteritum 'musste'. 'muss' ist Präsens, 'durfte'/'wollte' passen inhaltlich nicht."
+          },
+          {
+            "id": "l6e02",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Modalverb.",
+            "prompt": "Früher ___ man im Zug rauchen, heute ist das verboten.",
+            "options": [
+              "durfte",
+              "darf",
+              "musste",
+              "sollte"
+            ],
+            "solution": "durfte",
+            "hint": "Erlaubnis in der Vergangenheit.",
+            "explanation": "Erlaubnis = 'dürfen'; 'früher' verlangt das Präteritum 'durfte'. 'darf' ist Präsens, 'musste'/'sollte' bedeuten Pflicht."
+          },
+          {
+            "id": "l6e03",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Modalverb.",
+            "prompt": "Mit fünf Jahren ___ Jonas schon lesen.",
+            "options": [
+              "konnte",
+              "kann",
+              "musste",
+              "durfte"
+            ],
+            "solution": "konnte",
+            "hint": "Fähigkeit in der Vergangenheit.",
+            "explanation": "Fähigkeit = 'können'. 'Mit fünf Jahren' liegt in der Vergangenheit → Präteritum 'konnte' (ohne Umlaut). 'kann' ist Präsens; 'musste'/'durfte' drücken Pflicht bzw. Erlaubnis aus, nicht Fähigkeit."
+          },
+          {
+            "id": "l6e04",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Modalverb.",
+            "prompt": "Mein Arzt meint, ich ___ weniger Zucker essen. Das ist sein Rat.",
+            "options": [
+              "soll",
+              "will",
+              "mag",
+              "möchte"
+            ],
+            "solution": "soll",
+            "hint": "Rat oder Auftrag einer anderen Person.",
+            "explanation": "Wenn eine andere Person etwas rät oder verlangt, benutzt man 'sollen'. 'wollen'/'möchten' drücken den eigenen Wunsch aus."
+          },
+          {
+            "id": "l6e05",
+            "type": "multiple-choice",
+            "instruction": "Wähle die richtige Form.",
+            "prompt": "Hier ist es verboten, ___.",
+            "options": [
+              "zu parken",
+              "parken",
+              "geparkt",
+              "zu geparkt"
+            ],
+            "solution": "zu parken",
+            "hint": "Es ist verboten + …",
+            "explanation": "'Es ist erlaubt/verboten/möglich/erforderlich' + Infinitiv mit 'zu' ersetzt die Modalverben dürfen / nicht dürfen / können / müssen. Also 'zu parken'."
+          },
+          {
+            "id": "l6e06",
+            "type": "multiple-choice",
+            "instruction": "Wähle das richtige Verb.",
+            "prompt": "Es ___ erwartet, dass alle Teilnehmer pünktlich sind.",
+            "options": [
+              "wird",
+              "ist",
+              "hat",
+              "werden"
+            ],
+            "solution": "wird",
+            "hint": "Feste Wendung mit 'werden'.",
+            "explanation": "Die Wendung heißt 'Es wird erwartet, dass …' (Passiv mit 'werden'). 'Es' ist Singular, darum 'wird', nicht 'werden'."
+          },
+          {
+            "id": "l6e07",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Wort.",
+            "prompt": "Alle Mitarbeiter sind ___, an der Sicherheitsschulung teilzunehmen.",
+            "options": [
+              "verpflichtet",
+              "erforderlich",
+              "erlaubt",
+              "möglich"
+            ],
+            "solution": "verpflichtet",
+            "hint": "Personen haben eine Pflicht.",
+            "explanation": "'Personen sind verpflichtet, … zu tun' = sie müssen es tun. 'erforderlich', 'erlaubt' und 'möglich' stehen mit 'es ist …', nicht mit einer Person als Subjekt."
+          },
+          {
+            "id": "l6e08",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das fehlende Nomen.",
+            "prompt": "Nach dem Kurs ist Anna in der ___, kleine Reparaturen selbst zu machen.",
+            "solution": "Lage",
+            "hint": "in der … sein = können.",
+            "explanation": "'in der Lage sein, etwas zu tun' bedeutet 'etwas tun können'."
+          },
+          {
+            "id": "l6e09",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Nomen.",
+            "prompt": "Ohne ___ wird man kein guter Musiker – man muss jeden Tag üben.",
+            "options": [
+              "Fleiß",
+              "Begabung",
+              "Fachgebiet",
+              "Zeugnis"
+            ],
+            "solution": "Fleiß",
+            "hint": "Jeden Tag üben = …",
+            "explanation": "'Fleiß' bedeutet, viel und regelmäßig zu arbeiten. 'Begabung' ist ein natürliches Talent – der Satz betont aber das tägliche Üben."
+          },
+          {
+            "id": "l6e10",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Nomen.",
+            "prompt": "Sie hat eine große ___ für Sprachen – sie lernt sie ganz leicht.",
+            "options": [
+              "Begabung",
+              "Vorbereitung",
+              "Übung",
+              "Pflicht"
+            ],
+            "solution": "Begabung",
+            "hint": "Etwas fällt leicht, ohne viel Arbeit.",
+            "explanation": "Eine 'Begabung' ist ein natürliches Talent. 'Vorbereitung', 'Übung' und 'Pflicht' erklären nicht, warum es ihr leicht fällt."
+          },
+          {
+            "id": "l6e11",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Modalverb im Präsens.",
+            "prompt": "___ du morgen mit ins Fitnessstudio kommen? – Ja, gern! (wollen)",
+            "solution": "Willst",
+            "hint": "'wollen', du-Form.",
+            "explanation": "'wollen' hat im Singular den Stamm 'will': ich will, du willst, er will."
+          },
+          {
+            "id": "l6e12",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Modalverb im Präteritum.",
+            "prompt": "Gestern ___ wir leider nicht zum Training gehen, weil die Halle geschlossen war. (können)",
+            "solution": "konnten",
+            "hint": "Präteritum ohne Umlaut.",
+            "explanation": "Modalverben haben im Präteritum keinen Umlaut und die Endungen der schwachen Verben: musste, konnte, durfte, wollte, sollte, mochte. ich und er/sie/es haben keine Endung. 'wir' → 'konnten'."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l6m01",
+            "type": "cloze-conjugation",
+            "instruction": "Setze das Modalverb ins Präteritum.",
+            "prompt": "Letztes Jahr ___ ich jeden Morgen um sechs Uhr aufstehen. (müssen)",
+            "solution": "musste",
+            "hint": "ich-Form ohne Endung.",
+            "explanation": "Modalverben haben im Präteritum keinen Umlaut und die Endungen der schwachen Verben: musste, konnte, durfte, wollte, sollte, mochte. ich und er/sie/es haben keine Endung."
+          },
+          {
+            "id": "l6m02",
+            "type": "cloze-conjugation",
+            "instruction": "Setze das Modalverb ins Präteritum.",
+            "prompt": "Als Teenager ___ meine Schwester Tierärztin werden. (wollen)",
+            "solution": "wollte",
+            "hint": "3. Person Singular.",
+            "explanation": "Modalverben haben im Präteritum keinen Umlaut und die Endungen der schwachen Verben: musste, konnte, durfte, wollte, sollte, mochte. ich und er/sie/es haben keine Endung. 'meine Schwester' → 'wollte'."
+          },
+          {
+            "id": "l6m03",
+            "type": "cloze-conjugation",
+            "instruction": "Setze das Modalverb ins Präteritum.",
+            "prompt": "___ ihr als Kinder lange aufbleiben? (dürfen)",
+            "solution": "Durftet",
+            "hint": "ihr-Form, kein Umlaut.",
+            "explanation": "Modalverben haben im Präteritum keinen Umlaut und die Endungen der schwachen Verben: musste, konnte, durfte, wollte, sollte, mochte. ich und er/sie/es haben keine Endung. 'ihr' → Endung '-t': 'durftet'."
+          },
+          {
+            "id": "l6m04",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Modalverb im Präsens.",
+            "prompt": "Unser Trainer sagt, du ___ vor dem Spiel viel trinken. (sollen)",
+            "solution": "sollst",
+            "hint": "Auftrag einer anderen Person, du-Form.",
+            "explanation": "'sollen' drückt aus, was eine andere Person verlangt. Im Singular bleibt der Stamm 'soll', die du-Form endet auf '-st': 'du sollst'."
+          },
+          {
+            "id": "l6m05",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze den Infinitiv mit 'zu'.",
+            "prompt": "Es ist erforderlich, sich vorher online ___. (anmelden)",
+            "solution": "anzumelden",
+            "hint": "Trennbares Verb.",
+            "explanation": "'Es ist erlaubt/verboten/möglich/erforderlich' + Infinitiv mit 'zu' ersetzt die Modalverben dürfen / nicht dürfen / können / müssen. Bei 'anmelden' steht 'zu' zwischen Präfix und Stamm: 'anzumelden'."
+          },
+          {
+            "id": "l6m06",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Modalverb im Präsens.",
+            "prompt": "Mein Bruder ___ drei Sprachen fließend sprechen. (können)",
+            "solution": "kann",
+            "hint": "Singular: Vokalwechsel.",
+            "explanation": "'können' hat im Singular den Stamm 'kann': ich kann, du kannst, er kann. 3. Person hat keine Endung."
+          },
+          {
+            "id": "l6m07",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz aus den Satzteilen.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Es",
+              "ist",
+              "erlaubt,",
+              "im Park",
+              "zu",
+              "grillen."
+            ],
+            "solution": "Es ist erlaubt, im Park zu grillen.",
+            "hint": "Es ist + Partizip, + zu-Infinitiv.",
+            "explanation": "'Es ist erlaubt/verboten/möglich/erforderlich' + Infinitiv mit 'zu' ersetzt die Modalverben dürfen / nicht dürfen / können / müssen. Der zu-Infinitiv steht am Ende."
+          },
+          {
+            "id": "l6m08",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz aus den Satzteilen.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Ich",
+              "konnte",
+              "gestern",
+              "nicht",
+              "zum Kurs",
+              "kommen."
+            ],
+            "solution": "Ich konnte gestern nicht zum Kurs kommen.",
+            "hint": "Modalverb Position 2, Infinitiv am Ende.",
+            "explanation": "Das Modalverb 'konnte' steht auf Position 2, der Infinitiv 'kommen' am Satzende. Zeit ('gestern') steht vor 'nicht'."
+          },
+          {
+            "id": "l6m09",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz aus den Satzteilen.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Mit viel Fleiß",
+              "kann",
+              "man",
+              "fast alles",
+              "erreichen."
+            ],
+            "solution": "Mit viel Fleiß kann man fast alles erreichen.",
+            "hint": "Position 1 ist schon besetzt.",
+            "explanation": "'Mit viel Fleiß' steht auf Position 1, darum folgt direkt das Modalverb 'kann', dann das Subjekt 'man'. Der Infinitiv steht am Ende."
+          },
+          {
+            "id": "l6m10",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz aus den Satzteilen.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Wir",
+              "waren",
+              "nicht",
+              "in der Lage,",
+              "das Problem",
+              "zu",
+              "lösen."
+            ],
+            "solution": "Wir waren nicht in der Lage, das Problem zu lösen.",
+            "hint": "in der Lage sein + zu-Infinitiv.",
+            "explanation": "'in der Lage sein' ersetzt 'können'. Nach dem Komma folgt der Infinitivsatz mit 'zu lösen' am Ende."
+          },
+          {
+            "id": "l6m11",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz aus den Satzteilen.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Musstest",
+              "du",
+              "als Kind",
+              "im Haushalt",
+              "helfen?"
+            ],
+            "solution": "Musstest du als Kind im Haushalt helfen?",
+            "hint": "Ja/Nein-Frage.",
+            "explanation": "In der Ja/Nein-Frage steht das Modalverb 'Musstest' (du-Form Präteritum) auf Position 1, der Infinitiv am Ende."
+          },
+          {
+            "id": "l6m12",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz aus den Satzteilen.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Im Kurs",
+              "ist",
+              "es",
+              "möglich,",
+              "auf Englisch",
+              "zu",
+              "antworten."
+            ],
+            "solution": "Im Kurs ist es möglich, auf Englisch zu antworten.",
+            "hint": "Position 1 besetzt → Verb, dann 'es'.",
+            "explanation": "'Im Kurs' steht auf Position 1, deshalb folgen das Verb 'ist' und dann 'es'. 'Es ist möglich' + zu-Infinitiv ersetzt 'können'; 'zu antworten' steht am Ende des Infinitivsatzes."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l6h01",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze das Modalverb. Beginne mit 'Es ist erlaubt,'.",
+            "prompt": "Man darf hier kostenlos parken.",
+            "solution": "Es ist erlaubt, hier kostenlos zu parken.",
+            "hint": "dürfen → erlaubt.",
+            "explanation": "'Es ist erlaubt/verboten/möglich/erforderlich' + Infinitiv mit 'zu' ersetzt die Modalverben dürfen / nicht dürfen / können / müssen. 'man' und 'darf' fallen weg, 'zu parken' steht am Ende."
+          },
+          {
+            "id": "l6h02",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze das Modalverb. Beginne mit 'Es ist verboten,'.",
+            "prompt": "Man darf im Museum nicht fotografieren.",
+            "solution": "Es ist verboten, im Museum zu fotografieren.",
+            "hint": "'nicht dürfen' = verboten.",
+            "explanation": "'nicht dürfen' wird zu 'Es ist verboten, … zu …'. Das 'nicht' fällt weg, sonst hätte der Satz die umgekehrte Bedeutung."
+          },
+          {
+            "id": "l6h03",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze das Modalverb. Beginne mit 'Es ist möglich,'.",
+            "prompt": "Man kann den Kurs auch online besuchen.",
+            "solution": "Es ist möglich, den Kurs auch online zu besuchen.",
+            "hint": "können → möglich.",
+            "explanation": "'Es ist erlaubt/verboten/möglich/erforderlich' + Infinitiv mit 'zu' ersetzt die Modalverben dürfen / nicht dürfen / können / müssen."
+          },
+          {
+            "id": "l6h04",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze das Modalverb. Beginne mit 'Es ist erforderlich,'.",
+            "prompt": "Man muss den Ausweis mitbringen.",
+            "solution": "Es ist erforderlich, den Ausweis mitzubringen.",
+            "hint": "müssen → erforderlich; trennbares Verb.",
+            "explanation": "'Es ist erlaubt/verboten/möglich/erforderlich' + Infinitiv mit 'zu' ersetzt die Modalverben dürfen / nicht dürfen / können / müssen. 'mitbringen' ist trennbar → 'mitzubringen'."
+          },
+          {
+            "id": "l6h05",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze das Modalverb. Beginne mit 'Ärztinnen sind verpflichtet,'.",
+            "prompt": "Ärztinnen müssen jedes Jahr an Fortbildungen teilnehmen.",
+            "solution": "Ärztinnen sind verpflichtet, jedes Jahr an Fortbildungen teilzunehmen.",
+            "hint": "müssen → verpflichtet sein; trennbares Verb.",
+            "explanation": "'verpflichtet sein, … zu tun' ersetzt 'müssen'. Das Subjekt bleibt im Hauptsatz, 'müssen' fällt weg. 'teilnehmen' ist trennbar, darum 'teilzunehmen' (nicht 'zu teilnehmen')."
+          },
+          {
+            "id": "l6h06",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze das Modalverb. Beginne mit 'Nach dem Unfall ist Paul nicht mehr in der Lage,'.",
+            "prompt": "Nach dem Unfall kann Paul nicht mehr Auto fahren.",
+            "solution": "Nach dem Unfall ist Paul nicht mehr in der Lage, Auto zu fahren.",
+            "hint": "können → in der Lage sein.",
+            "explanation": "'in der Lage sein, … zu tun' ersetzt 'können'. 'nicht mehr' steht schon im Hauptsatz."
+          },
+          {
+            "id": "l6h07",
+            "type": "targeted-transformation",
+            "instruction": "Setze den Satz ins Präteritum.",
+            "prompt": "Ich muss am Wochenende arbeiten.",
+            "solution": "Ich musste am Wochenende arbeiten.",
+            "hint": "Kein Umlaut im Präteritum.",
+            "explanation": "Modalverben haben im Präteritum keinen Umlaut und die Endungen der schwachen Verben: musste, konnte, durfte, wollte, sollte, mochte. ich und er/sie/es haben keine Endung."
+          },
+          {
+            "id": "l6h08",
+            "type": "targeted-transformation",
+            "instruction": "Setze den Satz ins Präteritum.",
+            "prompt": "Wir dürfen keine Handys benutzen.",
+            "solution": "Wir durften keine Handys benutzen.",
+            "hint": "wir-Form Präteritum.",
+            "explanation": "Modalverben haben im Präteritum keinen Umlaut und die Endungen der schwachen Verben: musste, konnte, durfte, wollte, sollte, mochte. ich und er/sie/es haben keine Endung. 'wir' → 'durften'."
+          },
+          {
+            "id": "l6h09",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Schreibe den ganzen Satz richtig.",
+            "prompt": "Früher konntet er sehr gut Schach spielen.",
+            "solution": "Früher konnte er sehr gut Schach spielen.",
+            "hint": "Endung bei 'er'.",
+            "explanation": "Im Präteritum hat die 3. Person Singular keine Personalendung: 'er konnte'. '-et' gehört zu 'ihr'."
+          },
+          {
+            "id": "l6h10",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Schreibe den ganzen Satz richtig.",
+            "prompt": "Es ist nicht erlaubt, im Schwimmbad essen.",
+            "solution": "Es ist nicht erlaubt, im Schwimmbad zu essen.",
+            "hint": "Es ist erlaubt + …",
+            "explanation": "'Es ist erlaubt/verboten/möglich/erforderlich' + Infinitiv mit 'zu' ersetzt die Modalverben dürfen / nicht dürfen / können / müssen. Es fehlt das 'zu'."
+          },
+          {
+            "id": "l6h11",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Schreibe den ganzen Satz richtig.",
+            "prompt": "Ich will morgen früh zu joggen.",
+            "solution": "Ich will morgen früh joggen.",
+            "hint": "Modalverb + Infinitiv.",
+            "explanation": "Nach Modalverben wie 'wollen' steht der Infinitiv ohne 'zu' am Satzende: 'Ich will … joggen.' 'zu' braucht man nur nach Verben wie 'versuchen' oder nach 'Es ist + Adjektiv'."
+          },
+          {
+            "id": "l6h12",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Schreibe den ganzen Satz richtig.",
+            "prompt": "Letzte Woche mussten ich zum Zahnarzt gehen.",
+            "solution": "Letzte Woche musste ich zum Zahnarzt gehen.",
+            "hint": "ich-Form.",
+            "explanation": "Im Präteritum der Modalverben hat 'ich' keine Endung: 'ich musste'. 'mussten' ist die wir-/sie-Form."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l6t01",
+          "type": "multiple-choice",
+          "instruction": "Wähle die richtige Form.",
+          "prompt": "Mit 16 ___ mein Bruder abends nie länger als bis zehn wegbleiben.",
+          "options": [
+            "durfte",
+            "darf",
+            "dürfte",
+            "durften"
+          ],
+          "solution": "durfte",
+          "explanation": "'Mit 16' zeigt, dass es um die Vergangenheit geht, deshalb Präteritum: er durfte (ohne Umlaut, ohne Endung). 'darf' ist Präsens, 'dürfte' ist Konjunktiv II, 'durften' ist Plural."
+        },
+        {
+          "id": "l6t02",
+          "type": "multiple-choice",
+          "instruction": "Wähle die richtige Form.",
+          "prompt": "Auf diesem Campingplatz ist es erlaubt, Hunde ___.",
+          "options": [
+            "mitzubringen",
+            "zu mitbringen",
+            "mitbringen",
+            "mitgebracht"
+          ],
+          "solution": "mitzubringen",
+          "explanation": "Nach 'Es ist erlaubt, …' folgt ein Infinitiv mit 'zu'. Bei trennbaren Verben steht 'zu' zwischen Präfix und Verb: mit-zu-bringen. 'zu mitbringen' trennt falsch, 'mitbringen' fehlt das 'zu'."
+        },
+        {
+          "id": "l6t03",
+          "type": "multiple-choice",
+          "instruction": "Welcher Satz hat dieselbe Bedeutung?",
+          "prompt": "Die Gäste sollen nach 22 Uhr leise sein.",
+          "options": [
+            "Es wird erwartet, dass die Gäste nach 22 Uhr leise sind.",
+            "Es ist verboten, dass die Gäste nach 22 Uhr leise sind.",
+            "Es ist möglich, dass die Gäste nach 22 Uhr leise sind.",
+            "Es ist erlaubt, dass die Gäste nach 22 Uhr leise sind."
+          ],
+          "solution": "Es wird erwartet, dass die Gäste nach 22 Uhr leise sind.",
+          "explanation": "'sollen' drückt aus, dass andere etwas von uns erwarten – Alternative: 'Es wird erwartet, dass …'. 'verboten' wäre 'nicht dürfen', 'erlaubt' wäre 'dürfen', und 'Es ist möglich, dass …' bedeutet 'vielleicht'."
+        },
+        {
+          "id": "l6t04",
+          "type": "cloze-conjugation",
+          "instruction": "Setze das Modalverb im Präteritum ein.",
+          "prompt": "Als Kind ___ (mögen) ich überhaupt keinen Spinat.",
+          "solution": "mochte",
+          "explanation": "'mögen' ist im Präteritum unregelmäßig: mögen → mochte (mit 'ch' und ohne Umlaut). 1. Person Singular hat keine Endung: ich mochte."
+        },
+        {
+          "id": "l6t05",
+          "type": "cloze-conjugation",
+          "instruction": "Setze das Modalverb im Präteritum ein.",
+          "prompt": "Warum ___ (wollen) ihr gestern nicht mit ins Konzert kommen?",
+          "solution": "wolltet",
+          "explanation": "Präteritum von 'wollen': wollte-. Für 'ihr' kommt die Endung -t dazu: ihr wolltet."
+        },
+        {
+          "id": "l6t06",
+          "type": "cloze-conjugation",
+          "instruction": "Setze das Modalverb im Präsens ein.",
+          "prompt": "Laut Hausordnung ___ (müssen) du deinen Müll selbst trennen.",
+          "solution": "musst",
+          "explanation": "'müssen' hat im Präsens Singular keinen Umlaut: ich muss, du musst, er muss. Die du-Form endet auf -st."
+        },
+        {
+          "id": "l6t07",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze das passende Wort: erwartet, verpflichtet oder begabt.",
+          "prompt": "In unserer Firma wird ___, dass neue Kollegen viele Fragen stellen.",
+          "solution": "erwartet",
+          "explanation": "'Es wird erwartet, dass …' ist eine Alternative zu 'sollen': Die Firma möchte, dass die Kollegen fragen. 'verpflichtet' beschreibt eine Person mit Pflicht ('Er ist verpflichtet, …'), 'begabt' bedeutet talentiert – beides passt nicht in 'Es wird ___, dass …'."
+        },
+        {
+          "id": "l6t08",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze das passende Adjektiv: erforderlich, verpflichtet oder begabt.",
+          "prompt": "Für diesen Job als Kurierfahrer ist ein Führerschein ___.",
+          "solution": "erforderlich",
+          "explanation": "'erforderlich' = notwendig; eine Sache ist erforderlich. 'verpflichtet' beschreibt Personen ('Er ist verpflichtet, …'), 'begabt' bedeutet talentiert."
+        },
+        {
+          "id": "l6t09",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz im Präteritum.",
+          "prompt": "Baue den Satz aus den Teilen.",
+          "scrambleChunks": [
+            "Letzten Sommer",
+            "wollten",
+            "wir",
+            "nach Portugal",
+            "fahren."
+          ],
+          "solution": "Letzten Sommer wollten wir nach Portugal fahren.",
+          "explanation": "'Letzten Sommer' steht auf Position 1, also folgt das Modalverb 'wollten' auf Position 2 und das Subjekt 'wir' danach. Der Infinitiv 'fahren' steht ohne 'zu' am Ende."
+        },
+        {
+          "id": "l6t10",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz.",
+          "prompt": "Baue den Satz aus den Teilen.",
+          "scrambleChunks": [
+            "Meine Kollegin",
+            "ist",
+            "verpflichtet,",
+            "am Samstag im Laden",
+            "zu arbeiten."
+          ],
+          "solution": "Meine Kollegin ist verpflichtet, am Samstag im Laden zu arbeiten.",
+          "explanation": "'verpflichtet sein' ist eine Alternative zu 'müssen'. Danach folgt nach dem Komma ein Infinitivsatz mit 'zu' am Ende."
+        },
+        {
+          "id": "l6t11",
+          "type": "targeted-transformation",
+          "instruction": "Formuliere den Satz ohne Modalverb, mit einem Infinitiv mit 'zu' (ohne 'dass'). Beginne mit 'Auf der Baustelle ist es erforderlich,' (mit Komma).",
+          "prompt": "Auf der Baustelle muss man einen Helm tragen.",
+          "solution": "Auf der Baustelle ist es erforderlich, einen Helm zu tragen.",
+          "explanation": "'müssen' kann man durch 'Es ist erforderlich, … zu + Infinitiv' ersetzen. 'man' fällt im Infinitivsatz weg."
+        },
+        {
+          "id": "l6t12",
+          "type": "targeted-transformation",
+          "instruction": "Formuliere den Satz ohne Modalverb. Beginne mit 'Die App ist in der Lage,' (mit Komma).",
+          "prompt": "Die App kann ganze Texte in Sekunden übersetzen.",
+          "solution": "Die App ist in der Lage, ganze Texte in Sekunden zu übersetzen.",
+          "explanation": "'können' (Fähigkeit) = 'in der Lage sein, … zu + Infinitiv'. Das Verb steht mit 'zu' am Ende; 'übersetzen' ist hier nicht trennbar: zu übersetzen."
+        },
+        {
+          "id": "l6t13",
+          "type": "targeted-transformation",
+          "instruction": "Setze den Satz ins Präteritum.",
+          "prompt": "Wir wollen das Konzert nicht verpassen.",
+          "solution": "Wir wollten das Konzert nicht verpassen.",
+          "explanation": "Präteritum von 'wollen': wollte- (ohne Umlaut) + Endung. Für 'wir': wir wollten. Der Infinitiv 'verpassen' bleibt am Ende."
+        },
+        {
+          "id": "l6t14",
+          "type": "error-correction",
+          "instruction": "Finde und korrigiere den Fehler.",
+          "prompt": "Meine Eltern musste früher sehr viel arbeiten.",
+          "solution": "Meine Eltern mussten früher sehr viel arbeiten.",
+          "explanation": "Das Subjekt 'meine Eltern' ist Plural (= sie), also: sie mussten. 'musste' ist die Form für ich und er/sie/es."
+        },
+        {
+          "id": "l6t15",
+          "type": "error-correction",
+          "instruction": "Finde und korrigiere den Fehler.",
+          "prompt": "Ich bin heute nicht in der Lage, mich konzentrieren.",
+          "solution": "Ich bin heute nicht in der Lage, mich zu konzentrieren.",
+          "explanation": "Nach 'in der Lage sein' steht ein Infinitivsatz mit 'zu': …, mich zu konzentrieren. Ohne 'zu' ist der Satz falsch."
+        }
+      ]
+    }
+  ]
+}

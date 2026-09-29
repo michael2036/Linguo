@@ -70,14 +70,25 @@ export interface Verb {
 const MODALS = new Set(['können', 'müssen', 'dürfen', 'sollen', 'wollen', 'mögen']);
 
 // Reflexives whose pronoun is dative in their taught sense ("ich wünsche
-// mir", "ich stelle mir vor" = imagine). Everything else is accusative.
-const DATIVE_REFLEXIVE = new Set(['wünschen', 'vorstellen']);
+// mir", "ich stelle mir vor" = imagine, "ich merke mir"). Everything else
+// is accusative.
+const DATIVE_REFLEXIVE = new Set(['wünschen', 'vorstellen', 'merken']);
 
 // Verbs that are only natural in the 3rd person ("das lohnt sich", "die
 // Konzerte finden statt") — "ich finde statt" is grammatical noise, so
 // drills never ask for the other persons. Weather verbs only take "es".
 const WEATHER_VERBS = new Set(['regnen', 'schneien', 'donnern', 'blitzen', 'hageln']);
-const THIRD_PERSON_ONLY = new Set(['lohnen', 'stattfinden', 'klappen', 'passieren', 'anfühlen']);
+const THIRD_PERSON_ONLY = new Set([
+  'lohnen',
+  'stattfinden',
+  'klappen',
+  'passieren',
+  'anfühlen',
+  'gelingen',
+  'vergehen',
+  'schwerfallen',
+  'ausfallen',
+]);
 
 const personsFor = (infinitive: string): Person[] => {
   if (WEATHER_VERBS.has(infinitive)) return ['er'];
@@ -143,6 +154,7 @@ const STEM_CHANGE: Record<string, [string, string]> = {
   vergessen: ['vergisst', 'vergisst'],
   wachsen: ['wächst', 'wächst'],
   waschen: ['wäschst', 'wäscht'],
+  werben: ['wirbst', 'wirbt'],
   werfen: ['wirfst', 'wirft'],
 };
 

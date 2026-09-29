@@ -1,0 +1,2434 @@
+{
+  "modulId": "b1plus-m8",
+  "level": "B1+",
+  "modulNumber": 8,
+  "title": "Natürlich!",
+  "lektionen": [
+    {
+      "lektionId": "b1plus-m8-l22",
+      "level": "B1+",
+      "modulNumber": 8,
+      "lektionNumber": 22,
+      "title": "Klimawandel",
+      "grammarFocus": [
+        "Relativsätze mit wo, woher, wohin (Orte)",
+        "Relativpronomen was nach alles, etwas, nichts, das Einzige, Superlativ",
+        "was mit Bezug auf den ganzen Satz",
+        "Relativsätze mit wo(r) + Präposition"
+      ],
+      "vocabulary": [
+        {
+          "id": "l22v01",
+          "term": "der Klimawandel",
+          "translation": "el cambio climático",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "example": "Der Klimawandel betrifft alle Länder der Erde."
+        },
+        {
+          "id": "l22v02",
+          "term": "die Erwärmung",
+          "translation": "el calentamiento",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Die Erwärmung der Ozeane bedroht viele Korallenriffe."
+        },
+        {
+          "id": "l22v03",
+          "term": "der Anstieg",
+          "translation": "el aumento",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Anstiege",
+          "example": "Forscher beobachten einen deutlichen Anstieg des Meeresspiegels."
+        },
+        {
+          "id": "l22v04",
+          "term": "der Ausstoß",
+          "translation": "la emisión",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "example": "Der Ausstoß von Kohlendioxid muss schnell sinken."
+        },
+        {
+          "id": "l22v05",
+          "term": "die Zunahme",
+          "translation": "el incremento",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Zunahmen",
+          "example": "Die Zunahme von Unwettern beunruhigt die Versicherungen."
+        },
+        {
+          "id": "l22v06",
+          "term": "die Abkühlung",
+          "translation": "el enfriamiento",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Abkühlungen",
+          "example": "Nach dem Gewitter brachte der Regen endlich eine Abkühlung."
+        },
+        {
+          "id": "l22v07",
+          "term": "die Veränderung",
+          "translation": "el cambio",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Veränderungen",
+          "example": "Die Veränderungen in der Natur sind deutlich sichtbar."
+        },
+        {
+          "id": "l22v08",
+          "term": "die Folge",
+          "translation": "la consecuencia",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Folgen",
+          "example": "Trockene Sommer sind eine Folge des Klimawandels."
+        },
+        {
+          "id": "l22v09",
+          "term": "das Treibhausgas",
+          "translation": "el gas de efecto invernadero",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Treibhausgase",
+          "example": "Methan ist ein besonders starkes Treibhausgas."
+        },
+        {
+          "id": "l22v10",
+          "term": "der Meeresspiegel",
+          "translation": "el nivel del mar",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "example": "Der Meeresspiegel steigt jedes Jahr ein paar Millimeter."
+        },
+        {
+          "id": "l22v11",
+          "term": "die Dürre",
+          "translation": "la sequía",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Dürren",
+          "example": "Wegen der Dürre ist die Ernte schlecht ausgefallen."
+        },
+        {
+          "id": "l22v12",
+          "term": "der Gletscher",
+          "translation": "el glaciar",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Gletscher",
+          "example": "Der Gletscher ist in zwanzig Jahren stark geschrumpft."
+        },
+        {
+          "id": "l22v13",
+          "term": "die Umwelt",
+          "translation": "el medio ambiente",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Wer Rad fährt, schont die Umwelt."
+        },
+        {
+          "id": "l22v14",
+          "term": "der Abfall",
+          "translation": "la basura / los residuos",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Abfälle",
+          "example": "Im Park liegt leider viel Abfall herum."
+        },
+        {
+          "id": "l22v15",
+          "term": "die Gegend",
+          "translation": "la zona",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Gegenden",
+          "example": "In unserer Gegend regnet es im Sommer kaum noch."
+        },
+        {
+          "id": "l22v16",
+          "term": "verursachen",
+          "translation": "causar",
+          "partOfSpeech": "verb",
+          "preterite": "verursachte",
+          "participle": "verursacht",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Der Verkehr verursacht einen großen Teil der Emissionen."
+        },
+        {
+          "id": "l22v17",
+          "term": "messen",
+          "translation": "medir",
+          "partOfSpeech": "verb",
+          "preterite": "maß",
+          "participle": "gemessen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Die Wetterstation misst jede Stunde die Temperatur."
+        },
+        {
+          "id": "l22v18",
+          "term": "zunehmen",
+          "translation": "aumentar",
+          "partOfSpeech": "verb",
+          "preterite": "nahm zu",
+          "participle": "zugenommen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Die Zahl der heißen Tage hat stark zugenommen."
+        },
+        {
+          "id": "l22v19",
+          "term": "sich verpflichten",
+          "translation": "comprometerse",
+          "partOfSpeech": "verb",
+          "preterite": "verpflichtete sich",
+          "participle": "sich verpflichtet",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Die Stadt hat sich verpflichtet, bis 2035 klimaneutral zu werden."
+        },
+        {
+          "id": "l22v20",
+          "term": "sich einsetzen",
+          "translation": "abogar / comprometerse (por)",
+          "partOfSpeech": "verb",
+          "preterite": "setzte sich ein",
+          "participle": "sich eingesetzt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Meine Tochter setzt sich für saubere Flüsse ein."
+        },
+        {
+          "id": "l22v21",
+          "term": "schützen",
+          "translation": "proteger",
+          "partOfSpeech": "verb",
+          "preterite": "schützte",
+          "participle": "geschützt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Wir müssen die Wälder besser schützen."
+        },
+        {
+          "id": "l22v22",
+          "term": "trennen",
+          "translation": "separar",
+          "partOfSpeech": "verb",
+          "preterite": "trennte",
+          "participle": "getrennt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "In unserem Haus trennen alle den Müll."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l22e01",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Relativwort.",
+            "prompt": "Wir zelten wieder an dem See, ___ wir letzten Sommer so viele Libellen gesehen haben.",
+            "options": [
+              "wo",
+              "wohin",
+              "woher",
+              "was"
+            ],
+            "solution": "wo",
+            "hint": "Frage: Wo? (Ort, keine Richtung)",
+            "explanation": "Bezieht sich der Relativsatz auf einen Ort und fragt man 'Wo?', steht 'wo'. 'Wohin' fragt nach dem Ziel einer Bewegung, 'woher' nach der Herkunft, 'was' bezieht sich nie auf einen Ort."
+          },
+          {
+            "id": "l22e02",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Relativwort.",
+            "prompt": "Das Dorf, ___ meine Großeltern stammen, hat heute kaum noch Wasser.",
+            "options": [
+              "woher",
+              "wo",
+              "wohin",
+              "was"
+            ],
+            "solution": "woher",
+            "hint": "stammen aus … → Frage: Woher?",
+            "explanation": "'stammen aus' drückt die Herkunft aus, also fragt man 'Woher?' – deshalb 'woher'. 'Wo' passt zu einem Ort ohne Bewegung, 'wohin' zu einem Ziel."
+          },
+          {
+            "id": "l22e03",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Relativwort.",
+            "prompt": "Die Insel, ___ jedes Jahr Tausende Touristen fliegen, wird vom Meer bedroht.",
+            "options": [
+              "wohin",
+              "wo",
+              "woher",
+              "was"
+            ],
+            "solution": "wohin",
+            "hint": "fliegen auf/nach … → Frage: Wohin?",
+            "explanation": "Bei einer Bewegung zu einem Ziel ('fliegen auf die Insel') fragt man 'Wohin?' – also 'wohin'. 'Wo' würde einen Ort ohne Bewegung bezeichnen."
+          },
+          {
+            "id": "l22e04",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Relativpronomen.",
+            "prompt": "Alles, ___ die Forscherin über die Gletscher erzählt hat, war neu für mich.",
+            "options": [
+              "was",
+              "das",
+              "die",
+              "wo"
+            ],
+            "solution": "was",
+            "hint": "Bezugswort: 'alles'",
+            "explanation": "Nach 'alles', 'etwas', 'nichts', 'vieles' steht das Relativpronomen 'was', nicht 'das'. 'Die' passt nicht zu 'alles', 'wo' nur zu Orten."
+          },
+          {
+            "id": "l22e05",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Relativpronomen.",
+            "prompt": "Das Einzige, ___ jetzt noch hilft, ist weniger Energie zu verbrauchen.",
+            "options": [
+              "was",
+              "das",
+              "wo"
+            ],
+            "solution": "was",
+            "hint": "Bezugswort: 'das Einzige'",
+            "explanation": "Nach 'das Einzige' (und anderen nominalisierten Adjektiven wie 'das Erste', 'das Letzte') steht 'was'. 'Das' ist hier falsch, obwohl 'Einzige' neutral ist."
+          },
+          {
+            "id": "l22e06",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Relativwort.",
+            "prompt": "Die Sommer werden immer heißer, ___ viele Landwirte beunruhigt.",
+            "options": [
+              "was",
+              "die",
+              "das",
+              "wo"
+            ],
+            "solution": "was",
+            "hint": "Worauf bezieht sich der Relativsatz: auf ein Wort oder auf den ganzen Satz?",
+            "explanation": "Der Relativsatz bezieht sich auf den ganzen Hauptsatz (dass die Sommer heißer werden). Dann steht 'was'. 'Die' würde sich auf 'Sommer' beziehen – dann müsste das Verb 'beunruhigen' heißen."
+          },
+          {
+            "id": "l22e07",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Relativpronomen.",
+            "prompt": "Das ist das Wichtigste, ___ wir über den Klimawandel wissen müssen.",
+            "solution": "was",
+            "hint": "Nach einem Superlativ …",
+            "explanation": "Nach einem nominalisierten Superlativ ('das Wichtigste', 'das Beste', 'das Schönste') steht das Relativpronomen 'was'."
+          },
+          {
+            "id": "l22e08",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Relativpronomen.",
+            "prompt": "Es gibt nichts, ___ mich mehr ärgert als Plastikmüll im Wald.",
+            "solution": "was",
+            "hint": "Bezugswort: 'nichts'",
+            "explanation": "Nach den Indefinitpronomen 'nichts', 'alles', 'etwas', 'vieles' steht 'was'."
+          },
+          {
+            "id": "l22e09",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Relativwort.",
+            "prompt": "Die Konferenz hat beschlossen, den Ausstoß zu halbieren, ___ sich die Umweltverbände sehr freuen.",
+            "options": [
+              "worüber",
+              "wofür",
+              "woran",
+              "was"
+            ],
+            "solution": "worüber",
+            "hint": "sich freuen über + Akkusativ",
+            "explanation": "Das Verb 'sich freuen über' braucht die Präposition 'über'. Bezieht sich der Relativsatz auf den ganzen Satz, wird daraus 'wo(r)' + Präposition: 'worüber'. Bei 'was' allein fehlt die Präposition; 'wofür' und 'woran' passen nicht zu 'sich freuen'."
+          },
+          {
+            "id": "l22e10",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Relativwort.",
+            "prompt": "Die Stadt fördert jetzt Solaranlagen auf Schuldächern, ___ sich unsere Elterninitiative lange eingesetzt hat.",
+            "options": [
+              "wofür",
+              "worüber",
+              "worauf",
+              "was"
+            ],
+            "solution": "wofür",
+            "hint": "sich einsetzen für + Akkusativ",
+            "explanation": "'Sich einsetzen für' verlangt 'für' – im Relativsatz mit Bezug auf den ganzen Satz also 'wofür'. 'Worüber' und 'worauf' haben die falsche Präposition, bei 'was' allein fehlt die Präposition ganz."
+          },
+          {
+            "id": "l22e11",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Verb.",
+            "prompt": "Autos, Flugzeuge und Fabriken ___ einen großen Teil der Treibhausgase.",
+            "options": [
+              "verursachen",
+              "messen",
+              "schützen",
+              "trennen"
+            ],
+            "solution": "verursachen",
+            "hint": "Wer ist der Grund für die Gase?",
+            "explanation": "'Verursachen' bedeutet 'der Grund für etwas sein'. Fahrzeuge und Fabriken sind die Ursache der Gase; 'messen', 'schützen' und 'trennen' ergeben hier keinen Sinn."
+          },
+          {
+            "id": "l22e12",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze 'messen' im Präsens.",
+            "prompt": "Die Station auf dem Gipfel ___ jede Stunde die Temperatur.",
+            "solution": "misst",
+            "hint": "Unregelmäßiges Verb: e → i",
+            "explanation": "'Messen' ändert in der 2. und 3. Person Singular den Vokal: du misst, er/sie/es misst."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l22m01",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz.",
+            "prompt": "Baue den Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "Das ist",
+              "der Wald,",
+              "wo",
+              "wir",
+              "oft",
+              "spazieren gehen."
+            ],
+            "solution": "Das ist der Wald, wo wir oft spazieren gehen.",
+            "hint": "Im Relativsatz steht das Verb am Ende.",
+            "explanation": "Das Relativwort 'wo' leitet den Nebensatz ein; das konjugierte Verb ('gehen') steht am Ende."
+          },
+          {
+            "id": "l22m02",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz.",
+            "prompt": "Baue den Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "Wir besuchen",
+              "die Stadt,",
+              "woher",
+              "unsere Großmutter",
+              "kommt."
+            ],
+            "solution": "Wir besuchen die Stadt, woher unsere Großmutter kommt.",
+            "hint": "Herkunft → woher",
+            "explanation": "'Woher' bezieht sich auf die Herkunft (aus der Stadt kommen). Im Relativsatz steht 'kommt' am Ende."
+          },
+          {
+            "id": "l22m03",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz.",
+            "prompt": "Baue den Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "Sie hat",
+              "alles verkauft,",
+              "was",
+              "sie",
+              "nicht mehr",
+              "braucht."
+            ],
+            "solution": "Sie hat alles verkauft, was sie nicht mehr braucht.",
+            "hint": "Nach 'alles' → was",
+            "explanation": "Nach 'alles' steht 'was'. Im Nebensatz folgt das Subjekt direkt nach 'was', das Verb steht am Ende."
+          },
+          {
+            "id": "l22m04",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz.",
+            "prompt": "Baue den Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "Das ist",
+              "das Beste,",
+              "was",
+              "du",
+              "für das Klima",
+              "tun kannst."
+            ],
+            "solution": "Das ist das Beste, was du für das Klima tun kannst.",
+            "hint": "Superlativ + was",
+            "explanation": "Nach einem nominalisierten Superlativ steht 'was'. Modalverb im Nebensatz: Infinitiv vor dem konjugierten Modalverb am Ende ('tun kannst')."
+          },
+          {
+            "id": "l22m05",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz.",
+            "prompt": "Baue den Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "Er fährt",
+              "jeden Tag",
+              "mit dem Rad,",
+              "was",
+              "seiner Gesundheit",
+              "guttut."
+            ],
+            "solution": "Er fährt jeden Tag mit dem Rad, was seiner Gesundheit guttut.",
+            "hint": "'was' bezieht sich auf den ganzen Satz.",
+            "explanation": "'Was' nimmt den ganzen Hauptsatz auf (dass er täglich Rad fährt). Das Verb 'guttut' steht am Ende des Nebensatzes."
+          },
+          {
+            "id": "l22m06",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz.",
+            "prompt": "Baue den Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "Es gibt",
+              "vieles,",
+              "wogegen",
+              "wir",
+              "protestieren können."
+            ],
+            "solution": "Es gibt vieles, wogegen wir protestieren können.",
+            "hint": "protestieren gegen → wogegen",
+            "explanation": "Nach 'vieles' mit einem Verb mit Präposition ('protestieren gegen') steht 'wo(r)' + Präposition: 'wogegen'."
+          },
+          {
+            "id": "l22m07",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb in Klammern im Präsens.",
+            "prompt": "Das Land, woher der Kaffee ___, leidet unter Dürren. (kommen)",
+            "solution": "kommt",
+            "hint": "Subjekt im Relativsatz: 'der Kaffee'",
+            "explanation": "Das Subjekt des Relativsatzes ist 'der Kaffee' (3. Person Singular), also 'kommt'. Es steht am Ende des Relativsatzes."
+          },
+          {
+            "id": "l22m08",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb in Klammern im Präteritum.",
+            "prompt": "Das ist alles, was die Station letzte Woche ___. (messen)",
+            "solution": "maß",
+            "hint": "Unregelmäßiges Präteritum",
+            "explanation": "'Messen' ist unregelmäßig: messen – maß – gemessen. 3. Person Singular Präteritum: 'maß'."
+          },
+          {
+            "id": "l22m09",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb in Klammern im Präteritum.",
+            "prompt": "Die Region, wo es früher viel ___, ist heute trocken. (regnen)",
+            "solution": "regnete",
+            "hint": "Regelmäßiges Verb, Stamm auf -n",
+            "explanation": "'Regnen' ist regelmäßig. Weil der Stamm auf -gn endet, braucht es ein -e- vor der Endung: es regnete."
+          },
+          {
+            "id": "l22m10",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb in Klammern im Perfekt (nur das Partizip II).",
+            "prompt": "Die Zahl der Hitzetage, die in den letzten Jahren ___ hat, macht Ärzten Sorgen. (zunehmen)",
+            "solution": "zugenommen",
+            "hint": "Trennbares Verb: ge- zwischen Präfix und Stamm",
+            "explanation": "'Zunehmen' ist trennbar und unregelmäßig: nahm zu – zugenommen. Das 'ge-' steht zwischen 'zu' und 'nommen'."
+          },
+          {
+            "id": "l22m11",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb in Klammern im Präteritum.",
+            "prompt": "Die Regierung ___ sich im Jahr 2020, weniger Kohle zu verbrennen. (sich verpflichten)",
+            "solution": "verpflichtete",
+            "hint": "Regelmäßiges Verb, Stamm auf -t",
+            "explanation": "'Verpflichten' ist regelmäßig. Da der Stamm auf -t endet, lautet die 3. Person Präteritum 'verpflichtete'."
+          },
+          {
+            "id": "l22m12",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb in Klammern im Präsens.",
+            "prompt": "Das Einzige, was du jetzt tun ___, ist den Müll richtig zu trennen. (müssen)",
+            "solution": "musst",
+            "hint": "Modalverb, 2. Person Singular",
+            "explanation": "Modalverben haben im Singular einen eigenen Stamm: ich muss, du musst. Im Relativsatz steht 'musst' am Ende nach dem Infinitiv."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l22h01",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde die Sätze mit 'wo'. Beginne mit 'Das ist das Tal,'.",
+            "prompt": "Das ist das Tal. In dem Tal gab es früher einen Gletscher.",
+            "solution": "Das ist das Tal, wo es früher einen Gletscher gab.",
+            "hint": "Ort ohne Bewegung → wo; Verb ans Ende.",
+            "explanation": "Ein Relativsatz zu einem Ort kann mit 'wo' beginnen (statt 'in dem'). Das konjugierte Verb 'gab' steht am Ende."
+          },
+          {
+            "id": "l22h02",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde die Sätze mit 'wohin'. Beginne mit 'Die Berge,'.",
+            "prompt": "Viele Familien fahren in die Berge. Die Berge werden im Sommer immer voller.",
+            "solution": "Die Berge, wohin viele Familien fahren, werden im Sommer immer voller.",
+            "hint": "Richtung → wohin; der Relativsatz steht direkt nach 'Die Berge'.",
+            "explanation": "'In die Berge fahren' ist eine Bewegung zu einem Ziel, also 'wohin'. Der Relativsatz wird hinter das Bezugswort eingeschoben; danach folgt das Verb des Hauptsatzes."
+          },
+          {
+            "id": "l22h03",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde die Sätze mit 'woher'. Beginne mit 'In der Region,'.",
+            "prompt": "Die Tomaten kommen aus einer Region. In dieser Region ist das Wasser knapp.",
+            "solution": "In der Region, woher die Tomaten kommen, ist das Wasser knapp.",
+            "hint": "Herkunft → woher",
+            "explanation": "'Kommen aus' drückt Herkunft aus → 'woher'. Nach dem eingeschobenen Relativsatz steht das Verb des Hauptsatzes ('ist') auf Position 2."
+          },
+          {
+            "id": "l22h04",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde die Sätze mit 'was'.",
+            "prompt": "Die Stadt pflanzt 500 neue Bäume. Das freut die Anwohner.",
+            "solution": "Die Stadt pflanzt 500 neue Bäume, was die Anwohner freut.",
+            "hint": "'Das' bezieht sich auf den ganzen ersten Satz.",
+            "explanation": "Nimmt ein Relativsatz den ganzen vorigen Satz auf, beginnt er mit 'was'. Das Verb 'freut' steht am Ende."
+          },
+          {
+            "id": "l22h05",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde die Sätze mit wo(r) + Präposition.",
+            "prompt": "Wir haben unseren Plastikmüll halbiert. Darauf sind wir stolz.",
+            "solution": "Wir haben unseren Plastikmüll halbiert, worauf wir stolz sind.",
+            "hint": "stolz sein auf → wo(r) + auf",
+            "explanation": "'Stolz sein auf' → 'darauf' wird im Relativsatz zu 'worauf' (vor Vokal mit -r-). Das Verb steht am Ende."
+          },
+          {
+            "id": "l22h06",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde die Sätze mit wo(r) + Präposition.",
+            "prompt": "Die Gemeinde will den alten Wald abholzen. Dagegen protestieren viele Bürger.",
+            "solution": "Die Gemeinde will den alten Wald abholzen, wogegen viele Bürger protestieren.",
+            "hint": "protestieren gegen → wo + gegen",
+            "explanation": "'Protestieren gegen' → 'dagegen' wird zu 'wogegen' (vor Konsonant ohne -r-). Das Verb 'protestieren' steht am Ende."
+          },
+          {
+            "id": "l22h07",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde die Sätze mit 'was'. Beginne mit 'Das ist das Beste,'.",
+            "prompt": "Das ist das Beste. Wir können es für die Umwelt tun.",
+            "solution": "Das ist das Beste, was wir für die Umwelt tun können.",
+            "hint": "Superlativ + was; Modalverb am Ende",
+            "explanation": "Nach 'das Beste' steht 'was'. Im Nebensatz steht das Modalverb am Ende hinter dem Infinitiv: 'tun können'."
+          },
+          {
+            "id": "l22h08",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler.",
+            "prompt": "Das ist alles, das ich über das Thema weiß.",
+            "solution": "Das ist alles, was ich über das Thema weiß.",
+            "hint": "Bezugswort 'alles'",
+            "explanation": "Nach 'alles' steht immer 'was', nicht 'das'."
+          },
+          {
+            "id": "l22h09",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Verwende ein Relativwort mit 'wo-'.",
+            "prompt": "Das Dorf, wohin ich aufgewachsen bin, liegt direkt an der Küste.",
+            "solution": "Das Dorf, wo ich aufgewachsen bin, liegt direkt an der Küste.",
+            "hint": "Aufwachsen ist keine Bewegung zu einem Ziel.",
+            "explanation": "Man ist in einem Dorf aufgewachsen – Frage: Wo? Deshalb 'wo', nicht 'wohin'."
+          },
+          {
+            "id": "l22h10",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler.",
+            "prompt": "Jonas hat den Wettbewerb gewonnen, das seine Eltern sehr gefreut hat.",
+            "solution": "Jonas hat den Wettbewerb gewonnen, was seine Eltern sehr gefreut hat.",
+            "hint": "Bezug auf den ganzen Satz",
+            "explanation": "Der Relativsatz bezieht sich auf den ganzen Hauptsatz (dass Jonas gewonnen hat). Dafür steht 'was', nicht 'das'."
+          },
+          {
+            "id": "l22h11",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler.",
+            "prompt": "Der Klimawandel ist ein Thema, was mich sehr interessiert.",
+            "solution": "Der Klimawandel ist ein Thema, das mich sehr interessiert.",
+            "hint": "Bezugswort ist ein konkretes Nomen.",
+            "explanation": "Bezieht sich der Relativsatz auf ein Nomen ('das Thema'), steht das Relativpronomen nach Genus und Kasus: 'das'. 'Was' steht nur nach 'alles', 'nichts', Superlativen oder einem ganzen Satz."
+          },
+          {
+            "id": "l22h12",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler.",
+            "prompt": "Die Firma senkt endlich ihren Ausstoß, worüber wir jahrelang gewartet haben.",
+            "solution": "Die Firma senkt endlich ihren Ausstoß, worauf wir jahrelang gewartet haben.",
+            "hint": "warten + welche Präposition?",
+            "explanation": "Man wartet 'auf' etwas (warten auf + Akkusativ), deshalb 'worauf' – mit -r-, weil 'auf' mit einem Vokal beginnt. 'Worüber' passt zu Verben mit 'über' (z. B. sich freuen über, sich ärgern über)."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l22t01",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Relativwort.",
+          "prompt": "In der Gegend, ___ ich aufgewachsen bin, gibt es kaum noch Schnee.",
+          "options": [
+            "wo",
+            "wohin",
+            "woher",
+            "was"
+          ],
+          "solution": "wo",
+          "explanation": "Bei einem Ort, an dem man sich befindet (Wo?), steht 'wo'. 'wohin' fragt nach dem Ziel, 'woher' nach der Herkunft, 'was' bezieht sich nicht auf Orte."
+        },
+        {
+          "id": "l22t02",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Relativpronomen.",
+          "prompt": "Das Einzige, ___ die Politiker auf dem Klimagipfel beschlossen haben, war ein neuer Termin.",
+          "options": [
+            "was",
+            "wo",
+            "wer",
+            "dem"
+          ],
+          "solution": "was",
+          "explanation": "Nach 'das Einzige' steht das Relativpronomen 'was'. 'wo' steht nur bei Orten, 'wer' hat nie ein Bezugswort, und 'dem' ist Dativ – 'beschließen' braucht aber ein Akkusativobjekt."
+        },
+        {
+          "id": "l22t03",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Relativpronomen.",
+          "prompt": "Im Juli regnete es fünf Wochen lang nicht, ___ in vielen Gemeinden zu Wasserverboten führte.",
+          "options": [
+            "was",
+            "das",
+            "wo",
+            "wer"
+          ],
+          "solution": "was",
+          "explanation": "Der Relativsatz bezieht sich auf die ganze Aussage davor (dass es nicht regnete). Dann steht 'was'. 'das' bräuchte ein neutrales Nomen als Bezugswort, 'wo' steht bei Orten, 'wer' hat kein Bezugswort."
+        },
+        {
+          "id": "l22t04",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze das passende Relativadverb (ein Wort).",
+          "prompt": "Die Kleinstadt, ___ wir nächstes Jahr umziehen, hatte letzten Sommer zwei Überschwemmungen.",
+          "solution": "wohin",
+          "explanation": "'umziehen in/nach' drückt eine Richtung aus (Wohin?), deshalb steht 'wohin'. 'wo' steht bei einem Ort, an dem man ist, 'woher' bei der Herkunft."
+        },
+        {
+          "id": "l22t05",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze das Relativpronomen.",
+          "prompt": "Auf der Konferenz wurde leider nichts beschlossen, ___ den Ausstoß sofort senkt.",
+          "solution": "was",
+          "explanation": "Nach 'nichts' (ebenso nach 'alles', 'etwas', 'vieles') steht das Relativpronomen 'was', nicht 'das'."
+        },
+        {
+          "id": "l22t06",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze das Relativpronomen.",
+          "prompt": "Der Gletscher in Patagonien war das Beeindruckendste, ___ ich je gesehen habe.",
+          "solution": "was",
+          "explanation": "Nach einem nominalisierten Superlativ ('das Beeindruckendste') steht 'was'. 'das' ist hier falsch."
+        },
+        {
+          "id": "l22t07",
+          "type": "cloze-conjugation",
+          "instruction": "Ergänze das Verb im Präsens.",
+          "prompt": "Alles, was der Flugverkehr an Treibhausgasen ___, trägt zur Erwärmung bei. (verursachen)",
+          "solution": "verursacht",
+          "explanation": "Im Relativsatz ist 'der Flugverkehr' das Subjekt (3. Person Singular), also 'verursacht'. Das konjugierte Verb steht am Ende des Relativsatzes mit 'was'."
+        },
+        {
+          "id": "l22t08",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Relativwort.",
+          "prompt": "Der Ausstoß von Treibhausgasen ist etwas, ___ viele Menschen nicht gern sprechen.",
+          "options": [
+            "worüber",
+            "darüber",
+            "worauf",
+            "was"
+          ],
+          "solution": "worüber",
+          "explanation": "'sprechen über' + Relativsatz nach 'etwas' → wo(r) + Präposition: 'worüber'. 'darüber' leitet keinen Relativsatz ein, 'worauf' hat die falsche Präposition, und 'was' allein lässt die Präposition weg."
+        },
+        {
+          "id": "l22t09",
+          "type": "sentence-scramble",
+          "instruction": "Bring die Satzteile in die richtige Reihenfolge.",
+          "prompt": "Bilde einen Satz.",
+          "scrambleChunks": [
+            "Wir fahren nächstes Jahr",
+            "nach Island,",
+            "wohin",
+            "viele Forscher",
+            "wegen der Gletscher reisen."
+          ],
+          "solution": "Wir fahren nächstes Jahr nach Island, wohin viele Forscher wegen der Gletscher reisen.",
+          "explanation": "'wohin' steht bei einer Richtung (Wohin reisen die Forscher?). Es folgt direkt auf den Ort, und das konjugierte Verb 'reisen' steht am Ende des Relativsatzes."
+        },
+        {
+          "id": "l22t10",
+          "type": "sentence-scramble",
+          "instruction": "Bring die Satzteile in die richtige Reihenfolge.",
+          "prompt": "Bilde einen Satz.",
+          "scrambleChunks": [
+            "Das ist",
+            "genau das,",
+            "worauf",
+            "die Umweltgruppe seit Jahren",
+            "hinweist."
+          ],
+          "solution": "Das ist genau das, worauf die Umweltgruppe seit Jahren hinweist.",
+          "explanation": "'hinweisen auf' → Relativsatz mit 'worauf'. Das Verb 'hinweist' steht zusammengeschrieben am Satzende."
+        },
+        {
+          "id": "l22t11",
+          "type": "targeted-transformation",
+          "instruction": "Verbinde die Sätze mit einem Relativsatz mit 'was'.",
+          "prompt": "Unser Supermarkt verkauft keine Plastiktüten mehr. Das finden viele Kunden gut.",
+          "solution": "Unser Supermarkt verkauft keine Plastiktüten mehr, was viele Kunden gut finden.",
+          "explanation": "'was' bezieht sich auf die ganze Aussage des Hauptsatzes (nicht auf ein Nomen). Das konjugierte Verb 'finden' rückt ans Ende des Relativsatzes."
+        },
+        {
+          "id": "l22t12",
+          "type": "targeted-transformation",
+          "instruction": "Verbinde die Sätze mit 'wo'. Beginne mit 'Im Sommer fahren viele Touristen an die Nordsee, wo …'.",
+          "prompt": "Im Sommer fahren viele Touristen an die Nordsee. Dort steigt der Meeresspiegel besonders stark.",
+          "solution": "Im Sommer fahren viele Touristen an die Nordsee, wo der Meeresspiegel besonders stark steigt.",
+          "explanation": "'dort' (Wo?) wird zum Relativadverb 'wo'. Im Nebensatz steht das Verb 'steigt' am Ende."
+        },
+        {
+          "id": "l22t13",
+          "type": "targeted-transformation",
+          "instruction": "Verbinde die Sätze mit wo(r) + Präposition. Der Hauptsatz bleibt vorne.",
+          "prompt": "Der Meeresspiegel steigt weiter an. Davor warnen die Forscher schon lange.",
+          "solution": "Der Meeresspiegel steigt weiter an, wovor die Forscher schon lange warnen.",
+          "explanation": "'warnen vor' + Bezug auf die ganze Aussage → 'wovor' (wo + r + vor, weil 'vor' mit Konsonant beginnt). Nicht 'vor was' oder 'vor dem'. Das Verb 'warnen' steht am Ende."
+        },
+        {
+          "id": "l22t14",
+          "type": "error-correction",
+          "instruction": "Finde und korrigiere den Fehler.",
+          "prompt": "Der neue Radweg ist das Sinnvollste, das die Gemeinde seit Jahren gebaut hat.",
+          "solution": "Der neue Radweg ist das Sinnvollste, was die Gemeinde seit Jahren gebaut hat.",
+          "explanation": "Nach einem nominalisierten Superlativ wie 'das Sinnvollste' steht das Relativpronomen 'was', nicht 'das'."
+        },
+        {
+          "id": "l22t15",
+          "type": "error-correction",
+          "instruction": "Korrigiere das falsche Relativwort. Benutze wo, woher oder wohin.",
+          "prompt": "Der Gletscher, wohin das Trinkwasser unseres Dorfes stammt, schmilzt immer schneller.",
+          "solution": "Der Gletscher, woher das Trinkwasser unseres Dorfes stammt, schmilzt immer schneller.",
+          "explanation": "'stammen aus' bezeichnet die Herkunft (Woher?), deshalb 'woher'. 'wohin' steht nur bei einer Richtung/einem Ziel."
+        }
+      ]
+    },
+    {
+      "lektionId": "b1plus-m8-l23",
+      "level": "B1+",
+      "modulNumber": 8,
+      "lektionNumber": 23,
+      "title": "Was ziehe ich an?",
+      "grammarFocus": [
+        "Passiv mit Modalverben (muss/kann/soll/darf + Partizip II + werden)",
+        "Passiv Präsens und Präteritum im Kontext",
+        "Argumentieren: Man darf nicht vergessen, dass … / Das Problem dabei ist, dass …"
+      ],
+      "vocabulary": [
+        {
+          "id": "l23v01",
+          "term": "herstellen",
+          "translation": "fabricar",
+          "partOfSpeech": "verb",
+          "preterite": "stellte her",
+          "participle": "hergestellt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Das Hemd wurde in Portugal hergestellt."
+        },
+        {
+          "id": "l23v02",
+          "term": "produzieren",
+          "translation": "producir",
+          "partOfSpeech": "verb",
+          "preterite": "produzierte",
+          "participle": "produziert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Die Fabrik produziert täglich 5000 T-Shirts."
+        },
+        {
+          "id": "l23v03",
+          "term": "einsetzen",
+          "translation": "emplear / utilizar",
+          "partOfSpeech": "verb",
+          "preterite": "setzte ein",
+          "participle": "eingesetzt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Beim Färben werden oft giftige Stoffe eingesetzt."
+        },
+        {
+          "id": "l23v04",
+          "term": "verbrauchen",
+          "translation": "consumir",
+          "partOfSpeech": "verb",
+          "preterite": "verbrauchte",
+          "participle": "verbraucht",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Eine Waschmaschine verbraucht viel Strom."
+        },
+        {
+          "id": "l23v05",
+          "term": "verschwenden",
+          "translation": "desperdiciar",
+          "partOfSpeech": "verb",
+          "preterite": "verschwendete",
+          "participle": "verschwendet",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Wer ständig neue Kleidung kauft, verschwendet Ressourcen."
+        },
+        {
+          "id": "l23v06",
+          "term": "färben",
+          "translation": "teñir",
+          "partOfSpeech": "verb",
+          "preterite": "färbte",
+          "participle": "gefärbt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Früher färbte man Stoffe mit Pflanzen."
+        },
+        {
+          "id": "l23v07",
+          "term": "bleichen",
+          "translation": "blanquear",
+          "partOfSpeech": "verb",
+          "preterite": "bleichte",
+          "participle": "gebleicht",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Für helle Jeans wird der Stoff gebleicht."
+        },
+        {
+          "id": "l23v08",
+          "term": "transportieren",
+          "translation": "transportar",
+          "partOfSpeech": "verb",
+          "preterite": "transportierte",
+          "participle": "transportiert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Die Ware wird per Schiff nach Hamburg transportiert."
+        },
+        {
+          "id": "l23v09",
+          "term": "liefern",
+          "translation": "entregar / suministrar",
+          "partOfSpeech": "verb",
+          "preterite": "lieferte",
+          "participle": "geliefert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Das Paket wurde gestern geliefert."
+        },
+        {
+          "id": "l23v10",
+          "term": "anbauen",
+          "translation": "cultivar",
+          "partOfSpeech": "verb",
+          "preterite": "baute an",
+          "participle": "angebaut",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "In dieser Region baut man vor allem Baumwolle an."
+        },
+        {
+          "id": "l23v11",
+          "term": "verarbeiten",
+          "translation": "procesar / transformar",
+          "partOfSpeech": "verb",
+          "preterite": "verarbeitete",
+          "participle": "verarbeitet",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Alte Plastikflaschen werden zu Stoff verarbeitet."
+        },
+        {
+          "id": "l23v12",
+          "term": "beeinflussen",
+          "translation": "influir en",
+          "partOfSpeech": "verb",
+          "preterite": "beeinflusste",
+          "participle": "beeinflusst",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Werbung beeinflusst unser Kaufverhalten."
+        },
+        {
+          "id": "l23v13",
+          "term": "tragen",
+          "translation": "llevar puesto",
+          "partOfSpeech": "verb",
+          "preterite": "trug",
+          "participle": "getragen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Mein Bruder trägt am liebsten alte Pullover."
+        },
+        {
+          "id": "l23v14",
+          "term": "waschen",
+          "translation": "lavar",
+          "partOfSpeech": "verb",
+          "preterite": "wusch",
+          "participle": "gewaschen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Ich wasche meine Kleidung meistens bei 30 Grad."
+        },
+        {
+          "id": "l23v15",
+          "term": "die Baumwolle",
+          "translation": "el algodón",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Baumwolle braucht beim Anbau sehr viel Wasser."
+        },
+        {
+          "id": "l23v16",
+          "term": "das Pestizid",
+          "translation": "el pesticida",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Pestizide",
+          "example": "Auf Bio-Feldern sind chemische Pestizide verboten."
+        },
+        {
+          "id": "l23v17",
+          "term": "die Chemikalie",
+          "translation": "el producto químico",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Chemikalien",
+          "example": "Viele Chemikalien gelangen ins Abwasser."
+        },
+        {
+          "id": "l23v18",
+          "term": "der Stoff",
+          "translation": "la tela",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Stoffe",
+          "example": "Dieser Stoff fühlt sich sehr weich an."
+        },
+        {
+          "id": "l23v19",
+          "term": "die Fabrik",
+          "translation": "la fábrica",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Fabriken",
+          "example": "In der Fabrik arbeiten über 800 Menschen."
+        },
+        {
+          "id": "l23v20",
+          "term": "der Verbraucher",
+          "translation": "el consumidor",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Verbraucher",
+          "example": "Die Verbraucher achten immer mehr auf fair produzierte Mode."
+        },
+        {
+          "id": "l23v21",
+          "term": "die Nachhaltigkeit",
+          "translation": "la sostenibilidad",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Bei Mode wird Nachhaltigkeit immer wichtiger."
+        },
+        {
+          "id": "l23v22",
+          "term": "nachhaltig",
+          "translation": "sostenible",
+          "partOfSpeech": "adjective",
+          "example": "Sie kauft nur noch nachhaltige Kleidung."
+        },
+        {
+          "id": "l23v23",
+          "term": "im Durchschnitt",
+          "translation": "en promedio",
+          "partOfSpeech": "phrase",
+          "example": "Im Durchschnitt trägt man ein Kleidungsstück nur wenige Male."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l23e01",
+            "type": "multiple-choice",
+            "instruction": "Wähle die richtige Form von 'werden' (Passiv Präsens).",
+            "prompt": "Für ein einziges T-Shirt ___ sehr viel Wasser verbraucht.",
+            "options": [
+              "wird",
+              "werden",
+              "wurde",
+              "worden"
+            ],
+            "solution": "wird",
+            "hint": "Subjekt: 'viel Wasser' (Singular)",
+            "explanation": "Passiv Präsens = werden + Partizip II. Das Subjekt 'viel Wasser' ist Singular, also 'wird'. 'Werden' wäre Plural, 'wurde' ist Präteritum und 'worden' gehört nur zum Passiv Perfekt."
+          },
+          {
+            "id": "l23e02",
+            "type": "multiple-choice",
+            "instruction": "Wähle die richtige Form von 'werden' (Passiv Präsens).",
+            "prompt": "Die Schuhe ___ per Schiff nach Europa transportiert.",
+            "options": [
+              "werden",
+              "wird",
+              "wurden"
+            ],
+            "solution": "werden",
+            "hint": "Subjekt: 'die Schuhe' (Plural)",
+            "explanation": "Das Subjekt 'die Schuhe' ist Plural → 'werden'. 'Wird' wäre Singular, 'wurden' ist Präteritum. Das Partizip II 'transportiert' steht am Ende."
+          },
+          {
+            "id": "l23e03",
+            "type": "multiple-choice",
+            "instruction": "Wähle die richtige Form.",
+            "prompt": "Kleidung sollte viel länger ___ werden.",
+            "options": [
+              "getragen",
+              "tragen",
+              "trägt",
+              "trug"
+            ],
+            "solution": "getragen",
+            "hint": "Passiv mit Modalverb: Modalverb + Partizip II + werden",
+            "explanation": "Beim Passiv mit Modalverb steht am Ende Partizip II + 'werden'. Das Partizip II von 'tragen' ist 'getragen'."
+          },
+          {
+            "id": "l23e04",
+            "type": "multiple-choice",
+            "instruction": "Wähle die richtige Form.",
+            "prompt": "Beim Färben dürfen keine giftigen Chemikalien eingesetzt ___.",
+            "options": [
+              "werden",
+              "wird",
+              "worden",
+              "sein"
+            ],
+            "solution": "werden",
+            "hint": "Nach dem Modalverb steht der Infinitiv.",
+            "explanation": "Nach einem Modalverb ('dürfen') steht im Passiv der Infinitiv 'werden' am Satzende. 'Worden' gehört nur zum Passiv Perfekt."
+          },
+          {
+            "id": "l23e05",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Modalverb.",
+            "prompt": "Ein kaputter Reißverschluss ___ leicht repariert werden.",
+            "options": [
+              "kann",
+              "können",
+              "hat"
+            ],
+            "solution": "kann",
+            "hint": "Subjekt: 'ein kaputter Reißverschluss' (Singular)",
+            "explanation": "Das Modalverb richtet sich nach dem Subjekt: Singular → 'kann'. 'Hat' passt nicht zu 'repariert werden'."
+          },
+          {
+            "id": "l23e06",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Partizip II von 'einsetzen'.",
+            "prompt": "Für Bio-Baumwolle dürfen keine Pestizide ___ werden.",
+            "solution": "eingesetzt",
+            "hint": "Trennbares Verb: ge- in der Mitte",
+            "explanation": "Bei trennbaren Verben steht 'ge-' zwischen Präfix und Stamm: ein-ge-setzt."
+          },
+          {
+            "id": "l23e07",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Partizip II von 'färben'.",
+            "prompt": "In der Fabrik wird der Stoff zuerst gebleicht und dann ___.",
+            "solution": "gefärbt",
+            "hint": "Regelmäßiges Verb: ge- … -t",
+            "explanation": "'Färben' ist regelmäßig: färbte – gefärbt. Im Passiv steht das Partizip II am Satzende."
+          },
+          {
+            "id": "l23e08",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Verb.",
+            "prompt": "Man darf nicht ___, dass billige Kleidung oft unter schlechten Bedingungen hergestellt wird.",
+            "options": [
+              "vergessen",
+              "erinnern",
+              "verlieren"
+            ],
+            "solution": "vergessen",
+            "hint": "Redemittel zum Argumentieren",
+            "explanation": "Die feste Wendung lautet 'Man darf nicht vergessen, dass …' – damit weist man auf einen wichtigen Punkt hin. 'Erinnern' bräuchte 'sich … daran', und 'verlieren' kann keinen dass-Satz anschließen."
+          },
+          {
+            "id": "l23e09",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Wort.",
+            "prompt": "Das Problem ___ ist, dass Öko-Mode oft teurer ist.",
+            "options": [
+              "dabei",
+              "darum",
+              "deshalb"
+            ],
+            "solution": "dabei",
+            "hint": "Redemittel: auf ein Problem hinweisen",
+            "explanation": "Die Wendung heißt 'Das Problem dabei ist, dass …'. 'Dabei' verweist auf die Sache, über die man gerade spricht. 'Darum' und 'deshalb' drücken einen Grund bzw. eine Folge aus und passen nicht hinter 'Das Problem'."
+          },
+          {
+            "id": "l23e10",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Verb.",
+            "prompt": "Die Herstellung einer Jeans ___ mehrere Tausend Liter Wasser.",
+            "options": [
+              "verbraucht",
+              "färbt",
+              "liefert",
+              "trägt"
+            ],
+            "solution": "verbraucht",
+            "hint": "Was passiert mit dem Wasser?",
+            "explanation": "'Verbrauchen' bedeutet, eine Menge von etwas zu nutzen, bis sie weg ist. 'Färben', 'liefern' und 'tragen' passen nicht zu 'Wasser'."
+          },
+          {
+            "id": "l23e11",
+            "type": "multiple-choice",
+            "instruction": "Wähle die richtige Adjektivform.",
+            "prompt": "Ich kaufe nur noch ___ Mode aus fairer Produktion.",
+            "options": [
+              "nachhaltige",
+              "nachhaltig",
+              "nachhaltiger",
+              "nachhaltigen"
+            ],
+            "solution": "nachhaltige",
+            "hint": "Ohne Artikel, feminin, Akkusativ",
+            "explanation": "Ohne Artikel übernimmt das Adjektiv die Endung des Artikels: die Mode → nachhaltige Mode (Akkusativ Singular feminin)."
+          },
+          {
+            "id": "l23e12",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze die Präposition mit Artikel.",
+            "prompt": "___ Durchschnitt kauft jede Person in Deutschland etwa 60 Kleidungsstücke pro Jahr.",
+            "solution": "Im",
+            "hint": "feste Wendung: … Durchschnitt",
+            "explanation": "Die feste Wendung heißt 'im Durchschnitt' (in + dem)."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l23m01",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz.",
+            "prompt": "Baue den Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "Die Kleidung",
+              "muss",
+              "fair",
+              "hergestellt",
+              "werden."
+            ],
+            "solution": "Die Kleidung muss fair hergestellt werden.",
+            "hint": "Modalverb auf Position 2, Partizip II + werden am Ende.",
+            "explanation": "Passiv mit Modalverb: Modalverb auf Position 2, am Ende Partizip II + 'werden'."
+          },
+          {
+            "id": "l23m02",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz.",
+            "prompt": "Baue den Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "Auf den Feldern",
+              "werden",
+              "oft Pestizide",
+              "eingesetzt."
+            ],
+            "solution": "Auf den Feldern werden oft Pestizide eingesetzt.",
+            "hint": "Passiv Präsens: werden + Partizip II",
+            "explanation": "'Werden' steht auf Position 2, das Partizip II 'eingesetzt' am Ende."
+          },
+          {
+            "id": "l23m03",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz.",
+            "prompt": "Baue den Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "Man darf",
+              "nicht vergessen,",
+              "dass",
+              "Baumwolle",
+              "viel Wasser",
+              "braucht."
+            ],
+            "solution": "Man darf nicht vergessen, dass Baumwolle viel Wasser braucht.",
+            "hint": "dass-Satz: Verb am Ende",
+            "explanation": "Nach dem Redemittel folgt ein dass-Satz, in dem das Verb am Ende steht."
+          },
+          {
+            "id": "l23m04",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz.",
+            "prompt": "Baue den Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "Das Problem",
+              "dabei ist,",
+              "dass",
+              "die Arbeiterinnen",
+              "sehr wenig",
+              "verdienen."
+            ],
+            "solution": "Das Problem dabei ist, dass die Arbeiterinnen sehr wenig verdienen.",
+            "hint": "dass-Satz: Verb am Ende",
+            "explanation": "'Das Problem dabei ist, dass …' leitet einen Nebensatz ein; das Verb 'verdienen' steht am Ende."
+          },
+          {
+            "id": "l23m05",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz.",
+            "prompt": "Baue den Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "Alte T-Shirts",
+              "können",
+              "zu Putzlappen",
+              "verarbeitet werden."
+            ],
+            "solution": "Alte T-Shirts können zu Putzlappen verarbeitet werden.",
+            "hint": "Passiv mit Modalverb",
+            "explanation": "Modalverb 'können' auf Position 2, am Ende Partizip II + 'werden'."
+          },
+          {
+            "id": "l23m06",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz.",
+            "prompt": "Baue den Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "Die Stoffe",
+              "sollten",
+              "ohne Chemikalien",
+              "gefärbt werden."
+            ],
+            "solution": "Die Stoffe sollten ohne Chemikalien gefärbt werden.",
+            "hint": "Passiv mit Modalverb im Konjunktiv II (Ratschlag)",
+            "explanation": "'Sollten' steht auf Position 2, 'gefärbt werden' am Satzende."
+          },
+          {
+            "id": "l23m07",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere 'werden' im Präsens (Passiv).",
+            "prompt": "Die Baumwolle ___ vor allem in Indien und China angebaut.",
+            "solution": "wird",
+            "hint": "Subjekt Singular",
+            "explanation": "'Die Baumwolle' ist Singular → 'wird' + Partizip II."
+          },
+          {
+            "id": "l23m08",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere 'werden' im Präteritum (Passiv).",
+            "prompt": "Die Pullover ___ letztes Jahr noch in Portugal produziert.",
+            "solution": "wurden",
+            "hint": "Plural, Präteritum",
+            "explanation": "Passiv Präteritum = wurde/wurden + Partizip II. 'Die Pullover' ist Plural → 'wurden'."
+          },
+          {
+            "id": "l23m09",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere 'sollen' im Präsens.",
+            "prompt": "In Zukunft ___ weniger Wasser verschwendet werden.",
+            "solution": "soll",
+            "hint": "Subjekt: 'weniger Wasser'",
+            "explanation": "Das Subjekt 'weniger Wasser' ist Singular → 'soll'."
+          },
+          {
+            "id": "l23m10",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere 'dürfen' im Präsens.",
+            "prompt": "Diese Kleider ___ nur bei 30 Grad gewaschen werden.",
+            "solution": "dürfen",
+            "hint": "Subjekt Plural",
+            "explanation": "'Diese Kleider' ist Plural → 'dürfen'."
+          },
+          {
+            "id": "l23m11",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere 'können' im Präteritum.",
+            "prompt": "Früher ___ Kleidung nicht so billig hergestellt werden.",
+            "solution": "konnte",
+            "hint": "Präteritum der Modalverben: ohne Umlaut",
+            "explanation": "Im Präteritum verlieren Modalverben den Umlaut: können → konnte. 'Kleidung' ist Singular."
+          },
+          {
+            "id": "l23m12",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere 'tragen' im Präsens.",
+            "prompt": "Meine Schwester ___ fast nur Secondhand-Kleidung.",
+            "solution": "trägt",
+            "hint": "Vokalwechsel a → ä",
+            "explanation": "'Tragen' hat in der 2. und 3. Person Singular einen Umlaut: du trägst, sie trägt."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l23h01",
+            "type": "targeted-transformation",
+            "instruction": "Forme ins Passiv um. Beginne mit 'Die Näherinnen'.",
+            "prompt": "Man muss die Näherinnen fair bezahlen.",
+            "solution": "Die Näherinnen müssen fair bezahlt werden.",
+            "hint": "Modalverb + Partizip II + werden",
+            "explanation": "Das Akkusativobjekt wird zum Subjekt; das Modalverb richtet sich nach dem neuen Subjekt (Plural → müssen). Am Ende: Partizip II + 'werden'."
+          },
+          {
+            "id": "l23h02",
+            "type": "targeted-transformation",
+            "instruction": "Forme ins Passiv um. Beginne mit 'Alte Jeans'.",
+            "prompt": "Man kann alte Jeans zu Taschen verarbeiten.",
+            "solution": "Alte Jeans können zu Taschen verarbeitet werden.",
+            "hint": "Modalverb + Partizip II + werden",
+            "explanation": "'Man' fällt weg, 'alte Jeans' wird Subjekt (Plural → können). Am Ende: 'verarbeitet werden'."
+          },
+          {
+            "id": "l23h03",
+            "type": "targeted-transformation",
+            "instruction": "Forme ins Passiv um. Beginne mit 'Kleidung'.",
+            "prompt": "Man sollte Kleidung seltener waschen.",
+            "solution": "Kleidung sollte seltener gewaschen werden.",
+            "hint": "Unregelmäßiges Partizip II",
+            "explanation": "'Kleidung' wird Subjekt (Singular → sollte). Partizip II von 'waschen' ist 'gewaschen'."
+          },
+          {
+            "id": "l23h04",
+            "type": "targeted-transformation",
+            "instruction": "Forme ins Passiv um. Beginne mit 'In der Fabrik'.",
+            "prompt": "Man darf in der Fabrik keine Kinder beschäftigen.",
+            "solution": "In der Fabrik dürfen keine Kinder beschäftigt werden.",
+            "hint": "Das Subjekt steht nach dem Modalverb.",
+            "explanation": "'Keine Kinder' wird Subjekt (Plural → dürfen). Weil 'In der Fabrik' auf Position 1 steht, folgt das Modalverb auf Position 2."
+          },
+          {
+            "id": "l23h05",
+            "type": "targeted-transformation",
+            "instruction": "Forme ins Passiv Präteritum um (ohne 'von'). Beginne mit 'Die Ware'.",
+            "prompt": "Die Firma lieferte die Ware pünktlich.",
+            "solution": "Die Ware wurde pünktlich geliefert.",
+            "hint": "Passiv Präteritum: wurde + Partizip II",
+            "explanation": "Passiv Präteritum = 'wurde' + Partizip II. Das Akkusativobjekt 'die Ware' wird Subjekt."
+          },
+          {
+            "id": "l23h06",
+            "type": "targeted-transformation",
+            "instruction": "Formuliere das Argument. Beginne mit 'Das Problem dabei ist, dass'.",
+            "prompt": "Viele Pestizide werden eingesetzt.",
+            "solution": "Das Problem dabei ist, dass viele Pestizide eingesetzt werden.",
+            "hint": "Im dass-Satz steht das konjugierte Verb ganz am Ende.",
+            "explanation": "Im Nebensatz rückt das konjugierte Verb 'werden' ans Ende, hinter das Partizip II."
+          },
+          {
+            "id": "l23h07",
+            "type": "targeted-transformation",
+            "instruction": "Formuliere das Argument. Beginne mit 'Man darf nicht vergessen, dass'.",
+            "prompt": "Fair produzierte Kleidung ist teurer.",
+            "solution": "Man darf nicht vergessen, dass fair produzierte Kleidung teurer ist.",
+            "hint": "Verb ans Ende des dass-Satzes.",
+            "explanation": "Nach 'dass' steht das konjugierte Verb 'ist' am Ende."
+          },
+          {
+            "id": "l23h08",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Behalte das Modalverb.",
+            "prompt": "Die Hemden müssen vor dem Verkauf gebügelt wird.",
+            "solution": "Die Hemden müssen vor dem Verkauf gebügelt werden.",
+            "hint": "Nach einem Modalverb steht der Infinitiv.",
+            "explanation": "Passiv mit Modalverb: Modalverb auf Position 2, am Ende Partizip II + 'werden' im Infinitiv. Das konjugierte 'wird' ist falsch, weil schon das Modalverb 'müssen' konjugiert ist."
+          },
+          {
+            "id": "l23h09",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler.",
+            "prompt": "Alte Schuhe können oft repariert worden.",
+            "solution": "Alte Schuhe können oft repariert werden.",
+            "hint": "Passiv mit Modalverb, nicht Perfekt",
+            "explanation": "'Worden' gehört zum Passiv Perfekt (ist … worden). Mit Modalverb steht 'werden'."
+          },
+          {
+            "id": "l23h10",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Das Subjekt bleibt unverändert.",
+            "prompt": "Die T-Shirts soll ohne Chemikalien gefärbt werden.",
+            "solution": "Die T-Shirts sollen ohne Chemikalien gefärbt werden.",
+            "hint": "Subjekt Plural",
+            "explanation": "Das Modalverb richtet sich nach dem Subjekt 'die T-Shirts' (Plural) → 'sollen'."
+          },
+          {
+            "id": "l23h11",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler.",
+            "prompt": "Man darf nicht vergessen, dass die Transportwege sind sehr lang.",
+            "solution": "Man darf nicht vergessen, dass die Transportwege sehr lang sind.",
+            "hint": "Wortstellung im dass-Satz",
+            "explanation": "Im dass-Satz steht das konjugierte Verb am Ende: '… sehr lang sind'."
+          },
+          {
+            "id": "l23h12",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler.",
+            "prompt": "Für ein Paar Jeans wird sehr viel Wasser verbrauchen.",
+            "solution": "Für ein Paar Jeans wird sehr viel Wasser verbraucht.",
+            "hint": "Passiv: werden + Partizip II",
+            "explanation": "Das Passiv braucht das Partizip II ('verbraucht'), nicht den Infinitiv. 'Wird + Infinitiv' wäre Futur."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l23t01",
+          "type": "multiple-choice",
+          "instruction": "Wähle die richtige Form.",
+          "prompt": "Die Baumwolle muss vor dem Färben gebleicht ___.",
+          "options": [
+            "werden",
+            "worden",
+            "wird",
+            "wurde"
+          ],
+          "solution": "werden",
+          "explanation": "Passiv mit Modalverb: Modalverb + Partizip II + 'werden' (Infinitiv) am Satzende. 'worden' gehört nur ins Passiv Perfekt."
+        },
+        {
+          "id": "l23t02",
+          "type": "multiple-choice",
+          "instruction": "Wähle die richtige Form.",
+          "prompt": "Die ersten Jeans ___ im 19. Jahrhundert für Goldgräber hergestellt.",
+          "options": [
+            "wurden",
+            "worden",
+            "haben",
+            "wird"
+          ],
+          "solution": "wurden",
+          "explanation": "'im 19. Jahrhundert' → Vergangenheit, Passiv Präteritum: 'wurden' (Plural, 'die Jeans') + Partizip II. 'wird' ist Präsens Singular, 'worden' steht nur im Perfekt/Plusquamperfekt mit 'sein', und 'haben' bildet kein Passiv."
+        },
+        {
+          "id": "l23t03",
+          "type": "multiple-choice",
+          "instruction": "Wähle den passenden Satzanfang zum Argumentieren.",
+          "prompt": "___ nicht vergessen, dass viele Näherinnen kaum von ihrem Lohn leben können.",
+          "options": [
+            "Man darf",
+            "Man muss",
+            "Es darf"
+          ],
+          "solution": "Man darf",
+          "explanation": "Die feste Wendung heißt 'Man darf nicht vergessen, dass …' (= es ist wichtig, daran zu denken). 'Man muss nicht vergessen' bedeutet 'es ist nicht nötig zu vergessen', und 'Es darf nicht vergessen' ist ohne 'werden' kein korrektes Passiv."
+        },
+        {
+          "id": "l23t04",
+          "type": "multiple-choice",
+          "instruction": "Wähle die richtige Fortsetzung.",
+          "prompt": "Secondhand-Kleidung ist günstig. Das Problem dabei ist, dass ___.",
+          "options": [
+            "man oft nicht die passende Größe findet",
+            "findet man oft nicht die passende Größe",
+            "man findet oft nicht die passende Größe"
+          ],
+          "solution": "man oft nicht die passende Größe findet",
+          "explanation": "'Das Problem dabei ist, dass …' leitet einen Nebensatz ein: Nach 'dass' steht das konjugierte Verb ('findet') am Ende. Die anderen Optionen haben Hauptsatz-Wortstellung."
+        },
+        {
+          "id": "l23t05",
+          "type": "cloze-conjugation",
+          "instruction": "Ergänze 'werden' im Präteritum.",
+          "prompt": "Früher ___ Stoffe mit Pflanzen gefärbt.",
+          "solution": "wurden",
+          "explanation": "Passiv Präteritum: 'wurden' (Plural, weil 'Stoffe') + Partizip II 'gefärbt'."
+        },
+        {
+          "id": "l23t06",
+          "type": "cloze-conjugation",
+          "instruction": "Ergänze 'werden' im Präsens.",
+          "prompt": "Heute ___ in der Textilindustrie viele Chemikalien eingesetzt.",
+          "solution": "werden",
+          "explanation": "Das Subjekt ist 'viele Chemikalien' (Plural), daher Passiv Präsens 'werden' + Partizip II 'eingesetzt'. 'wird' wäre Singular."
+        },
+        {
+          "id": "l23t07",
+          "type": "cloze-conjugation",
+          "instruction": "Ergänze das Partizip II.",
+          "prompt": "Hanf kann fast ohne Wasser ___ werden. (anbauen)",
+          "solution": "angebaut",
+          "explanation": "Passiv mit Modalverb: 'kann … angebaut werden'. Bei trennbaren Verben steht '-ge-' zwischen Präfix und Stamm: an-ge-baut."
+        },
+        {
+          "id": "l23t08",
+          "type": "sentence-scramble",
+          "instruction": "Bring die Satzteile in die richtige Reihenfolge.",
+          "prompt": "Bilde einen Satz.",
+          "scrambleChunks": [
+            "Die alten Jacken",
+            "sollen",
+            "an ein Hilfsprojekt",
+            "gespendet",
+            "werden."
+          ],
+          "solution": "Die alten Jacken sollen an ein Hilfsprojekt gespendet werden.",
+          "explanation": "Passiv mit Modalverb: Das Modalverb 'sollen' steht auf Position 2, am Satzende stehen Partizip II ('gespendet') und dann der Infinitiv 'werden'."
+        },
+        {
+          "id": "l23t09",
+          "type": "sentence-scramble",
+          "instruction": "Bring die Satzteile in die richtige Reihenfolge.",
+          "prompt": "Bilde einen Satz.",
+          "scrambleChunks": [
+            "Man darf nicht vergessen,",
+            "dass",
+            "die Ware",
+            "um die halbe Welt transportiert",
+            "wird."
+          ],
+          "solution": "Man darf nicht vergessen, dass die Ware um die halbe Welt transportiert wird.",
+          "explanation": "Nach 'dass' steht das konjugierte Verb am Ende: '… transportiert wird' (Partizip II vor 'wird'). Das Subjekt 'die Ware' folgt direkt auf 'dass'."
+        },
+        {
+          "id": "l23t10",
+          "type": "targeted-transformation",
+          "instruction": "Forme ins Passiv um. Beginne mit 'Die Kleidungsstücke'.",
+          "prompt": "Man muss die Kleidungsstücke vor dem Export kontrollieren.",
+          "solution": "Die Kleidungsstücke müssen vor dem Export kontrolliert werden.",
+          "explanation": "'man' fällt weg, das Akkusativobjekt wird Subjekt (Plural → 'müssen'). Am Satzende stehen Partizip II + 'werden'."
+        },
+        {
+          "id": "l23t11",
+          "type": "targeted-transformation",
+          "instruction": "Forme ins Passiv Präteritum um und nenne den Agens mit 'von'. Beginne mit 'Die Kollektion wurde …'.",
+          "prompt": "Eine Designerin aus Berlin entwarf die Kollektion.",
+          "solution": "Die Kollektion wurde von einer Designerin aus Berlin entworfen.",
+          "explanation": "Passiv Präteritum: 'wurde' + Partizip II ('entworfen', unregelmäßig, ohne 'ge-' wegen 'ent-'). Die handelnde Person steht mit 'von' + Dativ: 'von einer Designerin'."
+        },
+        {
+          "id": "l23t12",
+          "type": "targeted-transformation",
+          "instruction": "Formuliere den Einwand mit 'Das Problem dabei ist, dass …'.",
+          "prompt": "Recycelte Stoffe sind oft weniger haltbar.",
+          "solution": "Das Problem dabei ist, dass recycelte Stoffe oft weniger haltbar sind.",
+          "explanation": "Nach 'Das Problem dabei ist, dass …' folgt ein Nebensatz: Das konjugierte Verb 'sind' steht am Satzende."
+        },
+        {
+          "id": "l23t13",
+          "type": "error-correction",
+          "instruction": "Finde und korrigiere den Fehler.",
+          "prompt": "Die Schafwolle muss vor dem Spinnen gründlich gewascht werden.",
+          "solution": "Die Schafwolle muss vor dem Spinnen gründlich gewaschen werden.",
+          "explanation": "Im Passiv braucht man das Partizip II. 'waschen' ist unregelmäßig: waschen – wusch – gewaschen. '*gewascht' gibt es nicht."
+        },
+        {
+          "id": "l23t14",
+          "type": "error-correction",
+          "instruction": "Finde und korrigiere den Fehler.",
+          "prompt": "In dieser Fabrik werden jeden Tag 2000 Hemden nähen.",
+          "solution": "In dieser Fabrik werden jeden Tag 2000 Hemden genäht.",
+          "explanation": "Passiv = 'werden' + Partizip II ('genäht'). Mit dem Infinitiv 'nähen' wäre es Futur I und die Hemden würden selbst nähen."
+        },
+        {
+          "id": "l23t15",
+          "type": "multiple-choice",
+          "instruction": "Wähle die richtige Form.",
+          "prompt": "Viele Verbraucher werden von der Werbung stark ___.",
+          "options": [
+            "beeinflusst",
+            "beeinflussen",
+            "beeinflusste",
+            "gebeeinflusst"
+          ],
+          "solution": "beeinflusst",
+          "explanation": "Passiv Präsens: 'werden' + Partizip II. Verben mit der untrennbaren Vorsilbe 'be-' bilden das Partizip ohne 'ge-': 'beeinflusst'."
+        }
+      ]
+    },
+    {
+      "lektionId": "b1plus-m8-l24",
+      "level": "B1+",
+      "modulNumber": 8,
+      "lektionNumber": 24,
+      "title": "Gute Nacht!",
+      "grammarFocus": [
+        "Konjunktiv II Gegenwart: würde + Infinitiv, wäre, hätte, könnte, sollte, müsste",
+        "Wunsch, Ratschlag, irreale Bedingung, höfliche Bitte, Vermutung",
+        "Konjunktiv II Vergangenheit: hätte/wäre + Partizip II"
+      ],
+      "vocabulary": [
+        {
+          "id": "l24v01",
+          "term": "die Lichtverschmutzung",
+          "translation": "la contaminación lumínica",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Wegen der Lichtverschmutzung sieht man in der Stadt kaum Sterne."
+        },
+        {
+          "id": "l24v02",
+          "term": "die Verschwendung",
+          "translation": "el derroche",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Leuchtreklame, die die ganze Nacht brennt, ist reine Verschwendung."
+        },
+        {
+          "id": "l24v03",
+          "term": "die Ermüdung",
+          "translation": "el agotamiento",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Nach Stunden um die Lampe fallen viele Motten vor Ermüdung zu Boden."
+        },
+        {
+          "id": "l24v04",
+          "term": "die Vielfalt",
+          "translation": "la diversidad",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Die Vielfalt der Insekten geht stark zurück."
+        },
+        {
+          "id": "l24v05",
+          "term": "das Nest",
+          "translation": "el nido",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Nester",
+          "example": "Die Amsel baut ihr Nest in der Hecke."
+        },
+        {
+          "id": "l24v06",
+          "term": "der Nachwuchs",
+          "translation": "las crías",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "example": "Im Frühling kümmern sich die Vögel um ihren Nachwuchs."
+        },
+        {
+          "id": "l24v07",
+          "term": "das Insekt",
+          "translation": "el insecto",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Insekten",
+          "example": "Nachts fliegen viele Insekten zum Licht."
+        },
+        {
+          "id": "l24v08",
+          "term": "die Straßenlaterne",
+          "translation": "la farola",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Straßenlaternen",
+          "example": "Die Straßenlaterne vor dem Haus brennt die ganze Nacht."
+        },
+        {
+          "id": "l24v09",
+          "term": "die Dunkelheit",
+          "translation": "la oscuridad",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Unser Körper braucht Dunkelheit, um gut zu schlafen."
+        },
+        {
+          "id": "l24v10",
+          "term": "der Sternenhimmel",
+          "translation": "el cielo estrellado",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Sternenhimmel",
+          "example": "In den Bergen ist der Sternenhimmel besonders klar."
+        },
+        {
+          "id": "l24v11",
+          "term": "die Fortpflanzung",
+          "translation": "la reproducción",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Licht in der Nacht stört die Fortpflanzung vieler Tiere."
+        },
+        {
+          "id": "l24v12",
+          "term": "der Bewegungsmelder",
+          "translation": "el detector de movimiento",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Bewegungsmelder",
+          "example": "Mit einem Bewegungsmelder geht das Licht nur bei Bedarf an."
+        },
+        {
+          "id": "l24v13",
+          "term": "der Vorschlag",
+          "translation": "la propuesta",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Vorschläge",
+          "example": "Hast du einen besseren Vorschlag?"
+        },
+        {
+          "id": "l24v14",
+          "term": "die Vermutung",
+          "translation": "la suposición",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Vermutungen",
+          "example": "Das ist nur eine Vermutung, kein Beweis."
+        },
+        {
+          "id": "l24v15",
+          "term": "anlocken",
+          "translation": "atraer",
+          "partOfSpeech": "verb",
+          "preterite": "lockte an",
+          "participle": "angelockt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Helle Lampen locken nachts Motten an."
+        },
+        {
+          "id": "l24v16",
+          "term": "blenden",
+          "translation": "deslumbrar",
+          "partOfSpeech": "verb",
+          "preterite": "blendete",
+          "participle": "geblendet",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Das grelle Licht hat den Fahrer geblendet."
+        },
+        {
+          "id": "l24v17",
+          "term": "beleuchten",
+          "translation": "iluminar",
+          "partOfSpeech": "verb",
+          "preterite": "beleuchtete",
+          "participle": "beleuchtet",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Das Rathaus wird nachts von Scheinwerfern beleuchtet."
+        },
+        {
+          "id": "l24v18",
+          "term": "ausschalten",
+          "translation": "apagar",
+          "partOfSpeech": "verb",
+          "preterite": "schaltete aus",
+          "participle": "ausgeschaltet",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Schalte bitte das Licht im Flur aus."
+        },
+        {
+          "id": "l24v19",
+          "term": "stören",
+          "translation": "molestar",
+          "partOfSpeech": "verb",
+          "preterite": "störte",
+          "participle": "gestört",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Das Licht vom Parkplatz stört meinen Schlaf."
+        },
+        {
+          "id": "l24v20",
+          "term": "nachtaktiv",
+          "translation": "nocturno",
+          "partOfSpeech": "adjective",
+          "example": "Fledermäuse sind nachtaktive Tiere."
+        },
+        {
+          "id": "l24v21",
+          "term": "erneuerbar",
+          "translation": "renovable",
+          "partOfSpeech": "adjective",
+          "example": "Auch Strom aus erneuerbaren Energien sollte man nicht verschwenden."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l24e01",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Form (irreale Bedingung).",
+            "prompt": "Wenn es nachts dunkler ___, könnten wir mehr Sterne sehen.",
+            "options": [
+              "wäre",
+              "ist",
+              "hätte",
+              "war"
+            ],
+            "solution": "wäre",
+            "hint": "Konjunktiv II von 'sein'",
+            "explanation": "Irreale Bedingungen stehen im Konjunktiv II. Von 'sein' heißt er 'wäre'. 'Ist' und 'war' sind Indikativ und passen nicht zu 'könnten' im Hauptsatz; 'hätte' ist die Form von 'haben' – 'dunkel' verbindet sich aber mit 'sein'."
+          },
+          {
+            "id": "l24e02",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Form (Wunsch).",
+            "prompt": "Ich ___ gern einmal die Milchstraße ohne Lichtverschmutzung sehen.",
+            "options": [
+              "würde",
+              "wäre",
+              "hätte",
+              "wurde"
+            ],
+            "solution": "würde",
+            "hint": "würde + Infinitiv",
+            "explanation": "Wünsche drückt man oft mit 'würde gern' + Infinitiv aus. 'Wurde' ist Präteritum, 'wäre' und 'hätte' passen nicht zu 'sehen'."
+          },
+          {
+            "id": "l24e03",
+            "type": "multiple-choice",
+            "instruction": "Gib einen Ratschlag im Konjunktiv II.",
+            "prompt": "Du ___ die Lampe im Garten nachts ausschalten.",
+            "options": [
+              "solltest",
+              "sollst",
+              "hättest",
+              "wärst"
+            ],
+            "solution": "solltest",
+            "hint": "Ratschlag: sollte + Infinitiv",
+            "explanation": "Ratschläge formuliert man mit dem Konjunktiv II von 'sollen': 'du solltest'. 'Sollst' ist Indikativ und klingt wie ein Befehl."
+          },
+          {
+            "id": "l24e04",
+            "type": "multiple-choice",
+            "instruction": "Formuliere eine höfliche Bitte.",
+            "prompt": "___ Sie bitte das Licht im Treppenhaus ausmachen?",
+            "options": [
+              "Könnten",
+              "Hätten",
+              "Wären"
+            ],
+            "solution": "Könnten",
+            "hint": "Konjunktiv II von 'können'",
+            "explanation": "Höfliche Bitten formuliert man mit 'Könnten Sie …?' oder 'Würden Sie …?'. 'Hätten' und 'Wären' passen nicht zum Infinitiv 'ausmachen'."
+          },
+          {
+            "id": "l24e05",
+            "type": "multiple-choice",
+            "instruction": "Drücke eine vorsichtige Vermutung im Konjunktiv II aus.",
+            "prompt": "Bei den Nachbarn ist alles dunkel. Sie ___ schon im Urlaub sein.",
+            "options": [
+              "könnten",
+              "konnten",
+              "hätten"
+            ],
+            "solution": "könnten",
+            "hint": "Konjunktiv II von 'können'",
+            "explanation": "Eine vorsichtige Vermutung drückt man mit 'könnte' + Infinitiv aus. 'Konnten' ist Präteritum Indikativ, 'hätten … sein' ist falsch."
+          },
+          {
+            "id": "l24e06",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze 'haben' im Konjunktiv II.",
+            "prompt": "Wenn die Stadt überall Bewegungsmelder ___, würde sie viel Strom sparen.",
+            "solution": "hätte",
+            "hint": "'Die Stadt' = 3. Person Singular",
+            "explanation": "Der Konjunktiv II von 'haben' lautet: ich/er/sie/es hätte. Er steht im wenn-Satz am Ende."
+          },
+          {
+            "id": "l24e07",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze 'sein' im Konjunktiv II.",
+            "prompt": "Wenn ich du ___, würde ich dunklere Vorhänge kaufen.",
+            "solution": "wäre",
+            "hint": "Ratschlag: Wenn ich du …",
+            "explanation": "Die Wendung 'Wenn ich du wäre, …' leitet einen Ratschlag ein. Konjunktiv II von 'sein' mit 'ich': 'wäre'."
+          },
+          {
+            "id": "l24e08",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Hilfsverb (Konjunktiv II Vergangenheit).",
+            "prompt": "Wenn wir die Lampen früher ausgeschaltet ___, hätten wir Strom gespart.",
+            "options": [
+              "hätten",
+              "wären",
+              "würden",
+              "haben"
+            ],
+            "solution": "hätten",
+            "hint": "'ausschalten' bildet das Perfekt mit 'haben'.",
+            "explanation": "Konjunktiv II Vergangenheit = hätte/wäre + Partizip II. 'Ausschalten' bildet das Perfekt mit 'haben', also 'hätten … ausgeschaltet'."
+          },
+          {
+            "id": "l24e09",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Hilfsverb (Konjunktiv II Vergangenheit).",
+            "prompt": "Wenn ich früher nach Hause gekommen ___, hätte ich den Sonnenuntergang gesehen.",
+            "options": [
+              "wäre",
+              "hätte",
+              "würde",
+              "war"
+            ],
+            "solution": "wäre",
+            "hint": "'kommen' bildet das Perfekt mit 'sein'.",
+            "explanation": "Verben der Bewegung wie 'kommen' bilden das Perfekt mit 'sein'. Daher im Konjunktiv II Vergangenheit: 'wäre … gekommen'."
+          },
+          {
+            "id": "l24e10",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Verb.",
+            "prompt": "Das helle Schaufenster ___ jede Nacht Hunderte Motten an.",
+            "options": [
+              "lockt",
+              "blendet",
+              "stört",
+              "beleuchtet"
+            ],
+            "solution": "lockt",
+            "hint": "Trennbares Verb mit 'an'",
+            "explanation": "'Anlocken' (etwas zu sich ziehen) ist trennbar: 'lockt … an'. Die anderen Verben haben kein Präfix 'an-' und ergeben mit 'an' am Satzende keinen Sinn."
+          },
+          {
+            "id": "l24e11",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das passende Nomen aus dem Wortschatz.",
+            "prompt": "In Großstädten wird es nachts nie richtig dunkel. Fachleute sprechen von ___.",
+            "solution": "Lichtverschmutzung",
+            "hint": "zu viel künstliches Licht",
+            "explanation": "Zu viel künstliches Licht in der Nacht nennt man 'Lichtverschmutzung'."
+          },
+          {
+            "id": "l24e12",
+            "type": "multiple-choice",
+            "instruction": "Was drückt der Satz aus?",
+            "prompt": "„Hättest du Lust, heute Abend mit mir Sterne zu beobachten?“",
+            "options": [
+              "einen Vorschlag",
+              "eine Vermutung",
+              "eine irreale Bedingung",
+              "einen Ratschlag"
+            ],
+            "solution": "einen Vorschlag",
+            "hint": "Jemand lädt zu etwas ein.",
+            "explanation": "Mit 'Hättest du Lust, … zu …?' macht man einen Vorschlag. Es gibt keinen wenn-Satz (irreale Bedingung) und keine Annahme (Vermutung)."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l24m01",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz.",
+            "prompt": "Baue den Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "Wenn ich",
+              "nicht so müde",
+              "wäre,",
+              "würde ich",
+              "noch",
+              "spazieren gehen."
+            ],
+            "solution": "Wenn ich nicht so müde wäre, würde ich noch spazieren gehen.",
+            "hint": "wenn-Satz zuerst, dann Verb auf Position 1 im Hauptsatz.",
+            "explanation": "Im wenn-Satz steht 'wäre' am Ende. Der Hauptsatz beginnt direkt mit dem Verb: 'würde ich … spazieren gehen'."
+          },
+          {
+            "id": "l24m02",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz.",
+            "prompt": "Baue den Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "An deiner Stelle",
+              "würde ich",
+              "die Lampe",
+              "ausschalten."
+            ],
+            "solution": "An deiner Stelle würde ich die Lampe ausschalten.",
+            "hint": "Ratschlag mit 'An deiner Stelle'",
+            "explanation": "'An deiner Stelle' steht auf Position 1, 'würde' auf Position 2, der Infinitiv am Ende."
+          },
+          {
+            "id": "l24m03",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz.",
+            "prompt": "Baue den Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "Wäre es",
+              "möglich,",
+              "das Licht",
+              "früher auszuschalten?"
+            ],
+            "solution": "Wäre es möglich, das Licht früher auszuschalten?",
+            "hint": "Höfliche Frage mit Infinitiv mit zu",
+            "explanation": "'Wäre es möglich, … zu …?' ist eine höfliche Bitte. Bei trennbaren Verben steht 'zu' zwischen Präfix und Stamm: 'auszuschalten'."
+          },
+          {
+            "id": "l24m04",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz.",
+            "prompt": "Baue den Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "Wenn wir",
+              "das",
+              "gewusst hätten,",
+              "wären wir",
+              "früher",
+              "gekommen."
+            ],
+            "solution": "Wenn wir das gewusst hätten, wären wir früher gekommen.",
+            "hint": "Konjunktiv II Vergangenheit: hätte/wäre + Partizip II",
+            "explanation": "Im wenn-Satz steht 'hätten' am Ende; im Hauptsatz 'wären' (kommen → sein) + Partizip II am Ende."
+          },
+          {
+            "id": "l24m05",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz.",
+            "prompt": "Baue den Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "Ich wünschte,",
+              "die Nächte",
+              "wären",
+              "wieder dunkler."
+            ],
+            "solution": "Ich wünschte, die Nächte wären wieder dunkler.",
+            "hint": "Wunsch mit 'Ich wünschte'",
+            "explanation": "Nach 'Ich wünschte,' folgt ein Hauptsatz im Konjunktiv II; das Verb 'wären' steht auf Position 2."
+          },
+          {
+            "id": "l24m06",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz.",
+            "prompt": "Baue den Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "Du solltest",
+              "abends weniger",
+              "aufs Handy",
+              "schauen."
+            ],
+            "solution": "Du solltest abends weniger aufs Handy schauen.",
+            "hint": "Ratschlag: sollte + Infinitiv am Ende",
+            "explanation": "'Solltest' steht auf Position 2, der Infinitiv 'schauen' am Satzende."
+          },
+          {
+            "id": "l24m07",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere 'haben' im Konjunktiv II.",
+            "prompt": "Wenn ich einen Garten ___, würde ich Blumen für Insekten pflanzen.",
+            "solution": "hätte",
+            "hint": "ich → hätte",
+            "explanation": "Konjunktiv II von 'haben': ich hätte, du hättest, er hätte."
+          },
+          {
+            "id": "l24m08",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere 'sollen' im Konjunktiv II.",
+            "prompt": "Ihr ___ die Rollläden schließen, dann schlaft ihr besser.",
+            "solution": "solltet",
+            "hint": "ihr-Form",
+            "explanation": "Konjunktiv II von 'sollen' mit 'ihr': 'solltet' (gleich wie Präteritum)."
+          },
+          {
+            "id": "l24m09",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere 'werden' im Konjunktiv II.",
+            "prompt": "Wir ___ gern in einem Dorf ohne Straßenlaternen wohnen.",
+            "solution": "würden",
+            "hint": "wir-Form",
+            "explanation": "Konjunktiv II von 'werden': wir würden + Infinitiv."
+          },
+          {
+            "id": "l24m10",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere 'können' im Konjunktiv II.",
+            "prompt": "___ du mir bitte die Taschenlampe geben?",
+            "solution": "Könntest",
+            "hint": "du-Form mit Umlaut",
+            "explanation": "Konjunktiv II von 'können' hat einen Umlaut: du könntest. Ohne Umlaut ('konntest') wäre es Präteritum."
+          },
+          {
+            "id": "l24m11",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere 'sein' im Konjunktiv II.",
+            "prompt": "Wenn die Straße nicht so hell gewesen ___, hätte ich besser geschlafen.",
+            "solution": "wäre",
+            "hint": "Konjunktiv II Vergangenheit von 'sein'",
+            "explanation": "Konjunktiv II Vergangenheit von 'sein': wäre + gewesen. Im wenn-Satz steht 'wäre' am Ende."
+          },
+          {
+            "id": "l24m12",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere 'müssen' im Konjunktiv II.",
+            "prompt": "Du ___ eigentlich neue Batterien kaufen.",
+            "solution": "müsstest",
+            "hint": "du-Form mit Umlaut",
+            "explanation": "Konjunktiv II von 'müssen': du müsstest. Er drückt hier eine Notwendigkeit vorsichtig aus."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l24h01",
+            "type": "targeted-transformation",
+            "instruction": "Bilde einen irrealen Bedingungssatz. Beginne mit 'Wenn ich einen Balkon hätte,' und verwende 'würde'.",
+            "prompt": "Ich habe keinen Balkon. Deshalb beobachte ich die Sterne nicht.",
+            "solution": "Wenn ich einen Balkon hätte, würde ich die Sterne beobachten.",
+            "hint": "Negation fällt weg: Realität ↔ Irrealität",
+            "explanation": "Die irreale Bedingung beschreibt das Gegenteil der Realität, deshalb fällt 'nicht' weg. Hauptsatz: 'würde' + Infinitiv am Ende."
+          },
+          {
+            "id": "l24h02",
+            "type": "targeted-transformation",
+            "instruction": "Bilde einen irrealen Bedingungssatz. Beginne mit 'Wenn es dunkel genug wäre,' und verwende 'können'.",
+            "prompt": "Es ist nicht dunkel genug. Wir sehen die Milchstraße nicht.",
+            "solution": "Wenn es dunkel genug wäre, könnten wir die Milchstraße sehen.",
+            "hint": "könnten + Infinitiv am Ende",
+            "explanation": "Nach dem wenn-Satz beginnt der Hauptsatz mit dem Verb: 'könnten wir … sehen'."
+          },
+          {
+            "id": "l24h03",
+            "type": "targeted-transformation",
+            "instruction": "Formuliere einen Wunsch. Beginne mit 'Wenn die Straßenlaterne doch nur nicht'.",
+            "prompt": "Die Straßenlaterne ist so hell.",
+            "solution": "Wenn die Straßenlaterne doch nur nicht so hell wäre!",
+            "hint": "Irrealer Wunsch: wenn … doch nur + Konjunktiv II",
+            "explanation": "Irreale Wünsche formuliert man mit 'Wenn … doch nur' + Konjunktiv II. 'Wäre' steht am Ende."
+          },
+          {
+            "id": "l24h04",
+            "type": "targeted-transformation",
+            "instruction": "Formuliere eine höfliche Bitte mit 'Könntest du'. Setze 'bitte' direkt nach 'du'.",
+            "prompt": "Mach das Licht aus!",
+            "solution": "Könntest du bitte das Licht ausmachen?",
+            "hint": "Frage mit Konjunktiv II, Infinitiv am Ende",
+            "explanation": "Statt des Imperativs nutzt man eine Frage mit 'Könntest du …?'. Das trennbare Verb steht als Infinitiv am Ende: 'ausmachen'."
+          },
+          {
+            "id": "l24h05",
+            "type": "targeted-transformation",
+            "instruction": "Gib einen Ratschlag. Beginne mit 'Du solltest'.",
+            "prompt": "Du schläfst schlecht. (bei offenem Fenster schlafen)",
+            "solution": "Du solltest bei offenem Fenster schlafen.",
+            "hint": "sollte + Infinitiv am Ende",
+            "explanation": "Ratschläge: 'solltest' auf Position 2, Infinitiv 'schlafen' am Ende."
+          },
+          {
+            "id": "l24h06",
+            "type": "targeted-transformation",
+            "instruction": "Bilde einen irrealen Bedingungssatz in der Vergangenheit. Beginne mit 'Wenn ich die Lampe ausgeschaltet hätte,'.",
+            "prompt": "Ich habe die Lampe nicht ausgeschaltet. Deshalb sind die Mücken ins Zimmer geflogen.",
+            "solution": "Wenn ich die Lampe ausgeschaltet hätte, wären die Mücken nicht ins Zimmer geflogen.",
+            "hint": "'fliegen' + Richtung → Perfekt mit 'sein'",
+            "explanation": "Konjunktiv II Vergangenheit = hätte/wäre + Partizip II. 'Fliegen' (Bewegung) bildet das Perfekt mit 'sein' → 'wären … geflogen'. Die Realität wird umgekehrt, also kommt 'nicht' hinzu."
+          },
+          {
+            "id": "l24h07",
+            "type": "targeted-transformation",
+            "instruction": "Formuliere einen Wunsch in der Vergangenheit mit 'früher'. Beginne mit 'Wenn wir die Nistkästen doch nur'.",
+            "prompt": "Wir haben die Nistkästen zu spät aufgehängt.",
+            "solution": "Wenn wir die Nistkästen doch nur früher aufgehängt hätten!",
+            "hint": "hätte + Partizip II am Ende",
+            "explanation": "Ein Wunsch über die Vergangenheit steht im Konjunktiv II Vergangenheit: 'hätten … aufgehängt'. 'Hätten' steht am Ende des wenn-Satzes."
+          },
+          {
+            "id": "l24h08",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler.",
+            "prompt": "Wenn ich mehr Geld hätte, ich würde Solarlampen kaufen.",
+            "solution": "Wenn ich mehr Geld hätte, würde ich Solarlampen kaufen.",
+            "hint": "Was steht nach dem wenn-Satz auf Position 1?",
+            "explanation": "Der wenn-Satz steht auf Position 1. Danach folgt sofort das Verb ('würde'), dann erst das Subjekt."
+          },
+          {
+            "id": "l24h09",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler.",
+            "prompt": "Wenn wir früher losgefahren hätten, hätten wir den Sonnenaufgang gesehen.",
+            "solution": "Wenn wir früher losgefahren wären, hätten wir den Sonnenaufgang gesehen.",
+            "hint": "'losfahren' – haben oder sein?",
+            "explanation": "'Losfahren' ist ein Verb der Bewegung und bildet das Perfekt mit 'sein'. Deshalb: 'wären … losgefahren'."
+          },
+          {
+            "id": "l24h10",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler.",
+            "prompt": "Wenn es in der Stadt dunkler sein würde, gäbe es mehr Glühwürmchen.",
+            "solution": "Wenn es in der Stadt dunkler wäre, gäbe es mehr Glühwürmchen.",
+            "hint": "Bei 'sein' nimmt man die Konjunktivform direkt.",
+            "explanation": "Bei 'sein', 'haben' und den Modalverben benutzt man die eigene Konjunktiv-II-Form ('wäre'), nicht 'würde' + Infinitiv."
+          },
+          {
+            "id": "l24h11",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Behalte 'Könnten'.",
+            "prompt": "Könnten Sie mir bitte helfen würden?",
+            "solution": "Könnten Sie mir bitte helfen?",
+            "hint": "Nur ein Konjunktiv pro Bitte",
+            "explanation": "In der höflichen Bitte steht nur ein Konjunktiv-II-Verb: 'Könnten Sie … helfen?'. 'Würden' ist doppelt und falsch."
+          },
+          {
+            "id": "l24h12",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler.",
+            "prompt": "Wenn ich du war, würde ich das Handy nachts weglegen.",
+            "solution": "Wenn ich du wäre, würde ich das Handy nachts weglegen.",
+            "hint": "Konjunktiv II, nicht Präteritum",
+            "explanation": "'War' ist Präteritum Indikativ. Für eine irreale Bedingung braucht man den Konjunktiv II: 'wäre'."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l24t01",
+          "type": "multiple-choice",
+          "instruction": "Wähle die richtige Form.",
+          "prompt": "Wenn die Stadt die Brücke nachts nicht beleuchten würde, ___ die Fledermäuse dort wieder jagen.",
+          "options": [
+            "könnten",
+            "können",
+            "konnten",
+            "gekonnt"
+          ],
+          "solution": "könnten",
+          "explanation": "Irreale Bedingung in der Gegenwart: Konjunktiv II in beiden Satzteilen – 'beleuchten würde' … 'könnten'. 'können' ist Indikativ, 'konnten' Präteritum Indikativ (ohne Umlaut), 'gekonnt' ein Partizip."
+        },
+        {
+          "id": "l24t02",
+          "type": "multiple-choice",
+          "instruction": "Wähle die höfliche Bitte.",
+          "prompt": "___ Sie die Leuchtreklame nach 22 Uhr bitte ausschalten?",
+          "options": [
+            "Könnten",
+            "Konnten",
+            "Hätten",
+            "Wären"
+          ],
+          "solution": "Könnten",
+          "explanation": "Höfliche Bitte: 'Könnten Sie …?' (Konjunktiv II von 'können') + Infinitiv am Ende. 'Hätten'/'Wären' passen nicht zum Infinitiv 'ausschalten', 'Konnten' ist Präteritum Indikativ."
+        },
+        {
+          "id": "l24t03",
+          "type": "multiple-choice",
+          "instruction": "Gib einen Rat. Wähle die richtige Form.",
+          "prompt": "Frau Kaya, Sie ___ vor dem Schlafen nicht mehr auf helle Bildschirme schauen.",
+          "options": [
+            "sollten",
+            "solltest",
+            "sollt",
+            "hätten"
+          ],
+          "solution": "sollten",
+          "explanation": "Ratschlag mit 'sollte' im Konjunktiv II; zur Sie-Form gehört 'Sie sollten'. 'solltest' ist die du-Form, 'sollt' die ihr-Form im Indikativ, 'hätten' passt nicht zum Infinitiv 'schauen'."
+        },
+        {
+          "id": "l24t04",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze das Hilfsverb im Konjunktiv II.",
+          "prompt": "Wenn der Hotelgast die Vorhänge zugezogen ___, wäre er nicht so früh aufgewacht.",
+          "solution": "hätte",
+          "explanation": "Konjunktiv II Vergangenheit: 'hätte/wäre' + Partizip II. 'zuziehen' bildet das Perfekt mit 'haben' (er hat zugezogen), also 'hätte'. 'wäre' im Hauptsatz gehört zu 'aufwachen' (Perfekt mit 'sein')."
+        },
+        {
+          "id": "l24t05",
+          "type": "cloze-conjugation",
+          "instruction": "Ergänze das Hilfsverb im Konjunktiv II.",
+          "prompt": "Wenn wir länger auf dem Berg geblieben ___, hätten wir die Sternschnuppen gesehen.",
+          "solution": "wären",
+          "explanation": "Konjunktiv II Vergangenheit: 'hätte/wäre' + Partizip II. 'bleiben' bildet das Perfekt mit 'sein' (wir sind geblieben), also 'wären' – nicht 'hätten'."
+        },
+        {
+          "id": "l24t06",
+          "type": "cloze-conjugation",
+          "instruction": "Ergänze das Hilfsverb im Konjunktiv II.",
+          "prompt": "Ohne den Bewegungsmelder ___ das Licht die ganze Nacht gebrannt.",
+          "solution": "hätte",
+          "explanation": "Konjunktiv II Vergangenheit: 'hätte/wäre' + Partizip II. 'brennen' bildet das Perfekt mit 'haben' (das Licht hat gebrannt), also 'hätte … gebrannt'."
+        },
+        {
+          "id": "l24t07",
+          "type": "cloze-conjugation",
+          "instruction": "Ergänze 'werden' im Konjunktiv II.",
+          "prompt": "Die Nachbarn ___ sich bestimmt freuen, wenn die Werbung nachts aus wäre.",
+          "solution": "würden",
+          "explanation": "Die würde-Form: 'würden' (Plural, 'die Nachbarn') + Infinitiv 'freuen' am Satzende."
+        },
+        {
+          "id": "l24t08",
+          "type": "sentence-scramble",
+          "instruction": "Bring die Satzteile in die richtige Reihenfolge.",
+          "prompt": "Bilde einen Satz.",
+          "scrambleChunks": [
+            "Würdest du",
+            "mir bitte",
+            "beim Aufhängen der Vorhänge",
+            "helfen?"
+          ],
+          "solution": "Würdest du mir bitte beim Aufhängen der Vorhänge helfen?",
+          "explanation": "Höfliche Bitte als Ja/Nein-Frage: 'Würdest' steht auf Position 1, dann das Subjekt 'du'. Das Pronomen 'mir' steht früh im Satz, der Infinitiv 'helfen' am Ende."
+        },
+        {
+          "id": "l24t09",
+          "type": "sentence-scramble",
+          "instruction": "Bring die Satzteile in die richtige Reihenfolge.",
+          "prompt": "Bilde einen Satz.",
+          "scrambleChunks": [
+            "Es wäre schön,",
+            "wenn die Stadt",
+            "mehr für die Dunkelheit",
+            "tun würde."
+          ],
+          "solution": "Es wäre schön, wenn die Stadt mehr für die Dunkelheit tun würde.",
+          "explanation": "Wunsch mit 'Es wäre schön, wenn …'. Im wenn-Satz steht 'würde' ganz am Ende nach dem Infinitiv."
+        },
+        {
+          "id": "l24t10",
+          "type": "targeted-transformation",
+          "instruction": "Bilde eine irreale Bedingung. Beginne mit 'Wenn die Laterne mich nicht …', benutze im wenn-Satz die würde-Form und im Hauptsatz 'könnte'.",
+          "prompt": "Die Laterne blendet mich. Deshalb kann ich nicht schlafen.",
+          "solution": "Wenn die Laterne mich nicht blenden würde, könnte ich schlafen.",
+          "explanation": "Irreale Bedingung: Die Realität wird umgedreht (blendet → nicht blenden würde; kann nicht → könnte). Nach dem wenn-Satz beginnt der Hauptsatz mit dem Verb."
+        },
+        {
+          "id": "l24t11",
+          "type": "targeted-transformation",
+          "instruction": "Ergänze den wenn-Satz im Konjunktiv II Vergangenheit.",
+          "prompt": "Wir haben das Fenster nicht geschlossen. → Wenn wir das Fenster ___, hätte uns der Straßenlärm nicht geweckt.",
+          "solution": "geschlossen hätten",
+          "explanation": "Irreale Vergangenheit: Partizip II + 'hätten' am Ende des wenn-Satzes. 'schließen' bildet das Perfekt mit 'haben'."
+        },
+        {
+          "id": "l24t12",
+          "type": "targeted-transformation",
+          "instruction": "Formuliere einen irrealen Wunsch. Beginne mit 'Wenn ich doch …'.",
+          "prompt": "Ich habe keinen dunklen Garten.",
+          "solution": "Wenn ich doch einen dunklen Garten hätte",
+          "explanation": "Irrealer Wunsch: Die Realität wird umgedreht (keinen → einen), das Verb steht im Konjunktiv II ('hätte') am Ende."
+        },
+        {
+          "id": "l24t13",
+          "type": "error-correction",
+          "instruction": "Finde und korrigiere den Fehler.",
+          "prompt": "Wenn ich das früher gewusst hätte, würde ich keine so helle Lampe gekauft.",
+          "solution": "Wenn ich das früher gewusst hätte, hätte ich keine so helle Lampe gekauft.",
+          "explanation": "In der Vergangenheit bildet man den Konjunktiv II mit 'hätte/wäre' + Partizip II, nicht mit 'würde' + Partizip II."
+        },
+        {
+          "id": "l24t14",
+          "type": "error-correction",
+          "instruction": "Korrigiere die falsche Form von 'können'.",
+          "prompt": "Wenn es in unserer Stadt weniger Lichtverschmutzung gäbe, konnten die Kinder die Milchstraße sehen.",
+          "solution": "Wenn es in unserer Stadt weniger Lichtverschmutzung gäbe, könnten die Kinder die Milchstraße sehen.",
+          "explanation": "In einer irrealen Bedingung steht auch der Hauptsatz im Konjunktiv II: 'könnten' (mit Umlaut). 'konnten' ist Präteritum Indikativ und beschreibt eine reale Vergangenheit."
+        },
+        {
+          "id": "l24t15",
+          "type": "multiple-choice",
+          "instruction": "Äußere eine Vermutung. Wähle die richtige Form.",
+          "prompt": "Im Büro gegenüber brennt um Mitternacht noch Licht. Dort ___ noch jemand arbeiten.",
+          "options": [
+            "könnte",
+            "konnte",
+            "hätte"
+          ],
+          "solution": "könnte",
+          "explanation": "Vermutung in der Gegenwart: 'könnte' (Konjunktiv II) + Infinitiv drückt aus, dass etwas möglich ist. 'konnte' ist Präteritum Indikativ und passt nicht zur Gegenwart, 'hätte … arbeiten' ist keine korrekte Form."
+        }
+      ]
+    }
+  ]
+}

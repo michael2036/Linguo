@@ -77,7 +77,7 @@ sign-in — pick a Lektion and choose **Übung** or **Test**.
 ## Curriculum coverage
 
 Content follows the real structure of the "Momente" (Hueber) textbook
-series: **Level** (A1/A2/B1) → **Modul** (1–8) → **Lektion** (exactly 3 per
+series: **Level** (A1/A2/B1, plus B1+) → **Modul** (1–8) → **Lektion** (exactly 3 per
 Modul, 24 per level).
 
 | Level | Moduln authored | Vocabulary linguistic profiles |
@@ -85,6 +85,10 @@ Modul, 24 per level).
 | A1 | 8 / 8 ✅ | ✅ full noun/verb profiles |
 | A2 | 8 / 8 ✅ | ✅ full noun/verb profiles |
 | B1 | 8 / 8 ✅ | ✅ full noun/verb profiles |
+| B1+ | 8 / 8 ✅ | ✅ full noun/verb profiles |
+
+B1+ follows "Kontext B1+ express" (Klett) instead: its 8 Kapitel × 3 Moduln
+map onto Linguo's 8 Moduln × 3 Lektionen (files under `public/data/b1plus/`).
 
 Modul packs live at `public/data/<level>/modul-<N>.json` and must validate
 against [`public/schemas/modul-schema.json`](public/schemas/modul-schema.json).

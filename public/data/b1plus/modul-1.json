@@ -1,0 +1,2378 @@
+{
+  "modulId": "b1plus-m1",
+  "level": "B1+",
+  "modulNumber": 1,
+  "title": "Mit der Zeit",
+  "lektionen": [
+    {
+      "lektionId": "b1plus-m1-l1",
+      "level": "B1+",
+      "modulNumber": 1,
+      "lektionNumber": 1,
+      "title": "Zeit – früher und heute",
+      "grammarFocus": [
+        "Perfekt: Partizip II und haben/sein",
+        "Präteritum in Biografien",
+        "Plusquamperfekt: Vorzeitigkeit"
+      ],
+      "vocabulary": [
+        {
+          "id": "l1v01",
+          "term": "die Vergangenheit",
+          "translation": "el pasado",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "In der Vergangenheit hatten viele Familien kein Auto."
+        },
+        {
+          "id": "l1v02",
+          "term": "die Gegenwart",
+          "translation": "el presente",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Der Roman spielt nicht in der Gegenwart, sondern im Mittelalter."
+        },
+        {
+          "id": "l1v03",
+          "term": "die Zukunft",
+          "translation": "el futuro",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Niemand weiß genau, was die Zukunft bringt."
+        },
+        {
+          "id": "l1v04",
+          "term": "damals",
+          "translation": "en aquel entonces",
+          "partOfSpeech": "adverb",
+          "example": "Damals gab es in unserem Dorf nur einen einzigen Laden."
+        },
+        {
+          "id": "l1v05",
+          "term": "neulich",
+          "translation": "hace poco, el otro día",
+          "partOfSpeech": "adverb",
+          "example": "Neulich habe ich zufällig meine alte Lehrerin getroffen."
+        },
+        {
+          "id": "l1v06",
+          "term": "heutzutage",
+          "translation": "hoy en día",
+          "partOfSpeech": "adverb",
+          "example": "Heutzutage bezahlen viele Leute nur noch mit dem Handy."
+        },
+        {
+          "id": "l1v07",
+          "term": "täglich",
+          "translation": "diario, a diario",
+          "partOfSpeech": "adjective",
+          "example": "Sie liest täglich die Nachrichten auf dem Tablet."
+        },
+        {
+          "id": "l1v08",
+          "term": "vergehen",
+          "translation": "pasar (el tiempo)",
+          "partOfSpeech": "verb",
+          "preterite": "verging",
+          "participle": "vergangen",
+          "auxiliary": "sein",
+          "irregular": true,
+          "example": "Im Urlaub vergeht die Zeit immer viel zu schnell."
+        },
+        {
+          "id": "l1v09",
+          "term": "pflegen",
+          "translation": "cuidar, cultivar",
+          "partOfSpeech": "verb",
+          "preterite": "pflegte",
+          "participle": "gepflegt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Er pflegt seine Kontakte zu alten Schulfreunden."
+        },
+        {
+          "id": "l1v10",
+          "term": "unterbrechen",
+          "translation": "interrumpir",
+          "partOfSpeech": "verb",
+          "preterite": "unterbrach",
+          "participle": "unterbrochen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Bitte unterbrich mich nicht, wenn ich telefoniere."
+        },
+        {
+          "id": "l1v11",
+          "term": "beantworten",
+          "translation": "responder (a algo)",
+          "partOfSpeech": "verb",
+          "preterite": "beantwortete",
+          "participle": "beantwortet",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Ich beantworte meine E-Mails meistens am Vormittag."
+        },
+        {
+          "id": "l1v12",
+          "term": "aufwachsen",
+          "translation": "crecer, criarse",
+          "partOfSpeech": "verb",
+          "preterite": "wuchs auf",
+          "participle": "aufgewachsen",
+          "auxiliary": "sein",
+          "irregular": true,
+          "example": "Meine Mutter ist an der Nordsee aufgewachsen."
+        },
+        {
+          "id": "l1v13",
+          "term": "umziehen",
+          "translation": "mudarse",
+          "partOfSpeech": "verb",
+          "preterite": "zog um",
+          "participle": "umgezogen",
+          "auxiliary": "sein",
+          "irregular": true,
+          "example": "Nach der Hochzeit zogen sie nach Leipzig um."
+        },
+        {
+          "id": "l1v14",
+          "term": "erscheinen",
+          "translation": "publicarse, aparecer",
+          "partOfSpeech": "verb",
+          "preterite": "erschien",
+          "participle": "erschienen",
+          "auxiliary": "sein",
+          "irregular": true,
+          "example": "Ihr erstes Kochbuch erschien im Herbst 2019."
+        },
+        {
+          "id": "l1v15",
+          "term": "sich befassen",
+          "translation": "ocuparse (de)",
+          "partOfSpeech": "verb",
+          "preterite": "befasste sich",
+          "participle": "befasst",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "In ihrer Doktorarbeit befasste sie sich mit Schlafforschung."
+        },
+        {
+          "id": "l1v16",
+          "term": "erhalten",
+          "translation": "recibir",
+          "partOfSpeech": "verb",
+          "preterite": "erhielt",
+          "participle": "erhalten",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Für seinen Film erhielt der Regisseur einen Preis."
+        },
+        {
+          "id": "l1v17",
+          "term": "verpassen",
+          "translation": "perder (un tren, una cita)",
+          "partOfSpeech": "verb",
+          "preterite": "verpasste",
+          "participle": "verpasst",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Wegen des Staus habe ich meinen Flug verpasst."
+        },
+        {
+          "id": "l1v18",
+          "term": "übernehmen",
+          "translation": "hacerse cargo de, asumir",
+          "partOfSpeech": "verb",
+          "preterite": "übernahm",
+          "participle": "übernommen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Mit dreißig Jahren übernahm sie die Tischlerei ihres Onkels."
+        },
+        {
+          "id": "l1v19",
+          "term": "sich bewerben",
+          "translation": "presentarse (a un puesto), postularse",
+          "partOfSpeech": "verb",
+          "preterite": "bewarb sich",
+          "participle": "beworben",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Ich habe mich bei drei Firmen beworben."
+        },
+        {
+          "id": "l1v20",
+          "term": "verdienen",
+          "translation": "ganar (dinero)",
+          "partOfSpeech": "verb",
+          "preterite": "verdiente",
+          "participle": "verdient",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Als Studentin verdiente sie ihr Geld in einem Café."
+        },
+        {
+          "id": "l1v21",
+          "term": "der Durchbruch",
+          "translation": "el gran éxito, el avance decisivo",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Durchbrüche",
+          "example": "Mit ihrem zweiten Album gelang der Band der Durchbruch."
+        },
+        {
+          "id": "l1v22",
+          "term": "die Fortbildung",
+          "translation": "la formación continua, el curso de perfeccionamiento",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Fortbildungen",
+          "example": "Die Firma bezahlt uns jedes Jahr eine Fortbildung."
+        },
+        {
+          "id": "l1v23",
+          "term": "die Weltreise",
+          "translation": "el viaje alrededor del mundo",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Weltreisen",
+          "example": "Nach dem Abitur hat Jonas eine Weltreise gemacht."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l1e01",
+            "type": "multiple-choice",
+            "instruction": "Wähle das richtige Hilfsverb für das Perfekt.",
+            "prompt": "Gestern ___ der Zug mit zwanzig Minuten Verspätung angekommen.",
+            "options": [
+              "ist",
+              "hat",
+              "wurde"
+            ],
+            "solution": "ist",
+            "hint": "Verben der Bewegung mit Ortswechsel bilden das Perfekt mit …",
+            "explanation": "'ankommen' drückt eine Ortsveränderung aus, deshalb bildet es das Perfekt mit 'sein': Der Zug ist angekommen. 'hat angekommen' ist falsch, und 'wurde' + Partizip wäre Passiv – das gibt es bei 'ankommen' nicht."
+          },
+          {
+            "id": "l1e02",
+            "type": "multiple-choice",
+            "instruction": "Wähle das richtige Hilfsverb für das Perfekt.",
+            "prompt": "Am Wochenende ___ wir endlich mal richtig lange geschlafen.",
+            "options": [
+              "haben",
+              "sind",
+              "werden"
+            ],
+            "solution": "haben",
+            "hint": "'schlafen' beschreibt keinen Ortswechsel.",
+            "explanation": "'schlafen' ist ein Zustand ohne Ortswechsel, daher Perfekt mit 'haben': wir haben geschlafen. 'sind geschlafen' ist falsch, und 'werden' + Partizip wäre Passiv, das hier keinen Sinn ergibt."
+          },
+          {
+            "id": "l1e03",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Partizip II.",
+            "prompt": "Frau Özdemir hat ihr Geschäft heute um acht Uhr ___. (aufmachen)",
+            "solution": "aufgemacht",
+            "hint": "Trennbares Verb: Wo steht das 'ge-'?",
+            "explanation": "Bei trennbaren Verben steht 'ge-' zwischen Präfix und Stamm: auf-ge-macht. 'aufmachen' ist regelmäßig, also Endung '-t'."
+          },
+          {
+            "id": "l1e04",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Partizip II.",
+            "prompt": "Hast du die Nachricht von deinem Chef schon ___? (beantworten)",
+            "solution": "beantwortet",
+            "hint": "Verben mit untrennbarem Präfix (be-, ver-, er- …) bekommen kein 'ge-'.",
+            "explanation": "'beantworten' hat das untrennbare Präfix 'be-', deshalb kein 'ge-': beantwortet. Weil der Stamm auf '-t' endet, lautet die Endung '-et'."
+          },
+          {
+            "id": "l1e05",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Partizip II.",
+            "prompt": "Die Ausstellung hat uns leider gar nicht ___. (gefallen)",
+            "solution": "gefallen",
+            "hint": "Untrennbares Präfix 'ge-' + unregelmäßiges Verb.",
+            "explanation": "'gefallen' beginnt schon mit dem untrennbaren Präfix 'ge-' und ist unregelmäßig; das Partizip II ist identisch mit dem Infinitiv: gefallen. 'gegefallen' oder 'gefallt' gibt es nicht."
+          },
+          {
+            "id": "l1e06",
+            "type": "multiple-choice",
+            "instruction": "Wähle das richtige Partizip II.",
+            "prompt": "Lara hat drei Jahre in Wien Architektur ___.",
+            "options": [
+              "studiert",
+              "gestudiert",
+              "studieren"
+            ],
+            "solution": "studiert",
+            "hint": "Verben auf '-ieren' …",
+            "explanation": "Verben auf '-ieren' bilden das Partizip II ohne 'ge-': studiert. 'gestudiert' ist falsch, und nach 'hat' braucht man das Partizip, nicht den Infinitiv."
+          },
+          {
+            "id": "l1e07",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Verb im Präteritum.",
+            "prompt": "Die Malerin ___ 1952 in einem kleinen Dorf an der Mosel zur Welt. (kommen)",
+            "solution": "kam",
+            "hint": "In Biografien steht meist das Präteritum. 'kommen' ist unregelmäßig.",
+            "explanation": "'kommen' ist ein starkes Verb: kommen – kam – gekommen. In der 3. Person Singular Präteritum gibt es keine Endung: sie kam."
+          },
+          {
+            "id": "l1e08",
+            "type": "multiple-choice",
+            "instruction": "Wähle die richtige Präteritumform.",
+            "prompt": "Nach dem Studium ___ Herr Lindqvist nach Hamburg.",
+            "options": [
+              "zog",
+              "ziehte",
+              "zug",
+              "gezogen"
+            ],
+            "solution": "zog",
+            "hint": "'ziehen' ist ein unregelmäßiges Verb.",
+            "explanation": "'ziehen' ist stark: ziehen – zog – gezogen. 'ziehte' ist eine falsche regelmäßige Form, 'gezogen' ist das Partizip II und braucht ein Hilfsverb."
+          },
+          {
+            "id": "l1e09",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Verb im Präteritum.",
+            "prompt": "Mit dreißig ___ der Autor seinen ersten Roman. (schreiben)",
+            "solution": "schrieb",
+            "hint": "Starkes Verb: Der Vokal ändert sich (ei → ie).",
+            "explanation": "'schreiben' ist stark: schreiben – schrieb – geschrieben. In der 3. Person Singular Präteritum: er schrieb (ohne Endung)."
+          },
+          {
+            "id": "l1e10",
+            "type": "multiple-choice",
+            "instruction": "Wähle das richtige Hilfsverb für das Plusquamperfekt.",
+            "prompt": "Als wir am Kino ankamen, ___ der Film schon begonnen.",
+            "options": [
+              "hatte",
+              "war",
+              "hat",
+              "ist"
+            ],
+            "solution": "hatte",
+            "hint": "Die Handlung passierte vor einer anderen Handlung in der Vergangenheit.",
+            "explanation": "Der Filmbeginn liegt vor dem Ankommen (Vorzeitigkeit), deshalb Plusquamperfekt: Präteritum von 'haben' + Partizip II. 'beginnen' bildet das Perfekt mit 'haben', also 'hatte begonnen', nicht 'war'. 'hat/ist' sind Präsensformen und passen nicht zur Vergangenheit im Nebensatz."
+          },
+          {
+            "id": "l1e11",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Hilfsverb im Plusquamperfekt.",
+            "prompt": "Nachdem Jonas den letzten Bus verpasst ___, nahm er ein Taxi. (haben oder sein)",
+            "solution": "hatte",
+            "hint": "Plusquamperfekt = 'hatte/war' + Partizip II. Welches Hilfsverb hat 'verpassen' im Perfekt?",
+            "explanation": "Das Verpassen passierte vor dem Taxinehmen (Vorzeitigkeit) → Plusquamperfekt. 'verpassen' bildet das Perfekt mit 'haben' (er hat verpasst), also Plusquamperfekt mit 'hatte'. 'war' ist falsch, denn 'verpassen' ist keine Bewegung und keine Zustandsveränderung."
+          },
+          {
+            "id": "l1e12",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Zeitadverb.",
+            "prompt": "___ gab es in unserem Dorf noch kein Internet – heute hat fast jeder ein Smartphone.",
+            "options": [
+              "Damals",
+              "Bald",
+              "Heutzutage"
+            ],
+            "solution": "Damals",
+            "hint": "Der Satz spricht über die Vergangenheit.",
+            "explanation": "'damals' bezieht sich auf eine Zeit in der Vergangenheit und passt zum Präteritum 'gab'. 'bald' bezieht sich auf die Zukunft, und 'heutzutage' meint die Gegenwart – das widerspricht dem Kontrast 'heute hat fast jeder …'."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l1m01",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb im Präteritum.",
+            "prompt": "Früher ___ mein Großvater jeden Tag zwei Zeitungen. (lesen)",
+            "solution": "las",
+            "hint": "Starkes Verb, 3. Person Singular.",
+            "explanation": "'lesen' ist stark: lesen – las – gelesen. Die 3. Person Singular Präteritum hat keine Endung: er las."
+          },
+          {
+            "id": "l1m02",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb im Präteritum.",
+            "prompt": "Als Studentin ___ Mira am Wochenende in einem Café. (jobben)",
+            "solution": "jobbte",
+            "hint": "Regelmäßiges Verb: Stamm + '-te'.",
+            "explanation": "Regelmäßige Verben bilden das Präteritum mit '-te': jobb-te. In der 3. Person Singular: sie jobbte."
+          },
+          {
+            "id": "l1m03",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Partizip II.",
+            "prompt": "Meine Kinder sind in einer großen Stadt ___. (aufwachsen)",
+            "solution": "aufgewachsen",
+            "hint": "Trennbar und unregelmäßig.",
+            "explanation": "'aufwachsen' ist trennbar ('ge-' in der Mitte) und stark (Endung '-en'): auf-ge-wachs-en. Deshalb 'aufgewachsen'; das Hilfsverb ist 'sein'."
+          },
+          {
+            "id": "l1m04",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Partizip II.",
+            "prompt": "Wir haben uns im Urlaub in Portugal ___. (kennenlernen)",
+            "solution": "kennengelernt",
+            "hint": "'kennenlernen' funktioniert wie ein trennbares Verb.",
+            "explanation": "Bei 'kennenlernen' steht 'ge-' vor 'lernen': kennen-ge-lernt. Man schreibt das Partizip zusammen."
+          },
+          {
+            "id": "l1m05",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb im Präteritum.",
+            "prompt": "Plötzlich ___ ein lautes Klingeln unser Gespräch. (unterbrechen)",
+            "solution": "unterbrach",
+            "hint": "'unter-' ist hier untrennbar; 'brechen' ist stark.",
+            "explanation": "'unterbrechen' ist untrennbar, das Präfix bleibt am Verb: unterbrechen – unterbrach – unterbrochen. 3. Person Singular Präteritum: unterbrach."
+          },
+          {
+            "id": "l1m06",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Hilfsverb im Plusquamperfekt.",
+            "prompt": "Bevor sie nach Kanada auswanderte, ___ sie zwei Jahre lang Englisch gelernt. (haben oder sein)",
+            "solution": "hatte",
+            "hint": "Plusquamperfekt: Präteritum von 'haben' oder 'sein' + Partizip II. Welches Hilfsverb hat 'lernen'?",
+            "explanation": "Das Englischlernen liegt vor dem Auswandern (Vorzeitigkeit) → Plusquamperfekt. 'lernen' bildet das Perfekt mit 'haben', also 'hatte gelernt'. 'war' passt nicht, weil 'lernen' keine Bewegung und keine Zustandsveränderung ausdrückt."
+          },
+          {
+            "id": "l1m07",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb im Plusquamperfekt (Partizip II + Hilfsverb).",
+            "prompt": "Nachdem die Gäste ___, räumten wir die Küche auf. (gehen)",
+            "solution": "gegangen waren",
+            "hint": "Im Nebensatz steht das konjugierte Verb am Ende. 'gehen' → Hilfsverb 'sein'.",
+            "explanation": "'gehen' bildet das Perfekt mit 'sein', also Plusquamperfekt mit 'waren' (Plural wegen 'die Gäste'). Im Nebensatz mit 'nachdem' steht das konjugierte Hilfsverb am Ende: gegangen waren."
+          },
+          {
+            "id": "l1m08",
+            "type": "sentence-scramble",
+            "instruction": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "prompt": "Bilde einen korrekten Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "Letztes Jahr",
+              "ist",
+              "Paul",
+              "zum ersten Mal allein",
+              "verreist"
+            ],
+            "solution": "Letztes Jahr ist Paul zum ersten Mal allein verreist.",
+            "hint": "Das Hilfsverb steht auf Position 2, das Partizip am Ende.",
+            "explanation": "Im Perfekt steht das Hilfsverb ('ist') an Position 2 und das Partizip II ('verreist') am Satzende. Steht die Zeitangabe vorn, folgt das Subjekt nach dem Verb. 'verreisen' bildet das Perfekt mit 'sein'."
+          },
+          {
+            "id": "l1m09",
+            "type": "sentence-scramble",
+            "instruction": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "prompt": "Bilde einen korrekten Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "Nach der Ausbildung",
+              "machte",
+              "Lena",
+              "eine lange Reise"
+            ],
+            "solution": "Nach der Ausbildung machte Lena eine lange Reise.",
+            "hint": "Präteritum: Das Verb steht allein auf Position 2.",
+            "explanation": "Im Präteritum gibt es nur einen Verbteil; er steht an Position 2. Weil 'Nach der Ausbildung' auf Position 1 steht, kommt das Subjekt 'Lena' direkt nach dem Verb."
+          },
+          {
+            "id": "l1m10",
+            "type": "sentence-scramble",
+            "instruction": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "prompt": "Bilde einen korrekten Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "Hast",
+              "du",
+              "dich",
+              "um die Stelle",
+              "beworben"
+            ],
+            "solution": "Hast du dich um die Stelle beworben?",
+            "hint": "Ja/Nein-Frage: Das Hilfsverb steht vorn.",
+            "explanation": "In der Ja/Nein-Frage steht das Hilfsverb auf Position 1, dann Subjekt und Reflexivpronomen; das Partizip II 'beworben' steht am Ende. 'sich bewerben um' + Akkusativ."
+          },
+          {
+            "id": "l1m11",
+            "type": "sentence-scramble",
+            "instruction": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "prompt": "Bilde einen korrekten Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "Als ich ankam,",
+              "hatte",
+              "der Unterricht",
+              "schon",
+              "angefangen"
+            ],
+            "solution": "Als ich ankam, hatte der Unterricht schon angefangen.",
+            "hint": "Nach dem Nebensatz folgt sofort das Verb des Hauptsatzes.",
+            "explanation": "Der Nebensatz steht auf Position 1, also folgt direkt das konjugierte Verb 'hatte'. Das Plusquamperfekt zeigt: Der Unterricht begann vor dem Ankommen. Das Partizip II steht am Ende."
+          },
+          {
+            "id": "l1m12",
+            "type": "sentence-scramble",
+            "instruction": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "prompt": "Bilde einen korrekten Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "Sie",
+              "erhielt",
+              "2015",
+              "einen wichtigen Preis"
+            ],
+            "solution": "Sie erhielt 2015 einen wichtigen Preis.",
+            "hint": "Großgeschriebenes 'Sie' zeigt den Satzanfang.",
+            "explanation": "Das Verb im Präteritum ('erhielt') steht an Position 2. 'erhalten' ist stark: erhalten – erhielt – erhalten."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l1h01",
+            "type": "targeted-transformation",
+            "instruction": "Setze den Satz ins Perfekt.",
+            "prompt": "Die Firma stellt zehn neue Mitarbeiter ein.",
+            "solution": "Die Firma hat zehn neue Mitarbeiter eingestellt.",
+            "hint": "Trennbares Verb: 'ge-' steht in der Mitte.",
+            "explanation": "'einstellen' ist trennbar und regelmäßig: ein-ge-stellt. Es bildet das Perfekt mit 'haben'. Das Hilfsverb steht an Position 2, das Partizip am Ende."
+          },
+          {
+            "id": "l1h02",
+            "type": "targeted-transformation",
+            "instruction": "Setze den Satz ins Perfekt.",
+            "prompt": "Wir fahren mit dem Nachtzug nach Wien.",
+            "solution": "Wir sind mit dem Nachtzug nach Wien gefahren.",
+            "hint": "Ortswechsel → welches Hilfsverb?",
+            "explanation": "'fahren' drückt eine Bewegung von A nach B aus, deshalb Perfekt mit 'sein': wir sind gefahren. 'haben gefahren' ist hier falsch."
+          },
+          {
+            "id": "l1h03",
+            "type": "targeted-transformation",
+            "instruction": "Setze den Satz ins Präteritum.",
+            "prompt": "Der Autor hat sich lange mit dem Thema Schlaf befasst.",
+            "solution": "Der Autor befasste sich lange mit dem Thema Schlaf.",
+            "hint": "Regelmäßiges Verb; das Reflexivpronomen folgt dem Verb.",
+            "explanation": "'sich befassen' ist regelmäßig: befasste. Im Präteritum gibt es kein Hilfsverb; das Reflexivpronomen 'sich' steht direkt nach dem Verb."
+          },
+          {
+            "id": "l1h04",
+            "type": "targeted-transformation",
+            "instruction": "Setze den Satz ins Präteritum.",
+            "prompt": "Das Buch ist im Frühling erschienen.",
+            "solution": "Das Buch erschien im Frühling.",
+            "hint": "'erscheinen' ist stark.",
+            "explanation": "'erscheinen' ist unregelmäßig: erscheinen – erschien – erschienen. Im Präteritum fällt das Hilfsverb weg."
+          },
+          {
+            "id": "l1h05",
+            "type": "targeted-transformation",
+            "instruction": "Setze den Satz ins Plusquamperfekt.",
+            "prompt": "Er vergisst seinen Regenschirm im Zug.",
+            "solution": "Er hatte seinen Regenschirm im Zug vergessen.",
+            "hint": "Plusquamperfekt = 'hatte/war' + Partizip II.",
+            "explanation": "'vergessen' bildet das Perfekt mit 'haben', daher Plusquamperfekt mit 'hatte'. Das Partizip II von 'vergessen' hat kein 'ge-' (untrennbares Präfix 'ver-')."
+          },
+          {
+            "id": "l1h06",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde die Sätze mit 'nachdem'. Beginne mit 'Nachdem er', verwende im Nebensatz das Plusquamperfekt und behalte im Hauptsatz das Präteritum.",
+            "prompt": "Er beendete das Studium. Danach bekam er sofort eine Stelle.",
+            "solution": "Nachdem er das Studium beendet hatte, bekam er sofort eine Stelle.",
+            "hint": "Die frühere Handlung steht im Plusquamperfekt, das Verb am Ende des Nebensatzes.",
+            "explanation": "Nach 'nachdem' steht die frühere Handlung im Plusquamperfekt, die spätere im Präteritum. Im Nebensatz steht das konjugierte Hilfsverb 'hatte' am Ende; danach folgt direkt das Verb des Hauptsatzes: bekam er."
+          },
+          {
+            "id": "l1h07",
+            "type": "targeted-transformation",
+            "instruction": "Setze den Satz ins Präteritum.",
+            "prompt": "Meine Eltern haben die Arztpraxis 1998 übernommen.",
+            "solution": "Meine Eltern übernahmen die Arztpraxis 1998.",
+            "hint": "'über-' ist hier untrennbar; 'nehmen' ist stark.",
+            "explanation": "'übernehmen' ist untrennbar und stark: übernehmen – übernahm – übernommen. Plural Präteritum: sie übernahmen."
+          },
+          {
+            "id": "l1h08",
+            "type": "error-correction",
+            "instruction": "Finde den Fehler und schreibe den ganzen Satz richtig.",
+            "prompt": "Gestern habe ich sehr früh aufgestanden.",
+            "solution": "Gestern bin ich sehr früh aufgestanden.",
+            "hint": "Prüfe das Hilfsverb.",
+            "explanation": "'aufstehen' ist eine Zustandsveränderung (vom Liegen zum Stehen) und bildet das Perfekt mit 'sein': ich bin aufgestanden."
+          },
+          {
+            "id": "l1h09",
+            "type": "error-correction",
+            "instruction": "Finde den Fehler und schreibe den ganzen Satz richtig.",
+            "prompt": "Tim hat die ganze Nacht an seiner Präsentation gearbeiten.",
+            "solution": "Tim hat die ganze Nacht an seiner Präsentation gearbeitet.",
+            "hint": "Ist 'arbeiten' regelmäßig oder unregelmäßig?",
+            "explanation": "'arbeiten' ist regelmäßig: ge- + Stamm + '-et' (weil der Stamm auf '-t' endet) → gearbeitet. Die Endung '-en' gibt es nur bei starken Verben."
+          },
+          {
+            "id": "l1h10",
+            "type": "error-correction",
+            "instruction": "Finde den Fehler und schreibe den ganzen Satz richtig.",
+            "prompt": "Die Sängerin wurde in Graz geboren und wachste dort auf.",
+            "solution": "Die Sängerin wurde in Graz geboren und wuchs dort auf.",
+            "hint": "'wachsen' ist ein starkes Verb.",
+            "explanation": "'aufwachsen' ist unregelmäßig: wächst auf – wuchs auf – ist aufgewachsen. 'wachste' ist eine falsche regelmäßige Form."
+          },
+          {
+            "id": "l1h11",
+            "type": "error-correction",
+            "instruction": "Finde den Fehler und schreibe den ganzen Satz richtig.",
+            "prompt": "Wir haben das Problem sofort gediskutiert.",
+            "solution": "Wir haben das Problem sofort diskutiert.",
+            "hint": "Verben auf '-ieren' …",
+            "explanation": "Verben auf '-ieren' bilden das Partizip II ohne 'ge-': diskutiert."
+          },
+          {
+            "id": "l1h12",
+            "type": "error-correction",
+            "instruction": "Finde den Fehler und schreibe den ganzen Satz richtig.",
+            "prompt": "Als ich nach Hause kam, war mein Mitbewohner schon gekocht.",
+            "solution": "Als ich nach Hause kam, hatte mein Mitbewohner schon gekocht.",
+            "hint": "Welches Hilfsverb braucht 'kochen'?",
+            "explanation": "'kochen' bildet das Perfekt mit 'haben', also Plusquamperfekt mit 'hatte'. 'war gekocht' wäre Passiv (das Essen war gekocht) und passt nicht zu einer Person als Subjekt."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l1t01",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Hilfsverb für das Perfekt.",
+          "prompt": "Meine Großmutter ___ auf einem Bauernhof in Tirol aufgewachsen.",
+          "options": [
+            "ist",
+            "hat",
+            "hatte"
+          ],
+          "solution": "ist",
+          "explanation": "'aufwachsen' beschreibt eine Entwicklung (Zustandsveränderung) und bildet das Perfekt mit 'sein': Sie ist aufgewachsen. 'hat' ist das falsche Hilfsverb, und 'hatte' wäre Plusquamperfekt mit dem falschen Hilfsverb."
+        },
+        {
+          "id": "l1t02",
+          "type": "multiple-choice",
+          "instruction": "Wähle das richtige Partizip II.",
+          "prompt": "Der Moderator hat die Diskussion nach zehn Minuten ___.",
+          "options": [
+            "unterbrochen",
+            "geunterbrochen",
+            "untergebrochen",
+            "unterbrecht"
+          ],
+          "solution": "unterbrochen",
+          "explanation": "'unterbrechen' ist untrennbar (Betonung auf 'brechen') und unregelmäßig: kein 'ge-', Endung '-en', Vokalwechsel e → o: unterbrochen."
+        },
+        {
+          "id": "l1t03",
+          "type": "multiple-choice",
+          "instruction": "Wähle die Form, die zeigt, dass etwas noch früher passiert ist.",
+          "prompt": "Als die Feuerwehr endlich eintraf, ___ die Nachbarn den Brand schon gelöscht.",
+          "options": [
+            "hatten",
+            "haben",
+            "waren",
+            "sind"
+          ],
+          "solution": "hatten",
+          "explanation": "Das Löschen passierte vor dem Eintreffen (Präteritum). Für diese Vorzeitigkeit braucht man das Plusquamperfekt: hatten + Partizip II. 'haben' (Perfekt) zeigt die Vorzeitigkeit nicht; 'löschen' bildet die Perfektformen mit 'haben', nicht mit 'sein'."
+        },
+        {
+          "id": "l1t04",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze das Verb im Präteritum.",
+          "prompt": "Die Architektin ___ ihre Kindheit in Tokio. (verbringen)",
+          "solution": "verbrachte",
+          "explanation": "In Biografien steht meist das Präteritum. 'verbringen' ist ein gemischtes Verb: Vokalwechsel wie ein starkes Verb, aber Endung '-te' wie ein schwaches: verbringen – verbrachte – verbracht. 'verbringte' gibt es nicht."
+        },
+        {
+          "id": "l1t05",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze das Verb im Präteritum.",
+          "prompt": "Die Läuferin ___ 2019 zum ersten Mal den Berlin-Marathon. (gewinnen)",
+          "solution": "gewann",
+          "explanation": "'gewinnen' ist unregelmäßig: gewinnen – gewann – gewonnen. Die 3. Person Singular im Präteritum hat bei starken Verben keine Endung: sie gewann. 'gewinnte' gibt es nicht."
+        },
+        {
+          "id": "l1t06",
+          "type": "cloze-conjugation",
+          "instruction": "Ergänze das Hilfsverb im Perfekt.",
+          "prompt": "Wir ___ letzten Mai von Köln nach Graz umgezogen. (haben oder sein?)",
+          "solution": "sind",
+          "explanation": "'umziehen' (die Wohnung wechseln) ist ein Verb der Ortsveränderung und bildet das Perfekt mit 'sein': wir sind umgezogen. 'haben' wäre falsch."
+        },
+        {
+          "id": "l1t07",
+          "type": "cloze-conjugation",
+          "instruction": "Ergänze das Hilfsverb im Plusquamperfekt.",
+          "prompt": "Nachdem Tarek aus Kanada zurückgekehrt ___, übernahm er die Leitung des Teams. (haben oder sein?)",
+          "solution": "war",
+          "explanation": "Nach 'nachdem' steht die frühere Handlung im Plusquamperfekt, weil der Hauptsatz im Präteritum steht ('übernahm'). 'zurückkehren' ist eine Ortsveränderung und bildet die Perfektformen mit 'sein': zurückgekehrt war. 'hatte' ist das falsche Hilfsverb, 'ist' zeigt die Vorzeitigkeit nicht."
+        },
+        {
+          "id": "l1t08",
+          "type": "cloze-conjugation",
+          "instruction": "Ergänze das Partizip II.",
+          "prompt": "Wir haben uns im Urlaub am Meer wunderbar ___. (sich erholen)",
+          "solution": "erholt",
+          "explanation": "'erholen' hat die untrennbare Vorsilbe 'er-': Das Partizip II bekommt kein 'ge-'. Das Verb ist regelmäßig und endet auf '-t': erholt ('geerholt' ist falsch)."
+        },
+        {
+          "id": "l1t09",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz. Beginne mit 'Nachdem'.",
+          "prompt": "Baue den Satz aus den Satzteilen.",
+          "scrambleChunks": [
+            "Nachdem",
+            "sie ein Jahr in Chile",
+            "gelebt hatte,",
+            "bewarb",
+            "sie sich",
+            "bei einer Zeitung."
+          ],
+          "solution": "Nachdem sie ein Jahr in Chile gelebt hatte, bewarb sie sich bei einer Zeitung.",
+          "explanation": "Im Nebensatz mit 'nachdem' steht das Plusquamperfekt am Ende ('gelebt hatte'). Der Nebensatz besetzt Position 1, deshalb steht im Hauptsatz das Verb 'bewarb' direkt nach dem Komma, danach das Subjekt 'sie'."
+        },
+        {
+          "id": "l1t10",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz im Perfekt. Beginne mit 'Neulich'.",
+          "prompt": "Baue den Satz aus den Satzteilen.",
+          "scrambleChunks": [
+            "Neulich",
+            "hat",
+            "mein Sohn",
+            "für seine Klasse einen Kuchen",
+            "gebacken."
+          ],
+          "solution": "Neulich hat mein Sohn für seine Klasse einen Kuchen gebacken.",
+          "explanation": "Im Perfekt steht das Hilfsverb 'hat' auf Position 2, das Partizip II 'gebacken' am Satzende. Weil 'Neulich' auf Position 1 steht, kommt das Subjekt direkt nach dem Hilfsverb."
+        },
+        {
+          "id": "l1t11",
+          "type": "targeted-transformation",
+          "instruction": "Setze den Satz ins Präteritum.",
+          "prompt": "Meine Eltern sind 1992 nach Dresden umgezogen.",
+          "solution": "Meine Eltern zogen 1992 nach Dresden um.",
+          "explanation": "'umziehen' ist trennbar und unregelmäßig: Im Präteritum steht 'zogen' auf Position 2, die Vorsilbe 'um' am Satzende. 'umzogen' zusammen wäre falsch."
+        },
+        {
+          "id": "l1t12",
+          "type": "targeted-transformation",
+          "instruction": "Verbinde die Sätze mit 'nachdem'. Beginne mit 'Nachdem', verwende im Nebensatz das Plusquamperfekt und im Hauptsatz 'sie'.",
+          "prompt": "Jana bestand die Prüfung. Danach feierte sie mit ihren Freunden.",
+          "solution": "Nachdem Jana die Prüfung bestanden hatte, feierte sie mit ihren Freunden.",
+          "explanation": "Die frühere Handlung (die Prüfung bestehen) steht nach 'nachdem' im Plusquamperfekt: bestanden hatte. Der Hauptsatz bleibt im Präteritum und beginnt mit dem Verb 'feierte'."
+        },
+        {
+          "id": "l1t13",
+          "type": "error-correction",
+          "instruction": "Finde den Fehler und schreibe den korrigierten Satz.",
+          "prompt": "Letzten Sommer haben wir mit Freunden auf die Zugspitze gestiegen.",
+          "solution": "Letzten Sommer sind wir mit Freunden auf die Zugspitze gestiegen.",
+          "explanation": "'steigen' drückt eine Bewegung von einem Ort zum anderen aus und bildet das Perfekt mit 'sein': wir sind gestiegen, nicht 'haben'."
+        },
+        {
+          "id": "l1t14",
+          "type": "error-correction",
+          "instruction": "Finde den Fehler und schreibe den korrigierten Satz.",
+          "prompt": "Ich habe dir die Geschichte doch schon geerzählt.",
+          "solution": "Ich habe dir die Geschichte doch schon erzählt.",
+          "explanation": "Verben mit untrennbarer Vorsilbe (er-, be-, ver-, ent-, zer- …) bekommen im Partizip II kein 'ge-': erzählen → erzählt, nicht 'geerzählt'."
+        },
+        {
+          "id": "l1t15",
+          "type": "error-correction",
+          "instruction": "Finde den Fehler und schreibe den korrigierten Satz.",
+          "prompt": "Nachdem wir den Mietvertrag unterschrieben haben, zogen wir in die neue Wohnung.",
+          "solution": "Nachdem wir den Mietvertrag unterschrieben hatten, zogen wir in die neue Wohnung.",
+          "explanation": "Steht der Hauptsatz im Präteritum ('zogen'), muss die frühere Handlung nach 'nachdem' im Plusquamperfekt stehen: unterschrieben hatten, nicht 'haben'."
+        }
+      ]
+    },
+    {
+      "lektionId": "b1plus-m1-l2",
+      "level": "B1+",
+      "modulNumber": 1,
+      "lektionNumber": 2,
+      "title": "Tag für Tag",
+      "grammarFocus": [
+        "Normen: Es ist üblich, dass … / zu + Infinitiv",
+        "Höfliche Bitten im Konjunktiv II (könnte, wäre, hätte)",
+        "Termine absagen und verschieben"
+      ],
+      "vocabulary": [
+        {
+          "id": "l2v01",
+          "term": "die Gewohnheit",
+          "translation": "la costumbre, el hábito",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Gewohnheiten",
+          "example": "Früh aufzustehen ist für mich eine alte Gewohnheit."
+        },
+        {
+          "id": "l2v02",
+          "term": "der Alltag",
+          "translation": "la vida cotidiana, el día a día",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "example": "Im Alltag bleibt oft wenig Zeit für Hobbys."
+        },
+        {
+          "id": "l2v03",
+          "term": "die Routine",
+          "translation": "la rutina",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Routinen",
+          "example": "Eine feste Routine am Morgen hilft mir beim Aufwachen."
+        },
+        {
+          "id": "l2v04",
+          "term": "der Feierabend",
+          "translation": "el fin de la jornada laboral",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Feierabende",
+          "example": "Nach Feierabend gehe ich gern eine Runde spazieren."
+        },
+        {
+          "id": "l2v05",
+          "term": "die Erholung",
+          "translation": "el descanso, la recuperación",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Nach der Operation brauchte er viel Erholung."
+        },
+        {
+          "id": "l2v06",
+          "term": "der Termin",
+          "translation": "la cita",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Termine",
+          "example": "Ich habe morgen einen Termin beim Friseur."
+        },
+        {
+          "id": "l2v07",
+          "term": "die Verabredung",
+          "translation": "la cita, el compromiso",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Verabredungen",
+          "example": "Tut mir leid, ich habe heute Abend schon eine Verabredung."
+        },
+        {
+          "id": "l2v08",
+          "term": "üblich",
+          "translation": "habitual, normal",
+          "partOfSpeech": "adjective",
+          "example": "In vielen Büros ist es üblich, sich zu duzen."
+        },
+        {
+          "id": "l2v09",
+          "term": "pünktlich",
+          "translation": "puntual",
+          "partOfSpeech": "adjective",
+          "example": "Der Handwerker war erstaunlich pünktlich."
+        },
+        {
+          "id": "l2v10",
+          "term": "anstrengend",
+          "translation": "agotador",
+          "partOfSpeech": "adjective",
+          "example": "Die Woche war so anstrengend, dass ich nur noch schlafen will."
+        },
+        {
+          "id": "l2v11",
+          "term": "rechtzeitig",
+          "translation": "a tiempo, con antelación",
+          "partOfSpeech": "adverb",
+          "example": "Bitte sag mir rechtzeitig Bescheid, wenn du nicht kommen kannst."
+        },
+        {
+          "id": "l2v12",
+          "term": "erwarten",
+          "translation": "esperar (algo de alguien)",
+          "partOfSpeech": "verb",
+          "preterite": "erwartete",
+          "participle": "erwartet",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Mein Chef erwartet, dass ich den Bericht bis Freitag schreibe."
+        },
+        {
+          "id": "l2v13",
+          "term": "sich ausruhen",
+          "translation": "descansar",
+          "partOfSpeech": "verb",
+          "preterite": "ruhte sich aus",
+          "participle": "ausgeruht",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Nach der Wanderung ruhten wir uns am See aus."
+        },
+        {
+          "id": "l2v14",
+          "term": "entspannen",
+          "translation": "relajarse",
+          "partOfSpeech": "verb",
+          "preterite": "entspannte",
+          "participle": "entspannt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Beim Lesen kann ich am besten entspannen."
+        },
+        {
+          "id": "l2v15",
+          "term": "genießen",
+          "translation": "disfrutar",
+          "partOfSpeech": "verb",
+          "preterite": "genoss",
+          "participle": "genossen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Wir haben den ruhigen Sonntag sehr genossen."
+        },
+        {
+          "id": "l2v16",
+          "term": "faulenzen",
+          "translation": "holgazanear, no hacer nada",
+          "partOfSpeech": "verb",
+          "preterite": "faulenzte",
+          "participle": "gefaulenzt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Im Urlaub möchte ich einfach nur am Strand faulenzen."
+        },
+        {
+          "id": "l2v17",
+          "term": "absagen",
+          "translation": "cancelar (una cita)",
+          "partOfSpeech": "verb",
+          "preterite": "sagte ab",
+          "participle": "abgesagt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Sie musste das Treffen wegen einer Erkältung absagen."
+        },
+        {
+          "id": "l2v18",
+          "term": "verschieben",
+          "translation": "aplazar",
+          "partOfSpeech": "verb",
+          "preterite": "verschob",
+          "participle": "verschoben",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Können wir die Besprechung auf morgen verschieben?"
+        },
+        {
+          "id": "l2v19",
+          "term": "bestätigen",
+          "translation": "confirmar",
+          "partOfSpeech": "verb",
+          "preterite": "bestätigte",
+          "participle": "bestätigt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Die Praxis hat meinen Termin per SMS bestätigt."
+        },
+        {
+          "id": "l2v20",
+          "term": "ausmachen",
+          "translation": "acordar, quedar (una cita)",
+          "partOfSpeech": "verb",
+          "preterite": "machte aus",
+          "participle": "ausgemacht",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Wir haben ausgemacht, dass wir uns um sieben treffen."
+        },
+        {
+          "id": "l2v21",
+          "term": "sich verspäten",
+          "translation": "retrasarse",
+          "partOfSpeech": "verb",
+          "preterite": "verspätete sich",
+          "participle": "verspätet",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Entschuldigung, ich habe mich leider verspätet."
+        },
+        {
+          "id": "l2v22",
+          "term": "Wäre es möglich, …?",
+          "translation": "¿Sería posible …?",
+          "partOfSpeech": "phrase",
+          "example": "Wäre es möglich, den Termin eine Stunde später anzufangen?"
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l2e01",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Wort.",
+            "prompt": "Bei uns ist es üblich, ___ man sich zur Begrüßung die Hand gibt.",
+            "options": [
+              "dass",
+              "zu",
+              "ob",
+              "was"
+            ],
+            "solution": "dass",
+            "hint": "Der Nebensatz hat ein eigenes Subjekt ('man').",
+            "explanation": "Nach 'Es ist üblich' folgt ein dass-Satz, wenn der Nebensatz ein eigenes Subjekt hat: dass man sich die Hand gibt. 'zu' bräuchte einen Infinitiv ohne Subjekt, 'ob' leitet eine indirekte Ja/Nein-Frage ein, und 'was' eine indirekte W-Frage – beides passt nicht nach 'es ist üblich'."
+          },
+          {
+            "id": "l2e02",
+            "type": "multiple-choice",
+            "instruction": "Wähle die richtige Infinitivform.",
+            "prompt": "Viele Menschen finden es wichtig, am Wochenende lange ___.",
+            "options": [
+              "auszuschlafen",
+              "ausschlafen",
+              "zu ausschlafen",
+              "ausgeschlafen"
+            ],
+            "solution": "auszuschlafen",
+            "hint": "Bei trennbaren Verben steht 'zu' zwischen Präfix und Stamm.",
+            "explanation": "Nach 'es wichtig finden, …' folgt ein Infinitiv mit 'zu'. Bei trennbaren Verben wird 'zu' zwischen Präfix und Stamm eingeschoben: aus-zu-schlafen. 'zu ausschlafen' ist falsch, bei 'ausschlafen' fehlt das 'zu', und 'ausgeschlafen' ist das Partizip II."
+          },
+          {
+            "id": "l2e03",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze den Infinitiv mit 'zu'.",
+            "prompt": "Es ist nicht leicht, nach der Arbeit noch Sport ___. (treiben)",
+            "solution": "zu treiben",
+            "hint": "Es ist + Adjektiv, … zu + Infinitiv.",
+            "explanation": "Nach Ausdrücken wie 'Es ist leicht/schwer/wichtig' folgt der Infinitiv mit 'zu' am Satzende: zu treiben."
+          },
+          {
+            "id": "l2e04",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze 'dass' oder 'zu'.",
+            "prompt": "Die meisten Kunden erwarten, ___ der Handwerker pünktlich kommt.",
+            "solution": "dass",
+            "hint": "Hat der Nebensatz ein eigenes Subjekt?",
+            "explanation": "Der Nebensatz hat ein eigenes Subjekt ('der Handwerker') und ein konjugiertes Verb ('kommt'), deshalb braucht man 'dass'. Ein zu-Infinitiv hat kein eigenes Subjekt."
+          },
+          {
+            "id": "l2e05",
+            "type": "multiple-choice",
+            "instruction": "Wähle die höfliche Form im Konjunktiv II.",
+            "prompt": "___ du mir morgen beim Umzug helfen?",
+            "options": [
+              "Könntest",
+              "Konntest",
+              "Kannst"
+            ],
+            "solution": "Könntest",
+            "hint": "Konjunktiv II von 'können' hat einen Umlaut.",
+            "explanation": "Der Konjunktiv II von 'können' lautet 'könnte' (du könntest) – er macht eine Bitte höflicher. 'Konntest' ist Präteritum, 'Kannst' ist Präsens und damit nicht Konjunktiv II."
+          },
+          {
+            "id": "l2e06",
+            "type": "multiple-choice",
+            "instruction": "Wähle die höfliche Form im Konjunktiv II.",
+            "prompt": "___ es möglich, das Meeting auf Donnerstag zu verschieben?",
+            "options": [
+              "Wäre",
+              "War",
+              "Würde",
+              "Hätte"
+            ],
+            "solution": "Wäre",
+            "hint": "Man sagt: 'Es ist möglich' → Konjunktiv II von 'sein'.",
+            "explanation": "'möglich sein' → Konjunktiv II: Wäre es möglich …? 'War' ist Präteritum, 'Würde' bräuchte einen Infinitiv, und 'möglich' verbindet sich nicht mit 'haben'."
+          },
+          {
+            "id": "l2e07",
+            "type": "multiple-choice",
+            "instruction": "Wähle die höfliche Form im Konjunktiv II.",
+            "prompt": "___ du am Freitagabend Zeit? Dann könnten wir zusammen kochen.",
+            "options": [
+              "Hättest",
+              "Wärst",
+              "Hattest",
+              "Würdest"
+            ],
+            "solution": "Hättest",
+            "hint": "Man sagt: 'Zeit haben'.",
+            "explanation": "Der Ausdruck heißt 'Zeit haben', also Konjunktiv II von 'haben': Hättest du Zeit? 'Wärst' passt nicht zu 'Zeit', 'Hattest' ist Präteritum, 'Würdest' braucht einen Infinitiv."
+          },
+          {
+            "id": "l2e08",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das passende Verb im Infinitiv: absagen, bestätigen oder verschieben.",
+            "prompt": "Ich bin krank und kann nicht kommen. Leider muss ich unseren Termin ganz ___.",
+            "solution": "absagen",
+            "hint": "Der Termin findet gar nicht statt.",
+            "explanation": "'absagen' bedeutet: Man sagt, dass ein Termin nicht stattfindet. 'verschieben' hieße, man macht ihn später; 'bestätigen' hieße, er findet sicher statt. 'ganz' zeigt, dass der Termin ausfällt."
+          },
+          {
+            "id": "l2e09",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Verb.",
+            "prompt": "Ich will sichergehen, dass unser Treffen wirklich am Montag stattfindet. Kannst du mir den Termin bitte noch per E-Mail ___?",
+            "options": [
+              "bestätigen",
+              "ausmachen",
+              "genießen"
+            ],
+            "solution": "bestätigen",
+            "hint": "Man möchte eine schriftliche Sicherheit.",
+            "explanation": "'einen Termin bestätigen' heißt: schriftlich oder mündlich sagen, dass er sicher stattfindet – genau das will die Person. 'ausmachen' heißt, einen Termin erst vereinbaren; der Termin steht aber schon fest. 'genießen' passt inhaltlich nicht."
+          },
+          {
+            "id": "l2e10",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Partizip.",
+            "prompt": "Ich komme leider etwas später. Mein Bus hat sich ___.",
+            "options": [
+              "verspätet",
+              "verschoben",
+              "abgesagt"
+            ],
+            "solution": "verspätet",
+            "hint": "Reflexives Verb: 'sich …'",
+            "explanation": "'sich verspäten' bedeutet 'zu spät kommen' und ist reflexiv: Der Bus hat sich verspätet. 'sich verschieben' sagt man von Terminen, nicht von Bussen; 'absagen' ist nicht reflexiv."
+          },
+          {
+            "id": "l2e11",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze 'können' im Konjunktiv II.",
+            "prompt": "___ Sie mir bitte sagen, wann die Praxis geöffnet hat?",
+            "solution": "Könnten",
+            "hint": "Höfliche Frage an eine Person mit 'Sie'.",
+            "explanation": "Konjunktiv II von 'können' für 'Sie': Könnten Sie …? Diese Form macht Fragen höflich. 'Konnten' (ohne Umlaut) ist Präteritum."
+          },
+          {
+            "id": "l2e12",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Verb.",
+            "prompt": "Im Urlaub ___ ich es, morgens ohne Wecker aufzuwachen.",
+            "options": [
+              "genieße",
+              "erwarte",
+              "verschiebe"
+            ],
+            "solution": "genieße",
+            "hint": "Etwas mit Freude erleben.",
+            "explanation": "'genießen' = etwas Angenehmes mit Freude erleben: Ich genieße es, … zu + Infinitiv. 'erwarten' (etwas voraussetzen) und 'verschieben' (auf später legen) ergeben hier keinen Sinn."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l2m01",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Modalverb im Präsens.",
+            "prompt": "Wir ___ das Treffen leider auf nächste Woche verschieben. (müssen)",
+            "solution": "müssen",
+            "hint": "1. Person Plural.",
+            "explanation": "'müssen' im Präsens, 1. Person Plural: wir müssen. Der Infinitiv 'verschieben' steht am Satzende."
+          },
+          {
+            "id": "l2m02",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb im Konjunktiv II.",
+            "prompt": "Du ___ mich morgen früh anrufen, dann besprechen wir alles. (können)",
+            "solution": "könntest",
+            "hint": "Konjunktiv II: Präteritumstamm + Umlaut.",
+            "explanation": "Konjunktiv II von 'können' für 'du': könntest. Damit macht man einen höflichen Vorschlag."
+          },
+          {
+            "id": "l2m03",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb im Konjunktiv II.",
+            "prompt": "Es ___ schön, wenn wir uns bald wiedersehen. (sein)",
+            "solution": "wäre",
+            "hint": "Konjunktiv II von 'sein'.",
+            "explanation": "Konjunktiv II von 'sein', 3. Person Singular: es wäre. Man drückt damit einen Wunsch höflich aus."
+          },
+          {
+            "id": "l2m04",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb im Konjunktiv II.",
+            "prompt": "___ ihr Lust, am Samstag mit uns zu grillen? (haben)",
+            "solution": "Hättet",
+            "hint": "Konjunktiv II von 'haben', 2. Person Plural.",
+            "explanation": "Konjunktiv II von 'haben' für 'ihr': hättet. So klingt eine Einladung freundlich und offen."
+          },
+          {
+            "id": "l2m05",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Partizip II.",
+            "prompt": "Die Zahnärztin hat meinen Termin um eine Stunde ___. (verschieben)",
+            "solution": "verschoben",
+            "hint": "Untrennbares Präfix 'ver-' und starkes Verb.",
+            "explanation": "'verschieben' ist stark (schieben – schob – geschoben) und hat das untrennbare Präfix 'ver-', deshalb kein 'ge-': verschoben."
+          },
+          {
+            "id": "l2m06",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze den ersten Teil des Verbs im Präteritum.",
+            "prompt": "Frau Berger ___ die Verabredung gestern kurzfristig ab. (absagen)",
+            "solution": "sagte",
+            "hint": "Trennbares Verb: Das Präfix steht am Satzende.",
+            "explanation": "'absagen' ist trennbar und regelmäßig. Im Präteritum steht 'sagte' an Position 2, das Präfix 'ab' am Satzende."
+          },
+          {
+            "id": "l2m07",
+            "type": "sentence-scramble",
+            "instruction": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "prompt": "Bilde einen korrekten Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "Bei uns",
+              "ist",
+              "es",
+              "üblich,",
+              "pünktlich",
+              "zu kommen"
+            ],
+            "solution": "Bei uns ist es üblich, pünktlich zu kommen.",
+            "hint": "Der Infinitiv mit 'zu' steht ganz am Ende.",
+            "explanation": "Nach 'Bei uns' (Position 1) folgt das Verb 'ist', dann 'es'. Der Infinitivsatz folgt nach dem Komma; 'zu kommen' steht am Ende."
+          },
+          {
+            "id": "l2m08",
+            "type": "sentence-scramble",
+            "instruction": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "prompt": "Bilde einen korrekten Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "Könnten",
+              "Sie",
+              "mir",
+              "den Termin",
+              "bestätigen"
+            ],
+            "solution": "Könnten Sie mir den Termin bestätigen?",
+            "hint": "Höfliche Frage: Konjunktiv II vorn, Infinitiv am Ende.",
+            "explanation": "In der Ja/Nein-Frage steht das konjugierte Modalverb vorn, der Infinitiv am Ende. Das Dativpronomen 'mir' steht vor dem Akkusativnomen 'den Termin'."
+          },
+          {
+            "id": "l2m09",
+            "type": "sentence-scramble",
+            "instruction": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "prompt": "Bilde einen korrekten Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "Wäre",
+              "es",
+              "möglich,",
+              "den Kurs",
+              "zu verschieben"
+            ],
+            "solution": "Wäre es möglich, den Kurs zu verschieben?",
+            "hint": "Nach dem Komma folgt ein zu-Infinitiv.",
+            "explanation": "'Wäre es möglich' leitet eine höfliche Frage ein; danach folgt der Infinitivsatz mit 'zu' am Ende."
+          },
+          {
+            "id": "l2m10",
+            "type": "sentence-scramble",
+            "instruction": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "prompt": "Bilde einen korrekten Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "Die meisten Leute",
+              "erwarten,",
+              "dass",
+              "Züge",
+              "pünktlich",
+              "sind"
+            ],
+            "solution": "Die meisten Leute erwarten, dass Züge pünktlich sind.",
+            "hint": "Im dass-Satz steht das Verb am Ende.",
+            "explanation": "Nach 'erwarten' folgt ein dass-Satz; das konjugierte Verb 'sind' steht am Ende des Nebensatzes."
+          },
+          {
+            "id": "l2m11",
+            "type": "sentence-scramble",
+            "instruction": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "prompt": "Bilde einen korrekten Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "Ich",
+              "finde",
+              "es",
+              "wichtig,",
+              "abends",
+              "abzuschalten"
+            ],
+            "solution": "Ich finde es wichtig, abends abzuschalten.",
+            "hint": "Trennbares Verb mit 'zu': Wo steht 'zu'?",
+            "explanation": "Nach 'Ich finde es wichtig' folgt ein zu-Infinitiv. Bei trennbaren Verben steht 'zu' zwischen Präfix und Stamm: ab-zu-schalten."
+          },
+          {
+            "id": "l2m12",
+            "type": "sentence-scramble",
+            "instruction": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "prompt": "Bilde einen korrekten Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "Hättest",
+              "du",
+              "morgen Nachmittag",
+              "Zeit",
+              "für einen Kaffee"
+            ],
+            "solution": "Hättest du morgen Nachmittag Zeit für einen Kaffee?",
+            "hint": "Konjunktiv II von 'haben' vorn.",
+            "explanation": "Die höfliche Frage beginnt mit dem Verb im Konjunktiv II ('Hättest'). Zeitangaben stehen meist vor dem Objekt 'Zeit'."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l2h01",
+            "type": "targeted-transformation",
+            "instruction": "Formuliere die Bitte höflich. Beginne mit 'Könntest du' und lass 'bitte' weg.",
+            "prompt": "Hilf mir beim Tragen!",
+            "solution": "Könntest du mir beim Tragen helfen?",
+            "hint": "Modalverb vorn, Infinitiv am Ende.",
+            "explanation": "Konjunktiv II von 'können' + Infinitiv am Satzende macht aus dem Imperativ eine höfliche Frage: Könntest du mir … helfen?"
+          },
+          {
+            "id": "l2h02",
+            "type": "targeted-transformation",
+            "instruction": "Forme den Infinitivsatz in einen dass-Satz mit 'man' um.",
+            "prompt": "Es ist wichtig, genug zu schlafen.",
+            "solution": "Es ist wichtig, dass man genug schläft.",
+            "hint": "Im dass-Satz braucht man ein Subjekt und ein konjugiertes Verb am Ende.",
+            "explanation": "Ein zu-Infinitiv hat kein Subjekt. Im dass-Satz braucht man eins ('man') und das konjugierte Verb ('schläft') am Ende. 'zu' fällt weg."
+          },
+          {
+            "id": "l2h03",
+            "type": "targeted-transformation",
+            "instruction": "Forme den dass-Satz in einen Infinitivsatz mit 'zu' um.",
+            "prompt": "Bei uns ist es normal, dass man sonntags lange frühstückt.",
+            "solution": "Bei uns ist es normal, sonntags lange zu frühstücken.",
+            "hint": "Subjekt 'man' weglassen, 'zu' + Infinitiv ans Ende.",
+            "explanation": "Wenn das Subjekt allgemein ist ('man'), kann man den dass-Satz durch einen zu-Infinitiv ersetzen: 'man' fällt weg, das Verb steht als 'zu frühstücken' am Ende."
+          },
+          {
+            "id": "l2h04",
+            "type": "targeted-transformation",
+            "instruction": "Frage höflich. Beginne mit 'Wäre es möglich,'.",
+            "prompt": "Ich möchte den Termin auf Mittwoch verschieben.",
+            "solution": "Wäre es möglich, den Termin auf Mittwoch zu verschieben?",
+            "hint": "Nach 'Wäre es möglich,' folgt ein zu-Infinitiv.",
+            "explanation": "'Wäre es möglich' + zu-Infinitiv ist eine sehr höfliche Bitte. 'Ich möchte' fällt weg, das Verb steht als 'zu verschieben' am Ende."
+          },
+          {
+            "id": "l2h05",
+            "type": "targeted-transformation",
+            "instruction": "Frage höflich im Konjunktiv II. Ändere sonst nichts.",
+            "prompt": "Haben Sie morgen um zehn Uhr Zeit?",
+            "solution": "Hätten Sie morgen um zehn Uhr Zeit?",
+            "hint": "Konjunktiv II von 'haben'.",
+            "explanation": "Konjunktiv II von 'haben' für 'Sie': hätten. Er macht die Frage höflicher und weniger direkt."
+          },
+          {
+            "id": "l2h06",
+            "type": "targeted-transformation",
+            "instruction": "Mach einen höflichen Vorschlag. Beginne mit 'Könnten wir'.",
+            "prompt": "Wir treffen uns lieber am Nachmittag.",
+            "solution": "Könnten wir uns lieber am Nachmittag treffen?",
+            "hint": "Das Reflexivpronomen folgt dem Subjekt, der Infinitiv steht am Ende.",
+            "explanation": "Mit 'Könnten wir …?' wird aus einer Aussage ein höflicher Vorschlag. Das konjugierte Verb 'treffen' wird zum Infinitiv am Satzende; 'uns' bleibt direkt nach 'wir'."
+          },
+          {
+            "id": "l2h07",
+            "type": "targeted-transformation",
+            "instruction": "Forme den dass-Satz in einen Infinitivsatz mit 'zu' um.",
+            "prompt": "Viele finden es angenehm, dass sie abends faulenzen.",
+            "solution": "Viele finden es angenehm, abends zu faulenzen.",
+            "hint": "Gleiches Subjekt im Haupt- und Nebensatz → zu-Infinitiv möglich.",
+            "explanation": "'Viele' und 'sie' meinen dieselben Personen, daher kann man den dass-Satz verkürzen: Subjekt weg, 'zu faulenzen' ans Ende."
+          },
+          {
+            "id": "l2h08",
+            "type": "error-correction",
+            "instruction": "Finde den Fehler und schreibe den ganzen Satz richtig.",
+            "prompt": "Es ist üblich, dass man pünktlich zu kommen.",
+            "solution": "Es ist üblich, dass man pünktlich kommt.",
+            "hint": "dass-Satz oder zu-Infinitiv – nicht beides.",
+            "explanation": "Ein dass-Satz braucht ein konjugiertes Verb am Ende ('kommt'), kein 'zu'. Man mischt die beiden Konstruktionen nicht."
+          },
+          {
+            "id": "l2h09",
+            "type": "error-correction",
+            "instruction": "Finde den Fehler und schreibe den ganzen Satz richtig.",
+            "prompt": "Es ist wichtig, sich regelmäßig ausruhen.",
+            "solution": "Es ist wichtig, sich regelmäßig auszuruhen.",
+            "hint": "Es fehlt ein kleines Wort.",
+            "explanation": "Nach 'Es ist wichtig, …' steht ein Infinitiv mit 'zu'. Bei trennbaren Verben wird 'zu' eingeschoben: aus-zu-ruhen."
+          },
+          {
+            "id": "l2h10",
+            "type": "error-correction",
+            "instruction": "Finde den Fehler und schreibe den ganzen Satz richtig.",
+            "prompt": "Könntest du mir sagen, wann der Kurs beginnen?",
+            "solution": "Könntest du mir sagen, wann der Kurs beginnt?",
+            "hint": "Indirekte Frage: Wie steht das Verb am Ende?",
+            "explanation": "In der indirekten Frage steht das konjugierte Verb am Ende und passt zum Subjekt: der Kurs beginnt. Der Infinitiv 'beginnen' ist falsch."
+          },
+          {
+            "id": "l2h11",
+            "type": "error-correction",
+            "instruction": "Finde den Fehler und schreibe den ganzen Satz richtig.",
+            "prompt": "Ich muss den Termin absagen, weil ich habe eine Erkältung.",
+            "solution": "Ich muss den Termin absagen, weil ich eine Erkältung habe.",
+            "hint": "Wo steht das Verb nach 'weil'?",
+            "explanation": "'weil' leitet einen Nebensatz ein; das konjugierte Verb ('habe') steht am Ende."
+          },
+          {
+            "id": "l2h12",
+            "type": "error-correction",
+            "instruction": "Finde den Fehler und schreibe den ganzen Satz richtig.",
+            "prompt": "Hättest ihr am Freitag Zeit?",
+            "solution": "Hättet ihr am Freitag Zeit?",
+            "hint": "Prüfe die Endung für 'ihr'.",
+            "explanation": "Konjunktiv II von 'haben' für 'ihr' lautet 'hättet'. 'hättest' ist die du-Form."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l2t01",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Wort.",
+          "prompt": "In Spanien ist es ___, erst spät am Abend warm zu essen.",
+          "options": [
+            "üblich",
+            "normalerweise",
+            "gewöhnt",
+            "meistens"
+          ],
+          "solution": "üblich",
+          "explanation": "Normen und Gewohnheiten beschreibt man mit 'Es ist üblich, … zu …'. Nach 'es ist' braucht man ein Adjektiv: 'normalerweise' und 'meistens' sind Adverbien, und 'gewöhnt' braucht eine Person ('Ich bin es gewöhnt, …')."
+        },
+        {
+          "id": "l2t02",
+          "type": "multiple-choice",
+          "instruction": "Wähle die höfliche Form.",
+          "prompt": "___ es Ihnen recht, wenn wir den Besuch um eine Woche verschieben?",
+          "options": [
+            "Wäre",
+            "Hätte",
+            "Würde",
+            "Könnte"
+          ],
+          "solution": "Wäre",
+          "explanation": "Die höfliche Frage lautet 'Wäre es Ihnen recht, wenn …?' (Konjunktiv II von 'sein': 'recht sein'). 'Hätte' passt nicht zu 'recht', und 'Würde'/'Könnte' bräuchten einen Infinitiv ('sein') am Ende."
+        },
+        {
+          "id": "l2t03",
+          "type": "multiple-choice",
+          "instruction": "Wähle die höfliche Form.",
+          "prompt": "___ Sie so freundlich, mir die Unterlagen bis Freitag zu schicken?",
+          "options": [
+            "Wären",
+            "Hätten",
+            "Würden",
+            "Könnten"
+          ],
+          "solution": "Wären",
+          "explanation": "Die feste höfliche Bitte heißt 'Wären Sie so freundlich, … zu …?' (Konjunktiv II von 'sein' + Adjektiv). 'Würden' und 'Könnten' bräuchten den Infinitiv 'sein' im Satz, 'Hätten' passt nicht zu einem Adjektiv."
+        },
+        {
+          "id": "l2t04",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Verb.",
+          "prompt": "Der Handwerker kann erst am Nachmittag kommen. Er möchte seinen Besuch um drei Stunden ___.",
+          "options": [
+            "verschieben",
+            "absagen",
+            "bestätigen",
+            "ausmachen"
+          ],
+          "solution": "verschieben",
+          "explanation": "Wer einen Termin auf eine spätere Zeit legt, verschiebt ihn ('um drei Stunden verschieben'). 'absagen' heißt, der Termin fällt ganz aus; 'bestätigen' und 'ausmachen' ändern die Zeit nicht."
+        },
+        {
+          "id": "l2t05",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze das Verb in der richtigen Form.",
+          "prompt": "Viele Eltern erwarten von ihren Kindern, dass sie ihr Zimmer selbst ___. (aufräumen)",
+          "solution": "aufräumen",
+          "explanation": "Im 'dass'-Satz steht das konjugierte Verb am Ende. Trennbare Verben werden dort nicht getrennt: dass sie … aufräumen (3. Person Plural). 'räumen … auf' gilt nur im Hauptsatz."
+        },
+        {
+          "id": "l2t06",
+          "type": "cloze-conjugation",
+          "instruction": "Bilde den Infinitiv mit 'zu'.",
+          "prompt": "Es ist nicht höflich, Kollegen nach 21 Uhr privat ___. (anrufen)",
+          "solution": "anzurufen",
+          "explanation": "Nach 'Es ist (nicht) höflich, …' folgt ein Infinitiv mit 'zu'. Bei trennbaren Verben steht 'zu' zwischen Vorsilbe und Verb und wird zusammengeschrieben: an-zu-rufen. 'zu anrufen' ist falsch."
+        },
+        {
+          "id": "l2t07",
+          "type": "cloze-conjugation",
+          "instruction": "Ergänze das Verb im Konjunktiv II.",
+          "prompt": "___ ihr bitte etwas leiser sein? Das Baby schläft. (können)",
+          "solution": "Könntet",
+          "explanation": "Höfliche Bitten formuliert man mit dem Konjunktiv II von 'können'. Für 'ihr' lautet die Form 'könntet' (Präteritum-Stamm + Umlaut + -et). Das Präsens 'Könnt' klingt direkter."
+        },
+        {
+          "id": "l2t08",
+          "type": "cloze-conjugation",
+          "instruction": "Konjugiere das Verb im Präsens.",
+          "prompt": "Entschuldige, ich ___ mich heute leider um zwanzig Minuten. (sich verspäten)",
+          "solution": "verspäte",
+          "explanation": "'sich verspäten' ist regelmäßig: ich verspäte mich. Das Reflexivpronomen 'mich' steht schon im Satz."
+        },
+        {
+          "id": "l2t09",
+          "type": "cloze-conjugation",
+          "instruction": "Konjugiere das Verb im Präsens.",
+          "prompt": "Nach Feierabend ___ ich mich am liebsten mit einem Buch auf dem Balkon. (sich entspannen)",
+          "solution": "entspanne",
+          "explanation": "'sich entspannen' ist regelmäßig: ich entspanne mich. Weil 'Nach Feierabend' auf Position 1 steht, kommt das Verb auf Position 2 vor das Subjekt."
+        },
+        {
+          "id": "l2t10",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz. Beginne mit 'In meiner Heimat'.",
+          "prompt": "Baue den Satz aus den Satzteilen.",
+          "scrambleChunks": [
+            "In meiner Heimat",
+            "ist",
+            "es normal,",
+            "dass",
+            "man",
+            "die Schuhe an der Tür",
+            "auszieht."
+          ],
+          "solution": "In meiner Heimat ist es normal, dass man die Schuhe an der Tür auszieht.",
+          "explanation": "Im Hauptsatz steht das Verb 'ist' auf Position 2. Im 'dass'-Satz steht das Subjekt ('man') direkt nach 'dass' und das konjugierte Verb am Ende; das trennbare Verb bleibt dort zusammen: auszieht."
+        },
+        {
+          "id": "l2t11",
+          "type": "targeted-transformation",
+          "instruction": "Forme um: Verwende 'zu' + Infinitiv statt 'dass man'. Behalte die Wortstellung sonst bei.",
+          "prompt": "Es ist üblich, dass man sich im Büro morgens begrüßt.",
+          "solution": "Es ist üblich, sich im Büro morgens zu begrüßen.",
+          "explanation": "Wenn das Subjekt allgemein ist ('man'), kann man den 'dass'-Satz durch einen Infinitiv mit 'zu' ersetzen: 'man' fällt weg, das Verb steht als 'zu begrüßen' am Ende."
+        },
+        {
+          "id": "l2t12",
+          "type": "targeted-transformation",
+          "instruction": "Forme um: Verwende 'dass man' statt 'zu' + Infinitiv. Behalte die Wortstellung sonst bei.",
+          "prompt": "Es ist wichtig, einen Arzttermin rechtzeitig abzusagen.",
+          "solution": "Es ist wichtig, dass man einen Arzttermin rechtzeitig absagt.",
+          "explanation": "Im 'dass'-Satz braucht man ein Subjekt ('man') und ein konjugiertes Verb am Ende. Das trennbare Verb steht dort zusammen: absagt."
+        },
+        {
+          "id": "l2t13",
+          "type": "targeted-transformation",
+          "instruction": "Formuliere die Aufforderung höflich als Frage mit 'Könnten Sie' (ohne 'bitte').",
+          "prompt": "Schicken Sie mir die Rechnung per E-Mail!",
+          "solution": "Könnten Sie mir die Rechnung per E-Mail schicken?",
+          "explanation": "Mit dem Konjunktiv II 'Könnten Sie … ?' wird eine direkte Aufforderung höflich. 'Könnten' steht auf Position 1, der Infinitiv 'schicken' am Satzende."
+        },
+        {
+          "id": "l2t14",
+          "type": "error-correction",
+          "instruction": "Finde den Fehler und schreibe den korrigierten Satz.",
+          "prompt": "In unserem Team ist es üblich, freitags früher Feierabend machen.",
+          "solution": "In unserem Team ist es üblich, freitags früher Feierabend zu machen.",
+          "explanation": "Nach 'Es ist üblich, …' folgt ein Infinitiv mit 'zu': Feierabend zu machen. Ohne 'zu' ist der Satz falsch."
+        },
+        {
+          "id": "l2t15",
+          "type": "error-correction",
+          "instruction": "Finde den Fehler und schreibe den korrigierten Satz.",
+          "prompt": "Wir haben ausgemachen, uns um acht Uhr vor dem Kino zu treffen.",
+          "solution": "Wir haben ausgemacht, uns um acht Uhr vor dem Kino zu treffen.",
+          "explanation": "'ausmachen' ist regelmäßig und trennbar: Das Partizip II lautet 'ausgemacht' (aus + ge + macht), nicht 'ausgemachen'."
+        }
+      ]
+    },
+    {
+      "lektionId": "b1plus-m1-l3",
+      "level": "B1+",
+      "modulNumber": 1,
+      "lektionNumber": 3,
+      "title": "Wie die Zeit vergeht",
+      "grammarFocus": [
+        "Verben mit Dativ oder Akkusativ",
+        "Stellung von Dativ- und Akkusativergänzung",
+        "Personalpronomen im Dativ und Akkusativ",
+        "Verben mit festen Präpositionen"
+      ],
+      "vocabulary": [
+        {
+          "id": "l3v01",
+          "term": "das Zeitempfinden",
+          "translation": "la percepción del tiempo",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "example": "Im Urlaub verändert sich oft unser Zeitempfinden."
+        },
+        {
+          "id": "l3v02",
+          "term": "die innere Uhr",
+          "translation": "el reloj interno (biológico)",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Nach dem langen Flug war meine innere Uhr völlig durcheinander."
+        },
+        {
+          "id": "l3v03",
+          "term": "das Gehirn",
+          "translation": "el cerebro",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Gehirne",
+          "example": "Das Gehirn braucht Schlaf, um Erlebnisse zu verarbeiten."
+        },
+        {
+          "id": "l3v04",
+          "term": "der Vorgang",
+          "translation": "el proceso",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Vorgänge",
+          "example": "Forscher untersuchen, welche Vorgänge beim Lernen im Kopf ablaufen."
+        },
+        {
+          "id": "l3v05",
+          "term": "der Experte",
+          "translation": "el experto",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Experten",
+          "example": "Der Experte erklärte uns, warum Wartezeiten so lang wirken."
+        },
+        {
+          "id": "l3v06",
+          "term": "der Zeitplan",
+          "translation": "el horario, el cronograma",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Zeitpläne",
+          "example": "Wir haben einen genauen Zeitplan für das Projekt gemacht."
+        },
+        {
+          "id": "l3v07",
+          "term": "das Ergebnis",
+          "translation": "el resultado",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Ergebnisse",
+          "example": "Am Ende präsentierte jede Gruppe ihr Ergebnis."
+        },
+        {
+          "id": "l3v08",
+          "term": "subjektiv",
+          "translation": "subjetivo",
+          "partOfSpeech": "adjective",
+          "example": "Wie lang sich eine Stunde anfühlt, ist sehr subjektiv."
+        },
+        {
+          "id": "l3v09",
+          "term": "langweilig",
+          "translation": "aburrido",
+          "partOfSpeech": "adjective",
+          "example": "Der Vortrag war so langweilig, dass die Zeit gar nicht verging."
+        },
+        {
+          "id": "l3v10",
+          "term": "wahrnehmen",
+          "translation": "percibir",
+          "partOfSpeech": "verb",
+          "preterite": "nahm wahr",
+          "participle": "wahrgenommen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Kinder nehmen Zeit ganz anders wahr als Erwachsene."
+        },
+        {
+          "id": "l3v11",
+          "term": "gelingen",
+          "translation": "salir bien, lograr",
+          "partOfSpeech": "verb",
+          "preterite": "gelang",
+          "participle": "gelungen",
+          "auxiliary": "sein",
+          "irregular": true,
+          "example": "Das Experiment ist den Studierenden gut gelungen."
+        },
+        {
+          "id": "l3v12",
+          "term": "schwerfallen",
+          "translation": "costar (trabajo)",
+          "partOfSpeech": "verb",
+          "preterite": "fiel schwer",
+          "participle": "schwergefallen",
+          "auxiliary": "sein",
+          "irregular": true,
+          "example": "Früh aufzustehen fällt mir im Winter schwer."
+        },
+        {
+          "id": "l3v13",
+          "term": "zustimmen",
+          "translation": "estar de acuerdo, aprobar",
+          "partOfSpeech": "verb",
+          "preterite": "stimmte zu",
+          "participle": "zugestimmt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "In diesem Punkt stimme ich dir völlig zu."
+        },
+        {
+          "id": "l3v14",
+          "term": "schaden",
+          "translation": "perjudicar, dañar",
+          "partOfSpeech": "verb",
+          "preterite": "schadete",
+          "participle": "geschadet",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Zu wenig Schlaf schadet der Konzentration."
+        },
+        {
+          "id": "l3v15",
+          "term": "zuhören",
+          "translation": "escuchar (atentamente)",
+          "partOfSpeech": "verb",
+          "preterite": "hörte zu",
+          "participle": "zugehört",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Die Kinder hören der Erzählerin gespannt zu."
+        },
+        {
+          "id": "l3v16",
+          "term": "gratulieren",
+          "translation": "felicitar",
+          "partOfSpeech": "verb",
+          "preterite": "gratulierte",
+          "participle": "gratuliert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Wir haben unserer Kollegin zur Beförderung gratuliert."
+        },
+        {
+          "id": "l3v17",
+          "term": "mitteilen",
+          "translation": "comunicar, informar",
+          "partOfSpeech": "verb",
+          "preterite": "teilte mit",
+          "participle": "mitgeteilt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Bitte teilen Sie uns Ihre neue Adresse mit."
+        },
+        {
+          "id": "l3v18",
+          "term": "erleichtern",
+          "translation": "facilitar",
+          "partOfSpeech": "verb",
+          "preterite": "erleichterte",
+          "participle": "erleichtert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Eine To-do-Liste erleichtert mir die Planung."
+        },
+        {
+          "id": "l3v19",
+          "term": "sich erinnern",
+          "translation": "acordarse, recordar",
+          "partOfSpeech": "verb",
+          "preterite": "erinnerte sich",
+          "participle": "erinnert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Erinnerst du dich an unseren ersten Schultag?"
+        },
+        {
+          "id": "l3v20",
+          "term": "sich kümmern",
+          "translation": "ocuparse, cuidar",
+          "partOfSpeech": "verb",
+          "preterite": "kümmerte sich",
+          "participle": "gekümmert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Mein Bruder kümmert sich um unsere Katze."
+        },
+        {
+          "id": "l3v21",
+          "term": "sich freuen",
+          "translation": "alegrarse",
+          "partOfSpeech": "verb",
+          "preterite": "freute sich",
+          "participle": "gefreut",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Ich freue mich schon auf die Ferien."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l3e01",
+            "type": "multiple-choice",
+            "instruction": "Wähle das richtige Pronomen.",
+            "prompt": "Das neue Café in der Altstadt gefällt ___ sehr.",
+            "options": [
+              "mir",
+              "mich",
+              "ich"
+            ],
+            "solution": "mir",
+            "hint": "'gefallen' steht mit dem Dativ.",
+            "explanation": "'gefallen' ist ein Verb mit Dativ: Wem gefällt es? – mir. 'mich' ist Akkusativ, 'ich' Nominativ."
+          },
+          {
+            "id": "l3e02",
+            "type": "multiple-choice",
+            "instruction": "Wähle das richtige Pronomen.",
+            "prompt": "Kannst du ___ heute Abend anrufen? Meine Nummer hast du ja.",
+            "options": [
+              "mich",
+              "mir",
+              "ich"
+            ],
+            "solution": "mich",
+            "hint": "'anrufen' steht mit dem Akkusativ.",
+            "explanation": "'anrufen' verlangt den Akkusativ: Wen rufst du an? – mich. 'mir' ist Dativ und hier ein typischer Fehler; 'ich' ist Nominativ und kann kein Objekt sein."
+          },
+          {
+            "id": "l3e03",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze den Artikel im Dativ.",
+            "prompt": "Das rote Fahrrad gehört ___ Nachbarin von gegenüber. (die)",
+            "solution": "der",
+            "hint": "'gehören' + Dativ; feminin.",
+            "explanation": "'gehören' steht mit dem Dativ. Der feminine Artikel 'die' wird im Dativ zu 'der'."
+          },
+          {
+            "id": "l3e04",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze den Possessivartikel im Dativ Singular.",
+            "prompt": "Wir gratulieren ___ Kollegen herzlich zum Geburtstag. (unser)",
+            "solution": "unserem",
+            "hint": "'gratulieren' + Dativ; maskulin Singular.",
+            "explanation": "'gratulieren' steht mit dem Dativ. Maskulin Singular im Dativ: unser + -em = unserem."
+          },
+          {
+            "id": "l3e05",
+            "type": "multiple-choice",
+            "instruction": "Wähle das richtige Pronomen.",
+            "prompt": "Hör ___ doch bitte mal zu!",
+            "options": [
+              "mir",
+              "mich",
+              "ich"
+            ],
+            "solution": "mir",
+            "hint": "'zuhören' + Dativ.",
+            "explanation": "'zuhören' ist ein Verb mit Dativ: Wem hörst du zu? – mir."
+          },
+          {
+            "id": "l3e06",
+            "type": "multiple-choice",
+            "instruction": "Wähle das richtige Pronomen.",
+            "prompt": "Die Prüfung ist ___ leider nicht gelungen.",
+            "options": [
+              "ihm",
+              "ihn",
+              "er"
+            ],
+            "solution": "ihm",
+            "hint": "Bei 'gelingen' steht die Person im Dativ.",
+            "explanation": "'gelingen' hat die Sache als Subjekt und die Person im Dativ: Die Prüfung gelingt ihm. 'ihn' (Akkusativ) und 'er' (Nominativ) sind falsch."
+          },
+          {
+            "id": "l3e07",
+            "type": "fill-in-blank",
+            "instruction": "Ersetze 'Lukas' durch ein Pronomen.",
+            "prompt": "Ich habe Lukas lange nicht gesehen. Morgen besuche ich ___.",
+            "solution": "ihn",
+            "hint": "'besuchen' + Akkusativ; maskulin.",
+            "explanation": "'besuchen' verlangt den Akkusativ. Das Personalpronomen für 'er' im Akkusativ ist 'ihn'."
+          },
+          {
+            "id": "l3e08",
+            "type": "fill-in-blank",
+            "instruction": "Ersetze 'Anna' durch ein Pronomen.",
+            "prompt": "Anna hat heute Geburtstag. Hast du ___ schon gratuliert?",
+            "solution": "ihr",
+            "hint": "'gratulieren' + Dativ; feminin.",
+            "explanation": "'gratulieren' verlangt den Dativ. Das Personalpronomen für 'sie' (Singular) im Dativ ist 'ihr'."
+          },
+          {
+            "id": "l3e09",
+            "type": "multiple-choice",
+            "instruction": "Wähle die richtige Präposition.",
+            "prompt": "Ich freue mich schon ___ das lange Wochenende.",
+            "options": [
+              "auf",
+              "über",
+              "an",
+              "für"
+            ],
+            "solution": "auf",
+            "hint": "Etwas liegt noch in der Zukunft.",
+            "explanation": "'sich freuen auf' + Akkusativ = auf etwas Zukünftiges ('schon' zeigt das). 'sich freuen über' bezieht sich auf etwas, das schon da ist oder passiert ist. 'an' und 'für' sind hier falsch."
+          },
+          {
+            "id": "l3e10",
+            "type": "multiple-choice",
+            "instruction": "Wähle die richtige Präposition.",
+            "prompt": "Erinnerst du dich noch ___ unseren ersten Urlaub in Italien?",
+            "options": [
+              "an",
+              "auf",
+              "über"
+            ],
+            "solution": "an",
+            "hint": "'sich erinnern' + feste Präposition.",
+            "explanation": "Das Verb heißt 'sich erinnern an' + Akkusativ. 'auf' und 'über' passen nicht zu diesem Verb."
+          },
+          {
+            "id": "l3e11",
+            "type": "multiple-choice",
+            "instruction": "Wähle die richtige Präposition.",
+            "prompt": "Wer kümmert sich ___ die Pflanzen, wenn du verreist bist?",
+            "options": [
+              "um",
+              "für",
+              "auf"
+            ],
+            "solution": "um",
+            "hint": "'sich kümmern' + feste Präposition.",
+            "explanation": "Das Verb heißt 'sich kümmern um' + Akkusativ. 'für' ist ein typischer Fehler aus anderen Sprachen."
+          },
+          {
+            "id": "l3e12",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze den Artikel im Dativ.",
+            "prompt": "Zu viel Stress schadet ___ Gesundheit. (die)",
+            "solution": "der",
+            "hint": "'schaden' + Dativ; feminin.",
+            "explanation": "'schaden' ist ein Verb mit Dativ: Wem schadet Stress? – der Gesundheit. Feminin 'die' wird im Dativ zu 'der'."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l3m01",
+            "type": "sentence-scramble",
+            "instruction": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "prompt": "Bilde einen korrekten Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "Die Chefin",
+              "erklärt",
+              "dem Praktikanten",
+              "den Zeitplan"
+            ],
+            "solution": "Die Chefin erklärt dem Praktikanten den Zeitplan.",
+            "hint": "Zwei Nomen: Welcher Kasus steht zuerst?",
+            "explanation": "Wenn beide Ergänzungen Nomen sind, steht der Dativ (dem Praktikanten) vor dem Akkusativ (den Zeitplan)."
+          },
+          {
+            "id": "l3m02",
+            "type": "sentence-scramble",
+            "instruction": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "prompt": "Bilde einen korrekten Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "Ich",
+              "schicke",
+              "sie",
+              "dir",
+              "morgen"
+            ],
+            "solution": "Ich schicke sie dir morgen.",
+            "hint": "Zwei Pronomen: Akkusativ zuerst.",
+            "explanation": "Wenn beide Ergänzungen Pronomen sind, steht der Akkusativ (sie) vor dem Dativ (dir)."
+          },
+          {
+            "id": "l3m03",
+            "type": "sentence-scramble",
+            "instruction": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "prompt": "Bilde einen korrekten Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "Hast",
+              "du",
+              "es",
+              "ihm",
+              "schon",
+              "gesagt"
+            ],
+            "solution": "Hast du es ihm schon gesagt?",
+            "hint": "Pronomen stehen direkt nach dem Subjekt, Akkusativ vor Dativ.",
+            "explanation": "Pronomen stehen früh im Satz, Akkusativ ('es') vor Dativ ('ihm'). Adverbien wie 'schon' folgen danach; das Partizip steht am Ende."
+          },
+          {
+            "id": "l3m04",
+            "type": "sentence-scramble",
+            "instruction": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "prompt": "Bilde einen korrekten Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "Der Kellner",
+              "bringt",
+              "uns",
+              "die Rechnung"
+            ],
+            "solution": "Der Kellner bringt uns die Rechnung.",
+            "hint": "Ein Pronomen und ein Nomen: Das Pronomen kommt zuerst.",
+            "explanation": "Ist eine Ergänzung ein Pronomen und die andere ein Nomen, steht das Pronomen zuerst – hier der Dativ 'uns' vor dem Akkusativnomen 'die Rechnung'."
+          },
+          {
+            "id": "l3m05",
+            "type": "sentence-scramble",
+            "instruction": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "prompt": "Bilde einen korrekten Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "Paul",
+              "hat",
+              "seiner Oma",
+              "ein Buch",
+              "geschenkt"
+            ],
+            "solution": "Paul hat seiner Oma ein Buch geschenkt.",
+            "hint": "Zwei Nomen: Dativ vor Akkusativ.",
+            "explanation": "Beide Ergänzungen sind Nomen, deshalb Dativ ('seiner Oma') vor Akkusativ ('ein Buch'). Das Partizip steht am Ende."
+          },
+          {
+            "id": "l3m06",
+            "type": "sentence-scramble",
+            "instruction": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "prompt": "Bilde einen korrekten Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "Der Arzt",
+              "hat",
+              "es",
+              "ihr",
+              "genau",
+              "erklärt"
+            ],
+            "solution": "Der Arzt hat es ihr genau erklärt.",
+            "hint": "Zwei Pronomen: Akkusativ vor Dativ.",
+            "explanation": "Beide Ergänzungen sind Pronomen: Akkusativ 'es' vor Dativ 'ihr'. Das Adverb 'genau' folgt danach, das Partizip steht am Ende."
+          },
+          {
+            "id": "l3m07",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb im Präteritum.",
+            "prompt": "Das Deutschlernen ___ mir am Anfang sehr schwer. (schwerfallen)",
+            "solution": "fiel",
+            "hint": "Trennbares, starkes Verb; 'schwer' steht am Ende.",
+            "explanation": "'schwerfallen' ist trennbar und stark: fällt schwer – fiel schwer – ist schwergefallen. 'fiel' steht an Position 2, 'schwer' am Ende. Die Person steht im Dativ ('mir')."
+          },
+          {
+            "id": "l3m08",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Partizip II.",
+            "prompt": "Der Kuchen ist dir wirklich gut ___. (gelingen)",
+            "solution": "gelungen",
+            "hint": "Starkes Verb mit untrennbarem Präfix 'ge-'.",
+            "explanation": "'gelingen' ist stark (gelingen – gelang – gelungen) und bildet das Perfekt mit 'sein'. Die Person steht im Dativ ('dir')."
+          },
+          {
+            "id": "l3m09",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb im Präsens.",
+            "prompt": "Ich ___ dir in diesem Punkt völlig zu. (zustimmen)",
+            "solution": "stimme",
+            "hint": "Trennbares Verb: 'zu' steht am Satzende.",
+            "explanation": "'zustimmen' ist trennbar: ich stimme … zu. Es steht mit dem Dativ ('dir')."
+          },
+          {
+            "id": "l3m10",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb im Präsens.",
+            "prompt": "Seit einer Stunde ___ Jana schon auf den Techniker. (warten)",
+            "solution": "wartet",
+            "hint": "'warten auf' + Akkusativ; 3. Person Singular, Stamm endet auf '-t'.",
+            "explanation": "Präsens 3. Person Singular: Weil der Stamm auf '-t' endet, braucht man ein '-e-' vor der Endung: sie wartet. Das Verb hat die feste Präposition 'auf' + Akkusativ ('auf den Techniker')."
+          },
+          {
+            "id": "l3m11",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Partizip II.",
+            "prompt": "Hast du dich schon um die Konzertkarten ___? (sich kümmern)",
+            "solution": "gekümmert",
+            "hint": "Regelmäßiges Verb: ge- + Stamm + -t.",
+            "explanation": "'sich kümmern um' ist regelmäßig: gekümmert. Das Perfekt bildet es mit 'haben'."
+          },
+          {
+            "id": "l3m12",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb im Präteritum.",
+            "prompt": "Die Kinder ___ ihrem Opa gespannt zu. (zuhören)",
+            "solution": "hörten",
+            "hint": "Trennbar, regelmäßig, 3. Person Plural.",
+            "explanation": "'zuhören' ist trennbar und regelmäßig: sie hörten … zu. Die Person, der man zuhört, steht im Dativ ('ihrem Opa')."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l3h01",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze beide Ergänzungen durch Pronomen. Das Subjekt bleibt.",
+            "prompt": "Lisa hat ihrem Vater die Fotos gezeigt.",
+            "solution": "Lisa hat sie ihm gezeigt.",
+            "hint": "Zwei Pronomen: Akkusativ vor Dativ.",
+            "explanation": "'die Fotos' (Akk. Plural) → sie, 'ihrem Vater' (Dat. maskulin) → ihm. Bei zwei Pronomen steht der Akkusativ vor dem Dativ: sie ihm – nicht 'ihm sie'."
+          },
+          {
+            "id": "l3h02",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze beide Ergänzungen durch Pronomen. Das Subjekt bleibt.",
+            "prompt": "Wir geben dem Vermieter den Schlüssel zurück.",
+            "solution": "Wir geben ihn ihm zurück.",
+            "hint": "Akkusativ vor Dativ; das Präfix bleibt am Ende.",
+            "explanation": "'den Schlüssel' → ihn (Akk.), 'dem Vermieter' → ihm (Dat.). Zwei Pronomen: Akkusativ zuerst. Das Präfix 'zurück' bleibt am Satzende."
+          },
+          {
+            "id": "l3h03",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze nur die Akkusativergänzung durch ein Pronomen.",
+            "prompt": "Marta leiht ihrem Bruder das Auto.",
+            "solution": "Marta leiht es ihrem Bruder.",
+            "hint": "Pronomen stehen vor Nomen.",
+            "explanation": "'das Auto' → es. Ein Pronomen steht vor einem Nomen, auch wenn es Akkusativ ist: es ihrem Bruder."
+          },
+          {
+            "id": "l3h04",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze nur die Dativergänzung durch ein Pronomen.",
+            "prompt": "Der Lehrer erklärt den Schülern die Aufgabe.",
+            "solution": "Der Lehrer erklärt ihnen die Aufgabe.",
+            "hint": "Dativ Plural → ?",
+            "explanation": "'den Schülern' ist Dativ Plural → ihnen. Das Pronomen steht vor dem Akkusativnomen 'die Aufgabe'."
+          },
+          {
+            "id": "l3h05",
+            "type": "targeted-transformation",
+            "instruction": "Antworte mit 'Ja,' und ersetze beide Ergänzungen durch Pronomen.",
+            "prompt": "Hast du dem Publikum die Grafik gezeigt?",
+            "solution": "Ja, ich habe sie ihm gezeigt.",
+            "hint": "'das Publikum' ist neutral, 'die Grafik' feminin.",
+            "explanation": "'die Grafik' → sie (Akk. feminin), 'dem Publikum' → ihm (Dat. neutral). Akkusativ vor Dativ: sie ihm. Aus 'du' wird in der Antwort 'ich'."
+          },
+          {
+            "id": "l3h06",
+            "type": "targeted-transformation",
+            "instruction": "Antworte mit 'Ja,' und ersetze beide Ergänzungen durch Pronomen.",
+            "prompt": "Hat Frau Weber den Kunden den Liefertermin mitgeteilt? (den Kunden = Plural)",
+            "solution": "Ja, sie hat ihn ihnen mitgeteilt.",
+            "hint": "'Frau Weber' → sie; Dativ Plural → ihnen.",
+            "explanation": "'den Liefertermin' → ihn (Akk.), 'den Kunden' (Dat. Plural) → ihnen, 'Frau Weber' → sie. Zwei Pronomen: Akkusativ vor Dativ: ihn ihnen."
+          },
+          {
+            "id": "l3h07",
+            "type": "error-correction",
+            "instruction": "Finde den Fehler und schreibe den ganzen Satz richtig.",
+            "prompt": "Kannst du mich bitte kurz helfen?",
+            "solution": "Kannst du mir bitte kurz helfen?",
+            "hint": "'helfen' steht mit welchem Kasus?",
+            "explanation": "'helfen' ist ein Verb mit Dativ: Wem hilfst du? – mir. 'mich' ist Akkusativ."
+          },
+          {
+            "id": "l3h08",
+            "type": "error-correction",
+            "instruction": "Finde den Fehler und schreibe den ganzen Satz richtig.",
+            "prompt": "Ich habe ihr es gestern gegeben.",
+            "solution": "Ich habe es ihr gestern gegeben.",
+            "hint": "Reihenfolge von zwei Pronomen.",
+            "explanation": "Bei zwei Pronomen steht der Akkusativ ('es') vor dem Dativ ('ihr')."
+          },
+          {
+            "id": "l3h09",
+            "type": "error-correction",
+            "instruction": "Finde den Fehler und schreibe den ganzen Satz richtig.",
+            "prompt": "Der Film hat ihn überhaupt nicht gefallen.",
+            "solution": "Der Film hat ihm überhaupt nicht gefallen.",
+            "hint": "'gefallen' + ?",
+            "explanation": "'gefallen' verlangt den Dativ: Der Film gefällt ihm. 'ihn' ist Akkusativ."
+          },
+          {
+            "id": "l3h10",
+            "type": "error-correction",
+            "instruction": "Finde den Fehler und schreibe den ganzen Satz richtig.",
+            "prompt": "Ich erinnere mich gern auf meine Schulzeit.",
+            "solution": "Ich erinnere mich gern an meine Schulzeit.",
+            "hint": "Feste Präposition von 'sich erinnern'.",
+            "explanation": "Es heißt 'sich erinnern an' + Akkusativ, nicht 'auf'."
+          },
+          {
+            "id": "l3h11",
+            "type": "error-correction",
+            "instruction": "Finde den Fehler und schreibe den ganzen Satz richtig.",
+            "prompt": "Wir danken Sie herzlich für Ihre Geduld.",
+            "solution": "Wir danken Ihnen herzlich für Ihre Geduld.",
+            "hint": "'danken' + Dativ.",
+            "explanation": "'danken' ist ein Verb mit Dativ. Die Höflichkeitsform im Dativ lautet 'Ihnen', nicht 'Sie'."
+          },
+          {
+            "id": "l3h12",
+            "type": "error-correction",
+            "instruction": "Finde den Fehler und schreibe den ganzen Satz richtig.",
+            "prompt": "Die neue Software erleichtert die Mitarbeiter die Planung.",
+            "solution": "Die neue Software erleichtert den Mitarbeitern die Planung.",
+            "hint": "Wem erleichtert die Software die Planung?",
+            "explanation": "Bei 'jemandem etwas erleichtern' steht die Person im Dativ. Dativ Plural: den Mitarbeitern (Nomen mit '-n'). 'die Mitarbeiter' wäre Akkusativ – den Akkusativ hat hier schon 'die Planung'."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l3t01",
+          "type": "multiple-choice",
+          "instruction": "Wähle den richtigen Artikel.",
+          "prompt": "Nach dem Streit vertraut Mia ___ Partner nicht mehr.",
+          "options": [
+            "dem",
+            "den",
+            "der",
+            "des"
+          ],
+          "solution": "dem",
+          "explanation": "'vertrauen' steht mit Dativ: jemandem vertrauen. 'der Partner' → dem Partner. 'den' wäre Akkusativ, 'der' passt nur zu femininen Nomen, 'des' ist Genitiv."
+        },
+        {
+          "id": "l3t02",
+          "type": "multiple-choice",
+          "instruction": "Welcher Satz ist richtig?",
+          "prompt": "Hast du schon die neue Adresse von Jonas?",
+          "options": [
+            "Ja, er hat sie mir gestern geschrieben.",
+            "Ja, er hat mir sie gestern geschrieben.",
+            "Ja, er hat gestern sie mir geschrieben."
+          ],
+          "solution": "Ja, er hat sie mir gestern geschrieben.",
+          "explanation": "Sind beide Ergänzungen Pronomen, steht der Akkusativ vor dem Dativ: sie (Akk.) mir (Dat.). Unbetonte Pronomen stehen direkt nach dem konjugierten Verb, also vor der Zeitangabe 'gestern'."
+        },
+        {
+          "id": "l3t03",
+          "type": "multiple-choice",
+          "instruction": "Wähle die passende Präposition.",
+          "prompt": "Ich möchte mich herzlich ___ Ihre Hilfe bedanken.",
+          "options": [
+            "für",
+            "an",
+            "auf",
+            "über"
+          ],
+          "solution": "für",
+          "explanation": "Das Verb heißt 'sich bedanken für' + Akkusativ (bei jemandem für etwas). 'an', 'auf' und 'über' gehören nicht zu diesem Verb."
+        },
+        {
+          "id": "l3t04",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze die passende Präposition.",
+          "prompt": "Seit Wochen ärgert sich Herr Kaya ___ den Lärm auf der Baustelle.",
+          "solution": "über",
+          "explanation": "Das Verb heißt 'sich ärgern über' + Akkusativ: sich über den Lärm ärgern."
+        },
+        {
+          "id": "l3t05",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze den Artikel.",
+          "prompt": "Nach dem Umzug fehlen ___ Kind seine alten Freunde. (das)",
+          "solution": "dem",
+          "explanation": "'fehlen' steht mit Dativ: Etwas/jemand fehlt jemandem. 'das Kind' → dem Kind. Das Subjekt ist 'seine alten Freunde' (deshalb 'fehlen' im Plural)."
+        },
+        {
+          "id": "l3t06",
+          "type": "fill-in-blank",
+          "instruction": "Ersetze 'ihr Ergebnis' durch ein Pronomen.",
+          "prompt": "Frau Lange hat uns ihr Ergebnis noch nicht mitgeteilt. Sie teilt ___ uns morgen mit.",
+          "solution": "es",
+          "explanation": "'das Ergebnis' ist Akkusativ neutrum → es. Bei zwei Pronomen steht der Akkusativ vor dem Dativ: es uns."
+        },
+        {
+          "id": "l3t07",
+          "type": "cloze-conjugation",
+          "instruction": "Konjugiere das Verb im Präsens.",
+          "prompt": "Lange Texte auf Englisch ___ meinem Kollegen immer noch schwer. (schwerfallen)",
+          "solution": "fallen",
+          "explanation": "Bei 'schwerfallen' ist die Sache das Subjekt, die Person steht im Dativ (meinem Kollegen). Das Subjekt 'Lange Texte' ist Plural → fallen … schwer. Das Verb ist trennbar: 'schwer' steht am Satzende."
+        },
+        {
+          "id": "l3t08",
+          "type": "cloze-conjugation",
+          "instruction": "Konjugiere das Verb im Präsens.",
+          "prompt": "In dieser Frage ___ die meisten Experten der neuen Studie nicht zu. (zustimmen)",
+          "solution": "stimmen",
+          "explanation": "'zustimmen' ist trennbar und steht mit Dativ (der Studie). Subjekt ist 'die meisten Experten' (Plural) → stimmen … zu."
+        },
+        {
+          "id": "l3t09",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz. Beginne mit 'Morgen'. ('ihn' = den Kuchen)",
+          "prompt": "Baue den Satz aus den Satzteilen.",
+          "scrambleChunks": [
+            "Morgen",
+            "bringe",
+            "ich",
+            "ihn",
+            "meiner Nachbarin",
+            "vorbei."
+          ],
+          "solution": "Morgen bringe ich ihn meiner Nachbarin vorbei.",
+          "explanation": "Ein Pronomen steht vor einem Nomen, auch wenn das Nomen im Dativ steht: ihn meiner Nachbarin. Nach 'Morgen' steht das Verb auf Position 2, das Subjekt direkt danach, die Vorsilbe 'vorbei' am Ende."
+        },
+        {
+          "id": "l3t10",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz im Perfekt. Beginne mit 'Gestern'. ('es' = das Paket, 'ihm' = meinem Bruder)",
+          "prompt": "Baue den Satz aus den Satzteilen.",
+          "scrambleChunks": [
+            "Gestern",
+            "habe",
+            "ich",
+            "es",
+            "ihm",
+            "geschickt."
+          ],
+          "solution": "Gestern habe ich es ihm geschickt.",
+          "explanation": "Nach 'Gestern' steht das Hilfsverb auf Position 2, danach das Subjekt 'ich'. Die beiden Pronomen folgen direkt, und zwar Akkusativ vor Dativ: es ihm. Das Partizip steht am Ende."
+        },
+        {
+          "id": "l3t11",
+          "type": "targeted-transformation",
+          "instruction": "Ersetze beide Ergänzungen durch Pronomen.",
+          "prompt": "Der Trainer erklärt der Mannschaft die neue Taktik.",
+          "solution": "Der Trainer erklärt sie ihr.",
+          "explanation": "'die neue Taktik' → sie (Akk.), 'der Mannschaft' → ihr (Dat.). Bei zwei Pronomen gilt: Akkusativ vor Dativ."
+        },
+        {
+          "id": "l3t12",
+          "type": "targeted-transformation",
+          "instruction": "Ersetze nur das Akkusativobjekt durch ein Pronomen.",
+          "prompt": "Wir schenken unserem Nachbarn den Kalender.",
+          "solution": "Wir schenken ihn unserem Nachbarn.",
+          "explanation": "'den Kalender' → ihn. Ein Pronomen steht vor einem Nomen, auch wenn das Nomen im Dativ steht: ihn unserem Nachbarn."
+        },
+        {
+          "id": "l3t13",
+          "type": "error-correction",
+          "instruction": "Finde den Fehler und schreibe den korrigierten Satz.",
+          "prompt": "Die laute Musik hat die Konzentration geschadet.",
+          "solution": "Die laute Musik hat der Konzentration geschadet.",
+          "explanation": "'schaden' verlangt den Dativ, nicht den Akkusativ: die Konzentration → der Konzentration."
+        },
+        {
+          "id": "l3t14",
+          "type": "error-correction",
+          "instruction": "Finde den Fehler und schreibe den korrigierten Satz.",
+          "prompt": "Warum hast du mich nicht auf meine Nachricht geantwortet?",
+          "solution": "Warum hast du mir nicht auf meine Nachricht geantwortet?",
+          "explanation": "'antworten' steht mit Dativ: jemandem (auf etwas) antworten → mir, nicht mich."
+        },
+        {
+          "id": "l3t15",
+          "type": "error-correction",
+          "instruction": "Finde den Fehler und schreibe den korrigierten Satz.",
+          "prompt": "Kannst du mir sie noch einmal erklären?",
+          "solution": "Kannst du sie mir noch einmal erklären?",
+          "explanation": "Bei zwei Pronomen steht der Akkusativ (sie) vor dem Dativ (mir)."
+        }
+      ]
+    }
+  ]
+}

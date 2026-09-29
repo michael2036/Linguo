@@ -27,7 +27,7 @@ file (step 5).
   [`.agents/input/README.md`](input/README.md) — that folder is gitignored
   on purpose, since the source material is copyrighted and only ever used as
   ephemeral input.
-- Metadata decided up front for the Modul: `level` (A1/A2/B1), `modulNumber`
+- Metadata decided up front for the Modul: `level` (A1/A2/B1/B1+), `modulNumber`
   (1–8), a thematic `title`, and each of its 3 Lektionen's number + title.
 
 ## 1. Run Agent 1 — Didactic Generator
@@ -76,7 +76,7 @@ Combine all 3 Lektion objects into one Modul object:
 ```json
 {
   "modulId": "<level>-m<modulNumber>",
-  "level": "<A1|A2|B1>",
+  "level": "<A1|A2|B1|B1+>",
   "modulNumber": <N>,
   "title": "<thematic title>",
   "lektionen": [ /* exactly 3 Lektion objects */ ]
@@ -114,7 +114,7 @@ Add an entry to `MODUL_CATALOG` in
 ```ts
 {
   modulId: '<level>-m<N>',
-  level: '<A1|A2|B1>',
+  level: '<A1|A2|B1|B1+>',
   modulNumber: <N>,
   title: '<thematic title>',
   path: 'data/<level>/modul-<N>.json',

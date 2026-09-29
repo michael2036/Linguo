@@ -37,7 +37,7 @@ that architecture exists). Any output must:
 1. Validate against [`public/schemas/modul-schema.json`](../public/schemas/modul-schema.json).
 2. Contain zero verbatim text reproduced from either source book — every
    sentence is original and merely targets the same grammar point.
-3. Match its declared `level` (A1/A2/B1) — no structures the learner hasn't
+3. Match its declared `level` (A1/A2/B1/B1+) — no structures the learner hasn't
    been introduced to yet at that level.
 4. Have exactly one unambiguous correct `solution` per exercise item.
 5. Carry a rule-based `explanation` for every item, and a `hint` for most

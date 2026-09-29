@@ -1,0 +1,2477 @@
+{
+  "modulId": "b1plus-m7",
+  "level": "B1+",
+  "modulNumber": 7,
+  "title": "Alle zusammen",
+  "lektionen": [
+    {
+      "lektionId": "b1plus-m7-l19",
+      "level": "B1+",
+      "modulNumber": 7,
+      "lektionNumber": 19,
+      "title": "Das finde ich wichtig",
+      "grammarFocus": [
+        "Relativsätze im Nominativ, Akkusativ und Dativ (Dativ Plural: denen)",
+        "Relativpronomen im Genitiv: dessen / deren",
+        "Relativpronomen mit Präposition",
+        "Werte und Eigenschaften (zuverlässig, rücksichtsvoll …)"
+      ],
+      "vocabulary": [
+        {
+          "id": "l19v01",
+          "term": "das Zusammenleben",
+          "translation": "la convivencia",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "example": "Für ein gutes Zusammenleben im Haus braucht es klare Regeln."
+        },
+        {
+          "id": "l19v02",
+          "term": "der Zusammenhalt",
+          "translation": "la cohesión / la unión",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "example": "Der Zusammenhalt in unserer Straße ist beeindruckend."
+        },
+        {
+          "id": "l19v03",
+          "term": "die Gemeinschaft",
+          "translation": "la comunidad",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Gemeinschaften",
+          "example": "In der Gemeinschaft fühlt sich niemand allein."
+        },
+        {
+          "id": "l19v04",
+          "term": "der Wert",
+          "translation": "el valor",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Werte",
+          "example": "Ehrlichkeit ist für mich ein wichtiger Wert."
+        },
+        {
+          "id": "l19v05",
+          "term": "die Vorschrift",
+          "translation": "la norma / el reglamento",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Vorschriften",
+          "example": "Laut Vorschrift darf man im Hof nicht grillen."
+        },
+        {
+          "id": "l19v06",
+          "term": "der Konflikt",
+          "translation": "el conflicto",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Konflikte",
+          "example": "Den Konflikt mit dem Nachbarn haben wir friedlich gelöst."
+        },
+        {
+          "id": "l19v07",
+          "term": "die Stimmung",
+          "translation": "el ambiente / el estado de ánimo",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Stimmungen",
+          "example": "Beim Hoffest war die Stimmung großartig."
+        },
+        {
+          "id": "l19v08",
+          "term": "die Versammlung",
+          "translation": "la asamblea / la reunión",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Versammlungen",
+          "example": "Zur Versammlung kamen fast alle Mieter."
+        },
+        {
+          "id": "l19v09",
+          "term": "die Nachbarschaft",
+          "translation": "el vecindario",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Nachbarschaften",
+          "example": "Wir haben eine sehr freundliche Nachbarschaft."
+        },
+        {
+          "id": "l19v10",
+          "term": "sich beteiligen",
+          "translation": "participar",
+          "partOfSpeech": "verb",
+          "preterite": "beteiligte",
+          "participle": "beteiligt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Viele Eltern beteiligen sich am Schulfest."
+        },
+        {
+          "id": "l19v11",
+          "term": "sich einigen",
+          "translation": "ponerse de acuerdo",
+          "partOfSpeech": "verb",
+          "preterite": "einigte",
+          "participle": "geeinigt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Nach langer Diskussion haben wir uns geeinigt."
+        },
+        {
+          "id": "l19v12",
+          "term": "unterstützen",
+          "translation": "apoyar",
+          "partOfSpeech": "verb",
+          "preterite": "unterstützte",
+          "participle": "unterstützt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Meine Freunde unterstützen mich bei jedem Umzug."
+        },
+        {
+          "id": "l19v13",
+          "term": "abstimmen",
+          "translation": "votar / someter a votación",
+          "partOfSpeech": "verb",
+          "preterite": "stimmte ab",
+          "participle": "abgestimmt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Morgen stimmen die Mieter über die neue Hausordnung ab."
+        },
+        {
+          "id": "l19v14",
+          "term": "vertrauen",
+          "translation": "confiar",
+          "partOfSpeech": "verb",
+          "preterite": "vertraute",
+          "participle": "vertraut",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Ich vertraue meiner besten Freundin völlig."
+        },
+        {
+          "id": "l19v15",
+          "term": "sich kümmern",
+          "translation": "ocuparse / cuidar",
+          "partOfSpeech": "verb",
+          "preterite": "kümmerte",
+          "participle": "gekümmert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Wer kümmert sich um die Pflanzen im Treppenhaus?"
+        },
+        {
+          "id": "l19v16",
+          "term": "teilnehmen",
+          "translation": "participar / asistir",
+          "partOfSpeech": "verb",
+          "preterite": "nahm teil",
+          "participle": "teilgenommen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Nimmst du am Sprachcafé teil?"
+        },
+        {
+          "id": "l19v17",
+          "term": "zuverlässig",
+          "translation": "fiable / de confianza",
+          "partOfSpeech": "adjective",
+          "example": "Er ist zuverlässig und hält immer sein Wort."
+        },
+        {
+          "id": "l19v18",
+          "term": "rücksichtsvoll",
+          "translation": "considerado / respetuoso",
+          "partOfSpeech": "adjective",
+          "example": "Rücksichtsvolle Nachbarn machen nachts keinen Lärm."
+        },
+        {
+          "id": "l19v19",
+          "term": "hilfsbereit",
+          "translation": "servicial / dispuesto a ayudar",
+          "partOfSpeech": "adjective",
+          "example": "Die hilfsbereite Dame trägt mir die Tasche nach oben."
+        },
+        {
+          "id": "l19v20",
+          "term": "pflichtbewusst",
+          "translation": "responsable / cumplidor",
+          "partOfSpeech": "adjective",
+          "example": "Als pflichtbewusste Kollegin erledigt sie alles pünktlich."
+        },
+        {
+          "id": "l19v21",
+          "term": "gerecht",
+          "translation": "justo",
+          "partOfSpeech": "adjective",
+          "example": "Der Lehrer verteilt die Aufgaben gerecht."
+        },
+        {
+          "id": "l19v22",
+          "term": "respektvoll",
+          "translation": "respetuoso",
+          "partOfSpeech": "adjective",
+          "example": "Wir sprechen respektvoll miteinander, auch wenn wir streiten."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l19e01",
+            "type": "multiple-choice",
+            "instruction": "Wähle das richtige Relativpronomen.",
+            "prompt": "Das ist die Nachbarin, ___ mir immer die Pakete annimmt.",
+            "options": [
+              "der",
+              "die",
+              "den",
+              "deren"
+            ],
+            "solution": "die",
+            "hint": "Wer nimmt die Pakete an? – Subjekt im Relativsatz.",
+            "explanation": "Die Nachbarin ist feminin und im Relativsatz Subjekt (Nominativ) → 'die'. 'deren' ist Genitiv, 'den' ist Akkusativ maskulin."
+          },
+          {
+            "id": "l19e02",
+            "type": "multiple-choice",
+            "instruction": "Wähle das richtige Relativpronomen.",
+            "prompt": "Der Kollege, ___ ich gestern angerufen habe, ist heute krank.",
+            "options": [
+              "der",
+              "den",
+              "dem",
+              "dessen"
+            ],
+            "solution": "den",
+            "hint": "'anrufen' braucht eine Akkusativergänzung.",
+            "explanation": "Das Genus kommt vom Bezugswort (der Kollege, maskulin), der Kasus vom Verb im Relativsatz: 'jemanden anrufen' → Akkusativ 'den'. 'der' wäre Subjekt, 'dem' Dativ."
+          },
+          {
+            "id": "l19e03",
+            "type": "multiple-choice",
+            "instruction": "Wähle das richtige Relativpronomen.",
+            "prompt": "Die Kinder, mit ___ mein Sohn spielt, wohnen im dritten Stock.",
+            "options": [
+              "die",
+              "den",
+              "denen",
+              "deren"
+            ],
+            "solution": "denen",
+            "hint": "'mit' verlangt immer den Dativ – und das Bezugswort steht im Plural.",
+            "explanation": "Nach 'mit' steht der Dativ. Das Relativpronomen im Dativ Plural heißt 'denen' (nicht 'den' wie beim Artikel). 'deren' ist Genitiv."
+          },
+          {
+            "id": "l19e04",
+            "type": "multiple-choice",
+            "instruction": "Wähle das richtige Relativpronomen.",
+            "prompt": "Mein Onkel, ___ Garten riesig ist, verschenkt jedes Jahr Äpfel.",
+            "options": [
+              "dessen",
+              "deren",
+              "dem",
+              "den"
+            ],
+            "solution": "dessen",
+            "hint": "Wem gehört der Garten? – Besitz → Genitiv.",
+            "explanation": "Besitz drückt man mit dem Genitiv-Relativpronomen aus. Bezugswort maskulin (der Onkel) → 'dessen'. 'deren' passt nur zu femininen Nomen oder zum Plural."
+          },
+          {
+            "id": "l19e05",
+            "type": "multiple-choice",
+            "instruction": "Wähle das richtige Relativpronomen.",
+            "prompt": "Die Familie, ___ Wohnung neben unserer liegt, zieht bald aus.",
+            "options": [
+              "dessen",
+              "deren",
+              "der",
+              "die"
+            ],
+            "solution": "deren",
+            "hint": "Wem gehört die Wohnung? Achte auf das Genus von 'Familie'.",
+            "explanation": "Das Genitiv-Relativpronomen richtet sich nach dem Bezugswort: 'die Familie' ist feminin → 'deren'. 'dessen' steht nur bei maskulinen und neutralen Bezugswörtern."
+          },
+          {
+            "id": "l19e06",
+            "type": "multiple-choice",
+            "instruction": "Wähle das richtige Relativpronomen.",
+            "prompt": "Das Fest, an ___ alle Nachbarn teilnehmen, findet im Hof statt.",
+            "options": [
+              "das",
+              "dem",
+              "den",
+              "der"
+            ],
+            "solution": "dem",
+            "hint": "'teilnehmen an' + Dativ.",
+            "explanation": "Das Verb 'teilnehmen an' verlangt den Dativ. Das Fest ist neutral → Präposition + Dativ 'an dem'. 'das' wäre Nominativ/Akkusativ."
+          },
+          {
+            "id": "l19e07",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Relativpronomen.",
+            "prompt": "Der Arzt, ___ ich am meisten vertraue, hat leider nur dienstags Sprechstunde.",
+            "solution": "dem",
+            "hint": "'vertrauen' ist ein Verb mit Dativ.",
+            "explanation": "'jemandem vertrauen' verlangt den Dativ. Bezugswort 'der Arzt' (maskulin) → Dativ 'dem'. 'den' (Akkusativ) wäre nach einem Akkusativverb richtig, nicht nach 'vertrauen'."
+          },
+          {
+            "id": "l19e08",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Relativpronomen.",
+            "prompt": "Die Freundin, ___ ich meinen Schlüssel gegeben habe, gießt meine Blumen.",
+            "solution": "der",
+            "hint": "Wem habe ich den Schlüssel gegeben? – Dativ.",
+            "explanation": "'geben' hat eine Dativergänzung (die Person) und eine Akkusativergänzung (die Sache). Die Freundin bekommt etwas → Dativ feminin 'der'."
+          },
+          {
+            "id": "l19e09",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze Präposition und Relativpronomen.",
+            "prompt": "Die ältere Dame, ___ ich mich während ihrer Krankheit gekümmert habe, hat mir einen Kuchen gebacken.",
+            "solution": "um die",
+            "hint": "Welche Präposition gehört zu 'sich kümmern'?",
+            "explanation": "'sich kümmern um' + Akkusativ. Die Präposition steht am Anfang des Relativsatzes, danach das Relativpronomen: 'um die'. Bei Personen verwendet man kein 'worum'."
+          },
+          {
+            "id": "l19e10",
+            "type": "multiple-choice",
+            "instruction": "Welches Adjektiv passt?",
+            "prompt": "Sie kommt nie zu spät zu einem Termin. Sie ist sehr ___.",
+            "options": [
+              "pünktlich",
+              "rücksichtsvoll",
+              "gerecht",
+              "hilfsbereit"
+            ],
+            "solution": "pünktlich",
+            "hint": "Es geht um die Zeit.",
+            "explanation": "Wer nie zu spät kommt, ist 'pünktlich'. 'gerecht' bedeutet fair, 'hilfsbereit' bedeutet, dass man gern hilft."
+          },
+          {
+            "id": "l19e11",
+            "type": "multiple-choice",
+            "instruction": "Welches Adjektiv passt?",
+            "prompt": "Er trägt der alten Nachbarin oft die Einkäufe in den vierten Stock. Er ist ___.",
+            "options": [
+              "hilfsbereit",
+              "pünktlich",
+              "neugierig",
+              "ungeduldig"
+            ],
+            "solution": "hilfsbereit",
+            "hint": "Er hilft gern anderen.",
+            "explanation": "Wer anderen gern und ohne Aufforderung hilft, ist 'hilfsbereit'."
+          },
+          {
+            "id": "l19e12",
+            "type": "multiple-choice",
+            "instruction": "Welches Adjektiv passt?",
+            "prompt": "Wer nach 22 Uhr leise ist, damit die anderen schlafen können, ist ___.",
+            "options": [
+              "rücksichtsvoll",
+              "pünktlich",
+              "ehrlich",
+              "neugierig"
+            ],
+            "solution": "rücksichtsvoll",
+            "hint": "Man denkt an die Bedürfnisse der anderen.",
+            "explanation": "'rücksichtsvoll' ist, wer auf andere Rücksicht nimmt. 'ehrlich' bedeutet, dass man die Wahrheit sagt."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l19m01",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen korrekten Satz.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Ich",
+              "suche",
+              "einen",
+              "Mitbewohner,",
+              "der",
+              "nicht",
+              "raucht."
+            ],
+            "solution": "Ich suche einen Mitbewohner, der nicht raucht.",
+            "hint": "Im Relativsatz steht das Verb am Ende.",
+            "explanation": "Der Relativsatz beginnt mit dem Relativpronomen 'der' (Nominativ, Subjekt) und das konjugierte Verb 'raucht' steht am Ende."
+          },
+          {
+            "id": "l19m02",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen korrekten Satz.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Das",
+              "ist",
+              "die",
+              "Lehrerin,",
+              "deren",
+              "Kurs",
+              "ich",
+              "besucht",
+              "habe."
+            ],
+            "solution": "Das ist die Lehrerin, deren Kurs ich besucht habe.",
+            "hint": "Nach 'deren' folgt direkt das Nomen.",
+            "explanation": "'deren Kurs' = der Kurs der Lehrerin (Genitiv). Im Relativsatz: Partizip vor dem Hilfsverb am Ende ('besucht habe')."
+          },
+          {
+            "id": "l19m03",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen korrekten Satz.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Wir",
+              "haben",
+              "Nachbarn,",
+              "mit",
+              "denen",
+              "wir",
+              "oft grillen."
+            ],
+            "solution": "Wir haben Nachbarn, mit denen wir oft grillen.",
+            "hint": "Präposition + Relativpronomen stehen am Anfang des Relativsatzes.",
+            "explanation": "Die Präposition 'mit' steht vor dem Relativpronomen; 'mit' + Dativ Plural → 'denen'. Das Verb 'grillen' steht am Ende."
+          },
+          {
+            "id": "l19m04",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen korrekten Satz.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Der",
+              "Verein,",
+              "dem",
+              "ich",
+              "beigetreten",
+              "bin,",
+              "organisiert",
+              "ein",
+              "Straßenfest."
+            ],
+            "solution": "Der Verein, dem ich beigetreten bin, organisiert ein Straßenfest.",
+            "hint": "Der Relativsatz steht direkt hinter dem Bezugswort.",
+            "explanation": "'beitreten' + Dativ → 'dem'. Der Relativsatz ist in den Hauptsatz eingeschoben und wird von Kommas eingeschlossen; danach folgt das Verb des Hauptsatzes."
+          },
+          {
+            "id": "l19m05",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen korrekten Satz.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Kennst",
+              "du",
+              "den",
+              "Mann,",
+              "dessen",
+              "Auto",
+              "vor",
+              "unserem",
+              "Haus",
+              "steht?"
+            ],
+            "solution": "Kennst du den Mann, dessen Auto vor unserem Haus steht?",
+            "hint": "Wem gehört das Auto?",
+            "explanation": "'dessen Auto' = das Auto des Mannes. Im Relativsatz steht das Verb 'steht' am Ende."
+          },
+          {
+            "id": "l19m06",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen korrekten Satz.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Die",
+              "Regeln,",
+              "über",
+              "die",
+              "wir",
+              "abgestimmt",
+              "haben,",
+              "gelten",
+              "ab",
+              "Montag."
+            ],
+            "solution": "Die Regeln, über die wir abgestimmt haben, gelten ab Montag.",
+            "hint": "'abstimmen über' + Akkusativ.",
+            "explanation": "'über' + Akkusativ Plural → 'über die'. Das Hauptsatzverb 'gelten' folgt direkt nach dem Komma am Ende des Relativsatzes."
+          },
+          {
+            "id": "l19m07",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb im Präsens.",
+            "prompt": "Alle Bewohner, die sich an der Hausversammlung ___, dürfen mitentscheiden. (sich beteiligen)",
+            "solution": "beteiligen",
+            "hint": "Subjekt ist 'die' = alle Bewohner (Plural).",
+            "explanation": "Das Relativpronomen 'die' bezieht sich auf 'alle Bewohner' → 3. Person Plural 'beteiligen'. Das Reflexivpronomen 'sich' steht schon im Satz."
+          },
+          {
+            "id": "l19m08",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb im Präsens.",
+            "prompt": "Der Hausmeister, dem alle Mieter ___, hat einen Schlüssel zu jeder Wohnung. (vertrauen)",
+            "solution": "vertrauen",
+            "hint": "Wer ist hier das Subjekt – der Hausmeister oder die Mieter?",
+            "explanation": "Subjekt im Relativsatz sind 'alle Mieter' (Plural) → 'vertrauen'. 'dem' ist die Dativergänzung (der Hausmeister)."
+          },
+          {
+            "id": "l19m09",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Partizip II.",
+            "prompt": "Das Problem, über das wir gestern lange ___ haben, ist jetzt gelöst. (diskutieren)",
+            "solution": "diskutiert",
+            "hint": "Verben auf -ieren bilden das Partizip ohne 'ge-'.",
+            "explanation": "Verben auf '-ieren' haben kein 'ge-' im Partizip II: diskutieren → diskutiert."
+          },
+          {
+            "id": "l19m10",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb im Präsens (ich-Form).",
+            "prompt": "Die Nachbarin, deren Katze ich ___, ist im Urlaub. (betreuen)",
+            "solution": "betreue",
+            "hint": "Subjekt im Relativsatz ist 'ich'.",
+            "explanation": "Nach 'deren Katze' folgt das Subjekt 'ich' → 'betreue'. 'deren Katze' ist hier die Akkusativergänzung."
+          },
+          {
+            "id": "l19m11",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb im Präsens.",
+            "prompt": "Wir brauchen jemanden, der uns beim Umzug ___. (unterstützen)",
+            "solution": "unterstützt",
+            "hint": "'der' ist Subjekt, 3. Person Singular.",
+            "explanation": "Das Relativpronomen 'der' ist Subjekt im Singular → 'unterstützt'. 'unterstützen' ist untrennbar: 'unter' bleibt am Verb."
+          },
+          {
+            "id": "l19m12",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Partizip II.",
+            "prompt": "Die Mieter, mit denen wir uns endlich ___ haben, bekommen einen Parkplatz. (sich einigen)",
+            "solution": "geeinigt",
+            "hint": "Regelmäßiges Verb: ge- + Stamm + -t.",
+            "explanation": "'einigen' ist regelmäßig: ge-einig-t → 'geeinigt'. Das Perfekt bildet man mit 'haben'."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l19h01",
+            "type": "targeted-transformation",
+            "instruction": "Mache aus dem zweiten Satz einen Relativsatz und setze ihn direkt hinter das Bezugswort. Beginne mit den Wörtern in Klammern.",
+            "prompt": "Die Nachbarin ist sehr hilfsbereit. Ich treffe sie jeden Morgen im Treppenhaus. (Die Nachbarin, …)",
+            "solution": "Die Nachbarin, die ich jeden Morgen im Treppenhaus treffe, ist sehr hilfsbereit.",
+            "hint": "'sie' ist Akkusativ feminin.",
+            "explanation": "'sie' (Akkusativ, feminin) wird zum Relativpronomen 'die'. Das Verb 'treffe' geht ans Ende des Relativsatzes, dann folgt das Hauptsatzverb 'ist'."
+          },
+          {
+            "id": "l19h02",
+            "type": "targeted-transformation",
+            "instruction": "Mache aus dem zweiten Satz einen Relativsatz und setze ihn direkt hinter das Bezugswort. Beginne mit den Wörtern in Klammern.",
+            "prompt": "Der Student sucht ein Zimmer. Seine Eltern wohnen in Portugal. (Der Student, …)",
+            "solution": "Der Student, dessen Eltern in Portugal wohnen, sucht ein Zimmer.",
+            "hint": "'seine' zeigt Besitz → Genitiv.",
+            "explanation": "Der Possessivartikel 'seine' wird zum Genitiv-Relativpronomen. Bezugswort maskulin → 'dessen', unabhängig davon, dass 'Eltern' Plural ist."
+          },
+          {
+            "id": "l19h03",
+            "type": "targeted-transformation",
+            "instruction": "Mache aus dem zweiten Satz einen Relativsatz und setze ihn direkt hinter das Bezugswort. Beginne mit den Wörtern in Klammern.",
+            "prompt": "Die Kollegin hat heute Geburtstag. Ich habe ihr Blumen geschenkt. (Die Kollegin, …)",
+            "solution": "Die Kollegin, der ich Blumen geschenkt habe, hat heute Geburtstag.",
+            "hint": "'ihr' ist Dativ feminin.",
+            "explanation": "'ihr' (Dativ) wird zu 'der'. Im Relativsatz steht das Hilfsverb 'habe' ganz am Ende, nach dem Partizip."
+          },
+          {
+            "id": "l19h04",
+            "type": "targeted-transformation",
+            "instruction": "Mache aus dem zweiten Satz einen Relativsatz und setze ihn direkt hinter das Bezugswort. Beginne mit den Wörtern in Klammern.",
+            "prompt": "Die Jugendlichen trainieren im Park. Ich habe mit ihnen gesprochen. (Die Jugendlichen, …)",
+            "solution": "Die Jugendlichen, mit denen ich gesprochen habe, trainieren im Park.",
+            "hint": "Die Präposition wandert mit an den Anfang des Relativsatzes.",
+            "explanation": "'mit ihnen' → 'mit denen' (Dativ Plural). Die Präposition steht immer vor dem Relativpronomen."
+          },
+          {
+            "id": "l19h05",
+            "type": "targeted-transformation",
+            "instruction": "Mache aus dem zweiten Satz einen Relativsatz und setze ihn direkt hinter das Bezugswort. Beginne mit den Wörtern in Klammern. Verwende Präposition + Relativpronomen.",
+            "prompt": "Das Nachbarschaftsfest war ein Erfolg. Wir haben uns lange darauf gefreut. (Das Nachbarschaftsfest, …)",
+            "solution": "Das Nachbarschaftsfest, auf das wir uns lange gefreut haben, war ein Erfolg.",
+            "hint": "'sich freuen auf' + Akkusativ.",
+            "explanation": "'darauf' ersetzt 'auf + das Fest'. Im Relativsatz: 'auf das' (Akkusativ neutral). Das Verb 'gefreut haben' steht am Ende."
+          },
+          {
+            "id": "l19h06",
+            "type": "targeted-transformation",
+            "instruction": "Mache aus dem zweiten Satz einen Relativsatz und setze ihn direkt hinter das Bezugswort. Beginne mit den Wörtern in Klammern.",
+            "prompt": "Die Nachbarn sind nett. Ihre Kinder spielen oft mit meiner Tochter. (Die Nachbarn, …)",
+            "solution": "Die Nachbarn, deren Kinder oft mit meiner Tochter spielen, sind nett.",
+            "hint": "Besitz + Plural-Bezugswort.",
+            "explanation": "'ihre' (Possessiv, Plural) wird zum Genitiv-Relativpronomen 'deren'. Das Verb 'spielen' steht am Ende des Relativsatzes."
+          },
+          {
+            "id": "l19h07",
+            "type": "error-correction",
+            "instruction": "Finde den Fehler und schreibe den ganzen Satz richtig.",
+            "prompt": "Die Freunde, den ich vertraue, wohnen in Hamburg.",
+            "solution": "Die Freunde, denen ich vertraue, wohnen in Hamburg.",
+            "hint": "'vertrauen' + Dativ, Bezugswort im Plural.",
+            "explanation": "Dativ Plural des Relativpronomens ist 'denen', nicht 'den'. 'den' ist Akkusativ Singular maskulin."
+          },
+          {
+            "id": "l19h08",
+            "type": "error-correction",
+            "instruction": "Finde den Fehler und schreibe den ganzen Satz richtig.",
+            "prompt": "Das ist der Mann, deren Katze nachts immer miaut.",
+            "solution": "Das ist der Mann, dessen Katze nachts immer miaut.",
+            "hint": "Welches Genus hat das Bezugswort – nicht das Nomen danach!",
+            "explanation": "Das Genitiv-Relativpronomen richtet sich nach dem Bezugswort 'der Mann' (maskulin) → 'dessen'. Dass 'Katze' feminin ist, spielt keine Rolle. 'deren' steht nur bei femininem Bezugswort oder im Plural."
+          },
+          {
+            "id": "l19h09",
+            "type": "error-correction",
+            "instruction": "Finde den Fehler und schreibe den ganzen Satz richtig.",
+            "prompt": "Die Stadt, in die ich wohne, hat viele Parks.",
+            "solution": "Die Stadt, in der ich wohne, hat viele Parks.",
+            "hint": "Wo? oder Wohin?",
+            "explanation": "'wohnen in' beantwortet die Frage 'Wo?' → Dativ: 'in der'. 'in die' (Akkusativ) wäre eine Richtung (Wohin?)."
+          },
+          {
+            "id": "l19h10",
+            "type": "error-correction",
+            "instruction": "Finde den Fehler und schreibe den ganzen Satz richtig.",
+            "prompt": "Der Vermieter, der ist sehr zuverlässig, repariert alles sofort.",
+            "solution": "Der Vermieter, der sehr zuverlässig ist, repariert alles sofort.",
+            "hint": "Wo steht das Verb im Relativsatz?",
+            "explanation": "Ein Relativsatz ist ein Nebensatz: Das konjugierte Verb steht am Ende → 'der sehr zuverlässig ist'."
+          },
+          {
+            "id": "l19h11",
+            "type": "error-correction",
+            "instruction": "Finde den Fehler und schreibe den ganzen Satz richtig.",
+            "prompt": "Das ist ein Mensch, der man immer vertrauen kann.",
+            "solution": "Das ist ein Mensch, dem man immer vertrauen kann.",
+            "hint": "Das Subjekt im Relativsatz ist 'man'.",
+            "explanation": "'man' ist das Subjekt; 'vertrauen' verlangt den Dativ → 'dem' (der Mensch, maskulin). 'der' wäre Nominativ."
+          },
+          {
+            "id": "l19h12",
+            "type": "error-correction",
+            "instruction": "Finde den Fehler und schreibe den ganzen Satz richtig.",
+            "prompt": "Die Kinder, die ich geholfen habe, haben sich bedankt.",
+            "solution": "Die Kinder, denen ich geholfen habe, haben sich bedankt.",
+            "hint": "'helfen' ist ein Dativverb.",
+            "explanation": "'jemandem helfen' → Dativ. Dativ Plural = 'denen'. 'die' wäre Nominativ oder Akkusativ."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l19t01",
+          "type": "multiple-choice",
+          "instruction": "Wähle das richtige Relativpronomen.",
+          "prompt": "Das ist die Nachbarin, ___ ich letzte Woche meine Bohrmaschine geliehen habe.",
+          "options": [
+            "die",
+            "der",
+            "deren",
+            "denen"
+          ],
+          "solution": "der",
+          "explanation": "'leihen' hat hier eine Person im Dativ (Ich habe ihr die Bohrmaschine geliehen). Das Relativpronomen im Dativ Singular feminin heißt 'der' – nicht 'die' (Nominativ/Akkusativ), 'deren' (Genitiv) oder 'denen' (Dativ Plural)."
+        },
+        {
+          "id": "l19t02",
+          "type": "multiple-choice",
+          "instruction": "Wähle das richtige Relativpronomen.",
+          "prompt": "Herr Yilmaz ist ein Hausmeister, ___ die Mieter oft um Hilfe bitten.",
+          "options": [
+            "den",
+            "dem",
+            "der",
+            "dessen"
+          ],
+          "solution": "den",
+          "explanation": "'jemanden um etwas bitten' verlangt den Akkusativ (Die Mieter bitten ihn um Hilfe). Subjekt ist 'die Mieter' (Verb 'bitten' im Plural), also Maskulin Akkusativ: 'den'. 'der' wäre Nominativ, 'dem' Dativ."
+        },
+        {
+          "id": "l19t03",
+          "type": "multiple-choice",
+          "instruction": "Wähle das richtige Relativpronomen.",
+          "prompt": "Die Kinder, ___ Eltern sich am Hoffest beteiligen, bekommen ein Eis gratis.",
+          "options": [
+            "dessen",
+            "deren",
+            "denen",
+            "die"
+          ],
+          "solution": "deren",
+          "explanation": "Hier geht es um Besitz (die Eltern der Kinder) → Genitiv. Bei Plural (und feminin) heißt das Relativpronomen 'deren'; 'dessen' gilt nur für maskuline und neutrale Nomen im Singular."
+        },
+        {
+          "id": "l19t04",
+          "type": "multiple-choice",
+          "instruction": "Welches Adjektiv passt?",
+          "prompt": "Jemand, der immer pünktlich kommt und seine Versprechen hält, ist ___.",
+          "options": [
+            "zuverlässig",
+            "gerecht",
+            "hilfsbereit",
+            "respektvoll"
+          ],
+          "solution": "zuverlässig",
+          "explanation": "Wer Versprechen hält und pünktlich ist, auf den kann man sich verlassen: Er ist zuverlässig. 'gerecht' bedeutet fair, 'hilfsbereit' bedeutet gern helfend, 'respektvoll' beschreibt höflichen Umgang."
+        },
+        {
+          "id": "l19t05",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze das Relativpronomen.",
+          "prompt": "Die Mieter, mit ___ wir am Samstag den Keller aufgeräumt haben, sind sehr nett.",
+          "solution": "denen",
+          "explanation": "'mit' verlangt den Dativ. Im Dativ Plural heißt das Relativpronomen 'denen' – nicht 'den' wie beim Artikel."
+        },
+        {
+          "id": "l19t06",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze das Relativpronomen.",
+          "prompt": "Der Chor, ___ Leiterin ich gut kenne, sucht neue Stimmen.",
+          "solution": "dessen",
+          "explanation": "Besitz → Genitiv. Das Bezugswort 'der Chor' ist maskulin, deshalb 'dessen'. Das Geschlecht von 'Leiterin' spielt keine Rolle."
+        },
+        {
+          "id": "l19t07",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze das Relativpronomen.",
+          "prompt": "Das ist die neue Vorschrift, über ___ sich alle im Haus ärgern.",
+          "solution": "die",
+          "explanation": "'sich ärgern über' + Akkusativ. Feminin Akkusativ: 'die'. Die Präposition steht vor dem Relativpronomen."
+        },
+        {
+          "id": "l19t08",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze Präposition und Relativpronomen.",
+          "prompt": "Jonas ist ein Kollege, ___ ich mich hundertprozentig verlassen kann.",
+          "solution": "auf den",
+          "explanation": "'sich verlassen auf' + Akkusativ. Maskulin Akkusativ: 'den'. Die Präposition steht im Relativsatz ganz vorn: 'auf den'."
+        },
+        {
+          "id": "l19t09",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz.",
+          "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+          "scrambleChunks": [
+            "Wir brauchen",
+            "eine Babysitterin,",
+            "die",
+            "zuverlässig und hilfsbereit",
+            "ist"
+          ],
+          "solution": "Wir brauchen eine Babysitterin, die zuverlässig und hilfsbereit ist.",
+          "explanation": "Der Relativsatz steht direkt nach dem Bezugswort 'Babysitterin' und beginnt mit dem Relativpronomen 'die' (Nominativ, feminin). Im Relativsatz steht das konjugierte Verb ('ist') am Ende."
+        },
+        {
+          "id": "l19t10",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz.",
+          "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+          "scrambleChunks": [
+            "Die Spendenaktion,",
+            "an der sich",
+            "die ganze Schule",
+            "beteiligt hat,",
+            "hat viel Geld gebracht"
+          ],
+          "solution": "Die Spendenaktion, an der sich die ganze Schule beteiligt hat, hat viel Geld gebracht.",
+          "explanation": "Der Relativsatz steht mitten im Hauptsatz, direkt nach 'Die Spendenaktion', und wird von Kommas eingerahmt. 'sich beteiligen an' + Dativ, feminin → 'an der'. Das Verb des Relativsatzes ('beteiligt hat') steht am Ende, danach geht der Hauptsatz mit 'hat' weiter."
+        },
+        {
+          "id": "l19t11",
+          "type": "targeted-transformation",
+          "instruction": "Verbinde die Sätze mit einem Relativsatz im Genitiv. Setze ihn direkt hinter das Bezugswort und beginne mit 'Die Ärztin'.",
+          "prompt": "Die Ärztin ist sehr freundlich. Ihre Praxis liegt gleich um die Ecke.",
+          "solution": "Die Ärztin, deren Praxis gleich um die Ecke liegt, ist sehr freundlich.",
+          "explanation": "'ihre Praxis' zeigt Besitz → Genitiv-Relativpronomen. Das Bezugswort 'die Ärztin' ist feminin → 'deren' (nicht 'dessen'). Nach 'deren' folgt das Nomen ohne Artikel; das Verb 'liegt' steht am Ende des Relativsatzes."
+        },
+        {
+          "id": "l19t12",
+          "type": "targeted-transformation",
+          "instruction": "Verbinde die Sätze mit einem Relativsatz mit Präposition. Setze ihn direkt hinter das Bezugswort und beginne mit 'Der Lärm'.",
+          "prompt": "Der Lärm hat endlich aufgehört. Wir haben uns lange über den Lärm beschwert.",
+          "solution": "Der Lärm, über den wir uns lange beschwert haben, hat endlich aufgehört.",
+          "explanation": "'sich beschweren über' + Akkusativ, maskulin → 'über den'. Die Präposition steht mit dem Relativpronomen am Anfang des Relativsatzes; das Hilfsverb 'haben' steht am Ende. Danach folgt der Rest des Hauptsatzes: 'hat endlich aufgehört'."
+        },
+        {
+          "id": "l19t13",
+          "type": "targeted-transformation",
+          "instruction": "Verbinde die Sätze mit einem Relativsatz. Beginne mit 'Das sind die Studenten'.",
+          "prompt": "Das sind die Studenten. Ich habe ihnen mein altes Sofa verkauft.",
+          "solution": "Das sind die Studenten, denen ich mein altes Sofa verkauft habe.",
+          "explanation": "'jemandem etwas verkaufen': Die Person steht im Dativ ('ihnen'). Dativ Plural des Relativpronomens: 'denen' – nicht 'den' (wie der Artikel) und nicht 'die'. Das Hilfsverb 'habe' steht am Ende."
+        },
+        {
+          "id": "l19t14",
+          "type": "error-correction",
+          "instruction": "Finde den Fehler (ein falsches Wort) und schreibe den ganzen Satz richtig.",
+          "prompt": "Die Frauen, denen ich im Sprachcafé getroffen habe, kommen aus Syrien.",
+          "solution": "Die Frauen, die ich im Sprachcafé getroffen habe, kommen aus Syrien.",
+          "explanation": "'treffen' verlangt den Akkusativ (Ich habe sie getroffen). Akkusativ Plural: 'die'. 'denen' ist Dativ Plural."
+        },
+        {
+          "id": "l19t15",
+          "type": "error-correction",
+          "instruction": "Finde den Fehler (ein falsches Wort) und schreibe den ganzen Satz richtig.",
+          "prompt": "Die Lehrerin, dessen Unterricht allen gefällt, ist sehr respektvoll.",
+          "solution": "Die Lehrerin, deren Unterricht allen gefällt, ist sehr respektvoll.",
+          "explanation": "Das Genitiv-Relativpronomen richtet sich nach dem Bezugswort, nicht nach dem folgenden Nomen: 'die Lehrerin' ist feminin → 'deren'. 'dessen' gilt nur für maskuline und neutrale Nomen – dass 'der Unterricht' maskulin ist, spielt keine Rolle."
+        }
+      ]
+    },
+    {
+      "lektionId": "b1plus-m7-l20",
+      "level": "B1+",
+      "modulNumber": 7,
+      "lektionNumber": 20,
+      "title": "Am Ende der Welt",
+      "grammarFocus": [
+        "Nomenkomposita: Das Grundwort bestimmt den Artikel",
+        "Fugenelemente (-s-, -e-)",
+        "Perfekt und Präteritum in einer persönlichen E-Mail"
+      ],
+      "vocabulary": [
+        {
+          "id": "l20v01",
+          "term": "die Forschungsstation",
+          "translation": "la estación de investigación",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Forschungsstationen",
+          "example": "Die Forschungsstation liegt mitten im ewigen Eis."
+        },
+        {
+          "id": "l20v02",
+          "term": "der Auslandsaufenthalt",
+          "translation": "la estancia en el extranjero",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Auslandsaufenthalte",
+          "example": "Ein Auslandsaufenthalt verändert den Blick auf die eigene Heimat."
+        },
+        {
+          "id": "l20v03",
+          "term": "die Herausforderung",
+          "translation": "el reto / el desafío",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Herausforderungen",
+          "example": "Die lange Dunkelheit war die größte Herausforderung."
+        },
+        {
+          "id": "l20v04",
+          "term": "der Arbeitsplatz",
+          "translation": "el puesto de trabajo",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Arbeitsplätze",
+          "example": "Mein Arbeitsplatz war ein kleines Labor mit Blick aufs Meer."
+        },
+        {
+          "id": "l20v05",
+          "term": "der Bewerbungsprozess",
+          "translation": "el proceso de selección",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Bewerbungsprozesse",
+          "example": "Der Bewerbungsprozess dauerte fast ein Jahr."
+        },
+        {
+          "id": "l20v06",
+          "term": "die Kompromissbereitschaft",
+          "translation": "la disposición a hacer concesiones",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Im kleinen Team ist Kompromissbereitschaft sehr wichtig."
+        },
+        {
+          "id": "l20v07",
+          "term": "die Expedition",
+          "translation": "la expedición",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Expeditionen",
+          "example": "Sie leitet eine Expedition nach Spitzbergen."
+        },
+        {
+          "id": "l20v08",
+          "term": "die Kälte",
+          "translation": "el frío",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "An die Kälte habe ich mich schnell gewöhnt."
+        },
+        {
+          "id": "l20v09",
+          "term": "die Einsamkeit",
+          "translation": "la soledad",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Manchmal war die Einsamkeit schwer zu ertragen."
+        },
+        {
+          "id": "l20v10",
+          "term": "das Heimweh",
+          "translation": "la nostalgia (del hogar)",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "example": "In den ersten Wochen hatte ich starkes Heimweh."
+        },
+        {
+          "id": "l20v11",
+          "term": "der Wissenschaftler",
+          "translation": "el científico",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Wissenschaftler",
+          "example": "Zwölf Wissenschaftler überwintern auf der Station."
+        },
+        {
+          "id": "l20v12",
+          "term": "die Unterkunft",
+          "translation": "el alojamiento",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Unterkünfte",
+          "example": "Die Unterkunft war einfach, aber warm."
+        },
+        {
+          "id": "l20v13",
+          "term": "das Kompositum",
+          "translation": "la palabra compuesta",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Komposita",
+          "example": "'Arbeitsplatz' ist ein Kompositum aus zwei Nomen."
+        },
+        {
+          "id": "l20v14",
+          "term": "das Grundwort",
+          "translation": "la palabra base (de un compuesto)",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Grundwörter",
+          "example": "Das Grundwort steht immer am Ende des Kompositums."
+        },
+        {
+          "id": "l20v15",
+          "term": "das Bestimmungswort",
+          "translation": "el determinante (de un compuesto)",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Bestimmungswörter",
+          "example": "Das Bestimmungswort beschreibt das Grundwort genauer."
+        },
+        {
+          "id": "l20v16",
+          "term": "untersuchen",
+          "translation": "investigar / examinar",
+          "partOfSpeech": "verb",
+          "preterite": "untersuchte",
+          "participle": "untersucht",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Das Team untersucht die Temperatur des Meerwassers."
+        },
+        {
+          "id": "l20v17",
+          "term": "messen",
+          "translation": "medir",
+          "partOfSpeech": "verb",
+          "preterite": "maß",
+          "participle": "gemessen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Jeden Morgen messen wir die Windgeschwindigkeit."
+        },
+        {
+          "id": "l20v18",
+          "term": "überwintern",
+          "translation": "pasar el invierno",
+          "partOfSpeech": "verb",
+          "preterite": "überwinterte",
+          "participle": "überwintert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Nur wenige Menschen überwintern in der Antarktis."
+        },
+        {
+          "id": "l20v19",
+          "term": "sich bewerben",
+          "translation": "postularse / presentar una candidatura",
+          "partOfSpeech": "verb",
+          "preterite": "bewarb",
+          "participle": "beworben",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Ich habe mich um eine Stelle als Köchin beworben."
+        },
+        {
+          "id": "l20v20",
+          "term": "aushalten",
+          "translation": "aguantar / soportar",
+          "partOfSpeech": "verb",
+          "preterite": "hielt aus",
+          "participle": "ausgehalten",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Wie hältst du die Dunkelheit nur aus?"
+        },
+        {
+          "id": "l20v21",
+          "term": "verbringen",
+          "translation": "pasar (tiempo)",
+          "partOfSpeech": "verb",
+          "preterite": "verbrachte",
+          "participle": "verbracht",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Wir verbrachten die Abende mit Brettspielen."
+        },
+        {
+          "id": "l20v22",
+          "term": "zurückkehren",
+          "translation": "regresar",
+          "partOfSpeech": "verb",
+          "preterite": "kehrte zurück",
+          "participle": "zurückgekehrt",
+          "auxiliary": "sein",
+          "irregular": false,
+          "example": "Im April kehrt das Team nach Europa zurück."
+        },
+        {
+          "id": "l20v23",
+          "term": "abgelegen",
+          "translation": "remoto / apartado",
+          "partOfSpeech": "adjective",
+          "example": "Die Station liegt sehr abgelegen."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l20e01",
+            "type": "multiple-choice",
+            "instruction": "Welcher Artikel ist richtig?",
+            "prompt": "___ Forschungsstation",
+            "options": [
+              "der",
+              "die",
+              "das"
+            ],
+            "solution": "die",
+            "hint": "Das letzte Wort bestimmt den Artikel.",
+            "explanation": "Bei Komposita bestimmt das Grundwort (das letzte Wort) den Artikel: die Station → die Forschungsstation. 'die Forschung' ist hier nur das Bestimmungswort."
+          },
+          {
+            "id": "l20e02",
+            "type": "multiple-choice",
+            "instruction": "Welcher Artikel ist richtig?",
+            "prompt": "___ Arbeitsplatz",
+            "options": [
+              "der",
+              "die",
+              "das"
+            ],
+            "solution": "der",
+            "hint": "Schau auf das Grundwort.",
+            "explanation": "Grundwort ist 'der Platz' → der Arbeitsplatz. Der Artikel von 'die Arbeit' spielt keine Rolle."
+          },
+          {
+            "id": "l20e03",
+            "type": "multiple-choice",
+            "instruction": "Welcher Artikel ist richtig?",
+            "prompt": "___ Auslandsaufenthalt",
+            "options": [
+              "der",
+              "die",
+              "das"
+            ],
+            "solution": "der",
+            "hint": "Schau auf das Grundwort.",
+            "explanation": "Grundwort ist 'der Aufenthalt' → der Auslandsaufenthalt, obwohl es 'das Ausland' heißt."
+          },
+          {
+            "id": "l20e04",
+            "type": "multiple-choice",
+            "instruction": "Welcher Artikel ist richtig?",
+            "prompt": "___ Wörterbuch",
+            "options": [
+              "der",
+              "die",
+              "das"
+            ],
+            "solution": "das",
+            "hint": "Schau auf das Grundwort.",
+            "explanation": "Grundwort ist 'das Buch' → das Wörterbuch. 'Wörter' ist das Bestimmungswort."
+          },
+          {
+            "id": "l20e05",
+            "type": "multiple-choice",
+            "instruction": "Welches Kompositum ist richtig geschrieben?",
+            "prompt": "die Bewerbung + der Prozess",
+            "options": [
+              "der Bewerbungsprozess",
+              "der Bewerbungprozess",
+              "die Bewerbungsprozess",
+              "der Bewerbungenprozess"
+            ],
+            "solution": "der Bewerbungsprozess",
+            "hint": "Nomen auf -ung bekommen ein Fugenelement.",
+            "explanation": "Nach Bestimmungswörtern auf '-ung' steht fast immer das Fugen-s: Bewerbung-s-prozess. Artikel vom Grundwort: der Prozess."
+          },
+          {
+            "id": "l20e06",
+            "type": "multiple-choice",
+            "instruction": "Welches Kompositum ist richtig geschrieben?",
+            "prompt": "die Sicherheit + die Regel",
+            "options": [
+              "die Sicherheitsregel",
+              "die Sicherheitregel",
+              "der Sicherheitsregel",
+              "die Sicherheitenregel"
+            ],
+            "solution": "die Sicherheitsregel",
+            "hint": "Nomen auf -heit/-keit bekommen ein Fugenelement.",
+            "explanation": "Nach '-heit', '-keit', '-ung', '-ion', '-ität' steht das Fugen-s: Sicherheit-s-regel. Grundwort 'die Regel' → die Sicherheitsregel."
+          },
+          {
+            "id": "l20e07",
+            "type": "multiple-choice",
+            "instruction": "Welches Kompositum ist richtig geschrieben?",
+            "prompt": "der Hund + der Schlitten",
+            "options": [
+              "der Hundeschlitten",
+              "der Hundschlitten",
+              "die Hundeschlitten",
+              "der Hundsschlitten"
+            ],
+            "solution": "der Hundeschlitten",
+            "hint": "Hier hilft ein -e- als Fuge.",
+            "explanation": "Bei 'Hund' steht das Fugenelement '-e-': Hund-e-schlitten. Grundwort 'der Schlitten' → der Hundeschlitten."
+          },
+          {
+            "id": "l20e08",
+            "type": "fill-in-blank",
+            "instruction": "Bilde das Kompositum (ohne Artikel).",
+            "prompt": "Eine Station, in der man forscht, ist eine ___.",
+            "solution": "Forschungsstation",
+            "hint": "die Forschung + die Station, mit Fugenelement.",
+            "explanation": "Bestimmungswort 'Forschung' (auf -ung) + Fugen-s + Grundwort 'Station' → Forschungsstation."
+          },
+          {
+            "id": "l20e09",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze 'sein' im Präteritum.",
+            "prompt": "Letzten Winter ___ ich ein halbes Jahr in Norwegen.",
+            "solution": "war",
+            "hint": "In schriftlichen Berichten verwendet man 'sein' meist im Präteritum.",
+            "explanation": "'sein' steht auch in persönlichen E-Mails meist im Präteritum: ich war. 'bin gewesen' ist möglich, passt aber nicht in eine Lücke."
+          },
+          {
+            "id": "l20e10",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Partizip II von 'gefallen'.",
+            "prompt": "Die Arbeit auf der Station hat mir sehr gut ___.",
+            "solution": "gefallen",
+            "hint": "Das Partizip sieht aus wie der Infinitiv.",
+            "explanation": "'gefallen' hat die Vorsilbe 'ge-' schon im Infinitiv; das Partizip II bekommt kein zweites 'ge-': hat gefallen."
+          },
+          {
+            "id": "l20e11",
+            "type": "multiple-choice",
+            "instruction": "Welches Hilfsverb passt im Perfekt?",
+            "prompt": "Wir ___ jeden Tag die Temperatur gemessen.",
+            "options": [
+              "haben",
+              "sind",
+              "werden"
+            ],
+            "solution": "haben",
+            "hint": "'messen' hat eine Akkusativergänzung.",
+            "explanation": "Verben mit Akkusativergänzung bilden das Perfekt mit 'haben': Wir haben die Temperatur gemessen. 'werden' + Partizip wäre Passiv."
+          },
+          {
+            "id": "l20e12",
+            "type": "multiple-choice",
+            "instruction": "Welches Hilfsverb passt im Perfekt?",
+            "prompt": "Im Winter ___ wir nur selten nach draußen gegangen.",
+            "options": [
+              "sind",
+              "haben",
+              "hatten"
+            ],
+            "solution": "sind",
+            "hint": "'gehen' ist ein Verb der Bewegung.",
+            "explanation": "Verben der Bewegung (gehen, fahren, fliegen) bilden das Perfekt mit 'sein': Wir sind gegangen."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l20m01",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Partizip II.",
+            "prompt": "Wir haben jeden Morgen Wasserproben ___. (untersuchen)",
+            "solution": "untersucht",
+            "hint": "Untrennbare Vorsilbe: kein 'ge-'.",
+            "explanation": "Verben mit untrennbarer Vorsilbe (unter-, be-, ver-, er- …) bilden das Partizip ohne 'ge-': untersucht."
+          },
+          {
+            "id": "l20m02",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Hilfsverb im Präsens.",
+            "prompt": "Im März ___ ich mich um die Stelle beworben. (Perfekt)",
+            "solution": "habe",
+            "hint": "Reflexive Verben bilden das Perfekt mit …",
+            "explanation": "Reflexive Verben wie 'sich bewerben' bilden das Perfekt immer mit 'haben': ich habe mich beworben."
+          },
+          {
+            "id": "l20m03",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze 'können' im Präteritum.",
+            "prompt": "Am ersten Tag ___ ich vor Aufregung kaum schlafen.",
+            "solution": "konnte",
+            "hint": "Modalverben im Präteritum: kein Umlaut.",
+            "explanation": "Modalverben verwendet man auch beim Erzählen im Präteritum: ich konnte (ohne Umlaut). 'könnte' ist Konjunktiv II."
+          },
+          {
+            "id": "l20m04",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Partizip II.",
+            "prompt": "Nach sechs Monaten bin ich endlich nach Hause ___. (zurückkehren)",
+            "solution": "zurückgekehrt",
+            "hint": "Trennbares Verb: 'ge-' steht zwischen Vorsilbe und Stamm.",
+            "explanation": "Bei trennbaren Verben steht 'ge-' zwischen Vorsilbe und Stamm: zurück-ge-kehrt. Hilfsverb 'sein', weil es eine Ortsveränderung ist."
+          },
+          {
+            "id": "l20m05",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Hilfsverb im Präsens.",
+            "prompt": "Die Kälte ___ ich besser ausgehalten, als ich gedacht hatte. (Perfekt)",
+            "solution": "habe",
+            "hint": "'aushalten' hat eine Akkusativergänzung.",
+            "explanation": "'etwas aushalten' hat eine Akkusativergänzung ('die Kälte') → Perfekt mit 'haben': ich habe ausgehalten."
+          },
+          {
+            "id": "l20m06",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze 'haben' im Präteritum.",
+            "prompt": "Wir ___ damals auf der Station keinen Handyempfang.",
+            "solution": "hatten",
+            "hint": "'haben' erzählt man meist im Präteritum.",
+            "explanation": "'haben' und 'sein' stehen beim Erzählen meist im Präteritum: wir hatten."
+          },
+          {
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen korrekten Satz.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Weil",
+              "es",
+              "so kalt",
+              "war,",
+              "sind",
+              "wir",
+              "kaum nach draußen",
+              "gegangen."
+            ],
+            "solution": "Weil es so kalt war, sind wir kaum nach draußen gegangen.",
+            "hint": "Nebensatz mit 'weil' vorn → nach dem Komma kommt sofort das Hilfsverb.",
+            "explanation": "Im 'weil'-Satz steht das Verb 'war' am Ende. Steht der Nebensatz vorn, folgt direkt nach dem Komma das Hilfsverb 'sind', dann das Subjekt; das Partizip 'gegangen' steht am Satzende. 'gehen' bildet das Perfekt mit 'sein'.",
+            "id": "l20m07"
+          },
+          {
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen korrekten Satz.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Ich",
+              "freue",
+              "mich,",
+              "dass",
+              "du",
+              "mir",
+              "so oft",
+              "geschrieben",
+              "hast."
+            ],
+            "solution": "Ich freue mich, dass du mir so oft geschrieben hast.",
+            "hint": "Im 'dass'-Satz steht das Hilfsverb ganz am Ende.",
+            "explanation": "Im Nebensatz mit 'dass' steht das konjugierte Verb am Ende: Partizip 'geschrieben' + Hilfsverb 'hast'. Im Hauptsatz steht 'freue' auf Position 2.",
+            "id": "l20m08"
+          },
+          {
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen korrekten Satz.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Wie",
+              "lange",
+              "hast",
+              "du",
+              "in",
+              "Grönland",
+              "gearbeitet?"
+            ],
+            "solution": "Wie lange hast du in Grönland gearbeitet?",
+            "hint": "W-Frage: Fragewort – Hilfsverb – Subjekt … Partizip.",
+            "explanation": "In der W-Frage steht das Fragewort ('Wie lange') auf Position 1, das Hilfsverb 'hast' auf Position 2. Das Partizip 'gearbeitet' bildet die Satzklammer am Ende.",
+            "id": "l20m09"
+          },
+          {
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen korrekten Satz.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Hast",
+              "du",
+              "Zeit,",
+              "mir",
+              "beim",
+              "Umzug",
+              "zu",
+              "helfen?"
+            ],
+            "solution": "Hast du Zeit, mir beim Umzug zu helfen?",
+            "hint": "Nach 'Zeit haben' folgt ein Infinitiv mit 'zu'.",
+            "explanation": "Ja/Nein-Frage: Verb 'Hast' auf Position 1. Die Infinitivgruppe endet mit 'zu helfen'; die Dativergänzung 'mir' steht am Anfang der Infinitivgruppe.",
+            "id": "l20m10"
+          },
+          {
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen korrekten Satz.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Als",
+              "ich",
+              "ankam,",
+              "lag",
+              "überall",
+              "Schnee."
+            ],
+            "solution": "Als ich ankam, lag überall Schnee.",
+            "hint": "Nebensatz vorn → Verb, Komma, Verb.",
+            "explanation": "In Erzählungen stehen viele Verben im Präteritum: 'ankam' (ankommen), 'lag' (liegen). Im Nebensatz steht 'ankam' am Ende und bleibt zusammen; danach folgt direkt das Hauptsatzverb 'lag'.",
+            "id": "l20m11"
+          },
+          {
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen korrekten Satz.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Weißt",
+              "du,",
+              "welchen",
+              "Artikel",
+              "das",
+              "Wort",
+              "Hundeschlitten",
+              "hat?"
+            ],
+            "solution": "Weißt du, welchen Artikel das Wort Hundeschlitten hat?",
+            "hint": "Indirekte Frage: Das Verb steht im Nebensatz am Ende.",
+            "explanation": "Nach 'Weißt du,' folgt eine indirekte Frage mit 'welchen Artikel'; darin steht das Verb 'hat' am Ende. (Antwort: der Hundeschlitten – das Grundwort 'der Schlitten' bestimmt den Artikel.)",
+            "id": "l20m12"
+          }
+        ],
+        "hard": [
+          {
+            "id": "l20h01",
+            "type": "targeted-transformation",
+            "instruction": "Bilde das Kompositum mit dem richtigen Artikel.",
+            "prompt": "die Wohnung + der Schlüssel",
+            "solution": "der Wohnungsschlüssel",
+            "hint": "Nomen auf -ung → Fugenelement. Welcher Artikel gewinnt?",
+            "explanation": "Nach '-ung' steht das Fugen-s: Wohnung-s-schlüssel. Der Artikel kommt vom Grundwort 'der Schlüssel' → der Wohnungsschlüssel, nicht 'die' wie bei 'die Wohnung'."
+          },
+          {
+            "id": "l20h02",
+            "type": "targeted-transformation",
+            "instruction": "Bilde das Kompositum mit dem richtigen Artikel.",
+            "prompt": "schlafen + der Sack",
+            "solution": "der Schlafsack",
+            "hint": "Ist das Bestimmungswort ein Verb, nimmt man nur den Stamm.",
+            "explanation": "Bei einem Verb als Bestimmungswort fällt die Infinitivendung '-en' weg: schlaf- + Sack → Schlafsack (nicht 'Schlafensack'). Artikel vom Grundwort: der Sack → der Schlafsack."
+          },
+          {
+            "id": "l20h03",
+            "type": "targeted-transformation",
+            "instruction": "Bilde das Kompositum mit dem richtigen Artikel.",
+            "prompt": "die Forschung + das Team",
+            "solution": "das Forschungsteam",
+            "hint": "Nomen auf -ung → Fugenelement.",
+            "explanation": "Nach '-ung' steht das Fugen-s. Grundwort 'das Team' → das Forschungsteam."
+          },
+          {
+            "id": "l20h04",
+            "type": "targeted-transformation",
+            "instruction": "Bilde das Kompositum mit dem richtigen Artikel.",
+            "prompt": "die Bewerbung + das Gespräch",
+            "solution": "das Bewerbungsgespräch",
+            "hint": "Nomen auf -ung → Fugenelement.",
+            "explanation": "Bewerbung-s-gespräch; Artikel vom Grundwort 'das Gespräch'."
+          },
+          {
+            "id": "l20h05",
+            "type": "targeted-transformation",
+            "instruction": "Bilde das Kompositum mit dem richtigen Artikel.",
+            "prompt": "das Eis + der Bär",
+            "solution": "der Eisbär",
+            "hint": "Hier braucht man kein Fugenelement.",
+            "explanation": "'Eis' + 'Bär' ohne Fuge. Artikel vom Grundwort 'der Bär' → der Eisbär."
+          },
+          {
+            "id": "l20h06",
+            "type": "targeted-transformation",
+            "instruction": "Schreibe den Satz im Perfekt.",
+            "prompt": "Wir verbrachten den ganzen Winter auf der Station.",
+            "solution": "Wir haben den ganzen Winter auf der Station verbracht.",
+            "hint": "'verbringen' ist ein gemischtes Verb.",
+            "explanation": "'verbringen' → Partizip 'verbracht' (untrennbare Vorsilbe, kein 'ge-'). Mit Akkusativergänzung → Hilfsverb 'haben'."
+          },
+          {
+            "id": "l20h07",
+            "type": "targeted-transformation",
+            "instruction": "Schreibe den Satz im Perfekt.",
+            "prompt": "Ich flog im Oktober nach Grönland.",
+            "solution": "Ich bin im Oktober nach Grönland geflogen.",
+            "hint": "Verb der Bewegung → welches Hilfsverb?",
+            "explanation": "'fliegen' drückt eine Ortsveränderung aus → Perfekt mit 'sein': ich bin geflogen."
+          },
+          {
+            "id": "l20h08",
+            "type": "targeted-transformation",
+            "instruction": "Schreibe den Satz im Präteritum.",
+            "prompt": "Wir sind jeden Tag um sechs Uhr aufgestanden.",
+            "solution": "Wir standen jeden Tag um sechs Uhr auf.",
+            "hint": "'aufstehen' ist trennbar und unregelmäßig.",
+            "explanation": "Präteritum von 'stehen' ist 'stand'. Bei trennbaren Verben steht die Vorsilbe 'auf' am Satzende."
+          },
+          {
+            "id": "l20h09",
+            "type": "error-correction",
+            "instruction": "Finde den Fehler und schreibe den ganzen Satz richtig.",
+            "prompt": "Das Forschungsstation liegt sehr abgelegen.",
+            "solution": "Die Forschungsstation liegt sehr abgelegen.",
+            "hint": "Welches Wort bestimmt den Artikel?",
+            "explanation": "Der Artikel eines Kompositums kommt vom Grundwort: die Station → die Forschungsstation, nicht 'das'."
+          },
+          {
+            "id": "l20h10",
+            "type": "error-correction",
+            "instruction": "Finde den Fehler und schreibe den ganzen Satz richtig.",
+            "prompt": "Ich habe mich um einen Platz im Team beworbt.",
+            "solution": "Ich habe mich um einen Platz im Team beworben.",
+            "hint": "'bewerben' ist unregelmäßig.",
+            "explanation": "'sich bewerben' ist ein starkes Verb: bewarb – beworben. Die regelmäßige Endung '-t' ist falsch."
+          },
+          {
+            "id": "l20h11",
+            "type": "error-correction",
+            "instruction": "Finde den Fehler und schreibe den ganzen Satz richtig.",
+            "prompt": "Im Januar haben wir nach Hause zurückgekehrt.",
+            "solution": "Im Januar sind wir nach Hause zurückgekehrt.",
+            "hint": "Ortsveränderung → Hilfsverb?",
+            "explanation": "'zurückkehren' bezeichnet eine Bewegung von A nach B → Perfekt mit 'sein'."
+          },
+          {
+            "id": "l20h12",
+            "type": "error-correction",
+            "instruction": "Finde den Fehler und schreibe den ganzen Satz richtig.",
+            "prompt": "Der Arbeitplatz auf der Station war winzig.",
+            "solution": "Der Arbeitsplatz auf der Station war winzig.",
+            "hint": "Es fehlt ein Buchstabe zwischen den beiden Nomen.",
+            "explanation": "Nach 'Arbeit' steht im Kompositum das Fugen-s: Arbeit-s-platz."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l20t01",
+          "type": "multiple-choice",
+          "instruction": "Wähle den richtigen Artikel.",
+          "prompt": "___ Wetterstation liegt auf einem Berg in Norwegen.",
+          "options": [
+            "Der",
+            "Die",
+            "Das"
+          ],
+          "solution": "Die",
+          "explanation": "Bei Komposita bestimmt das Grundwort (das letzte Wort) den Artikel: die Station → die Wetterstation. 'das Wetter' ist nur das Bestimmungswort."
+        },
+        {
+          "id": "l20t02",
+          "type": "multiple-choice",
+          "instruction": "Wähle den richtigen Artikel.",
+          "prompt": "___ Handschuh ist bei der Expedition verloren gegangen.",
+          "options": [
+            "Der",
+            "Die",
+            "Das"
+          ],
+          "solution": "Der",
+          "explanation": "Das Grundwort ist 'der Schuh', also heißt es 'der Handschuh'. Das Bestimmungswort 'die Hand' ändert den Artikel nicht – deshalb ist 'Die' falsch."
+        },
+        {
+          "id": "l20t03",
+          "type": "multiple-choice",
+          "instruction": "Welches Kompositum ist richtig geschrieben?",
+          "prompt": "In der Station ist die ___ sehr lang: oft zwölf Stunden am Tag.",
+          "options": [
+            "Arbeitszeit",
+            "Arbeitzeit",
+            "Arbeitenzeit",
+            "Arbeitezeit"
+          ],
+          "solution": "Arbeitszeit",
+          "explanation": "Nach 'Arbeit' steht in Komposita das Fugen-s: Arbeitszeit, Arbeitsplatz. Die anderen Formen gibt es nicht."
+        },
+        {
+          "id": "l20t04",
+          "type": "fill-in-blank",
+          "instruction": "Bilde ein Kompositum aus den Wörtern in Klammern.",
+          "prompt": "Die ___ (Wohnung + Suche) in Tromsø war schwieriger als gedacht.",
+          "solution": "Wohnungssuche",
+          "explanation": "Nach Nomen auf '-ung' steht immer das Fugen-s: Wohnung + s + Suche. Der Artikel kommt vom Grundwort: die Suche → die Wohnungssuche."
+        },
+        {
+          "id": "l20t05",
+          "type": "fill-in-blank",
+          "instruction": "Bilde ein Kompositum aus den Wörtern in Klammern.",
+          "prompt": "Während der Expedition habe ich jeden Abend in mein ___ (Tag + Buch) geschrieben.",
+          "solution": "Tagebuch",
+          "explanation": "Hier steht das Fugenelement '-e-': Tag + e + Buch. Ohne Fuge ('Tagbuch') ist das Wort falsch. Der Artikel kommt vom Grundwort: das Buch → das Tagebuch."
+        },
+        {
+          "id": "l20t06",
+          "type": "fill-in-blank",
+          "instruction": "Bilde ein Kompositum aus den Wörtern in Klammern.",
+          "prompt": "Die ___ (Geburtstag + Feier) für Tomás fand in der kleinen Kantine statt.",
+          "solution": "Geburtstagsfeier",
+          "explanation": "Nach 'Geburtstag' steht in Komposita ein Fugen-s (vgl. Geburtstagsgeschenk). Das Grundwort 'die Feier' bestimmt den Artikel."
+        },
+        {
+          "id": "l20t07",
+          "type": "cloze-conjugation",
+          "instruction": "Setze das Verb im Präteritum ein.",
+          "prompt": "Im ersten Monat ___ ich großes Heimweh. (haben)",
+          "solution": "hatte",
+          "explanation": "In E-Mails stehen 'haben' und 'sein' meist im Präteritum. 'haben' → ich hatte."
+        },
+        {
+          "id": "l20t08",
+          "type": "cloze-conjugation",
+          "instruction": "Setze das Verb im Präteritum ein.",
+          "prompt": "Die Forscherin ___ jeden Morgen die Windgeschwindigkeit. (messen)",
+          "solution": "maß",
+          "explanation": "'messen' ist unregelmäßig: messen – maß – gemessen. 'sie' (3. Person Singular) → maß, ohne Endung; 'messte' gibt es nicht."
+        },
+        {
+          "id": "l20t09",
+          "type": "cloze-conjugation",
+          "instruction": "Setze das Partizip II ein.",
+          "prompt": "Nach der langen Nachtschicht ist Lena sofort ___. (einschlafen)",
+          "solution": "eingeschlafen",
+          "explanation": "'einschlafen' ist trennbar und unregelmäßig: 'ge' steht zwischen Präfix und Stamm, die Endung ist '-en' → eingeschlafen. Perfekt mit 'sein', weil es eine Zustandsveränderung ist (wach → schlafend)."
+        },
+        {
+          "id": "l20t10",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz.",
+          "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+          "scrambleChunks": [
+            "Ich habe",
+            "dir nicht",
+            "geschrieben,",
+            "weil",
+            "wir",
+            "kein Internet",
+            "hatten"
+          ],
+          "solution": "Ich habe dir nicht geschrieben, weil wir kein Internet hatten.",
+          "explanation": "In einer E-Mail erzählt man meist im Perfekt ('habe … geschrieben'), 'haben' und 'sein' stehen aber im Präteritum ('hatten'). Im Hauptsatz steht 'habe' auf Position 2 und das Partizip am Ende; im weil-Satz steht das Verb 'hatten' am Ende."
+        },
+        {
+          "id": "l20t11",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz.",
+          "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+          "scrambleChunks": [
+            "Ich schicke dir",
+            "ein paar Fotos,",
+            "die ich",
+            "auf der Forschungsreise",
+            "gemacht habe"
+          ],
+          "solution": "Ich schicke dir ein paar Fotos, die ich auf der Forschungsreise gemacht habe.",
+          "explanation": "Perfekt im Relativsatz: Das Hilfsverb 'habe' steht ganz am Ende, direkt nach dem Partizip 'gemacht'. Der Relativsatz folgt direkt auf 'Fotos'. 'Forschungsreise' ist ein Kompositum mit Fugen-s (Forschung + s + Reise)."
+        },
+        {
+          "id": "l20t12",
+          "type": "targeted-transformation",
+          "instruction": "Schreibe den Satz im Perfekt. Behalte die Reihenfolge der Satzteile bei.",
+          "prompt": "Das Team beobachtete die Pinguine am Strand.",
+          "solution": "Das Team hat die Pinguine am Strand beobachtet.",
+          "explanation": "Perfekt = haben/sein + Partizip II am Satzende. 'beobachten' hat die untrennbare Vorsilbe 'be-' und bildet das Partizip ohne 'ge-': beobachtet (nicht 'gebeobachtet'). Hilfsverb 'haben', weil es ein Akkusativobjekt gibt."
+        },
+        {
+          "id": "l20t13",
+          "type": "targeted-transformation",
+          "instruction": "Schreibe den Satz im Perfekt. Behalte die Reihenfolge der Satzteile bei.",
+          "prompt": "Die Wissenschaftler überwinterten in einer einfachen Unterkunft.",
+          "solution": "Die Wissenschaftler haben in einer einfachen Unterkunft überwintert.",
+          "explanation": "'überwintern' ist untrennbar (Betonung auf 'win'), deshalb kein 'ge-': überwintert. Hilfsverb 'haben', weil keine Ortsveränderung."
+        },
+        {
+          "id": "l20t14",
+          "type": "error-correction",
+          "instruction": "Finde den Fehler (ein falsches Wort) und schreibe den ganzen Satz richtig.",
+          "prompt": "Auf der Station haben wir jeden Sonntag frisches Brot gebackt.",
+          "solution": "Auf der Station haben wir jeden Sonntag frisches Brot gebacken.",
+          "explanation": "'backen' bildet das Partizip II unregelmäßig mit '-en': gebacken. Die Endung '-t' ('gebackt') gibt es nur bei regelmäßigen Verben."
+        },
+        {
+          "id": "l20t15",
+          "type": "error-correction",
+          "instruction": "Finde den Fehler (ein falsches Wort) und schreibe den ganzen Satz richtig.",
+          "prompt": "Der Schneeschaufel steht neben der Eingangstür.",
+          "solution": "Die Schneeschaufel steht neben der Eingangstür.",
+          "explanation": "Das Grundwort 'die Schaufel' bestimmt den Artikel: die Schneeschaufel. 'der' kommt vom Bestimmungswort 'der Schnee' – das ist für den Artikel aber egal."
+        }
+      ]
+    },
+    {
+      "lektionId": "b1plus-m7-l21",
+      "level": "B1+",
+      "modulNumber": 7,
+      "lektionNumber": 21,
+      "title": "Neu hier?!",
+      "grammarFocus": [
+        "Temporale Nebensätze: als vs. wenn",
+        "bevor, während, seitdem, bis, solange, sobald",
+        "nachdem + Plusquamperfekt"
+      ],
+      "vocabulary": [
+        {
+          "id": "l21v01",
+          "term": "die Integration",
+          "translation": "la integración",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Sprachkurse helfen bei der Integration."
+        },
+        {
+          "id": "l21v02",
+          "term": "die Aufenthaltsgenehmigung",
+          "translation": "el permiso de residencia",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Aufenthaltsgenehmigungen",
+          "example": "Seine Aufenthaltsgenehmigung gilt zwei Jahre."
+        },
+        {
+          "id": "l21v03",
+          "term": "das Angebot",
+          "translation": "la oferta",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Angebote",
+          "example": "Die Stadt hat viele Angebote für neue Einwohner."
+        },
+        {
+          "id": "l21v04",
+          "term": "die Behörde",
+          "translation": "la autoridad / la oficina pública",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Behörden",
+          "example": "Bei der Behörde musste ich drei Formulare ausfüllen."
+        },
+        {
+          "id": "l21v05",
+          "term": "die Umgebung",
+          "translation": "el entorno / los alrededores",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Umgebungen",
+          "example": "In der neuen Umgebung kannte ich noch niemanden."
+        },
+        {
+          "id": "l21v06",
+          "term": "die Erfahrung",
+          "translation": "la experiencia",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Erfahrungen",
+          "example": "Bei ihrem Praktikum im Hotel hat sie viel Erfahrung gesammelt."
+        },
+        {
+          "id": "l21v07",
+          "term": "der Studiengang",
+          "translation": "la carrera (universitaria)",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Studiengänge",
+          "example": "Für welchen Studiengang hast du dich entschieden?"
+        },
+        {
+          "id": "l21v08",
+          "term": "der Neuanfang",
+          "translation": "el nuevo comienzo",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Neuanfänge",
+          "example": "Der Umzug war für die ganze Familie ein Neuanfang."
+        },
+        {
+          "id": "l21v09",
+          "term": "der Betrieb",
+          "translation": "la empresa / la explotación",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Betriebe",
+          "example": "Sie arbeitet in einem kleinen Betrieb auf dem Land."
+        },
+        {
+          "id": "l21v10",
+          "term": "sich zurechtfinden",
+          "translation": "orientarse / adaptarse",
+          "partOfSpeech": "verb",
+          "preterite": "fand zurecht",
+          "participle": "zurechtgefunden",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Nach ein paar Wochen habe ich mich gut zurechtgefunden."
+        },
+        {
+          "id": "l21v11",
+          "term": "sich engagieren",
+          "translation": "comprometerse / implicarse",
+          "partOfSpeech": "verb",
+          "preterite": "engagierte",
+          "participle": "engagiert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Er engagiert sich in einem Verein für Geflüchtete."
+        },
+        {
+          "id": "l21v12",
+          "term": "gründen",
+          "translation": "fundar",
+          "partOfSpeech": "verb",
+          "preterite": "gründete",
+          "participle": "gegründet",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Sie möchte später einen eigenen Laden gründen."
+        },
+        {
+          "id": "l21v13",
+          "term": "verlassen",
+          "translation": "dejar / abandonar",
+          "partOfSpeech": "verb",
+          "preterite": "verließ",
+          "participle": "verlassen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Mit zwanzig verließ er sein Heimatland."
+        },
+        {
+          "id": "l21v14",
+          "term": "sorgen",
+          "translation": "ocuparse / encargarse",
+          "partOfSpeech": "verb",
+          "preterite": "sorgte",
+          "participle": "gesorgt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Der Verein sorgt für Kontakte zu Einheimischen."
+        },
+        {
+          "id": "l21v15",
+          "term": "sich einschreiben",
+          "translation": "matricularse",
+          "partOfSpeech": "verb",
+          "preterite": "schrieb ein",
+          "participle": "eingeschrieben",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Bis Ende Juli muss ich mich an der Uni einschreiben."
+        },
+        {
+          "id": "l21v16",
+          "term": "ankommen",
+          "translation": "llegar",
+          "partOfSpeech": "verb",
+          "preterite": "kam an",
+          "participle": "angekommen",
+          "auxiliary": "sein",
+          "irregular": true,
+          "example": "Wann bist du in Deutschland angekommen?"
+        },
+        {
+          "id": "l21v17",
+          "term": "abreisen",
+          "translation": "partir / marcharse",
+          "partOfSpeech": "verb",
+          "preterite": "reiste ab",
+          "participle": "abgereist",
+          "auxiliary": "sein",
+          "irregular": false,
+          "example": "Morgen reisen unsere Gäste wieder ab."
+        },
+        {
+          "id": "l21v18",
+          "term": "sammeln",
+          "translation": "reunir / acumular",
+          "partOfSpeech": "verb",
+          "preterite": "sammelte",
+          "participle": "gesammelt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Im Herbst sammeln die Kinder im Park Kastanien."
+        },
+        {
+          "id": "l21v19",
+          "term": "fremd",
+          "translation": "extraño / ajeno",
+          "partOfSpeech": "adjective",
+          "example": "Am Anfang war mir alles fremd."
+        },
+        {
+          "id": "l21v20",
+          "term": "fasziniert",
+          "translation": "fascinado",
+          "partOfSpeech": "adjective",
+          "example": "Ich war fasziniert von der Altstadt."
+        },
+        {
+          "id": "l21v21",
+          "term": "verantwortlich",
+          "translation": "responsable",
+          "partOfSpeech": "adjective",
+          "example": "Wer ist im Verein für die Finanzen verantwortlich?"
+        },
+        {
+          "id": "l21v22",
+          "term": "zunächst",
+          "translation": "primero / al principio",
+          "partOfSpeech": "adverb",
+          "example": "Zunächst wohnte ich bei meiner Tante."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l21e01",
+            "type": "multiple-choice",
+            "instruction": "Wähle den passenden Konnektor.",
+            "prompt": "___ ich vor fünf Jahren nach Leipzig kam, kannte ich dort niemanden.",
+            "options": [
+              "Als",
+              "Wenn",
+              "Seitdem"
+            ],
+            "solution": "Als",
+            "hint": "Einmaliges Ereignis in der Vergangenheit.",
+            "explanation": "Für ein einmaliges Ereignis in der Vergangenheit steht 'als'. 'wenn' benutzt man für Wiederholungen oder für Gegenwart/Zukunft."
+          },
+          {
+            "id": "l21e02",
+            "type": "multiple-choice",
+            "instruction": "Wähle den passenden Konnektor.",
+            "prompt": "Immer ___ ich meine Familie anrufe, bin ich danach ein bisschen traurig.",
+            "options": [
+              "wenn",
+              "als",
+              "bevor"
+            ],
+            "solution": "wenn",
+            "hint": "'Immer' zeigt eine Wiederholung.",
+            "explanation": "Wiederholte Handlungen (immer, jedes Mal) → 'wenn'. 'als' steht nur für ein einmaliges Ereignis in der Vergangenheit; 'bevor' passt nicht zu 'danach' im Hauptsatz."
+          },
+          {
+            "id": "l21e03",
+            "type": "multiple-choice",
+            "instruction": "Wähle den passenden Konnektor.",
+            "prompt": "___ ich den Deutschkurs mache, verstehe ich meine Kollegen viel besser.",
+            "options": [
+              "Seitdem",
+              "Als",
+              "Bevor"
+            ],
+            "solution": "Seitdem",
+            "hint": "Die Handlung hat in der Vergangenheit begonnen und dauert noch an.",
+            "explanation": "'seitdem' beschreibt einen Zeitraum von einem Anfangspunkt bis jetzt. 'Bevor' ergibt keinen Sinn (man versteht besser, nicht vorher)."
+          },
+          {
+            "id": "l21e04",
+            "type": "multiple-choice",
+            "instruction": "Wähle den passenden Konnektor.",
+            "prompt": "Ich muss noch viele Formulare ausfüllen, ___ ich die Aufenthaltsgenehmigung bekomme.",
+            "options": [
+              "bevor",
+              "nachdem",
+              "als"
+            ],
+            "solution": "bevor",
+            "hint": "Was passiert zuerst?",
+            "explanation": "Die Formulare kommen zuerst, die Genehmigung danach → 'bevor'. 'nachdem' würde die Reihenfolge umdrehen und verlangt eine andere Zeitform; 'als' ist nur für die Vergangenheit."
+          },
+          {
+            "id": "l21e05",
+            "type": "multiple-choice",
+            "instruction": "Wähle den passenden Konnektor.",
+            "prompt": "___ sie ihre Heimatstadt verlassen hatte, zog sie in ein kleines Dorf.",
+            "options": [
+              "Nachdem",
+              "Bevor",
+              "Solange",
+              "Seitdem"
+            ],
+            "solution": "Nachdem",
+            "hint": "Plusquamperfekt im Nebensatz, Präteritum im Hauptsatz.",
+            "explanation": "'nachdem' zeigt Vorzeitigkeit: Die Handlung im Nebensatz (Plusquamperfekt) passiert vor der Handlung im Hauptsatz (Präteritum)."
+          },
+          {
+            "id": "l21e06",
+            "type": "multiple-choice",
+            "instruction": "Wähle den passenden Konnektor.",
+            "prompt": "___ du noch im Studentenwohnheim wohnst, kannst du die Gemeinschaftsküche benutzen.",
+            "options": [
+              "Solange",
+              "Bis",
+              "Nachdem"
+            ],
+            "solution": "Solange",
+            "hint": "Beide Handlungen dauern gleich lang.",
+            "explanation": "'solange' = für die ganze Zeit, in der etwas gilt. 'bis' markiert nur einen Endpunkt, 'nachdem' Vorzeitigkeit."
+          },
+          {
+            "id": "l21e07",
+            "type": "multiple-choice",
+            "instruction": "Wähle den passenden Konnektor.",
+            "prompt": "Ruf mich bitte an, ___ du am Bahnhof angekommen bist.",
+            "options": [
+              "sobald",
+              "als",
+              "während"
+            ],
+            "solution": "sobald",
+            "hint": "Direkt danach, ohne Pause.",
+            "explanation": "'sobald' = sofort nachdem. 'als' ist nur für die Vergangenheit; 'während' bedeutet Gleichzeitigkeit."
+          },
+          {
+            "id": "l21e08",
+            "type": "multiple-choice",
+            "instruction": "Wähle den passenden Konnektor.",
+            "prompt": "___ ich auf den Bus warte, lerne ich Vokabeln mit dem Handy.",
+            "options": [
+              "Während",
+              "Nachdem",
+              "Bis"
+            ],
+            "solution": "Während",
+            "hint": "Zwei Dinge passieren gleichzeitig.",
+            "explanation": "'während' drückt Gleichzeitigkeit aus. 'nachdem' = Vorzeitigkeit, 'bis' = Endpunkt."
+          },
+          {
+            "id": "l21e09",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze 'ankommen' im Präteritum.",
+            "prompt": "Als ich in Wien ___, verstand ich die Leute kaum.",
+            "solution": "ankam",
+            "hint": "Im Nebensatz bleibt das trennbare Verb zusammen.",
+            "explanation": "Im Nebensatz steht das Verb am Ende, und trennbare Verben werden nicht getrennt: ankam."
+          },
+          {
+            "id": "l21e10",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze 'sich einschreiben' im Plusquamperfekt (Partizip + Hilfsverb).",
+            "prompt": "Nachdem er sich an der Uni ___, suchte er ein Zimmer.",
+            "solution": "eingeschrieben hatte",
+            "hint": "'nachdem' + Plusquamperfekt, wenn der Hauptsatz im Präteritum steht.",
+            "explanation": "Plusquamperfekt = hatte/war + Partizip II. 'sich einschreiben' → Hilfsverb 'haben': eingeschrieben hatte (Verb am Ende des Nebensatzes)."
+          },
+          {
+            "id": "l21e11",
+            "type": "multiple-choice",
+            "instruction": "Welches Wort passt?",
+            "prompt": "Für einen Aufenthalt von mehr als drei Monaten braucht man oft eine ___.",
+            "options": [
+              "Aufenthaltsgenehmigung",
+              "Integration",
+              "Umgebung"
+            ],
+            "solution": "Aufenthaltsgenehmigung",
+            "hint": "Ein offizielles Dokument.",
+            "explanation": "Die 'Aufenthaltsgenehmigung' erlaubt, längere Zeit in einem Land zu leben. 'Integration' ist ein Prozess, 'Umgebung' ein Ort."
+          },
+          {
+            "id": "l21e12",
+            "type": "multiple-choice",
+            "instruction": "Welches Wort passt?",
+            "prompt": "Am Anfang war mir alles ___, aber inzwischen fühle ich mich hier zu Hause.",
+            "options": [
+              "fremd",
+              "verantwortlich",
+              "engagiert"
+            ],
+            "solution": "fremd",
+            "hint": "Das Gegenteil von 'vertraut'.",
+            "explanation": "'fremd' = unbekannt, nicht vertraut. Das passt zum Gegensatz 'zu Hause fühlen'."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l21m01",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen korrekten Satz.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Als",
+              "ich",
+              "klein",
+              "war,",
+              "wohnten",
+              "wir",
+              "in Porto."
+            ],
+            "solution": "Als ich klein war, wohnten wir in Porto.",
+            "hint": "Nebensatz vorn → Verb des Hauptsatzes direkt nach dem Komma.",
+            "explanation": "Im Nebensatz steht das Verb 'war' am Ende. Steht der Nebensatz auf Position 1, folgt das Hauptsatzverb 'wohnten' direkt nach dem Komma."
+          },
+          {
+            "id": "l21m02",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen korrekten Satz.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Bevor",
+              "ich",
+              "nach Graz",
+              "gezogen",
+              "bin,",
+              "habe",
+              "ich",
+              "einen",
+              "Sprachkurs",
+              "gemacht."
+            ],
+            "solution": "Bevor ich nach Graz gezogen bin, habe ich einen Sprachkurs gemacht.",
+            "hint": "Im Nebensatz: Partizip vor Hilfsverb.",
+            "explanation": "Nebensatz: 'gezogen bin' am Ende. Danach Hauptsatz mit Verb zuerst: 'habe ich … gemacht'."
+          },
+          {
+            "id": "l21m03",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen korrekten Satz.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Ich",
+              "warte",
+              "hier,",
+              "bis",
+              "du",
+              "zurückkommst."
+            ],
+            "solution": "Ich warte hier, bis du zurückkommst.",
+            "hint": "Das trennbare Verb bleibt im Nebensatz zusammen.",
+            "explanation": "'bis' leitet einen Nebensatz ein; das Verb 'zurückkommst' steht am Ende und wird nicht getrennt."
+          },
+          {
+            "id": "l21m04",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen korrekten Satz.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Seitdem",
+              "sie",
+              "in Bremen",
+              "wohnt,",
+              "engagiert",
+              "sie",
+              "sich",
+              "im Sportverein."
+            ],
+            "solution": "Seitdem sie in Bremen wohnt, engagiert sie sich im Sportverein.",
+            "hint": "Nach dem Komma: Verb – Subjekt – Reflexivpronomen.",
+            "explanation": "Nach dem Nebensatz folgt das Hauptsatzverb 'engagiert', dann das Subjekt 'sie' und das Reflexivpronomen 'sich'."
+          },
+          {
+            "id": "l21m05",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen korrekten Satz.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Sobald",
+              "ich",
+              "die",
+              "Zusage",
+              "bekomme,",
+              "melde",
+              "ich",
+              "mich",
+              "bei dir."
+            ],
+            "solution": "Sobald ich die Zusage bekomme, melde ich mich bei dir.",
+            "hint": "Nebensatz auf Position 1.",
+            "explanation": "'Sobald'-Satz mit Verb am Ende, dann Hauptsatz mit Verb direkt nach dem Komma: 'melde ich mich'."
+          },
+          {
+            "id": "l21m06",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen korrekten Satz.",
+            "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+            "scrambleChunks": [
+              "Während",
+              "er",
+              "studierte,",
+              "arbeitete",
+              "er",
+              "in einem Café."
+            ],
+            "solution": "Während er studierte, arbeitete er in einem Café.",
+            "hint": "Zwei Verben treffen sich am Komma.",
+            "explanation": "Nebensatz endet mit 'studierte', der Hauptsatz beginnt mit 'arbeitete' – Verb, Komma, Verb."
+          },
+          {
+            "id": "l21m07",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze 'finden' im Plusquamperfekt (Partizip + Hilfsverb).",
+            "prompt": "Nachdem ich die Wohnung ___, zog ich sofort ein.",
+            "solution": "gefunden hatte",
+            "hint": "Hauptsatz im Präteritum → Nebensatz im Plusquamperfekt.",
+            "explanation": "'nachdem' verlangt Vorzeitigkeit: Präteritum im Hauptsatz → Plusquamperfekt im Nebensatz. 'finden' + Akkusativ → 'hatte'."
+          },
+          {
+            "id": "l21m08",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze 'ankommen' im Plusquamperfekt (Partizip + Hilfsverb).",
+            "prompt": "Nachdem wir in Zürich ___, suchten wir eine Wohnung.",
+            "solution": "angekommen waren",
+            "hint": "Bewegung → Hilfsverb 'sein'.",
+            "explanation": "'ankommen' bildet Perfekt und Plusquamperfekt mit 'sein': wir waren angekommen. Im Nebensatz steht das Hilfsverb am Ende."
+          },
+          {
+            "id": "l21m09",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze 'besuchen' im Präteritum.",
+            "prompt": "Als meine Schwester mich zum ersten Mal ___, zeigte ich ihr die Altstadt.",
+            "solution": "besuchte",
+            "hint": "Regelmäßiges Verb: Stamm + -te.",
+            "explanation": "Einmaliges Ereignis mit 'als' → Präteritum: sie besuchte (Verb am Ende des Nebensatzes)."
+          },
+          {
+            "id": "l21m10",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze 'haben' im Präteritum.",
+            "prompt": "Wenn ich früher Heimweh ___, rief ich meine Mutter an.",
+            "solution": "hatte",
+            "hint": "'früher' + wiederholte Handlung.",
+            "explanation": "Wiederholung in der Vergangenheit → 'wenn' mit Präteritum: ich hatte."
+          },
+          {
+            "id": "l21m11",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb im Präsens.",
+            "prompt": "Seitdem Tarek in dieser Firma ___, hat er viele Freunde gefunden. (arbeiten)",
+            "solution": "arbeitet",
+            "hint": "Die Handlung dauert bis heute an.",
+            "explanation": "'seitdem' + Präsens für eine Handlung, die noch andauert: er arbeitet. Stamm auf -t → Endung '-et'."
+          },
+          {
+            "id": "l21m12",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb im Präsens (du-Form).",
+            "prompt": "Bevor du den Mietvertrag ___, solltest du ihn genau lesen. (unterschreiben)",
+            "solution": "unterschreibst",
+            "hint": "Untrennbares Verb im Nebensatz.",
+            "explanation": "'unterschreiben' ist untrennbar; im Nebensatz steht es am Ende: du unterschreibst."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l21h01",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde die beiden Sätze. Beginne mit dem Konnektor in Klammern.",
+            "prompt": "Ich kam in Hamburg an. Ich kannte niemanden. (Als)",
+            "solution": "Als ich in Hamburg ankam, kannte ich niemanden.",
+            "hint": "Einmaliges Ereignis – Verb im Nebensatz ans Ende.",
+            "explanation": "'Als' + Präteritum für ein einmaliges Ereignis. Im Nebensatz steht 'ankam' am Ende; danach Hauptsatz mit Verb zuerst: 'kannte ich'."
+          },
+          {
+            "id": "l21h02",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde die beiden Sätze. Beginne mit dem Konnektor in Klammern. Das Zeitadverb aus dem zweiten Satz ('danach') fällt weg.",
+            "prompt": "Sie beendete ihr Studium. Danach gründete sie eine Firma. (Nachdem)",
+            "solution": "Nachdem sie ihr Studium beendet hatte, gründete sie eine Firma.",
+            "hint": "Die erste Handlung braucht eine 'frühere' Zeitform.",
+            "explanation": "'nachdem' + Plusquamperfekt (hatte beendet), wenn der Hauptsatz im Präteritum steht. 'Danach' fällt weg, weil 'nachdem' die Reihenfolge schon ausdrückt."
+          },
+          {
+            "id": "l21h03",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde die beiden Sätze. Beginne mit dem Konnektor in Klammern. Das Zeitadverb aus dem zweiten Satz ('gleichzeitig') fällt weg.",
+            "prompt": "Er lernt Deutsch. Gleichzeitig arbeitet er in einer Bäckerei. (Während)",
+            "solution": "Während er Deutsch lernt, arbeitet er in einer Bäckerei.",
+            "hint": "Gleichzeitigkeit.",
+            "explanation": "'während' ersetzt 'gleichzeitig'. Verb 'lernt' am Ende des Nebensatzes, danach 'arbeitet er'."
+          },
+          {
+            "id": "l21h04",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde die beiden Sätze. Beginne mit dem Konnektor in Klammern. Das Zeitadverb aus dem zweiten Satz ('dann') fällt weg.",
+            "prompt": "Ich habe Zeit. Dann helfe ich dir beim Umzug. (Sobald)",
+            "solution": "Sobald ich Zeit habe, helfe ich dir beim Umzug.",
+            "hint": "'sobald' = sofort, wenn …",
+            "explanation": "'sobald' ersetzt 'dann'. Im Nebensatz steht 'habe' am Ende, danach folgt 'helfe ich'."
+          },
+          {
+            "id": "l21h05",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde die beiden Sätze. Beginne mit dem Konnektor in Klammern. Das Zeitadverb aus dem zweiten Satz ('seitdem') fällt weg.",
+            "prompt": "Ich bin in diese Stadt gezogen. Seitdem fühle ich mich wohler. (Seitdem)",
+            "solution": "Seitdem ich in diese Stadt gezogen bin, fühle ich mich wohler.",
+            "hint": "Im Nebensatz: Partizip vor Hilfsverb.",
+            "explanation": "'seitdem' als Konnektor leitet einen Nebensatz ein: 'gezogen bin' am Ende. Das Adverb 'seitdem' im zweiten Satz fällt weg."
+          },
+          {
+            "id": "l21h06",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde die beiden Sätze. Beginne mit dem Konnektor in Klammern. Das Zeitadverb aus dem zweiten Satz ('vorher') fällt weg.",
+            "prompt": "Ich reise ab. Vorher verabschiede ich mich von allen. (Bevor)",
+            "solution": "Bevor ich abreise, verabschiede ich mich von allen.",
+            "hint": "Trennbares Verb im Nebensatz nicht trennen.",
+            "explanation": "'bevor' ersetzt 'vorher'. Im Nebensatz bleibt 'abreise' zusammen am Ende."
+          },
+          {
+            "id": "l21h07",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde die beiden Sätze. Beginne mit dem Konnektor in Klammern. Das Zeitadverb aus dem zweiten Satz ('jedes Mal') fällt weg.",
+            "prompt": "Ich ging früher zum Amt. Jedes Mal musste ich lange warten. (Wenn)",
+            "solution": "Wenn ich früher zum Amt ging, musste ich lange warten.",
+            "hint": "Wiederholung in der Vergangenheit.",
+            "explanation": "'jedes Mal' → wiederholte Handlung → 'wenn' (nicht 'als'), auch in der Vergangenheit. 'Jedes Mal' fällt weg."
+          },
+          {
+            "id": "l21h08",
+            "type": "error-correction",
+            "instruction": "Finde den Fehler und schreibe den ganzen Satz richtig.",
+            "prompt": "Wenn ich 2018 nach Österreich kam, sprach ich kein Deutsch.",
+            "solution": "Als ich 2018 nach Österreich kam, sprach ich kein Deutsch.",
+            "hint": "Wie oft ist man 2018 nach Österreich gekommen?",
+            "explanation": "Ein einmaliges Ereignis in der Vergangenheit → 'als'. 'wenn' steht nur für Wiederholungen oder für Gegenwart/Zukunft."
+          },
+          {
+            "id": "l21h09",
+            "type": "error-correction",
+            "instruction": "Finde den Fehler und schreibe den ganzen Satz richtig.",
+            "prompt": "Nachdem ich die Prüfung bestanden habe, feierte ich mit Freunden.",
+            "solution": "Nachdem ich die Prüfung bestanden hatte, feierte ich mit Freunden.",
+            "hint": "Hauptsatz im Präteritum → welche Zeit im Nebensatz?",
+            "explanation": "Steht der Hauptsatz im Präteritum, braucht der 'nachdem'-Satz das Plusquamperfekt: bestanden hatte."
+          },
+          {
+            "id": "l21h10",
+            "type": "error-correction",
+            "instruction": "Finde den Fehler und schreibe den ganzen Satz richtig.",
+            "prompt": "Bevor ich esse, ich wasche mir die Hände.",
+            "solution": "Bevor ich esse, wasche ich mir die Hände.",
+            "hint": "Was steht direkt nach dem Komma?",
+            "explanation": "Der Nebensatz steht auf Position 1; deshalb kommt im Hauptsatz das Verb sofort nach dem Komma, dann das Subjekt: 'wasche ich'."
+          },
+          {
+            "id": "l21h11",
+            "type": "error-correction",
+            "instruction": "Finde den Fehler und schreibe den ganzen Satz richtig.",
+            "prompt": "Ich warte an der Haltestelle, bis der Bus kommt an.",
+            "solution": "Ich warte an der Haltestelle, bis der Bus ankommt.",
+            "hint": "Trennbare Verben im Nebensatz.",
+            "explanation": "Im Nebensatz steht das Verb am Ende und trennbare Verben bleiben zusammen: ankommt."
+          },
+          {
+            "id": "l21h12",
+            "type": "error-correction",
+            "instruction": "Finde den Fehler und schreibe den ganzen Satz richtig.",
+            "prompt": "Nachdem sie angekommen hatte, rief sie ihre Eltern an.",
+            "solution": "Nachdem sie angekommen war, rief sie ihre Eltern an.",
+            "hint": "Welches Hilfsverb hat 'ankommen'?",
+            "explanation": "'ankommen' bildet Perfekt und Plusquamperfekt mit 'sein': sie war angekommen."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l21t01",
+          "type": "multiple-choice",
+          "instruction": "Wähle die passende Konjunktion.",
+          "prompt": "___ meine Eltern mich zum ersten Mal in Berlin besuchten, regnete es die ganze Woche.",
+          "options": [
+            "Als",
+            "Wenn",
+            "Seitdem",
+            "Nachdem"
+          ],
+          "solution": "Als",
+          "explanation": "Ein einmaliges Ereignis in der Vergangenheit ('zum ersten Mal') → 'als'. 'wenn' benutzt man für Wiederholungen in der Vergangenheit oder für Gegenwart/Zukunft; 'nachdem' bräuchte das Plusquamperfekt; 'seitdem' ergibt hier keinen Sinn."
+        },
+        {
+          "id": "l21t02",
+          "type": "multiple-choice",
+          "instruction": "Wähle die passende Konjunktion.",
+          "prompt": "Jedes Mal, ___ ich mit meiner Nachbarin spreche, lerne ich ein neues Wort.",
+          "options": [
+            "als",
+            "wenn",
+            "bis",
+            "seitdem"
+          ],
+          "solution": "wenn",
+          "explanation": "Wiederholte Handlungen ('jedes Mal', 'immer') → 'wenn'. 'als' steht nur für einmalige Ereignisse in der Vergangenheit; 'bis' und 'seitdem' passen nicht zu einer Wiederholung."
+        },
+        {
+          "id": "l21t03",
+          "type": "multiple-choice",
+          "instruction": "Wähle die passende Konjunktion.",
+          "prompt": "___ Amir in Dresden lebt, fährt er jeden Tag mit dem Fahrrad zur Arbeit.",
+          "options": [
+            "Seitdem",
+            "Als",
+            "Bevor",
+            "Nachdem"
+          ],
+          "solution": "Seitdem",
+          "explanation": "'seitdem' drückt aus, dass etwas in der Vergangenheit begonnen hat und bis jetzt andauert (Präsens in beiden Sätzen). 'als' passt nicht zum Präsens, 'nachdem' braucht eine abgeschlossene Handlung (Perfekt), 'bevor' ergibt keinen Sinn."
+        },
+        {
+          "id": "l21t04",
+          "type": "multiple-choice",
+          "instruction": "Wähle die passende Konjunktion.",
+          "prompt": "___ die Renovierung unserer Wohnung dauert, wohnen wir bei Freunden.",
+          "options": [
+            "Solange",
+            "Als",
+            "Nachdem",
+            "Sobald"
+          ],
+          "solution": "Solange",
+          "explanation": "'solange' = während der ganzen Zeit, in der etwas passiert: Wir wohnen genau so lange bei Freunden, wie die Renovierung dauert. 'als' steht für die Vergangenheit, 'nachdem' braucht eine abgeschlossene Handlung, und 'sobald' (= direkt nachdem etwas beginnt) passt nicht zu 'dauern'."
+        },
+        {
+          "id": "l21t05",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze: bis, bevor oder sobald.",
+          "prompt": "Ich wohne bei meiner Tante, ___ ich eine eigene Wohnung gefunden habe.",
+          "solution": "bis",
+          "explanation": "'bis' markiert das Ende eines Zeitraums: Ich wohne dort bis zu dem Moment, in dem ich eine Wohnung habe. 'sobald' und 'bevor' passen nicht zu 'wohnen' als Dauer."
+        },
+        {
+          "id": "l21t06",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze: nachdem, während oder bevor.",
+          "prompt": "___ ich die Aufenthaltsgenehmigung bekommen hatte, suchte ich mir eine Arbeit.",
+          "solution": "Nachdem",
+          "explanation": "Das Plusquamperfekt ('bekommen hatte') zeigt: Diese Handlung war zuerst fertig. Für diese Vorzeitigkeit benutzt man 'nachdem'."
+        },
+        {
+          "id": "l21t07",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze: als, nachdem oder während.",
+          "prompt": "___ ich im Integrationskurs sitze, passt meine Nachbarin auf mein Baby auf.",
+          "solution": "Während",
+          "explanation": "Beide Handlungen passieren gleichzeitig (Präsens in beiden Sätzen) → 'während'. 'als' steht nur für die Vergangenheit; 'nachdem' bräuchte eine abgeschlossene Handlung (Perfekt im Nebensatz)."
+        },
+        {
+          "id": "l21t08",
+          "type": "cloze-conjugation",
+          "instruction": "Ergänze das passende Hilfsverb (haben oder sein) im Plusquamperfekt.",
+          "prompt": "Nachdem Sofia nach Bremen umgezogen ___, meldete sie sich beim Bürgeramt an.",
+          "solution": "war",
+          "explanation": "Plusquamperfekt = Präteritum von haben/sein + Partizip II. 'umziehen' ist eine Ortsveränderung und bildet das Perfekt mit 'sein' → 'umgezogen war' (nicht 'hatte')."
+        },
+        {
+          "id": "l21t09",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz.",
+          "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+          "scrambleChunks": [
+            "Als ich",
+            "den Bahnhof",
+            "verließ,",
+            "fühlte",
+            "ich mich",
+            "sehr allein"
+          ],
+          "solution": "Als ich den Bahnhof verließ, fühlte ich mich sehr allein.",
+          "explanation": "Im Nebensatz mit 'als' steht das Verb am Ende ('verließ'). Danach folgt der Hauptsatz mit dem Verb direkt nach dem Komma ('fühlte'), weil der Nebensatz schon Position 1 besetzt; dann Subjekt und Reflexivpronomen ('ich mich')."
+        },
+        {
+          "id": "l21t10",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz.",
+          "prompt": "Bringe die Satzteile in die richtige Reihenfolge.",
+          "scrambleChunks": [
+            "Sobald",
+            "ich",
+            "meinen Studiengang",
+            "gewählt habe,",
+            "schreibe",
+            "ich mich",
+            "ein"
+          ],
+          "solution": "Sobald ich meinen Studiengang gewählt habe, schreibe ich mich ein.",
+          "explanation": "'sobald' = direkt nachdem. Im Nebensatz steht das Hilfsverb am Ende; im Hauptsatz folgt das Verb direkt nach dem Komma, das Präfix 'ein' steht am Ende."
+        },
+        {
+          "id": "l21t11",
+          "type": "targeted-transformation",
+          "instruction": "Verbinde die Sätze. Beginne mit 'Als'.",
+          "prompt": "Ich zog in die WG ein. Ich verstand die Mülltrennung noch nicht.",
+          "solution": "Als ich in die WG einzog, verstand ich die Mülltrennung noch nicht.",
+          "explanation": "Einmaliges Ereignis in der Vergangenheit → 'als'. Im Nebensatz steht das trennbare Verb zusammengeschrieben am Ende ('einzog'); der Hauptsatz beginnt nach dem Komma mit dem Verb ('verstand ich')."
+        },
+        {
+          "id": "l21t12",
+          "type": "targeted-transformation",
+          "instruction": "Verbinde die Sätze. Beginne mit 'Nachdem' und benutze das Plusquamperfekt.",
+          "prompt": "Er machte die B1-Prüfung. Dann bewarb er sich als Pfleger.",
+          "solution": "Nachdem er die B1-Prüfung gemacht hatte, bewarb er sich als Pfleger.",
+          "explanation": "Die frühere Handlung steht mit 'nachdem' im Plusquamperfekt ('gemacht hatte'), die spätere im Präteritum ('bewarb er sich'). Das Wort 'dann' fällt weg, weil 'nachdem' die Reihenfolge schon zeigt."
+        },
+        {
+          "id": "l21t13",
+          "type": "targeted-transformation",
+          "instruction": "Verbinde die Sätze. Beginne mit 'Während'.",
+          "prompt": "Mein Mann macht den Sprachkurs. Gleichzeitig kümmere ich mich um die Kinder.",
+          "solution": "Während mein Mann den Sprachkurs macht, kümmere ich mich um die Kinder.",
+          "explanation": "'während' drückt Gleichzeitigkeit aus und ersetzt 'gleichzeitig'. Verb im Nebensatz am Ende, im Hauptsatz direkt nach dem Komma."
+        },
+        {
+          "id": "l21t14",
+          "type": "error-correction",
+          "instruction": "Finde den Fehler (ein falsches Wort) und schreibe den ganzen Satz richtig.",
+          "prompt": "Als wir in den Ferien nach Hause fuhren, brachten wir immer Geschenke mit.",
+          "solution": "Wenn wir in den Ferien nach Hause fuhren, brachten wir immer Geschenke mit.",
+          "explanation": "Die Heimfahrt passierte immer wieder ('immer'): Für wiederholte Ereignisse in der Vergangenheit benutzt man 'wenn'. 'als' steht nur für ein einmaliges Ereignis."
+        },
+        {
+          "id": "l21t15",
+          "type": "error-correction",
+          "instruction": "Finde den Fehler (ein falsches Wort) und schreibe den ganzen Satz richtig.",
+          "prompt": "Nachdem meine Kinder eingeschlafen sind, lernte ich noch eine Stunde Vokabeln.",
+          "solution": "Nachdem meine Kinder eingeschlafen waren, lernte ich noch eine Stunde Vokabeln.",
+          "explanation": "Steht der Hauptsatz im Präteritum ('lernte'), braucht der 'nachdem'-Satz das Plusquamperfekt. 'einschlafen' bildet das Perfekt mit 'sein' → 'eingeschlafen waren', nicht Perfekt 'eingeschlafen sind'."
+        }
+      ]
+    }
+  ]
+}

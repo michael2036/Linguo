@@ -33,7 +33,7 @@ You will be given, for one Lektion:
      (dialogues, short texts, situational tasks).
    - The **Arbeitsbuch** (AB) answer key — dense self-study drills, often
      already split into `leicht`/`schwer` (easy/hard) variants.
-2. **Lektion metadata**: `level` (A1/A2/B1), `modulNumber`, `lektionNumber`,
+2. **Lektion metadata**: `level` (A1/A2/B1/B1+), `modulNumber`, `lektionNumber`,
    `title`.
 
 You never receive, and must never ask for, the full copyrighted workbook

@@ -1,0 +1,2515 @@
+{
+  "modulId": "b1plus-m6",
+  "level": "B1+",
+  "modulNumber": 6,
+  "title": "Bist du fit?",
+  "lektionen": [
+    {
+      "lektionId": "b1plus-m6-l16",
+      "level": "B1+",
+      "modulNumber": 6,
+      "lektionNumber": 16,
+      "title": "Essen – aber wie?",
+      "grammarFocus": [
+        "Finalsätze: um … zu (gleiches Subjekt)",
+        "Finalsätze: damit (verschiedene Subjekte)",
+        "zum + nominalisierter Infinitiv",
+        "Wortschatz Ernährung: Nahrung, Mahlzeit, Gericht"
+      ],
+      "vocabulary": [
+        {
+          "id": "l16v01",
+          "term": "die Ernährung",
+          "translation": "la alimentación",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Eine ausgewogene Ernährung hält den Körper fit."
+        },
+        {
+          "id": "l16v02",
+          "term": "die Nahrung",
+          "translation": "el alimento, la comida",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Kleine Kinder brauchen besonders nährstoffreiche Nahrung."
+        },
+        {
+          "id": "l16v03",
+          "term": "die Mahlzeit",
+          "translation": "la comida (del día)",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Mahlzeiten",
+          "example": "Wir essen drei Mahlzeiten am Tag."
+        },
+        {
+          "id": "l16v04",
+          "term": "das Gericht",
+          "translation": "el plato",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Gerichte",
+          "example": "Meine Oma kocht die besten Gerichte der ganzen Familie."
+        },
+        {
+          "id": "l16v05",
+          "term": "der Nährstoff",
+          "translation": "el nutriente",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Nährstoffe",
+          "example": "Gemüse enthält viele wichtige Nährstoffe."
+        },
+        {
+          "id": "l16v06",
+          "term": "das Lebensmittel",
+          "translation": "el alimento, el producto alimenticio",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Lebensmittel",
+          "example": "Wir kaufen unsere Lebensmittel auf dem Wochenmarkt."
+        },
+        {
+          "id": "l16v07",
+          "term": "die Zutat",
+          "translation": "el ingrediente",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Zutaten",
+          "example": "Für diese Suppe brauchst du nur fünf Zutaten."
+        },
+        {
+          "id": "l16v08",
+          "term": "das Vollkornbrot",
+          "translation": "el pan integral",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Vollkornbrote",
+          "example": "Zum Frühstück esse ich gern Vollkornbrot mit Käse."
+        },
+        {
+          "id": "l16v09",
+          "term": "der Zucker",
+          "translation": "el azúcar",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "example": "In vielen Getränken steckt zu viel Zucker."
+        },
+        {
+          "id": "l16v10",
+          "term": "die Mensa",
+          "translation": "el comedor universitario",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Mensen",
+          "example": "Mittags treffen sich die Studierenden in der Mensa."
+        },
+        {
+          "id": "l16v11",
+          "term": "die Portion",
+          "translation": "la porción, la ración",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Portionen",
+          "example": "Die Portionen in diesem Restaurant sind riesig."
+        },
+        {
+          "id": "l16v12",
+          "term": "die Kantine",
+          "translation": "el comedor (de empresa)",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Kantinen",
+          "example": "In der Kantine gibt es jeden Tag ein Salatbuffet."
+        },
+        {
+          "id": "l16v13",
+          "term": "der Imbiss",
+          "translation": "el puesto de comida rápida",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Imbisse",
+          "example": "Nach dem Kino holen wir uns etwas am Imbiss."
+        },
+        {
+          "id": "l16v14",
+          "term": "der Hunger",
+          "translation": "el hambre",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "example": "Nach dem Schwimmen habe ich immer großen Hunger."
+        },
+        {
+          "id": "l16v15",
+          "term": "sich ernähren",
+          "translation": "alimentarse",
+          "partOfSpeech": "verb",
+          "preterite": "ernährte sich",
+          "participle": "ernährt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Meine Schwester ernährt sich seit einem Jahr vegan."
+        },
+        {
+          "id": "l16v16",
+          "term": "zubereiten",
+          "translation": "preparar (comida)",
+          "partOfSpeech": "verb",
+          "preterite": "bereitete zu",
+          "participle": "zubereitet",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Er bereitet das Abendessen immer frisch zu."
+        },
+        {
+          "id": "l16v17",
+          "term": "verzichten",
+          "translation": "renunciar (a)",
+          "partOfSpeech": "verb",
+          "preterite": "verzichtete",
+          "participle": "verzichtet",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "In der Fastenzeit verzichte ich auf Schokolade."
+        },
+        {
+          "id": "l16v18",
+          "term": "abnehmen",
+          "translation": "adelgazar",
+          "partOfSpeech": "verb",
+          "preterite": "nahm ab",
+          "participle": "abgenommen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Durch mehr Bewegung hat Frank fünf Kilo abgenommen."
+        },
+        {
+          "id": "l16v19",
+          "term": "zunehmen",
+          "translation": "engordar",
+          "partOfSpeech": "verb",
+          "preterite": "nahm zu",
+          "participle": "zugenommen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Im Urlaub nehme ich meistens ein bisschen zu."
+        },
+        {
+          "id": "l16v20",
+          "term": "probieren",
+          "translation": "probar",
+          "partOfSpeech": "verb",
+          "preterite": "probierte",
+          "participle": "probiert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Möchtest du die Soße mal probieren?"
+        },
+        {
+          "id": "l16v21",
+          "term": "vegan",
+          "translation": "vegano",
+          "partOfSpeech": "adjective",
+          "example": "Das Café hat auch vegane Kuchen."
+        },
+        {
+          "id": "l16v22",
+          "term": "ausgewogen",
+          "translation": "equilibrado",
+          "partOfSpeech": "adjective",
+          "example": "Ein ausgewogenes Frühstück gibt Energie für den Vormittag."
+        },
+        {
+          "id": "l16v23",
+          "term": "satt",
+          "translation": "lleno, saciado",
+          "partOfSpeech": "adjective",
+          "example": "Danke, ich bin schon satt."
+        },
+        {
+          "id": "l16v24",
+          "term": "kalorienarm",
+          "translation": "bajo en calorías",
+          "partOfSpeech": "adjective",
+          "example": "Gemüsesuppe ist lecker und kalorienarm."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l16e01",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Wort.",
+            "prompt": "Ich esse morgens Haferflocken, ___ lange satt zu bleiben.",
+            "options": [
+              "um",
+              "damit",
+              "zum",
+              "weil"
+            ],
+            "solution": "um",
+            "hint": "Achte auf 'zu' + Infinitiv am Satzende.",
+            "explanation": "Der Nebensatz hat kein eigenes Subjekt und endet mit 'zu bleiben' – das ist ein Finalsatz mit 'um … zu'. 'damit' und 'weil' bräuchten ein Subjekt und ein konjugiertes Verb; 'zum' steht nur vor einem Nomen."
+          },
+          {
+            "id": "l16e02",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Wort.",
+            "prompt": "Ich koche jeden Abend frisch, ___ meine Kinder gesund essen.",
+            "options": [
+              "damit",
+              "um",
+              "zu",
+              "zum"
+            ],
+            "solution": "damit",
+            "hint": "Wer isst? Ist das dasselbe Subjekt wie im Hauptsatz?",
+            "explanation": "Im Hauptsatz ist 'ich' das Subjekt, im Nebensatz 'meine Kinder' – bei verschiedenen Subjekten braucht man 'damit'. 'um … zu' geht nur bei gleichem Subjekt und ohne eigenes Subjekt im Nebensatz."
+          },
+          {
+            "id": "l16e03",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Wort.",
+            "prompt": "Wir brauchen eine große Schüssel ___ Mischen des Teigs.",
+            "options": [
+              "zum",
+              "zur",
+              "um",
+              "damit"
+            ],
+            "solution": "zum",
+            "hint": "Ein Verb als Nomen ist immer neutral.",
+            "explanation": "Ein nominalisierter Infinitiv (das Mischen) ist immer neutral: zu + dem = 'zum'. 'zur' passt nur zu femininen Nomen; 'um' und 'damit' leiten Nebensätze ein."
+          },
+          {
+            "id": "l16e04",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze 'um' oder 'damit'.",
+            "prompt": "Lina geht in die Mensa, ___ dort günstig zu essen.",
+            "solution": "um",
+            "hint": "Gibt es im Nebensatz ein Subjekt?",
+            "explanation": "Lina ist Subjekt beider Handlungen, und der Nebensatz endet mit 'zu essen' – also 'um … zu'. 'damit' bräuchte ein Subjekt und ein konjugiertes Verb: '…, damit sie dort günstig isst.'"
+          },
+          {
+            "id": "l16e05",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze 'um' oder 'damit'.",
+            "prompt": "Der Koch erklärt das Rezept genau, ___ die Gäste es nachkochen können.",
+            "solution": "damit",
+            "hint": "Wer erklärt, wer kocht nach?",
+            "explanation": "Der Koch erklärt, die Gäste kochen nach – zwei verschiedene Subjekte, deshalb 'damit'. 'um … zu' ist hier nicht möglich, weil der Nebensatz ein eigenes Subjekt hat."
+          },
+          {
+            "id": "l16e06",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze 'zum' oder 'zur'.",
+            "prompt": "Diese Pfanne benutze ich nur ___ Braten.",
+            "solution": "zum",
+            "hint": "Welches Genus hat 'das Braten'?",
+            "explanation": "Nominalisierte Verben sind immer neutral (das Braten), deshalb heißt es 'zum' (= zu dem). 'zur' (= zu der) steht nur vor femininen Nomen."
+          },
+          {
+            "id": "l16e07",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Nomen.",
+            "prompt": "Das Frühstück ist für viele die wichtigste ___ des Tages.",
+            "options": [
+              "Mahlzeit",
+              "Nahrung",
+              "Ernährung",
+              "Zutat"
+            ],
+            "solution": "Mahlzeit",
+            "hint": "Frühstück, Mittagessen, Abendessen …",
+            "explanation": "Frühstück, Mittag- und Abendessen sind Mahlzeiten – das Essen zu einer bestimmten Zeit. 'Nahrung' ist alles, was man isst; 'Ernährung' ist die Art, wie man sich ernährt; eine 'Zutat' ist ein Bestandteil eines Rezepts."
+          },
+          {
+            "id": "l16e08",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Nomen.",
+            "prompt": "Auf der Speisekarte stehen heute drei vegetarische ___.",
+            "options": [
+              "Gerichte",
+              "Nährstoffe",
+              "Zutaten",
+              "Lebensmittel"
+            ],
+            "solution": "Gerichte",
+            "hint": "Was kann man im Restaurant bestellen?",
+            "explanation": "Ein 'Gericht' ist eine fertig zubereitete Speise – genau das steht auf der Speisekarte. 'Nährstoffe' (z. B. Vitamine) stecken im Essen, 'Zutaten' sind die Bestandteile eines Rezepts, und 'Lebensmittel' kauft man roh im Supermarkt – nichts davon bestellt man als Speise."
+          },
+          {
+            "id": "l16e09",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Nomen.",
+            "prompt": "Vitamine und Mineralstoffe sind wichtige ___.",
+            "options": [
+              "Nährstoffe",
+              "Gerichte",
+              "Mahlzeiten",
+              "Portionen"
+            ],
+            "solution": "Nährstoffe",
+            "hint": "Was steckt in Lebensmitteln und braucht der Körper?",
+            "explanation": "Vitamine und Mineralstoffe sind Nährstoffe: Stoffe in der Nahrung, die der Körper braucht. Gerichte, Mahlzeiten und Portionen sind Speisen bzw. Mengen, keine Stoffe."
+          },
+          {
+            "id": "l16e10",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Wort.",
+            "prompt": "Die Eltern kochen mit den Kindern, ___ die Kinder den Umgang mit Lebensmitteln lernen.",
+            "options": [
+              "damit",
+              "um",
+              "zum",
+              "zu"
+            ],
+            "solution": "damit",
+            "hint": "Vergleiche die Subjekte.",
+            "explanation": "Subjekt im Hauptsatz: 'die Eltern', im Nebensatz: 'die Kinder' – verschiedene Subjekte verlangen 'damit'. Mit 'um … zu' wären es die Eltern, die etwas lernen."
+          },
+          {
+            "id": "l16e11",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze 'um' oder 'damit'.",
+            "prompt": "Frau Keller trinkt viel Wasser, ___ sich besser konzentrieren zu können.",
+            "solution": "um",
+            "hint": "Endet der Nebensatz mit 'zu' + Infinitiv?",
+            "explanation": "Frau Keller trinkt und will sich konzentrieren – gleiches Subjekt, Infinitiv mit 'zu' am Ende: 'um … zu'. Mit 'damit' müsste es heißen: '…, damit sie sich besser konzentrieren kann.'"
+          },
+          {
+            "id": "l16e12",
+            "type": "multiple-choice",
+            "instruction": "Welcher Satz ist richtig?",
+            "prompt": "Handlung: Ich fahre mit dem Rad. Ziel: Ich will fit bleiben.",
+            "options": [
+              "Ich fahre mit dem Rad, um fit zu bleiben.",
+              "Ich fahre mit dem Rad, damit fit zu bleiben.",
+              "Ich fahre mit dem Rad, um ich fit bleibe.",
+              "Ich fahre mit dem Rad, zum fit bleiben."
+            ],
+            "solution": "Ich fahre mit dem Rad, um fit zu bleiben.",
+            "hint": "Gleiches Subjekt – welcher Konnektor passt zum Infinitiv?",
+            "explanation": "Bei gleichem Subjekt: 'um' + … + 'zu' + Infinitiv, ohne Subjekt; das Modalverb 'wollen' fällt weg. 'damit' verlangt Subjekt und konjugiertes Verb, 'um' kein Subjekt; 'zum' steht nur vor einem Nomen."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l16m01",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze den Infinitiv mit 'zu'.",
+            "prompt": "Ich schneide das Gemüse klein, um es schneller ___. (zubereiten)",
+            "solution": "zuzubereiten",
+            "hint": "Trennbares Verb: Wo steht 'zu'?",
+            "explanation": "Bei trennbaren Verben steht 'zu' zwischen Präfix und Stamm und wird zusammengeschrieben: zu + zu + bereiten = 'zuzubereiten'. 'zu zubereiten' ist falsch."
+          },
+          {
+            "id": "l16m02",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze den Infinitiv mit 'zu'.",
+            "prompt": "Tim verzichtet abends auf Süßigkeiten, um ___. (abnehmen)",
+            "solution": "abzunehmen",
+            "hint": "Trennbares Verb: Präfix + zu + Stamm.",
+            "explanation": "'abnehmen' ist trennbar, deshalb steht 'zu' in der Mitte: 'abzunehmen'. Nach 'um' muss am Ende immer der Infinitiv mit 'zu' stehen."
+          },
+          {
+            "id": "l16m03",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb im Präsens.",
+            "prompt": "Die Kantine bietet mehr Salate an, damit jeder Mitarbeiter sich gesünder ___. (ernähren)",
+            "solution": "ernährt",
+            "hint": "'damit'-Satz: konjugiertes Verb am Ende. Wer ist das Subjekt?",
+            "explanation": "Nach 'damit' folgt ein Nebensatz mit eigenem Subjekt ('jeder Mitarbeiter', 3. Person Singular); das konjugierte Verb steht am Ende: 'ernährt'. Kein 'zu' – 'zu' + Infinitiv gibt es nur bei 'um … zu'."
+          },
+          {
+            "id": "l16m04",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze den Infinitiv mit 'zu'.",
+            "prompt": "Wir kaufen regionale Lebensmittel, um die Bauern aus der Umgebung ___. (unterstützen)",
+            "solution": "zu unterstützen",
+            "hint": "Ist 'unterstützen' trennbar?",
+            "explanation": "'unterstützen' ist nicht trennbar (Betonung auf 'stützen'), deshalb steht 'zu' getrennt davor: 'zu unterstützen'."
+          },
+          {
+            "id": "l16m05",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb im Präsens.",
+            "prompt": "Die Ärztin gibt Jonas einen Ernährungsplan, damit er mehr Nährstoffe ___. (aufnehmen)",
+            "solution": "aufnimmt",
+            "hint": "Im Nebensatz wird das trennbare Verb nicht getrennt.",
+            "explanation": "Im 'damit'-Satz steht das konjugierte Verb am Ende; trennbare Verben bleiben dort zusammen: 'aufnimmt'. Achtung Vokalwechsel: er nimmt."
+          },
+          {
+            "id": "l16m06",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb im Präsens.",
+            "prompt": "Ich schreibe dir das Rezept auf, damit du die Suppe selbst ___. (zubereiten)",
+            "solution": "zubereitest",
+            "hint": "Im Nebensatz bleibt das trennbare Verb zusammen – Endung für 'du'?",
+            "explanation": "Im 'damit'-Satz steht das konjugierte Verb am Ende, und trennbare Verben werden dort nicht getrennt: 'zubereitest' (du-Endung -est, weil der Stamm auf -t endet). 'bereitest … zu' gilt nur im Hauptsatz."
+          },
+          {
+            "id": "l16m07",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Ich'.",
+            "prompt": "Baue den Satz aus den Bausteinen.",
+            "scrambleChunks": [
+              "Ich",
+              "esse",
+              "viel",
+              "Obst,",
+              "um",
+              "gesund",
+              "zu",
+              "bleiben"
+            ],
+            "solution": "Ich esse viel Obst, um gesund zu bleiben.",
+            "hint": "Nach 'um' kommt 'zu' + Infinitiv ganz am Ende.",
+            "explanation": "Hauptsatz (Verb auf Position 2), Komma, dann der Finalsatz: 'um' am Anfang, 'zu bleiben' am Ende, dazwischen die Ergänzungen."
+          },
+          {
+            "id": "l16m08",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Mira'.",
+            "prompt": "Baue den Satz aus den Bausteinen.",
+            "scrambleChunks": [
+              "Mira",
+              "kocht",
+              "vegan,",
+              "damit",
+              "ihr",
+              "Freund",
+              "mitessen",
+              "kann"
+            ],
+            "solution": "Mira kocht vegan, damit ihr Freund mitessen kann.",
+            "hint": "Im 'damit'-Satz steht das konjugierte Verb am Ende.",
+            "explanation": "'damit' leitet einen Nebensatz ein: Subjekt ('ihr Freund') direkt danach, das Modalverb 'kann' ganz am Ende, der Infinitiv 'mitessen' davor."
+          },
+          {
+            "id": "l16m09",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Zum'.",
+            "prompt": "Baue den Satz aus den Bausteinen.",
+            "scrambleChunks": [
+              "Zum",
+              "Abnehmen",
+              "braucht",
+              "man",
+              "vor",
+              "allem",
+              "Geduld"
+            ],
+            "solution": "Zum Abnehmen braucht man vor allem Geduld.",
+            "hint": "'Zum Abnehmen' steht auf Position 1 – was folgt auf Position 2?",
+            "explanation": "'Zum Abnehmen' ist eine Zweckangabe und besetzt Position 1; danach kommt das konjugierte Verb 'braucht', dann das Subjekt 'man'."
+          },
+          {
+            "id": "l16m10",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Wir'.",
+            "prompt": "Baue den Satz aus den Bausteinen.",
+            "scrambleChunks": [
+              "Wir",
+              "gehen",
+              "in",
+              "die",
+              "Mensa,",
+              "um",
+              "zu",
+              "Mittag",
+              "zu",
+              "essen"
+            ],
+            "solution": "Wir gehen in die Mensa, um zu Mittag zu essen.",
+            "hint": "'zu Mittag essen' – und das 'zu' des Infinitivs?",
+            "explanation": "Der feste Ausdruck heißt 'zu Mittag essen'. Im 'um … zu'-Satz kommt noch das Infinitiv-'zu' direkt vor 'essen': 'um zusammen zu Mittag zu essen'."
+          },
+          {
+            "id": "l16m11",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Der Koch'.",
+            "prompt": "Baue den Satz aus den Bausteinen.",
+            "scrambleChunks": [
+              "Der",
+              "Koch",
+              "probiert",
+              "die",
+              "Soße,",
+              "um",
+              "sie",
+              "richtig",
+              "zu",
+              "würzen"
+            ],
+            "solution": "Der Koch probiert die Soße, um sie richtig zu würzen.",
+            "hint": "Das Pronomen 'sie' steht früh im Finalsatz.",
+            "explanation": "Gleiches Subjekt (der Koch probiert und würzt) → 'um … zu'. Im Infinitivsatz steht kein Subjekt; das Objekt-Pronomen 'sie' folgt direkt nach 'um', 'zu würzen' steht am Ende."
+          },
+          {
+            "id": "l16m12",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Die Schule'.",
+            "prompt": "Baue den Satz aus den Bausteinen.",
+            "scrambleChunks": [
+              "Die",
+              "Schule",
+              "bietet",
+              "ein",
+              "warmes",
+              "Mittagessen",
+              "an,",
+              "damit",
+              "alle",
+              "Kinder",
+              "satt",
+              "werden"
+            ],
+            "solution": "Die Schule bietet ein warmes Mittagessen an, damit alle Kinder satt werden.",
+            "hint": "Trennbares Verb im Hauptsatz, konjugiertes Verb am Ende des Nebensatzes.",
+            "explanation": "Im Hauptsatz wird 'anbieten' getrennt ('bietet … an'). Nach dem Komma folgt der 'damit'-Satz mit neuem Subjekt ('alle Kinder') und dem Verb 'werden' am Ende."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l16h01",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde die Sätze mit 'um … zu'. Beginne mit 'Ich trinke'.",
+            "prompt": "Ich trinke morgens grünen Tee. Ich will wach werden.",
+            "solution": "Ich trinke morgens grünen Tee, um wach zu werden.",
+            "hint": "Das Subjekt und 'will' fallen weg.",
+            "explanation": "Gleiches Subjekt → 'um … zu'. Subjekt und Modalverb 'wollen' entfallen, weil der Finalsatz die Absicht schon ausdrückt; am Ende steht 'zu werden'."
+          },
+          {
+            "id": "l16h02",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde die Sätze mit 'damit'. Beginne mit 'Die Mutter'.",
+            "prompt": "Die Mutter schneidet das Obst klein. Das Baby kann es gut essen.",
+            "solution": "Die Mutter schneidet das Obst klein, damit das Baby es gut essen kann.",
+            "hint": "Konjugiertes Verb ans Ende des Nebensatzes.",
+            "explanation": "Verschiedene Subjekte (die Mutter / das Baby) → 'damit'. Im Nebensatz steht das Modalverb 'kann' am Ende, der Infinitiv 'essen' direkt davor."
+          },
+          {
+            "id": "l16h03",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde die Sätze. Verwende 'um … zu', wenn es möglich ist, sonst 'damit'. Beginne mit 'Wir kaufen'.",
+            "prompt": "Wir kaufen auf dem Markt ein. Wir wollen frisches Gemüse bekommen.",
+            "solution": "Wir kaufen auf dem Markt ein, um frisches Gemüse zu bekommen.",
+            "hint": "Gleiches Subjekt? Dann fällt auch 'wollen' weg.",
+            "explanation": "'wir' ist in beiden Sätzen Subjekt, also ist 'um … zu' möglich. 'wollen' wird im Finalsatz weggelassen, weil 'um … zu' die Absicht schon ausdrückt."
+          },
+          {
+            "id": "l16h04",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde die Sätze. Verwende 'um … zu', wenn es möglich ist, sonst 'damit'. Beginne mit 'Der Trainer' und lass das Modalverb weg.",
+            "prompt": "Der Trainer erstellt einen Speiseplan. Die Sportler sollen genug Eiweiß essen.",
+            "solution": "Der Trainer erstellt einen Speiseplan, damit die Sportler genug Eiweiß essen.",
+            "hint": "Verschiedene Subjekte – und das Modalverb 'sollen'?",
+            "explanation": "Der Trainer erstellt, die Sportler essen – verschiedene Subjekte, deshalb nur 'damit'. 'sollen' fällt weg, denn 'damit' drückt den Zweck bereits aus."
+          },
+          {
+            "id": "l16h05",
+            "type": "targeted-transformation",
+            "instruction": "Forme um: Verwende 'zum' + nominalisiertes Verb.",
+            "prompt": "Ich brauche Ruhe, um zu kochen.",
+            "solution": "Ich brauche Ruhe zum Kochen.",
+            "hint": "Aus 'kochen' wird ein Nomen – Großschreibung!",
+            "explanation": "'um zu' + Infinitiv ohne Ergänzung kann man kürzer mit 'zum' + nominalisiertem Infinitiv ausdrücken: 'zum Kochen'. Das Verb wird zum neutralen Nomen und großgeschrieben."
+          },
+          {
+            "id": "l16h06",
+            "type": "targeted-transformation",
+            "instruction": "Forme um: Verwende 'zum' + nominalisiertes Verb.",
+            "prompt": "Morgens haben wir kaum Zeit, um zu frühstücken.",
+            "solution": "Morgens haben wir kaum Zeit zum Frühstücken.",
+            "hint": "'das Frühstücken' – mit welchem Artikel nach 'zu'?",
+            "explanation": "'Zeit, um zu frühstücken' = 'Zeit zum Frühstücken'. zu + dem → 'zum', weil nominalisierte Verben immer neutral sind."
+          },
+          {
+            "id": "l16h07",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde die Sätze mit 'damit'. Beginne mit 'Damit'.",
+            "prompt": "Die Gäste haben genug Platz. Wir stellen einen zweiten Tisch auf.",
+            "solution": "Damit die Gäste genug Platz haben, stellen wir einen zweiten Tisch auf.",
+            "hint": "Nebensatz vorn → im Hauptsatz kommt zuerst das Verb.",
+            "explanation": "Steht der 'damit'-Satz auf Position 1, beginnt der Hauptsatz mit dem konjugierten Verb: 'stellen wir … auf' (Verb – Subjekt)."
+          },
+          {
+            "id": "l16h08",
+            "type": "error-correction",
+            "instruction": "Korrigiere den Fehler. Ändere nur ein Wort.",
+            "prompt": "Ich esse viel Gemüse, damit gesund zu bleiben.",
+            "solution": "Ich esse viel Gemüse, um gesund zu bleiben.",
+            "hint": "Welcher Konnektor passt zu 'zu' + Infinitiv?",
+            "explanation": "Ein Nebensatz ohne Subjekt mit 'zu' + Infinitiv braucht 'um'. 'damit' verlangt ein Subjekt und ein konjugiertes Verb ('damit ich gesund bleibe')."
+          },
+          {
+            "id": "l16h09",
+            "type": "error-correction",
+            "instruction": "Korrigiere den Fehler. Ändere nur ein Wort.",
+            "prompt": "Mein Bruder kocht für uns, um wir nicht hungrig sind.",
+            "solution": "Mein Bruder kocht für uns, damit wir nicht hungrig sind.",
+            "hint": "Der Nebensatz hat ein eigenes Subjekt.",
+            "explanation": "'wir' ist ein anderes Subjekt als 'mein Bruder', und das Verb 'sind' ist konjugiert – das geht nur mit 'damit'. Nach 'um' darf kein Subjekt stehen."
+          },
+          {
+            "id": "l16h10",
+            "type": "error-correction",
+            "instruction": "Korrigiere den Fehler. Ein Wort fehlt.",
+            "prompt": "Sie geht jeden Morgen joggen, um fit bleiben.",
+            "solution": "Sie geht jeden Morgen joggen, um fit zu bleiben.",
+            "hint": "Was steht bei 'um' immer vor dem Infinitiv?",
+            "explanation": "Ein 'um'-Satz endet immer mit 'zu' + Infinitiv: 'um fit zu bleiben'. Ohne 'zu' ist der Finalsatz unvollständig."
+          },
+          {
+            "id": "l16h11",
+            "type": "error-correction",
+            "instruction": "Korrigiere den Fehler. Ändere nur ein Wort.",
+            "prompt": "Für den Salat brauche ich ein scharfes Messer zur Schneiden.",
+            "solution": "Für den Salat brauche ich ein scharfes Messer zum Schneiden.",
+            "hint": "'das Schneiden' – welches Genus?",
+            "explanation": "Nominalisierte Infinitive sind neutral (das Schneiden), deshalb zu + dem = 'zum'. 'zur' ist die Kurzform von 'zu der' und passt nur vor femininen Nomen."
+          },
+          {
+            "id": "l16h12",
+            "type": "error-correction",
+            "instruction": "Korrigiere den Fehler.",
+            "prompt": "Sie steht früh auf, um das Mittagessen zu vorbereiten.",
+            "solution": "Sie steht früh auf, um das Mittagessen vorzubereiten.",
+            "hint": "'vorbereiten' ist trennbar.",
+            "explanation": "Bei trennbaren Verben steht 'zu' zwischen Präfix und Stamm, alles in einem Wort: 'vorzubereiten'. 'zu vorbereiten' ist falsch."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l16t01",
+          "type": "multiple-choice",
+          "instruction": "Wähle den passenden Konnektor.",
+          "prompt": "Wir nehmen einen Einkaufszettel mit, ___ wir nichts vergessen.",
+          "options": [
+            "damit",
+            "um",
+            "zu",
+            "zum"
+          ],
+          "solution": "damit",
+          "explanation": "Der Nebensatz hat ein eigenes Subjekt ('wir') und ein konjugiertes Verb am Ende – das geht nur mit 'damit'. 'um' braucht 'zu' + Infinitiv, 'zum' steht vor einem Nomen."
+        },
+        {
+          "id": "l16t02",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Wort.",
+          "prompt": "Paula steht früh auf, ___ in Ruhe zu frühstücken.",
+          "options": [
+            "um",
+            "damit",
+            "zum",
+            "für"
+          ],
+          "solution": "um",
+          "explanation": "Am Ende steht 'zu' + Infinitiv und es gibt kein neues Subjekt – also 'um … zu'. 'damit' bräuchte ein Subjekt und ein konjugiertes Verb."
+        },
+        {
+          "id": "l16t03",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Wort.",
+          "prompt": "Dieses Messer ist nur ___ Schneiden von Brot gedacht.",
+          "options": [
+            "zum",
+            "zu",
+            "um",
+            "damit"
+          ],
+          "solution": "zum",
+          "explanation": "Vor einem nominalisierten Infinitiv (das Schneiden) steht 'zum' (= zu + dem) und nennt den Zweck. 'um' und 'damit' leiten Nebensätze ein; 'zu' allein geht nicht, weil der Artikel 'dem' fehlt."
+        },
+        {
+          "id": "l16t04",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Nomen.",
+          "prompt": "Unter der Woche essen wir nur zwei ___ gemeinsam: das Frühstück und das Abendessen.",
+          "options": [
+            "Mahlzeiten",
+            "Zutaten",
+            "Nährstoffe",
+            "Gerichte"
+          ],
+          "solution": "Mahlzeiten",
+          "explanation": "Frühstück und Abendessen sind 'Mahlzeiten' – das Essen zu einer bestimmten Tageszeit. 'Gerichte' sind konkrete Speisen (z. B. Lasagne), 'Zutaten' und 'Nährstoffe' sind Bestandteile des Essens."
+        },
+        {
+          "id": "l16t05",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze 'um' oder 'damit'.",
+          "prompt": "Ich esse mittags in der Kantine, ___ Zeit zu sparen.",
+          "solution": "um",
+          "explanation": "Gleiches Subjekt (ich) und 'zu' + Infinitiv am Ende → 'um … zu'."
+        },
+        {
+          "id": "l16t06",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze 'um' oder 'damit'.",
+          "prompt": "Die Kellnerin bringt sofort das Wasser, ___ die Gäste nicht warten müssen.",
+          "solution": "damit",
+          "explanation": "Die Kellnerin bringt das Wasser, aber die Gäste sollen nicht warten – zwei verschiedene Subjekte, deshalb 'damit' mit konjugiertem Verb am Ende. 'um … zu' geht nur bei gleichem Subjekt."
+        },
+        {
+          "id": "l16t07",
+          "type": "cloze-conjugation",
+          "instruction": "Bilde aus dem Verb in Klammern einen nominalisierten Infinitiv.",
+          "prompt": "Im Park gibt es jetzt Tische und Bänke zum ___ (grillen).",
+          "solution": "Grillen",
+          "explanation": "Nach 'zum' (= zu + dem) steht ein nominalisierter Infinitiv: das Grillen → zum Grillen. Als Nomen schreibt man ihn groß."
+        },
+        {
+          "id": "l16t08",
+          "type": "sentence-scramble",
+          "instruction": "Bilde den Satz. Beginne mit 'Ben'.",
+          "prompt": "Bringe die Wörter in die richtige Reihenfolge.",
+          "scrambleChunks": [
+            "Ben",
+            "meldet",
+            "sich",
+            "im",
+            "Fitnessstudio",
+            "an,",
+            "um",
+            "Muskeln",
+            "aufzubauen."
+          ],
+          "solution": "Ben meldet sich im Fitnessstudio an, um Muskeln aufzubauen.",
+          "explanation": "Gleiches Subjekt (Ben) → 'um … zu'. Bei trennbaren Verben steht 'zu' zwischen Präfix und Verb: auf-zu-bauen. Im Hauptsatz steht das Präfix 'an' am Ende, das Reflexivpronomen 'sich' direkt nach dem Verb."
+        },
+        {
+          "id": "l16t09",
+          "type": "sentence-scramble",
+          "instruction": "Bilde den Satz. Beginne mit 'Oma'.",
+          "prompt": "Bringe die Wörter in die richtige Reihenfolge.",
+          "scrambleChunks": [
+            "Oma",
+            "kocht",
+            "ohne",
+            "Salz,",
+            "damit",
+            "Opa",
+            "gesund",
+            "bleibt."
+          ],
+          "solution": "Oma kocht ohne Salz, damit Opa gesund bleibt.",
+          "explanation": "Zwei verschiedene Subjekte (Oma / Opa) → 'damit', nicht 'um … zu'. Im damit-Satz steht das konjugierte Verb ('bleibt') am Ende."
+        },
+        {
+          "id": "l16t10",
+          "type": "targeted-transformation",
+          "instruction": "Verbinde die Sätze mit 'um … zu'. Beginne mit 'Jana'.",
+          "prompt": "Jana kauft einen Mixer. Sie will jeden Morgen Smoothies machen.",
+          "solution": "Jana kauft einen Mixer, um jeden Morgen Smoothies zu machen.",
+          "explanation": "Beide Sätze haben dasselbe Subjekt (Jana/sie) → 'um … zu'. Das Subjekt und das Modalverb 'will' fallen weg; 'zu' + Infinitiv steht am Ende."
+        },
+        {
+          "id": "l16t11",
+          "type": "targeted-transformation",
+          "instruction": "Verbinde die Sätze mit 'damit' (ohne Modalverb). Beginne mit 'Der Vater'.",
+          "prompt": "Der Vater kocht kalorienarm. Die Familie soll ausgewogen essen.",
+          "solution": "Der Vater kocht kalorienarm, damit die Familie ausgewogen isst.",
+          "explanation": "Zwei verschiedene Subjekte (der Vater / die Familie) → 'damit'. 'sollen' drückt schon den Zweck aus und fällt im damit-Satz weg; das Verb 'isst' steht am Ende."
+        },
+        {
+          "id": "l16t12",
+          "type": "targeted-transformation",
+          "instruction": "Formuliere den Nebensatz mit 'um … zu' um.",
+          "prompt": "Ich trinke viel Wasser, damit ich nicht so viel Hunger habe.",
+          "solution": "Ich trinke viel Wasser, um nicht so viel Hunger zu haben.",
+          "explanation": "Wenn das Subjekt im Haupt- und Nebensatz gleich ist (ich / ich), benutzt man besser 'um … zu'. Das Subjekt fällt weg, 'zu haben' steht am Ende."
+        },
+        {
+          "id": "l16t13",
+          "type": "targeted-transformation",
+          "instruction": "Ersetze 'um … zu' durch 'zum' + nominalisierten Infinitiv.",
+          "prompt": "Wir brauchen eine Waage, um die Zutaten abzuwiegen.",
+          "solution": "Wir brauchen eine Waage zum Abwiegen der Zutaten.",
+          "explanation": "'zum' + nominalisierter Infinitiv (das Abwiegen); das Objekt wird zum Genitiv: die Zutaten → der Zutaten."
+        },
+        {
+          "id": "l16t14",
+          "type": "error-correction",
+          "instruction": "Korrigiere nur den Konnektor.",
+          "prompt": "Wir gehen nach dem Essen spazieren, damit besser zu verdauen.",
+          "solution": "Wir gehen nach dem Essen spazieren, um besser zu verdauen.",
+          "explanation": "Der Nebensatz hat kein eigenes Subjekt und endet mit 'zu' + Infinitiv – das geht nur mit 'um … zu'. Nach 'damit' bräuchte man ein Subjekt und ein konjugiertes Verb am Ende."
+        },
+        {
+          "id": "l16t15",
+          "type": "error-correction",
+          "instruction": "Korrigiere nur den Konnektor.",
+          "prompt": "Die Kantine kennzeichnet alle Gerichte, um Allergiker sicher auswählen können.",
+          "solution": "Die Kantine kennzeichnet alle Gerichte, damit Allergiker sicher auswählen können.",
+          "explanation": "Der Nebensatz hat ein eigenes Subjekt (Allergiker) und ein konjugiertes Verb am Ende (können) – das verlangt 'damit'. 'um' braucht 'zu' + Infinitiv und kein neues Subjekt."
+        }
+      ]
+    },
+    {
+      "lektionId": "b1plus-m6-l17",
+      "level": "B1+",
+      "modulNumber": 6,
+      "lektionNumber": 17,
+      "title": "Gesund und munter?",
+      "grammarFocus": [
+        "Nomen-Verb-Verbindungen beim Arzt",
+        "leiden an + Dativ; Perfekt/Präteritum starker Verben",
+        "Redemittel für eine Präsentation",
+        "Rechtschreibung: s, ss oder ß"
+      ],
+      "vocabulary": [
+        {
+          "id": "l17v01",
+          "term": "der Rücken",
+          "translation": "la espalda",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Rücken",
+          "example": "Nach der Gartenarbeit tut mir der Rücken weh."
+        },
+        {
+          "id": "l17v02",
+          "term": "das Herz",
+          "translation": "el corazón",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Herzen",
+          "example": "Ausdauersport ist gut für das Herz."
+        },
+        {
+          "id": "l17v03",
+          "term": "die Lunge",
+          "translation": "el pulmón",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Lungen",
+          "example": "Rauchen schadet der Lunge."
+        },
+        {
+          "id": "l17v04",
+          "term": "der Magen",
+          "translation": "el estómago",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Mägen",
+          "example": "Vor Prüfungen habe ich oft einen nervösen Magen."
+        },
+        {
+          "id": "l17v05",
+          "term": "das Knie",
+          "translation": "la rodilla",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Knie",
+          "example": "Beim Fußball hat sich Noah am Knie verletzt."
+        },
+        {
+          "id": "l17v06",
+          "term": "der Blutdruck",
+          "translation": "la presión arterial",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "example": "Die Ärztin misst bei jedem Besuch den Blutdruck."
+        },
+        {
+          "id": "l17v07",
+          "term": "das Rezept",
+          "translation": "la receta (médica)",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Rezepte",
+          "example": "Für dieses Medikament brauchen Sie ein Rezept."
+        },
+        {
+          "id": "l17v08",
+          "term": "die Tablette",
+          "translation": "la pastilla",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Tabletten",
+          "example": "Nehmen Sie eine Tablette vor dem Schlafengehen."
+        },
+        {
+          "id": "l17v09",
+          "term": "die Nebenwirkung",
+          "translation": "el efecto secundario",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Nebenwirkungen",
+          "example": "Müdigkeit ist eine häufige Nebenwirkung."
+        },
+        {
+          "id": "l17v10",
+          "term": "der Verband",
+          "translation": "el vendaje",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Verbände",
+          "example": "Der Arzt legt einen Verband um das Handgelenk."
+        },
+        {
+          "id": "l17v11",
+          "term": "das Symptom",
+          "translation": "el síntoma",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Symptome",
+          "example": "Fieber und Husten sind typische Symptome einer Grippe."
+        },
+        {
+          "id": "l17v12",
+          "term": "die Ausdauer",
+          "translation": "la resistencia",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Radfahren verbessert die Ausdauer."
+        },
+        {
+          "id": "l17v13",
+          "term": "der Kreislauf",
+          "translation": "la circulación (sanguínea)",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Kreisläufe",
+          "example": "Eine kalte Dusche bringt den Kreislauf in Schwung."
+        },
+        {
+          "id": "l17v14",
+          "term": "messen",
+          "translation": "medir",
+          "partOfSpeech": "verb",
+          "preterite": "maß",
+          "participle": "gemessen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Die Krankenpflegerin misst das Fieber."
+        },
+        {
+          "id": "l17v15",
+          "term": "verschreiben",
+          "translation": "recetar",
+          "partOfSpeech": "verb",
+          "preterite": "verschrieb",
+          "participle": "verschrieben",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Der Hausarzt verschreibt ihr eine Salbe."
+        },
+        {
+          "id": "l17v16",
+          "term": "einnehmen",
+          "translation": "tomar (medicamentos)",
+          "partOfSpeech": "verb",
+          "preterite": "nahm ein",
+          "participle": "eingenommen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Diese Tropfen nimmt man vor dem Essen ein."
+        },
+        {
+          "id": "l17v17",
+          "term": "leiden",
+          "translation": "sufrir, padecer",
+          "partOfSpeech": "verb",
+          "preterite": "litt",
+          "participle": "gelitten",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Viele Menschen leiden im Frühling an Heuschnupfen."
+        },
+        {
+          "id": "l17v18",
+          "term": "stärken",
+          "translation": "fortalecer",
+          "partOfSpeech": "verb",
+          "preterite": "stärkte",
+          "participle": "gestärkt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Yoga stärkt die Muskeln im Rücken."
+        },
+        {
+          "id": "l17v19",
+          "term": "fördern",
+          "translation": "fomentar, favorecer",
+          "partOfSpeech": "verb",
+          "preterite": "förderte",
+          "participle": "gefördert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Bewegung an der frischen Luft fördert einen guten Schlaf."
+        },
+        {
+          "id": "l17v20",
+          "term": "beeinträchtigen",
+          "translation": "perjudicar, afectar",
+          "partOfSpeech": "verb",
+          "preterite": "beeinträchtigte",
+          "participle": "beeinträchtigt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Lärm kann die Konzentration beeinträchtigen."
+        },
+        {
+          "id": "l17v21",
+          "term": "empfehlen",
+          "translation": "recomendar",
+          "partOfSpeech": "verb",
+          "preterite": "empfahl",
+          "participle": "empfohlen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Die Apothekerin empfiehlt mir einen Kräutertee."
+        },
+        {
+          "id": "l17v22",
+          "term": "sich entspannen",
+          "translation": "relajarse",
+          "partOfSpeech": "verb",
+          "preterite": "entspannte sich",
+          "participle": "entspannt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Beim Lesen kann ich mich gut entspannen."
+        },
+        {
+          "id": "l17v23",
+          "term": "der Blickkontakt",
+          "translation": "el contacto visual",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "example": "Halte bei deiner Präsentation Blickkontakt mit dem Publikum."
+        },
+        {
+          "id": "l17v24",
+          "term": "die Körpersprache",
+          "translation": "el lenguaje corporal",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Eine offene Körpersprache wirkt sympathisch."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l17e01",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Verb.",
+            "prompt": "Die Ärztin ___ den Blutdruck.",
+            "options": [
+              "misst",
+              "stellt",
+              "nimmt ein",
+              "zieht"
+            ],
+            "solution": "misst",
+            "hint": "Welches Verb passt zu 'Blutdruck'?",
+            "explanation": "Die feste Verbindung heißt 'den Blutdruck messen'. Man 'stellt' eine Diagnose, 'nimmt' Tabletten 'ein' und 'zieht' einen Zahn."
+          },
+          {
+            "id": "l17e02",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Präfix.",
+            "prompt": "Der Arzt stellt mir ein Rezept ___.",
+            "options": [
+              "aus",
+              "an",
+              "ein",
+              "vor"
+            ],
+            "solution": "aus",
+            "hint": "Ein Dokument wird geschrieben und übergeben.",
+            "explanation": "Ein Rezept, ein Attest oder eine Bescheinigung 'stellt man aus'. 'anstellen', 'einstellen' und 'vorstellen' haben ganz andere Bedeutungen."
+          },
+          {
+            "id": "l17e03",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Präfix.",
+            "prompt": "Nehmen Sie die Tabletten dreimal täglich nach dem Essen ___.",
+            "options": [
+              "ein",
+              "aus",
+              "an",
+              "ab"
+            ],
+            "solution": "ein",
+            "hint": "Medikamente schluckt man.",
+            "explanation": "Medikamente 'nimmt man ein' (= schlucken). 'abnehmen' heißt Gewicht verlieren, 'annehmen' akzeptieren, 'ausnehmen' passt hier nicht."
+          },
+          {
+            "id": "l17e04",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Präposition.",
+            "prompt": "Frau Brandt leidet seit Jahren ___ Migräne.",
+            "options": [
+              "an",
+              "auf",
+              "mit",
+              "für"
+            ],
+            "solution": "an",
+            "hint": "'leiden' + Präposition + Dativ.",
+            "explanation": "Bei Krankheiten sagt man 'leiden an + Dativ' (auch 'leiden unter'). 'auf', 'mit' und 'für' passen nicht zu 'leiden'."
+          },
+          {
+            "id": "l17e05",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Nomen.",
+            "prompt": "Die Krankenschwester legt am Knie einen ___ an.",
+            "options": [
+              "Verband",
+              "Blutdruck",
+              "Kreislauf",
+              "Rücken"
+            ],
+            "solution": "Verband",
+            "hint": "Was wickelt man um eine Wunde?",
+            "explanation": "Die feste Verbindung heißt 'einen Verband anlegen'. Den Blutdruck misst man, den Kreislauf bringt man in Schwung, und einen Rücken kann man nicht 'anlegen'."
+          },
+          {
+            "id": "l17e06",
+            "type": "multiple-choice",
+            "instruction": "Wie beginnt man eine Präsentation?",
+            "prompt": "Welcher Satz passt an den Anfang eines Vortrags?",
+            "options": [
+              "In meinem Vortrag geht es um gesunden Schlaf.",
+              "Zusammenfassend lässt sich sagen, dass Schlaf wichtig ist.",
+              "Vielen Dank für Ihre Aufmerksamkeit.",
+              "Gibt es noch Fragen?"
+            ],
+            "solution": "In meinem Vortrag geht es um gesunden Schlaf.",
+            "hint": "Zuerst nennt man das Thema.",
+            "explanation": "Am Anfang stellt man das Thema vor: 'In meinem Vortrag geht es um …'. 'Zusammenfassend …', der Dank und die Frage nach Fragen gehören an den Schluss."
+          },
+          {
+            "id": "l17e07",
+            "type": "multiple-choice",
+            "instruction": "Wie beendet man eine Präsentation?",
+            "prompt": "Welcher Satz passt an das Ende eines Vortrags?",
+            "options": [
+              "Vielen Dank für Ihre Aufmerksamkeit.",
+              "Heute möchte ich Ihnen etwas über Bewegung erzählen.",
+              "Zuerst erkläre ich, warum Sport gesund ist.",
+              "Mein Vortrag besteht aus drei Teilen."
+            ],
+            "solution": "Vielen Dank für Ihre Aufmerksamkeit.",
+            "hint": "Womit verabschiedet man sich vom Publikum?",
+            "explanation": "Zum Schluss bedankt man sich: 'Vielen Dank für Ihre Aufmerksamkeit.' Die anderen Sätze leiten das Thema ein oder gliedern den Vortrag – sie stehen am Anfang."
+          },
+          {
+            "id": "l17e08",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze s, ss oder ß.",
+            "prompt": "Kannst du mir bitte das Me___er für das Brot geben?",
+            "solution": "ss",
+            "hint": "Ist das 'e' kurz oder lang?",
+            "explanation": "Das 'e' in 'Messer' ist kurz, deshalb schreibt man 'ss'. Nach langem Vokal oder Diphthong (au, ei, eu) schreibt man 'ß', nach kurzem Vokal 'ss'. Ein einfaches 's' zwischen Vokalen wird stimmhaft gesprochen."
+          },
+          {
+            "id": "l17e09",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze s, ss oder ß.",
+            "prompt": "Zum Geburtstag sto___en wir mit Orangensaft an.",
+            "solution": "ß",
+            "hint": "Ist das 'o' kurz oder lang?",
+            "explanation": "Das 'o' in 'anstoßen' ist lang, und der s-Laut ist stimmlos – deshalb 'ß'. Nach kurzem Vokal schriebe man 'ss'; ein einfaches 's' zwischen Vokalen klingt weich (stimmhaft)."
+          },
+          {
+            "id": "l17e10",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze s, ss oder ß.",
+            "prompt": "Mein Opa geht jeden Tag zu Fu___ zum Bäcker.",
+            "solution": "ß",
+            "hint": "Sprich das Wort laut: langer oder kurzer Vokal?",
+            "explanation": "'Fuß' hat ein langes 'u' und einen stimmlosen s-Laut – also 'ß'. Nach langem Vokal oder Diphthong (au, ei, eu) schreibt man 'ß', nach kurzem Vokal 'ss'. Ein einfaches 's' zwischen Vokalen wird stimmhaft gesprochen."
+          },
+          {
+            "id": "l17e11",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze s, ss oder ß.",
+            "prompt": "Nach dem Training legen wir uns auf die Wie___e.",
+            "solution": "s",
+            "hint": "Klingt der s-Laut weich (stimmhaft)?",
+            "explanation": "In 'Wiese' wird das s stimmhaft (weich) gesprochen, deshalb nur ein 's'. 'ß' und 'ss' stehen für den stimmlosen, scharfen s-Laut."
+          },
+          {
+            "id": "l17e12",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Verb.",
+            "prompt": "Regelmäßiges Schwimmen ___ die Ausdauer.",
+            "options": [
+              "fördert",
+              "leidet",
+              "misst",
+              "verschreibt"
+            ],
+            "solution": "fördert",
+            "hint": "Was tut Sport für die Ausdauer?",
+            "explanation": "'die Ausdauer fördern' = verbessern, unterstützen. 'leiden' braucht eine Präposition, und man 'misst' oder 'verschreibt' keine Ausdauer."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l17m01",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb im Präsens.",
+            "prompt": "Der Hausarzt ___ mir ein Medikament gegen Husten. (verschreiben)",
+            "solution": "verschreibt",
+            "hint": "3. Person Singular.",
+            "explanation": "'verschreiben' hat das untrennbare Präfix 'ver-' und keinen Vokalwechsel im Präsens: er verschreibt. Nur im Präteritum/Partizip ändert sich der Stamm (verschrieb, verschrieben)."
+          },
+          {
+            "id": "l17m02",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb im Präsens.",
+            "prompt": "Seit wann ___ Sie an Rückenschmerzen? (leiden)",
+            "solution": "leiden",
+            "hint": "Höflichkeitsform 'Sie'.",
+            "explanation": "Die Sie-Form hat dieselbe Endung wie die 3. Person Plural: 'Sie leiden'. Nach 'leiden an' folgt der Dativ."
+          },
+          {
+            "id": "l17m03",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb im Präteritum.",
+            "prompt": "Letzte Woche ___ die Ärztin meinen Blutdruck. (messen)",
+            "solution": "maß",
+            "hint": "Starkes Verb: messen – maß – gemessen.",
+            "explanation": "'messen' ist unregelmäßig; das Präteritum heißt 'maß' (mit ß nach langem a). 'messte' gibt es nicht."
+          },
+          {
+            "id": "l17m04",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb im Präteritum.",
+            "prompt": "Als Kind ___ ich oft an Ohrenschmerzen. (leiden)",
+            "solution": "litt",
+            "hint": "leiden – litt – gelitten.",
+            "explanation": "'leiden' ist unregelmäßig: Präteritum 'litt' (1. und 3. Person Singular gleich, ohne Endung). 'leidete' ist falsch."
+          },
+          {
+            "id": "l17m05",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Partizip II.",
+            "prompt": "Der Arzt hat mir Physiotherapie ___. (empfehlen)",
+            "solution": "empfohlen",
+            "hint": "empfehlen – empfahl – ?",
+            "explanation": "'empfehlen' ist unregelmäßig und hat das Präfix 'emp-', deshalb kein 'ge-': 'empfohlen'."
+          },
+          {
+            "id": "l17m06",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb im Präsens.",
+            "prompt": "Ich ___ die Medikamente immer nach dem Frühstück ein. (nehmen)",
+            "solution": "nehme",
+            "hint": "Trennbares Verb 'einnehmen': 'ein' steht schon am Ende.",
+            "explanation": "Im Hauptsatz wird 'einnehmen' getrennt: 'ich nehme … ein'. In der 1. Person Singular gibt es keinen Vokalwechsel (nur du nimmst, er nimmt)."
+          },
+          {
+            "id": "l17m07",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb im Präsens.",
+            "prompt": "Dauerhafter Stress ___ die Konzentration. (beeinträchtigen)",
+            "solution": "beeinträchtigt",
+            "hint": "Nicht trennbar, 3. Person Singular.",
+            "explanation": "'beeinträchtigen' ist regelmäßig und nicht trennbar: es beeinträchtigt. Subjekt ist 'Stress' (Singular)."
+          },
+          {
+            "id": "l17m08",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Die Ärztin'.",
+            "prompt": "Baue den Satz aus den Bausteinen.",
+            "scrambleChunks": [
+              "Die",
+              "Ärztin",
+              "hat",
+              "mir",
+              "ein",
+              "Rezept",
+              "ausgestellt"
+            ],
+            "solution": "Die Ärztin hat mir ein Rezept ausgestellt.",
+            "hint": "Perfekt: Partizip am Ende. Pronomen im Dativ vor dem Nomen im Akkusativ.",
+            "explanation": "Die feste Verbindung 'ein Rezept ausstellen' im Perfekt: 'hat' auf Position 2, 'ausgestellt' (trennbar: aus-ge-stellt) am Ende. Das Dativpronomen 'mir' steht vor dem Akkusativnomen 'ein Rezept'."
+          },
+          {
+            "id": "l17m09",
+            "type": "sentence-scramble",
+            "instruction": "Bilde eine Frage. Beginne mit 'Wie oft'.",
+            "prompt": "Baue den Satz aus den Bausteinen.",
+            "scrambleChunks": [
+              "Wie",
+              "oft",
+              "muss",
+              "ich",
+              "die",
+              "Tabletten",
+              "einnehmen?"
+            ],
+            "solution": "Wie oft muss ich die Tabletten einnehmen?",
+            "hint": "Modalverb auf Position 2, Infinitiv am Ende.",
+            "explanation": "In der W-Frage steht das Modalverb 'muss' auf Position 2, der Infinitiv 'einnehmen' am Ende. Mit Modalverb wird das trennbare Verb nicht getrennt."
+          },
+          {
+            "id": "l17m10",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Nach der Sauna'.",
+            "prompt": "Baue den Satz aus den Bausteinen.",
+            "scrambleChunks": [
+              "Nach",
+              "der",
+              "Sauna",
+              "entspanne",
+              "ich",
+              "mich",
+              "immer"
+            ],
+            "solution": "Nach der Sauna entspanne ich mich immer.",
+            "hint": "Nach Position 1 kommt das Verb, dann das Subjekt.",
+            "explanation": "'Nach der Sauna' besetzt Position 1, das Verb 'entspanne' Position 2, dann Subjekt 'ich' und Reflexivpronomen 'mich'."
+          },
+          {
+            "id": "l17m11",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'In meiner Präsentation'.",
+            "prompt": "Baue den Satz aus den Bausteinen.",
+            "scrambleChunks": [
+              "In",
+              "meiner",
+              "Präsentation",
+              "geht",
+              "es",
+              "um",
+              "gesunde",
+              "Ernährung"
+            ],
+            "solution": "In meiner Präsentation geht es um gesunde Ernährung.",
+            "hint": "Redemittel: 'Es geht um …'",
+            "explanation": "Das Redemittel 'es geht um + Akkusativ' nennt das Thema. Nach 'In meiner Präsentation' (Position 1) folgt das Verb 'geht', dann 'es'."
+          },
+          {
+            "id": "l17m12",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Zum Schluss'.",
+            "prompt": "Baue den Satz aus den Bausteinen.",
+            "scrambleChunks": [
+              "Zum",
+              "Schluss",
+              "fasse",
+              "ich",
+              "die",
+              "wichtigsten",
+              "Punkte",
+              "zusammen"
+            ],
+            "solution": "Zum Schluss fasse ich die wichtigsten Punkte zusammen.",
+            "hint": "Redemittel für das Ende einer Präsentation; trennbares Verb.",
+            "explanation": "'Zum Schluss' steht auf Position 1, dann das Verb 'fasse' und das Subjekt 'ich'. 'zusammenfassen' ist trennbar, das Präfix 'zusammen' steht am Ende. Mit diesem Redemittel leitet man den Schluss einer Präsentation ein."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l17h01",
+            "type": "targeted-transformation",
+            "instruction": "Schreibe den Satz im Perfekt.",
+            "prompt": "Die Ärztin verschreibt mir Tropfen.",
+            "solution": "Die Ärztin hat mir Tropfen verschrieben.",
+            "hint": "Präfix 'ver-' → kein 'ge-'.",
+            "explanation": "Perfekt = 'haben' + Partizip II am Ende. 'verschreiben' hat ein untrennbares Präfix, darum 'verschrieben' ohne 'ge-'."
+          },
+          {
+            "id": "l17h02",
+            "type": "targeted-transformation",
+            "instruction": "Schreibe den Satz im Perfekt.",
+            "prompt": "Ich nehme die Tabletten regelmäßig ein.",
+            "solution": "Ich habe die Tabletten regelmäßig eingenommen.",
+            "hint": "Trennbares Verb: Wo steht 'ge'?",
+            "explanation": "Bei trennbaren Verben steht 'ge' zwischen Präfix und Stamm: 'eingenommen'. Das Hilfsverb ist 'haben'."
+          },
+          {
+            "id": "l17h03",
+            "type": "targeted-transformation",
+            "instruction": "Schreibe den Satz im Perfekt.",
+            "prompt": "Der Pfleger misst das Fieber.",
+            "solution": "Der Pfleger hat das Fieber gemessen.",
+            "hint": "messen – maß – gemessen.",
+            "explanation": "'messen' ist unregelmäßig: Partizip II 'gemessen', Hilfsverb 'haben'."
+          },
+          {
+            "id": "l17h04",
+            "type": "targeted-transformation",
+            "instruction": "Forme um: Verwende 'leiden an' im Präsens.",
+            "prompt": "Herr Yilmaz hat eine chronische Krankheit.",
+            "solution": "Herr Yilmaz leidet an einer chronischen Krankheit.",
+            "hint": "'an' verlangt hier den Dativ.",
+            "explanation": "'leiden an + Dativ': 'eine chronische Krankheit' wird zu 'einer chronischen Krankheit' (Dativ feminin, Adjektivendung -en)."
+          },
+          {
+            "id": "l17h05",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde mit 'dass'. Beginne mit 'Studien zeigen, dass'.",
+            "prompt": "Studien zeigen: Bewegung fördert die gute Laune.",
+            "solution": "Studien zeigen, dass Bewegung die gute Laune fördert.",
+            "hint": "Im 'dass'-Satz steht das Verb am Ende.",
+            "explanation": "Ein 'dass'-Satz ist ein Nebensatz: Das konjugierte Verb 'fördert' wandert ans Ende."
+          },
+          {
+            "id": "l17h06",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde mit 'dass'. Beginne mit 'Es ist bewiesen, dass'.",
+            "prompt": "Es ist bewiesen: Schlafmangel beeinträchtigt das Gedächtnis.",
+            "solution": "Es ist bewiesen, dass Schlafmangel das Gedächtnis beeinträchtigt.",
+            "hint": "Verb ans Ende.",
+            "explanation": "Nach 'dass' steht das konjugierte Verb am Satzende: '…, dass Schlafmangel das Gedächtnis beeinträchtigt.'"
+          },
+          {
+            "id": "l17h07",
+            "type": "error-correction",
+            "instruction": "Korrigiere den Rechtschreibfehler.",
+            "prompt": "Ich habe meine Tabletten heute Morgen vergeßen.",
+            "solution": "Ich habe meine Tabletten heute Morgen vergessen.",
+            "hint": "Kurzer oder langer Vokal vor dem s-Laut?",
+            "explanation": "In 'vergessen' ist das 'e' vor dem s-Laut kurz, deshalb 'ss'. 'ß' steht nur nach langem Vokal oder Diphthong (vgl. 'er vergaß' mit langem 'a')."
+          },
+          {
+            "id": "l17h08",
+            "type": "error-correction",
+            "instruction": "Korrigiere den Rechtschreibfehler.",
+            "prompt": "Wir joggen jeden Morgen die Strasse entlang.",
+            "solution": "Wir joggen jeden Morgen die Straße entlang.",
+            "hint": "Das 'a' in diesem Wort ist lang.",
+            "explanation": "'Straße' hat ein langes 'a', deshalb schreibt man 'ß'. 'ss' steht nur nach kurzem Vokal."
+          },
+          {
+            "id": "l17h09",
+            "type": "error-correction",
+            "instruction": "Korrigiere den Fehler.",
+            "prompt": "Der Arzt stellt mir ein Rezept an.",
+            "solution": "Der Arzt stellt mir ein Rezept aus.",
+            "hint": "Welches Präfix passt zu 'Rezept'?",
+            "explanation": "Die feste Verbindung heißt 'ein Rezept ausstellen'. 'anstellen' bedeutet z. B. jemanden beschäftigen oder ein Gerät einschalten."
+          },
+          {
+            "id": "l17h10",
+            "type": "error-correction",
+            "instruction": "Korrigiere den Fehler.",
+            "prompt": "Die Krankenschwester legt mir einen Verband aus.",
+            "solution": "Die Krankenschwester legt mir einen Verband an.",
+            "hint": "Einen Verband … man.",
+            "explanation": "Die feste Verbindung heißt 'einen Verband anlegen'. 'auslegen' passt nicht zu 'Verband'."
+          },
+          {
+            "id": "l17h11",
+            "type": "error-correction",
+            "instruction": "Korrigiere den Fehler.",
+            "prompt": "Sie müssen die Tropfen dreimal täglich einnimmen.",
+            "solution": "Sie müssen die Tropfen dreimal täglich einnehmen.",
+            "hint": "Nach einem Modalverb steht der Infinitiv.",
+            "explanation": "Nach 'müssen' steht der Infinitiv am Satzende: 'einnehmen'. Den Vokalwechsel e → i gibt es nur bei 'du nimmst' und 'er/sie/es nimmt', nie im Infinitiv."
+          },
+          {
+            "id": "l17h12",
+            "type": "error-correction",
+            "instruction": "Korrigiere den Fehler.",
+            "prompt": "Letzten Winter leidete ich lange an Husten.",
+            "solution": "Letzten Winter litt ich lange an Husten.",
+            "hint": "'leiden' ist ein starkes Verb.",
+            "explanation": "'leiden' bildet das Präteritum unregelmäßig: 'litt'. Eine Form mit '-te' ('leidete') gibt es nicht."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l17t01",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Nomen.",
+          "prompt": "Müdigkeit ist eine häufige ___ dieses Medikaments.",
+          "options": [
+            "Nebenwirkung",
+            "Ausdauer",
+            "Lunge",
+            "Tablette"
+          ],
+          "solution": "Nebenwirkung",
+          "explanation": "Eine 'Nebenwirkung' ist eine unerwünschte Folge eines Medikaments. 'Ausdauer' ist die Fähigkeit, lange aktiv zu sein, 'Lunge' ist ein Organ und 'Tablette' ist das Medikament selbst."
+        },
+        {
+          "id": "l17t02",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Partizip.",
+          "prompt": "Für meinen Arbeitgeber hat mir die Ärztin ein Attest ___.",
+          "options": [
+            "ausgestellt",
+            "eingenommen",
+            "gemessen",
+            "gelitten"
+          ],
+          "solution": "ausgestellt",
+          "explanation": "Dokumente wie ein Rezept oder ein Attest werden 'ausgestellt' (ausstellen – stellte aus – ausgestellt). Tabletten 'nimmt man ein', den Blutdruck 'misst' man, und 'leiden' braucht die Präposition 'an'."
+        },
+        {
+          "id": "l17t03",
+          "type": "multiple-choice",
+          "instruction": "Wähle die richtige Präposition.",
+          "prompt": "Im Frühling leiden viele Menschen ___ einer Pollenallergie.",
+          "options": [
+            "an",
+            "auf",
+            "für",
+            "von"
+          ],
+          "solution": "an",
+          "explanation": "'leiden an + Dativ' bedeutet: eine Krankheit oder Beschwerden haben (an einer Allergie). 'auf', 'für' und 'von' passen nicht zu 'leiden'."
+        },
+        {
+          "id": "l17t04",
+          "type": "cloze-conjugation",
+          "instruction": "Setze das Verb im Präteritum ein.",
+          "prompt": "Im Krankenhaus ___ (empfehlen) mir der Physiotherapeut tägliche Übungen.",
+          "solution": "empfahl",
+          "explanation": "'empfehlen' ist unregelmäßig: empfehlen – empfahl – empfohlen. In der 3. Person Singular Präteritum gibt es keine Endung: er empfahl. Die regelmäßige Form 'empfehlte' gibt es nicht."
+        },
+        {
+          "id": "l17t05",
+          "type": "cloze-conjugation",
+          "instruction": "Setze das Partizip II ein (Perfekt).",
+          "prompt": "Nach der Operation hat Herr Vogel eine Woche im Bett ___ (liegen).",
+          "solution": "gelegen",
+          "explanation": "'liegen' ist unregelmäßig: liegen – lag – gelegen. Nicht verwechseln mit 'legen' (regelmäßig): gelegt."
+        },
+        {
+          "id": "l17t06",
+          "type": "cloze-conjugation",
+          "instruction": "Setze das Verb im Präteritum ein.",
+          "prompt": "Nach dem Unfall ___ (wehtun) mir tagelang der Rücken weh.",
+          "solution": "tat",
+          "explanation": "'wehtun' ist trennbar und unregelmäßig: tut weh – tat weh – hat wehgetan. Im Präteritum steht 'tat' auf Position 2, 'weh' am Satzende. 'tute' gibt es nicht."
+        },
+        {
+          "id": "l17t07",
+          "type": "multiple-choice",
+          "instruction": "Welche Schreibung ist richtig?",
+          "prompt": "Die Pflegerin ___ zweimal am Tag den Puls.",
+          "options": [
+            "misst",
+            "mißt",
+            "mist"
+          ],
+          "solution": "misst",
+          "explanation": "Nach kurzem Vokal schreibt man 'ss': misst. 'ß' steht nur nach langem Vokal oder Diphthong."
+        },
+        {
+          "id": "l17t08",
+          "type": "multiple-choice",
+          "instruction": "Welche Schreibung ist richtig?",
+          "prompt": "Mein Zahnarzt sagt, ich soll weniger ___ essen.",
+          "options": [
+            "Süßigkeiten",
+            "Süssigkeiten",
+            "Süsigkeiten"
+          ],
+          "solution": "Süßigkeiten",
+          "explanation": "Das 'ü' in 'süß' ist lang – nach langem Vokal schreibt man 'ß': Süßigkeiten. 'ss' steht nur nach kurzem Vokal, ein einfaches 's' würde man hier stimmhaft sprechen."
+        },
+        {
+          "id": "l17t09",
+          "type": "multiple-choice",
+          "instruction": "Welcher Satz passt zur Einleitung einer Präsentation?",
+          "prompt": "Du beginnst deine Präsentation über Stress am Arbeitsplatz.",
+          "options": [
+            "Mein Thema heute ist Stress am Arbeitsplatz.",
+            "Zusammenfassend kann man sagen, dass Stress schadet.",
+            "Vielen Dank für Ihre Aufmerksamkeit."
+          ],
+          "solution": "Mein Thema heute ist Stress am Arbeitsplatz.",
+          "explanation": "In der Einleitung nennt man das Thema ('Mein Thema heute ist …'). 'Zusammenfassend …' leitet den Schluss ein, 'Vielen Dank für Ihre Aufmerksamkeit' beendet den Vortrag."
+        },
+        {
+          "id": "l17t10",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze das passende Verb (Redemittel für die Überleitung zum nächsten Punkt).",
+          "prompt": "Damit ___ ich zum zweiten Punkt: Ausdauer im Alltag.",
+          "solution": "komme",
+          "explanation": "Mit 'Damit komme ich zum nächsten/zweiten Punkt' leitet man in einer Präsentation zum nächsten Teil über."
+        },
+        {
+          "id": "l17t11",
+          "type": "sentence-scramble",
+          "instruction": "Bilde den Satz. Beginne mit 'Seit'.",
+          "prompt": "Bringe die Wörter in die richtige Reihenfolge.",
+          "scrambleChunks": [
+            "Seit",
+            "letzter",
+            "Woche",
+            "leide",
+            "ich",
+            "an",
+            "Kopfschmerzen."
+          ],
+          "solution": "Seit letzter Woche leide ich an Kopfschmerzen.",
+          "explanation": "Steht die Zeitangabe am Anfang, folgt direkt das Verb (Position 2), dann das Subjekt. 'leiden an' + Dativ."
+        },
+        {
+          "id": "l17t12",
+          "type": "sentence-scramble",
+          "instruction": "Bilde den Satz. Beginne mit 'Die Apothekerin'.",
+          "prompt": "Bringe die Wörter in die richtige Reihenfolge.",
+          "scrambleChunks": [
+            "Die",
+            "Apothekerin",
+            "hat",
+            "mir",
+            "einen",
+            "Kräutertee",
+            "empfohlen."
+          ],
+          "solution": "Die Apothekerin hat mir einen Kräutertee empfohlen.",
+          "explanation": "Perfekt: 'hat' auf Position 2, Partizip II 'empfohlen' am Ende. Dativ (mir) steht vor dem Akkusativ-Nomen."
+        },
+        {
+          "id": "l17t13",
+          "type": "targeted-transformation",
+          "instruction": "Setze den Satz ins Perfekt.",
+          "prompt": "Herr Braun bricht sich beim Fußball den Arm.",
+          "solution": "Herr Braun hat sich beim Fußball den Arm gebrochen.",
+          "explanation": "'brechen' ist unregelmäßig: brechen – brach – gebrochen. Reflexive Verben bilden das Perfekt mit 'haben'; 'hat' steht auf Position 2, 'sich' direkt danach, das Partizip am Ende."
+        },
+        {
+          "id": "l17t14",
+          "type": "error-correction",
+          "instruction": "Korrigiere die Präposition.",
+          "prompt": "Seit dem Unfall leidet er von starken Schmerzen im Knie.",
+          "solution": "Seit dem Unfall leidet er an starken Schmerzen im Knie.",
+          "explanation": "Das Verb 'leiden' steht mit 'an' + Dativ, nicht mit 'von'."
+        },
+        {
+          "id": "l17t15",
+          "type": "error-correction",
+          "instruction": "Korrigiere die Verbform.",
+          "prompt": "Der Apotheker hat mir eine Salbe gegebt.",
+          "solution": "Der Apotheker hat mir eine Salbe gegeben.",
+          "explanation": "'geben' ist unregelmäßig: geben – gab – gegeben. Starke Verben enden im Partizip II auf -en, nicht auf -t."
+        }
+      ]
+    },
+    {
+      "lektionId": "b1plus-m6-l18",
+      "level": "B1+",
+      "modulNumber": 6,
+      "lektionNumber": 18,
+      "title": "Mach mit!",
+      "grammarFocus": [
+        "Verben mit festen Präpositionen",
+        "Fragen: wo(r) + Präposition (Sachen) vs. Präposition + wen/wem (Personen)",
+        "Präpositionaladverbien: da(r) + Präposition"
+      ],
+      "vocabulary": [
+        {
+          "id": "l18v01",
+          "term": "die Inklusion",
+          "translation": "la inclusión",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Inklusion bedeutet, dass alle Menschen mitmachen können."
+        },
+        {
+          "id": "l18v02",
+          "term": "die Behinderung",
+          "translation": "la discapacidad",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Behinderungen",
+          "example": "Menschen mit Behinderung trainieren hier gemeinsam mit anderen."
+        },
+        {
+          "id": "l18v03",
+          "term": "der Rollstuhl",
+          "translation": "la silla de ruedas",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Rollstühle",
+          "example": "Seit dem Unfall fährt Timo im Rollstuhl."
+        },
+        {
+          "id": "l18v04",
+          "term": "gehbehindert",
+          "translation": "con movilidad reducida",
+          "partOfSpeech": "adjective",
+          "example": "Für gehbehinderte Gäste gibt es einen Aufzug."
+        },
+        {
+          "id": "l18v05",
+          "term": "barrierefrei",
+          "translation": "accesible, sin barreras",
+          "partOfSpeech": "adjective",
+          "example": "Die neue Sporthalle ist komplett barrierefrei."
+        },
+        {
+          "id": "l18v06",
+          "term": "die Leistung",
+          "translation": "el rendimiento",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Leistungen",
+          "example": "Die Leistung des Teams hat sich stark verbessert."
+        },
+        {
+          "id": "l18v07",
+          "term": "die Strecke",
+          "translation": "el recorrido, la distancia",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Strecken",
+          "example": "Die Strecke führt einmal um den See."
+        },
+        {
+          "id": "l18v08",
+          "term": "zurücklegen",
+          "translation": "recorrer (una distancia)",
+          "partOfSpeech": "verb",
+          "preterite": "legte zurück",
+          "participle": "zurückgelegt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "An einem Tag legten die Radfahrer 120 Kilometer zurück."
+        },
+        {
+          "id": "l18v09",
+          "term": "die Ausrüstung",
+          "translation": "el equipo, el equipamiento",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Ausrüstungen",
+          "example": "Zum Klettern braucht man eine gute Ausrüstung."
+        },
+        {
+          "id": "l18v10",
+          "term": "der Wettkampf",
+          "translation": "la competición",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Wettkämpfe",
+          "example": "Am Samstag findet der erste Wettkampf der Saison statt."
+        },
+        {
+          "id": "l18v11",
+          "term": "der Verein",
+          "translation": "el club, la asociación",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Vereine",
+          "example": "Mein Sohn spielt in einem Handballverein."
+        },
+        {
+          "id": "l18v12",
+          "term": "der Schiedsrichter",
+          "translation": "el árbitro",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Schiedsrichter",
+          "example": "Der Schiedsrichter pfeift das Spiel an."
+        },
+        {
+          "id": "l18v13",
+          "term": "die Mannschaft",
+          "translation": "el equipo",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Mannschaften",
+          "example": "Unsere Mannschaft hat drei Spiele gewonnen."
+        },
+        {
+          "id": "l18v14",
+          "term": "das Ziel",
+          "translation": "la meta, el objetivo",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Ziele",
+          "example": "Ihr Ziel ist die Teilnahme an den Paralympics."
+        },
+        {
+          "id": "l18v15",
+          "term": "teilnehmen",
+          "translation": "participar",
+          "partOfSpeech": "verb",
+          "preterite": "nahm teil",
+          "participle": "teilgenommen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Über 500 Läuferinnen nehmen am Rennen teil."
+        },
+        {
+          "id": "l18v16",
+          "term": "sich bemühen",
+          "translation": "esforzarse",
+          "partOfSpeech": "verb",
+          "preterite": "bemühte sich",
+          "participle": "bemüht",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Der Verein bemüht sich um neue Mitglieder."
+        },
+        {
+          "id": "l18v17",
+          "term": "sich verlassen",
+          "translation": "confiar (en), contar (con)",
+          "partOfSpeech": "verb",
+          "preterite": "verließ sich",
+          "participle": "verlassen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Auf unsere Torhüterin kann man sich immer verlassen."
+        },
+        {
+          "id": "l18v18",
+          "term": "sich aufregen",
+          "translation": "enfadarse, alterarse",
+          "partOfSpeech": "verb",
+          "preterite": "regte sich auf",
+          "participle": "aufgeregt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Reg dich nicht so über das Ergebnis auf!"
+        },
+        {
+          "id": "l18v19",
+          "term": "sich kümmern",
+          "translation": "ocuparse (de)",
+          "partOfSpeech": "verb",
+          "preterite": "kümmerte sich",
+          "participle": "gekümmert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Wer kümmert sich um die Trikots?"
+        },
+        {
+          "id": "l18v20",
+          "term": "rechnen",
+          "translation": "contar (con), calcular",
+          "partOfSpeech": "verb",
+          "preterite": "rechnete",
+          "participle": "gerechnet",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Mit so viel Publikum hat niemand gerechnet."
+        },
+        {
+          "id": "l18v21",
+          "term": "sich vorbereiten",
+          "translation": "prepararse",
+          "partOfSpeech": "verb",
+          "preterite": "bereitete sich vor",
+          "participle": "vorbereitet",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Die Schwimmerin bereitet sich auf die Meisterschaft vor."
+        },
+        {
+          "id": "l18v22",
+          "term": "gemeinsam",
+          "translation": "juntos, en común",
+          "partOfSpeech": "adverb",
+          "example": "Wir trainieren zweimal pro Woche gemeinsam."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l18e01",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Präposition.",
+            "prompt": "Ich freue mich schon ___ das Turnier nächste Woche.",
+            "options": [
+              "auf",
+              "über",
+              "an",
+              "für"
+            ],
+            "solution": "auf",
+            "hint": "Das Turnier liegt in der Zukunft.",
+            "explanation": "'sich freuen auf + Akk.' bezieht sich auf etwas Zukünftiges; 'sich freuen über' auf etwas, das schon passiert ist oder gerade da ist. 'an' und 'für' passen nicht."
+          },
+          {
+            "id": "l18e02",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Präposition.",
+            "prompt": "Unser Trainer kümmert sich ___ die neuen Mitglieder.",
+            "options": [
+              "um",
+              "für",
+              "auf",
+              "an"
+            ],
+            "solution": "um",
+            "hint": "'sich kümmern' + ?",
+            "explanation": "Das Verb 'sich kümmern' hat die feste Präposition 'um + Akkusativ'. 'für', 'auf' und 'an' sind falsch."
+          },
+          {
+            "id": "l18e03",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Verb.",
+            "prompt": "Auf Lea kann man sich immer ___.",
+            "options": [
+              "verlassen",
+              "kümmern",
+              "bemühen",
+              "aufregen"
+            ],
+            "solution": "verlassen",
+            "hint": "Welches Verb steht mit 'auf'?",
+            "explanation": "'sich verlassen auf + Akk.' = vertrauen. 'sich kümmern um', 'sich bemühen um' und 'sich aufregen über' haben andere Präpositionen."
+          },
+          {
+            "id": "l18e04",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Präposition.",
+            "prompt": "Nimmst du auch ___ dem Stadtlauf teil?",
+            "options": [
+              "an",
+              "bei",
+              "in",
+              "mit"
+            ],
+            "solution": "an",
+            "hint": "'teilnehmen' + ? + Dativ.",
+            "explanation": "Die feste Verbindung ist 'teilnehmen an + Dativ' (an dem = am). 'bei', 'in' und 'mit' passen nicht zu 'teilnehmen'."
+          },
+          {
+            "id": "l18e05",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Fragewort.",
+            "prompt": "___ denkst du gerade? – An das Spiel morgen.",
+            "options": [
+              "Woran",
+              "An wen",
+              "Wo",
+              "Worüber"
+            ],
+            "solution": "Woran",
+            "hint": "Die Antwort ist eine Sache – und welche Präposition gehört zu 'denken'?",
+            "explanation": "'denken an'; gefragt wird nach einer Sache (das Spiel), also wo + r + an = 'Woran'. 'An wen' fragt nach einer Person, 'Worüber' hat die falsche Präposition. Fragt man nach einer Sache, bildet man wo(r) + Präposition (worauf, woran, worüber); das 'r' kommt dazu, wenn die Präposition mit einem Vokal beginnt. Fragt man nach einer Person, steht die Präposition + wen (Akkusativ) oder wem (Dativ)."
+          },
+          {
+            "id": "l18e06",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Fragewort.",
+            "prompt": "___ ärgerst du dich? – Über den Schiedsrichter.",
+            "options": [
+              "Über wen",
+              "Worüber",
+              "Über wem",
+              "Wem"
+            ],
+            "solution": "Über wen",
+            "hint": "Der Schiedsrichter ist eine Person.",
+            "explanation": "Bei Personen: Präposition + Fragepronomen. 'sich ärgern über' verlangt den Akkusativ, also 'Über wen'. 'Worüber' fragt nach Sachen, 'wem' ist Dativ."
+          },
+          {
+            "id": "l18e07",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Fragewort.",
+            "prompt": "___ wartest du? – Auf meine Teamkollegin.",
+            "options": [
+              "Auf wen",
+              "Worauf",
+              "Auf wem",
+              "Wofür"
+            ],
+            "solution": "Auf wen",
+            "hint": "Person oder Sache? Welcher Kasus nach 'warten auf'?",
+            "explanation": "Gefragt wird nach einer Person, deshalb Präposition + Pronomen: 'Auf wen' (warten auf + Akkusativ). 'Worauf' wäre für eine Sache."
+          },
+          {
+            "id": "l18e08",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Antwort.",
+            "prompt": "Freust du dich auf den Ausflug? – Ja, ich freue mich sehr ___.",
+            "options": [
+              "darauf",
+              "darüber",
+              "dafür",
+              "daran"
+            ],
+            "solution": "darauf",
+            "hint": "Die Präposition bleibt dieselbe wie in der Frage.",
+            "explanation": "'der Ausflug' ist eine Sache, also da(r) + Präposition. Die Präposition von 'sich freuen auf' bleibt: 'darauf'. Für eine Sache ersetzt man Präposition + Nomen durch da(r) + Präposition (darauf, daran, darüber, damit); 'r' steht vor Vokal. Für Personen benutzt man Präposition + Pronomen (auf ihn, mit ihr)."
+          },
+          {
+            "id": "l18e09",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Fragewort (wo(r) + Präposition).",
+            "prompt": "___ interessierst du dich? – Für Rollstuhlbasketball.",
+            "solution": "Wofür",
+            "hint": "'sich interessieren für' – Sache.",
+            "explanation": "Frage nach einer Sache: wo + für = 'Wofür'. Kein 'r', weil 'für' mit einem Konsonanten beginnt."
+          },
+          {
+            "id": "l18e10",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze da(r) + Präposition.",
+            "prompt": "Hast du an die Trinkflasche gedacht? – Ja, ich habe ___ gedacht.",
+            "solution": "daran",
+            "hint": "'denken an' – Präposition beginnt mit Vokal.",
+            "explanation": "Die Trinkflasche ist eine Sache: da + r + an = 'daran'. Das 'r' steht, weil 'an' mit einem Vokal beginnt."
+          },
+          {
+            "id": "l18e11",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Verb.",
+            "prompt": "Beim Rollstuhlrennen hat Jana eine Strecke von zehn Kilometern ___.",
+            "options": [
+              "zurückgelegt",
+              "teilgenommen",
+              "bemüht",
+              "gerechnet"
+            ],
+            "solution": "zurückgelegt",
+            "hint": "Eine Strecke …",
+            "explanation": "Die feste Verbindung heißt 'eine Strecke zurücklegen' (= eine Distanz schaffen). 'teilnehmen' braucht 'an', 'sich bemühen' ist reflexiv, 'rechnen' passt nicht zur Strecke."
+          },
+          {
+            "id": "l18e12",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze die Präposition.",
+            "prompt": "Wir bereiten uns intensiv ___ die Meisterschaft vor.",
+            "solution": "auf",
+            "hint": "'sich vorbereiten' + ? + Akkusativ.",
+            "explanation": "Das Verb heißt 'sich vorbereiten auf + Akkusativ'. Die Präposition gehört fest zum Verb und muss mitgelernt werden."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l18m01",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb im Präsens.",
+            "prompt": "Der Verein ___ sich um mehr barrierefreie Angebote. (sich bemühen)",
+            "solution": "bemüht",
+            "hint": "3. Person Singular.",
+            "explanation": "'sich bemühen um + Akk.': Subjekt 'der Verein' (Singular) → 'bemüht'. Das Reflexivpronomen 'sich' steht schon im Satz."
+          },
+          {
+            "id": "l18m02",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb im Präteritum.",
+            "prompt": "Anton ___ letztes Jahr an einem Marathon teil. (nehmen)",
+            "solution": "nahm",
+            "hint": "nehmen – nahm – genommen.",
+            "explanation": "'teilnehmen' ist trennbar und unregelmäßig: Präteritum 'nahm … teil'. 'nehmte' gibt es nicht."
+          },
+          {
+            "id": "l18m03",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb im Präsens.",
+            "prompt": "Ich ___ mich immer über unfaire Fouls auf. (regen)",
+            "solution": "rege",
+            "hint": "Trennbares Verb 'sich aufregen', 1. Person Singular.",
+            "explanation": "Im Hauptsatz wird 'aufregen' getrennt: 'ich rege mich … auf'. 'sich aufregen über + Akk.'"
+          },
+          {
+            "id": "l18m04",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb im Präsens.",
+            "prompt": "Mit wem ___ du dich im Team am besten? (verstehen)",
+            "solution": "verstehst",
+            "hint": "2. Person Singular.",
+            "explanation": "'sich verstehen mit + Dativ'; in der W-Frage steht das Verb auf Position 2: 'verstehst'."
+          },
+          {
+            "id": "l18m05",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb im Präsens.",
+            "prompt": "Die Trainerin ___ fest damit, dass alle pünktlich kommen. (rechnen)",
+            "solution": "rechnet",
+            "hint": "3. Person Singular – der Stamm endet auf -n nach Konsonant.",
+            "explanation": "'rechnen mit + Dativ'; 'damit' verweist auf den 'dass'-Satz. Endet der Stamm auf Konsonant + n (rechn-), braucht man ein -e- vor der Endung: sie rechnet (nicht 'rechnt')."
+          },
+          {
+            "id": "l18m06",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb im Präsens.",
+            "prompt": "Wir ___ uns gemeinsam auf den Wettkampf vor. (bereiten)",
+            "solution": "bereiten",
+            "hint": "1. Person Plural.",
+            "explanation": "'sich vorbereiten auf + Akk.' ist trennbar: 'wir bereiten uns … vor'."
+          },
+          {
+            "id": "l18m07",
+            "type": "sentence-scramble",
+            "instruction": "Bilde eine Frage. Beginne mit 'Worauf'.",
+            "prompt": "Baue den Satz aus den Bausteinen.",
+            "scrambleChunks": [
+              "Worauf",
+              "bereitest",
+              "du",
+              "dich",
+              "gerade",
+              "vor?"
+            ],
+            "solution": "Worauf bereitest du dich gerade vor?",
+            "hint": "W-Frage: Verb auf Position 2, trennbares Präfix am Ende.",
+            "explanation": "'Worauf' (Sache) steht auf Position 1, das Verb 'bereitest' auf Position 2, das Präfix 'vor' ans Ende."
+          },
+          {
+            "id": "l18m08",
+            "type": "sentence-scramble",
+            "instruction": "Bilde eine Frage. Beginne mit 'Über wen'.",
+            "prompt": "Baue den Satz aus den Bausteinen.",
+            "scrambleChunks": [
+              "Über",
+              "wen",
+              "hast",
+              "du",
+              "dich",
+              "so",
+              "aufgeregt?"
+            ],
+            "solution": "Über wen hast du dich so aufgeregt?",
+            "hint": "Perfekt: Partizip am Ende.",
+            "explanation": "'Über wen' fragt nach einer Person (Akkusativ). Perfekt: 'hast' auf Position 2, 'aufgeregt' am Ende."
+          },
+          {
+            "id": "l18m09",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Darauf'.",
+            "prompt": "Baue den Satz aus den Bausteinen.",
+            "scrambleChunks": [
+              "Darauf",
+              "kannst",
+              "du",
+              "dich",
+              "verlassen"
+            ],
+            "solution": "Darauf kannst du dich verlassen.",
+            "hint": "Nach Position 1 kommt das Modalverb, der Infinitiv steht am Ende.",
+            "explanation": "'Darauf' ersetzt 'auf + Sache' und steht auf Position 1. Dann folgen das Modalverb 'kannst', das Subjekt 'du', das Reflexivpronomen 'dich' und der Infinitiv 'verlassen' am Ende."
+          },
+          {
+            "id": "l18m10",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Paula'.",
+            "prompt": "Baue den Satz aus den Bausteinen.",
+            "scrambleChunks": [
+              "Paula",
+              "kümmert",
+              "sich",
+              "um",
+              "die",
+              "Ausrüstung"
+            ],
+            "solution": "Paula kümmert sich um die Ausrüstung.",
+            "hint": "'sich kümmern um' + Akkusativ.",
+            "explanation": "Subjekt – Verb – Reflexivpronomen – Präpositionalergänzung: 'Paula kümmert sich um die Ausrüstung.'"
+          },
+          {
+            "id": "l18m11",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Emil'.",
+            "prompt": "Baue den Satz aus den Bausteinen.",
+            "scrambleChunks": [
+              "Emil",
+              "hat",
+              "am",
+              "Rollstuhlrennen",
+              "teilgenommen"
+            ],
+            "solution": "Emil hat am Rollstuhlrennen teilgenommen.",
+            "hint": "Perfekt: Partizip des trennbaren Verbs am Ende.",
+            "explanation": "'teilnehmen an + Dativ' ('am' = an dem). Im Perfekt steht 'hat' auf Position 2 und das Partizip 'teilgenommen' (teil-ge-nommen) am Satzende."
+          },
+          {
+            "id": "l18m12",
+            "type": "sentence-scramble",
+            "instruction": "Bilde eine Frage. Beginne mit 'Woran'.",
+            "prompt": "Baue den Satz aus den Bausteinen.",
+            "scrambleChunks": [
+              "Woran",
+              "denkst",
+              "du",
+              "vor",
+              "einem",
+              "Wettkampf?"
+            ],
+            "solution": "Woran denkst du vor einem Wettkampf?",
+            "hint": "Fragewort – Verb – Subjekt.",
+            "explanation": "'Woran' (denken an + Sache) auf Position 1, dann das Verb 'denkst' und das Subjekt 'du'."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l18h01",
+            "type": "targeted-transformation",
+            "instruction": "Frage nach dem Teil in Klammern. Verwende 'du'.",
+            "prompt": "Ich ärgere mich über (das schlechte Wetter).",
+            "solution": "Worüber ärgerst du dich?",
+            "hint": "Sache → wo(r) + Präposition.",
+            "explanation": "'das schlechte Wetter' ist eine Sache: wo + r + über = 'Worüber'. Fragt man nach einer Sache, bildet man wo(r) + Präposition (worauf, woran, worüber); das 'r' kommt dazu, wenn die Präposition mit einem Vokal beginnt. Fragt man nach einer Person, steht die Präposition + wen (Akkusativ) oder wem (Dativ)."
+          },
+          {
+            "id": "l18h02",
+            "type": "targeted-transformation",
+            "instruction": "Frage nach dem Teil in Klammern. Verwende 'du'.",
+            "prompt": "Ich telefoniere mit (meinem Trainer).",
+            "solution": "Mit wem telefonierst du?",
+            "hint": "Person → Präposition + wen/wem.",
+            "explanation": "Gefragt wird nach einer Person; 'mit' verlangt den Dativ → 'Mit wem'. 'Womit' würde nach einer Sache fragen."
+          },
+          {
+            "id": "l18h03",
+            "type": "targeted-transformation",
+            "instruction": "Frage nach dem Teil in Klammern. Verwende 'du'.",
+            "prompt": "Ich warte auf (den Bus).",
+            "solution": "Worauf wartest du?",
+            "hint": "Sache → wo(r) + Präposition.",
+            "explanation": "'der Bus' ist eine Sache: wo + r + auf = 'Worauf'. 'Auf wen' fragt nur nach Personen."
+          },
+          {
+            "id": "l18h04",
+            "type": "targeted-transformation",
+            "instruction": "Frage nach dem Teil in Klammern. Verwende 'du'.",
+            "prompt": "Ich spreche über (die neue Trainerin).",
+            "solution": "Über wen sprichst du?",
+            "hint": "Person → Präposition + Akkusativ-Pronomen.",
+            "explanation": "'die neue Trainerin' ist eine Person, 'sprechen über' verlangt den Akkusativ → 'Über wen'. Vokalwechsel: du sprichst."
+          },
+          {
+            "id": "l18h05",
+            "type": "targeted-transformation",
+            "instruction": "Antworte mit da(r) + Präposition. Beginne mit 'Ja, ich'.",
+            "prompt": "Interessierst du dich für Rollstuhltennis?",
+            "solution": "Ja, ich interessiere mich dafür.",
+            "hint": "Sache → da(r) + Präposition.",
+            "explanation": "'für Rollstuhltennis' (Sache) wird zu 'dafür'. Das Präpositionaladverb steht am Ende des Satzes."
+          },
+          {
+            "id": "l18h06",
+            "type": "targeted-transformation",
+            "instruction": "Antworte mit da(r) + Präposition. Beginne mit 'Ja, ich'.",
+            "prompt": "Hast du dich um die Anmeldung gekümmert?",
+            "solution": "Ja, ich habe mich darum gekümmert.",
+            "hint": "'sich kümmern um' – Präposition beginnt mit Vokal.",
+            "explanation": "'um die Anmeldung' → da + r + um = 'darum'. Im Perfekt steht es vor dem Partizip 'gekümmert'."
+          },
+          {
+            "id": "l18h07",
+            "type": "targeted-transformation",
+            "instruction": "Antworte mit da(r) + Präposition. Beginne mit 'Ja, ich'.",
+            "prompt": "Freust du dich über den Pokal?",
+            "solution": "Ja, ich freue mich darüber.",
+            "hint": "'über' beginnt mit Vokal.",
+            "explanation": "'über den Pokal' (Sache) → 'darüber'. Für eine Sache ersetzt man Präposition + Nomen durch da(r) + Präposition (darauf, daran, darüber, damit); 'r' steht vor Vokal. Für Personen benutzt man Präposition + Pronomen (auf ihn, mit ihr)."
+          },
+          {
+            "id": "l18h08",
+            "type": "error-correction",
+            "instruction": "Korrigiere die Frage. Die Antwort lautet: 'Auf meine Schwester.'",
+            "prompt": "Worauf wartest du?",
+            "solution": "Auf wen wartest du?",
+            "hint": "Die Antwort ist eine Person.",
+            "explanation": "Nach Personen fragt man mit Präposition + wen/wem: 'Auf wen' (warten auf + Akkusativ). 'Worauf' steht nur für Sachen."
+          },
+          {
+            "id": "l18h09",
+            "type": "error-correction",
+            "instruction": "Korrigiere die Frage (Standardsprache).",
+            "prompt": "Über was sprecht ihr nach dem Training?",
+            "solution": "Worüber sprecht ihr nach dem Training?",
+            "hint": "Frage nach einer Sache in der Standardsprache.",
+            "explanation": "'Über was' ist umgangssprachlich. In der Standardsprache fragt man nach Sachen mit wo(r) + Präposition: 'Worüber'."
+          },
+          {
+            "id": "l18h10",
+            "type": "error-correction",
+            "instruction": "Korrigiere den Fehler.",
+            "prompt": "Ich kümmere mich für die Ausrüstung.",
+            "solution": "Ich kümmere mich um die Ausrüstung.",
+            "hint": "Feste Präposition von 'sich kümmern'.",
+            "explanation": "'sich kümmern' hat immer die Präposition 'um + Akkusativ'. 'für' ist falsch."
+          },
+          {
+            "id": "l18h11",
+            "type": "error-correction",
+            "instruction": "Korrigiere den Fehler.",
+            "prompt": "Das Spiel ist morgen. Ich freue mich schon auf es.",
+            "solution": "Das Spiel ist morgen. Ich freue mich schon darauf.",
+            "hint": "Sache → kein Pronomen nach der Präposition.",
+            "explanation": "Für Sachen ersetzt man 'auf + Pronomen' durch 'darauf'. 'auf es' ist falsch; Präposition + Pronomen gibt es nur für Personen."
+          },
+          {
+            "id": "l18h12",
+            "type": "error-correction",
+            "instruction": "Korrigiere den Fehler.",
+            "prompt": "Die Mannschaft bereitet sich auf dem Wettkampf vor.",
+            "solution": "Die Mannschaft bereitet sich auf den Wettkampf vor.",
+            "hint": "'sich vorbereiten auf' + welcher Kasus?",
+            "explanation": "'sich vorbereiten auf' verlangt den Akkusativ: 'auf den Wettkampf'. 'auf dem' (Dativ) ist falsch."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l18t01",
+          "type": "multiple-choice",
+          "instruction": "Wähle das richtige Fragewort.",
+          "prompt": "___ freust du dich am meisten? – Auf den Wettkampf am Sonntag.",
+          "options": [
+            "Worauf",
+            "Auf wen",
+            "Wofür",
+            "Woran"
+          ],
+          "solution": "Worauf",
+          "explanation": "'sich freuen auf' + Sache → Fragewort 'wo(r)' + Präposition: worauf. 'Auf wen' fragt nach Personen, 'wofür'/'woran' haben die falsche Präposition."
+        },
+        {
+          "id": "l18t02",
+          "type": "multiple-choice",
+          "instruction": "Wähle das richtige Fragewort.",
+          "prompt": "___ kannst du dich im Team immer verlassen? – Auf meine Trainerin.",
+          "options": [
+            "Auf wen",
+            "Worauf",
+            "Auf wem",
+            "Wem"
+          ],
+          "solution": "Auf wen",
+          "explanation": "Die Antwort ist eine Person → Präposition + Fragewort: 'auf wen' (sich verlassen auf + Akkusativ). 'Worauf' fragt nach Sachen."
+        },
+        {
+          "id": "l18t03",
+          "type": "multiple-choice",
+          "instruction": "Wähle die richtige Antwort.",
+          "prompt": "Hast du Angst vor dem Finale? – Ja, ich habe ein bisschen Angst ___.",
+          "options": [
+            "davor",
+            "darauf",
+            "dafür",
+            "wovor"
+          ],
+          "solution": "davor",
+          "explanation": "Für eine Sache ersetzt man 'vor dem Finale' durch da + dieselbe Präposition: davor (Angst haben vor). 'darauf'/'dafür' haben die falsche Präposition, 'wovor' ist ein Fragewort."
+        },
+        {
+          "id": "l18t04",
+          "type": "multiple-choice",
+          "instruction": "Wähle die richtige Antwort.",
+          "prompt": "Denkst du oft an deinen alten Trainer? – Ja, ich denke oft ___.",
+          "options": [
+            "an ihn",
+            "daran",
+            "an ihm",
+            "woran"
+          ],
+          "solution": "an ihn",
+          "explanation": "Bei Personen benutzt man Präposition + Pronomen, nicht 'da(r)-'. 'denken an' + Akkusativ → an ihn."
+        },
+        {
+          "id": "l18t05",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze die Präposition.",
+          "prompt": "Unsere Trainerin achtet sehr ___ eine gesunde Haltung.",
+          "solution": "auf",
+          "explanation": "Das Verb heißt 'achten auf + Akkusativ' (auf eine gesunde Haltung)."
+        },
+        {
+          "id": "l18t06",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze das Fragewort.",
+          "prompt": "___ hat der Verein nicht gerechnet? – Mit so vielen Zuschauern.",
+          "solution": "Womit",
+          "explanation": "'rechnen mit' + Sache → wo + mit = womit. Nach Personen würde man 'Mit wem' fragen."
+        },
+        {
+          "id": "l18t07",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze das Fragewort.",
+          "prompt": "Mit ___ bist du gestern die Strecke gelaufen? – Mit meiner Schwester.",
+          "solution": "wem",
+          "explanation": "Nach Personen fragt man mit Präposition + wen/wem. 'mit' verlangt den Dativ → mit wem."
+        },
+        {
+          "id": "l18t08",
+          "type": "cloze-conjugation",
+          "instruction": "Setze das Verb im Präsens ein (mit Reflexivpronomen).",
+          "prompt": "Max ___ (sich gewöhnen) langsam an den Rollstuhl.",
+          "solution": "gewöhnt sich",
+          "explanation": "'sich gewöhnen an + Akkusativ' – 3. Person Singular: er gewöhnt sich. Das Reflexivpronomen 'sich' folgt direkt dem konjugierten Verb."
+        },
+        {
+          "id": "l18t09",
+          "type": "cloze-conjugation",
+          "instruction": "Setze das Verb im Präteritum ein (mit Reflexivpronomen).",
+          "prompt": "Nach dem Spiel ___ (sich unterhalten) wir lange mit den Spielerinnen.",
+          "solution": "unterhielten uns",
+          "explanation": "'sich unterhalten mit + Dativ' ist unregelmäßig: unterhielt – unterhalten. Präteritum 'wir': unterhielten; das Reflexivpronomen für 'wir' ist 'uns'."
+        },
+        {
+          "id": "l18t10",
+          "type": "sentence-scramble",
+          "instruction": "Bilde die Frage. Beginne mit 'Wovon'.",
+          "prompt": "Bringe die Wörter in die richtige Reihenfolge.",
+          "scrambleChunks": [
+            "Wovon",
+            "träumst",
+            "du",
+            "seit",
+            "deiner",
+            "Kindheit?"
+          ],
+          "solution": "Wovon träumst du seit deiner Kindheit?",
+          "explanation": "'träumen von' + Sache → Fragewort wo + von = wovon auf Position 1, dann das Verb (Position 2), dann das Subjekt."
+        },
+        {
+          "id": "l18t11",
+          "type": "sentence-scramble",
+          "instruction": "Bilde den Satz. Beginne mit 'Ich'.",
+          "prompt": "Bringe die Wörter in die richtige Reihenfolge.",
+          "scrambleChunks": [
+            "Ich",
+            "freue",
+            "mich",
+            "darauf,",
+            "am",
+            "Wettkampf",
+            "teilzunehmen."
+          ],
+          "solution": "Ich freue mich darauf, am Wettkampf teilzunehmen.",
+          "explanation": "'darauf' kündigt den Infinitivsatz an (sich freuen auf). Im Infinitivsatz steht 'zu' zwischen Präfix und Verb: teilzunehmen."
+        },
+        {
+          "id": "l18t12",
+          "type": "targeted-transformation",
+          "instruction": "Frage nach dem Teil 'von der neuen Strecke'. Beginne mit dem Fragewort.",
+          "prompt": "Die Trainerin erzählt von der neuen Strecke.",
+          "solution": "Wovon erzählt die Trainerin?",
+          "explanation": "'die neue Strecke' ist eine Sache → wo + Präposition: wovon (erzählen von). 'Von wem' würde nach einer Person fragen."
+        },
+        {
+          "id": "l18t13",
+          "type": "targeted-transformation",
+          "instruction": "Frage nach dem Teil 'nach seinem Trainer'. Beginne mit der Präposition.",
+          "prompt": "Lukas hat nach seinem Trainer gefragt.",
+          "solution": "Nach wem hat Lukas gefragt?",
+          "explanation": "Der Trainer ist eine Person → Präposition + wem (fragen nach + Dativ). 'Wonach' würde nach einer Sache fragen."
+        },
+        {
+          "id": "l18t14",
+          "type": "targeted-transformation",
+          "instruction": "Ersetze 'über die neuen Regeln' durch ein Präpositionaladverb.",
+          "prompt": "Wir haben lange über die neuen Regeln diskutiert.",
+          "solution": "Wir haben lange darüber diskutiert.",
+          "explanation": "Eine Sache mit Präposition ersetzt man durch da(r) + Präposition: über die Regeln → darüber. Das 'r' kommt dazu, weil 'über' mit einem Vokal beginnt. 'über sie' benutzt man nur für Personen."
+        },
+        {
+          "id": "l18t15",
+          "type": "error-correction",
+          "instruction": "Korrigiere das Präpositionaladverb.",
+          "prompt": "Ich ärgere mich darauf, dass das Spiel ausgefallen ist.",
+          "solution": "Ich ärgere mich darüber, dass das Spiel ausgefallen ist.",
+          "explanation": "Das Verb heißt 'sich ärgern über' → darüber. 'darauf' passt zu Verben mit 'auf' (z. B. sich freuen auf)."
+        }
+      ]
+    }
+  ]
+}
