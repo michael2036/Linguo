@@ -85,8 +85,9 @@ Kursbuch + Arbeitsbuch answer-key PDFs — see [PRD §7](PRD.md#7-agentic-conten
 and [`.agents/`](.agents) for the full rationale:
 
 ```
-Level (A1 / A2 / B1)
- └─ Modul (1-8, numbered continuously across the level's two half-books)
+Level (A1 / A2 / B1 / B2)
+ └─ Modul (1-8, numbered continuously across the level's two half-books;
+           B2: 1-12, one per Kontext Kapitel)
      └─ Lektion (exactly 3 per Modul)
          ├─ vocabulary                       Stage 0 primer
          ├─ practice.easy/medium/hard        merges both source books:
@@ -113,9 +114,12 @@ highlight as a "start here" suggestion, but every row is equally clickable.
 
 All 8 Moduln (24 Lektionen) are built for A1, A2, and B1 as of this
 writing — the pilot (`a1-m1`) validated the architecture before scaling to
-the rest. C1/C2 aren't authored yet; `LEVEL_CATALOG`/the modul schema's
-`level` enum only cover A1–B1 today. See
-[`.agents/pipeline.md`](.agents/pipeline.md) to author more.
+the rest. B2 is sourced from a different series, *Kontext* (Klett: 12
+Kapitel × 4 Kontext-Moduln, Kursbuch + Übungsbuch), so it has 12 app
+Moduln — one per Kapitel, its 4 Kontext-Moduln folded into 3 Lektionen
+(Lektion 1-36); the schema allows `modulNumber` up to 12 for that reason.
+All 12 B2 Moduln (36 Lektionen) are built. C1/C2 aren't authored yet. See [`.agents/pipeline.md`](.agents/pipeline.md) to author
+more.
 
 ### Vocabulary linguistic profiles
 
@@ -272,6 +276,10 @@ build passing alone.
   clicking an option or pressing its 1–4 digit shortcut grades it
   immediately, no separate "Prüfen" confirmation step (that button is only
   rendered for free-text/scramble types, which do need an explicit submit).
+  A picked option is graded by exact comparison, while free-text answers use
+  the lenient `isCorrectAnswer` (case-insensitive, trailing punctuation
+  ignored) — options may differ only in case (formal "Ihre" vs. "ihre"), so
+  never route multiple-choice through the lenient check.
   `handleSubmit` takes an optional answer-override parameter for exactly
   this — it's called with the just-clicked option directly rather than
   relying on `choiceValue` state, which wouldn't have updated yet in the

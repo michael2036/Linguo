@@ -21,6 +21,10 @@ When running the pipeline for one Modul, just read the 3 Lektionen's worth
 of pages you need out of the relevant PDF — no need to split the file
 itself first.
 
+B2 comes from *Kontext* (Klett), whose answer keys are split by half-book
+too (Kapitel 1–6 / 7–12) and whose workbook is called Übungsbuch; it uses the
+same names: `b2-1-kb.pdf`, `b2-1-ab.pdf`, `b2-2-kb.pdf`, `b2-2-ab.pdf`.
+
 **Watch for duplicate editions.** Some levels (B1 in particular) ship a
 second Arbeitsbuch PDF branded for a specific exam track (e.g. "Ausgabe
 DTZ") that turns out to be identical content to the standard Arbeitsbuch.

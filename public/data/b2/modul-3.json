@@ -1,0 +1,2558 @@
+{
+  "modulId": "b2-m3",
+  "level": "B2",
+  "modulNumber": 3,
+  "title": "Alles im Wandel",
+  "lektionen": [
+    {
+      "lektionId": "b2-m3-l7",
+      "level": "B2",
+      "modulNumber": 3,
+      "lektionNumber": 7,
+      "title": "Neue Verkehrskonzepte",
+      "grammarFocus": [
+        "Partizip I als Adjektiv: Infinitiv + d + Adjektivendung (der wachsende Verkehr, die hupenden Autos)",
+        "Partizip II als Adjektiv: abgeschlossen oder passivisch (die gesperrten Straßen, das neu eröffnete Café)",
+        "Erweitertes Partizipialattribut statt Relativsatz (die Personen, die an der Haltestelle warten → die an der Haltestelle wartenden Personen)"
+      ],
+      "vocabulary": [
+        {
+          "id": "l7v01",
+          "term": "die Verkehrsberuhigung",
+          "translation": "la reducción / pacificación del tráfico",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Seit der Verkehrsberuhigung spielen in unserer Straße wieder Kinder auf dem Gehweg."
+        },
+        {
+          "id": "l7v02",
+          "term": "das Verkehrsmittel",
+          "translation": "el medio de transporte",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Verkehrsmittel",
+          "example": "Für längere Strecken ist die Bahn für mich das bequemste Verkehrsmittel."
+        },
+        {
+          "id": "l7v03",
+          "term": "der Nahverkehr",
+          "translation": "el transporte público local",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "example": "Im ländlichen Raum fährt der Nahverkehr am Wochenende oft nur alle zwei Stunden."
+        },
+        {
+          "id": "l7v04",
+          "term": "das Carsharing",
+          "translation": "el coche compartido (carsharing)",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "example": "Seit wir Carsharing nutzen, haben wir unser eigenes Auto verkauft."
+        },
+        {
+          "id": "l7v05",
+          "term": "der Radweg",
+          "translation": "el carril bici",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Radwege",
+          "example": "Der neue Radweg führt direkt am Fluss entlang bis zum Gewerbegebiet."
+        },
+        {
+          "id": "l7v06",
+          "term": "die Fußgängerzone",
+          "translation": "la zona peatonal",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Fußgängerzonen",
+          "example": "In der Fußgängerzone dürfen Lieferwagen nur bis zehn Uhr morgens fahren."
+        },
+        {
+          "id": "l7v07",
+          "term": "der Pendler",
+          "translation": "el viajero diario (que va y vuelve del trabajo)",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Pendler",
+          "example": "Viele Pendler verbringen täglich mehr als eine Stunde im Zug."
+        },
+        {
+          "id": "l7v08",
+          "term": "der Stau",
+          "translation": "el atasco",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Staus",
+          "example": "Wegen einer Baustelle auf der Autobahn standen wir fast zwei Stunden im Stau."
+        },
+        {
+          "id": "l7v09",
+          "term": "der Schadstoff",
+          "translation": "la sustancia contaminante",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Schadstoffe",
+          "example": "Messstationen an Kreuzungen erfassen, wie viele Schadstoffe in der Luft sind."
+        },
+        {
+          "id": "l7v10",
+          "term": "das Abgas",
+          "translation": "el gas de escape",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Abgase",
+          "example": "Alte Dieselbusse stoßen deutlich mehr Abgase aus als moderne Elektrobusse."
+        },
+        {
+          "id": "l7v11",
+          "term": "die Ladestation",
+          "translation": "la estación de carga",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Ladestationen",
+          "example": "Auf dem Supermarktparkplatz gibt es jetzt vier Ladestationen für E-Autos."
+        },
+        {
+          "id": "l7v12",
+          "term": "die Maßnahme",
+          "translation": "la medida",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Maßnahmen",
+          "example": "Tempo 30 vor Schulen ist eine einfache, aber wirksame Maßnahme."
+        },
+        {
+          "id": "l7v13",
+          "term": "die Lebensqualität",
+          "translation": "la calidad de vida",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Weniger Lärm und mehr Grünflächen erhöhen die Lebensqualität in einem Viertel."
+        },
+        {
+          "id": "l7v14",
+          "term": "das Statussymbol",
+          "translation": "el símbolo de estatus",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Statussymbole",
+          "example": "Für viele junge Leute ist ein teures Auto kein Statussymbol mehr."
+        },
+        {
+          "id": "l7v15",
+          "term": "sperren",
+          "translation": "cerrar (al tráfico), bloquear",
+          "partOfSpeech": "verb",
+          "preterite": "sperrte",
+          "participle": "gesperrt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Für den Stadtlauf sperrt die Polizei am Sonntag die ganze Ringstraße."
+        },
+        {
+          "id": "l7v16",
+          "term": "umsteigen",
+          "translation": "cambiar (de medio de transporte), hacer transbordo",
+          "partOfSpeech": "verb",
+          "preterite": "stieg um",
+          "participle": "umgestiegen",
+          "auxiliary": "sein",
+          "irregular": true,
+          "example": "Nach dem Umzug ist meine Kollegin vom Auto auf das Fahrrad umgestiegen."
+        },
+        {
+          "id": "l7v17",
+          "term": "entlasten",
+          "translation": "aliviar, descongestionar",
+          "partOfSpeech": "verb",
+          "preterite": "entlastete",
+          "participle": "entlastet",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Eine Umgehungsstraße soll das Dorfzentrum vom Durchgangsverkehr entlasten."
+        },
+        {
+          "id": "l7v18",
+          "term": "ausbauen",
+          "translation": "ampliar, desarrollar",
+          "partOfSpeech": "verb",
+          "preterite": "baute aus",
+          "participle": "ausgebaut",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Die Region will das Busnetz in den nächsten fünf Jahren deutlich ausbauen."
+        },
+        {
+          "id": "l7v19",
+          "term": "hupen",
+          "translation": "tocar la bocina",
+          "partOfSpeech": "verb",
+          "preterite": "hupte",
+          "participle": "gehupt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Der Taxifahrer hupte ungeduldig, als die Ampel grün wurde."
+        },
+        {
+          "id": "l7v20",
+          "term": "schadstoffarm",
+          "translation": "poco contaminante",
+          "partOfSpeech": "adjective",
+          "example": "Die Stadtwerke haben ihre Müllwagen durch schadstoffarme Modelle ersetzt."
+        },
+        {
+          "id": "l7v21",
+          "term": "autofrei",
+          "translation": "sin coches",
+          "partOfSpeech": "adjective",
+          "example": "Am ersten Sonntag im Monat ist die Uferstraße autofrei."
+        },
+        {
+          "id": "l7v22",
+          "term": "wirksam",
+          "translation": "eficaz",
+          "partOfSpeech": "adjective",
+          "example": "Höhere Parkgebühren haben sich als wirksames Mittel gegen den Suchverkehr erwiesen."
+        },
+        {
+          "id": "l7v23",
+          "term": "gesellschaftlich",
+          "translation": "social",
+          "partOfSpeech": "adjective",
+          "example": "Die gesellschaftliche Bedeutung des Autos hat sich in den letzten Jahrzehnten stark verändert."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l7e01",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Partizip mit der richtigen Endung.",
+            "prompt": "Weil der Zug Verspätung hatte, standen viele ___ Fahrgäste auf dem Bahnsteig.",
+            "options": [
+              "wartende",
+              "gewartete",
+              "wartenden",
+              "gewarteten"
+            ],
+            "solution": "wartende",
+            "hint": "Die Fahrgäste tun etwas gerade selbst. Nach 'viele' folgt die starke Endung.",
+            "explanation": "Partizip I (warten + d) = aktiv und gleichzeitig. Nach 'viele' im Plural: starke Endung -e. 'gewartet' bedeutet hier 'instand gehalten'."
+          },
+          {
+            "id": "l7e02",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Form (= ein Konzept, das überzeugt).",
+            "prompt": "Der Stadtrat stellte ein ___ Konzept für den Nahverkehr vor.",
+            "options": [
+              "überzeugendes",
+              "überzeugtes",
+              "überzeugende",
+              "überzeugten"
+            ],
+            "solution": "überzeugendes",
+            "hint": "Das Konzept überzeugt selbst – aktiv. Endung nach 'ein' + Neutrum?",
+            "explanation": "Aktive Bedeutung → Partizip I 'überzeugend'. Nach 'ein' im Akkusativ Neutrum: -es. 'überzeugt' hieße, jemand hat das Konzept überzeugt."
+          },
+          {
+            "id": "l7e03",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Form (= die Brücke, die repariert worden ist).",
+            "prompt": "Die ___ Brücke ist seit Montag wieder für Autos geöffnet.",
+            "options": [
+              "reparierte",
+              "reparierende",
+              "reparierten",
+              "repariertes"
+            ],
+            "solution": "reparierte",
+            "hint": "Passiv und abgeschlossen → welches Partizip? Endung nach 'die' im Nominativ Singular?",
+            "explanation": "Passiv/abgeschlossen → Partizip II 'repariert'. Nach 'die' im Nominativ Singular: -e. Partizip I hieße, die Brücke repariert selbst etwas."
+          },
+          {
+            "id": "l7e04",
+            "type": "multiple-choice",
+            "instruction": "Was bedeutet der Ausdruck?",
+            "prompt": "der abgeschleppte Wagen",
+            "options": [
+              "der Wagen, der abgeschleppt worden ist",
+              "der Wagen, der gerade etwas abschleppt",
+              "der Wagen, der andere Autos abschleppt",
+              "der Wagen, der abschleppen wird"
+            ],
+            "solution": "der Wagen, der abgeschleppt worden ist",
+            "hint": "Partizip II von transitiven Verben (Perfekt mit haben) ist passivisch.",
+            "explanation": "Partizip II eines transitiven Verbs bedeutet passiv und abgeschlossen: Jemand hat den Wagen abgeschleppt. Aktiv/gleichzeitig wäre 'der abschleppende Wagen'."
+          },
+          {
+            "id": "l7e05",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Partizip I von 'klingeln' mit der richtigen Endung.",
+            "prompt": "Ein laut ___ Radfahrer überholte uns auf dem Weg zum Bahnhof.",
+            "solution": "klingelnder",
+            "hint": "Infinitiv + d, dann die Endung nach 'ein' (maskulin, Nominativ).",
+            "explanation": "Partizip I = Infinitiv + d: klingelnd. Nach 'ein' im Nominativ maskulin zeigt das Adjektiv das Genus: -er → klingelnder."
+          },
+          {
+            "id": "l7e06",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Partizip II von 'renovieren' mit der richtigen Endung.",
+            "prompt": "Der frisch ___ Bahnhof hat jetzt einen großen Fahrradkeller.",
+            "solution": "renovierte",
+            "hint": "Verben auf -ieren bilden das Partizip II ohne ge-.",
+            "explanation": "Partizip II von 'renovieren' ist 'renoviert' (ohne ge-). Nach 'der' im Nominativ Singular: -e → renovierte."
+          },
+          {
+            "id": "l7e07",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Partizip II von 'verlieren' mit der richtigen Endung.",
+            "prompt": "Im Fundbüro der Verkehrsbetriebe liegen viele ___ Handschuhe.",
+            "solution": "verlorene",
+            "hint": "Unregelmäßiges Partizip II; nach 'viele' folgt die starke Endung.",
+            "explanation": "Partizip II von 'verlieren' ist 'verloren' (kein ge- wegen ver-). Nach 'viele' im Nominativ Plural: starke Endung -e → verlorene."
+          },
+          {
+            "id": "l7e08",
+            "type": "multiple-choice",
+            "instruction": "Was bedeutet der Ausdruck?",
+            "prompt": "die eingestiegenen Fahrgäste",
+            "options": [
+              "die Fahrgäste, die eingestiegen sind",
+              "die Fahrgäste, die eingestiegen wurden",
+              "die Fahrgäste, die gerade einsteigen",
+              "die Fahrgäste, die einsteigen werden"
+            ],
+            "solution": "die Fahrgäste, die eingestiegen sind",
+            "hint": "'einsteigen' bildet das Perfekt mit 'sein'.",
+            "explanation": "Partizip II von Verben mit 'sein' ist aktiv und abgeschlossen: Die Fahrgäste sind eingestiegen. Ein Passiv mit 'wurden' gibt es hier nicht."
+          },
+          {
+            "id": "l7e09",
+            "type": "multiple-choice",
+            "instruction": "Welche Nominalgruppe entspricht dem Relativsatz?",
+            "prompt": "die Ampel, die seit Tagen blinkt",
+            "options": [
+              "die seit Tagen blinkende Ampel",
+              "die seit Tagen geblinkte Ampel",
+              "die blinkende seit Tagen Ampel",
+              "die seit Tagen blinkte Ampel"
+            ],
+            "solution": "die seit Tagen blinkende Ampel",
+            "hint": "Erweiterung steht zwischen Artikel und Partizip.",
+            "explanation": "Aktiv und gleichzeitig → Partizip I 'blinkend'. Die Erweiterung 'seit Tagen' steht vor dem Partizip, nicht zwischen Partizip und Nomen."
+          },
+          {
+            "id": "l7e10",
+            "type": "multiple-choice",
+            "instruction": "Welche Nominalgruppe entspricht dem Relativsatz?",
+            "prompt": "die Fahrräder, die am Bahnhof abgestellt wurden",
+            "options": [
+              "die am Bahnhof abgestellten Fahrräder",
+              "die am Bahnhof abstellenden Fahrräder",
+              "die abgestellten am Bahnhof Fahrräder",
+              "die am Bahnhof abgestellte Fahrräder"
+            ],
+            "solution": "die am Bahnhof abgestellten Fahrräder",
+            "hint": "Passiv → Partizip II. Endung nach 'die' im Plural?",
+            "explanation": "Passiv → Partizip II 'abgestellt'; nach 'die' im Plural: -en. Die Ortsangabe steht vor dem Partizip. 'abstellend' wäre aktiv."
+          },
+          {
+            "id": "l7e11",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Partizip I von 'steigen' mit der richtigen Endung.",
+            "prompt": "Die Stadt reagiert auf den ___ Bedarf an Ladestationen.",
+            "solution": "steigenden",
+            "hint": "'reagieren auf' + Akkusativ; nach 'den' folgt die schwache Endung.",
+            "explanation": "Partizip I: steigen + d = steigend. 'auf den Bedarf' ist Akkusativ maskulin, nach 'den' Endung -en → steigenden."
+          },
+          {
+            "id": "l7e12",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Wendung für die Meinungsäußerung.",
+            "prompt": "Eine autofreie Innenstadt ___ für eine sehr wirksame Maßnahme.",
+            "options": [
+              "halte ich",
+              "finde ich",
+              "meine ich",
+              "denke ich"
+            ],
+            "solution": "halte ich",
+            "hint": "Welches Verb verbindet sich mit 'für'?",
+            "explanation": "'etwas für + Akkusativ halten' drückt eine Einschätzung aus. 'finden', 'meinen' und 'denken' stehen nicht mit 'für' + Bewertung."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l7m01",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Partizip mit der richtigen Endung.",
+            "prompt": "Gegen den ___ Lärm der Baustelle helfen nur Ohrstöpsel. (dröhnen, Partizip I)",
+            "solution": "dröhnenden",
+            "hint": "'gegen' + Akkusativ; nach 'den' kommt die schwache Endung.",
+            "explanation": "Partizip I: dröhnen + d. 'gegen den Lärm' ist Akkusativ maskulin → Endung -en: dröhnenden."
+          },
+          {
+            "id": "l7m02",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Partizip mit der richtigen Endung.",
+            "prompt": "Mit einem ___ Fahrrad kommt man in der Stadt oft schneller voran als mit dem Bus. (leihen, Partizip II)",
+            "solution": "geliehenen",
+            "hint": "'leihen' ist unregelmäßig; 'mit' verlangt den Dativ.",
+            "explanation": "Partizip II von 'leihen': geliehen. 'mit einem Fahrrad' ist Dativ Neutrum → Endung -en: geliehenen."
+          },
+          {
+            "id": "l7m03",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Partizip mit der richtigen Endung.",
+            "prompt": "Seit Mai dürfen in der neu ___ Fußgängerzone keine Lieferwagen mehr fahren. (einrichten, Partizip II)",
+            "solution": "eingerichteten",
+            "hint": "Trennbares Verb: -ge- steht zwischen Präfix und Stamm.",
+            "explanation": "Partizip II von 'einrichten': ein-ge-richtet. 'in der Zone' ist hier Dativ feminin → -en: eingerichteten."
+          },
+          {
+            "id": "l7m04",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Partizip mit der richtigen Endung.",
+            "prompt": "Ein Passant half einer ___ Radfahrerin wieder auf die Beine. (stürzen, Partizip II)",
+            "solution": "gestürzten",
+            "hint": "'stürzen' bildet das Perfekt mit 'sein'; 'helfen' + Dativ.",
+            "explanation": "Partizip II von sein-Verben ist aktiv: die Radfahrerin ist gestürzt. Nach 'einer' im Dativ feminin: -en → gestürzten."
+          },
+          {
+            "id": "l7m05",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Partizip mit der richtigen Endung.",
+            "prompt": "Die Anwohner beschweren sich über die nachts ___ Güterzüge. (rattern, Partizip I)",
+            "solution": "ratternden",
+            "hint": "Die Züge rattern gerade selbst; 'über' + Akkusativ Plural.",
+            "explanation": "Aktiv und gleichzeitig → Partizip I 'ratternd'. Nach 'die' im Plural: -en → ratternden."
+          },
+          {
+            "id": "l7m06",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Partizip mit der richtigen Endung.",
+            "prompt": "Ein gut ___ Nahverkehr ist die Voraussetzung für eine autofreie Innenstadt. (ausbauen, Partizip II)",
+            "solution": "ausgebauter",
+            "hint": "Nach 'ein' im Nominativ maskulin zeigt das Adjektiv das Genus.",
+            "explanation": "Partizip II von 'ausbauen': aus-ge-baut. Nach 'ein' im Nominativ maskulin: -er → ausgebauter."
+          },
+          {
+            "id": "l7m07",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz mit erweitertem Partizipialattribut. Beginne mit 'Die'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "eröffnet",
+              "Die",
+              "nächsten Sommer",
+              "geplante",
+              "wird",
+              "seit Jahren",
+              "Seilbahn"
+            ],
+            "solution": "Die seit Jahren geplante Seilbahn wird nächsten Sommer eröffnet.",
+            "hint": "Artikel – Erweiterung – Partizip – Nomen.",
+            "explanation": "Die Erweiterung 'seit Jahren' steht zwischen Artikel und Partizip II 'geplante'. Im Hauptsatz folgt 'wird' auf Position 2, 'eröffnet' steht am Ende."
+          },
+          {
+            "id": "l7m08",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz mit erweitertem Partizipialattribut; die Ortsangabe gehört ins Attribut. Beginne mit 'Die'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "den Busverkehr",
+              "Die",
+              "parkenden",
+              "behindern",
+              "vor der Schule",
+              "Eltern"
+            ],
+            "solution": "Die vor der Schule parkenden Eltern behindern den Busverkehr.",
+            "hint": "Die ganze Nominalgruppe bis 'Eltern' ist das Subjekt.",
+            "explanation": "'vor der Schule parkenden' steht zwischen 'Die' und 'Eltern'. Die ganze Gruppe ist Position 1, danach kommt 'behindern'."
+          },
+          {
+            "id": "l7m09",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz mit erweitertem Partizipialattribut; 'gestern' gehört ins Attribut. Beginne mit 'Wir'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "Wir leihen uns",
+              "das",
+              "gestern",
+              "reparierte",
+              "Lastenrad",
+              "aus"
+            ],
+            "solution": "Wir leihen uns das gestern reparierte Lastenrad aus.",
+            "hint": "'gestern' gehört zur Reparatur, nicht zum Ausleihen (Präsens).",
+            "explanation": "'gestern' erweitert das Partizip 'reparierte' und steht zwischen 'das' und dem Partizip. Das Präfix 'aus' steht am Satzende."
+          },
+          {
+            "id": "l7m10",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz mit erweitertem Partizipialattribut; die Ortsangabe gehört ins Attribut. Beginne mit 'Der'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "einen Strafzettel",
+              "Der",
+              "haltende",
+              "bekam",
+              "auf dem Radweg",
+              "Lieferwagen"
+            ],
+            "solution": "Der auf dem Radweg haltende Lieferwagen bekam einen Strafzettel.",
+            "hint": "Ortsangabe vor das Partizip I.",
+            "explanation": "Erweitertes Attribut: Artikel + 'auf dem Radweg' + Partizip I 'haltende' + Nomen. Danach folgt das Verb 'bekam' auf Position 2."
+          },
+          {
+            "id": "l7m11",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz mit erweitertem Partizipialattribut. Beginne mit 'Die'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "im Sommer Schatten",
+              "Die",
+              "neu gepflanzten",
+              "von der Stadt",
+              "spenden",
+              "Bäume"
+            ],
+            "solution": "Die von der Stadt neu gepflanzten Bäume spenden im Sommer Schatten.",
+            "hint": "Die Angabe mit 'von' steht vor dem Partizip II.",
+            "explanation": "Beim Partizip II nennt 'von der Stadt' den Handelnden; es steht vor 'neu gepflanzten'. Das Ganze ist Subjekt, 'spenden' steht auf Position 2."
+          },
+          {
+            "id": "l7m12",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz mit erweitertem Partizipialattribut. Beginne mit 'Viele'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "Viele",
+              "jeden Morgen im Stau",
+              "stehende",
+              "Pendler",
+              "steigen",
+              "auf die Bahn",
+              "um"
+            ],
+            "solution": "Viele jeden Morgen im Stau stehende Pendler steigen auf die Bahn um.",
+            "hint": "Die Pendler stehen selbst im Stau → Partizip I.",
+            "explanation": "Nach 'viele' folgt die starke Endung: stehende. Die Erweiterung steht vor dem Partizip I; das Präfix 'um' von 'umsteigen' steht am Ende."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l7h01",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze den Relativsatz durch ein erweitertes Partizipialattribut. Alle anderen Wörter und ihre Reihenfolge bleiben.",
+            "prompt": "Die Fahrgäste, die im Regen stehen, warten schon seit zwanzig Minuten auf den Bus.",
+            "solution": "Die im Regen stehenden Fahrgäste warten schon seit zwanzig Minuten auf den Bus.",
+            "hint": "Aktiv und gleichzeitig → Partizip I.",
+            "explanation": "Relativsatz im Präsens, aktiv → Partizip I 'stehend'. Die Ortsangabe rückt vor das Partizip; nach 'die' im Plural: -en."
+          },
+          {
+            "id": "l7h02",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze den Relativsatz durch ein erweitertes Partizipialattribut. Alle anderen Wörter und ihre Reihenfolge bleiben.",
+            "prompt": "Die Ampel, die vor einer Woche installiert wurde, regelt den Verkehr jetzt nach Bedarf.",
+            "solution": "Die vor einer Woche installierte Ampel regelt den Verkehr jetzt nach Bedarf.",
+            "hint": "Passiv → Partizip II; das Hilfsverb 'wurde' fällt weg.",
+            "explanation": "Passiv-Relativsatz → Partizip II 'installiert'. 'vor einer Woche' steht vor dem Partizip; nach 'die' im Nominativ Singular: -e."
+          },
+          {
+            "id": "l7h03",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze den Relativsatz durch ein erweitertes Partizipialattribut. Alle anderen Wörter und ihre Reihenfolge bleiben.",
+            "prompt": "Der Zug, der aus München angekommen ist, fährt gleich weiter nach Hamburg.",
+            "solution": "Der aus München angekommene Zug fährt gleich weiter nach Hamburg.",
+            "hint": "Perfekt mit 'sein' → Partizip II mit aktiver Bedeutung.",
+            "explanation": "Bei sein-Verben wird aus 'der angekommen ist' das Partizip II 'angekommen' (aktiv, abgeschlossen). Nach 'der' im Nominativ: -e."
+          },
+          {
+            "id": "l7h04",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze den Relativsatz durch ein erweitertes Partizipialattribut. Alle anderen Wörter und ihre Reihenfolge bleiben.",
+            "prompt": "Wir wohnen in einer Straße, die vom Durchgangsverkehr befreit wurde.",
+            "solution": "Wir wohnen in einer vom Durchgangsverkehr befreiten Straße.",
+            "hint": "Die Präposition 'in' bestimmt den Kasus der ganzen Gruppe.",
+            "explanation": "Passiv → Partizip II 'befreit'. 'in einer Straße' ist Dativ feminin → Endung -en. Das Attribut steht zwischen 'einer' und 'Straße'."
+          },
+          {
+            "id": "l7h05",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze den Relativsatz durch ein erweitertes Partizipialattribut. Alle anderen Wörter und ihre Reihenfolge bleiben.",
+            "prompt": "Das Unternehmen, das E-Scooter verleiht, hat seine Preise erhöht.",
+            "solution": "Das E-Scooter verleihende Unternehmen hat seine Preise erhöht.",
+            "hint": "Das Unternehmen handelt selbst → Partizip I; das Objekt bleibt vor dem Partizip.",
+            "explanation": "Aktiv, gleichzeitig → Partizip I 'verleihend'. Das Akkusativobjekt 'E-Scooter' steht vor dem Partizip; nach 'das' im Nominativ: -e."
+          },
+          {
+            "id": "l7h06",
+            "type": "targeted-transformation",
+            "instruction": "Löse das Partizipialattribut in einen Relativsatz im Passiv Präteritum (mit 'wurde') auf. Alle anderen Wörter bleiben.",
+            "prompt": "Die im Herbst eröffnete Tiefgarage ist fast immer voll.",
+            "solution": "Die Tiefgarage, die im Herbst eröffnet wurde, ist fast immer voll.",
+            "hint": "Der Relativsatz steht direkt nach dem Nomen, mit zwei Kommas.",
+            "explanation": "Partizip II = Passiv: 'die … eröffnet wurde'. Der Relativsatz folgt auf 'Tiefgarage', das Verb steht am Ende, Kommas davor und danach."
+          },
+          {
+            "id": "l7h07",
+            "type": "targeted-transformation",
+            "instruction": "Löse das Partizipialattribut in einen Relativsatz im Präsens auf. Alle anderen Wörter bleiben.",
+            "prompt": "Die vor dem Rathaus demonstrierenden Radfahrer fordern breitere Wege.",
+            "solution": "Die Radfahrer, die vor dem Rathaus demonstrieren, fordern breitere Wege.",
+            "hint": "Partizip I = aktiv und gleichzeitig.",
+            "explanation": "Partizip I wird zum aktiven Relativsatz im Präsens: 'die … demonstrieren'. Das Verb steht am Ende; Kommas umschließen den Relativsatz."
+          },
+          {
+            "id": "l7h08",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Ändere nur ein Wort; der Artikel 'Die' bleibt.",
+            "prompt": "Die schnell fahrende Autos sind in der Wohnstraße eine Gefahr.",
+            "solution": "Die schnell fahrenden Autos sind in der Wohnstraße eine Gefahr.",
+            "hint": "Prüfe die Endung nach 'die' im Plural.",
+            "explanation": "Partizipien als Attribut bekommen Adjektivendungen. Nach 'die' im Plural steht immer -en: fahrenden, nicht 'fahrende'."
+          },
+          {
+            "id": "l7h09",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Ändere nur ein Wort und behalte das Verb bei.",
+            "prompt": "Das gestern verlierende Ticket wurde im Bus gefunden.",
+            "solution": "Das gestern verlorene Ticket wurde im Bus gefunden.",
+            "hint": "Jemand hat das Ticket verloren – aktiv oder passiv?",
+            "explanation": "Das Ticket wurde verloren: passiv und abgeschlossen → Partizip II 'verloren'. Partizip I 'verlierend' hieße, das Ticket verliert selbst etwas."
+          },
+          {
+            "id": "l7h10",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Ändere nur ein Wort; verwende das Partizip I (die Zahl wächst gerade).",
+            "prompt": "Die wachsene Zahl der Lastenräder überrascht viele.",
+            "solution": "Die wachsende Zahl der Lastenräder überrascht viele.",
+            "hint": "Wie bildet man das Partizip I?",
+            "explanation": "Partizip I = Infinitiv + d: wachsen + d → wachsende. Das -d darf nicht fehlen; 'wachsene' gibt es nicht. 'gewachsene' (Partizip II) hieße: abgeschlossen."
+          },
+          {
+            "id": "l7h11",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Ändere nur ein Wort; der Artikel 'Ein' bleibt.",
+            "prompt": "Ein gut funktionierende Busnetz macht das Zweitauto überflüssig.",
+            "solution": "Ein gut funktionierendes Busnetz macht das Zweitauto überflüssig.",
+            "hint": "Nach 'ein' im Neutrum muss das Adjektiv das Genus zeigen.",
+            "explanation": "'das Busnetz' ist Neutrum. Nach 'ein' im Nominativ trägt das Partizip die Endung -es: funktionierendes."
+          },
+          {
+            "id": "l7h12",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Ändere nur ein Wort und behalte das Verb bei.",
+            "prompt": "Der von vielen Pendlern nutzende Parkplatz soll bebaut werden.",
+            "solution": "Der von vielen Pendlern genutzte Parkplatz soll bebaut werden.",
+            "hint": "'von vielen Pendlern' nennt die Handelnden – der Parkplatz wird genutzt.",
+            "explanation": "Mit 'von' + Handelnde ist das Attribut passiv → Partizip II 'genutzt', Endung -e nach 'der'. 'nutzend' hieße, der Parkplatz nutzt etwas."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l7t01",
+          "type": "multiple-choice",
+          "instruction": "Wähle die passende Form.",
+          "prompt": "Aus dem Fenster des Nachtzugs sahen wir die im Mondlicht ___ Seen.",
+          "options": [
+            "glänzenden",
+            "geglänzten",
+            "glänzende",
+            "glänzten"
+          ],
+          "solution": "glänzenden",
+          "explanation": "Partizip I (Infinitiv + d) beschreibt, was gleichzeitig geschieht: die Seen glänzen. Nach 'die' im Plural → -en. 'geglänzt' ist ein haben-Verb ohne Passiv und kein Attribut."
+        },
+        {
+          "id": "l7t02",
+          "type": "multiple-choice",
+          "instruction": "Wähle die passende Form.",
+          "prompt": "Nach dem Umbau holt Frau Okafor ihr frisch ___ Moped in der Werkstatt ab.",
+          "options": [
+            "lackiertes",
+            "lackierendes",
+            "lackierte",
+            "lackiertem"
+          ],
+          "solution": "lackiertes",
+          "explanation": "Das Moped wurde lackiert (passiv, abgeschlossen) → Partizip II. Nach 'ihr' (Akkusativ neutrum, ohne Endung) braucht das Adjektiv -es."
+        },
+        {
+          "id": "l7t03",
+          "type": "fill-in-blank",
+          "instruction": "Bilde das Partizip I von „schlafen“ mit der richtigen Endung.",
+          "prompt": "Leise stieg die Schaffnerin über die Beine der ___ Passagiere.",
+          "solution": "schlafenden",
+          "explanation": "Partizip I = Infinitiv + d: schlafend. 'der Passagiere' ist Genitiv Plural, daher die Endung -en."
+        },
+        {
+          "id": "l7t04",
+          "type": "multiple-choice",
+          "instruction": "Was bedeutet „die abfahrenden Züge“ in diesem Satz?",
+          "prompt": "Bitte achten Sie auf die abfahrenden Züge an Gleis 3.",
+          "options": [
+            "die Züge, die gerade abfahren",
+            "die Züge, die schon abgefahren sind",
+            "die Züge, die abgefahren werden",
+            "die Züge, die man abfahren muss"
+          ],
+          "solution": "die Züge, die gerade abfahren",
+          "explanation": "Partizip I drückt eine Handlung aus, die gerade abläuft (aktiv, gleichzeitig). 'schon abgefahren' entspräche dem Partizip II 'abgefahrenen'."
+        },
+        {
+          "id": "l7t05",
+          "type": "cloze-conjugation",
+          "instruction": "Ergänze das Partizip II von „verschieben“ mit der richtigen Endung.",
+          "prompt": "Wegen des Sturms informierte die Fluggesellschaft alle Reisenden per SMS über den ___ Abflug.",
+          "solution": "verschobenen",
+          "explanation": "Der Abflug wurde verschoben (passiv) → Partizip II 'verschoben'. 'über den' verlangt Akkusativ maskulin → -en."
+        },
+        {
+          "id": "l7t06",
+          "type": "cloze-conjugation",
+          "instruction": "Ergänze das Partizip II von „einlaufen“ mit der richtigen Endung.",
+          "prompt": "Die gerade in den Hafen ___ Fähre hatte drei Stunden Verspätung.",
+          "solution": "eingelaufene",
+          "explanation": "'einlaufen' bildet das Perfekt mit sein, daher ist das Partizip II aktiv: die Fähre, die eingelaufen ist. Nominativ feminin nach 'die' → -e."
+        },
+        {
+          "id": "l7t07",
+          "type": "targeted-transformation",
+          "instruction": "Forme den Relativsatz in ein Partizipialattribut um. Beginne mit „Die seit dem Morgen“; der Rest des Satzes bleibt gleich.",
+          "prompt": "Die Reisenden, die seit dem Morgen am Flughafen festsitzen, bekommen Hotelgutscheine.",
+          "solution": "Die seit dem Morgen am Flughafen festsitzenden Reisenden bekommen Hotelgutscheine.",
+          "explanation": "Aktiver Relativsatz im Präsens → Partizip I. Die Ergänzungen stehen zwischen Artikel und Partizip, das Partizip direkt vor dem Nomen; keine Kommas mehr."
+        },
+        {
+          "id": "l7t08",
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler. Ändere nur ein Wort.",
+          "prompt": "Die in der Kurve quietschenen Straßenbahnen wecken uns jeden Morgen.",
+          "solution": "Die in der Kurve quietschenden Straßenbahnen wecken uns jeden Morgen.",
+          "explanation": "Das Partizip I wird aus Infinitiv + d gebildet: quietschen + d → quietschend-. Ohne das d entsteht keine Partizipform."
+        },
+        {
+          "id": "l7t09",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz mit Partizipialattribut. Beginne mit „Zum Stadion“; „nur an Spieltagen“ gehört zum Attribut.",
+          "prompt": "Baue den Satz aus den Satzgliedern.",
+          "scrambleChunks": [
+            "eingesetzte",
+            "Zum Stadion",
+            "Sonderbus",
+            "bringt uns",
+            "nur an Spieltagen",
+            "der"
+          ],
+          "solution": "Zum Stadion bringt uns der nur an Spieltagen eingesetzte Sonderbus.",
+          "explanation": "Der Bus wird eingesetzt (passiv) → Partizip II. Im Attribut: Artikel – Ergänzungen – Partizip – Nomen; 'nur an Spieltagen' steht zwischen 'der' und 'eingesetzte'."
+        },
+        {
+          "id": "l7t10",
+          "type": "targeted-transformation",
+          "instruction": "Forme den Relativsatz in ein Partizipialattribut um. Beginne mit „Der im letzten Jahr“; der Rest des Satzes bleibt gleich.",
+          "prompt": "Der Tunnel, der im letzten Jahr saniert wurde, hat jetzt eine eigene Spur für Busse.",
+          "solution": "Der im letzten Jahr sanierte Tunnel hat jetzt eine eigene Spur für Busse.",
+          "explanation": "Passiver Relativsatz (wurde saniert) → Partizip II. Nominativ maskulin nach 'der' → -e; Partizip I 'sanierende' wäre aktiv."
+        },
+        {
+          "id": "l7t11",
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler. Ändere nur ein Wort.",
+          "prompt": "Mit dem letztes Jahr gebautem Parkhaus gibt es endlich genug Stellplätze.",
+          "solution": "Mit dem letztes Jahr gebauten Parkhaus gibt es endlich genug Stellplätze.",
+          "explanation": "Nach bestimmtem Artikel im Dativ ('dem') endet das Partizip als Adjektiv auf -en; die Endung -em zeigt schon der Artikel."
+        },
+        {
+          "id": "l7t12",
+          "type": "multiple-choice",
+          "instruction": "Welche Wortfolge ist korrekt?",
+          "prompt": "Die Pendler loben ___.",
+          "options": [
+            "die von vielen Firmen unterstützte Fährverbindung",
+            "die unterstützte von vielen Firmen Fährverbindung",
+            "die von vielen Firmen Fährverbindung unterstützte",
+            "die Fährverbindung von vielen Firmen unterstützte"
+          ],
+          "solution": "die von vielen Firmen unterstützte Fährverbindung",
+          "explanation": "Reihenfolge im Partizipialattribut: Artikel – Ergänzungen – Partizip mit Endung – Nomen. Das Partizip steht nie hinter dem Nomen."
+        },
+        {
+          "id": "l7t13",
+          "type": "targeted-transformation",
+          "instruction": "Forme das Partizipialattribut in einen Relativsatz mit der/die/das um. Beginne mit „Die Lieferroboter,“; der Rest bleibt gleich.",
+          "prompt": "Die über den Platz rollenden Lieferroboter stören niemanden.",
+          "solution": "Die Lieferroboter, die über den Platz rollen, stören niemanden.",
+          "explanation": "Partizip I = aktiv und gleichzeitig → Relativsatz im Präsens Aktiv. Der Relativsatz folgt dem Nomen und wird durch Kommas eingeschlossen."
+        },
+        {
+          "id": "l7t14",
+          "type": "error-correction",
+          "instruction": "Stelle die Wörter im Attribut in die richtige Reihenfolge. Ändere und ergänze keine Wörter.",
+          "prompt": "Die anstehenden vor dem Ticketautomaten Touristen werden langsam ungeduldig.",
+          "solution": "Die vor dem Ticketautomaten anstehenden Touristen werden langsam ungeduldig.",
+          "explanation": "Ergänzungen wie 'vor dem Ticketautomaten' stehen im Attribut vor dem Partizip; das Partizip steht direkt vor dem Nomen."
+        },
+        {
+          "id": "l7t15",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz mit Partizipialattribut. Beginne mit „Den“; „im Sturm“ gehört zum Attribut.",
+          "prompt": "Baue den Satz aus den Satzgliedern.",
+          "scrambleChunks": [
+            "entfernt",
+            "Baum",
+            "hat die Feuerwehr schon in der Nacht",
+            "umgestürzten",
+            "Den",
+            "im Sturm"
+          ],
+          "solution": "Den im Sturm umgestürzten Baum hat die Feuerwehr schon in der Nacht entfernt.",
+          "explanation": "'umstürzen' bildet das Perfekt mit sein, daher ist das Partizip II aktiv: der Baum, der umgestürzt ist. Die Angabe steht vor dem Partizip."
+        },
+        {
+          "id": "l7t16",
+          "type": "cloze-conjugation",
+          "instruction": "Ergänze das Partizip II von „stehlen“ mit der richtigen Endung.",
+          "prompt": "Die Polizei hat zwei der im Mai ___ E-Scooter in einem Hinterhof gefunden.",
+          "solution": "gestohlenen",
+          "explanation": "Die Roller wurden gestohlen (passiv) → Partizip II 'gestohlen'. 'zwei der' ist Genitiv Plural → Endung -en."
+        }
+      ]
+    },
+    {
+      "lektionId": "b2-m3-l8",
+      "level": "B2",
+      "modulNumber": 3,
+      "lektionNumber": 8,
+      "title": "Mitreden und begründen",
+      "grammarFocus": [
+        "Kausale Konnektoren: weil/da (Nebensatz), denn (Hauptsatz, Position 0), nämlich (Hauptsatz, nach dem Verb), aus diesem Grund (Verb auf Position 2)",
+        "Kausale Präpositionen: wegen/aufgrund/dank + Genitiv, aus + Dativ ohne Artikel (aus Rücksicht); aufgrund dessen",
+        "Redemittel in Diskussion und Konfliktgespräch: sich auf Vorredner beziehen, Verständnis zeigen, um Verständnis bitten, Vorschläge machen"
+      ],
+      "vocabulary": [
+        {
+          "id": "l8v01",
+          "term": "die Partei",
+          "translation": "el partido",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Parteien",
+          "example": "Seit dem Studium ist Mehmet Mitglied einer kleinen Partei."
+        },
+        {
+          "id": "l8v02",
+          "term": "die Wahl",
+          "translation": "la elección",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Wahlen",
+          "example": "Vor der Wahl hängen in der ganzen Stadt Plakate."
+        },
+        {
+          "id": "l8v03",
+          "term": "das Parlament",
+          "translation": "el parlamento",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Parlamente",
+          "example": "Im Parlament wurde bis spät in die Nacht über den Haushalt gestritten."
+        },
+        {
+          "id": "l8v04",
+          "term": "die Regierung",
+          "translation": "el gobierno",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Regierungen",
+          "example": "Die neue Regierung hat versprochen, mehr Wohnungen zu bauen."
+        },
+        {
+          "id": "l8v05",
+          "term": "die Stimme",
+          "translation": "el voto / la voz",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Stimmen",
+          "example": "Bei der Bürgermeisterwahl fehlten ihr nur zwölf Stimmen zum Sieg."
+        },
+        {
+          "id": "l8v06",
+          "term": "das Mitglied",
+          "translation": "el miembro",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Mitglieder",
+          "example": "Der Sportverein sucht dringend neue Mitglieder für den Vorstand."
+        },
+        {
+          "id": "l8v07",
+          "term": "die Forderung",
+          "translation": "la exigencia / la reivindicación",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Forderungen",
+          "example": "Die Forderung nach mehr Radwegen fand im Stadtrat breite Zustimmung."
+        },
+        {
+          "id": "l8v08",
+          "term": "die Wahlbeteiligung",
+          "translation": "la participación electoral",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "In unserem Viertel lag die Wahlbeteiligung unter fünfzig Prozent."
+        },
+        {
+          "id": "l8v09",
+          "term": "der Vorschlag",
+          "translation": "la propuesta",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Vorschläge",
+          "example": "Ihr Vorschlag, die Sitzung online abzuhalten, kam bei allen gut an."
+        },
+        {
+          "id": "l8v10",
+          "term": "der Kompromiss",
+          "translation": "el compromiso / el acuerdo",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Kompromisse",
+          "example": "Nach langer Diskussion einigten sich die Nachbarn auf einen Kompromiss."
+        },
+        {
+          "id": "l8v11",
+          "term": "das Verständnis",
+          "translation": "la comprensión",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "example": "Für ständige Verspätungen hat unsere Teamleiterin wenig Verständnis."
+        },
+        {
+          "id": "l8v12",
+          "term": "der Zweifel",
+          "translation": "la duda",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Zweifel",
+          "example": "Ich habe Zweifel, ob der neue Plan wirklich Geld spart."
+        },
+        {
+          "id": "l8v13",
+          "term": "die Ursache",
+          "translation": "la causa",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Ursachen",
+          "example": "Die Ursache für den Stromausfall war ein defektes Kabel."
+        },
+        {
+          "id": "l8v14",
+          "term": "der Anlass",
+          "translation": "el motivo / la ocasión",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Anlässe",
+          "example": "Anlass für das Treffen war die geplante Schließung der Bibliothek."
+        },
+        {
+          "id": "l8v15",
+          "term": "die Ablenkung",
+          "translation": "la distracción",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Ablenkungen",
+          "example": "Ohne Ablenkung durch das Handy lerne ich viel schneller."
+        },
+        {
+          "id": "l8v16",
+          "term": "wählen",
+          "translation": "votar / elegir",
+          "partOfSpeech": "verb",
+          "preterite": "wählte",
+          "participle": "gewählt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Meine Großmutter hat noch nie eine Wahl verpasst und wählt immer per Brief."
+        },
+        {
+          "id": "l8v17",
+          "term": "teilnehmen",
+          "translation": "participar",
+          "partOfSpeech": "verb",
+          "preterite": "nahm teil",
+          "participle": "teilgenommen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "An der Bürgerversammlung nahmen fast zweihundert Menschen teil."
+        },
+        {
+          "id": "l8v18",
+          "term": "unterschreiben",
+          "translation": "firmar",
+          "partOfSpeech": "verb",
+          "preterite": "unterschrieb",
+          "participle": "unterschrieben",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Bevor du den Mietvertrag unterschreibst, solltest du ihn genau lesen."
+        },
+        {
+          "id": "l8v19",
+          "term": "demonstrieren",
+          "translation": "manifestarse",
+          "partOfSpeech": "verb",
+          "preterite": "demonstrierte",
+          "participle": "demonstriert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Hunderte Studierende demonstrierten vor dem Rathaus für günstigere Tickets."
+        },
+        {
+          "id": "l8v20",
+          "term": "sich einsetzen",
+          "translation": "comprometerse (por) / abogar (por)",
+          "partOfSpeech": "verb",
+          "preterite": "setzte sich ein",
+          "participle": "sich eingesetzt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Seit Jahren setzt sich Frau Kowalski für einen Nachtbus in die Vororte ein."
+        },
+        {
+          "id": "l8v21",
+          "term": "nachvollziehen",
+          "translation": "comprender / entender (un razonamiento)",
+          "partOfSpeech": "verb",
+          "preterite": "vollzog nach",
+          "participle": "nachvollzogen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Seine Entscheidung kann ich gut nachvollziehen."
+        },
+        {
+          "id": "l8v22",
+          "term": "einleuchten",
+          "translation": "resultar evidente / convencer",
+          "partOfSpeech": "verb",
+          "preterite": "leuchtete ein",
+          "participle": "eingeleuchtet",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Das Argument mit den niedrigeren Kosten leuchtet mir sofort ein."
+        },
+        {
+          "id": "l8v23",
+          "term": "profitieren",
+          "translation": "beneficiarse",
+          "partOfSpeech": "verb",
+          "preterite": "profitierte",
+          "participle": "profitiert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Von den längeren Öffnungszeiten profitieren vor allem Berufstätige."
+        },
+        {
+          "id": "l8v24",
+          "term": "anschaffen",
+          "translation": "adquirir",
+          "partOfSpeech": "verb",
+          "preterite": "schaffte an",
+          "participle": "angeschafft",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Für die Kita wurden neue Spielgeräte angeschafft."
+        },
+        {
+          "id": "l8v25",
+          "term": "politikverdrossen",
+          "translation": "desencantado con la política",
+          "partOfSpeech": "adjective",
+          "example": "Viele junge Leute sind nicht politikverdrossen, sondern wollen anders mitreden."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l8e01",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Wort.",
+            "prompt": "Die Bürgerversammlung wurde ___ des starken Sturms auf nächste Woche verschoben.",
+            "options": [
+              "aufgrund",
+              "weil",
+              "denn",
+              "aus"
+            ],
+            "solution": "aufgrund",
+            "hint": "Nach der Lücke folgt ein Nomen im Genitiv, kein Satz.",
+            "explanation": "'aufgrund' ist eine Präposition mit Genitiv. 'weil' und 'denn' leiten Sätze ein; 'aus' steht mit Dativ und meist ohne Artikel."
+          },
+          {
+            "id": "l8e02",
+            "type": "multiple-choice",
+            "instruction": "Wähle den passenden Konnektor.",
+            "prompt": "Ich gehe heute nicht zur Versammlung, ___ ich habe Fieber.",
+            "options": [
+              "denn",
+              "weil",
+              "da",
+              "nämlich"
+            ],
+            "solution": "denn",
+            "hint": "Schau auf die Stellung des Verbs im zweiten Satzteil.",
+            "explanation": "Das Verb 'habe' steht auf Position 2 → Hauptsatz mit 'denn'. Nach 'weil'/'da' stünde das Verb am Ende; 'nämlich' kann keinen Satz einleiten."
+          },
+          {
+            "id": "l8e03",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Wort.",
+            "prompt": "Lukas kommt heute später zur Sitzung. Sein Zug hat ___ eine Stunde Verspätung.",
+            "options": [
+              "nämlich",
+              "denn",
+              "weil",
+              "deshalb"
+            ],
+            "solution": "nämlich",
+            "hint": "Der zweite Satz nennt den Grund und hat das Verb auf Position 2.",
+            "explanation": "'nämlich' nennt einen Grund und steht im Hauptsatz nach dem Verb. 'denn'/'weil' können nicht im Mittelfeld stehen; 'deshalb' nennt eine Folge."
+          },
+          {
+            "id": "l8e04",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Präposition.",
+            "prompt": "___ ihrer guten Vorbereitung gewann die Kandidatin die Debatte deutlich.",
+            "options": [
+              "Dank",
+              "Trotz",
+              "Aus",
+              "Statt"
+            ],
+            "solution": "Dank",
+            "hint": "Die Vorbereitung ist ein positiver Grund für den Erfolg.",
+            "explanation": "'dank' nennt einen positiven Grund. 'trotz' drückt einen Gegensatz aus, 'statt' eine Alternative; 'aus' passt nicht zu einem Nomen mit Artikel wie hier."
+          },
+          {
+            "id": "l8e05",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Präposition.",
+            "prompt": "Ich habe ___ Rücksicht auf meine Kolleginnen leise telefoniert.",
+            "options": [
+              "aus",
+              "wegen",
+              "dank",
+              "da"
+            ],
+            "solution": "aus",
+            "hint": "Motiv oder Gefühl als Grund: Präposition + Nomen ohne Artikel.",
+            "explanation": "'aus' + Dativ ohne Artikel nennt ein inneres Motiv (aus Rücksicht, aus Angst). 'wegen'/'dank' bräuchten einen Genitiv; 'da' ist ein Konnektor."
+          },
+          {
+            "id": "l8e06",
+            "type": "multiple-choice",
+            "instruction": "Mit welchem Satz beziehst du dich auf eine Vorrednerin?",
+            "prompt": "Wähle die passende Redewendung.",
+            "options": [
+              "Wie Frau Öztürk eben gesagt hat, brauchen wir mehr Grünflächen.",
+              "Was ich noch sagen wollte: Wir brauchen mehr Grünflächen.",
+              "Eine Möglichkeit wäre, mehr Grünflächen anzulegen.",
+              "Hoffentlich verstehen Sie, dass wir mehr Grünflächen brauchen."
+            ],
+            "solution": "Wie Frau Öztürk eben gesagt hat, brauchen wir mehr Grünflächen.",
+            "hint": "Wer hat vorher etwas gesagt?",
+            "explanation": "'Wie X gesagt hat, …' greift die Aussage einer Vorrednerin auf. Die anderen ergänzen, machen einen Vorschlag oder bitten um Verständnis."
+          },
+          {
+            "id": "l8e07",
+            "type": "multiple-choice",
+            "instruction": "Mit welchem Satz zeigst du Verständnis?",
+            "prompt": "Wähle die passende Redewendung.",
+            "options": [
+              "Ich kann gut nachvollziehen, dass Sie sich über den Lärm ärgern.",
+              "Hoffentlich können Sie nachvollziehen, dass ich so laut sprechen muss.",
+              "Könnten Sie sich vorstellen, die Tür zu schließen?",
+              "Aus diesem Grund muss ich laut sprechen."
+            ],
+            "solution": "Ich kann gut nachvollziehen, dass Sie sich über den Lärm ärgern.",
+            "hint": "Wer versteht hier wen?",
+            "explanation": "Verständnis zeigen = die Gefühle des anderen anerkennen. 'Hoffentlich können Sie …' bittet um Verständnis, 'Könnten Sie sich vorstellen …' ist ein Vorschlag."
+          },
+          {
+            "id": "l8e08",
+            "type": "multiple-choice",
+            "instruction": "Mit welchem Satz bittest du um Verständnis?",
+            "prompt": "Wähle die passende Redewendung.",
+            "options": [
+              "Ich hoffe, Sie verstehen, dass ich den Termin absagen muss.",
+              "Natürlich verstehe ich, dass Sie enttäuscht sind.",
+              "Eine Möglichkeit wäre, den Termin zu verschieben.",
+              "Wie Herr Lang schon gesagt hat, ist der Termin ungünstig."
+            ],
+            "solution": "Ich hoffe, Sie verstehen, dass ich den Termin absagen muss.",
+            "hint": "Wer soll hier Verständnis aufbringen?",
+            "explanation": "Um Verständnis bitten: Man erklärt das eigene Verhalten und hofft auf Verständnis. 'Natürlich verstehe ich …' zeigt dagegen selbst Verständnis."
+          },
+          {
+            "id": "l8e09",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze den bestimmten Artikel.",
+            "prompt": "Aufgrund ___ Bauarbeiten bleibt das Rathaus bis Freitag geschlossen.",
+            "solution": "der",
+            "hint": "'aufgrund' verlangt den Genitiv; 'Bauarbeiten' ist Plural.",
+            "explanation": "Genitiv Plural des bestimmten Artikels ist 'der'. 'den' wäre Dativ Plural, 'die' Nominativ/Akkusativ."
+          },
+          {
+            "id": "l8e10",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze den bestimmten Artikel im Genitiv.",
+            "prompt": "Wegen ___ Streiks (der Streik) fiel die Ratssitzung aus.",
+            "solution": "des",
+            "hint": "Maskulines Nomen im Genitiv Singular: Artikel und Endung ändern sich.",
+            "explanation": "Im geschriebenen Standard steht 'wegen' mit Genitiv: des Streiks. 'dem Streik' (Dativ) ist umgangssprachlich."
+          },
+          {
+            "id": "l8e11",
+            "type": "multiple-choice",
+            "instruction": "Welcher Satz ist richtig?",
+            "prompt": "Wähle den korrekten Satz.",
+            "options": [
+              "Wir gehen wählen, weil jede Stimme zählt.",
+              "Wir gehen wählen, weil zählt jede Stimme.",
+              "Wir gehen wählen, denn zählt jede Stimme.",
+              "Wir gehen wählen, nämlich jede Stimme zählt."
+            ],
+            "solution": "Wir gehen wählen, weil jede Stimme zählt.",
+            "hint": "Wo steht das Verb nach 'weil', wo nach 'denn'?",
+            "explanation": "Nach 'weil' steht das Verb am Ende. Nach 'denn' folgt normale Hauptsatzstellung (denn jede Stimme zählt); 'nämlich' kann keinen Satz einleiten."
+          },
+          {
+            "id": "l8e12",
+            "type": "multiple-choice",
+            "instruction": "Wähle den passenden Ausdruck.",
+            "prompt": "Die Wahlbeteiligung war sehr niedrig. ___ will die Stadt junge Menschen besser informieren.",
+            "options": [
+              "Aus diesem Grund",
+              "Denn",
+              "Weil",
+              "Nämlich"
+            ],
+            "solution": "Aus diesem Grund",
+            "hint": "Nach der Lücke steht direkt das Verb; der zweite Satz nennt eine Folge.",
+            "explanation": "'Aus diesem Grund' besetzt Position 1, danach folgt das Verb. 'Denn'/'Weil' nennen einen Grund und passen nicht zur Wortstellung; 'nämlich' steht nie vorn."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l8m01",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Viele Bürger'.",
+            "prompt": "Ordne die Satzteile.",
+            "solution": "Viele Bürger gehen nicht zur Wahl, weil sie den Parteien nicht mehr vertrauen.",
+            "hint": "Im weil-Satz steht das Verb am Ende.",
+            "explanation": "'weil' leitet einen Nebensatz ein: Subjekt direkt nach 'weil', das konjugierte Verb 'vertrauen' am Satzende.",
+            "scrambleChunks": [
+              "weil sie",
+              "nicht mehr vertrauen",
+              "Viele Bürger",
+              "den Parteien",
+              "gehen nicht zur Wahl,"
+            ]
+          },
+          {
+            "id": "l8m02",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Ich unterschreibe'.",
+            "prompt": "Ordne die Satzteile.",
+            "solution": "Ich unterschreibe die Petition, denn der Spielplatz soll erhalten bleiben.",
+            "hint": "'denn' steht auf Position 0 und ändert die Wortstellung nicht.",
+            "explanation": "Nach 'denn' folgt ein normaler Hauptsatz: Subjekt, dann Verb auf Position 2 ('soll'), Infinitive am Ende.",
+            "scrambleChunks": [
+              "soll",
+              "Ich unterschreibe die Petition,",
+              "erhalten bleiben",
+              "denn",
+              "der Spielplatz"
+            ]
+          },
+          {
+            "id": "l8m03",
+            "type": "sentence-scramble",
+            "instruction": "Frau Berger fehlt heute. Bilde den zweiten Satz. Beginne mit 'Sie'.",
+            "prompt": "Ordne die Satzteile.",
+            "solution": "Sie ist nämlich auf einer Konferenz in Hamburg.",
+            "hint": "'nämlich' steht direkt nach dem konjugierten Verb.",
+            "explanation": "'nämlich' nennt den Grund im zweiten Hauptsatz und steht nach dem Verb: Sie ist nämlich … Am Satzanfang ist es nicht möglich.",
+            "scrambleChunks": [
+              "auf einer Konferenz in Hamburg",
+              "nämlich",
+              "Sie",
+              "ist"
+            ]
+          },
+          {
+            "id": "l8m04",
+            "type": "sentence-scramble",
+            "instruction": "Die Bahn ist morgens oft überfüllt. Bilde den nächsten Satz. Beginne mit 'Aus diesem Grund'.",
+            "prompt": "Ordne die Satzteile.",
+            "solution": "Aus diesem Grund fährt Jana mit dem Fahrrad zur Arbeit.",
+            "hint": "'Aus diesem Grund' ist Position 1 – was folgt dann?",
+            "explanation": "'Aus diesem Grund' besetzt das Vorfeld, deshalb folgt das Verb 'fährt' direkt danach und das Subjekt 'Jana' steht hinter dem Verb.",
+            "scrambleChunks": [
+              "Jana",
+              "mit dem Fahrrad zur Arbeit",
+              "Aus diesem Grund",
+              "fährt"
+            ]
+          },
+          {
+            "id": "l8m05",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Aufgrund'.",
+            "prompt": "Ordne die Satzteile.",
+            "solution": "Aufgrund des hohen Interesses findet die Diskussion im großen Saal statt.",
+            "hint": "Präpositionalgruppe auf Position 1, dann das Verb.",
+            "explanation": "'Aufgrund' + Genitiv bildet Position 1; danach folgt das Verb 'findet', das Präfix 'statt' steht am Ende.",
+            "scrambleChunks": [
+              "im großen Saal statt",
+              "Aufgrund des hohen Interesses",
+              "findet die Diskussion"
+            ]
+          },
+          {
+            "id": "l8m06",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Vorschlag. Beginne mit 'Da die Besprechungen'.",
+            "prompt": "Ordne die Satzteile.",
+            "solution": "Da die Besprechungen immer zu lange dauern, sollten wir eine feste Redezeit vereinbaren.",
+            "hint": "Nach dem da-Satz folgt direkt das Verb des Hauptsatzes.",
+            "explanation": "Der da-Satz (Verb am Ende) steht auf Position 1, darum beginnt der Hauptsatz mit dem Verb: 'sollten wir … vereinbaren'.",
+            "scrambleChunks": [
+              "eine feste Redezeit",
+              "Da die Besprechungen",
+              "sollten wir",
+              "vereinbaren",
+              "immer zu lange dauern,"
+            ]
+          },
+          {
+            "id": "l8m07",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb im Präteritum.",
+            "prompt": "Die Abgeordnete stimmte gegen das Gesetz, weil sie es für ungerecht ___. (halten)",
+            "solution": "hielt",
+            "hint": "'halten' ist unregelmäßig; im weil-Satz steht das Verb am Ende.",
+            "explanation": "'halten – hielt – gehalten'. Das konjugierte Verb steht im weil-Satz am Ende: … für ungerecht hielt."
+          },
+          {
+            "id": "l8m08",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb im Präteritum.",
+            "prompt": "Da viele Mitglieder krank ___, wurde die Jahresversammlung abgesagt. (sein)",
+            "solution": "waren",
+            "hint": "Subjekt im da-Satz ist 'viele Mitglieder' (Plural).",
+            "explanation": "'sein' im Präteritum, 3. Person Plural: waren. Das Verb steht im da-Satz am Ende, vor dem Komma."
+          },
+          {
+            "id": "l8m09",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb im Präteritum.",
+            "prompt": "Wir konnten nicht mitdiskutieren, denn wir ___ die Unterlagen nicht rechtzeitig. (bekommen)",
+            "solution": "bekamen",
+            "hint": "Nach 'denn' steht das Verb auf Position 2.",
+            "explanation": "'bekommen – bekam – bekommen', 1. Person Plural: wir bekamen. Nach 'denn' Hauptsatzstellung, also Verb direkt nach dem Subjekt."
+          },
+          {
+            "id": "l8m10",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb im Präsens.",
+            "prompt": "Herr Yilmaz kann heute nicht kommen. Er ___ nämlich mit seiner Tochter zum Arzt. (fahren)",
+            "solution": "fährt",
+            "hint": "Vokalwechsel in der 3. Person Singular; 'nämlich' folgt dem Verb.",
+            "explanation": "'fahren' hat im Präsens a → ä: er fährt. Im Hauptsatz mit 'nämlich' steht das Verb auf Position 2, 'nämlich' direkt danach."
+          },
+          {
+            "id": "l8m11",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb im Präteritum.",
+            "prompt": "Dank der vielen Ordner ___ die Demonstration friedlich. (verlaufen)",
+            "solution": "verlief",
+            "hint": "'verlaufen' ist unregelmäßig wie 'laufen'.",
+            "explanation": "'verlaufen – verlief – verlaufen'. 'Dank der vielen Ordner' ist Position 1, darum folgt das Verb direkt danach."
+          },
+          {
+            "id": "l8m12",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Partizip II.",
+            "prompt": "Weil die Partei ihre Versprechen nicht ___ hat, verlor sie viele Stimmen. (einhalten)",
+            "solution": "eingehalten",
+            "hint": "Trennbares Verb: -ge- steht zwischen Präfix und Stamm.",
+            "explanation": "'einhalten – hielt ein – eingehalten'. Im weil-Satz steht das Hilfsverb 'hat' ganz am Ende, das Partizip davor."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l8h01",
+            "type": "targeted-transformation",
+            "instruction": "Formuliere mit 'aufgrund'. Beginne mit 'Aufgrund' und verwende 'das schlechte Wetter'. Der Rest des Hauptsatzes bleibt.",
+            "prompt": "Weil das Wetter schlecht war, kamen nur wenige Wähler ins Wahllokal.",
+            "solution": "Aufgrund des schlechten Wetters kamen nur wenige Wähler ins Wahllokal.",
+            "hint": "Genitiv nach 'aufgrund': Artikel, Adjektiv und Nomen ändern sich.",
+            "explanation": "'aufgrund' + Genitiv: des schlechten Wetters. Die Präpositionalgruppe steht auf Position 1, darum folgt direkt das Verb 'kamen'."
+          },
+          {
+            "id": "l8h02",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde mit 'weil'. Der Hauptsatz bleibt vorn.",
+            "prompt": "Die Sitzung beginnt später, denn der Bürgermeister steckt im Stau.",
+            "solution": "Die Sitzung beginnt später, weil der Bürgermeister im Stau steckt.",
+            "hint": "'weil' schickt das Verb ans Ende.",
+            "explanation": "'denn' verbindet zwei Hauptsätze (Verb auf Position 2); 'weil' leitet einen Nebensatz ein, darum steht 'steckt' am Ende."
+          },
+          {
+            "id": "l8h03",
+            "type": "targeted-transformation",
+            "instruction": "Drücke den Grund mit 'nämlich' aus. Schreibe nur den zweiten Satz, beginne mit 'Ich' und verwende nur die Wörter aus dem weil-Satz.",
+            "prompt": "Ich kann morgen nicht zur Versammlung kommen, weil ich arbeiten muss.",
+            "solution": "Ich muss nämlich arbeiten.",
+            "hint": "'nämlich' folgt direkt auf das konjugierte Verb.",
+            "explanation": "Mit 'nämlich' wird der Grund ein eigener Hauptsatz: Verb auf Position 2, dann 'nämlich', der Infinitiv am Ende."
+          },
+          {
+            "id": "l8h04",
+            "type": "targeted-transformation",
+            "instruction": "Mache zwei Hauptsätze daraus; der erste lautet 'Der Saal ist zu klein.' Schreibe nur den zweiten Satz und beginne mit 'Aus diesem Grund'.",
+            "prompt": "Da der Saal zu klein ist, ziehen wir in die Aula um.",
+            "solution": "Aus diesem Grund ziehen wir in die Aula um.",
+            "hint": "Nach 'Aus diesem Grund' kommt sofort das Verb.",
+            "explanation": "'Aus diesem Grund' verweist auf den vorigen Satz und besetzt Position 1; danach Verb, Subjekt, Präfix 'um' am Ende."
+          },
+          {
+            "id": "l8h05",
+            "type": "targeted-transformation",
+            "instruction": "Beginne mit 'Wegen' und verwende 'technische Probleme' im Genitiv. Die übrigen Satzglieder bleiben.",
+            "prompt": "Die Abstimmung wurde verschoben, weil es technische Probleme gab.",
+            "solution": "Wegen technischer Probleme wurde die Abstimmung verschoben.",
+            "hint": "Genitiv Plural ohne Artikel: Das Adjektiv zeigt den Kasus.",
+            "explanation": "Ohne Artikel trägt das Adjektiv die Genitivendung -er: technischer Probleme. Nach der Präpositionalgruppe folgt direkt das Verb 'wurde'."
+          },
+          {
+            "id": "l8h06",
+            "type": "targeted-transformation",
+            "instruction": "Beginne mit 'Dank' und verwende 'das Engagement der Freiwilligen' im Genitiv. Der Rest bleibt.",
+            "prompt": "Weil sich die Freiwilligen so engagiert haben, war das Stadtfest ein voller Erfolg.",
+            "solution": "Dank des Engagements der Freiwilligen war das Stadtfest ein voller Erfolg.",
+            "hint": "Genitiv Singular von 'das Engagement': Artikel und Nomen ändern sich.",
+            "explanation": "'dank' nennt einen positiven Grund; im Genitiv: des Engagements. Danach folgt direkt das Verb 'war'."
+          },
+          {
+            "id": "l8h07",
+            "type": "targeted-transformation",
+            "instruction": "Schreibe nur den zweiten Satz und beginne mit 'Aufgrund dessen'.",
+            "prompt": "Der Bus fiel aus. Deshalb kam ich zu spät zur Sitzung.",
+            "solution": "Aufgrund dessen kam ich zu spät zur Sitzung.",
+            "hint": "'Aufgrund dessen' ersetzt 'Deshalb' auf Position 1.",
+            "explanation": "'Aufgrund dessen' bezieht sich auf den ganzen vorigen Satz und besetzt Position 1, darum folgt direkt das Verb 'kam'."
+          },
+          {
+            "id": "l8h08",
+            "type": "targeted-transformation",
+            "instruction": "Beginne mit 'Aus' und verwende das Nomen 'Angst'. Der Rest bleibt.",
+            "prompt": "Weil er Angst vor Kritik hatte, sagte er in der Sitzung nichts.",
+            "solution": "Aus Angst vor Kritik sagte er in der Sitzung nichts.",
+            "hint": "Gefühle als Grund: 'aus' + Nomen ohne Artikel.",
+            "explanation": "'aus' + Dativ ohne Artikel nennt ein Gefühl als Motiv: aus Angst. Die Gruppe steht auf Position 1, darum folgt das Verb 'sagte'."
+          },
+          {
+            "id": "l8h09",
+            "type": "error-correction",
+            "instruction": "Korrigiere die Wortstellung im Nebensatz. Der Konnektor bleibt.",
+            "prompt": "Wir bleiben heute zu Hause, weil regnet es seit Stunden.",
+            "solution": "Wir bleiben heute zu Hause, weil es seit Stunden regnet.",
+            "hint": "Im weil-Satz steht das konjugierte Verb am Ende.",
+            "explanation": "'weil' leitet einen Nebensatz ein: Das Verb 'regnet' gehört ans Ende. Verb auf Position 2 wäre nur nach 'denn' richtig."
+          },
+          {
+            "id": "l8h10",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler im zweiten Satz. Beginne mit 'Niemand' und schreibe nur den zweiten Satz.",
+            "prompt": "Lea ist verärgert. Nämlich hat niemand sie nach ihrer Meinung gefragt.",
+            "solution": "Niemand hat sie nämlich nach ihrer Meinung gefragt.",
+            "hint": "'nämlich' steht nie auf Position 1; ein unbetontes Pronomen wie 'sie' steht vor 'nämlich'.",
+            "explanation": "'nämlich' steht im Mittelfeld nach dem Verb und nach Pronomen wie 'sie'. Am Satzanfang ist es falsch."
+          },
+          {
+            "id": "l8h11",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Ändere nur ein Wort.",
+            "prompt": "Aufgrund des Lärm konnte ich mich nicht konzentrieren.",
+            "solution": "Aufgrund des Lärms konnte ich mich nicht konzentrieren.",
+            "hint": "Maskuline Nomen bekommen im Genitiv eine Endung.",
+            "explanation": "'aufgrund' verlangt den Genitiv; maskuline Nomen wie 'der Lärm' bekommen dann -s: des Lärms."
+          },
+          {
+            "id": "l8h12",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Ändere nur ein Wort.",
+            "prompt": "Wegen der hohe Mieten ziehen viele Familien aus der Stadt weg.",
+            "solution": "Wegen der hohen Mieten ziehen viele Familien aus der Stadt weg.",
+            "hint": "Adjektiv nach Artikel im Genitiv Plural.",
+            "explanation": "Nach 'wegen' steht der Genitiv; nach dem Artikel 'der' im Plural endet das Adjektiv auf -en: der hohen Mieten."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l8t01",
+          "type": "multiple-choice",
+          "instruction": "Welches Wort passt in die Lücke? Nur eine Option ist korrekt.",
+          "prompt": "___ die Stadt sparen muss, werden zwei Jugendzentren geschlossen.",
+          "options": [
+            "Da",
+            "Denn",
+            "Nämlich",
+            "Deshalb"
+          ],
+          "solution": "Da",
+          "explanation": "Das Verb „muss“ steht am Ende, also ein Nebensatz: „da“. „Denn“ und „nämlich“ leiten keinen Nebensatz ein, „deshalb“ nennt die Folge."
+        },
+        {
+          "id": "l8t02",
+          "type": "multiple-choice",
+          "instruction": "Welche Angabe ist standardsprachlich korrekt?",
+          "prompt": "___ wurde das geplante Hallenbad am Ende doch nicht gebaut.",
+          "options": [
+            "Aufgrund der hohen Kosten",
+            "Aufgrund den hohen Kosten",
+            "Aus hohen Kosten",
+            "Denn die hohen Kosten"
+          ],
+          "solution": "Aufgrund der hohen Kosten",
+          "explanation": "„aufgrund“ verlangt den Genitiv: der hohen Kosten (nicht Dativ „den“). „aus“ ohne Artikel nennt Motive (aus Angst); „denn“ ist ein Konnektor, keine Präposition."
+        },
+        {
+          "id": "l8t03",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze die kausale Präposition (ein Wort).",
+          "prompt": "Herr Okafor ist nicht wegen der Vorteile, sondern ___ Überzeugung in die Gewerkschaft eingetreten.",
+          "solution": "aus",
+          "explanation": "Für innere Beweggründe steht „aus“ + Nomen ohne Artikel: aus Überzeugung, aus Neugier, aus Rücksicht."
+        },
+        {
+          "id": "l8t04",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze den Artikel nach „wegen“ im standardsprachlichen Genitiv (ein Wort).",
+          "prompt": "Wegen ___ fehlenden Personals bleibt das Bürgerbüro im August nachmittags geschlossen.",
+          "solution": "des",
+          "explanation": "„wegen“ + Genitiv; „das Personal“ im Genitiv: des fehlenden Personals. „dem“ (Dativ) ist umgangssprachlich."
+        },
+        {
+          "id": "l8t05",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze das fehlende Pronomen (ein Wort).",
+          "prompt": "Die Gemeinde hat die Miete für den Sportplatz verdoppelt. Aufgrund ___ trainieren zwei Vereine jetzt im Nachbarort.",
+          "solution": "dessen",
+          "explanation": "„aufgrund dessen“ greift den ganzen vorigen Satz auf (Genitiv). „aufgrund davon“ ist nicht standardsprachlich."
+        },
+        {
+          "id": "l8t06",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz. Beginne mit „Die Sitzung des Elternbeirats“.",
+          "prompt": "Baue den Satz aus den Satzgliedern.",
+          "scrambleChunks": [
+            "liegt",
+            "denn",
+            "aus,",
+            "mit Grippe im Bett",
+            "fällt",
+            "der Vorsitzende",
+            "Die Sitzung des Elternbeirats"
+          ],
+          "solution": "Die Sitzung des Elternbeirats fällt aus, denn der Vorsitzende liegt mit Grippe im Bett.",
+          "explanation": "„denn“ steht auf Position 0 und zählt nicht mit: danach folgt ein normaler Hauptsatz mit dem Verb auf Position 2."
+        },
+        {
+          "id": "l8t07",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz. Beginne mit „Da“.",
+          "prompt": "Baue den Satz aus den Satzgliedern.",
+          "scrambleChunks": [
+            "essen",
+            "renoviert",
+            "Da",
+            "wir",
+            "wird,",
+            "im Café gegenüber",
+            "die Kantine diese Woche"
+          ],
+          "solution": "Da die Kantine diese Woche renoviert wird, essen wir im Café gegenüber.",
+          "explanation": "Im da-Satz steht das konjugierte Verb am Ende. Der Nebensatz besetzt das Vorfeld, daher folgt direkt das Verb: „essen wir“."
+        },
+        {
+          "id": "l8t08",
+          "type": "targeted-transformation",
+          "instruction": "Ersetze den weil-Satz durch „aufgrund“ + Nomen. Beginne mit „Aufgrund“ und verwende „die gestiegene Nachfrage“. Die übrigen Satzglieder bleiben in derselben Reihenfolge.",
+          "prompt": "Weil die Nachfrage gestiegen ist, bietet die Volkshochschule zusätzliche Sprachkurse an.",
+          "solution": "Aufgrund der gestiegenen Nachfrage bietet die Volkshochschule zusätzliche Sprachkurse an.",
+          "explanation": "„aufgrund“ + Genitiv: der gestiegenen Nachfrage. Die Angabe steht im Vorfeld, also folgt sofort das Verb „bietet“."
+        },
+        {
+          "id": "l8t09",
+          "type": "targeted-transformation",
+          "instruction": "Schreibe nur den Begründungssatz als eigenen Hauptsatz mit „nämlich“ statt „denn“. Beginne mit „Die Autorin“ und setze „nämlich“ direkt hinter das konjugierte Verb.",
+          "prompt": "Die Lesung in der Stadtbibliothek wird verschoben, denn die Autorin ist krank geworden.",
+          "solution": "Die Autorin ist nämlich krank geworden.",
+          "explanation": "„nämlich“ steht nie am Satzanfang und ersetzt „denn“ nicht an Position 0; es steht im Mittelfeld, hier direkt nach dem konjugierten Verb: „ist nämlich“."
+        },
+        {
+          "id": "l8t10",
+          "type": "targeted-transformation",
+          "instruction": "Formuliere die Folge als Hauptsatz. Beginne mit „Aus diesem Grund“ und schreibe nur diesen Satz; die übrigen Satzglieder bleiben in derselben Reihenfolge.",
+          "prompt": "Viele Pendler kommen zu spät zur Arbeit, weil die Buslinie seit Mai nur noch stündlich fährt.",
+          "solution": "Aus diesem Grund kommen viele Pendler zu spät zur Arbeit.",
+          "explanation": "„aus diesem Grund“ besetzt das Vorfeld, das Verb steht auf Position 2: „kommen viele Pendler“, nicht „viele Pendler kommen“."
+        },
+        {
+          "id": "l8t11",
+          "type": "error-correction",
+          "instruction": "Korrigiere die Wortstellung. Verschiebe nur ein Wort.",
+          "prompt": "Ich unterstütze die Forderung der Pflegekräfte, denn sie seit Jahren unterbezahlt sind.",
+          "solution": "Ich unterstütze die Forderung der Pflegekräfte, denn sie sind seit Jahren unterbezahlt.",
+          "explanation": "Nach „denn“ folgt ein Hauptsatz: Das Verb steht auf Position 2, nicht am Ende wie nach „weil“."
+        },
+        {
+          "id": "l8t12",
+          "type": "error-correction",
+          "instruction": "Korrigiere den Satz in die Standardsprache (Genitiv nach „wegen“). Die Wortstellung bleibt gleich.",
+          "prompt": "Wegen dem Mangel an Freiwilligen fällt der Flohmarkt im Gemeindehaus dieses Jahr aus.",
+          "solution": "Wegen des Mangels an Freiwilligen fällt der Flohmarkt im Gemeindehaus dieses Jahr aus.",
+          "explanation": "Standardsprachlich „wegen“ + Genitiv: des Mangels (maskulin, Endung -s). „wegen dem“ ist umgangssprachlich."
+        },
+        {
+          "id": "l8t13",
+          "type": "multiple-choice",
+          "instruction": "Sie möchten in einer Diskussion an den Beitrag von Frau Demir anknüpfen. Was passt?",
+          "prompt": "Wählen Sie die passende Äußerung.",
+          "options": [
+            "Um noch einmal auf Frau Demirs Punkt zurückzukommen: Die Kosten sind wirklich zu hoch.",
+            "Darf ich Sie kurz unterbrechen, Frau Demir?",
+            "Könnten Sie das bitte noch einmal wiederholen?",
+            "Da muss ich Ihnen leider widersprechen."
+          ],
+          "solution": "Um noch einmal auf Frau Demirs Punkt zurückzukommen: Die Kosten sind wirklich zu hoch.",
+          "explanation": "Wer sich auf einen Vorredner bezieht, greift dessen Punkt auf. Die anderen Sätze unterbrechen, fragen nach oder widersprechen."
+        },
+        {
+          "id": "l8t14",
+          "type": "multiple-choice",
+          "instruction": "Sie üben abends Klavier, Ihre Nachbarin beschwert sich. Sie möchten um Verständnis bitten. Was passt?",
+          "prompt": "Wählen Sie die passende Äußerung.",
+          "options": [
+            "Ich hoffe, Sie haben Verständnis dafür, dass ich vor meiner Prüfung viel üben muss.",
+            "Ich kann gut verstehen, dass Sie das stört.",
+            "Wie wäre es, wenn ich nur bis 20 Uhr spiele?",
+            "Das sehe ich ganz anders."
+          ],
+          "solution": "Ich hoffe, Sie haben Verständnis dafür, dass ich vor meiner Prüfung viel üben muss.",
+          "explanation": "Um Verständnis bitten: eigene Gründe nennen. „Ich kann verstehen …“ zeigt Verständnis, „Wie wäre es …“ ist ein Vorschlag."
+        },
+        {
+          "id": "l8t15",
+          "type": "multiple-choice",
+          "instruction": "Welche Präposition passt? Nur eine Option ist korrekt.",
+          "prompt": "___ der großzügigen Spenden aus der Nachbarschaft konnte der Spielplatz neu gestaltet werden.",
+          "options": [
+            "Dank",
+            "Aus",
+            "Trotz",
+            "Statt"
+          ],
+          "solution": "Dank",
+          "explanation": "„dank“ nennt eine positive Ursache. „aus“ steht nur ohne Artikel bei Motiven, „trotz“ ist konzessiv, „statt“ nennt eine Alternative."
+        },
+        {
+          "id": "l8t16",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze „sollen“ im Konjunktiv II, um einen höflichen Vorschlag zu machen.",
+          "prompt": "Wir ___ vielleicht einen Termin suchen, an dem wirklich alle Zeit haben.",
+          "solution": "sollten",
+          "explanation": "Vorschläge macht man höflich mit „sollte“ im Konjunktiv II: wir sollten. „sollen“ (Indikativ) klingt wie eine Anweisung."
+        }
+      ]
+    },
+    {
+      "lektionId": "b2-m3-l9",
+      "level": "B2",
+      "modulNumber": 3,
+      "lektionNumber": 9,
+      "title": "Mit Veränderungen umgehen",
+      "grammarFocus": [
+        "Entwicklungen beschreiben: zunehmen/steigen ↔ abnehmen/sinken/zurückgehen, um/auf + Zahl (ist um ein Drittel gestiegen / ist auf 20 % gesunken)",
+        "Wortbildung: ver- + Adjektiv → Verb der Veränderung (vereinfachen, verkürzen, verdeutlichen, verlängern, verschönern)",
+        "Wortschatz der Veränderung: (sich) ändern / verändern / wechseln / tauschen / umstellen / ersetzen; der Wandel, der Umbruch, der Wendepunkt; sich gewöhnen an, umgehen mit, betroffen sein von"
+      ],
+      "vocabulary": [
+        {
+          "id": "l9v01",
+          "term": "der Umbruch",
+          "translation": "la ruptura, el cambio radical",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Umbrüche",
+          "example": "Der Wechsel von der Schule an die Uni war für Malte ein echter Umbruch."
+        },
+        {
+          "id": "l9v02",
+          "term": "der Wendepunkt",
+          "translation": "el punto de inflexión",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Wendepunkte",
+          "example": "Das Gespräch mit ihrer alten Lehrerin wurde zum Wendepunkt in Idas Berufsplanung."
+        },
+        {
+          "id": "l9v03",
+          "term": "der Fortschritt",
+          "translation": "el progreso, el avance",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Fortschritte",
+          "example": "Nach drei Monaten Klavierunterricht macht Bruno endlich hörbare Fortschritte."
+        },
+        {
+          "id": "l9v04",
+          "term": "der Trend",
+          "translation": "la tendencia, la moda",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Trends",
+          "example": "Selbst gebackenes Sauerteigbrot ist in vielen Großstädten gerade ein Trend."
+        },
+        {
+          "id": "l9v05",
+          "term": "die Tendenz",
+          "translation": "la tendencia",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Tendenzen",
+          "example": "Bei den Anmeldungen für den Sprachkurs ist eine steigende Tendenz zu erkennen."
+        },
+        {
+          "id": "l9v06",
+          "term": "der Anstieg",
+          "translation": "el aumento, la subida",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Anstiege",
+          "example": "Der Anstieg der Heizkosten hat viele Mieter überrascht."
+        },
+        {
+          "id": "l9v07",
+          "term": "der Rückgang",
+          "translation": "el descenso, la disminución",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Rückgänge",
+          "example": "Die Imkerin beobachtet seit Jahren einen Rückgang der Wildbienen."
+        },
+        {
+          "id": "l9v08",
+          "term": "die Gewohnheit",
+          "translation": "la costumbre, el hábito",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Gewohnheiten",
+          "example": "Morgens zuerst die Nachrichten zu lesen, ist eine alte Gewohnheit von mir."
+        },
+        {
+          "id": "l9v09",
+          "term": "zunehmen",
+          "translation": "aumentar, crecer",
+          "partOfSpeech": "verb",
+          "preterite": "nahm zu",
+          "participle": "zugenommen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Die Zahl der Kinder, die mit dem Roller zur Schule kommen, hat stark zugenommen."
+        },
+        {
+          "id": "l9v10",
+          "term": "abnehmen",
+          "translation": "disminuir, bajar",
+          "partOfSpeech": "verb",
+          "preterite": "nahm ab",
+          "participle": "abgenommen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Im Herbst nimmt die Zahl der Gäste auf dem Campingplatz deutlich ab."
+        },
+        {
+          "id": "l9v11",
+          "term": "sinken",
+          "translation": "bajar, descender",
+          "partOfSpeech": "verb",
+          "preterite": "sank",
+          "participle": "gesunken",
+          "auxiliary": "sein",
+          "irregular": true,
+          "example": "Nach der Ernte sind die Preise für Äpfel auf dem Markt gesunken."
+        },
+        {
+          "id": "l9v12",
+          "term": "zurückgehen",
+          "translation": "retroceder, disminuir",
+          "partOfSpeech": "verb",
+          "preterite": "ging zurück",
+          "participle": "zurückgegangen",
+          "auxiliary": "sein",
+          "irregular": true,
+          "example": "Seit es den Lieferdienst gibt, ist der Andrang in der Kantine zurückgegangen."
+        },
+        {
+          "id": "l9v13",
+          "term": "sich verschlechtern",
+          "translation": "empeorar",
+          "partOfSpeech": "verb",
+          "preterite": "verschlechterte sich",
+          "participle": "sich verschlechtert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Ohne regelmäßiges Training hat sich ihre Kondition schnell verschlechtert."
+        },
+        {
+          "id": "l9v14",
+          "term": "vereinfachen",
+          "translation": "simplificar",
+          "partOfSpeech": "verb",
+          "preterite": "vereinfachte",
+          "participle": "vereinfacht",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Ein gemeinsamer Kalender vereinfacht die Planung in unserer WG enorm."
+        },
+        {
+          "id": "l9v15",
+          "term": "verdeutlichen",
+          "translation": "aclarar, ilustrar",
+          "partOfSpeech": "verb",
+          "preterite": "verdeutlichte",
+          "participle": "verdeutlicht",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Mit einer kleinen Zeichnung verdeutlichte der Trainer die neue Spieltaktik."
+        },
+        {
+          "id": "l9v16",
+          "term": "umstellen",
+          "translation": "cambiar, reorganizar, adaptar",
+          "partOfSpeech": "verb",
+          "preterite": "stellte um",
+          "participle": "umgestellt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Die Kantine hat ihr Angebot auf regionale Produkte umgestellt."
+        },
+        {
+          "id": "l9v17",
+          "term": "sich gewöhnen",
+          "translation": "acostumbrarse (a)",
+          "partOfSpeech": "verb",
+          "preterite": "gewöhnte sich",
+          "participle": "sich gewöhnt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "An die Zeitverschiebung habe ich mich nach einer Woche gewöhnt."
+        },
+        {
+          "id": "l9v18",
+          "term": "umgehen",
+          "translation": "lidiar con, manejar (umgehen mit)",
+          "partOfSpeech": "verb",
+          "preterite": "ging um",
+          "participle": "umgegangen",
+          "auxiliary": "sein",
+          "irregular": true,
+          "example": "Unser Mathelehrer geht sehr geduldig mit Fragen um."
+        },
+        {
+          "id": "l9v19",
+          "term": "scheuen",
+          "translation": "evitar, rehuir",
+          "partOfSpeech": "verb",
+          "preterite": "scheute",
+          "participle": "gescheut",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Die Gründerin scheut kein Risiko, wenn sie an eine Idee glaubt."
+        },
+        {
+          "id": "l9v20",
+          "term": "festhalten",
+          "translation": "aferrarse (a), mantener (festhalten an)",
+          "partOfSpeech": "verb",
+          "preterite": "hielt fest",
+          "participle": "festgehalten",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Der Chor hält an seiner Tradition fest, jedes Jahr im Advent zu singen."
+        },
+        {
+          "id": "l9v21",
+          "term": "verzeichnen",
+          "translation": "registrar, constatar",
+          "partOfSpeech": "verb",
+          "preterite": "verzeichnete",
+          "participle": "verzeichnet",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Der Tierpark verzeichnete im Juli einen neuen Besucherrekord."
+        },
+        {
+          "id": "l9v22",
+          "term": "gelassen",
+          "translation": "sereno, tranquilo",
+          "partOfSpeech": "adjective",
+          "example": "Auch als der Beamer ausfiel, blieb die Referentin völlig gelassen."
+        },
+        {
+          "id": "l9v23",
+          "term": "unausweichlich",
+          "translation": "inevitable, ineludible",
+          "partOfSpeech": "adjective",
+          "example": "Für das alte Kino war die Schließung nach dem Wasserschaden unausweichlich."
+        },
+        {
+          "id": "l9v24",
+          "term": "betroffen",
+          "translation": "afectado (betroffen sein von)",
+          "partOfSpeech": "adjective",
+          "example": "Von der Sperrung der Brücke sind vor allem die Pendler aus dem Nachbarort betroffen."
+        },
+        {
+          "id": "l9v25",
+          "term": "auf den Kopf stellen",
+          "translation": "poner patas arriba",
+          "partOfSpeech": "phrase",
+          "example": "Die Geburt der Zwillinge hat den Alltag der Familie völlig auf den Kopf gestellt."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l9e01",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Präposition.",
+            "prompt": "Die Zahl der Mitglieder im Kirchenchor ist von 40 ___ 52 gestiegen.",
+            "options": [
+              "auf",
+              "um",
+              "bis",
+              "zu"
+            ],
+            "solution": "auf",
+            "hint": "Nach 'von + Ausgangswert' folgt der Endwert.",
+            "explanation": "'von … auf …' nennt Ausgangs- und Endwert. 'um' nennt die Differenz (hier: um 12); 'bis' und 'zu' passen nicht zu 'steigen'."
+          },
+          {
+            "id": "l9e02",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Präposition.",
+            "prompt": "Ein Brötchen kostet jetzt 60 statt 50 Cent. Der Preis ist ___ zehn Cent gestiegen.",
+            "options": [
+              "um",
+              "auf",
+              "über",
+              "mit"
+            ],
+            "solution": "um",
+            "hint": "Ist 'zehn Cent' der neue Preis oder der Unterschied?",
+            "explanation": "'um' + Zahl nennt die Differenz: 50 + 10 = 60. 'auf zehn Cent' hieße, das Brötchen kostet jetzt nur noch zehn Cent."
+          },
+          {
+            "id": "l9e03",
+            "type": "multiple-choice",
+            "instruction": "Welches Verb passt? Es geht um eine Abnahme.",
+            "prompt": "Im Sommer leihen sich weniger Leute Bücher aus. Die Zahl der Ausleihen ___ jedes Jahr im Juli.",
+            "options": [
+              "sinkt",
+              "steigt",
+              "wächst",
+              "nimmt zu"
+            ],
+            "solution": "sinkt",
+            "hint": "Weniger Leute → die Zahl wird kleiner.",
+            "explanation": "'sinken' beschreibt eine Abnahme. 'steigen', 'wachsen' und 'zunehmen' bedeuten das Gegenteil."
+          },
+          {
+            "id": "l9e04",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Hilfsverb im Perfekt.",
+            "prompt": "Die Zahl der Zeitungsabos ___ im letzten Quartal deutlich abgenommen.",
+            "options": [
+              "hat",
+              "ist",
+              "wird",
+              "wurde"
+            ],
+            "solution": "hat",
+            "hint": "abnehmen = kleiner werden. Welches Hilfsverb bildet hier das Perfekt?",
+            "explanation": "'abnehmen' und 'zunehmen' bilden das Perfekt mit 'haben'. 'sinken' oder 'zurückgehen' dagegen stehen mit 'sein'."
+          },
+          {
+            "id": "l9e05",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Hilfsverb im Perfekt.",
+            "prompt": "Die Arbeitslosigkeit in der Region ___ seit 2019 stetig gesunken.",
+            "options": [
+              "ist",
+              "hat",
+              "wird",
+              "wurde"
+            ],
+            "solution": "ist",
+            "hint": "sinken beschreibt eine Zustandsveränderung.",
+            "explanation": "'sinken' bildet das Perfekt mit 'sein': ist gesunken. 'hat gesunken' ist falsch; 'wird/wurde' + Partizip wäre Passiv, das gibt es bei 'sinken' nicht."
+          },
+          {
+            "id": "l9e06",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Verb mit ver- (ver- + einfach, Infinitiv).",
+            "prompt": "Das neue Formular soll die Anmeldung für den Kurs ___.",
+            "solution": "vereinfachen",
+            "hint": "ver- + Adjektiv + -en → 'einfach machen'.",
+            "explanation": "ver- + Adjektiv bildet ein Verb der Veränderung: einfach → vereinfachen = einfacher machen. Nach 'soll' steht der Infinitiv."
+          },
+          {
+            "id": "l9e07",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Verb mit ver- (ver- + lang, Präsens).",
+            "prompt": "Ab Oktober ___ die Mensa ihre Öffnungszeiten um eine Stunde.",
+            "solution": "verlängert",
+            "hint": "Manche ver-Verben haben einen Umlaut, wie im Komparativ.",
+            "explanation": "lang → länger → verlängern; Umlaut wie im Komparativ. Subjekt 'die Mensa' (3. Person Singular) → 'verlängert'."
+          },
+          {
+            "id": "l9e08",
+            "type": "multiple-choice",
+            "instruction": "Welches Nomen passt?",
+            "prompt": "Die Entscheidung gegen das Medizinstudium war ein ___: Ab da ging ihr Leben in eine ganz andere Richtung.",
+            "options": [
+              "Wendepunkt",
+              "Fortschritt",
+              "Anstieg",
+              "Trend"
+            ],
+            "solution": "Wendepunkt",
+            "hint": "Gesucht ist der Moment, an dem sich die Richtung ändert.",
+            "explanation": "Ein Wendepunkt ist der Moment einer Richtungsänderung. Ein Fortschritt ist eine Verbesserung, ein Anstieg eine Zunahme, ein Trend eine allgemeine Mode."
+          },
+          {
+            "id": "l9e09",
+            "type": "multiple-choice",
+            "instruction": "Welches Verb passt?",
+            "prompt": "Nach drei Jahren mit hohen Rechnungen will Jonas den Stromanbieter ___.",
+            "options": [
+              "wechseln",
+              "verändern",
+              "umstellen",
+              "verwandeln"
+            ],
+            "solution": "wechseln",
+            "hint": "Man nimmt einen anderen Anbieter statt des alten.",
+            "explanation": "Den Anbieter, die Schule oder den Job 'wechselt' man. 'verändern' hieße, den Anbieter selbst anders machen; 'umstellen' heißt anders organisieren."
+          },
+          {
+            "id": "l9e10",
+            "type": "multiple-choice",
+            "instruction": "Welches Verb passt?",
+            "prompt": "Die Jacke ist zu klein. Kann ich sie im Geschäft gegen eine größere ___?",
+            "options": [
+              "tauschen",
+              "umstellen",
+              "ersetzen",
+              "verändern"
+            ],
+            "solution": "tauschen",
+            "hint": "etwas gegen etwas anderes geben",
+            "explanation": "'etwas gegen etwas tauschen' = hergeben und dafür etwas anderes bekommen. 'ersetzen' steht mit 'durch', nicht mit 'gegen'; 'umstellen' heißt anders ordnen."
+          },
+          {
+            "id": "l9e11",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Präposition.",
+            "prompt": "Nach dem Umzug musste sich Lea erst ___ das viele Regenwetter in Hamburg gewöhnen.",
+            "options": [
+              "an",
+              "auf",
+              "mit",
+              "zu"
+            ],
+            "solution": "an",
+            "hint": "Das Verb hat eine feste Präposition mit Akkusativ.",
+            "explanation": "Es heißt 'sich gewöhnen an + Akkusativ'. 'auf', 'mit' und 'zu' sind bei diesem Verb nicht möglich."
+          },
+          {
+            "id": "l9e12",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Präposition.",
+            "prompt": "Manche Menschen können gut ___ Kritik umgehen, andere nehmen sie sehr persönlich.",
+            "options": [
+              "mit",
+              "an",
+              "über",
+              "für"
+            ],
+            "solution": "mit",
+            "hint": "Das Verb hat eine feste Präposition mit Dativ.",
+            "explanation": "'umgehen mit + Dativ' = etwas handhaben, auf etwas reagieren. Die anderen Präpositionen passen nicht zu diesem Verb."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l9m01",
+            "type": "sentence-scramble",
+            "instruction": "Beschreibe die Entwicklung. Beginne mit 'Im letzten Jahr'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "um ein Viertel",
+              "ist",
+              "Im letzten Jahr",
+              "gestiegen",
+              "die Zahl der Vereinsmitglieder"
+            ],
+            "solution": "Im letzten Jahr ist die Zahl der Vereinsmitglieder um ein Viertel gestiegen.",
+            "hint": "Perfekt: Hilfsverb auf Position 2, Partizip am Ende.",
+            "explanation": "Nach der Zeitangabe im Vorfeld folgt 'ist', dann das Subjekt. 'um ein Viertel' nennt die Differenz und steht vor dem Partizip 'gestiegen'."
+          },
+          {
+            "id": "l9m02",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz zur Grafik. Beginne mit 'Die Grafik'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "immer mehr Menschen",
+              "zeigt,",
+              "Die Grafik",
+              "online einkaufen",
+              "dass"
+            ],
+            "solution": "Die Grafik zeigt, dass immer mehr Menschen online einkaufen.",
+            "hint": "Im dass-Satz steht das Verb am Ende.",
+            "explanation": "'Die Grafik zeigt, dass …' ist ein typischer Einstieg. Im dass-Satz steht das konjugierte Verb 'einkaufen' am Ende, ungetrennt."
+          },
+          {
+            "id": "l9m03",
+            "type": "sentence-scramble",
+            "instruction": "Beginne mit 'Seit der Preiserhöhung'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "einen deutlichen Rückgang",
+              "das Schwimmbad",
+              "Seit der Preiserhöhung",
+              "der Besucherzahlen",
+              "verzeichnet"
+            ],
+            "solution": "Seit der Preiserhöhung verzeichnet das Schwimmbad einen deutlichen Rückgang der Besucherzahlen.",
+            "hint": "Wer verzeichnet was? Das Genitivattribut folgt dem Nomen.",
+            "explanation": "'etwas verzeichnen' = feststellen, registrieren. Verb auf Position 2, dann Subjekt; 'der Besucherzahlen' steht als Genitiv direkt hinter 'Rückgang'."
+          },
+          {
+            "id": "l9m04",
+            "type": "sentence-scramble",
+            "instruction": "Beginne mit 'Mit einer Skizze'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "verdeutlichen",
+              "möchte",
+              "ihre Idee",
+              "Mit einer Skizze",
+              "die Architektin"
+            ],
+            "solution": "Mit einer Skizze möchte die Architektin ihre Idee verdeutlichen.",
+            "hint": "Modalverb auf Position 2, Infinitiv ans Ende.",
+            "explanation": "'verdeutlichen' (ver- + deutlich) = deutlicher machen. Das Modalverb 'möchte' steht auf Position 2, der Infinitiv am Satzende."
+          },
+          {
+            "id": "l9m05",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz im Perfekt. Beginne mit 'Ich'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "gewöhnt",
+              "habe",
+              "noch nicht an die neuen Arbeitszeiten",
+              "Ich",
+              "mich"
+            ],
+            "solution": "Ich habe mich noch nicht an die neuen Arbeitszeiten gewöhnt.",
+            "hint": "Das Reflexivpronomen steht direkt nach dem Hilfsverb.",
+            "explanation": "'sich gewöhnen an' bildet das Perfekt mit 'haben'. Das Reflexivpronomen 'mich' folgt direkt auf 'habe', das Partizip steht am Ende."
+          },
+          {
+            "id": "l9m06",
+            "type": "sentence-scramble",
+            "instruction": "Beginne mit 'Wer'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "hat",
+              "Wer",
+              "umgeht,",
+              "weniger Stress",
+              "gelassen mit Veränderungen"
+            ],
+            "solution": "Wer gelassen mit Veränderungen umgeht, hat weniger Stress.",
+            "hint": "Der wer-Satz ist Position 1 – danach kommt sofort das Verb.",
+            "explanation": "Im wer-Satz steht 'umgeht' am Ende. Der ganze Nebensatz besetzt Position 1, deshalb folgt direkt 'hat'."
+          },
+          {
+            "id": "l9m07",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Partizip II (zurückgehen).",
+            "prompt": "Im Winter ist der Umsatz des Hofladens um zwölf Prozent ___.",
+            "solution": "zurückgegangen",
+            "hint": "Trennbares Verb: Wo steht -ge-?",
+            "explanation": "Bei trennbaren Verben steht -ge- zwischen Präfix und Stamm: zurück-ge-gangen. 'gehen' ist unregelmäßig, daher -gangen."
+          },
+          {
+            "id": "l9m08",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Hilfsverb im Perfekt (zunehmen).",
+            "prompt": "In den letzten zehn Jahren ___ die Zahl der Menschen, die vegetarisch leben, deutlich zugenommen.",
+            "solution": "hat",
+            "hint": "zunehmen ist das Gegenteil von abnehmen – gleiches Hilfsverb.",
+            "explanation": "'zunehmen' bildet das Perfekt mit 'haben', obwohl es eine Veränderung beschreibt. Subjekt ist 'die Zahl' (Singular) → 'hat'."
+          },
+          {
+            "id": "l9m09",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb im Perfekt (ver- + besser, Partizip II).",
+            "prompt": "Seit die Bäckerei ihr Rezept ___ hat, kommen wieder mehr Kunden.",
+            "solution": "verbessert",
+            "hint": "Das Verb baut auf dem Komparativ auf.",
+            "explanation": "gut → besser → verbessern. Verben mit ver- bilden das Partizip II ohne ge-: verbessert, nicht 'geverbessert'."
+          },
+          {
+            "id": "l9m10",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb (ver- + kurz, Präteritum).",
+            "prompt": "Wegen des Personalmangels ___ die Stadtbibliothek im Sommer ihre Öffnungszeiten.",
+            "solution": "verkürzte",
+            "hint": "Denk an den Umlaut wie im Komparativ.",
+            "explanation": "kurz → kürzer → verkürzen, mit Umlaut. Präteritum 3. Person Singular eines regelmäßigen Verbs: verkürz-te."
+          },
+          {
+            "id": "l9m11",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb (ver- + schön, Präsens).",
+            "prompt": "Jedes Frühjahr ___ die Nachbarn den Innenhof mit neuen Blumenkästen.",
+            "solution": "verschönern",
+            "hint": "Wer ist das Subjekt – Singular oder Plural?",
+            "explanation": "schön → verschönern = schöner machen. Subjekt 'die Nachbarn' ist Plural, also 'verschönern', nicht 'verschönert'."
+          },
+          {
+            "id": "l9m12",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb (sinken, Präteritum).",
+            "prompt": "Nach der Eröffnung des Supermarkts ___ die Preise im Dorfladen spürbar.",
+            "solution": "sanken",
+            "hint": "sinken ist ein starkes Verb mit Vokalwechsel.",
+            "explanation": "sinken – sank – gesunken. Subjekt 'die Preise' ist Plural → 'sanken'. Die schwache Form 'sinkten' gibt es nicht."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l9h01",
+            "type": "targeted-transformation",
+            "instruction": "Forme mit dem Nomen 'Anstieg' und einem Genitivattribut um. Beginne mit 'Im Stadtzentrum gab es'.",
+            "prompt": "Im Stadtzentrum sind die Mieten stark gestiegen.",
+            "solution": "Im Stadtzentrum gab es einen starken Anstieg der Mieten.",
+            "hint": "Aus dem Adverb wird ein Adjektiv, aus dem Subjekt ein Genitivattribut.",
+            "explanation": "Nominalstil: 'stark steigen' → 'ein starker Anstieg'. 'es gibt' + Akkusativ → 'einen starken'; die Mieten werden zum Genitiv 'der Mieten'."
+          },
+          {
+            "id": "l9h02",
+            "type": "targeted-transformation",
+            "instruction": "Forme mit 'zurückgehen' im Perfekt um. Beginne mit 'Die Zahl der Übernachtungen'.",
+            "prompt": "Bei den Übernachtungen gab es einen Rückgang um 15 Prozent.",
+            "solution": "Die Zahl der Übernachtungen ist um 15 Prozent zurückgegangen.",
+            "hint": "Welches Hilfsverb braucht 'zurückgehen'?",
+            "explanation": "'Rückgang' → 'zurückgehen', Perfekt mit 'sein': ist zurückgegangen. 'um 15 Prozent' bleibt, denn es nennt die Differenz."
+          },
+          {
+            "id": "l9h03",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze 'einfacher machen' durch ein Verb mit ver-. Alles andere bleibt unverändert.",
+            "prompt": "Die neue App soll die Terminbuchung beim Friseur einfacher machen.",
+            "solution": "Die neue App soll die Terminbuchung beim Friseur vereinfachen.",
+            "hint": "ver- + Adjektiv = das Adjektiv 'machen'.",
+            "explanation": "einfacher machen → vereinfachen. Das ver-Verb ersetzt Adjektiv + 'machen' und steht nach 'soll' als Infinitiv am Ende."
+          },
+          {
+            "id": "l9h04",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze 'deutlicher machen' durch ein Verb mit ver-. Alles andere bleibt unverändert.",
+            "prompt": "Ein Beispiel aus dem Alltag kann die Regel deutlicher machen.",
+            "solution": "Ein Beispiel aus dem Alltag kann die Regel verdeutlichen.",
+            "hint": "ver- + Adjektiv + -en",
+            "explanation": "deutlicher machen → verdeutlichen. Das Verb baut hier auf der Grundform 'deutlich' auf, nicht auf dem Komparativ."
+          },
+          {
+            "id": "l9h05",
+            "type": "targeted-transformation",
+            "instruction": "Nenne im zweiten Satz den Endwert mit 'auf' statt der Differenz mit 'um'. Der erste Satz bleibt unverändert.",
+            "prompt": "Der Yogakurs hatte 20 Teilnehmende. Jetzt ist die Zahl um 5 gesunken.",
+            "solution": "Der Yogakurs hatte 20 Teilnehmende. Jetzt ist die Zahl auf 15 gesunken.",
+            "hint": "Rechne: Ausgangswert minus Differenz.",
+            "explanation": "'um 5' = Differenz, 'auf 15' = Endwert: 20 − 5 = 15. Wer 'auf 5' schreibt, behauptet, es seien nur noch fünf Teilnehmende."
+          },
+          {
+            "id": "l9h06",
+            "type": "targeted-transformation",
+            "instruction": "Forme mit 'betroffen sein von' um. Beginne mit 'Viele Familien'.",
+            "prompt": "Die Schließung der Grundschule betrifft viele Familien.",
+            "solution": "Viele Familien sind von der Schließung der Grundschule betroffen.",
+            "hint": "betroffen sein von + Dativ",
+            "explanation": "Aus dem Akkusativobjekt wird das Subjekt, die Ursache folgt mit 'von + Dativ': von der Schließung. 'betroffen' steht am Satzende."
+          },
+          {
+            "id": "l9h07",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Ändere nur ein Wort.",
+            "prompt": "Die Zahl der Unfälle hat im letzten Jahr gesunken.",
+            "solution": "Die Zahl der Unfälle ist im letzten Jahr gesunken.",
+            "hint": "Prüfe das Hilfsverb.",
+            "explanation": "'sinken' bildet das Perfekt mit 'sein': ist gesunken. Mit 'haben' stehen dagegen z. B. 'zunehmen' und 'abnehmen'."
+          },
+          {
+            "id": "l9h08",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Ändere nur ein Wort.",
+            "prompt": "Die Nachfrage nach E-Books ist stark zugenommen.",
+            "solution": "Die Nachfrage nach E-Books hat stark zugenommen.",
+            "hint": "Prüfe das Hilfsverb.",
+            "explanation": "'zunehmen' bildet das Perfekt mit 'haben', anders als 'steigen' (ist gestiegen). 'ist zugenommen' ist falsch."
+          },
+          {
+            "id": "l9h09",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Ändere nur eine Präposition.",
+            "prompt": "Früher kostete das Ticket 8 Euro, heute 10 Euro. Der Preis ist von 8 Euro um 10 Euro gestiegen.",
+            "solution": "Früher kostete das Ticket 8 Euro, heute 10 Euro. Der Preis ist von 8 Euro auf 10 Euro gestiegen.",
+            "hint": "Nach 'von + Ausgangswert' folgt der Endwert.",
+            "explanation": "'von … auf …' verbindet Ausgangs- und Endwert. 'um 10 Euro' nennt eine Differenz und hieße, das Ticket kostet jetzt 18 Euro."
+          },
+          {
+            "id": "l9h10",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Ändere nur ein Wort.",
+            "prompt": "Ich habe mich schnell auf das frühe Aufstehen gewöhnt.",
+            "solution": "Ich habe mich schnell an das frühe Aufstehen gewöhnt.",
+            "hint": "Prüfe die Präposition des Verbs.",
+            "explanation": "Es heißt 'sich gewöhnen an + Akkusativ'. 'auf' gehört zu anderen Verben, z. B. 'sich freuen auf'."
+          },
+          {
+            "id": "l9h11",
+            "type": "error-correction",
+            "instruction": "Ein Verb mit ver- ist falsch gebildet. Korrigiere nur dieses Wort; die Vorsilbe ver- bleibt.",
+            "prompt": "Der Aufsatz ist zu lang, wir müssen ihn verkurzen.",
+            "solution": "Der Aufsatz ist zu lang, wir müssen ihn verkürzen.",
+            "hint": "Bilde den Komparativ des Adjektivs.",
+            "explanation": "Das Verb baut auf dem Komparativ auf: kurz → kürzer → verkürzen, mit Umlaut. Ebenso: lang → verlängern."
+          },
+          {
+            "id": "l9h12",
+            "type": "error-correction",
+            "instruction": "Im Satz fehlt ein Wort. Ergänze es direkt nach 'hat'.",
+            "prompt": "Seit dem Umbau hat das Café sehr verändert.",
+            "solution": "Seit dem Umbau hat sich das Café sehr verändert.",
+            "hint": "Das Café verändert nichts – es wird selbst anders.",
+            "explanation": "Ohne Objekt braucht 'verändern' das Reflexivpronomen: sich verändern = anders werden. 'etwas verändern' braucht ein Akkusativobjekt."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l9t01",
+          "type": "multiple-choice",
+          "instruction": "Welche Präposition passt?",
+          "prompt": "2022 betrug der Monatsbeitrag im Schwimmverein 50 Euro. Inzwischen ist er ___ 58 Euro gestiegen.",
+          "options": [
+            "auf",
+            "um",
+            "an",
+            "mit"
+          ],
+          "solution": "auf",
+          "explanation": "'auf' + Zahl nennt den Endwert (jetzt 58 Euro). 'um' nennt die Differenz – das wären hier 8 Euro."
+        },
+        {
+          "id": "l9t02",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze die Präposition „um“ oder „auf“.",
+          "prompt": "Die Stadtbücherei hat im Vorjahr 800 Leseausweise ausgegeben, in diesem Jahr waren es 1.000. Die Zahl der Ausweise ist also ___ 200 gestiegen.",
+          "solution": "um",
+          "explanation": "'um' + Zahl nennt die Differenz (1.000 − 800 = 200). 'auf 200' hieße, dass es am Ende nur 200 Ausweise sind."
+        },
+        {
+          "id": "l9t03",
+          "type": "cloze-conjugation",
+          "instruction": "Setze das Verb in Klammern im Perfekt ein (Partizip II + Hilfsverb).",
+          "prompt": "Die Tierärztin ist erleichtert, weil das Fieber des Hundes seit gestern um zwei Grad ___ (sinken).",
+          "solution": "gesunken ist",
+          "explanation": "'sinken' ist eine Zustandsveränderung → Perfekt mit 'sein'. Im Nebensatz steht das Hilfsverb am Ende: 'gesunken ist'."
+        },
+        {
+          "id": "l9t04",
+          "type": "fill-in-blank",
+          "instruction": "Bilde aus dem Adjektiv in Klammern ein Verb mit „ver-“ und setze es im Präsens ein.",
+          "prompt": "Mit den neuen Fenstern ___ sich der Lärm im Schlafzimmer deutlich. (gering)",
+          "solution": "verringert",
+          "explanation": "ver- + Komparativ: geringer → 'verringern'. Subjekt 'der Lärm' (3. Person Singular) → 'verringert'."
+        },
+        {
+          "id": "l9t05",
+          "type": "fill-in-blank",
+          "instruction": "Bilde aus dem Adjektiv in Klammern ein Verb mit „ver-“. Setze den Infinitiv ein.",
+          "prompt": "Mit etwas Sahne und frischen Kräutern kann man die Soße noch ___. (fein)",
+          "solution": "verfeinern",
+          "explanation": "ver- + Komparativ 'feiner' → 'verfeinern' (feiner machen). Nach dem Modalverb 'kann' steht der Infinitiv am Ende."
+        },
+        {
+          "id": "l9t06",
+          "type": "multiple-choice",
+          "instruction": "Welche Form ist richtig?",
+          "prompt": "Das Café hat seine Terrasse ___ – jetzt passen zwanzig Tische mehr darauf.",
+          "options": [
+            "vergrößert",
+            "vergroßert",
+            "verkleinert",
+            "vergrößt"
+          ],
+          "solution": "vergrößert",
+          "explanation": "ver- + Komparativ 'größer' → 'vergrößern', mit Umlaut. 'verkleinert' widerspricht den zusätzlichen Tischen."
+        },
+        {
+          "id": "l9t07",
+          "type": "multiple-choice",
+          "instruction": "Welches Verb passt?",
+          "prompt": "Weil der alte Kopierer ständig ausfiel, hat die Praxis ihn durch ein neues Gerät ___.",
+          "options": [
+            "ersetzt",
+            "gewechselt",
+            "getauscht",
+            "umgestellt"
+          ],
+          "solution": "ersetzt",
+          "explanation": "'etwas durch etwas ersetzen' = an seine Stelle setzen. 'tauschen' verlangt 'gegen', 'wechseln' und 'umstellen' passen nicht zu 'durch'."
+        },
+        {
+          "id": "l9t08",
+          "type": "multiple-choice",
+          "instruction": "Welches Verb passt?",
+          "prompt": "Nach zehn Jahren im Vertrieb möchte Hanna den Beruf ___ und Erzieherin werden.",
+          "options": [
+            "wechseln",
+            "tauschen",
+            "ersetzen",
+            "umstellen"
+          ],
+          "solution": "wechseln",
+          "explanation": "'den Beruf / die Stelle wechseln' = einen anderen nehmen. 'tauschen' braucht einen Partner, 'ersetzen' und 'umstellen' passen nicht."
+        },
+        {
+          "id": "l9t09",
+          "type": "multiple-choice",
+          "instruction": "Welches Nomen passt?",
+          "prompt": "Durch die Digitalisierung erlebt die Arbeitswelt seit Jahren einen tiefgreifenden ___.",
+          "options": [
+            "Wandel",
+            "Wendepunkt",
+            "Anstieg",
+            "Gewohnheit"
+          ],
+          "solution": "Wandel",
+          "explanation": "'Wandel' = grundlegende Veränderung über längere Zeit. Ein 'Wendepunkt' ist nur ein Moment, ein 'Anstieg' braucht eine Größe (der Preise)."
+        },
+        {
+          "id": "l9t10",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze die Präposition.",
+          "prompt": "In der Schulung lernen die Pflegekräfte, wie sie ___ aggressiven Patienten umgehen.",
+          "solution": "mit",
+          "explanation": "'umgehen mit + Dativ' = auf eine bestimmte Weise behandeln. Ohne 'mit' hieße 'etwas umgehen' (untrennbar) 'vermeiden'."
+        },
+        {
+          "id": "l9t11",
+          "type": "error-correction",
+          "instruction": "Finde den Fehler. Ändere nur ein Wort; „betroffen“ bleibt.",
+          "prompt": "Im Sommer war die ganze Region mit der Hitzewelle betroffen.",
+          "solution": "Im Sommer war die ganze Region von der Hitzewelle betroffen.",
+          "explanation": "Es heißt 'betroffen sein von + Dativ'. 'mit' passt nicht zu 'betroffen'."
+        },
+        {
+          "id": "l9t12",
+          "type": "error-correction",
+          "instruction": "Finde den Fehler. Ändere nur ein Wort; das Verb „wachsen“ bleibt.",
+          "prompt": "Die Warteliste für einen Kitaplatz hat im letzten Halbjahr stark gewachsen.",
+          "solution": "Die Warteliste für einen Kitaplatz ist im letzten Halbjahr stark gewachsen.",
+          "explanation": "'wachsen' bildet das Perfekt mit 'sein' (Zustandsveränderung) – wie steigen und sinken. Nur 'zunehmen' und 'abnehmen' stehen mit 'haben'."
+        },
+        {
+          "id": "l9t13",
+          "type": "targeted-transformation",
+          "instruction": "Formuliere mit dem Verb „zunehmen“ im Perfekt. Beginne mit „Die Zahl der Fahrradpendler in unserer Stadt“ und behalte die Reihenfolge der Angaben (seit 2019 – um ein Fünftel).",
+          "prompt": "Seit 2019 gab es einen Anstieg der Fahrradpendler in unserer Stadt um ein Fünftel.",
+          "solution": "Die Zahl der Fahrradpendler in unserer Stadt hat seit 2019 um ein Fünftel zugenommen.",
+          "explanation": "Nomen → Verb: 'Anstieg' → 'zunehmen'. Anders als 'steigen' bildet 'zunehmen' das Perfekt mit 'haben'; das Partizip steht am Ende."
+        },
+        {
+          "id": "l9t14",
+          "type": "targeted-transformation",
+          "instruction": "Ersetze „macht … kleiner“ durch ein Verb mit „ver-“. Die übrigen Wörter bleiben in ihrer Reihenfolge.",
+          "prompt": "Ab Januar macht der Verlag das Format der Zeitschrift kleiner.",
+          "solution": "Ab Januar verkleinert der Verlag das Format der Zeitschrift.",
+          "explanation": "ver- + Komparativ: kleiner machen → 'verkleinern'. Das konjugierte Verb 'verkleinert' steht auf Position 2, nach 'Ab Januar'."
+        },
+        {
+          "id": "l9t15",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz. Beginne mit „Weil“.",
+          "prompt": "Baue den Satz aus den Satzgliedern.",
+          "scrambleChunks": [
+            "stellt",
+            "stark gestiegen",
+            "Weil",
+            "der Händler",
+            "ist,",
+            "zwei neue Mechaniker ein",
+            "die Nachfrage nach Lastenrädern"
+          ],
+          "solution": "Weil die Nachfrage nach Lastenrädern stark gestiegen ist, stellt der Händler zwei neue Mechaniker ein.",
+          "explanation": "'steigen' bildet das Perfekt mit 'sein'; im Nebensatz steht 'ist' am Ende. Danach folgt im Hauptsatz sofort das Verb 'stellt'."
+        },
+        {
+          "id": "l9t16",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz. Beginne mit „Unser Hund“.",
+          "prompt": "Baue den Satz aus den Satzgliedern.",
+          "scrambleChunks": [
+            "gewöhnt hatte",
+            "bis",
+            "an die neue Wohnung",
+            "Unser Hund",
+            "sich",
+            "drei Monate,",
+            "er",
+            "brauchte"
+          ],
+          "solution": "Unser Hund brauchte drei Monate, bis er sich an die neue Wohnung gewöhnt hatte.",
+          "explanation": "'sich gewöhnen an + Akkusativ'. Im Nebensatz steht das Reflexivpronomen nach dem Pronomen 'er', das Verb am Ende."
+        }
+      ]
+    }
+  ]
+}

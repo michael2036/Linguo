@@ -16,7 +16,17 @@ Modul, before anything is committed — there is no server-side agent in the
 shipped product.
 
 A Modul is always exactly 3 Lektionen (see [AGENTS.md](../AGENTS.md) for
-why). Run steps 1–4 once **per Lektion**, then assemble all 3 into one Modul
+why).
+
+**B2 uses a different source series.** A1–B1 come from *Momente* (Hueber),
+whose Moduln already hold 3 Lektionen. B2 comes from *Kontext* (Klett):
+12 Kapitel × 4 Kontext-Moduln, with a Kursbuch (KB) and an Übungsbuch (ÜB —
+Kontext's name for the Arbeitsbuch). One app Modul = one Kontext Kapitel
+(`b2-m1` … `b2-m12`, Lektion 1–36); fold the Kapitel's 4 Kontext-Moduln
+into 3 Lektionen, usually Modul 1 → L1, Modul 2 → L2, Moduln 3+4 → L3,
+following where the grammar sits. The ÜB has no native leicht/schwer split,
+so Agent 1 sorts its drills into `medium`/`hard` by difficulty itself. The
+B2.1 ÜB answer key is a scan with no text layer — read its pages as images. Run steps 1–4 once **per Lektion**, then assemble all 3 into one Modul
 file (step 5).
 
 ## 0. Prerequisites
@@ -27,8 +37,8 @@ file (step 5).
   [`.agents/input/README.md`](input/README.md) — that folder is gitignored
   on purpose, since the source material is copyrighted and only ever used as
   ephemeral input.
-- Metadata decided up front for the Modul: `level` (A1/A2/B1), `modulNumber`
-  (1–8), a thematic `title`, and each of its 3 Lektionen's number + title.
+- Metadata decided up front for the Modul: `level` (A1/A2/B1/B2), `modulNumber`
+  (1–8; 1–12 for B2), a thematic `title`, and each of its 3 Lektionen's number + title.
 
 ## 1. Run Agent 1 — Didactic Generator
 
@@ -76,7 +86,7 @@ Combine all 3 Lektion objects into one Modul object:
 ```json
 {
   "modulId": "<level>-m<modulNumber>",
-  "level": "<A1|A2|B1>",
+  "level": "<A1|A2|B1|B2>",
   "modulNumber": <N>,
   "title": "<thematic title>",
   "lektionen": [ /* exactly 3 Lektion objects */ ]
@@ -114,7 +124,7 @@ Add an entry to `MODUL_CATALOG` in
 ```ts
 {
   modulId: '<level>-m<N>',
-  level: '<A1|A2|B1>',
+  level: '<A1|A2|B1|B2>',
   modulNumber: <N>,
   title: '<thematic title>',
   path: 'data/<level>/modul-<N>.json',

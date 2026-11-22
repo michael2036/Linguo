@@ -269,7 +269,8 @@ export const GrammarPage = () => {
       </div>
 
       <div className={styles.toggles}>
-        {(['all', ...LEVELS] as LevelFilter[]).map((l) => (
+        {/* Only levels that have cards — a level can exist in the curriculum before its grammar cards are written. */}
+        {(['all', ...LEVELS.filter((lv) => cards.some((c) => c.level === lv))] as LevelFilter[]).map((l) => (
           <ToggleButton
             key={l}
             className={styles.levelToggle}

@@ -44,6 +44,9 @@ const useStyles = makeStyles({
   },
   lektionButton: {
     flex: 1,
+    // Lets the flex item shrink below its text width so the title's ellipsis
+    // kicks in instead of the row overflowing the card on a phone.
+    minWidth: 0,
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'space-between',

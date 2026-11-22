@@ -1,0 +1,2565 @@
+{
+  "modulId": "b2-m4",
+  "level": "B2",
+  "modulNumber": 4,
+  "title": "Lass uns reden",
+  "lektionen": [
+    {
+      "lektionId": "b2-m4-l10",
+      "level": "B2",
+      "modulNumber": 4,
+      "lektionNumber": 10,
+      "title": "Online kommunizieren",
+      "grammarFocus": [
+        "Irreale Vergleichssätze mit als ob / als wenn + Konjunktiv II (Verb am Ende)",
+        "Irreale Vergleichssätze mit als + Konjunktiv II (Verb direkt nach als): …, als wäre er müde",
+        "Wirkung beschreiben: so wirken / so aussehen / den Eindruck machen, als (ob) …"
+      ],
+      "vocabulary": [
+        {
+          "id": "l10v01",
+          "term": "lästern",
+          "translation": "criticar a espaldas, chismorrear",
+          "partOfSpeech": "verb",
+          "preterite": "lästerte",
+          "participle": "gelästert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "In der Kaffeeküche wird gern über die neue Abteilungsleitung gelästert."
+        },
+        {
+          "id": "l10v02",
+          "term": "flüstern",
+          "translation": "susurrar",
+          "partOfSpeech": "verb",
+          "preterite": "flüsterte",
+          "participle": "geflüstert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Im Lesesaal der Bibliothek flüstern alle, um niemanden zu stören."
+        },
+        {
+          "id": "l10v03",
+          "term": "schweigen",
+          "translation": "callar, guardar silencio",
+          "partOfSpeech": "verb",
+          "preterite": "schwieg",
+          "participle": "geschwiegen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Als die Frage nach dem Budget kam, schwieg der Projektleiter lieber."
+        },
+        {
+          "id": "l10v04",
+          "term": "trösten",
+          "translation": "consolar",
+          "partOfSpeech": "verb",
+          "preterite": "tröstete",
+          "participle": "getröstet",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Nach der verlorenen Wahl tröstete sie ihren enttäuschten Bruder."
+        },
+        {
+          "id": "l10v05",
+          "term": "zustimmen",
+          "translation": "estar de acuerdo, aprobar",
+          "partOfSpeech": "verb",
+          "preterite": "stimmte zu",
+          "participle": "zugestimmt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Der Betriebsrat hat dem neuen Arbeitszeitmodell zugestimmt."
+        },
+        {
+          "id": "l10v06",
+          "term": "präsentieren",
+          "translation": "presentar",
+          "partOfSpeech": "verb",
+          "preterite": "präsentierte",
+          "participle": "präsentiert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Morgen präsentiert unser Team die Ergebnisse der Kundenumfrage."
+        },
+        {
+          "id": "l10v07",
+          "term": "die Lüge",
+          "translation": "la mentira",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Lügen",
+          "example": "Eine kleine Lüge kann eine lange Freundschaft gefährden."
+        },
+        {
+          "id": "l10v08",
+          "term": "der Widerspruch",
+          "translation": "la contradicción, la objeción",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Widersprüche",
+          "example": "Gegen den Bescheid des Amtes kann man innerhalb eines Monats Widerspruch einlegen."
+        },
+        {
+          "id": "l10v09",
+          "term": "die Mitteilung",
+          "translation": "el aviso, la comunicación",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Mitteilungen",
+          "example": "Die Hausverwaltung hat eine Mitteilung über die Heizungswartung verschickt."
+        },
+        {
+          "id": "l10v10",
+          "term": "die Erlaubnis",
+          "translation": "el permiso",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Erlaubnisse",
+          "example": "Für Fotos im Museum braucht man eine besondere Erlaubnis."
+        },
+        {
+          "id": "l10v11",
+          "term": "der Hinweis",
+          "translation": "la indicación, la pista",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Hinweise",
+          "example": "Danke für den Hinweis auf den Tippfehler in meiner Folie!"
+        },
+        {
+          "id": "l10v12",
+          "term": "der Tratsch",
+          "translation": "el cotilleo",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "example": "Auf Tratsch über Kollegen habe ich ehrlich gesagt keine Lust."
+        },
+        {
+          "id": "l10v13",
+          "term": "die Videokonferenz",
+          "translation": "la videoconferencia",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Videokonferenzen",
+          "example": "Seit die Firma Standorte in drei Ländern hat, finden viele Treffen als Videokonferenz statt."
+        },
+        {
+          "id": "l10v14",
+          "term": "der Blickkontakt",
+          "translation": "el contacto visual",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "example": "Wer in die Kamera statt auf den Bildschirm schaut, stellt Blickkontakt her."
+        },
+        {
+          "id": "l10v15",
+          "term": "die Körpersprache",
+          "translation": "el lenguaje corporal",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Verschränkte Arme gelten in der Körpersprache oft als Zeichen von Ablehnung."
+        },
+        {
+          "id": "l10v16",
+          "term": "die Internetverbindung",
+          "translation": "la conexión a internet",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Internetverbindungen",
+          "example": "Im Zug ist die Internetverbindung leider so instabil, dass das Video ständig hängt."
+        },
+        {
+          "id": "l10v17",
+          "term": "das Spiegelbild",
+          "translation": "el reflejo, la propia imagen",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Spiegelbilder",
+          "example": "Im Schaufenster entdeckte sie ihr Spiegelbild und richtete schnell ihre Haare."
+        },
+        {
+          "id": "l10v18",
+          "term": "stummschalten",
+          "translation": "silenciar",
+          "partOfSpeech": "verb",
+          "preterite": "schaltete stumm",
+          "participle": "stummgeschaltet",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Der Moderator hat alle Teilnehmenden stummgeschaltet, damit der Vortrag ungestört bleibt."
+        },
+        {
+          "id": "l10v19",
+          "term": "sich einloggen",
+          "translation": "iniciar sesión",
+          "partOfSpeech": "verb",
+          "preterite": "loggte sich ein",
+          "participle": "sich eingeloggt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Ohne das neue Passwort kann ich mich nicht mehr ins Firmenportal einloggen."
+        },
+        {
+          "id": "l10v20",
+          "term": "anleiten",
+          "translation": "guiar, instruir",
+          "partOfSpeech": "verb",
+          "preterite": "leitete an",
+          "participle": "angeleitet",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Eine erfahrene Trainerin leitet die neuen Kolleginnen in den ersten Wochen an."
+        },
+        {
+          "id": "l10v21",
+          "term": "steigern",
+          "translation": "aumentar",
+          "partOfSpeech": "verb",
+          "preterite": "steigerte",
+          "participle": "gesteigert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Kurze Pausen zwischen den Terminen können die Konzentration deutlich steigern."
+        },
+        {
+          "id": "l10v22",
+          "term": "Bescheid geben",
+          "translation": "avisar, informar",
+          "partOfSpeech": "phrase",
+          "example": "Gib mir bitte Bescheid, sobald der Link zur Besprechung da ist."
+        },
+        {
+          "id": "l10v23",
+          "term": "anstrengend",
+          "translation": "agotador, cansado",
+          "partOfSpeech": "adjective",
+          "example": "Fünf Online-Meetings hintereinander finde ich anstrengender als einen ganzen Bürotag."
+        },
+        {
+          "id": "l10v24",
+          "term": "spontan",
+          "translation": "espontáneo",
+          "partOfSpeech": "adjective",
+          "example": "Wir haben uns ganz spontan entschieden, am Wochenende ans Meer zu fahren."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l10e01",
+            "type": "multiple-choice",
+            "instruction": "Wähle den passenden Konnektor.",
+            "prompt": "Herr Kaya nickt ständig in die Kamera, ___ er jedes Wort verstanden hätte.",
+            "options": [
+              "als ob",
+              "als",
+              "wie",
+              "ob"
+            ],
+            "solution": "als ob",
+            "hint": "Wo steht das konjugierte Verb im Vergleichssatz?",
+            "explanation": "Steht das Verb am Ende, braucht man 'als ob' (oder 'als wenn'). Nach 'als' allein müsste 'hätte' direkt folgen."
+          },
+          {
+            "id": "l10e02",
+            "type": "multiple-choice",
+            "instruction": "Wähle den passenden Konnektor.",
+            "prompt": "Die Projektleiterin strahlt, ___ wäre die Präsentation ein riesiger Erfolg gewesen.",
+            "options": [
+              "als",
+              "als ob",
+              "als wenn",
+              "dass"
+            ],
+            "solution": "als",
+            "hint": "Achte auf die Position von 'wäre'.",
+            "explanation": "Das Verb 'wäre' steht direkt nach dem Konnektor – das geht nur mit 'als'. Bei 'als ob/als wenn' stünde es am Ende."
+          },
+          {
+            "id": "l10e03",
+            "type": "multiple-choice",
+            "instruction": "Wähle die Form im Konjunktiv II.",
+            "prompt": "Mein Kollege tippt so hektisch, als ob er den Bericht in fünf Minuten abgeben ___.",
+            "options": [
+              "müsste",
+              "musste",
+              "muss",
+              "müssen"
+            ],
+            "solution": "müsste",
+            "hint": "Ein irrealer Vergleich steht im Konjunktiv II.",
+            "explanation": "Konjunktiv II von 'müssen' ist 'müsste' (mit Umlaut). 'Musste' ist Indikativ Präteritum, 'muss' Präsens."
+          },
+          {
+            "id": "l10e04",
+            "type": "multiple-choice",
+            "instruction": "Wähle die Form im Konjunktiv II.",
+            "prompt": "Du redest, als ___ du alles über das neue Programm.",
+            "options": [
+              "wüsstest",
+              "wusstest",
+              "weißt",
+              "wissen würdest"
+            ],
+            "solution": "wüsstest",
+            "hint": "Nach 'als' folgt direkt ein einziges Verb.",
+            "explanation": "'Wüsstest' ist Konjunktiv II von 'wissen' und steht direkt nach 'als'. 'Wusstest' ist Indikativ; 'wissen würdest' passt nicht in die Lücke direkt nach 'als'."
+          },
+          {
+            "id": "l10e05",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze den Konnektor: 'als ob' oder 'als'.",
+            "prompt": "Die Verbindung ist so schlecht, ___ ich mit jemandem auf dem Mond telefonieren würde.",
+            "solution": "als ob",
+            "hint": "Das konjugierte Verb 'würde' steht am Satzende.",
+            "explanation": "Weil 'würde' am Ende steht, ist 'als ob' richtig. Mit 'als' allein hieße es: 'als würde ich …'."
+          },
+          {
+            "id": "l10e06",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze 'kommen' im Konjunktiv II (synthetische Form, ein Wort).",
+            "prompt": "Sie sieht so erholt aus, als ___ sie gerade aus dem Urlaub.",
+            "solution": "käme",
+            "hint": "Präteritum 'kam' + Umlaut + -e.",
+            "explanation": "Konjunktiv II von 'kommen' ist 'käme'; nach 'als' steht es direkt hinter dem Konnektor. 'Kam' wäre Indikativ."
+          },
+          {
+            "id": "l10e07",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Verb.",
+            "prompt": "Der neue Praktikant ___ so, als ob er gar nicht zuhören würde.",
+            "options": [
+              "wirkt",
+              "aussieht",
+              "gibt",
+              "hält"
+            ],
+            "solution": "wirkt",
+            "hint": "Gesucht ist ein Verb für die Wirkung auf andere, das ohne Ergänzung steht.",
+            "explanation": "'So wirken, als ob …' beschreibt einen Eindruck. 'Aussehen' ist trennbar: 'Er sieht so aus, …'; 'gibt' und 'hält' passen nicht."
+          },
+          {
+            "id": "l10e08",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Ergänzung.",
+            "prompt": "Die neue Kollegin macht ___, als wäre sie schon jahrelang im Team.",
+            "options": [
+              "den Eindruck",
+              "die Wirkung",
+              "das Aussehen",
+              "den Schein"
+            ],
+            "solution": "den Eindruck",
+            "hint": "Gesucht ist eine feste Verbindung mit 'machen'.",
+            "explanation": "Die feste Wendung heißt 'den Eindruck machen, als (ob) …'. 'Die Wirkung/das Aussehen machen' gibt es so nicht."
+          },
+          {
+            "id": "l10e09",
+            "type": "multiple-choice",
+            "instruction": "Wähle die Form im Konjunktiv II der Vergangenheit.",
+            "prompt": "Du siehst heute so aus, als ob du kaum geschlafen ___.",
+            "options": [
+              "hättest",
+              "wärst",
+              "hast",
+              "würdest"
+            ],
+            "solution": "hättest",
+            "hint": "'Schlafen' bildet das Perfekt mit 'haben'.",
+            "explanation": "Vergangenheit im irrealen Vergleich: hätte/wäre + Partizip II. 'Schlafen' bildet das Perfekt mit 'haben', also 'hättest'; 'hast' ist Indikativ."
+          },
+          {
+            "id": "l10e10",
+            "type": "multiple-choice",
+            "instruction": "Was bedeutet der Satz?",
+            "prompt": "Lena tut so, als ob sie die Einladung nicht bekommen hätte.",
+            "options": [
+              "Sie hat die Einladung bekommen, gibt es aber nicht zu.",
+              "Sie hat die Einladung wirklich nicht bekommen.",
+              "Sie fragt, ob die Einladung angekommen ist.",
+              "Sie wartet noch auf die Einladung."
+            ],
+            "solution": "Sie hat die Einladung bekommen, gibt es aber nicht zu.",
+            "hint": "'So tun, als ob' beschreibt etwas Gespieltes.",
+            "explanation": "Ein irrealer Vergleich nennt etwas, das nicht der Wirklichkeit entspricht: In Wahrheit hat Lena die Einladung bekommen."
+          },
+          {
+            "id": "l10e11",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Verb.",
+            "prompt": "Wenn bei dir im Hintergrund der Hund bellt, solltest du dein Mikrofon kurz ___.",
+            "options": [
+              "stummschalten",
+              "schweigen",
+              "flüstern",
+              "lästern"
+            ],
+            "solution": "stummschalten",
+            "explanation": "Ein Mikrofon kann man 'stummschalten' (trennbar, mit Akkusativobjekt). 'Schweigen', 'flüstern' und 'lästern' haben kein Akkusativobjekt.",
+            "hint": "Was macht man mit einem Mikrofon, damit niemand mehr etwas hört?"
+          },
+          {
+            "id": "l10e12",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze 'sein' im Konjunktiv II (synthetische Form, ein Wort).",
+            "prompt": "Die Teilnehmer schauen so ernst in die Kamera, als ob sie in einer Prüfung ___.",
+            "solution": "wären",
+            "hint": "Subjekt ist 'sie' (Plural).",
+            "explanation": "Konjunktiv II von 'sein' für 'sie' (Plural) ist 'wären'. 'Waren' ist Indikativ Präteritum, 'sind' Präsens."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l10m01",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen irrealen Vergleich. Beginne mit 'Die Chefin'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "kaputt",
+              "Die Chefin",
+              "als ob",
+              "wäre",
+              "spricht",
+              "das Mikrofon",
+              "so leise,"
+            ],
+            "solution": "Die Chefin spricht so leise, als ob das Mikrofon kaputt wäre.",
+            "hint": "Nach 'als ob' steht das konjugierte Verb am Ende.",
+            "explanation": "'Als ob' leitet einen Nebensatz ein: 'wäre' steht am Ende. Das Komma steht vor 'als ob'."
+          },
+          {
+            "id": "l10m02",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen irrealen Vergleich mit 'als'. Beginne mit 'Der Kunde'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "hätte",
+              "Der Kunde",
+              "die Nachricht",
+              "als",
+              "reagiert,",
+              "nie gelesen",
+              "er"
+            ],
+            "solution": "Der Kunde reagiert, als hätte er die Nachricht nie gelesen.",
+            "hint": "Bei 'als' allein folgt das konjugierte Verb direkt.",
+            "explanation": "Nach 'als' steht 'hätte' sofort, dann das Subjekt 'er'; das Partizip 'gelesen' steht am Ende."
+          },
+          {
+            "id": "l10m03",
+            "type": "sentence-scramble",
+            "instruction": "Beschreibe die Wirkung. Beginne mit 'Du'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "gesehen",
+              "als",
+              "Du",
+              "hättest",
+              "so aus,",
+              "einen Geist",
+              "siehst",
+              "du"
+            ],
+            "solution": "Du siehst so aus, als hättest du einen Geist gesehen.",
+            "hint": "'Aussehen' ist trennbar; 'aus' steht vor dem Komma.",
+            "explanation": "'Du siehst so aus' bildet den Hauptsatz. Nach 'als' folgt direkt 'hättest', das Partizip 'gesehen' steht am Ende."
+          },
+          {
+            "id": "l10m04",
+            "type": "sentence-scramble",
+            "instruction": "Beschreibe die Wirkung. Beginne mit 'Das Team'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "stehen würde",
+              "Das Team",
+              "es",
+              "den Eindruck,",
+              "als wenn",
+              "macht",
+              "unter großem Druck"
+            ],
+            "solution": "Das Team macht den Eindruck, als wenn es unter großem Druck stehen würde.",
+            "hint": "Nach 'als wenn' steht das konjugierte Verb am Ende.",
+            "explanation": "'Den Eindruck machen, als wenn …': Im Nebensatz steht 'würde' ganz am Ende, nach dem Infinitiv 'stehen'."
+          },
+          {
+            "id": "l10m05",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen irrealen Vergleich (Vergangenheit). Beginne mit 'Mein Nachbar'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "uns",
+              "als ob",
+              "Mein Nachbar",
+              "getroffen hätten",
+              "grüßt mich,",
+              "wir",
+              "nie zuvor"
+            ],
+            "solution": "Mein Nachbar grüßt mich, als ob wir uns nie zuvor getroffen hätten.",
+            "hint": "Das Pronomen 'uns' steht direkt nach dem Subjekt 'wir'.",
+            "explanation": "Vergangenheit: Partizip II + 'hätten' am Ende. 'Uns' folgt direkt auf 'wir', die Angabe 'nie zuvor' kommt danach."
+          },
+          {
+            "id": "l10m06",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen irrealen Vergleich. Beginne mit 'Sie'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "müsste",
+              "als ob",
+              "Sie",
+              "so schnell durch die Folien,",
+              "sie",
+              "klickt",
+              "gleich zum Flughafen"
+            ],
+            "solution": "Sie klickt so schnell durch die Folien, als ob sie gleich zum Flughafen müsste.",
+            "hint": "Das Modalverb kann hier ohne Infinitiv stehen und steht am Ende.",
+            "explanation": "'Müsste' ist Konjunktiv II von 'müssen' und steht nach 'als ob' am Ende. Mit Richtungsangabe braucht 'müssen' keinen Infinitiv."
+          },
+          {
+            "id": "l10m07",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze 'benutzen' im Konjunktiv II der Vergangenheit (zwei Wörter).",
+            "prompt": "Der Trainer erklärt das Programm, als ob wir noch nie einen Computer ___.",
+            "solution": "benutzt hätten",
+            "hint": "Vergangenheit: Partizip II + Hilfsverb im Konjunktiv II.",
+            "explanation": "Vergangenheit im irrealen Vergleich: Partizip II + 'hätten' am Ende. 'Benutzen' bildet das Perfekt mit 'haben'."
+          },
+          {
+            "id": "l10m08",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze 'haben' im Konjunktiv II (synthetische Form, ein Wort).",
+            "prompt": "Er schaut ständig auf die Uhr, als ___ er keine Zeit für uns.",
+            "solution": "hätte",
+            "hint": "Präteritum 'hatte' + Umlaut.",
+            "explanation": "Konjunktiv II von 'haben' ist 'hätte'; nach 'als' steht es direkt hinter dem Konnektor. 'Hatte' ist Indikativ."
+          },
+          {
+            "id": "l10m09",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze 'haben' im Konjunktiv II (synthetische Form, ein Wort).",
+            "prompt": "Ihr tut so, als ob ihr heute keine Zeit für das Protokoll ___.",
+            "solution": "hättet",
+            "hint": "Subjekt ist 'ihr'.",
+            "explanation": "Für 'ihr' heißt der Konjunktiv II von 'haben' 'hättet'. 'Hattet' ohne Umlaut ist Indikativ Präteritum."
+          },
+          {
+            "id": "l10m10",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze 'feiern' mit 'würde' + Infinitiv (zwei Wörter).",
+            "prompt": "Es klingt, als ob die Kollegen im Hintergrund eine Party ___.",
+            "solution": "feiern würden",
+            "hint": "Bei 'als ob' steht das konjugierte Verb ganz am Ende.",
+            "explanation": "Würde-Form im Nebensatz: Infinitiv vor dem konjugierten 'würden' am Ende. Subjekt 'die Kollegen' verlangt Plural."
+          },
+          {
+            "id": "l10m11",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze 'angehen' im Konjunktiv II (synthetische Form, ein Wort).",
+            "prompt": "Du tust so, als ___ dich das alles nichts an.",
+            "solution": "ginge",
+            "hint": "'Angehen' ist trennbar; 'an' steht schon am Ende.",
+            "explanation": "Konjunktiv II von 'gehen' ist 'ginge'; nach 'als' steht das konjugierte Verb direkt, das Präfix 'an' bleibt am Satzende."
+          },
+          {
+            "id": "l10m12",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze 'dürfen' im Konjunktiv II (synthetische Form, ein Wort).",
+            "prompt": "Sie schweigt in jeder Besprechung, als ob sie nichts sagen ___.",
+            "solution": "dürfte",
+            "hint": "Modalverben bilden den Konjunktiv II mit Umlaut.",
+            "explanation": "Konjunktiv II von 'dürfen' ist 'dürfte'. 'Durfte' ohne Umlaut ist Indikativ Präteritum und passt nicht zum irrealen Vergleich."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l10h01",
+            "type": "targeted-transformation",
+            "instruction": "Bilde einen irrealen Vergleich mit 'als ob' (Konjunktiv II, synthetische Form). Beginne mit 'Er redet,'.",
+            "prompt": "Er redet. Aber in Wirklichkeit ist er nicht der Chef.",
+            "solution": "Er redet, als ob er der Chef wäre.",
+            "hint": "Die Wirklichkeit ist verneint, der Vergleich nicht.",
+            "explanation": "Der irreale Vergleich nennt das Gegenteil der Wirklichkeit, ohne 'nicht': 'als ob er der Chef wäre', Verb am Ende."
+          },
+          {
+            "id": "l10h02",
+            "type": "targeted-transformation",
+            "instruction": "Verwende 'als' statt 'als ob'. Alle anderen Wörter bleiben.",
+            "prompt": "Die Kamera wackelt, als ob jemand den Tisch schütteln würde.",
+            "solution": "Die Kamera wackelt, als würde jemand den Tisch schütteln.",
+            "hint": "Nach 'als' rückt das konjugierte Verb nach vorn.",
+            "explanation": "Bei 'als' steht das konjugierte Verb 'würde' direkt nach dem Konnektor; der Infinitiv 'schütteln' bleibt am Ende."
+          },
+          {
+            "id": "l10h03",
+            "type": "targeted-transformation",
+            "instruction": "Verwende 'als ob' statt 'als'. Alle anderen Wörter bleiben.",
+            "prompt": "Sie antwortet sofort, als hätte sie die Frage erwartet.",
+            "solution": "Sie antwortet sofort, als ob sie die Frage erwartet hätte.",
+            "hint": "Nach 'als ob' wandert das konjugierte Verb ans Ende.",
+            "explanation": "Mit 'als ob' ist der Vergleichssatz ein Nebensatz mit Endstellung: 'hätte' steht nach dem Partizip 'erwartet'."
+          },
+          {
+            "id": "l10h04",
+            "type": "targeted-transformation",
+            "instruction": "Setze den Vergleichssatz in die Vergangenheit (Partizip II + hätte/wäre). Der Hauptsatz bleibt.",
+            "prompt": "Sie jubelt, als ob sie im Lotto gewinnen würde.",
+            "solution": "Sie jubelt, als ob sie im Lotto gewonnen hätte.",
+            "hint": "Vergangenheit: Partizip II + hätte/wäre.",
+            "explanation": "Konjunktiv II Vergangenheit = Partizip II + 'hätte/wäre'. 'Gewinnen' bildet das Perfekt mit 'haben', also 'gewonnen hätte'."
+          },
+          {
+            "id": "l10h05",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze 'wirkt' durch eine Form von 'den Eindruck machen'. Der Rest bleibt gleich.",
+            "prompt": "Der Bewerber wirkt, als wäre er bestens vorbereitet.",
+            "solution": "Der Bewerber macht den Eindruck, als wäre er bestens vorbereitet.",
+            "hint": "Konjugiere 'machen' für 'der Bewerber'.",
+            "explanation": "'Den Eindruck machen' ersetzt 'wirken': 'macht' steht auf Position 2, 'den Eindruck' direkt vor dem Komma. Der Vergleichssatz bleibt."
+          },
+          {
+            "id": "l10h06",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde zu einem Satz mit 'als ob' (Konjunktiv II Vergangenheit). Beginne mit 'Dein Zimmer im Hintergrund sieht so aus,'.",
+            "prompt": "Dein Zimmer im Hintergrund sieht so aus. (Vergleich: Ein Sturm ist hindurchgefegt.)",
+            "solution": "Dein Zimmer im Hintergrund sieht so aus, als ob ein Sturm hindurchgefegt wäre.",
+            "hint": "Achte auf das Hilfsverb im Original.",
+            "explanation": "'Hindurchfegen' (Bewegung) bildet das Perfekt mit 'sein', also 'wäre' + Partizip II am Ende des 'als ob'-Satzes, nicht 'hätte'."
+          },
+          {
+            "id": "l10h07",
+            "type": "error-correction",
+            "instruction": "Finde den Fehler und schreibe den Satz richtig. Behalte 'als ob'.",
+            "prompt": "Sie tut so, als ob sie hätte keine Zeit.",
+            "solution": "Sie tut so, als ob sie keine Zeit hätte.",
+            "hint": "Welche Wortstellung verlangt 'als ob'?",
+            "explanation": "'Als ob' leitet einen Nebensatz ein, daher steht 'hätte' am Ende. Direkt nach dem Konnektor steht das Verb nur bei 'als'."
+          },
+          {
+            "id": "l10h08",
+            "type": "error-correction",
+            "instruction": "Finde den Fehler und schreibe den Satz richtig. Verwende 'als' ohne 'ob'.",
+            "prompt": "Er spricht, als er wäre der Experte.",
+            "solution": "Er spricht, als wäre er der Experte.",
+            "hint": "Bei 'als' allein: Was folgt direkt auf den Konnektor?",
+            "explanation": "Im irrealen Vergleich mit 'als' folgt das konjugierte Verb direkt: 'als wäre er'. Subjekt vor dem Verb ist hier falsch."
+          },
+          {
+            "id": "l10h09",
+            "type": "error-correction",
+            "instruction": "Korrigiere das Verb (Konjunktiv II). Ändere nur ein Wort.",
+            "prompt": "Du siehst so aus, als ob du ziemlich müde bist.",
+            "solution": "Du siehst so aus, als ob du ziemlich müde wärst.",
+            "hint": "Irreale Vergleiche stehen nicht im Indikativ.",
+            "explanation": "Der irreale Vergleich verlangt den Konjunktiv II: 'wärst' statt Indikativ 'bist'."
+          },
+          {
+            "id": "l10h10",
+            "type": "error-correction",
+            "instruction": "Finde den Fehler und schreibe den Satz richtig. Die Wörter bleiben gleich.",
+            "prompt": "Der Kollege nickt als ob er alles verstanden hätte.",
+            "solution": "Der Kollege nickt, als ob er alles verstanden hätte.",
+            "hint": "Es fehlt etwas zwischen Haupt- und Nebensatz.",
+            "explanation": "Vor 'als ob' steht immer ein Komma, weil ein Nebensatz beginnt."
+          },
+          {
+            "id": "l10h11",
+            "type": "error-correction",
+            "instruction": "Korrigiere das Hilfsverb. Ändere nur ein Wort.",
+            "prompt": "Es sieht so aus, als ob der Zug schon abgefahren hätte.",
+            "solution": "Es sieht so aus, als ob der Zug schon abgefahren wäre.",
+            "hint": "Welches Hilfsverb hat 'abfahren' im Perfekt?",
+            "explanation": "'Abfahren' bildet das Perfekt mit 'sein' (ist abgefahren), also im Konjunktiv II Vergangenheit 'wäre', nicht 'hätte'."
+          },
+          {
+            "id": "l10h12",
+            "type": "error-correction",
+            "instruction": "Korrigiere das Verb. Ändere nur ein Wort.",
+            "prompt": "Sie tut so, als ob sie die Antwort schon wusste.",
+            "solution": "Sie tut so, als ob sie die Antwort schon wüsste.",
+            "hint": "Achte auf den Umlaut.",
+            "explanation": "Konjunktiv II von 'wissen' ist 'wüsste' mit Umlaut. 'Wusste' ist Indikativ Präteritum und drückt keinen irrealen Vergleich aus."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l10t01",
+          "type": "multiple-choice",
+          "instruction": "Wähle die passende Konjunktion.",
+          "prompt": "Der Kellner tut so, ___ er unseren Tisch gar nicht sehen würde.",
+          "options": [
+            "als",
+            "als ob",
+            "wie",
+            "ob"
+          ],
+          "solution": "als ob",
+          "explanation": "Irrealer Vergleich mit Verb am Ende → 'als ob' (oder 'als wenn'). Bei bloßem 'als' müsste das Verb direkt folgen: 'als würde er …'."
+        },
+        {
+          "id": "l10t02",
+          "type": "multiple-choice",
+          "instruction": "Wähle die richtige Fortsetzung.",
+          "prompt": "Die beiden Schwestern flüstern miteinander, als ___",
+          "options": [
+            "hätten sie ein großes Geheimnis",
+            "sie ein großes Geheimnis hätten",
+            "sie hätten ein großes Geheimnis",
+            "würden sie ein großes Geheimnis"
+          ],
+          "solution": "hätten sie ein großes Geheimnis",
+          "explanation": "Nach 'als' (ohne ob/wenn) steht das konjugierte Verb direkt nach 'als'. Verb-Ende geht nur mit 'als ob/als wenn'; 'würden' braucht einen Infinitiv."
+        },
+        {
+          "id": "l10t03",
+          "type": "multiple-choice",
+          "instruction": "Was bedeutet der Satz?",
+          "prompt": "Am Morgen wirkte Jonas, als wäre er die ganze Nacht durch die Stadt gelaufen.",
+          "options": [
+            "Er wirkte, als hätte er etwas Anstrengendes hinter sich – vermutlich stimmt das aber nicht.",
+            "Er lief am Morgen gerade durch die Stadt.",
+            "Er ist tatsächlich die ganze Nacht gelaufen.",
+            "Er hatte vor, in der Nacht durch die Stadt zu laufen."
+          ],
+          "solution": "Er wirkte, als hätte er etwas Anstrengendes hinter sich – vermutlich stimmt das aber nicht.",
+          "explanation": "'als wäre … gelaufen' ist Konjunktiv II Vergangenheit: Der Vergleich bezieht sich auf etwas Früheres und ist irreal – es wirkt nur so, ist aber wohl nicht passiert."
+        },
+        {
+          "id": "l10t04",
+          "type": "multiple-choice",
+          "instruction": "Wähle die passende Ergänzung.",
+          "prompt": "Das Hotelzimmer sieht ___, als wäre seit Jahren niemand mehr darin gewesen.",
+          "options": [
+            "so aus",
+            "so nach",
+            "so an",
+            "wie aus"
+          ],
+          "solution": "so aus",
+          "explanation": "Feste Wendung: 'so aussehen, als …'. Im Hauptsatz steht das Präfix 'aus' am Ende, 'so' davor; 'so an', 'so nach' oder 'wie aus' passen nicht."
+        },
+        {
+          "id": "l10t05",
+          "type": "cloze-conjugation",
+          "instruction": "Ergänze das Verb im Konjunktiv II (synthetische Form, keine würde-Form).",
+          "prompt": "Mein Onkel erklärt beim Grillen die Weltpolitik, als ob er genau ___, was in den Ministerien passiert. (wissen)",
+          "solution": "wüsste",
+          "explanation": "Konjunktiv II von 'wissen': wusste → wüsste (mit Umlaut). 'weiß' wäre Indikativ, 'wusste' Präteritum."
+        },
+        {
+          "id": "l10t06",
+          "type": "cloze-conjugation",
+          "instruction": "Ergänze das Verb im Konjunktiv II Gegenwart (synthetische Form, keine würde-Form).",
+          "prompt": "Sie lächelt, als ___ es ihr blendend, dabei hat sie hohes Fieber. (gehen)",
+          "solution": "ginge",
+          "explanation": "Konjunktiv II von 'gehen': ging → ginge. Nach 'als' steht das Verb direkt dahinter. 'geht' wäre Indikativ, also kein irrealer Vergleich."
+        },
+        {
+          "id": "l10t07",
+          "type": "cloze-conjugation",
+          "instruction": "Ergänze das Hilfsverb im Konjunktiv II Vergangenheit.",
+          "prompt": "Der Junge stürzt sich auf die Nudeln, als ob er seit Tagen nichts gegessen ___. (essen)",
+          "solution": "hätte",
+          "explanation": "Vergangenheit im irrealen Vergleich: Partizip II + hätte/wäre. 'essen' bildet das Perfekt mit 'haben' → 'hätte'."
+        },
+        {
+          "id": "l10t08",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze ein Wort (würde-Form).",
+          "prompt": "Der Hund bellt die Haustür an, als ob draußen ein Fremder stehen ___.",
+          "solution": "würde",
+          "explanation": "würde-Form: 'würde' + Infinitiv am Ende des als-ob-Satzes. Subjekt 'ein Fremder' → 3. Person Singular 'würde'."
+        },
+        {
+          "id": "l10t09",
+          "type": "targeted-transformation",
+          "instruction": "Forme um: Verwende „als“ statt „als ob“. Alle anderen Wörter bleiben.",
+          "prompt": "Der Trainer tut so, als ob er den Fehler nicht bemerkt hätte.",
+          "solution": "Der Trainer tut so, als hätte er den Fehler nicht bemerkt.",
+          "explanation": "Ohne 'ob' rückt das konjugierte Verb ('hätte') direkt hinter 'als'; das Partizip bleibt am Ende."
+        },
+        {
+          "id": "l10t10",
+          "type": "targeted-transformation",
+          "instruction": "Forme um: Verwende „als wenn“ statt „als“. Alle anderen Wörter bleiben.",
+          "prompt": "Das Kind macht ein Gesicht, als hätte es in eine Zitrone gebissen.",
+          "solution": "Das Kind macht ein Gesicht, als wenn es in eine Zitrone gebissen hätte.",
+          "explanation": "Mit 'als wenn' (wie 'als ob') steht das konjugierte Verb am Satzende: '… gebissen hätte'."
+        },
+        {
+          "id": "l10t11",
+          "type": "targeted-transformation",
+          "instruction": "Verbinde zu einem irrealen Vergleich mit „als ob“ und Konjunktiv II Vergangenheit (hätte/wäre + Partizip). Beginne mit „Der Vermieter tut so,“. Die Wortstellung im zweiten Satz bleibt.",
+          "prompt": "Der Vermieter tut so. Er hat von dem Wasserschaden nie etwas gehört. (In Wirklichkeit weiß er davon.)",
+          "solution": "Der Vermieter tut so, als ob er von dem Wasserschaden nie etwas gehört hätte.",
+          "explanation": "Die Sache liegt in der Vergangenheit → Konjunktiv II Vergangenheit: Partizip + 'hätte' am Ende des als-ob-Satzes."
+        },
+        {
+          "id": "l10t12",
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler. Ändere nur ein Wort und verwende den Konjunktiv II Gegenwart.",
+          "prompt": "Mein Bruder lästert über alle anderen, als ob er selbst perfekt ist.",
+          "solution": "Mein Bruder lästert über alle anderen, als ob er selbst perfekt wäre.",
+          "explanation": "Ein irrealer Vergleich steht im Konjunktiv II: 'ist' → 'wäre'. Der Indikativ würde behaupten, dass er wirklich perfekt ist."
+        },
+        {
+          "id": "l10t13",
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler. Ändere nur ein Wort.",
+          "prompt": "Die Besucherin starrte auf das Bild, als ob ihr ein Gespenst begegnet hätte.",
+          "solution": "Die Besucherin starrte auf das Bild, als ob ihr ein Gespenst begegnet wäre.",
+          "explanation": "'begegnen' bildet das Perfekt mit 'sein' → Konjunktiv II Vergangenheit mit 'wäre', nicht mit 'hätte'."
+        },
+        {
+          "id": "l10t14",
+          "type": "error-correction",
+          "instruction": "Korrigiere die Wortstellung. Behalte „als“ und füge kein „ob“ oder „wenn“ ein.",
+          "prompt": "Die Lehrerin spricht so langsam, als wir kleine Kinder wären.",
+          "solution": "Die Lehrerin spricht so langsam, als wären wir kleine Kinder.",
+          "explanation": "Bei 'als' ohne ob/wenn steht das konjugierte Verb direkt nach 'als', das Subjekt folgt: 'als wären wir …'."
+        },
+        {
+          "id": "l10t15",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen irrealen Vergleich. Beginne mit „Der Taxifahrer“.",
+          "prompt": "Baue den Satz aus den Satzgliedern.",
+          "scrambleChunks": [
+            "er",
+            "fuhr so schnell,",
+            "auf der Flucht",
+            "Der Taxifahrer",
+            "wäre",
+            "als"
+          ],
+          "solution": "Der Taxifahrer fuhr so schnell, als wäre er auf der Flucht.",
+          "explanation": "'als' + Konjunktiv II: Das konjugierte Verb 'wäre' folgt direkt auf 'als', danach Subjekt und Rest."
+        },
+        {
+          "id": "l10t16",
+          "type": "sentence-scramble",
+          "instruction": "Beschreibe die Wirkung. Beginne mit „Die Nachbarin“.",
+          "prompt": "Baue den Satz aus den Satzgliedern.",
+          "scrambleChunks": [
+            "verheimlichen würde",
+            "als ob",
+            "Die Nachbarin",
+            "etwas",
+            "macht den Eindruck,",
+            "sie"
+          ],
+          "solution": "Die Nachbarin macht den Eindruck, als ob sie etwas verheimlichen würde.",
+          "explanation": "'den Eindruck machen, als ob …': Nach 'als ob' steht die würde-Form am Ende (Infinitiv + würde)."
+        }
+      ]
+    },
+    {
+      "lektionId": "b2-m4-l11",
+      "level": "B2",
+      "modulNumber": 4,
+      "lektionNumber": 11,
+      "title": "Sprachen und Tiersprachen",
+      "grammarFocus": [
+        "Indefinitpronomen einer/eins/eine und keiner/keins/keine: Genus und Kasus (Ich brauche einen. – Hast du eins?)",
+        "Indefinitpronomen für Personen: jemand/niemand/irgendwer mit Kasusformen (jemanden, jemandem, irgendwen, irgendwem); man nur im Nominativ",
+        "irgend- und nirgend- für Ort, Zeit und Dinge (irgendwo, irgendwohin, irgendwann, irgendetwas – nirgendwo, nirgendwohin, nie, nichts)"
+      ],
+      "vocabulary": [
+        {
+          "id": "l11v01",
+          "term": "die Sprachvarietät",
+          "translation": "la variedad lingüística",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Sprachvarietäten",
+          "example": "Dialekte und Jugendsprache sind Sprachvarietäten, die jeder in einer anderen Situation nutzt."
+        },
+        {
+          "id": "l11v02",
+          "term": "die Fachsprache",
+          "translation": "el lenguaje técnico / especializado",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Fachsprachen",
+          "example": "Ohne Erklärung versteht ein Laie die Fachsprache der Juristen kaum."
+        },
+        {
+          "id": "l11v03",
+          "term": "die Amtssprache",
+          "translation": "el lenguaje administrativo; la lengua oficial",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Amtssprachen",
+          "example": "Der Bescheid war in so komplizierter Amtssprache geschrieben, dass ich ihn dreimal lesen musste."
+        },
+        {
+          "id": "l11v04",
+          "term": "die Umgangssprache",
+          "translation": "el lenguaje coloquial",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Umgangssprachen",
+          "example": "In einer Bewerbung sollte man auf Umgangssprache verzichten."
+        },
+        {
+          "id": "l11v05",
+          "term": "die Hochsprache",
+          "translation": "la lengua estándar",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Hochsprachen",
+          "example": "Im Nachrichtenstudio wird Hochsprache gesprochen, auf dem Markt eher Dialekt."
+        },
+        {
+          "id": "l11v06",
+          "term": "die Gebärdensprache",
+          "translation": "la lengua de signos",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Gebärdensprachen",
+          "example": "Meine Nichte lernt Gebärdensprache, weil ihr bester Freund gehörlos ist."
+        },
+        {
+          "id": "l11v07",
+          "term": "die Barrierefreiheit",
+          "translation": "la accesibilidad",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Bei der Renovierung des Rathauses wurde auch auf Barrierefreiheit geachtet."
+        },
+        {
+          "id": "l11v08",
+          "term": "barrierefrei",
+          "translation": "accesible (sin barreras)",
+          "partOfSpeech": "adjective",
+          "example": "Die neue Website der Stadtbibliothek ist barrierefrei und lässt sich vorlesen."
+        },
+        {
+          "id": "l11v09",
+          "term": "gehörlos",
+          "translation": "sordo",
+          "partOfSpeech": "adjective",
+          "example": "Seit seiner Geburt ist Tobias gehörlos und kommuniziert mit Gebärden."
+        },
+        {
+          "id": "l11v10",
+          "term": "das Umfeld",
+          "translation": "el entorno",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Umfelder",
+          "example": "In seinem beruflichen Umfeld spricht er fast nur Englisch."
+        },
+        {
+          "id": "l11v11",
+          "term": "die Branche",
+          "translation": "el sector, el ramo",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Branchen",
+          "example": "Jede Branche hat ihre eigenen Abkürzungen, die Außenstehende verwirren."
+        },
+        {
+          "id": "l11v12",
+          "term": "die Mimik",
+          "translation": "la expresión facial, la mímica",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "An ihrer Mimik konnte man sofort erkennen, dass sie die Antwort nicht glaubte."
+        },
+        {
+          "id": "l11v13",
+          "term": "die Gestik",
+          "translation": "los gestos",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Beim Erzählen begleitet mein Onkel fast jeden Satz mit lebhafter Gestik."
+        },
+        {
+          "id": "l11v14",
+          "term": "der Laut",
+          "translation": "el sonido",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Laute",
+          "example": "Das Baby gibt schon erste Laute von sich, aber noch keine Wörter."
+        },
+        {
+          "id": "l11v15",
+          "term": "die Verständigung",
+          "translation": "la comunicación, el entendimiento",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Trotz der unterschiedlichen Muttersprachen klappte die Verständigung im Team gut."
+        },
+        {
+          "id": "l11v16",
+          "term": "sich verständigen",
+          "translation": "comunicarse, entenderse",
+          "partOfSpeech": "verb",
+          "preterite": "verständigte sich",
+          "participle": "sich verständigt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Im Ausland haben wir uns oft mit Händen und Füßen verständigt."
+        },
+        {
+          "id": "l11v17",
+          "term": "teilhaben",
+          "translation": "participar (en)",
+          "partOfSpeech": "verb",
+          "preterite": "hatte teil",
+          "participle": "teilgehabt",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Alle Bürgerinnen und Bürger sollen am kulturellen Leben teilhaben können."
+        },
+        {
+          "id": "l11v19",
+          "term": "anerkennen",
+          "translation": "reconocer",
+          "partOfSpeech": "verb",
+          "preterite": "erkannte an",
+          "participle": "anerkannt",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "In vielen Ländern ist die Gebärdensprache inzwischen offiziell anerkannt."
+        },
+        {
+          "id": "l11v20",
+          "term": "entschlüsseln",
+          "translation": "descifrar",
+          "partOfSpeech": "verb",
+          "preterite": "entschlüsselte",
+          "participle": "entschlüsselt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Forschende versuchen, die Gesänge der Buckelwale zu entschlüsseln."
+        },
+        {
+          "id": "l11v21",
+          "term": "weitergeben",
+          "translation": "transmitir, pasar",
+          "partOfSpeech": "verb",
+          "preterite": "gab weiter",
+          "participle": "weitergegeben",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Ältere Elefanten geben ihr Wissen über Wasserstellen an die jüngeren weiter."
+        },
+        {
+          "id": "l11v22",
+          "term": "signalisieren",
+          "translation": "señalar, indicar",
+          "partOfSpeech": "verb",
+          "preterite": "signalisierte",
+          "participle": "signalisiert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Mit hoch erhobenem Schwanz signalisiert die Katze, dass sie sich wohlfühlt."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l11e01",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Indefinitpronomen.",
+            "prompt": "Gibt es in eurer Stadt einen Kurs für Gebärdensprache? – Ja, die Volkshochschule bietet ___ an.",
+            "options": [
+              "einen",
+              "eins",
+              "einer",
+              "einem"
+            ],
+            "solution": "einen",
+            "hint": "Auf welches Nomen bezieht sich das Pronomen, und welchen Kasus braucht 'anbieten'?",
+            "explanation": "'der Kurs' ist maskulin, 'anbieten' verlangt den Akkusativ → einen. 'eins' wäre Neutrum, 'einem' Dativ."
+          },
+          {
+            "id": "l11e02",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Indefinitpronomen.",
+            "prompt": "Ich suche ein Wörterbuch für Jugendsprache. Hast du ___?",
+            "options": [
+              "eins",
+              "einen",
+              "eine",
+              "einem"
+            ],
+            "solution": "eins",
+            "hint": "'das Wörterbuch' – welches Genus?",
+            "explanation": "Für ein neutrales Nomen im Akkusativ steht 'eins' (oder 'eines'). 'einen' passt nur zu maskulinen Nomen."
+          },
+          {
+            "id": "l11e03",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Indefinitpronomen.",
+            "prompt": "Von den beiden Dolmetscherinnen habe ich bisher nur mit ___ gesprochen.",
+            "options": [
+              "einer",
+              "eine",
+              "einem",
+              "einen"
+            ],
+            "solution": "einer",
+            "hint": "'mit' verlangt immer denselben Kasus.",
+            "explanation": "'mit' + Dativ; feminin Dativ Singular → einer. 'eine' ist Nominativ/Akkusativ, 'einem' maskulin/neutral."
+          },
+          {
+            "id": "l11e04",
+            "type": "multiple-choice",
+            "instruction": "Wähle die standardsprachliche Form. 'man' gibt es nur im Nominativ.",
+            "prompt": "Lange Schachtelsätze verwirren ___ beim Lesen schnell.",
+            "options": [
+              "einen",
+              "man",
+              "einem",
+              "jemand"
+            ],
+            "solution": "einen",
+            "hint": "'verwirren' braucht ein Akkusativobjekt.",
+            "explanation": "Statt 'man' steht im Akkusativ 'einen': Das verwirrt einen. 'man' ist nur Nominativ, 'einem' wäre Dativ."
+          },
+          {
+            "id": "l11e05",
+            "type": "multiple-choice",
+            "instruction": "Wähle die standardsprachliche Form. 'man' gibt es nur im Nominativ.",
+            "prompt": "Wenn ___ ein Papagei plötzlich ins Ohr kreischt, erschrickt man furchtbar.",
+            "options": [
+              "einem",
+              "einen",
+              "man",
+              "eins"
+            ],
+            "solution": "einem",
+            "hint": "Wem kreischt der Papagei ins Ohr?",
+            "explanation": "'jemandem ins Ohr kreischen' verlangt den Dativ; der Dativ von 'man' heißt 'einem'. 'einen' wäre Akkusativ."
+          },
+          {
+            "id": "l11e06",
+            "type": "multiple-choice",
+            "instruction": "Wähle die standardsprachliche Kasusform.",
+            "prompt": "Gestern habe ich ___ kennengelernt, der fließend Gebärdensprache spricht.",
+            "options": [
+              "jemanden",
+              "jemand",
+              "jemandem",
+              "niemandem"
+            ],
+            "solution": "jemanden",
+            "hint": "'kennenlernen' + welcher Kasus?",
+            "explanation": "'jemanden kennenlernen' verlangt den Akkusativ → jemanden. 'jemand' (ohne Endung) ist Nominativ bzw. nur umgangssprachlich."
+          },
+          {
+            "id": "l11e07",
+            "type": "multiple-choice",
+            "instruction": "Wähle die standardsprachliche Kasusform.",
+            "prompt": "Kannst du diesen Fachbegriff ___ erklären, der nicht aus der Branche kommt?",
+            "options": [
+              "jemandem",
+              "jemanden",
+              "jemand",
+              "irgendwen"
+            ],
+            "solution": "jemandem",
+            "hint": "Wem erklärt man etwas?",
+            "explanation": "'jemandem etwas erklären': Die Person steht im Dativ → jemandem. 'jemanden' und 'irgendwen' sind Akkusativ."
+          },
+          {
+            "id": "l11e08",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Wort.",
+            "prompt": "Unser Papagei hat das Wort „Feierabend“ ___ aufgeschnappt – wir wissen nur nicht, wo.",
+            "options": [
+              "irgendwo",
+              "irgendwohin",
+              "irgendwann",
+              "irgendwer"
+            ],
+            "solution": "irgendwo",
+            "hint": "Der Nachsatz fragt nach dem Ort, nicht nach der Richtung.",
+            "explanation": "'irgendwo' bezeichnet einen unbestimmten Ort (Frage: wo?). 'irgendwohin' bräuchte eine Richtung, 'irgendwann' fragt nach der Zeit."
+          },
+          {
+            "id": "l11e09",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Wort.",
+            "prompt": "Die Katze ist durch die offene Tür ___ gerannt, und wir suchen sie seit Stunden.",
+            "options": [
+              "irgendwohin",
+              "irgendwo",
+              "irgendwoher",
+              "nirgendwo"
+            ],
+            "solution": "irgendwohin",
+            "hint": "Die Katze bewegt sich zu einem Ziel – Ort oder Richtung?",
+            "explanation": "Bei einer Bewegung zu einem Ziel steht 'irgendwohin' (wohin?). 'irgendwoher' wäre Herkunft, 'irgendwo' ein fester Ort (wo?)."
+          },
+          {
+            "id": "l11e10",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Wort.",
+            "prompt": "Unser Hund ist inzwischen sehr alt und will ___ mehr laufen – er bleibt am liebsten im Garten.",
+            "options": [
+              "nirgendwohin",
+              "nirgendwoher",
+              "niemandem",
+              "nichts"
+            ],
+            "solution": "nirgendwohin",
+            "hint": "Verneint wird eine Richtung.",
+            "explanation": "'nirgendwohin' ist die Negation von 'irgendwohin' (Richtung). 'nirgendwoher' fragt nach der Herkunft, 'nichts' verneint Dinge."
+          },
+          {
+            "id": "l11e11",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze ein Wort mit 'irgend-'. Es antwortet auf die Frage 'wann?'.",
+            "prompt": "Ich möchte ___ die Deutsche Gebärdensprache lernen, aber ich weiß noch nicht, wann ich Zeit dafür habe.",
+            "solution": "irgendwann",
+            "hint": "Gesucht ist eine unbestimmte Zeitangabe.",
+            "explanation": "'irgendwann' = zu einem unbestimmten Zeitpunkt. 'irgendwo' wäre ein Ort, 'irgendwie' die Art und Weise."
+          },
+          {
+            "id": "l11e12",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Wort.",
+            "prompt": "Unser Hund bellt und schaut mich an. Er will mir offenbar ___ sagen.",
+            "options": [
+              "irgendetwas",
+              "irgendwer",
+              "irgendwo",
+              "irgendwem"
+            ],
+            "solution": "irgendetwas",
+            "hint": "Gesucht ist eine unbestimmte Sache als Akkusativobjekt.",
+            "explanation": "Für unbestimmte Dinge steht 'irgendetwas' (oder 'etwas'). 'irgendwer/irgendwem' beziehen sich auf Personen, 'irgendwo' auf einen Ort."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l11m01",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze die richtige Form von 'keiner/keins/keine'. Bei Neutrum: Kurzform.",
+            "prompt": "Im Regal stehen viele Lehrbücher, aber ___ ist in Leichter Sprache geschrieben. (kein-)",
+            "solution": "keins",
+            "hint": "'das Lehrbuch' ist Subjekt des Satzes.",
+            "explanation": "Neutrum Nominativ: keins (lang: keines). 'keiner' wäre maskulin, 'keine' feminin oder Plural."
+          },
+          {
+            "id": "l11m02",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze die richtige Form von 'einer/eins/eine'.",
+            "prompt": "Mein Kollege braucht für das Elterngespräch eine Dolmetscherin. Kennst du ___? (ein-)",
+            "solution": "eine",
+            "hint": "'die Dolmetscherin' ist Akkusativobjekt.",
+            "explanation": "Feminin Akkusativ: eine – genau wie der Artikel. 'einer' wäre Dativ, 'einen' maskulin."
+          },
+          {
+            "id": "l11m03",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze die richtige Form von 'keiner/keins/keine'.",
+            "prompt": "Ich habe fünf Übersetzungs-Apps ausprobiert, aber ___ hat mir wirklich geholfen. (kein-)",
+            "solution": "keine",
+            "hint": "'die App' ist Subjekt im zweiten Satz.",
+            "explanation": "Feminin Nominativ: keine. Das Verb 'hat' ist Singular, also nicht Plural gemeint; 'keiner' wäre maskulin."
+          },
+          {
+            "id": "l11m04",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze die richtige Form von 'einer/eins/eine'.",
+            "prompt": "Der Hund hat den Ball ___ von den Kindern zurückgebracht. (ein-)",
+            "solution": "einem",
+            "hint": "'jemandem etwas zurückbringen' – und 'das Kind' ist neutral.",
+            "explanation": "Die Person steht im Dativ; Neutrum Dativ: einem (von den Kindern). 'einen' wäre maskulin Akkusativ."
+          },
+          {
+            "id": "l11m05",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze die standardsprachliche Kasusform von 'jemand'.",
+            "prompt": "Ich muss den Bescheid ___ zeigen, der sich mit Amtssprache auskennt. (jemand)",
+            "solution": "jemandem",
+            "hint": "Wem zeigt man etwas?",
+            "explanation": "'jemandem etwas zeigen' → Dativ: jemandem. Die endungslose Form 'jemand' ist hier nur umgangssprachlich."
+          },
+          {
+            "id": "l11m06",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze die standardsprachliche Kasusform von 'niemand'.",
+            "prompt": "Auf der Fachtagung kannte die junge Linguistin anfangs ___. (niemand)",
+            "solution": "niemanden",
+            "hint": "'kennen' verlangt ein Akkusativobjekt.",
+            "explanation": "'jemanden kennen' → Akkusativ: niemanden. 'niemandem' wäre Dativ, 'niemand' Nominativ."
+          },
+          {
+            "id": "l11m07",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze die richtige Kasusform von 'irgendwer'.",
+            "prompt": "Hast du die Neuigkeit schon ___ erzählt, oder weiß es noch keiner? (irgendwer)",
+            "solution": "irgendwem",
+            "hint": "Wem erzählt man etwas?",
+            "explanation": "'jemandem etwas erzählen' → Dativ: irgendwem. Akkusativ wäre 'irgendwen', Nominativ 'irgendwer'."
+          },
+          {
+            "id": "l11m08",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze die passende Form von 'man'. Achtung: 'man' gibt es nur im Nominativ.",
+            "prompt": "Es ist frustrierend, wenn ___ beim Reden niemand zuhört. (man)",
+            "solution": "einem",
+            "hint": "'jemandem zuhören' – welcher Kasus?",
+            "explanation": "'zuhören' verlangt den Dativ; 'man' hat keine Dativform, darum steht 'einem'. Akkusativ wäre 'einen'."
+          },
+          {
+            "id": "l11m09",
+            "type": "sentence-scramble",
+            "instruction": "Beginne mit 'Irgendwo'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "habe",
+              "diesen Vogelruf",
+              "Irgendwo",
+              "schon einmal gehört",
+              "ich"
+            ],
+            "solution": "Irgendwo habe ich diesen Vogelruf schon einmal gehört.",
+            "hint": "Nach dem Vorfeld kommt das konjugierte Verb.",
+            "explanation": "'Irgendwo' steht im Vorfeld, darum folgt 'habe' auf Position 2, dann das Subjekt 'ich'; das Partizip 'gehört' steht am Ende."
+          },
+          {
+            "id": "l11m10",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz mit Relativsatz.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "der",
+              "jemanden,",
+              "dolmetschen kann",
+              "Wir suchen",
+              "Gebärdensprache"
+            ],
+            "solution": "Wir suchen jemanden, der Gebärdensprache dolmetschen kann.",
+            "hint": "Das Relativpronomen richtet sich nach 'jemand' (maskulin).",
+            "explanation": "Auf 'jemanden' (Akkusativ) bezieht sich das Relativpronomen 'der' (Nominativ im Relativsatz); 'kann' steht am Ende."
+          },
+          {
+            "id": "l11m11",
+            "type": "sentence-scramble",
+            "instruction": "Bilde eine Frage.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "erzählen",
+              "Kannst du",
+              "irgendetwas über Delfine",
+              "mir"
+            ],
+            "solution": "Kannst du mir irgendetwas über Delfine erzählen?",
+            "hint": "Ein Pronomen im Dativ steht früh im Mittelfeld.",
+            "explanation": "Ja/Nein-Frage: Verb zuerst. Das Pronomen 'mir' steht vor dem Objekt 'irgendetwas über Delfine', der Infinitiv am Ende."
+          },
+          {
+            "id": "l11m12",
+            "type": "sentence-scramble",
+            "instruction": "Nach 'aber' steht das Indefinitpronomen.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "aber",
+              "war",
+              "drei Bücher über Gebärdensprache gelesen,",
+              "leicht verständlich",
+              "Ich habe",
+              "keins davon"
+            ],
+            "solution": "Ich habe drei Bücher über Gebärdensprache gelesen, aber keins davon war leicht verständlich.",
+            "hint": "'aber' steht auf Position 0 und zählt nicht mit.",
+            "explanation": "Nach 'aber' folgt ein Hauptsatz: 'keins davon' (Neutrum, wie 'das Buch') im Vorfeld, dann das Verb 'war'."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l11h01",
+            "type": "error-correction",
+            "instruction": "Korrigiere in die standardsprachliche Form. Ändere nur ein Wort.",
+            "prompt": "Ich habe gestern mit jemand aus der Gehörlosenschule telefoniert.",
+            "solution": "Ich habe gestern mit jemandem aus der Gehörlosenschule telefoniert.",
+            "hint": "Welchen Kasus verlangt 'mit'?",
+            "explanation": "'mit' + Dativ → jemandem. Die endungslose Form 'mit jemand' hört man oft, sie ist aber nur umgangssprachlich."
+          },
+          {
+            "id": "l11h02",
+            "type": "error-correction",
+            "instruction": "Ersetze das falsche Wort durch die passende Form von 'man'.",
+            "prompt": "Kurze Sätze und klare Bilder helfen man beim Lesen.",
+            "solution": "Kurze Sätze und klare Bilder helfen einem beim Lesen.",
+            "hint": "'man' kann nur Subjekt sein.",
+            "explanation": "'helfen' verlangt den Dativ, und 'man' hat keine Dativform – sie lautet 'einem'. Subjekt sind die Sätze und Bilder."
+          },
+          {
+            "id": "l11h03",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Ändere nur ein Wort. Bei Neutrum: Kurzform.",
+            "prompt": "Ich brauche ein Wörterbuch für Fachsprache. Hast du einen?",
+            "solution": "Ich brauche ein Wörterbuch für Fachsprache. Hast du eins?",
+            "hint": "Das Pronomen richtet sich nach dem Genus des Nomens.",
+            "explanation": "'das Wörterbuch' ist Neutrum → eins (lang: eines). 'einen' passt nur zu maskulinen Nomen im Akkusativ."
+          },
+          {
+            "id": "l11h04",
+            "type": "error-correction",
+            "instruction": "Korrigiere die Form von 'irgendwer'. Ändere nur ein Wort.",
+            "prompt": "Der Papagei wiederholt jedes Wort, das irgendwem zu ihm sagt.",
+            "solution": "Der Papagei wiederholt jedes Wort, das irgendwer zu ihm sagt.",
+            "hint": "Wer sagt das Wort? Das Pronomen ist Subjekt.",
+            "explanation": "Im Relativsatz ist das Pronomen Subjekt, also Nominativ: irgendwer. 'irgendwem' ist Dativ."
+          },
+          {
+            "id": "l11h05",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Ändere nur ein Wort; 'getragen' bleibt unverändert.",
+            "prompt": "Der Hund hat meinen Schuh irgendwo getragen, und jetzt finden wir ihn nicht.",
+            "solution": "Der Hund hat meinen Schuh irgendwohin getragen, und jetzt finden wir ihn nicht.",
+            "hint": "'tragen' drückt hier eine Bewegung an ein Ziel aus.",
+            "explanation": "Bei einer Richtung (wohin?) steht 'irgendwohin'. 'irgendwo' bezeichnet nur einen Ort (wo?), keine Bewegung."
+          },
+          {
+            "id": "l11h06",
+            "type": "error-correction",
+            "instruction": "Korrigiere die Form von 'kein-'. Ändere nur ein Wort.",
+            "prompt": "Von den beiden Dolmetschern hat mir keinen geantwortet.",
+            "solution": "Von den beiden Dolmetschern hat mir keiner geantwortet.",
+            "hint": "Wer hat (nicht) geantwortet? Das Pronomen ist Subjekt.",
+            "explanation": "Das Pronomen ist Subjekt → Nominativ maskulin: keiner. 'keinen' ist Akkusativ; 'mir' ist das Dativobjekt."
+          },
+          {
+            "id": "l11h07",
+            "type": "targeted-transformation",
+            "instruction": "Verneine mit der standardsprachlichen Form von 'niemand'. Die übrigen Satzglieder bleiben.",
+            "prompt": "Die Forscherin hat irgendwen um Hilfe gebeten.",
+            "solution": "Die Forscherin hat niemanden um Hilfe gebeten.",
+            "hint": "'jemanden um etwas bitten' – der Kasus bleibt gleich.",
+            "explanation": "'irgendwen' ist Akkusativ, also braucht auch die Negation den Akkusativ: niemanden. 'niemand' wäre Nominativ."
+          },
+          {
+            "id": "l11h08",
+            "type": "targeted-transformation",
+            "instruction": "Verneine die Ortsangabe mit 'nirgendwo'. Ändere nur dieses Wort.",
+            "prompt": "Ich habe in der Stadt irgendwo einen barrierefreien Eingang gefunden.",
+            "solution": "Ich habe in der Stadt nirgendwo einen barrierefreien Eingang gefunden.",
+            "hint": "Die Negation von 'irgendwo' ist ein einziges Wort.",
+            "explanation": "'irgendwo' wird mit 'nirgendwo' verneint; der Rest bleibt. Ein zusätzliches 'nicht' oder 'keinen' wäre eine doppelte Verneinung."
+          },
+          {
+            "id": "l11h09",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze 'einer Gebärdendolmetscherin' durch das passende Indefinitpronomen.",
+            "prompt": "Für den Elternabend hat die Schule mit einer Gebärdendolmetscherin telefoniert.",
+            "solution": "Für den Elternabend hat die Schule mit einer telefoniert.",
+            "hint": "Kasus und Genus des Nomens bleiben erhalten.",
+            "explanation": "Feminin Dativ nach 'mit': Das Pronomen lautet 'einer', wie der Artikel. 'eine' wäre Akkusativ."
+          },
+          {
+            "id": "l11h10",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze 'ein Café' durch das passende Indefinitpronomen (Kurzform).",
+            "prompt": "Gibt es in der Nähe ein Café mit barrierefreiem Eingang?",
+            "solution": "Gibt es in der Nähe eins mit barrierefreiem Eingang?",
+            "hint": "'es gibt' + Akkusativ; 'das Café' ist neutral.",
+            "explanation": "Neutrum Akkusativ: eins (lang: eines). Anders als der Artikel 'ein' bekommt das Pronomen eine Endung."
+          },
+          {
+            "id": "l11h11",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze 'jemandem' durch die passende Form von 'man'.",
+            "prompt": "Fachsprache kann jemandem den Zugang zu wichtigen Informationen erschweren.",
+            "solution": "Fachsprache kann einem den Zugang zu wichtigen Informationen erschweren.",
+            "hint": "'man' hat keine eigene Dativform.",
+            "explanation": "Die Dativform zu 'man' ist 'einem' (Akkusativ: einen). 'man' selbst kann nur Subjekt sein."
+          },
+          {
+            "id": "l11h12",
+            "type": "targeted-transformation",
+            "instruction": "Antworte verneint mit 'noch' und einem Indefinitpronomen. Beginne mit 'Nein, sie hat'.",
+            "prompt": "Hat die Behörde schon einen Leitfaden in Leichter Sprache?",
+            "solution": "Nein, sie hat noch keinen.",
+            "hint": "'der Leitfaden' ist maskulin und Akkusativobjekt.",
+            "explanation": "Das Pronomen ersetzt 'einen Leitfaden' und wird verneint: maskulin Akkusativ → keinen. 'keiner' wäre Nominativ."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l11t01",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Indefinitpronomen.",
+          "prompt": "Ich habe meinen Regenschirm im Büro vergessen. – Kein Problem, im Flur hängt doch ___!",
+          "options": [
+            "einer",
+            "einen",
+            "eins",
+            "eine"
+          ],
+          "solution": "einer",
+          "explanation": "Der Regenschirm (maskulin) ist hier Subjekt → Nominativ 'einer'. 'einen' wäre Akkusativ, 'eins'/'eine' passen nicht zum Genus."
+        },
+        {
+          "id": "l11t02",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Indefinitpronomen.",
+          "prompt": "Brauchst du noch ein Ladekabel für die Reise? – Nein danke, ich habe schon ___.",
+          "options": [
+            "eins",
+            "einen",
+            "einer",
+            "eine"
+          ],
+          "solution": "eins",
+          "explanation": "das Ladekabel (neutral), Akkusativ → 'eins'. 'einen' wäre maskulin, 'eine' feminin."
+        },
+        {
+          "id": "l11t03",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze eine Form von keiner/keins/keine.",
+          "prompt": "Ich wollte am Kiosk noch eine Tageszeitung kaufen, aber der Verkäufer hatte ___ mehr.",
+          "solution": "keine",
+          "explanation": "Gemeint ist 'keine Zeitung' (feminin, Akkusativ nach 'haben') → 'keine'. 'keinen' wäre maskulin, 'keins' neutral."
+        },
+        {
+          "id": "l11t04",
+          "type": "cloze-conjugation",
+          "instruction": "Setze das Pronomen in Klammern in der richtigen Kasusform ein.",
+          "prompt": "Den meisten Nachbarn leihe ich ungern etwas, aber ___ (einer) von ihnen vertraue ich sogar meinen Wohnungsschlüssel an.",
+          "solution": "einem",
+          "explanation": "'jemandem etwas anvertrauen' verlangt den Dativ; Dativ maskulin von 'einer' → 'einem'."
+        },
+        {
+          "id": "l11t05",
+          "type": "multiple-choice",
+          "instruction": "Wähle die passende Form.",
+          "prompt": "Kennst du ___, der mir am Samstag beim Streichen der Wohnung helfen könnte?",
+          "options": [
+            "jemanden",
+            "jemandem",
+            "jemandes",
+            "man"
+          ],
+          "solution": "jemanden",
+          "explanation": "'kennen' verlangt den Akkusativ → 'jemanden'. 'jemandem' ist Dativ, 'man' gibt es nur im Nominativ."
+        },
+        {
+          "id": "l11t06",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze die deklinierte Form von „jemand“ (mit Kasusendung).",
+          "prompt": "Für den Umzug solltest du dir von ___ helfen lassen, der ein großes Auto hat.",
+          "solution": "jemandem",
+          "explanation": "Die Präposition 'von' verlangt immer den Dativ → 'jemandem'. 'jemanden' wäre Akkusativ."
+        },
+        {
+          "id": "l11t07",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze die deklinierte Form von „niemand“ (mit Kasusendung).",
+          "prompt": "Mein Passwort verrate ich ___, nicht einmal meinem Partner.",
+          "solution": "niemandem",
+          "explanation": "'jemandem etwas verraten': die Person steht im Dativ → 'niemandem'. 'niemanden' wäre Akkusativ."
+        },
+        {
+          "id": "l11t08",
+          "type": "cloze-conjugation",
+          "instruction": "Setze das Pronomen in Klammern in der richtigen Kasusform ein.",
+          "prompt": "Der Hausmeister hat den Ersatzschlüssel ___ (irgendwer) gegeben, weiß aber nicht mehr, wem.",
+          "solution": "irgendwem",
+          "explanation": "'jemandem etwas geben' → Dativ; 'irgendwer' dekliniert wie 'wer': Dativ 'irgendwem'. 'irgendwen' wäre Akkusativ."
+        },
+        {
+          "id": "l11t09",
+          "type": "multiple-choice",
+          "instruction": "Wähle die passende Form.",
+          "prompt": "Bei diesem Regenwetter ist es schön, wenn ___ der Nachbar mit dem Auto vom Bahnhof abholt.",
+          "options": [
+            "einen",
+            "man",
+            "einem",
+            "einer"
+          ],
+          "solution": "einen",
+          "explanation": "'man' gibt es nur im Nominativ; hier ist 'der Nachbar' Subjekt, die abgeholte Person steht im Akkusativ → 'einen'. 'einem' wäre Dativ."
+        },
+        {
+          "id": "l11t10",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Wort.",
+          "prompt": "In den Sommerferien möchten wir ___ fahren, wo es nicht so heiß ist.",
+          "options": [
+            "irgendwohin",
+            "irgendwo",
+            "irgendwoher",
+            "nirgendwo"
+          ],
+          "solution": "irgendwohin",
+          "explanation": "'fahren' drückt eine Richtung aus (Wohin?) → 'irgendwohin'. 'irgendwo' antwortet auf 'Wo?', 'irgendwoher' auf 'Woher?'."
+        },
+        {
+          "id": "l11t11",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze ein Wort mit irgend-.",
+          "prompt": "Eine genaue Uhrzeit nennt der Techniker nicht – er kommt nur ___ am Vormittag.",
+          "solution": "irgendwann",
+          "explanation": "Ein unbestimmter Zeitpunkt (Wann?) → 'irgendwann'. 'irgendwo' bezeichnet einen Ort."
+        },
+        {
+          "id": "l11t12",
+          "type": "targeted-transformation",
+          "instruction": "Verneine den Satz: Ersetze „irgendwohin“ durch das passende nirgend-Wort. Alles andere bleibt gleich.",
+          "prompt": "Nach dem langen Arbeitstag wollte Jonas irgendwohin gehen.",
+          "solution": "Nach dem langen Arbeitstag wollte Jonas nirgendwohin gehen.",
+          "explanation": "Die Verneinung von 'irgendwohin' (Richtung) ist 'nirgendwohin'. 'nirgendwo' antwortet auf 'Wo?', nicht auf 'Wohin?'."
+        },
+        {
+          "id": "l11t13",
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler. Ändere nur ein Wort; das Verb bleibt.",
+          "prompt": "Hast du meinen Autoschlüssel irgendwohin gesehen?",
+          "solution": "Hast du meinen Autoschlüssel irgendwo gesehen?",
+          "explanation": "'sehen' fragt nach dem Ort (Wo?) → 'irgendwo'. 'irgendwohin' steht nur bei Richtungsverben wie gehen, legen, fahren."
+        },
+        {
+          "id": "l11t14",
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler. Ändere nur ein Wort.",
+          "prompt": "Ich wollte mir einen Stuhl holen, aber im Saal war keine mehr frei.",
+          "solution": "Ich wollte mir einen Stuhl holen, aber im Saal war keiner mehr frei.",
+          "explanation": "Gemeint ist 'kein Stuhl' (maskulin, Subjekt) → Nominativ 'keiner'. 'keine' passt nur zu femininen Nomen oder zum Plural."
+        },
+        {
+          "id": "l11t15",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz. Beginne mit „Falls“.",
+          "prompt": "Baue den Satz aus den Satzgliedern.",
+          "scrambleChunks": [
+            "sag bitte,",
+            "anruft,",
+            "Falls",
+            "dass ich",
+            "irgendjemand",
+            "erst morgen zurück bin"
+          ],
+          "solution": "Falls irgendjemand anruft, sag bitte, dass ich erst morgen zurück bin.",
+          "explanation": "Im Nebensatz mit 'falls' und 'dass' steht das Verb am Ende; 'irgendjemand' ist hier Subjekt im Nominativ."
+        },
+        {
+          "id": "l11t16",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Wort.",
+          "prompt": "Möchtest du vor dem Konzert noch ___ essen? – Nein danke, ich habe keinen Hunger.",
+          "options": [
+            "irgendetwas",
+            "irgendwen",
+            "irgendwohin",
+            "irgendwem"
+          ],
+          "solution": "irgendetwas",
+          "explanation": "Gefragt ist eine unbestimmte Sache → 'irgendetwas'. 'irgendwen'/'irgendwem' stehen für Personen, 'irgendwohin' für eine Richtung."
+        }
+      ]
+    },
+    {
+      "lektionId": "b2-m4-l12",
+      "level": "B2",
+      "modulNumber": 4,
+      "lektionNumber": 12,
+      "title": "Klartext reden",
+      "grammarFocus": [
+        "Reziprokpronomen: Präposition + -einander (miteinander, aufeinander, übereinander, voneinander, umeinander)",
+        "Wünsche und Kritik höflich äußern mit Konjunktiv II (Ich fände es gut, wenn du … könntest / Es würde mir helfen, wenn …)",
+        "Modalpartikeln im Gespräch: ja, denn, mal, doch, ruhig, aber (Überraschung, Interesse, freundliche Aufforderung, Erlaubnis)"
+      ],
+      "vocabulary": [
+        {
+          "id": "l12v01",
+          "term": "die Meinungsverschiedenheit",
+          "translation": "la discrepancia, el desacuerdo",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Meinungsverschiedenheiten",
+          "example": "Wegen einer kleinen Meinungsverschiedenheit über den Putzplan redeten die beiden tagelang nicht miteinander."
+        },
+        {
+          "id": "l12v03",
+          "term": "das Bedürfnis",
+          "translation": "la necesidad",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Bedürfnisse",
+          "example": "Wer im Großraumbüro arbeitet, hat oft das Bedürfnis nach mehr Ruhe."
+        },
+        {
+          "id": "l12v04",
+          "term": "aufeinanderstoßen",
+          "translation": "chocar (entre sí)",
+          "partOfSpeech": "verb",
+          "preterite": "stieß aufeinander",
+          "participle": "aufeinandergestoßen",
+          "auxiliary": "sein",
+          "irregular": true,
+          "example": "In der Projektsitzung stießen zwei völlig verschiedene Arbeitsstile aufeinander."
+        },
+        {
+          "id": "l12v05",
+          "term": "die Ich-Botschaft",
+          "translation": "el mensaje en primera persona",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Ich-Botschaften",
+          "example": "Statt Vorwürfe zu machen, formulierte sie eine Ich-Botschaft: „Ich fühle mich übergangen.“"
+        },
+        {
+          "id": "l12v06",
+          "term": "die Äußerung",
+          "translation": "el comentario, la declaración",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Äußerungen",
+          "example": "Seine spöttische Äußerung über das neue Logo kam bei der Grafikerin gar nicht gut an."
+        },
+        {
+          "id": "l12v07",
+          "term": "das Gegenüber",
+          "translation": "el interlocutor / la interlocutora",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Gegenüber",
+          "example": "Wer gut zuhört, zeigt seinem Gegenüber Respekt und Interesse."
+        },
+        {
+          "id": "l12v08",
+          "term": "die Ansicht",
+          "translation": "la opinión, el punto de vista",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Ansichten",
+          "example": "Über Erziehung haben meine Schwester und ich sehr unterschiedliche Ansichten."
+        },
+        {
+          "id": "l12v09",
+          "term": "die Erwartung",
+          "translation": "la expectativa",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Erwartungen",
+          "example": "Der neue Praktikant hatte ganz andere Erwartungen an den ersten Arbeitstag."
+        },
+        {
+          "id": "l12v10",
+          "term": "der Vorwurf",
+          "translation": "el reproche",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Vorwürfe",
+          "example": "Mit Vorwürfen erreicht man in einem Streit meistens nur, dass der andere blockiert."
+        },
+        {
+          "id": "l12v11",
+          "term": "vorwerfen",
+          "translation": "reprochar",
+          "partOfSpeech": "verb",
+          "preterite": "warf vor",
+          "participle": "vorgeworfen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Die Mitbewohnerin warf ihm vor, nie den Müll hinunterzubringen."
+        },
+        {
+          "id": "l12v12",
+          "term": "ansprechen",
+          "translation": "abordar (un tema)",
+          "partOfSpeech": "verb",
+          "preterite": "sprach an",
+          "participle": "angesprochen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Ich habe das Problem mit der Parkplatzverteilung in der Hausversammlung angesprochen."
+        },
+        {
+          "id": "l12v13",
+          "term": "eskalieren",
+          "translation": "agravarse, escalar",
+          "partOfSpeech": "verb",
+          "preterite": "eskalierte",
+          "participle": "eskaliert",
+          "auxiliary": "sein",
+          "irregular": false,
+          "example": "Der Streit um den Gartenzaun ist eskaliert, weil niemand nachgeben wollte."
+        },
+        {
+          "id": "l12v14",
+          "term": "sich einigen",
+          "translation": "ponerse de acuerdo",
+          "partOfSpeech": "verb",
+          "preterite": "einigte sich",
+          "participle": "sich geeinigt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Die Geschwister haben sich darauf geeinigt, die Kosten für das Geschenk zu teilen."
+        },
+        {
+          "id": "l12v15",
+          "term": "nachgeben",
+          "translation": "ceder",
+          "partOfSpeech": "verb",
+          "preterite": "gab nach",
+          "participle": "nachgegeben",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Am Ende gab der Verkäufer nach und senkte den Preis um zehn Prozent."
+        },
+        {
+          "id": "l12v16",
+          "term": "kränken",
+          "translation": "ofender, herir",
+          "partOfSpeech": "verb",
+          "preterite": "kränkte",
+          "participle": "gekränkt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Die Bemerkung über ihr Kochen hat meine Tante tief gekränkt."
+        },
+        {
+          "id": "l12v17",
+          "term": "unterbrechen",
+          "translation": "interrumpir",
+          "partOfSpeech": "verb",
+          "preterite": "unterbrach",
+          "participle": "unterbrochen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Der Moderator unterbrach den Gast, weil die Sendezeit fast vorbei war."
+        },
+        {
+          "id": "l12v18",
+          "term": "gereizt",
+          "translation": "irritado, de mal humor",
+          "partOfSpeech": "adjective",
+          "example": "Nach der langen Nachtschicht reagierte der Pfleger ziemlich gereizt auf jede Frage."
+        },
+        {
+          "id": "l12v19",
+          "term": "sachlich",
+          "translation": "objetivo, imparcial",
+          "partOfSpeech": "adjective",
+          "example": "Auch wenn du wütend bist, solltest du in der E-Mail sachlich bleiben."
+        },
+        {
+          "id": "l12v20",
+          "term": "das Anliegen",
+          "translation": "la petición, el asunto",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Anliegen",
+          "example": "Mit welchem Anliegen kommen Sie heute zu uns?"
+        },
+        {
+          "id": "l12v21",
+          "term": "etwas aus der Welt schaffen",
+          "translation": "zanjar, resolver (un problema)",
+          "partOfSpeech": "phrase",
+          "example": "Ein offenes Gespräch hat das Missverständnis schnell aus der Welt geschafft."
+        },
+        {
+          "id": "l12v22",
+          "term": "kein Blatt vor den Mund nehmen",
+          "translation": "no tener pelos en la lengua",
+          "partOfSpeech": "phrase",
+          "example": "Unsere Teamleiterin nimmt kein Blatt vor den Mund, wenn ihr etwas nicht passt."
+        },
+        {
+          "id": "l12v23",
+          "term": "jemanden durch den Kakao ziehen",
+          "translation": "burlarse de alguien",
+          "partOfSpeech": "phrase",
+          "example": "In der Abschlusszeitung wurden die Lehrkräfte liebevoll durch den Kakao gezogen."
+        },
+        {
+          "id": "l12v24",
+          "term": "im Voraus",
+          "translation": "de antemano, por adelantado",
+          "partOfSpeech": "adverb",
+          "example": "Für Ihre schnelle Rückmeldung bedanke ich mich schon im Voraus."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l12e01",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Reziprokpronomen.",
+            "prompt": "In einem guten Team müssen sich alle ___ verlassen können.",
+            "options": [
+              "aufeinander",
+              "miteinander",
+              "voneinander",
+              "füreinander"
+            ],
+            "solution": "aufeinander",
+            "hint": "Welche Präposition gehört zu 'sich verlassen'?",
+            "explanation": "'sich verlassen auf' → aufeinander. Das Reziprokpronomen übernimmt die Präposition des Verbs; mit/von/für passen nicht zu 'verlassen'."
+          },
+          {
+            "id": "l12e02",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Reziprokpronomen.",
+            "prompt": "In unserer WG kümmern sich alle ___, wenn jemand krank ist.",
+            "options": [
+              "umeinander",
+              "füreinander",
+              "miteinander",
+              "aneinander"
+            ],
+            "solution": "umeinander",
+            "hint": "Welche Präposition gehört zu 'sich kümmern'?",
+            "explanation": "'sich kümmern um' → umeinander. 'füreinander' gehört z. B. zu 'sorgen für', nicht zu 'kümmern'."
+          },
+          {
+            "id": "l12e03",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Reziprokpronomen.",
+            "prompt": "Nach zwölf Jahren Zusammenarbeit haben sich die beiden Geschäftspartner ___ getrennt.",
+            "options": [
+              "voneinander",
+              "miteinander",
+              "aufeinander",
+              "übereinander"
+            ],
+            "solution": "voneinander",
+            "hint": "Welche Präposition gehört zu 'sich trennen'?",
+            "explanation": "'sich trennen von' → voneinander. 'miteinander' gehört z. B. zu 'reden mit', nicht zu 'trennen'."
+          },
+          {
+            "id": "l12e04",
+            "type": "fill-in-blank",
+            "instruction": "Setze ein Wort auf -einander ein. Das Verb mit Präposition steht in Klammern.",
+            "prompt": "Beim Kaffee in der Küche unterhalten sich die Kolleginnen gern ___. (sich unterhalten mit)",
+            "solution": "miteinander",
+            "hint": "Präposition 'mit' + -einander.",
+            "explanation": "'sich unterhalten mit' → miteinander. Präposition und -einander werden zusammengeschrieben."
+          },
+          {
+            "id": "l12e05",
+            "type": "fill-in-blank",
+            "instruction": "Setze ein Wort auf -einander ein. Das Verb mit Präposition steht in Klammern.",
+            "prompt": "Obwohl sie in verschiedenen Ländern leben, denken die beiden Freundinnen oft ___. (denken an)",
+            "solution": "aneinander",
+            "hint": "Präposition 'an' + -einander.",
+            "explanation": "'denken an' → aneinander. Man schreibt es in einem Wort, nicht 'an einander'."
+          },
+          {
+            "id": "l12e06",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Form im Konjunktiv II.",
+            "prompt": "Es ___ mir sehr helfen, wenn du mir die Unterlagen schon am Mittwoch schicken könntest.",
+            "options": [
+              "würde",
+              "wird",
+              "hätte",
+              "wäre"
+            ],
+            "solution": "würde",
+            "hint": "Höfliche Wünsche stehen im Konjunktiv II; welches Hilfsverb passt zu 'helfen'?",
+            "explanation": "'Es würde mir helfen, wenn …' ist Konjunktiv II von werden + Infinitiv. 'wird' ist Indikativ, 'hätte/wäre … helfen' ist ungrammatisch."
+          },
+          {
+            "id": "l12e07",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Form im Konjunktiv II.",
+            "prompt": "Ich ___ es gut, wenn wir den Putzplan in Zukunft gemeinsam besprechen könnten.",
+            "options": [
+              "fände",
+              "fand",
+              "finde",
+              "hätte"
+            ],
+            "solution": "fände",
+            "hint": "Der wenn-Satz steht im Konjunktiv II – der Hauptsatz auch.",
+            "explanation": "'fände' ist der Konjunktiv II von 'finden' und passt zu 'könnten'. 'fand' ist Präteritum, 'finde' Indikativ Präsens."
+          },
+          {
+            "id": "l12e08",
+            "type": "multiple-choice",
+            "instruction": "Welche Äußerung ist eine höfliche Bitte mit Konjunktiv II?",
+            "prompt": "Dein Mitbewohner lässt seine Schuhe immer im Flur stehen.",
+            "options": [
+              "Ich wäre dir dankbar, wenn du deine Schuhe ins Regal stellen würdest.",
+              "Du lässt deine Schuhe ständig im Flur stehen!",
+              "Stell endlich deine Schuhe ins Regal!",
+              "Deine Schuhe stehen schon wieder im Flur."
+            ],
+            "solution": "Ich wäre dir dankbar, wenn du deine Schuhe ins Regal stellen würdest.",
+            "hint": "Achte auf 'wäre' und 'würde'.",
+            "explanation": "'Ich wäre dir dankbar, wenn …' formuliert einen Wunsch im Konjunktiv II. Die anderen sind Vorwurf, Befehl und Feststellung."
+          },
+          {
+            "id": "l12e09",
+            "type": "multiple-choice",
+            "instruction": "Welche Modalpartikel drückt hier Interesse aus?",
+            "prompt": "Was ist ___ los? Du bist heute so still.",
+            "options": [
+              "denn",
+              "ruhig",
+              "mal",
+              "ja"
+            ],
+            "solution": "denn",
+            "hint": "Die Partikel steht in einer echten Frage.",
+            "explanation": "'denn' zeigt in Fragen Interesse und macht sie freundlicher. 'ruhig', 'mal' und 'ja' passen nicht in diese W-Frage."
+          },
+          {
+            "id": "l12e10",
+            "type": "multiple-choice",
+            "instruction": "Welche Modalpartikel drückt hier aus, dass etwas in Ordnung ist (Erlaubnis)?",
+            "prompt": "Nimm dir ___ das letzte Stück Kuchen, ich bin wirklich satt.",
+            "options": [
+              "ruhig",
+              "denn",
+              "etwa",
+              "überhaupt"
+            ],
+            "solution": "ruhig",
+            "hint": "Der Sprecher ist einverstanden und erlaubt etwas.",
+            "explanation": "'ruhig' signalisiert: Das ist kein Problem, mach das. 'denn' und 'etwa' gehören in Fragen, 'überhaupt' passt nicht in die Aufforderung."
+          },
+          {
+            "id": "l12e11",
+            "type": "multiple-choice",
+            "instruction": "Welche Modalpartikel macht die Bitte freundlicher?",
+            "prompt": "Kannst du mir ___ kurz den Ordner mit den Rechnungen geben?",
+            "options": [
+              "mal",
+              "ruhig",
+              "ja",
+              "aber"
+            ],
+            "solution": "mal",
+            "hint": "Die Partikel macht eine Aufforderung beiläufig und freundlich.",
+            "explanation": "'mal' macht Bitten und Aufforderungen weicher. 'ruhig' erlaubt etwas, 'ja' und 'aber' drücken Überraschung in Aussagen aus."
+          },
+          {
+            "id": "l12e12",
+            "type": "multiple-choice",
+            "instruction": "Welche Modalpartikel drückt hier Überraschung aus?",
+            "prompt": "Du hast ___ eine neue Brille! Steht dir gut.",
+            "options": [
+              "ja",
+              "denn",
+              "mal",
+              "ruhig"
+            ],
+            "solution": "ja",
+            "hint": "Der Sprecher bemerkt etwas Neues und ist überrascht.",
+            "explanation": "'ja' in einer Aussage zeigt Überraschung über etwas Neues. 'denn' steht in Fragen, 'mal' und 'ruhig' in Aufforderungen."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l12m01",
+            "type": "cloze-conjugation",
+            "instruction": "Setze das Verb im Konjunktiv II ein.",
+            "prompt": "Es würde mir sehr helfen, wenn du mich vor deinem Besuch kurz anrufen ___. (können)",
+            "solution": "könntest",
+            "hint": "Konjunktiv II von 'können', 2. Person Singular.",
+            "explanation": "Konjunktiv II von 'können': könnte + Endung -st → 'du könntest'. 'kannst' wäre Indikativ und klingt weniger höflich."
+          },
+          {
+            "id": "l12m02",
+            "type": "cloze-conjugation",
+            "instruction": "Setze das Verb im Konjunktiv II ein (synthetische Form, kein 'würde').",
+            "prompt": "Ich ___ es schön, wenn wir am Samstag gemeinsam den Keller aufräumen würden. (finden)",
+            "solution": "fände",
+            "hint": "Präteritumstamm 'fand' + Umlaut + -e.",
+            "explanation": "Konjunktiv II von 'finden': Präteritumstamm fand + Umlaut + -e → fände. 'fand' ohne Umlaut ist Präteritum Indikativ."
+          },
+          {
+            "id": "l12m03",
+            "type": "cloze-conjugation",
+            "instruction": "Setze das Verb im Konjunktiv II ein.",
+            "prompt": "Wir ___ euch sehr dankbar, wenn ihr nach 22 Uhr nicht mehr auf dem Balkon feiern würdet. (sein)",
+            "solution": "wären",
+            "hint": "Konjunktiv II von 'sein', 1. Person Plural.",
+            "explanation": "'sein' im Konjunktiv II: ich wäre, wir wären. 'waren' ohne Umlaut ist Präteritum Indikativ."
+          },
+          {
+            "id": "l12m04",
+            "type": "cloze-conjugation",
+            "instruction": "Setze das Verb im Konjunktiv II ein.",
+            "prompt": "Es ___ mir lieber, wenn du die Miete nicht immer erst am Monatsende überweisen würdest. (sein)",
+            "solution": "wäre",
+            "hint": "Konjunktiv II von 'sein', 3. Person Singular.",
+            "explanation": "'Es wäre mir lieber, wenn …' – Konjunktiv II von 'sein'. 'war' wäre Präteritum, 'ist' klingt wie eine Feststellung."
+          },
+          {
+            "id": "l12m05",
+            "type": "cloze-conjugation",
+            "instruction": "Setze das Verb im Konjunktiv II ein.",
+            "prompt": "Ich ___ mir wünschen, dass wir Probleme in Zukunft früher ansprechen. (werden)",
+            "solution": "würde",
+            "hint": "Konjunktiv II von 'werden', 1. Person Singular.",
+            "explanation": "'Ich würde mir wünschen, …' ist ein höflicher Wunsch. 'werde' ist Indikativ (Futur) und klingt nicht wie ein Wunsch."
+          },
+          {
+            "id": "l12m06",
+            "type": "cloze-conjugation",
+            "instruction": "Setze das Verb im Konjunktiv II ein.",
+            "prompt": "Es wäre nett, wenn ihr eure Fahrräder nicht mehr vor die Haustür stellen ___. (werden)",
+            "solution": "würdet",
+            "hint": "Konjunktiv II von 'werden', 2. Person Plural (ihr).",
+            "explanation": "Zu 'ihr' gehört 'würdet': würde + -t. 'würden' passt zu 'wir/sie', 'werdet' ist Indikativ."
+          },
+          {
+            "id": "l12m07",
+            "type": "sentence-scramble",
+            "instruction": "Ordne die Satzteile. Beginne mit 'Seit dem Streit'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "kaum noch miteinander",
+              "die Nachbarn",
+              "Seit dem Streit",
+              "reden"
+            ],
+            "solution": "Seit dem Streit reden die Nachbarn kaum noch miteinander.",
+            "hint": "Nach dem Vorfeld folgt sofort das Verb.",
+            "explanation": "Das Vorfeld 'Seit dem Streit' ist Position 1, das Verb 'reden' Position 2; 'miteinander' gehört zu 'reden mit'."
+          },
+          {
+            "id": "l12m08",
+            "type": "sentence-scramble",
+            "instruction": "Ordne die Satzteile zu einem höflichen Wunsch. Beginne mit 'Ich'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "könnten",
+              "wenn wir uns",
+              "Ich fände es gut,",
+              "öfter austauschen"
+            ],
+            "solution": "Ich fände es gut, wenn wir uns öfter austauschen könnten.",
+            "hint": "Im wenn-Satz steht das konjugierte Verb am Ende.",
+            "explanation": "Hauptsatz 'Ich fände es gut,', dann der wenn-Satz mit 'könnten' am Ende."
+          },
+          {
+            "id": "l12m09",
+            "type": "sentence-scramble",
+            "instruction": "Ordne die Satzteile zu einem höflichen Wunsch. Beginne mit 'Es'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "ankündigen würdest",
+              "wenn du",
+              "Es würde mir helfen,",
+              "deine Termine früher"
+            ],
+            "solution": "Es würde mir helfen, wenn du deine Termine früher ankündigen würdest.",
+            "hint": "Im wenn-Satz: Infinitiv vor 'würdest'.",
+            "explanation": "Im Nebensatz steht 'würdest' ganz am Ende, der Infinitiv 'ankündigen' direkt davor."
+          },
+          {
+            "id": "l12m10",
+            "type": "sentence-scramble",
+            "instruction": "Ordne die Satzteile. Beginne mit 'Im Projektteam'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "aufeinander verlassen können",
+              "wir uns",
+              "müssen",
+              "Im Projektteam"
+            ],
+            "solution": "Im Projektteam müssen wir uns aufeinander verlassen können.",
+            "hint": "Modalverb auf Position 2, Infinitiv ans Ende.",
+            "explanation": "'müssen' steht auf Position 2, 'verlassen können' am Ende; 'aufeinander' gehört zu 'sich verlassen auf'."
+          },
+          {
+            "id": "l12m11",
+            "type": "sentence-scramble",
+            "instruction": "Ordne die Satzteile zu einem höflichen Wunsch. Beginne mit 'Ich'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "nicht ständig",
+              "Ich wäre dir dankbar,",
+              "unterbrechen würdest",
+              "wenn du mich"
+            ],
+            "solution": "Ich wäre dir dankbar, wenn du mich nicht ständig unterbrechen würdest.",
+            "hint": "Erst der Hauptsatz mit 'wäre', dann der wenn-Satz.",
+            "explanation": "'Ich wäre dir dankbar,' leitet den Wunsch ein; im wenn-Satz steht 'unterbrechen würdest' am Ende."
+          },
+          {
+            "id": "l12m12",
+            "type": "sentence-scramble",
+            "instruction": "Ordne die Satzteile. Beginne mit 'Statt'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "sollten",
+              "das Problem direkt ansprechen",
+              "Statt übereinander zu lästern,",
+              "die Kollegen"
+            ],
+            "solution": "Statt übereinander zu lästern, sollten die Kollegen das Problem direkt ansprechen.",
+            "hint": "Die Infinitivgruppe mit 'statt … zu' ist Position 1.",
+            "explanation": "Die ganze Gruppe 'Statt übereinander zu lästern,' steht im Vorfeld, deshalb folgt sofort 'sollten'."
+          },
+          {
+            "id": "l12m13",
+            "type": "multiple-choice",
+            "instruction": "Welche Modalpartikel macht den Satz zu einem freundlichen Vorschlag?",
+            "prompt": "Wenn das Paket morgen immer noch nicht da ist, ruf ___ einfach beim Kundenservice an.",
+            "options": [
+              "doch",
+              "denn",
+              "etwa",
+              "ja"
+            ],
+            "solution": "doch",
+            "hint": "Typische Kombination in Vorschlägen: '… einfach …'.",
+            "explanation": "'doch (einfach)' im Imperativ macht einen Vorschlag freundlich: Das ist kein Problem. 'denn' und 'etwa' gehören in Fragen, 'ja' im Imperativ klingt wie eine Warnung."
+          },
+          {
+            "id": "l12m14",
+            "type": "multiple-choice",
+            "instruction": "Welche Modalpartikel drückt hier Überraschung aus?",
+            "prompt": "Du bist ___ groß geworden! Letztes Jahr warst du noch viel kleiner.",
+            "options": [
+              "aber",
+              "denn",
+              "mal",
+              "ruhig"
+            ],
+            "solution": "aber",
+            "hint": "Die Sprecherin staunt in einem Ausrufesatz.",
+            "explanation": "'aber' (wie 'ja') zeigt in Ausrufen Überraschung oder Bewunderung. 'denn' steht in Fragen, 'mal' und 'ruhig' in Aufforderungen."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l12h01",
+            "type": "targeted-transformation",
+            "instruction": "Fasse zu einem Satz mit einem Wort auf -einander zusammen. Beginne mit 'Anna und Lukas'.",
+            "prompt": "Anna spricht mit Lukas, und Lukas spricht mit Anna.",
+            "solution": "Anna und Lukas sprechen miteinander.",
+            "hint": "Gegenseitige Handlung: Präposition + -einander.",
+            "explanation": "Wechselseitiges 'sprechen mit' wird zu 'miteinander'. Das Verb steht im Plural, weil das Subjekt zwei Personen sind."
+          },
+          {
+            "id": "l12h02",
+            "type": "targeted-transformation",
+            "instruction": "Fasse zu einem Satz mit einem Wort auf -einander zusammen. Beginne mit 'Vater und Tochter'.",
+            "prompt": "Der Vater sorgt sich um die Tochter, und die Tochter sorgt sich um den Vater.",
+            "solution": "Vater und Tochter sorgen sich umeinander.",
+            "hint": "'sich sorgen um' – welches -einander-Wort?",
+            "explanation": "'sich sorgen um' + gegenseitig → 'umeinander'. Das Reflexivpronomen 'sich' bleibt, das Verb steht im Plural."
+          },
+          {
+            "id": "l12h03",
+            "type": "targeted-transformation",
+            "instruction": "Fasse zu einem Satz mit einem Wort auf -einander zusammen. Beginne mit 'Mieterin und Vermieter'.",
+            "prompt": "Die Mieterin ist vom Vermieter enttäuscht, und der Vermieter ist von der Mieterin enttäuscht.",
+            "solution": "Mieterin und Vermieter sind voneinander enttäuscht.",
+            "hint": "'enttäuscht sein von' – welches -einander-Wort?",
+            "explanation": "'enttäuscht von' wird gegenseitig zu 'voneinander'. 'sind' steht im Plural, weil es zwei Personen sind."
+          },
+          {
+            "id": "l12h04",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Ändere nur ein Wort und schreibe den ganzen Satz.",
+            "prompt": "Die beiden Kollegen sind schon seit dem Studium voneinander befreundet.",
+            "solution": "Die beiden Kollegen sind schon seit dem Studium miteinander befreundet.",
+            "hint": "Mit welcher Präposition sagt man 'befreundet sein'?",
+            "explanation": "Es heißt 'befreundet sein mit' → miteinander. 'voneinander' gehört zu Verben mit 'von', z. B. 'sich trennen von'."
+          },
+          {
+            "id": "l12h05",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Ändere nur ein Wort und schreibe den ganzen Satz.",
+            "prompt": "Die Nachbarn haben sich jahrelang miteinander gekümmert.",
+            "solution": "Die Nachbarn haben sich jahrelang umeinander gekümmert.",
+            "hint": "Welche Präposition verlangt 'sich kümmern'?",
+            "explanation": "'sich kümmern um' → umeinander. 'miteinander' würde 'zusammen' bedeuten und passt nicht zur Präposition des Verbs."
+          },
+          {
+            "id": "l12h06",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Ändere nur ein Wort und schreibe den ganzen Satz.",
+            "prompt": "Die Bewohner im dritten Stock beschweren sich ständig voneinander.",
+            "solution": "Die Bewohner im dritten Stock beschweren sich ständig übereinander.",
+            "hint": "Mit welcher Präposition beschwert man sich über jemanden?",
+            "explanation": "'sich beschweren über' → übereinander. 'voneinander' passt nicht, denn das Verb verlangt 'über'."
+          },
+          {
+            "id": "l12h07",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler im wenn-Satz. Ändere nur ein Wort und schreibe den ganzen Satz.",
+            "prompt": "Ich fände es gut, wenn du mich bei Fragen zuerst per Chat kontaktieren kannst.",
+            "solution": "Ich fände es gut, wenn du mich bei Fragen zuerst per Chat kontaktieren könntest.",
+            "hint": "Hauptsatz und wenn-Satz stehen beide im Konjunktiv II.",
+            "explanation": "Zum Konjunktiv II 'fände' passt im wenn-Satz 'könntest', nicht der Indikativ 'kannst'."
+          },
+          {
+            "id": "l12h08",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler im Hauptsatz. Ändere nur ein Wort und schreibe den ganzen Satz.",
+            "prompt": "Es wird mir sehr helfen, wenn ihr eure Fragen gesammelt am Freitag stellen würdet.",
+            "solution": "Es würde mir sehr helfen, wenn ihr eure Fragen gesammelt am Freitag stellen würdet.",
+            "hint": "Der wenn-Satz steht im Konjunktiv II – und der Hauptsatz?",
+            "explanation": "Ein irrealer Wunsch steht ganz im Konjunktiv II: 'Es würde mir helfen'. 'wird' ist Indikativ (Futur)."
+          },
+          {
+            "id": "l12h09",
+            "type": "targeted-transformation",
+            "instruction": "Forme den Vorwurf in eine höfliche Bitte um. Beginne mit 'Ich fände es gut, wenn du' und verwende 'pünktlich kommen' und 'können' im Konjunktiv II.",
+            "prompt": "Du kommst immer zu spät!",
+            "solution": "Ich fände es gut, wenn du pünktlich kommen könntest.",
+            "hint": "Im wenn-Satz: Infinitiv vor dem konjugierten Modalverb am Ende.",
+            "explanation": "Statt Vorwurf ein Wunsch im Konjunktiv II: 'könntest' steht am Ende des wenn-Satzes, 'kommen' direkt davor."
+          },
+          {
+            "id": "l12h10",
+            "type": "targeted-transformation",
+            "instruction": "Forme die Aufforderung in eine höfliche Bitte um. Beginne mit 'Ich wäre dir dankbar, wenn du', verwende 'würde' + Infinitiv und lass 'endlich' weg.",
+            "prompt": "Hilf mir endlich beim Umzug!",
+            "solution": "Ich wäre dir dankbar, wenn du mir beim Umzug helfen würdest.",
+            "hint": "Im wenn-Satz stehen Infinitiv und 'würdest' am Ende.",
+            "explanation": "Der Imperativ wird zum Wunsch: 'wenn du mir beim Umzug helfen würdest'. 'würdest' steht als konjugiertes Verb ganz am Ende."
+          },
+          {
+            "id": "l12h11",
+            "type": "targeted-transformation",
+            "instruction": "Forme die Aufforderung in eine höfliche Bitte um. Beginne mit 'Es würde mich freuen, wenn du', verwende 'würde' + Infinitiv; die übrigen Wörter bleiben in derselben Reihenfolge.",
+            "prompt": "Lass deine nasse Wäsche nicht tagelang in der Maschine!",
+            "solution": "Es würde mich freuen, wenn du deine nasse Wäsche nicht tagelang in der Maschine lassen würdest.",
+            "hint": "'lass' wird zum Infinitiv 'lassen' vor 'würdest'.",
+            "explanation": "Aus dem Imperativ wird ein wenn-Satz: 'lassen würdest' steht am Ende. So klingt die Kritik wie ein Wunsch, nicht wie ein Befehl."
+          },
+          {
+            "id": "l12h12",
+            "type": "targeted-transformation",
+            "instruction": "Formuliere höflicher mit Konjunktiv II: 'fände' im Hauptsatz, 'würde' + Infinitiv im wenn-Satz. Sonst bleibt alles gleich.",
+            "prompt": "Ich finde es gut, wenn du mich vorher fragst.",
+            "solution": "Ich fände es gut, wenn du mich vorher fragen würdest.",
+            "hint": "Beide Verben ändern sich: finde → fände, fragst → fragen würdest.",
+            "explanation": "Konjunktiv II macht den Wunsch höflicher: 'fände' und 'fragen würdest'. Der Indikativ klingt wie eine feste Regel."
+          },
+          {
+            "id": "l12h13",
+            "type": "multiple-choice",
+            "instruction": "Welche Funktion hat die Modalpartikel 'ruhig' in diesem Satz?",
+            "prompt": "Du kannst ruhig später kommen, wir fangen sowieso erst um acht an.",
+            "options": [
+              "Erlaubnis: Die Sprecherin ist einverstanden.",
+              "Interesse: Die Sprecherin will etwas wissen.",
+              "Überraschung über etwas Unerwartetes.",
+              "Verstärkung eines Vorwurfs."
+            ],
+            "solution": "Erlaubnis: Die Sprecherin ist einverstanden.",
+            "hint": "Muss sich der andere Sorgen machen, wenn er später kommt?",
+            "explanation": "'ruhig' signalisiert Erlaubnis: Das ist kein Problem, du darfst das. Interesse zeigt 'denn' in Fragen, Überraschung 'ja'/'aber' in Ausrufen."
+          },
+          {
+            "id": "l12h14",
+            "type": "multiple-choice",
+            "instruction": "In welchem Satz ist die Modalpartikel 'denn' richtig verwendet?",
+            "prompt": "Nur ein Satz ist korrekt.",
+            "options": [
+              "Wo hast du denn so gut Spanisch gelernt?",
+              "Gib mir denn bitte den Schlüssel.",
+              "Das ist denn ein schönes Kleid!",
+              "Setz dich denn auf das Sofa."
+            ],
+            "solution": "Wo hast du denn so gut Spanisch gelernt?",
+            "hint": "In welcher Satzart steht 'denn' als Modalpartikel?",
+            "explanation": "Die Modalpartikel 'denn' steht nur in Fragen und zeigt Interesse. In Aufforderungen passen 'mal'/'doch', in Ausrufen 'ja'/'aber'."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l12t01",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Wort auf -einander.",
+          "prompt": "Nach dem Streit haben die beiden Nachbarn wochenlang geschwiegen, doch schließlich sind sie wieder ___ zugegangen.",
+          "options": [
+            "aufeinander",
+            "aneinander",
+            "miteinander",
+            "voneinander"
+          ],
+          "solution": "aufeinander",
+          "explanation": "'auf jemanden zugehen' → 'aufeinander zugehen'. Die Präposition im Wort auf -einander kommt aus dem Verb, deshalb passt 'mit' oder 'an' nicht."
+        },
+        {
+          "id": "l12t02",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze ein Wort auf -einander.",
+          "prompt": "Die beiden haben sich bei einem Tangokurs in Buenos Aires ___ verliebt.",
+          "solution": "ineinander",
+          "explanation": "'sich verlieben in' → 'ineinander'. 'miteinander' passt nicht, weil die Präposition des Verbs 'in' ist."
+        },
+        {
+          "id": "l12t03",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze ein Wort auf -einander.",
+          "prompt": "Die Zwillinge sehen sich so ähnlich, dass selbst ihre Lehrer sie kaum ___ unterscheiden können.",
+          "solution": "voneinander",
+          "explanation": "'etwas unterscheiden von' → 'voneinander'. Die Präposition des Verbs bestimmt das Wort auf -einander."
+        },
+        {
+          "id": "l12t04",
+          "type": "targeted-transformation",
+          "instruction": "Ersetze „über den jeweils anderen“ durch ein Wort auf -einander. Alles andere bleibt gleich.",
+          "prompt": "Die beiden Chorleiter ärgern sich ständig über den jeweils anderen.",
+          "solution": "Die beiden Chorleiter ärgern sich ständig übereinander.",
+          "explanation": "'sich ärgern über' → 'übereinander'. Das Wort auf -einander ersetzt die ganze Präpositionalgruppe."
+        },
+        {
+          "id": "l12t05",
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler. Ändere nur ein Wort.",
+          "prompt": "Die beiden Start-ups sind wirtschaftlich stark aufeinander abhängig.",
+          "solution": "Die beiden Start-ups sind wirtschaftlich stark voneinander abhängig.",
+          "explanation": "'abhängig von' → 'voneinander'. 'aufeinander' gehört zu Verben mit 'auf' wie 'sich verlassen auf'."
+        },
+        {
+          "id": "l12t06",
+          "type": "multiple-choice",
+          "instruction": "Wähle die höfliche Konjunktiv-II-Form.",
+          "prompt": "Ich ___ es gern, wenn du mir rechtzeitig sagen könntest, falls sich am Dienstplan etwas ändert.",
+          "options": [
+            "hätte",
+            "habe",
+            "hatte",
+            "hätten"
+          ],
+          "solution": "hätte",
+          "explanation": "Höflicher Wunsch: Konjunktiv II von 'haben', 1. Person Singular → 'hätte'. 'habe' ist Indikativ, 'hatte' Präteritum, 'hätten' Plural."
+        },
+        {
+          "id": "l12t07",
+          "type": "cloze-conjugation",
+          "instruction": "Setze das Verb in Klammern im Konjunktiv II ein (ein Wort).",
+          "prompt": "Ich fände es schön, wenn ich dich nicht jedes Mal an die Nebenkostenabrechnung erinnern ___ (müssen).",
+          "solution": "müsste",
+          "explanation": "Im höflichen wenn-Satz steht Konjunktiv II: 'müssen' → 'müsste' (mit Umlaut). 'muss' ist Indikativ, 'musste' Präteritum."
+        },
+        {
+          "id": "l12t08",
+          "type": "targeted-transformation",
+          "instruction": "Formuliere die Aufforderung als höflichen Wunsch. Beginne mit „Ich fände es gut, wenn du“ und verwende „könntest“. Die übrigen Satzglieder behalten ihre Reihenfolge.",
+          "prompt": "Teil uns die Termine für die Auftritte früher mit!",
+          "solution": "Ich fände es gut, wenn du uns die Termine für die Auftritte früher mitteilen könntest.",
+          "explanation": "Im wenn-Satz steht das Modalverb 'könntest' am Ende, davor der Infinitiv 'mitteilen' – das trennbare Verb wird wieder zusammengeschrieben."
+        },
+        {
+          "id": "l12t09",
+          "type": "error-correction",
+          "instruction": "Setze das Modalverb in den Konjunktiv II. Ändere nur dieses eine Wort.",
+          "prompt": "Es wäre schön, wenn du deine Noten beim nächsten Mal mitbringen kannst.",
+          "solution": "Es wäre schön, wenn du deine Noten beim nächsten Mal mitbringen könntest.",
+          "explanation": "Höfliche Wünsche stehen auch im wenn-Satz im Konjunktiv II: 'könntest' statt Indikativ 'kannst'."
+        },
+        {
+          "id": "l12t10",
+          "type": "sentence-scramble",
+          "instruction": "Bilde eine höfliche Frage im Konjunktiv II. Beginne mit „Hättest“.",
+          "prompt": "Baue den Satz aus den Satzgliedern.",
+          "scrambleChunks": [
+            "das Fenster",
+            "Hättest du",
+            "kurz öffnen würde",
+            "wenn ich",
+            "etwas dagegen,"
+          ],
+          "solution": "Hättest du etwas dagegen, wenn ich das Fenster kurz öffnen würde?",
+          "explanation": "Konjunktiv II macht die Frage höflich: 'Hättest' an Position 1, im wenn-Satz steht 'würde' ganz am Ende nach dem Infinitiv."
+        },
+        {
+          "id": "l12t11",
+          "type": "multiple-choice",
+          "instruction": "Welche Modalpartikel drückt hier Überraschung aus?",
+          "prompt": "Du bist ___ schon da! Ich dachte, dein Zug kommt erst um sechs.",
+          "options": [
+            "ja",
+            "denn",
+            "etwa",
+            "ruhig"
+          ],
+          "solution": "ja",
+          "explanation": "'ja' im Aussagesatz zeigt Überraschung. 'denn' und 'etwa' stehen in Fragen, 'ruhig' in Aufforderungen."
+        },
+        {
+          "id": "l12t12",
+          "type": "multiple-choice",
+          "instruction": "Welche Modalpartikel zeigt hier echtes Interesse?",
+          "prompt": "Und, wie war ___ das Konzert gestern? Erzähl mal!",
+          "options": [
+            "denn",
+            "ruhig",
+            "ja",
+            "mal"
+          ],
+          "solution": "denn",
+          "explanation": "'denn' macht W-Fragen freundlich und interessiert. 'ja' und 'ruhig' passen nicht in Fragen, 'mal' nicht in diese W-Frage."
+        },
+        {
+          "id": "l12t13",
+          "type": "multiple-choice",
+          "instruction": "Welche Modalpartikel drückt hier eine Erlaubnis aus?",
+          "prompt": "Benutz ___ mein Ladekabel, ich brauche es heute nicht mehr.",
+          "options": [
+            "ruhig",
+            "denn",
+            "etwa",
+            "eigentlich"
+          ],
+          "solution": "ruhig",
+          "explanation": "'ruhig' im Imperativ heißt: Du darfst das gern tun. 'denn' und 'etwa' stehen in Fragen, 'eigentlich' nicht im Imperativ."
+        },
+        {
+          "id": "l12t14",
+          "type": "multiple-choice",
+          "instruction": "Welche Modalpartikel macht die Bitte freundlich und beiläufig?",
+          "prompt": "Gib mir ___ bitte das Salz rüber.",
+          "options": [
+            "mal",
+            "denn",
+            "etwa",
+            "ruhig"
+          ],
+          "solution": "mal",
+          "explanation": "'mal' macht eine Aufforderung beiläufig. 'ruhig' erlaubt etwas – das passt nicht, wenn man selbst etwas will; 'denn'/'etwa' gehören in Fragen."
+        },
+        {
+          "id": "l12t15",
+          "type": "multiple-choice",
+          "instruction": "Welche Modalpartikel drückt hier Bewunderung bzw. Überraschung aus?",
+          "prompt": "Das ist ___ ein riesiger Garten! Wie viele Obstbäume habt ihr denn?",
+          "options": [
+            "aber",
+            "denn",
+            "etwa",
+            "ruhig"
+          ],
+          "solution": "aber",
+          "explanation": "'aber' im Ausrufesatz betont Staunen über etwas Großes oder Schönes. 'denn'/'etwa' gehören in Fragen, 'ruhig' in Aufforderungen."
+        },
+        {
+          "id": "l12t16",
+          "type": "multiple-choice",
+          "instruction": "Welche Modalpartikel erinnert hier vorwurfsvoll an etwas Bekanntes?",
+          "prompt": "Warum planst du das Treffen schon wieder am Montag? Du weißt ___, dass ich montags nie Zeit habe!",
+          "options": [
+            "doch",
+            "denn",
+            "mal",
+            "etwa"
+          ],
+          "solution": "doch",
+          "explanation": "'doch' im Aussagesatz erinnert an etwas, das der andere eigentlich wissen müsste. 'denn'/'etwa' stehen in Fragen, 'mal' in Bitten."
+        }
+      ]
+    }
+  ]
+}

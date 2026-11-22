@@ -1,8 +1,9 @@
 import type { ExerciseItem, VocabularyItem } from './content';
 
-// Only the levels we hold real source material (Momente Kursbuch +
-// Arbeitsbuch) for. Extend when a new level's PDFs are ingested.
-export type Level = 'A1' | 'A2' | 'B1';
+// Only the levels we hold real source material for: Momente Kursbuch +
+// Arbeitsbuch (A1-B1) and Kontext Kursbuch + Übungsbuch (B2). Extend when a
+// new level's PDFs are ingested.
+export type Level = 'A1' | 'A2' | 'B1' | 'B2';
 
 export interface LevelInfo {
   level: Level;
@@ -38,7 +39,9 @@ export interface LektionPackage {
 // source series' own structure. Modul numbers run 1-8 continuously across
 // a level's two half-books (.1 = Modul 1-4 / Lektion 1-12, .2 = Modul 5-8 /
 // Lektion 13-24) — that split is a publishing artifact, not something the
-// app surfaces as a separate navigation layer.
+// app surfaces as a separate navigation layer. B2 (Kontext) runs 1-12, one
+// app Modul per Kontext Kapitel, its 4 Kontext-Moduln folded into 3
+// Lektionen (Lektion 1-36).
 export interface ModulPackage {
   modulId: string;
   level: Level;

@@ -1,0 +1,2487 @@
+{
+  "modulId": "b2-m11",
+  "level": "B2",
+  "modulNumber": 11,
+  "title": "Viel zu tun",
+  "lektionen": [
+    {
+      "lektionId": "b2-m11-l31",
+      "level": "B2",
+      "modulNumber": 11,
+      "lektionNumber": 31,
+      "title": "Mit dem Körper sprechen",
+      "grammarFocus": [
+        "Modalsätze: Art und Weise mit indem / dadurch, dass / durch + Akkusativ",
+        "Fehlender Umstand: ohne dass / ohne … zu",
+        "Alternative: (an)statt … zu / (an)statt dass; Mittel: mithilfe + Genitiv / mithilfe von"
+      ],
+      "vocabulary": [
+        {
+          "id": "l31v04",
+          "term": "der Gesichtsausdruck",
+          "translation": "la expresión de la cara",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Gesichtsausdrücke",
+          "example": "Am Gesichtsausdruck des Kochs sah man sofort, dass die Soße misslungen war."
+        },
+        {
+          "id": "l31v06",
+          "term": "der Abstand",
+          "translation": "la distancia",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Abstände",
+          "example": "In der vollen U-Bahn ist es kaum möglich, Abstand zu halten."
+        },
+        {
+          "id": "l31v07",
+          "term": "die Botschaft",
+          "translation": "el mensaje",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Botschaften",
+          "example": "Ihr Schweigen war eine klare Botschaft an ihren Bruder."
+        },
+        {
+          "id": "l31v08",
+          "term": "der Händedruck",
+          "translation": "el apretón de manos",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Händedrücke",
+          "example": "Die beiden Händler besiegelten das Geschäft mit einem Händedruck."
+        },
+        {
+          "id": "l31v09",
+          "term": "die Augenbrauen hochziehen",
+          "translation": "levantar las cejas",
+          "partOfSpeech": "phrase",
+          "example": "Als ich erzählte, dass ich nach Island auswandern will, zog meine Mutter die Augenbrauen hoch."
+        },
+        {
+          "id": "l31v10",
+          "term": "die Stirn runzeln",
+          "translation": "fruncir el ceño",
+          "partOfSpeech": "phrase",
+          "example": "Als er den Preis für die Reparatur hörte, runzelte er die Stirn."
+        },
+        {
+          "id": "l31v11",
+          "term": "verschränken",
+          "translation": "cruzar (los brazos)",
+          "partOfSpeech": "verb",
+          "preterite": "verschränkte",
+          "participle": "verschränkt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Der Türsteher verschränkte die Arme und schüttelte den Kopf."
+        },
+        {
+          "id": "l31v12",
+          "term": "sich vorbeugen",
+          "translation": "inclinarse hacia delante",
+          "partOfSpeech": "verb",
+          "preterite": "beugte sich vor",
+          "participle": "sich vorgebeugt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Die Großmutter beugte sich vor, um das Flüstern ihres Enkels zu verstehen."
+        },
+        {
+          "id": "l31v13",
+          "term": "nicken",
+          "translation": "asentir con la cabeza",
+          "partOfSpeech": "verb",
+          "preterite": "nickte",
+          "participle": "genickt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Der Prüfer nickte kurz und schrieb etwas auf seinen Block."
+        },
+        {
+          "id": "l31v14",
+          "term": "gestikulieren",
+          "translation": "gesticular",
+          "partOfSpeech": "verb",
+          "preterite": "gestikulierte",
+          "participle": "gestikuliert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Der Fremdenführer gestikulierte lebhaft, als er die Geschichte der Burg erzählte."
+        },
+        {
+          "id": "l31v15",
+          "term": "anstarren",
+          "translation": "mirar fijamente",
+          "partOfSpeech": "verb",
+          "preterite": "starrte an",
+          "participle": "angestarrt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Das Kind starrte den Clown mit offenem Mund an."
+        },
+        {
+          "id": "l31v16",
+          "term": "verraten",
+          "translation": "delatar, revelar",
+          "partOfSpeech": "verb",
+          "preterite": "verriet",
+          "participle": "verraten",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Seine zitternden Hände verrieten, wie nervös er vor der Fahrprüfung war."
+        },
+        {
+          "id": "l31v17",
+          "term": "deuten",
+          "translation": "interpretar",
+          "partOfSpeech": "verb",
+          "preterite": "deutete",
+          "participle": "gedeutet",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Ich wusste nicht, wie ich sein langes Schweigen deuten sollte."
+        },
+        {
+          "id": "l31v19",
+          "term": "aufgeregt",
+          "translation": "nervioso, alterado",
+          "partOfSpeech": "adjective",
+          "example": "Vor dem ersten Schultag war unser Sohn so aufgeregt, dass er kaum schlief."
+        },
+        {
+          "id": "l31v20",
+          "term": "gleichgültig",
+          "translation": "indiferente",
+          "partOfSpeech": "adjective",
+          "example": "Wie kann dir das Ergebnis der Wahl so gleichgültig sein?"
+        },
+        {
+          "id": "l31v21",
+          "term": "aufgeschlossen",
+          "translation": "abierto, receptivo",
+          "partOfSpeech": "adjective",
+          "example": "Die neue Nachbarin ist sehr aufgeschlossen und spricht jeden im Hof an."
+        },
+        {
+          "id": "l31v22",
+          "term": "angespannt",
+          "translation": "tenso",
+          "partOfSpeech": "adjective",
+          "example": "Während der Verhandlung war die Stimmung im Raum sehr angespannt."
+        },
+        {
+          "id": "l31v23",
+          "term": "selbstbewusst",
+          "translation": "seguro de sí mismo",
+          "partOfSpeech": "adjective",
+          "example": "Nach dem Theaterkurs tritt Mira viel selbstbewusster auf."
+        },
+        {
+          "id": "l31v24",
+          "term": "ausschweifend",
+          "translation": "prolijo, extenso",
+          "partOfSpeech": "adjective",
+          "example": "Seine ausschweifenden Antworten ließen kaum Zeit für weitere Fragen."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l31e01",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Wort.",
+            "prompt": "Die Schauspielerin zeigt ihre Wut, ___ sie mit der Faust auf den Tisch schlägt.",
+            "options": [
+              "indem",
+              "durch",
+              "ohne zu",
+              "mithilfe"
+            ],
+            "solution": "indem",
+            "hint": "Nach der Lücke folgt ein Nebensatz mit Subjekt und Verb am Ende.",
+            "explanation": "'indem' leitet einen Nebensatz der Art und Weise ein. 'durch' und 'mithilfe' brauchen ein Nomen, 'ohne zu' einen Infinitiv."
+          },
+          {
+            "id": "l31e02",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Wort.",
+            "prompt": "___ eines Übersetzungsprogramms konnte sich der Tourist mit dem Taxifahrer verständigen.",
+            "options": [
+              "Mithilfe",
+              "Durch",
+              "Indem",
+              "Ohne"
+            ],
+            "solution": "Mithilfe",
+            "hint": "Achte auf den Kasus: 'eines Übersetzungsprogramms' ist Genitiv.",
+            "explanation": "'mithilfe' steht mit Genitiv. 'durch' und 'ohne' verlangen den Akkusativ, 'indem' leitet einen Nebensatz ein."
+          },
+          {
+            "id": "l31e03",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Ergänzung.",
+            "prompt": "Der Hund versteht genau, was sein Besitzer will, ___ dieser auch nur ein Wort sagen muss.",
+            "options": [
+              "ohne dass",
+              "ohne zu",
+              "durch",
+              "anstatt zu"
+            ],
+            "solution": "ohne dass",
+            "hint": "Der Nebensatz hat ein eigenes Subjekt ('dieser') und ein konjugiertes Verb.",
+            "explanation": "Bei verschiedenen Subjekten und konjugiertem Verb steht 'ohne dass'. 'ohne zu' und 'anstatt zu' brauchen einen Infinitiv, 'durch' ein Nomen."
+          },
+          {
+            "id": "l31e04",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze den Infinitiv mit zu.",
+            "prompt": "Wütend verließ der Trainer das Spielfeld, ohne sich noch einmal ___. (umdrehen)",
+            "solution": "umzudrehen",
+            "hint": "Trennbares Verb: Wo steht 'zu'?",
+            "explanation": "Bei trennbaren Verben steht 'zu' zwischen Präfix und Stamm: um-zu-drehen. 'zu umdrehen' ist falsch."
+          },
+          {
+            "id": "l31e05",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Wort für einen fehlenden Umstand.",
+            "prompt": "Ein guter Pantomime erzählt ganze Geschichten, ___ ein einziges Wort zu sagen.",
+            "solution": "ohne",
+            "hint": "Etwas passiert nicht, obwohl man es erwarten würde.",
+            "explanation": "'ohne … zu' drückt aus, dass eine Handlung nicht stattfindet. 'anstatt … zu' würde eine Alternative nennen, nicht einen fehlenden Umstand."
+          },
+          {
+            "id": "l31e06",
+            "type": "multiple-choice",
+            "instruction": "Was drückt 'Anstatt … zu' in diesem Satz aus?",
+            "prompt": "Anstatt die Bedienungsanleitung zu lesen, probierte er einfach alle Knöpfe aus.",
+            "options": [
+              "eine Alternative zum Erwarteten",
+              "das Mittel einer Handlung",
+              "den Grund einer Handlung",
+              "die Folge einer Handlung"
+            ],
+            "solution": "eine Alternative zum Erwarteten",
+            "hint": "Er tut etwas anderes als das, was man erwarten würde.",
+            "explanation": "'(an)statt … zu' nennt eine Handlung, die man erwarten würde, die aber durch eine andere ersetzt wird. Ein Mittel drückt 'indem' aus."
+          },
+          {
+            "id": "l31e07",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Wort.",
+            "prompt": "Dadurch, ___ der Redner immer wieder ins Publikum lächelte, entspannte sich die Stimmung im Saal.",
+            "options": [
+              "dass",
+              "indem",
+              "ohne",
+              "wie"
+            ],
+            "solution": "dass",
+            "hint": "Der Konnektor hat zwei Teile.",
+            "explanation": "Der zweiteilige Konnektor heißt 'dadurch, dass'. Nach 'Dadurch,' kann nicht noch 'indem' folgen."
+          },
+          {
+            "id": "l31e08",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze den Konnektor der Art und Weise (ein Wort).",
+            "prompt": "Die Erzieherin beruhigt das weinende Kind, ___ sie sich auf Augenhöhe zu ihm hinkniet.",
+            "solution": "indem",
+            "hint": "Wie beruhigt sie das Kind? Mit welchem Mittel?",
+            "explanation": "'indem' nennt das Mittel bzw. die Art und Weise und leitet einen Nebensatz ein. 'dadurch, dass' hätte zwei Teile."
+          },
+          {
+            "id": "l31e09",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Wort.",
+            "prompt": "Anstatt ___ der Chef seine Kritik offen ausspricht, merken die Mitarbeiter sie nur an seiner Mimik.",
+            "options": [
+              "dass",
+              "zu",
+              "um",
+              "indem"
+            ],
+            "solution": "dass",
+            "hint": "Im Nebensatz steht ein eigenes Subjekt ('der Chef') und ein konjugiertes Verb.",
+            "explanation": "Bei verschiedenen Subjekten braucht man 'anstatt dass' + konjugiertes Verb. 'anstatt zu' geht nur mit Infinitiv und gleichem Subjekt."
+          },
+          {
+            "id": "l31e10",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Wort.",
+            "prompt": "Die beiden Brüder haben ihren Streit ___ ein offenes Gespräch beendet.",
+            "options": [
+              "durch",
+              "indem",
+              "mithilfe",
+              "ohne dass"
+            ],
+            "solution": "durch",
+            "hint": "Nach der Lücke folgt ein Nomen im Akkusativ.",
+            "explanation": "'durch' + Akkusativ nennt das Mittel. 'mithilfe' bräuchte den Genitiv, 'indem' und 'ohne dass' einen Nebensatz."
+          },
+          {
+            "id": "l31e11",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze den unbestimmten Artikel im Genitiv.",
+            "prompt": "Mithilfe ___ Dolmetscherin konnten sich die beiden Delegationen gut verständigen.",
+            "solution": "einer",
+            "hint": "'mithilfe' + Genitiv; 'Dolmetscherin' ist feminin.",
+            "explanation": "'mithilfe' verlangt den Genitiv; feminin Singular → 'einer'. 'eine' wäre Akkusativ, 'einem' Dativ."
+          },
+          {
+            "id": "l31e12",
+            "type": "multiple-choice",
+            "instruction": "Welcher Satz ist korrekt?",
+            "prompt": "Sie sprach frei vor der Klasse. Sie schaute nicht auf ihre Notizen.",
+            "options": [
+              "Sie sprach frei vor der Klasse, ohne auf ihre Notizen zu schauen.",
+              "Sie sprach frei vor der Klasse, ohne dass auf ihre Notizen zu schauen.",
+              "Sie sprach frei vor der Klasse, ohne auf ihre Notizen schaute.",
+              "Sie sprach frei vor der Klasse, ohne zu auf ihre Notizen schauen."
+            ],
+            "solution": "Sie sprach frei vor der Klasse, ohne auf ihre Notizen zu schauen.",
+            "hint": "Gleiches Subjekt → Infinitivkonstruktion.",
+            "explanation": "Bei gleichem Subjekt: 'ohne' + Infinitiv mit 'zu' am Ende. 'ohne dass' mischt man nicht mit 'zu', und 'zu' steht direkt vor dem Infinitiv."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l31m01",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz mit 'indem'. Beginne mit 'Der Schiedsrichter'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "indem",
+              "die Spieler,",
+              "er",
+              "Der Schiedsrichter",
+              "beide Hände langsam",
+              "beruhigte",
+              "senkte"
+            ],
+            "solution": "Der Schiedsrichter beruhigte die Spieler, indem er beide Hände langsam senkte.",
+            "hint": "Hauptsatz zuerst, im Nebensatz steht das Verb am Ende.",
+            "explanation": "Im 'indem'-Satz steht das Subjekt 'er' direkt nach dem Konnektor und das konjugierte Verb 'senkte' am Ende."
+          },
+          {
+            "id": "l31m02",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz mit 'Dadurch, dass'. Beginne mit 'Dadurch,'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "verlor",
+              "dass",
+              "der Junge seine Angst",
+              "Dadurch,",
+              "die Ärztin",
+              "ruhig sprach,"
+            ],
+            "solution": "Dadurch, dass die Ärztin ruhig sprach, verlor der Junge seine Angst.",
+            "hint": "Der Nebensatz steht vorn, danach kommt sofort das Verb des Hauptsatzes.",
+            "explanation": "Steht der 'dadurch, dass'-Satz im Vorfeld, folgt direkt das Verb 'verlor' (Position 2) und dann das Subjekt."
+          },
+          {
+            "id": "l31m03",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz mit 'ohne … zu'. Beginne mit 'Die Studentin'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "ohne",
+              "zu,",
+              "Die Studentin",
+              "zu unterbrechen",
+              "hörte",
+              "den Dozenten ein einziges Mal",
+              "zwei Stunden lang"
+            ],
+            "solution": "Die Studentin hörte zwei Stunden lang zu, ohne den Dozenten ein einziges Mal zu unterbrechen.",
+            "hint": "'zuhören' ist trennbar; der Infinitiv mit zu steht am Satzende.",
+            "explanation": "Das Präfix 'zu' von 'zuhören' schließt den Hauptsatz. Im Infinitivsatz steht 'zu unterbrechen' ganz am Ende."
+          },
+          {
+            "id": "l31m04",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz mit 'Anstatt … zu'. Beginne mit 'Anstatt'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "legt",
+              "Anstatt",
+              "seine Hände",
+              "der Moderator",
+              "die Arme zu verschränken,",
+              "locker auf das Pult"
+            ],
+            "solution": "Anstatt die Arme zu verschränken, legt der Moderator seine Hände locker auf das Pult.",
+            "hint": "Nach dem Infinitivsatz im Vorfeld folgt sofort das Verb.",
+            "explanation": "Der 'anstatt … zu'-Satz besetzt das Vorfeld, daher folgt 'legt' auf Position 2, dann das Subjekt 'der Moderator'."
+          },
+          {
+            "id": "l31m05",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz mit 'Mithilfe'. Beginne mit 'Mithilfe'; das Subjekt steht direkt nach dem Modalverb.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "folgen",
+              "dem Vortrag",
+              "Mithilfe",
+              "konnte",
+              "einer Gebärdendolmetscherin",
+              "der gehörlose Gast"
+            ],
+            "solution": "Mithilfe einer Gebärdendolmetscherin konnte der gehörlose Gast dem Vortrag folgen.",
+            "hint": "'mithilfe' + Genitiv; 'folgen' + Dativ; der Infinitiv steht am Ende.",
+            "explanation": "'mithilfe einer Gebärdendolmetscherin' (Genitiv) ist das Vorfeld; 'konnte' steht auf Position 2, 'folgen' am Satzende."
+          },
+          {
+            "id": "l31m06",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz mit 'ohne dass'. Beginne mit 'Der Junge'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "seine Eltern",
+              "schlich sich",
+              "ohne dass",
+              "merkten",
+              "Der Junge",
+              "etwas",
+              "aus dem Haus,"
+            ],
+            "solution": "Der Junge schlich sich aus dem Haus, ohne dass seine Eltern etwas merkten.",
+            "hint": "Zwei verschiedene Subjekte: der Junge / seine Eltern.",
+            "explanation": "Bei verschiedenen Subjekten steht 'ohne dass' + Nebensatz; das konjugierte Verb 'merkten' steht am Ende."
+          },
+          {
+            "id": "l31m07",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb im Präteritum.",
+            "prompt": "Der Kellner zeigte uns den freien Tisch, indem er mit dem Kopf in die Ecke ___. (nicken)",
+            "solution": "nickte",
+            "hint": "Subjekt ist 'er', Verb am Ende des Nebensatzes.",
+            "explanation": "'nicken' ist regelmäßig: er nickte. Im 'indem'-Satz steht das konjugierte Verb am Ende."
+          },
+          {
+            "id": "l31m08",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze den Infinitiv mit zu.",
+            "prompt": "Ohne den Blick vom Bildschirm ___, antwortete der Programmierer auf meine Frage. (abwenden)",
+            "solution": "abzuwenden",
+            "hint": "'abwenden' ist ein trennbares Verb.",
+            "explanation": "Bei trennbaren Verben steht 'zu' zwischen Präfix und Stamm: ab-zu-wenden, in einem Wort."
+          },
+          {
+            "id": "l31m09",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze den Infinitiv mit zu (mit Reflexivpronomen).",
+            "prompt": "Anstatt ___, drängelte sich der Mann einfach weiter nach vorn. (sich entschuldigen)",
+            "solution": "sich zu entschuldigen",
+            "hint": "Das Reflexivpronomen steht vor 'zu'.",
+            "explanation": "Im Infinitivsatz steht das Reflexivpronomen vor dem Infinitiv: 'sich zu entschuldigen'. 'entschuldigen' ist nicht trennbar, also 'zu' getrennt."
+          },
+          {
+            "id": "l31m10",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb im Präteritum.",
+            "prompt": "Dadurch, dass die Tänzerin jede Schrittfolge hundertmal ___, verbesserte sie ihre Technik schnell. (wiederholen)",
+            "solution": "wiederholte",
+            "hint": "'wiederholen' (noch einmal machen) ist nicht trennbar.",
+            "explanation": "'wiederholen' im Sinn von 'noch einmal machen' ist untrennbar und regelmäßig: sie wiederholte. Das Verb steht am Ende des Nebensatzes."
+          },
+          {
+            "id": "l31m11",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze den Infinitiv mit zu (mit Reflexivpronomen).",
+            "prompt": "Anstatt ___, blieb der Kommissar regungslos hinter seinem Schreibtisch sitzen. (sich vorbeugen)",
+            "solution": "sich vorzubeugen",
+            "hint": "Trennbar und reflexiv: Pronomen zuerst, 'zu' zwischen Präfix und Stamm.",
+            "explanation": "Das Reflexivpronomen steht vorn, 'zu' sitzt zwischen 'vor' und 'beugen': 'sich vorzubeugen'. 'sich zu vorbeugen' ist falsch."
+          },
+          {
+            "id": "l31m12",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze den Infinitiv mit zu.",
+            "prompt": "Statt meine Frage direkt ___, wich der Politiker immer wieder aus. (beantworten)",
+            "solution": "zu beantworten",
+            "hint": "Ist 'be-' ein trennbares Präfix?",
+            "explanation": "'beantworten' ist untrennbar, deshalb steht 'zu' davor und getrennt: 'zu beantworten'."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l31h01",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze den 'indem'-Satz durch 'durch regelmäßiges Lob'. Beginne mit 'Die Trainerin' und setze die Angabe ans Satzende.",
+            "prompt": "Die Trainerin motiviert ihr Team, indem sie es regelmäßig lobt.",
+            "solution": "Die Trainerin motiviert ihr Team durch regelmäßiges Lob.",
+            "hint": "'durch' + Akkusativ ersetzt den ganzen Nebensatz.",
+            "explanation": "Der Nebensatz wird zur Präpositionalgruppe 'durch regelmäßiges Lob' (Akkusativ); Komma und zweites Verb fallen weg."
+          },
+          {
+            "id": "l31h02",
+            "type": "targeted-transformation",
+            "instruction": "Forme mit 'indem' um. Beginne mit 'Der Lehrer'.",
+            "prompt": "Durch lautes Klatschen machte der Lehrer die Klasse auf sich aufmerksam.",
+            "solution": "Der Lehrer machte die Klasse auf sich aufmerksam, indem er laut klatschte.",
+            "hint": "Aus dem Nomen 'Klatschen' wird ein Verb im Präteritum.",
+            "explanation": "'indem' braucht einen Nebensatz mit Subjekt ('er') und Verb am Ende ('klatschte'). Aus dem Adjektiv 'lautes' wird das Adverb 'laut'."
+          },
+          {
+            "id": "l31h03",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde die Sätze mit 'ohne dass'. Beginne mit 'Der Dieb'.",
+            "prompt": "Der Dieb verließ das Kaufhaus. Der Alarm ging nicht los.",
+            "solution": "Der Dieb verließ das Kaufhaus, ohne dass der Alarm losging.",
+            "hint": "Die Verneinung steckt schon in 'ohne dass'.",
+            "explanation": "Verschiedene Subjekte → 'ohne dass'. Das 'nicht' fällt weg, weil 'ohne dass' schon verneint; 'losging' steht zusammen am Ende."
+          },
+          {
+            "id": "l31h04",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde die Sätze mit 'ohne … zu'. Beginne mit 'Er unterschrieb'.",
+            "prompt": "Er unterschrieb den Vertrag. Er las ihn nicht genau durch.",
+            "solution": "Er unterschrieb den Vertrag, ohne ihn genau durchzulesen.",
+            "hint": "Gleiches Subjekt; 'durchlesen' ist trennbar.",
+            "explanation": "Gleiches Subjekt → 'ohne … zu'. Das Subjekt und 'nicht' entfallen, 'zu' steht zwischen Präfix und Stamm: 'durchzulesen'."
+          },
+          {
+            "id": "l31h05",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde die Sätze mit 'Anstatt … zu'. Beginne mit 'Anstatt'.",
+            "prompt": "Sie hat die ganze Zeit auf ihr Handy geschaut. Sie hätte ihrem Gesprächspartner zuhören sollen.",
+            "solution": "Anstatt ihrem Gesprächspartner zuzuhören, hat sie die ganze Zeit auf ihr Handy geschaut.",
+            "hint": "Die erwartete Handlung kommt in den 'anstatt'-Teil.",
+            "explanation": "Was sie hätte tun sollen (zuhören), steht im 'anstatt … zu'-Satz: 'zuzuhören'. Danach folgt 'hat' auf Position 2."
+          },
+          {
+            "id": "l31h06",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze 'mit Handzeichen' durch eine Angabe mit 'mithilfe von'. Die übrigen Satzglieder bleiben.",
+            "prompt": "Der Bauarbeiter verständigte sich mit Handzeichen mit dem Kranführer.",
+            "solution": "Der Bauarbeiter verständigte sich mithilfe von Handzeichen mit dem Kranführer.",
+            "hint": "Ohne Artikel im Plural steht 'mithilfe von' + Dativ.",
+            "explanation": "Bei Nomen ohne Artikel kann der Genitiv nicht gezeigt werden, deshalb 'mithilfe von' + Dativ: 'mithilfe von Handzeichen'."
+          },
+          {
+            "id": "l31h07",
+            "type": "targeted-transformation",
+            "instruction": "Forme mit dem getrennten 'dadurch …, dass' um. Beginne mit 'Man kann seine Nervosität dadurch senken'.",
+            "prompt": "Indem man langsam und tief atmet, kann man seine Nervosität senken.",
+            "solution": "Man kann seine Nervosität dadurch senken, dass man langsam und tief atmet.",
+            "hint": "'dadurch' bleibt im Hauptsatz, 'dass' leitet den Nebensatz ein.",
+            "explanation": "'dadurch, dass' kann geteilt werden: 'dadurch' steht im Hauptsatz, der 'dass'-Satz folgt nach dem Komma mit dem Verb am Ende."
+          },
+          {
+            "id": "l31h08",
+            "type": "error-correction",
+            "instruction": "Korrigiere den Fehler. Behalte den Infinitiv mit zu.",
+            "prompt": "Ohne dass er sich zu verabschieden, verließ er die Party.",
+            "solution": "Ohne sich zu verabschieden, verließ er die Party.",
+            "hint": "Infinitiv mit zu und 'dass' passen nicht zusammen.",
+            "explanation": "Bei gleichem Subjekt steht 'ohne … zu' ohne 'dass' und ohne Subjekt. 'ohne dass' bräuchte ein konjugiertes Verb."
+          },
+          {
+            "id": "l31h09",
+            "type": "error-correction",
+            "instruction": "Korrigiere den Kasusfehler (mithilfe + Genitiv).",
+            "prompt": "Mithilfe einem Übersetzer konnte ich den Brief verstehen.",
+            "solution": "Mithilfe eines Übersetzers konnte ich den Brief verstehen.",
+            "hint": "Genitiv maskulin: Artikel und Nomen ändern sich.",
+            "explanation": "'mithilfe' verlangt den Genitiv: 'eines Übersetzers' (mit -s). 'einem Übersetzer' ist Dativ; Dativ geht nur mit 'mithilfe von'."
+          },
+          {
+            "id": "l31h10",
+            "type": "error-correction",
+            "instruction": "Korrigiere die Wortstellung im Hauptsatz. Der Nebensatz bleibt unverändert.",
+            "prompt": "Indem sich die Kinder vorbeugten, sie konnten das Bild besser sehen.",
+            "solution": "Indem sich die Kinder vorbeugten, konnten sie das Bild besser sehen.",
+            "hint": "Der Nebensatz zählt als Position 1.",
+            "explanation": "Steht der 'indem'-Satz vorn, besetzt er das Vorfeld; das konjugierte Verb 'konnten' muss direkt folgen, dann das Subjekt 'sie'."
+          },
+          {
+            "id": "l31h11",
+            "type": "error-correction",
+            "instruction": "Korrigiere den Fehler beim Infinitiv mit zu.",
+            "prompt": "Er trat ins Büro, ohne zu anklopfen.",
+            "solution": "Er trat ins Büro, ohne anzuklopfen.",
+            "hint": "'anklopfen' ist trennbar.",
+            "explanation": "Bei trennbaren Verben steht 'zu' zwischen Präfix und Stamm, in einem Wort: 'anzuklopfen'."
+          },
+          {
+            "id": "l31h12",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze den 'indem'-Satz durch 'durch eine bessere Schulung ihrer Mitarbeitenden'. Beginne mit 'Durch'.",
+            "prompt": "Indem die Firma ihre Mitarbeitenden besser schult, will sie Beschwerden vermeiden.",
+            "solution": "Durch eine bessere Schulung ihrer Mitarbeitenden will die Firma Beschwerden vermeiden.",
+            "hint": "Die Präpositionalgruppe steht im Vorfeld, dann das Verb.",
+            "explanation": "'durch' + Akkusativ ersetzt den Nebensatz. Im Vorfeld folgt sofort 'will', dann das Subjekt 'die Firma', das vorher im Nebensatz stand."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l31t01",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Wort.",
+          "prompt": "Die Sängerin überzeugte die Jury, ___ sie trotz ihrer Nervosität ruhig und aufrecht stand.",
+          "options": [
+            "indem",
+            "ohne dass",
+            "anstatt dass",
+            "mithilfe"
+          ],
+          "solution": "indem",
+          "explanation": "„indem“ nennt das Mittel: Sie überzeugte durch ihre Haltung. „ohne dass“/„anstatt dass“ ergeben keinen Sinn, „mithilfe“ ist eine Präposition."
+        },
+        {
+          "id": "l31t02",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze ein Wort.",
+          "prompt": "Dadurch, ___ die Dolmetscherin auch auf die Mimik der Redner achtete, verstand sie deren Ironie sofort.",
+          "solution": "dass",
+          "explanation": "Nach „dadurch,“ folgt immer „dass“. „indem“ ist hier falsch, weil „dadurch“ schon das Mittel ankündigt."
+        },
+        {
+          "id": "l31t03",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Wort.",
+          "prompt": "Die Moderatorin beruhigte die hitzige Diskussion ___, dass sie allen Gästen gleich viel Redezeit gab.",
+          "solution": "dadurch",
+          "explanation": "Das Korrelat „dadurch“ im Hauptsatz kündigt den dass-Satz an (dadurch …, dass). „indem“ und „durch“ können nicht vor „dass“ stehen.",
+          "options": [
+            "dadurch",
+            "indem",
+            "durch",
+            "mithilfe"
+          ]
+        },
+        {
+          "id": "l31t04",
+          "type": "targeted-transformation",
+          "instruction": "Verbinde die Sätze mit „indem“. Beginne mit „Die Tierärztin“. Die übrigen Satzglieder bleiben in derselben Reihenfolge.",
+          "prompt": "Die Tierärztin gewinnt das Vertrauen des scheuen Hundes. Sie hockt sich langsam neben ihn.",
+          "solution": "Die Tierärztin gewinnt das Vertrauen des scheuen Hundes, indem sie sich langsam neben ihn hockt.",
+          "explanation": "Der indem-Satz nennt das Mittel; er wird mit Komma abgetrennt und das finite Verb steht am Ende."
+        },
+        {
+          "id": "l31t05",
+          "type": "targeted-transformation",
+          "instruction": "Forme den indem-Satz in „durch“ + Nomen um. Verwende „übertriebenes Gestikulieren“ und beginne mit „Durch“.",
+          "prompt": "Der Straßenkünstler zieht viele Zuschauer an, indem er übertrieben gestikuliert.",
+          "solution": "Durch übertriebenes Gestikulieren zieht der Straßenkünstler viele Zuschauer an.",
+          "explanation": "„durch“ + Akkusativ ersetzt den indem-Satz (Nominalstil). Steht „Durch …“ im Vorfeld, folgt direkt das Verb, dann das Subjekt."
+        },
+        {
+          "id": "l31t06",
+          "type": "multiple-choice",
+          "instruction": "Wähle die passende Ergänzung.",
+          "prompt": "Die Pokerspielerin bluffte die ganze Runde, ___ ihre Gegner etwas an ihrer Mimik ablesen konnten.",
+          "options": [
+            "ohne dass",
+            "ohne zu",
+            "indem",
+            "anstatt dass"
+          ],
+          "solution": "ohne dass",
+          "explanation": "Die Subjekte sind verschieden (die Spielerin / ihre Gegner), daher „ohne dass“. „ohne … zu“ braucht dasselbe Subjekt; „indem“/„anstatt dass“ passen inhaltlich nicht."
+        },
+        {
+          "id": "l31t07",
+          "type": "targeted-transformation",
+          "instruction": "Verbinde die Sätze mit „ohne … zu“ (Infinitiv mit zu). Beginne mit „Die Kassiererin“.",
+          "prompt": "Die Kassiererin reichte mir das Wechselgeld. Sie lächelte mich nicht an.",
+          "solution": "Die Kassiererin reichte mir das Wechselgeld, ohne mich anzulächeln.",
+          "explanation": "„ohne … zu“ ersetzt die Verneinung „nicht“. Bei trennbaren Verben steht „zu“ zwischen Präfix und Stamm: anzulächeln."
+        },
+        {
+          "id": "l31t08",
+          "type": "error-correction",
+          "instruction": "Im Satz fehlt ein Wort. Korrigiere den Satz.",
+          "prompt": "Sie gab mir den Schlüssel zurück, ohne mir in die Augen sehen.",
+          "solution": "Sie gab mir den Schlüssel zurück, ohne mir in die Augen zu sehen.",
+          "explanation": "Nach „ohne“ mit Infinitiv braucht man „zu“ vor dem Infinitiv am Satzende."
+        },
+        {
+          "id": "l31t09",
+          "type": "multiple-choice",
+          "instruction": "Wähle die passende Ergänzung.",
+          "prompt": "___ der Kellner die Bestellung aufnimmt, tippen die Gäste ihre Wünsche selbst in ein Tablet.",
+          "options": [
+            "Anstatt dass",
+            "Anstatt",
+            "Indem",
+            "Ohne zu"
+          ],
+          "solution": "Anstatt dass",
+          "explanation": "Verschiedene Subjekte (Kellner / Gäste) und ein finites Verb: „Anstatt dass“. „Anstatt“ allein bräuchte „zu“ + Infinitiv; „Indem“ passt inhaltlich nicht."
+        },
+        {
+          "id": "l31t10",
+          "type": "targeted-transformation",
+          "instruction": "Verbinde die Sätze mit „anstatt … zu“. Beginne mit „Anstatt“ und verwende „der Junge“ im Hauptsatz.",
+          "prompt": "Der Junge schaute nicht in die Kamera. Er starrte auf seine Schuhe.",
+          "solution": "Anstatt in die Kamera zu schauen, starrte der Junge auf seine Schuhe.",
+          "explanation": "Der Infinitivsatz nennt, was nicht geschieht; im Hauptsatz folgt nach dem Komma zuerst das Verb, dann das Subjekt."
+        },
+        {
+          "id": "l31t11",
+          "type": "multiple-choice",
+          "instruction": "Wähle die richtige Form.",
+          "prompt": "Der Taucher gab seiner Partnerin ___ Taschenlampe ein Zeichen.",
+          "options": [
+            "mithilfe der",
+            "mithilfe die",
+            "mithilfe dem",
+            "mithilfe des"
+          ],
+          "solution": "mithilfe der",
+          "explanation": "„mithilfe“ verlangt den Genitiv; „die Taschenlampe“ (feminin) → „der Taschenlampe“. „des“ wäre maskulin/neutral, „dem“ Dativ."
+        },
+        {
+          "id": "l31t12",
+          "type": "multiple-choice",
+          "instruction": "Wähle die richtige Form.",
+          "prompt": "Das Forschungsteam filmt die Gesichtsausdrücke der Testpersonen ___ zwei Kameras.",
+          "options": [
+            "mithilfe von",
+            "mithilfe",
+            "mithilfe des",
+            "mithilfe dem"
+          ],
+          "solution": "mithilfe von",
+          "explanation": "Ist der Genitiv nicht erkennbar (Zahl ohne Artikel), nimmt man „mithilfe von“ + Dativ. „mithilfe zwei Kameras“ zeigt keinen Kasus."
+        },
+        {
+          "id": "l31t13",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz. Beginne mit „Viele Lehrkräfte“.",
+          "prompt": "Baue den Satz aus den Satzgliedern.",
+          "scrambleChunks": [
+            "indem",
+            "schaffen",
+            "bleiben",
+            "Viele Lehrkräfte",
+            "sie",
+            "eine ruhige Atmosphäre,",
+            "gelassen"
+          ],
+          "solution": "Viele Lehrkräfte schaffen eine ruhige Atmosphäre, indem sie gelassen bleiben.",
+          "explanation": "Hauptsatz zuerst, dann der indem-Satz mit dem finiten Verb am Ende."
+        },
+        {
+          "id": "l31t14",
+          "type": "error-correction",
+          "instruction": "Ein Wort ist falsch. Ersetze genau dieses eine Wort; „dadurch“ bleibt stehen.",
+          "prompt": "Der Verkäufer gewann das Vertrauen der Kundin dadurch, indem er ihr geduldig zuhörte.",
+          "solution": "Der Verkäufer gewann das Vertrauen der Kundin dadurch, dass er ihr geduldig zuhörte.",
+          "explanation": "Das Korrelat „dadurch“ verlangt „dass“. „dadurch, indem“ ist eine typische Vermischung beider Konstruktionen."
+        },
+        {
+          "id": "l31t15",
+          "type": "multiple-choice",
+          "instruction": "Wähle den richtigen Artikel.",
+          "prompt": "Durch ___ kurzen Blick auf die Uhr zeigte der Gast, dass er gehen wollte.",
+          "options": [
+            "einen",
+            "einem",
+            "eines",
+            "ein"
+          ],
+          "solution": "einen",
+          "explanation": "„durch“ steht immer mit Akkusativ: der Blick → einen Blick. „einem“ wäre Dativ, „eines“ Genitiv."
+        },
+        {
+          "id": "l31t16",
+          "type": "cloze-conjugation",
+          "instruction": "Ergänze „entgegenstrecken“ als Infinitiv mit zu (nur die Verbform).",
+          "prompt": "Statt mir zur Begrüßung die Hand ___, nickte der Professor nur kurz.",
+          "solution": "entgegenzustrecken",
+          "explanation": "Bei trennbaren Verben steht „zu“ zwischen Präfix und Stamm: entgegenzustrecken. Getrennt („zu entgegenstrecken“) ist falsch."
+        }
+      ]
+    },
+    {
+      "lektionId": "b2-m11-l32",
+      "level": "B2",
+      "modulNumber": 11,
+      "lektionNumber": 32,
+      "title": "Wer hat was gesagt?",
+      "grammarFocus": [
+        "Indirekte Rede mit Konjunktiv I (er sei, habe, könne, müsse; mit und ohne dass)",
+        "Ersatzform Konjunktiv II / würde, wenn Konjunktiv I = Indikativ (sie haben → sie hätten); Vergangenheit: habe/sei + Partizip II",
+        "Redeeinleitende Verben und Protokollstil (behaupten, betonen, erwidern, darlegen; Stichpunkte ↔ ganze Sätze)"
+      ],
+      "vocabulary": [
+        {
+          "id": "l32v01",
+          "term": "die Besprechung",
+          "translation": "la reunión",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Besprechungen",
+          "example": "Die Besprechung mit dem Kunden wurde auf Donnerstag verlegt."
+        },
+        {
+          "id": "l32v02",
+          "term": "die Sitzung",
+          "translation": "la sesión, la reunión",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Sitzungen",
+          "example": "In der letzten Sitzung des Vereins wurde ein neuer Kassenwart gewählt."
+        },
+        {
+          "id": "l32v03",
+          "term": "die Tagesordnung",
+          "translation": "el orden del día",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Tagesordnungen",
+          "example": "Bitte schicken Sie mir Ihre Themen, damit ich sie auf die Tagesordnung setzen kann."
+        },
+        {
+          "id": "l32v04",
+          "term": "der Tagesordnungspunkt",
+          "translation": "el punto del orden del día",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Tagesordnungspunkte",
+          "example": "Den dritten Tagesordnungspunkt haben wir aus Zeitgründen vertagt."
+        },
+        {
+          "id": "l32v05",
+          "term": "das Protokoll",
+          "translation": "el acta",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Protokolle",
+          "example": "Das Protokoll der Elternversammlung hängt am schwarzen Brett."
+        },
+        {
+          "id": "l32v06",
+          "term": "der Protokollant",
+          "translation": "la persona que levanta acta",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Protokollanten",
+          "example": "Als Protokollant muss man genau zuhören und schnell schreiben können."
+        },
+        {
+          "id": "l32v07",
+          "term": "der Stichpunkt",
+          "translation": "la nota breve, el punto clave",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Stichpunkte",
+          "example": "Für den Vortrag hat sie sich nur ein paar Stichpunkte notiert."
+        },
+        {
+          "id": "l32v08",
+          "term": "die Frist",
+          "translation": "el plazo",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Fristen",
+          "example": "Die Frist für die Steuererklärung endet Ende Juli."
+        },
+        {
+          "id": "l32v09",
+          "term": "genehmigen",
+          "translation": "aprobar, autorizar",
+          "partOfSpeech": "verb",
+          "preterite": "genehmigte",
+          "participle": "genehmigt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Der Vorstand hat das Budget für die neue Website genehmigt."
+        },
+        {
+          "id": "l32v10",
+          "term": "behaupten",
+          "translation": "afirmar, sostener",
+          "partOfSpeech": "verb",
+          "preterite": "behauptete",
+          "participle": "behauptet",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Der Verkäufer behauptete, das Gerät sei fast neu."
+        },
+        {
+          "id": "l32v11",
+          "term": "betonen",
+          "translation": "subrayar, recalcar",
+          "partOfSpeech": "verb",
+          "preterite": "betonte",
+          "participle": "betont",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Die Bürgermeisterin betonte, wie wichtig sichere Radwege seien."
+        },
+        {
+          "id": "l32v12",
+          "term": "erwidern",
+          "translation": "replicar, responder",
+          "partOfSpeech": "verb",
+          "preterite": "erwiderte",
+          "participle": "erwidert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Auf die Kritik erwiderte er, man habe alle Regeln eingehalten."
+        },
+        {
+          "id": "l32v13",
+          "term": "darlegen",
+          "translation": "exponer, explicar",
+          "partOfSpeech": "verb",
+          "preterite": "legte dar",
+          "participle": "dargelegt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Der Gutachter legte ausführlich dar, warum die Brücke saniert werden muss."
+        },
+        {
+          "id": "l32v14",
+          "term": "schildern",
+          "translation": "describir, relatar",
+          "partOfSpeech": "verb",
+          "preterite": "schilderte",
+          "participle": "geschildert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Die Zeugin schilderte den Unfall sehr genau."
+        },
+        {
+          "id": "l32v15",
+          "term": "sich äußern",
+          "translation": "pronunciarse, opinar",
+          "partOfSpeech": "verb",
+          "preterite": "äußerte sich",
+          "participle": "sich geäußert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Zu den Gerüchten wollte sich die Firma nicht äußern."
+        },
+        {
+          "id": "l32v16",
+          "term": "der Stressfaktor",
+          "translation": "el factor de estrés",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Stressfaktoren",
+          "example": "Lärm im Großraumbüro ist für viele ein unterschätzter Stressfaktor."
+        },
+        {
+          "id": "l32v17",
+          "term": "der Stressabbau",
+          "translation": "la reducción del estrés",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "example": "Zum Stressabbau geht er dreimal pro Woche schwimmen."
+        },
+        {
+          "id": "l32v18",
+          "term": "stressresistent",
+          "translation": "resistente al estrés",
+          "partOfSpeech": "adjective",
+          "example": "In der Notaufnahme arbeiten nur Leute, die wirklich stressresistent sind."
+        },
+        {
+          "id": "l32v19",
+          "term": "die Erreichbarkeit",
+          "translation": "la disponibilidad, la accesibilidad",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Ständige Erreichbarkeit per Handy macht viele Beschäftigte nervös."
+        },
+        {
+          "id": "l32v20",
+          "term": "der Termindruck",
+          "translation": "la presión de los plazos",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "example": "Kurz vor der Messe stand das ganze Team unter enormem Termindruck."
+        },
+        {
+          "id": "l32v21",
+          "term": "die Belastung",
+          "translation": "la carga, la presión",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Belastungen",
+          "example": "Die Pflege der Mutter ist für die Familie eine große Belastung."
+        },
+        {
+          "id": "l32v22",
+          "term": "abschalten",
+          "translation": "desconectar",
+          "partOfSpeech": "verb",
+          "preterite": "schaltete ab",
+          "participle": "abgeschaltet",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Im Garten kann mein Vater nach der Arbeit am besten abschalten."
+        },
+        {
+          "id": "l32v23",
+          "term": "überfordert",
+          "translation": "desbordado, sobrepasado",
+          "partOfSpeech": "adjective",
+          "example": "Mit drei Projekten gleichzeitig fühlte sich der Berufsanfänger überfordert."
+        },
+        {
+          "id": "l32v24",
+          "term": "ausgeglichen",
+          "translation": "equilibrado, sereno",
+          "partOfSpeech": "adjective",
+          "example": "Seit sie regelmäßig meditiert, wirkt sie viel ausgeglichener."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l32e01",
+            "type": "multiple-choice",
+            "instruction": "Wähle die Form im Konjunktiv I.",
+            "prompt": "Die Ärztin sagt, Bewegung ___ das beste Mittel gegen Stress.",
+            "options": [
+              "sei",
+              "seien",
+              "sein",
+              "seist"
+            ],
+            "solution": "sei",
+            "hint": "Subjekt ist 'Bewegung', also 3. Person Singular.",
+            "explanation": "Konjunktiv I von 'sein' in der 3. Person Singular heißt 'sei'. 'seien' ist Plural, 'seist' 2. Person, 'sein' der Infinitiv."
+          },
+          {
+            "id": "l32e02",
+            "type": "multiple-choice",
+            "instruction": "Wähle die Form im Konjunktiv I.",
+            "prompt": "Der Abteilungsleiter erklärte, man ___ die Frist um eine Woche verlängern.",
+            "options": [
+              "könne",
+              "können",
+              "konnte",
+              "kann"
+            ],
+            "solution": "könne",
+            "hint": "Konjunktiv I: Infinitivstamm 'könn-' + -e.",
+            "explanation": "'man' → 3. Person Singular, Konjunktiv I 'könne'. 'kann' ist Indikativ, 'konnte' Präteritum, 'können' Plural/Infinitiv."
+          },
+          {
+            "id": "l32e03",
+            "type": "multiple-choice",
+            "instruction": "Wähle die Form, die die indirekte Rede eindeutig markiert.",
+            "prompt": "Die Kolleginnen berichten, sie ___ zu viele Termine an einem Tag.",
+            "options": [
+              "hätten",
+              "haben",
+              "habe",
+              "hättet"
+            ],
+            "solution": "hätten",
+            "hint": "Ist der Konjunktiv I hier gleich wie der Indikativ?",
+            "explanation": "Konjunktiv I 'sie haben' = Indikativ, daher Ersatzform Konjunktiv II 'hätten'. 'habe' ist Singular, 'hättet' 2. Person Plural."
+          },
+          {
+            "id": "l32e04",
+            "type": "multiple-choice",
+            "instruction": "Wähle die Form im Konjunktiv I.",
+            "prompt": "Die Teamleiterin sagte: „Ich habe den Bericht schon verschickt.“ → Sie sagte, sie ___ den Bericht schon verschickt.",
+            "options": [
+              "habe",
+              "sei",
+              "hat",
+              "habest"
+            ],
+            "solution": "habe",
+            "hint": "Vergangenheit: Hilfsverb im Konjunktiv I + Partizip II. Welches Hilfsverb braucht 'verschicken'?",
+            "explanation": "'verschicken' bildet das Perfekt mit 'haben' → 'sie habe … verschickt'. 'hat' ist Indikativ, 'habest' 2. Person, 'sei' das falsche Hilfsverb."
+          },
+          {
+            "id": "l32e05",
+            "type": "multiple-choice",
+            "instruction": "Wähle die Form im Konjunktiv I.",
+            "prompt": "Der Kollege erzählte, er ___ am Wochenende in die Berge gefahren.",
+            "options": [
+              "sei",
+              "habe",
+              "ist",
+              "seien"
+            ],
+            "solution": "sei",
+            "hint": "'fahren' als Ortswechsel: Perfekt mit 'haben' oder 'sein'?",
+            "explanation": "'fahren' (Bewegung zu einem Ziel) bildet das Perfekt mit 'sein' → 'er sei gefahren'. 'ist' ist Indikativ, 'seien' Plural."
+          },
+          {
+            "id": "l32e06",
+            "type": "multiple-choice",
+            "instruction": "Wähle die Konjunktiv-I-Form von 'sollen'.",
+            "prompt": "Die Therapeutin sagt zu mir: „Gehen Sie jeden Abend spazieren!“ → Sie rät mir, ich ___ jeden Abend spazieren gehen.",
+            "options": [
+              "solle",
+              "soll",
+              "sollst",
+              "sollen"
+            ],
+            "solution": "solle",
+            "hint": "Aufforderungen gibt man in der indirekten Rede mit 'sollen' wieder.",
+            "explanation": "Imperativ → 'sollen' im Konjunktiv I: 'ich solle'. 'soll' ist Indikativ, 'sollst' 2. Person, 'sollen' Plural."
+          },
+          {
+            "id": "l32e07",
+            "type": "multiple-choice",
+            "instruction": "Welches Verb passt in den Protokollsatz?",
+            "prompt": "Der Kunde: „Die Lieferung kam zu spät!“ – Der Händler: „Wir haben sie pünktlich verschickt.“ → Der Händler ___, die Ware sei pünktlich verschickt worden.",
+            "options": [
+              "erwiderte",
+              "beantwortete",
+              "genehmigte",
+              "verlangte"
+            ],
+            "solution": "erwiderte",
+            "hint": "Gesucht ist ein Verb, das eine Antwort auf einen Vorwurf einleitet.",
+            "explanation": "'erwidern' = auf etwas antworten, auch mit Nebensatz. 'beantworten' braucht ein Akkusativobjekt (die Frage), 'genehmigen' und 'verlangen' passen inhaltlich nicht."
+          },
+          {
+            "id": "l32e08",
+            "type": "multiple-choice",
+            "instruction": "Welcher Eintrag passt in ein Protokoll in Stichpunkten?",
+            "prompt": "TOP 2: Sommerfest",
+            "options": [
+              "Termin: 12. Juli; Organisation: Frau Lenz",
+              "Wir haben dann lange darüber geredet, wann das Fest sein soll.",
+              "Frau Lenz sagte, dass sie es eventuell machen würde.",
+              "Das Fest war letztes Jahr sehr schön gewesen."
+            ],
+            "solution": "Termin: 12. Juli; Organisation: Frau Lenz",
+            "hint": "Ein Protokoll in Stichpunkten ist kurz und sachlich, oft im Nominalstil.",
+            "explanation": "Stichpunkte nennen nur das Ergebnis, knapp im Nominalstil. Ganze Sätze, Umgangssprache und Erzählungen gehören nicht in ein Ergebnisprotokoll."
+          },
+          {
+            "id": "l32e09",
+            "type": "multiple-choice",
+            "instruction": "In welcher Zeitform schreibt man ein Protokoll üblicherweise?",
+            "prompt": "Ein Protokoll fasst eine Besprechung zusammen. Es steht meistens im …",
+            "options": [
+              "Präsens",
+              "Präteritum",
+              "Plusquamperfekt",
+              "Futur I"
+            ],
+            "solution": "Präsens",
+            "hint": "Das Protokoll gibt Ergebnisse wieder, die jetzt gelten.",
+            "explanation": "Protokolle stehen meist im Präsens: Sie halten fest, was gilt und was zu tun ist – auch wenn die Sitzung schon vorbei ist."
+          },
+          {
+            "id": "l32e10",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze den Konjunktiv I von 'haben'.",
+            "prompt": "Der Hausmeister meint, er ___ heute keine Zeit für die Reparatur.",
+            "solution": "habe",
+            "hint": "3. Person Singular: Stamm + -e.",
+            "explanation": "Konjunktiv I 3. Person Singular: 'er habe'. Der Indikativ 'hat' würde die Aussage nicht als wiedergegebene Rede markieren."
+          },
+          {
+            "id": "l32e11",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze den Konjunktiv I von 'müssen'.",
+            "prompt": "Die Chefin teilte mit, jede Abteilung ___ bis Freitag ihre Zahlen melden.",
+            "solution": "müsse",
+            "hint": "Konjunktiv I: Infinitivstamm 'müss-' + -e.",
+            "explanation": "Konjunktiv I 3. Person Singular: 'müsse' (mit Umlaut wie im Infinitiv). 'muss' ist Indikativ, 'müsste' Konjunktiv II."
+          },
+          {
+            "id": "l32e12",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze die Ersatzform im Konjunktiv II von 'können'.",
+            "prompt": "Die Auszubildenden klagen, sie ___ abends nicht mehr abschalten.",
+            "solution": "könnten",
+            "hint": "Konjunktiv I 'sie können' sieht aus wie der Indikativ.",
+            "explanation": "Weil 'sie können' gleich dem Indikativ ist, nimmt man den Konjunktiv II 'könnten'. 'konnten' (ohne Umlaut) ist Präteritum."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l32m01",
+            "type": "sentence-scramble",
+            "instruction": "Bilde die indirekte Rede mit 'dass'. Beginne mit 'Die Psychologin'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "krank machen",
+              "Die Psychologin",
+              "dass",
+              "könne",
+              "betont,",
+              "ständige Erreichbarkeit"
+            ],
+            "solution": "Die Psychologin betont, dass ständige Erreichbarkeit krank machen könne.",
+            "hint": "Im dass-Satz steht das konjugierte Verb am Ende.",
+            "explanation": "Nach 'dass' folgt das Subjekt, das konjugierte Verb 'könne' (Konjunktiv I) steht ganz am Ende, nach dem Infinitiv."
+          },
+          {
+            "id": "l32m02",
+            "type": "sentence-scramble",
+            "instruction": "Bilde die indirekte Rede ohne 'dass'. Die indirekte Rede beginnt mit 'Sport am Abend'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "helfe",
+              "Der Trainer",
+              "beim Abschalten",
+              "meint,",
+              "Sport am Abend"
+            ],
+            "solution": "Der Trainer meint, Sport am Abend helfe beim Abschalten.",
+            "hint": "Ohne 'dass' hat die indirekte Rede Hauptsatzstellung.",
+            "explanation": "Ohne 'dass' steht das Verb 'helfe' (Konjunktiv I) auf Position 2, direkt nach dem Subjekt 'Sport am Abend'."
+          },
+          {
+            "id": "l32m03",
+            "type": "sentence-scramble",
+            "instruction": "Bilde die indirekte Rede ohne 'dass'. Die indirekte Rede beginnt mit 'sie'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "gewesen",
+              "Die Kollegin",
+              "sei",
+              "sie",
+              "im Urlaub kaum erreichbar",
+              "erzählte,"
+            ],
+            "solution": "Die Kollegin erzählte, sie sei im Urlaub kaum erreichbar gewesen.",
+            "hint": "Vergangenheit: Hilfsverb im Konjunktiv I + Partizip II.",
+            "explanation": "'sei' steht auf Position 2, das Partizip 'gewesen' am Satzende. 'sein' bildet das Perfekt mit 'sein'."
+          },
+          {
+            "id": "l32m04",
+            "type": "sentence-scramble",
+            "instruction": "Gib den Vorschlag in indirekter Rede wieder, ohne 'dass'. Beginne mit 'Der Vorsitzende'; die indirekte Rede beginnt mit 'man'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "solle",
+              "Der Vorsitzende",
+              "verschieben",
+              "man",
+              "schlug vor,",
+              "die Sitzung um eine Woche"
+            ],
+            "solution": "Der Vorsitzende schlug vor, man solle die Sitzung um eine Woche verschieben.",
+            "hint": "Vorschläge und Ratschläge gibt man mit 'sollen' wieder.",
+            "explanation": "'solle' (Konjunktiv I) steht nach 'man' auf Position 2, der Infinitiv 'verschieben' am Ende. 'vor,' gehört zum trennbaren 'vorschlagen'."
+          },
+          {
+            "id": "l32m05",
+            "type": "sentence-scramble",
+            "instruction": "Bilde die indirekte Rede mit 'dass'. Beginne mit 'Die Eltern'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "hätten",
+              "Die Eltern",
+              "sie",
+              "dass",
+              "klagen,",
+              "kaum Zeit für sich"
+            ],
+            "solution": "Die Eltern klagen, dass sie kaum Zeit für sich hätten.",
+            "hint": "'sie haben' wäre gleich dem Indikativ – welche Form nimmt man stattdessen?",
+            "explanation": "Konjunktiv I 'sie haben' = Indikativ, daher 'hätten'. Im dass-Satz steht das Verb am Ende."
+          },
+          {
+            "id": "l32m06",
+            "type": "sentence-scramble",
+            "instruction": "Bilde die indirekte Rede ohne 'dass'. Die indirekte Rede beginnt mit 'das Budget'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "reiche",
+              "Der Abteilungsleiter",
+              "dafür nicht aus",
+              "erwiderte,",
+              "das Budget"
+            ],
+            "solution": "Der Abteilungsleiter erwiderte, das Budget reiche dafür nicht aus.",
+            "hint": "Trennbares Verb: Das Präfix steht am Ende.",
+            "explanation": "'ausreichen' ist trennbar: 'reiche' (Konjunktiv I) auf Position 2, 'aus' am Ende."
+          },
+          {
+            "id": "l32m07",
+            "type": "sentence-scramble",
+            "instruction": "Gib die Frage in indirekter Rede wieder. Beginne mit 'Die Protokollantin'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "seien",
+              "Die Protokollantin",
+              "ob",
+              "alle",
+              "fragte,",
+              "mit der Tagesordnung einverstanden"
+            ],
+            "solution": "Die Protokollantin fragte, ob alle mit der Tagesordnung einverstanden seien.",
+            "hint": "Ja/Nein-Fragen werden mit 'ob' eingeleitet.",
+            "explanation": "Indirekte Ja/Nein-Frage mit 'ob', Verb am Ende. 'seien' ist Konjunktiv I Plural und unterscheidet sich vom Indikativ 'sind'."
+          },
+          {
+            "id": "l32m08",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb im Konjunktiv I.",
+            "prompt": "Der Hausarzt meint, regelmäßiger Schlaf ___ das Immunsystem. (stärken)",
+            "solution": "stärke",
+            "hint": "3. Person Singular Konjunktiv I: Stamm + -e.",
+            "explanation": "Subjekt 'regelmäßiger Schlaf' → 'stärke'. Der Indikativ 'stärkt' zeigt nicht, dass es die Meinung des Arztes ist."
+          },
+          {
+            "id": "l32m09",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb im Konjunktiv I.",
+            "prompt": "Meine Nachbarin erzählt, sie ___ seit Wochen nicht mehr richtig. (schlafen)",
+            "solution": "schlafe",
+            "hint": "Im Konjunktiv I gibt es keinen Vokalwechsel wie im Indikativ.",
+            "explanation": "Konjunktiv I: Infinitivstamm 'schlaf-' + -e → 'schlafe'. Der Indikativ 'schläft' hat einen Umlaut, der Konjunktiv I nicht."
+          },
+          {
+            "id": "l32m10",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze die Ersatzform im Konjunktiv II.",
+            "prompt": "Die Mitarbeiter beschweren sich, sie ___ ständig Überstunden machen. (müssen)",
+            "solution": "müssten",
+            "hint": "Konjunktiv I 'sie müssen' ist gleich dem Indikativ.",
+            "explanation": "Weil 'sie müssen' wie der Indikativ aussieht, steht der Konjunktiv II 'müssten'. 'mussten' ohne Umlaut ist Präteritum."
+          },
+          {
+            "id": "l32m11",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Hilfsverb im Konjunktiv I.",
+            "prompt": "Der Kollege berichtete, er ___ gestern bis 22 Uhr im Büro geblieben.",
+            "solution": "sei",
+            "hint": "'bleiben' bildet das Perfekt wie 'sein' und 'werden'.",
+            "explanation": "'bleiben' bildet das Perfekt mit 'sein' → 'er sei geblieben'. 'habe' passt nicht, 'ist' ist Indikativ."
+          },
+          {
+            "id": "l32m12",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb im Konjunktiv I.",
+            "prompt": "Die Projektleiterin versichert, das Team ___ die Frist einhalten. (werden)",
+            "solution": "werde",
+            "hint": "Zukunft in der indirekten Rede: 'werden' im Konjunktiv I + Infinitiv.",
+            "explanation": "'werden' im Konjunktiv I, 3. Person Singular: 'werde'. 'wird' ist Indikativ, 'würde' der Konjunktiv II."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l32h01",
+            "type": "targeted-transformation",
+            "instruction": "Gib die Aussage in indirekter Rede mit Konjunktiv I wieder, ohne 'dass'. Beginne mit 'Der Ingenieur sagt,'.",
+            "prompt": "Der Ingenieur sagt: „Ich habe keine Zeit für eine weitere Sitzung.“",
+            "solution": "Der Ingenieur sagt, er habe keine Zeit für eine weitere Sitzung.",
+            "hint": "'ich' wird zu 'er'; 'haben' im Konjunktiv I.",
+            "explanation": "'ich' → 'er', 'habe' (Konjunktiv I). Ohne 'dass' bleibt das Verb auf Position 2; der Rest des Satzes bleibt gleich."
+          },
+          {
+            "id": "l32h02",
+            "type": "targeted-transformation",
+            "instruction": "Gib die Aussage mit 'dass' wieder. Verwende die Ersatzform mit 'würden'. Beginne mit 'Die Ärztin erklärt,'.",
+            "prompt": "Die Ärztin erklärt: „Kurze Pausen verbessern die Konzentration.“",
+            "solution": "Die Ärztin erklärt, dass kurze Pausen die Konzentration verbessern würden.",
+            "hint": "Konjunktiv I und II von 'verbessern' sind im Plural nicht vom Indikativ/Präteritum zu unterscheiden.",
+            "explanation": "'verbessern' (KI) = Indikativ, 'verbesserten' (KII) = Präteritum, daher 'würden' + Infinitiv. Im dass-Satz steht 'würden' am Ende."
+          },
+          {
+            "id": "l32h03",
+            "type": "targeted-transformation",
+            "instruction": "Gib die Aussage in indirekter Rede mit Konjunktiv I wieder, ohne 'dass'. Beginne mit 'Lena sagt,'.",
+            "prompt": "Lena sagt: „Ich bin wegen des Stresses krank geworden.“",
+            "solution": "Lena sagt, sie sei wegen des Stresses krank geworden.",
+            "hint": "Vergangenheit: Hilfsverb im Konjunktiv I + Partizip II.",
+            "explanation": "'ich bin … geworden' → 'sie sei … geworden'. Das Hilfsverb 'sein' bleibt, steht aber im Konjunktiv I."
+          },
+          {
+            "id": "l32h04",
+            "type": "targeted-transformation",
+            "instruction": "Gib die Aussage in indirekter Rede wieder, ohne 'dass'. Verwende für die Vergangenheit Konjunktiv I + Partizip II. Beginne mit 'Herr Wolf sagt,'.",
+            "prompt": "Herr Wolf sagt: „Ich arbeitete früher sechzig Stunden pro Woche.“",
+            "solution": "Herr Wolf sagt, er habe früher sechzig Stunden pro Woche gearbeitet.",
+            "hint": "Für die Vergangenheit gibt es im Konjunktiv I nur eine Form.",
+            "explanation": "Präteritum, Perfekt und Plusquamperfekt werden in der indirekten Rede zu 'habe/sei + Partizip II': 'er habe … gearbeitet'."
+          },
+          {
+            "id": "l32h05",
+            "type": "targeted-transformation",
+            "instruction": "Gib den Ratschlag in indirekter Rede ohne 'dass' wieder, mit 'sollen' im Konjunktiv I. Beginne mit 'Die Trainerin rät, man'. Die übrigen Satzglieder bleiben in derselben Reihenfolge.",
+            "prompt": "Die Trainerin rät: „Schalten Sie das Handy nach 20 Uhr aus!“",
+            "solution": "Die Trainerin rät, man solle das Handy nach 20 Uhr ausschalten.",
+            "hint": "Imperativ → 'sollen' im Konjunktiv I + Infinitiv.",
+            "explanation": "Ein Imperativ wird mit 'sollen' wiedergegeben: 'man solle … ausschalten'. Das trennbare Verb steht als Infinitiv zusammen am Ende."
+          },
+          {
+            "id": "l32h06",
+            "type": "targeted-transformation",
+            "instruction": "Gib die Aussage in indirekter Rede mit Konjunktiv I wieder, ohne 'dass'. Beginne mit 'Frau Yilmaz sagt,'.",
+            "prompt": "Frau Yilmaz sagt: „Mein Team braucht dringend mehr Personal.“",
+            "solution": "Frau Yilmaz sagt, ihr Team brauche dringend mehr Personal.",
+            "hint": "Auch Possessivartikel ändern sich aus der Sicht des Berichtenden.",
+            "explanation": "'mein Team' wird aus Sicht von Frau Yilmaz zu 'ihr Team'; 'braucht' → 'brauche' (Konjunktiv I). 'sein Team' würde einen Mann meinen."
+          },
+          {
+            "id": "l32h07",
+            "type": "targeted-transformation",
+            "instruction": "Gib die Aussage ohne 'dass' wieder. Verwende den Konjunktiv II als Ersatzform (nicht 'würden'). Beginne mit 'Die Studierenden sagen,'.",
+            "prompt": "Die Studierenden sagen: „Wir können uns vor Prüfungen schlecht konzentrieren.“",
+            "solution": "Die Studierenden sagen, sie könnten sich vor Prüfungen schlecht konzentrieren.",
+            "hint": "'wir' wird zu 'sie', 'uns' zu 'sich'.",
+            "explanation": "'wir können' → 'sie können' wäre gleich dem Indikativ, daher 'könnten'. Auch das Reflexivpronomen wechselt: 'uns' → 'sich'."
+          },
+          {
+            "id": "l32h08",
+            "type": "error-correction",
+            "instruction": "In der indirekten Rede soll Konjunktiv I stehen. Korrigiere das Verb. Ändere nur ein Wort.",
+            "prompt": "Der Kollege sagt, er ist heute im Homeoffice.",
+            "solution": "Der Kollege sagt, er sei heute im Homeoffice.",
+            "hint": "Wie heißt 'sein' im Konjunktiv I, 3. Person Singular?",
+            "explanation": "Konjunktiv I von 'sein': 'er sei'. Der Indikativ 'ist' kommt in der Umgangssprache vor, im Bericht markiert aber 'sei' die fremde Aussage."
+          },
+          {
+            "id": "l32h09",
+            "type": "error-correction",
+            "instruction": "Korrigiere das Hilfsverb. Ändere nur ein Wort.",
+            "prompt": "Der Praktikant erzählte, er habe zu spät ins Büro gekommen.",
+            "solution": "Der Praktikant erzählte, er sei zu spät ins Büro gekommen.",
+            "hint": "Mit welchem Hilfsverb bildet 'kommen' das Perfekt?",
+            "explanation": "'kommen' bildet das Perfekt mit 'sein' → 'er sei gekommen'. 'habe' passt nur zu Verben, die das Perfekt mit 'haben' bilden."
+          },
+          {
+            "id": "l32h10",
+            "type": "error-correction",
+            "instruction": "Die Verbform zeigt die indirekte Rede nicht eindeutig. Ersetze sie durch den Konjunktiv II. Ändere nur ein Wort.",
+            "prompt": "Die Angestellten sagen, sie haben keine Lust auf weitere Besprechungen.",
+            "solution": "Die Angestellten sagen, sie hätten keine Lust auf weitere Besprechungen.",
+            "hint": "Konjunktiv I 'sie haben' = Indikativ.",
+            "explanation": "Wenn Konjunktiv I und Indikativ gleich sind ('sie haben'), nimmt man den Konjunktiv II 'hätten'."
+          },
+          {
+            "id": "l32h11",
+            "type": "error-correction",
+            "instruction": "Korrigiere die Wortstellung im dass-Satz. Behalte 'dass' und alle Wörter.",
+            "prompt": "Der Vorsitzende betonte, dass die Sitzung müsse pünktlich beginnen.",
+            "solution": "Der Vorsitzende betonte, dass die Sitzung pünktlich beginnen müsse.",
+            "hint": "Wo steht im Nebensatz das konjugierte Verb?",
+            "explanation": "Im dass-Satz steht das konjugierte Verb 'müsse' am Ende, nach dem Infinitiv 'beginnen'. Die Hauptsatzstellung gilt nur ohne 'dass'."
+          },
+          {
+            "id": "l32h12",
+            "type": "error-correction",
+            "instruction": "Herr Becker spricht über sein eigenes Büro. Korrigiere das Possessivpronomen. Ändere nur ein Wort.",
+            "prompt": "Herr Becker sagt, mein Büro sei zu laut.",
+            "solution": "Herr Becker sagt, sein Büro sei zu laut.",
+            "hint": "Aus wessen Sicht wird berichtet?",
+            "explanation": "In der indirekten Rede wechselt die Perspektive: Herrn Beckers 'mein Büro' wird zu 'sein Büro'. 'mein' meinte sonst den Berichtenden."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l32t01",
+          "type": "multiple-choice",
+          "instruction": "Ergänze die Verbform im Konjunktiv I.",
+          "prompt": "Die Zahnärztin sagte, der Junge ___ sich die Zähne gründlicher putzen.",
+          "options": [
+            "müsse",
+            "muss",
+            "müsste",
+            "müssen"
+          ],
+          "solution": "müsse",
+          "explanation": "Konjunktiv I, 3. Person Singular: Stamm + -e → 'müsse'. 'muss' ist Indikativ, 'müsste' Konjunktiv II."
+        },
+        {
+          "id": "l32t02",
+          "type": "multiple-choice",
+          "instruction": "Welche Form ist in der indirekten Rede korrekt und eindeutig als Konjunktiv erkennbar?",
+          "prompt": "Die Mieter beklagten, sie ___ seit Wochen kein warmes Wasser.",
+          "options": [
+            "hätten",
+            "haben",
+            "habe",
+            "hatten"
+          ],
+          "solution": "hätten",
+          "explanation": "KI 'sie haben' = Indikativ, deshalb Ersatzform Konjunktiv II 'hätten'. 'habe' ist Singular, 'hatten' Präteritum."
+        },
+        {
+          "id": "l32t03",
+          "type": "multiple-choice",
+          "instruction": "In welchem Satz ist die Verbform eindeutig als Konjunktiv I erkennbar?",
+          "prompt": "Wähle den Satz.",
+          "options": [
+            "Er sagt, er komme später nach.",
+            "Sie sagen, sie kommen später nach.",
+            "Ich sage, ich komme später nach.",
+            "Wir sagen, wir kommen später nach."
+          ],
+          "solution": "Er sagt, er komme später nach.",
+          "explanation": "Nur in der 3. Person Singular unterscheidet sich 'komme' vom Indikativ 'kommt'. Bei ich/wir/sie ist Konjunktiv I = Indikativ."
+        },
+        {
+          "id": "l32t04",
+          "type": "multiple-choice",
+          "instruction": "Welches Verb passt? Der Sprecher stellt eine Aussage ohne Beweis als Tatsache hin.",
+          "prompt": "Ohne jeden Beleg ___ der Influencer, das neue Getränk mache in zwei Wochen schlank.",
+          "options": [
+            "behauptete",
+            "erwiderte",
+            "gestand",
+            "bezweifelte"
+          ],
+          "solution": "behauptete",
+          "explanation": "'behaupten' = etwas ohne Beweis als Tatsache hinstellen. 'erwidern' antwortet auf etwas, 'gestehen' gibt etwas zu, 'bezweifeln' drückt Zweifel aus."
+        },
+        {
+          "id": "l32t05",
+          "type": "multiple-choice",
+          "instruction": "Stichpunkt im Protokoll: „Kauf E-Lastenrad: abgelehnt – Kosten zu hoch“. Welcher ganze Satz ist korrekt?",
+          "prompt": "Formuliere den Stichpunkt als Satz im Präsens.",
+          "options": [
+            "Der Kauf eines E-Lastenrads wird abgelehnt, weil die Kosten zu hoch sind.",
+            "Der Kauf eines E-Lastenrads wird abgelehnt, weil die Kosten sind zu hoch.",
+            "Der Kauf eines E-Lastenrads lehnt ab, weil die Kosten zu hoch sind.",
+            "Der Kauf eines E-Lastenrads wird abgelehnt, denn die Kosten zu hoch sind."
+          ],
+          "solution": "Der Kauf eines E-Lastenrads wird abgelehnt, weil die Kosten zu hoch sind.",
+          "explanation": "Protokoll im Präsens, Entscheidung im Passiv ('wird abgelehnt'). Nach 'weil' steht das Verb am Ende, nach 'denn' nicht."
+        },
+        {
+          "id": "l32t06",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze „können“ im Konjunktiv I.",
+          "prompt": "Die Bibliothekarin teilte mit, man ___ die Bücher auch online verlängern.",
+          "solution": "könne",
+          "explanation": "Konjunktiv I von 'können', 3. Person Singular: 'könne'. Nicht 'kann' (Indikativ) und nicht 'könnte' (Konjunktiv II)."
+        },
+        {
+          "id": "l32t07",
+          "type": "cloze-conjugation",
+          "instruction": "Setze das Verb in Klammern im Konjunktiv I ein.",
+          "prompt": "Die Kassiererin meinte, sie ___ (wissen) leider nicht, wann der Laden wieder öffnet.",
+          "solution": "wisse",
+          "explanation": "Konjunktiv I bildet man vom Infinitivstamm: wiss- + -e → 'wisse'. 'weiß' ist Indikativ, 'wüsste' Konjunktiv II."
+        },
+        {
+          "id": "l32t08",
+          "type": "targeted-transformation",
+          "instruction": "Gib die Aussage in indirekter Rede ohne „dass“ wieder. Verwende Konjunktiv I. Beginne mit „Paula sagt,“.",
+          "prompt": "Paula: „Ich bin seit Wochen völlig überfordert.“",
+          "solution": "Paula sagt, sie sei seit Wochen völlig überfordert.",
+          "explanation": "ich → sie (Paula); 'bin' → Konjunktiv I 'sei'. Ohne 'dass' steht das Verb an zweiter Stelle (Hauptsatzstellung)."
+        },
+        {
+          "id": "l32t09",
+          "type": "targeted-transformation",
+          "instruction": "Gib die Aussage in indirekter Rede mit „dass“ wieder. Verwende Konjunktiv I. Beginne mit „Herr Brandt sagt, dass“.",
+          "prompt": "Herr Brandt: „Mein Zug hat schon wieder Verspätung.“",
+          "solution": "Herr Brandt sagt, dass sein Zug schon wieder Verspätung habe.",
+          "explanation": "mein → sein (Herr Brandt); 'hat' → 'habe'. Mit 'dass' steht das Verb am Ende des Nebensatzes."
+        },
+        {
+          "id": "l32t10",
+          "type": "targeted-transformation",
+          "instruction": "Gib die Aussage in indirekter Rede ohne „dass“ wieder. Verwende die Ersatzform im Konjunktiv II (nicht „würde“). Beginne mit „Die Pflegekräfte klagen,“.",
+          "prompt": "Die Pflegekräfte: „Wir haben in der Nachtschicht kaum Zeit zum Essen.“",
+          "solution": "Die Pflegekräfte klagen, sie hätten in der Nachtschicht kaum Zeit zum Essen.",
+          "explanation": "wir → sie. KI 'sie haben' gleicht dem Indikativ, daher Konjunktiv II 'hätten' als Ersatzform."
+        },
+        {
+          "id": "l32t11",
+          "type": "targeted-transformation",
+          "instruction": "Gib die Aussage in indirekter Rede ohne „dass“ wieder. Verwende Konjunktiv I. Die Zeitangabe bleibt. Beginne mit „Jonas erzählt,“.",
+          "prompt": "Jonas: „Ich habe am Wochenende drei Bewerbungen geschrieben.“",
+          "solution": "Jonas erzählt, er habe am Wochenende drei Bewerbungen geschrieben.",
+          "explanation": "Vergangenheit in indirekter Rede: Konjunktiv I des Hilfsverbs + Partizip II → 'habe … geschrieben'; ich → er."
+        },
+        {
+          "id": "l32t12",
+          "type": "targeted-transformation",
+          "instruction": "Gib die Aufforderung in indirekter Rede ohne „dass“ wieder. Verwende „er“ und „sollen“ im Konjunktiv I. Beginne mit „Der Physiotherapeut rät Herrn Öztürk,“.",
+          "prompt": "Der Physiotherapeut zu Herrn Öztürk: „Machen Sie jeden Morgen zehn Minuten Dehnübungen!“",
+          "solution": "Der Physiotherapeut rät Herrn Öztürk, er solle jeden Morgen zehn Minuten Dehnübungen machen.",
+          "explanation": "Imperativ → indirekte Rede mit 'sollen': Sie → er, 'solle' + Infinitiv am Ende."
+        },
+        {
+          "id": "l32t13",
+          "type": "error-correction",
+          "instruction": "Ersetze die Indikativform durch den Konjunktiv I. Ändere nur ein Wort.",
+          "prompt": "Der Mechaniker meinte, die Bremsen sind völlig abgenutzt.",
+          "solution": "Der Mechaniker meinte, die Bremsen seien völlig abgenutzt.",
+          "explanation": "Konjunktiv I von 'sein' im Plural: 'seien'. Er unterscheidet sich vom Indikativ 'sind', also keine Ersatzform nötig."
+        },
+        {
+          "id": "l32t14",
+          "type": "error-correction",
+          "instruction": "Korrigiere das Hilfsverb. Es bleibt im Konjunktiv I.",
+          "prompt": "Der Kurier behauptete, er sei das Paket schon gestern abgegeben.",
+          "solution": "Der Kurier behauptete, er habe das Paket schon gestern abgegeben.",
+          "explanation": "'abgeben' hat ein Akkusativobjekt und bildet das Perfekt mit 'haben' → 'habe abgegeben'. 'sei' gilt für Bewegung/Zustandswechsel ohne Objekt."
+        },
+        {
+          "id": "l32t15",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz in indirekter Rede ohne „dass“. Beginne mit „Die Moderatorin“.",
+          "prompt": "Baue den Satz aus den Satzgliedern.",
+          "scrambleChunks": [
+            "werde",
+            "Die Moderatorin",
+            "heute später beginnen",
+            "kündigte an,",
+            "die Sendung"
+          ],
+          "solution": "Die Moderatorin kündigte an, die Sendung werde heute später beginnen.",
+          "explanation": "Indirekte Rede ohne 'dass' hat Hauptsatzstellung: Konjunktiv I 'werde' an zweiter Stelle, Infinitiv am Ende."
+        },
+        {
+          "id": "l32t16",
+          "type": "multiple-choice",
+          "instruction": "Ergänze das Hilfsverb im Konjunktiv I.",
+          "prompt": "Die Reiseleiterin berichtete, die Gruppe ___ wegen des Streiks erst nachts im Hotel eingetroffen.",
+          "options": [
+            "sei",
+            "habe",
+            "ist",
+            "werde"
+          ],
+          "solution": "sei",
+          "explanation": "'eintreffen' bildet das Perfekt mit 'sein' → 'sei eingetroffen'. 'ist' ist Indikativ, 'habe' das falsche Hilfsverb."
+        }
+      ]
+    },
+    {
+      "lektionId": "b2-m11-l33",
+      "level": "B2",
+      "modulNumber": 11,
+      "lektionNumber": 33,
+      "title": "Studium und Präsentation",
+      "grammarFocus": [
+        "Nomen-Verb-Verbindungen im Studium (Fächer wählen, Kurse belegen, Voraussetzungen erfüllen, eine Prüfung ablegen/bestehen, ein Praktikum absolvieren)",
+        "Wortbildung: Verben auf -ieren ↔ Nomen auf -tion/-sion (organisieren → die Organisation, diskutieren → die Diskussion, reagieren → die Reaktion)",
+        "Redemittel für Präsentation und Diskussion (Das Thema meiner Präsentation ist …, Ich komme nun zu …, Besonders hervorzuheben ist …, Darf ich kurz etwas hinzufügen?, Lassen Sie mich bitte ausreden)"
+      ],
+      "vocabulary": [
+        {
+          "id": "l33v01",
+          "term": "die Hochschule",
+          "translation": "la universidad / la escuela superior",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Hochschulen",
+          "example": "Nach der Ausbildung hat sich mein Cousin an einer Hochschule in Bremen beworben."
+        },
+        {
+          "id": "l33v02",
+          "term": "der Studiengang",
+          "translation": "la carrera / el programa de estudios",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Studiengänge",
+          "example": "Der neue Studiengang verbindet Informatik mit Umweltwissenschaften."
+        },
+        {
+          "id": "l33v03",
+          "term": "die Zulassungsvoraussetzung",
+          "translation": "el requisito de admisión",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Zulassungsvoraussetzungen",
+          "example": "Ein Motivationsschreiben gehört bei diesem Masterprogramm zu den Zulassungsvoraussetzungen."
+        },
+        {
+          "id": "l33v04",
+          "term": "die Studiengebühr",
+          "translation": "la tasa universitaria / la matrícula",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Studiengebühren",
+          "example": "Für ein Gaststudium verlangt die private Hochschule eine Studiengebühr pro Semester."
+        },
+        {
+          "id": "l33v05",
+          "term": "die Forschung",
+          "translation": "la investigación",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Forschungen",
+          "example": "Die Professorin verbringt mehr Zeit mit Forschung als mit Lehre."
+        },
+        {
+          "id": "l33v06",
+          "term": "die Praxisnähe",
+          "translation": "la orientación práctica",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "An dualen Studiengängen schätzen viele Firmen vor allem die Praxisnähe."
+        },
+        {
+          "id": "l33v07",
+          "term": "das Fernstudium",
+          "translation": "los estudios a distancia",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Fernstudien",
+          "example": "Neben ihrem Job als Krankenpflegerin macht Selin ein Fernstudium in Psychologie."
+        },
+        {
+          "id": "l33v08",
+          "term": "die Vorlesung",
+          "translation": "la clase magistral",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Vorlesungen",
+          "example": "Die Vorlesung am Montag um acht Uhr ist leider immer überfüllt."
+        },
+        {
+          "id": "l33v09",
+          "term": "die Präsentation",
+          "translation": "la presentación",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Präsentationen",
+          "example": "Für die Präsentation im Seminar haben wir nur zehn Minuten Zeit."
+        },
+        {
+          "id": "l33v10",
+          "term": "die Diskussion",
+          "translation": "la discusión / el debate",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Diskussionen",
+          "example": "Nach dem Vortrag entstand eine lebhafte Diskussion über Mietpreise."
+        },
+        {
+          "id": "l33v11",
+          "term": "belegen",
+          "translation": "inscribirse en (un curso)",
+          "partOfSpeech": "verb",
+          "preterite": "belegte",
+          "participle": "belegt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "In diesem Semester belege ich einen Spanischkurs am Sprachenzentrum."
+        },
+        {
+          "id": "l33v12",
+          "term": "absolvieren",
+          "translation": "realizar / completar (estudios, prácticas)",
+          "partOfSpeech": "verb",
+          "preterite": "absolvierte",
+          "participle": "absolviert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Bevor er Lehrer wurde, absolvierte Jonas ein Jahr Freiwilligendienst in Ghana."
+        },
+        {
+          "id": "l33v13",
+          "term": "ablegen",
+          "translation": "presentarse a (un examen)",
+          "partOfSpeech": "verb",
+          "preterite": "legte ab",
+          "participle": "abgelegt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Die Sprachprüfung legt man am Ende des Kurses schriftlich und mündlich ab."
+        },
+        {
+          "id": "l33v14",
+          "term": "das Stipendium",
+          "translation": "la beca",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Stipendien",
+          "example": "Ohne das Stipendium hätte sich Amira das Studium in Hamburg nicht leisten können."
+        },
+        {
+          "id": "l33v15",
+          "term": "erwerben",
+          "translation": "adquirir",
+          "partOfSpeech": "verb",
+          "preterite": "erwarb",
+          "participle": "erworben",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Im Praktikum erwarb sie Kenntnisse, die ihr kein Lehrbuch vermitteln konnte."
+        },
+        {
+          "id": "l33v16",
+          "term": "die Gliederung",
+          "translation": "la estructura / el esquema",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Gliederungen",
+          "example": "Zeig deine Gliederung am Anfang kurz auf einer Folie, dann kann das Publikum dir besser folgen."
+        },
+        {
+          "id": "l33v17",
+          "term": "hinzufügen",
+          "translation": "añadir",
+          "partOfSpeech": "verb",
+          "preterite": "fügte hinzu",
+          "participle": "hinzugefügt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Zu den Zahlen möchte ich noch eine persönliche Erfahrung hinzufügen."
+        },
+        {
+          "id": "l33v18",
+          "term": "ausreden",
+          "translation": "terminar de hablar",
+          "partOfSpeech": "verb",
+          "preterite": "redete aus",
+          "participle": "ausgeredet",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "In unserer WG lässt niemand den anderen ausreden."
+        },
+        {
+          "id": "l33v19",
+          "term": "der Studienplatz",
+          "translation": "la plaza universitaria",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Studienplätze",
+          "example": "Für Tiermedizin gibt es deutlich mehr Bewerbungen als Studienplätze."
+        },
+        {
+          "id": "l33v20",
+          "term": "hervorheben",
+          "translation": "destacar / subrayar",
+          "partOfSpeech": "verb",
+          "preterite": "hob hervor",
+          "participle": "hervorgehoben",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Die Gutachterin hob die gründliche Recherche der Arbeit besonders hervor."
+        },
+        {
+          "id": "l33v21",
+          "term": "sich einschreiben",
+          "translation": "matricularse",
+          "partOfSpeech": "verb",
+          "preterite": "schrieb sich ein",
+          "participle": "sich eingeschrieben",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Bis Ende September muss man sich für das Wintersemester einschreiben."
+        },
+        {
+          "id": "l33v22",
+          "term": "praxisorientiert",
+          "translation": "orientado a la práctica",
+          "partOfSpeech": "adjective",
+          "example": "Der Kurs ist so praxisorientiert, dass wir jede Woche mit echten Kundendaten arbeiten."
+        },
+        {
+          "id": "l33v23",
+          "term": "wissenschaftlich",
+          "translation": "científico / académico",
+          "partOfSpeech": "adjective",
+          "example": "Für eine wissenschaftliche Arbeit muss man alle Quellen genau angeben."
+        },
+        {
+          "id": "l33v24",
+          "term": "berufsbegleitend",
+          "translation": "compatible con el trabajo",
+          "partOfSpeech": "adjective",
+          "example": "Der berufsbegleitende Master findet nur freitags und samstags statt."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l33e01",
+            "type": "multiple-choice",
+            "instruction": "Wähle das Verb, das mit dem Nomen eine feste Verbindung bildet.",
+            "prompt": "Zu Beginn des Semesters überlegt Tarek lange, welche Seminare er ___ soll.",
+            "options": [
+              "belegen",
+              "erfüllen",
+              "ablegen",
+              "abschaffen"
+            ],
+            "solution": "belegen",
+            "hint": "Mit welchem Verb meldet man sich für einen Kurs an?",
+            "explanation": "Kurse/Seminare belegt man (= sich dafür anmelden). Voraussetzungen erfüllt man, Prüfungen legt man ab, Gebühren schafft man ab."
+          },
+          {
+            "id": "l33e02",
+            "type": "multiple-choice",
+            "instruction": "Wähle das Verb, das mit dem Nomen eine feste Verbindung bildet.",
+            "prompt": "Wer sich für den Master in Architektur bewirbt, muss mehrere Voraussetzungen ___.",
+            "options": [
+              "erfüllen",
+              "belegen",
+              "bestehen",
+              "absolvieren"
+            ],
+            "solution": "erfüllen",
+            "hint": "Bedingungen und Voraussetzungen …?",
+            "explanation": "Voraussetzungen erfüllt man. 'bestehen' passt zu Prüfungen, 'belegen' zu Kursen, 'absolvieren' zu Praktikum oder Studium."
+          },
+          {
+            "id": "l33e03",
+            "type": "multiple-choice",
+            "instruction": "Wähle das Verb, das mit dem Nomen eine feste Verbindung bildet.",
+            "prompt": "Ich habe die Prüfung zwar ___, aber leider nicht bestanden.",
+            "options": [
+              "abgelegt",
+              "belegt",
+              "erfüllt",
+              "abgeschafft"
+            ],
+            "solution": "abgelegt",
+            "hint": "Gesucht ist 'an der Prüfung teilnehmen' – ohne Aussage über den Erfolg.",
+            "explanation": "Eine Prüfung ablegen = sie machen; bestehen = mit Erfolg. Deshalb passt 'zwar abgelegt, aber nicht bestanden'."
+          },
+          {
+            "id": "l33e04",
+            "type": "multiple-choice",
+            "instruction": "Wähle das Verb, das mit dem Nomen eine feste Verbindung bildet.",
+            "prompt": "Im dritten Semester ___ alle Studierenden ein sechsmonatiges Praktikum in einem Betrieb.",
+            "options": [
+              "absolvieren",
+              "belegen",
+              "erfüllen",
+              "bestehen"
+            ],
+            "solution": "absolvieren",
+            "hint": "Welches Verb bedeutet 'durchlaufen, bis zum Ende machen'?",
+            "explanation": "Ein Praktikum absolviert man (= macht es vollständig). Ein Praktikum besteht man nicht, und 'belegen' gilt für Kurse."
+          },
+          {
+            "id": "l33e05",
+            "type": "multiple-choice",
+            "instruction": "Wähle das Verb, das mit dem Nomen eine feste Verbindung bildet.",
+            "prompt": "In vielen Bundesländern wurden die Studiengebühren für das Erststudium wieder ___.",
+            "options": [
+              "abgeschafft",
+              "abgelegt",
+              "absolviert",
+              "bestanden"
+            ],
+            "solution": "abgeschafft",
+            "hint": "Gebühren, die es danach nicht mehr gibt …",
+            "explanation": "Gebühren schafft man ab (= beendet sie). 'abgelegt' gehört zu Prüfungen, 'absolviert' zu Praktika, 'bestanden' zu Prüfungen."
+          },
+          {
+            "id": "l33e06",
+            "type": "fill-in-blank",
+            "instruction": "Bilde aus dem Verb in Klammern das Nomen auf -tion.",
+            "prompt": "Die ___ der Projektergebnisse dauerte doppelt so lange wie geplant. (präsentieren)",
+            "solution": "Präsentation",
+            "hint": "Verben auf -ieren bilden oft ein Nomen auf -ation.",
+            "explanation": "präsentieren → die Präsentation: -ieren wird zu -ation. Formen wie 'Präsention' oder 'Präsentierung' gibt es nicht."
+          },
+          {
+            "id": "l33e07",
+            "type": "fill-in-blank",
+            "instruction": "Bilde aus dem Verb in Klammern das Nomen auf -tion.",
+            "prompt": "Ohne gute ___ zwischen Hochschule und Betrieb funktioniert ein duales Studium nicht. (kommunizieren)",
+            "solution": "Kommunikation",
+            "hint": "Achte auf den Konsonanten vor der Endung.",
+            "explanation": "kommunizieren → die Kommunikation: -zieren wird hier zu -kation, wie bei 'publizieren → Publikation'."
+          },
+          {
+            "id": "l33e08",
+            "type": "fill-in-blank",
+            "instruction": "Bilde aus dem Verb in Klammern das Nomen auf -sion.",
+            "prompt": "Nach einer langen ___ einigte sich der Fachschaftsrat auf einen Kompromiss. (diskutieren)",
+            "solution": "Diskussion",
+            "hint": "Hier endet das Nomen nicht auf -tion, sondern auf -sion.",
+            "explanation": "diskutieren → die Diskussion (mit ss). Nicht jedes -ieren-Verb bildet -tion; 'Diskutation' gibt es nicht."
+          },
+          {
+            "id": "l33e09",
+            "type": "fill-in-blank",
+            "instruction": "Bilde aus dem Verb in Klammern das Nomen auf -tion.",
+            "prompt": "Die ___ der Kursteilnehmenden auf den neuen Stundenplan war überwiegend positiv. (reagieren)",
+            "solution": "Reaktion",
+            "hint": "Der Stamm verändert sich: Aus -gier- wird ein anderer Laut.",
+            "explanation": "reagieren → die Reaktion: Der Stamm wechselt zu 'Reak-'. 'Reagation' oder 'Reagierung' sind falsch."
+          },
+          {
+            "id": "l33e10",
+            "type": "multiple-choice",
+            "instruction": "Mit welchem Satz eröffnet man eine Präsentation?",
+            "prompt": "Sie stehen vor Ihrem Publikum und beginnen gerade Ihren Vortrag.",
+            "options": [
+              "Das Thema meiner Präsentation ist die Finanzierung des Studiums.",
+              "Abschließend möchte ich mich für Ihr Interesse bedanken.",
+              "Ich komme nun zu meinem zweiten Punkt.",
+              "Darf ich kurz etwas hinzufügen?"
+            ],
+            "solution": "Das Thema meiner Präsentation ist die Finanzierung des Studiums.",
+            "hint": "Zuerst nennt man, worüber man spricht.",
+            "explanation": "Am Anfang nennt man das Thema. 'Abschließend' gehört zum Schluss, 'Ich komme nun zu …' zur Überleitung, 'hinzufügen' zur Diskussion."
+          },
+          {
+            "id": "l33e11",
+            "type": "multiple-choice",
+            "instruction": "Was sagen Sie höflich, aber bestimmt?",
+            "prompt": "In einer Diskussion unterbricht Sie jemand mitten im Satz.",
+            "options": [
+              "Lassen Sie mich bitte ausreden.",
+              "Darf ich kurz etwas hinzufügen?",
+              "Was meinen Sie dazu?",
+              "Ich komme nun zum nächsten Punkt."
+            ],
+            "solution": "Lassen Sie mich bitte ausreden.",
+            "hint": "Sie möchten Ihren Satz zu Ende sprechen.",
+            "explanation": "'ausreden' = zu Ende sprechen. 'hinzufügen' braucht man, wenn man selbst unterbricht; 'Was meinen Sie dazu?' fragt nach einer Meinung."
+          },
+          {
+            "id": "l33e12",
+            "type": "multiple-choice",
+            "instruction": "Welcher Satz passt?",
+            "prompt": "Ihre Kollegin spricht gerade über Stipendien. Sie möchten zu ihrem Punkt noch eine Information ergänzen.",
+            "options": [
+              "Darf ich kurz etwas hinzufügen?",
+              "Lassen Sie mich bitte ausreden.",
+              "Das Thema meiner Präsentation ist …",
+              "Vielen Dank für Ihre Aufmerksamkeit."
+            ],
+            "solution": "Darf ich kurz etwas hinzufügen?",
+            "hint": "Sie möchten etwas ergänzen – höflich fragen.",
+            "explanation": "'hinzufügen' = ergänzen; mit 'Darf ich kurz …?' fragt man höflich. Die anderen Sätze verteidigen das eigene Wort oder gehören in eine Präsentation."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l33m01",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Im ersten Semester'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "belegen",
+              "zu viele Kurse",
+              "Im ersten Semester",
+              "die meisten Studierenden"
+            ],
+            "solution": "Im ersten Semester belegen die meisten Studierenden zu viele Kurse.",
+            "hint": "Nach der Zeitangabe auf Position 1 folgt das Verb.",
+            "explanation": "'Im ersten Semester' steht auf Position 1, dann das Verb 'belegen', dann Subjekt und Akkusativobjekt: Kurse belegen."
+          },
+          {
+            "id": "l33m02",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Wer'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "bekommt",
+              "nicht erfüllt,",
+              "Wer",
+              "keinen Studienplatz",
+              "die Voraussetzungen"
+            ],
+            "solution": "Wer die Voraussetzungen nicht erfüllt, bekommt keinen Studienplatz.",
+            "hint": "Im wer-Satz steht das Verb am Ende; danach folgt direkt das Verb des Hauptsatzes.",
+            "explanation": "Voraussetzungen erfüllen: Im Relativsatz mit 'wer' steht 'erfüllt' am Ende, der Hauptsatz beginnt mit 'bekommt'."
+          },
+          {
+            "id": "l33m03",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Nach dem Bachelor'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "absolvieren",
+              "Lea",
+              "ein Praktikum im Ausland",
+              "möchte",
+              "Nach dem Bachelor"
+            ],
+            "solution": "Nach dem Bachelor möchte Lea ein Praktikum im Ausland absolvieren.",
+            "hint": "Modalverb auf Position 2, Infinitiv ans Ende.",
+            "explanation": "'möchte' steht auf Position 2, 'absolvieren' am Satzende. Die feste Verbindung lautet 'ein Praktikum absolvieren'."
+          },
+          {
+            "id": "l33m04",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz für eine Präsentation. Beginne mit 'Damit'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "übergehen",
+              "ich",
+              "zum nächsten Punkt",
+              "Damit",
+              "möchte"
+            ],
+            "solution": "Damit möchte ich zum nächsten Punkt übergehen.",
+            "hint": "'Damit' ist Position 1 – was kommt auf Position 2?",
+            "explanation": "'zu etwas übergehen' leitet zum nächsten Teil über. Nach 'Damit' folgt 'möchte', der Infinitiv 'übergehen' steht am Ende."
+          },
+          {
+            "id": "l33m05",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz für eine Präsentation. Beginne mit 'Besonders'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "ist",
+              "die hohe Zahl",
+              "Besonders hervorzuheben",
+              "an Praxisprojekten"
+            ],
+            "solution": "Besonders hervorzuheben ist die hohe Zahl an Praxisprojekten.",
+            "hint": "Nach der festen Wendung auf Position 1 folgt direkt das Verb 'ist'.",
+            "explanation": "'Besonders hervorzuheben ist …' = das muss man betonen (sein + zu-Infinitiv). 'an Praxisprojekten' gehört direkt zu 'die hohe Zahl'."
+          },
+          {
+            "id": "l33m06",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz für eine Präsentation. Beginne mit 'Zum Schluss'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "hinweisen",
+              "möchte",
+              "auf eine wichtige Frist",
+              "Zum Schluss",
+              "ich"
+            ],
+            "solution": "Zum Schluss möchte ich auf eine wichtige Frist hinweisen.",
+            "hint": "'hinweisen' braucht eine Präposition.",
+            "explanation": "'auf etwas hinweisen' (Akkusativ). Nach 'Zum Schluss' folgt das Modalverb, der Infinitiv 'hinweisen' steht am Ende."
+          },
+          {
+            "id": "l33m07",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz für eine Diskussion. Beginne mit 'Lassen Sie mich'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "antworten",
+              "bevor",
+              "Sie",
+              "ausreden,",
+              "bitte",
+              "Lassen Sie mich"
+            ],
+            "solution": "Lassen Sie mich bitte ausreden, bevor Sie antworten.",
+            "hint": "Nach 'lassen' steht ein Infinitiv ohne zu; im bevor-Satz steht das Verb am Ende.",
+            "explanation": "'Lassen Sie mich bitte ausreden' = ich möchte zu Ende sprechen. Im Nebensatz mit 'bevor' steht 'antworten' am Ende."
+          },
+          {
+            "id": "l33m08",
+            "type": "cloze-conjugation",
+            "instruction": "Bilde aus dem Nomen in Klammern das Verb und konjugiere es im Präsens.",
+            "prompt": "Seit dem Umbau ___ das WLAN in der Bibliothek endlich zuverlässig. (die Funktion)",
+            "solution": "funktioniert",
+            "hint": "Zum Nomen auf -tion gehört ein Verb auf -ieren.",
+            "explanation": "die Funktion → funktionieren; 3. Person Singular Präsens: 'es funktioniert'."
+          },
+          {
+            "id": "l33m09",
+            "type": "cloze-conjugation",
+            "instruction": "Bilde aus dem Nomen in Klammern das Verb und konjugiere es im Präteritum.",
+            "prompt": "Die Dozentin ___ ganz ruhig auf die kritische Frage aus dem Publikum. (die Reaktion)",
+            "solution": "reagierte",
+            "hint": "Der Stamm des Verbs lautet nicht 'reakt-'.",
+            "explanation": "die Reaktion → reagieren; regelmäßiges Präteritum: 'sie reagierte'. 'reaktierte' gibt es nicht."
+          },
+          {
+            "id": "l33m10",
+            "type": "cloze-conjugation",
+            "instruction": "Bilde aus dem Nomen in Klammern das Verb und konjugiere es im Präsens.",
+            "prompt": "Unsere Fachschaft ___ jedes Jahr ein Kennenlernwochenende für Erstsemester. (die Organisation)",
+            "solution": "organisiert",
+            "hint": "Verben auf -ieren sind im Präsens regelmäßig.",
+            "explanation": "die Organisation → organisieren; 3. Person Singular: 'sie organisiert'."
+          },
+          {
+            "id": "l33m11",
+            "type": "cloze-conjugation",
+            "instruction": "Bilde aus dem Nomen in Klammern das Verb und konjugiere es im Präteritum.",
+            "prompt": "Im Seminar ___ wir gestern zwei Stunden lang über die Zukunft der Lehre. (die Diskussion)",
+            "solution": "diskutierten",
+            "hint": "Das Verb endet auf -ieren; Präteritum Plural.",
+            "explanation": "die Diskussion → diskutieren; Präteritum 1. Person Plural: 'wir diskutierten'. Kein 'ge-' im Präteritum."
+          },
+          {
+            "id": "l33m12",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb in Klammern im Präteritum.",
+            "prompt": "Mein Bruder ___ seine letzte Prüfung mit der Note 1,3. (bestehen)",
+            "solution": "bestand",
+            "hint": "'bestehen' ist unregelmäßig – wie 'stehen'.",
+            "explanation": "bestehen – bestand – hat bestanden (wie stehen – stand). 'bestehte' ist falsch."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l33h01",
+            "type": "targeted-transformation",
+            "instruction": "Forme in Nominalstil um. Beginne mit 'Nach der'; der Hauptsatz bleibt unverändert.",
+            "prompt": "Nachdem die Ergebnisse präsentiert worden waren, begann die Diskussion.",
+            "solution": "Nach der Präsentation der Ergebnisse begann die Diskussion.",
+            "hint": "präsentieren → Nomen auf -tion; das Objekt wird zum Genitiv.",
+            "explanation": "präsentieren → die Präsentation; 'die Ergebnisse' wird Genitivattribut 'der Ergebnisse'. Kein Komma, danach direkt das Verb."
+          },
+          {
+            "id": "l33h02",
+            "type": "targeted-transformation",
+            "instruction": "Forme in Nominalstil um. Beginne mit 'Während der'; lass 'der Professor' weg, der Hauptsatz bleibt unverändert.",
+            "prompt": "Während der Professor die neue Methode demonstrierte, filmten die Studierenden alles.",
+            "solution": "Während der Demonstration der neuen Methode filmten die Studierenden alles.",
+            "hint": "demonstrieren → Nomen auf -tion; 'während' + Genitiv.",
+            "explanation": "demonstrieren → die Demonstration. 'während' verlangt den Genitiv: der Demonstration der neuen Methode."
+          },
+          {
+            "id": "l33h03",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze den um-zu-Satz durch 'zur' + Nomen auf -tion. Beginne mit 'Zur'; der Hauptsatz bleibt unverändert.",
+            "prompt": "Um die Erstsemester zu informieren, verschickt die Hochschule eine Broschüre.",
+            "solution": "Zur Information der Erstsemester verschickt die Hochschule eine Broschüre.",
+            "hint": "informieren → Nomen auf -tion; das Objekt wird zum Genitiv.",
+            "explanation": "informieren → die Information; 'zur' (= zu der) drückt den Zweck aus, 'die Erstsemester' wird Genitiv 'der Erstsemester'."
+          },
+          {
+            "id": "l33h04",
+            "type": "targeted-transformation",
+            "instruction": "Löse den Nominalstil auf. Beginne mit 'Wer sich' und verneine nur mit 'nicht'; im Hauptsatz fällt 'man' weg, sonst bleibt er gleich.",
+            "prompt": "Bei mangelnder Konzentration macht man schnell Fehler.",
+            "solution": "Wer sich nicht konzentriert, macht schnell Fehler.",
+            "hint": "Konzentration → reflexives Verb auf -ieren; 'mangelnd' wird zur Verneinung.",
+            "explanation": "die Konzentration → sich konzentrieren. 'mangelnde' wird zu 'nicht'; im wer-Satz steht das Verb am Ende."
+          },
+          {
+            "id": "l33h05",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze 'machen' durch das typische Verb der Nomen-Verb-Verbindung. Ändere nur ein Wort.",
+            "prompt": "Vor dem Masterstudium machen viele Bewerberinnen ein Praktikum in der Industrie.",
+            "solution": "Vor dem Masterstudium absolvieren viele Bewerberinnen ein Praktikum in der Industrie.",
+            "hint": "Welches Verb gehört im formellen Stil zu 'ein Praktikum'?",
+            "explanation": "Im formellen Stil sagt man 'ein Praktikum absolvieren'. 'machen' ist umgangssprachlich; 'belegen' gilt für Kurse."
+          },
+          {
+            "id": "l33h06",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze 'mache' durch die passende Form von 'ablegen'. Die übrigen Satzglieder bleiben in ihrer Reihenfolge.",
+            "prompt": "Morgen mache ich die mündliche Prüfung in Soziologie.",
+            "solution": "Morgen lege ich die mündliche Prüfung in Soziologie ab.",
+            "hint": "'ablegen' ist trennbar.",
+            "explanation": "'ablegen' ist trennbar: 'lege' steht auf Position 2, das Präfix 'ab' am Satzende."
+          },
+          {
+            "id": "l33h07",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Ändere nur ein Wort.",
+            "prompt": "Für den Master muss man bestimmte Voraussetzungen absolvieren.",
+            "solution": "Für den Master muss man bestimmte Voraussetzungen erfüllen.",
+            "hint": "Welches Verb gehört fest zu 'Voraussetzungen'?",
+            "explanation": "Voraussetzungen erfüllt man. 'absolvieren' passt zu Praktikum oder Studium, nicht zu Bedingungen."
+          },
+          {
+            "id": "l33h08",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Ändere nur ein Wort.",
+            "prompt": "Für das Seminar muss jede Gruppe eine kurze Präsention vorbereiten.",
+            "solution": "Für das Seminar muss jede Gruppe eine kurze Präsentation vorbereiten.",
+            "hint": "Prüfe die Endung des Nomens.",
+            "explanation": "präsentieren → die Präsentation: Die Silbe '-ta-' bleibt erhalten, '-ieren' wird zu '-ation'."
+          },
+          {
+            "id": "l33h09",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Ändere nur ein Wort.",
+            "prompt": "Die Diskutierung über die neue Prüfungsordnung dauerte bis spät in die Nacht.",
+            "solution": "Die Diskussion über die neue Prüfungsordnung dauerte bis spät in die Nacht.",
+            "hint": "Zu diesem -ieren-Verb gehört kein Nomen auf -ung.",
+            "explanation": "diskutieren → die Diskussion (Endung -sion). Ein Nomen auf -ung ('Diskutierung') gibt es nicht."
+          },
+          {
+            "id": "l33h10",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Ändere nur ein Wort.",
+            "prompt": "Besonders hervorheben ist, dass man das Studium berufsbegleitend absolvieren kann.",
+            "solution": "Besonders hervorzuheben ist, dass man das Studium berufsbegleitend absolvieren kann.",
+            "hint": "Nach 'ist' braucht man hier einen Infinitiv mit 'zu'.",
+            "explanation": "'sein + zu-Infinitiv' bedeutet 'muss/kann man': hervorzuheben. Bei trennbaren Verben steht 'zu' zwischen Präfix und Stamm."
+          },
+          {
+            "id": "l33h11",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Ändere nur ein Wort.",
+            "prompt": "Lassen Sie mir bitte ausreden!",
+            "solution": "Lassen Sie mich bitte ausreden!",
+            "hint": "Wen lässt man ausreden?",
+            "explanation": "'lassen' verlangt den Akkusativ: jemanden ausreden lassen → 'Lassen Sie mich …'. 'mir' ist Dativ."
+          },
+          {
+            "id": "l33h12",
+            "type": "targeted-transformation",
+            "instruction": "Mach aus dem Stichpunkt einen Überleitungssatz für die Präsentation. Beginne mit 'Ich komme nun zu'.",
+            "prompt": "Nächster Punkt: die Kosten des Fernstudiums",
+            "solution": "Ich komme nun zu den Kosten des Fernstudiums.",
+            "hint": "'zu' verlangt den Dativ.",
+            "explanation": "'zu etwas kommen' leitet zum nächsten Teil über. 'zu' + Dativ Plural: zu den Kosten."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l33t01",
+          "type": "multiple-choice",
+          "instruction": "Welches Verb passt in die Lücke?",
+          "prompt": "Mit 58 von 100 Punkten hat Lea die Statistikklausur leider nicht ___ – sie muss sie im Herbst wiederholen.",
+          "options": [
+            "bestanden",
+            "abgelegt",
+            "belegt",
+            "erworben"
+          ],
+          "solution": "bestanden",
+          "explanation": "Eine Prüfung bestehen = Erfolg haben. Lea hat die Klausur geschrieben (also abgelegt), aber zu wenige Punkte: Sie hat sie nicht bestanden."
+        },
+        {
+          "id": "l33t02",
+          "type": "multiple-choice",
+          "instruction": "Welches Verb passt in die Lücke?",
+          "prompt": "Erst wenn Malte alle Voraussetzungen ___, kann er sich für den Masterstudiengang bewerben.",
+          "options": [
+            "erfüllt",
+            "besteht",
+            "belegt",
+            "ablegt"
+          ],
+          "solution": "erfüllt",
+          "explanation": "Feste Verbindung: Voraussetzungen erfüllen. Bestehen passt zu Prüfungen, belegen zu Kursen, ablegen zu Prüfungen."
+        },
+        {
+          "id": "l33t03",
+          "type": "cloze-conjugation",
+          "instruction": "Setze das Verb in Klammern im Partizip II ein.",
+          "prompt": "Wie viele Module hast du in diesem Semester ___ (belegen)?",
+          "solution": "belegt",
+          "explanation": "Module/Kurse belegen = sich dafür anmelden. 'be-' ist untrennbar, daher kein ge-: belegt, nicht *gebelegt."
+        },
+        {
+          "id": "l33t04",
+          "type": "fill-in-blank",
+          "instruction": "Bilde aus dem Verb in Klammern das Nomen auf -tion/-sion. Schreibe es ohne Artikel.",
+          "prompt": "Die ___ (organisieren) der Exkursion nach Wien übernimmt in diesem Jahr die Fachschaft.",
+          "solution": "Organisation",
+          "explanation": "-ieren → -ation: organisieren → die Organisation. *Organisierung ist kein üblicher Standardbegriff."
+        },
+        {
+          "id": "l33t05",
+          "type": "multiple-choice",
+          "instruction": "Welches Verb passt in die Lücke?",
+          "prompt": "In der Videokonferenz redet ein Kollege einfach weiter. Sie sagen: „Moment, ich war noch nicht fertig. Lassen Sie mich bitte ___.“",
+          "options": [
+            "ausreden",
+            "hinzufügen",
+            "übergehen",
+            "hervorheben"
+          ],
+          "solution": "ausreden",
+          "explanation": "Wer unterbrochen wurde, verlangt das Rederecht zurück: jemanden ausreden lassen. 'Hinzufügen' will man selbst etwas, 'übergehen' gehört zu Überleitungen."
+        },
+        {
+          "id": "l33t06",
+          "type": "multiple-choice",
+          "instruction": "Welches Nomen gehört zum Verb „explodieren“?",
+          "prompt": "Wegen der ___ der Energiepreise hat das Studierendenwerk die Mensapreise erhöht.",
+          "options": [
+            "Explosion",
+            "Explodierung",
+            "Explodation",
+            "Explosition"
+          ],
+          "solution": "Explosion",
+          "explanation": "explodieren → die Explosion (Stamm ändert sich: d → s, Endung -sion). -ung und -ation sind hier falsch gebildet."
+        },
+        {
+          "id": "l33t07",
+          "type": "targeted-transformation",
+          "instruction": "Ersetze den Nebensatz durch „Nach der“ + Nomen auf -tion + „der neuen Software“. Der Hauptsatz bleibt unverändert.",
+          "prompt": "Nachdem der Techniker die neue Software installiert hatte, funktionierten die Laborrechner wieder.",
+          "solution": "Nach der Installation der neuen Software funktionierten die Laborrechner wieder.",
+          "explanation": "installieren → die Installation (-ieren → -ation); das Objekt wird zum Genitiv: der neuen Software. Nach dem Vorfeld folgt direkt das Verb."
+        },
+        {
+          "id": "l33t08",
+          "type": "cloze-conjugation",
+          "instruction": "Setze das Verb in Klammern im Präteritum ein.",
+          "prompt": "Im Jahr 2023 ___ (absolvieren) meine Schwester ein Auslandssemester in Lissabon.",
+          "solution": "absolvierte",
+          "explanation": "Verben auf -ieren sind regelmäßig: absolvieren → absolvierte (3. Pers. Sg.). Ein Semester/Praktikum absolvieren = erfolgreich durchlaufen."
+        },
+        {
+          "id": "l33t09",
+          "type": "cloze-conjugation",
+          "instruction": "Setze das Verb in Klammern im Partizip II ein.",
+          "prompt": "Hast du dich schon für das Sommersemester ___ (sich einschreiben)?",
+          "solution": "eingeschrieben",
+          "explanation": "einschreiben ist trennbar und unregelmäßig: ein-ge-schrieben. Das Reflexivpronomen 'dich' steht schon im Satz."
+        },
+        {
+          "id": "l33t10",
+          "type": "fill-in-blank",
+          "instruction": "Bilde aus dem Verb in Klammern das Nomen auf -tion/-sion. Schreibe es ohne Artikel.",
+          "prompt": "Die ___ (interpretieren) der Umfragedaten hat unser Team drei Wochen gekostet.",
+          "solution": "Interpretation",
+          "explanation": "interpretieren → die Interpretation: -ieren wird zu -ation. *Interpretierung ist unüblich."
+        },
+        {
+          "id": "l33t11",
+          "type": "error-correction",
+          "instruction": "Ein Nomen ist falsch gebildet. Korrigiere es. Ändere nur ein Wort.",
+          "prompt": "Die Produzion des Lehrvideos übernimmt das Medienzentrum der Hochschule.",
+          "solution": "Die Produktion des Lehrvideos übernimmt das Medienzentrum der Hochschule.",
+          "explanation": "produzieren → die Produktion: Der Stamm wechselt wie bei reagieren → Reaktion zu -k-. *Produzion übernimmt fälschlich den Verbstamm."
+        },
+        {
+          "id": "l33t12",
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler. Ändere nur ein Wort.",
+          "prompt": "Entschuldigung, darf ich kurz etwas hinzuzufügen?",
+          "solution": "Entschuldigung, darf ich kurz etwas hinzufügen?",
+          "explanation": "Nach Modalverben steht der Infinitiv ohne zu: darf ich … hinzufügen. 'hinzuzufügen' braucht ein Verb wie 'versuchen' oder 'vergessen'."
+        },
+        {
+          "id": "l33t13",
+          "type": "error-correction",
+          "instruction": "Ein Verb passt nicht zum Nomen. Ersetze es durch das Partizip II eines Verbs auf -ieren. Ändere nur ein Wort.",
+          "prompt": "Während ihres Studiums in Graz hat Mira ein Praktikum bei einem Verlag erfüllt.",
+          "solution": "Während ihres Studiums in Graz hat Mira ein Praktikum bei einem Verlag absolviert.",
+          "explanation": "Ein Praktikum absolviert man (Partizip: absolviert, ohne ge-). 'Erfüllen' passt zu Voraussetzungen oder Aufgaben, nicht zu einem Praktikum."
+        },
+        {
+          "id": "l33t14",
+          "type": "targeted-transformation",
+          "instruction": "Forme in ein Präsentations-Redemittel mit sein + zu-Infinitiv um. Beginne mit „Besonders hervorzuheben ist“.",
+          "prompt": "Man muss die enge Betreuung durch die Lehrenden besonders hervorheben.",
+          "solution": "Besonders hervorzuheben ist die enge Betreuung durch die Lehrenden.",
+          "explanation": "man muss + Infinitiv → sein + zu-Infinitiv. Bei trennbaren Verben steht zu nach dem Präfix: hervorzuheben; das Objekt wird Subjekt nach 'ist'."
+        },
+        {
+          "id": "l33t15",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Überleitungssatz für eine Präsentation. Beginne mit „Ich“.",
+          "prompt": "Baue den Satz aus den Satzgliedern.",
+          "scrambleChunks": [
+            "zum letzten Teil",
+            "komme",
+            "Ich",
+            "meiner Präsentation",
+            "nun"
+          ],
+          "solution": "Ich komme nun zum letzten Teil meiner Präsentation.",
+          "explanation": "Überleitung: 'Ich komme nun zu …' (zu + dem = zum). Der Genitiv 'meiner Präsentation' folgt direkt auf 'Teil'."
+        },
+        {
+          "id": "l33t16",
+          "type": "multiple-choice",
+          "instruction": "Was möchte die Person?",
+          "prompt": "Während eine Kommilitonin über Wohnheimplätze spricht, sagt Ihr Sitznachbar: „Darf ich kurz etwas hinzufügen?“",
+          "options": [
+            "Er möchte einen eigenen Gedanken ergänzen.",
+            "Er möchte, dass man ihn nicht unterbricht.",
+            "Er möchte zum nächsten Gliederungspunkt übergehen.",
+            "Er möchte das Thema der Präsentation nennen."
+          ],
+          "solution": "Er möchte einen eigenen Gedanken ergänzen.",
+          "explanation": "Mit 'Darf ich kurz etwas hinzufügen?' bittet man höflich ums Wort, um etwas zu ergänzen. Gegen Unterbrechung sagt man dagegen 'Lassen Sie mich bitte ausreden.'"
+        }
+      ]
+    }
+  ]
+}

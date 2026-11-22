@@ -1,0 +1,2478 @@
+{
+  "modulId": "b2-m8",
+  "level": "B2",
+  "modulNumber": 8,
+  "title": "Einfach menschlich",
+  "lektionen": [
+    {
+      "lektionId": "b2-m8-l22",
+      "level": "B2",
+      "modulNumber": 8,
+      "lektionNumber": 22,
+      "title": "Vielfalt im Betrieb",
+      "grammarFocus": [
+        "Nomen, Verben und Adjektive mit fester Präposition aus einer Wortfamilie (die Sorge um – sich sorgen um – besorgt um)",
+        "Wechsel von Präposition oder Kasus in der Wortfamilie (Vertrauen in + Akk. ↔ jdm. vertrauen ↔ vertraut mit; Begeisterung für ↔ begeistert von; Enttäuschung über ↔ enttäuscht von)",
+        "Verben mit Präposition im Satz (sich kümmern um, sich bemühen um, teilnehmen an, sich erinnern an)"
+      ],
+      "vocabulary": [
+        {
+          "id": "l22v01",
+          "term": "die Vielfalt",
+          "translation": "la diversidad",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Die Vielfalt der Sprachen in unserer Kantine überrascht jeden Besucher."
+        },
+        {
+          "id": "l22v02",
+          "term": "die Personalpolitik",
+          "translation": "la política de personal",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Eine faire Personalpolitik achtet nicht auf Alter oder Herkunft, sondern auf Kompetenz."
+        },
+        {
+          "id": "l22v03",
+          "term": "die Weltanschauung",
+          "translation": "la cosmovisión, la ideología",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Weltanschauungen",
+          "example": "Im Team arbeiten Menschen mit ganz unterschiedlichen Weltanschauungen gut zusammen."
+        },
+        {
+          "id": "l22v04",
+          "term": "die Bereicherung",
+          "translation": "el enriquecimiento",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Bereicherungen",
+          "example": "Die Praktikantin aus Chile war für unsere kleine Redaktion eine echte Bereicherung."
+        },
+        {
+          "id": "l22v05",
+          "term": "die Sorge",
+          "translation": "la preocupación",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Sorgen",
+          "example": "Die Sorge um ihre kranke Mutter machte ihr die Arbeit in dieser Zeit schwer."
+        },
+        {
+          "id": "l22v06",
+          "term": "die Begeisterung",
+          "translation": "el entusiasmo",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Mit großer Begeisterung erzählte der Azubi von seinem Auslandssemester."
+        },
+        {
+          "id": "l22v07",
+          "term": "die Enttäuschung",
+          "translation": "la decepción",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Enttäuschungen",
+          "example": "Die Absage war für den Bewerber eine große Enttäuschung."
+        },
+        {
+          "id": "l22v08",
+          "term": "die Neugier",
+          "translation": "la curiosidad",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Aus reiner Neugier probierte sie in der Mittagspause ein äthiopisches Gericht."
+        },
+        {
+          "id": "l22v09",
+          "term": "die Zufriedenheit",
+          "translation": "la satisfacción",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Eine jährliche Umfrage misst die Zufriedenheit der Belegschaft."
+        },
+        {
+          "id": "l22v10",
+          "term": "die Abhängigkeit",
+          "translation": "la dependencia",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Abhängigkeiten",
+          "example": "Die Firma will ihre Abhängigkeit von einem einzigen Lieferanten verringern."
+        },
+        {
+          "id": "l22v11",
+          "term": "der Neid",
+          "translation": "la envidia",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "example": "Statt Neid zeigte er ehrliche Freude über die Beförderung seiner Kollegin."
+        },
+        {
+          "id": "l22v12",
+          "term": "die Belegschaft",
+          "translation": "la plantilla (de personal)",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Belegschaften",
+          "example": "Die Belegschaft des Werks stammt aus mehr als zwanzig Ländern."
+        },
+        {
+          "id": "l22v13",
+          "term": "anstreben",
+          "translation": "aspirar a, perseguir (un objetivo)",
+          "partOfSpeech": "verb",
+          "preterite": "strebte an",
+          "participle": "angestrebt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Das Krankenhaus strebt einen höheren Anteil an Ärztinnen in Leitungspositionen an."
+        },
+        {
+          "id": "l22v14",
+          "term": "beinhalten",
+          "translation": "contener, incluir",
+          "partOfSpeech": "verb",
+          "preterite": "beinhaltete",
+          "participle": "beinhaltet",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Das Einarbeitungspaket beinhaltet auch einen Kurs zur interkulturellen Kommunikation."
+        },
+        {
+          "id": "l22v15",
+          "term": "fördern",
+          "translation": "fomentar, promover",
+          "partOfSpeech": "verb",
+          "preterite": "förderte",
+          "participle": "gefördert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Gemischte Teams fördern oft kreative Lösungen."
+        },
+        {
+          "id": "l22v16",
+          "term": "sich sorgen",
+          "translation": "preocuparse",
+          "partOfSpeech": "verb",
+          "preterite": "sorgte sich",
+          "participle": "sich gesorgt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Der Betriebsrat sorgt sich um die Zukunft der Teilzeitkräfte."
+        },
+        {
+          "id": "l22v17",
+          "term": "sich bemühen",
+          "translation": "esforzarse",
+          "partOfSpeech": "verb",
+          "preterite": "bemühte sich",
+          "participle": "sich bemüht",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Die Stadtverwaltung bemüht sich um mehr Auszubildende mit Migrationsgeschichte."
+        },
+        {
+          "id": "l22v18",
+          "term": "sich begeistern",
+          "translation": "entusiasmarse",
+          "partOfSpeech": "verb",
+          "preterite": "begeisterte sich",
+          "participle": "sich begeistert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Schon als Schüler begeisterte er sich für Robotik."
+        },
+        {
+          "id": "l22v19",
+          "term": "abhängen",
+          "translation": "depender",
+          "partOfSpeech": "verb",
+          "preterite": "hing ab",
+          "participle": "abgehangen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Ob wir den Auftrag bekommen, hängt vom Preis ab."
+        },
+        {
+          "id": "l22v20",
+          "term": "gewinnbringend",
+          "translation": "rentable, provechoso",
+          "partOfSpeech": "adjective",
+          "example": "Der Austausch zwischen Jung und Alt erwies sich für beide Seiten als gewinnbringend."
+        },
+        {
+          "id": "l22v21",
+          "term": "besorgt",
+          "translation": "preocupado",
+          "partOfSpeech": "adjective",
+          "example": "Die Eltern waren besorgt um ihren Sohn, der allein nach Kanada flog."
+        },
+        {
+          "id": "l22v22",
+          "term": "neugierig",
+          "translation": "curioso",
+          "partOfSpeech": "adjective",
+          "example": "Die Kinder waren neugierig auf den neuen Mitschüler aus Vietnam."
+        },
+        {
+          "id": "l22v23",
+          "term": "vielfältig",
+          "translation": "diverso, variado",
+          "partOfSpeech": "adjective",
+          "example": "Das Kulturzentrum bietet ein vielfältiges Programm für alle Generationen."
+        },
+        {
+          "id": "l22v24",
+          "term": "respektvoll",
+          "translation": "respetuoso",
+          "partOfSpeech": "adjective",
+          "example": "In der Diskussion gingen alle respektvoll miteinander um, obwohl sie sich nicht einig waren."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l22e01",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Präposition.",
+            "prompt": "Die ständige Sorge ___ ihren Arbeitsplatz raubt vielen Leiharbeitern den Schlaf.",
+            "options": [
+              "um",
+              "an",
+              "auf",
+              "mit"
+            ],
+            "solution": "um",
+            "hint": "Nomen, Verb und Adjektiv dieser Wortfamilie haben dieselbe Präposition.",
+            "explanation": "'die Sorge um' + Akk. – wie 'sich sorgen um' und 'besorgt um'. 'an', 'auf' und 'mit' gehören nicht zu dieser Wortfamilie."
+          },
+          {
+            "id": "l22e02",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Präposition.",
+            "prompt": "Die Auszubildenden waren sofort ___ dem Mentoring-Programm begeistert.",
+            "options": [
+              "von",
+              "für",
+              "an",
+              "mit"
+            ],
+            "solution": "von",
+            "hint": "Achtung: Beim Adjektiv wechselt die Präposition.",
+            "explanation": "'begeistert von' + Dat. Nur Nomen und Verb haben 'für': die Begeisterung für, sich begeistern für."
+          },
+          {
+            "id": "l22e03",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Präposition.",
+            "prompt": "Ihre Begeisterung ___ fremde Sprachen hat sie schließlich zur Dolmetscherin gemacht.",
+            "options": [
+              "für",
+              "von",
+              "an",
+              "mit"
+            ],
+            "solution": "für",
+            "hint": "Hier steht das Nomen, nicht das Adjektiv.",
+            "explanation": "'die Begeisterung für' + Akk. (wie 'sich begeistern für'). 'von' passt nur zum Adjektiv 'begeistert'."
+          },
+          {
+            "id": "l22e04",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Präposition.",
+            "prompt": "Nach der Fusion fehlte vielen Angestellten das Vertrauen ___ die neue Leitung.",
+            "options": [
+              "in",
+              "an",
+              "über",
+              "mit"
+            ],
+            "solution": "in",
+            "hint": "Das Nomen braucht eine Präposition mit Akkusativ.",
+            "explanation": "'das Vertrauen in' + Akk. Das Verb hat keine Präposition (jdm. vertrauen), das Adjektiv nimmt 'mit' (vertraut mit)."
+          },
+          {
+            "id": "l22e05",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Präposition.",
+            "prompt": "Neue Kolleginnen sind nach zwei Wochen meist schon ___ den internen Abläufen vertraut.",
+            "options": [
+              "mit",
+              "in",
+              "an",
+              "von"
+            ],
+            "solution": "mit",
+            "hint": "'vertraut' bedeutet hier: etwas gut kennen.",
+            "explanation": "'vertraut mit' + Dat. Anders als beim Nomen 'Vertrauen in' + Akk. wechseln hier Präposition und Kasus."
+          },
+          {
+            "id": "l22e06",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Präposition.",
+            "prompt": "Ehrlich gesagt bin ich ___ meinem Teamleiter enttäuscht. Er hat sein Versprechen nicht gehalten.",
+            "options": [
+              "von",
+              "an",
+              "für",
+              "mit"
+            ],
+            "solution": "von",
+            "hint": "Hier löst eine Person das Gefühl aus. Achte auf den Kasus nach der Lücke.",
+            "explanation": "Eine Person enttäuscht mich → 'enttäuscht von' + Dat. 'an', 'für' und 'mit' verbindet man nicht mit 'enttäuscht'."
+          },
+          {
+            "id": "l22e07",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze die Präposition.",
+            "prompt": "Die Enttäuschung ___ das Ergebnis der Mitarbeiterbefragung war in der ganzen Abteilung groß.",
+            "solution": "über",
+            "hint": "Beim Nomen ist es eine andere Präposition als beim Adjektiv 'enttäuscht von'.",
+            "explanation": "'die Enttäuschung über' + Akk. Das Nomen übernimmt nicht das 'von' des Adjektivs 'enttäuscht'."
+          },
+          {
+            "id": "l22e08",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze die Präposition.",
+            "prompt": "Unser Erfolg hängt stark ___ der Zusammenarbeit zwischen den Standorten ab.",
+            "solution": "von",
+            "hint": "Denke an das Adjektiv 'abhängig'.",
+            "explanation": "'abhängen von' + Dat., genau wie 'abhängig von' und 'die Abhängigkeit von'. Das Präfix 'ab' steht am Satzende."
+          },
+          {
+            "id": "l22e09",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze die Präposition.",
+            "prompt": "Die Geschäftsführung ist stolz ___ ihre Belegschaft aus über dreißig Nationen.",
+            "solution": "auf",
+            "hint": "Nach 'ihre Belegschaft' steht der Akkusativ.",
+            "explanation": "'stolz auf' + Akk. (auch: der Stolz auf). Ein Verb gibt es in dieser Wortfamilie nicht."
+          },
+          {
+            "id": "l22e10",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze die Präposition.",
+            "prompt": "Die meisten Beschäftigten sind sehr zufrieden ___ dem neuen Arbeitszeitmodell.",
+            "solution": "mit",
+            "hint": "Die Präposition verlangt hier den Dativ ('dem').",
+            "explanation": "'zufrieden mit' + Dat., ebenso 'die Zufriedenheit mit'. 'über' passt hier nicht zu 'zufrieden'."
+          },
+          {
+            "id": "l22e11",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Präposition.",
+            "prompt": "Am Montag fängt eine neue Kollegin aus Ghana an. Das ganze Team freut sich schon ___ sie.",
+            "options": [
+              "auf",
+              "über",
+              "an",
+              "für"
+            ],
+            "solution": "auf",
+            "hint": "Liegt das Ereignis in der Zukunft oder ist es schon passiert?",
+            "explanation": "'sich freuen auf' = auf etwas Zukünftiges. 'sich freuen über' gilt für etwas, das schon da ist oder passiert ist."
+          },
+          {
+            "id": "l22e12",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Präposition.",
+            "prompt": "Nach dem Workshop hatten viele Teilnehmende Lust ___ weitere interkulturelle Projekte.",
+            "options": [
+              "auf",
+              "an",
+              "für",
+              "über"
+            ],
+            "solution": "auf",
+            "hint": "Das Nomen 'Lust' hat eine eigene feste Präposition.",
+            "explanation": "'die Lust auf' + Akk. Man sagt nicht 'Lust an Projekte' oder 'Lust für Projekte'."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l22m01",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Die Personalchefin'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "um die Einarbeitung",
+              "sich",
+              "Die Personalchefin",
+              "der neuen Kolleginnen",
+              "kümmert"
+            ],
+            "solution": "Die Personalchefin kümmert sich um die Einarbeitung der neuen Kolleginnen.",
+            "hint": "Das Reflexivpronomen steht direkt nach dem Verb.",
+            "explanation": "'sich kümmern um' + Akk.: Verb auf Position 2, dann 'sich', dann die Präpositionalergänzung mit Genitivattribut."
+          },
+          {
+            "id": "l22m02",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Seit letztem Jahr'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "uns",
+              "um mehr Vielfalt in der Führungsebene",
+              "bemühen",
+              "Seit letztem Jahr",
+              "wir"
+            ],
+            "solution": "Seit letztem Jahr bemühen wir uns um mehr Vielfalt in der Führungsebene.",
+            "hint": "Nach der Zeitangabe im Vorfeld kommt das Verb, dann das Subjekt.",
+            "explanation": "Vorfeld 'Seit letztem Jahr', Verb 'bemühen' auf Position 2, dann 'wir uns'. 'sich bemühen um' + Akk."
+          },
+          {
+            "id": "l22m03",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz mit 'dass'-Satz. Beginne mit 'Wir freuen uns,'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "teilnehmen",
+              "dass so viele Beschäftigte",
+              "Wir freuen uns,",
+              "am Workshop"
+            ],
+            "solution": "Wir freuen uns, dass so viele Beschäftigte am Workshop teilnehmen.",
+            "hint": "Im Nebensatz steht das Verb am Ende – ungetrennt.",
+            "explanation": "Im dass-Satz steht 'teilnehmen' ungetrennt am Ende; 'am Workshop' (teilnehmen an + Dat.) steht davor."
+          },
+          {
+            "id": "l22m04",
+            "type": "sentence-scramble",
+            "instruction": "Bilde eine Ja/Nein-Frage.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "an das erste Treffen",
+              "dich",
+              "Erinnerst",
+              "des Diversity-Netzwerks",
+              "du"
+            ],
+            "solution": "Erinnerst du dich an das erste Treffen des Diversity-Netzwerks?",
+            "hint": "In der Ja/Nein-Frage steht das Verb auf Position 1.",
+            "explanation": "Verb zuerst, dann Subjekt 'du' und Reflexivpronomen 'dich'. 'sich erinnern an' + Akk. → 'an das erste Treffen'."
+          },
+          {
+            "id": "l22m05",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Die Abteilungsleiterin'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "sich",
+              "oft",
+              "Die Abteilungsleiterin",
+              "über Vorurteile gegenüber älteren Bewerbern",
+              "ärgert"
+            ],
+            "solution": "Die Abteilungsleiterin ärgert sich oft über Vorurteile gegenüber älteren Bewerbern.",
+            "hint": "Pronomen vor Angaben, Präpositionalergänzung ans Ende.",
+            "explanation": "'sich ärgern über' + Akk. Das Reflexivpronomen folgt dem Verb, die Angabe 'oft' steht vor der Präpositionalergänzung."
+          },
+          {
+            "id": "l22m06",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz mit indirekter Frage.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "entscheiden",
+              "sich",
+              "Ich weiß nicht,",
+              "für das neue Arbeitszeitmodell",
+              "ob",
+              "sie"
+            ],
+            "solution": "Ich weiß nicht, ob sie sich für das neue Arbeitszeitmodell entscheiden.",
+            "hint": "Im ob-Satz: Subjektpronomen, Reflexivpronomen, Ergänzung, Verb am Ende.",
+            "explanation": "'sich entscheiden für' + Akk. Im ob-Satz steht das Verb am Ende; 'sie sich' stehen direkt nach 'ob'."
+          },
+          {
+            "id": "l22m07",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze die richtige Verbform.",
+            "prompt": "Seit vielen Jahren ___ sich die Stiftung um die berufliche Integration junger Geflüchteter. (sich kümmern, Präsens)",
+            "solution": "kümmert",
+            "hint": "Subjekt ist 'die Stiftung' – Singular.",
+            "explanation": "3. Person Singular Präsens: 'kümmert'. 'sich' steht schon im Satz; 'kümmern um' + Akk. bleibt unverändert."
+          },
+          {
+            "id": "l22m08",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze die richtige Verbform. Das Präfix steht schon im Satz.",
+            "prompt": "Bei der letzten Betriebsversammlung ___ fast die ganze Belegschaft an der Abstimmung teil. (teilnehmen, Präteritum)",
+            "solution": "nahm",
+            "hint": "'teilnehmen' ist unregelmäßig und trennbar.",
+            "explanation": "teilnehmen – nahm teil – teilgenommen. Im Hauptsatz steht nur 'nahm' auf Position 2, 'teil' am Ende; Subjekt Singular."
+          },
+          {
+            "id": "l22m09",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze die richtige Verbform. Das Präfix steht schon im Satz.",
+            "prompt": "Der Erfolg eines gemischten Teams ___ vor allem von einer offenen Kommunikation ab. (abhängen, Präsens)",
+            "solution": "hängt",
+            "hint": "Trennbares Verb: Im Hauptsatz trennt sich 'ab'.",
+            "explanation": "abhängen – 3. Person Singular: 'hängt … ab'. 'abhängen von' + Dat.; das Präfix steht am Satzende."
+          },
+          {
+            "id": "l22m10",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze die richtige Verbform.",
+            "prompt": "Schon als Kind ___ sich meine Kollegin für fremde Kulturen und Sprachen. (sich begeistern, Präteritum)",
+            "solution": "begeisterte",
+            "hint": "Regelmäßiges Verb, Subjekt im Singular.",
+            "explanation": "begeistern – begeisterte – begeistert (regelmäßig). 3. Person Singular Präteritum: 'begeisterte'."
+          },
+          {
+            "id": "l22m11",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze die richtige Verbform.",
+            "prompt": "Du ___ dich wirklich über jede Kleinigkeit! Bleib doch mal gelassen. (sich ärgern, Präsens)",
+            "solution": "ärgerst",
+            "hint": "Subjekt ist 'du'.",
+            "explanation": "2. Person Singular Präsens: 'du ärgerst dich'. 'sich ärgern über' + Akk.; Endung -st."
+          },
+          {
+            "id": "l22m12",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze die richtige Verbform.",
+            "prompt": "Gestern ___ ich mich endlich wieder an den Namen der neuen Kollegin. (sich erinnern, Präteritum)",
+            "solution": "erinnerte",
+            "hint": "Regelmäßiges Verb, 1. Person Singular.",
+            "explanation": "erinnern – erinnerte – erinnert (regelmäßig). Im Präteritum hat die ich-Form dieselbe Endung wie er/sie: 'ich erinnerte mich an' + Akk."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l22h01",
+            "type": "targeted-transformation",
+            "instruction": "Forme mit dem Adjektiv 'besorgt' um. Beginne mit 'Die Gewerkschaft ist besorgt'; die Präpositionalergänzung steht nach dem Adjektiv.",
+            "prompt": "Die Gewerkschaft sorgt sich um die Arbeitsplätze der älteren Beschäftigten.",
+            "solution": "Die Gewerkschaft ist besorgt um die Arbeitsplätze der älteren Beschäftigten.",
+            "hint": "Verb und Adjektiv dieser Wortfamilie teilen die Präposition.",
+            "explanation": "'sich sorgen um' → 'besorgt sein um' + Akk. Die Präposition bleibt gleich, nur das Verb wird zu 'sein' + Adjektiv."
+          },
+          {
+            "id": "l22h02",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde zu einem Satz mit dem Nomen 'Begeisterung'. Beginne mit 'Ihre Begeisterung'.",
+            "prompt": "Sie begeistert sich für interkulturelle Projekte. Das ist ansteckend.",
+            "solution": "Ihre Begeisterung für interkulturelle Projekte ist ansteckend.",
+            "hint": "Das Nomen behält die Präposition des Verbs.",
+            "explanation": "'sich begeistern für' → 'die Begeisterung für' + Akk. Nicht 'von': Das gilt nur für das Adjektiv 'begeistert'."
+          },
+          {
+            "id": "l22h03",
+            "type": "targeted-transformation",
+            "instruction": "Forme mit dem Nomen 'Vertrauen' um. Beginne mit 'Die Beschäftigten haben Vertrauen' und verwende die Präposition 'in'.",
+            "prompt": "Die Beschäftigten vertrauen der neuen Geschäftsleitung.",
+            "solution": "Die Beschäftigten haben Vertrauen in die neue Geschäftsleitung.",
+            "hint": "Das Verb nimmt den Dativ, das Nomen eine Präposition mit Akkusativ.",
+            "explanation": "'jdm. vertrauen' (Dat.) → 'Vertrauen in' + Akk.: 'in die neue'. 'in der neuen' wäre Dativ und hier falsch."
+          },
+          {
+            "id": "l22h04",
+            "type": "targeted-transformation",
+            "instruction": "Forme ins Präsens mit 'enttäuscht sein von' um. Beginne mit 'Ich bin enttäuscht' und ziehe 'von dem' zu 'vom' zusammen.",
+            "prompt": "Der Ablauf des Workshops hat mich enttäuscht.",
+            "solution": "Ich bin enttäuscht vom Ablauf des Workshops.",
+            "hint": "Das Adjektiv hat eine andere Präposition als das Nomen 'Enttäuschung'.",
+            "explanation": "'jdn. enttäuschen' → 'enttäuscht sein von' + Dat. → 'vom Ablauf'. 'über' gehört zum Nomen 'die Enttäuschung über'."
+          },
+          {
+            "id": "l22h05",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze 'ist abhängig von' durch das Verb 'abhängen'. Die übrigen Satzglieder bleiben.",
+            "prompt": "Die Abteilung ist abhängig von externen Fachkräften.",
+            "solution": "Die Abteilung hängt von externen Fachkräften ab.",
+            "hint": "Das Verb ist trennbar.",
+            "explanation": "'abhängig sein von' → 'abhängen von' + Dat. Im Hauptsatz steht 'hängt' auf Position 2 und das Präfix 'ab' am Ende."
+          },
+          {
+            "id": "l22h06",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze 'die Entscheidung treffen für' durch 'sich entscheiden für'. Behalte das Präteritum und die übrigen Satzglieder.",
+            "prompt": "Der Vorstand traf die Entscheidung für ein anonymes Bewerbungsverfahren.",
+            "solution": "Der Vorstand entschied sich für ein anonymes Bewerbungsverfahren.",
+            "hint": "entscheiden ist unregelmäßig.",
+            "explanation": "entscheiden – entschied – entschieden. Nomen und Verb teilen die Präposition 'für' + Akk.; 'sich' folgt dem Verb."
+          },
+          {
+            "id": "l22h07",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Das Verb bleibt; passe auch den Kasus an.",
+            "prompt": "Viele Mitarbeitende interessieren sich an Sprachkursen in der Mittagspause.",
+            "solution": "Viele Mitarbeitende interessieren sich für Sprachkurse in der Mittagspause.",
+            "hint": "Das Verb hat eine andere Präposition als das Nomen 'Interesse'.",
+            "explanation": "'sich interessieren für' + Akk. → 'für Sprachkurse'. 'an' + Dat. gehört zum Nomen: 'das Interesse an'."
+          },
+          {
+            "id": "l22h08",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere die falsche Präposition. Ändere nur ein Wort.",
+            "prompt": "Die Teamleiterin ist sehr stolz über ihr vielfältiges Team.",
+            "solution": "Die Teamleiterin ist sehr stolz auf ihr vielfältiges Team.",
+            "hint": "'stolz' hat eine feste Präposition mit Akkusativ.",
+            "explanation": "Es heißt 'stolz auf' + Akk. 'über' passt zu 'sich freuen über', aber nicht zu 'stolz'."
+          },
+          {
+            "id": "l22h09",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Korrigiere Präposition und Artikel.",
+            "prompt": "Sein Neid an dem Erfolg der Kollegin war nicht zu übersehen.",
+            "solution": "Sein Neid auf den Erfolg der Kollegin war nicht zu übersehen.",
+            "hint": "Wie beim Adjektiv 'neidisch'.",
+            "explanation": "'der Neid auf' + Akk. (wie 'neidisch auf') → 'auf den Erfolg'. 'an' gehört z. B. zu 'das Interesse an'."
+          },
+          {
+            "id": "l22h10",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere die falsche Präposition. Ändere nur ein Wort.",
+            "prompt": "Nach drei Monaten ist Herr Okafor schon gut vertraut von den Abläufen im Lager.",
+            "solution": "Nach drei Monaten ist Herr Okafor schon gut vertraut mit den Abläufen im Lager.",
+            "hint": "'vertraut' im Sinn von 'gut kennen' nimmt den Dativ.",
+            "explanation": "'vertraut mit' + Dat. Das 'von' kommt von 'begeistert von' oder 'enttäuscht von' und passt hier nicht."
+          },
+          {
+            "id": "l22h11",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere die falsche Präposition. Verwende die typische Präposition des Adjektivs mit Dativ und ziehe sie mit dem Artikel zusammen.",
+            "prompt": "Wir sind sehr begeistert für das neue Mentoring-Programm.",
+            "solution": "Wir sind sehr begeistert vom neuen Mentoring-Programm.",
+            "hint": "Beim Adjektiv wechselt die Präposition – und damit der Kasus.",
+            "explanation": "'begeistert von' + Dat.: 'von dem' → 'vom neuen'. 'für' + Akk. gilt nur für Nomen und Verb: Begeisterung für, sich begeistern für."
+          },
+          {
+            "id": "l22h12",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Kasusfehler. Ändere nur ein Wort.",
+            "prompt": "Die Geschäftsleitung bemüht sich um einem respektvollen Umgang mit allen Beschäftigten.",
+            "solution": "Die Geschäftsleitung bemüht sich um einen respektvollen Umgang mit allen Beschäftigten.",
+            "hint": "Welchen Kasus verlangt 'um'?",
+            "explanation": "'um' verlangt immer den Akkusativ: 'sich bemühen um einen respektvollen Umgang'. 'einem' ist Dativ."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l22t01",
+          "type": "multiple-choice",
+          "instruction": "Wähle die passende Präposition.",
+          "prompt": "Der Neid der Nachbarn ___ das neue Ferienhaus am See wurde für die Familie mit der Zeit unerträglich.",
+          "options": [
+            "auf",
+            "an",
+            "für",
+            "um"
+          ],
+          "solution": "auf",
+          "explanation": "'der Neid' verlangt 'auf' + Akkusativ. 'an', 'für' oder 'um' passen nicht zu diesem Nomen."
+        },
+        {
+          "id": "l22t02",
+          "type": "multiple-choice",
+          "instruction": "Wähle die Präposition zum Adjektiv „besorgt“.",
+          "prompt": "Die Schwimmtrainerin ist sehr besorgt ___ die Sicherheit der Kinder am Badesee.",
+          "options": [
+            "um",
+            "auf",
+            "für",
+            "an"
+          ],
+          "solution": "um",
+          "explanation": "'besorgt' nimmt wie 'die Sorge' und 'sich sorgen' 'um' + Akkusativ. 'auf', 'für' und 'an' passen zu keiner Form dieser Wortfamilie."
+        },
+        {
+          "id": "l22t03",
+          "type": "multiple-choice",
+          "instruction": "Wähle die passende Präposition zum Nomen.",
+          "prompt": "Nach dem Datenleck sank das Vertrauen der Kunden ___ die Online-Bank deutlich.",
+          "options": [
+            "in",
+            "an",
+            "mit",
+            "über"
+          ],
+          "solution": "in",
+          "explanation": "Das Nomen 'das Vertrauen' steht mit 'in' + Akkusativ. 'mit' gehört zum Adjektiv 'vertraut mit', nicht zum Nomen."
+        },
+        {
+          "id": "l22t04",
+          "type": "multiple-choice",
+          "instruction": "Wähle die richtige Ergänzung zum Verb „vertrauen“.",
+          "prompt": "Die junge Imkerin vertraut ganz ___ Erfahrung ihres Großvaters.",
+          "options": [
+            "der",
+            "in die",
+            "mit der",
+            "an die"
+          ],
+          "solution": "der",
+          "explanation": "Das Verb 'jemandem/etwas vertrauen' steht mit Dativ ohne Präposition. 'in' gehört nur zum Nomen 'Vertrauen in'."
+        },
+        {
+          "id": "l22t05",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze die Präposition.",
+          "prompt": "Nur wer gut ___ den Gezeiten vertraut ist, sollte allein durchs Wattenmeer wandern.",
+          "solution": "mit",
+          "explanation": "Das Adjektiv 'vertraut' steht mit 'mit' + Dativ – anders als das Nomen 'Vertrauen in' und das Verb 'jemandem vertrauen'."
+        },
+        {
+          "id": "l22t06",
+          "type": "multiple-choice",
+          "instruction": "Wähle die passende Ergänzung zum Adjektiv.",
+          "prompt": "Schon nach den ersten Takten war das Publikum ___ jungen Pianistin begeistert.",
+          "options": [
+            "von der",
+            "für die",
+            "auf die",
+            "an der"
+          ],
+          "solution": "von der",
+          "explanation": "Das Adjektiv 'begeistert' steht mit 'von' + Dativ. 'für' gehört nur zu 'die Begeisterung' und 'sich begeistern'."
+        },
+        {
+          "id": "l22t07",
+          "type": "targeted-transformation",
+          "instruction": "Ersetze „ist begeistert von“ durch das Verb „sich begeistern“ im Präsens. Die übrigen Wörter bleiben.",
+          "prompt": "Meine Großmutter ist begeistert von Jazzmusik.",
+          "solution": "Meine Großmutter begeistert sich für Jazzmusik.",
+          "explanation": "Beim Wechsel zum Verb ändert sich die Präposition: begeistert von → sich begeistern für. 'sich begeistern von' ist falsch."
+        },
+        {
+          "id": "l22t08",
+          "type": "error-correction",
+          "instruction": "Korrigiere die Präposition und den Artikel. Der Rest bleibt gleich.",
+          "prompt": "Die Enttäuschung der Fans von der Niederlage im Pokalfinale war riesig.",
+          "solution": "Die Enttäuschung der Fans über die Niederlage im Pokalfinale war riesig.",
+          "explanation": "Das Nomen 'die Enttäuschung' verlangt 'über' + Akkusativ. 'von' gehört nur zum Adjektiv 'enttäuscht von'."
+        },
+        {
+          "id": "l22t09",
+          "type": "cloze-conjugation",
+          "instruction": "Ergänze das Verb im Präteritum.",
+          "prompt": "Nach dem Unfall ihres Vaters ___ sich die beiden Schwestern abwechselnd um seinen Garten. (sich kümmern, Präteritum)",
+          "solution": "kümmerten",
+          "explanation": "'sich kümmern um' ist regelmäßig; Subjekt 'die beiden Schwestern' ist Plural → 'kümmerten'."
+        },
+        {
+          "id": "l22t10",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze die Präposition.",
+          "prompt": "Die Zufriedenheit der Hotelgäste ___ dem neuen Frühstücksbuffet ist deutlich gestiegen.",
+          "solution": "mit",
+          "explanation": "'die Zufriedenheit' steht wie 'zufrieden' mit 'mit' + Dativ. 'über' passt hier nicht."
+        },
+        {
+          "id": "l22t11",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz. Beginne mit „Ich frage mich,“.",
+          "prompt": "Baue den Satz aus den Satzgliedern.",
+          "scrambleChunks": [
+            "um die Stelle",
+            "ob",
+            "Ich frage mich,",
+            "bemüht hat",
+            "sich",
+            "er"
+          ],
+          "solution": "Ich frage mich, ob er sich um die Stelle bemüht hat.",
+          "explanation": "'sich bemühen um' + Akkusativ. Im ob-Satz steht das Pronomen 'er' vor 'sich', das finite Verb steht am Ende."
+        },
+        {
+          "id": "l22t12",
+          "type": "multiple-choice",
+          "instruction": "Wähle die passende Präposition zum Verb.",
+          "prompt": "Seit ihrem Praktikum auf Helgoland interessiert sich Lea ___ Meeresbiologie.",
+          "options": [
+            "für",
+            "an",
+            "auf",
+            "über"
+          ],
+          "solution": "für",
+          "explanation": "Das Verb 'sich interessieren' steht mit 'für'. 'an' gehört zum Nomen 'das Interesse an'."
+        },
+        {
+          "id": "l22t13",
+          "type": "multiple-choice",
+          "instruction": "Wähle die passende Präposition.",
+          "prompt": "Die Kinder freuen sich schon jetzt ___ die Klassenfahrt im kommenden Juni.",
+          "options": [
+            "auf",
+            "über",
+            "an",
+            "um"
+          ],
+          "solution": "auf",
+          "explanation": "Bei etwas Zukünftigem heißt es 'sich freuen auf'. 'sich freuen über' gilt für etwas, das schon da ist oder schon passiert ist."
+        },
+        {
+          "id": "l22t14",
+          "type": "targeted-transformation",
+          "instruction": "Forme um mit „sein“ und dem Adjektiv „abhängig“. Beginne mit „Der Erfolg“ und setze „abhängig“ ans Satzende.",
+          "prompt": "Der Erfolg des Festivals hängt vom Wetter ab.",
+          "solution": "Der Erfolg des Festivals ist vom Wetter abhängig.",
+          "explanation": "abhängen von – abhängig von – die Abhängigkeit von: Die Präposition bleibt in der ganzen Wortfamilie 'von' + Dativ."
+        },
+        {
+          "id": "l22t15",
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler. Ändere nur ein Wort.",
+          "prompt": "Mehr als hundert Freiwillige nahmen bei der Aufräumaktion am Flussufer teil.",
+          "solution": "Mehr als hundert Freiwillige nahmen an der Aufräumaktion am Flussufer teil.",
+          "explanation": "'teilnehmen' verlangt 'an' + Dativ. 'bei' passt zu 'mitmachen bei', nicht zu 'teilnehmen'."
+        },
+        {
+          "id": "l22t16",
+          "type": "multiple-choice",
+          "instruction": "In welcher Reihe ist jede Präposition richtig?",
+          "prompt": "Nomen – Verb – Adjektiv derselben Wortfamilie:",
+          "options": [
+            "die Sorge um – sich sorgen um – besorgt um",
+            "die Begeisterung für – sich begeistern für – begeistert für",
+            "das Vertrauen in – vertrauen in – vertraut in",
+            "die Neugier auf – sich neugieren auf – neugierig auf"
+          ],
+          "solution": "die Sorge um – sich sorgen um – besorgt um",
+          "explanation": "Nur die Sorge-Familie behält 'um'. Es heißt 'begeistert von', 'jdm. vertrauen'/'vertraut mit'; ein Verb 'sich neugieren' gibt es nicht."
+        }
+      ]
+    },
+    {
+      "lektionId": "b2-m8-l23",
+      "level": "B2",
+      "modulNumber": 8,
+      "lektionNumber": 23,
+      "title": "Freundschaft",
+      "grammarFocus": [
+        "Verstärkende Adjektiv-Komposita (stinksauer, kerngesund, blitzschnell, bitterernst, hundemüde, kinderleicht)",
+        "Gefühle ausdrücken und angemessen reagieren (Ich bin echt erleichtert. – Das kann ich total nachvollziehen. – Mensch, das freut mich für dich. – Ach komm, das wird bestimmt wieder.)",
+        "Wortfamilie Freund und Beziehungsverben (befreundet sein mit, sich anfreunden mit, der Freundeskreis, freundschaftlich; jdm. begegnen, sich versöhnen mit, jdm. etwas verzeihen)"
+      ],
+      "vocabulary": [
+        {
+          "id": "l23v01",
+          "term": "die Freundschaft",
+          "translation": "la amistad",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Freundschaften",
+          "example": "Ihre Freundschaft hat schon drei Umzüge und zwei Länder überstanden."
+        },
+        {
+          "id": "l23v02",
+          "term": "der Freundeskreis",
+          "translation": "el círculo de amigos",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Freundeskreise",
+          "example": "In ihrem Freundeskreis wird jeder Geburtstag mit einem Picknick gefeiert."
+        },
+        {
+          "id": "l23v03",
+          "term": "befreundet",
+          "translation": "amigo/a (de)",
+          "partOfSpeech": "adjective",
+          "example": "Mit dem Bäcker an der Ecke ist mein Onkel seit der Schulzeit befreundet."
+        },
+        {
+          "id": "l23v04",
+          "term": "sich anfreunden",
+          "translation": "hacerse amigo/a (de)",
+          "partOfSpeech": "verb",
+          "preterite": "freundete sich an",
+          "participle": "sich angefreundet",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Beim Volleyball hat sich Noah schnell mit den anderen Spielern angefreundet."
+        },
+        {
+          "id": "l23v05",
+          "term": "freundschaftlich",
+          "translation": "amistoso / amigable",
+          "partOfSpeech": "adjective",
+          "example": "Trotz der Trennung haben die beiden ein freundschaftliches Verhältnis behalten."
+        },
+        {
+          "id": "l23v06",
+          "term": "sich versöhnen",
+          "translation": "reconciliarse",
+          "partOfSpeech": "verb",
+          "preterite": "versöhnte sich",
+          "participle": "sich versöhnt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Nach zwei Wochen Funkstille versöhnten sich die Zwillinge bei einer Tasse Kakao."
+        },
+        {
+          "id": "l23v07",
+          "term": "verzeihen",
+          "translation": "perdonar",
+          "partOfSpeech": "verb",
+          "preterite": "verzieh",
+          "participle": "verziehen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Kannst du mir verzeihen, dass ich deine Pflanzen vergessen habe?"
+        },
+        {
+          "id": "l23v08",
+          "term": "zusammenhalten",
+          "translation": "mantenerse unidos",
+          "partOfSpeech": "verb",
+          "preterite": "hielt zusammen",
+          "participle": "zusammengehalten",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Als das Dach undicht war, hielten alle Mieter zusammen und halfen einander."
+        },
+        {
+          "id": "l23v09",
+          "term": "geborgen",
+          "translation": "protegido / a salvo",
+          "partOfSpeech": "adjective",
+          "example": "Bei seiner Großmutter fühlte sich der Junge immer geborgen."
+        },
+        {
+          "id": "l23v10",
+          "term": "die Wertschätzung",
+          "translation": "el aprecio / la estima",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Ein ehrliches Dankeschön ist eine einfache Form der Wertschätzung."
+        },
+        {
+          "id": "l23v11",
+          "term": "die Geste",
+          "translation": "el gesto",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Gesten",
+          "example": "Die selbst gebackenen Kekse waren eine nette Geste nach dem Streit."
+        },
+        {
+          "id": "l23v12",
+          "term": "die Ehrlichkeit",
+          "translation": "la sinceridad / la honestidad",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Seine Ehrlichkeit war manchmal unbequem, aber man wusste bei ihm immer, woran man war."
+        },
+        {
+          "id": "l23v13",
+          "term": "die Nähe",
+          "translation": "la cercanía",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Durch die räumliche Nähe sahen sich die Nachbarskinder fast jeden Tag."
+        },
+        {
+          "id": "l23v14",
+          "term": "das Gleichgewicht",
+          "translation": "el equilibrio",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "example": "Auf dem schmalen Balken verlor die Turnerin kurz das Gleichgewicht."
+        },
+        {
+          "id": "l23v15",
+          "term": "äußern",
+          "translation": "expresar / manifestar",
+          "partOfSpeech": "verb",
+          "preterite": "äußerte",
+          "participle": "geäußert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Endlich äußerte Ben offen, was ihn schon lange störte."
+        },
+        {
+          "id": "l23v17",
+          "term": "sich beruhigen",
+          "translation": "calmarse",
+          "partOfSpeech": "verb",
+          "preterite": "beruhigte sich",
+          "participle": "sich beruhigt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Erst nach einem langen Spaziergang beruhigte sich Svenja wieder."
+        },
+        {
+          "id": "l23v18",
+          "term": "erleichtert",
+          "translation": "aliviado",
+          "partOfSpeech": "adjective",
+          "example": "Als der Zug doch noch kam, waren alle Reisenden sichtlich erleichtert."
+        },
+        {
+          "id": "l23v19",
+          "term": "stinksauer",
+          "translation": "muy enfadado / furioso",
+          "partOfSpeech": "adjective",
+          "example": "Weil der Handwerker zum dritten Mal nicht kam, war meine Mutter stinksauer."
+        },
+        {
+          "id": "l23v20",
+          "term": "kerngesund",
+          "translation": "sano como una manzana",
+          "partOfSpeech": "adjective",
+          "example": "Trotz seiner 85 Jahre ist der alte Fischer kerngesund."
+        },
+        {
+          "id": "l23v21",
+          "term": "hundemüde",
+          "translation": "muerto de cansancio",
+          "partOfSpeech": "adjective",
+          "example": "Nach dem Nachtflug kamen wir hundemüde im Hotel an."
+        },
+        {
+          "id": "l23v22",
+          "term": "kinderleicht",
+          "translation": "facilísimo / pan comido",
+          "partOfSpeech": "adjective",
+          "example": "Mit dieser App ist das Bezahlen im Bus kinderleicht."
+        },
+        {
+          "id": "l23v23",
+          "term": "blitzschnell",
+          "translation": "rapidísimo / como un rayo",
+          "partOfSpeech": "adjective",
+          "example": "Die Katze sprang blitzschnell vom Tisch, als die Tür aufging."
+        },
+        {
+          "id": "l23v24",
+          "term": "bitterernst",
+          "translation": "muy serio / totalmente en serio",
+          "partOfSpeech": "adjective",
+          "example": "Was als Witz begann, wurde für die beiden plötzlich bitterernst."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l23e01",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Reaktion.",
+            "prompt": "Dein Mitbewohner ruft: „Ich habe die Zusage für das Stipendium bekommen!“",
+            "options": [
+              "Ach komm, das wird bestimmt wieder.",
+              "Mensch, das freut mich für dich!",
+              "Jetzt beruhige dich erst mal.",
+              "Das macht mich ganz schön traurig."
+            ],
+            "solution": "Mensch, das freut mich für dich!",
+            "hint": "Er teilt eine gute Nachricht mit. Welche Reaktion zeigt Mitfreude?",
+            "explanation": "Auf eine gute Nachricht reagiert man mit Mitfreude. Trösten („wird bestimmt wieder“) oder Beruhigen passt nur bei Ärger oder Kummer."
+          },
+          {
+            "id": "l23e02",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Reaktion.",
+            "prompt": "Deine Schwester schimpft: „Der Nachbar hat schon wieder vor unserer Garage geparkt!“",
+            "options": [
+              "Das klingt ja toll.",
+              "Mensch, das freut mich für dich.",
+              "Jetzt beruhige dich erst mal.",
+              "Ich bin echt erleichtert."
+            ],
+            "solution": "Jetzt beruhige dich erst mal.",
+            "hint": "Sie ist wütend. Wie reagiert man auf Ärger?",
+            "explanation": "Auf Wut reagiert man beschwichtigend: „Jetzt beruhige dich erst mal.“ Die anderen Sätze drücken Freude oder Erleichterung aus und passen nicht."
+          },
+          {
+            "id": "l23e03",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Reaktion.",
+            "prompt": "Ein Freund erzählt traurig, dass sein Hund seit gestern krank ist.",
+            "options": [
+              "Ach komm, das wird bestimmt wieder.",
+              "Das klingt ja toll.",
+              "Ich freue mich riesig.",
+              "Ich bin richtig sauer."
+            ],
+            "solution": "Ach komm, das wird bestimmt wieder.",
+            "hint": "Er ist traurig und besorgt. Wie tröstet man?",
+            "explanation": "„Ach komm, das wird bestimmt wieder“ tröstet und macht Hoffnung. Die anderen Sätze zeigen Freude oder Ärger – unpassend bei Kummer."
+          },
+          {
+            "id": "l23e04",
+            "type": "multiple-choice",
+            "instruction": "Wähle den Satz, der das Gefühl ausdrückt.",
+            "prompt": "Die Ärztin sagt dir nach der Untersuchung, dass alles in Ordnung ist. Was sagst du danach zu deinem Partner?",
+            "options": [
+              "Ich bin richtig sauer.",
+              "Ich bin echt erleichtert.",
+              "Das macht mich ganz schön traurig.",
+              "Ich bin total enttäuscht."
+            ],
+            "solution": "Ich bin echt erleichtert.",
+            "hint": "Eine Sorge ist weg. Wie heißt dieses Gefühl?",
+            "explanation": "Wenn eine Sorge wegfällt, ist man erleichtert. Ärger, Traurigkeit oder Enttäuschung passen nicht zu einer guten Nachricht."
+          },
+          {
+            "id": "l23e05",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Kompositum.",
+            "prompt": "Nach der Doppelschicht im Krankenhaus war Tarek ___ und schlief sofort ein.",
+            "options": [
+              "kerngesund",
+              "hundemüde",
+              "blitzschnell",
+              "stinksauer"
+            ],
+            "solution": "hundemüde",
+            "hint": "Wer sofort einschläft, ist sehr …?",
+            "explanation": "„hundemüde“ = sehr müde. „kerngesund“ (sehr gesund), „blitzschnell“ (sehr schnell) und „stinksauer“ (sehr wütend) passen nicht zum Einschlafen."
+          },
+          {
+            "id": "l23e06",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Kompositum.",
+            "prompt": "Die Anleitung für das Regal ist ___ – das schafft sogar mein zehnjähriger Neffe.",
+            "options": [
+              "bitterernst",
+              "kinderleicht",
+              "kreidebleich",
+              "butterweich"
+            ],
+            "solution": "kinderleicht",
+            "hint": "Wenn es sogar ein Kind schafft, ist es …?",
+            "explanation": "„kinderleicht“ = sehr leicht, so einfach, dass es ein Kind kann. „bitterernst“, „kreidebleich“ und „butterweich“ haben eine andere Bedeutung."
+          },
+          {
+            "id": "l23e07",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Kompositum.",
+            "prompt": "Nach dem Gesundheitscheck sagte der Arzt zu meinem Großvater: „Sie sind ___.“",
+            "options": [
+              "kerngesund",
+              "tieftraurig",
+              "hundemüde",
+              "strohdumm"
+            ],
+            "solution": "kerngesund",
+            "hint": "Der Check-up war ohne Befund.",
+            "explanation": "„kerngesund“ = durch und durch gesund (Kern + gesund). Die anderen Komposita verstärken ganz andere Eigenschaften."
+          },
+          {
+            "id": "l23e08",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das verstärkende Kompositum: „stink-“ + das umgangssprachliche Adjektiv für „verärgert“, das auch „nicht süß“ bedeutet. Schreibe es als ein Wort.",
+            "prompt": "Weil Jonas ihren Geburtstag vergessen hatte, war Mia ___.",
+            "solution": "stinksauer",
+            "hint": "Zitronen schmecken …",
+            "explanation": "„stinksauer“ (stinken + sauer) = sehr wütend. Komposita schreibt man zusammen und klein; prädikativ nach „sein“ ohne Endung."
+          },
+          {
+            "id": "l23e09",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze ein Adjektiv aus der Wortfamilie „Freund“ (befreundet / freundlich / freundschaftlich).",
+            "prompt": "Lara und Ines sind seit der Grundschule eng miteinander ___.",
+            "solution": "befreundet",
+            "hint": "Welches Adjektiv steht in „mit jemandem … sein“?",
+            "explanation": "„mit jdm. befreundet sein“ = eine Freundschaft haben. „freundlich“ heißt nett im Umgang, „freundschaftlich“ beschreibt Art oder Verhältnis."
+          },
+          {
+            "id": "l23e10",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze die Präposition.",
+            "prompt": "Im Sprachkurs hat sich Paolo schnell ___ seiner Sitznachbarin angefreundet.",
+            "solution": "mit",
+            "hint": "„sich anfreunden“ + Präposition + Dativ.",
+            "explanation": "„sich anfreunden mit“ + Dativ („seiner Sitznachbarin“). „an“ oder „zu“ passen nicht zu diesem Verb."
+          },
+          {
+            "id": "l23e11",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Verb.",
+            "prompt": "Nach dem Streit über das Erbe haben sich die beiden Brüder endlich wieder miteinander ___.",
+            "options": [
+              "geäußert",
+              "versöhnt",
+              "begegnet",
+              "verziehen"
+            ],
+            "solution": "versöhnt",
+            "hint": "Nach einem Streit wieder Frieden schließen = sich …",
+            "explanation": "„sich (mit jdm.) versöhnen“ = nach einem Streit Frieden schließen. „sich äußern“ heißt etwas sagen, „jdm. verzeihen“ ist nicht reflexiv, „begegnen“ braucht „sein“."
+          },
+          {
+            "id": "l23e12",
+            "type": "multiple-choice",
+            "instruction": "Wähle die richtige Präteritumform von „verzeihen“.",
+            "prompt": "Obwohl sie lange gekränkt war, ___ Hanna ihrer Freundin die harten Worte schließlich.",
+            "options": [
+              "verzeihte",
+              "verzog",
+              "verzieh",
+              "verziehen"
+            ],
+            "solution": "verzieh",
+            "hint": "verzeihen ist ein starkes Verb (wie „leihen“).",
+            "explanation": "verzeihen – verzieh – hat verziehen. „verzeihte“ ist eine falsche schwache Form, „verzog“ gehört zu „verziehen“, „verziehen“ ist das Partizip."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l23m01",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Hilfsverb im Perfekt.",
+            "prompt": "Gestern ___ ich zufällig meiner alten Mathelehrerin im Baumarkt begegnet. (Hilfsverb, Perfekt)",
+            "solution": "bin",
+            "hint": "„begegnen“ drückt ein Geschehen aus, das einem passiert.",
+            "explanation": "„begegnen“ bildet das Perfekt mit „sein“: ich bin begegnet. „habe“ ist falsch, auch wenn das Verb ein Dativobjekt hat."
+          },
+          {
+            "id": "l23m02",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Partizip II.",
+            "prompt": "Nach drei Monaten Schweigen hat Ben seinem Bruder die Lüge endlich ___. (verzeihen)",
+            "solution": "verziehen",
+            "hint": "starkes Verb: verzeihen – verzieh – …",
+            "explanation": "verzeihen – verzieh – verziehen. Das Partizip endet auf -en, nicht auf -t: „verzeiht“ wäre eine Präsensform."
+          },
+          {
+            "id": "l23m03",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb im Präteritum.",
+            "prompt": "Auf der Klassenfahrt ___ sich Nils mit einem Jungen aus der Parallelklasse an. (sich anfreunden, Präteritum)",
+            "solution": "freundete",
+            "hint": "Trennbares Verb: Das Präfix steht schon am Satzende.",
+            "explanation": "„sich anfreunden“ ist regelmäßig und trennbar: Er freundete sich … an. In die Lücke gehört nur der konjugierte Teil „freundete“."
+          },
+          {
+            "id": "l23m04",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb im Präsens.",
+            "prompt": "In schwierigen Zeiten ___ unsere Familie immer fest zusammen. (zusammenhalten, Präsens)",
+            "solution": "hält",
+            "hint": "Starkes Verb mit Vokalwechsel in der 3. Person Singular.",
+            "explanation": "halten: er/sie hält (a → ä). Subjekt ist „unsere Familie“ (Singular), daher nicht „halten“; „zusammen“ steht am Satzende."
+          },
+          {
+            "id": "l23m05",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb im Präteritum.",
+            "prompt": "Damals ___ niemand in der Familie ihre Entscheidung nach. (nachvollziehen, Präteritum)",
+            "solution": "vollzog",
+            "hint": "Trennbar und unregelmäßig: ziehen – zog.",
+            "explanation": "nachvollziehen – vollzog nach – nachvollzogen. Das Präfix „nach“ steht am Ende, in die Lücke gehört „vollzog“, nicht „vollziehte“."
+          },
+          {
+            "id": "l23m06",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Kompositum mit der richtigen Adjektivendung.",
+            "prompt": "Für die erste Runde des Quiz bekamen wir eine ___ Frage. (kinderleicht)",
+            "solution": "kinderleichte",
+            "hint": "Attributiv: Endung nach unbestimmtem Artikel, Akkusativ feminin.",
+            "explanation": "Auch Komposita werden vor dem Nomen dekliniert: eine kinderleichte Frage (Akk. fem. nach „eine“ → -e)."
+          },
+          {
+            "id": "l23m07",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Kompositum mit der richtigen Adjektivendung.",
+            "prompt": "Mit ___ Stimme erklärte der Schiedsrichter die neuen Regeln. (bitterernst)",
+            "solution": "bitterernster",
+            "hint": "Kein Artikel, Präposition „mit“ + Dativ feminin.",
+            "explanation": "Ohne Artikel zeigt das Adjektiv selbst den Kasus: mit + Dativ fem. → starke Endung -er (wie „der“). „bitterernste“ ist hier falsch."
+          },
+          {
+            "id": "l23m08",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit „Seit dem Studium“.",
+            "prompt": "Ordne die Satzteile.",
+            "solution": "Seit dem Studium ist Clara mit zwei Kommilitoninnen eng befreundet.",
+            "hint": "Verb auf Position 2, „befreundet“ ans Satzende.",
+            "explanation": "„mit jdm. befreundet sein“: „ist“ auf Position 2, Subjekt danach, die Ergänzung mit „mit“ + Dativ, „eng befreundet“ am Ende.",
+            "scrambleChunks": [
+              "eng befreundet",
+              "Clara",
+              "Seit dem Studium",
+              "mit zwei Kommilitoninnen",
+              "ist"
+            ]
+          },
+          {
+            "id": "l23m09",
+            "type": "sentence-scramble",
+            "instruction": "Bilde eine verständnisvolle Reaktion. Beginne mit „Ich“.",
+            "prompt": "Ordne die Satzteile.",
+            "solution": "Ich kann total nachvollziehen, dass du enttäuscht bist.",
+            "hint": "Modalverb auf Position 2, im dass-Satz steht das Verb am Ende.",
+            "explanation": "Hauptsatz: „kann“ auf Position 2, Infinitiv am Ende. Im dass-Satz steht das konjugierte Verb „bist“ ganz hinten.",
+            "scrambleChunks": [
+              "dass du enttäuscht",
+              "Ich",
+              "total nachvollziehen,",
+              "bist",
+              "kann"
+            ]
+          },
+          {
+            "id": "l23m10",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit „Nach dem Streit“.",
+            "prompt": "Ordne die Satzteile.",
+            "solution": "Nach dem Streit hat sie sich mit ihrer Schwester versöhnt.",
+            "hint": "Perfekt: Hilfsverb auf Position 2, Partizip ans Ende.",
+            "explanation": "„sich versöhnen mit“ + Dativ, Perfekt mit „haben“: hat … versöhnt. Pronomen „sie sich“ stehen direkt nach dem Verb.",
+            "scrambleChunks": [
+              "versöhnt",
+              "mit ihrer Schwester",
+              "Nach dem Streit",
+              "sie sich",
+              "hat"
+            ]
+          },
+          {
+            "id": "l23m11",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit „Als Lea“.",
+            "prompt": "Ordne die Satzteile.",
+            "solution": "Als Lea die Nachricht hörte, wurde sie kreidebleich.",
+            "hint": "Erst der als-Nebensatz (Verb am Ende), dann Verb – Subjekt.",
+            "explanation": "Nach dem Nebensatz folgt sofort das Verb des Hauptsatzes („wurde“), dann das Subjekt. „kreidebleich“ (= sehr blass) steht als Prädikativ am Ende.",
+            "scrambleChunks": [
+              "wurde",
+              "kreidebleich",
+              "Als Lea",
+              "hörte,",
+              "sie",
+              "die Nachricht"
+            ]
+          },
+          {
+            "id": "l23m12",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit „Echte Freunde“.",
+            "prompt": "Ordne die Satzteile.",
+            "solution": "Echte Freunde erkennt man daran, dass sie auch in schweren Zeiten zusammenhalten.",
+            "hint": "Im dass-Satz steht das trennbare Verb ungetrennt am Ende.",
+            "explanation": "Im Nebensatz wird „zusammenhalten“ nicht getrennt und steht am Ende. „Echte Freunde“ ist hier Akkusativobjekt im Vorfeld.",
+            "scrambleChunks": [
+              "auch in schweren Zeiten",
+              "Echte Freunde",
+              "dass sie",
+              "zusammenhalten",
+              "daran,",
+              "erkennt man"
+            ]
+          }
+        ],
+        "hard": [
+          {
+            "id": "l23h01",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze „sehr schnell“ durch ein verstärkendes Kompositum (Blitz + Adjektiv). Alles andere bleibt unverändert.",
+            "prompt": "Der Kellner brachte uns sehr schnell die Rechnung.",
+            "solution": "Der Kellner brachte uns blitzschnell die Rechnung.",
+            "hint": "Nomen + Adjektiv, als ein Wort geschrieben.",
+            "explanation": "„blitzschnell“ = so schnell wie ein Blitz. Das Kompositum ersetzt „sehr + Adjektiv“ und wird zusammengeschrieben."
+          },
+          {
+            "id": "l23h02",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze „sehr müde“ durch ein verstärkendes Kompositum (Tier + Adjektiv). Alles andere bleibt unverändert.",
+            "prompt": "Nach dem Umzug in den vierten Stock waren alle sehr müde.",
+            "solution": "Nach dem Umzug in den vierten Stock waren alle hundemüde.",
+            "hint": "Welches Haustier verstärkt „müde“?",
+            "explanation": "„hundemüde“ (Hund + müde) = sehr müde. Prädikativ nach „sein“ bleibt das Kompositum ohne Endung."
+          },
+          {
+            "id": "l23h03",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze „sehr ernste“ durch ein Kompositum mit „bitter-“. Achte auf die Endung; alles andere bleibt.",
+            "prompt": "Am Abend führten wir eine sehr ernste Diskussion über unsere Zukunft.",
+            "solution": "Am Abend führten wir eine bitterernste Diskussion über unsere Zukunft.",
+            "hint": "Die Endung von „ernste“ bleibt erhalten.",
+            "explanation": "Das Kompositum „bitterernst“ übernimmt die Endung des Adjektivs: eine bitterernste Diskussion (Akk. fem.)."
+          },
+          {
+            "id": "l23h04",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze „sehr gesunder“ durch ein Kompositum mit „kern-“. Alles andere bleibt unverändert.",
+            "prompt": "Mein Opa ist mit 90 Jahren noch ein sehr gesunder Mann.",
+            "solution": "Mein Opa ist mit 90 Jahren noch ein kerngesunder Mann.",
+            "hint": "Die Endung -er nach „ein“ bleibt.",
+            "explanation": "„kerngesund“ wird vor dem Nomen dekliniert wie „gesund“: ein kerngesunder Mann (Nom. mask. nach „ein“ → -er)."
+          },
+          {
+            "id": "l23h05",
+            "type": "error-correction",
+            "instruction": "Korrigiere die Schreibung des Kompositums.",
+            "prompt": "Im August sind die Tomaten in unserem Garten endlich feuer rot.",
+            "solution": "Im August sind die Tomaten in unserem Garten endlich feuerrot.",
+            "hint": "Wie schreibt man verstärkende Komposita?",
+            "explanation": "Verstärkende Komposita schreibt man zusammen und klein: „feuerrot“ (Feuer + rot), nicht getrennt."
+          },
+          {
+            "id": "l23h06",
+            "type": "error-correction",
+            "instruction": "Korrigiere den Fehler beim Adjektiv. Ändere nur ein Wort.",
+            "prompt": "Als wir endlich zum Essen kamen, war die Suppe schon eiskalte.",
+            "solution": "Als wir endlich zum Essen kamen, war die Suppe schon eiskalt.",
+            "hint": "Steht das Adjektiv vor einem Nomen?",
+            "explanation": "Nach „sein“ (prädikativ) hat das Adjektiv keine Endung: Die Suppe war eiskalt. Eine Endung gibt es nur vor dem Nomen (die eiskalte Suppe)."
+          },
+          {
+            "id": "l23h07",
+            "type": "error-correction",
+            "instruction": "Der Satz enthält zwei Fehler (Hilfsverb und Kasus). Korrigiere sie; die Wortstellung bleibt.",
+            "prompt": "Im Urlaub haben wir zufällig unsere Nachbarn begegnet.",
+            "solution": "Im Urlaub sind wir zufällig unseren Nachbarn begegnet.",
+            "hint": "„begegnen“: welches Hilfsverb, welcher Kasus?",
+            "explanation": "„jdm. begegnen“ verlangt den Dativ (unseren Nachbarn) und bildet das Perfekt mit „sein“. „haben“ und Akkusativ sind falsch."
+          },
+          {
+            "id": "l23h08",
+            "type": "error-correction",
+            "instruction": "Korrigiere die falsche Präposition und den Kasus.",
+            "prompt": "Paula hat sich schnell auf ihre neue Kollegin angefreundet.",
+            "solution": "Paula hat sich schnell mit ihrer neuen Kollegin angefreundet.",
+            "hint": "sich anfreunden + ? + Dativ",
+            "explanation": "„sich anfreunden mit“ + Dativ: mit ihrer neuen Kollegin. „auf“ + Akkusativ gehört zu Verben wie „sich freuen auf“."
+          },
+          {
+            "id": "l23h09",
+            "type": "error-correction",
+            "instruction": "Korrigiere die falsche Verbform.",
+            "prompt": "Sie hat ihm den vergessenen Hochzeitstag nie verzeiht.",
+            "solution": "Sie hat ihm den vergessenen Hochzeitstag nie verziehen.",
+            "hint": "Ist „verzeihen“ regelmäßig?",
+            "explanation": "verzeihen ist stark: verzeihen – verzieh – verziehen. Die schwache Endung -t („verzeiht“) ist hier falsch."
+          },
+          {
+            "id": "l23h10",
+            "type": "targeted-transformation",
+            "instruction": "Verwende „befreundet sein mit“. Emil bleibt Subjekt; beginne mit „Seit Jahren“. „gut“ steht direkt vor „befreundet“.",
+            "prompt": "Seit Jahren sind Emil und Kai gute Freunde.",
+            "solution": "Seit Jahren ist Emil mit Kai gut befreundet.",
+            "hint": "Emil ist … mit + Dativ … befreundet.",
+            "explanation": "„mit jdm. befreundet sein“: Emil ist Subjekt (also „ist“), Kai steht im Dativ nach „mit“; „gut befreundet“ bildet das Satzende."
+          },
+          {
+            "id": "l23h11",
+            "type": "targeted-transformation",
+            "instruction": "Forme die Nominalgruppe in einen Nebensatz mit „nachdem“ (Plusquamperfekt) um. Beginne mit „Nachdem Lukas sich“; der Hauptsatz lautet „fühlte er sich besser“.",
+            "prompt": "Nach der Versöhnung mit seinem Vater fühlte sich Lukas besser.",
+            "solution": "Nachdem Lukas sich mit seinem Vater versöhnt hatte, fühlte er sich besser.",
+            "hint": "die Versöhnung → sich versöhnen mit + Dativ",
+            "explanation": "Aus „die Versöhnung mit“ wird „sich versöhnen mit“. Vorzeitigkeit zum Präteritum → Plusquamperfekt „versöhnt hatte“ am Ende des Nebensatzes."
+          },
+          {
+            "id": "l23h12",
+            "type": "targeted-transformation",
+            "instruction": "Formuliere mit „nachvollziehen können“. Beginne mit „Ich kann“; „gut“ bleibt im Satz.",
+            "prompt": "Ich verstehe gut, warum du so traurig bist.",
+            "solution": "Ich kann gut nachvollziehen, warum du so traurig bist.",
+            "hint": "Modalverb auf Position 2, Infinitiv vor dem Komma.",
+            "explanation": "„Ich kann … nachvollziehen“ zeigt Verständnis. Der Infinitiv steht am Ende des Hauptsatzes, vor dem Nebensatz mit „warum“."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l23t01",
+          "type": "multiple-choice",
+          "instruction": "Welches verstärkende Adjektiv passt in den Satz?",
+          "prompt": "Das neue Zelt baut sich fast von selbst auf: einmal an der Schnur ziehen, fertig. Der Aufbau ist …",
+          "options": [
+            "kinderleicht",
+            "bitterernst",
+            "kerngesund",
+            "stinksauer"
+          ],
+          "solution": "kinderleicht",
+          "explanation": "'kinderleicht' = sehr leicht (sogar Kinder schaffen es). 'bitterernst' heißt sehr ernst und passt nicht zu einer einfachen Sache."
+        },
+        {
+          "id": "l23t02",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze das verstärkende Adjektiv als ein Wort. Der erste Bestandteil ist das Tier „Hund“.",
+          "prompt": "Nach der zwölfstündigen Bergwanderung krochen die Pfadfinder ___ in ihre Schlafsäcke.",
+          "solution": "hundemüde",
+          "explanation": "Mit Fugen-e und zusammengeschrieben: 'hundemüde' = sehr müde. 'hunde müde' getrennt oder 'hundmüde' ohne e sind falsch."
+        },
+        {
+          "id": "l23t03",
+          "type": "multiple-choice",
+          "instruction": "Welches Kompositum gibt es wirklich?",
+          "prompt": "Unser Hund ist schon 14, aber laut Tierarzt ist er noch …",
+          "options": [
+            "kerngesund",
+            "blitzgesund",
+            "stinkgesund",
+            "kindergesund"
+          ],
+          "solution": "kerngesund",
+          "explanation": "Die Verstärkungen sind feste Paare: 'kern-' gehört zu 'gesund', 'blitz-' zu 'schnell', 'stink-' zu 'sauer', 'kinder-' zu 'leicht'."
+        },
+        {
+          "id": "l23t04",
+          "type": "multiple-choice",
+          "instruction": "Deine Freundin erzählt dir eine gute Nachricht. Welche Reaktion passt?",
+          "prompt": "„Stell dir vor, wir haben endlich eine Wohnung gefunden – sogar mit Balkon!“",
+          "options": [
+            "Mensch, das freut mich total für dich!",
+            "Ach komm, das wird bestimmt wieder.",
+            "Das tut mir wirklich leid für dich.",
+            "Jetzt beruhig dich doch erst mal."
+          ],
+          "solution": "Mensch, das freut mich total für dich!",
+          "explanation": "Auf eine gute Nachricht reagiert man mit Mitfreude. 'Das wird bestimmt wieder' und 'Das tut mir leid' trösten – das passt nur bei schlechten Nachrichten."
+        },
+        {
+          "id": "l23t05",
+          "type": "cloze-conjugation",
+          "instruction": "Ergänze das Hilfsverb im Perfekt.",
+          "prompt": "Auf der Hochzeit ihrer Schwester ___ Jana nach zwanzig Jahren ihrem ersten Klavierlehrer wieder begegnet. (begegnen, Perfekt)",
+          "solution": "ist",
+          "explanation": "'begegnen' bildet das Perfekt mit 'sein': Jana ist ihm begegnet. 'hat' ist falsch, obwohl ein Dativobjekt folgt."
+        },
+        {
+          "id": "l23t06",
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler in der Schreibung. Ändere sonst nichts.",
+          "prompt": "Als er die Nebenkostenabrechnung sah, war mein Nachbar stink sauer.",
+          "solution": "Als er die Nebenkostenabrechnung sah, war mein Nachbar stinksauer.",
+          "explanation": "Verstärkende Komposita schreibt man in einem Wort und klein: 'stinksauer'. Getrennt geschrieben ist 'stink' kein eigenes Wort."
+        },
+        {
+          "id": "l23t07",
+          "type": "multiple-choice",
+          "instruction": "Ein Freund ist enttäuscht. Welche Reaktion macht ihm Mut?",
+          "prompt": "„Ich bin heute durch die Führerscheinprüfung gefallen.“",
+          "options": [
+            "Ach komm, beim nächsten Mal klappt es bestimmt.",
+            "Super, das freut mich für dich!",
+            "Herzlichen Glückwunsch, das hast du verdient!",
+            "Na und? Das ist doch nicht mein Problem."
+          ],
+          "solution": "Ach komm, beim nächsten Mal klappt es bestimmt.",
+          "explanation": "'Ach komm, … bestimmt …' macht Mut und tröstet. Mitfreude oder Glückwünsche passen nicht zu einer Enttäuschung, 'Na und?' ist unhöflich."
+        },
+        {
+          "id": "l23t08",
+          "type": "cloze-conjugation",
+          "instruction": "Ergänze das Verb im Präteritum.",
+          "prompt": "Nach dem Streit um das kaputte Fahrrad ___ Tobias seinem Bruder erst nach Wochen. (verzeihen, Präteritum)",
+          "solution": "verzieh",
+          "explanation": "'verzeihen' ist unregelmäßig: verzeihen – verzieh – verziehen. 'verzeihte' ist eine falsche regelmäßige Form."
+        },
+        {
+          "id": "l23t09",
+          "type": "targeted-transformation",
+          "instruction": "Formuliere mit „befreundet sein mit“ um. Beginne mit „Seit dem Tanzkurs ist meine Kollegin“.",
+          "prompt": "Seit dem Tanzkurs sind meine Kollegin und ihr Vermieter Freunde.",
+          "solution": "Seit dem Tanzkurs ist meine Kollegin mit ihrem Vermieter befreundet.",
+          "explanation": "'befreundet sein mit' + Dativ: mit ihrem Vermieter. 'befreundet' steht am Satzende; 'befreundet zu' oder Akkusativ 'ihren' sind falsch."
+        },
+        {
+          "id": "l23t10",
+          "type": "multiple-choice",
+          "instruction": "Welcher Satz drückt Erleichterung aus?",
+          "prompt": "Du hattest dein Handy im Taxi liegen lassen, und der Fahrer bringt es dir zurück. Du sagst:",
+          "options": [
+            "Puh, da fällt mir ein Stein vom Herzen.",
+            "Das macht mich echt wütend.",
+            "Ich bin total enttäuscht.",
+            "Das finde ich ganz schön peinlich."
+          ],
+          "solution": "Puh, da fällt mir ein Stein vom Herzen.",
+          "explanation": "'Mir fällt ein Stein vom Herzen' = ich bin sehr erleichtert. Wut, Enttäuschung oder Peinlichkeit passen nicht zu einem guten Ausgang."
+        },
+        {
+          "id": "l23t11",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz. Beginne mit „Im Chor“.",
+          "prompt": "Baue den Satz aus den Satzgliedern.",
+          "scrambleChunks": [
+            "angefreundet",
+            "mit einer Rentnerin aus Polen",
+            "Im Chor",
+            "meine Tante",
+            "hat sich"
+          ],
+          "solution": "Im Chor hat sich meine Tante mit einer Rentnerin aus Polen angefreundet.",
+          "explanation": "'sich anfreunden mit' + Dativ; im Perfekt steht 'hat sich' auf Position 2 und das Partizip 'angefreundet' am Ende."
+        },
+        {
+          "id": "l23t12",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze „blitzschnell“ mit der richtigen Endung.",
+          "prompt": "Dank ihrer ___ Reaktion konnte die Torhüterin den Elfmeter halten.",
+          "solution": "blitzschnellen",
+          "explanation": "Vor einem Nomen wird das Kompositum dekliniert wie jedes Adjektiv: 'dank' + Genitiv, nach 'ihrer' (fem.) → -en: ihrer blitzschnellen Reaktion."
+        },
+        {
+          "id": "l23t13",
+          "type": "error-correction",
+          "instruction": "Korrigiere den Kasusfehler. Ändere nur ein Wort.",
+          "prompt": "Im Nachtzug ist Henrik ganz unerwartet seine Mitbewohnerin von früher begegnet.",
+          "solution": "Im Nachtzug ist Henrik ganz unerwartet seiner Mitbewohnerin von früher begegnet.",
+          "explanation": "'jemandem begegnen' verlangt den Dativ: seiner Mitbewohnerin. Der Akkusativ 'seine' ist falsch, obwohl 'begegnen' wie 'treffen' klingt."
+        },
+        {
+          "id": "l23t14",
+          "type": "targeted-transformation",
+          "instruction": "Bilde einen Satz im Perfekt mit „sich versöhnen mit“. Beginne mit „Beim Sommerfest hat sich“.",
+          "prompt": "beim Sommerfest – die Lehrerin – sich versöhnen mit – der Hausmeister",
+          "solution": "Beim Sommerfest hat sich die Lehrerin mit dem Hausmeister versöhnt.",
+          "explanation": "'sich versöhnen mit' + Dativ (mit dem Hausmeister); Perfekt mit 'haben', Partizip 'versöhnt' am Satzende."
+        },
+        {
+          "id": "l23t15",
+          "type": "sentence-scramble",
+          "instruction": "Bilde eine mitfühlende Reaktion. Beginne mit „Es tut mir“.",
+          "prompt": "Baue den Satz aus den Satzgliedern.",
+          "scrambleChunks": [
+            "ausgefallen ist",
+            "echt leid,",
+            "dass euer Konzert",
+            "gestern",
+            "Es tut mir"
+          ],
+          "solution": "Es tut mir echt leid, dass euer Konzert gestern ausgefallen ist.",
+          "explanation": "'Es tut mir leid' + dass-Satz: Komma vor 'dass', im Nebensatz stehen Partizip und Hilfsverb am Ende ('ausgefallen ist')."
+        },
+        {
+          "id": "l23t16",
+          "type": "cloze-conjugation",
+          "instruction": "Ergänze das Partizip II.",
+          "prompt": "Wann hast du dich eigentlich mit deinen Mitbewohnern im Wohnheim ___? (sich anfreunden, Perfekt)",
+          "solution": "angefreundet",
+          "explanation": "Trennbares Verb: Partizip 'angefreundet' – das 'ge' steht nach der Vorsilbe 'an'. 'geanfreundet' ist falsch."
+        }
+      ]
+    },
+    {
+      "lektionId": "b2-m8-l24",
+      "level": "B2",
+      "modulNumber": 8,
+      "lektionNumber": 24,
+      "title": "Anders als erwartet",
+      "grammarFocus": [
+        "Vergleichssätze mit als und wie (anders/besser als erwartet, als ich gedacht hatte; (genau)so … wie; nicht so … wie)",
+        "Proportionale Vergleichssätze mit je … desto/umso (Je öfter …, desto besser …)",
+        "Formelle Anfrage per E-Mail: Redemittel (sich wenden an, sich interessieren für, die Kosten betragen, Könnten Sie uns mitteilen, ob …)"
+      ],
+      "vocabulary": [
+        {
+          "id": "l24v01",
+          "term": "übertreffen",
+          "translation": "superar (expectativas)",
+          "partOfSpeech": "verb",
+          "preterite": "übertraf",
+          "participle": "übertroffen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Das kleine Restaurant hat unsere Erwartungen bei Weitem übertroffen."
+        },
+        {
+          "id": "l24v02",
+          "term": "die Wirklichkeit",
+          "translation": "la realidad",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "In Wirklichkeit sieht ein Arbeitstag oft anders aus als in der Werbung."
+        },
+        {
+          "id": "l24v03",
+          "term": "die Herausforderung",
+          "translation": "el desafío, el reto",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Herausforderungen",
+          "example": "Die Leitung eines internationalen Projekts war für sie eine echte Herausforderung."
+        },
+        {
+          "id": "l24v04",
+          "term": "die Aufstiegsmöglichkeit",
+          "translation": "la posibilidad de ascenso",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Aufstiegsmöglichkeiten",
+          "example": "Gute Aufstiegsmöglichkeiten sind für viele Bewerber wichtiger als ein hohes Einstiegsgehalt."
+        },
+        {
+          "id": "l24v05",
+          "term": "einschätzen",
+          "translation": "evaluar, estimar",
+          "partOfSpeech": "verb",
+          "preterite": "schätzte ein",
+          "participle": "eingeschätzt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Ich habe den Aufwand für die Renovierung völlig falsch eingeschätzt."
+        },
+        {
+          "id": "l24v06",
+          "term": "sich herausstellen",
+          "translation": "resultar, revelarse",
+          "partOfSpeech": "verb",
+          "preterite": "stellte sich heraus",
+          "participle": "sich herausgestellt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Später stellte sich heraus, dass der Fehler im Programm lag."
+        },
+        {
+          "id": "l24v07",
+          "term": "befürchten",
+          "translation": "temer",
+          "partOfSpeech": "verb",
+          "preterite": "befürchtete",
+          "participle": "befürchtet",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Wir befürchteten, dass der Zug wegen des Sturms ausfallen würde."
+        },
+        {
+          "id": "l24v08",
+          "term": "zusagen",
+          "translation": "aceptar, confirmar (una invitación)",
+          "partOfSpeech": "verb",
+          "preterite": "sagte zu",
+          "participle": "zugesagt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Fast alle Eingeladenen haben schon für das Sommerfest zugesagt."
+        },
+        {
+          "id": "l24v09",
+          "term": "unverbindlich",
+          "translation": "sin compromiso",
+          "partOfSpeech": "adjective",
+          "example": "Sie können sich das Programm gern unverbindlich ansehen."
+        },
+        {
+          "id": "l24v10",
+          "term": "unterschätzen",
+          "translation": "subestimar",
+          "partOfSpeech": "verb",
+          "preterite": "unterschätzte",
+          "participle": "unterschätzt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Viele unterschätzen, wie viel Zeit ein Ehrenamt neben dem Beruf kostet."
+        },
+        {
+          "id": "l24v11",
+          "term": "der Betriebsausflug",
+          "translation": "la excursión de empresa",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Betriebsausflüge",
+          "example": "Unser Betriebsausflug führt dieses Jahr an einen See in Brandenburg."
+        },
+        {
+          "id": "l24v12",
+          "term": "der Anbieter",
+          "translation": "el proveedor",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Anbieter",
+          "example": "Wir vergleichen die Preise von drei Anbietern, bevor wir buchen."
+        },
+        {
+          "id": "l24v13",
+          "term": "die Anfrage",
+          "translation": "la solicitud, la consulta",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Anfragen",
+          "example": "Vielen Dank für Ihre Anfrage, wir melden uns bis Freitag."
+        },
+        {
+          "id": "l24v14",
+          "term": "der Kostenvoranschlag",
+          "translation": "el presupuesto",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Kostenvoranschläge",
+          "example": "Die Werkstatt hat uns einen Kostenvoranschlag per E-Mail geschickt."
+        },
+        {
+          "id": "l24v15",
+          "term": "betragen",
+          "translation": "ascender a (una cantidad)",
+          "partOfSpeech": "verb",
+          "preterite": "betrug",
+          "participle": "betragen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Die Teilnahmegebühr beträgt 60 Euro pro Person."
+        },
+        {
+          "id": "l24v16",
+          "term": "die Teilnehmerzahl",
+          "translation": "el número de participantes",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Teilnehmerzahlen",
+          "example": "Die Teilnehmerzahl ist auf zwanzig Personen begrenzt."
+        },
+        {
+          "id": "l24v17",
+          "term": "die Verfügbarkeit",
+          "translation": "la disponibilidad",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Bitte prüfen Sie die Verfügbarkeit des Saals für den 12. Mai."
+        },
+        {
+          "id": "l24v18",
+          "term": "der Treffpunkt",
+          "translation": "el punto de encuentro",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Treffpunkte",
+          "example": "Als Treffpunkt schlagen wir den Haupteingang des Museums vor."
+        },
+        {
+          "id": "l24v19",
+          "term": "die Auswahlmöglichkeit",
+          "translation": "la opción, la posibilidad de elegir",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Auswahlmöglichkeiten",
+          "example": "Beim Mittagessen gibt es drei Auswahlmöglichkeiten, darunter ein veganes Gericht."
+        },
+        {
+          "id": "l24v20",
+          "term": "sich bedanken",
+          "translation": "dar las gracias",
+          "partOfSpeech": "verb",
+          "preterite": "bedankte sich",
+          "participle": "sich bedankt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Die Abteilungsleiterin bedankte sich bei allen für die gute Zusammenarbeit."
+        },
+        {
+          "id": "l24v21",
+          "term": "gelungen",
+          "translation": "logrado, exitoso",
+          "partOfSpeech": "adjective",
+          "example": "Das war eine rundum gelungene Feier."
+        },
+        {
+          "id": "l24v22",
+          "term": "ausweichen",
+          "translation": "eludir, esquivar",
+          "partOfSpeech": "verb",
+          "preterite": "wich aus",
+          "participle": "ausgewichen",
+          "auxiliary": "sein",
+          "irregular": true,
+          "example": "Der Frage nach ihrem Gehalt ist sie höflich ausgewichen."
+        },
+        {
+          "id": "l24v23",
+          "term": "ständig",
+          "translation": "constantemente, continuo",
+          "partOfSpeech": "adverb",
+          "example": "Der Drucker im Flur ist ständig kaputt."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l24e01",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Vergleichspartikel.",
+            "prompt": "Die Wohnung war viel kleiner, ___ es auf den Fotos ausgesehen hatte.",
+            "options": [
+              "als",
+              "wie",
+              "so",
+              "als wie"
+            ],
+            "solution": "als",
+            "hint": "Steht vorher ein Komparativ oder eine Grundform?",
+            "explanation": "Nach dem Komparativ ('kleiner') steht 'als'. 'wie' braucht man nur bei Gleichheit (so … wie); 'als wie' ist umgangssprachlich und falsch."
+          },
+          {
+            "id": "l24e02",
+            "type": "fill-in-blank",
+            "instruction": "Setze 'als' oder 'wie' ein.",
+            "prompt": "Das Seminar war genauso anstrengend, ___ die Kollegin vorhergesagt hatte.",
+            "solution": "wie",
+            "hint": "Wird hier Gleichheit oder Ungleichheit ausgedrückt?",
+            "explanation": "Bei Gleichheit steht (genau)so + Grundform + wie. 'als' folgt nur auf Komparativ oder 'anders'."
+          },
+          {
+            "id": "l24e03",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Konjunktion.",
+            "prompt": "Die neue Software ist nicht so kompliziert, ___ wir befürchtet hatten.",
+            "options": [
+              "wie",
+              "als",
+              "dass",
+              "ob"
+            ],
+            "solution": "wie",
+            "hint": "Achte auf 'nicht so' + Grundform.",
+            "explanation": "'nicht so + Grundform' verlangt 'wie'. 'als' stünde nur nach einem Komparativ wie 'einfacher'."
+          },
+          {
+            "id": "l24e04",
+            "type": "fill-in-blank",
+            "instruction": "Setze 'als' oder 'wie' ein.",
+            "prompt": "Die Reise verlief ganz anders, ___ wir sie geplant hatten.",
+            "solution": "als",
+            "hint": "Welche Partikel folgt auf 'anders'?",
+            "explanation": "Nach 'anders' (wie nach dem Komparativ) steht 'als', denn es wird ein Unterschied ausgedrückt."
+          },
+          {
+            "id": "l24e05",
+            "type": "multiple-choice",
+            "instruction": "Welche Aussage über den Satz stimmt?",
+            "prompt": "Je länger ich in Hamburg wohne, desto besser gefällt mir die Stadt.",
+            "options": [
+              "Der je-Teil ist ein Nebensatz, der desto-Teil ein Hauptsatz.",
+              "Der je-Teil ist ein Hauptsatz, der desto-Teil ein Nebensatz.",
+              "Beide Teile sind Hauptsätze.",
+              "Beide Teile sind Nebensätze."
+            ],
+            "solution": "Der je-Teil ist ein Nebensatz, der desto-Teil ein Hauptsatz.",
+            "hint": "Wo steht jeweils das konjugierte Verb?",
+            "explanation": "Im je-Teil steht 'wohne' am Ende (Nebensatz). Im desto-Teil folgt 'gefällt' direkt auf 'desto besser' wie im Hauptsatz."
+          },
+          {
+            "id": "l24e06",
+            "type": "multiple-choice",
+            "instruction": "Wähle die richtige Fortsetzung.",
+            "prompt": "Je mehr man liest, ___",
+            "options": [
+              "desto größer wird der Wortschatz.",
+              "desto der Wortschatz wird größer.",
+              "desto wird der Wortschatz größer.",
+              "desto größer der Wortschatz wird."
+            ],
+            "solution": "desto größer wird der Wortschatz.",
+            "hint": "desto + Komparativ bilden zusammen die erste Position.",
+            "explanation": "'desto größer' bleibt zusammen, danach kommt sofort das Verb, dann das Subjekt. Das Verb am Ende gehört nur in den je-Teil."
+          },
+          {
+            "id": "l24e07",
+            "type": "fill-in-blank",
+            "instruction": "Setze das Adjektiv in Klammern im Komparativ ein.",
+            "prompt": "Je ___ (früh) wir buchen, desto günstiger sind die Flüge.",
+            "solution": "früher",
+            "hint": "Nach 'je' steht immer ein Komparativ.",
+            "explanation": "Im je-Teil steht der Komparativ direkt nach 'je': früh → früher. Die Grundform 'früh' ist hier nicht möglich."
+          },
+          {
+            "id": "l24e08",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Formulierung für eine formelle Anfrage.",
+            "prompt": "Sehr geehrte Damen und Herren, im Auftrag unserer Abteilung ___ an Sie.",
+            "options": [
+              "wende ich mich",
+              "interessiere ich mich",
+              "bedanke ich mich",
+              "melde ich"
+            ],
+            "solution": "wende ich mich",
+            "hint": "Welches Verb verbindet man mit 'an + Akkusativ' für eine Kontaktaufnahme?",
+            "explanation": "'sich an jdn. wenden' ist die typische Einleitung einer Anfrage. 'sich interessieren' braucht 'für', 'sich bedanken' 'bei'."
+          },
+          {
+            "id": "l24e09",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Konjunktion für die höfliche Frage.",
+            "prompt": "Könnten Sie uns bitte mitteilen, ___ der Termin im Mai noch frei ist?",
+            "options": [
+              "ob",
+              "weil",
+              "als",
+              "wie"
+            ],
+            "solution": "ob",
+            "hint": "Es geht um eine Ja/Nein-Frage.",
+            "explanation": "Eine indirekte Ja/Nein-Frage wird mit 'ob' eingeleitet. 'weil' nennt einen Grund, 'als' und 'wie' vergleichen."
+          },
+          {
+            "id": "l24e10",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Verb.",
+            "prompt": "Die Kosten für den Workshop ___ 45 Euro pro Person.",
+            "options": [
+              "betragen",
+              "kosten",
+              "bezahlen",
+              "verdienen"
+            ],
+            "solution": "betragen",
+            "hint": "Das Subjekt ist schon 'die Kosten'.",
+            "explanation": "'Die Kosten betragen …' ist die formelle Angabe eines Betrags. 'Die Kosten kosten' ist doppelt, bezahlen/verdienen passen nicht zum Subjekt."
+          },
+          {
+            "id": "l24e11",
+            "type": "multiple-choice",
+            "instruction": "Wähle die richtige Schreibung in der formellen E-Mail.",
+            "prompt": "Sehr geehrte Frau Lenz, vielen Dank für ___ schnelle Antwort.",
+            "options": [
+              "Ihre",
+              "ihre",
+              "deine",
+              "eure"
+            ],
+            "solution": "Ihre",
+            "hint": "Du sprichst Frau Lenz direkt und höflich an.",
+            "explanation": "Die Höflichkeitsform 'Ihre' wird großgeschrieben. Kleines 'ihre' meint eine dritte Person; 'deine/eure' sind informell."
+          },
+          {
+            "id": "l24e12",
+            "type": "fill-in-blank",
+            "instruction": "Setze die passende Präposition ein.",
+            "prompt": "Wir interessieren uns ___ Ihren Töpferkurs für Gruppen.",
+            "solution": "für",
+            "hint": "sich interessieren + Präposition + Akkusativ",
+            "explanation": "Das Verb heißt 'sich interessieren für + Akk.'. 'an' gehört zum Nomen 'das Interesse an', nicht zum Verb."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l24m01",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz mit je … desto. Beginne mit 'Je'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "desto unruhiger",
+              "die Besprechung",
+              "werden",
+              "Je länger",
+              "die Teilnehmer",
+              "dauert,"
+            ],
+            "solution": "Je länger die Besprechung dauert, desto unruhiger werden die Teilnehmer.",
+            "hint": "Je-Teil: Verb am Ende. Desto-Teil: Verb direkt nach dem Komparativ.",
+            "explanation": "Im je-Teil steht 'dauert' am Ende. Im desto-Teil folgt 'werden' direkt auf 'desto unruhiger', danach das Subjekt."
+          },
+          {
+            "id": "l24m02",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz mit je … umso. Beginne mit 'Je'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "gibt",
+              "Je gründlicher",
+              "es",
+              "umso weniger Probleme",
+              "planen,",
+              "wir"
+            ],
+            "solution": "Je gründlicher wir planen, umso weniger Probleme gibt es.",
+            "hint": "Komparativ + Nomen bleiben im umso-Teil zusammen.",
+            "explanation": "'umso weniger Probleme' ist eine Einheit auf Position 1, dann folgt das Verb 'gibt'. 'planen' steht im je-Teil am Ende."
+          },
+          {
+            "id": "l24m03",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Vergleichssatz. Beginne mit 'Die Arbeit im Team'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "als",
+              "war",
+              "hatte",
+              "Die Arbeit im Team",
+              "ich",
+              "viel angenehmer,",
+              "befürchtet"
+            ],
+            "solution": "Die Arbeit im Team war viel angenehmer, als ich befürchtet hatte.",
+            "hint": "Der als-Satz ist ein Nebensatz.",
+            "explanation": "Nach dem Komparativ 'angenehmer' folgt der Nebensatz mit 'als'; das Hilfsverb 'hatte' steht am Ende nach dem Partizip."
+          },
+          {
+            "id": "l24m04",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Vergleichssatz. Beginne mit 'Der Umzug'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "gedauert,",
+              "wie",
+              "Der Umzug",
+              "geschätzt hatten",
+              "hat",
+              "genauso lange",
+              "wir"
+            ],
+            "solution": "Der Umzug hat genauso lange gedauert, wie wir geschätzt hatten.",
+            "hint": "genauso + Grundform … wie",
+            "explanation": "'genauso lange' drückt Gleichheit aus, daher 'wie'. Im wie-Satz steht 'geschätzt hatten' am Ende."
+          },
+          {
+            "id": "l24m05",
+            "type": "sentence-scramble",
+            "instruction": "Bilde eine höfliche Frage für eine formelle Anfrage.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "mitteilen,",
+              "sind",
+              "Könnten Sie",
+              "ob",
+              "am Samstag noch Plätze frei",
+              "uns"
+            ],
+            "solution": "Könnten Sie uns mitteilen, ob am Samstag noch Plätze frei sind?",
+            "hint": "Die indirekte Frage mit 'ob' ist ein Nebensatz.",
+            "explanation": "'Könnten Sie uns mitteilen' ist der höfliche Hauptsatz; im ob-Nebensatz steht 'sind' am Ende."
+          },
+          {
+            "id": "l24m06",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Vergleichssatz. Beginne mit 'Das Hotel'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "wie",
+              "nicht so zentral,",
+              "versprochen hatte",
+              "Das Hotel",
+              "der Prospekt",
+              "lag"
+            ],
+            "solution": "Das Hotel lag nicht so zentral, wie der Prospekt versprochen hatte.",
+            "hint": "nicht so + Grundform … wie",
+            "explanation": "Auch bei 'nicht so + Grundform' steht 'wie', nicht 'als'. Im Nebensatz steht das Hilfsverb 'hatte' am Ende."
+          },
+          {
+            "id": "l24m07",
+            "type": "cloze-conjugation",
+            "instruction": "Setze das Hilfsverb 'haben' im Plusquamperfekt ein.",
+            "prompt": "Der Kurs war schwieriger, als ich es erwartet ___.",
+            "solution": "hatte",
+            "hint": "Plusquamperfekt = Präteritum von haben/sein + Partizip II.",
+            "explanation": "Die Erwartung lag vor dem Kurs: Plusquamperfekt mit 'hatte' am Ende des als-Nebensatzes. 'habe' wäre Perfekt."
+          },
+          {
+            "id": "l24m08",
+            "type": "cloze-conjugation",
+            "instruction": "Setze das Verb in Klammern im Präsens ein.",
+            "prompt": "Je öfter man eine Sprache ___ (sprechen), desto sicherer wird man.",
+            "solution": "spricht",
+            "hint": "sprechen hat einen Vokalwechsel bei er/sie/es/man.",
+            "explanation": "Im je-Teil steht das Verb am Ende; mit 'man' heißt die Form 'spricht' (e → i)."
+          },
+          {
+            "id": "l24m09",
+            "type": "cloze-conjugation",
+            "instruction": "Setze das Verb in Klammern im Präsens ein.",
+            "prompt": "Je mehr Kolleginnen sich ___ (anmelden), desto günstiger wird der Preis pro Person.",
+            "solution": "anmelden",
+            "hint": "Im Nebensatz bleibt das trennbare Verb zusammen.",
+            "explanation": "Der je-Teil ist ein Nebensatz: Das trennbare Verb steht ungetrennt am Ende, 3. Person Plural 'anmelden'."
+          },
+          {
+            "id": "l24m10",
+            "type": "cloze-conjugation",
+            "instruction": "Setze das Verb in Klammern im Präteritum ein.",
+            "prompt": "Die Kosten für den Ausflug ___ (betragen) im letzten Jahr 380 Euro.",
+            "solution": "betrugen",
+            "hint": "betragen ist unregelmäßig wie 'tragen'.",
+            "explanation": "Präteritum von 'betragen' ist 'betrug', im Plural 'betrugen'. Die regelmäßige Form 'betragten' gibt es nicht."
+          },
+          {
+            "id": "l24m11",
+            "type": "cloze-conjugation",
+            "instruction": "Setze das Verb in Klammern im Präteritum ein.",
+            "prompt": "Am Ende ___ sich die Entscheidung als richtig heraus. (herausstellen)",
+            "solution": "stellte",
+            "hint": "Trennbares Verb im Hauptsatz: Präfix ans Ende.",
+            "explanation": "Im Hauptsatz wird 'herausstellen' getrennt: 'stellte … heraus'. 'heraus' steht schon am Satzende."
+          },
+          {
+            "id": "l24m12",
+            "type": "cloze-conjugation",
+            "instruction": "Setze das Verb in Klammern im Präteritum ein.",
+            "prompt": "Der neue Kollege war ganz anders, als ich ihn mir ___ (vorstellen).",
+            "solution": "vorstellte",
+            "hint": "Der als-Satz ist ein Nebensatz.",
+            "explanation": "Im als-Nebensatz steht das trennbare Verb ungetrennt am Ende: 'vorstellte'. Getrennt wird nur im Hauptsatz."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l24h01",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde die Sätze mit je … desto. Beginne mit 'Je'. Benutze die Komparative von 'oft' und 'gut'.",
+            "prompt": "Wir üben oft. Die Präsentation gelingt gut.",
+            "solution": "Je öfter wir üben, desto besser gelingt die Präsentation.",
+            "hint": "Je-Teil: Verb am Ende; desto-Teil: Komparativ, Verb, Subjekt.",
+            "explanation": "'Je öfter' leitet den Nebensatz ein, 'üben' steht am Ende. Danach 'desto besser' + Verb 'gelingt' + Subjekt."
+          },
+          {
+            "id": "l24h02",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde die Sätze mit je … umso. Beginne mit 'Je'. Behalte alle Verben.",
+            "prompt": "Die Gruppe ist groß. Die Organisation wird aufwendig.",
+            "solution": "Je größer die Gruppe ist, umso aufwendiger wird die Organisation.",
+            "hint": "groß → größer (Umlaut).",
+            "explanation": "Im je-Teil steht 'ist' am Ende; 'umso aufwendiger' wird direkt vom Verb 'wird' gefolgt, dann vom Subjekt."
+          },
+          {
+            "id": "l24h03",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde die Sätze mit je … desto. Beginne mit 'Je'.",
+            "prompt": "Man hat wenig Zeit. Man wird nervös.",
+            "solution": "Je weniger Zeit man hat, desto nervöser wird man.",
+            "hint": "Komparativ + Nomen bleiben zusammen.",
+            "explanation": "'weniger Zeit' bleibt direkt hinter 'je' zusammen, 'hat' steht am Ende. 'desto nervöser wird man': Verb vor dem Subjekt."
+          },
+          {
+            "id": "l24h04",
+            "type": "targeted-transformation",
+            "instruction": "Formuliere den Satz mit 'nicht so schwer' um. Der Nebensatz bleibt gleich.",
+            "prompt": "Die Prüfung war leichter, als wir gedacht hatten.",
+            "solution": "Die Prüfung war nicht so schwer, wie wir gedacht hatten.",
+            "hint": "Bei 'nicht so' + Grundform ändert sich auch die Vergleichspartikel.",
+            "explanation": "'leichter als' wird zu 'nicht so schwer wie': Nach 'nicht so' + Grundform steht 'wie', nicht 'als'."
+          },
+          {
+            "id": "l24h05",
+            "type": "targeted-transformation",
+            "instruction": "Bilde einen Vergleich mit 'genauso teuer'. Beginne mit 'Der Workshop im Juni war' und wiederhole das Nomen.",
+            "prompt": "Der Workshop im Mai kostete 200 Euro. Der Workshop im Juni kostete auch 200 Euro.",
+            "solution": "Der Workshop im Juni war genauso teuer wie der Workshop im Mai.",
+            "hint": "Gleichheit: genauso + Grundform + wie.",
+            "explanation": "Gleicher Preis = Gleichheit, also 'genauso teuer wie'. Ohne Verb im zweiten Teil steht kein Komma vor 'wie'."
+          },
+          {
+            "id": "l24h06",
+            "type": "targeted-transformation",
+            "instruction": "Formuliere als höfliche indirekte Frage. Beginne mit 'Könnten Sie uns mitteilen,'.",
+            "prompt": "Ist der Raum barrierefrei?",
+            "solution": "Könnten Sie uns mitteilen, ob der Raum barrierefrei ist?",
+            "hint": "Ja/Nein-Frage → ob + Verb am Ende.",
+            "explanation": "Eine Ja/Nein-Frage wird indirekt mit 'ob' eingeleitet; das Verb 'ist' wandert ans Ende des Nebensatzes."
+          },
+          {
+            "id": "l24h07",
+            "type": "targeted-transformation",
+            "instruction": "Formuliere als höfliche indirekte Frage. Beginne mit 'Könnten Sie uns mitteilen,'.",
+            "prompt": "Wie lange dauert die Führung?",
+            "solution": "Könnten Sie uns mitteilen, wie lange die Führung dauert?",
+            "hint": "W-Frage → das Fragewort leitet den Nebensatz ein.",
+            "explanation": "Das Fragewort 'wie lange' bleibt als Einleitung erhalten, 'ob' braucht man nicht. 'dauert' steht am Ende."
+          },
+          {
+            "id": "l24h08",
+            "type": "error-correction",
+            "instruction": "Korrigiere den Fehler. Ändere nur ein Wort.",
+            "prompt": "Der Film war spannender wie das Buch.",
+            "solution": "Der Film war spannender als das Buch.",
+            "hint": "Was folgt auf einen Komparativ?",
+            "explanation": "Nach dem Komparativ 'spannender' steht 'als'. 'wie' nur bei Gleichheit (so spannend wie)."
+          },
+          {
+            "id": "l24h09",
+            "type": "error-correction",
+            "instruction": "Korrigiere die Wortstellung im desto-Teil. Der je-Teil bleibt unverändert.",
+            "prompt": "Je mehr wir diskutieren, desto wir finden weniger Lösungen.",
+            "solution": "Je mehr wir diskutieren, desto weniger Lösungen finden wir.",
+            "hint": "desto + Komparativ (+ Nomen) stehen zusammen auf Position 1.",
+            "explanation": "'desto weniger Lösungen' ist eine Einheit; danach kommt sofort das Verb 'finden', dann das Subjekt 'wir'."
+          },
+          {
+            "id": "l24h10",
+            "type": "error-correction",
+            "instruction": "Korrigiere die Wortstellung im umso-Teil. Der je-Teil bleibt unverändert.",
+            "prompt": "Je länger man wartet, umso teurer die Tickets werden.",
+            "solution": "Je länger man wartet, umso teurer werden die Tickets.",
+            "hint": "Der umso-Teil ist ein Hauptsatz.",
+            "explanation": "Der umso-Teil ist ein Hauptsatz: Das Verb 'werden' steht direkt nach 'umso teurer', nicht am Ende."
+          },
+          {
+            "id": "l24h11",
+            "type": "error-correction",
+            "instruction": "Korrigiere die Wortstellung im je-Teil. Der desto-Teil bleibt unverändert.",
+            "prompt": "Je wir früher losfahren, desto weniger Stau gibt es.",
+            "solution": "Je früher wir losfahren, desto weniger Stau gibt es.",
+            "hint": "Was muss direkt nach 'je' stehen?",
+            "explanation": "Der Komparativ folgt direkt auf 'je' ('Je früher'), dann das Subjekt; das Verb 'losfahren' steht ungetrennt am Ende des Nebensatzes."
+          },
+          {
+            "id": "l24h12",
+            "type": "error-correction",
+            "instruction": "Korrigiere die Wortstellung in diesem Satz aus einem Dankschreiben. Beginne mit 'Mit Ihrer Hilfe'.",
+            "prompt": "Mit Ihrer Hilfe wir haben alle Gäste rechtzeitig informiert.",
+            "solution": "Mit Ihrer Hilfe haben wir alle Gäste rechtzeitig informiert.",
+            "hint": "Im Hauptsatz steht das konjugierte Verb auf Position 2.",
+            "explanation": "'Mit Ihrer Hilfe' besetzt Position 1, also steht das Verb 'haben' auf Position 2 und das Subjekt 'wir' danach."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l24t01",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Wort.",
+          "prompt": "Das Konzert in der Stadthalle dauerte deutlich länger, ___ auf dem Ticket angegeben war.",
+          "options": [
+            "als",
+            "wie",
+            "als wie",
+            "so"
+          ],
+          "solution": "als",
+          "explanation": "Nach dem Komparativ (länger) steht 'als'. 'wie' gehört zu (genau)so … wie, 'als wie' ist umgangssprachlich und falsch."
+        },
+        {
+          "id": "l24t02",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze „als“ oder „wie“.",
+          "prompt": "Mein Spanisch ist inzwischen längst nicht mehr so holprig ___ vor zwei Jahren.",
+          "solution": "wie",
+          "explanation": "Bei Gleichheit oder ihrer Verneinung (so … wie, nicht so … wie) steht 'wie'. 'als' steht nur nach Komparativ oder 'anders'."
+        },
+        {
+          "id": "l24t03",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz mit je … umso. Beginne mit „Je kälter der Winter“.",
+          "prompt": "Baue den Satz aus den Satzgliedern.",
+          "scrambleChunks": [
+            "umso höher",
+            "wird,",
+            "steigen",
+            "Je kälter der Winter",
+            "die Heizkosten"
+          ],
+          "solution": "Je kälter der Winter wird, umso höher steigen die Heizkosten.",
+          "explanation": "Der je-Teil ist Nebensatz (Verb am Ende). Im umso-Teil folgen Komparativ, dann finites Verb, dann Subjekt."
+        },
+        {
+          "id": "l24t04",
+          "type": "cloze-conjugation",
+          "instruction": "Setze das Verb in Klammern im Präsens ein.",
+          "prompt": "Laut Ihrem Kostenvoranschlag ___ (betragen) der Gesamtpreis für unsere Gruppe 840 Euro.",
+          "solution": "beträgt",
+          "explanation": "Subjekt ist 'der Gesamtpreis' (3. Person Singular, steht hinter dem Verb) → starkes Verb mit Umlaut: beträgt. 'betragen' wäre Plural."
+        },
+        {
+          "id": "l24t05",
+          "type": "targeted-transformation",
+          "instruction": "Ersetze „als befürchtet“ durch einen Nebensatz mit „wir“ im Plusquamperfekt (ohne „es“). Der Rest bleibt gleich.",
+          "prompt": "Die Fahrt nach Prag dauerte länger als befürchtet.",
+          "solution": "Die Fahrt nach Prag dauerte länger, als wir befürchtet hatten.",
+          "explanation": "Der als-Satz ist ein Nebensatz: Komma davor, finites Verb am Ende (befürchtet hatten)."
+        },
+        {
+          "id": "l24t06",
+          "type": "multiple-choice",
+          "instruction": "Wähle die richtige Fortsetzung.",
+          "prompt": "Je weniger Fleisch Paula isst, …",
+          "options": [
+            "desto fitter fühlt sie sich.",
+            "desto sie fühlt sich fitter.",
+            "desto fitter sie fühlt sich.",
+            "desto fitter sie sich fühlt."
+          ],
+          "solution": "desto fitter fühlt sie sich.",
+          "explanation": "Der desto-Teil ist Hauptsatz: desto + Komparativ, dann sofort das finite Verb, dann das Subjekt. Verb am Ende gilt nur im je-Teil."
+        },
+        {
+          "id": "l24t07",
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler. Ändere nur ein Wort.",
+          "prompt": "Die Mieten in dieser Gegend sind deutlich höher wie im Stadtzentrum.",
+          "solution": "Die Mieten in dieser Gegend sind deutlich höher als im Stadtzentrum.",
+          "explanation": "Nach einem Komparativ (höher) steht 'als', nicht 'wie'. 'wie' nur bei so … wie."
+        },
+        {
+          "id": "l24t08",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Verb für die formelle Anfrage.",
+          "prompt": "Wir ___ uns an Sie, weil wir für unsere Abteilung einen Kochkurs suchen.",
+          "options": [
+            "wenden",
+            "interessieren",
+            "bemühen",
+            "erkundigen"
+          ],
+          "solution": "wenden",
+          "explanation": "Feste Wendung: sich an jemanden wenden. 'sich interessieren' braucht 'für', 'sich erkundigen' 'nach' oder 'bei'."
+        },
+        {
+          "id": "l24t09",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze den Komparativ von „gelassen“.",
+          "prompt": "Je gründlicher man sich auf ein Vorstellungsgespräch vorbereitet, desto ___ geht man hinein.",
+          "solution": "gelassener",
+          "explanation": "Nach 'desto' steht ein Komparativ: gelassen → gelassener. Der Positiv 'gelassen' passt nicht zu je … desto."
+        },
+        {
+          "id": "l24t10",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze „als“ oder „wie“.",
+          "prompt": "Auf unsere Nachricht reagierten die Nachbarn völlig anders, ___ wir angenommen hatten.",
+          "solution": "als",
+          "explanation": "Nach 'anders' steht immer 'als', genau wie nach einem Komparativ. 'wie' wäre hier falsch."
+        },
+        {
+          "id": "l24t11",
+          "type": "targeted-transformation",
+          "instruction": "Verbinde die Sätze mit je … desto. Beginne mit „Je“ und verwende „desto“ (nicht „umso“).",
+          "prompt": "Der Wanderweg wird steiler. Die Kinder klagen lauter.",
+          "solution": "Je steiler der Wanderweg wird, desto lauter klagen die Kinder.",
+          "explanation": "Je + Komparativ leitet einen Nebensatz ein (wird am Ende); danach desto + Komparativ + Verb + Subjekt."
+        },
+        {
+          "id": "l24t12",
+          "type": "multiple-choice",
+          "instruction": "Wähle die passende Konjunktion.",
+          "prompt": "Teilen Sie uns bitte noch mit, ___ in Ihrem Preis bereits eine Versicherung enthalten ist oder nicht.",
+          "options": [
+            "ob",
+            "dass",
+            "als",
+            "denn"
+          ],
+          "solution": "ob",
+          "explanation": "Eine indirekte Ja/Nein-Frage (… oder nicht) wird mit 'ob' eingeleitet. 'dass' setzt die Antwort schon voraus, 'denn' leitet keinen Nebensatz ein."
+        },
+        {
+          "id": "l24t13",
+          "type": "error-correction",
+          "instruction": "Korrigiere die Wortstellung im desto-Teil. Der je-Teil bleibt unverändert.",
+          "prompt": "Je höher das Gehalt ist, desto man stellt mehr Ansprüche.",
+          "solution": "Je höher das Gehalt ist, desto mehr Ansprüche stellt man.",
+          "explanation": "Nach 'desto' steht der Komparativ samt Nomen (mehr Ansprüche), dann das finite Verb, dann das Subjekt."
+        },
+        {
+          "id": "l24t14",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze die Präposition.",
+          "prompt": "Der Kurs, ___ den wir uns interessieren, findet laut Ihrer Website nur samstags statt.",
+          "solution": "für",
+          "explanation": "sich interessieren für + Akkusativ, auch im Relativsatz: für den. 'an' gehört zum Nomen (Interesse an), nicht zum Verb."
+        },
+        {
+          "id": "l24t15",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze die Präposition.",
+          "prompt": "Wir möchten uns noch einmal herzlich ___ Ihnen für die unterhaltsame Stadtführung bedanken.",
+          "solution": "bei",
+          "explanation": "sich bei jemandem (Dativ) für etwas bedanken. 'bei' nennt die Person, 'für' den Grund."
+        },
+        {
+          "id": "l24t16",
+          "type": "multiple-choice",
+          "instruction": "Welcher Satz ist in einer formellen E-Mail richtig?",
+          "prompt": "Du schreibst an einen Anbieter, den du nicht kennst.",
+          "options": [
+            "Wir wären Ihnen für ein unverbindliches Angebot sehr dankbar.",
+            "Wir wären ihnen für ein unverbindliches Angebot sehr dankbar.",
+            "Wir wären euch für ein unverbindliches Angebot sehr dankbar.",
+            "Wir wären dir für ein unverbindliches Angebot sehr dankbar."
+          ],
+          "solution": "Wir wären Ihnen für ein unverbindliches Angebot sehr dankbar.",
+          "explanation": "Die Höflichkeitsform Sie/Ihnen/Ihr wird großgeschrieben. Klein 'ihnen' meint mehrere dritte Personen, 'euch/dir' sind informell."
+        }
+      ]
+    }
+  ]
+}

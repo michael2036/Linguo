@@ -33,7 +33,7 @@ You will be given, for one Lektion:
      (dialogues, short texts, situational tasks).
    - The **Arbeitsbuch** (AB) answer key — dense self-study drills, often
      already split into `leicht`/`schwer` (easy/hard) variants.
-2. **Lektion metadata**: `level` (A1/A2/B1), `modulNumber`, `lektionNumber`,
+2. **Lektion metadata**: `level` (A1/A2/B1/B2), `modulNumber`, `lektionNumber`,
    `title`.
 
 You never receive, and must never ask for, the full copyrighted workbook
@@ -72,7 +72,9 @@ never to copy *how* it's phrased.
    the underlying rule without giving away the answer. The explanation
    states the rule and why alternatives are wrong, written so a learner
    reads it *after* submitting and understands the "why," not just the
-   "what."
+   "what." Keep it short: one or two sentences, **at most 200 characters**
+   — it shows in a small bottom sheet on a phone, and the learner is
+   reviewing between classes, not reading a lesson.
 6. **Respect the target level.** Don't reach for structures the learner
    hasn't been introduced to yet (e.g. no `Konjunktiv II` in an A1 Lektion).
 

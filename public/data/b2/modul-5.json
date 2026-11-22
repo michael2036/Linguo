@@ -1,0 +1,2493 @@
+{
+  "modulId": "b2-m5",
+  "level": "B2",
+  "modulNumber": 5,
+  "title": "Technik gut, alles gut?",
+  "lektionen": [
+    {
+      "lektionId": "b2-m5-l13",
+      "level": "B2",
+      "modulNumber": 5,
+      "lektionNumber": 13,
+      "title": "Tücken der Technik",
+      "grammarFocus": [
+        "Das Wort „es“: Platzhalter im Vorfeld (es entfällt, wenn ein anderes Satzglied auf Position 1 steht) und unpersönliches Subjekt (es regnet, es klappt)",
+        "„es“ als Korrelat für einen dass-, wenn-, ob-/w- oder Infinitivsatz (Es ärgert mich, dass … / Mich ärgert, dass …) und feste Wendungen (es geht um, es fehlt an, es eilig haben, es ernst meinen)",
+        "Nomen aus Adjektiven mit -heit, -keit, -igkeit, -ität (zuverlässig → die Zuverlässigkeit, komplex → die Komplexität)"
+      ],
+      "vocabulary": [
+        {
+          "id": "l13v01",
+          "term": "die Tücke",
+          "translation": "la trampa, el inconveniente oculto",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Tücken",
+          "example": "Jedes neue Smartphone hat seine kleinen Tücken, die man erst nach Wochen entdeckt."
+        },
+        {
+          "id": "l13v02",
+          "term": "die Steckdose",
+          "translation": "el enchufe (de pared)",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Steckdosen",
+          "example": "Im Hotelzimmer gab es nur eine einzige Steckdose neben dem Bett."
+        },
+        {
+          "id": "l13v03",
+          "term": "das Verlängerungskabel",
+          "translation": "el alargador, la extensión",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Verlängerungskabel",
+          "example": "Für die Lichterkette im Garten brauchen wir ein langes Verlängerungskabel."
+        },
+        {
+          "id": "l13v04",
+          "term": "die Sicherung",
+          "translation": "el fusible",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Sicherungen",
+          "example": "Als Wasserkocher und Föhn gleichzeitig liefen, sprang die Sicherung heraus."
+        },
+        {
+          "id": "l13v05",
+          "term": "der Schalter",
+          "translation": "el interruptor",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Schalter",
+          "example": "Den Schalter für das Kellerlicht findet man im Dunkeln kaum."
+        },
+        {
+          "id": "l13v06",
+          "term": "der Stromausfall",
+          "translation": "el apagón, el corte de luz",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Stromausfälle",
+          "example": "Wegen eines kurzen Stromausfalls war die Arbeit der letzten Stunde verloren."
+        },
+        {
+          "id": "l13v07",
+          "term": "der Akku",
+          "translation": "la batería (recargable)",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Akkus",
+          "example": "Der Akku meiner Kopfhörer hält inzwischen nur noch zwei Stunden."
+        },
+        {
+          "id": "l13v08",
+          "term": "aufladen",
+          "translation": "cargar (una batería)",
+          "partOfSpeech": "verb",
+          "preterite": "lud auf",
+          "participle": "aufgeladen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Ich lade mein Tablet meistens über Nacht auf."
+        },
+        {
+          "id": "l13v09",
+          "term": "anschließen",
+          "translation": "conectar",
+          "partOfSpeech": "verb",
+          "preterite": "schloss an",
+          "participle": "angeschlossen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Hast du den Monitor schon an den Laptop angeschlossen?"
+        },
+        {
+          "id": "l13v10",
+          "term": "ausfallen",
+          "translation": "fallar, dejar de funcionar",
+          "partOfSpeech": "verb",
+          "preterite": "fiel aus",
+          "participle": "ausgefallen",
+          "auxiliary": "sein",
+          "irregular": true,
+          "example": "Mitten im Online-Seminar ist bei mir das Mikrofon ausgefallen."
+        },
+        {
+          "id": "l13v11",
+          "term": "außer Betrieb",
+          "translation": "fuera de servicio",
+          "partOfSpeech": "phrase",
+          "example": "Der Fahrkartenautomat am Nordeingang ist seit Montag außer Betrieb."
+        },
+        {
+          "id": "l13v12",
+          "term": "die Betriebsstörung",
+          "translation": "la avería, la interrupción del servicio",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Betriebsstörungen",
+          "example": "Wegen einer Betriebsstörung fährt die Seilbahn heute erst ab Mittag."
+        },
+        {
+          "id": "l13v13",
+          "term": "der Adapter",
+          "translation": "el adaptador",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Adapter",
+          "example": "Ohne passenden Adapter kann ich mein Ladegerät in England nicht benutzen."
+        },
+        {
+          "id": "l13v14",
+          "term": "die Zugänglichkeit",
+          "translation": "la accesibilidad, el acceso",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Die Zugänglichkeit der Website für blinde Menschen wird regelmäßig geprüft."
+        },
+        {
+          "id": "l13v15",
+          "term": "der Rollstuhl",
+          "translation": "la silla de ruedas",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Rollstühle",
+          "example": "Nach ihrem Skiunfall war meine Tante sechs Wochen auf einen Rollstuhl angewiesen."
+        },
+        {
+          "id": "l13v16",
+          "term": "die Zuverlässigkeit",
+          "translation": "la fiabilidad",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Bei Rauchmeldern ist Zuverlässigkeit wichtiger als ein schickes Design."
+        },
+        {
+          "id": "l13v17",
+          "term": "das Warnsystem",
+          "translation": "el sistema de alerta",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Warnsysteme",
+          "example": "Das neue Warnsystem schickt bei Hochwasser automatisch eine Nachricht aufs Handy."
+        },
+        {
+          "id": "l13v18",
+          "term": "die Verkehrssicherheit",
+          "translation": "la seguridad vial",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Mehr Radwege würden die Verkehrssicherheit in der Innenstadt deutlich erhöhen."
+        },
+        {
+          "id": "l13v19",
+          "term": "einschalten",
+          "translation": "encender, conectar",
+          "partOfSpeech": "verb",
+          "preterite": "schaltete ein",
+          "participle": "eingeschaltet",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Schalte bitte den Drucker erst ein, wenn das Papier eingelegt ist."
+        },
+        {
+          "id": "l13v20",
+          "term": "sich verlassen",
+          "translation": "fiarse, confiar (en)",
+          "partOfSpeech": "verb",
+          "preterite": "verließ sich",
+          "participle": "sich verlassen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Auf die Akkuanzeige meines alten Handys kann ich mich nicht mehr verlassen."
+        },
+        {
+          "id": "l13v21",
+          "term": "sich aufregen",
+          "translation": "enfadarse, alterarse",
+          "partOfSpeech": "verb",
+          "preterite": "regte sich auf",
+          "participle": "sich aufgeregt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Mein Vater regt sich jedes Mal auf, wenn der Fernseher ein Update installiert."
+        },
+        {
+          "id": "l13v22",
+          "term": "benutzerfreundlich",
+          "translation": "fácil de usar",
+          "partOfSpeech": "adjective",
+          "example": "Die neue Banking-App ist viel benutzerfreundlicher als die alte."
+        },
+        {
+          "id": "l13v23",
+          "term": "es eilig haben",
+          "translation": "tener prisa",
+          "partOfSpeech": "phrase",
+          "example": "Entschuldigung, ich habe es eilig – mein Zug fährt in fünf Minuten."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l13e01",
+            "type": "multiple-choice",
+            "instruction": "Wähle die richtige Form.",
+            "prompt": "In der Werkstatt ___ zwei Verlängerungskabel.",
+            "options": [
+              "fehlen",
+              "es fehlen",
+              "fehlt es",
+              "es fehlt"
+            ],
+            "solution": "fehlen",
+            "hint": "Was steht schon auf Position 1?",
+            "explanation": "Das Vorfeld ist mit 'In der Werkstatt' besetzt, also entfällt das Platzhalter-es. Das Verb richtet sich nach 'zwei Verlängerungskabel' (Plural)."
+          },
+          {
+            "id": "l13e02",
+            "type": "multiple-choice",
+            "instruction": "Braucht der Satz 'es'? Wähle 'es' oder '–' (kein Wort).",
+            "prompt": "Seit gestern Abend gibt ___ im ganzen Haus kein WLAN.",
+            "options": [
+              "es",
+              "–"
+            ],
+            "solution": "es",
+            "hint": "Denk an den Ausdruck 'es gibt'.",
+            "explanation": "In 'es gibt' ist es echtes Subjekt und fällt nie weg, auch wenn ein anderes Satzglied im Vorfeld steht."
+          },
+          {
+            "id": "l13e03",
+            "type": "multiple-choice",
+            "instruction": "Wähle die richtige Form.",
+            "prompt": "Beim letzten Update ___ leider zu einigen Fehlern gekommen.",
+            "options": [
+              "ist es",
+              "ist",
+              "sind es",
+              "hat es"
+            ],
+            "solution": "ist es",
+            "hint": "'zu etwas kommen' im Sinne von 'passieren' ist unpersönlich.",
+            "explanation": "'Es kommt zu …' braucht immer es als Subjekt, also Singular. Das Perfekt von 'kommen' bildet man mit 'sein', nicht mit 'haben'."
+          },
+          {
+            "id": "l13e04",
+            "type": "multiple-choice",
+            "instruction": "Welcher Satz ist richtig?",
+            "prompt": "Die neue Software läuft endlich stabil.",
+            "options": [
+              "Mit der neuen Software klappt es endlich.",
+              "Mit der neuen Software klappt endlich.",
+              "Es mit der neuen Software klappt endlich.",
+              "Mit der neuen Software es klappt endlich."
+            ],
+            "solution": "Mit der neuen Software klappt es endlich.",
+            "hint": "In 'es klappt' ist es das Subjekt.",
+            "explanation": "Bei 'es klappt' ist es unpersönliches Subjekt und bleibt auch, wenn etwas anderes im Vorfeld steht – direkt nach dem Verb auf Position 2."
+          },
+          {
+            "id": "l13e05",
+            "type": "multiple-choice",
+            "instruction": "Welches Nomen gehört zum Adjektiv 'zuverlässig'?",
+            "prompt": "zuverlässig → ?",
+            "options": [
+              "die Zuverlässigkeit",
+              "die Zuverlässigheit",
+              "die Zuverlässität",
+              "die Zuverlässlichkeit"
+            ],
+            "solution": "die Zuverlässigkeit",
+            "hint": "Achte auf die Endung des Adjektivs: -ig.",
+            "explanation": "Adjektive auf -ig, -lich, -bar und -sam bilden das Nomen mit -keit. '-heit' passt hier nicht, '-ität' nur bei Fremdwörtern."
+          },
+          {
+            "id": "l13e06",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Nomen zum Adjektiv 'komplex' mit Artikel.",
+            "prompt": "Viele Nutzer stört ___ der neuen Heizungssteuerung.",
+            "solution": "die Komplexität",
+            "hint": "'komplex' ist ein Fremdwort.",
+            "explanation": "Fremdwörter wie komplex, stabil oder funktional bilden das Nomen meist mit -ität. Alle Nomen auf -heit/-keit/-ität sind feminin."
+          },
+          {
+            "id": "l13e07",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Nomen zum Adjektiv 'barrierefrei' mit Artikel.",
+            "prompt": "Für Menschen mit Gehhilfe ist ___ eines Gebäudes entscheidend.",
+            "solution": "die Barrierefreiheit",
+            "hint": "Wie heißt das Nomen zu 'frei'?",
+            "explanation": "'frei' → 'die Freiheit', also 'barrierefrei' → 'die Barrierefreiheit'. -keit steht nach -ig, -lich, -bar, -sam, nicht nach 'frei'."
+          },
+          {
+            "id": "l13e08",
+            "type": "multiple-choice",
+            "instruction": "Worauf verweist 'es'?",
+            "prompt": "Es nervt mich, dass die App ständig nach meinem Standort fragt.",
+            "options": [
+              "auf den ganzen dass-Satz",
+              "auf die App",
+              "auf den Standort",
+              "auf mich"
+            ],
+            "solution": "auf den ganzen dass-Satz",
+            "hint": "Was genau nervt?",
+            "explanation": "Hier ist es ein Korrelat: Es kündigt den nachgestellten dass-Satz an. Für 'die App' oder 'den Standort' stünde 'sie' bzw. 'er'."
+          },
+          {
+            "id": "l13e09",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende feste Wendung.",
+            "prompt": "In dem Artikel ___ um die Frage, wie sicher Smart-Home-Geräte sind.",
+            "options": [
+              "geht es",
+              "geht",
+              "gibt es",
+              "handelt"
+            ],
+            "solution": "geht es",
+            "hint": "Gesucht ist 'Thema ist …'.",
+            "explanation": "'Es geht um + Akk.' braucht immer es. 'handelt' allein ist falsch ('es handelt sich um'), 'es gibt' hat keine Präposition 'um'."
+          },
+          {
+            "id": "l13e10",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Wort.",
+            "prompt": "Der Techniker hat ___ eilig, er hat heute noch zwölf Termine.",
+            "options": [
+              "es",
+              "das",
+              "sich",
+              "ihn"
+            ],
+            "solution": "es",
+            "hint": "Die Wendung bedeutet 'in Zeitnot sein'.",
+            "explanation": "Die feste Wendung lautet 'es eilig haben'. Das es verweist auf nichts Konkretes und lässt sich nicht durch 'das' oder ein Pronomen ersetzen."
+          },
+          {
+            "id": "l13e11",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze ein Wort.",
+            "prompt": "Unserer Schule fehlt ___ an Ladestationen für die Tablets.",
+            "solution": "es",
+            "hint": "Feste Wendung: (jemandem) fehlt … an etwas.",
+            "explanation": "'Es fehlt (jemandem) an + Dativ' ist eine feste Wendung mit obligatorischem es, auch wenn ein anderes Satzglied im Vorfeld steht."
+          },
+          {
+            "id": "l13e12",
+            "type": "multiple-choice",
+            "instruction": "Welches Nomen gehört zum Adjektiv 'sparsam'?",
+            "prompt": "sparsam → ?",
+            "options": [
+              "die Sparsamkeit",
+              "die Sparsamheit",
+              "die Sparsamigkeit",
+              "die Sparsamität"
+            ],
+            "solution": "die Sparsamkeit",
+            "hint": "Achte auf die Endung -sam.",
+            "explanation": "Nach -sam folgt -keit: sparsam → Sparsamkeit. '-igkeit' haben nur einige Adjektive ohne -ig (genau → Genauigkeit)."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l13m01",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb.",
+            "prompt": "Es ___ heute zwei Techniker vom Netzbetreiber vorbei. (kommen, Präsens)",
+            "solution": "kommen",
+            "hint": "Wer ist das eigentliche Subjekt?",
+            "explanation": "Das Platzhalter-es ist nicht Subjekt. Das Verb richtet sich nach 'zwei Techniker' (Plural), nicht nach es."
+          },
+          {
+            "id": "l13m02",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb.",
+            "prompt": "Seit dem Umbau ___ es im Gemeindezentrum keine Stufen mehr. (geben, Präsens)",
+            "solution": "gibt",
+            "hint": "In 'es gibt' ist es das Subjekt.",
+            "explanation": "Bei 'es gibt' ist es das Subjekt, deshalb steht das Verb immer im Singular – auch bei 'keine Stufen' (Plural)."
+          },
+          {
+            "id": "l13m03",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb.",
+            "prompt": "Letzte Woche ___ es in unserem Viertel zwei Stunden lang keinen Strom. (geben, Präteritum)",
+            "solution": "gab",
+            "hint": "'geben' ist unregelmäßig.",
+            "explanation": "'geben' – gab – gegeben. In 'es gibt' bleibt es auch hinter dem Verb stehen, wenn eine Zeitangabe im Vorfeld steht."
+          },
+          {
+            "id": "l13m04",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb.",
+            "prompt": "Bei dem Treffen ___ es vor allem um die Barrierefreiheit der Website. (gehen, Präteritum)",
+            "solution": "ging",
+            "hint": "'gehen' ist unregelmäßig.",
+            "explanation": "'Es geht um' – Präteritum 'es ging um'. Subjekt ist es, darum Singular. 'gehte' gibt es nicht."
+          },
+          {
+            "id": "l13m05",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb.",
+            "prompt": "Es ___ mich, dass die Waschmaschine schon nach zwei Jahren kaputt ist. (ärgern, Präsens)",
+            "solution": "ärgert",
+            "hint": "Was ärgert mich? Der dass-Satz.",
+            "explanation": "Es vertritt den dass-Satz, der Subjekt ist; das Verb steht also in der 3. Person Singular. 'mich' ist Objekt."
+          },
+          {
+            "id": "l13m06",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb.",
+            "prompt": "Hoffentlich ___ es morgen mit der Videokonferenz besser. (klappen, Präsens)",
+            "solution": "klappt",
+            "hint": "Unpersönliches Subjekt es.",
+            "explanation": "In 'es klappt' ist es unpersönliches Subjekt (3. Person Singular) und bleibt hinter dem Verb, wenn 'Hoffentlich' im Vorfeld steht."
+          },
+          {
+            "id": "l13m07",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb.",
+            "prompt": "Früher ___ es in unserem Dorf an schnellem Internet. (fehlen, Präteritum)",
+            "solution": "fehlte",
+            "hint": "'es fehlt an' ist eine feste Wendung.",
+            "explanation": "In 'es fehlt an + Dativ' ist es Subjekt, also Singular: 'fehlte'. 'fehlten' wäre nur richtig ohne 'an', mit Plural-Subjekt."
+          },
+          {
+            "id": "l13m08",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Es'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "dass",
+              "Es",
+              "so schnell",
+              "mich,",
+              "der Akku",
+              "ärgert",
+              "leer ist"
+            ],
+            "solution": "Es ärgert mich, dass der Akku so schnell leer ist.",
+            "hint": "Es steht im Vorfeld und kündigt den Nebensatz an.",
+            "explanation": "Das Korrelat es besetzt das Vorfeld, 'ärgert' folgt auf Position 2. Im dass-Satz steht das Verb 'ist' am Ende."
+          },
+          {
+            "id": "l13m09",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Mich'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "hat",
+              "die Fernbedienung",
+              "stört,",
+              "Mich",
+              "so viele Knöpfe",
+              "dass"
+            ],
+            "solution": "Mich stört, dass die Fernbedienung so viele Knöpfe hat.",
+            "hint": "Das Objekt steht im Vorfeld, danach das Verb.",
+            "explanation": "Steht 'Mich' im Vorfeld, braucht man kein Platzhalter-es: Das Verb folgt direkt. Im dass-Satz steht 'hat' am Ende."
+          },
+          {
+            "id": "l13m10",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Es ist'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "auf ein neues Betriebssystem",
+              "nicht leicht,",
+              "umzustellen",
+              "Es ist",
+              "sich"
+            ],
+            "solution": "Es ist nicht leicht, sich auf ein neues Betriebssystem umzustellen.",
+            "hint": "es kündigt hier einen Infinitivsatz mit zu an.",
+            "explanation": "Es verweist auf den Infinitivsatz. Darin steht das Reflexivpronomen vorn, 'umzustellen' (zu im Präfixverb) am Ende."
+          },
+          {
+            "id": "l13m11",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Es ist'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "überhaupt Sinn",
+              "Es ist",
+              "ob",
+              "hat",
+              "die Reparatur",
+              "noch unklar,"
+            ],
+            "solution": "Es ist noch unklar, ob die Reparatur überhaupt Sinn hat.",
+            "hint": "es kündigt hier einen ob-Satz an.",
+            "explanation": "Es ist Korrelat für den ob-Satz. Im Nebensatz folgt nach 'ob' das Subjekt, das konjugierte Verb 'hat' steht am Ende."
+          },
+          {
+            "id": "l13m12",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Ich finde'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "wenn",
+              "praktisch,",
+              "einschaltet",
+              "Ich finde",
+              "automatisch",
+              "es",
+              "sich das Licht"
+            ],
+            "solution": "Ich finde es praktisch, wenn sich das Licht automatisch einschaltet.",
+            "hint": "es steht nach 'finde' und verweist auf den wenn-Satz.",
+            "explanation": "Mit es als Korrelat steht es direkt nach 'finde' und kündigt den wenn-Satz an. Im Nebensatz steht 'einschaltet' am Ende."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l13h01",
+            "type": "targeted-transformation",
+            "instruction": "Stelle 'Im Keller' ins Vorfeld. Die übrigen Satzglieder bleiben in ihrer Reihenfolge.",
+            "prompt": "Es stehen zwei alte Router im Keller.",
+            "solution": "Im Keller stehen zwei alte Router.",
+            "hint": "Was passiert mit dem Platzhalter-es?",
+            "explanation": "Das Platzhalter-es hält nur Position 1 frei. Steht 'Im Keller' im Vorfeld, entfällt es; 'Im Keller stehen es …' ist falsch."
+          },
+          {
+            "id": "l13h02",
+            "type": "targeted-transformation",
+            "instruction": "Stelle 'Seit heute Morgen' ins Vorfeld. Die übrigen Satzglieder bleiben in ihrer Reihenfolge.",
+            "prompt": "Es regnet seit heute Morgen ununterbrochen.",
+            "solution": "Seit heute Morgen regnet es ununterbrochen.",
+            "hint": "Ist es hier Platzhalter oder Subjekt?",
+            "explanation": "Bei Wetterverben ist es echtes Subjekt und fällt nicht weg. Es rückt hinter das Verb: 'regnet es'."
+          },
+          {
+            "id": "l13h03",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde die Sätze mit dem Nomen zum Adjektiv 'genau'. Beginne mit 'Die'; die übrigen Wörter bleiben in ihrer Reihenfolge.",
+            "prompt": "Die Uhr ist genau. Das überzeugt viele Käufer.",
+            "solution": "Die Genauigkeit der Uhr überzeugt viele Käufer.",
+            "hint": "Das Adjektiv endet nicht auf -ig.",
+            "explanation": "'genau' bekommt -igkeit: die Genauigkeit. Die Uhr wird zum Genitivattribut 'der Uhr'. 'Genauheit' gibt es nicht."
+          },
+          {
+            "id": "l13h04",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde die Sätze mit dem Nomen zum Adjektiv 'einfach'. Beginne mit 'Die'; die übrigen Wörter bleiben in ihrer Reihenfolge.",
+            "prompt": "Die App ist einfach. Das gefällt besonders älteren Nutzern.",
+            "solution": "Die Einfachheit der App gefällt besonders älteren Nutzern.",
+            "hint": "Welche Endung passt zu 'einfach'?",
+            "explanation": "'einfach' → 'die Einfachheit' (-heit). Die App wird Genitivattribut 'der App'; das Verb 'gefällt' bleibt im Singular."
+          },
+          {
+            "id": "l13h05",
+            "type": "targeted-transformation",
+            "instruction": "Stelle den dass-Satz an den Anfang. Die übrigen Wörter bleiben gleich.",
+            "prompt": "Es ist ärgerlich, dass das Ladegerät nicht zum Handy passt.",
+            "solution": "Dass das Ladegerät nicht zum Handy passt, ist ärgerlich.",
+            "hint": "Braucht man das Korrelat noch?",
+            "explanation": "Steht der dass-Satz selbst im Vorfeld, entfällt das Korrelat es. Danach folgt direkt das Verb 'ist'."
+          },
+          {
+            "id": "l13h06",
+            "type": "targeted-transformation",
+            "instruction": "Beginne mit 'Es ist'. Der Infinitivsatz steht am Ende.",
+            "prompt": "Sich bei jedem Problem sofort an den Support zu wenden, ist nicht nötig.",
+            "solution": "Es ist nicht nötig, sich bei jedem Problem sofort an den Support zu wenden.",
+            "hint": "es übernimmt Position 1 für den Infinitivsatz.",
+            "explanation": "Wird der Infinitivsatz nachgestellt, besetzt das Korrelat es das Vorfeld. Der Infinitivsatz wird mit Komma abgetrennt."
+          },
+          {
+            "id": "l13h07",
+            "type": "targeted-transformation",
+            "instruction": "Formuliere mit 'es fehlt an' um. Beginne mit 'In vielen Arztpraxen'.",
+            "prompt": "In vielen Arztpraxen gibt es zu wenig barrierefreie Eingänge.",
+            "solution": "In vielen Arztpraxen fehlt es an barrierefreien Eingängen.",
+            "hint": "'an' verlangt den Dativ.",
+            "explanation": "'Es fehlt an + Dativ': es bleibt als Subjekt hinter dem Verb. Dativ Plural: 'barrierefreien Eingängen' mit -n."
+          },
+          {
+            "id": "l13h08",
+            "type": "error-correction",
+            "instruction": "Ein Wort fehlt. Schreibe den korrigierten Satz.",
+            "prompt": "Gestern hat in der ganzen Firma keinen Internetzugang gegeben.",
+            "solution": "Gestern hat es in der ganzen Firma keinen Internetzugang gegeben.",
+            "hint": "Wer ist das Subjekt?",
+            "explanation": "'Es gibt' braucht immer es als Subjekt, auch wenn 'Gestern' im Vorfeld steht. 'keinen Internetzugang' ist Akkusativ, also kein Subjekt."
+          },
+          {
+            "id": "l13h09",
+            "type": "error-correction",
+            "instruction": "Ein Wort ist zu viel. Schreibe den korrigierten Satz.",
+            "prompt": "Im Rechenzentrum es fehlen zwei Techniker.",
+            "solution": "Im Rechenzentrum fehlen zwei Techniker.",
+            "hint": "Welches Wort hält nur Position 1 frei?",
+            "explanation": "Das Platzhalter-es steht nur im Vorfeld. Ist Position 1 mit 'Im Rechenzentrum' besetzt, entfällt es; Subjekt ist 'zwei Techniker'."
+          },
+          {
+            "id": "l13h10",
+            "type": "error-correction",
+            "instruction": "Ein Wort fehlt. Schreibe den korrigierten Satz.",
+            "prompt": "Wir haben eilig, weil der Elektriker gleich kommt.",
+            "solution": "Wir haben es eilig, weil der Elektriker gleich kommt.",
+            "hint": "Denk an die feste Wendung.",
+            "explanation": "Die Wendung heißt 'es eilig haben'; das es ist fester Bestandteil und darf nicht fehlen."
+          },
+          {
+            "id": "l13h11",
+            "type": "error-correction",
+            "instruction": "Korrigiere das falsch gebildete Nomen.",
+            "prompt": "Die Sauberheit der Linse ist für scharfe Fotos entscheidend.",
+            "solution": "Die Sauberkeit der Linse ist für scharfe Fotos entscheidend.",
+            "hint": "Adjektive auf -er bekommen oft -keit.",
+            "explanation": "'sauber' → 'die Sauberkeit'. Viele Adjektive auf -er und -el bekommen -keit (Heiterkeit), Ausnahmen wie 'Dunkelheit' muss man lernen."
+          },
+          {
+            "id": "l13h12",
+            "type": "error-correction",
+            "instruction": "Korrigiere das falsch gebildete Nomen.",
+            "prompt": "Die Stabilheit des Netzes ist für Online-Banking besonders wichtig.",
+            "solution": "Die Stabilität des Netzes ist für Online-Banking besonders wichtig.",
+            "hint": "'stabil' ist ein Fremdwort.",
+            "explanation": "Fremdwörter auf -il, -al, -ell oder -ex bilden das Nomen meist mit -ität: stabil → Stabilität, nicht mit -heit."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l13t01",
+          "type": "multiple-choice",
+          "instruction": "Welcher Satz ist korrekt?",
+          "prompt": "Ein Satz über ein Handbuch – nur eine Wortstellung stimmt.",
+          "options": [
+            "In der Bedienungsanleitung fehlen zwei wichtige Seiten.",
+            "In der Bedienungsanleitung fehlen es zwei wichtige Seiten.",
+            "In der Bedienungsanleitung es fehlen zwei wichtige Seiten.",
+            "Es in der Bedienungsanleitung fehlen zwei wichtige Seiten."
+          ],
+          "solution": "In der Bedienungsanleitung fehlen zwei wichtige Seiten.",
+          "explanation": "Das Platzhalter-es steht nur auf Position 1. Besetzt ein anderes Satzglied das Vorfeld, entfällt es; Subjekt ist „zwei wichtige Seiten“."
+        },
+        {
+          "id": "l13t02",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze ein Wort.",
+          "prompt": "In der heutigen Schulung geht ___ um den sicheren Umgang mit Passwörtern.",
+          "solution": "es",
+          "explanation": "„es geht um“ ist eine feste Wendung: es ist hier echtes Subjekt und bleibt auch dann, wenn ein anderes Satzglied im Vorfeld steht."
+        },
+        {
+          "id": "l13t03",
+          "type": "targeted-transformation",
+          "instruction": "Beginne mit „Auf der Baustelle“. Die übrigen Satzglieder bleiben in derselben Reihenfolge.",
+          "prompt": "Es arbeiten heute nur drei Elektriker auf der Baustelle.",
+          "solution": "Auf der Baustelle arbeiten heute nur drei Elektriker.",
+          "explanation": "Das Vorfeld-es ist nur Platzhalter. Steht „Auf der Baustelle“ auf Position 1, fällt es weg; das Verb richtet sich nach „drei Elektriker“."
+        },
+        {
+          "id": "l13t04",
+          "type": "multiple-choice",
+          "instruction": "Wähle die richtige Form.",
+          "prompt": "Im neuen Parkhaus ___ endlich genug Ladestationen für E-Autos.",
+          "options": [
+            "gibt es",
+            "gibt",
+            "es gibt",
+            "geben es"
+          ],
+          "solution": "gibt es",
+          "explanation": "In „es gibt“ ist es echtes Subjekt und entfällt nie; bei anderem Vorfeld steht es direkt nach dem Verb. „geben“ bleibt immer Singular."
+        },
+        {
+          "id": "l13t05",
+          "type": "error-correction",
+          "instruction": "Im Satz fehlt ein Wort. Schreibe den korrigierten Satz.",
+          "prompt": "Am Wochenende hat so stark geschneit, dass das Funknetz ausgefallen ist.",
+          "solution": "Am Wochenende hat es so stark geschneit, dass das Funknetz ausgefallen ist.",
+          "explanation": "Witterungsverben wie „schneien“ brauchen immer das unpersönliche Subjekt es – auch im Mittelfeld, direkt nach dem finiten Verb."
+        },
+        {
+          "id": "l13t06",
+          "type": "fill-in-blank",
+          "instruction": "Bilde aus dem Adjektiv in Klammern ein Nomen und schreibe es mit Artikel.",
+          "prompt": "Bei Katastrophenwarnungen im Radio kommt es vor allem auf ___ (klar) der Durchsage an.",
+          "solution": "die Klarheit",
+          "explanation": "Kurze deutsche Adjektive wie „klar“ bilden das Nomen meist mit -heit: die Klarheit. Nomen auf -heit, -keit und -ität sind immer feminin."
+        },
+        {
+          "id": "l13t07",
+          "type": "multiple-choice",
+          "instruction": "Welcher Satz ist NICHT korrekt?",
+          "prompt": "Drei Sätze sind richtig, einer ist falsch.",
+          "options": [
+            "Es stört mich, dass das Navi ständig neu startet.",
+            "Mich stört, dass das Navi ständig neu startet.",
+            "Mich stört es, dass das Navi ständig neu startet.",
+            "Dass das Navi ständig neu startet, stört es mich."
+          ],
+          "solution": "Dass das Navi ständig neu startet, stört es mich.",
+          "explanation": "Steht der dass-Satz selbst im Vorfeld, gibt es kein Korrelat-es. Im Mittelfeld ist es bei „stören“ dagegen möglich, aber nicht nötig."
+        },
+        {
+          "id": "l13t08",
+          "type": "cloze-conjugation",
+          "instruction": "Ergänze das Verb der festen Wendung „es ernst meinen“ im Präsens.",
+          "prompt": "Wenn die Stadtwerke es mit dem Klimaschutz ernst ___, bauen sie mehr Solaranlagen.",
+          "solution": "meinen",
+          "explanation": "„es ernst meinen“: Subjekt ist „die Stadtwerke“ (Plural) → meinen; im wenn-Satz steht das Verb am Ende."
+        },
+        {
+          "id": "l13t09",
+          "type": "targeted-transformation",
+          "instruction": "Stelle den dass-Satz an den Satzanfang. Die übrigen Satzglieder bleiben in derselben Reihenfolge.",
+          "prompt": "Es überrascht viele Kunden, dass das Gerät keinen Netzschalter hat.",
+          "solution": "Dass das Gerät keinen Netzschalter hat, überrascht viele Kunden.",
+          "explanation": "Das Korrelat-es vertritt den dass-Satz. Steht der dass-Satz selbst auf Position 1, entfällt es: „…, überrascht viele Kunden“."
+        },
+        {
+          "id": "l13t10",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Nomen.",
+          "prompt": "Viele Pendler schätzen die ___ (flexibel) von Carsharing-Angeboten.",
+          "options": [
+            "Flexibilität",
+            "Flexibelheit",
+            "Flexibelkeit",
+            "Flexibligkeit"
+          ],
+          "solution": "Flexibilität",
+          "explanation": "Fremdwort-Adjektive auf -ibel/-il/-ex bilden das Nomen meist mit -ität (flexibel → Flexibilität); -heit/-keit passen nur zu deutschen Adjektiven."
+        },
+        {
+          "id": "l13t11",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz mit Infinitivsatz. Beginne mit „Es“.",
+          "prompt": "Baue den Satz aus den Satzgliedern.",
+          "scrambleChunks": [
+            "schwer,",
+            "meiner Großmutter",
+            "zu bedienen",
+            "Es",
+            "die winzigen Tasten",
+            "fällt"
+          ],
+          "solution": "Es fällt meiner Großmutter schwer, die winzigen Tasten zu bedienen.",
+          "explanation": "Es kündigt den Infinitivsatz an, der nach dem Komma folgt; „zu“ + Infinitiv steht am Ende des Infinitivsatzes."
+        },
+        {
+          "id": "l13t12",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze die fehlende Präposition.",
+          "prompt": "Bei vielen kleinen Start-ups fehlt es ___ Geld für eine sichere IT.",
+          "solution": "an",
+          "explanation": "Feste Wendung: „es fehlt an“ + Dativ. Das es ist Subjekt und bleibt auch hinter dem Verb stehen."
+        },
+        {
+          "id": "l13t13",
+          "type": "multiple-choice",
+          "instruction": "Wähle die richtige Form.",
+          "prompt": "Wann die neue Software-Version erscheint, ___ noch unklar.",
+          "options": [
+            "ist",
+            "ist es",
+            "es ist",
+            "sind"
+          ],
+          "solution": "ist",
+          "explanation": "Steht der w-Satz selbst im Vorfeld, entfällt das Korrelat-es; das finite Verb folgt direkt auf Position 2. Der Nebensatz zählt als Singular-Subjekt."
+        },
+        {
+          "id": "l13t14",
+          "type": "fill-in-blank",
+          "instruction": "Bilde aus dem Adjektiv in Klammern ein Nomen und schreibe es mit Artikel.",
+          "prompt": "Mich hat vor allem ___ (langlebig) der neuen Spülmaschine überzeugt.",
+          "solution": "die Langlebigkeit",
+          "explanation": "Adjektive auf -ig, -lich, -bar und -sam bilden das Nomen mit -keit: langlebig → die Langlebigkeit. „-heit“ passt hier nicht."
+        },
+        {
+          "id": "l13t15",
+          "type": "error-correction",
+          "instruction": "Korrigiere die falsche Nomenendung. Das Nomen kommt von „schnell“; ändere nur dieses Wort.",
+          "prompt": "Die Schnellheit der Glasfaserleitung hat uns begeistert.",
+          "solution": "Die Schnelligkeit der Glasfaserleitung hat uns begeistert.",
+          "explanation": "Einige Adjektive bilden das Nomen mit -igkeit statt -heit, z. B. schnell → die Schnelligkeit, leicht → die Leichtigkeit. „Schnellheit“ gibt es nicht."
+        },
+        {
+          "id": "l13t16",
+          "type": "targeted-transformation",
+          "instruction": "Beginne mit „In der Werkstatt“. Die übrigen Satzglieder bleiben in derselben Reihenfolge.",
+          "prompt": "Es wird in der Werkstatt bis spät abends gelötet.",
+          "solution": "In der Werkstatt wird bis spät abends gelötet.",
+          "explanation": "Im unpersönlichen Passiv ist es nur Platzhalter im Vorfeld. Steht dort ein anderes Satzglied, entfällt es."
+        }
+      ]
+    },
+    {
+      "lektionId": "b2-m5-l14",
+      "level": "B2",
+      "modulNumber": 5,
+      "lektionNumber": 14,
+      "title": "Spiel und Ernst",
+      "grammarFocus": [
+        "Redemittel in einer Diskussion: Ideen einbringen (Ich hätte da einen Vorschlag), nachfragen / um Vorschläge bitten (Wie stellt ihr euch das konkret vor?), Ergebnisse zusammenfassen (Wenn ich das kurz zusammenfasse, …)",
+        "Wortbildung mit „Spiel“: Komposita (das Brettspiel, die Spielregel, der Spielraum) und Adjektive (spielerisch vs. verspielt, spielbar)",
+        "Anglizismen im Deutschen: englische Wörter mit deutscher Konjugation und Deklination (streamen → gestreamt, updaten → upgedatet, die Gamerin → die Gamerinnen, chillig)"
+      ],
+      "vocabulary": [
+        {
+          "id": "l14v01",
+          "term": "das Brettspiel",
+          "translation": "el juego de mesa",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Brettspiele",
+          "example": "An langen Winterabenden holen wir gern ein altes Brettspiel aus dem Schrank."
+        },
+        {
+          "id": "l14v02",
+          "term": "die Spielregel",
+          "translation": "la regla del juego",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Spielregeln",
+          "example": "Wer die Spielregeln nicht kennt, sollte vor der ersten Runde kurz nachlesen."
+        },
+        {
+          "id": "l14v03",
+          "term": "der Spielraum",
+          "translation": "el margen de maniobra",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Spielräume",
+          "example": "Bei der Gestaltung des Projekts lässt uns die Chefin erstaunlich viel Spielraum."
+        },
+        {
+          "id": "l14v04",
+          "term": "spielerisch",
+          "translation": "lúdico / de forma lúdica",
+          "partOfSpeech": "adjective",
+          "example": "Mit kleinen Rätseln lernen die Kinder Vokabeln ganz spielerisch."
+        },
+        {
+          "id": "l14v05",
+          "term": "verspielt",
+          "translation": "juguetón; recargado (decoración)",
+          "partOfSpeech": "adjective",
+          "example": "Der junge Hund ist noch sehr verspielt und bringt ständig seinen Ball."
+        },
+        {
+          "id": "l14v06",
+          "term": "die Gamification",
+          "translation": "la gamificación",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Durch Gamification sollen auch trockene Schulungen mehr Spaß machen."
+        },
+        {
+          "id": "l14v07",
+          "term": "das Serious Game",
+          "translation": "el juego serio (con fines formativos)",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Serious Games",
+          "example": "In einem Serious Game üben Pflegekräfte den Umgang mit Notfällen."
+        },
+        {
+          "id": "l14v08",
+          "term": "die Belohnung",
+          "translation": "la recompensa",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Belohnungen",
+          "example": "Als Belohnung für zehn Übungstage am Stück bekommt man ein neues Abzeichen."
+        },
+        {
+          "id": "l14v09",
+          "term": "der Anreiz",
+          "translation": "el incentivo",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Anreize",
+          "example": "Ein Bonus für gesunde Ernährung ist für viele Versicherte ein echter Anreiz."
+        },
+        {
+          "id": "l14v10",
+          "term": "der Freiraum",
+          "translation": "el espacio libre / la libertad",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Freiräume",
+          "example": "Im Spiel finden viele Erwachsene einen Freiraum, den ihnen der Alltag nicht bietet."
+        },
+        {
+          "id": "l14v11",
+          "term": "der Zwang",
+          "translation": "la obligación / la coacción",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Zwänge",
+          "example": "Ein Hobby sollte Freude machen und nicht zum Zwang werden."
+        },
+        {
+          "id": "l14v12",
+          "term": "sich auskennen",
+          "translation": "conocer bien, saber mucho de algo",
+          "partOfSpeech": "verb",
+          "preterite": "kannte sich aus",
+          "participle": "sich ausgekannt",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Mit Strategiespielen kennt sich mein Neffe besser aus als jeder Erwachsene."
+        },
+        {
+          "id": "l14v13",
+          "term": "abweichen",
+          "translation": "desviarse, diferir",
+          "partOfSpeech": "verb",
+          "preterite": "wich ab",
+          "participle": "abgewichen",
+          "auxiliary": "sein",
+          "irregular": true,
+          "example": "Die Kosten sind deutlich von der ursprünglichen Planung abgewichen."
+        },
+        {
+          "id": "l14v14",
+          "term": "umsetzen",
+          "translation": "llevar a la práctica, implementar",
+          "partOfSpeech": "verb",
+          "preterite": "setzte um",
+          "participle": "umgesetzt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Gute Ideen gibt es viele, aber nur wenige werden wirklich umgesetzt."
+        },
+        {
+          "id": "l14v15",
+          "term": "dienen",
+          "translation": "servir (para)",
+          "partOfSpeech": "verb",
+          "preterite": "diente",
+          "participle": "gedient",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Die Fortschrittsanzeige dient vor allem dazu, die Lernenden zu motivieren."
+        },
+        {
+          "id": "l14v16",
+          "term": "behalten",
+          "translation": "conservar, mantener",
+          "partOfSpeech": "verb",
+          "preterite": "behielt",
+          "participle": "behalten",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Auch beim Online-Shopping sollte man den Überblick über seine Ausgaben behalten."
+        },
+        {
+          "id": "l14v17",
+          "term": "einbringen",
+          "translation": "aportar (ideas, propuestas)",
+          "partOfSpeech": "verb",
+          "preterite": "brachte ein",
+          "participle": "eingebracht",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "In unserer Projektgruppe darf jede Person ihre eigenen Ideen einbringen."
+        },
+        {
+          "id": "l14v18",
+          "term": "zusammenfassen",
+          "translation": "resumir",
+          "partOfSpeech": "verb",
+          "preterite": "fasste zusammen",
+          "participle": "zusammengefasst",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Am Ende des Meetings fasst die Moderatorin die wichtigsten Punkte zusammen."
+        },
+        {
+          "id": "l14v19",
+          "term": "streamen",
+          "translation": "transmitir en directo / ver en streaming",
+          "partOfSpeech": "verb",
+          "preterite": "streamte",
+          "participle": "gestreamt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Am Wochenende streamt meine Schwester ihre Schachpartien live im Netz."
+        },
+        {
+          "id": "l14v20",
+          "term": "posten",
+          "translation": "publicar (en redes sociales)",
+          "partOfSpeech": "verb",
+          "preterite": "postete",
+          "participle": "gepostet",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Kaum war das Konzert vorbei, hatte sie schon zwanzig Fotos gepostet."
+        },
+        {
+          "id": "l14v21",
+          "term": "der Anglizismus",
+          "translation": "el anglicismo",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Anglizismen",
+          "example": "Wörter wie 'Meeting' oder 'Feedback' sind Anglizismen, die im Büroalltag ständig vorkommen."
+        },
+        {
+          "id": "l14v22",
+          "term": "fehlerfrei",
+          "translation": "sin errores",
+          "partOfSpeech": "adjective",
+          "example": "Seit dem letzten Update läuft das Programm endlich fehlerfrei."
+        },
+        {
+          "id": "l14v23",
+          "term": "die Rezension",
+          "translation": "la reseña",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Rezensionen",
+          "example": "Bevor ich eine App kaufe, lese ich immer ein paar Rezensionen."
+        },
+        {
+          "id": "l14v24",
+          "term": "sich umsehen",
+          "translation": "buscar, echar un vistazo (nach + Dat.)",
+          "partOfSpeech": "verb",
+          "preterite": "sah sich um",
+          "participle": "sich umgesehen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Weil mein Tablet so langsam ist, sehe ich mich nach einem neuen Gerät um."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l14e01",
+            "type": "multiple-choice",
+            "instruction": "Welche Funktion hat die Äußerung in der Teambesprechung?",
+            "prompt": "„Ich hätte da einen Vorschlag: Wir testen die App zuerst in unserer Abteilung.“",
+            "options": [
+              "eine eigene Idee einbringen",
+              "andere um Vorschläge bitten",
+              "Ergebnisse zusammenfassen",
+              "nachfragen, ob man richtig verstanden hat"
+            ],
+            "solution": "eine eigene Idee einbringen",
+            "hint": "Wer spricht hier über seine eigene Idee?",
+            "explanation": "„Ich hätte da einen Vorschlag“ leitet eine eigene Idee ein. Man bittet damit niemanden um Ideen und fasst auch nichts zusammen."
+          },
+          {
+            "id": "l14e02",
+            "type": "multiple-choice",
+            "instruction": "Du möchtest die anderen um Ideen bitten. Was sagst du?",
+            "prompt": "Thema: Wie gewinnen wir mehr Teilnehmende für den Laufkurs?",
+            "options": [
+              "Habt ihr vielleicht eine Idee, wie wir mehr Leute erreichen?",
+              "Ich stelle mir das so vor: Wir verteilen Flyer.",
+              "Wenn ich das kurz zusammenfasse, verteilen wir Flyer.",
+              "Ich hätte da einen Vorschlag: Flyer."
+            ],
+            "solution": "Habt ihr vielleicht eine Idee, wie wir mehr Leute erreichen?",
+            "hint": "Gesucht ist eine Frage an die Gruppe.",
+            "explanation": "„Habt ihr vielleicht eine Idee, …?“ bittet die anderen um Vorschläge. Die übrigen Sätze bringen eine eigene Idee ein oder fassen zusammen."
+          },
+          {
+            "id": "l14e03",
+            "type": "multiple-choice",
+            "instruction": "Du willst am Ende der Besprechung die Ergebnisse bündeln. Was sagst du?",
+            "prompt": "Wähle die passende Einleitung.",
+            "options": [
+              "Wenn ich das kurz zusammenfasse: Wir starten im Herbst.",
+              "Wie stellt ihr euch den Start konkret vor?",
+              "Was haltet ihr davon, im Herbst zu starten?",
+              "Ich hätte da eine Idee für den Start."
+            ],
+            "solution": "Wenn ich das kurz zusammenfasse: Wir starten im Herbst.",
+            "hint": "Welcher Satz blickt auf das Besprochene zurück?",
+            "explanation": "„Wenn ich das kurz zusammenfasse“ leitet eine Zusammenfassung ein. Die anderen Sätze fragen nach oder bringen eine neue Idee ein."
+          },
+          {
+            "id": "l14e04",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Nomen zum Verb „vorschlagen“ (ohne Artikel).",
+            "prompt": "Ich hätte da einen ___: Wir verschieben das Treffen auf Donnerstag.",
+            "solution": "Vorschlag",
+            "hint": "Das Nomen ist maskulin und bildet den Plural mit Umlaut.",
+            "explanation": "vorschlagen → der Vorschlag. „Ich hätte da einen Vorschlag“ ist eine höfliche Formel, um eine Idee einzubringen."
+          },
+          {
+            "id": "l14e05",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Adjektiv.",
+            "prompt": "Mit der neuen App lernen Grundschulkinder das Einmaleins ganz ___ – fast ohne es zu merken.",
+            "options": [
+              "spielerisch",
+              "verspielt",
+              "spielbar",
+              "spielfrei"
+            ],
+            "solution": "spielerisch",
+            "hint": "Gesucht ist die Art und Weise des Lernens: leicht, wie im Spiel.",
+            "explanation": "„spielerisch“ = leicht, wie im Spiel (Art und Weise). „verspielt“ beschreibt, wer gern spielt, „spielbar“, was sich spielen lässt."
+          },
+          {
+            "id": "l14e06",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Adjektiv.",
+            "prompt": "Unsere junge Katze ist noch sehr ___ und jagt jedem Wollknäuel hinterher.",
+            "options": [
+              "verspielt",
+              "spielerisch",
+              "spielbar",
+              "ausgespielt"
+            ],
+            "solution": "verspielt",
+            "hint": "Gesucht ist eine Eigenschaft: Jemand spielt sehr gern.",
+            "explanation": "„verspielt“ = spielt gern (Charakter) oder ist sehr verziert. „spielerisch“ beschreibt eine Methode, nicht ein Wesen."
+          },
+          {
+            "id": "l14e07",
+            "type": "multiple-choice",
+            "instruction": "Welches Kompositum passt?",
+            "prompt": "Bevor wir mit der ersten Runde beginnen, erkläre ich euch kurz die ___.",
+            "options": [
+              "Spielregeln",
+              "Spielräume",
+              "Spielwaren",
+              "Spielplätze"
+            ],
+            "solution": "Spielregeln",
+            "hint": "Was muss man vor einem Spiel wissen?",
+            "explanation": "Vor dem Spiel erklärt man die Spielregeln. Spielwaren kauft man, Spielplätze besucht man, Spielraum ist Freiheit beim Handeln."
+          },
+          {
+            "id": "l14e08",
+            "type": "multiple-choice",
+            "instruction": "Welches Kompositum passt?",
+            "prompt": "Beim Budget haben wir leider kaum ___ – jeder Euro ist schon verplant.",
+            "options": [
+              "Spielraum",
+              "Spielzeug",
+              "Spielplatz",
+              "Spielstand"
+            ],
+            "solution": "Spielraum",
+            "hint": "Gesucht ist ein Wort im übertragenen Sinn: Freiheit, etwas zu ändern.",
+            "explanation": "„Spielraum“ bedeutet übertragen: Freiheit oder Reserve zum Handeln. Spielzeug, Spielplatz und Spielstand passen nicht zu einem Budget."
+          },
+          {
+            "id": "l14e09",
+            "type": "multiple-choice",
+            "instruction": "Welches Beispiel ist Gamification?",
+            "prompt": "Wähle das passende Beispiel.",
+            "options": [
+              "Eine Sprachlern-App vergibt Punkte und Abzeichen, damit man jeden Tag übt.",
+              "Eine Familie spielt am Sonntag ein Brettspiel.",
+              "Ein Verein veranstaltet ein Schachturnier.",
+              "Zwei Kinder bauen im Garten eine Burg aus Sand."
+            ],
+            "solution": "Eine Sprachlern-App vergibt Punkte und Abzeichen, damit man jeden Tag übt.",
+            "hint": "Gamification nutzt Spielelemente außerhalb eines Spiels.",
+            "explanation": "Gamification überträgt Spielelemente wie Punkte oder Levels auf einen spielfremden Bereich, z. B. das Lernen. Die anderen Beispiele sind echte Spiele."
+          },
+          {
+            "id": "l14e10",
+            "type": "multiple-choice",
+            "instruction": "Welche Form ist richtig?",
+            "prompt": "Gestern habe ich das ganze Konzert live ___.",
+            "options": [
+              "gestreamt",
+              "gestreamed",
+              "streamt",
+              "gestreamen"
+            ],
+            "solution": "gestreamt",
+            "hint": "Englische Verben bilden das Partizip II im Deutschen meist wie regelmäßige Verben.",
+            "explanation": "„streamen“ wird wie ein regelmäßiges deutsches Verb konjugiert: ge- + Stamm + -t. Die englische Endung -ed gibt es im Deutschen nicht."
+          },
+          {
+            "id": "l14e11",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Partizip II von „posten“.",
+            "prompt": "Hast du die Fotos von der Hochzeit schon ___?",
+            "solution": "gepostet",
+            "hint": "Der Stamm endet auf -t. Was braucht man dann vor der Endung?",
+            "explanation": "posten → gepostet: regelmäßig wie „testen → getestet“. Bei Stamm auf -t kommt ein -e- vor die Endung -t."
+          },
+          {
+            "id": "l14e12",
+            "type": "multiple-choice",
+            "instruction": "Wähle die richtige Pluralform.",
+            "prompt": "Die Agentur betreut vor allem junge ___ (Singular: die Influencerin).",
+            "options": [
+              "Influencerinnen",
+              "Influencerins",
+              "Influencerinen",
+              "Influencers"
+            ],
+            "solution": "Influencerinnen",
+            "hint": "Feminine Formen auf -in bilden den Plural immer gleich.",
+            "explanation": "Auch bei Anglizismen gilt die deutsche Regel: -in → -innen (mit Doppel-n). Ein englisches -s passt nicht zur femininen Endung -in."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l14m01",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb im Präsens.",
+            "prompt": "In Strategiespielen ___ sich meine Schwester viel besser aus als ich. (sich auskennen)",
+            "solution": "kennt",
+            "hint": "Trennbares Verb: Stamm auf Position 2, Präfix am Ende.",
+            "explanation": "„sich auskennen“ ist trennbar: „kennt“ auf Position 2, „aus“ ans Ende. 3. Person Singular: -t."
+          },
+          {
+            "id": "l14m02",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb im Präteritum.",
+            "prompt": "Letztes Jahr ___ das Ergebnis deutlich von unseren Erwartungen ab. (abweichen)",
+            "solution": "wich",
+            "hint": "Unregelmäßiges Verb wie „streichen“.",
+            "explanation": "„abweichen“ ist unregelmäßig: weichen – wich – ist gewichen. Die regelmäßige Form „weichte“ gibt es in dieser Bedeutung nicht."
+          },
+          {
+            "id": "l14m03",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Partizip II.",
+            "prompt": "Das Team hat die Idee innerhalb von zwei Wochen ___. (umsetzen)",
+            "solution": "umgesetzt",
+            "hint": "Trennbares Verb: Wo steht „ge-“?",
+            "explanation": "„umsetzen“ ist trennbar und regelmäßig: „ge-“ steht zwischen Präfix und Stamm → umgesetzt."
+          },
+          {
+            "id": "l14m04",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb im Präsens.",
+            "prompt": "Die Punkte und Abzeichen im Lernspiel ___ vor allem der Motivation. (dienen)",
+            "solution": "dienen",
+            "hint": "Wie viele Dinge sind das Subjekt?",
+            "explanation": "Subjekt ist Plural („die Punkte und Abzeichen“) → „dienen“. „dienen“ steht mit Dativ: der Motivation."
+          },
+          {
+            "id": "l14m05",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb im Präteritum.",
+            "prompt": "Trotz der spannenden Levels ___ Lea immer die Uhr im Blick. (behalten)",
+            "solution": "behielt",
+            "hint": "Unregelmäßiges Verb wie „halten“.",
+            "explanation": "„behalten“ folgt „halten“: behält – behielt – behalten. „behaltete“ ist falsch."
+          },
+          {
+            "id": "l14m06",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Partizip II.",
+            "prompt": "Wir haben stundenlang über das neue Online-Spiel ___. (chatten)",
+            "solution": "gechattet",
+            "hint": "Englisches Verb, deutsche Regel: Stamm auf -t.",
+            "explanation": "„chatten“ wird regelmäßig konjugiert: ge- + chatt + -et. Wie bei „posten“ braucht der Stamm auf -t ein -e- vor der Endung."
+          },
+          {
+            "id": "l14m07",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb im Präsens.",
+            "prompt": "Mein Kollege ___ sich gerade nach einer neuen Fitness-App um. (sich umsehen)",
+            "solution": "sieht",
+            "hint": "Starkes Verb mit Vokalwechsel bei du/er/sie/es.",
+            "explanation": "„sich umsehen“: Vokalwechsel e → ie in der 3. Person (er sieht sich um). „seht“ ist die ihr-Form."
+          },
+          {
+            "id": "l14m08",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb im Präsens.",
+            "prompt": "Wer ___ heute die Spielergebnisse auf der Vereinswebsite? (posten)",
+            "solution": "postet",
+            "hint": "„wer“ verlangt die 3. Person Singular.",
+            "explanation": "„wer“ → 3. Person Singular: post + -et. Bei Stamm auf -t steht ein -e- vor der Endung."
+          },
+          {
+            "id": "l14m09",
+            "type": "sentence-scramble",
+            "instruction": "Bilde eine Nachfrage. Beginne mit „Wie“.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "vor",
+              "dir",
+              "Wie",
+              "den Ablauf konkret",
+              "stellst du"
+            ],
+            "solution": "Wie stellst du dir den Ablauf konkret vor?",
+            "hint": "Fragewort, dann Verb, dann Subjekt und Reflexivpronomen; das Präfix steht am Ende.",
+            "explanation": "„sich (Dat.) etwas vorstellen“ fragt nach Details: „Wie stellst du dir … vor?“ – das Präfix „vor“ steht am Satzende."
+          },
+          {
+            "id": "l14m10",
+            "type": "sentence-scramble",
+            "instruction": "Fasse zusammen. Beginne mit „Wenn ich“.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "testen",
+              "wollen wir",
+              "kurz zusammenfasse,",
+              "die App zuerst intern",
+              "Wenn ich das"
+            ],
+            "solution": "Wenn ich das kurz zusammenfasse, wollen wir die App zuerst intern testen.",
+            "hint": "Nach dem Nebensatz folgt sofort das Verb des Hauptsatzes.",
+            "explanation": "Der wenn-Satz steht auf Position 1, deshalb beginnt der Hauptsatz mit dem Verb: „wollen wir“. Der Infinitiv steht am Ende."
+          },
+          {
+            "id": "l14m11",
+            "type": "sentence-scramble",
+            "instruction": "Bringe eine Idee ein. Beginne mit „Für das Punktesystem“.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "ich",
+              "da einen Vorschlag",
+              "hätte",
+              "Für das Punktesystem"
+            ],
+            "solution": "Für das Punktesystem hätte ich da einen Vorschlag.",
+            "hint": "Verb auf Position 2, dann das Subjekt.",
+            "explanation": "„Ich hätte da einen Vorschlag“ mit Angabe im Vorfeld: „hätte“ auf Position 2, danach „ich“. Konjunktiv II macht es höflich."
+          },
+          {
+            "id": "l14m12",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit „Die Abzeichen in der App“.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "zu motivieren",
+              "dienen",
+              "die Nutzer täglich",
+              "Die Abzeichen in der App",
+              "vor allem dazu,"
+            ],
+            "solution": "Die Abzeichen in der App dienen vor allem dazu, die Nutzer täglich zu motivieren.",
+            "hint": "„dienen dazu, … zu + Infinitiv“: Das Komma steht vor dem Infinitivsatz.",
+            "explanation": "„dienen dazu“ kündigt den Zweck an, den der Infinitivsatz nennt: „…, die Nutzer täglich zu motivieren“. „zu motivieren“ steht am Ende."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l14h01",
+            "type": "error-correction",
+            "instruction": "Korrigiere den Fehler. Ändere nur ein Wort.",
+            "prompt": "Sie hat das Turnier gestern live gestreamed.",
+            "solution": "Sie hat das Turnier gestern live gestreamt.",
+            "hint": "Wie bildet man im Deutschen das Partizip II regelmäßiger Verben?",
+            "explanation": "Anglizismen bekommen deutsche Endungen: ge- + stream + -t. Die englische Endung -ed ist im Deutschen falsch."
+          },
+          {
+            "id": "l14h02",
+            "type": "error-correction",
+            "instruction": "Korrigiere den Fehler. Ändere nur ein Wort.",
+            "prompt": "Hast du die Termine für das Turnier schon gechecked?",
+            "solution": "Hast du die Termine für das Turnier schon gecheckt?",
+            "hint": "Englischer Stamm, deutsche Partizip-Endung.",
+            "explanation": "„checken“ ist im Deutschen ein regelmäßiges Verb: ge- + check + -t → gecheckt. „-ed“ gehört nicht zur deutschen Konjugation."
+          },
+          {
+            "id": "l14h03",
+            "type": "error-correction",
+            "instruction": "Korrigiere den Fehler. Ersetze nur das falsche Adjektiv durch ein anderes Adjektiv mit „spiel“.",
+            "prompt": "Die Trainerin vermittelt die Regeln sehr verspielt, sodass alle schnell mitmachen.",
+            "solution": "Die Trainerin vermittelt die Regeln sehr spielerisch, sodass alle schnell mitmachen.",
+            "hint": "Gesucht ist die Art und Weise, wie sie etwas beibringt.",
+            "explanation": "Eine Methode ist „spielerisch“ (leicht, wie im Spiel). „verspielt“ beschreibt einen Charakter oder überladenes Design, keine Methode."
+          },
+          {
+            "id": "l14h04",
+            "type": "error-correction",
+            "instruction": "Im Satz fehlt ein Wort. Ergänze es.",
+            "prompt": "Ich kenne mit Online-Rollenspielen ziemlich gut aus.",
+            "solution": "Ich kenne mich mit Online-Rollenspielen ziemlich gut aus.",
+            "hint": "Das Verb ist reflexiv.",
+            "explanation": "„sich auskennen mit“ ist reflexiv: Das Reflexivpronomen „mich“ steht direkt nach dem Verb. Ohne Pronomen ist der Satz ungrammatisch."
+          },
+          {
+            "id": "l14h05",
+            "type": "error-correction",
+            "instruction": "Korrigiere den Fehler. Ändere nur ein Wort.",
+            "prompt": "Die Ergebnisse haben stark von unserem ursprünglichen Plan abgewichen.",
+            "solution": "Die Ergebnisse sind stark von unserem ursprünglichen Plan abgewichen.",
+            "hint": "Welches Hilfsverb braucht „abweichen“ im Perfekt?",
+            "explanation": "„abweichen“ bildet das Perfekt mit „sein“ (wie Verben der Bewegung): sind abgewichen. „haben“ ist hier falsch."
+          },
+          {
+            "id": "l14h06",
+            "type": "targeted-transformation",
+            "instruction": "Formuliere höflicher mit dem Konjunktiv II von „haben“ und dem Wort „da“. Beginne mit „Ich“; der Rest bleibt gleich.",
+            "prompt": "Ich habe einen Vorschlag zur Startseite.",
+            "solution": "Ich hätte da einen Vorschlag zur Startseite.",
+            "hint": "Konjunktiv II von „haben“: ich hätte. „da“ folgt direkt.",
+            "explanation": "„Ich hätte da einen Vorschlag“ ist die höfliche Formel, um eine Idee einzubringen. Der Konjunktiv II macht den Vorschlag weniger direkt."
+          },
+          {
+            "id": "l14h07",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze „Die Regeln des Spiels“ durch ein Kompositum. Der Rest bleibt gleich.",
+            "prompt": "Die Regeln des Spiels sind ziemlich kompliziert.",
+            "solution": "Die Spielregeln sind ziemlich kompliziert.",
+            "hint": "Bestimmungswort zuerst, Grundwort am Ende.",
+            "explanation": "Das Genitivattribut wird zum Bestimmungswort: die Regeln des Spiels → die Spielregeln. Der Artikel richtet sich nach dem Grundwort „Regeln“."
+          },
+          {
+            "id": "l14h08",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze den Relativsatz durch ein Kompositum. Beginne mit „Wir haben“.",
+            "prompt": "Wir haben ein Spiel gekauft, das man auf einem Brett spielt.",
+            "solution": "Wir haben ein Brettspiel gekauft.",
+            "hint": "Das Grundwort ist „Spiel“, das Bestimmungswort kommt aus dem Relativsatz.",
+            "explanation": "Ein Spiel auf einem Brett ist ein „Brettspiel“: Grundwort „Spiel“ bestimmt den Artikel (das), „Brett“ steht davor."
+          },
+          {
+            "id": "l14h09",
+            "type": "targeted-transformation",
+            "instruction": "Beginne mit „Wenn ich das kurz zusammenfasse,“. Die übrigen Satzglieder bleiben in derselben Reihenfolge.",
+            "prompt": "Ich fasse kurz zusammen: Wir starten das Pilotprojekt im Mai.",
+            "solution": "Wenn ich das kurz zusammenfasse, starten wir das Pilotprojekt im Mai.",
+            "hint": "Nach dem vorangestellten Nebensatz kommt sofort das Verb.",
+            "explanation": "Der wenn-Satz besetzt Position 1, darum folgt direkt das Verb „starten“, dann „wir“. „…, wir starten“ wäre falsch."
+          },
+          {
+            "id": "l14h10",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze „in die Praxis bringen“ durch „umsetzen“. Beginne mit „Wir müssen“.",
+            "prompt": "Wir müssen die Idee schnell in die Praxis bringen.",
+            "solution": "Wir müssen die Idee schnell umsetzen.",
+            "hint": "Nach dem Modalverb steht der Infinitiv am Ende.",
+            "explanation": "„umsetzen“ = in die Praxis bringen. Nach „müssen“ steht der Infinitiv ungetrennt am Satzende: „umsetzen“."
+          },
+          {
+            "id": "l14h11",
+            "type": "targeted-transformation",
+            "instruction": "Setze den Satz ins Perfekt. Beginne mit „Wir“.",
+            "prompt": "Wir streamen das Finale auf einer großen Leinwand.",
+            "solution": "Wir haben das Finale auf einer großen Leinwand gestreamt.",
+            "hint": "Hilfsverb auf Position 2, Partizip II am Ende.",
+            "explanation": "Perfekt: „haben“ + Partizip II. Anglizismen werden regelmäßig gebildet: gestreamt (nicht „gestreamed“)."
+          },
+          {
+            "id": "l14h12",
+            "type": "targeted-transformation",
+            "instruction": "Setze den Satz ins Perfekt. Beginne mit „Ich“.",
+            "prompt": "Ich sehe mich nach einer günstigeren Spielekonsole um.",
+            "solution": "Ich habe mich nach einer günstigeren Spielekonsole umgesehen.",
+            "hint": "Reflexive Verben bilden das Perfekt mit „haben“.",
+            "explanation": "„sich umsehen“: Perfekt mit „haben“, Partizip „umgesehen“ (unregelmäßig, ge- nach dem Präfix). Das Pronomen „mich“ folgt dem Hilfsverb."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l14t01",
+          "type": "multiple-choice",
+          "instruction": "Wähle die passende Äußerung.",
+          "prompt": "In der Sitzung des Ruderclubs schlägt Tobias ein Sommerfest am See vor. Du möchtest wissen, wie genau er sich das denkt. Was sagst du?",
+          "options": [
+            "Könntest du das etwas genauer erklären?",
+            "Ich hätte da noch eine ganz andere Idee.",
+            "Halten wir fest: Das Fest findet im Juli statt.",
+            "Darf ich kurz einen Gedanken einbringen?"
+          ],
+          "solution": "Könntest du das etwas genauer erklären?",
+          "explanation": "Nachfragen = um Erklärung bitten. Die anderen Sätze bringen eine eigene Idee ein oder fassen ein Ergebnis zusammen."
+        },
+        {
+          "id": "l14t02",
+          "type": "multiple-choice",
+          "instruction": "Welche Äußerung fasst das Ergebnis der Diskussion zusammen?",
+          "prompt": "Die Nachbarschaftsinitiative hat eine Stunde lang über ein Tauschregal im Hausflur diskutiert. Am Ende sagt die Moderatorin:",
+          "options": [
+            "Halten wir also fest: Das Tauschregal kommt ab März in den Hausflur.",
+            "Was haltet ihr davon, wenn wir das Regal schon im Februar aufstellen?",
+            "Wie meinst du das mit dem Hausflur genau?",
+            "Mir ist da gerade noch etwas eingefallen."
+          ],
+          "solution": "Halten wir also fest: Das Tauschregal kommt ab März in den Hausflur.",
+          "explanation": "„Halten wir (also) fest …“ leitet eine Zusammenfassung ein. „Was haltet ihr davon …?“ macht dagegen einen neuen Vorschlag."
+        },
+        {
+          "id": "l14t03",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze das fehlende Verb der Redewendung.",
+          "prompt": "Was ___ ihr davon, wenn wir die Mittagspause beim Workshop auf eine Stunde verlängern?",
+          "solution": "haltet",
+          "explanation": "„Was haltet ihr davon, wenn …?“ bringt eine Idee ein und fragt nach Meinungen. Fest ist „halten von“; „denken/meinen davon“ ist falsch."
+        },
+        {
+          "id": "l14t04",
+          "type": "cloze-conjugation",
+          "instruction": "Ergänze das Verb in der richtigen Form.",
+          "prompt": "Wenn ich die Diskussion kurz ___, wollen alle den Termin für das Turnier verschieben. (zusammenfassen, Präsens)",
+          "solution": "zusammenfasse",
+          "explanation": "Im wenn-Satz steht das Verb am Ende, das trennbare Präfix bleibt dran: „zusammenfasse“. „fasse … zusammen“ gilt nur im Hauptsatz."
+        },
+        {
+          "id": "l14t05",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Adjektiv.",
+          "prompt": "Im Erste-Hilfe-Kurs üben die Teilnehmenden die wichtigsten Handgriffe ___ – mit Quizrunden und kleinen Wettbewerben.",
+          "options": [
+            "spielerisch",
+            "verspielt",
+            "spielbar",
+            "bespielt"
+          ],
+          "solution": "spielerisch",
+          "explanation": "„spielerisch“ = wie im Spiel, mit Spielelementen (Art und Weise). „verspielt“ beschreibt jemanden, der gern spielt, oder etwas Überladenes."
+        },
+        {
+          "id": "l14t06",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Adjektiv.",
+          "prompt": "Mit all den Schleifen, Rüschen und Glitzersteinen ist mir das Kleid ehrlich gesagt etwas zu ___.",
+          "options": [
+            "verspielt",
+            "spielerisch",
+            "spielbar",
+            "spielend"
+          ],
+          "solution": "verspielt",
+          "explanation": "„verspielt“ kann auch „verschnörkelt, überladen“ bedeuten. „spielerisch“ beschreibt eine Art zu lernen oder zu handeln, kein Aussehen."
+        },
+        {
+          "id": "l14t07",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze das Kompositum aus „Spiel“ + „Regel“ in der passenden Form.",
+          "prompt": "Beim Tischtennis im Verein gilt: Wer gegen eine der ___ verstößt, muss eine Runde aussetzen.",
+          "solution": "Spielregeln",
+          "explanation": "Kompositum ohne Fugen-s: die Spielregel. Nach „eine der“ steht der Genitiv Plural: die Spielregeln."
+        },
+        {
+          "id": "l14t08",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Kompositum.",
+          "prompt": "Der Zeitplan für den Umzug ist so eng, dass für unerwartete Probleme kein ___ mehr bleibt.",
+          "options": [
+            "Spielraum",
+            "Spielzeug",
+            "Spielfeld",
+            "Spielzug"
+          ],
+          "solution": "Spielraum",
+          "explanation": "„der Spielraum“ = Möglichkeit, etwas frei zu gestalten, hier: zeitliche Reserve. Die anderen Komposita bezeichnen konkrete Dinge rund ums Spiel."
+        },
+        {
+          "id": "l14t09",
+          "type": "cloze-conjugation",
+          "instruction": "Ergänze das Partizip II.",
+          "prompt": "Gestern Abend hat mein Mitbewohner ein Festival aus Japan stundenlang im Wohnzimmer ___. (streamen)",
+          "solution": "gestreamt",
+          "explanation": "Englische Verben werden deutsch konjugiert: ge- + Stamm + -t → „gestreamt“. Die englische Endung „-ed“ ist falsch."
+        },
+        {
+          "id": "l14t10",
+          "type": "cloze-conjugation",
+          "instruction": "Ergänze das Verb im Präsens.",
+          "prompt": "Die Bäckerei an der Ecke ___ jeden Morgen ein Foto ihrer frischen Brötchen. (posten)",
+          "solution": "postet",
+          "explanation": "Stamm auf -t: Zwischen Stamm und Endung kommt ein -e-: er/sie/es postet. „post“ oder „posts“ sind keine deutschen Formen."
+        },
+        {
+          "id": "l14t11",
+          "type": "multiple-choice",
+          "instruction": "Welcher Satz ist korrekt?",
+          "prompt": "Die beiden Freundinnen haben sich lange nicht gesehen und …",
+          "options": [
+            "… haben gestern stundenlang gechattet.",
+            "… sind gestern stundenlang gechattet.",
+            "… haben gestern stundenlang gechatted.",
+            "… haben gestern stundenlang chattet."
+          ],
+          "solution": "… haben gestern stundenlang gechattet.",
+          "explanation": "„chatten“ ist ein regelmäßiges Verb mit „haben“: ge- + chatt + -et. Keine Bewegung, also nicht „sein“; „-ed“ ist englisch."
+        },
+        {
+          "id": "l14t12",
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler. Ändere nur ein Wort.",
+          "prompt": "Nach der Prüfungswoche haben wir das ganze Wochenende nur gechilled.",
+          "solution": "Nach der Prüfungswoche haben wir das ganze Wochenende nur gechillt.",
+          "explanation": "Anglizismen bilden das Partizip II wie regelmäßige deutsche Verben: ge- + Stamm + -t → „gechillt“. Die englische Endung „-ed“ ist falsch."
+        },
+        {
+          "id": "l14t13",
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler. Ändere nur ein Wort.",
+          "prompt": "Meine Tante postet fast jeden Tag Fotos, aber im letzten Urlaub posted sie kein einziges.",
+          "solution": "Meine Tante postet fast jeden Tag Fotos, aber im letzten Urlaub postete sie kein einziges.",
+          "explanation": "„im letzten Urlaub“ verlangt Vergangenheit. Präteritum regelmäßiger Verben: Stamm + -te; nach -t ein -e-: „postete“. „posted“ ist englisch."
+        },
+        {
+          "id": "l14t14",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Vorschlag für die Teambesprechung.",
+          "prompt": "Baue den Satz aus den Teilen.",
+          "scrambleChunks": [
+            "würden",
+            "wenn",
+            "wir",
+            "Wie wäre es,",
+            "spielerischer gestalten",
+            "das Training"
+          ],
+          "solution": "Wie wäre es, wenn wir das Training spielerischer gestalten würden?",
+          "explanation": "„Wie wäre es, wenn …“ bringt eine Idee ein. Im wenn-Satz steht das konjugierte Verb „würden“ am Ende."
+        },
+        {
+          "id": "l14t15",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Adjektiv.",
+          "prompt": "Das letzte Level ist so voller Fehler, dass es praktisch nicht ___ ist.",
+          "options": [
+            "spielbar",
+            "spielerisch",
+            "verspielt",
+            "spielend"
+          ],
+          "solution": "spielbar",
+          "explanation": "-bar drückt eine Möglichkeit aus: spielbar = kann gespielt werden. „spielerisch“ und „verspielt“ beschreiben eine Art oder einen Charakter."
+        },
+        {
+          "id": "l14t16",
+          "type": "targeted-transformation",
+          "instruction": "Setze den Satz ins Perfekt. Die Satzglieder bleiben in derselben Reihenfolge.",
+          "prompt": "Die Kursleiterin mailt allen Teilnehmenden die Spielregeln.",
+          "solution": "Die Kursleiterin hat allen Teilnehmenden die Spielregeln gemailt.",
+          "explanation": "„mailen“ bildet das Perfekt regelmäßig mit „haben“: hat … gemailt. Das Partizip steht am Satzende."
+        }
+      ]
+    },
+    {
+      "lektionId": "b2-m5-l15",
+      "level": "B2",
+      "modulNumber": 5,
+      "lektionNumber": 15,
+      "title": "Autonom unterwegs",
+      "grammarFocus": [
+        "Vorgangspassiv in Präsens, Präteritum und Perfekt, Agens mit von bzw. durch (wird entwickelt, wurde zugelassen, ist integriert worden)",
+        "Passiv mit Modalverb (müssen geklärt werden, konnten nicht gelöst werden)",
+        "Passiversatzformen: sich lassen + Infinitiv, sein + zu + Infinitiv, Adjektive auf -bar, man + Modalverb (Die Technik lässt sich nutzen / ist nutzbar / ist zu nutzen)"
+      ],
+      "vocabulary": [
+        {
+          "id": "l15v01",
+          "term": "das Fahrzeug",
+          "translation": "el vehículo",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Fahrzeuge",
+          "example": "Auf dem Werksgelände fahren die Fahrzeuge schon heute ohne Fahrer."
+        },
+        {
+          "id": "l15v02",
+          "term": "die Bremse",
+          "translation": "el freno",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Bremsen",
+          "example": "Nach dem langen Winter sollten die Bremsen geprüft werden."
+        },
+        {
+          "id": "l15v03",
+          "term": "das Lenkrad",
+          "translation": "el volante",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Lenkräder",
+          "example": "Bei hoher Geschwindigkeit sollte man das Lenkrad mit beiden Händen halten."
+        },
+        {
+          "id": "l15v04",
+          "term": "die Kupplung",
+          "translation": "el embrague",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Kupplungen",
+          "example": "Wer ein Auto mit Automatik fährt, braucht keine Kupplung."
+        },
+        {
+          "id": "l15v05",
+          "term": "der Sicherheitsgurt",
+          "translation": "el cinturón de seguridad",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Sicherheitsgurte",
+          "example": "Auch auf der Rückbank ist der Sicherheitsgurt Pflicht."
+        },
+        {
+          "id": "l15v06",
+          "term": "der Scheibenwischer",
+          "translation": "el limpiaparabrisas",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Scheibenwischer",
+          "example": "Bei starkem Schneefall schaffen es die Scheibenwischer kaum noch."
+        },
+        {
+          "id": "l15v07",
+          "term": "die Hupe",
+          "translation": "la bocina, el claxon",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Hupen",
+          "example": "In Wohngebieten sollte man die Hupe nur im Notfall benutzen."
+        },
+        {
+          "id": "l15v08",
+          "term": "der Sensor",
+          "translation": "el sensor",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Sensoren",
+          "example": "Ein Sensor misst ständig den Abstand zum vorderen Wagen."
+        },
+        {
+          "id": "l15v09",
+          "term": "das Hindernis",
+          "translation": "el obstáculo",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Hindernisse",
+          "example": "Der Rasenmäher-Roboter weicht jedem Hindernis im Garten aus."
+        },
+        {
+          "id": "l15v10",
+          "term": "abbremsen",
+          "translation": "frenar, reducir la velocidad",
+          "partOfSpeech": "verb",
+          "preterite": "bremste ab",
+          "participle": "abgebremst",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Vor der Schule bremste die Busfahrerin deutlich ab."
+        },
+        {
+          "id": "l15v11",
+          "term": "beschleunigen",
+          "translation": "acelerar",
+          "partOfSpeech": "verb",
+          "preterite": "beschleunigte",
+          "participle": "beschleunigt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Elektroautos beschleunigen oft schneller als Wagen mit Benzinmotor."
+        },
+        {
+          "id": "l15v12",
+          "term": "eingreifen",
+          "translation": "intervenir",
+          "partOfSpeech": "verb",
+          "preterite": "griff ein",
+          "participle": "eingegriffen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Als das System einen Fehler machte, griff die Pilotin sofort ein."
+        },
+        {
+          "id": "l15v13",
+          "term": "zulassen",
+          "translation": "autorizar, homologar",
+          "partOfSpeech": "verb",
+          "preterite": "ließ zu",
+          "participle": "zugelassen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Die Behörde ließ das neue Medikament erst nach mehreren Studien zu."
+        },
+        {
+          "id": "l15v14",
+          "term": "die Automatisierung",
+          "translation": "la automatización",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Die Automatisierung der Lagerhallen spart vor allem nachts Personal."
+        },
+        {
+          "id": "l15v15",
+          "term": "die Schuldfrage",
+          "translation": "la cuestión de la culpa",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Schuldfragen",
+          "example": "Nach dem Zusammenstoß war die Schuldfrage lange umstritten."
+        },
+        {
+          "id": "l15v16",
+          "term": "unvermeidbar",
+          "translation": "inevitable",
+          "partOfSpeech": "adjective",
+          "example": "Kleine Verspätungen sind bei so einer langen Bahnstrecke fast unvermeidbar."
+        },
+        {
+          "id": "l15v17",
+          "term": "machbar",
+          "translation": "factible, realizable",
+          "partOfSpeech": "adjective",
+          "example": "Ein Umzug in nur zwei Tagen ist mit genug Helfern durchaus machbar."
+        },
+        {
+          "id": "l15v18",
+          "term": "die Innovation",
+          "translation": "la innovación",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Innovationen",
+          "example": "Viele Innovationen entstehen in kleinen Firmen mit wenig Geld."
+        },
+        {
+          "id": "l15v19",
+          "term": "der Rohstoff",
+          "translation": "la materia prima",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Rohstoffe",
+          "example": "Für Handyakkus werden seltene Rohstoffe wie Kobalt gebraucht."
+        },
+        {
+          "id": "l15v20",
+          "term": "die Dürre",
+          "translation": "la sequía",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Dürren",
+          "example": "Nach der zweiten Dürre in Folge gaben viele Bauern ihre Felder auf."
+        },
+        {
+          "id": "l15v21",
+          "term": "die Hungersnot",
+          "translation": "la hambruna",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Hungersnöte",
+          "example": "Schlechte Ernten können in armen Regionen schnell zu einer Hungersnot führen."
+        },
+        {
+          "id": "l15v22",
+          "term": "die Gletscherschmelze",
+          "translation": "el deshielo de los glaciares",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Die Gletscherschmelze lässt den Meeresspiegel langsam ansteigen."
+        },
+        {
+          "id": "l15v23",
+          "term": "das Artensterben",
+          "translation": "la extinción de especies",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "example": "Gegen das Artensterben helfen schon kleine Blühwiesen in der Stadt."
+        },
+        {
+          "id": "l15v24",
+          "term": "die Luftverschmutzung",
+          "translation": "la contaminación del aire",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Wegen der Luftverschmutzung dürfen alte Dieselautos nicht mehr in die Innenstadt."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l15e01",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Form für das Vorgangspassiv im Präsens.",
+            "prompt": "Seit einigen Wochen ___ in unserer Kleinstadt ein fahrerloser Kleinbus getestet.",
+            "options": [
+              "wird",
+              "werden",
+              "hat",
+              "haben"
+            ],
+            "solution": "wird",
+            "hint": "Passiv = werden + Partizip II. Wer ist das Subjekt?",
+            "explanation": "Vorgangspassiv: werden + Partizip II. Subjekt ist 'ein fahrerloser Kleinbus' (Singular) → 'wird'. 'hat/haben' bilden kein Passiv."
+          },
+          {
+            "id": "l15e02",
+            "type": "multiple-choice",
+            "instruction": "Welche Zeitform hat der Satz?",
+            "prompt": "Die neue Brücke ist im Mai für den Verkehr freigegeben worden.",
+            "options": [
+              "Perfekt Passiv",
+              "Präteritum Passiv",
+              "Präsens Passiv",
+              "Plusquamperfekt Passiv"
+            ],
+            "solution": "Perfekt Passiv",
+            "hint": "Achte auf die Hilfsverben 'ist' und 'worden'.",
+            "explanation": "sein (Präsens) + Partizip II + 'worden' = Perfekt Passiv. Präteritum wäre 'wurde freigegeben', Plusquamperfekt 'war … freigegeben worden'."
+          },
+          {
+            "id": "l15e03",
+            "type": "multiple-choice",
+            "instruction": "Ergänze die richtige Form.",
+            "prompt": "Der Tunnel ist nach nur zwei Jahren Bauzeit fertiggestellt ___.",
+            "options": [
+              "worden",
+              "geworden",
+              "werden",
+              "wurde"
+            ],
+            "solution": "worden",
+            "hint": "Im Perfekt Passiv hat 'werden' eine besondere Partizipform.",
+            "explanation": "Im Perfekt Passiv steht 'worden' ohne ge-. 'geworden' ist das Partizip von 'werden' als Vollverb (Er ist Arzt geworden)."
+          },
+          {
+            "id": "l15e04",
+            "type": "multiple-choice",
+            "instruction": "Wie wird die handelnde Person genannt?",
+            "prompt": "Das neue Testgelände für autonome Lkw wurde gestern ___ Bürgermeisterin Kaya eröffnet.",
+            "options": [
+              "von",
+              "über",
+              "bei",
+              "aus"
+            ],
+            "solution": "von",
+            "hint": "Die Person, die handelt, steht im Passiv mit einer Präposition + Dativ.",
+            "explanation": "Die handelnde Person (Agens) steht im Passiv mit 'von' + Dativ. 'über', 'bei' und 'aus' nennen keinen Handelnden."
+          },
+          {
+            "id": "l15e05",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Ergänzung.",
+            "prompt": "Die Lebensdauer der Akkus wird ___ verlängert.",
+            "options": [
+              "durch regelmäßige Wartung",
+              "von regelmäßiger Wartung",
+              "für regelmäßige Wartung",
+              "aus regelmäßiger Wartung"
+            ],
+            "solution": "durch regelmäßige Wartung",
+            "hint": "Geht es um eine Person oder um ein Mittel/einen Vorgang?",
+            "explanation": "Ein Mittel oder Vorgang steht im Passiv mit 'durch' + Akkusativ. 'von' + Dativ nennt vor allem handelnde Personen oder Institutionen."
+          },
+          {
+            "id": "l15e06",
+            "type": "multiple-choice",
+            "instruction": "Ergänze das Modalverb.",
+            "prompt": "Die Ladestationen am Bahnhof ___ einmal im Jahr überprüft werden.",
+            "options": [
+              "müssen",
+              "muss",
+              "werden",
+              "sind"
+            ],
+            "solution": "müssen",
+            "hint": "Passiv mit Modalverb: Modalverb + Partizip II + werden.",
+            "explanation": "Modalverb + Partizip II + 'werden' (Infinitiv). Subjekt 'die Ladestationen' ist Plural → 'müssen'. 'werden/sind' ergäben zwei Passiv-Hilfsverben."
+          },
+          {
+            "id": "l15e07",
+            "type": "multiple-choice",
+            "instruction": "Ergänze das Modalverb in der passenden Zeitform.",
+            "prompt": "Wegen des dichten Nebels ___ gestern kein einziges Flugzeug abgefertigt werden.",
+            "options": [
+              "konnte",
+              "kann",
+              "wurde",
+              "ist"
+            ],
+            "solution": "konnte",
+            "hint": "'gestern' verlangt eine Vergangenheitsform.",
+            "explanation": "Passiv mit Modalverb im Präteritum: konnte + Partizip II + werden. 'kann' ist Präsens; 'wurde/ist' passen nicht vor 'werden'."
+          },
+          {
+            "id": "l15e08",
+            "type": "multiple-choice",
+            "instruction": "Was bedeutet der Satz?",
+            "prompt": "Das Problem mit dem Wassermangel ist lösbar.",
+            "options": [
+              "Man kann das Problem mit dem Wassermangel lösen.",
+              "Man muss das Problem mit dem Wassermangel lösen.",
+              "Man hat das Problem mit dem Wassermangel gelöst.",
+              "Man darf das Problem mit dem Wassermangel nicht lösen."
+            ],
+            "solution": "Man kann das Problem mit dem Wassermangel lösen.",
+            "hint": "Was drückt die Endung -bar aus?",
+            "explanation": "Adjektive auf -bar drücken eine Möglichkeit aus: lösbar = kann gelöst werden. Eine Pflicht ('muss') oder ein Ergebnis ('hat gelöst') steckt nicht darin."
+          },
+          {
+            "id": "l15e09",
+            "type": "multiple-choice",
+            "instruction": "Was bedeutet der Satz?",
+            "prompt": "Laut Vorschrift sind die Unterlagen unbedingt bis Freitag abzugeben.",
+            "options": [
+              "Man muss die Unterlagen unbedingt bis Freitag abgeben.",
+              "Man kann die Unterlagen unbedingt bis Freitag abgeben.",
+              "Man hat die Unterlagen unbedingt bis Freitag abgegeben.",
+              "Man will die Unterlagen unbedingt bis Freitag abgeben."
+            ],
+            "solution": "Man muss die Unterlagen unbedingt bis Freitag abgeben.",
+            "hint": "sein + zu + Infinitiv kann 'können' oder 'müssen' bedeuten. Was passt zu 'laut Vorschrift' und 'unbedingt'?",
+            "explanation": "sein + zu + Infinitiv bedeutet hier eine Pflicht: Vorschrift und 'unbedingt' → 'muss'. 'kann' drückt nur eine Möglichkeit aus."
+          },
+          {
+            "id": "l15e10",
+            "type": "multiple-choice",
+            "instruction": "Was bedeutet der Satz?",
+            "prompt": "Der Akku des E-Rollers lässt sich in wenigen Minuten wechseln.",
+            "options": [
+              "Man kann den Akku des E-Rollers in wenigen Minuten wechseln.",
+              "Man muss den Akku des E-Rollers in wenigen Minuten wechseln.",
+              "Man lässt den Akku des E-Rollers von einer Werkstatt wechseln.",
+              "Der Akku des E-Rollers wechselt sich selbst."
+            ],
+            "solution": "Man kann den Akku des E-Rollers in wenigen Minuten wechseln.",
+            "hint": "sich lassen + Infinitiv ist eine Passiversatzform.",
+            "explanation": "'sich lassen' + Infinitiv = 'kann … werden': Man kann den Akku wechseln. Ohne 'sich' hieße 'lassen' 'jemanden etwas tun lassen'."
+          },
+          {
+            "id": "l15e11",
+            "type": "fill-in-blank",
+            "instruction": "Bilde aus dem Verb in Klammern ein Adjektiv auf -bar.",
+            "prompt": "Die neue Stadtbibliothek ist auch abends gut mit dem Bus ___. (erreichen)",
+            "solution": "erreichbar",
+            "hint": "Verbstamm + -bar.",
+            "explanation": "Verbstamm 'erreich-' + '-bar' = erreichbar (= kann erreicht werden). Das -en des Infinitivs fällt weg."
+          },
+          {
+            "id": "l15e12",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Partizip II des Verbs in Klammern.",
+            "prompt": "Der neue Impfstoff wurde in nur zehn Monaten ___. (entwickeln)",
+            "solution": "entwickelt",
+            "hint": "Passiv Präteritum: wurde + Partizip II.",
+            "explanation": "Passiv Präteritum = 'wurde' + Partizip II. Verben auf ent- bilden das Partizip ohne ge-: entwickelt, nicht 'geentwickelt'."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l15m01",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze die Form von 'werden' für das Passiv.",
+            "prompt": "Die Post ___ in einigen Dörfern schon von Drohnen ausgeliefert. (werden, Präsens)",
+            "solution": "wird",
+            "hint": "Das Subjekt 'die Post' steht im Singular.",
+            "explanation": "Passiv Präsens: werden + Partizip II. Subjekt 'die Post' ist Singular → 'wird'; 'von Drohnen' ist nur die Agensangabe, nicht das Subjekt."
+          },
+          {
+            "id": "l15m02",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze die Form von 'werden' für das Passiv.",
+            "prompt": "Im Jahr 2019 ___ die erste Teststrecke für selbstfahrende Lkw gebaut. (werden, Präteritum)",
+            "solution": "wurde",
+            "hint": "Präteritum von 'werden', Subjekt im Singular.",
+            "explanation": "Passiv Präteritum: wurde + Partizip II. Subjekt 'die erste Teststrecke' ist Singular → 'wurde'."
+          },
+          {
+            "id": "l15m03",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze die fehlende Form für das Passiv Perfekt.",
+            "prompt": "Die Bundesstraße ist letzte Woche wegen einer Ölspur gesperrt ___. (werden)",
+            "solution": "worden",
+            "hint": "Perfekt Passiv: sein + Partizip II + …",
+            "explanation": "Perfekt Passiv: ist + Partizip II + 'worden'. 'geworden' gibt es nur bei 'werden' als Vollverb."
+          },
+          {
+            "id": "l15m04",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Modalverb im Präsens.",
+            "prompt": "Die neue Lieferdrohne ___ bisher nur bei gutem Wetter eingesetzt werden. (können)",
+            "solution": "kann",
+            "hint": "Passiv mit Modalverb: Modalverb konjugiert, am Ende 'Partizip II + werden'. Subjekt im Singular.",
+            "explanation": "Das Modalverb richtet sich nach dem Subjekt 'die Lieferdrohne' (Singular) → 'kann'; am Ende steht 'eingesetzt werden'."
+          },
+          {
+            "id": "l15m05",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Modalverb im Präteritum.",
+            "prompt": "Letzten Winter ___ die Bergstraßen wegen des Glatteises mehrmals gesperrt werden. (müssen)",
+            "solution": "mussten",
+            "hint": "Präteritum von 'müssen' ohne Umlaut.",
+            "explanation": "Passiv mit Modalverb im Präteritum: mussten + gesperrt werden. Plural wegen 'die Bergstraßen'; im Präteritum fällt der Umlaut weg."
+          },
+          {
+            "id": "l15m06",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze die Passiversatzform mit 'sich lassen' im Präsens.",
+            "prompt": "Fast jedes Bauteil des Fahrzeugs ___ sich später recyceln. (lassen)",
+            "solution": "lässt",
+            "hint": "'sich lassen' + Infinitiv; Subjekt ist 'fast jedes Bauteil' (Singular).",
+            "explanation": "'sich lassen' + Infinitiv = 'kann … werden'. 'jedes Bauteil' ist Singular → 'lässt' mit Umlaut, nicht 'lasst'."
+          },
+          {
+            "id": "l15m07",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze 'sein' für die Passiversatzform sein + zu + Infinitiv.",
+            "prompt": "Anträge auf Fördergeld für Solaranlagen ___ ab sofort online einzureichen. (sein, Präsens)",
+            "solution": "sind",
+            "hint": "Das Subjekt ist 'Anträge' (Plural).",
+            "explanation": "sein + zu + Infinitiv = Passiv mit 'müssen/können'. Subjekt 'Anträge' ist Plural → 'sind'."
+          },
+          {
+            "id": "l15m08",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz im Perfekt Passiv. Beginne mit 'Das Lenkrad'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "ausgetauscht",
+              "Das Lenkrad",
+              "worden",
+              "ist",
+              "bei der Reparatur"
+            ],
+            "solution": "Das Lenkrad ist bei der Reparatur ausgetauscht worden.",
+            "hint": "'worden' steht ganz am Ende.",
+            "explanation": "Perfekt Passiv: 'ist' auf Position 2, am Satzende Partizip II + 'worden'."
+          },
+          {
+            "id": "l15m09",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz im Passiv mit Modalverb. Beginne mit 'Die Kupplung'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "werden",
+              "repariert",
+              "muss",
+              "Die Kupplung",
+              "vor der nächsten Fahrt"
+            ],
+            "solution": "Die Kupplung muss vor der nächsten Fahrt repariert werden.",
+            "hint": "Das Modalverb steht auf Position 2.",
+            "explanation": "Modalverb 'muss' auf Position 2, am Ende Partizip II + Infinitiv 'werden'."
+          },
+          {
+            "id": "l15m10",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz im Passiv Präteritum. Beginne mit 'Die neue Software'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "programmiert",
+              "von einer Studentin aus Graz",
+              "Die neue Software",
+              "wurde"
+            ],
+            "solution": "Die neue Software wurde von einer Studentin aus Graz programmiert.",
+            "hint": "Die handelnde Person steht mit 'von' im Mittelfeld.",
+            "explanation": "'wurde' auf Position 2, Agens mit 'von' im Mittelfeld, das Partizip II steht am Ende."
+          },
+          {
+            "id": "l15m11",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz mit ob-Satz. Beginne mit 'Noch ist unklar,'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "können",
+              "ob",
+              "Noch ist unklar,",
+              "zuverlässig erkannt",
+              "Fußgänger bei Nebel",
+              "werden"
+            ],
+            "solution": "Noch ist unklar, ob Fußgänger bei Nebel zuverlässig erkannt werden können.",
+            "hint": "Im Nebensatz steht das konjugierte Modalverb ganz am Ende.",
+            "explanation": "Im ob-Satz steht das Modalverb am Ende: Partizip II + 'werden' + 'können'."
+          },
+          {
+            "id": "l15m12",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz mit warum-Satz. Beginne mit 'Die Mechanikerin erklärt,'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "lässt",
+              "Die Mechanikerin erklärt,",
+              "nicht mehr",
+              "warum",
+              "reparieren",
+              "sich der alte Motor"
+            ],
+            "solution": "Die Mechanikerin erklärt, warum sich der alte Motor nicht mehr reparieren lässt.",
+            "hint": "Im Nebensatz steht 'lässt' am Ende.",
+            "explanation": "Passiversatz 'sich lassen' im Nebensatz: Infinitiv + 'lässt' stehen am Ende."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l15h01",
+            "type": "targeted-transformation",
+            "instruction": "Forme ins Passiv Präsens um, ohne 'man'. Beginne mit 'Die Pakete'. Die übrigen Satzglieder bleiben in ihrer Reihenfolge.",
+            "prompt": "Im neuen Logistikzentrum sortiert man die Pakete automatisch.",
+            "solution": "Die Pakete werden im neuen Logistikzentrum automatisch sortiert.",
+            "hint": "Das Akkusativobjekt wird zum Subjekt.",
+            "explanation": "'die Pakete' wird Subjekt (Plural) → 'werden … sortiert'. 'man' fällt im Passiv einfach weg."
+          },
+          {
+            "id": "l15h02",
+            "type": "targeted-transformation",
+            "instruction": "Forme ins Passiv Präteritum um. Beginne mit 'Das Forschungsprojekt' und nenne die handelnde Person mit 'von'.",
+            "prompt": "Die Ärztin Lena Brandt leitete das Forschungsprojekt.",
+            "solution": "Das Forschungsprojekt wurde von der Ärztin Lena Brandt geleitet.",
+            "hint": "'von' verlangt den Dativ.",
+            "explanation": "Passiv Präteritum: wurde + Partizip II. Das Subjekt des Aktivsatzes wird zu 'von' + Dativ: von der Ärztin."
+          },
+          {
+            "id": "l15h03",
+            "type": "targeted-transformation",
+            "instruction": "Forme ins Passiv Perfekt um, ohne 'man'. Beginne mit 'Die Batterie'.",
+            "prompt": "Man hat die Batterie im Labor getestet.",
+            "solution": "Die Batterie ist im Labor getestet worden.",
+            "hint": "Perfekt Passiv bildet man immer mit 'sein'.",
+            "explanation": "Perfekt Passiv: ist + Partizip II + 'worden'. Nicht 'hat … getestet worden' und nicht 'geworden'."
+          },
+          {
+            "id": "l15h04",
+            "type": "targeted-transformation",
+            "instruction": "Forme ins Passiv mit Modalverb um, ohne 'man'. Beginne mit 'Die Scheibenwischer'.",
+            "prompt": "Man muss die Scheibenwischer im Herbst austauschen.",
+            "solution": "Die Scheibenwischer müssen im Herbst ausgetauscht werden.",
+            "hint": "Das Modalverb bleibt, es richtet sich nach dem neuen Subjekt.",
+            "explanation": "Modalverb + Partizip II + 'werden'. Neues Subjekt 'die Scheibenwischer' ist Plural → 'müssen'."
+          },
+          {
+            "id": "l15h05",
+            "type": "targeted-transformation",
+            "instruction": "Forme ins Passiv mit Modalverb im Präteritum um, ohne 'man'. Beginne mit 'Die Ursache'.",
+            "prompt": "Man konnte die Ursache der Störung lange nicht finden.",
+            "solution": "Die Ursache der Störung konnte lange nicht gefunden werden.",
+            "hint": "Das Modalverb bleibt im Präteritum.",
+            "explanation": "konnte + Partizip II + 'werden': 'konnte … gefunden werden'. Das Modalverb bleibt im Präteritum, nur das Vollverb wird Partizip."
+          },
+          {
+            "id": "l15h06",
+            "type": "targeted-transformation",
+            "instruction": "Forme mit 'sich lassen' um. Beginne mit 'Das Sitzpolster'.",
+            "prompt": "Man kann das Sitzpolster mit wenigen Handgriffen abnehmen.",
+            "solution": "Das Sitzpolster lässt sich mit wenigen Handgriffen abnehmen.",
+            "hint": "'können' + Passiv entspricht 'sich lassen' + Infinitiv.",
+            "explanation": "'man kann … abnehmen' = 'lässt sich … abnehmen'. Das Objekt wird Subjekt, der Infinitiv steht am Ende."
+          },
+          {
+            "id": "l15h07",
+            "type": "targeted-transformation",
+            "instruction": "Forme mit einem Adjektiv auf -bar um. Beginne mit 'Diese Rohstoffe'.",
+            "prompt": "Man kann diese Rohstoffe nicht unbegrenzt nutzen.",
+            "solution": "Diese Rohstoffe sind nicht unbegrenzt nutzbar.",
+            "hint": "sein + Adjektiv auf -bar ersetzt 'man kann'.",
+            "explanation": "'man kann … nutzen' = 'ist/sind … nutzbar'. Subjekt 'diese Rohstoffe' ist Plural → 'sind'."
+          },
+          {
+            "id": "l15h08",
+            "type": "targeted-transformation",
+            "instruction": "Forme mit sein + zu + Infinitiv um. Beginne mit 'Die Sicherheitsgurte'.",
+            "prompt": "Man muss die Sicherheitsgurte vor jeder Fahrt anlegen.",
+            "solution": "Die Sicherheitsgurte sind vor jeder Fahrt anzulegen.",
+            "hint": "Bei trennbaren Verben steht 'zu' zwischen Präfix und Stamm.",
+            "explanation": "'man muss … anlegen' = 'sind … anzulegen'. Bei trennbaren Verben steht 'zu' im Wort: an-zu-legen, nicht 'zu anlegen'."
+          },
+          {
+            "id": "l15h09",
+            "type": "targeted-transformation",
+            "instruction": "Forme mit 'man' und dem Modalverb 'können' um. Beginne mit 'Man'.",
+            "prompt": "Die Folgen der Dürre sind kaum vorherzusagen.",
+            "solution": "Man kann die Folgen der Dürre kaum vorhersagen.",
+            "hint": "Hier bedeutet sein + zu 'können'.",
+            "explanation": "sein + zu + Infinitiv = 'man kann'. Das Subjekt wird Akkusativobjekt; 'zu' fällt weg: vorhersagen."
+          },
+          {
+            "id": "l15h10",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Ändere nur ein Wort.",
+            "prompt": "Das Klimagesetz ist im Frühjahr vom Parlament beschlossen geworden.",
+            "solution": "Das Klimagesetz ist im Frühjahr vom Parlament beschlossen worden.",
+            "hint": "Perfekt Passiv: Welche Form hat 'werden'?",
+            "explanation": "Im Perfekt Passiv heißt es 'worden'. 'geworden' steht nur bei 'werden' als Vollverb (Sie ist Ärztin geworden)."
+          },
+          {
+            "id": "l15h11",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Ändere nur ein Wort.",
+            "prompt": "Die Gletscherschmelze kann nur durch weniger Emissionen gebremst wird.",
+            "solution": "Die Gletscherschmelze kann nur durch weniger Emissionen gebremst werden.",
+            "hint": "Nach einem Modalverb steht ein Infinitiv.",
+            "explanation": "Passiv mit Modalverb: Modalverb + Partizip II + Infinitiv 'werden'. 'wird' ist konjugiert und passt nicht nach 'kann'."
+          },
+          {
+            "id": "l15h12",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Ändere nur ein Wort.",
+            "prompt": "Eine Hungersnot ist in der Region nur mit schnellen Lieferungen zu verhindert.",
+            "solution": "Eine Hungersnot ist in der Region nur mit schnellen Lieferungen zu verhindern.",
+            "hint": "Nach 'sein + zu' folgt kein Partizip.",
+            "explanation": "sein + zu + Infinitiv: 'zu verhindern'. Das Partizip 'verhindert' passt nicht nach 'zu'."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l15t01",
+          "type": "multiple-choice",
+          "instruction": "Wähle die richtige Form für das Perfekt Passiv.",
+          "prompt": "Die Steuerungssoftware des Shuttlebusses ist nach dem ersten Testmonat komplett überarbeitet ___.",
+          "options": [
+            "worden",
+            "geworden",
+            "wurde",
+            "werden"
+          ],
+          "solution": "worden",
+          "explanation": "Perfekt Passiv: sein + Partizip II + „worden“. „geworden“ gibt es nur beim Vollverb werden (Er ist Arzt geworden)."
+        },
+        {
+          "id": "l15t02",
+          "type": "cloze-conjugation",
+          "instruction": "Ergänze das Hilfsverb im Passiv.",
+          "prompt": "Bereits 1886 ___ das erste Auto mit Benzinmotor zum Patent angemeldet. (werden, Präteritum)",
+          "solution": "wurde",
+          "explanation": "Passiv Präteritum = wurde + Partizip II. Subjekt ist „das erste Auto“ (Singular), also „wurde“, nicht „wurden“."
+        },
+        {
+          "id": "l15t03",
+          "type": "targeted-transformation",
+          "instruction": "Forme ins Passiv Präteritum um. Nenne das Agens nicht. Beginne mit „Im Herbst“.",
+          "prompt": "Ein Paketdienst erprobte im Herbst einen Lieferroboter.",
+          "solution": "Im Herbst wurde ein Lieferroboter erprobt.",
+          "explanation": "Das Akkusativobjekt wird Subjekt im Nominativ (einen → ein Lieferroboter); wurde + Partizip II am Satzende."
+        },
+        {
+          "id": "l15t04",
+          "type": "targeted-transformation",
+          "instruction": "Forme ins Passiv Perfekt um. Nenne das Agens nicht. Beginne mit „Die Sensoren des Traktors“.",
+          "prompt": "Zwei Ingenieurinnen haben die Sensoren des Traktors neu eingestellt.",
+          "solution": "Die Sensoren des Traktors sind neu eingestellt worden.",
+          "explanation": "Perfekt Passiv: sind + Partizip II + worden. Das Passiv bildet das Perfekt immer mit „sein“, nie mit „haben“."
+        },
+        {
+          "id": "l15t05",
+          "type": "multiple-choice",
+          "instruction": "Wähle die passende Präposition für das Agens.",
+          "prompt": "Der Prototyp des Lastenrads wurde gestern ___ Selin Akin, der Leiterin des Projekts, vorgestellt.",
+          "options": [
+            "von",
+            "durch",
+            "mit",
+            "bei"
+          ],
+          "solution": "von",
+          "explanation": "Eine handelnde Person als Agens steht mit „von“ + Dativ. „durch“ nennt ein Mittel oder einen Vorgang, keine Person."
+        },
+        {
+          "id": "l15t06",
+          "type": "multiple-choice",
+          "instruction": "Wähle die passende Präposition.",
+          "prompt": "Die Unfallgefahr an der Kreuzung kann ___ eine bessere Beleuchtung deutlich gesenkt werden.",
+          "options": [
+            "durch",
+            "von",
+            "mit",
+            "für"
+          ],
+          "solution": "durch",
+          "explanation": "Ein Mittel im Passiv steht mit „durch“ + Akkusativ. „von“ nennt eine handelnde Person und verlangt den Dativ; „mit“/„für“ passen nicht."
+        },
+        {
+          "id": "l15t07",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze das Passiv von „schulen“ (Partizip II + Infinitiv).",
+          "prompt": "Bevor der Pflegeroboter im Krankenhaus eingesetzt wird, muss das Personal gründlich ___.",
+          "solution": "geschult werden",
+          "explanation": "Passiv mit Modalverb: Modalverb + Partizip II + „werden“ am Satzende. „geschult worden“ wäre eine Vergangenheitsform."
+        },
+        {
+          "id": "l15t08",
+          "type": "targeted-transformation",
+          "instruction": "Forme ins Passiv Präteritum mit Modalverb um. Beginne mit „Die Daten der Fahrgäste“.",
+          "prompt": "Man durfte die Daten der Fahrgäste nicht speichern.",
+          "solution": "Die Daten der Fahrgäste durften nicht gespeichert werden.",
+          "explanation": "„man“ fällt weg, das Objekt wird Subjekt (Plural → durften). Modalverb im Präteritum + Partizip II + werden."
+        },
+        {
+          "id": "l15t09",
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler. Ändere nur ein Wort.",
+          "prompt": "Das Update hat gestern Abend auf allen Ladesäulen installiert worden.",
+          "solution": "Das Update ist gestern Abend auf allen Ladesäulen installiert worden.",
+          "explanation": "Das Perfekt Passiv bildet man immer mit „sein“: ist + Partizip II + worden. „hat … worden“ ist falsch."
+        },
+        {
+          "id": "l15t10",
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler. Ändere nur ein Wort.",
+          "prompt": "Die Akkus der E-Roller müssen jeden Monat überprüft worden.",
+          "solution": "Die Akkus der E-Roller müssen jeden Monat überprüft werden.",
+          "explanation": "Nach einem Modalverb im Präsens steht der Infinitiv Passiv: Partizip II + „werden“. „worden“ gehört nur ins Perfekt Passiv."
+        },
+        {
+          "id": "l15t11",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz mit Passiv Perfekt im Nebensatz. Beginne mit „Wir wissen noch nicht,“.",
+          "prompt": "Baue den Satz aus den Satzgliedern.",
+          "scrambleChunks": [
+            "worden",
+            "die neue Ampelanlage",
+            "Wir wissen noch nicht,",
+            "ist.",
+            "schon genehmigt",
+            "ob"
+          ],
+          "solution": "Wir wissen noch nicht, ob die neue Ampelanlage schon genehmigt worden ist.",
+          "explanation": "Im Nebensatz steht das konjugierte Verb am Ende: Partizip II + worden + ist."
+        },
+        {
+          "id": "l15t12",
+          "type": "targeted-transformation",
+          "instruction": "Drücke den Satz mit „sich lassen“ + Infinitiv aus. Beginne mit „Der Ladestand des Akkus“.",
+          "prompt": "Den Ladestand des Akkus kann man jederzeit in der App ablesen.",
+          "solution": "Der Ladestand des Akkus lässt sich jederzeit in der App ablesen.",
+          "explanation": "man kann + Infinitiv = sich lassen + Infinitiv. Das Akkusativobjekt wird Subjekt (den → der Ladestand), „lässt“ steht im Singular."
+        },
+        {
+          "id": "l15t13",
+          "type": "targeted-transformation",
+          "instruction": "Drücke den Satz mit einem Adjektiv auf -bar aus. Beginne mit „Die Ersatzteile für den Roboter“.",
+          "prompt": "Die Ersatzteile für den Roboter kann man innerhalb von zwei Tagen liefern.",
+          "solution": "Die Ersatzteile für den Roboter sind innerhalb von zwei Tagen lieferbar.",
+          "explanation": "man kann + Infinitiv = sein + Adjektiv auf -bar (liefern → lieferbar). Das Verb „sind“ richtet sich nach dem Plural."
+        },
+        {
+          "id": "l15t14",
+          "type": "targeted-transformation",
+          "instruction": "Drücke den Satz mit „sein + zu + Infinitiv“ aus. Beginne mit „Die Sicherheitsregeln auf dem Testgelände“.",
+          "prompt": "Die Sicherheitsregeln auf dem Testgelände müssen unbedingt beachtet werden.",
+          "solution": "Die Sicherheitsregeln auf dem Testgelände sind unbedingt zu beachten.",
+          "explanation": "müssen + Passiv = sein + zu + Infinitiv. Das Modalverb und „werden“ fallen weg; „zu beachten“ steht am Ende."
+        },
+        {
+          "id": "l15t15",
+          "type": "multiple-choice",
+          "instruction": "Welcher Satz hat die gleiche Bedeutung?",
+          "prompt": "Laut Verordnung ist jeder Unfall eines Testfahrzeugs sofort der Behörde zu melden.",
+          "options": [
+            "Jeder Unfall eines Testfahrzeugs muss sofort der Behörde gemeldet werden.",
+            "Jeder Unfall eines Testfahrzeugs kann der Behörde gemeldet werden, wenn man will.",
+            "Jeder Unfall eines Testfahrzeugs wurde sofort der Behörde gemeldet.",
+            "Jeder Unfall eines Testfahrzeugs darf der Behörde nicht gemeldet werden."
+          ],
+          "solution": "Jeder Unfall eines Testfahrzeugs muss sofort der Behörde gemeldet werden.",
+          "explanation": "sein + zu + Infinitiv kann „müssen“ oder „können“ bedeuten; eine Verordnung drückt eine Pflicht aus → „muss … werden“."
+        },
+        {
+          "id": "l15t16",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Verb (unpersönliches Passiv mit Modalverb).",
+          "prompt": "Auf dem gesamten Testgelände ___ nicht geraucht werden.",
+          "options": [
+            "darf",
+            "hat",
+            "ist",
+            "lässt"
+          ],
+          "solution": "darf",
+          "explanation": "Passiv mit Modalverb: Modalverb + Partizip II + werden. „hat“, „ist“ und „lässt“ können nicht mit „geraucht werden“ stehen."
+        }
+      ]
+    }
+  ]
+}
