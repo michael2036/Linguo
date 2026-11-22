@@ -1,0 +1,2509 @@
+{
+  "modulId": "b2-m10",
+  "level": "B2",
+  "modulNumber": 10,
+  "title": "Kunstvoll",
+  "lektionen": [
+    {
+      "lektionId": "b2-m10-l28",
+      "level": "B2",
+      "modulNumber": 10,
+      "lektionNumber": 28,
+      "title": "Künstlerleben",
+      "grammarFocus": [
+        "Relativsätze mit wer/wen/wem + Demonstrativpronomen im Hauptsatz (Wer …, der/den/dem …)",
+        "Kasus: wer/wen/wem nach dem Verb im Relativsatz, der/den/dem nach Verb oder Präposition im Hauptsatz (Wer malt, dem …; Wem Kunst gefällt, für den …)",
+        "Nomen-Verb-Verbindungen rund um Kunstberufe (einen Entschluss fassen, einen Beruf ausüben, die Fantasie anregen, einen Preis erhalten)"
+      ],
+      "vocabulary": [
+        {
+          "id": "l28v01",
+          "term": "die Inspiration",
+          "translation": "la inspiración",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Inspirationen",
+          "example": "Ihre Inspiration findet die Fotografin auf langen Spaziergängen am Fluss."
+        },
+        {
+          "id": "l28v02",
+          "term": "die Auktion",
+          "translation": "la subasta",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Auktionen",
+          "example": "Bei der Auktion wurde das Porträt für eine Rekordsumme verkauft."
+        },
+        {
+          "id": "l28v03",
+          "term": "der Katalog",
+          "translation": "el catálogo",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Kataloge",
+          "example": "Zu jeder Ausstellung erscheint ein Katalog mit Abbildungen aller Werke."
+        },
+        {
+          "id": "l28v04",
+          "term": "die Akademie",
+          "translation": "la academia",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Akademien",
+          "example": "Nur wenige Bewerber bekommen jedes Jahr einen Platz an der Akademie."
+        },
+        {
+          "id": "l28v05",
+          "term": "die Epoche",
+          "translation": "la época",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Epochen",
+          "example": "Der Saal im ersten Stock zeigt Möbel aus der Epoche des Barock."
+        },
+        {
+          "id": "l28v06",
+          "term": "das Gemälde",
+          "translation": "el cuadro, la pintura",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Gemälde",
+          "example": "Das Gemälde hing jahrzehntelang unbemerkt im Flur eines Pfarrhauses."
+        },
+        {
+          "id": "l28v07",
+          "term": "das Motiv",
+          "translation": "el motivo, el tema",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Motive",
+          "example": "Leuchttürme sind ein Motiv, das der Maler immer wieder aufgreift."
+        },
+        {
+          "id": "l28v08",
+          "term": "die Bühne",
+          "translation": "el escenario",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Bühnen",
+          "example": "Kurz bevor sie auf die Bühne geht, trinkt die Sängerin einen Kräutertee."
+        },
+        {
+          "id": "l28v09",
+          "term": "das Atelier",
+          "translation": "el taller, el estudio (de artista)",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Ateliers",
+          "example": "Das Atelier liegt im Hinterhof einer ehemaligen Druckerei."
+        },
+        {
+          "id": "l28v10",
+          "term": "die Skulptur",
+          "translation": "la escultura",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Skulpturen",
+          "example": "Vor dem Rathaus steht seit Kurzem eine Skulptur aus rostigem Stahl."
+        },
+        {
+          "id": "l28v11",
+          "term": "der Bildhauer",
+          "translation": "el escultor",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Bildhauer",
+          "example": "Der Bildhauer arbeitet am liebsten mit Marmor aus der Region."
+        },
+        {
+          "id": "l28v12",
+          "term": "die Leinwand",
+          "translation": "el lienzo; la pantalla",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Leinwände",
+          "example": "Die Malerin spannt jede Leinwand selbst auf einen Holzrahmen."
+        },
+        {
+          "id": "l28v13",
+          "term": "das Honorar",
+          "translation": "los honorarios, la remuneración",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Honorare",
+          "example": "Für die Illustrationen im Schulbuch bekam der Zeichner ein bescheidenes Honorar."
+        },
+        {
+          "id": "l28v14",
+          "term": "die Vernissage",
+          "translation": "la inauguración (de una exposición)",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Vernissagen",
+          "example": "Zur Vernissage kamen mehr Gäste, als die kleine Galerie Stühle hatte."
+        },
+        {
+          "id": "l28v15",
+          "term": "der Entschluss",
+          "translation": "la decisión, la resolución",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Entschlüsse",
+          "example": "Der Entschluss, die sichere Stelle zu kündigen, fiel ihm nicht leicht."
+        },
+        {
+          "id": "l28v16",
+          "term": "die Sehenswürdigkeit",
+          "translation": "el lugar de interés",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Sehenswürdigkeiten",
+          "example": "Die alte Brücke ist die bekannteste Sehenswürdigkeit der Kleinstadt."
+        },
+        {
+          "id": "l28v17",
+          "term": "das Denkmal",
+          "translation": "el monumento",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Denkmäler",
+          "example": "Das Denkmal erinnert an die Arbeiter, die den Hafen gebaut haben."
+        },
+        {
+          "id": "l28v18",
+          "term": "einen Entschluss fassen",
+          "translation": "tomar una decisión",
+          "partOfSpeech": "phrase",
+          "example": "Nach langem Nachdenken fasste sie den Entschluss, Tanz zu studieren."
+        },
+        {
+          "id": "l28v19",
+          "term": "die Fantasie anregen",
+          "translation": "estimular la imaginación",
+          "partOfSpeech": "phrase",
+          "example": "Offene Spielräume regen die Fantasie von Kindern stärker an als fertiges Spielzeug."
+        },
+        {
+          "id": "l28v20",
+          "term": "einen Preis erhalten",
+          "translation": "recibir un premio",
+          "partOfSpeech": "phrase",
+          "example": "Für seinen ersten Kurzfilm erhielt der Regisseur gleich einen Preis."
+        },
+        {
+          "id": "l28v21",
+          "term": "auftreten",
+          "translation": "actuar (en público), presentarse",
+          "partOfSpeech": "verb",
+          "preterite": "trat auf",
+          "participle": "aufgetreten",
+          "auxiliary": "sein",
+          "irregular": true,
+          "example": "Das Quartett tritt im Sommer auf mehreren Dorffesten auf."
+        },
+        {
+          "id": "l28v22",
+          "term": "ausstellen",
+          "translation": "exponer",
+          "partOfSpeech": "verb",
+          "preterite": "stellte aus",
+          "participle": "ausgestellt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Die Bibliothek stellt im Foyer Zeichnungen von Schulkindern aus."
+        },
+        {
+          "id": "l28v23",
+          "term": "restaurieren",
+          "translation": "restaurar",
+          "partOfSpeech": "verb",
+          "preterite": "restaurierte",
+          "participle": "restauriert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Die beschädigte Holzfigur wurde in einer Fachwerkstatt restauriert."
+        },
+        {
+          "id": "l28v24",
+          "term": "hauptberuflich",
+          "translation": "como profesión principal, a tiempo completo",
+          "partOfSpeech": "adjective",
+          "example": "Nur zwei Mitglieder der Band leben hauptberuflich von der Musik."
+        },
+        {
+          "id": "l28v25",
+          "term": "begabt",
+          "translation": "talentoso, dotado",
+          "partOfSpeech": "adjective",
+          "example": "Schon in der Grundschule fiel auf, wie begabt das Mädchen im Zeichnen war."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l28e01",
+            "type": "multiple-choice",
+            "instruction": "In welchem Satz darf man das Demonstrativpronomen weglassen?",
+            "prompt": "Wähle den Satz, in dem 'der/dem/den' auch fehlen dürfte.",
+            "options": [
+              "Wer früh mit dem Üben beginnt, der wird schneller sicher.",
+              "Wer früh mit dem Üben beginnt, dem fällt das Spielen leichter.",
+              "Wen Musik begeistert, der übt freiwillig.",
+              "Wem Musik gefällt, den stört das Üben nicht."
+            ],
+            "solution": "Wer früh mit dem Üben beginnt, der wird schneller sicher.",
+            "hint": "Vergleiche den Kasus von wer/wen/wem mit dem Kasus des Demonstrativpronomens.",
+            "explanation": "Nur bei gleichem Kasus (wer – der, beide Nominativ) kann 'der' entfallen. Bei dem, den oder wen/wem – der muss das Pronomen stehen."
+          },
+          {
+            "id": "l28e02",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Demonstrativpronomen.",
+            "prompt": "Wer gern mit Ton arbeitet, ___ empfehle ich einen Töpferkurs.",
+            "options": [
+              "dem",
+              "den",
+              "der",
+              "wem"
+            ],
+            "solution": "dem",
+            "hint": "Welchen Kasus verlangt 'jemandem etwas empfehlen'?",
+            "explanation": "'empfehlen' verlangt den Dativ der Person → 'dem'. 'wem' gehört in den Relativsatz, nicht an den Anfang des Hauptsatzes."
+          },
+          {
+            "id": "l28e03",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Demonstrativpronomen.",
+            "prompt": "Wen die alten Meister faszinieren, ___ wird diese Ausstellung begeistern.",
+            "options": [
+              "den",
+              "dem",
+              "der",
+              "wen"
+            ],
+            "solution": "den",
+            "hint": "Der Kasus richtet sich nach dem Verb im Hauptsatz: jemanden begeistern.",
+            "explanation": "'begeistern' verlangt den Akkusativ → 'den'. Subjekt des Hauptsatzes ist 'diese Ausstellung', daher nicht 'der'."
+          },
+          {
+            "id": "l28e04",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Pronomen für den Relativsatz.",
+            "prompt": "___ moderne Kunst nichts sagt, der sollte trotzdem einmal eine Galerie besuchen.",
+            "options": [
+              "Wem",
+              "Wen",
+              "Wer",
+              "Dem"
+            ],
+            "solution": "Wem",
+            "hint": "'Etwas sagt jemandem nichts' – welcher Kasus ist das?",
+            "explanation": "'jemandem etwas sagen' verlangt den Dativ → 'Wem'. Subjekt im Relativsatz ist 'moderne Kunst'; 'Dem' kann den Relativsatz nicht einleiten."
+          },
+          {
+            "id": "l28e05",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Demonstrativpronomen.",
+            "prompt": "Wer an einer Kunstakademie studieren will, für ___ ist eine Mappe mit eigenen Arbeiten Pflicht.",
+            "options": [
+              "den",
+              "dem",
+              "der",
+              "wen"
+            ],
+            "solution": "den",
+            "hint": "Hier bestimmt die Präposition den Kasus.",
+            "explanation": "'für' steht immer mit Akkusativ → 'für den'. 'dem' wäre Dativ; 'wen' leitet nur den Relativsatz ein."
+          },
+          {
+            "id": "l28e06",
+            "type": "multiple-choice",
+            "instruction": "Was beschreibt 'wer' in diesem Satz?",
+            "prompt": "Wer Kunst sammelt, braucht vor allem Geduld.",
+            "options": [
+              "eine unbestimmte Person",
+              "eine vorher genannte, bestimmte Person",
+              "eine Sache",
+              "den ganzen Hauptsatz"
+            ],
+            "solution": "eine unbestimmte Person",
+            "hint": "Gibt es im Satz ein Bezugswort für 'wer'?",
+            "explanation": "Relativsätze mit 'wer' haben kein Bezugswort; sie meinen eine unbestimmte Person (= jeder, der …). Für eine bestimmte Person nimmt man der/die/das."
+          },
+          {
+            "id": "l28e07",
+            "type": "multiple-choice",
+            "instruction": "Wovon hängt der Kasus von 'dem' ab?",
+            "prompt": "Wer Talent und Ausdauer hat, dem stehen viele Türen offen.",
+            "options": [
+              "vom Verb 'offenstehen' im Hauptsatz",
+              "vom Verb 'haben' im Relativsatz",
+              "vom Kasus von 'wer'",
+              "vom Subjekt 'viele Türen'"
+            ],
+            "solution": "vom Verb 'offenstehen' im Hauptsatz",
+            "hint": "Das Demonstrativpronomen gehört zum Hauptsatz.",
+            "explanation": "Das Demonstrativpronomen richtet sich nach Verb oder Präposition im Hauptsatz: 'jemandem offenstehen' → Dativ 'dem'. Der Kasus von 'wer' ist dafür egal."
+          },
+          {
+            "id": "l28e08",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Demonstrativpronomen.",
+            "prompt": "Wer selbst nie auf einer Bühne gestanden hat, ___ fällt es schwer, das Lampenfieber von Schauspielern zu verstehen.",
+            "solution": "dem",
+            "hint": "Es fällt jemandem schwer – welcher Kasus?",
+            "explanation": "'Es fällt jemandem schwer' verlangt den Dativ → 'dem'. 'der' (Nominativ) passt nicht, weil 'es' das Subjekt ist."
+          },
+          {
+            "id": "l28e09",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Pronomen, das den Relativsatz einleitet.",
+            "prompt": "___ man beim Malen über die Schulter schaut, der fühlt sich schnell beobachtet.",
+            "solution": "Wem",
+            "hint": "Man schaut jemandem über die Schulter.",
+            "explanation": "'jemandem über die Schulter schauen' verlangt den Dativ → 'Wem'. 'Wer' geht nicht, weil 'man' schon Subjekt ist."
+          },
+          {
+            "id": "l28e10",
+            "type": "multiple-choice",
+            "instruction": "Wähle das Verb der Nomen-Verb-Verbindung (Präteritum).",
+            "prompt": "Nach dem Besuch der Fotoausstellung ___ sie den Entschluss, selbst Fotografin zu werden.",
+            "solution": "fasste",
+            "hint": "einen Entschluss …",
+            "explanation": "Die feste Verbindung heißt 'einen Entschluss fassen' → Präteritum 'fasste'. 'machen', 'stellen' oder 'führen' bilden mit 'Entschluss' keine Verbindung.",
+            "options": [
+              "fasste",
+              "machte",
+              "stellte",
+              "führte"
+            ]
+          },
+          {
+            "id": "l28e11",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Verb.",
+            "prompt": "Bunte Bilderbücher ohne Text können die Fantasie von Kindern besonders ___.",
+            "options": [
+              "anregen",
+              "ausüben",
+              "fassen",
+              "erhalten"
+            ],
+            "solution": "anregen",
+            "hint": "Welches Verb bildet mit 'Fantasie' eine feste Verbindung?",
+            "explanation": "Es heißt 'die Fantasie anregen'. 'ausüben' passt zu 'Beruf', 'fassen' zu 'Entschluss', 'erhalten' zu 'Preis'."
+          },
+          {
+            "id": "l28e12",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Verb.",
+            "prompt": "Für ihre Skulpturen aus Treibholz hat die Künstlerin einen renommierten Preis ___.",
+            "options": [
+              "erhalten",
+              "gefasst",
+              "ausgeübt",
+              "angeregt"
+            ],
+            "solution": "erhalten",
+            "hint": "Was macht man mit einem Preis, den man gewinnt?",
+            "explanation": "Feste Verbindung: 'einen Preis erhalten'. 'fassen' gehört zu 'Entschluss', 'ausüben' zu 'Beruf', 'anregen' zu 'Fantasie'."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l28m01",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz mit 'wer' und Demonstrativpronomen.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "der",
+              "Wer",
+              "mitmacht,",
+              "sollte",
+              "bei einem Fotowettbewerb",
+              "die Teilnahmebedingungen genau lesen"
+            ],
+            "solution": "Wer bei einem Fotowettbewerb mitmacht, der sollte die Teilnahmebedingungen genau lesen.",
+            "hint": "Der wer-Satz steht vorn, das Verb am Ende; der Hauptsatz beginnt mit dem Pronomen.",
+            "explanation": "Im wer-Satz steht 'mitmacht' am Ende. Der Hauptsatz beginnt mit 'der', direkt danach folgt das Verb 'sollte'."
+          },
+          {
+            "id": "l28m02",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz mit 'wem' und Demonstrativpronomen.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "empfehle",
+              "Wem",
+              "zu aufwendig ist,",
+              "Aquarellfarben",
+              "die Ölmalerei",
+              "dem",
+              "ich"
+            ],
+            "solution": "Wem die Ölmalerei zu aufwendig ist, dem empfehle ich Aquarellfarben.",
+            "hint": "Nach dem Demonstrativpronomen kommt sofort das Verb.",
+            "explanation": "'Wem' (Dativ: etwas ist jemandem zu aufwendig) leitet ein; der Hauptsatz beginnt mit 'dem' (jemandem empfehlen), dann Verb, Subjekt, Objekt."
+          },
+          {
+            "id": "l28m03",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne den Hauptsatz mit Präposition + Demonstrativpronomen.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "lohnt sich",
+              "junge Talente",
+              "für den",
+              "Wen",
+              "ein Besuch der Abschlussausstellung",
+              "interessieren,"
+            ],
+            "solution": "Wen junge Talente interessieren, für den lohnt sich ein Besuch der Abschlussausstellung.",
+            "hint": "Wer ist Subjekt von 'interessieren'?",
+            "explanation": "'junge Talente' ist Subjekt, also 'Wen' (jemanden interessieren). 'für den' eröffnet den Hauptsatz, das Verb 'lohnt sich' folgt direkt."
+          },
+          {
+            "id": "l28m04",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz mit 'wer' und Demonstrativpronomen.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "hilft",
+              "Wer",
+              "dem",
+              "leben will,",
+              "von seiner Kunst",
+              "ein gutes Netzwerk"
+            ],
+            "solution": "Wer von seiner Kunst leben will, dem hilft ein gutes Netzwerk.",
+            "hint": "Welchen Kasus verlangt 'helfen'?",
+            "explanation": "'helfen' verlangt den Dativ → 'dem'. Subjekt des Hauptsatzes ist 'ein gutes Netzwerk'; das Verb 'hilft' steht direkt nach 'dem'."
+          },
+          {
+            "id": "l28m05",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz mit 'wen' und Demonstrativpronomen.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "bevor",
+              "dem",
+              "Wen",
+              "aufnimmt,",
+              "stehen",
+              "die Akademie",
+              "vier Jahre Studium"
+            ],
+            "solution": "Wen die Akademie aufnimmt, dem stehen vier Jahre Studium bevor.",
+            "hint": "Trennbares Verb im Hauptsatz: Präfix ans Ende.",
+            "explanation": "'aufnehmen' → Akk. 'Wen'; 'bevorstehen' → Dativ 'dem'. Im Nebensatz steht 'aufnimmt' zusammen am Ende, im Hauptsatz wandert 'bevor' ans Ende."
+          },
+          {
+            "id": "l28m06",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Nach ihrem Praktikum im Theater'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "sie",
+              "gefasst,",
+              "Nach ihrem Praktikum im Theater",
+              "Bühnenbildnerin zu werden",
+              "hat",
+              "den Entschluss"
+            ],
+            "solution": "Nach ihrem Praktikum im Theater hat sie den Entschluss gefasst, Bühnenbildnerin zu werden.",
+            "hint": "Perfekt: Hilfsverb auf Position 2, Partizip vor dem Komma.",
+            "explanation": "Nach der Angabe im Vorfeld folgen 'hat' und das Subjekt 'sie'. 'den Entschluss gefasst' bildet die Satzklammer, der zu-Infinitiv steht nach dem Komma."
+          },
+          {
+            "id": "l28m07",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb im Präsens.",
+            "prompt": "Wer regelmäßig in Jazzclubs ___, dem fällt ein Konzert in einem großen Saal leichter. (auftreten)",
+            "solution": "auftritt",
+            "hint": "Trennbares Verb im Nebensatz – getrennt oder zusammen?",
+            "explanation": "Im wer-Satz (Nebensatz) steht das trennbare Verb zusammen am Ende: 'auftritt'. 'tritt … auf' gilt nur im Hauptsatz."
+          },
+          {
+            "id": "l28m08",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb im Präsens.",
+            "prompt": "Wem die eigenen Bilder nicht mehr ___, der sollte eine kreative Pause einlegen. (gefallen)",
+            "solution": "gefallen",
+            "hint": "Was ist das Subjekt im Relativsatz?",
+            "explanation": "Subjekt ist 'die eigenen Bilder' (Plural) → 'gefallen'. 'Wem' ist Dativobjekt, deshalb nicht 'gefällt'."
+          },
+          {
+            "id": "l28m09",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb im Präsens.",
+            "prompt": "Wer seinen Lebensunterhalt mit Musik ___, der muss oft nebenbei unterrichten. (verdienen)",
+            "solution": "verdient",
+            "hint": "'wer' ist hier Subjekt – Singular oder Plural?",
+            "explanation": "'wer' ist Subjekt und verlangt immer die 3. Person Singular → 'verdient', auch wenn viele Personen gemeint sind."
+          },
+          {
+            "id": "l28m10",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb im Präteritum (nur den konjugierten Teil).",
+            "prompt": "Jahrelang ___ die Malerin neben ihrer Arbeit in der Bank ihren Beruf als Künstlerin aus. (ausüben)",
+            "solution": "übte",
+            "hint": "Das Präfix steht schon am Satzende.",
+            "explanation": "'einen Beruf ausüben', Präteritum 3. Person: 'übte … aus'. Im Hauptsatz wird das Präfix 'aus' abgetrennt und steht am Ende."
+          },
+          {
+            "id": "l28m11",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Partizip II.",
+            "prompt": "Das Mitmach-Theater hat die Fantasie der Kinder enorm ___. (anregen)",
+            "solution": "angeregt",
+            "hint": "Trennbares, regelmäßiges Verb: Wo steht -ge-?",
+            "explanation": "'die Fantasie anregen' ist regelmäßig und trennbar: Partizip 'angeregt', -ge- steht zwischen Präfix und Stamm."
+          },
+          {
+            "id": "l28m12",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Partizip II.",
+            "prompt": "Wen das Publikum einmal ins Herz ___ hat, dem verzeiht es auch einen schwachen Abend. (schließen)",
+            "solution": "geschlossen",
+            "hint": "'schließen' ist unregelmäßig.",
+            "explanation": "'jemanden ins Herz schließen' → Partizip 'geschlossen' (unregelmäßig). Deshalb Akk. 'Wen'; 'verzeihen' verlangt Dativ 'dem'."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l28h01",
+            "type": "targeted-transformation",
+            "instruction": "Forme um in einen Satz mit 'wer' und Demonstrativpronomen. Beginne mit 'Wer'. Die übrigen Satzglieder bleiben in ihrer Reihenfolge.",
+            "prompt": "Jemand, der Skulpturen restauriert, braucht sehr viel Geduld.",
+            "solution": "Wer Skulpturen restauriert, der braucht sehr viel Geduld.",
+            "hint": "'jemand, der' wird zu 'wer'; der Hauptsatz beginnt mit dem Pronomen.",
+            "explanation": "'Jemand, der …' wird zu 'Wer …'. Beide Pronomen sind Nominativ → 'der' (laut Aufgabe bleibt es stehen); Verb 'braucht' direkt danach."
+          },
+          {
+            "id": "l28h02",
+            "type": "targeted-transformation",
+            "instruction": "Forme um in einen Satz mit 'wer' und Demonstrativpronomen. Beginne mit 'Wer'. Die übrigen Satzglieder bleiben in ihrer Reihenfolge.",
+            "prompt": "Allen, die gern fotografieren, empfehle ich diesen Kurs.",
+            "solution": "Wer gern fotografiert, dem empfehle ich diesen Kurs.",
+            "hint": "'wer' verlangt das Verb im Singular.",
+            "explanation": "'wer' steht mit Verb im Singular: 'fotografiert'. 'empfehlen' verlangt Dativ → 'dem', nicht 'den'."
+          },
+          {
+            "id": "l28h03",
+            "type": "targeted-transformation",
+            "instruction": "Forme um in einen Satz mit 'wem' und Demonstrativpronomen. Beginne mit 'Wem'. Die übrigen Satzglieder bleiben in ihrer Reihenfolge.",
+            "prompt": "Leuten, denen Jazz gefällt, empfehlen wir das Festival am Hafen.",
+            "solution": "Wem Jazz gefällt, dem empfehlen wir das Festival am Hafen.",
+            "hint": "Beide Verben verlangen denselben Kasus.",
+            "explanation": "'gefallen' → Dativ 'Wem', 'empfehlen' → Dativ 'dem'. Nach dem Pronomen steht sofort das Verb 'empfehlen'."
+          },
+          {
+            "id": "l28h04",
+            "type": "targeted-transformation",
+            "instruction": "Forme um in einen Satz mit 'wen' und Demonstrativpronomen. Beginne mit 'Wen'. Die übrigen Satzglieder bleiben in ihrer Reihenfolge.",
+            "prompt": "Jemanden, den Architektur interessiert, wird dieses Viertel begeistern.",
+            "solution": "Wen Architektur interessiert, den wird dieses Viertel begeistern.",
+            "hint": "jemanden interessieren / jemanden begeistern.",
+            "explanation": "Beide Verben verlangen Akkusativ: 'Wen … interessiert, den wird … begeistern'. Subjekte sind 'Architektur' und 'dieses Viertel'."
+          },
+          {
+            "id": "l28h05",
+            "type": "targeted-transformation",
+            "instruction": "Forme um in einen Satz mit 'wer' und 'für' + Demonstrativpronomen. Beginne mit 'Wer'. Die übrigen Satzglieder bleiben in ihrer Reihenfolge.",
+            "prompt": "Für jemanden, der kein Geld für Material hat, gibt es Fördertöpfe der Stadt.",
+            "solution": "Wer kein Geld für Material hat, für den gibt es Fördertöpfe der Stadt.",
+            "hint": "Die Präposition bleibt im Hauptsatz.",
+            "explanation": "Die Präposition 'für' kommt in den Hauptsatz und verlangt Akkusativ → 'für den'. Danach folgt direkt das Verb 'gibt'."
+          },
+          {
+            "id": "l28h06",
+            "type": "targeted-transformation",
+            "instruction": "Forme um in einen Satz mit 'wer' und 'mit' + Demonstrativpronomen. Beginne mit 'Wer'. Die übrigen Satzglieder bleiben in ihrer Reihenfolge.",
+            "prompt": "Mit jemandem, der nie an sich zweifelt, kann man schlecht über Kunst diskutieren.",
+            "solution": "Wer nie an sich zweifelt, mit dem kann man schlecht über Kunst diskutieren.",
+            "hint": "'mit' verlangt immer denselben Kasus.",
+            "explanation": "'mit' verlangt Dativ → 'mit dem'. 'mit den' wäre Dativ Plural; 'wer' meint aber eine einzelne, unbestimmte Person."
+          },
+          {
+            "id": "l28h07",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere das falsche Pronomen.",
+            "prompt": "Wer gern zeichnet, den rate ich zu einem Skizzenbuch für unterwegs.",
+            "solution": "Wer gern zeichnet, dem rate ich zu einem Skizzenbuch für unterwegs.",
+            "hint": "Welchen Kasus verlangt 'raten' für die Person?",
+            "explanation": "'jemandem zu etwas raten': Person im Dativ → 'dem'. 'den' (Akkusativ) passt nicht, weil 'raten' kein Akkusativobjekt der Person hat."
+          },
+          {
+            "id": "l28h08",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere das falsche Pronomen.",
+            "prompt": "Wem die Galerie zur Eröffnung einlädt, der darf sich geehrt fühlen.",
+            "solution": "Wen die Galerie zur Eröffnung einlädt, der darf sich geehrt fühlen.",
+            "hint": "Welchen Kasus verlangt 'einladen'?",
+            "explanation": "'jemanden einladen' verlangt den Akkusativ → 'Wen'. 'Wem' wäre Dativ; Subjekt des Relativsatzes ist 'die Galerie'."
+          },
+          {
+            "id": "l28h09",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere das falsche Pronomen.",
+            "prompt": "Wen dieses Gemälde gehört, der kann es bei einer Auktion versteigern lassen.",
+            "solution": "Wem dieses Gemälde gehört, der kann es bei einer Auktion versteigern lassen.",
+            "hint": "etwas gehört jemandem …",
+            "explanation": "'gehören' verlangt den Dativ → 'Wem'. Subjekt ist 'dieses Gemälde', deshalb ist 'Wen' (Akkusativ) falsch."
+          },
+          {
+            "id": "l28h10",
+            "type": "error-correction",
+            "instruction": "Korrigiere die Wortstellung im Hauptsatz. Das Demonstrativpronomen bleibt.",
+            "prompt": "Wer Bilder online verkaufen will, der eine professionelle Webseite braucht.",
+            "solution": "Wer Bilder online verkaufen will, der braucht eine professionelle Webseite.",
+            "hint": "Der Hauptsatz ist kein Nebensatz: Wo steht das Verb?",
+            "explanation": "Nach dem wer-Satz beginnt ein Hauptsatz: Pronomen auf Position 1, Verb auf Position 2 → 'der braucht …'. Verbendstellung gilt nur im wer-Satz."
+          },
+          {
+            "id": "l28h11",
+            "type": "error-correction",
+            "instruction": "Korrigiere das Verb der Nomen-Verb-Verbindung (fassen, ausüben, anregen oder erhalten). Ändere nur ein Wort.",
+            "prompt": "Schon mit zwölf hat sie den Entschluss gemacht, Geigerin zu werden.",
+            "solution": "Schon mit zwölf hat sie den Entschluss gefasst, Geigerin zu werden.",
+            "hint": "Welches Verb gehört fest zu 'Entschluss'?",
+            "explanation": "Die feste Verbindung heißt 'einen Entschluss fassen' → 'gefasst'. 'machen' passt nicht zu 'Entschluss'."
+          },
+          {
+            "id": "l28h12",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere das falsche Pronomen.",
+            "prompt": "Wer für den Nachwuchspreis nominiert ist, für dem beginnt eine aufregende Zeit.",
+            "solution": "Wer für den Nachwuchspreis nominiert ist, für den beginnt eine aufregende Zeit.",
+            "hint": "Welchen Kasus verlangt 'für'?",
+            "explanation": "'für' steht immer mit Akkusativ → 'für den'. 'dem' ist Dativ und passt nach 'mit', 'von' oder 'bei'."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l28t01",
+          "type": "multiple-choice",
+          "instruction": "Welches Pronomen gehört an den Satzanfang?",
+          "prompt": "___ alte Handwerkstechniken interessieren, der sollte die Werkstatttage im Freilichtmuseum besuchen.",
+          "options": [
+            "Wer",
+            "Wen",
+            "Wem",
+            "Den"
+          ],
+          "solution": "Wen",
+          "explanation": "„jemanden interessieren“ verlangt den Akkusativ → „Wen“. „Wer“ passt nicht: Subjekt ist „Handwerkstechniken“ (Verb im Plural)."
+        },
+        {
+          "id": "l28t02",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze das passende Fragepronomen (wer/wen/wem).",
+          "prompt": "___ ein Stipendium der Stadt hilft, dem bleibt mehr Zeit für die eigene Arbeit.",
+          "solution": "Wem",
+          "explanation": "„helfen“ steht mit Dativ → „Wem … hilft“. Der Kasus im wer-Satz richtet sich nach dessen Verb, nicht nach „dem“ im Hauptsatz."
+        },
+        {
+          "id": "l28t03",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze das Demonstrativpronomen am Anfang des Hauptsatzes.",
+          "prompt": "Wer zum ersten Mal ausstellt, ___ gibt die Galerie einen Rabatt auf die Standmiete.",
+          "solution": "dem",
+          "explanation": "„jemandem einen Rabatt geben“ → Dativ: „dem“. Das Pronomen im Hauptsatz richtet sich nach dem Verb des Hauptsatzes, nicht nach „Wer“."
+        },
+        {
+          "id": "l28t04",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze das Demonstrativpronomen nach der Präposition.",
+          "prompt": "Wer ein Instrument lernen möchte, für ___ bietet die Musikschule kostenlose Probestunden an.",
+          "solution": "den",
+          "explanation": "„für“ verlangt den Akkusativ → „für den“. „der“ (Nominativ) ist nach einer Präposition nicht möglich."
+        },
+        {
+          "id": "l28t05",
+          "type": "multiple-choice",
+          "instruction": "Welches Demonstrativpronomen ist richtig?",
+          "prompt": "Wen das Cello begeistert, ___ empfehle ich die Kurse von Frau Aydin.",
+          "options": [
+            "der",
+            "den",
+            "dem",
+            "wem"
+          ],
+          "solution": "dem",
+          "explanation": "„jemandem etwas empfehlen“: Person im Dativ → „dem“. „den“ wäre Akkusativ; das Akkusativobjekt ist „die Kurse“."
+        },
+        {
+          "id": "l28t06",
+          "type": "multiple-choice",
+          "instruction": "In welchem Satz kann man das Demonstrativpronomen weglassen, ohne dass der Satz falsch wird?",
+          "prompt": "Wähle den Satz.",
+          "options": [
+            "Wer Fotos ausstellen will, der muss sich bis Ende März bewerben.",
+            "Wer gern zeichnet, dem macht dieser Comic-Kurs Spaß.",
+            "Wem Graffiti gefällt, den lädt der Verein zu einer Stadtführung ein.",
+            "Wen die Jury auswählt, dem zahlt die Stadt ein Honorar."
+          ],
+          "solution": "Wer Fotos ausstellen will, der muss sich bis Ende März bewerben.",
+          "explanation": "Nur wenn „wer“ und „der“ beide im Nominativ stehen, darf „der“ entfallen. Bei verschiedenen Kasus (dem, den) muss es bleiben."
+        },
+        {
+          "id": "l28t07",
+          "type": "targeted-transformation",
+          "instruction": "Forme den Satz um in „Wer …, dem …“. Die übrigen Satzglieder behalten ihre Reihenfolge.",
+          "prompt": "Wenn jemand als Straßenmusiker arbeitet, fehlt ihm oft eine Krankenversicherung.",
+          "solution": "Wer als Straßenmusiker arbeitet, dem fehlt oft eine Krankenversicherung.",
+          "explanation": "„jemandem fehlt etwas“ → Dativ „dem“ statt „ihm“; das Pronomen steht vorn, das Verb folgt direkt. Weglassen geht nicht (Nominativ ≠ Dativ)."
+        },
+        {
+          "id": "l28t08",
+          "type": "targeted-transformation",
+          "instruction": "Forme den Satz um in „Wer …, der …“ – mit dem Demonstrativpronomen „der“. Die übrigen Satzglieder behalten ihre Reihenfolge.",
+          "prompt": "Wenn jemand Porträts malen will, muss er zuerst die Proportionen des Gesichts kennen.",
+          "solution": "Wer Porträts malen will, der muss zuerst die Proportionen des Gesichts kennen.",
+          "explanation": "Beide Male Nominativ: „Wer …, der …“. Hier wird „der“ verlangt; ohne „der“ wäre der Satz auch korrekt, weil beide Kasus gleich sind."
+        },
+        {
+          "id": "l28t09",
+          "type": "error-correction",
+          "instruction": "Im Satz ist ein Pronomen falsch. Ändere nur ein Wort.",
+          "prompt": "Wer die Aufnahmeprüfung besteht, den gratuliert die Rektorin persönlich.",
+          "solution": "Wer die Aufnahmeprüfung besteht, dem gratuliert die Rektorin persönlich.",
+          "explanation": "„jemandem gratulieren“ verlangt den Dativ → „dem“. Der Akkusativ „den“ passt nicht zu „gratulieren“."
+        },
+        {
+          "id": "l28t10",
+          "type": "error-correction",
+          "instruction": "Im Satz ist ein Pronomen falsch. Ändere nur ein Wort; das Verb bleibt.",
+          "prompt": "Wer laute Musik nicht gefällt, der sollte zum Stadtfest Ohrstöpsel mitnehmen.",
+          "solution": "Wem laute Musik nicht gefällt, der sollte zum Stadtfest Ohrstöpsel mitnehmen.",
+          "explanation": "„jemandem gefallen“ → Dativ „Wem“; Subjekt ist „laute Musik“. „der“ bleibt, weil „sollte“ ein Subjekt im Nominativ braucht."
+        },
+        {
+          "id": "l28t11",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz. Beginne mit „Wer“.",
+          "prompt": "Baue den Satz aus den Satzteilen.",
+          "scrambleChunks": [
+            "für den",
+            "ist",
+            "Wer in einem Orchester",
+            "Pünktlichkeit bei den Proben",
+            "spielt,",
+            "oberstes Gebot"
+          ],
+          "solution": "Wer in einem Orchester spielt, für den ist Pünktlichkeit bei den Proben oberstes Gebot.",
+          "explanation": "Der wer-Satz steht vorn, Verb am Ende. Der Hauptsatz beginnt mit „für den“ (für + Akk.), dann sofort das Verb „ist“."
+        },
+        {
+          "id": "l28t12",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz. Beginne mit „Wer“.",
+          "prompt": "Baue den Satz aus den Satzteilen.",
+          "scrambleChunks": [
+            "laden",
+            "einen Preis",
+            "den",
+            "viel häufiger ein",
+            "Wer einmal",
+            "Festivals",
+            "erhalten hat,"
+          ],
+          "solution": "Wer einmal einen Preis erhalten hat, den laden Festivals viel häufiger ein.",
+          "explanation": "„jemanden einladen“ → Akkusativ „den“ an Position 1, dann das Verb „laden“, Subjekt „Festivals“, Präfix „ein“ am Ende."
+        },
+        {
+          "id": "l28t13",
+          "type": "cloze-conjugation",
+          "instruction": "Setze das Verb im Präteritum ein.",
+          "prompt": "Gestern ___ (fassen) der Stadtrat den Entschluss, das alte Kino als Kulturzentrum zu erhalten.",
+          "solution": "fasste",
+          "explanation": "„einen Entschluss fassen“; „fassen“ ist regelmäßig: fasste, hat gefasst. „fasst“ wäre Präsens."
+        },
+        {
+          "id": "l28t14",
+          "type": "multiple-choice",
+          "instruction": "Welches Nomen passt zum Verb „anregen“?",
+          "prompt": "Die Lichtinstallation im Park soll die ___ der Besucher anregen.",
+          "options": [
+            "Fantasie",
+            "Epoche",
+            "Auktion",
+            "Entschluss"
+          ],
+          "solution": "Fantasie",
+          "explanation": "Feste Verbindung: „die Fantasie anregen“ (= kreativ machen). Eine Epoche, Auktion oder einen Entschluss kann man nicht „anregen“."
+        },
+        {
+          "id": "l28t15",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze das fehlende Wort.",
+          "prompt": "Seinen Beruf als Tontechniker übt er nur noch halbtags ___, weil er nebenbei komponiert.",
+          "solution": "aus",
+          "explanation": "„einen Beruf ausüben“ ist trennbar: Im Hauptsatz steht „aus“ am Satzende. „Beruf ergreifen“ hieße: ihn wählen."
+        },
+        {
+          "id": "l28t16",
+          "type": "multiple-choice",
+          "instruction": "Welche Pronomen gehören in die Lücken?",
+          "prompt": "___ ein Gemälde kaufen will, ___ rät der Galerist zu einem Besuch der Vernissage.",
+          "options": [
+            "Wer – dem",
+            "Wer – der",
+            "Wem – dem",
+            "Wen – den"
+          ],
+          "solution": "Wer – dem",
+          "explanation": "„kaufen“ braucht ein Subjekt → „Wer“; „jemandem raten“ verlangt den Dativ → „dem“. „der“ wäre Nominativ."
+        }
+      ]
+    },
+    {
+      "lektionId": "b2-m10-l29",
+      "level": "B2",
+      "modulNumber": 10,
+      "lektionNumber": 29,
+      "title": "Echt kreativ!",
+      "grammarFocus": [
+        "Redemittel: im Team planen und Vorschläge machen (Unser Ziel ist es, … zu …; Wichtig ist, dass …; Wir könnten erst mal …; Vielleicht sollten wir als Erstes …; Ich glaube, es wäre gut, …)",
+        "Besprechungsergebnisse zusammenfassen: Perfekt, zu-Infinitiv nach beschließen/vorschlagen, Verben mit Präposition (berichten von, diskutieren über, sich einigen auf)",
+        "Wortschatz Ideenfindung: einen Einfall haben, Ideen sammeln, etwas beeinflussen, nicht aufgeben, Schritt für Schritt"
+      ],
+      "vocabulary": [
+        {
+          "id": "l29v01",
+          "term": "der Einfall",
+          "translation": "la ocurrencia, la idea",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Einfälle",
+          "example": "Beim Joggen kommen mir oft die besten Einfälle."
+        },
+        {
+          "id": "l29v02",
+          "term": "der Geistesblitz",
+          "translation": "la idea brillante repentina",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Geistesblitze",
+          "example": "Unter der Dusche hatte Mara den Geistesblitz, der das ganze Problem löste."
+        },
+        {
+          "id": "l29v03",
+          "term": "die Kreativität",
+          "translation": "la creatividad",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Zu viel Zeitdruck bremst die Kreativität eher, als dass er sie fördert."
+        },
+        {
+          "id": "l29v04",
+          "term": "die Kreativitätstechnik",
+          "translation": "la técnica de creatividad",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Kreativitätstechniken",
+          "example": "Die Kopfstand-Methode ist eine Kreativitätstechnik, bei der man das Problem umdreht."
+        },
+        {
+          "id": "l29v05",
+          "term": "das Brainstorming",
+          "translation": "la lluvia de ideas",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Brainstormings",
+          "example": "Im Brainstorming wird zunächst keine Idee kritisiert."
+        },
+        {
+          "id": "l29v06",
+          "term": "der Denkanstoß",
+          "translation": "el estímulo para reflexionar",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Denkanstöße",
+          "example": "Der Vortrag hat mir einen wichtigen Denkanstoß für meine Abschlussarbeit gegeben."
+        },
+        {
+          "id": "l29v07",
+          "term": "die Anregung",
+          "translation": "la sugerencia, el estímulo",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Anregungen",
+          "example": "Vielen Dank für Ihre Anregungen – wir werden sie in die nächste Version einbauen."
+        },
+        {
+          "id": "l29v08",
+          "term": "der Schritt",
+          "translation": "el paso",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Schritte",
+          "example": "Der erste Schritt ist oft der schwierigste."
+        },
+        {
+          "id": "l29v09",
+          "term": "der Entwurf",
+          "translation": "el borrador, el boceto",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Entwürfe",
+          "example": "Der zweite Entwurf des Plakats gefällt dem Kunden deutlich besser."
+        },
+        {
+          "id": "l29v10",
+          "term": "die Zielgruppe",
+          "translation": "el público objetivo",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Zielgruppen",
+          "example": "Die Zielgruppe der neuen App sind Eltern mit kleinen Kindern."
+        },
+        {
+          "id": "l29v11",
+          "term": "der Zeitplan",
+          "translation": "el cronograma, el calendario",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Zeitpläne",
+          "example": "Wenn der Zeitplan zu knapp ist, leidet die Qualität."
+        },
+        {
+          "id": "l29v12",
+          "term": "die Aufgabenverteilung",
+          "translation": "el reparto de tareas",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Aufgabenverteilungen",
+          "example": "Eine klare Aufgabenverteilung verhindert, dass zwei Leute dasselbe machen."
+        },
+        {
+          "id": "l29v13",
+          "term": "die Herangehensweise",
+          "translation": "el enfoque, la manera de abordar algo",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Herangehensweisen",
+          "example": "Seine Herangehensweise ist ungewöhnlich, aber sie funktioniert."
+        },
+        {
+          "id": "l29v14",
+          "term": "beeinflussen",
+          "translation": "influir (en algo/alguien)",
+          "partOfSpeech": "verb",
+          "preterite": "beeinflusste",
+          "participle": "beeinflusst",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Das Wetter beeinflusst die Stimmung vieler Menschen."
+        },
+        {
+          "id": "l29v15",
+          "term": "aufgeben",
+          "translation": "rendirse, abandonar",
+          "partOfSpeech": "verb",
+          "preterite": "gab auf",
+          "participle": "aufgegeben",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Trotz vieler Rückschläge hat die Gründerin nie aufgegeben."
+        },
+        {
+          "id": "l29v16",
+          "term": "verwerfen",
+          "translation": "descartar, desechar",
+          "partOfSpeech": "verb",
+          "preterite": "verwarf",
+          "participle": "verworfen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Nach dem Test verwarf das Team die Idee mit dem Sprachassistenten."
+        },
+        {
+          "id": "l29v17",
+          "term": "beschließen",
+          "translation": "decidir, acordar",
+          "partOfSpeech": "verb",
+          "preterite": "beschloss",
+          "participle": "beschlossen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Der Elternbeirat beschloss, im Frühling einen Flohmarkt zu veranstalten."
+        },
+        {
+          "id": "l29v18",
+          "term": "ausprobieren",
+          "translation": "probar",
+          "partOfSpeech": "verb",
+          "preterite": "probierte aus",
+          "participle": "ausprobiert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Wir haben drei verschiedene Methoden ausprobiert, bevor wir uns entschieden haben."
+        },
+        {
+          "id": "l29v19",
+          "term": "sich auseinandersetzen",
+          "translation": "ocuparse a fondo (de algo), analizar",
+          "partOfSpeech": "verb",
+          "preterite": "setzte sich auseinander",
+          "participle": "sich auseinandergesetzt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "In der Projektwoche setzen sich die Schüler mit dem Thema Müllvermeidung auseinander."
+        },
+        {
+          "id": "l29v20",
+          "term": "nützlich",
+          "translation": "útil",
+          "partOfSpeech": "adjective",
+          "example": "Eine Checkliste ist besonders nützlich, wenn viele Leute an einem Projekt arbeiten."
+        },
+        {
+          "id": "l29v21",
+          "term": "originell",
+          "translation": "original, ingenioso",
+          "partOfSpeech": "adjective",
+          "example": "Der Name für den Foodtruck ist witzig und originell."
+        },
+        {
+          "id": "l29v22",
+          "term": "Ideen sammeln",
+          "translation": "reunir ideas",
+          "partOfSpeech": "phrase",
+          "example": "Bevor wir entscheiden, sollten wir erst einmal möglichst viele Ideen sammeln."
+        },
+        {
+          "id": "l29v23",
+          "term": "an einem Strang ziehen",
+          "translation": "remar en la misma dirección",
+          "partOfSpeech": "phrase",
+          "example": "Das Projekt klappt nur, wenn alle an einem Strang ziehen."
+        },
+        {
+          "id": "l29v24",
+          "term": "auf Anhieb",
+          "translation": "a la primera, de inmediato",
+          "partOfSpeech": "phrase",
+          "example": "Die neue Software hat auf Anhieb funktioniert."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l29e01",
+            "type": "multiple-choice",
+            "instruction": "Welcher Satz ist korrekt?",
+            "prompt": "Ein Team formuliert sein Ziel:",
+            "options": [
+              "Unser Ziel ist es, bis Juni eine eigene Podcastfolge zu produzieren.",
+              "Unser Ziel ist es, dass bis Juni eine eigene Podcastfolge zu produzieren.",
+              "Unser Ziel ist es, bis Juni eine eigene Podcastfolge produzieren.",
+              "Unser Ziel ist es, bis Juni zu eine eigene Podcastfolge produzieren."
+            ],
+            "solution": "Unser Ziel ist es, bis Juni eine eigene Podcastfolge zu produzieren.",
+            "hint": "'es' kündigt einen Infinitivsatz an. Wo steht 'zu'?",
+            "explanation": "'Unser Ziel ist es, … zu + Infinitiv': 'zu' steht direkt vor dem Infinitiv am Ende. 'dass' und 'zu' schließen sich aus."
+          },
+          {
+            "id": "l29e02",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Form.",
+            "prompt": "Ich glaube, es ___ gut, zuerst die Zielgruppe genau zu bestimmen.",
+            "options": [
+              "wäre",
+              "würde",
+              "hätte",
+              "könnte"
+            ],
+            "solution": "wäre",
+            "hint": "Höflicher Vorschlag: Konjunktiv II von 'sein'.",
+            "explanation": "'Es wäre gut, … zu …' ist ein höflicher Vorschlag mit dem Konjunktiv II von 'sein'. 'würde', 'hätte' und 'könnte' brauchen ein weiteres Verb."
+          },
+          {
+            "id": "l29e03",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Wort.",
+            "prompt": "Vielleicht sollten wir als ___ klären, wie viel Geld wir zur Verfügung haben.",
+            "options": [
+              "Erstes",
+              "Erstens",
+              "Anfang",
+              "Beginn"
+            ],
+            "solution": "Erstes",
+            "hint": "Feste Wendung mit 'als' + nominalisierte Ordnungszahl.",
+            "explanation": "'als Erstes' (großgeschrieben) heißt 'zuerst'. 'Erstens' zählt nur auf und steht nie nach 'als'; 'Anfang'/'Beginn' bräuchten 'am'/'zu'."
+          },
+          {
+            "id": "l29e04",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Konjunktion.",
+            "prompt": "Wichtig ist, ___ alle bis Freitag ihre Entwürfe hochladen.",
+            "options": [
+              "dass",
+              "das",
+              "was",
+              "denn"
+            ],
+            "solution": "dass",
+            "hint": "Der Nebensatz nennt, WAS wichtig ist; das Verb steht am Ende.",
+            "explanation": "'Wichtig ist, dass …' leitet einen Inhaltssatz ein. 'das' ist Artikel/Pronomen, 'was' braucht eine Lücke im Satz, 'denn' verbindet nur Hauptsätze."
+          },
+          {
+            "id": "l29e05",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Verb.",
+            "prompt": "Dabei dürfen wir nicht ___, dass die Druckerei zwei Wochen Vorlauf braucht.",
+            "options": [
+              "vergessen",
+              "erinnern",
+              "achten",
+              "kümmern"
+            ],
+            "solution": "vergessen",
+            "hint": "Welches Verb kann direkt einen dass-Satz anschließen?",
+            "explanation": "'nicht vergessen, dass …' braucht keine Präposition. 'sich erinnern an', 'achten auf', 'sich kümmern um' bräuchten 'daran/darauf/darum'."
+          },
+          {
+            "id": "l29e06",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Präposition.",
+            "prompt": "In der Besprechung haben wir lange ___ den Namen des neuen Cafés diskutiert.",
+            "options": [
+              "über",
+              "für",
+              "an",
+              "auf"
+            ],
+            "solution": "über",
+            "hint": "diskutieren ___ + Akkusativ",
+            "explanation": "Man diskutiert über etwas (+ Akk.). 'für', 'an' und 'auf' bilden mit 'diskutieren' keine feste Verbindung."
+          },
+          {
+            "id": "l29e07",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Präposition.",
+            "prompt": "Am Ende haben wir uns ___ ein gemeinsames Logo geeinigt.",
+            "options": [
+              "auf",
+              "an",
+              "für",
+              "zu"
+            ],
+            "solution": "auf",
+            "hint": "sich einigen ___ + Akkusativ: das Ergebnis der Einigung.",
+            "explanation": "'sich einigen auf + Akk.' nennt das Ergebnis, auf das man sich festlegt. 'an', 'für' und 'zu' passen nicht zu diesem Verb."
+          },
+          {
+            "id": "l29e08",
+            "type": "multiple-choice",
+            "instruction": "Welche Ergänzung ist korrekt?",
+            "prompt": "Das Team hat beschlossen, ___.",
+            "options": [
+              "die Präsentation auf Donnerstag zu verschieben",
+              "zu die Präsentation auf Donnerstag verschieben",
+              "die Präsentation auf Donnerstag verschieben zu",
+              "die Präsentation auf Donnerstag zu verschoben"
+            ],
+            "solution": "die Präsentation auf Donnerstag zu verschieben",
+            "hint": "Nach 'beschließen' folgt ein zu-Infinitiv – mit dem Infinitiv, nicht dem Partizip.",
+            "explanation": "'beschließen, … zu + Infinitiv': 'zu' steht direkt vor dem Infinitiv am Satzende. Ein Partizip ('verschoben') ist hier falsch."
+          },
+          {
+            "id": "l29e09",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Form.",
+            "prompt": "Frau Kessler hat vorgeschlagen, die Ideen zuerst an der Pinnwand ___.",
+            "options": [
+              "aufzuhängen",
+              "zu aufhängen",
+              "aufzuhängt",
+              "aufhängen zu"
+            ],
+            "solution": "aufzuhängen",
+            "hint": "'aufhängen' ist trennbar. Wo steht 'zu'?",
+            "explanation": "Bei trennbaren Verben steht 'zu' zwischen Vorsilbe und Verb: auf-zu-hängen, zusammengeschrieben."
+          },
+          {
+            "id": "l29e10",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Nomen, das vom Verb 'einfallen' kommt.",
+            "prompt": "Mitten in der Nacht hatte Jonas plötzlich einen genialen ___ für den Namen der Band.",
+            "solution": "Einfall",
+            "hint": "Maskulin, ohne Endung im Akkusativ.",
+            "explanation": "'der Einfall' (Pl. Einfälle) ist eine spontane Idee: Mir fällt etwas ein → ich habe einen Einfall."
+          },
+          {
+            "id": "l29e11",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze die feste Wendung.",
+            "prompt": "Komplexe Probleme löst man am besten Schritt für ___.",
+            "solution": "Schritt",
+            "hint": "Dasselbe Nomen wird wiederholt.",
+            "explanation": "'Schritt für Schritt' bedeutet 'langsam, eins nach dem anderen'. Das Nomen wird ohne Artikel wiederholt."
+          },
+          {
+            "id": "l29e12",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Verb im Infinitiv. Es enthält das Nomen 'Einfluss'.",
+            "prompt": "Die Farbe eines Raumes kann unsere Stimmung stark ___.",
+            "solution": "beeinflussen",
+            "hint": "be- + Einfluss + -en",
+            "explanation": "'beeinflussen' (regelmäßig) = auf etwas einwirken. Nach dem Modalverb 'kann' steht der Infinitiv am Satzende."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l29m01",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Unser Ziel'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "zu entwerfen",
+              "es,",
+              "Unser Ziel",
+              "einen Stadtplan für Kinder",
+              "ist"
+            ],
+            "solution": "Unser Ziel ist es, einen Stadtplan für Kinder zu entwerfen.",
+            "hint": "Nach 'es,' folgt der Infinitivsatz mit 'zu' am Ende.",
+            "explanation": "'Unser Ziel ist es, … zu + Infinitiv': 'es' verweist auf den Infinitivsatz, der Infinitiv mit 'zu' steht am Ende."
+          },
+          {
+            "id": "l29m02",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Vorschlag. Beginne mit 'Wir'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "sammeln",
+              "könnten",
+              "Wir",
+              "erst mal alle Einfälle auf Karteikarten"
+            ],
+            "solution": "Wir könnten erst mal alle Einfälle auf Karteikarten sammeln.",
+            "hint": "Modalverb auf Position 2, Infinitiv am Ende.",
+            "explanation": "'Wir könnten erst mal …' ist ein vorsichtiger Vorschlag: 'könnten' (Konjunktiv II) auf Position 2, 'sammeln' am Satzende."
+          },
+          {
+            "id": "l29m03",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Vorschlag. Beginne mit 'Vielleicht'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "erstellen",
+              "wir",
+              "Vielleicht",
+              "als Erstes einen Zeitplan",
+              "sollten"
+            ],
+            "solution": "Vielleicht sollten wir als Erstes einen Zeitplan erstellen.",
+            "hint": "Nach 'Vielleicht' steht das Modalverb, dann das Subjekt.",
+            "explanation": "'Vielleicht' besetzt Position 1, also folgen 'sollten' und dann 'wir'. Der Infinitiv 'erstellen' steht am Ende."
+          },
+          {
+            "id": "l29m04",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Wichtig'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "kennt",
+              "dass jeder",
+              "Wichtig",
+              "seine Aufgabe genau",
+              "ist,"
+            ],
+            "solution": "Wichtig ist, dass jeder seine Aufgabe genau kennt.",
+            "hint": "Im dass-Satz steht das Verb am Ende.",
+            "explanation": "'Wichtig ist, dass …': Im Hauptsatz steht 'ist' auf Position 2, im dass-Satz das konjugierte Verb 'kennt' am Ende."
+          },
+          {
+            "id": "l29m05",
+            "type": "sentence-scramble",
+            "instruction": "Fasse die Besprechung zusammen. Beginne mit 'Danach'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "diskutiert",
+              "wir",
+              "über die Aufgabenverteilung",
+              "Danach",
+              "haben"
+            ],
+            "solution": "Danach haben wir über die Aufgabenverteilung diskutiert.",
+            "hint": "Perfekt: Hilfsverb auf Position 2, Partizip am Ende.",
+            "explanation": "Nach 'Danach' folgt das Hilfsverb 'haben', dann das Subjekt. 'diskutieren über' + Akk.; das Partizip steht am Ende."
+          },
+          {
+            "id": "l29m06",
+            "type": "sentence-scramble",
+            "instruction": "Fasse die Besprechung zusammen. Beginne mit 'Wir haben im Team'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "den Flyer vor dem Druck",
+              "beschlossen,",
+              "Wir haben im Team",
+              "noch einmal zu überarbeiten"
+            ],
+            "solution": "Wir haben im Team beschlossen, den Flyer vor dem Druck noch einmal zu überarbeiten.",
+            "hint": "Was beschlossen wurde, steht im zu-Infinitiv nach dem Komma.",
+            "explanation": "'beschließen, … zu + Infinitiv': Der Hauptsatz endet mit 'beschlossen,', danach folgt der Infinitivsatz mit 'zu überarbeiten' am Ende."
+          },
+          {
+            "id": "l29m07",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Partizip II.",
+            "prompt": "Gestern hat Lea uns von einer neuen Kreativitätstechnik ___. (berichten, Perfekt)",
+            "solution": "berichtet",
+            "hint": "Regelmäßiges Verb, Stamm auf -t.",
+            "explanation": "'berichten' ist regelmäßig; die untrennbare Vorsilbe be- verhindert ge- → 'berichtet'. Stamm auf -t, daher -et."
+          },
+          {
+            "id": "l29m08",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Partizip II.",
+            "prompt": "Nach drei gescheiterten Versuchen hat Tim das Projekt trotzdem nicht ___. (aufgeben, Perfekt)",
+            "solution": "aufgegeben",
+            "hint": "Trennbares, unregelmäßiges Verb: Vorsilbe + ge + Stamm + en.",
+            "explanation": "'aufgeben' ist trennbar und stark: auf-ge-geben. Eine Form wie 'aufgegebt' gibt es nicht."
+          },
+          {
+            "id": "l29m09",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze den zu-Infinitiv.",
+            "prompt": "Die Gruppe hat beschlossen, die Umfrage selbst ___. (durchführen)",
+            "solution": "durchzuführen",
+            "hint": "Trennbares Verb: 'zu' kommt in die Mitte.",
+            "explanation": "Bei trennbaren Verben steht 'zu' zwischen Vorsilbe und Verb: durch-zu-führen, in einem Wort."
+          },
+          {
+            "id": "l29m10",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze den zu-Infinitiv.",
+            "prompt": "Ole hat vorgeschlagen, mit einer Mindmap ___. (anfangen)",
+            "solution": "anzufangen",
+            "hint": "'anfangen' ist trennbar.",
+            "explanation": "Nach 'vorschlagen' folgt ein zu-Infinitiv; bei 'anfangen' steht 'zu' nach der Vorsilbe: an-zu-fangen."
+          },
+          {
+            "id": "l29m11",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Partizip II.",
+            "prompt": "Im Meeting haben wir die erste Idee leider wieder ___. (verwerfen, Perfekt)",
+            "solution": "verworfen",
+            "hint": "Unregelmäßig wie 'werfen'; Vorsilbe ver- ohne ge-.",
+            "explanation": "'verwerfen – verwarf – verworfen': starkes Verb mit Vokalwechsel e → o; die untrennbare Vorsilbe ver- verhindert ge-."
+          },
+          {
+            "id": "l29m12",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb.",
+            "prompt": "Werbung ___ unser Kaufverhalten stärker, als wir denken. (beeinflussen, Präsens)",
+            "solution": "beeinflusst",
+            "hint": "Subjekt 'Werbung' = 3. Person Singular.",
+            "explanation": "'beeinflussen' ist regelmäßig: er/sie/es beeinflusst. Das Doppel-s bleibt, die Endung ist nur -t."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l29h01",
+            "type": "targeted-transformation",
+            "instruction": "Formuliere als Vorschlag mit 'Wir könnten erst mal'. 'Lasst uns' und 'zuerst' entfallen; die übrigen Satzglieder bleiben in ihrer Reihenfolge.",
+            "prompt": "Lasst uns zuerst eine Umfrage unter den Nachbarn machen.",
+            "solution": "Wir könnten erst mal eine Umfrage unter den Nachbarn machen.",
+            "hint": "'könnten' auf Position 2, 'machen' am Ende.",
+            "explanation": "'Wir könnten erst mal …' macht aus einer Aufforderung einen vorsichtigen Vorschlag; der Konjunktiv II 'könnten' wirkt höflich."
+          },
+          {
+            "id": "l29h02",
+            "type": "targeted-transformation",
+            "instruction": "Formuliere mit 'Unser Ziel ist es, … zu …'. 'Wir wollen' entfällt; die übrigen Satzglieder bleiben in ihrer Reihenfolge.",
+            "prompt": "Wir wollen bis Herbst hundert neue Mitglieder gewinnen.",
+            "solution": "Unser Ziel ist es, bis Herbst hundert neue Mitglieder zu gewinnen.",
+            "hint": "Nach 'es,' folgt der Infinitivsatz; 'zu' steht vor dem Verb.",
+            "explanation": "Das Subjekt 'wir' entfällt im Infinitivsatz; 'zu gewinnen' steht am Ende. Ein dass-Satz wäre hier nicht verlangt."
+          },
+          {
+            "id": "l29h03",
+            "type": "targeted-transformation",
+            "instruction": "Formuliere mit 'Ich glaube, es wäre gut, … zu …'. 'Wir sollten' entfällt; die übrigen Satzglieder bleiben in ihrer Reihenfolge.",
+            "prompt": "Wir sollten die Gäste vorher nach ihren Wünschen fragen.",
+            "solution": "Ich glaube, es wäre gut, die Gäste vorher nach ihren Wünschen zu fragen.",
+            "hint": "Zwei Kommas: nach 'glaube' und nach 'gut'.",
+            "explanation": "'es wäre gut' + zu-Infinitiv formuliert einen höflichen Vorschlag. Ohne eigenes Subjekt steht 'zu fragen' am Ende."
+          },
+          {
+            "id": "l29h04",
+            "type": "targeted-transformation",
+            "instruction": "Fasse Pauls Vorschlag zusammen. Beginne mit 'Paul hat vorgeschlagen,' und verwende einen zu-Infinitiv; die übrigen Satzglieder bleiben in ihrer Reihenfolge.",
+            "prompt": "Paul: „Wir laden einen Grafiker zum nächsten Treffen ein.“",
+            "solution": "Paul hat vorgeschlagen, einen Grafiker zum nächsten Treffen einzuladen.",
+            "hint": "Trennbares Verb: 'zu' zwischen Vorsilbe und Verb.",
+            "explanation": "Nach 'vorschlagen' steht ein zu-Infinitiv ohne Subjekt; bei 'einladen' wird 'zu' eingeschoben: einzuladen."
+          },
+          {
+            "id": "l29h05",
+            "type": "targeted-transformation",
+            "instruction": "Fasse im Perfekt zusammen. Beginne mit 'Zum Schluss'.",
+            "prompt": "Zum Schluss einigen wir uns auf ein Budget von 500 Euro.",
+            "solution": "Zum Schluss haben wir uns auf ein Budget von 500 Euro geeinigt.",
+            "hint": "Reflexive Verben bilden das Perfekt mit 'haben'.",
+            "explanation": "'sich einigen' → 'haben … geeinigt'. Das Reflexivpronomen 'uns' folgt direkt dem Subjekt, das Partizip steht am Ende."
+          },
+          {
+            "id": "l29h06",
+            "type": "targeted-transformation",
+            "instruction": "Fasse zusammen. Beginne mit 'Das Team hat beschlossen,' und verwende einen zu-Infinitiv; die übrigen Satzglieder bleiben in ihrer Reihenfolge.",
+            "prompt": "Das Team: „Wir verschieben den Start der Kampagne um eine Woche.“",
+            "solution": "Das Team hat beschlossen, den Start der Kampagne um eine Woche zu verschieben.",
+            "hint": "Das Subjekt 'wir' fällt im Infinitivsatz weg.",
+            "explanation": "Nach 'beschließen' folgt ein zu-Infinitiv: Das Subjekt entfällt, 'zu verschieben' steht am Ende."
+          },
+          {
+            "id": "l29h07",
+            "type": "targeted-transformation",
+            "instruction": "Formuliere mit 'Wichtig ist, dass …'. 'müssen' entfällt; die übrigen Satzglieder bleiben in ihrer Reihenfolge.",
+            "prompt": "Alle müssen die Entwürfe bis Montag lesen.",
+            "solution": "Wichtig ist, dass alle die Entwürfe bis Montag lesen.",
+            "hint": "Im dass-Satz rückt das Verb ans Ende.",
+            "explanation": "'Wichtig ist, dass …' betont eine Bedingung; das konjugierte Verb 'lesen' steht am Ende des dass-Satzes."
+          },
+          {
+            "id": "l29h08",
+            "type": "error-correction",
+            "instruction": "Im Satz fehlt ein Wort. Schreibe den Satz korrekt.",
+            "prompt": "Unser Ziel ist es, ein Logo für den Verein entwerfen.",
+            "solution": "Unser Ziel ist es, ein Logo für den Verein zu entwerfen.",
+            "hint": "'es' kündigt einen Infinitivsatz an.",
+            "explanation": "'Unser Ziel ist es, …' verlangt einen Infinitiv mit 'zu'. Ohne 'zu' ist der Satz ungrammatisch."
+          },
+          {
+            "id": "l29h09",
+            "type": "error-correction",
+            "instruction": "Im Satz steht ein Wort zu viel. Schreibe den Satz korrekt.",
+            "prompt": "Wir haben uns lange über den Titel diskutiert.",
+            "solution": "Wir haben lange über den Titel diskutiert.",
+            "hint": "Ist 'diskutieren' reflexiv?",
+            "explanation": "'diskutieren über' ist nicht reflexiv; 'uns' muss weg. Verwechslung mit 'sich unterhalten über' oder 'sich einigen auf'."
+          },
+          {
+            "id": "l29h10",
+            "type": "error-correction",
+            "instruction": "Korrigiere die falsche Infinitivform.",
+            "prompt": "Sara hat vorgeschlagen, die Plakate selbst zu ausdrucken.",
+            "solution": "Sara hat vorgeschlagen, die Plakate selbst auszudrucken.",
+            "hint": "'ausdrucken' ist trennbar.",
+            "explanation": "Bei trennbaren Verben steht 'zu' zwischen Vorsilbe und Stamm: aus-zu-drucken, in einem Wort."
+          },
+          {
+            "id": "l29h11",
+            "type": "error-correction",
+            "instruction": "Ändere nur ein Wort.",
+            "prompt": "Nach dem dritten Versuch hat Jana fast aufgegebt.",
+            "solution": "Nach dem dritten Versuch hat Jana fast aufgegeben.",
+            "hint": "'geben' ist ein starkes Verb.",
+            "explanation": "'aufgeben – gab auf – aufgegeben': Starke Verben bilden das Partizip auf -en, nicht auf -t."
+          },
+          {
+            "id": "l29h12",
+            "type": "error-correction",
+            "instruction": "Ändere nur ein Wort.",
+            "prompt": "Wir haben uns endlich an einen Termin geeinigt.",
+            "solution": "Wir haben uns endlich auf einen Termin geeinigt.",
+            "hint": "Welche Präposition gehört zu 'sich einigen'?",
+            "explanation": "'sich einigen auf + Akk.' nennt das Ergebnis. 'an' gehört zu anderen Verben wie 'sich erinnern an'."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l29t01",
+          "type": "multiple-choice",
+          "instruction": "Welcher Satz ist korrekt?",
+          "prompt": "Die Hochschulgruppe formuliert ihr Ziel für das Wintersemester.",
+          "options": [
+            "Unser Ziel ist es, dass wir eine Tauschbörse für gebrauchte Lehrbücher aufzubauen.",
+            "Unser Ziel ist es, eine Tauschbörse für gebrauchte Lehrbücher aufzubauen.",
+            "Unser Ziel ist es, eine Tauschbörse für gebrauchte Lehrbücher aufbauen.",
+            "Unser Ziel ist es, eine Tauschbörse für gebrauchte Lehrbücher zu aufbauen."
+          ],
+          "solution": "Unser Ziel ist es, eine Tauschbörse für gebrauchte Lehrbücher aufzubauen.",
+          "explanation": "„Unser Ziel ist es, …“ verlangt einen zu-Infinitiv; bei trennbaren Verben wird „zu“ eingeschoben: aufzubauen. „dass“ und „zu“ schließen sich aus."
+        },
+        {
+          "id": "l29t02",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze das Wort, das hier „zuerst“ bedeutet.",
+          "prompt": "Vielleicht sollten wir als ___ die Termine aller Helfer abfragen, bevor wir einen Dienstplan machen.",
+          "solution": "Erstes",
+          "explanation": "„als Erstes“ = zuerst; nach „als“ wird die Ordinalzahl großgeschrieben. „als Nächstes“ meint den folgenden, nicht den ersten Schritt."
+        },
+        {
+          "id": "l29t03",
+          "type": "multiple-choice",
+          "instruction": "Wähle die korrekte Fortsetzung.",
+          "prompt": "Ich glaube, es wäre gut, …",
+          "options": [
+            "die Beete im Gemeinschaftsgarten neu aufteilen.",
+            "dass die Beete im Gemeinschaftsgarten neu aufzuteilen.",
+            "die Beete im Gemeinschaftsgarten neu zu aufteilen.",
+            "die Beete im Gemeinschaftsgarten neu aufzuteilen."
+          ],
+          "solution": "die Beete im Gemeinschaftsgarten neu aufzuteilen.",
+          "explanation": "Nach „es wäre gut“ folgt ein zu-Infinitiv; bei trennbaren Verben steht „zu“ zwischen Präfix und Stamm: aufzuteilen."
+        },
+        {
+          "id": "l29t04",
+          "type": "targeted-transformation",
+          "instruction": "Forme den Satz um. Beginne mit „Wichtig ist, dass“. Die übrigen Wörter bleiben in derselben Reihenfolge.",
+          "prompt": "Alle Helfer bekommen den Zeitplan rechtzeitig.",
+          "solution": "Wichtig ist, dass alle Helfer den Zeitplan rechtzeitig bekommen.",
+          "explanation": "Im dass-Satz steht das konjugierte Verb am Ende: „… rechtzeitig bekommen“. Ein Komma trennt ihn vom Hauptsatz."
+        },
+        {
+          "id": "l29t05",
+          "type": "cloze-conjugation",
+          "instruction": "Ergänze das Verb in der richtigen Form.",
+          "prompt": "Der Vorstand hat beschlossen, die Vereinszeitung künftig nur noch online ___. (veröffentlichen)",
+          "solution": "zu veröffentlichen",
+          "explanation": "„beschließen“ wird mit zu-Infinitiv ergänzt. „veröffentlichen“ ist nicht trennbar (ver- ist untrennbar), also „zu veröffentlichen“."
+        },
+        {
+          "id": "l29t06",
+          "type": "cloze-conjugation",
+          "instruction": "Ergänze das Verb in der richtigen Form.",
+          "prompt": "Die Gruppe hat vorgeschlagen, zunächst zwei Varianten des Logos ___. (ausprobieren)",
+          "solution": "auszuprobieren",
+          "explanation": "Nach „vorschlagen“ steht ein zu-Infinitiv. Bei trennbaren Verben wird „zu“ eingeschoben und zusammengeschrieben: auszuprobieren."
+        },
+        {
+          "id": "l29t07",
+          "type": "cloze-conjugation",
+          "instruction": "Ergänze das Partizip II für die Zusammenfassung im Perfekt.",
+          "prompt": "Am Ende der Sitzung haben wir die Termine für die nächsten Proben ___. (festlegen)",
+          "solution": "festgelegt",
+          "explanation": "Trennbares Verb im Perfekt: „ge“ steht zwischen Präfix und Stamm: festgelegt. „gefestlegt“ ist falsch."
+        },
+        {
+          "id": "l29t08",
+          "type": "cloze-conjugation",
+          "instruction": "Ergänze das Partizip II.",
+          "prompt": "In der letzten Sitzung hat der Vorstand einstimmig ___, den Mitgliedsbeitrag nicht zu erhöhen. (beschließen)",
+          "solution": "beschlossen",
+          "explanation": "„beschließen“ ist stark (beschloss – beschlossen); be- ist untrennbar, daher kein ge-. „gebeschlossen“ und „beschließt“ sind falsch."
+        },
+        {
+          "id": "l29t09",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze die Präposition.",
+          "prompt": "In der ersten Woche haben wir uns ausführlich ___ den Wünschen der Zielgruppe auseinandergesetzt.",
+          "solution": "mit",
+          "explanation": "Es heißt „sich mit etwas (Dat.) auseinandersetzen“. Darum auch der Dativ „den Wünschen“."
+        },
+        {
+          "id": "l29t10",
+          "type": "multiple-choice",
+          "instruction": "Welcher Satz ist korrekt?",
+          "prompt": "Zusammenfassung der Teamsitzung",
+          "options": [
+            "Frau Okafor ist von den Ergebnissen der Umfrage berichtet.",
+            "Frau Okafor hat von den Ergebnissen der Umfrage berichten.",
+            "Frau Okafor hat von den Ergebnissen der Umfrage berichtet.",
+            "Frau Okafor hat auf die Ergebnisse der Umfrage berichtet."
+          ],
+          "solution": "Frau Okafor hat von den Ergebnissen der Umfrage berichtet.",
+          "explanation": "Perfekt mit „haben“ + Partizip „berichtet“; die Präposition ist „von“ (oder „über“), nicht „auf“."
+        },
+        {
+          "id": "l29t11",
+          "type": "sentence-scramble",
+          "instruction": "Bilde den Satz für das Protokoll. Beginne mit „Am Ende der Sitzung“.",
+          "prompt": "Baue den Satz aus den Teilen.",
+          "scrambleChunks": [
+            "zu verteilen",
+            "beschlossen,",
+            "Am Ende der Sitzung",
+            "wir",
+            "die Aufgaben bis Freitag",
+            "haben"
+          ],
+          "solution": "Am Ende der Sitzung haben wir beschlossen, die Aufgaben bis Freitag zu verteilen.",
+          "explanation": "„Am Ende der Sitzung“ im Vorfeld → „haben wir“. Der zu-Infinitiv folgt nach dem Komma, „zu verteilen“ steht am Ende."
+        },
+        {
+          "id": "l29t12",
+          "type": "error-correction",
+          "instruction": "Korrigiere die falsche Präposition. Ändere nur ein Wort.",
+          "prompt": "Danach haben wir uns ausführlich für Fragen der Finanzierung beschäftigt.",
+          "solution": "Danach haben wir uns ausführlich mit Fragen der Finanzierung beschäftigt.",
+          "explanation": "Es heißt „sich mit etwas (Dat.) beschäftigen“. „für“ gehört zu Verben wie „sich interessieren für“."
+        },
+        {
+          "id": "l29t13",
+          "type": "targeted-transformation",
+          "instruction": "Setze den Satz ins Perfekt. Beginne mit „Danach“.",
+          "prompt": "Danach stellt Herr Yilmaz die Zahlen aus der Mitgliederbefragung vor.",
+          "solution": "Danach hat Herr Yilmaz die Zahlen aus der Mitgliederbefragung vorgestellt.",
+          "explanation": "Perfekt: „hat“ an Position 2, Partizip „vorgestellt“ am Ende. Das trennbare Präfix steht vor ge-."
+        },
+        {
+          "id": "l29t14",
+          "type": "multiple-choice",
+          "instruction": "Welches Verb passt?",
+          "prompt": "Als der Prototyp zum fünften Mal abstürzte, wollte die Programmiererin am liebsten ___, doch ihre Kollegin machte ihr Mut.",
+          "options": [
+            "beeinflussen",
+            "aufgeben",
+            "verwerfen",
+            "ausprobieren"
+          ],
+          "solution": "aufgeben",
+          "explanation": "„aufgeben“ = nicht weitermachen; es kann ohne Objekt stehen. Die anderen Verben passen inhaltlich nicht und bräuchten hier ein Objekt."
+        },
+        {
+          "id": "l29t15",
+          "type": "multiple-choice",
+          "instruction": "Welche Redewendung passt?",
+          "prompt": "Damit der Umbau des Jugendzentrums gelingt, müssen Stadt, Verein und Jugendliche ___.",
+          "options": [
+            "an einem Faden ziehen",
+            "an einem Strang ziehen",
+            "einen Strich ziehen",
+            "an einem Seil ziehen"
+          ],
+          "solution": "an einem Strang ziehen",
+          "explanation": "„an einem Strang ziehen“ = gemeinsam dasselbe Ziel verfolgen. Die anderen Varianten sind keine feste Wendung mit dieser Bedeutung."
+        },
+        {
+          "id": "l29t16",
+          "type": "multiple-choice",
+          "instruction": "Welches Nomen passt?",
+          "prompt": "Bevor die neue Webseite online geht, zeigen wir den ersten ___ noch dem ganzen Verein.",
+          "options": [
+            "Einfall",
+            "Entwurf",
+            "Schritt",
+            "Denkanstoß"
+          ],
+          "solution": "Entwurf",
+          "explanation": "Ein „Entwurf“ ist eine erste, noch vorläufige Fassung, die man zeigen kann. Ein Einfall oder Denkanstoß ist nur eine Idee, ein Schritt ein Teil eines Ablaufs."
+        }
+      ]
+    },
+    {
+      "lektionId": "b2-m10-l30",
+      "level": "B2",
+      "modulNumber": 10,
+      "lektionNumber": 30,
+      "title": "Serien, Bilder, Bücher",
+      "grammarFocus": [
+        "Zustandspassiv (sein + Partizip II) vs. Vorgangspassiv (werden + Partizip II), Präsens und Präteritum (ist/war gebucht – wird/wurde gebucht)",
+        "Adjektive auf -fähig, -bereit, -bedürftig, -tüchtig (funktionsfähig, einsatzbereit, reparaturbedürftig, geschäftstüchtig) mit und ohne Fugen-s",
+        "Redemittel Bildbeschreibung (im Vordergrund, am rechten Rand, bei genauem Hinsehen, Es sieht so aus, als ob …)"
+      ],
+      "vocabulary": [
+        {
+          "id": "l30v01",
+          "term": "der Erzähler",
+          "translation": "el narrador",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Erzähler",
+          "example": "Der Erzähler der Geschichte ist ein zwölfjähriger Junge, der alles aus seiner Sicht schildert."
+        },
+        {
+          "id": "l30v02",
+          "term": "die Kurzgeschichte",
+          "translation": "el relato corto",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Kurzgeschichten",
+          "example": "Die Kurzgeschichte ist nur vier Seiten lang, hat aber ein überraschendes Ende."
+        },
+        {
+          "id": "l30v03",
+          "term": "das Gedicht",
+          "translation": "el poema",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Gedichte",
+          "example": "Im Deutschunterricht mussten wir ein Gedicht über den Herbst auswendig lernen."
+        },
+        {
+          "id": "l30v04",
+          "term": "das Werk",
+          "translation": "la obra",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Werke",
+          "example": "Das gesamte Werk der Lyrikerin wurde nach ihrem Tod in fünf Bänden herausgegeben."
+        },
+        {
+          "id": "l30v05",
+          "term": "die Wirkung",
+          "translation": "el efecto",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Wirkungen",
+          "example": "Die kurzen Sätze haben eine starke Wirkung auf die Leserinnen und Leser."
+        },
+        {
+          "id": "l30v06",
+          "term": "die Handlung",
+          "translation": "la trama, el argumento",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Handlungen",
+          "example": "Die Handlung des Hörspiels spielt an einem einzigen Abend in einem Bergdorf."
+        },
+        {
+          "id": "l30v07",
+          "term": "der Schriftsteller",
+          "translation": "el escritor",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Schriftsteller",
+          "example": "Der Schriftsteller schreibt jeden Morgen drei Stunden lang, bevor er ans Telefon geht."
+        },
+        {
+          "id": "l30v08",
+          "term": "der Vordergrund",
+          "translation": "el primer plano",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "example": "Im Vordergrund des Fotos sieht man einen alten Fischer mit seinem Netz."
+        },
+        {
+          "id": "l30v09",
+          "term": "der Hintergrund",
+          "translation": "el fondo",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Hintergründe",
+          "example": "Im Hintergrund erkennt man verschwommen die Lichter des Hafens."
+        },
+        {
+          "id": "l30v10",
+          "term": "die Staffel",
+          "translation": "la temporada (de una serie)",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Staffeln",
+          "example": "Die zweite Staffel der Krankenhausserie war noch spannender als die erste."
+        },
+        {
+          "id": "l30v11",
+          "term": "das Drehbuch",
+          "translation": "el guion",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Drehbücher",
+          "example": "Das Drehbuch wurde dreimal umgeschrieben, bevor die Dreharbeiten beginnen konnten."
+        },
+        {
+          "id": "l30v12",
+          "term": "produzieren",
+          "translation": "producir",
+          "partOfSpeech": "verb",
+          "preterite": "produzierte",
+          "participle": "produziert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Ein kleiner Sender produziert die Dokumentarreihe über Handwerksberufe."
+        },
+        {
+          "id": "l30v13",
+          "term": "verfilmen",
+          "translation": "llevar al cine, adaptar",
+          "partOfSpeech": "verb",
+          "preterite": "verfilmte",
+          "participle": "verfilmt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Der Jugendroman wird gerade von einem kleinen Studio als Serie verfilmt."
+        },
+        {
+          "id": "l30v14",
+          "term": "schminken",
+          "translation": "maquillar",
+          "partOfSpeech": "verb",
+          "preterite": "schminkte",
+          "participle": "geschminkt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Vor jeder Aufnahme schminkt eine Maskenbildnerin die Moderatorin."
+        },
+        {
+          "id": "l30v15",
+          "term": "schneiden",
+          "translation": "montar, editar (una película)",
+          "partOfSpeech": "verb",
+          "preterite": "schnitt",
+          "participle": "geschnitten",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Die Dokumentation wird gerade geschnitten und soll im Frühjahr laufen."
+        },
+        {
+          "id": "l30v16",
+          "term": "ausstrahlen",
+          "translation": "emitir, transmitir",
+          "partOfSpeech": "verb",
+          "preterite": "strahlte aus",
+          "participle": "ausgestrahlt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Der Sender strahlt die neue Folge immer sonntags um 20 Uhr aus."
+        },
+        {
+          "id": "l30v17",
+          "term": "absetzen",
+          "translation": "cancelar (un programa)",
+          "partOfSpeech": "verb",
+          "preterite": "setzte ab",
+          "participle": "abgesetzt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Wegen schlechter Quoten hat der Sender die Quizshow nach zehn Folgen abgesetzt."
+        },
+        {
+          "id": "l30v18",
+          "term": "darstellen",
+          "translation": "representar",
+          "partOfSpeech": "verb",
+          "preterite": "stellte dar",
+          "participle": "dargestellt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Das Bild stellt einen Markt im Winter dar."
+        },
+        {
+          "id": "l30v19",
+          "term": "einsatzbereit",
+          "translation": "listo para usar, operativo",
+          "partOfSpeech": "adjective",
+          "example": "Nach dem Update ist die Kamera wieder einsatzbereit."
+        },
+        {
+          "id": "l30v20",
+          "term": "funktionsfähig",
+          "translation": "en condiciones de funcionar",
+          "partOfSpeech": "adjective",
+          "example": "Das alte Grammofon im Museum ist erstaunlicherweise noch funktionsfähig."
+        },
+        {
+          "id": "l30v21",
+          "term": "reparaturbedürftig",
+          "translation": "que necesita reparación",
+          "partOfSpeech": "adjective",
+          "example": "Das Dach des Kulturzentrums ist seit Jahren reparaturbedürftig."
+        },
+        {
+          "id": "l30v22",
+          "term": "erklärungsbedürftig",
+          "translation": "que requiere explicación",
+          "partOfSpeech": "adjective",
+          "example": "Das Ende des Films ist für viele Zuschauer erklärungsbedürftig."
+        },
+        {
+          "id": "l30v23",
+          "term": "geschäftstüchtig",
+          "translation": "hábil para los negocios",
+          "partOfSpeech": "adjective",
+          "example": "Die geschäftstüchtige Galeristin verkauft auch Postkarten der ausgestellten Fotos."
+        },
+        {
+          "id": "l30v24",
+          "term": "nüchtern",
+          "translation": "sobrio, objetivo (estilo)",
+          "partOfSpeech": "adjective",
+          "example": "Der Roman ist in einer nüchternen, fast sachlichen Sprache geschrieben."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l30e01",
+            "type": "multiple-choice",
+            "instruction": "Vorgang oder Zustand? Was bedeutet 'wird renoviert' hier?",
+            "prompt": "Die Stadtbibliothek ist heute geschlossen, denn der Lesesaal wird renoviert.",
+            "options": [
+              "Die Renovierung läuft gerade.",
+              "Die Renovierung ist schon fertig.",
+              "Der Lesesaal renoviert etwas.",
+              "Der Lesesaal war früher renoviert."
+            ],
+            "solution": "Die Renovierung läuft gerade.",
+            "hint": "werden + Partizip II beschreibt einen Prozess.",
+            "explanation": "Vorgangspassiv (wird renoviert) = die Handlung läuft. Ein fertiges Ergebnis drückt das Zustandspassiv aus: ist renoviert."
+          },
+          {
+            "id": "l30e02",
+            "type": "multiple-choice",
+            "instruction": "Vorgang oder Zustand? Was bedeutet der Satz?",
+            "prompt": "Der Lesesaal ist renoviert.",
+            "options": [
+              "Die Arbeiten sind abgeschlossen, der Saal ist im neuen Zustand.",
+              "Die Handwerker arbeiten gerade im Saal.",
+              "Der Saal wird nächste Woche renoviert.",
+              "Der Saal hat sich selbst renoviert."
+            ],
+            "solution": "Die Arbeiten sind abgeschlossen, der Saal ist im neuen Zustand.",
+            "hint": "sein + Partizip II beschreibt ein Ergebnis.",
+            "explanation": "Zustandspassiv (ist renoviert) = Resultat eines abgeschlossenen Vorgangs. Laufende Arbeiten würde 'wird renoviert' ausdrücken."
+          },
+          {
+            "id": "l30e03",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze 'wird' oder 'ist' (Präsens).",
+            "prompt": "Bitte noch nicht reingehen! Die Bühne ___ gerade von zwei Technikern aufgebaut.",
+            "solution": "wird",
+            "hint": "Arbeiten die Techniker noch?",
+            "explanation": "'gerade' und der Handelnde (von zwei Technikern) zeigen einen laufenden Prozess → Vorgangspassiv mit 'wird', nicht Zustand mit 'ist'."
+          },
+          {
+            "id": "l30e04",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze 'wird' oder 'ist' (Präsens).",
+            "prompt": "Wir können sofort anfangen: Das Mikrofon ___ angeschlossen und getestet.",
+            "solution": "ist",
+            "hint": "Kann man anfangen, ist die Arbeit schon …",
+            "explanation": "Die Arbeit ist erledigt, man kann anfangen → Zustandspassiv 'ist angeschlossen'. 'wird angeschlossen' hieße, man arbeitet noch daran."
+          },
+          {
+            "id": "l30e05",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Form (Präteritum).",
+            "prompt": "Als die ersten Gäste kamen, ___ die Bücher längst signiert, und die Autorin konnte sich entspannt unterhalten.",
+            "options": [
+              "waren",
+              "wurden",
+              "sind",
+              "hatten"
+            ],
+            "solution": "waren",
+            "hint": "'längst' betont das fertige Ergebnis.",
+            "explanation": "Ergebnis in der Vergangenheit → Zustandspassiv Präteritum 'waren signiert'. 'wurden' wäre der Vorgang; 'sind' ist Präsens."
+          },
+          {
+            "id": "l30e06",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Form (Präteritum).",
+            "prompt": "Die Kurzgeschichte ___ 1958 zum ersten Mal in einer Zeitschrift veröffentlicht.",
+            "options": [
+              "wurde",
+              "war",
+              "ist",
+              "hatte"
+            ],
+            "solution": "wurde",
+            "hint": "Ein einmaliges Ereignis zu einem Zeitpunkt.",
+            "explanation": "Ein Ereignis mit Datum ('1958 zum ersten Mal') ist ein Vorgang → 'wurde veröffentlicht'. 'war veröffentlicht' beschreibt nur einen Zustand."
+          },
+          {
+            "id": "l30e07",
+            "type": "fill-in-blank",
+            "instruction": "Bilde das Adjektiv aus 'Funktion' + '-fähig'.",
+            "prompt": "Der Projektor ist zwar fünfzig Jahre alt, aber noch voll ___.",
+            "solution": "funktionsfähig",
+            "hint": "Nomen auf -ion bekommen vor dem Suffix ein Fugenelement.",
+            "explanation": "Funktion + s + fähig = funktionsfähig (= kann funktionieren). Nach -ion, -ung, -heit, -keit steht ein Fugen-s."
+          },
+          {
+            "id": "l30e08",
+            "type": "multiple-choice",
+            "instruction": "Welches Adjektiv passt?",
+            "prompt": "Der neue Verlagsleiter verkauft sogar Gedichtbände mit Gewinn. Er ist sehr ___.",
+            "options": [
+              "geschäftstüchtig",
+              "reparaturbedürftig",
+              "erklärungsbedürftig",
+              "funktionsfähig"
+            ],
+            "solution": "geschäftstüchtig",
+            "hint": "-tüchtig = gut in etwas sein.",
+            "explanation": "geschäftstüchtig = geschickt im Geschäft. -bedürftig heißt 'braucht etwas'; funktionsfähig sagt man von Geräten, nicht von Menschen."
+          },
+          {
+            "id": "l30e09",
+            "type": "multiple-choice",
+            "instruction": "Welche Form ist richtig geschrieben?",
+            "prompt": "Das offene Ende des Romans ist für viele Leser ___.",
+            "options": [
+              "erklärungsbedürftig",
+              "erklärungbedürftig",
+              "erklärungenbedürftig",
+              "erklärungsbedurftig"
+            ],
+            "solution": "erklärungsbedürftig",
+            "hint": "Nomen auf -ung + Suffix: Achte auf das Fugenelement.",
+            "explanation": "Erklärung + s + bedürftig. Nach -ung steht immer ein Fugen-s; der Plural 'erklärungen' ist kein Fugenelement, und 'bedürftig' schreibt man mit ü."
+          },
+          {
+            "id": "l30e10",
+            "type": "multiple-choice",
+            "instruction": "Ergänze das Redemittel der Bildbeschreibung.",
+            "prompt": "Das Foto zeigt einen Marktplatz. ___ sieht man einen Brunnen, dahinter erkennt man eine Kirche.",
+            "options": [
+              "Im Vordergrund",
+              "Am Vordergrund",
+              "In den Vordergrund",
+              "Vom Vordergrund"
+            ],
+            "solution": "Im Vordergrund",
+            "hint": "Wo? → Dativ, feste Präposition 'in'.",
+            "explanation": "Feste Wendung: im (= in dem) Vordergrund/Hintergrund, Dativ auf die Frage 'wo?'. 'in den' wäre Akkusativ (wohin?)."
+          },
+          {
+            "id": "l30e11",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Präposition.",
+            "prompt": "Ganz ___ rechten Rand des Bildes lehnt ein Fahrrad an der Mauer.",
+            "options": [
+              "am",
+              "im",
+              "zum",
+              "an den"
+            ],
+            "solution": "am",
+            "hint": "Ein Rand ist eine Linie, keine Fläche.",
+            "explanation": "Feste Wendung: am (= an dem) rechten/linken Rand. 'im' passt zu Flächen (im Vordergrund), 'an den' wäre Akkusativ (wohin?)."
+          },
+          {
+            "id": "l30e12",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze 'sein' im Konjunktiv II.",
+            "prompt": "Der Mann auf dem Porträt schaut sehr ernst. Es sieht so aus, als ob er wütend ___.",
+            "solution": "wäre",
+            "hint": "Nach 'als ob' steht oft der Konjunktiv II, das Verb am Ende.",
+            "explanation": "'Es sieht so aus, als ob …' drückt einen Eindruck aus → Konjunktiv II: er wäre. Das Verb steht im Nebensatz am Ende."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l30m01",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz im Zustandspassiv Präsens. Beginne mit 'Die Kulissen'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "gebaut",
+              "Die Kulissen",
+              "schon für die zweite Staffel",
+              "sind"
+            ],
+            "solution": "Die Kulissen sind schon für die zweite Staffel gebaut.",
+            "hint": "sein auf Position 2, Partizip II am Ende.",
+            "explanation": "Zustandspassiv: 'sind' (Plural) auf Position 2, Partizip 'gebaut' am Satzende. 'schon' zeigt das fertige Ergebnis."
+          },
+          {
+            "id": "l30m02",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz im Vorgangspassiv Präsens. Beginne mit 'Jede Folge'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "gedreht",
+              "Jede Folge",
+              "in nur drei Tagen",
+              "wird"
+            ],
+            "solution": "Jede Folge wird in nur drei Tagen gedreht.",
+            "hint": "werden ist konjugiert, das Partizip bildet die Satzklammer.",
+            "explanation": "Vorgangspassiv: 'wird' auf Position 2, 'gedreht' am Ende. Es geht um den Arbeitsprozess, deshalb werden, nicht sein."
+          },
+          {
+            "id": "l30m03",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz im Zustandspassiv Präteritum. Beginne mit 'Als wir ankamen,'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "aufgestellt",
+              "Als wir ankamen,",
+              "waren",
+              "die Stühle schon"
+            ],
+            "solution": "Als wir ankamen, waren die Stühle schon aufgestellt.",
+            "hint": "Nach dem Nebensatz kommt sofort das Verb.",
+            "explanation": "Der Nebensatz steht auf Position 1, also folgt direkt 'waren'. Zustandspassiv Präteritum: war/waren + Partizip II am Ende."
+          },
+          {
+            "id": "l30m04",
+            "type": "sentence-scramble",
+            "instruction": "Beschreibe ein Bild. Beginne mit 'Bei genauem Hinsehen'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "man",
+              "Bei genauem Hinsehen",
+              "eine Katze auf dem Dach",
+              "erkennt"
+            ],
+            "solution": "Bei genauem Hinsehen erkennt man eine Katze auf dem Dach.",
+            "hint": "Die Wendung steht im Vorfeld – was folgt auf Position 2?",
+            "explanation": "'Bei genauem Hinsehen' besetzt das Vorfeld, also steht das Verb 'erkennt' auf Position 2 und das Subjekt 'man' danach."
+          },
+          {
+            "id": "l30m05",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz mit 'als ob'. Beginne mit 'Es sieht so aus,'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "würde",
+              "Es sieht so aus,",
+              "lachen",
+              "als ob",
+              "die Frau gleich"
+            ],
+            "solution": "Es sieht so aus, als ob die Frau gleich lachen würde.",
+            "hint": "als ob leitet einen Nebensatz ein: Verb ans Ende.",
+            "explanation": "'als ob' + Konjunktiv II: Das konjugierte 'würde' steht am Ende des Nebensatzes, der Infinitiv 'lachen' direkt davor."
+          },
+          {
+            "id": "l30m06",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze 'sein' oder 'werden' im Präteritum.",
+            "prompt": "Der Roman ___ zuerst von drei Verlagen abgelehnt, bevor ihn ein kleiner Verlag druckte.",
+            "solution": "wurde",
+            "hint": "Mehrere Verlage handeln nacheinander – Vorgang oder Ergebnis?",
+            "explanation": "Handelnde (von drei Verlagen) und Abfolge zeigen einen Vorgang → 'wurde abgelehnt'. 'war abgelehnt' beschreibt keinen Ablauf."
+          },
+          {
+            "id": "l30m07",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze 'sein' oder 'werden' im Präteritum.",
+            "prompt": "Der Saal ___ schon seit 18 Uhr voll besetzt, deshalb mussten viele draußen warten.",
+            "solution": "war",
+            "hint": "'seit 18 Uhr' beschreibt einen andauernden Zustand.",
+            "explanation": "'seit' + Ergebnis: Ab 18 Uhr waren alle Plätze belegt → Zustandspassiv 'war besetzt'. 'wurde' beschreibt den Vorgang, passt nicht zu 'seit'."
+          },
+          {
+            "id": "l30m08",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze 'sein' oder 'werden' im Präsens.",
+            "prompt": "Seit wann ___ die neuen Scheinwerfer installiert? – Seit Montag, und sie funktionieren prima.",
+            "solution": "sind",
+            "hint": "'Seit wann' fragt nach der Dauer eines Ergebnisses.",
+            "explanation": "Die Scheinwerfer hängen seit Montag und funktionieren → Zustand: 'sind installiert' (Plural). 'werden installiert' wäre noch in Arbeit."
+          },
+          {
+            "id": "l30m09",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze 'sein' oder 'werden' im Präsens.",
+            "prompt": "Für die neue Staffel ___ gerade noch zwei Schauspielerinnen gesucht.",
+            "solution": "werden",
+            "hint": "Die Suche läuft noch – und das Subjekt ist Plural.",
+            "explanation": "'gerade' zeigt den laufenden Vorgang → Vorgangspassiv; Subjekt 'zwei Schauspielerinnen' ist Plural → 'werden'."
+          },
+          {
+            "id": "l30m10",
+            "type": "fill-in-blank",
+            "instruction": "Bilde das Adjektiv aus 'Renovierung' + '-bedürftig'.",
+            "prompt": "Die Hütte am See steht seit Jahren leer und ist dringend ___.",
+            "solution": "renovierungsbedürftig",
+            "hint": "Nomen auf -ung brauchen ein Fugenelement.",
+            "explanation": "Renovierung + s + bedürftig = renovierungsbedürftig (= muss renoviert werden). Nach -ung steht immer ein Fugen-s."
+          },
+          {
+            "id": "l30m11",
+            "type": "fill-in-blank",
+            "instruction": "Bilde das Adjektiv aus 'Gespräch' + '-bereit'.",
+            "prompt": "Nach dem Streit mit dem Verlag zeigte sich die Autorin wieder ___.",
+            "solution": "gesprächsbereit",
+            "hint": "Wie bei 'Geschäft' → 'geschäftstüchtig' gibt es hier ein Fugenelement.",
+            "explanation": "Gespräch + s + bereit = gesprächsbereit (= bereit, zu reden). Ohne Fugen-s ('gesprächbereit') ist das Wort falsch."
+          },
+          {
+            "id": "l30m12",
+            "type": "fill-in-blank",
+            "instruction": "Bilde das Adjektiv aus 'See' + '-tüchtig'.",
+            "prompt": "Nach dem Sturm war das alte Fischerboot, das in der Serie eine Hauptrolle spielt, nicht mehr ___.",
+            "solution": "seetüchtig",
+            "hint": "Nicht jedes Nomen braucht ein Fugen-s.",
+            "explanation": "See + tüchtig = seetüchtig (= kann sicher aufs Meer fahren), ohne Fugen-s: Nomen auf -e bekommen hier kein s. -tüchtig = in gutem, leistungsfähigem Zustand."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l30h01",
+            "type": "targeted-transformation",
+            "instruction": "Forme ins Zustandspassiv Präsens um. Beginne mit 'Die Leinwand' und lass den Handelnden weg.",
+            "prompt": "Die Techniker haben die Leinwand schon aufgehängt.",
+            "solution": "Die Leinwand ist schon aufgehängt.",
+            "hint": "Das Ergebnis zählt, nicht wer es gemacht hat.",
+            "explanation": "Zustandspassiv = sein + Partizip II: 'ist aufgehängt'. Der Handelnde fällt weg; 'wird aufgehängt' wäre der laufende Vorgang."
+          },
+          {
+            "id": "l30h02",
+            "type": "targeted-transformation",
+            "instruction": "Forme ins Vorgangspassiv Präsens um. Beginne mit 'Die Gedichte' und lass den Handelnden weg.",
+            "prompt": "Eine junge Schauspielerin liest heute Abend die Gedichte vor.",
+            "solution": "Die Gedichte werden heute Abend vorgelesen.",
+            "hint": "Das Akkusativobjekt wird Subjekt; trennbares Verb im Partizip.",
+            "explanation": "'die Gedichte' wird Subjekt (Plural) → 'werden'. Das Partizip 'vorgelesen' steht am Ende; das Präfix wird nicht abgetrennt."
+          },
+          {
+            "id": "l30h03",
+            "type": "targeted-transformation",
+            "instruction": "Forme ins Zustandspassiv Präteritum um. Beginne mit 'Die Eintrittskarten' und lass 'man' weg.",
+            "prompt": "Man hatte die Eintrittskarten schon zwei Wochen vorher verkauft.",
+            "solution": "Die Eintrittskarten waren schon zwei Wochen vorher verkauft.",
+            "hint": "Ergebnis in der Vergangenheit: Präteritum von sein.",
+            "explanation": "Zustandspassiv Präteritum: waren + Partizip II. 'wurden verkauft' wäre der Vorgang, 'sind verkauft' Präsens."
+          },
+          {
+            "id": "l30h04",
+            "type": "targeted-transformation",
+            "instruction": "Forme ins Vorgangspassiv Präteritum um. Beginne mit 'Die Serie' und lass 'man' weg.",
+            "prompt": "Nach der dritten Staffel setzte man die Serie ab.",
+            "solution": "Die Serie wurde nach der dritten Staffel abgesetzt.",
+            "hint": "Präteritum von werden + Partizip II.",
+            "explanation": "Vorgangspassiv Präteritum: 'wurde' auf Position 2, Partizip 'abgesetzt' am Ende. Die übrigen Angaben stehen dazwischen."
+          },
+          {
+            "id": "l30h05",
+            "type": "targeted-transformation",
+            "instruction": "Frage im Zustandspassiv Präsens, ob die Arbeit erledigt ist. Beginne mit dem Hilfsverb und lass 'jemand' weg.",
+            "prompt": "Hat jemand die Plakate schon gedruckt?",
+            "solution": "Sind die Plakate schon gedruckt?",
+            "hint": "Ja/Nein-Frage: Hilfsverb auf Position 1, passend zum neuen Subjekt.",
+            "explanation": "Gefragt ist nach dem Ergebnis → sein + Partizip. Neues Subjekt 'die Plakate' ist Plural, also 'Sind', nicht 'Ist'."
+          },
+          {
+            "id": "l30h06",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze den Relativsatz durch ein Adjektiv auf -bedürftig. Beginne mit 'Das'.",
+            "prompt": "Das Konzept, das man noch genauer erklären muss, stellen wir morgen vor.",
+            "solution": "Das erklärungsbedürftige Konzept stellen wir morgen vor.",
+            "hint": "Das Adjektiv steht vor dem Nomen und wird dekliniert.",
+            "explanation": "'erklären müssen' → erklärungsbedürftig (mit Fugen-s). Vor dem Nomen nach 'das' bekommt das Adjektiv die Endung -e."
+          },
+          {
+            "id": "l30h07",
+            "type": "targeted-transformation",
+            "instruction": "Drücke den Satz mit einem Adjektiv auf -bereit aus. Beginne mit 'Der Rettungswagen am Set ist'.",
+            "prompt": "Der Rettungswagen am Set kann sofort eingesetzt werden.",
+            "solution": "Der Rettungswagen am Set ist sofort einsatzbereit.",
+            "hint": "Welches Nomen steckt in 'eingesetzt'?",
+            "explanation": "Einsatz + bereit = einsatzbereit (= sofort benutzbar). Kein Fugen-s, anders als nach -ung oder -ion (funktionsfähig)."
+          },
+          {
+            "id": "l30h08",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere das falsche Hilfsverb.",
+            "prompt": "Die Fenster der Galerie sind gerade vom Hausmeister geputzt.",
+            "solution": "Die Fenster der Galerie werden gerade vom Hausmeister geputzt.",
+            "hint": "'gerade' und 'vom …' – Prozess oder Ergebnis?",
+            "explanation": "'gerade' und der Handelnde zeigen einen laufenden Vorgang → Vorgangspassiv 'werden geputzt'. 'sind geputzt' wäre das Ergebnis."
+          },
+          {
+            "id": "l30h09",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere das falsche Hilfsverb.",
+            "prompt": "Als die Band ankam, wurde die Bühne längst aufgebaut.",
+            "solution": "Als die Band ankam, war die Bühne längst aufgebaut.",
+            "hint": "'längst' beschreibt ein fertiges Ergebnis.",
+            "explanation": "Bei Ankunft der Band war die Arbeit schon fertig → Zustandspassiv Präteritum 'war aufgebaut'. 'wurde' passt nicht zu 'längst'."
+          },
+          {
+            "id": "l30h10",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere das falsch gebildete Adjektiv.",
+            "prompt": "Der kleine Verlag war zum Glück noch zahlungfähig.",
+            "solution": "Der kleine Verlag war zum Glück noch zahlungsfähig.",
+            "hint": "Nomen auf -ung + Suffix.",
+            "explanation": "Zahlung + s + fähig = zahlungsfähig (= kann seine Rechnungen bezahlen). Nach -ung steht immer ein Fugen-s."
+          },
+          {
+            "id": "l30h11",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere die falsche Präposition mit Artikel.",
+            "prompt": "Auf dem rechten Rand des Plakats erkennt man das Logo des Festivals.",
+            "solution": "Am rechten Rand des Plakats erkennt man das Logo des Festivals.",
+            "hint": "Feste Wendung der Bildbeschreibung mit 'an'.",
+            "explanation": "In der Bildbeschreibung heißt es 'am rechten/linken Rand' (an + dem). 'auf dem Rand' ist hier nicht idiomatisch."
+          },
+          {
+            "id": "l30h12",
+            "type": "targeted-transformation",
+            "instruction": "Formuliere mit 'als ob' und dem Konjunktiv II von 'sein'. Beginne mit 'Es sieht so aus,' und lass 'vielleicht' weg.",
+            "prompt": "Die Frau auf dem Foto ist vielleicht sehr müde.",
+            "solution": "Es sieht so aus, als ob die Frau auf dem Foto sehr müde wäre.",
+            "hint": "Nebensatz mit 'als ob': konjugiertes Verb ans Ende.",
+            "explanation": "'Es sieht so aus, als ob …' + Konjunktiv II 'wäre' am Ende des Nebensatzes. Die Unsicherheit steckt jetzt in 'als ob'."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l30t01",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Hilfsverb (Präsens).",
+          "prompt": "Wir können direkt einchecken: Die Zimmer für die Buchmesse ___ schon seit Wochen reserviert.",
+          "options": [
+            "sind",
+            "werden",
+            "wurden",
+            "waren"
+          ],
+          "solution": "sind",
+          "explanation": "'seit Wochen' + Ergebnis → Zustandspassiv mit 'sein', Präsens Plural 'sind'. 'werden' wäre ein Vorgang, 'wurden/waren' Präteritum."
+        },
+        {
+          "id": "l30t02",
+          "type": "cloze-conjugation",
+          "instruction": "Ergänze das Hilfsverb (Vorgangspassiv, Präteritum).",
+          "prompt": "Das alte Stummfilmkino in unserer Straße ___ 1931 von einem Architekten aus Wien entworfen.",
+          "solution": "wurde",
+          "explanation": "Einmalige Handlung mit Agens ('von …') → Vorgangspassiv mit 'werden'; Präteritum Singular 'wurde'. 'war' wäre Zustandspassiv."
+        },
+        {
+          "id": "l30t03",
+          "type": "cloze-conjugation",
+          "instruction": "Ergänze das Hilfsverb (Zustandspassiv, Präteritum).",
+          "prompt": "Bei der Premiere ___ die Untertitel leider noch nicht übersetzt, deshalb verstand das Publikum nur die Hälfte.",
+          "solution": "waren",
+          "explanation": "Gemeint ist der Zustand bei der Premiere (Ergebnis fehlte) → 'sein' im Präteritum Plural = 'waren'. 'wurden' wäre der Vorgang."
+        },
+        {
+          "id": "l30t04",
+          "type": "targeted-transformation",
+          "instruction": "Beschreibe das Ergebnis im Zustandspassiv Präsens, ohne Handelnden. Beginne mit „Das Schaufenster“.",
+          "prompt": "Ein Glaser repariert das Schaufenster.",
+          "solution": "Das Schaufenster ist repariert.",
+          "explanation": "Zustandspassiv = 'sein' + Partizip II; es zeigt das Ergebnis, der Handelnde entfällt. 'wird repariert' wäre der Vorgang."
+        },
+        {
+          "id": "l30t05",
+          "type": "targeted-transformation",
+          "instruction": "Forme ins Vorgangspassiv Präteritum um. Beginne mit „Das Manuskript“ und nenne die Handelnde mit „von“.",
+          "prompt": "Eine Lektorin kürzte das Manuskript.",
+          "solution": "Das Manuskript wurde von einer Lektorin gekürzt.",
+          "explanation": "Vorgangspassiv Präteritum = 'wurde' + Partizip II am Satzende; das Subjekt des Aktivsatzes wird zu 'von' + Dativ."
+        },
+        {
+          "id": "l30t06",
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler. Ändere nur das Hilfsverb; der Satz bleibt im Präsens.",
+          "prompt": "Die Einladungen zur Buchpremiere werden längst verschickt, und einige Gäste haben schon zugesagt.",
+          "solution": "Die Einladungen zur Buchpremiere sind längst verschickt, und einige Gäste haben schon zugesagt.",
+          "explanation": "'längst' und die Zusagen zeigen ein fertiges Ergebnis → Zustandspassiv mit 'sein'. 'werden verschickt' wäre ein laufender Vorgang."
+        },
+        {
+          "id": "l30t07",
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler. Ändere nur ein Wort (das Hilfsverb).",
+          "prompt": "Gerade ist die Kulisse von drei Studierenden bemalt.",
+          "solution": "Gerade wird die Kulisse von drei Studierenden bemalt.",
+          "explanation": "'gerade' und 'von …' zeigen einen laufenden Vorgang → Vorgangspassiv mit 'werden'. 'ist bemalt' beschreibt nur das Ergebnis."
+        },
+        {
+          "id": "l30t08",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Adjektiv.",
+          "prompt": "Seit dem Sturz ist das Fahrrad meiner Schwester ___: Die Bremse fehlt und der Reifen ist platt.",
+          "options": [
+            "reparaturbedürftig",
+            "einsatzbereit",
+            "geschäftstüchtig",
+            "hilfsbereit"
+          ],
+          "solution": "reparaturbedürftig",
+          "explanation": "'-bedürftig' = braucht etwas: Das Rad braucht eine Reparatur. 'einsatzbereit' hieße, es sei sofort benutzbar."
+        },
+        {
+          "id": "l30t09",
+          "type": "fill-in-blank",
+          "instruction": "Bilde ein Adjektiv aus „Einsatz“ + „-bereit“ (ein Wort, Grundform).",
+          "prompt": "Die Freiwillige Feuerwehr unseres Dorfes ist rund um die Uhr ___.",
+          "solution": "einsatzbereit",
+          "explanation": "'Einsatz' + '-bereit' → 'einsatzbereit', ohne Fugen-s ('einsatzsbereit' ist falsch); prädikativ ohne Endung."
+        },
+        {
+          "id": "l30t10",
+          "type": "fill-in-blank",
+          "instruction": "Bilde ein Adjektiv aus „Funktion“ + „-fähig“ und ergänze die richtige Endung.",
+          "prompt": "Wir brauchen einen ___ Drucker, nicht dieses kaputte Gerät.",
+          "solution": "funktionsfähigen",
+          "explanation": "Nach 'Funktion' steht ein Fugen-s: 'funktionsfähig'. Akkusativ maskulin nach 'einen' → Endung '-en'."
+        },
+        {
+          "id": "l30t11",
+          "type": "error-correction",
+          "instruction": "Korrigiere den Rechtschreibfehler in einem Adjektiv.",
+          "prompt": "Der neue Kollege ist sehr hilfsbereit und teamsfähig.",
+          "solution": "Der neue Kollege ist sehr hilfsbereit und teamfähig.",
+          "explanation": "'Team' + '-fähig' bekommt kein Fugen-s → 'teamfähig'. 'hilfsbereit' dagegen hat eins."
+        },
+        {
+          "id": "l30t12",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Adjektiv.",
+          "prompt": "Unsere neue Kollegin übernimmt sofort eine Schicht, wenn jemand krank wird – sie ist sehr ___.",
+          "options": [
+            "hilfsbereit",
+            "hilfsbedürftig",
+            "reparaturbedürftig",
+            "geschäftstüchtig"
+          ],
+          "solution": "hilfsbereit",
+          "explanation": "'-bereit' = ist bereit, etwas zu tun: Sie hilft gern. 'hilfsbedürftig' hieße, sie brauche selbst Hilfe."
+        },
+        {
+          "id": "l30t13",
+          "type": "multiple-choice",
+          "instruction": "Wähle den passenden Ausdruck für die Bildbeschreibung.",
+          "prompt": "Vorne sitzt ein Angler am Ufer; ___, weit hinter ihm, ragt ein Leuchtturm auf.",
+          "options": [
+            "im Hintergrund",
+            "im Vordergrund",
+            "am unteren Rand",
+            "in der Bildmitte"
+          ],
+          "solution": "im Hintergrund",
+          "explanation": "Was hinten im Bild ist, steht 'im Hintergrund'. 'im Vordergrund' und 'am unteren Rand' meinen vorne/unten, die Bildmitte ist nicht 'weit hinten'."
+        },
+        {
+          "id": "l30t14",
+          "type": "multiple-choice",
+          "instruction": "Wähle die richtige Form (Konjunktiv II nach „als“).",
+          "prompt": "Die Frau in der Bildmitte lächelt, als ___ sie gerade ein Geheimnis erfahren.",
+          "options": [
+            "hätte",
+            "hat",
+            "hatte",
+            "wäre"
+          ],
+          "solution": "hätte",
+          "explanation": "'als' ohne 'ob' + Konjunktiv II mit Verb direkt nach 'als'; 'erfahren' bildet das Perfekt mit 'haben' → 'hätte'. Indikativ 'hat/hatte' ist hier falsch."
+        },
+        {
+          "id": "l30t15",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz für eine Bildbeschreibung. Beginne mit „Am oberen Bildrand“.",
+          "prompt": "Baue den Satz aus den Satzgliedern.",
+          "scrambleChunks": [
+            "einen Heißluftballon",
+            "kann",
+            "Am oberen Bildrand",
+            "erkennen",
+            "man"
+          ],
+          "solution": "Am oberen Bildrand kann man einen Heißluftballon erkennen.",
+          "explanation": "Nach der Ortsangabe im Vorfeld steht das Modalverb an Position 2, dann 'man'; der Infinitiv 'erkennen' steht am Ende."
+        },
+        {
+          "id": "l30t16",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz mit Zustandspassiv im Nebensatz. Beginne mit „Weil“.",
+          "prompt": "Baue den Satz aus den Satzgliedern.",
+          "scrambleChunks": [
+            "konnte",
+            "rechtzeitig genäht",
+            "die Generalprobe pünktlich beginnen",
+            "Weil die Kostüme",
+            "waren,"
+          ],
+          "solution": "Weil die Kostüme rechtzeitig genäht waren, konnte die Generalprobe pünktlich beginnen.",
+          "explanation": "Im weil-Satz steht 'waren' am Ende (Zustandspassiv: Ergebnis). Danach folgt im Hauptsatz sofort das Verb 'konnte'."
+        }
+      ]
+    }
+  ]
+}

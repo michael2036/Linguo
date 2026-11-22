@@ -42,7 +42,8 @@ ignore them as a source of sentences or scenarios.
    result reflects overall mastery rather than one difficulty band. Aim for
    a spread across at least four of the six exercise types.
 4. **10–20 items total.**
-5. **Every item still needs an `explanation`** (shown after submission, same
+5. **Every item still needs an `explanation`** (one or two sentences, at
+   most 200 characters) (shown after submission, same
    as practice) — `hint` is optional here and often omitted, since a
    diagnostic test leans toward assessing unprompted recall.
 6. **Respect the target level**, same as Agent 1 — don't test structures

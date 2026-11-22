@@ -70,9 +70,9 @@ export interface Verb {
 const MODALS = new Set(['können', 'müssen', 'dürfen', 'sollen', 'wollen', 'mögen']);
 
 // Reflexives whose pronoun is dative in their taught sense ("ich wünsche
-// mir", "ich stelle mir vor" = imagine, "ich merke mir"). Everything else
-// is accusative.
-const DATIVE_REFLEXIVE = new Set(['wünschen', 'vorstellen', 'merken']);
+// mir", "ich stelle mir vor" = imagine, "ich merke mir", "ich erhoffe mir").
+// Everything else is accusative.
+const DATIVE_REFLEXIVE = new Set(['wünschen', 'vorstellen', 'merken', 'erhoffen']);
 
 // Verbs that are only natural in the 3rd person ("das lohnt sich", "die
 // Konzerte finden statt") — "ich finde statt" is grammatical noise, so
@@ -88,6 +88,7 @@ const THIRD_PERSON_ONLY = new Set([
   'vergehen',
   'schwerfallen',
   'ausfallen',
+  'herausstellen',
 ]);
 
 const personsFor = (infinitive: string): Person[] => {
@@ -149,8 +150,10 @@ const STEM_CHANGE: Record<string, [string, string]> = {
   sprechen: ['sprichst', 'spricht'],
   stehlen: ['stiehlst', 'stiehlt'],
   sterben: ['stirbst', 'stirbt'],
+  stoßen: ['stößt', 'stößt'],
   tragen: ['trägst', 'trägt'],
   treffen: ['triffst', 'trifft'],
+  treten: ['trittst', 'tritt'],
   vergessen: ['vergisst', 'vergisst'],
   wachsen: ['wächst', 'wächst'],
   waschen: ['wäschst', 'wäscht'],

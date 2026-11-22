@@ -88,7 +88,9 @@ since it's usually a small rewrite) or flag it with a specific reason.
    rule explicitly (not just restate the answer) and, where relevant, say
    why the obvious wrong answer is wrong. "Richtig, weil 'heiße' korrekt
    ist" fails this check; "Bei regelmäßigen Verben endet die 'ich'-Form auf
-   -e: ich heiße" passes.
+   -e: ich heiße" passes. It must also stay short — **at most 200
+   characters**, one or two sentences. Cut chains of examples and
+   restatements of the solution rather than the rule itself.
 6. **Schema conformance.** Validate structurally against
    [`modul-schema.json`](../public/schemas/modul-schema.json):
    - `vocabulary` has 15–30 items; each has `id`, `term`, `translation`,

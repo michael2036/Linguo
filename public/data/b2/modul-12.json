@@ -1,0 +1,2527 @@
+{
+  "modulId": "b2-m12",
+  "level": "B2",
+  "modulNumber": 12,
+  "title": "Aufgepasst!",
+  "lektionen": [
+    {
+      "lektionId": "b2-m12-l34",
+      "level": "B2",
+      "modulNumber": 12,
+      "lektionNumber": 34,
+      "title": "Was ist hier passiert?",
+      "grammarFocus": [
+        "Vermutungen mit Modalverben: muss (sicher) – müsste/dürfte (sehr wahrscheinlich) – könnte (möglich) + Infinitiv (Gegenwart)",
+        "Vermutungen über Vergangenes: Modalverb + Partizip II + haben/sein (Sie dürfte es bemerkt haben. / Er könnte sich verlaufen haben.)",
+        "Vermutung mit werden (+ wohl): Futur I für Gegenwart, Futur II für Vergangenheit; Grad der Sicherheit: möglicherweise – anscheinend – höchstwahrscheinlich – bestimmt"
+      ],
+      "vocabulary": [
+        {
+          "id": "l34v01",
+          "term": "die Fälschung",
+          "translation": "la falsificación",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Fälschungen",
+          "example": "Erst ein Gutachter erkannte, dass die alte Urkunde eine Fälschung war."
+        },
+        {
+          "id": "l34v02",
+          "term": "der Diebstahl",
+          "translation": "el robo, el hurto",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Diebstähle",
+          "example": "Nach dem Diebstahl ihres Fahrrads hat Petra Anzeige erstattet."
+        },
+        {
+          "id": "l34v03",
+          "term": "die Sachbeschädigung",
+          "translation": "los daños materiales",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Sachbeschädigungen",
+          "example": "Wer absichtlich Parkbänke zerkratzt, begeht eine Sachbeschädigung."
+        },
+        {
+          "id": "l34v04",
+          "term": "die Fahrerflucht",
+          "translation": "la fuga del lugar del accidente",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Weil er nach dem Zusammenstoß einfach weiterfuhr, wird er wegen Fahrerflucht angezeigt."
+        },
+        {
+          "id": "l34v05",
+          "term": "die Erpressung",
+          "translation": "la extorsión",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Erpressungen",
+          "example": "Die Firma meldete die Erpressung sofort der Polizei, statt zu zahlen."
+        },
+        {
+          "id": "l34v06",
+          "term": "die Körperverletzung",
+          "translation": "las lesiones (corporales)",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Körperverletzungen",
+          "example": "Nach der Schlägerei vor der Disco wird gegen zwei Männer wegen Körperverletzung ermittelt."
+        },
+        {
+          "id": "l34v07",
+          "term": "der Verdächtige",
+          "translation": "el sospechoso",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Verdächtigen",
+          "example": "Der Verdächtige konnte für den Tatabend kein Alibi vorweisen."
+        },
+        {
+          "id": "l34v08",
+          "term": "der Zeuge",
+          "translation": "el testigo",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Zeugen",
+          "example": "Ein Zeuge hatte sich das Kennzeichen des Wagens gemerkt."
+        },
+        {
+          "id": "l34v09",
+          "term": "der Staatsanwalt",
+          "translation": "el fiscal",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Staatsanwälte",
+          "example": "Der Staatsanwalt forderte eine Haftstrafe von zwei Jahren."
+        },
+        {
+          "id": "l34v10",
+          "term": "die Richterin",
+          "translation": "la jueza",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Richterinnen",
+          "example": "Die Richterin hörte sich beide Seiten geduldig an, bevor sie das Urteil verkündete."
+        },
+        {
+          "id": "l34v11",
+          "term": "der Täter",
+          "translation": "el autor (de un delito)",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Täter",
+          "example": "Die Polizei geht davon aus, dass der Täter die Gegend gut kannte."
+        },
+        {
+          "id": "l34v12",
+          "term": "die Beute",
+          "translation": "el botín",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Die Beute der Bande bestand vor allem aus Schmuck und Uhren."
+        },
+        {
+          "id": "l34v13",
+          "term": "der Verstoß",
+          "translation": "la infracción",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Verstöße",
+          "example": "Rauchen im Zug ist ein Verstoß gegen die Hausordnung der Bahn."
+        },
+        {
+          "id": "l34v14",
+          "term": "die Spur",
+          "translation": "la huella, la pista",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Spuren",
+          "example": "Im frischen Schnee waren die Spuren noch deutlich zu sehen."
+        },
+        {
+          "id": "l34v15",
+          "term": "die Vermutung",
+          "translation": "la suposición, la sospecha",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Vermutungen",
+          "example": "Ihre Vermutung, dass der Schlüssel im Auto lag, war richtig."
+        },
+        {
+          "id": "l34v16",
+          "term": "verstoßen",
+          "translation": "infringir, violar (gegen + Akk.)",
+          "partOfSpeech": "verb",
+          "preterite": "verstieß",
+          "participle": "verstoßen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Wer nachts laute Musik macht, verstößt gegen die Ruhezeiten im Haus."
+        },
+        {
+          "id": "l34v17",
+          "term": "erleiden",
+          "translation": "sufrir (un daño, una pérdida)",
+          "partOfSpeech": "verb",
+          "preterite": "erlitt",
+          "participle": "erlitten",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Durch den Wasserrohrbruch hat das Café einen großen Schaden erlitten."
+        },
+        {
+          "id": "l34v18",
+          "term": "ermitteln",
+          "translation": "investigar",
+          "partOfSpeech": "verb",
+          "preterite": "ermittelte",
+          "participle": "ermittelt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Die Kriminalpolizei ermittelt seit Wochen gegen einen Online-Händler."
+        },
+        {
+          "id": "l34v19",
+          "term": "erwischen",
+          "translation": "pillar, atrapar",
+          "partOfSpeech": "verb",
+          "preterite": "erwischte",
+          "participle": "erwischt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Der Kontrolleur hat gleich drei Schwarzfahrer auf einmal erwischt."
+        },
+        {
+          "id": "l34v20",
+          "term": "festnehmen",
+          "translation": "detener, arrestar",
+          "partOfSpeech": "verb",
+          "preterite": "nahm fest",
+          "participle": "festgenommen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Die Beamten nahmen den Mann direkt am Flughafen fest."
+        },
+        {
+          "id": "l34v21",
+          "term": "entwenden",
+          "translation": "sustraer, robar",
+          "partOfSpeech": "verb",
+          "preterite": "entwendete",
+          "participle": "entwendet",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Aus dem Lager wurden mehrere Kisten Werkzeug entwendet."
+        },
+        {
+          "id": "l34v22",
+          "term": "möglicherweise",
+          "translation": "posiblemente",
+          "partOfSpeech": "adverb",
+          "example": "Möglicherweise verschiebt sich die Verhandlung auf nächste Woche."
+        },
+        {
+          "id": "l34v23",
+          "term": "anscheinend",
+          "translation": "al parecer, aparentemente",
+          "partOfSpeech": "adverb",
+          "example": "Anscheinend hat niemand den Knall in der Nacht gehört."
+        },
+        {
+          "id": "l34v24",
+          "term": "höchstwahrscheinlich",
+          "translation": "muy probablemente",
+          "partOfSpeech": "adverb",
+          "example": "Höchstwahrscheinlich bekommt sie das gestohlene Geld nie zurück."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l34e01",
+            "type": "multiple-choice",
+            "instruction": "Wähle das Modalverb, das zum Grad der Sicherheit passt.",
+            "prompt": "Ich bin mir sicher: Herr Kaya ___ verreist sein, sein Briefkasten quillt schon über.",
+            "options": [
+              "muss",
+              "könnte",
+              "dürfte",
+              "soll"
+            ],
+            "solution": "muss",
+            "hint": "Welches Modalverb drückt 100 % Sicherheit aus?",
+            "explanation": "'muss' (Indikativ) = sicher. 'dürfte' heißt nur 'sehr wahrscheinlich', 'könnte' nur 'möglich'; 'soll' gibt fremde Aussagen wieder."
+          },
+          {
+            "id": "l34e02",
+            "type": "multiple-choice",
+            "instruction": "Wähle das Modalverb, das zum Grad der Sicherheit passt.",
+            "prompt": "Das ist nur eine Möglichkeit: Der Mann mit der grauen Mütze ___ der Taschendieb aus dem Bus sein.",
+            "options": [
+              "könnte",
+              "muss",
+              "müsste",
+              "will"
+            ],
+            "solution": "könnte",
+            "hint": "Gesucht ist die schwächste Vermutung.",
+            "explanation": "'könnte' drückt eine bloße Möglichkeit aus. 'muss' wäre sicher, 'müsste' sehr wahrscheinlich; 'will' gibt eine Behauptung des Subjekts wieder."
+          },
+          {
+            "id": "l34e03",
+            "type": "multiple-choice",
+            "instruction": "Welches Delikt ist das?",
+            "prompt": "Ein Autofahrer streift beim Ausparken ein anderes Auto und fährt einfach weg, ohne eine Nachricht zu hinterlassen.",
+            "options": [
+              "die Fahrerflucht",
+              "die Erpressung",
+              "die Fälschung",
+              "die Sachbeschädigung"
+            ],
+            "solution": "die Fahrerflucht",
+            "hint": "Der Fahrer entfernt sich vom Unfallort.",
+            "explanation": "Wer sich nach einem Unfall entfernt, ohne seine Daten zu hinterlassen, begeht Fahrerflucht. Absichtliche Beschädigung wäre Sachbeschädigung."
+          },
+          {
+            "id": "l34e04",
+            "type": "multiple-choice",
+            "instruction": "Welches Delikt ist das?",
+            "prompt": "Ein Hacker schreibt einer Zahnarztpraxis: „Zahlen Sie 5000 Euro, sonst veröffentliche ich Ihre Patientendaten.“",
+            "options": [
+              "die Erpressung",
+              "der Diebstahl",
+              "die Körperverletzung",
+              "die Fahrerflucht"
+            ],
+            "solution": "die Erpressung",
+            "hint": "Jemand droht, um Geld zu bekommen.",
+            "explanation": "Wer mit einer Drohung Geld verlangt, begeht eine Erpressung. Ein Diebstahl wäre es nur, wenn er sich etwas heimlich nehmen würde."
+          },
+          {
+            "id": "l34e05",
+            "type": "multiple-choice",
+            "instruction": "Welche Person ist gemeint?",
+            "prompt": "Diese Person erhebt im Strafprozess die Anklage und vertritt den Staat.",
+            "options": [
+              "der Staatsanwalt",
+              "der Zeuge",
+              "der Verdächtige",
+              "der Rechtsanwalt"
+            ],
+            "solution": "der Staatsanwalt",
+            "hint": "Die Person arbeitet für den Staat, nicht für den Angeklagten.",
+            "explanation": "Der Staatsanwalt klagt an. Der Rechtsanwalt verteidigt den Angeklagten, der Zeuge berichtet, was er gesehen hat."
+          },
+          {
+            "id": "l34e06",
+            "type": "multiple-choice",
+            "instruction": "Welches Adverb drückt die größte Sicherheit aus?",
+            "prompt": "Der Schlüssel liegt ___ noch im Büro.",
+            "options": [
+              "bestimmt",
+              "möglicherweise",
+              "anscheinend",
+              "vielleicht"
+            ],
+            "solution": "bestimmt",
+            "hint": "Denk an die Skala von 'unsicher' bis 'sicher'.",
+            "explanation": "'bestimmt' steht ganz oben auf der Skala (sicher). 'anscheinend' ist eher unsicher, 'vielleicht' und 'möglicherweise' sind unsicher."
+          },
+          {
+            "id": "l34e07",
+            "type": "multiple-choice",
+            "instruction": "Welches Adverb drückt die geringste Sicherheit aus?",
+            "prompt": "Die Ausstellung wird ___ verlängert.",
+            "options": [
+              "möglicherweise",
+              "höchstwahrscheinlich",
+              "sicherlich",
+              "bestimmt"
+            ],
+            "solution": "möglicherweise",
+            "hint": "Gesucht ist das unsicherste Adverb.",
+            "explanation": "'möglicherweise' = es ist nur möglich. 'höchstwahrscheinlich' ist eher sicher, 'sicherlich' und 'bestimmt' sind sicher."
+          },
+          {
+            "id": "l34e08",
+            "type": "multiple-choice",
+            "instruction": "Ergänze das Hilfsverb der Vermutung über die Vergangenheit.",
+            "prompt": "Die Haustür steht offen. Der Mitbewohner dürfte sie nicht abgeschlossen ___.",
+            "options": [
+              "haben",
+              "sein",
+              "werden",
+              "worden"
+            ],
+            "solution": "haben",
+            "hint": "Wie bildet 'abschließen' das Perfekt?",
+            "explanation": "Vermutung über Vergangenes: Modalverb + Partizip II + haben/sein. 'abschließen' bildet das Perfekt mit 'haben', also 'abgeschlossen haben'."
+          },
+          {
+            "id": "l34e09",
+            "type": "multiple-choice",
+            "instruction": "Ergänze das Hilfsverb der Vermutung über die Vergangenheit.",
+            "prompt": "Der Paketbote war schon da. Er dürfte kurz nach acht Uhr gekommen ___.",
+            "options": [
+              "sein",
+              "haben",
+              "werden",
+              "gewesen"
+            ],
+            "solution": "sein",
+            "hint": "Wie bildet 'kommen' das Perfekt?",
+            "explanation": "'kommen' ist ein Verb der Bewegung und bildet das Perfekt mit 'sein', also 'gekommen sein'. 'gekommen haben' ist falsch."
+          },
+          {
+            "id": "l34e10",
+            "type": "multiple-choice",
+            "instruction": "Was drückt der Satz mit 'werden' aus?",
+            "prompt": "„Wo ist eigentlich Jonas?“ – „Er wird wohl noch im Büro sein.“",
+            "options": [
+              "eine Vermutung über die Gegenwart",
+              "eine Vermutung über die Vergangenheit",
+              "eine Aussage über die Zukunft",
+              "eine Aufforderung"
+            ],
+            "solution": "eine Vermutung über die Gegenwart",
+            "hint": "Die Frage betrifft das Jetzt; 'wohl' zeigt Unsicherheit.",
+            "explanation": "'werden' + Infinitiv mit 'wohl' ist hier eine Vermutung über jetzt. Für Vergangenes bräuchte man Futur II ('wird … gewesen sein')."
+          },
+          {
+            "id": "l34e11",
+            "type": "cloze-conjugation",
+            "instruction": "Der Sprecher hält die Ankunft für sehr wahrscheinlich. Setze 'dürfen' in der passenden Form ein.",
+            "prompt": "Der Zug hatte nur wenig Verspätung. Er ___ (dürfen) gleich ankommen.",
+            "solution": "dürfte",
+            "hint": "Konjunktiv II, 3. Person Singular, mit Umlaut.",
+            "explanation": "'dürfte' (Konjunktiv II) + Infinitiv = sehr wahrscheinlich. 'darf' (Indikativ) wäre eine Erlaubnis, 'durfte' Vergangenheit."
+          },
+          {
+            "id": "l34e12",
+            "type": "fill-in-blank",
+            "instruction": "Der Sprecher ist sich sicher, dass es nicht so war. Ergänze das Modalverb im Präsens.",
+            "prompt": "Sie ___ das Fahrrad nicht gestohlen haben, sie war doch den ganzen Abend bei uns.",
+            "solution": "kann",
+            "hint": "Wie sagt man 'es ist unmöglich'?",
+            "explanation": "'kann nicht' + Infinitiv Perfekt = sicher nicht. 'muss nicht' heißt nur 'nicht unbedingt' und ist keine sichere Verneinung."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l34m01",
+            "type": "sentence-scramble",
+            "instruction": "Bilde eine Vermutung über die Vergangenheit. Beginne mit 'Die Täterin'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "haben",
+              "einen Schlüssel",
+              "Die Täterin",
+              "gehabt",
+              "muss"
+            ],
+            "solution": "Die Täterin muss einen Schlüssel gehabt haben.",
+            "hint": "Modalverb auf Position 2, am Ende Partizip II + Hilfsverb.",
+            "explanation": "Vermutung über Vergangenes: 'muss' steht auf Position 2, 'gehabt haben' am Satzende; das Hilfsverb 'haben' kommt ganz zum Schluss."
+          },
+          {
+            "id": "l34m02",
+            "type": "sentence-scramble",
+            "instruction": "Bilde eine Vermutung über die Vergangenheit. Beginne mit 'Der Einbrecher'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "gekommen",
+              "Der Einbrecher",
+              "sein",
+              "über den Balkon",
+              "könnte"
+            ],
+            "solution": "Der Einbrecher könnte über den Balkon gekommen sein.",
+            "hint": "Verben der Bewegung bilden das Perfekt mit 'sein'.",
+            "explanation": "'könnte' auf Position 2, am Ende 'gekommen sein': Partizip II vor dem Hilfsverb. 'kommen' verlangt 'sein', nicht 'haben'."
+          },
+          {
+            "id": "l34m03",
+            "type": "sentence-scramble",
+            "instruction": "Bilde eine Vermutung mit Futur II. Beginne mit 'Die Zeugin'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "notiert",
+              "Die Zeugin",
+              "haben",
+              "sich das Kennzeichen",
+              "wird"
+            ],
+            "solution": "Die Zeugin wird sich das Kennzeichen notiert haben.",
+            "hint": "Futur II = werden + Partizip II + haben/sein.",
+            "explanation": "Futur II drückt hier eine Vermutung über Vergangenes aus: 'wird' auf Position 2, 'notiert haben' am Ende, 'sich' früh im Mittelfeld."
+          },
+          {
+            "id": "l34m04",
+            "type": "sentence-scramble",
+            "instruction": "Bilde eine Vermutung über die Vergangenheit. Beginne mit 'Der Wanderer'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "verirrt",
+              "sich",
+              "Der Wanderer",
+              "haben",
+              "im Nebel",
+              "dürfte"
+            ],
+            "solution": "Der Wanderer dürfte sich im Nebel verirrt haben.",
+            "hint": "Das Reflexivpronomen steht direkt nach dem Modalverb.",
+            "explanation": "'sich' steht am Anfang des Mittelfelds, direkt nach 'dürfte'. Am Ende folgt 'verirrt haben'; reflexive Verben bilden das Perfekt mit 'haben'."
+          },
+          {
+            "id": "l34m05",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz mit dass-Satz. Beginne mit 'Der Gutachter schreibt,'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "dürfte",
+              "Der Gutachter schreibt,",
+              "das Stoppschild",
+              "haben",
+              "dass",
+              "übersehen",
+              "der Fahrer"
+            ],
+            "solution": "Der Gutachter schreibt, dass der Fahrer das Stoppschild übersehen haben dürfte.",
+            "hint": "Im Nebensatz steht das konjugierte Modalverb ganz am Ende.",
+            "explanation": "Im dass-Satz rückt das Modalverb 'dürfte' ans Ende, nach 'übersehen haben'. Reihenfolge: Partizip II – haben – Modalverb."
+          },
+          {
+            "id": "l34m06",
+            "type": "cloze-conjugation",
+            "instruction": "Setze 'dürfen' im Konjunktiv II ein (Vermutung).",
+            "prompt": "Die Diebe ___ (dürfen) längst über alle Berge sein.",
+            "solution": "dürften",
+            "hint": "Konjunktiv II, 3. Person Plural.",
+            "explanation": "'dürften' (Konjunktiv II, Plural) + Infinitiv = sehr wahrscheinlich. 'dürfen' (Indikativ) würde eine Erlaubnis ausdrücken."
+          },
+          {
+            "id": "l34m07",
+            "type": "cloze-conjugation",
+            "instruction": "Setze 'müssen' im Konjunktiv II ein (Vermutung).",
+            "prompt": "Ihr ___ (müssen) das Paket inzwischen bekommen haben.",
+            "solution": "müsstet",
+            "hint": "Konjunktiv II, 2. Person Plural, mit Umlaut.",
+            "explanation": "'müsstet' = Konjunktiv II von 'müssen' für 'ihr' und drückt 'sehr wahrscheinlich' aus. 'müsst' (Indikativ) wäre eine sichere Folgerung."
+          },
+          {
+            "id": "l34m08",
+            "type": "cloze-conjugation",
+            "instruction": "Setze 'werden' ein (Vermutung über die Gegenwart).",
+            "prompt": "Du ___ (werden) nach der langen Nachtschicht wohl ziemlich müde sein.",
+            "solution": "wirst",
+            "hint": "2. Person Singular Präsens von 'werden'.",
+            "explanation": "Vermutung über jetzt: 'werden' im Präsens + Infinitiv, oft mit 'wohl'. Die Form für 'du' ist 'wirst' (unregelmäßig, ohne d)."
+          },
+          {
+            "id": "l34m09",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze Partizip II + Hilfsverb (Vermutung über die Vergangenheit).",
+            "prompt": "Der Fahrer könnte die Radfahrerin im Dunkeln nicht ___ (sehen).",
+            "solution": "gesehen haben",
+            "hint": "Infinitiv Perfekt: Partizip II + haben/sein.",
+            "explanation": "Nach dem Modalverb steht der Infinitiv Perfekt: 'gesehen haben'. 'sehen' hat ein Akkusativobjekt und bildet das Perfekt mit 'haben'."
+          },
+          {
+            "id": "l34m10",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze Partizip II + Hilfsverb (Vermutung über die Vergangenheit).",
+            "prompt": "Die Ringe müssen schon vor Tagen aus der Vitrine ___ (verschwinden).",
+            "solution": "verschwunden sein",
+            "hint": "'verschwinden' ist eine Zustandsveränderung.",
+            "explanation": "'verschwinden' bildet das Perfekt mit 'sein', also 'verschwunden sein'. 'verschwunden haben' ist falsch."
+          },
+          {
+            "id": "l34m11",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze Partizip II + Hilfsverb (Futur II als Vermutung).",
+            "prompt": "Der Täter wird das Fluchtauto wohl vorher irgendwo ___ (stehlen).",
+            "solution": "gestohlen haben",
+            "hint": "Futur II: wird + Partizip II + haben/sein.",
+            "explanation": "Futur II mit 'wohl' = Vermutung über Vergangenes. 'stehlen' bildet das Perfekt mit 'haben'; das Partizip ist unregelmäßig: 'gestohlen'."
+          },
+          {
+            "id": "l34m12",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze Partizip II + Hilfsverb (Futur II als Vermutung).",
+            "prompt": "Die Kinder werden um diese Zeit wohl schon von der Schule ___ (zurückkommen).",
+            "solution": "zurückgekommen sein",
+            "hint": "Trennbares Verb der Bewegung.",
+            "explanation": "'zurückkommen' bildet das Perfekt mit 'sein'; bei trennbaren Verben steht 'ge' nach dem Präfix: 'zurückgekommen sein'."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l34h01",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze 'wird … wohl' durch 'dürfte'. Die übrigen Satzglieder bleiben.",
+            "prompt": "Der Kassierer wird den falschen Schein wohl nicht bemerkt haben.",
+            "solution": "Der Kassierer dürfte den falschen Schein nicht bemerkt haben.",
+            "hint": "Der Infinitiv Perfekt am Ende bleibt gleich.",
+            "explanation": "Futur II und 'dürfte' + Infinitiv Perfekt drücken beide eine Vermutung über Vergangenes aus; 'wohl' entfällt, weil 'dürfte' die Unsicherheit trägt."
+          },
+          {
+            "id": "l34h02",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze 'werden … wohl' durch 'müssten'. Die übrigen Satzglieder bleiben.",
+            "prompt": "Die Ermittler werden wohl schon eine Spur haben.",
+            "solution": "Die Ermittler müssten schon eine Spur haben.",
+            "hint": "Vermutung über die Gegenwart: Modalverb + Infinitiv.",
+            "explanation": "Futur I mit 'wohl' wird zu 'müssten' + Infinitiv (sehr wahrscheinlich). 'wohl' fällt weg; 'haben' bleibt als Infinitiv am Ende."
+          },
+          {
+            "id": "l34h03",
+            "type": "targeted-transformation",
+            "instruction": "Drücke die Vermutung mit 'dürfte' statt mit dem Adverb aus. Beginne mit 'Der Verdächtige'.",
+            "prompt": "Höchstwahrscheinlich hat der Verdächtige ein Alibi.",
+            "solution": "Der Verdächtige dürfte ein Alibi haben.",
+            "hint": "'höchstwahrscheinlich' entspricht 'dürfte'; das Vollverb geht ans Ende.",
+            "explanation": "'dürfte' ersetzt 'höchstwahrscheinlich' (sehr wahrscheinlich). Es steht auf Position 2, 'haben' wandert als Infinitiv ans Ende."
+          },
+          {
+            "id": "l34h04",
+            "type": "targeted-transformation",
+            "instruction": "Drücke die Vermutung mit 'muss' statt mit dem Adverb aus. Beginne mit 'Die Erpresserin'.",
+            "prompt": "Bestimmt ist die Erpresserin eine ehemalige Mitarbeiterin.",
+            "solution": "Die Erpresserin muss eine ehemalige Mitarbeiterin sein.",
+            "hint": "'bestimmt' = sicher; welches Modalverb passt?",
+            "explanation": "'muss' + Infinitiv drückt Sicherheit aus wie 'bestimmt'. 'ist' wird zum Infinitiv 'sein' am Satzende."
+          },
+          {
+            "id": "l34h05",
+            "type": "targeted-transformation",
+            "instruction": "Drücke die Vermutung mit 'könnte' statt mit dem Adverb aus. Beginne mit 'Der Hund'.",
+            "prompt": "Möglicherweise ist der Hund durch das Loch im Zaun entkommen.",
+            "solution": "Der Hund könnte durch das Loch im Zaun entkommen sein.",
+            "hint": "Perfekt mit 'sein' wird zum Infinitiv Perfekt mit 'sein'.",
+            "explanation": "Vergangenes: 'könnte' + Partizip II + 'sein'. Das Hilfsverb aus dem Perfekt ('ist') bleibt 'sein' und steht als Infinitiv am Ende."
+          },
+          {
+            "id": "l34h06",
+            "type": "targeted-transformation",
+            "instruction": "Formuliere die Vermutung im Futur II, ohne 'wohl'. Die übrigen Satzglieder bleiben.",
+            "prompt": "Der Fälscher dürfte die Unterschrift vom Original abgepaust haben.",
+            "solution": "Der Fälscher wird die Unterschrift vom Original abgepaust haben.",
+            "hint": "Futur II: werden + Partizip II + haben.",
+            "explanation": "Im Futur II ersetzt 'wird' das Modalverb 'dürfte'; 'abgepaust haben' bleibt am Ende. Futur I ('wird abpausen') wäre keine Aussage über Vergangenes."
+          },
+          {
+            "id": "l34h07",
+            "type": "targeted-transformation",
+            "instruction": "Drücke die Vermutung mit 'könnte' statt mit 'vielleicht' aus. Beginne mit 'Die Katze'.",
+            "prompt": "Vielleicht hat sich die Katze im Keller versteckt.",
+            "solution": "Die Katze könnte sich im Keller versteckt haben.",
+            "hint": "Das Reflexivpronomen bleibt direkt nach dem Modalverb.",
+            "explanation": "'könnte' + Partizip II + 'haben'. Das Reflexivpronomen 'sich' steht direkt nach 'könnte', 'versteckt haben' am Ende."
+          },
+          {
+            "id": "l34h08",
+            "type": "error-correction",
+            "instruction": "Korrigiere den Fehler. Ändere nur ein Wort.",
+            "prompt": "Der Taschendieb muss die Geldbörse schon weitergegeben sein.",
+            "solution": "Der Taschendieb muss die Geldbörse schon weitergegeben haben.",
+            "hint": "Mit welchem Hilfsverb bildet 'weitergeben' das Perfekt?",
+            "explanation": "'weitergeben' hat ein Akkusativobjekt und bildet das Perfekt mit 'haben'. Deshalb heißt der Infinitiv Perfekt 'weitergegeben haben'."
+          },
+          {
+            "id": "l34h09",
+            "type": "error-correction",
+            "instruction": "Korrigiere den Fehler. Ändere nur ein Wort.",
+            "prompt": "Die Fahrerin könnte nach dem Unfall einfach weitergefahren haben.",
+            "solution": "Die Fahrerin könnte nach dem Unfall einfach weitergefahren sein.",
+            "hint": "'weiterfahren' ist ein Verb der Bewegung.",
+            "explanation": "'weiterfahren' bildet das Perfekt mit 'sein' (sie ist weitergefahren), also 'weitergefahren sein'."
+          },
+          {
+            "id": "l34h10",
+            "type": "error-correction",
+            "instruction": "Der Sprecher ist sich sicher, dass der Bruder unschuldig ist. Ändere nur ein Wort.",
+            "prompt": "Mein Bruder muss das Auto nicht zerkratzt haben, er lag zu der Zeit im Krankenhaus.",
+            "solution": "Mein Bruder kann das Auto nicht zerkratzt haben, er lag zu der Zeit im Krankenhaus.",
+            "hint": "Wie drückt man 'ganz sicher nicht' aus?",
+            "explanation": "Sichere Verneinung: 'kann nicht' + Infinitiv Perfekt. 'muss nicht' bedeutet nur 'nicht unbedingt' und passt nicht zum Alibi."
+          },
+          {
+            "id": "l34h11",
+            "type": "error-correction",
+            "instruction": "Korrigiere die Wortstellung.",
+            "prompt": "Der Lehrling könnte in der Hausnummer geirrt sich haben.",
+            "solution": "Der Lehrling könnte sich in der Hausnummer geirrt haben.",
+            "hint": "Wo steht das Reflexivpronomen?",
+            "explanation": "Das Reflexivpronomen steht am Anfang des Mittelfelds, direkt nach 'könnte'. Partizip II und 'haben' bilden zusammen das Satzende."
+          },
+          {
+            "id": "l34h12",
+            "type": "error-correction",
+            "instruction": "Die Vermutung betrifft die Vergangenheit. Korrigiere die Verbform am Satzende; 'Gestern Abend' bleibt am Anfang.",
+            "prompt": "Gestern Abend wird der Hausmeister wohl die Tür nicht abschließen.",
+            "solution": "Gestern Abend wird der Hausmeister wohl die Tür nicht abgeschlossen haben.",
+            "hint": "Für Vergangenes braucht man Futur II.",
+            "explanation": "Eine Vermutung über Vergangenes verlangt Futur II: 'wird' + Partizip II + 'haben'. Futur I ('wird abschließen') passt nicht zu 'gestern'."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l34t01",
+          "type": "multiple-choice",
+          "instruction": "Im Büro brennt um 22 Uhr noch Licht. Du hältst es für sehr wahrscheinlich (nicht sicher), dass dort noch jemand arbeitet. Welcher Satz passt?",
+          "prompt": "Im dritten Stock ist noch Licht an.",
+          "options": [
+            "Da muss noch jemand arbeiten.",
+            "Da dürfte noch jemand arbeiten.",
+            "Da könnte noch jemand arbeiten.",
+            "Da arbeitet bestimmt noch jemand."
+          ],
+          "solution": "Da dürfte noch jemand arbeiten.",
+          "explanation": "'dürfte' = sehr wahrscheinlich. 'muss' und 'bestimmt' drücken Sicherheit aus, 'könnte' nur eine Möglichkeit."
+        },
+        {
+          "id": "l34t02",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze das Modalverb im Indikativ, das Sicherheit ausdrückt.",
+          "prompt": "Auf dem Parkplatz sind tiefe Reifenspuren im Matsch. Hier ___ vor Kurzem ein schweres Fahrzeug gestanden haben.",
+          "solution": "muss",
+          "explanation": "Sichere Schlussfolgerung → 'muss'. 'kann' oder 'könnte' drücken nur eine Möglichkeit aus."
+        },
+        {
+          "id": "l34t03",
+          "type": "cloze-conjugation",
+          "instruction": "Setze 'dürfen' im Konjunktiv II ein.",
+          "prompt": "Die Bäckerei an der Ecke hat seit Montag zu. Die Besitzer ___ (dürfen) im Urlaub sein.",
+          "solution": "dürften",
+          "explanation": "Konjunktiv II von dürfen, 3. Person Plural: 'dürften' (mit Umlaut). 'durften' ist Präteritum und keine Vermutung."
+        },
+        {
+          "id": "l34t04",
+          "type": "multiple-choice",
+          "instruction": "Welcher Satz ist eine korrekte Vermutung über die Vergangenheit?",
+          "prompt": "Die Pflanzen auf Lenas Balkon sind alle vertrocknet.",
+          "options": [
+            "Lena könnte das Gießen vergessen haben.",
+            "Lena könnte das Gießen vergessen sein.",
+            "Lena könnte das Gießen haben vergessen.",
+            "Lena könnte das Gießen vergessen gehabt."
+          ],
+          "solution": "Lena könnte das Gießen vergessen haben.",
+          "explanation": "Modalverb + Partizip II + Infinitiv 'haben' am Ende. 'vergessen' bildet das Perfekt mit haben, nicht mit sein."
+        },
+        {
+          "id": "l34t05",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze 'haben' oder 'sein'.",
+          "prompt": "Herr Ortmann ist seit dem Wochenende nicht zu Hause. Er könnte zu seiner Schwester nach Kiel gefahren ___.",
+          "solution": "sein",
+          "explanation": "'fahren' (Ortswechsel) bildet das Perfekt mit sein, daher 'gefahren sein'."
+        },
+        {
+          "id": "l34t06",
+          "type": "targeted-transformation",
+          "instruction": "Drücke die Vermutung mit 'werden' + 'wohl' aus (Futur I). Beginne mit „Sie“; 'wohl' steht direkt nach dem konjugierten Verb. 'Wahrscheinlich' fällt weg.",
+          "prompt": "Wahrscheinlich ist sie gerade beim Zahnarzt.",
+          "solution": "Sie wird wohl gerade beim Zahnarzt sein.",
+          "explanation": "Vermutung über die Gegenwart: werden + wohl + Infinitiv am Ende. 'Sie ist wohl …' wäre keine werden-Vermutung."
+        },
+        {
+          "id": "l34t07",
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler. Ändere nur ein Wort.",
+          "prompt": "Der Junge muss nachts über den Zaun des Freibads geklettert haben.",
+          "solution": "Der Junge muss nachts über den Zaun des Freibads geklettert sein.",
+          "explanation": "In der Vermutung bleibt das Perfekt-Hilfsverb des Verbs: 'klettern' (Bewegung zu einem Ort) → 'geklettert sein', nicht 'haben'."
+        },
+        {
+          "id": "l34t08",
+          "type": "multiple-choice",
+          "instruction": "In welchem Satz drückt 'werden' eine Vermutung über die Gegenwart aus?",
+          "prompt": "Wähle den passenden Satz.",
+          "options": [
+            "Es klingelt – das wird wohl der Paketdienst sein.",
+            "Morgen werde ich die Anzeige bei der Polizei erstatten.",
+            "Nächste Woche wird der Prozess gegen die Firma beginnen.",
+            "Sie wird den Schlüssel im Zug verloren haben."
+          ],
+          "solution": "Es klingelt – das wird wohl der Paketdienst sein.",
+          "explanation": "Futur I + 'wohl' im Jetzt = Vermutung. 'Morgen'/'Nächste Woche' machen es zur Zukunft; Futur II vermutet etwas Vergangenes."
+        },
+        {
+          "id": "l34t09",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze 'haben' oder 'sein'.",
+          "prompt": "Tim ist immer noch nicht am Treffpunkt. Er dürfte sich auf dem Weg hierher verfahren ___.",
+          "solution": "haben",
+          "explanation": "Reflexive Verben bilden das Perfekt mit haben: 'sich verfahren haben' – auch wenn 'fahren' allein mit sein steht."
+        },
+        {
+          "id": "l34t10",
+          "type": "targeted-transformation",
+          "instruction": "Formuliere eine Vermutung mit 'dürfte' (sehr wahrscheinlich). Beginne mit „Jemand“; 'wahrscheinlich' fällt weg, die übrigen Satzglieder bleiben in ihrer Reihenfolge.",
+          "prompt": "Wahrscheinlich hat jemand das Plakat am Bauzaun abgerissen.",
+          "solution": "Jemand dürfte das Plakat am Bauzaun abgerissen haben.",
+          "explanation": "Vergangenes vermuten: dürfte + Partizip II + 'haben' am Satzende. 'abreißen' bildet das Perfekt mit haben."
+        },
+        {
+          "id": "l34t11",
+          "type": "sentence-scramble",
+          "instruction": "Bilde eine Vermutung im Futur II. Beginne mit „Mein Bruder“.",
+          "prompt": "Baue den Satz aus den Satzgliedern.",
+          "scrambleChunks": [
+            "haben",
+            "wird",
+            "Mein Bruder",
+            "verpasst",
+            "wohl den letzten Bus"
+          ],
+          "solution": "Mein Bruder wird wohl den letzten Bus verpasst haben.",
+          "explanation": "Futur II: werden an Position 2, Partizip II + 'haben' am Ende. So vermutet man etwas, das schon passiert ist."
+        },
+        {
+          "id": "l34t12",
+          "type": "multiple-choice",
+          "instruction": "Welches Adverb macht aus dem zweiten Satz dieselbe Vermutung wie im ersten?",
+          "prompt": "Der Zeuge könnte sich geirrt haben. = Der Zeuge hat sich ___ geirrt.",
+          "options": [
+            "möglicherweise",
+            "bestimmt",
+            "höchstwahrscheinlich",
+            "sicher"
+          ],
+          "solution": "möglicherweise",
+          "explanation": "'könnte' = Möglichkeit → 'möglicherweise'. 'höchstwahrscheinlich' entspricht 'dürfte/müsste', 'bestimmt/sicher' entsprechen 'muss'."
+        },
+        {
+          "id": "l34t13",
+          "type": "error-correction",
+          "instruction": "Korrigiere die Wortstellung. Beginne mit „Der Hund der Nachbarn“; die übrigen Satzglieder bleiben in ihrer Reihenfolge.",
+          "prompt": "Der Hund der Nachbarn könnte haben den Kuchen von der Terrasse gefressen.",
+          "solution": "Der Hund der Nachbarn könnte den Kuchen von der Terrasse gefressen haben.",
+          "explanation": "Nur das Modalverb steht an Position 2; Partizip II und 'haben' bilden die Satzklammer am Ende."
+        },
+        {
+          "id": "l34t14",
+          "type": "cloze-conjugation",
+          "instruction": "Setze 'werden' im Präsens ein. Der Satz ist eine Vermutung.",
+          "prompt": "Ihr ___ nach dem Umzug wohl noch nicht alle Kisten ausgepackt haben.",
+          "solution": "werdet",
+          "explanation": "ihr → 'werdet'. werden + wohl + Partizip II + haben (Futur II) drückt hier eine Vermutung über Vergangenes aus."
+        },
+        {
+          "id": "l34t15",
+          "type": "sentence-scramble",
+          "instruction": "Bilde eine sichere negative Vermutung über die Vergangenheit. Beginne mit „Der Mann auf dem Video“.",
+          "prompt": "Baue den Satz aus den Satzgliedern.",
+          "scrambleChunks": [
+            "sein",
+            "kann",
+            "gewesen",
+            "Der Mann auf dem Video",
+            "nicht Herr Baumann"
+          ],
+          "solution": "Der Mann auf dem Video kann nicht Herr Baumann gewesen sein.",
+          "explanation": "'kann nicht … gewesen sein' = sicher nicht. 'muss nicht' hieße 'ist nicht nötig' und ist keine Verneinung der Vermutung."
+        },
+        {
+          "id": "l34t16",
+          "type": "targeted-transformation",
+          "instruction": "Drücke die Vermutung im Futur II aus, ohne 'wohl'. Beginne mit „Die Postbotin“; 'wahrscheinlich' fällt weg.",
+          "prompt": "Wahrscheinlich hat die Postbotin die Benachrichtigung in den falschen Briefkasten geworfen.",
+          "solution": "Die Postbotin wird die Benachrichtigung in den falschen Briefkasten geworfen haben.",
+          "explanation": "Futur II: wird + Partizip II + haben. 'hat … geworfen' wäre eine Tatsache, keine Vermutung."
+        }
+      ]
+    },
+    {
+      "lektionId": "b2-m12-l35",
+      "level": "B2",
+      "modulNumber": 12,
+      "lektionNumber": 35,
+      "title": "Strafe oder zweite Chance?",
+      "grammarFocus": [
+        "Nomen aus Verben ohne Suffix (Verbstamm-Nomen): raten → der Rat, verbieten → das Verbot, wählen → die Wahl",
+        "Verbstamm-Nomen mit Vokalwechsel und ihr Genus (meist maskulin): anfangen → der Anfang, schließen → der Schluss, beißen → der Biss, genießen → der Genuss, streiten → der Streit, betrügen → der Betrug; aber: die Furcht, das Verbot",
+        "Redemittel in der Diskussion: sich auf eine Aussage beziehen, Meinung äußern (Ich halte … für sinnvoll), Gegenposition einnehmen, Vorschlag machen (Eine mögliche Hilfe wäre …)"
+      ],
+      "vocabulary": [
+        {
+          "id": "l35v01",
+          "term": "straffällig",
+          "translation": "delincuente, que ha cometido un delito",
+          "partOfSpeech": "adjective",
+          "example": "Wer schon als Jugendlicher straffällig wird, braucht oft mehr als nur eine Strafe."
+        },
+        {
+          "id": "l35v02",
+          "term": "reuig",
+          "translation": "arrepentido",
+          "partOfSpeech": "adjective",
+          "example": "Vor Gericht wirkte der Angeklagte ehrlich reuig und entschuldigte sich bei der Familie."
+        },
+        {
+          "id": "l35v03",
+          "term": "der Inhaftierte",
+          "translation": "el recluso, el detenido",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Inhaftierten",
+          "example": "Viele Inhaftierte nutzen die Zeit im Gefängnis für eine Ausbildung."
+        },
+        {
+          "id": "l35v04",
+          "term": "die Prävention",
+          "translation": "la prevención",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Präventionen",
+          "example": "Die Stadt investiert mehr Geld in Prävention als in zusätzliche Polizeistreifen."
+        },
+        {
+          "id": "l35v05",
+          "term": "die Resozialisierung",
+          "translation": "la reinserción social",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Eine feste Arbeitsstelle ist für die Resozialisierung oft entscheidend."
+        },
+        {
+          "id": "l35v06",
+          "term": "die Haftstrafe",
+          "translation": "la pena de prisión",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Haftstrafen",
+          "example": "Das Gericht verhängte eine Haftstrafe von zwei Jahren."
+        },
+        {
+          "id": "l35v07",
+          "term": "die Bewährung",
+          "translation": "la libertad condicional, la suspensión de la pena",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Weil sie zum ersten Mal vor Gericht stand, bekam sie eine Strafe auf Bewährung."
+        },
+        {
+          "id": "l35v08",
+          "term": "die Wiedergutmachung",
+          "translation": "la reparación",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Wiedergutmachungen",
+          "example": "Als Wiedergutmachung strich der Jugendliche den beschmierten Zaun neu."
+        },
+        {
+          "id": "l35v09",
+          "term": "sensibilisieren",
+          "translation": "sensibilizar, concienciar",
+          "partOfSpeech": "verb",
+          "preterite": "sensibilisierte",
+          "participle": "sensibilisiert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Die Kampagne soll Autofahrer für die Gefahren von Alkohol am Steuer sensibilisieren."
+        },
+        {
+          "id": "l35v10",
+          "term": "ausbrechen",
+          "translation": "fugarse, escaparse",
+          "partOfSpeech": "verb",
+          "preterite": "brach aus",
+          "participle": "ausgebrochen",
+          "auxiliary": "sein",
+          "irregular": true,
+          "example": "Zwei Häftlinge sind in der Nacht aus der Haftanstalt ausgebrochen."
+        },
+        {
+          "id": "l35v11",
+          "term": "abschrecken",
+          "translation": "disuadir",
+          "partOfSpeech": "verb",
+          "preterite": "schreckte ab",
+          "participle": "abgeschreckt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Hohe Bußgelder sollen Raser abschrecken."
+        },
+        {
+          "id": "l35v12",
+          "term": "das Verhaltensmuster",
+          "translation": "el patrón de conducta",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Verhaltensmuster",
+          "example": "Alte Verhaltensmuster lassen sich nur mit viel Geduld ändern."
+        },
+        {
+          "id": "l35v13",
+          "term": "der Ausbruch",
+          "translation": "la fuga, la evasión",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Ausbrüche",
+          "example": "Nach seinem Ausbruch aus der Jugendanstalt stellte sich der Junge zwei Tage später selbst."
+        },
+        {
+          "id": "l35v14",
+          "term": "konfrontieren",
+          "translation": "confrontar",
+          "partOfSpeech": "verb",
+          "preterite": "konfrontierte",
+          "participle": "konfrontiert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Die Lehrerin konfrontierte die Schüler mit den Folgen ihres Verhaltens."
+        },
+        {
+          "id": "l35v15",
+          "term": "der Rückfall",
+          "translation": "la reincidencia, la recaída",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Rückfälle",
+          "example": "Nach einem Rückfall muss er mit einer härteren Strafe rechnen."
+        },
+        {
+          "id": "l35v16",
+          "term": "der Beschluss",
+          "translation": "la decisión, la resolución",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Beschlüsse",
+          "example": "Der Beschluss des Gemeinderats, das Jugendzentrum länger zu öffnen, kam bei den Eltern gut an."
+        },
+        {
+          "id": "l35v17",
+          "term": "der Ersatz",
+          "translation": "el sustituto, la reposición",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "example": "Für den erkrankten Schiedsrichter wurde schnell ein Ersatz gefunden."
+        },
+        {
+          "id": "l35v18",
+          "term": "das Versteck",
+          "translation": "el escondite",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Verstecke",
+          "example": "Die Kinder hatten ihr Versteck hinter dem Gartenhaus."
+        },
+        {
+          "id": "l35v19",
+          "term": "die Tat",
+          "translation": "el acto, el hecho delictivo",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Taten",
+          "example": "Der Täter gestand die Tat erst nach dem dritten Verhör."
+        },
+        {
+          "id": "l35v20",
+          "term": "die Sozialstunde",
+          "translation": "la hora de servicio comunitario",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Sozialstunden",
+          "example": "Statt einer Geldstrafe musste er 80 Sozialstunden im Tierheim leisten."
+        },
+        {
+          "id": "l35v21",
+          "term": "bewirken",
+          "translation": "provocar, conseguir",
+          "partOfSpeech": "verb",
+          "preterite": "bewirkte",
+          "participle": "bewirkt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Ein einziges Gespräch kann manchmal mehr bewirken als eine Strafe."
+        },
+        {
+          "id": "l35v22",
+          "term": "die Einsicht",
+          "translation": "la comprensión, el reconocimiento (de un error)",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Einsichten",
+          "example": "Ohne Einsicht in das eigene Fehlverhalten ändert sich wenig."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l35e01",
+            "type": "multiple-choice",
+            "instruction": "Wähle das Nomen, das ohne Endung aus dem Verbstamm von 'verbieten' gebildet ist.",
+            "prompt": "verbieten → ?",
+            "options": [
+              "das Verbot",
+              "die Verbietung",
+              "der Verbieter",
+              "die Verbotung"
+            ],
+            "solution": "das Verbot",
+            "hint": "Denk an das Partizip II: verboten.",
+            "explanation": "Das Stamm-Nomen hat den Vokal des Partizips (verboten) und keine Endung; es ist neutral. 'der Verbieter' ist eine Person, '-ung' gibt es hier nicht."
+          },
+          {
+            "id": "l35e02",
+            "type": "multiple-choice",
+            "instruction": "Wähle den passenden Artikel.",
+            "prompt": "___ Wahl der neuen Schulsprecherin findet am Freitag statt.",
+            "options": [
+              "Die",
+              "Der",
+              "Das"
+            ],
+            "solution": "Die",
+            "hint": "'Wahl' gehört zu den wenigen femininen Verbstamm-Nomen.",
+            "explanation": "'wählen → die Wahl' ist feminin. Die meisten Nomen aus dem Verbstamm sind maskulin, 'die Wahl' ist eine Ausnahme, die man lernen muss."
+          },
+          {
+            "id": "l35e03",
+            "type": "multiple-choice",
+            "instruction": "Wähle die richtige Regel.",
+            "prompt": "Nomen, die ohne Endung aus einem Verbstamm gebildet werden (z. B. der Fall, der Lauf), sind meistens …",
+            "options": [
+              "maskulin",
+              "feminin",
+              "neutral"
+            ],
+            "solution": "maskulin",
+            "hint": "Denk an der Anfang, der Schluss, der Streit.",
+            "explanation": "Die meisten Verbstamm-Nomen sind maskulin (der Anfang, der Schluss). Ausnahmen wie 'die Furcht' oder 'das Verbot' muss man lernen."
+          },
+          {
+            "id": "l35e04",
+            "type": "multiple-choice",
+            "instruction": "Wähle das Nomen, das NICHT maskulin ist.",
+            "prompt": "Welches Verbstamm-Nomen hat einen anderen Artikel als die übrigen?",
+            "options": [
+              "Furcht",
+              "Biss",
+              "Schlaf",
+              "Genuss"
+            ],
+            "solution": "Furcht",
+            "hint": "Drei dieser Nomen folgen der Grundregel.",
+            "explanation": "'fürchten → die Furcht' ist feminin. 'der Biss', 'der Schlaf' und 'der Genuss' folgen der Regel: Verbstamm-Nomen sind meist maskulin."
+          },
+          {
+            "id": "l35e05",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Nomen.",
+            "prompt": "Nach der Nachtwanderung fielen alle Kinder sofort in einen tiefen ___.",
+            "options": [
+              "Schlaf",
+              "Schlafung",
+              "Schläfer",
+              "Schlief"
+            ],
+            "solution": "Schlaf",
+            "hint": "Gesucht ist das Nomen aus dem reinen Verbstamm von 'schlafen'.",
+            "explanation": "'schlafen → der Schlaf': Verbstamm ohne Endung, maskulin ('einen tiefen'). '-ung' gibt es hier nicht, 'Schläfer' ist eine Person."
+          },
+          {
+            "id": "l35e06",
+            "type": "fill-in-blank",
+            "instruction": "Bilde das Nomen aus dem Verbstamm (ohne Endung). Schreibe nur das Nomen.",
+            "prompt": "schließen → der ___",
+            "solution": "Schluss",
+            "hint": "Der Stammvokal wechselt wie im Partizip (geschlossen).",
+            "explanation": "'schließen → der Schluss': Vokalwechsel ie → u, nach kurzem Vokal ss. 'die Schließung' hat eine Endung und meint etwas anderes."
+          },
+          {
+            "id": "l35e07",
+            "type": "fill-in-blank",
+            "instruction": "Bilde das Nomen aus dem Verbstamm (ohne Endung). Schreibe nur das Nomen.",
+            "prompt": "genießen → der ___",
+            "solution": "Genuss",
+            "hint": "Vokalwechsel wie bei 'schließen → der Schluss'.",
+            "explanation": "'genießen → der Genuss': ie wird zu u, nach kurzem Vokal steht ss. Wie fast alle Verbstamm-Nomen ist es maskulin."
+          },
+          {
+            "id": "l35e08",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Präposition.",
+            "prompt": "Gute Vorbilder haben oft mehr Einfluss ___ Jugendliche als strenge Regeln.",
+            "options": [
+              "auf",
+              "an",
+              "von",
+              "zu"
+            ],
+            "solution": "auf",
+            "hint": "Feste Verbindung: Einfluss haben + Präposition + Akkusativ.",
+            "explanation": "Es heißt 'Einfluss haben auf + Akkusativ'. 'an', 'von' oder 'zu' passen nicht zu 'Einfluss'."
+          },
+          {
+            "id": "l35e09",
+            "type": "multiple-choice",
+            "instruction": "Wähle das Nomen aus dem Verbstamm (ohne Endung).",
+            "prompt": "Nach dem ___ zwischen den beiden Mitschülern mussten beide zur Schulleiterin.",
+            "options": [
+              "Streit",
+              "Streiterei",
+              "Streitung",
+              "Stritt"
+            ],
+            "solution": "Streit",
+            "hint": "Gesucht ist der reine Verbstamm von 'streiten'.",
+            "explanation": "'streiten → der Streit': Verbstamm ohne Endung, maskulin ('dem'). 'Streiterei' hat ein Suffix und ist feminin, 'Streitung'/'Stritt' gibt es nicht."
+          },
+          {
+            "id": "l35e10",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Verb für die Meinungsäußerung.",
+            "prompt": "Ich ___ ein Gespräch zwischen Täter und Opfer für sehr sinnvoll.",
+            "options": [
+              "halte",
+              "finde",
+              "denke",
+              "meine"
+            ],
+            "solution": "halte",
+            "hint": "Welches Verb verlangt 'für' + Adjektiv?",
+            "explanation": "Nur 'halten' verbindet sich mit 'für': etwas für sinnvoll halten. 'finden' steht ohne 'für' (Ich finde das sinnvoll)."
+          },
+          {
+            "id": "l35e11",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Pronomen.",
+            "prompt": "Ich beziehe ___ auf das, was Herr Wagner eben über Jugendgerichte gesagt hat.",
+            "options": [
+              "mich",
+              "mir",
+              "sich",
+              "mein"
+            ],
+            "solution": "mich",
+            "hint": "'sich beziehen auf' ist reflexiv; das Pronomen steht im Akkusativ.",
+            "explanation": "'sich beziehen auf + Akk.': zu 'ich' gehört das Akkusativpronomen 'mich'. 'mir' wäre Dativ, 'sich' passt nur zur 3. Person."
+          },
+          {
+            "id": "l35e12",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Form, um einen Vorschlag zu machen.",
+            "prompt": "Eine mögliche Hilfe ___ ein Mentor, der den Jugendlichen im Alltag begleitet.",
+            "options": [
+              "wäre",
+              "würde",
+              "hätte",
+              "wird"
+            ],
+            "solution": "wäre",
+            "hint": "Vorschläge macht man höflich mit Konjunktiv II von 'sein'.",
+            "explanation": "Vorschlag mit Konjunktiv II von 'sein': 'Eine mögliche Hilfe wäre …'. 'würde'/'wird' bräuchten ein zweites Verb, 'hätte' ergibt hier keinen Sinn."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l35m01",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Nomen aus dem Verbstamm (ohne Endung).",
+            "prompt": "Der ___ des Projekts war holprig, aber inzwischen läuft alles gut. (anfangen)",
+            "solution": "Anfang",
+            "hint": "Trenne das Präfix nicht ab, lass nur die Infinitivendung weg.",
+            "explanation": "'anfangen → der Anfang': Verbstamm ohne Endung, maskulin. 'Beginn' gehört zu 'beginnen', 'Anfangen' hat die Infinitivendung."
+          },
+          {
+            "id": "l35m02",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Nomen aus dem Verbstamm (ohne Endung).",
+            "prompt": "Als ___ für den zerkratzten Roller bekam der Nachbar ein neues Modell. (ersetzen)",
+            "solution": "Ersatz",
+            "hint": "Die Endung -en fällt weg, das Präfix bleibt.",
+            "explanation": "'ersetzen → der Ersatz': Verbstamm ohne Endung, maskulin. 'Ersetzung' hat ein Suffix und bezeichnet den Vorgang, nicht das neue Ding."
+          },
+          {
+            "id": "l35m03",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Nomen aus dem Verbstamm (ohne Endung).",
+            "prompt": "Die Polizei entdeckte das ___ der Schmuggler in einem leer stehenden Lagerhaus. (verstecken)",
+            "solution": "Versteck",
+            "hint": "Hier ist der Artikel 'das' schon angegeben.",
+            "explanation": "'verstecken → das Versteck': Stamm ohne Endung. Eine Ausnahme beim Genus: neutral, nicht maskulin."
+          },
+          {
+            "id": "l35m04",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Nomen aus dem Verbstamm (ohne Endung).",
+            "prompt": "Die Jugendrichterin machte den ___, den Schaden durch Sozialstunden wiedergutzumachen. (vorschlagen)",
+            "solution": "Vorschlag",
+            "hint": "Das Präfix 'vor' bleibt Teil des Nomens.",
+            "explanation": "'vorschlagen → der Vorschlag': Stamm ohne Endung, maskulin. Feste Verbindung: einen Vorschlag machen."
+          },
+          {
+            "id": "l35m05",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Nomen aus dem Verbstamm (ohne Endung).",
+            "prompt": "Die ___ des Programms hängt davon ab, wie schnell der Teilnehmer Fortschritte macht. (dauern)",
+            "solution": "Dauer",
+            "hint": "Lass nur das -n weg.",
+            "explanation": "'dauern → die Dauer': Stamm ohne Endung; feminin, also eine Ausnahme von der Maskulin-Regel."
+          },
+          {
+            "id": "l35m06",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Nomen aus dem Verbstamm (ohne Endung).",
+            "prompt": "Aus ___ vor den Eltern verschwieg der Junge die Anzeige. (fürchten)",
+            "solution": "Furcht",
+            "hint": "Der Umlaut fällt im Nomen weg.",
+            "explanation": "'fürchten → die Furcht': ohne Umlaut, ohne Endung, feminin. 'Angst' bedeutet dasselbe, ist aber kein Nomen aus 'fürchten'."
+          },
+          {
+            "id": "l35m07",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Nomen aus dem Verbstamm (ohne Endung).",
+            "prompt": "Der Hund schnappte nach dem Jogger, doch zum Glück war der ___ nicht tief. (beißen)",
+            "solution": "Biss",
+            "hint": "Vokalwechsel wie im Partizip (gebissen).",
+            "explanation": "'beißen → der Biss': ei wird zu i, nach kurzem Vokal steht ss. Maskulin wie die meisten Verbstamm-Nomen."
+          },
+          {
+            "id": "l35m08",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Ob'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "hängt",
+              "Ob eine Strafe wirkt,",
+              "des Täters",
+              "ab",
+              "von der Einsicht"
+            ],
+            "solution": "Ob eine Strafe wirkt, hängt von der Einsicht des Täters ab.",
+            "hint": "Der ob-Satz steht im Vorfeld, dann folgt das Verb.",
+            "explanation": "Der Nebensatz besetzt das Vorfeld, also folgt 'hängt' direkt. 'abhängen von + Dativ': das Präfix 'ab' steht am Satzende."
+          },
+          {
+            "id": "l35m09",
+            "type": "sentence-scramble",
+            "instruction": "Bilde eine Meinungsäußerung. Beginne mit 'Ich'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "zur Haftstrafe",
+              "halte",
+              "für eine sinnvolle Alternative",
+              "Ich",
+              "Sozialstunden"
+            ],
+            "solution": "Ich halte Sozialstunden für eine sinnvolle Alternative zur Haftstrafe.",
+            "hint": "etwas (Akk.) für etwas halten",
+            "explanation": "Redemittel 'etwas für … halten': Akkusativobjekt 'Sozialstunden' direkt nach dem Verb, dann 'für …' mit der Ergänzung 'zur Haftstrafe'."
+          },
+          {
+            "id": "l35m10",
+            "type": "sentence-scramble",
+            "instruction": "Nimm eine Gegenposition ein. Beginne mit 'Im Gegensatz zu'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "glaube",
+              "nicht an Abschreckung",
+              "meiner Vorrednerin",
+              "Im Gegensatz zu",
+              "ich"
+            ],
+            "solution": "Im Gegensatz zu meiner Vorrednerin glaube ich nicht an Abschreckung.",
+            "hint": "'im Gegensatz zu' + Dativ besetzt das Vorfeld.",
+            "explanation": "'Im Gegensatz zu meiner Vorrednerin' (Dativ) steht im Vorfeld, also folgt das Verb 'glaube' und dann erst das Subjekt 'ich'."
+          },
+          {
+            "id": "l35m11",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Beim'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "Täter und Opfer",
+              "kommen",
+              "miteinander ins Gespräch",
+              "Beim Täter-Opfer-Ausgleich"
+            ],
+            "solution": "Beim Täter-Opfer-Ausgleich kommen Täter und Opfer miteinander ins Gespräch.",
+            "hint": "Feste Verbindung: mit jemandem ins Gespräch kommen.",
+            "explanation": "Die Angabe 'Beim …' steht im Vorfeld, also Verb auf Position 2, dann das Subjekt. 'ins Gespräch' bildet mit 'kommen' die feste Verbindung."
+          },
+          {
+            "id": "l35m12",
+            "type": "sentence-scramble",
+            "instruction": "Mache einen Vorschlag. Beginne mit 'Eine mögliche Hilfe'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "ein Kurs,",
+              "wäre",
+              "in dem",
+              "Eine mögliche Hilfe",
+              "Konflikte lösen lernen",
+              "die Jugendlichen"
+            ],
+            "solution": "Eine mögliche Hilfe wäre ein Kurs, in dem die Jugendlichen Konflikte lösen lernen.",
+            "hint": "Im Relativsatz steht das konjugierte Verb am Ende.",
+            "explanation": "Redemittel 'Eine mögliche Hilfe wäre …'; der Relativsatz 'in dem …' folgt auf 'ein Kurs,' und endet mit dem konjugierten Verb 'lernen'."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l35h01",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Ändere nur ein Wort.",
+            "prompt": "Die Streit zwischen den beiden Familien dauerte schon Jahre.",
+            "solution": "Der Streit zwischen den beiden Familien dauerte schon Jahre.",
+            "hint": "Welches Genus haben die meisten Verbstamm-Nomen?",
+            "explanation": "'streiten → der Streit' ist maskulin, wie die meisten Verbstamm-Nomen. 'die' passt nicht."
+          },
+          {
+            "id": "l35h02",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Ändere nur ein Wort.",
+            "prompt": "Das Betrug ist erst nach mehreren Monaten aufgefallen.",
+            "solution": "Der Betrug ist erst nach mehreren Monaten aufgefallen.",
+            "hint": "Das Nomen kommt von 'betrügen'.",
+            "explanation": "'betrügen → der Betrug' ist maskulin. Das neutrale 'das' gilt nur für Ausnahmen wie 'das Verbot'."
+          },
+          {
+            "id": "l35h03",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Ändere nur ein Wort.",
+            "prompt": "Der Verbot gilt seit Montag auch für E-Scooter.",
+            "solution": "Das Verbot gilt seit Montag auch für E-Scooter.",
+            "hint": "Hier liegt eine Ausnahme von der Maskulin-Regel vor.",
+            "explanation": "'verbieten → das Verbot' ist neutral – eine Ausnahme. Die Grundregel 'meist maskulin' führt hier zum Fehler."
+          },
+          {
+            "id": "l35h04",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Ändere nur ein Wort.",
+            "prompt": "Aus großem Furcht vor Rache schwieg die Zeugin.",
+            "solution": "Aus großer Furcht vor Rache schwieg die Zeugin.",
+            "hint": "Das Adjektiv richtet sich nach dem Genus des Nomens im Dativ.",
+            "explanation": "'die Furcht' ist feminin, daher Dativ 'aus großer Furcht'. 'großem' wäre maskulin/neutral."
+          },
+          {
+            "id": "l35h05",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Ändere nur ein Wort.",
+            "prompt": "Ich halte diese Maßnahme als wenig sinnvoll.",
+            "solution": "Ich halte diese Maßnahme für wenig sinnvoll.",
+            "hint": "Welche Präposition gehört zu 'halten' bei einer Bewertung?",
+            "explanation": "Das Redemittel lautet 'etwas für sinnvoll halten'. 'als' gehört zu 'betrachten als' oder 'ansehen als', nicht zu 'halten'."
+          },
+          {
+            "id": "l35h06",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Ändere nur ein Wort.",
+            "prompt": "Ich beziehe mich an die Aussage von Frau Petrović.",
+            "solution": "Ich beziehe mich auf die Aussage von Frau Petrović.",
+            "hint": "'sich beziehen' hat eine feste Präposition mit Akkusativ.",
+            "explanation": "Es heißt 'sich beziehen auf + Akkusativ'. 'an' gehört z. B. zu 'sich erinnern an'."
+          },
+          {
+            "id": "l35h07",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze 'gewählt werden' durch das Verbstamm-Nomen mit Artikel. Schreibe den ganzen Satz nach dem Muster: ___ des neuen Stadtrats findet im Mai statt.",
+            "prompt": "Der neue Stadtrat wird im Mai gewählt.",
+            "solution": "Die Wahl des neuen Stadtrats findet im Mai statt.",
+            "hint": "wählen → Nomen ohne Endung; Genus ist eine Ausnahme.",
+            "explanation": "'wählen → die Wahl' (feminin). Das frühere Subjekt wird zum Genitivattribut 'des neuen Stadtrats'."
+          },
+          {
+            "id": "l35h08",
+            "type": "targeted-transformation",
+            "instruction": "Nominalisiere 'betrügen' (Verbstamm-Nomen mit Artikel). Schreibe den ganzen Satz nach dem Muster: ___ an seinen Kunden dauerte jahrelang.",
+            "prompt": "Er hat seine Kunden jahrelang betrogen.",
+            "solution": "Der Betrug an seinen Kunden dauerte jahrelang.",
+            "hint": "Nomen aus dem Verbstamm, mit Vokalwechsel ü → u.",
+            "explanation": "'betrügen → der Betrug' (maskulin, ohne Umlaut). 'Betrügerei' hat eine Endung; die Kunden folgen mit 'an + Dativ'."
+          },
+          {
+            "id": "l35h09",
+            "type": "targeted-transformation",
+            "instruction": "Bilde ein Kompositum aus 'Rauch' und dem Verbstamm-Nomen von 'verbieten' mit bestimmtem Artikel. Beginne mit diesem Nomen; dann: gilt auf dem ganzen Gelände.",
+            "prompt": "Auf dem ganzen Gelände ist das Rauchen verboten.",
+            "solution": "Das Rauchverbot gilt auf dem ganzen Gelände.",
+            "hint": "Beim Kompositum bestimmt das letzte Wort den Artikel.",
+            "explanation": "'das Verbot' ist neutral, und das Grundwort bestimmt das Genus: das Rauchverbot. 'der' wäre die (falsche) Regel 'meist maskulin'."
+          },
+          {
+            "id": "l35h10",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze den Nebensatz durch 'nach' + bestimmten Artikel + Adjektiv 'lang' + Verbstamm-Nomen von 'streiten'. Beginne mit 'Nach'.",
+            "prompt": "Nachdem wir lange gestritten hatten, haben wir uns versöhnt.",
+            "solution": "Nach dem langen Streit haben wir uns versöhnt.",
+            "hint": "'nach' verlangt den Dativ; das Genus von 'Streit' bestimmt die Endungen.",
+            "explanation": "'nach + Dativ', 'der Streit' maskulin → 'nach dem langen Streit'. Danach Verb auf Position 2: 'haben wir'."
+          },
+          {
+            "id": "l35h11",
+            "type": "targeted-transformation",
+            "instruction": "Nominalisiere 'genießen' (Verbstamm-Nomen) und verwende 'von Zucker'. Beginne mit 'Der übermäßige' und ende mit 'schadet den Zähnen'.",
+            "prompt": "Wer übermäßig viel Zucker genießt, schadet seinen Zähnen.",
+            "solution": "Der übermäßige Genuss von Zucker schadet den Zähnen.",
+            "hint": "Vokalwechsel ie → u; nach kurzem Vokal ss.",
+            "explanation": "'genießen → der Genuss' (maskulin, passt zu 'Der übermäßige'). Ohne Person im Satz wird 'seinen' zu 'den Zähnen'."
+          },
+          {
+            "id": "l35h12",
+            "type": "targeted-transformation",
+            "instruction": "Formuliere die Meinung mit 'halten … für' um. Beginne mit 'Ich'; die übrigen Satzglieder behalten ihre Reihenfolge.",
+            "prompt": "Ich finde Täter-Opfer-Gespräche bei jungen Ersttätern sinnvoll.",
+            "solution": "Ich halte Täter-Opfer-Gespräche bei jungen Ersttätern für sinnvoll.",
+            "hint": "Das Akkusativobjekt bleibt direkt nach dem Verb.",
+            "explanation": "Redemittel 'etwas für sinnvoll halten': 'für sinnvoll' rückt ans Satzende. 'Ich finde … für sinnvoll' wäre falsch."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l35t01",
+          "type": "multiple-choice",
+          "instruction": "Wähle den passenden Artikel.",
+          "prompt": "Gegen ___ Biss einer Kreuzotter gibt es im Krankenhaus ein wirksames Gegengift.",
+          "options": [
+            "den",
+            "die",
+            "das",
+            "dem"
+          ],
+          "solution": "den",
+          "explanation": "beißen → der Biss (maskulin). „gegen“ verlangt den Akkusativ → „den“. „dem“ wäre Dativ, „die“/„das“ passen nicht zum Genus."
+        },
+        {
+          "id": "l35t02",
+          "type": "multiple-choice",
+          "instruction": "Welches Verbstamm-Nomen ist feminin?",
+          "prompt": "schlafen → ?, beißen → ?, wählen → ?, spielen → ?",
+          "options": [
+            "Schlaf",
+            "Biss",
+            "Wahl",
+            "Spiel"
+          ],
+          "solution": "Wahl",
+          "explanation": "wählen → die Wahl (feminin). Viele Verbstamm-Nomen sind maskulin (der Schlaf, der Biss), „Spiel“ ist neutral (das Spiel)."
+        },
+        {
+          "id": "l35t03",
+          "type": "fill-in-blank",
+          "instruction": "Bilde aus „verbieten“ das Nomen ohne Endung und ergänze es mit bestimmtem Artikel.",
+          "prompt": "Viele Camper ignorieren ___, im Wald offenes Feuer zu machen.",
+          "solution": "das Verbot",
+          "explanation": "verbieten → das Verbot: neutral, obwohl die meisten Verbstamm-Nomen maskulin sind. Nicht „der Verbot“."
+        },
+        {
+          "id": "l35t04",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze das Nomen aus „schließen“ ohne Endung (mit Vokalwechsel), ohne Artikel.",
+          "prompt": "Nach langer Beratung kam die Jury zu dem ___, dass der Wettbewerb wiederholt werden muss.",
+          "solution": "Schluss",
+          "explanation": "schließen → der Schluss (ie → u, ß → ss nach kurzem Vokal). „Schließung“ hat eine Endung und passt nicht zu „zu dem Schluss kommen“."
+        },
+        {
+          "id": "l35t05",
+          "type": "multiple-choice",
+          "instruction": "Wähle das Nomen ohne Suffix zu „betrügen“ mit dem richtigen Artikel.",
+          "prompt": "Die Verbraucherzentrale warnt: ___ mit gefälschten Paketbenachrichtigungen nimmt stark zu.",
+          "options": [
+            "Der Betrug",
+            "Die Betrug",
+            "Das Betrug",
+            "Der Betrüg"
+          ],
+          "solution": "Der Betrug",
+          "explanation": "betrügen → der Betrug: maskulin wie die meisten Verbstamm-Nomen, und der Umlaut fällt weg (ü → u)."
+        },
+        {
+          "id": "l35t06",
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler. Ändere nur ein Wort.",
+          "prompt": "Die Anfang der Saison verlief für den Verein enttäuschend.",
+          "solution": "Der Anfang der Saison verlief für den Verein enttäuschend.",
+          "explanation": "anfangen → der Anfang (maskulin). Verbstamm-Nomen sind meist maskulin; „die“ ist falsch."
+        },
+        {
+          "id": "l35t07",
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler. Ändere nur ein Wort.",
+          "prompt": "Die Ersatz für die kaputten Straßenlaternen kommt erst im nächsten Monat.",
+          "solution": "Der Ersatz für die kaputten Straßenlaternen kommt erst im nächsten Monat.",
+          "explanation": "ersetzen → der Ersatz (maskulin, Nominativ als Subjekt). „die“ passt nicht zum Genus."
+        },
+        {
+          "id": "l35t08",
+          "type": "targeted-transformation",
+          "instruction": "Ersetze den Nebensatz durch „Nach“ + Nomen ohne Endung aus „wählen“. Lass „die Bürgerinnen und Bürger“ weg; der Rest bleibt.",
+          "prompt": "Nachdem die Bürgerinnen und Bürger gewählt hatten, wurden die Stimmen sofort ausgezählt.",
+          "solution": "Nach der Wahl wurden die Stimmen sofort ausgezählt.",
+          "explanation": "wählen → die Wahl (feminin). „nach“ + Dativ → „nach der Wahl“; danach folgt direkt das Verb (Inversion)."
+        },
+        {
+          "id": "l35t09",
+          "type": "targeted-transformation",
+          "instruction": "Forme um: Verwende das Nomen aus „raten“ mit bestimmtem Artikel. Beginne mit „Der Trainer gab uns“.",
+          "prompt": "Der Trainer riet uns, früher mit dem Aufwärmen anzufangen.",
+          "solution": "Der Trainer gab uns den Rat, früher mit dem Aufwärmen anzufangen.",
+          "explanation": "raten → der Rat; „geben“ verlangt den Akkusativ → „den Rat“. Der Infinitiv hängt vom Nomen ab, daher Pflichtkomma."
+        },
+        {
+          "id": "l35t10",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Diskussionsbeitrag. Beginne mit „Im Gegensatz“.",
+          "prompt": "Baue den Satz aus den Satzgliedern.",
+          "scrambleChunks": [
+            "der Meinung,",
+            "wirksamer sind als Geldstrafen",
+            "Im Gegensatz zu Frau Berger",
+            "dass Fahrverbote",
+            "bin ich"
+          ],
+          "solution": "Im Gegensatz zu Frau Berger bin ich der Meinung, dass Fahrverbote wirksamer sind als Geldstrafen.",
+          "explanation": "„Im Gegensatz zu“ + Dativ steht im Vorfeld, daher Inversion („bin ich“). Im dass-Satz steht das Verb am Ende."
+        },
+        {
+          "id": "l35t11",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Verb, um Bezug auf eine Aussage zu nehmen.",
+          "prompt": "Sie haben vorhin die Kosten für die neuen Spielplätze erwähnt. Darauf möchte ich mich kurz ___.",
+          "options": [
+            "beziehen",
+            "halten",
+            "äußern",
+            "beteiligen"
+          ],
+          "solution": "beziehen",
+          "explanation": "sich beziehen auf + Akk. nimmt Bezug auf eine Aussage („darauf“). „sich äußern“ verlangt „zu“, „sich halten“ „an“, „sich beteiligen“ „an“."
+        },
+        {
+          "id": "l35t12",
+          "type": "multiple-choice",
+          "instruction": "Welcher Satz macht einen Vorschlag?",
+          "prompt": "In einer Diskussion über Jugendarbeit im Viertel möchtest du etwas vorschlagen.",
+          "options": [
+            "Eine mögliche Lösung wäre, mehr Streetworker einzusetzen.",
+            "Ich halte mehr Streetworker für überflüssig.",
+            "Da muss ich Ihnen leider widersprechen.",
+            "Wie Sie vorhin gesagt haben, gibt es zu wenige Streetworker."
+          ],
+          "solution": "Eine mögliche Lösung wäre, mehr Streetworker einzusetzen.",
+          "explanation": "„Eine mögliche Lösung wäre …“ (Konjunktiv II) macht einen Vorschlag. Die anderen äußern Meinung, Widerspruch oder beziehen sich auf eine Aussage."
+        },
+        {
+          "id": "l35t13",
+          "type": "multiple-choice",
+          "instruction": "Ergänze so, dass eine Gegenposition entsteht.",
+          "prompt": "Das sehe ich ___. Strengere Strafen schrecken meiner Erfahrung nach kaum jemanden ab.",
+          "options": [
+            "anders",
+            "genauso",
+            "ähnlich",
+            "auch so"
+          ],
+          "solution": "anders",
+          "explanation": "„Das sehe ich anders“ widerspricht. „genauso“, „ähnlich“ und „auch so“ drücken Zustimmung aus."
+        },
+        {
+          "id": "l35t14",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze die Präposition.",
+          "prompt": "Ich halte kostenlose Sportangebote am Wochenende ___ eine gute Idee, um Jugendliche zu erreichen.",
+          "solution": "für",
+          "explanation": "Meinung äußern: etwas für sinnvoll / für eine gute Idee halten. „halten“ verlangt hier „für“ + Akkusativ."
+        },
+        {
+          "id": "l35t15",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze den bestimmten Artikel.",
+          "prompt": "Im Gegensatz zu ___ Bürgermeister bin ich überzeugt, dass ein Nachtfahrverbot für Lkw den Anwohnern hilft.",
+          "solution": "dem",
+          "explanation": "„im Gegensatz zu“ verlangt den Dativ; „Bürgermeister“ ist maskulin → „dem“. „den“ wäre Akkusativ."
+        },
+        {
+          "id": "l35t16",
+          "type": "multiple-choice",
+          "instruction": "Welches Verbstamm-Nomen ist neutral?",
+          "prompt": "verstecken → ?, ersetzen → ?, tun → ?, genießen → ?",
+          "options": [
+            "Versteck",
+            "Ersatz",
+            "Tat",
+            "Genuss"
+          ],
+          "solution": "Versteck",
+          "explanation": "verstecken → das Versteck (neutral). Dagegen: der Ersatz, der Genuss (maskulin), die Tat (feminin)."
+        }
+      ]
+    },
+    {
+      "lektionId": "b2-m12-l36",
+      "level": "B2",
+      "modulNumber": 12,
+      "lektionNumber": 36,
+      "title": "Spannung und Gefahr",
+      "grammarFocus": [
+        "Gegensätze zwischen Hauptsätzen: aber, doch, sondern (Position 0) vs. jedoch, dagegen, hingegen (Position 1 oder im Mittelfeld); sondern nur nach Negation",
+        "Gegensatz mit Nebensatz und Präposition: während (+ Verb am Ende), im Gegensatz zu + Dativ, entgegen + Dativ (entgegen allen Erwartungen)",
+        "Formelle E-Mail nach einem Gespräch: Redemittel (sich austauschen über, im Rahmen unseres Gesprächs, die genannten Punkte darlegen, Bezug nehmen auf, für Rückfragen zur Verfügung stehen)"
+      ],
+      "vocabulary": [
+        {
+          "id": "l36v01",
+          "term": "die Cyberkriminalität",
+          "translation": "la ciberdelincuencia",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Gegen Cyberkriminalität hat die Landespolizei eine eigene Abteilung gegründet."
+        },
+        {
+          "id": "l36v02",
+          "term": "die Bedrohung",
+          "translation": "la amenaza",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Bedrohungen",
+          "example": "Veraltete Software ist eine echte Bedrohung für jedes Netzwerk."
+        },
+        {
+          "id": "l36v03",
+          "term": "der Anhang",
+          "translation": "el archivo adjunto",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Anhänge",
+          "example": "Öffne keinen Anhang, wenn du den Absender nicht kennst."
+        },
+        {
+          "id": "l36v04",
+          "term": "der Absender",
+          "translation": "el remitente",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Absender",
+          "example": "Der Absender der Nachricht hatte sich als Paketdienst ausgegeben."
+        },
+        {
+          "id": "l36v05",
+          "term": "die Schadsoftware",
+          "translation": "el software malicioso",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Über einen harmlos wirkenden Link gelangte Schadsoftware auf das Tablet."
+        },
+        {
+          "id": "l36v06",
+          "term": "die Sicherheitslücke",
+          "translation": "la brecha de seguridad",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Sicherheitslücken",
+          "example": "Der Hersteller hat die Sicherheitslücke mit einem Update geschlossen."
+        },
+        {
+          "id": "l36v07",
+          "term": "das Passwort",
+          "translation": "la contraseña",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Passwörter",
+          "example": "Ein sicheres Passwort besteht aus mindestens zwölf Zeichen."
+        },
+        {
+          "id": "l36v08",
+          "term": "das Lösegeld",
+          "translation": "el rescate",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Lösegelder",
+          "example": "Im Krimi verlangen die Entführer ein Lösegeld von einer Million Euro."
+        },
+        {
+          "id": "l36v09",
+          "term": "vertraulich",
+          "translation": "confidencial",
+          "partOfSpeech": "adjective",
+          "example": "Gesundheitsdaten sind vertraulich und dürfen nicht weitergegeben werden."
+        },
+        {
+          "id": "l36v10",
+          "term": "zugreifen",
+          "translation": "acceder",
+          "partOfSpeech": "verb",
+          "preterite": "griff zu",
+          "participle": "zugegriffen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Nur zwei Personen im Team dürfen auf die Kundendatenbank zugreifen."
+        },
+        {
+          "id": "l36v11",
+          "term": "anklicken",
+          "translation": "hacer clic en",
+          "partOfSpeech": "verb",
+          "preterite": "klickte an",
+          "participle": "angeklickt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Sie hat den Link in der SMS zum Glück nicht angeklickt."
+        },
+        {
+          "id": "l36v12",
+          "term": "der Gegensatz",
+          "translation": "el contraste, lo contrario",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Gegensätze",
+          "example": "Zwischen der ruhigen Kleinstadt und der hektischen Großstadt besteht ein starker Gegensatz."
+        },
+        {
+          "id": "l36v13",
+          "term": "die Befürchtung",
+          "translation": "el temor",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Befürchtungen",
+          "example": "Seine Befürchtung, den Zug zu verpassen, war unbegründet."
+        },
+        {
+          "id": "l36v14",
+          "term": "riskant",
+          "translation": "arriesgado",
+          "partOfSpeech": "adjective",
+          "example": "Bei Gewitter auf den Gipfel zu steigen, ist äußerst riskant."
+        },
+        {
+          "id": "l36v15",
+          "term": "leichtsinnig",
+          "translation": "imprudente",
+          "partOfSpeech": "adjective",
+          "example": "Es war leichtsinnig, das Fahrrad ohne Schloss vor dem Bahnhof stehen zu lassen."
+        },
+        {
+          "id": "l36v16",
+          "term": "misstrauisch",
+          "translation": "desconfiado",
+          "partOfSpeech": "adjective",
+          "example": "Bei Gewinnspielen, die per Mail kommen, sollte man misstrauisch sein."
+        },
+        {
+          "id": "l36v17",
+          "term": "der Nervenkitzel",
+          "translation": "la emoción fuerte, la adrenalina",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "example": "Manche Menschen brauchen den Nervenkitzel und springen mit dem Fallschirm."
+        },
+        {
+          "id": "l36v18",
+          "term": "die Verfolgungsjagd",
+          "translation": "la persecución",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Verfolgungsjagden",
+          "example": "Nach einer kurzen Verfolgungsjagd stoppte die Polizei den gestohlenen Wagen."
+        },
+        {
+          "id": "l36v19",
+          "term": "sich verkleiden",
+          "translation": "disfrazarse",
+          "partOfSpeech": "verb",
+          "preterite": "verkleidete sich",
+          "participle": "sich verkleidet",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Für das Sommerfest haben sich alle Kinder als Piraten verkleidet."
+        },
+        {
+          "id": "l36v20",
+          "term": "überführen",
+          "translation": "probar la culpabilidad de",
+          "partOfSpeech": "verb",
+          "preterite": "überführte",
+          "participle": "überführt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Eine Haarprobe hat den Einbrecher schließlich überführt."
+        },
+        {
+          "id": "l36v21",
+          "term": "die Überwachungskamera",
+          "translation": "la cámara de vigilancia",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Überwachungskameras",
+          "example": "Am Eingang der Tiefgarage hängen zwei Überwachungskameras."
+        },
+        {
+          "id": "l36v22",
+          "term": "sich austauschen",
+          "translation": "intercambiar impresiones",
+          "partOfSpeech": "verb",
+          "preterite": "tauschte sich aus",
+          "participle": "sich ausgetauscht",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Nach dem Vortrag konnten sich die Teilnehmenden in kleinen Gruppen austauschen."
+        },
+        {
+          "id": "l36v23",
+          "term": "die Rückfrage",
+          "translation": "la consulta, la pregunta adicional",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Rückfragen",
+          "example": "Bei Rückfragen erreichen Sie mich unter der angegebenen Nummer."
+        },
+        {
+          "id": "l36v24",
+          "term": "Bezug nehmen auf",
+          "translation": "hacer referencia a",
+          "partOfSpeech": "phrase",
+          "example": "In ihrer Antwort nahm die Firma Bezug auf meine Beschwerde vom Mai."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l36e01",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Wort.",
+            "prompt": "Der Bergführer steigt heute nicht selbst auf den Gipfel, ___ wartet im Basislager auf die Gruppe.",
+            "options": [
+              "sondern",
+              "aber",
+              "jedoch",
+              "während"
+            ],
+            "solution": "sondern",
+            "hint": "Im ersten Satz steht eine Verneinung, und im zweiten fehlt das Subjekt.",
+            "explanation": "Nach einer Verneinung ersetzt 'sondern' das Verneinte durch das Richtige. 'aber'/'jedoch' schränken nur ein und passen bei einer Richtigstellung nicht."
+          },
+          {
+            "id": "l36e02",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Wort.",
+            "prompt": "Die Feuerwehrfrau liebt ihren Beruf, ___ die vielen Nachtschichten sind anstrengend.",
+            "options": [
+              "aber",
+              "sondern",
+              "dagegen",
+              "während"
+            ],
+            "solution": "aber",
+            "hint": "Nach der Lücke kommt das Subjekt, dann das Verb.",
+            "explanation": "'aber' steht auf Position 0, das Subjekt folgt direkt. 'dagegen' braucht Inversion, 'sondern' eine Verneinung, 'während' Verb am Ende."
+          },
+          {
+            "id": "l36e03",
+            "type": "multiple-choice",
+            "instruction": "Welcher Satz ist richtig?",
+            "prompt": "Achterbahn oder Riesenrad?",
+            "options": [
+              "Mein Bruder liebt Achterbahnen, dagegen bekomme ich schon im Riesenrad Angst.",
+              "Mein Bruder liebt Achterbahnen, dagegen ich bekomme schon im Riesenrad Angst.",
+              "Mein Bruder liebt Achterbahnen, dagegen ich schon im Riesenrad Angst bekomme.",
+              "Mein Bruder liebt Achterbahnen, sondern ich bekomme schon im Riesenrad Angst."
+            ],
+            "solution": "Mein Bruder liebt Achterbahnen, dagegen bekomme ich schon im Riesenrad Angst.",
+            "hint": "Auf welcher Position steht 'dagegen'?",
+            "explanation": "'dagegen' besetzt Position 1, also folgt sofort das Verb: 'dagegen bekomme ich'. Verb am Ende gibt es nur nach 'während'."
+          },
+          {
+            "id": "l36e04",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Wort.",
+            "prompt": "___ ihr Kollege lieber im Büro recherchiert, ist die Reporterin am liebsten mitten im Geschehen.",
+            "options": [
+              "Während",
+              "Dagegen",
+              "Hingegen",
+              "Sondern"
+            ],
+            "solution": "Während",
+            "hint": "Schau, wo das Verb im ersten Teil steht.",
+            "explanation": "'recherchiert' steht am Ende – das ist ein Nebensatz, und nur 'während' leitet einen ein. 'Dagegen'/'Hingegen' verlangen Verb auf Position 2."
+          },
+          {
+            "id": "l36e05",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Wort.",
+            "prompt": "___ ihrem Kollegen arbeitet die Notärztin gern in der Nacht.",
+            "options": [
+              "Im Gegensatz zu",
+              "Während",
+              "Hingegen",
+              "Sondern"
+            ],
+            "solution": "Im Gegensatz zu",
+            "hint": "Nach der Lücke steht kein Satz, sondern eine Nominalgruppe im Dativ.",
+            "explanation": "Vor 'ihrem Kollegen' (Dativ) braucht man eine Präposition: 'im Gegensatz zu'. 'Während' als Konnektor bräuchte einen Nebensatz."
+          },
+          {
+            "id": "l36e06",
+            "type": "multiple-choice",
+            "instruction": "Wähle den richtigen Artikel.",
+            "prompt": "Entgegen ___ Warnungen der Fachleute klicken viele Menschen auf unbekannte Links.",
+            "options": [
+              "den",
+              "der",
+              "die",
+              "dem"
+            ],
+            "solution": "den",
+            "hint": "Welchen Kasus verlangt 'entgegen'?",
+            "explanation": "'entgegen' steht mit Dativ, im Plural also 'den Warnungen'. 'der Warnungen' wäre Genitiv und ist hier falsch."
+          },
+          {
+            "id": "l36e07",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Wort.",
+            "prompt": "___ der Anweisung ihres Trainers sprang die Turmspringerin vom Zehnmeterbrett.",
+            "options": [
+              "Entgegen",
+              "Dagegen",
+              "Sondern",
+              "Hingegen"
+            ],
+            "solution": "Entgegen",
+            "hint": "Gesucht ist eine Präposition mit Dativ: Sie tat das Gegenteil von dem, was gesagt wurde.",
+            "explanation": "'entgegen + Dativ' heißt: im Widerspruch zu etwas. 'Dagegen', 'Hingegen' und 'Sondern' verbinden Sätze und stehen nicht vor einem Nomen."
+          },
+          {
+            "id": "l36e08",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze den Konnektor.",
+            "prompt": "Die Mail stammte nicht von der Bank, ___ von Betrügern.",
+            "solution": "sondern",
+            "hint": "Der erste Teil ist verneint, der zweite korrigiert ihn.",
+            "explanation": "Nach 'nicht' folgt die Korrektur mit 'sondern'. 'aber' würde nur einschränken und passt bei einer Richtigstellung nicht."
+          },
+          {
+            "id": "l36e09",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze 'hingegen' oder 'während' – nur eines passt.",
+            "prompt": "Mein Vater öffnet jeden Anhang sofort, meine Mutter ___ prüft erst den Absender.",
+            "solution": "hingegen",
+            "hint": "Nach der Lücke steht das Verb auf Position 2.",
+            "explanation": "'hingegen' kann direkt nach dem Subjekt im Mittelfeld stehen; das Verb bleibt an Position 2. 'während' bräuchte das Verb am Ende."
+          },
+          {
+            "id": "l36e10",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Wort.",
+            "prompt": "Das Passwort war lang und kompliziert, ___ konnten die Hacker es knacken.",
+            "options": [
+              "trotzdem",
+              "deshalb",
+              "sondern",
+              "während"
+            ],
+            "solution": "trotzdem",
+            "hint": "Das Ergebnis ist das Gegenteil von dem, was man erwartet.",
+            "explanation": "Ein unerwartetes Ergebnis drückt 'trotzdem' aus (konzessiv). 'deshalb' wäre eine Folge, 'sondern' braucht eine Verneinung."
+          },
+          {
+            "id": "l36e11",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze die Präposition mit Artikel (eine zusammengezogene Form).",
+            "prompt": "Im Gegensatz ___ alten Router ist das neue Gerät gut geschützt.",
+            "solution": "zum",
+            "hint": "Nach 'im Gegensatz' fehlt 'zu' + Dativ von 'der Router'.",
+            "explanation": "'im Gegensatz zu' + Dativ: zu dem Router → 'zum Router'. Akkusativ ('den') passt nach 'zu' nie."
+          },
+          {
+            "id": "l36e12",
+            "type": "multiple-choice",
+            "instruction": "Wähle den passenden Ausdruck für die formelle E-Mail.",
+            "prompt": "___ unseres Gesprächs am Dienstag haben wir mehrere Maßnahmen vereinbart.",
+            "options": [
+              "Im Rahmen",
+              "In Bezug",
+              "Zur Verfügung",
+              "Im Gegensatz"
+            ],
+            "solution": "Im Rahmen",
+            "hint": "Gesucht ist ein Ausdruck mit Genitiv, der 'während/bei' bedeutet.",
+            "explanation": "'im Rahmen + Genitiv' = bei, während. 'In Bezug' und 'Im Gegensatz' bräuchten 'auf'/'zu', 'zur Verfügung' passt nicht vor ein Nomen."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l36m01",
+            "type": "sentence-scramble",
+            "instruction": "Verbinde mit 'jedoch' auf Position 1 des zweiten Hauptsatzes. Beginne mit 'Der Tierpfleger'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "jedoch",
+              "betritt",
+              "Der Tierpfleger",
+              "seit Jahren,",
+              "er",
+              "kennt",
+              "die Löwen",
+              "das Gehege nie allein"
+            ],
+            "solution": "Der Tierpfleger kennt die Löwen seit Jahren, jedoch betritt er das Gehege nie allein.",
+            "hint": "Steht 'jedoch' auf Position 1, was muss dann folgen?",
+            "explanation": "'jedoch' auf Position 1 zählt als Satzglied: Danach kommt sofort das Verb 'betritt', dann das Subjekt 'er'."
+          },
+          {
+            "id": "l36m02",
+            "type": "sentence-scramble",
+            "instruction": "Bilde den Satz mit 'dagegen'. Beginne mit 'Online-Banking'; der zweite Satz beginnt mit 'ihr Enkel dagegen'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "dagegen",
+              "Oma",
+              "ihr Enkel",
+              "Online-Banking",
+              "alles per App",
+              "erledigt",
+              "zu kompliziert,",
+              "findet"
+            ],
+            "solution": "Online-Banking findet Oma zu kompliziert, ihr Enkel dagegen erledigt alles per App.",
+            "hint": "Subjekt + 'dagegen' stehen zusammen vor dem Verb.",
+            "explanation": "'ihr Enkel dagegen' bildet zusammen Position 1, danach folgt das Verb 'erledigt'. Im ersten Satz steht das Verb nach 'Online-Banking'."
+          },
+          {
+            "id": "l36m03",
+            "type": "sentence-scramble",
+            "instruction": "Beginne mit 'Während'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "klicke",
+              "jede Mail genau prüft,",
+              "oft vorschnell auf Links",
+              "Während",
+              "ich",
+              "meine Kollegin"
+            ],
+            "solution": "Während meine Kollegin jede Mail genau prüft, klicke ich oft vorschnell auf Links.",
+            "hint": "Im Nebensatz steht das Verb am Ende; der ganze Nebensatz ist Position 1.",
+            "explanation": "'während' schickt 'prüft' ans Ende. Der Nebensatz besetzt Position 1, darum folgt das Verb 'klicke' vor dem Subjekt 'ich'."
+          },
+          {
+            "id": "l36m04",
+            "type": "sentence-scramble",
+            "instruction": "Beginne mit 'Ich'. Im Nebensatz steht das Subjekt direkt nach 'während'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "um die Welt reist",
+              "lieber im Labor,",
+              "als Kriegsreporter",
+              "Ich",
+              "mein Bruder",
+              "während",
+              "arbeite"
+            ],
+            "solution": "Ich arbeite lieber im Labor, während mein Bruder als Kriegsreporter um die Welt reist.",
+            "hint": "Erst der Hauptsatz, dann der Nebensatz mit dem Verb am Ende.",
+            "explanation": "Im Hauptsatz steht 'arbeite' auf Position 2. Nach 'während' (Gegensatz) wandert das Verb 'reist' ans Ende."
+          },
+          {
+            "id": "l36m05",
+            "type": "sentence-scramble",
+            "instruction": "Beginne mit 'Im Gegensatz'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "verzichtet",
+              "auf Videoüberwachung im Büro",
+              "Im Gegensatz",
+              "die neue Chefin",
+              "zu ihrer Vorgängerin"
+            ],
+            "solution": "Im Gegensatz zu ihrer Vorgängerin verzichtet die neue Chefin auf Videoüberwachung im Büro.",
+            "hint": "'Im Gegensatz zu …' ist ein Satzglied auf Position 1.",
+            "explanation": "'Im Gegensatz zu ihrer Vorgängerin' (Dativ) füllt Position 1, dann folgt das Verb 'verzichtet' und danach das Subjekt."
+          },
+          {
+            "id": "l36m06",
+            "type": "sentence-scramble",
+            "instruction": "Beginne mit 'Entgegen'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "weitergegeben",
+              "er",
+              "hat",
+              "allen Warnungen",
+              "Entgegen",
+              "sein Passwort an einen Fremden"
+            ],
+            "solution": "Entgegen allen Warnungen hat er sein Passwort an einen Fremden weitergegeben.",
+            "hint": "'Entgegen' + Dativ bildet mit seinem Nomen ein Satzglied.",
+            "explanation": "'Entgegen allen Warnungen' (Dativ Plural) ist Position 1; dann 'hat' und 'er', das Partizip steht am Ende."
+          },
+          {
+            "id": "l36m07",
+            "type": "sentence-scramble",
+            "instruction": "Beginne mit 'Die Nachricht'. Nach 'sondern' folgt das Subjekt.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "ein Betrüger",
+              "nicht",
+              "Die Nachricht",
+              "hatte sie verschickt",
+              "sondern",
+              "kam",
+              "von meiner Bank,"
+            ],
+            "solution": "Die Nachricht kam nicht von meiner Bank, sondern ein Betrüger hatte sie verschickt.",
+            "hint": "'sondern' steht auf Position 0 und ändert die Wortstellung nicht.",
+            "explanation": "'sondern' korrigiert die Verneinung und zählt nicht als Position: Danach steht das Subjekt, dann das Verb 'hatte'."
+          },
+          {
+            "id": "l36m08",
+            "type": "sentence-scramble",
+            "instruction": "Beginne mit 'Der Akku'. 'doch' steht auf Position 0.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "die Wanderin",
+              "doch",
+              "war fast leer,",
+              "konnte",
+              "Der Akku",
+              "die Bergwacht noch rechtzeitig anrufen"
+            ],
+            "solution": "Der Akku war fast leer, doch die Wanderin konnte die Bergwacht noch rechtzeitig anrufen.",
+            "hint": "Wie bei 'aber' folgt nach 'doch' auf Position 0 zuerst das Subjekt.",
+            "explanation": "Als Konjunktion auf Position 0 verändert 'doch' die Wortstellung nicht: Subjekt 'die Wanderin', dann 'konnte'."
+          },
+          {
+            "id": "l36m09",
+            "type": "cloze-conjugation",
+            "instruction": "Setze das Wort in Klammern in der richtigen Form ein.",
+            "prompt": "Während Lena jedes Passwort im Kopf ___, schreibt ihr Mann alle auf einen Zettel. (behalten)",
+            "solution": "behält",
+            "hint": "3. Person Singular – der Vokal ändert sich.",
+            "explanation": "'behalten' hat im Präsens einen Vokalwechsel: er/sie 'behält'. Im während-Satz steht das Verb am Ende."
+          },
+          {
+            "id": "l36m10",
+            "type": "cloze-conjugation",
+            "instruction": "Setze das Wort in Klammern in der richtigen Form ein.",
+            "prompt": "Im Rahmen unseres Gesprächs am Montag haben wir uns über die neuen Sicherheitsregeln ___. (sich austauschen)",
+            "solution": "ausgetauscht",
+            "hint": "Partizip II eines trennbaren Verbs; 'uns' steht schon im Satz.",
+            "explanation": "'sich austauschen über' ist trennbar: Partizip 'ausgetauscht'. Das Reflexivpronomen 'uns' steht bereits im Mittelfeld."
+          },
+          {
+            "id": "l36m11",
+            "type": "cloze-conjugation",
+            "instruction": "Setze das Wort in Klammern in der richtigen Form ein.",
+            "prompt": "Anbei sende ich Ihnen eine Übersicht über die von Ihnen ___ Punkte. (nennen)",
+            "solution": "genannten",
+            "hint": "Partizip II als Adjektiv vor einem Nomen – mit Endung.",
+            "explanation": "Partizip 'genannt' als Adjektiv vor dem Nomen: nach 'die' (Akkusativ Plural nach 'über') Endung -en → 'die genannten Punkte'."
+          },
+          {
+            "id": "l36m12",
+            "type": "cloze-conjugation",
+            "instruction": "Setze das Wort in Klammern in der richtigen Form ein.",
+            "prompt": "Die Argumente, die Frau Kaya im Gespräch ___ hat, fasse ich hier noch einmal zusammen. (darlegen)",
+            "solution": "dargelegt",
+            "hint": "Trennbares Verb im Perfekt – 'ge' kommt zwischen Präfix und Stamm.",
+            "explanation": "'darlegen' ist trennbar und regelmäßig: Partizip 'dargelegt'. Im Relativsatz steht 'hat' am Ende."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l36h01",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde mit 'hingegen' auf Position 1 des zweiten Satzes. Trenne mit Komma; die übrigen Satzglieder bleiben in ihrer Reihenfolge.",
+            "prompt": "Sabine verwendet überall dasselbe Passwort. Ihr Kollege ändert seine Passwörter jeden Monat.",
+            "solution": "Sabine verwendet überall dasselbe Passwort, hingegen ändert ihr Kollege seine Passwörter jeden Monat.",
+            "hint": "'hingegen' auf Position 1 – was passiert mit Verb und Subjekt?",
+            "explanation": "'hingegen' auf Position 1 bewirkt Inversion: 'hingegen ändert ihr Kollege'. Ohne Inversion wäre der Satz falsch."
+          },
+          {
+            "id": "l36h02",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde mit 'während'. Beginne mit 'Während'; der zweite Satz wird zum Hauptsatz, die Satzglieder bleiben in ihrer Reihenfolge.",
+            "prompt": "Mein Onkel bucht Abenteuerreisen in die Wüste. Meine Tante bleibt am liebsten zu Hause.",
+            "solution": "Während mein Onkel Abenteuerreisen in die Wüste bucht, bleibt meine Tante am liebsten zu Hause.",
+            "hint": "Nebensatz: Verb ans Ende. Hauptsatz: Verb direkt nach dem Komma.",
+            "explanation": "Im während-Satz steht 'bucht' am Ende. Der Nebensatz ist Position 1, also folgt 'bleibt' vor dem Subjekt 'meine Tante'."
+          },
+          {
+            "id": "l36h03",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde mit 'sondern' und lass das Subjekt im zweiten Teil weg.",
+            "prompt": "Der Pilot landete nicht in Frankfurt. Er musste nach Köln ausweichen.",
+            "solution": "Der Pilot landete nicht in Frankfurt, sondern musste nach Köln ausweichen.",
+            "hint": "Das gleiche Subjekt muss nach 'sondern' nicht wiederholt werden.",
+            "explanation": "Nach der Verneinung korrigiert 'sondern'. Bei gleichem Subjekt fällt 'er' weg, und das Verb 'musste' folgt direkt."
+          },
+          {
+            "id": "l36h04",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze 'Anders als' durch 'Im Gegensatz zu'. Der Rest des Satzes bleibt unverändert.",
+            "prompt": "Anders als seine Geschwister arbeitet Malik als Bergführer.",
+            "solution": "Im Gegensatz zu seinen Geschwistern arbeitet Malik als Bergführer.",
+            "hint": "'zu' verlangt den Dativ – auch im Plural.",
+            "explanation": "'im Gegensatz zu' + Dativ: 'seinen Geschwistern' mit -n im Dativ Plural. 'seine Geschwister' ist Nominativ/Akkusativ."
+          },
+          {
+            "id": "l36h05",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze den obwohl-Satz durch 'Entgegen' + 'die Vorhersagen der Wetterdienste'. Der Hauptsatz bleibt sonst unverändert.",
+            "prompt": "Obwohl die Wetterdienste Regen vorhergesagt hatten, blieb es am Wochenende trocken.",
+            "solution": "Entgegen den Vorhersagen der Wetterdienste blieb es am Wochenende trocken.",
+            "hint": "'entgegen' + Dativ Plural; danach steht direkt das Verb.",
+            "explanation": "'entgegen' verlangt den Dativ: 'den Vorhersagen'. Die Präpositionalgruppe ist Position 1, also folgt 'blieb'. Kein Komma."
+          },
+          {
+            "id": "l36h06",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde mit 'dagegen'. Trenne mit Komma; der zweite Satz beginnt mit dem Subjekt, 'dagegen' steht direkt danach.",
+            "prompt": "Die alte Software war voller Sicherheitslücken. Das neue Programm gilt als sehr sicher.",
+            "solution": "Die alte Software war voller Sicherheitslücken, das neue Programm dagegen gilt als sehr sicher.",
+            "hint": "Subjekt + 'dagegen' zusammen sind ein Satzglied.",
+            "explanation": "'das neue Programm dagegen' füllt gemeinsam Position 1, darum bleibt 'gilt' auf Position 2. Keine Inversion nötig."
+          },
+          {
+            "id": "l36h07",
+            "type": "error-correction",
+            "instruction": "Korrigiere den Fehler. Ändere nur ein Wort.",
+            "prompt": "Der Link führte nicht zur Seite der Bank, aber auf eine gefälschte Kopie.",
+            "solution": "Der Link führte nicht zur Seite der Bank, sondern auf eine gefälschte Kopie.",
+            "hint": "Der erste Teil ist verneint; der zweite nennt, wohin der Link stattdessen führte.",
+            "explanation": "Nach einer Verneinung ersetzt 'sondern' das Verneinte durch das Richtige. 'aber' schränkt nur ein und ersetzt nichts."
+          },
+          {
+            "id": "l36h08",
+            "type": "error-correction",
+            "instruction": "Korrigiere die Wortstellung im zweiten Satz. 'Dagegen' bleibt am Anfang.",
+            "prompt": "Meine Schwester ruft nie Fremde zurück. Dagegen ich rufe jede unbekannte Nummer an.",
+            "solution": "Meine Schwester ruft nie Fremde zurück. Dagegen rufe ich jede unbekannte Nummer an.",
+            "hint": "Was muss nach einem Satzglied auf Position 1 kommen?",
+            "explanation": "'Dagegen' ist ein Adverb auf Position 1, deshalb folgt das Verb: 'rufe ich'. Nur Konjunktionen wie 'aber', 'doch', 'sondern' lassen das Subjekt zuerst."
+          },
+          {
+            "id": "l36h09",
+            "type": "error-correction",
+            "instruction": "Korrigiere die Wortstellung im Nebensatz.",
+            "prompt": "Während der Gutachter glaubt an einen Unfall, ist die Kommissarin von einem Verbrechen überzeugt.",
+            "solution": "Während der Gutachter an einen Unfall glaubt, ist die Kommissarin von einem Verbrechen überzeugt.",
+            "hint": "'während' leitet einen Nebensatz ein.",
+            "explanation": "Im Nebensatz mit 'während' steht das konjugierte Verb am Ende: '… an einen Unfall glaubt'."
+          },
+          {
+            "id": "l36h10",
+            "type": "error-correction",
+            "instruction": "Korrigiere den Fehler. Ändere nur ein Wort.",
+            "prompt": "Entgegen der Empfehlungen des Herstellers lud sie die App aus einem fremden Store herunter.",
+            "solution": "Entgegen den Empfehlungen des Herstellers lud sie die App aus einem fremden Store herunter.",
+            "hint": "Welchen Kasus braucht 'entgegen'?",
+            "explanation": "'entgegen' steht mit Dativ: 'den Empfehlungen'. 'der Empfehlungen' ist Genitiv – ein häufiger Fehler, weil es nach Amtssprache klingt."
+          },
+          {
+            "id": "l36h11",
+            "type": "error-correction",
+            "instruction": "Korrigiere den Fehler. Ändere nur ein Wort.",
+            "prompt": "Im Gegensatz zu ihr Vater nutzt Leonie einen Passwortmanager.",
+            "solution": "Im Gegensatz zu ihrem Vater nutzt Leonie einen Passwortmanager.",
+            "hint": "Nach 'zu' steht immer derselbe Kasus.",
+            "explanation": "'im Gegensatz zu' + Dativ: 'ihrem Vater'. 'ihr' ohne Endung ist Nominativ und passt nach einer Präposition nicht."
+          },
+          {
+            "id": "l36h12",
+            "type": "error-correction",
+            "instruction": "Korrigiere die Präposition und den Possessivartikel in der formellen E-Mail.",
+            "prompt": "Ich nehme Bezug zu unserem Telefonat vom Montag.",
+            "solution": "Ich nehme Bezug auf unser Telefonat vom Montag.",
+            "hint": "Der Ausdruck lautet 'Bezug nehmen ___ + Akkusativ'.",
+            "explanation": "Die feste Verbindung heißt 'Bezug nehmen auf + Akkusativ': 'auf unser Telefonat'. 'zu' gehört zu 'Stellung nehmen zu', nicht zu 'Bezug nehmen'."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l36t01",
+          "type": "multiple-choice",
+          "instruction": "Wähle den passenden Konnektor.",
+          "prompt": "Das Drehbuch zum Film stammt nicht vom Regisseur, ___ von seiner Tochter.",
+          "options": [
+            "sondern",
+            "aber",
+            "jedoch",
+            "dagegen"
+          ],
+          "solution": "sondern",
+          "explanation": "Nach einer Negation, wenn das Zweite das Erste ersetzt, steht „sondern“. „aber“, „jedoch“, „dagegen“ korrigieren nichts, sie stellen nur gegenüber."
+        },
+        {
+          "id": "l36t02",
+          "type": "multiple-choice",
+          "instruction": "Welches Wort passt zur Wortstellung des zweiten Satzes?",
+          "prompt": "Die Wettervorhersage war gut, ___ regnete es den ganzen Tag.",
+          "options": [
+            "jedoch",
+            "aber",
+            "sondern",
+            "obwohl"
+          ],
+          "solution": "jedoch",
+          "explanation": "Direkt danach folgt das Verb – der Konnektor steht auf Position 1. Das kann „jedoch“; „aber“/„sondern“ stehen auf Position 0, nach „obwohl“ steht das Verb am Ende."
+        },
+        {
+          "id": "l36t03",
+          "type": "targeted-transformation",
+          "instruction": "Verbinde die Sätze mit Komma und „dagegen“ auf Position 1 des zweiten Satzes. Die übrigen Satzglieder bleiben in ihrer Reihenfolge.",
+          "prompt": "Ich sichere meine Fotos jede Woche auf einer externen Festplatte. Mein Mitbewohner hat noch nie eine Sicherungskopie gemacht.",
+          "solution": "Ich sichere meine Fotos jede Woche auf einer externen Festplatte, dagegen hat mein Mitbewohner noch nie eine Sicherungskopie gemacht.",
+          "explanation": "„dagegen“ auf Position 1 zählt als Satzglied: Danach kommt sofort das Verb („hat“), dann das Subjekt. „dagegen mein Mitbewohner hat“ ist falsch."
+        },
+        {
+          "id": "l36t04",
+          "type": "multiple-choice",
+          "instruction": "Wähle den passenden Anschluss.",
+          "prompt": "___ meine Schwester stundenlang Krimis liest, schlafe ich schon nach zwei Seiten ein.",
+          "options": [
+            "Während",
+            "Dagegen",
+            "Jedoch",
+            "Sondern"
+          ],
+          "solution": "Während",
+          "explanation": "„liest“ steht am Ende – also ein Nebensatz, nur mit „während“ möglich. Nach „dagegen“/„jedoch“ käme das Verb direkt danach, „sondern“ braucht eine Negation."
+        },
+        {
+          "id": "l36t05",
+          "type": "error-correction",
+          "instruction": "Korrigiere die Wortstellung im zweiten Hauptsatz. „aber“ bleibt am Anfang.",
+          "prompt": "Die Wohnung ist ziemlich klein, aber ist sie sehr hell.",
+          "solution": "Die Wohnung ist ziemlich klein, aber sie ist sehr hell.",
+          "explanation": "„aber“ steht auf Position 0 und zählt nicht mit: danach Subjekt, dann Verb. Inversion („ist sie“) folgt erst, wenn z. B. „jedoch“ oder „dagegen“ Position 1 besetzt."
+        },
+        {
+          "id": "l36t06",
+          "type": "multiple-choice",
+          "instruction": "Wähle die richtige Form.",
+          "prompt": "Im Gegensatz zu ___ großen Geschwistern hat der kleine Jonas überhaupt keine Angst vor Hunden.",
+          "options": [
+            "den",
+            "die",
+            "der",
+            "des"
+          ],
+          "solution": "den",
+          "explanation": "„im Gegensatz zu“ verlangt den Dativ; Dativ Plural: „den großen Geschwistern“. „die“ wäre Nominativ/Akkusativ, „der“ Genitiv Plural, „des“ Genitiv Singular."
+        },
+        {
+          "id": "l36t07",
+          "type": "targeted-transformation",
+          "instruction": "Verbinde mit Komma. Der zweite Satz beginnt mit „die Trainer“, „jedoch“ steht direkt nach dem Verb.",
+          "prompt": "Die Kletterhalle in unserem Viertel ist teuer. Die Trainer dort sind sehr kompetent.",
+          "solution": "Die Kletterhalle in unserem Viertel ist teuer, die Trainer dort sind jedoch sehr kompetent.",
+          "explanation": "„jedoch“ kann im Mittelfeld stehen; dann bleibt die normale Wortstellung Subjekt – Verb. Ein Komma trennt die beiden Hauptsätze."
+        },
+        {
+          "id": "l36t08",
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler. Ändere nur ein Wort.",
+          "prompt": "Wir fahren dieses Jahr nicht ans Meer, aber in die Berge.",
+          "solution": "Wir fahren dieses Jahr nicht ans Meer, sondern in die Berge.",
+          "explanation": "Das Zweite ersetzt das verneinte Erste – dafür braucht man „sondern“. „aber“ würde etwas Zusätzliches gegenüberstellen, nichts korrigieren."
+        },
+        {
+          "id": "l36t09",
+          "type": "multiple-choice",
+          "instruction": "Wähle den richtigen Artikel.",
+          "prompt": "Entgegen ___ Rat seiner Ärztin ist Opa schon zwei Tage nach der Operation wieder Fahrrad gefahren.",
+          "options": [
+            "dem",
+            "den",
+            "des",
+            "der"
+          ],
+          "solution": "dem",
+          "explanation": "„entgegen“ verlangt den Dativ: der Rat → dem Rat. „des“ wäre Genitiv, „den“ Akkusativ, „der“ passt nicht zum maskulinen Nomen."
+        },
+        {
+          "id": "l36t10",
+          "type": "targeted-transformation",
+          "instruction": "Ersetze den während-Satz durch „Im Gegensatz zu“ + Dativ. Das Verb des Nebensatzes und seine Ergänzungen fallen weg; der Hauptsatz bleibt unverändert.",
+          "prompt": "Während meine Großmutter jeden Brief mit der Hand schreibt, schickt mein Großvater nur noch Sprachnachrichten.",
+          "solution": "Im Gegensatz zu meiner Großmutter schickt mein Großvater nur noch Sprachnachrichten.",
+          "explanation": "„im Gegensatz zu“ + Dativ: meine Großmutter → meiner Großmutter. Die Präpositionalgruppe steht im Vorfeld, daher folgt direkt das Verb „schickt“."
+        },
+        {
+          "id": "l36t11",
+          "type": "sentence-scramble",
+          "instruction": "Bilde den Satz. Beginne mit „Während“.",
+          "prompt": "Baue den Satz aus den Satzgliedern.",
+          "scrambleChunks": [
+            "bleibe ich",
+            "jeden Morgen joggen geht,",
+            "Während",
+            "am liebsten im Bett",
+            "meine Frau"
+          ],
+          "solution": "Während meine Frau jeden Morgen joggen geht, bleibe ich am liebsten im Bett.",
+          "explanation": "Im während-Satz steht das Verb am Ende („geht“). Der Nebensatz besetzt das Vorfeld, deshalb folgt im Hauptsatz sofort das Verb: „bleibe ich“."
+        },
+        {
+          "id": "l36t12",
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler. Ändere nur ein Wort.",
+          "prompt": "Entgegen aller Prognosen hat unser kleiner Verein die Meisterschaft gewonnen.",
+          "solution": "Entgegen allen Prognosen hat unser kleiner Verein die Meisterschaft gewonnen.",
+          "explanation": "„entgegen“ verlangt den Dativ: Dativ Plural → „allen Prognosen“. „aller“ ist Genitiv und gilt hier als falsch."
+        },
+        {
+          "id": "l36t13",
+          "type": "multiple-choice",
+          "instruction": "Ergänze die formelle Wendung.",
+          "prompt": "Für Rückfragen ___ ich Ihnen jederzeit gern zur Verfügung.",
+          "options": [
+            "stehe",
+            "bin",
+            "habe",
+            "stelle"
+          ],
+          "solution": "stehe",
+          "explanation": "Die feste Wendung lautet „jemandem zur Verfügung stehen“. „zur Verfügung stellen“ braucht ein Objekt (etwas zur Verfügung stellen)."
+        },
+        {
+          "id": "l36t14",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze das fehlende Nomen der formellen Wendung.",
+          "prompt": "In Ihrem Schreiben haben Sie ___ auf die neue Hausordnung genommen.",
+          "solution": "Bezug",
+          "explanation": "Die formelle Wendung heißt „Bezug nehmen auf“ + Akkusativ. Man verweist damit auf ein früheres Gespräch, Schreiben oder Dokument."
+        },
+        {
+          "id": "l36t15",
+          "type": "sentence-scramble",
+          "instruction": "Bilde den Satz aus einer formellen E-Mail. Beginne mit „Im Rahmen“.",
+          "prompt": "Baue den Satz aus den Satzgliedern.",
+          "scrambleChunks": [
+            "Ihnen die genannten Punkte",
+            "haben Sie mich",
+            "schriftlich darzulegen",
+            "Im Rahmen unseres Telefonats",
+            "gebeten,"
+          ],
+          "solution": "Im Rahmen unseres Telefonats haben Sie mich gebeten, Ihnen die genannten Punkte schriftlich darzulegen.",
+          "explanation": "Nach dem Vorfeld „Im Rahmen …“ folgt das Hilfsverb. Der Infinitivsatz steht nach dem Komma; bei „darlegen“ steht „zu“ zwischen Vorsilbe und Verb: „darzulegen“."
+        },
+        {
+          "id": "l36t16",
+          "type": "multiple-choice",
+          "instruction": "Welche formelle Wendung passt?",
+          "prompt": "Auf der Messe hatten wir Gelegenheit, uns ausführlich über Ihre neuen Produkte ___.",
+          "options": [
+            "auszutauschen",
+            "darzulegen",
+            "Bezug zu nehmen",
+            "zur Verfügung zu stehen"
+          ],
+          "solution": "auszutauschen",
+          "explanation": "„sich austauschen über“ + Akkusativ passt zu „uns … über“. „darlegen“ ist nicht reflexiv, „Bezug nehmen“ verlangt „auf“, „zur Verfügung stehen“ passt nicht."
+        }
+      ]
+    }
+  ]
+}

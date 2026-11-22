@@ -1,0 +1,2529 @@
+{
+  "modulId": "b2-m9",
+  "level": "B2",
+  "modulNumber": 9,
+  "title": "Gut wirtschaften",
+  "lektionen": [
+    {
+      "lektionId": "b2-m9-l25",
+      "level": "B2",
+      "modulNumber": 9,
+      "lektionNumber": 25,
+      "title": "Wirtschaftsfaktor Tourismus",
+      "grammarFocus": [
+        "Passiv ohne Subjekt: Position 1 mit einer Angabe besetzen (Im Winter wird viel Ski gefahren.) oder es (Es wird viel gebaut.)",
+        "Subjektloses Passiv mit Präpositional- oder Dativobjekt: Verb immer in der 3. Person Singular (Auf Plastik wird verzichtet. Den Gästen wird viel geboten.), auch im Perfekt (ist … gedacht worden)",
+        "Wirtschaftswortschatz: Komposita mit Markt (die Marktlücke, der Marktanteil, der Arbeitsmarkt) und Gegensatzpaare (Einnahmen – Ausgaben, Angebot – Nachfrage, steigen – sinken)"
+      ],
+      "vocabulary": [
+        {
+          "id": "l25v01",
+          "term": "die Ausgabe",
+          "translation": "el gasto",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Ausgaben",
+          "example": "Im Winter sind die Ausgaben des Sportvereins für Heizung und Strom am höchsten."
+        },
+        {
+          "id": "l25v02",
+          "term": "der Wirtschaftszweig",
+          "translation": "el sector económico",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Wirtschaftszweige",
+          "example": "Die Fischerei war hier lange der wichtigste Wirtschaftszweig."
+        },
+        {
+          "id": "l25v03",
+          "term": "der Umsatz",
+          "translation": "la facturación, las ventas",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Umsätze",
+          "example": "Im Dezember macht die Buchhandlung fast ein Viertel ihres Jahresumsatzes."
+        },
+        {
+          "id": "l25v04",
+          "term": "der Handel",
+          "translation": "el comercio",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "example": "Der Handel mit Gewürzen machte die Hafenstadt einst reich."
+        },
+        {
+          "id": "l25v05",
+          "term": "die Währung",
+          "translation": "la moneda, la divisa",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Währungen",
+          "example": "Vor der Reise sollte man prüfen, welche Währung im Land gilt."
+        },
+        {
+          "id": "l25v06",
+          "term": "die Investition",
+          "translation": "la inversión",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Investitionen",
+          "example": "Die neue Kühlanlage war eine teure, aber notwendige Investition."
+        },
+        {
+          "id": "l25v07",
+          "term": "die Rücklage",
+          "translation": "la reserva (de dinero)",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Rücklagen",
+          "example": "Ohne finanzielle Rücklagen kann schon eine kaputte Waschmaschine zum Problem werden."
+        },
+        {
+          "id": "l25v08",
+          "term": "etwas auf die hohe Kante legen",
+          "translation": "ahorrar, guardar dinero para el futuro",
+          "partOfSpeech": "phrase",
+          "example": "Jeden Monat legt sie hundert Euro auf die hohe Kante."
+        },
+        {
+          "id": "l25v09",
+          "term": "die Einnahme",
+          "translation": "el ingreso",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Einnahmen",
+          "example": "Die Einnahmen aus dem Kartenverkauf reichten nicht für die Miete des Saals."
+        },
+        {
+          "id": "l25v10",
+          "term": "die Nachfrage",
+          "translation": "la demanda",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Nach dem Fernsehbericht stieg die Nachfrage nach dem kleinen Bergkäse stark an."
+        },
+        {
+          "id": "l25v11",
+          "term": "das Angebot",
+          "translation": "la oferta",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Angebote",
+          "example": "Das kulturelle Angebot der Kleinstadt hat mich überrascht."
+        },
+        {
+          "id": "l25v12",
+          "term": "der Wettbewerb",
+          "translation": "la competencia",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Wettbewerbe",
+          "example": "Im harten Wettbewerb mit den Billigfliegern verlor die Bahn Kunden."
+        },
+        {
+          "id": "l25v13",
+          "term": "die Marktlücke",
+          "translation": "el nicho de mercado",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Marktlücken",
+          "example": "Ein Lieferservice für Tierfutter auf dem Land war damals eine echte Marktlücke."
+        },
+        {
+          "id": "l25v14",
+          "term": "der Marktanteil",
+          "translation": "la cuota de mercado",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Marktanteile",
+          "example": "Der kleine Hersteller konnte seinen Marktanteil innerhalb von zwei Jahren verdoppeln."
+        },
+        {
+          "id": "l25v15",
+          "term": "der Arbeitsmarkt",
+          "translation": "el mercado laboral",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Arbeitsmärkte",
+          "example": "Auf dem Arbeitsmarkt sind Pflegekräfte derzeit sehr gefragt."
+        },
+        {
+          "id": "l25v16",
+          "term": "das Ökosystem",
+          "translation": "el ecosistema",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Ökosysteme",
+          "example": "Das Wattenmeer ist ein empfindliches Ökosystem."
+        },
+        {
+          "id": "l25v17",
+          "term": "der CO2-Fußabdruck",
+          "translation": "la huella de carbono",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die CO2-Fußabdrücke",
+          "example": "Wer mit dem Nachtzug fährt statt zu fliegen, verkleinert seinen CO2-Fußabdruck deutlich."
+        },
+        {
+          "id": "l25v18",
+          "term": "die Übernachtung",
+          "translation": "la pernoctación, la noche de alojamiento",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Übernachtungen",
+          "example": "Die Jugendherberge zählte im August über dreitausend Übernachtungen."
+        },
+        {
+          "id": "l25v19",
+          "term": "der Einheimische",
+          "translation": "el lugareño, el residente local",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Einheimischen",
+          "example": "Der Fischer ist ein Einheimischer und kennt jede Bucht der Insel."
+        },
+        {
+          "id": "l25v20",
+          "term": "nachhaltig",
+          "translation": "sostenible",
+          "partOfSpeech": "adjective",
+          "example": "Das Café bezieht seinen Kaffee nur von Kooperativen, die nachhaltig wirtschaften."
+        },
+        {
+          "id": "l25v21",
+          "term": "rentabel",
+          "translation": "rentable",
+          "partOfSpeech": "adjective",
+          "example": "Erst im dritten Jahr war die kleine Brauerei rentabel."
+        },
+        {
+          "id": "l25v22",
+          "term": "beitragen",
+          "translation": "contribuir (a algo)",
+          "partOfSpeech": "verb",
+          "preterite": "trug bei",
+          "participle": "beigetragen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Jeder im Team hat zum Erfolg des Projekts beigetragen."
+        },
+        {
+          "id": "l25v23",
+          "term": "verzichten",
+          "translation": "renunciar (a algo)",
+          "partOfSpeech": "verb",
+          "preterite": "verzichtete",
+          "participle": "verzichtet",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Für ihre Weltreise verzichtete sie zwei Jahre lang auf ein Auto."
+        },
+        {
+          "id": "l25v24",
+          "term": "werben",
+          "translation": "hacer publicidad, promocionar",
+          "partOfSpeech": "verb",
+          "preterite": "warb",
+          "participle": "geworben",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Die Bäckerei wirbt auf Plakaten für ihr neues Dinkelbrot."
+        },
+        {
+          "id": "l25v25",
+          "term": "steigen",
+          "translation": "subir, aumentar",
+          "partOfSpeech": "verb",
+          "preterite": "stieg",
+          "participle": "gestiegen",
+          "auxiliary": "sein",
+          "irregular": true,
+          "example": "Seit dem Bau der Umgehungsstraße ist der Wert der Häuser im Ortskern gestiegen."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l25e01",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Form.",
+            "prompt": "In der Altstadt ___ am Wochenende bis spät in die Nacht gefeiert.",
+            "options": [
+              "wird",
+              "werden",
+              "ist",
+              "hat"
+            ],
+            "solution": "wird",
+            "hint": "Gibt es in diesem Satz ein Subjekt?",
+            "explanation": "Passiv ohne Subjekt: Das Verb steht immer in der 3. Person Singular → 'wird'. 'ist' und 'hat' bilden kein Passiv Präsens."
+          },
+          {
+            "id": "l25e02",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Form.",
+            "prompt": "Den Besuchern ___ an der Kasse sofort geholfen.",
+            "options": [
+              "wird",
+              "werden",
+              "wurden",
+              "haben"
+            ],
+            "solution": "wird",
+            "hint": "'helfen' hat ein Dativobjekt, kein Akkusativobjekt.",
+            "explanation": "'Den Besuchern' ist Dativ, kein Subjekt. Ohne Subjekt steht das Verb in der 3. Person Singular, auch wenn das Dativobjekt Plural ist."
+          },
+          {
+            "id": "l25e03",
+            "type": "multiple-choice",
+            "instruction": "Welcher Satz ist korrekt?",
+            "prompt": "Passiv ohne Subjekt mit einer Zeitangabe auf Position 1:",
+            "options": [
+              "Am Samstag wird im Hafen getanzt.",
+              "Am Samstag wird es im Hafen getanzt.",
+              "Am Samstag werden im Hafen getanzt.",
+              "Es am Samstag wird im Hafen getanzt."
+            ],
+            "solution": "Am Samstag wird im Hafen getanzt.",
+            "hint": "'es' ist nur ein Platzhalter für Position 1.",
+            "explanation": "'es' steht nur auf Position 1, wenn dort sonst nichts steht. Ist Position 1 besetzt, fällt 'es' weg; das Verb bleibt 3. Person Singular."
+          },
+          {
+            "id": "l25e04",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Form.",
+            "prompt": "Auf dem Bauernmarkt ___ jeden Freitag regionale Produkte verkauft.",
+            "options": [
+              "werden",
+              "wird",
+              "worden",
+              "ist"
+            ],
+            "solution": "werden",
+            "hint": "Suche das Nominativ-Element: Was wird verkauft?",
+            "explanation": "Hier gibt es ein Subjekt im Plural ('regionale Produkte'), also ein normales Passiv → 'werden'. Nur ohne Subjekt steht immer 'wird'."
+          },
+          {
+            "id": "l25e05",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Platzhalter-Wort, das im Passiv ohne Subjekt Position 1 füllt, wenn dort nichts anderes steht.",
+            "prompt": "___ wird in der Gemeinde seit Jahren über eine Umgehungsstraße gestritten.",
+            "solution": "Es",
+            "hint": "Ein kleines Wort ohne eigene Bedeutung.",
+            "explanation": "'Es' hält Position 1 frei, damit das Verb auf Position 2 steht. Es ist kein Subjekt und fällt weg, sobald etwas anderes vorne steht."
+          },
+          {
+            "id": "l25e06",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze die fehlende Form für das Passiv Perfekt.",
+            "prompt": "Über die neue Seilbahn ist im Gemeinderat lange diskutiert ___.",
+            "solution": "worden",
+            "hint": "Passiv Perfekt: sein + Partizip II + …",
+            "explanation": "Das Passiv Perfekt bildet man mit 'ist' + Partizip II + 'worden'. 'geworden' gibt es nur beim Vollverb 'werden' (Er ist Arzt geworden)."
+          },
+          {
+            "id": "l25e07",
+            "type": "multiple-choice",
+            "instruction": "Wähle die Präteritumform.",
+            "prompt": "Bei der Eröffnung des neuen Museums ___ lange applaudiert.",
+            "options": [
+              "wurde",
+              "wurden",
+              "worden",
+              "geworden"
+            ],
+            "solution": "wurde",
+            "hint": "Präteritum von 'werden', ohne Subjekt.",
+            "explanation": "Ohne Subjekt steht 'werden' in der 3. Person Singular: 'wurde'. 'worden/geworden' sind Partizipien und brauchen 'ist'."
+          },
+          {
+            "id": "l25e08",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze 'wird' oder 'werden'.",
+            "prompt": "In der kleinen Pension ___ den Gästen jeden Morgen frische Brötchen serviert.",
+            "solution": "werden",
+            "hint": "Nicht der Dativ entscheidet, sondern das Nominativ-Element.",
+            "explanation": "'frische Brötchen' ist hier das Subjekt (Plural), daher 'werden'. 'den Gästen' ist Dativobjekt und bestimmt das Verb nicht."
+          },
+          {
+            "id": "l25e09",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Wort.",
+            "prompt": "Ein Fahrradverleih mit Lastenrädern fehlte bisher in der Stadt – die Gründerin hat eine ___ entdeckt.",
+            "options": [
+              "Marktlücke",
+              "Marktforschung",
+              "Marktwirtschaft",
+              "Marktmacht"
+            ],
+            "solution": "Marktlücke",
+            "hint": "Etwas, das es auf dem Markt noch nicht gibt.",
+            "explanation": "Eine 'Marktlücke' ist ein Angebot, das es noch nicht gibt. 'Marktforschung' untersucht den Markt, 'Marktwirtschaft' ist ein Wirtschaftssystem."
+          },
+          {
+            "id": "l25e10",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze ein Kompositum mit 'Markt' (ohne Artikel).",
+            "prompt": "Mit 40 Prozent aller Verkäufe hat das Unternehmen den größten ___ in seiner Branche.",
+            "solution": "Marktanteil",
+            "hint": "Wie groß ist das Stück vom Markt, das einer Firma gehört?",
+            "explanation": "Der 'Marktanteil' gibt an, welchen Prozentsatz der Verkäufe eine Firma hat. Das Genus kommt vom letzten Teil: der Anteil → der Marktanteil."
+          },
+          {
+            "id": "l25e11",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Wort.",
+            "prompt": "Wenn das Angebot größer ist als die ___, sinken meistens die Preise.",
+            "options": [
+              "Nachfrage",
+              "Einnahme",
+              "Währung",
+              "Investition"
+            ],
+            "solution": "Nachfrage",
+            "hint": "Das Gegenteil von 'Angebot'.",
+            "explanation": "'Angebot' und 'Nachfrage' sind ein Gegensatzpaar: Gibt es mehr Ware, als Leute kaufen wollen, fallen die Preise."
+          },
+          {
+            "id": "l25e12",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Wort.",
+            "prompt": "Die Einnahmen des Campingplatzes lagen im letzten Jahr deutlich über den ___, er machte also Gewinn.",
+            "options": [
+              "Ausgaben",
+              "Einnahmen",
+              "Währungen",
+              "Branchen"
+            ],
+            "solution": "Ausgaben",
+            "hint": "Das Gegenteil von 'Einnahmen'.",
+            "explanation": "Gewinn entsteht, wenn die Einnahmen höher sind als die Ausgaben. 'Einnahmen' und 'Ausgaben' bilden ein Gegensatzpaar."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l25m01",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz im Passiv ohne Subjekt. Beginne mit 'In der Hauptsaison'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "am Strand bis Mitternacht",
+              "gefeiert",
+              "wird",
+              "In der Hauptsaison"
+            ],
+            "solution": "In der Hauptsaison wird am Strand bis Mitternacht gefeiert.",
+            "hint": "Position 2: das konjugierte Verb; das Partizip ans Ende.",
+            "explanation": "Die Zeitangabe besetzt Position 1, deshalb kein 'es'. 'wird' steht auf Position 2, 'gefeiert' am Satzende."
+          },
+          {
+            "id": "l25m02",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit dem Nebensatz.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "geholfen",
+              "Wenn der Zug ausfällt,",
+              "den Reisenden sofort",
+              "wird"
+            ],
+            "solution": "Wenn der Zug ausfällt, wird den Reisenden sofort geholfen.",
+            "hint": "Der Nebensatz zählt als Position 1.",
+            "explanation": "Der wenn-Satz besetzt Position 1, also folgt direkt 'wird'. Trotz Dativ Plural ('den Reisenden') bleibt das Verb im Singular."
+          },
+          {
+            "id": "l25m03",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz im Passiv ohne Subjekt mit 'Es' auf Position 1.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "gestritten",
+              "seit Wochen über die neue Kurtaxe",
+              "Es",
+              "wird"
+            ],
+            "solution": "Es wird seit Wochen über die neue Kurtaxe gestritten.",
+            "hint": "Der Platzhalter steht vorne, dann das Verb.",
+            "explanation": "'Es' füllt Position 1, weil sonst nichts vorne steht. Danach 'wird' auf Position 2 und das Partizip 'gestritten' am Ende."
+          },
+          {
+            "id": "l25m04",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz im Passiv Perfekt. Beginne mit 'Auf die Beschwerden der Anwohner'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "worden",
+              "schnell",
+              "Auf die Beschwerden der Anwohner",
+              "reagiert",
+              "ist"
+            ],
+            "solution": "Auf die Beschwerden der Anwohner ist schnell reagiert worden.",
+            "hint": "Perfekt Passiv: ist … Partizip II + worden.",
+            "explanation": "Das Präpositionalobjekt steht auf Position 1, 'ist' auf Position 2. Am Ende stehen Partizip II und 'worden' in dieser Reihenfolge."
+          },
+          {
+            "id": "l25m05",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz im Passiv Präteritum. Beginne mit 'Mit dem Bau des neuen Radwegs'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "im Frühjahr",
+              "wurde",
+              "begonnen",
+              "Mit dem Bau des neuen Radwegs"
+            ],
+            "solution": "Mit dem Bau des neuen Radwegs wurde im Frühjahr begonnen.",
+            "hint": "'beginnen mit' – das Präpositionalobjekt steht vorne.",
+            "explanation": "'Mit dem Bau …' ist Präpositionalobjekt, kein Subjekt. Deshalb steht 'wurde' in der 3. Person Singular auf Position 2."
+          },
+          {
+            "id": "l25m06",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Weil'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "investiert",
+              "Weil die Nachfrage",
+              "steigt,",
+              "wird",
+              "in neue Unterkünfte"
+            ],
+            "solution": "Weil die Nachfrage steigt, wird in neue Unterkünfte investiert.",
+            "hint": "Im Nebensatz steht das Verb am Ende, dann folgt das Verb des Hauptsatzes.",
+            "explanation": "Der weil-Satz besetzt Position 1, darum folgt direkt 'wird'. 'in neue Unterkünfte' ist Präpositionalobjekt, also kein Subjekt → Singular."
+          },
+          {
+            "id": "l25m07",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze die Form von 'werden'.",
+            "prompt": "Im Ferienlager ___ abends am Lagerfeuer gesungen. (werden, Präsens)",
+            "solution": "wird",
+            "hint": "Wer singt? Im Satz gibt es kein Subjekt.",
+            "explanation": "Ohne Subjekt steht das Passiv in der 3. Person Singular: 'wird'. 'werden' wäre nur mit einem Subjekt im Plural richtig."
+          },
+          {
+            "id": "l25m08",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze die Form von 'werden'.",
+            "prompt": "Den Mitarbeitenden ___ für ihren Einsatz in der Hochsaison herzlich gedankt. (werden, Präteritum)",
+            "solution": "wurde",
+            "hint": "'danken' + Dativ: Ist 'den Mitarbeitenden' das Subjekt?",
+            "explanation": "'den Mitarbeitenden' ist Dativ, nicht Subjekt. Ohne Subjekt immer Singular: 'wurde', nicht 'wurden'."
+          },
+          {
+            "id": "l25m09",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze die Form von 'werden'.",
+            "prompt": "Auf dem Weinfest ___ vor allem Weine aus der Region probiert. (werden, Präsens)",
+            "solution": "werden",
+            "hint": "Was wird probiert? Steht es im Nominativ?",
+            "explanation": "'Weine aus der Region' ist Subjekt im Plural, also normales Passiv mit 'werden'. Nur Sätze ohne Subjekt haben immer 'wird'."
+          },
+          {
+            "id": "l25m10",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Partizip II.",
+            "prompt": "Über die Öffnungszeiten des Freibads ist im Stadtrat lange ___ worden. (verhandeln)",
+            "solution": "verhandelt",
+            "hint": "Passiv Perfekt: ist + Partizip II + worden.",
+            "explanation": "'verhandeln' ist untrennbar mit 'ver-', daher kein 'ge-': 'verhandelt'. Das Partizip steht vor 'worden'."
+          },
+          {
+            "id": "l25m11",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze die zwei Wörter für das Passiv Perfekt (Partizip II + Hilfsverb).",
+            "prompt": "Für genügend Parkplätze ist bei der Planung des Konzerts leider nicht ___. (sorgen)",
+            "solution": "gesorgt worden",
+            "hint": "Im Passiv Perfekt steht am Ende Partizip II + 'worden'.",
+            "explanation": "Passiv Perfekt = 'ist' + Partizip II + 'worden': 'gesorgt worden'. 'geworden' ist falsch; das steht nur beim Vollverb 'werden'."
+          },
+          {
+            "id": "l25m12",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Partizip II.",
+            "prompt": "Der Tourismus hat in den letzten Jahrzehnten erheblich zum Wohlstand der Insel ___. (beitragen)",
+            "solution": "beigetragen",
+            "hint": "'beitragen' ist trennbar.",
+            "explanation": "Bei trennbaren Verben steht '-ge-' zwischen Präfix und Stamm: bei-ge-tragen. 'beitragen zu' + Dativ: 'zum Wohlstand'."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l25h01",
+            "type": "targeted-transformation",
+            "instruction": "Forme in einen Passivsatz ohne Subjekt um. Beginne mit 'Im Dorf'. Das Tempus bleibt gleich.",
+            "prompt": "Man diskutiert im Dorf über das geplante Einkaufszentrum.",
+            "solution": "Im Dorf wird über das geplante Einkaufszentrum diskutiert.",
+            "hint": "Aus 'man' + Verb wird 'wird' + Partizip II.",
+            "explanation": "'man' fällt weg; 'wird' steht auf Position 2, 'diskutiert' am Ende. Das Präpositionalobjekt bleibt, ein Subjekt gibt es nicht."
+          },
+          {
+            "id": "l25h02",
+            "type": "targeted-transformation",
+            "instruction": "Forme ins Passiv um. Beginne mit 'Den Neuankömmlingen'. Das Tempus bleibt gleich.",
+            "prompt": "Man hilft den Neuankömmlingen bei der Wohnungssuche.",
+            "solution": "Den Neuankömmlingen wird bei der Wohnungssuche geholfen.",
+            "hint": "Der Dativ bleibt Dativ.",
+            "explanation": "Das Dativobjekt wird nicht zum Subjekt: 'den Neuankömmlingen' bleibt, das Verb steht im Singular → 'wird … geholfen', nicht 'werden'."
+          },
+          {
+            "id": "l25h03",
+            "type": "targeted-transformation",
+            "instruction": "Beginne den Satz mit 'Es'. Die Reihenfolge der übrigen Satzglieder bleibt gleich.",
+            "prompt": "In der Fabrik wird rund um die Uhr gearbeitet.",
+            "solution": "Es wird in der Fabrik rund um die Uhr gearbeitet.",
+            "hint": "'Es' als Platzhalter auf Position 1.",
+            "explanation": "Die Ortsangabe rückt ins Mittelfeld, 'Es' füllt Position 1, 'wird' bleibt auf Position 2. 'Es' ist kein Subjekt, also bleibt 'wird'."
+          },
+          {
+            "id": "l25h04",
+            "type": "targeted-transformation",
+            "instruction": "Setze den Satz ins Perfekt. Beginne mit 'Auf der Messe'.",
+            "prompt": "Auf der Messe wird über neue Reiseziele informiert.",
+            "solution": "Auf der Messe ist über neue Reiseziele informiert worden.",
+            "hint": "Passiv Perfekt: sein + Partizip II + worden.",
+            "explanation": "Passiv Perfekt = 'ist' + Partizip II + 'worden'. Nicht 'hat' und nicht 'geworden'."
+          },
+          {
+            "id": "l25h05",
+            "type": "targeted-transformation",
+            "instruction": "Forme ins Passiv ohne Subjekt um. Beginne mit 'Am Flughafen'. Das Tempus und die Reihenfolge der übrigen Satzglieder bleiben gleich.",
+            "prompt": "Man wartete am Flughafen stundenlang auf die Koffer.",
+            "solution": "Am Flughafen wurde stundenlang auf die Koffer gewartet.",
+            "hint": "Präteritum Passiv: wurde + Partizip II.",
+            "explanation": "'auf die Koffer' ist Präpositionalobjekt, kein Subjekt → 'wurde' (Singular), nicht 'wurden'. 'gewartet' steht am Ende."
+          },
+          {
+            "id": "l25h06",
+            "type": "targeted-transformation",
+            "instruction": "Forme in einen Aktivsatz mit 'man' um. Beginne mit 'Seit der Krise'. Die übrigen Satzglieder bleiben in derselben Reihenfolge.",
+            "prompt": "Seit der Krise wird in der Branche weniger investiert.",
+            "solution": "Seit der Krise investiert man in der Branche weniger.",
+            "hint": "'man' steht direkt nach dem Verb.",
+            "explanation": "Im Aktiv mit 'man' steht 'investiert' auf Position 2, gleich danach 'man'. 'wird' und das Partizip fallen weg."
+          },
+          {
+            "id": "l25h07",
+            "type": "error-correction",
+            "instruction": "Finde den Fehler und korrigiere den Satz. Beginne weiterhin mit 'Hier'.",
+            "prompt": "Hier wird es sonntags nicht gearbeitet.",
+            "solution": "Hier wird sonntags nicht gearbeitet.",
+            "hint": "Wann braucht man 'es'?",
+            "explanation": "'es' steht nur auf Position 1, wenn diese sonst leer wäre. 'Hier' besetzt sie schon, deshalb muss 'es' wegfallen."
+          },
+          {
+            "id": "l25h08",
+            "type": "error-correction",
+            "instruction": "Ändere nur ein Wort. Das Tempus bleibt gleich.",
+            "prompt": "Den Touristen werden an der Information gern geholfen.",
+            "solution": "Den Touristen wird an der Information gern geholfen.",
+            "hint": "Ist 'den Touristen' Nominativ?",
+            "explanation": "'den Touristen' ist Dativ, kein Subjekt. Im Passiv ohne Subjekt steht das Verb immer in der 3. Person Singular: 'wird'."
+          },
+          {
+            "id": "l25h09",
+            "type": "error-correction",
+            "instruction": "Ändere nur ein Wort.",
+            "prompt": "Über die Preiserhöhung ist im Verein lange gestritten geworden.",
+            "solution": "Über die Preiserhöhung ist im Verein lange gestritten worden.",
+            "hint": "Passiv Perfekt: Wie lautet das Partizip von 'werden' hier?",
+            "explanation": "Im Passiv Perfekt heißt es 'worden'. 'geworden' ist nur das Partizip des Vollverbs 'werden' (z. B. 'Sie ist Ärztin geworden')."
+          },
+          {
+            "id": "l25h10",
+            "type": "error-correction",
+            "instruction": "Ändere nur ein Wort. Das Tempus bleibt gleich.",
+            "prompt": "Im Souvenirladen wird handgemachte Taschen verkauft.",
+            "solution": "Im Souvenirladen werden handgemachte Taschen verkauft.",
+            "hint": "Gibt es hier ein Subjekt?",
+            "explanation": "'handgemachte Taschen' ist Subjekt im Plural. Der Satz ist also nicht subjektlos und das Verb muss 'werden' heißen."
+          },
+          {
+            "id": "l25h11",
+            "type": "error-correction",
+            "instruction": "Finde den Fehler und korrigiere den Satz. Beginne weiterhin mit 'Den Gästen'.",
+            "prompt": "Den Gästen wird es per E-Mail innerhalb eines Tages geantwortet.",
+            "solution": "Den Gästen wird per E-Mail innerhalb eines Tages geantwortet.",
+            "hint": "Ist Position 1 leer?",
+            "explanation": "Das Dativobjekt 'Den Gästen' besetzt Position 1, daher hat der Platzhalter 'es' keinen Platz mehr und fällt weg."
+          },
+          {
+            "id": "l25h12",
+            "type": "error-correction",
+            "instruction": "Ändere nur ein Wort. Das Tempus bleibt gleich.",
+            "prompt": "Gegen die neuen Hotelpläne wurden monatelang protestiert.",
+            "solution": "Gegen die neuen Hotelpläne wurde monatelang protestiert.",
+            "hint": "Steht 'die neuen Hotelpläne' im Nominativ?",
+            "explanation": "'gegen die neuen Hotelpläne' ist ein Präpositionalobjekt im Akkusativ, kein Subjekt. Ohne Subjekt → 3. Person Singular 'wurde'."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l25t01",
+          "type": "multiple-choice",
+          "instruction": "Ergänze die richtige Form (Präsens).",
+          "prompt": "Seit der Eröffnung der Kletterhalle ___ in unserem Viertel viel geklettert.",
+          "options": [
+            "wird",
+            "werden",
+            "wird es",
+            "hat"
+          ],
+          "solution": "wird",
+          "explanation": "Ohne Subjekt steht 'werden' in der 3. Person Singular. 'es' fällt weg, weil 'Seit der Eröffnung der Kletterhalle' Position 1 besetzt."
+        },
+        {
+          "id": "l25t02",
+          "type": "multiple-choice",
+          "instruction": "Welcher Satz ist korrekt?",
+          "prompt": "Das Stadtfest kommt ohne Einwegbecher aus.",
+          "options": [
+            "Auf Einwegbecher wird beim Stadtfest seit diesem Jahr verzichtet.",
+            "Auf Einwegbecher werden beim Stadtfest seit diesem Jahr verzichtet.",
+            "Auf Einwegbecher wird es beim Stadtfest seit diesem Jahr verzichtet.",
+            "Einwegbecher werden beim Stadtfest seit diesem Jahr verzichtet."
+          ],
+          "solution": "Auf Einwegbecher wird beim Stadtfest seit diesem Jahr verzichtet.",
+          "explanation": "'verzichten auf' bleibt Präpositionalobjekt, kein Subjekt → Verb im Singular, ohne 'es' (Position 1 ist besetzt)."
+        },
+        {
+          "id": "l25t03",
+          "type": "multiple-choice",
+          "instruction": "Ergänze die richtige Form (Präsens). Achte darauf, ob der Satz ein Subjekt hat.",
+          "prompt": "In der Werkstatt des Vereins ___ alte Fahrräder repariert und weiterverkauft.",
+          "options": [
+            "werden",
+            "wird",
+            "wird es",
+            "worden"
+          ],
+          "solution": "werden",
+          "explanation": "Hier gibt es ein Subjekt: 'alte Fahrräder' (Plural) → 'werden'. Der Satz ist also nicht subjektlos."
+        },
+        {
+          "id": "l25t04",
+          "type": "multiple-choice",
+          "instruction": "Ergänze die richtige Form im Perfekt Passiv.",
+          "prompt": "Im Probenraum der Band ist gestern bis tief in die Nacht musiziert ___.",
+          "options": [
+            "worden",
+            "geworden",
+            "wurde",
+            "werden"
+          ],
+          "solution": "worden",
+          "explanation": "Im Perfekt Passiv steht 'ist … Partizip II + worden'. 'geworden' gehört zum Vollverb 'werden' (z. B. 'ist teuer geworden')."
+        },
+        {
+          "id": "l25t05",
+          "type": "multiple-choice",
+          "instruction": "Welches Wort passt?",
+          "prompt": "Einen Reparaturservice für alte Nähmaschinen gab es in der ganzen Region nicht – für den jungen Handwerker war das eine ___.",
+          "options": [
+            "Marktlücke",
+            "Marktforschung",
+            "Marktwirtschaft",
+            "Marktmacht"
+          ],
+          "solution": "Marktlücke",
+          "explanation": "Eine Marktlücke ist ein Angebot, das es noch nicht gibt, obwohl Bedarf besteht. Marktforschung, -wirtschaft und -macht beschreiben keine fehlende Leistung."
+        },
+        {
+          "id": "l25t06",
+          "type": "multiple-choice",
+          "instruction": "Welches Wort passt?",
+          "prompt": "Weil immer mehr Kunden beim günstigeren Konkurrenten buchen, schrumpft der ___ des Fährunternehmens.",
+          "options": [
+            "Marktanteil",
+            "Arbeitsmarkt",
+            "Wochenmarkt",
+            "Marktplatz"
+          ],
+          "solution": "Marktanteil",
+          "explanation": "Der Marktanteil ist der Teil des Marktes, den eine Firma hat; verliert sie Kunden, schrumpft er. Arbeitsmarkt, Wochenmarkt und Marktplatz gehören keiner einzelnen Firma."
+        },
+        {
+          "id": "l25t07",
+          "type": "cloze-conjugation",
+          "instruction": "Ergänze die passende Form von „werden“.",
+          "prompt": "In der Altstadt ___ gerade an einer neuen Fußgängerzone gebaut. (werden, Präsens)",
+          "solution": "wird",
+          "explanation": "'an einer Fußgängerzone' ist Präpositionalobjekt, kein Subjekt → subjektloses Passiv, 3. Person Singular: 'wird'."
+        },
+        {
+          "id": "l25t08",
+          "type": "cloze-conjugation",
+          "instruction": "Ergänze die passende Form von „werden“.",
+          "prompt": "Den Plänen des Bürgermeisters ___ im Stadtrat heftig widersprochen. (werden, Präteritum)",
+          "solution": "wurde",
+          "explanation": "'Den Plänen' ist Dativobjekt von 'widersprechen', kein Subjekt. Das Verb bleibt im Singular: 'wurde', nicht 'wurden'."
+        },
+        {
+          "id": "l25t09",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze das Gegenteil von „Nachfrage“ (ohne Artikel).",
+          "prompt": "Weil es in der Stadt zu wenige Ferienwohnungen gibt, kann das ___ die Nachfrage im Sommer nicht decken.",
+          "solution": "Angebot",
+          "explanation": "Angebot und Nachfrage sind ein Gegensatzpaar: was es gibt und was gewünscht wird. Der Artikel 'das' zeigt das Neutrum."
+        },
+        {
+          "id": "l25t10",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze das Gegenteil von „Einnahmen“ (Plural, ohne Artikel).",
+          "prompt": "Die Bäckerei schrieb rote Zahlen, weil ihre ___ für Mehl und Energie stark gestiegen waren.",
+          "solution": "Ausgaben",
+          "explanation": "Einnahmen ist das Geld, das hereinkommt; Ausgaben ist das Geld, das man bezahlt. Steigen die Ausgaben, entstehen Verluste."
+        },
+        {
+          "id": "l25t11",
+          "type": "targeted-transformation",
+          "instruction": "Beginne mit „Seit Januar“. Die übrigen Satzglieder behalten ihre Reihenfolge.",
+          "prompt": "Es wird in der Kantine der Messe seit Januar nur noch vegetarisch gekocht.",
+          "solution": "Seit Januar wird in der Kantine der Messe nur noch vegetarisch gekocht.",
+          "explanation": "'es' ist nur Platzhalter für Position 1. Steht dort eine Angabe, fällt 'es' weg; 'wird' bleibt auf Position 2."
+        },
+        {
+          "id": "l25t12",
+          "type": "targeted-transformation",
+          "instruction": "Forme ins Passiv um (Präsens). Beginne mit „Am Flughafen“. Die übrigen Satzglieder behalten ihre Reihenfolge.",
+          "prompt": "Man streikt am Flughafen auch heute.",
+          "solution": "Am Flughafen wird auch heute gestreikt.",
+          "explanation": "'streiken' hat kein Akkusativobjekt → subjektloses Passiv mit 'wird' + Partizip II am Ende. Kein 'es', da Position 1 besetzt ist."
+        },
+        {
+          "id": "l25t13",
+          "type": "targeted-transformation",
+          "instruction": "Forme ins Passiv um. Behalte das Perfekt. Beginne mit „Beim Stadtfest“. Die übrigen Satzglieder behalten ihre Reihenfolge.",
+          "prompt": "Man hat beim Stadtfest kaum über die hohen Preise gesprochen.",
+          "solution": "Beim Stadtfest ist kaum über die hohen Preise gesprochen worden.",
+          "explanation": "Perfekt Passiv: 'ist' + Partizip II + 'worden'. 'über die hohen Preise' ist kein Subjekt → 'ist', nicht 'sind'."
+        },
+        {
+          "id": "l25t14",
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler. Streiche dazu ein Wort.",
+          "prompt": "Auf der Insel wird es im Sommer viel gesegelt.",
+          "solution": "Auf der Insel wird im Sommer viel gesegelt.",
+          "explanation": "'es' steht im subjektlosen Passiv nur auf Position 1. Ist sie mit 'Auf der Insel' besetzt, fällt 'es' weg."
+        },
+        {
+          "id": "l25t15",
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler. Ändere nur ein Wort und behalte das Präsens.",
+          "prompt": "Nach einer Lösung für den Parkplatzmangel werden im Kurort seit Langem gesucht.",
+          "solution": "Nach einer Lösung für den Parkplatzmangel wird im Kurort seit Langem gesucht.",
+          "explanation": "'nach einer Lösung' ist Präpositionalobjekt; der Satz hat kein Subjekt → immer 3. Person Singular: 'wird'."
+        },
+        {
+          "id": "l25t16",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz im Perfekt Passiv. Beginne mit „Beim Umbau der Bibliothek“.",
+          "prompt": "Baue den Satz aus den Satzgliedern.",
+          "scrambleChunks": [
+            "eingegangen",
+            "auf die Wünsche der Leser kaum",
+            "worden",
+            "Beim Umbau der Bibliothek",
+            "ist"
+          ],
+          "solution": "Beim Umbau der Bibliothek ist auf die Wünsche der Leser kaum eingegangen worden.",
+          "explanation": "'ist' auf Position 2, am Satzende Partizip II + 'worden'. 'auf die Wünsche' ist Präpositionalobjekt → Singular, trotz Plural."
+        }
+      ]
+    },
+    {
+      "lektionId": "b2-m9-l26",
+      "level": "B2",
+      "modulNumber": 9,
+      "lektionNumber": 26,
+      "title": "Das liebe Geld",
+      "grammarFocus": [
+        "Verben und Wendungen rund ums Geld: mit etwas auskommen, über etwas verfügen, sich etwas anschaffen, etwas finanzieren; Bank: ein Konto eröffnen, einen Kredit aufnehmen, einen Dauerauftrag einrichten, eine Karte sperren lassen",
+        "Präfixverben mit zahlen: ab-, aus-, ein-, nach-, zurückzahlen (trennbar: zahlt … zurück, zurückzuzahlen, zurückgezahlt) vs. bezahlen (untrennbar: bezahlt, zu bezahlen)",
+        "Redemittel für eine schriftliche Beschwerde (… hat nicht meinen Erwartungen entsprochen; Von … konnte keine Rede sein; Anders als beschrieben …; Ich bitte Sie daher …)"
+      ],
+      "vocabulary": [
+        {
+          "id": "l26v01",
+          "term": "auskommen",
+          "translation": "arreglárselas (con), apañarse",
+          "partOfSpeech": "verb",
+          "preterite": "kam aus",
+          "participle": "ausgekommen",
+          "auxiliary": "sein",
+          "irregular": true,
+          "example": "Während der Ausbildung musste Can mit sehr wenig Geld auskommen."
+        },
+        {
+          "id": "l26v02",
+          "term": "verfügen",
+          "translation": "disponer (de)",
+          "partOfSpeech": "verb",
+          "preterite": "verfügte",
+          "participle": "verfügt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Der Sportverein verfügt über ein kleines Budget für neue Trikots."
+        },
+        {
+          "id": "l26v04",
+          "term": "finanzieren",
+          "translation": "financiar",
+          "partOfSpeech": "verb",
+          "preterite": "finanzierte",
+          "participle": "finanziert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Sie finanziert ihr Masterstudium mit einem Stipendium und einem Minijob."
+        },
+        {
+          "id": "l26v05",
+          "term": "konsumieren",
+          "translation": "consumir",
+          "partOfSpeech": "verb",
+          "preterite": "konsumierte",
+          "participle": "konsumiert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Wer bewusster konsumiert, gibt oft auch weniger Geld aus."
+        },
+        {
+          "id": "l26v06",
+          "term": "abzahlen",
+          "translation": "pagar a plazos, amortizar",
+          "partOfSpeech": "verb",
+          "preterite": "zahlte ab",
+          "participle": "abgezahlt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Das Paar zahlt seine Eigentumswohnung noch zwanzig Jahre lang ab."
+        },
+        {
+          "id": "l26v07",
+          "term": "auszahlen",
+          "translation": "pagar, abonar (a alguien)",
+          "partOfSpeech": "verb",
+          "preterite": "zahlte aus",
+          "participle": "ausgezahlt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Die Versicherung hat den Schaden nach drei Wochen ausgezahlt."
+        },
+        {
+          "id": "l26v08",
+          "term": "nachzahlen",
+          "translation": "pagar la diferencia, pagar a posteriori",
+          "partOfSpeech": "verb",
+          "preterite": "zahlte nach",
+          "participle": "nachgezahlt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Nach der Jahresabrechnung mussten wir für den Strom 90 Euro nachzahlen."
+        },
+        {
+          "id": "l26v09",
+          "term": "zurückzahlen",
+          "translation": "devolver (dinero)",
+          "partOfSpeech": "verb",
+          "preterite": "zahlte zurück",
+          "participle": "zurückgezahlt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Keine Sorge, ich zahle dir die zwanzig Euro am Freitag zurück."
+        },
+        {
+          "id": "l26v10",
+          "term": "einzahlen",
+          "translation": "ingresar, depositar",
+          "partOfSpeech": "verb",
+          "preterite": "zahlte ein",
+          "participle": "eingezahlt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Jeden Monat zahlt sie einen kleinen Betrag auf das Konto ihrer Tochter ein."
+        },
+        {
+          "id": "l26v11",
+          "term": "eröffnen",
+          "translation": "abrir (una cuenta)",
+          "partOfSpeech": "verb",
+          "preterite": "eröffnete",
+          "participle": "eröffnet",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Für sein erstes Gehalt hat Tomás ein Girokonto eröffnet."
+        },
+        {
+          "id": "l26v12",
+          "term": "das Girokonto",
+          "translation": "la cuenta corriente",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Girokonten",
+          "example": "Ihr Gehalt geht jeden Monat am Ersten auf ihr Girokonto ein."
+        },
+        {
+          "id": "l26v13",
+          "term": "der Dauerauftrag",
+          "translation": "la orden de pago permanente",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Daueraufträge",
+          "example": "Den Beitrag für das Fitnessstudio überweise ich per Dauerauftrag."
+        },
+        {
+          "id": "l26v14",
+          "term": "der Kredit",
+          "translation": "el crédito, el préstamo",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Kredite",
+          "example": "Für die neue Heizung haben die Nachbarn einen Kredit aufgenommen."
+        },
+        {
+          "id": "l26v15",
+          "term": "der Dispokredit",
+          "translation": "el descubierto autorizado",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Dispokredite",
+          "example": "Wer seinen Dispokredit lange nutzt, zahlt dafür hohe Zinsen."
+        },
+        {
+          "id": "l26v16",
+          "term": "der Betrag",
+          "translation": "el importe, la cantidad",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Beträge",
+          "example": "Bitte überweisen Sie den offenen Betrag innerhalb von zehn Tagen."
+        },
+        {
+          "id": "l26v17",
+          "term": "das Haushaltsbuch",
+          "translation": "el libro de cuentas domésticas",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Haushaltsbücher",
+          "example": "Seit Januar schreibt Malte alle Ausgaben in ein Haushaltsbuch."
+        },
+        {
+          "id": "l26v18",
+          "term": "sparsam",
+          "translation": "ahorrador, económico",
+          "partOfSpeech": "adjective",
+          "example": "Meine Großmutter war sehr sparsam und hat nie etwas weggeworfen."
+        },
+        {
+          "id": "l26v19",
+          "term": "knapp",
+          "translation": "escaso, justo",
+          "partOfSpeech": "adjective",
+          "example": "Kurz vor dem Monatsende wird das Geld in vielen Familien knapp."
+        },
+        {
+          "id": "l26v20",
+          "term": "der Luxus",
+          "translation": "el lujo",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "example": "Ein eigenes Auto ist für viele Studierende ein Luxus."
+        },
+        {
+          "id": "l26v21",
+          "term": "die Anschaffung",
+          "translation": "la adquisición, la compra",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Anschaffungen",
+          "example": "Ein neuer Kühlschrank ist eine Anschaffung, die man gut planen sollte."
+        },
+        {
+          "id": "l26v22",
+          "term": "die Rate",
+          "translation": "el plazo, la cuota",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Raten",
+          "example": "Den neuen Fernseher bezahlen wir in zwölf monatlichen Raten."
+        },
+        {
+          "id": "l26v23",
+          "term": "der Zins",
+          "translation": "el interés",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Zinsen",
+          "example": "Für Geld auf dem Sparbuch bekommt man zurzeit kaum Zinsen."
+        },
+        {
+          "id": "l26v24",
+          "term": "enttäuscht",
+          "translation": "decepcionado",
+          "partOfSpeech": "adjective",
+          "example": "Die Kinder waren enttäuscht, weil das Konzert abgesagt wurde."
+        },
+        {
+          "id": "l26v25",
+          "term": "die Rückerstattung",
+          "translation": "el reembolso",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Rückerstattungen",
+          "example": "Nach der Rücksendung bekam ich die Rückerstattung innerhalb einer Woche."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l26e01",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Verb.",
+            "prompt": "Ich bin gerade nach Leipzig gezogen und möchte bei Ihnen ein Girokonto ___.",
+            "options": [
+              "eröffnen",
+              "aufnehmen",
+              "abzahlen",
+              "überweisen"
+            ],
+            "solution": "eröffnen",
+            "hint": "Ein neues Konto beginnt man bei der Bank.",
+            "explanation": "Man 'eröffnet' ein Konto. Einen Kredit 'nimmt man auf', abzahlen und überweisen passen zu Schulden bzw. Geldbeträgen, nicht zu einem Konto."
+          },
+          {
+            "id": "l26e02",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Verb.",
+            "prompt": "Für den Umbau unseres Hauses müssen wir leider einen Kredit ___.",
+            "options": [
+              "aufnehmen",
+              "eröffnen",
+              "einzahlen",
+              "sperren"
+            ],
+            "solution": "aufnehmen",
+            "hint": "Wie sagt man, wenn man sich Geld von der Bank leiht?",
+            "explanation": "Feste Verbindung: einen Kredit aufnehmen. Ein Konto eröffnet man, Geld zahlt man ein, eine Karte sperrt man."
+          },
+          {
+            "id": "l26e03",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Nomen.",
+            "prompt": "Damit ich die Miete nicht jeden Monat selbst überweisen muss, richte ich einen ___ ein.",
+            "options": [
+              "Dauerauftrag",
+              "Kredit",
+              "Betrag",
+              "Dispokredit"
+            ],
+            "solution": "Dauerauftrag",
+            "hint": "Gesucht ist eine regelmäßige, automatische Überweisung.",
+            "explanation": "Ein Dauerauftrag überweist regelmäßig denselben Betrag. Einen Kredit nimmt man auf, ein Dispokredit wird einem eingeräumt."
+          },
+          {
+            "id": "l26e04",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das fehlende Verb.",
+            "prompt": "Meine Geldbörse mit allen Karten ist weg! Ich muss sofort meine Bankkarte sperren ___.",
+            "solution": "lassen",
+            "hint": "Nicht du selbst, sondern die Bank macht das für dich.",
+            "explanation": "'etwas sperren lassen': Die Bank sperrt die Karte im Auftrag des Kunden. 'lassen' steht als Infinitiv am Satzende."
+          },
+          {
+            "id": "l26e05",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Ergänzung.",
+            "prompt": "Mit 900 Euro im Monat kommt Jonas kaum ___.",
+            "options": [
+              "aus",
+              "an",
+              "vor",
+              "um"
+            ],
+            "solution": "aus",
+            "hint": "Das Verb heißt 'mit etwas …kommen' = das Geld reicht.",
+            "explanation": "'mit etwas auskommen' = mit dem Geld reichen. 'ankommen', 'vorkommen' und 'umkommen' haben ganz andere Bedeutungen."
+          },
+          {
+            "id": "l26e06",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Präposition.",
+            "prompt": "Das kleine Theater verfügt nur ___ wenig Geld für neue Kostüme.",
+            "options": [
+              "über",
+              "mit",
+              "von",
+              "auf"
+            ],
+            "solution": "über",
+            "hint": "verfügen + Präposition + Akkusativ.",
+            "explanation": "Es heißt 'über etwas (Akk.) verfügen'. 'mit' gehört zu 'auskommen mit', 'von' und 'auf' passen nicht zu 'verfügen'."
+          },
+          {
+            "id": "l26e07",
+            "type": "multiple-choice",
+            "instruction": "Was bedeutet der Satz?",
+            "prompt": "Die Schule hat für alle Klassen neue Tablets angeschafft.",
+            "options": [
+              "Die Schule hat neue Tablets gekauft.",
+              "Die Schule hat neue Tablets verkauft.",
+              "Die Schule hat neue Tablets ausgeliehen.",
+              "Die Schule hat neue Tablets repariert."
+            ],
+            "solution": "Die Schule hat neue Tablets gekauft.",
+            "hint": "'anschaffen' meint größere oder längerfristige Käufe.",
+            "explanation": "'etwas anschaffen' = etwas (meist Größeres) kaufen, um es länger zu benutzen. Verkaufen, ausleihen oder reparieren ist etwas anderes."
+          },
+          {
+            "id": "l26e08",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Verb.",
+            "prompt": "Viele Studierende ___ ihr Studium mit einem Nebenjob.",
+            "options": [
+              "finanzieren",
+              "konsumieren",
+              "verfügen",
+              "auskommen"
+            ],
+            "solution": "finanzieren",
+            "hint": "Wer bezahlt die Kosten für das Studium?",
+            "explanation": "'etwas finanzieren' = die Kosten tragen. 'konsumieren' heißt verbrauchen; 'verfügen' und 'auskommen' brauchen eine Präposition (über, mit)."
+          },
+          {
+            "id": "l26e09",
+            "type": "multiple-choice",
+            "instruction": "Ergänze die Beschwerde.",
+            "prompt": "Leider hat das gelieferte Sofa überhaupt nicht meinen Erwartungen ___.",
+            "options": [
+              "entsprochen",
+              "entsprechen",
+              "erfüllt",
+              "gefallen"
+            ],
+            "solution": "entsprochen",
+            "hint": "Nach 'hat' brauchst du ein Partizip II; das Verb verlangt den Dativ.",
+            "explanation": "'einer Sache (Dat.) entsprechen', Perfekt: hat … entsprochen. 'erfüllt' bräuchte den Akkusativ (meine Erwartungen erfüllt), 'entsprechen' ist kein Partizip."
+          },
+          {
+            "id": "l26e10",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das fehlende Nomen der festen Wendung.",
+            "prompt": "Von einer schnellen Lieferung konnte keine ___ sein: Das Paket kam erst nach fünf Wochen.",
+            "solution": "Rede",
+            "hint": "Feste Wendung: Von … kann keine … sein.",
+            "explanation": "'Von etwas kann keine Rede sein' = das stimmt überhaupt nicht. Die Wendung ist fest; 'Sprache' oder 'Frage' passen hier nicht."
+          },
+          {
+            "id": "l26e11",
+            "type": "multiple-choice",
+            "instruction": "Ergänze die Beschwerde.",
+            "prompt": "Im Onlineshop stand 'mit beleuchteter Tastatur'. ___ beschrieben, hat der Laptop jedoch keine Beleuchtung.",
+            "options": [
+              "Anders als",
+              "Wie",
+              "Als",
+              "Genau wie"
+            ],
+            "solution": "Anders als",
+            "hint": "Die Wirklichkeit weicht von der Beschreibung ab.",
+            "explanation": "'Anders als beschrieben' leitet eine Abweichung von der Beschreibung ein. 'Wie' und 'Genau wie' bedeuten Übereinstimmung, 'Als beschrieben' ist ungrammatisch."
+          },
+          {
+            "id": "l26e12",
+            "type": "multiple-choice",
+            "instruction": "Ergänze den Schlusssatz der Beschwerde.",
+            "prompt": "Ich bitte Sie ___, mir den Kaufpreis bis Ende des Monats zu erstatten.",
+            "options": [
+              "daher",
+              "obwohl",
+              "weil",
+              "sondern"
+            ],
+            "solution": "daher",
+            "hint": "Gesucht ist ein Adverb, das eine Folge ausdrückt.",
+            "explanation": "'daher' ist ein Adverb und zieht die Folgerung aus den genannten Mängeln. 'obwohl' und 'weil' leiten Nebensätze ein, 'sondern' braucht ein 'nicht'."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l26m01",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze den zu-Infinitiv von 'zurückzahlen'.",
+            "prompt": "Wir haben beschlossen, das Darlehen meiner Eltern in kleinen Raten ___.",
+            "solution": "zurückzuzahlen",
+            "hint": "Bei trennbaren Verben steht 'zu' zwischen Präfix und Verb.",
+            "explanation": "Trennbares Verb: zurück-zu-zahlen, in einem Wort. 'zu zurückzahlen' oder 'zurück zu zahlen' sind falsch."
+          },
+          {
+            "id": "l26m02",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Partizip II von 'auszahlen'.",
+            "prompt": "Die Versicherung hat mir die Entschädigung endlich ___.",
+            "solution": "ausgezahlt",
+            "hint": "Trennbar: Wo steht das -ge-?",
+            "explanation": "Bei trennbaren Verben steht -ge- zwischen Präfix und Stamm: aus-ge-zahlt. 'geauszahlt' ist falsch."
+          },
+          {
+            "id": "l26m03",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze 'nachzahlen' im Präsens.",
+            "prompt": "Ich ärgere mich, weil ich für die Heizung 150 Euro ___.",
+            "solution": "nachzahle",
+            "hint": "Im Nebensatz steht das Verb am Ende.",
+            "explanation": "Im Nebensatz wird das trennbare Verb nicht getrennt: …, weil ich … nachzahle. 'zahle … nach' gilt nur im Hauptsatz."
+          },
+          {
+            "id": "l26m04",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Partizip II von 'bezahlen'.",
+            "prompt": "Hast du die Handwerker für die neuen Fenster schon ___?",
+            "solution": "bezahlt",
+            "hint": "Ist 'be-' trennbar?",
+            "explanation": "'be-' ist ein untrennbares Präfix, deshalb gibt es kein -ge-: bezahlt. 'gebezahlt' ist falsch."
+          },
+          {
+            "id": "l26m05",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze den zu-Infinitiv von 'bezahlen'.",
+            "prompt": "In der Großstadt ist es für junge Familien schwer, die hohe Miete pünktlich ___.",
+            "solution": "zu bezahlen",
+            "hint": "Untrennbar: Wo steht 'zu'?",
+            "explanation": "Bei untrennbaren Verben steht 'zu' getrennt vor dem Verb: zu bezahlen. 'bezuzahlen' gibt es nicht."
+          },
+          {
+            "id": "l26m06",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Partizip II von 'anschaffen'.",
+            "prompt": "Letzten Herbst haben wir uns endlich ein Lastenrad ___.",
+            "solution": "angeschafft",
+            "hint": "Trennbares Präfix 'an-'.",
+            "explanation": "'anschaffen' ist trennbar: an-ge-schafft. Das Reflexivpronomen 'uns' (Dativ) steht schon im Satz."
+          },
+          {
+            "id": "l26m07",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Partizip II von 'einzahlen'.",
+            "prompt": "Gestern habe ich mein ganzes Trinkgeld auf das Sparkonto ___.",
+            "solution": "eingezahlt",
+            "hint": "Trennbares Präfix 'ein-'.",
+            "explanation": "Trennbares Verb: ein-ge-zahlt. 'geeinzahlt' oder 'einzahlt' sind falsch."
+          },
+          {
+            "id": "l26m08",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz im Präsens. Beginne mit 'Seit dem Frühjahr'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "ab",
+              "Seit dem Frühjahr",
+              "sie",
+              "ihren Kredit in Raten",
+              "zahlt"
+            ],
+            "solution": "Seit dem Frühjahr zahlt sie ihren Kredit in Raten ab.",
+            "hint": "Satzklammer: Verbstamm auf Position 2, Präfix ans Ende.",
+            "explanation": "Im Hauptsatz wird 'abzahlen' getrennt: 'zahlt' auf Position 2, 'ab' am Satzende. Das Pronomen 'sie' steht direkt nach dem Verb."
+          },
+          {
+            "id": "l26m09",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Ich weiß nicht,'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "auskommen",
+              "Ich weiß nicht,",
+              "sollen",
+              "wir",
+              "mit diesem Budget",
+              "wie"
+            ],
+            "solution": "Ich weiß nicht, wie wir mit diesem Budget auskommen sollen.",
+            "hint": "Im indirekten Fragesatz stehen die Verben am Ende.",
+            "explanation": "Im Nebensatz mit 'wie' steht das Modalverb 'sollen' ganz am Ende, davor der Infinitiv 'auskommen' – ungetrennt."
+          },
+          {
+            "id": "l26m10",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Da'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "renoviert",
+              "Da die Gemeinde",
+              "verfügt,",
+              "wird",
+              "über genug Geld",
+              "das Schwimmbad"
+            ],
+            "solution": "Da die Gemeinde über genug Geld verfügt, wird das Schwimmbad renoviert.",
+            "hint": "Erst der Nebensatz mit Verb am Ende, dann das Verb des Hauptsatzes.",
+            "explanation": "'verfügen über' + Akk.; 'verfügt' steht im da-Satz am Ende. Der Nebensatz besetzt Position 1, darum folgt direkt 'wird'."
+          },
+          {
+            "id": "l26m11",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz aus einer Beschwerde. Beginne mit 'Besonders enttäuscht'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "ich",
+              "von der beschädigten Verpackung",
+              "war",
+              "Besonders enttäuscht"
+            ],
+            "solution": "Besonders enttäuscht war ich von der beschädigten Verpackung.",
+            "hint": "Position 1 ist besetzt – wohin kommt das Verb?",
+            "explanation": "Redemittel 'Besonders enttäuscht war ich von …': Das Adjektiv steht betont im Vorfeld, danach Verb und Subjekt."
+          },
+          {
+            "id": "l26m12",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz aus einer Beschwerde. Beginne mit 'Ich muss'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "unvollständig",
+              "Ich muss leider",
+              "dass",
+              "feststellen,",
+              "war",
+              "die Lieferung"
+            ],
+            "solution": "Ich muss leider feststellen, dass die Lieferung unvollständig war.",
+            "hint": "Erst der Hauptsatz bis zum Komma, dann der dass-Satz mit Verb am Ende.",
+            "explanation": "Redemittel 'Ich muss leider feststellen, dass …': 'feststellen' schließt den Hauptsatz, im dass-Satz steht 'war' am Ende."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l26h01",
+            "type": "error-correction",
+            "instruction": "Korrigiere den Fehler. Ändere nur ein Wort und schreibe den ganzen Satz.",
+            "prompt": "Ich habe die Rechnung für den Zahnarzt schon gebezahlt.",
+            "solution": "Ich habe die Rechnung für den Zahnarzt schon bezahlt.",
+            "hint": "Kann man 'be-' abtrennen?",
+            "explanation": "'bezahlen' ist untrennbar und bildet das Partizip ohne -ge-: bezahlt."
+          },
+          {
+            "id": "l26h02",
+            "type": "error-correction",
+            "instruction": "Korrigiere den Fehler. Schreibe den ganzen Satz.",
+            "prompt": "Er hat versucht, den Kredit früher zurück zu zahlen.",
+            "solution": "Er hat versucht, den Kredit früher zurückzuzahlen.",
+            "hint": "Wie schreibt man den zu-Infinitiv trennbarer Verben?",
+            "explanation": "Bei trennbaren Verben schreibt man den zu-Infinitiv in einem Wort: zurückzuzahlen."
+          },
+          {
+            "id": "l26h03",
+            "type": "error-correction",
+            "instruction": "Korrigiere den Fehler. Ändere nur ein Wort und schreibe den ganzen Satz.",
+            "prompt": "Wir müssen für das Wasser noch 50 Euro nachgezahlen.",
+            "solution": "Wir müssen für das Wasser noch 50 Euro nachzahlen.",
+            "hint": "Nach einem Modalverb steht der Infinitiv.",
+            "explanation": "Nach 'müssen' folgt der Infinitiv 'nachzahlen', kein Partizip. 'nachgezahlt' bräuchte 'haben' als Hilfsverb."
+          },
+          {
+            "id": "l26h04",
+            "type": "error-correction",
+            "instruction": "Korrigiere den Fehler. Ändere nur ein Wort und schreibe den ganzen Satz.",
+            "prompt": "Die Stiftung verfügt mit ein großes Vermögen.",
+            "solution": "Die Stiftung verfügt über ein großes Vermögen.",
+            "hint": "Welche Präposition gehört zu 'verfügen'?",
+            "explanation": "Es heißt 'über etwas (Akk.) verfügen'. 'mit' gehört zu 'auskommen mit + Dativ'."
+          },
+          {
+            "id": "l26h05",
+            "type": "error-correction",
+            "instruction": "Korrigiere die Wortstellung. Die Reihenfolge der übrigen Satzglieder bleibt.",
+            "prompt": "Ich auskomme mit meinem Gehalt gut.",
+            "solution": "Ich komme mit meinem Gehalt gut aus.",
+            "hint": "Trennbares Verb im Hauptsatz: Satzklammer.",
+            "explanation": "Im Hauptsatz wird 'auskommen' getrennt: 'komme' auf Position 2, 'aus' am Satzende."
+          },
+          {
+            "id": "l26h06",
+            "type": "error-correction",
+            "instruction": "Korrigiere den Fehler. Ändere nur ein Wort und schreibe den ganzen Satz.",
+            "prompt": "Leider hat die Reparatur nicht meinen Erwartungen entsprecht.",
+            "solution": "Leider hat die Reparatur nicht meinen Erwartungen entsprochen.",
+            "hint": "'entsprechen' ist unregelmäßig.",
+            "explanation": "'entsprechen' bildet das Partizip stark: entsprochen (wie sprechen – gesprochen). 'entsprecht' ist eine Präsensform."
+          },
+          {
+            "id": "l26h07",
+            "type": "error-correction",
+            "instruction": "Korrigiere den Fehler. Ändere nur ein Wort und schreibe den ganzen Satz.",
+            "prompt": "Von einem freundlichen Service konnte keine Sprache sein.",
+            "solution": "Von einem freundlichen Service konnte keine Rede sein.",
+            "hint": "Die Wendung ist fest.",
+            "explanation": "Die feste Wendung lautet 'Von etwas kann keine Rede sein'. 'Sprache' passt nicht, auch wenn es ähnlich klingt."
+          },
+          {
+            "id": "l26h08",
+            "type": "targeted-transformation",
+            "instruction": "Bilde einen Satz im Präsens. Beginne mit 'Jeden Monat' und behalte die Reihenfolge der übrigen Satzteile.",
+            "prompt": "Jeden Monat / ich / 100 Euro / auf mein Sparkonto / einzahlen",
+            "solution": "Jeden Monat zahle ich 100 Euro auf mein Sparkonto ein.",
+            "hint": "Verb auf Position 2, Präfix ans Ende.",
+            "explanation": "'einzahlen' wird im Hauptsatz getrennt: 'zahle' nach dem Vorfeld, dann das Subjekt, 'ein' schließt den Satz."
+          },
+          {
+            "id": "l26h09",
+            "type": "targeted-transformation",
+            "instruction": "Formuliere den Satz mit 'Es ist wichtig, …' und einem zu-Infinitiv um. Die Reihenfolge der übrigen Satzglieder bleibt.",
+            "prompt": "Man muss Schulden rechtzeitig zurückzahlen.",
+            "solution": "Es ist wichtig, Schulden rechtzeitig zurückzuzahlen.",
+            "hint": "Das 'man' fällt weg; wohin kommt 'zu'?",
+            "explanation": "Im zu-Infinitiv steht 'zu' zwischen Präfix und Stamm: zurückzuzahlen. 'man' und 'muss' entfallen."
+          },
+          {
+            "id": "l26h10",
+            "type": "targeted-transformation",
+            "instruction": "Setze den Satz ins Perfekt.",
+            "prompt": "Der Arbeitgeber zahlt das Weihnachtsgeld im November aus.",
+            "solution": "Der Arbeitgeber hat das Weihnachtsgeld im November ausgezahlt.",
+            "hint": "Hilfsverb 'haben' + Partizip II am Ende.",
+            "explanation": "Perfekt mit 'haben'; das Partizip des trennbaren Verbs lautet ausgezahlt und steht am Satzende."
+          },
+          {
+            "id": "l26h11",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde die Sätze mit 'weil'. Beginne mit 'Sie ist erleichtert,'. Die Reihenfolge der übrigen Satzglieder bleibt.",
+            "prompt": "Sie ist erleichtert. Sie zahlt in diesem Monat ihren Kredit vollständig ab.",
+            "solution": "Sie ist erleichtert, weil sie in diesem Monat ihren Kredit vollständig abzahlt.",
+            "hint": "Im Nebensatz steht das Verb am Ende – getrennt oder nicht?",
+            "explanation": "Im weil-Satz steht das Verb am Ende, und das trennbare Verb bleibt zusammen: abzahlt."
+          },
+          {
+            "id": "l26h12",
+            "type": "targeted-transformation",
+            "instruction": "Formuliere die Forderung höflich mit 'Ich bitte Sie daher, …' und einem zu-Infinitiv.",
+            "prompt": "Erstatten Sie mir den Kaufpreis!",
+            "solution": "Ich bitte Sie daher, mir den Kaufpreis zu erstatten.",
+            "hint": "'erstatten' ist untrennbar.",
+            "explanation": "Redemittel 'Ich bitte Sie daher, … zu …': Der Imperativ wird zum zu-Infinitiv am Ende; bei 'erstatten' steht 'zu' getrennt davor."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l26t01",
+          "type": "multiple-choice",
+          "instruction": "Wähle die passende Präposition.",
+          "prompt": "Seit der Kürzung seiner Rente kommt Herr Albers kaum noch ___ seinem Geld aus.",
+          "options": [
+            "mit",
+            "über",
+            "von",
+            "an"
+          ],
+          "solution": "mit",
+          "explanation": "'auskommen mit + Dativ' (mit seinem Geld). 'über' gehört zu 'verfügen über + Akkusativ'."
+        },
+        {
+          "id": "l26t02",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze die fehlende Präposition.",
+          "prompt": "Nach der Erbschaft verfügte der junge Mann plötzlich ___ mehr Geld, als er ausgeben konnte.",
+          "solution": "über",
+          "explanation": "'verfügen über + Akkusativ' = etwas zur Verfügung haben. 'mit' passt zu 'auskommen', nicht zu 'verfügen'."
+        },
+        {
+          "id": "l26t03",
+          "type": "cloze-conjugation",
+          "instruction": "Setze „zurückzahlen“ im Präsens ein. Schreibe nur das fehlende Wort.",
+          "prompt": "Die Firma ___ den Kunden die doppelt abgebuchte Gebühr bis Monatsende zurück.",
+          "solution": "zahlt",
+          "explanation": "Trennbares Verb im Hauptsatz: 'zahlt' auf Position 2, 'zurück' am Satzende (Satzklammer)."
+        },
+        {
+          "id": "l26t04",
+          "type": "cloze-conjugation",
+          "instruction": "Setze „abzahlen“ als zu-Infinitiv ein.",
+          "prompt": "Statt in den Urlaub zu fahren, nutzt Lena ihr Weihnachtsgeld, um die Kreditkartenschulden ___.",
+          "solution": "abzuzahlen",
+          "explanation": "Bei trennbaren Verben steht 'zu' zwischen Präfix und Verb: 'abzuzahlen', nicht 'zu abzahlen'."
+        },
+        {
+          "id": "l26t05",
+          "type": "cloze-conjugation",
+          "instruction": "Setze „auszahlen“ als Partizip II ein.",
+          "prompt": "Weil die Firma Insolvenz anmelden musste, wurden die Löhne für März nie ___.",
+          "solution": "ausgezahlt",
+          "explanation": "Trennbares Verb: '-ge-' steht zwischen Präfix und Stamm: 'ausgezahlt', nicht 'geauszahlt'."
+        },
+        {
+          "id": "l26t06",
+          "type": "multiple-choice",
+          "instruction": "Welche Form ist richtig?",
+          "prompt": "Vergiss nicht, die Handyrechnung bis Freitag ___.",
+          "options": [
+            "zu bezahlen",
+            "bezuzahlen",
+            "bezahlen zu",
+            "zubezahlen"
+          ],
+          "solution": "zu bezahlen",
+          "explanation": "'bezahlen' ist untrennbar ('be-' ist kein Präfix zum Abtrennen), also steht 'zu' davor: 'zu bezahlen'."
+        },
+        {
+          "id": "l26t07",
+          "type": "multiple-choice",
+          "instruction": "Welches Verb passt?",
+          "prompt": "Weil ihre Steuervorauszahlungen zu niedrig waren, muss die Selbstständige jetzt 600 Euro ___.",
+          "options": [
+            "nachzahlen",
+            "auszahlen",
+            "einzahlen",
+            "erstatten"
+          ],
+          "solution": "nachzahlen",
+          "explanation": "'nachzahlen' = einen fehlenden Betrag später zahlen. 'auszahlen'/'erstatten' tut das Finanzamt; 'einzahlen' heißt Geld aufs Konto bringen."
+        },
+        {
+          "id": "l26t08",
+          "type": "multiple-choice",
+          "instruction": "Welches Verb passt zu „einen Kredit“?",
+          "prompt": "Bevor die Zahnärztin ihre eigene Praxis gründen konnte, musste sie einen Kredit über 200.000 Euro ___.",
+          "options": [
+            "aufnehmen",
+            "eröffnen",
+            "einrichten",
+            "sperren lassen"
+          ],
+          "solution": "aufnehmen",
+          "explanation": "Feste Wendung: einen Kredit aufnehmen. Ein Konto eröffnet man, einen Dauerauftrag richtet man ein, eine Karte lässt man sperren."
+        },
+        {
+          "id": "l26t09",
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler. Schreibe den ganzen Satz.",
+          "prompt": "Wir haben das geliehene Geld pünktlich gezurückzahlt.",
+          "solution": "Wir haben das geliehene Geld pünktlich zurückgezahlt.",
+          "explanation": "Trennbares Verb: '-ge-' kommt nach dem Präfix: 'zurückgezahlt'. Am Wortanfang steht es nur bei nicht trennbaren Verben."
+        },
+        {
+          "id": "l26t10",
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler. Schreibe den ganzen Satz.",
+          "prompt": "Die Reparatur ist bereits gebezahlt worden.",
+          "solution": "Die Reparatur ist bereits bezahlt worden.",
+          "explanation": "Verben mit untrennbarem 'be-' bilden das Partizip ohne 'ge-': 'bezahlt'."
+        },
+        {
+          "id": "l26t11",
+          "type": "targeted-transformation",
+          "instruction": "Beginne mit „Der Verein plant, …“ und verwende den zu-Infinitiv. Die übrigen Satzglieder behalten ihre Reihenfolge.",
+          "prompt": "Der Verein zahlt die Spenden vom Sommerfest nächste Woche auf das Vereinskonto ein.",
+          "solution": "Der Verein plant, die Spenden vom Sommerfest nächste Woche auf das Vereinskonto einzuzahlen.",
+          "explanation": "zu-Infinitiv am Ende, 'zu' zwischen Präfix und Verb: 'einzuzahlen'. Das Subjekt fällt im Infinitivsatz weg."
+        },
+        {
+          "id": "l26t12",
+          "type": "targeted-transformation",
+          "instruction": "Beginne mit „Die Kundin hofft, dass …“. Die übrigen Satzglieder behalten ihre Reihenfolge.",
+          "prompt": "Die Bank zahlt den Kredit morgen aus.",
+          "solution": "Die Kundin hofft, dass die Bank den Kredit morgen auszahlt.",
+          "explanation": "Im Nebensatz steht das Verb am Ende, und das Präfix wird nicht abgetrennt: 'auszahlt', nicht 'zahlt … aus'."
+        },
+        {
+          "id": "l26t13",
+          "type": "multiple-choice",
+          "instruction": "Ergänze die Beschwerde.",
+          "prompt": "Das gebuchte Ferienhaus hat ___ in keiner Weise entsprochen.",
+          "options": [
+            "unseren Erwartungen",
+            "unsere Erwartungen",
+            "unserer Erwartungen",
+            "unseren Erwartung"
+          ],
+          "solution": "unseren Erwartungen",
+          "explanation": "'entsprechen' verlangt den Dativ: 'unseren Erwartungen' (Dativ Plural mit -n). 'unsere Erwartungen' wäre Akkusativ."
+        },
+        {
+          "id": "l26t14",
+          "type": "multiple-choice",
+          "instruction": "Ergänze die Beschwerde.",
+          "prompt": "Ich ___ Sie daher, mir bis zum 15. März ein funktionierendes Ersatzgerät zuzuschicken.",
+          "options": [
+            "bitte",
+            "fordere",
+            "verlange",
+            "erwarte"
+          ],
+          "solution": "bitte",
+          "explanation": "'jemanden bitten, etwas zu tun' passt. 'fordern' bräuchte 'auf' (Ich fordere Sie auf, …); 'verlangen' und 'erwarten' gehen nicht mit 'Sie' + zu-Infinitiv."
+        },
+        {
+          "id": "l26t15",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze das fehlende Wort der Beschwerde-Wendung.",
+          "prompt": "___ als auf der Website beschrieben, war das Mietfahrrad weder neu noch frisch gewartet.",
+          "solution": "Anders",
+          "explanation": "Redemittel: 'Anders als beschrieben …' stellt Versprechen und Wirklichkeit gegenüber. 'Anders' steht mit 'als'."
+        },
+        {
+          "id": "l26t16",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz für eine Beschwerde. Beginne mit „Von“.",
+          "prompt": "Baue den Satz aus den Satzgliedern.",
+          "scrambleChunks": [
+            "sein",
+            "keine Rede",
+            "Von",
+            "leider",
+            "einem ruhigen Hotelzimmer",
+            "konnte"
+          ],
+          "solution": "Von einem ruhigen Hotelzimmer konnte leider keine Rede sein.",
+          "explanation": "Wendung: 'Von + Dativ kann keine Rede sein' = das gab es gar nicht. Modalverb auf Position 2, 'sein' am Ende."
+        }
+      ]
+    },
+    {
+      "lektionId": "b2-m9-l27",
+      "level": "B2",
+      "modulNumber": 9,
+      "lektionNumber": 27,
+      "title": "Fachkräfte und Start-ups",
+      "grammarFocus": [
+        "Konzessive Angaben: Hauptsatz + trotzdem/dennoch ↔ Nebensatz mit obwohl/auch wenn ↔ trotz + Genitiv",
+        "Konzessiv mit Präposition und mit wobei: auch/selbst bei + Dativ (Auch bei höherem Gehalt …), wobei als einschränkender Nebensatz",
+        "Wortschatz Fachkräfte und Start-ups: einer Krise gegensteuern, ein Problem eindämmen, nachrücken, eine Idee umsetzen, das Eigenkapital, lukrativ"
+      ],
+      "vocabulary": [
+        {
+          "id": "l27v01",
+          "term": "der Fachkräftemangel",
+          "translation": "la escasez de personal cualificado",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "example": "Der Fachkräftemangel trifft kleine Handwerksbetriebe besonders hart."
+        },
+        {
+          "id": "l27v02",
+          "term": "die Fachkraft",
+          "translation": "el/la profesional cualificado/a",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Fachkräfte",
+          "example": "Für die neue Station sucht die Klinik zehn erfahrene Fachkräfte."
+        },
+        {
+          "id": "l27v03",
+          "term": "der Quereinsteiger",
+          "translation": "la persona que cambia de sector profesional",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Quereinsteiger",
+          "example": "Als Quereinsteiger kam der frühere Koch zur Softwareentwicklung."
+        },
+        {
+          "id": "l27v04",
+          "term": "das Betriebsklima",
+          "translation": "el ambiente laboral",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "example": "Seit die neue Leiterin da ist, hat sich das Betriebsklima deutlich verbessert."
+        },
+        {
+          "id": "l27v05",
+          "term": "die Weiterbildung",
+          "translation": "la formación continua",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Weiterbildungen",
+          "example": "Die Firma übernimmt die Kosten für jede Weiterbildung, die zur Stelle passt."
+        },
+        {
+          "id": "l27v06",
+          "term": "der Engpass",
+          "translation": "el cuello de botella, la escasez",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Engpässe",
+          "example": "Wegen eines Engpasses bei Rettungsschwimmern schließen manche Freibäder schon am Nachmittag."
+        },
+        {
+          "id": "l27v07",
+          "term": "nachrücken",
+          "translation": "ocupar el lugar de otro, suceder",
+          "partOfSpeech": "verb",
+          "preterite": "rückte nach",
+          "participle": "nachgerückt",
+          "auxiliary": "sein",
+          "irregular": false,
+          "example": "Wenn die Meisterin in Rente geht, rückt ihr bester Geselle auf ihre Position nach."
+        },
+        {
+          "id": "l27v08",
+          "term": "gegensteuern",
+          "translation": "contrarrestar, tomar medidas en contra",
+          "partOfSpeech": "verb",
+          "preterite": "steuerte gegen",
+          "participle": "gegengesteuert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Die Region will der Abwanderung junger Leute mit günstigen Mieten gegensteuern."
+        },
+        {
+          "id": "l27v09",
+          "term": "eindämmen",
+          "translation": "contener, frenar",
+          "partOfSpeech": "verb",
+          "preterite": "dämmte ein",
+          "participle": "eingedämmt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Mit Teilzeitmodellen will die Kita die hohe Fluktuation eindämmen."
+        },
+        {
+          "id": "l27v10",
+          "term": "abwandern",
+          "translation": "emigrar, marcharse",
+          "partOfSpeech": "verb",
+          "preterite": "wanderte ab",
+          "participle": "abgewandert",
+          "auxiliary": "sein",
+          "irregular": false,
+          "example": "Viele gut ausgebildete Ingenieurinnen wandern in Länder mit höheren Gehältern ab."
+        },
+        {
+          "id": "l27v11",
+          "term": "die Zuspitzung",
+          "translation": "el agravamiento",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Zuspitzungen",
+          "example": "Ohne neue Busfahrer droht eine weitere Zuspitzung der Lage im Nahverkehr."
+        },
+        {
+          "id": "l27v12",
+          "term": "die Geschäftsidee",
+          "translation": "la idea de negocio",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Geschäftsideen",
+          "example": "Ihre Geschäftsidee entstand beim Reparieren alter Fahrräder im Hinterhof."
+        },
+        {
+          "id": "l27v13",
+          "term": "scheitern",
+          "translation": "fracasar",
+          "partOfSpeech": "verb",
+          "preterite": "scheiterte",
+          "participle": "gescheitert",
+          "auxiliary": "sein",
+          "irregular": false,
+          "example": "Ihr erster Versuch, einen Onlineshop aufzubauen, scheiterte an fehlenden Kunden."
+        },
+        {
+          "id": "l27v14",
+          "term": "gründen",
+          "translation": "fundar",
+          "partOfSpeech": "verb",
+          "preterite": "gründete",
+          "participle": "gegründet",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Nach dem Studium gründeten die beiden Freundinnen eine kleine Agentur."
+        },
+        {
+          "id": "l27v15",
+          "term": "die Gründerin",
+          "translation": "la fundadora",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Gründerinnen",
+          "example": "Die Gründerin stellt ihr Produkt jeden Monat auf einer anderen Messe vor."
+        },
+        {
+          "id": "l27v16",
+          "term": "das Eigenkapital",
+          "translation": "el capital propio",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "example": "Ohne ausreichendes Eigenkapital geben Banken jungen Firmen selten einen Kredit."
+        },
+        {
+          "id": "l27v17",
+          "term": "das Crowdfunding",
+          "translation": "la microfinanciación colectiva",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "example": "Über Crowdfunding sammelte das Kollektiv genug Geld für die erste Maschine."
+        },
+        {
+          "id": "l27v18",
+          "term": "der Investor",
+          "translation": "el inversor",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Investoren",
+          "example": "Ein Investor aus Leipzig stieg mit einer sechsstelligen Summe ein."
+        },
+        {
+          "id": "l27v19",
+          "term": "sich beteiligen",
+          "translation": "participar",
+          "partOfSpeech": "verb",
+          "preterite": "beteiligte sich",
+          "participle": "sich beteiligt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "An dem neuen Café beteiligen sich auch einige Stammgäste finanziell."
+        },
+        {
+          "id": "l27v20",
+          "term": "der Businessplan",
+          "translation": "el plan de negocio",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Businesspläne",
+          "example": "Bevor die Bank zusagte, musste das Duo einen detaillierten Businessplan vorlegen."
+        },
+        {
+          "id": "l27v21",
+          "term": "das Merkmal",
+          "translation": "la característica",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Merkmale",
+          "example": "Ein typisches Merkmal junger Firmen ist der schnelle Wandel der Aufgaben."
+        },
+        {
+          "id": "l27v22",
+          "term": "der Führungsstil",
+          "translation": "el estilo de liderazgo",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Führungsstile",
+          "example": "Ihr Führungsstil ist ruhig, aber sehr klar."
+        },
+        {
+          "id": "l27v23",
+          "term": "lukrativ",
+          "translation": "lucrativo/a, rentable",
+          "partOfSpeech": "adjective",
+          "example": "Der Verkauf von Ersatzteilen erwies sich als überraschend lukrativ."
+        },
+        {
+          "id": "l27v24",
+          "term": "innovativ",
+          "translation": "innovador/a",
+          "partOfSpeech": "adjective",
+          "example": "Die Jury zeichnete drei besonders innovative Projekte aus der Medizintechnik aus."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l27e01",
+            "type": "multiple-choice",
+            "instruction": "Wähle den passenden Konnektor.",
+            "prompt": "Die Bäckerei zahlt deutlich über Tarif. ___ findet sie kaum Nachwuchs.",
+            "options": [
+              "Trotzdem",
+              "Deshalb",
+              "Obwohl",
+              "Weil"
+            ],
+            "solution": "Trotzdem",
+            "hint": "Der zweite Satz ist ein Hauptsatz und widerspricht der Erwartung.",
+            "explanation": "'Trotzdem' verbindet zwei Hauptsätze konzessiv; das Verb folgt direkt. 'Deshalb' wäre kausal, 'obwohl/weil' leiten Nebensätze ein."
+          },
+          {
+            "id": "l27e02",
+            "type": "multiple-choice",
+            "instruction": "Wähle den passenden Konnektor.",
+            "prompt": "___ das Gehalt attraktiv ist, bleiben in der Pflege viele Stellen unbesetzt.",
+            "options": [
+              "Obwohl",
+              "Weil",
+              "Trotzdem",
+              "Damit"
+            ],
+            "solution": "Obwohl",
+            "hint": "Das Verb 'ist' steht am Ende: Es ist ein Nebensatz mit Gegensatz.",
+            "explanation": "'Obwohl' leitet einen konzessiven Nebensatz ein (Verb am Ende). 'Trotzdem' ist kein Subjunktor; 'weil' und 'damit' passen inhaltlich nicht."
+          },
+          {
+            "id": "l27e03",
+            "type": "multiple-choice",
+            "instruction": "Wähle die richtige Form nach 'trotz'.",
+            "prompt": "Trotz ___ fand die Werkstatt keinen Mechaniker.",
+            "options": [
+              "des guten Verdienstes",
+              "dem guten Verdienst",
+              "den guten Verdienst",
+              "der gute Verdienst"
+            ],
+            "solution": "des guten Verdienstes",
+            "hint": "Welchen Kasus verlangt 'trotz' in der Standardsprache?",
+            "explanation": "'trotz' steht mit Genitiv: des guten Verdienstes. Der Dativ ist nur umgangssprachlich, Akkusativ und Nominativ sind falsch."
+          },
+          {
+            "id": "l27e04",
+            "type": "multiple-choice",
+            "instruction": "Wähle die richtige Form.",
+            "prompt": "Auch ___ Wetter fährt die Gründerin mit dem Lastenrad zu ihren Kunden.",
+            "options": [
+              "bei schlechtem",
+              "bei schlechten",
+              "bei schlechtes",
+              "beim schlechtes"
+            ],
+            "solution": "bei schlechtem",
+            "hint": "'bei' verlangt den Dativ; ohne Artikel trägt das Adjektiv die Endung.",
+            "explanation": "'bei' + Dativ ohne Artikel: schlechtem Wetter (neutrum, starke Endung -em). '-en' wäre nach Artikel, '-es' ist Nominativ/Akkusativ."
+          },
+          {
+            "id": "l27e05",
+            "type": "multiple-choice",
+            "instruction": "Wähle den passenden Konnektor.",
+            "prompt": "Die Firma hat zwölf neue Stellen geschaffen, ___ die meisten nur befristet sind.",
+            "options": [
+              "wobei",
+              "weil",
+              "falls",
+              "damit"
+            ],
+            "solution": "wobei",
+            "hint": "Der Nebensatz schränkt die positive Aussage ein.",
+            "explanation": "'wobei' leitet eine Einschränkung ein: neue Stellen, aber meist befristet. 'weil', 'falls' und 'damit' drücken Grund, Bedingung, Zweck aus."
+          },
+          {
+            "id": "l27e06",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das passende Verb aus dem Wortschatz (nach…) im Präsens.",
+            "prompt": "Vielen Betrieben fehlt Personal, weil zu wenige junge Leute ___.",
+            "solution": "nachrücken",
+            "hint": "Gesucht ist ein trennbares Verb: auf eine frei werdende Stelle folgen.",
+            "explanation": "'nachrücken' = auf einen frei gewordenen Platz folgen. Im weil-Satz steht das trennbare Verb am Ende zusammengeschrieben: nachrücken."
+          },
+          {
+            "id": "l27e07",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Verb.",
+            "prompt": "Die Stadt will dem Ärztemangel auf dem Land ___ und vergibt Stipendien an Medizinstudierende.",
+            "options": [
+              "gegensteuern",
+              "eindämmen",
+              "nachrücken",
+              "umsetzen"
+            ],
+            "solution": "gegensteuern",
+            "hint": "Achte auf den Kasus: 'dem Ärztemangel' ist Dativ.",
+            "explanation": "'gegensteuern' steht mit Dativ: einer Sache gegensteuern. 'eindämmen' und 'umsetzen' brauchen einen Akkusativ, 'nachrücken' passt inhaltlich nicht."
+          },
+          {
+            "id": "l27e08",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Wort.",
+            "prompt": "Für die Gründung ihres Cafés hatte Lena kaum ___, deshalb suchte sie Investoren.",
+            "options": [
+              "Eigenkapital",
+              "Betriebsklima",
+              "Fachkräftemangel",
+              "Führungsstil"
+            ],
+            "solution": "Eigenkapital",
+            "hint": "Es geht um Geld, das man selbst mitbringt.",
+            "explanation": "Das Eigenkapital ist eigenes Geld für eine Gründung; fehlt es, braucht man Investoren. Die anderen Wörter haben nichts mit Geld zu tun."
+          },
+          {
+            "id": "l27e09",
+            "type": "multiple-choice",
+            "instruction": "Welcher Satz ist konzessiv?",
+            "prompt": "Wähle den Satz mit einem Gegensatz zur Erwartung.",
+            "options": [
+              "Obwohl der Laden klein ist, hat er viele Stammkunden.",
+              "Weil der Laden klein ist, hat er wenige Mitarbeiter.",
+              "Falls der Laden wächst, braucht er mehr Personal.",
+              "Damit der Laden wächst, braucht er Werbung."
+            ],
+            "solution": "Obwohl der Laden klein ist, hat er viele Stammkunden.",
+            "hint": "Konzessiv: Etwas passiert, obwohl man das Gegenteil erwarten würde.",
+            "explanation": "Ein kleiner Laden mit vielen Stammkunden ist unerwartet: konzessiv mit 'obwohl'. Die anderen Sätze sind kausal, konditional und final."
+          },
+          {
+            "id": "l27e10",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Adjektiv.",
+            "prompt": "Das Start-up war von Anfang an ___: Schon im zweiten Jahr machte es Gewinn.",
+            "options": [
+              "lukrativ",
+              "verschuldet",
+              "unbeliebt",
+              "ehrenamtlich"
+            ],
+            "solution": "lukrativ",
+            "hint": "Der Satz nach dem Doppelpunkt erklärt das Adjektiv.",
+            "explanation": "'lukrativ' heißt gewinnbringend – passt zu 'machte Gewinn'. 'verschuldet' und 'unbeliebt' widersprechen, 'ehrenamtlich' heißt ohne Bezahlung."
+          },
+          {
+            "id": "l27e11",
+            "type": "multiple-choice",
+            "instruction": "Welcher Satz ist richtig?",
+            "prompt": "Wähle die korrekte Wortstellung.",
+            "options": [
+              "Die Stelle ist gut bezahlt. Dennoch bewirbt sich kaum jemand.",
+              "Die Stelle ist gut bezahlt. Dennoch kaum jemand bewirbt sich.",
+              "Die Stelle ist gut bezahlt, dennoch kaum jemand sich bewirbt.",
+              "Die Stelle ist gut bezahlt. Kaum jemand dennoch bewirbt sich."
+            ],
+            "solution": "Die Stelle ist gut bezahlt. Dennoch bewirbt sich kaum jemand.",
+            "hint": "'dennoch' besetzt Position 1 – was folgt auf Position 2?",
+            "explanation": "'dennoch' ist ein Adverb wie 'trotzdem': Auf Position 1 folgt sofort das Verb. Subjekt vor dem Verb oder Verb am Ende ist falsch."
+          },
+          {
+            "id": "l27e12",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Wort.",
+            "prompt": "Selbst ___ vollem Auftragsbuch nimmt sich der Meister Zeit, die Lehrlinge anzuleiten.",
+            "options": [
+              "bei",
+              "obwohl",
+              "durch",
+              "ohne"
+            ],
+            "solution": "bei",
+            "hint": "'vollem' zeigt den Kasus an.",
+            "explanation": "'selbst bei' + Dativ drückt eine Einräumung aus: auch wenn das Auftragsbuch voll ist. 'durch/ohne' verlangen Akkusativ, 'obwohl' braucht ein Verb."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l27m01",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Obwohl die Klinik'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "findet",
+              "Obwohl",
+              "die Klinik",
+              "Prämien zahlt,",
+              "sie",
+              "kaum Pflegekräfte"
+            ],
+            "solution": "Obwohl die Klinik Prämien zahlt, findet sie kaum Pflegekräfte.",
+            "hint": "Nach dem Nebensatz folgt sofort das Verb des Hauptsatzes.",
+            "explanation": "Im obwohl-Satz steht das Verb am Ende ('zahlt'). Der Nebensatz besetzt Position 1, also folgt 'findet' direkt danach."
+          },
+          {
+            "id": "l27m02",
+            "type": "sentence-scramble",
+            "instruction": "Bilde zwei Hauptsätze. Beginne den zweiten Satz mit 'Trotzdem'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "ihm",
+              "Der Bäcker bildet jedes Jahr zwei Lehrlinge aus.",
+              "Personal",
+              "Trotzdem",
+              "fehlt"
+            ],
+            "solution": "Der Bäcker bildet jedes Jahr zwei Lehrlinge aus. Trotzdem fehlt ihm Personal.",
+            "hint": "'trotzdem' zählt als Position 1.",
+            "explanation": "'Trotzdem' steht im Vorfeld, das Verb 'fehlt' auf Position 2; das Pronomen 'ihm' kommt vor dem Nomen 'Personal'."
+          },
+          {
+            "id": "l27m03",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Trotz'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "gründete",
+              "Trotz des hohen Risikos",
+              "ein eigenes Unternehmen",
+              "Jonas"
+            ],
+            "solution": "Trotz des hohen Risikos gründete Jonas ein eigenes Unternehmen.",
+            "hint": "Die Präpositionalgruppe steht im Vorfeld.",
+            "explanation": "'Trotz des hohen Risikos' (Genitiv) besetzt Position 1, dann das Verb 'gründete', dann das Subjekt 'Jonas'."
+          },
+          {
+            "id": "l27m04",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Die Pizzeria'; der Nebensatz steht am Ende.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "kaum lohnt",
+              "Die Pizzeria",
+              "auch wenn",
+              "bis Mitternacht,",
+              "liefert",
+              "sich das"
+            ],
+            "solution": "Die Pizzeria liefert bis Mitternacht, auch wenn sich das kaum lohnt.",
+            "hint": "Erst der Hauptsatz, dann der konzessive Nebensatz mit Verb am Ende.",
+            "explanation": "Im Hauptsatz steht 'liefert' auf Position 2. 'auch wenn' leitet einen konzessiven Nebensatz ein, deshalb steht 'lohnt' am Ende."
+          },
+          {
+            "id": "l27m05",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz mit 'wobei'. Beginne mit 'Das Team'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "ins Büro",
+              "wobei",
+              "Das Team",
+              "kommen",
+              "meistens im Homeoffice,",
+              "montags alle",
+              "arbeitet"
+            ],
+            "solution": "Das Team arbeitet meistens im Homeoffice, wobei montags alle ins Büro kommen.",
+            "hint": "'wobei' leitet einen Nebensatz ein.",
+            "explanation": "Der wobei-Satz schränkt die Aussage ein: meist Homeoffice, aber montags Büro. Als Nebensatz hat er das Verb 'kommen' am Ende."
+          },
+          {
+            "id": "l27m06",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Selbst bei'; das Subjekt steht direkt nach dem Verb.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "wächst",
+              "Selbst bei großer Nachfrage",
+              "nur langsam",
+              "die kleine Rösterei"
+            ],
+            "solution": "Selbst bei großer Nachfrage wächst die kleine Rösterei nur langsam.",
+            "hint": "Die konzessive Angabe steht im Vorfeld.",
+            "explanation": "'Selbst bei großer Nachfrage' (bei + Dativ) besetzt Position 1, also folgt das Verb 'wächst', danach das Subjekt."
+          },
+          {
+            "id": "l27m07",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze die richtige Verbform.",
+            "prompt": "Obwohl die Gründerinnen kaum Eigenkapital ___, überzeugten sie zwei Investoren. (haben, Präteritum)",
+            "solution": "hatten",
+            "hint": "Im obwohl-Satz steht das Verb am Ende; Subjekt ist Plural.",
+            "explanation": "Subjekt 'die Gründerinnen' (Plural) → 'hatten'. Das Verb steht im Nebensatz am Ende; 'hatte' wäre Singular."
+          },
+          {
+            "id": "l27m08",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Partizip II.",
+            "prompt": "Die Gemeinde hat früh ___, bevor sich der Ärztemangel zuspitzte. (gegensteuern)",
+            "solution": "gegengesteuert",
+            "hint": "'gegen' ist ein trennbares Präfix.",
+            "explanation": "Bei trennbaren Verben steht '-ge-' zwischen Präfix und Stamm: gegen-ge-steuert. 'gegensteuert' ohne '-ge-' ist falsch."
+          },
+          {
+            "id": "l27m09",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Partizip II.",
+            "prompt": "In den letzten Jahren sind kaum junge Tischler ___. (nachrücken)",
+            "solution": "nachgerückt",
+            "hint": "Trennbares Verb; das Hilfsverb 'sind' ist schon gegeben.",
+            "explanation": "'nachrücken' ist trennbar: nach-ge-rückt. Als Bewegungsverb bildet es das Perfekt mit 'sein'."
+          },
+          {
+            "id": "l27m10",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze den Infinitiv mit 'zu'.",
+            "prompt": "Es ist dem Team gelungen, die Idee in nur einem Jahr ___. (umsetzen)",
+            "solution": "umzusetzen",
+            "hint": "Bei trennbaren Verben steht 'zu' zwischen Präfix und Stamm.",
+            "explanation": "'umsetzen' ist trennbar, deshalb steht 'zu' zwischen Präfix und Stamm: umzusetzen, in einem Wort. 'zu umsetzen' ist falsch."
+          },
+          {
+            "id": "l27m11",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze den Infinitiv mit 'zu'.",
+            "prompt": "Um die Abwanderung junger Fachkräfte ___, baut die Region günstige Wohnungen. (eindämmen)",
+            "solution": "einzudämmen",
+            "hint": "um … zu + Infinitiv; das Verb ist trennbar.",
+            "explanation": "Nach 'um' folgt der zu-Infinitiv; bei trennbarem 'eindämmen' steht 'zu' innen: ein-zu-dämmen."
+          },
+          {
+            "id": "l27m12",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze die richtige Verbform.",
+            "prompt": "Auch wenn die Bank keinen Kredit ___, gibt die Gründerin nicht auf. (geben, Präsens)",
+            "solution": "gibt",
+            "hint": "Subjekt ist 'die Bank'; 'geben' hat einen Vokalwechsel.",
+            "explanation": "'auch wenn' leitet einen Nebensatz ein, das Verb steht am Ende. 3. Person Singular von 'geben' mit e→i: gibt, nicht 'gebt'."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l27h01",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde die Sätze mit 'obwohl'. Beginne mit 'Obwohl die Druckerei'.",
+            "prompt": "Die Druckerei zahlt gute Löhne. Sie findet keinen Mediengestalter.",
+            "solution": "Obwohl die Druckerei gute Löhne zahlt, findet sie keinen Mediengestalter.",
+            "hint": "Verb im Nebensatz ans Ende, danach Verb des Hauptsatzes.",
+            "explanation": "Im obwohl-Satz rückt 'zahlt' ans Ende. Der Nebensatz steht auf Position 1, also folgt 'findet' direkt nach dem Komma."
+          },
+          {
+            "id": "l27h02",
+            "type": "targeted-transformation",
+            "instruction": "Bilde zwei Hauptsätze. Der zweite Satz beginnt mit 'Trotzdem'; behalte das Präteritum.",
+            "prompt": "Obwohl Murat keine Berufserfahrung hatte, bekam er die Stelle.",
+            "solution": "Murat hatte keine Berufserfahrung. Trotzdem bekam er die Stelle.",
+            "hint": "Aus dem Nebensatz wird ein Hauptsatz mit Verb auf Position 2.",
+            "explanation": "Ohne 'obwohl' steht 'hatte' auf Position 2. 'Trotzdem' besetzt im zweiten Satz das Vorfeld, deshalb folgt 'bekam' vor 'er'."
+          },
+          {
+            "id": "l27h03",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze den obwohl-Satz durch 'trotz' + Genitiv. Beginne mit 'Trotz der'.",
+            "prompt": "Obwohl die Kosten hoch waren, eröffnete die Gründerin eine zweite Filiale.",
+            "solution": "Trotz der hohen Kosten eröffnete die Gründerin eine zweite Filiale.",
+            "hint": "Aus 'Kosten sind hoch' wird eine Nominalgruppe im Genitiv Plural.",
+            "explanation": "'trotz' + Genitiv Plural: der hohen Kosten. Die Angabe steht im Vorfeld, daher folgt das Verb 'eröffnete' direkt."
+          },
+          {
+            "id": "l27h04",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze den Nebensatz durch eine Angabe. Beginne mit 'Auch bei' und verwende kein Artikelwort.",
+            "prompt": "Auch wenn die Auftragslage schwierig ist, entlässt der Betrieb niemanden.",
+            "solution": "Auch bei schwieriger Auftragslage entlässt der Betrieb niemanden.",
+            "hint": "'bei' + Dativ; ohne Artikel braucht das Adjektiv die starke Endung.",
+            "explanation": "'bei' + Dativ feminin ohne Artikel: schwieriger Auftragslage. Danach folgt direkt das Verb 'entlässt'."
+          },
+          {
+            "id": "l27h05",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde mit 'wobei'. Lass 'allerdings' weg; Reihenfolge im Nebensatz: man – die Fahrtkosten – selbst.",
+            "prompt": "Die Weiterbildung ist kostenlos. Die Fahrtkosten muss man allerdings selbst zahlen.",
+            "solution": "Die Weiterbildung ist kostenlos, wobei man die Fahrtkosten selbst zahlen muss.",
+            "hint": "'wobei' leitet einen Nebensatz ein: Modalverb ans Ende.",
+            "explanation": "Im wobei-Satz steht das Modalverb 'muss' ganz am Ende nach dem Infinitiv. 'allerdings' entfällt, weil 'wobei' die Einschränkung schon ausdrückt."
+          },
+          {
+            "id": "l27h06",
+            "type": "targeted-transformation",
+            "instruction": "Forme um mit 'obwohl' und 'wenig Erfahrung haben' (Präsens). Beginne mit 'Obwohl Mia'; im Hauptsatz steht 'sie'.",
+            "prompt": "Trotz ihrer geringen Erfahrung leitet Mia ein Team von zwanzig Leuten.",
+            "solution": "Obwohl Mia wenig Erfahrung hat, leitet sie ein Team von zwanzig Leuten.",
+            "hint": "Aus der Nominalgruppe wird ein Nebensatz mit Verb am Ende.",
+            "explanation": "'trotz ihrer geringen Erfahrung' wird zu 'obwohl Mia wenig Erfahrung hat' (Verb am Ende). Im Hauptsatz folgt dann 'leitet' vor 'sie'."
+          },
+          {
+            "id": "l27h07",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Ändere nur die Wortstellung im Hauptsatz.",
+            "prompt": "Obwohl der Fachkräftemangel wächst, viele Betriebe bilden nicht aus.",
+            "solution": "Obwohl der Fachkräftemangel wächst, bilden viele Betriebe nicht aus.",
+            "hint": "Der Nebensatz zählt als Position 1.",
+            "explanation": "Nach einem vorangestellten obwohl-Satz steht das Verb des Hauptsatzes sofort: 'bilden viele Betriebe'. Subjekt vor Verb ist hier falsch."
+          },
+          {
+            "id": "l27h08",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler im zweiten Satz. Ändere nur die Wortstellung.",
+            "prompt": "Die Agentur sucht dringend Grafiker. Trotzdem sie stellt keine Quereinsteiger ein.",
+            "solution": "Die Agentur sucht dringend Grafiker. Trotzdem stellt sie keine Quereinsteiger ein.",
+            "hint": "'trotzdem' ist ein Adverb, kein Subjunktor.",
+            "explanation": "'Trotzdem' ist ein Adverb auf Position 1, also folgt das Verb 'stellt' vor 'sie'. 'Trotzdem sie stellt' behandelt es falsch wie 'und' oder 'aber'."
+          },
+          {
+            "id": "l27h09",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Ändere nur ein Wort; der Wortstamm bleibt.",
+            "prompt": "Trotzdem des großen Interesses wurde das Projekt nicht finanziert.",
+            "solution": "Trotz des großen Interesses wurde das Projekt nicht finanziert.",
+            "hint": "Vor einer Nominalgruppe im Genitiv steht eine Präposition.",
+            "explanation": "Vor 'des großen Interesses' braucht man die Präposition 'trotz'. 'Trotzdem' ist ein Adverb und verbindet nur Sätze."
+          },
+          {
+            "id": "l27h10",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler im Nebensatz. Ändere nur die Wortstellung; der Hauptsatz bleibt unverändert.",
+            "prompt": "Obwohl die Bank lehnte den Kredit ab, sammelte das Team das Geld per Crowdfunding.",
+            "solution": "Obwohl die Bank den Kredit ablehnte, sammelte das Team das Geld per Crowdfunding.",
+            "hint": "Im obwohl-Satz steht das Verb am Ende.",
+            "explanation": "Im Nebensatz steht das trennbare Verb zusammen am Ende: 'ablehnte'. Die Hauptsatz-Stellung 'lehnte … ab' ist nach 'obwohl' falsch."
+          },
+          {
+            "id": "l27h11",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Ändere nur ein Wort.",
+            "prompt": "Trotz des hohen Eigenkapital bekam die Gründerin keinen Kredit.",
+            "solution": "Trotz des hohen Eigenkapitals bekam die Gründerin keinen Kredit.",
+            "hint": "Achte auf die Genitiv-Endung des Nomens.",
+            "explanation": "Nach 'trotz' steht der Genitiv; neutrale Nomen bekommen dort '-s': des Eigenkapitals. Ohne Endung fehlt die Genitivmarkierung."
+          },
+          {
+            "id": "l27h12",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Ändere nur eine Adjektivendung.",
+            "prompt": "Auch bei hoher Zeitdruck prüft das Labor jede Probe zweimal.",
+            "solution": "Auch bei hohem Zeitdruck prüft das Labor jede Probe zweimal.",
+            "hint": "'Zeitdruck' ist maskulin; 'bei' verlangt den Dativ.",
+            "explanation": "'bei' + Dativ maskulin ohne Artikel: hohem Zeitdruck. 'hoher' wäre Nominativ maskulin oder Dativ feminin."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l27t01",
+          "type": "multiple-choice",
+          "instruction": "Wähle den passenden Anschluss.",
+          "prompt": "___ das Tierheim seit Monaten eine Pflegerstelle ausgeschrieben hat, hat sich noch niemand beworben.",
+          "options": [
+            "Obwohl",
+            "Weil",
+            "Damit",
+            "Falls"
+          ],
+          "solution": "Obwohl",
+          "explanation": "Gegengrund mit unerwartetem Ergebnis → konzessiv 'obwohl' (Verb am Ende). 'weil' wäre kausal, 'damit' final, 'falls' konditional."
+        },
+        {
+          "id": "l27t02",
+          "type": "targeted-transformation",
+          "instruction": "Ersetze den obwohl-Satz durch „trotz“ + Genitiv mit bestimmtem Artikel. Beginne mit „Trotz“. Die übrigen Satzglieder bleiben.",
+          "prompt": "Obwohl die Auftragslage gut ist, stellt die Tischlerei keine neuen Leute ein.",
+          "solution": "Trotz der guten Auftragslage stellt die Tischlerei keine neuen Leute ein.",
+          "explanation": "'trotz' + Genitiv: die gute Auftragslage → der guten Auftragslage. Danach folgt direkt das Verb (Position 2)."
+        },
+        {
+          "id": "l27t03",
+          "type": "targeted-transformation",
+          "instruction": "Forme den Satz mit „trotzdem“ in einen Satz mit „obwohl“ um. Beginne mit „Obwohl“ und lass „trotzdem“ weg.",
+          "prompt": "Der Weinberg ist sehr steil. Trotzdem findet das Weingut jedes Jahr genug Erntehelfer.",
+          "solution": "Obwohl der Weinberg sehr steil ist, findet das Weingut jedes Jahr genug Erntehelfer.",
+          "explanation": "Im obwohl-Satz steht das Verb am Ende; nach dem Komma beginnt der Hauptsatz mit dem Verb. 'trotzdem' entfällt."
+        },
+        {
+          "id": "l27t04",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz. Beginne mit „Die Gärtnerei“ und setze „dennoch“ an den Anfang des zweiten Hauptsatzes.",
+          "prompt": "Baue den Satz aus den Satzgliedern.",
+          "scrambleChunks": [
+            "bleiben",
+            "dennoch",
+            "Die Gärtnerei",
+            "die meisten Mitarbeiter jahrelang",
+            "zahlt nur den Mindestlohn,"
+          ],
+          "solution": "Die Gärtnerei zahlt nur den Mindestlohn, dennoch bleiben die meisten Mitarbeiter jahrelang.",
+          "explanation": "'dennoch' ist ein Adverb und besetzt Position 1; das Verb folgt direkt ('dennoch bleiben'), dann das Subjekt."
+        },
+        {
+          "id": "l27t05",
+          "type": "multiple-choice",
+          "instruction": "Was passt in die Lücke?",
+          "prompt": "___ hohen Preises verkauft sich die handgefertigte Lampe sehr gut.",
+          "options": [
+            "Trotz des",
+            "Trotz dem",
+            "Trotzdem des",
+            "Obwohl des"
+          ],
+          "solution": "Trotz des",
+          "explanation": "'trotz' steht mit Genitiv: trotz des hohen Preises. 'dem' ist Dativ und passt nicht zu 'Preises'; 'trotzdem' und 'obwohl' stehen nie vor einem Nomen."
+        },
+        {
+          "id": "l27t06",
+          "type": "targeted-transformation",
+          "instruction": "Ersetze den Nebensatz durch „auch bei“ + Partizip I als Adjektiv + Nomen, ohne Artikel. Beginne mit „Auch bei“. Die übrigen Satzglieder bleiben.",
+          "prompt": "Auch wenn die Energiekosten steigen, will der Friseursalon seine Preise nicht erhöhen.",
+          "solution": "Auch bei steigenden Energiekosten will der Friseursalon seine Preise nicht erhöhen.",
+          "explanation": "'bei' + Dativ: im Plural ohne Artikel endet das Adjektiv auf -en (bei steigenden Energiekosten). Danach folgt direkt das Verb."
+        },
+        {
+          "id": "l27t07",
+          "type": "multiple-choice",
+          "instruction": "Welches Wort leitet die Einschränkung ein?",
+          "prompt": "Das neue Lieferkonzept spart viel Zeit, ___ es am Anfang einige Probleme mit der Software gab.",
+          "options": [
+            "wobei",
+            "weshalb",
+            "sodass",
+            "damit"
+          ],
+          "solution": "wobei",
+          "explanation": "'wobei' schränkt die Aussage des Hauptsatzes ein (Verb am Ende). 'weshalb' und 'sodass' nennen eine Folge, 'damit' einen Zweck."
+        },
+        {
+          "id": "l27t08",
+          "type": "error-correction",
+          "instruction": "Die Stellung des Verbs ist falsch. Ändere nur die Position des Verbs und schreibe den ganzen Satz.",
+          "prompt": "Obwohl die Praxis sucht seit einem Jahr eine Zahnärztin, findet sie niemanden.",
+          "solution": "Obwohl die Praxis seit einem Jahr eine Zahnärztin sucht, findet sie niemanden.",
+          "explanation": "'obwohl' leitet einen Nebensatz ein, das finite Verb steht am Ende. Hauptsatzstellung ('sucht seit …') ist hier falsch."
+        },
+        {
+          "id": "l27t09",
+          "type": "error-correction",
+          "instruction": "Korrigiere die Wortstellung im zweiten Hauptsatz. „trotzdem“ bleibt an seiner Stelle.",
+          "prompt": "Das Hofcafé macht kaum Werbung, trotzdem es ist jeden Sonntag voll.",
+          "solution": "Das Hofcafé macht kaum Werbung, trotzdem ist es jeden Sonntag voll.",
+          "explanation": "'trotzdem' ist ein Adverb auf Position 1, also folgt sofort das Verb: 'trotzdem ist es'. Es ist keine Subjunktion wie 'obwohl'."
+        },
+        {
+          "id": "l27t10",
+          "type": "cloze-conjugation",
+          "instruction": "Ergänze das Hilfsverb im Perfekt (3. Person Singular).",
+          "prompt": "Nach dem Wechsel der Trainerin zu einem anderen Verein ___ ihre Assistentin auf den Posten nachgerückt.",
+          "solution": "ist",
+          "explanation": "'nachrücken' ist ein Bewegungsverb (Ortswechsel) und bildet das Perfekt mit 'sein'. 'hat' passt nicht."
+        },
+        {
+          "id": "l27t11",
+          "type": "cloze-conjugation",
+          "instruction": "Setze „gegensteuern“ als zu-Infinitiv ein.",
+          "prompt": "Die Stadtwerke versuchen, dem Personalmangel mit einem eigenen Ausbildungszentrum ___.",
+          "solution": "gegenzusteuern",
+          "explanation": "Bei trennbaren Verben steht 'zu' zwischen Präfix und Stamm: gegen-zu-steuern, in einem Wort. 'zu gegensteuern' ist falsch."
+        },
+        {
+          "id": "l27t12",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze „trotz“ oder „trotzdem“.",
+          "prompt": "Die Brauerei hatte ein schwieriges Jahr. ___ hat sie allen Beschäftigten einen Bonus gezahlt.",
+          "solution": "Trotzdem",
+          "explanation": "Vor einem Verb und ohne Nomen steht das Adverb 'trotzdem'. 'trotz' ist eine Präposition und braucht ein Nomen im Genitiv."
+        },
+        {
+          "id": "l27t13",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze den Possessivartikel, der sich auf „das Restaurant“ bezieht, im Genitiv.",
+          "prompt": "Trotz ___ guten Rufes findet das Restaurant seit Monaten keinen Koch.",
+          "solution": "seines",
+          "explanation": "'trotz' + Genitiv; 'der Ruf' ist maskulin, 'das Restaurant' → sein: seines guten Rufes. 'seinem' wäre Dativ."
+        },
+        {
+          "id": "l27t14",
+          "type": "targeted-transformation",
+          "instruction": "Bilde zwei Hauptsätze, durch ein Komma verbunden. Der zweite beginnt mit „trotzdem“. Beginne mit „Das Start-up“.",
+          "prompt": "Obwohl das Start-up erst zwei Jahre alt ist, hat es schon Kunden in fünf Ländern.",
+          "solution": "Das Start-up ist erst zwei Jahre alt, trotzdem hat es schon Kunden in fünf Ländern.",
+          "explanation": "Aus dem Nebensatz wird ein Hauptsatz (Verb an Position 2). Nach 'trotzdem' folgt sofort das Verb: 'trotzdem hat es'."
+        },
+        {
+          "id": "l27t15",
+          "type": "multiple-choice",
+          "instruction": "Welches Adjektiv passt?",
+          "prompt": "Obwohl die Idee anfangs wenig ___ klang, verdient der Reparaturservice für alte Nähmaschinen inzwischen gut.",
+          "options": [
+            "lukrativ",
+            "verschuldet",
+            "befristet",
+            "gegründet"
+          ],
+          "solution": "lukrativ",
+          "explanation": "'lukrativ' = gewinnbringend; der obwohl-Satz stellt die geringe Erwartung dem guten Verdienst gegenüber. Die anderen Wörter beschreiben keine Idee."
+        },
+        {
+          "id": "l27t16",
+          "type": "multiple-choice",
+          "instruction": "Welches Verb passt?",
+          "prompt": "Mit kostenlosen Grippeimpfungen wollte der Betrieb die vielen Krankheitsausfälle im Winter ___.",
+          "options": [
+            "eindämmen",
+            "nachrücken",
+            "abwandern",
+            "scheitern"
+          ],
+          "solution": "eindämmen",
+          "explanation": "'etwas eindämmen' = begrenzen, stoppen; es hat ein Akkusativobjekt. 'nachrücken', 'abwandern' und 'scheitern' haben keins."
+        }
+      ]
+    }
+  ]
+}

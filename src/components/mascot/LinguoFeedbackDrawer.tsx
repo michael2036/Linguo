@@ -46,6 +46,10 @@ const useStyles = makeStyles({
   body: {
     flex: 1,
     minWidth: 0,
+    // B2 explanations can run several sentences; cap the text and let it
+    // scroll so the sheet never grows past the screen and "Weiter" stays put.
+    maxHeight: '60dvh',
+    overflowY: 'auto',
     display: 'flex',
     flexDirection: 'column',
     ...shorthands.gap('2px'),

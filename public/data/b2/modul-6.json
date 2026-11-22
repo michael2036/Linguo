@@ -1,0 +1,2556 @@
+{
+  "modulId": "b2-m6",
+  "level": "B2",
+  "modulNumber": 6,
+  "title": "Gesundheit!",
+  "lektionen": [
+    {
+      "lektionId": "b2-m6-l16",
+      "level": "B2",
+      "modulNumber": 6,
+      "lektionNumber": 16,
+      "title": "Gut geschlafen?",
+      "grammarFocus": [
+        "Folgen ausdrücken: sodass / so … dass (Nebensatz, Verb am Ende)",
+        "Konsekutive Adverbien: deshalb, deswegen, darum, folglich, somit, infolgedessen (Verb auf Position 2) und „Die Folge ist, dass …“",
+        "infolge + Genitiv / infolge von + Dativ (Nominalisierung einer Ursache)"
+      ],
+      "vocabulary": [
+        {
+          "id": "l16v01",
+          "term": "der Schlafmangel",
+          "translation": "la falta de sueño",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "example": "Chronischer Schlafmangel schwächt auf Dauer die Konzentration und die Stimmung."
+        },
+        {
+          "id": "l16v02",
+          "term": "die Schlafstörung",
+          "translation": "el trastorno del sueño",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Schlafstörungen",
+          "example": "Wer wochenlang unter Schlafstörungen leidet, sollte ärztlichen Rat suchen."
+        },
+        {
+          "id": "l16v03",
+          "term": "das Schlafmittel",
+          "translation": "el somnífero",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Schlafmittel",
+          "example": "Meine Großmutter nimmt nur in Ausnahmefällen ein leichtes Schlafmittel."
+        },
+        {
+          "id": "l16v04",
+          "term": "die Entspannung",
+          "translation": "la relajación",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Zur Entspannung hört Kemal abends eine halbe Stunde ruhige Musik."
+        },
+        {
+          "id": "l16v05",
+          "term": "der Gesundheitszustand",
+          "translation": "el estado de salud",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Gesundheitszustände",
+          "example": "Der Gesundheitszustand des Patienten hat sich seit gestern deutlich verbessert."
+        },
+        {
+          "id": "l16v06",
+          "term": "die Folge",
+          "translation": "la consecuencia",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Folgen",
+          "example": "Die Folgen einer durchwachten Nacht spürt man oft erst am Nachmittag."
+        },
+        {
+          "id": "l16v07",
+          "term": "der Nacken",
+          "translation": "la nuca",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Nacken",
+          "example": "Nach acht Stunden am Laptop ist mein Nacken völlig verspannt."
+        },
+        {
+          "id": "l16v08",
+          "term": "die Leber",
+          "translation": "el hígado",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Lebern",
+          "example": "Zu viel Alkohol belastet die Leber stärker, als viele denken."
+        },
+        {
+          "id": "l16v09",
+          "term": "die Niere",
+          "translation": "el riñón",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Nieren",
+          "example": "Wer genug Wasser trinkt, entlastet seine Nieren."
+        },
+        {
+          "id": "l16v10",
+          "term": "die Kondition",
+          "translation": "la condición física",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Seit Tamara jeden Morgen schwimmt, hat sie eine viel bessere Kondition."
+        },
+        {
+          "id": "l16v11",
+          "term": "der Eingriff",
+          "translation": "la intervención (quirúrgica)",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Eingriffe",
+          "example": "Der Eingriff an der Schulter dauerte nur zwanzig Minuten."
+        },
+        {
+          "id": "l16v12",
+          "term": "das Immunsystem",
+          "translation": "el sistema inmunitario",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Immunsysteme",
+          "example": "Ausreichend Schlaf stärkt das Immunsystem."
+        },
+        {
+          "id": "l16v13",
+          "term": "einschlafen",
+          "translation": "dormirse, conciliar el sueño",
+          "partOfSpeech": "verb",
+          "preterite": "schlief ein",
+          "participle": "eingeschlafen",
+          "auxiliary": "sein",
+          "irregular": true,
+          "example": "Bei dem gleichmäßigen Regen bin ich sofort eingeschlafen."
+        },
+        {
+          "id": "l16v14",
+          "term": "ausschlafen",
+          "translation": "dormir hasta hartarse",
+          "partOfSpeech": "verb",
+          "preterite": "schlief aus",
+          "participle": "ausgeschlafen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Am ersten Urlaubstag schlafen wir immer richtig aus."
+        },
+        {
+          "id": "l16v15",
+          "term": "durchschlafen",
+          "translation": "dormir de un tirón",
+          "partOfSpeech": "verb",
+          "preterite": "schlief durch",
+          "participle": "durchgeschlafen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Unser Sohn schläft mit acht Monaten endlich durch."
+        },
+        {
+          "id": "l16v16",
+          "term": "verschlafen",
+          "translation": "quedarse dormido (y llegar tarde)",
+          "partOfSpeech": "verb",
+          "preterite": "verschlief",
+          "participle": "verschlafen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Ausgerechnet am Tag des Vorstellungsgesprächs hat Jonas verschlafen."
+        },
+        {
+          "id": "l16v17",
+          "term": "sich erholen",
+          "translation": "recuperarse, descansar",
+          "partOfSpeech": "verb",
+          "preterite": "erholte sich",
+          "participle": "sich erholt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Nach der langen Erkältung hat sich Frau Reuter an der Ostsee gut erholt."
+        },
+        {
+          "id": "l16v18",
+          "term": "verarbeiten",
+          "translation": "procesar, asimilar",
+          "partOfSpeech": "verb",
+          "preterite": "verarbeitete",
+          "participle": "verarbeitet",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Kinder brauchen Zeit, um einen Umzug innerlich zu verarbeiten."
+        },
+        {
+          "id": "l16v19",
+          "term": "verdauen",
+          "translation": "digerir",
+          "partOfSpeech": "verb",
+          "preterite": "verdaute",
+          "participle": "verdaut",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Fettiges Essen am späten Abend verdaut der Körper nur schwer."
+        },
+        {
+          "id": "l16v20",
+          "term": "kauen",
+          "translation": "masticar",
+          "partOfSpeech": "verb",
+          "preterite": "kaute",
+          "participle": "gekaut",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Wer beim Essen gründlich kaut, ist schneller satt."
+        },
+        {
+          "id": "l16v21",
+          "term": "riechen",
+          "translation": "oler",
+          "partOfSpeech": "verb",
+          "preterite": "roch",
+          "participle": "gerochen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Nach der Erkältung konnte Malte eine Woche lang nichts riechen."
+        },
+        {
+          "id": "l16v22",
+          "term": "unausgeschlafen",
+          "translation": "falto de sueño, trasnochado",
+          "partOfSpeech": "adjective",
+          "example": "Unausgeschlafen sollte man sich besser nicht ans Steuer setzen."
+        },
+        {
+          "id": "l16v24",
+          "term": "folglich",
+          "translation": "por consiguiente, por lo tanto",
+          "partOfSpeech": "adverb",
+          "example": "Die Klinik hat zu wenig Personal, folglich warten Patienten oft stundenlang."
+        },
+        {
+          "id": "l16v25",
+          "term": "infolgedessen",
+          "translation": "como consecuencia (de ello)",
+          "partOfSpeech": "adverb",
+          "example": "Die Heizung fiel im Januar aus, infolgedessen erkälteten sich mehrere Bewohner."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l16e01",
+            "type": "multiple-choice",
+            "instruction": "Wähle den passenden Konnektor.",
+            "prompt": "Unser Nachbar hat bis drei Uhr Schlagzeug geübt, ___ ich kaum ein Auge zugemacht habe.",
+            "options": [
+              "deshalb",
+              "sodass",
+              "obwohl",
+              "trotzdem"
+            ],
+            "solution": "sodass",
+            "hint": "Wo steht das konjugierte Verb im zweiten Satzteil?",
+            "explanation": "'sodass' leitet einen Nebensatz ein: Das Verb 'habe' steht am Ende. Nach 'deshalb' müsste es direkt folgen; 'obwohl/trotzdem' drücken keine Folge aus."
+          },
+          {
+            "id": "l16e02",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Wort.",
+            "prompt": "Lea trinkt abends oft noch einen Espresso. ___ liegt sie lange wach.",
+            "options": [
+              "Deshalb",
+              "Sodass",
+              "Weil",
+              "Obwohl"
+            ],
+            "solution": "Deshalb",
+            "hint": "Nach dem Wort folgt direkt das Verb.",
+            "explanation": "'Deshalb' ist ein Adverb auf Position 1, danach kommt das Verb. 'Sodass/weil/obwohl' leiten Nebensätze ein und würden das Verb ans Ende schicken."
+          },
+          {
+            "id": "l16e03",
+            "type": "multiple-choice",
+            "instruction": "Wähle die richtige Fortsetzung.",
+            "prompt": "Herr Kaya arbeitet seit Monaten im Schichtdienst, deswegen ___.",
+            "options": [
+              "ist sein Schlafrhythmus völlig durcheinander",
+              "sein Schlafrhythmus ist völlig durcheinander",
+              "sein Schlafrhythmus völlig durcheinander ist",
+              "völlig durcheinander sein Schlafrhythmus ist"
+            ],
+            "solution": "ist sein Schlafrhythmus völlig durcheinander",
+            "hint": "'deswegen' besetzt die erste Position im Hauptsatz.",
+            "explanation": "Steht 'deswegen' am Satzanfang, folgt sofort das Verb (Position 2), dann das Subjekt. Verb am Ende gibt es nur im Nebensatz."
+          },
+          {
+            "id": "l16e04",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Nomen, das vom Verb 'folgen' kommt.",
+            "prompt": "Viele Jugendliche chatten bis spät in die Nacht. Die ___ ist, dass sie morgens kaum aus dem Bett kommen.",
+            "solution": "Folge",
+            "hint": "Feste Wendung: Die … ist, dass …",
+            "explanation": "'Die Folge ist, dass …' kündigt eine Konsequenz an; danach steht ein dass-Satz mit dem Verb am Ende."
+          },
+          {
+            "id": "l16e05",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Wort.",
+            "prompt": "___ der Zeitumstellung fühlen sich viele Menschen eine Woche lang müde.",
+            "options": [
+              "Infolge",
+              "Infolgedessen",
+              "Deshalb",
+              "Sodass"
+            ],
+            "solution": "Infolge",
+            "hint": "Danach steht ein Nomen im Genitiv, kein ganzer Satz.",
+            "explanation": "'infolge' ist eine Präposition mit Genitiv: infolge der Zeitumstellung. 'Infolgedessen' und 'deshalb' sind Adverbien und verbinden Sätze."
+          },
+          {
+            "id": "l16e06",
+            "type": "multiple-choice",
+            "instruction": "Wähle den richtigen Artikel.",
+            "prompt": "Infolge ___ ständigen Stresses schläft meine Kollegin schlecht.",
+            "options": [
+              "des",
+              "dem",
+              "den",
+              "von"
+            ],
+            "solution": "des",
+            "hint": "Welchen Kasus verlangt 'infolge' mit Artikel?",
+            "explanation": "'infolge' + Genitiv: des ständigen Stresses. 'dem' wäre Dativ; 'von' geht nur ohne Artikel (infolge von Stress)."
+          },
+          {
+            "id": "l16e07",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Wort.",
+            "prompt": "Infolge ___ Lärm konnten die Anwohner am Flughafen nicht durchschlafen.",
+            "options": [
+              "von",
+              "des",
+              "dem",
+              "mit"
+            ],
+            "solution": "von",
+            "hint": "Vor 'Lärm' steht kein Artikel und kein Adjektiv.",
+            "explanation": "Ohne Artikel ist der Genitiv nicht erkennbar, deshalb: infolge von + Dativ. 'des Lärm' ist falsch, es hieße 'des Lärms'."
+          },
+          {
+            "id": "l16e08",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Verb.",
+            "prompt": "Am Samstag muss ich nicht früh aufstehen, also kann ich endlich mal lange ___.",
+            "options": [
+              "ausschlafen",
+              "verschlafen",
+              "einschlafen",
+              "unausgeschlafen"
+            ],
+            "solution": "ausschlafen",
+            "hint": "Gemeint ist: so lange schlafen, bis man nicht mehr müde ist.",
+            "explanation": "'ausschlafen' = schlafen, bis man erholt ist. 'verschlafen' heißt, zu spät aufzuwachen; 'unausgeschlafen' ist ein Adjektiv."
+          },
+          {
+            "id": "l16e09",
+            "type": "multiple-choice",
+            "instruction": "Wähle die richtige Form.",
+            "prompt": "Mein Wecker hat nicht geklingelt, deshalb habe ich ___ und den Zug verpasst.",
+            "options": [
+              "verschlafen",
+              "verschlaft",
+              "geverschlafen",
+              "verschlafte"
+            ],
+            "solution": "verschlafen",
+            "hint": "Verben mit 'ver-' bilden das Partizip II ohne 'ge-'.",
+            "explanation": "'verschlafen' ist unregelmäßig und untrennbar: Das Partizip II lautet ebenfalls 'verschlafen', ohne 'ge-' und ohne '-t'."
+          },
+          {
+            "id": "l16e10",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze 'einschlafen' im Partizip II.",
+            "prompt": "Gestern war ich so müde, dass ich schon um neun Uhr auf dem Sofa ___ bin.",
+            "solution": "eingeschlafen",
+            "hint": "Trennbares Verb: 'ge' steht zwischen Präfix und Stamm.",
+            "explanation": "'einschlafen' ist trennbar und unregelmäßig: ein|ge|schlafen. Als Zustandswechsel bildet es das Perfekt mit 'sein'."
+          },
+          {
+            "id": "l16e11",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Wort.",
+            "prompt": "Die Wohnung ist im Winter ___ kalt, dass ich nachts zwei Decken brauche.",
+            "options": [
+              "so",
+              "sodass",
+              "zu",
+              "deshalb"
+            ],
+            "solution": "so",
+            "hint": "Das Wort steht vor einem Adjektiv; 'dass' folgt später.",
+            "explanation": "'so + Adjektiv …, dass' drückt eine Folge aus. 'sodass' steht nie vor dem Adjektiv, und 'zu kalt, dass' ist falsch."
+          },
+          {
+            "id": "l16e12",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Verb.",
+            "prompt": "Wer langsam und gründlich ___, kann sein Essen besser verdauen.",
+            "options": [
+              "kaut",
+              "riecht",
+              "atmet",
+              "schmeckt"
+            ],
+            "solution": "kaut",
+            "hint": "Was macht man mit den Zähnen?",
+            "explanation": "'kauen' = Essen mit den Zähnen zerkleinern; das erleichtert die Verdauung. 'riechen' und 'schmecken' sind Sinne, 'atmen' betrifft die Luft."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l16m01",
+            "type": "sentence-scramble",
+            "instruction": "Verbinde die Sätze mit 'sodass'. Beginne mit 'Die Kinder'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "sodass",
+              "Die Kinder",
+              "sind",
+              "bis Mitternacht",
+              "sie",
+              "haben",
+              "heute völlig erschöpft",
+              "gefeiert,"
+            ],
+            "solution": "Die Kinder haben bis Mitternacht gefeiert, sodass sie heute völlig erschöpft sind.",
+            "hint": "Im sodass-Satz steht das Verb am Ende.",
+            "explanation": "'sodass' leitet einen Nebensatz ein: Subjekt 'sie' direkt danach, das Verb 'sind' am Ende."
+          },
+          {
+            "id": "l16m02",
+            "type": "sentence-scramble",
+            "instruction": "Beginne den zweiten Satzteil mit 'deshalb'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "geblieben",
+              "deshalb",
+              "Paul hat die ganze Nacht gehustet,",
+              "er",
+              "heute zu Hause",
+              "ist"
+            ],
+            "solution": "Paul hat die ganze Nacht gehustet, deshalb ist er heute zu Hause geblieben.",
+            "hint": "Nach 'deshalb' kommt sofort das konjugierte Verb.",
+            "explanation": "'deshalb' steht auf Position 1, 'ist' auf Position 2, dann das Subjekt 'er'; das Partizip 'geblieben' steht am Ende."
+          },
+          {
+            "id": "l16m03",
+            "type": "sentence-scramble",
+            "instruction": "Beginne mit 'Infolge'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "mussten",
+              "ihre Sprechzeiten",
+              "Infolge",
+              "verlängern",
+              "einer Grippewelle",
+              "mehrere Arztpraxen"
+            ],
+            "solution": "Infolge einer Grippewelle mussten mehrere Arztpraxen ihre Sprechzeiten verlängern.",
+            "hint": "'infolge' + Genitiv bildet zusammen das Vorfeld.",
+            "explanation": "'Infolge einer Grippewelle' ist ein Satzglied auf Position 1; danach folgt das Modalverb 'mussten', der Infinitiv steht am Ende."
+          },
+          {
+            "id": "l16m04",
+            "type": "sentence-scramble",
+            "instruction": "Beginne mit 'Die Folge'.",
+            "prompt": "Viele Menschen sitzen stundenlang falsch am Schreibtisch. Ordne die Satzteile.",
+            "scrambleChunks": [
+              "unter Nackenschmerzen",
+              "dass viele Büroangestellte",
+              "Die Folge",
+              "leiden",
+              "ist,"
+            ],
+            "solution": "Die Folge ist, dass viele Büroangestellte unter Nackenschmerzen leiden.",
+            "hint": "Nach 'Die Folge ist,' kommt ein dass-Satz.",
+            "explanation": "'Die Folge ist, dass …': Im dass-Satz steht das Subjekt vorn und das Verb 'leiden' am Ende."
+          },
+          {
+            "id": "l16m05",
+            "type": "sentence-scramble",
+            "instruction": "Beginne den zweiten Satzteil mit 'folglich'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "konzentrieren",
+              "er",
+              "Herr Brandt hat seit Wochen kaum geschlafen,",
+              "kann",
+              "folglich",
+              "sich bei der Arbeit kaum"
+            ],
+            "solution": "Herr Brandt hat seit Wochen kaum geschlafen, folglich kann er sich bei der Arbeit kaum konzentrieren.",
+            "hint": "'folglich' funktioniert wie 'deshalb'.",
+            "explanation": "'folglich' ist ein Adverb auf Position 1: Das Modalverb 'kann' folgt direkt, 'konzentrieren' steht am Satzende."
+          },
+          {
+            "id": "l16m06",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz mit 'so … dass'. Beginne mit 'Das Kopfkissen'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "wehtat",
+              "war",
+              "dass mir",
+              "Das Kopfkissen im Hotel",
+              "am Morgen der Nacken",
+              "so hart,"
+            ],
+            "solution": "Das Kopfkissen im Hotel war so hart, dass mir am Morgen der Nacken wehtat.",
+            "hint": "'so' steht vor dem Adjektiv, 'dass' leitet den Nebensatz ein.",
+            "explanation": "Bei 'so … dass' steht 'so' vor dem Adjektiv im Hauptsatz; im dass-Satz rückt 'wehtat' (zusammengeschrieben) ans Ende."
+          },
+          {
+            "id": "l16m07",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze die richtige Verbform.",
+            "prompt": "Die Nachbarn feierten bis drei Uhr, sodass ich erst danach ___. (einschlafen, Präteritum)",
+            "solution": "einschlief",
+            "hint": "Im Nebensatz wird das trennbare Verb nicht getrennt.",
+            "explanation": "Im sodass-Satz steht das Verb am Ende, und trennbare Verben bleiben dort zusammen: einschlief, nicht 'schlief ein'."
+          },
+          {
+            "id": "l16m08",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze die richtige Verbform.",
+            "prompt": "Seit unser Baby da ist, ___ wir keine Nacht mehr durch. (durchschlafen, Präsens)",
+            "solution": "schlafen",
+            "hint": "Im Hauptsatz wird das Präfix abgetrennt.",
+            "explanation": "'durchschlafen' ist trennbar: Im Hauptsatz steht 'schlafen' auf Position 2 und 'durch' am Ende."
+          },
+          {
+            "id": "l16m09",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze die richtige Verbform.",
+            "prompt": "Ich habe gestern bis Mitternacht gearbeitet, deshalb ___ ich heute total unausgeschlafen. (sein, Präsens)",
+            "solution": "bin",
+            "hint": "Nach 'deshalb' steht das Verb direkt auf Position 2.",
+            "explanation": "'deshalb' besetzt Position 1, deshalb folgt sofort das Verb 'bin' und erst danach das Subjekt 'ich'."
+          },
+          {
+            "id": "l16m10",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze die richtige Verbform.",
+            "prompt": "Lukas hat am Sonntag bis elf Uhr ___, folglich war er abends überhaupt nicht müde. (ausschlafen, Partizip II)",
+            "solution": "ausgeschlafen",
+            "hint": "Trennbares Verb: 'ge' steht zwischen Präfix und Stamm.",
+            "explanation": "'ausschlafen' ist trennbar und unregelmäßig: aus|ge|schlafen. Das Perfekt bildet es mit 'haben'."
+          },
+          {
+            "id": "l16m11",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze die richtige Verbform.",
+            "prompt": "Infolge der Operation ___ die Patientin sechs Wochen lang keinen Sport machen. (dürfen, Präteritum)",
+            "solution": "durfte",
+            "hint": "Modalverben haben im Präteritum keinen Umlaut.",
+            "explanation": "'dürfen' im Präteritum: sie durfte, ohne Umlaut. Nach 'Infolge der Operation' auf Position 1 steht das Verb auf Position 2."
+          },
+          {
+            "id": "l16m12",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze die richtige Verbform.",
+            "prompt": "Nach der Grippe ___ sich mein Vater nur langsam, sodass er noch nicht arbeiten kann. (sich erholen, Präsens)",
+            "solution": "erholt",
+            "hint": "3. Person Singular Präsens, regelmäßiges Verb.",
+            "explanation": "'sich erholen' ist regelmäßig: er erholt sich. Im Hauptsatz steht es auf Position 2, das Reflexivpronomen folgt."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l16h01",
+            "type": "targeted-transformation",
+            "instruction": "Forme den weil-Satz mit 'infolge' + Genitiv und dem Nomen 'Luftverschmutzung' um. Beginne mit 'Infolge der starken'. Der Rest bleibt gleich.",
+            "prompt": "Weil die Luft stark verschmutzt ist, leiden viele Kinder an Asthma.",
+            "solution": "Infolge der starken Luftverschmutzung leiden viele Kinder an Asthma.",
+            "hint": "Aus 'Luft … verschmutzt' wird ein Nomen; danach Verb auf Position 2.",
+            "explanation": "'infolge' + Genitiv ersetzt den weil-Satz: der starken Luftverschmutzung. Die Präpositionalgruppe steht im Vorfeld, also folgt 'leiden' direkt."
+          },
+          {
+            "id": "l16h02",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde die Sätze mit Komma. Beginne den zweiten Teil mit 'infolgedessen'. Die übrigen Wörter bleiben in derselben Reihenfolge.",
+            "prompt": "Herr Ott arbeitet nachts im Lager. Er schläft tagsüber schlecht.",
+            "solution": "Herr Ott arbeitet nachts im Lager, infolgedessen schläft er tagsüber schlecht.",
+            "hint": "'infolgedessen' verhält sich wie 'deshalb'.",
+            "explanation": "'infolgedessen' ist ein Adverb auf Position 1 des zweiten Hauptsatzes: Das Verb 'schläft' folgt direkt, dann das Subjekt 'er'."
+          },
+          {
+            "id": "l16h03",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde die Sätze mit 'sodass' (so geschrieben). Die Satzglieder bleiben in derselben Reihenfolge.",
+            "prompt": "Die Klimaanlage im Schlafzimmer war kaputt. Wir haben kaum geschlafen.",
+            "solution": "Die Klimaanlage im Schlafzimmer war kaputt, sodass wir kaum geschlafen haben.",
+            "hint": "Im Nebensatz wandert das konjugierte Verb ans Ende.",
+            "explanation": "'sodass' leitet einen Nebensatz ein: Komma davor, 'haben' rückt hinter das Partizip ans Ende."
+          },
+          {
+            "id": "l16h04",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde die Sätze mit 'so … dass'. Ersetze 'sehr' durch 'so'.",
+            "prompt": "Die Musik war sehr laut. Ich konnte nicht einschlafen.",
+            "solution": "Die Musik war so laut, dass ich nicht einschlafen konnte.",
+            "hint": "'so' bleibt vor dem Adjektiv, der dass-Satz folgt nach dem Komma.",
+            "explanation": "'so + Adjektiv, dass …': Im dass-Satz steht das Modalverb 'konnte' nach dem Infinitiv am Ende."
+          },
+          {
+            "id": "l16h05",
+            "type": "targeted-transformation",
+            "instruction": "Schreibe nur den zweiten Satz neu: mit 'Die Folge ist, dass …'. Behalte das Subjekt 'sie'.",
+            "prompt": "Viele Menschen schauen im Bett noch auf das Smartphone. Sie schlafen später ein.",
+            "solution": "Die Folge ist, dass sie später einschlafen.",
+            "hint": "Im dass-Satz stehen trennbare Verben zusammen am Ende.",
+            "explanation": "Nach 'Die Folge ist, dass' steht das Verb am Ende; trennbare Verben werden dort zusammengeschrieben: einschlafen, nicht 'schlafen … ein'."
+          },
+          {
+            "id": "l16h06",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze den weil-Satz durch 'infolge von' + 'Schlafmangel'. Beginne mit 'Infolge'.",
+            "prompt": "Weil er zu wenig geschlafen hatte, reagierte der Busfahrer zu langsam.",
+            "solution": "Infolge von Schlafmangel reagierte der Busfahrer zu langsam.",
+            "hint": "Ohne Artikel braucht 'infolge' ein 'von'.",
+            "explanation": "Ohne Artikel ist der Genitiv nicht sichtbar, also 'infolge von' + Dativ. Danach folgt das Verb 'reagierte' auf Position 2."
+          },
+          {
+            "id": "l16h07",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze 'deshalb' durch 'sodass'. Alles andere bleibt gleich.",
+            "prompt": "Sie trank abends keinen Kaffee mehr, deshalb schlief sie endlich wieder durch.",
+            "solution": "Sie trank abends keinen Kaffee mehr, sodass sie endlich wieder durchschlief.",
+            "hint": "Was passiert im Nebensatz mit einem trennbaren Verb?",
+            "explanation": "Nach 'sodass' steht das Verb am Ende, und das trennbare Verb wird zusammengeschrieben: durchschlief."
+          },
+          {
+            "id": "l16h08",
+            "type": "error-correction",
+            "instruction": "Korrigiere die Wortstellung. 'deshalb' bleibt an seiner Stelle.",
+            "prompt": "Ich habe zu viel gegessen, deshalb ich habe Bauchschmerzen.",
+            "solution": "Ich habe zu viel gegessen, deshalb habe ich Bauchschmerzen.",
+            "hint": "'deshalb' zählt als Position 1.",
+            "explanation": "Nach 'deshalb' steht das Verb auf Position 2 und das Subjekt danach: deshalb habe ich. 'deshalb ich habe' ist ein typischer Fehler."
+          },
+          {
+            "id": "l16h09",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler in der Wortstellung. 'sodass' bleibt im Satz.",
+            "prompt": "Das Kind hustete die ganze Nacht, sodass niemand konnte schlafen.",
+            "solution": "Das Kind hustete die ganze Nacht, sodass niemand schlafen konnte.",
+            "hint": "'sodass' leitet einen Nebensatz ein.",
+            "explanation": "Im sodass-Satz steht das konjugierte Verb am Ende, also nach dem Infinitiv: schlafen konnte."
+          },
+          {
+            "id": "l16h10",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Ändere nur den Artikel.",
+            "prompt": "Infolge die Zeitverschiebung war Frau Weber tagelang müde.",
+            "solution": "Infolge der Zeitverschiebung war Frau Weber tagelang müde.",
+            "hint": "Welchen Kasus verlangt 'infolge'?",
+            "explanation": "'infolge' verlangt den Genitiv: der Zeitverschiebung. 'die' ist Nominativ oder Akkusativ."
+          },
+          {
+            "id": "l16h11",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Ändere nur ein Wort.",
+            "prompt": "Am Sonntag bin ich bis zehn Uhr ausgeschlafen, deshalb war ich den ganzen Tag gut gelaunt.",
+            "solution": "Am Sonntag habe ich bis zehn Uhr ausgeschlafen, deshalb war ich den ganzen Tag gut gelaunt.",
+            "hint": "Welches Hilfsverb hat 'ausschlafen' im Perfekt?",
+            "explanation": "'ausschlafen' bildet das Perfekt mit 'haben', anders als 'einschlafen' (ist eingeschlafen), das einen Zustandswechsel ausdrückt."
+          },
+          {
+            "id": "l16h12",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Ändere nur ein Wort; 'so' bleibt im Satz.",
+            "prompt": "Er war so müde, sodass er im Zug eingeschlafen ist.",
+            "solution": "Er war so müde, dass er im Zug eingeschlafen ist.",
+            "hint": "'so' steht schon vor dem Adjektiv.",
+            "explanation": "Bei 'so + Adjektiv' folgt nur 'dass'. 'sodass' steht ohne 'so' im Hauptsatz: Er war müde, sodass …"
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l16t01",
+          "type": "multiple-choice",
+          "instruction": "Welches Wort drückt die Folge aus und passt zur Wortstellung?",
+          "prompt": "Der Nachtzug hatte drei Stunden Verspätung, ___ wir den Anschluss in Wien verpassten.",
+          "options": [
+            "sodass",
+            "deshalb",
+            "weil",
+            "obwohl"
+          ],
+          "solution": "sodass",
+          "explanation": "Das Verb steht am Ende, also Nebensatz: 'sodass'. 'deshalb' verlangt das Verb auf Position 2; 'weil' nennt den Grund, nicht die Folge."
+        },
+        {
+          "id": "l16t02",
+          "type": "multiple-choice",
+          "instruction": "Wie geht der Satz richtig weiter?",
+          "prompt": "Der Rasen war nach tagelangem Regen völlig aufgeweicht, deshalb …",
+          "options": [
+            "verschob der Verein das Turnier um eine Woche.",
+            "der Verein verschob das Turnier um eine Woche.",
+            "der Verein das Turnier um eine Woche verschob.",
+            "das Turnier verschob der Verein um eine Woche."
+          ],
+          "solution": "verschob der Verein das Turnier um eine Woche.",
+          "explanation": "'deshalb' besetzt Position 1, das Verb folgt direkt: 'deshalb verschob der Verein'. Verb am Ende gibt es nur nach 'sodass'."
+        },
+        {
+          "id": "l16t03",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze den bestimmten Artikel nach „infolge“.",
+          "prompt": "Infolge ___ Streiks fielen am Montag fast alle S-Bahnen aus. (der Streik)",
+          "solution": "des",
+          "explanation": "'infolge' steht mit Genitiv: 'infolge des Streiks'. 'dem' (Dativ) passt nur zu 'infolge von'."
+        },
+        {
+          "id": "l16t04",
+          "type": "multiple-choice",
+          "instruction": "Was passt in die Lücke?",
+          "prompt": "___ Glatteis kam es am frühen Morgen auf der Autobahn zu mehreren Unfällen.",
+          "options": [
+            "Infolge von",
+            "Infolge des",
+            "Infolge",
+            "Infolgedessen"
+          ],
+          "solution": "Infolge von",
+          "explanation": "Ohne Artikel ist der Genitiv nicht erkennbar, daher 'infolge von' + Dativ. 'Infolgedessen' ist ein Adverb und braucht kein Nomen."
+        },
+        {
+          "id": "l16t05",
+          "type": "targeted-transformation",
+          "instruction": "Verbinde die Sätze mit „sodass“. Beginne mit „Die Präsentation dauerte“.",
+          "prompt": "Die Präsentation dauerte viel zu lange. Die Hälfte des Publikums wurde unruhig.",
+          "solution": "Die Präsentation dauerte viel zu lange, sodass die Hälfte des Publikums unruhig wurde.",
+          "explanation": "'sodass' leitet einen Nebensatz ein: Komma davor, konjugiertes Verb 'wurde' ans Ende."
+        },
+        {
+          "id": "l16t06",
+          "type": "targeted-transformation",
+          "instruction": "Verbinde die Sätze mit „so … dass“. Ersetze „sehr“ durch „so“; die übrigen Satzglieder behalten ihre Reihenfolge.",
+          "prompt": "Die Suppe war sehr scharf. Niemand am Tisch konnte den Teller leeren.",
+          "solution": "Die Suppe war so scharf, dass niemand am Tisch den Teller leeren konnte.",
+          "explanation": "'so' steht vor dem Adjektiv im Hauptsatz, 'dass' leitet den Nebensatz ein. Das Modalverb 'konnte' kommt ans Ende."
+        },
+        {
+          "id": "l16t07",
+          "type": "targeted-transformation",
+          "instruction": "Ersetze den weil-Satz durch „infolge“ + Genitiv. Verwende „die Sperrung der Brücke“ und beginne mit „Infolge“.",
+          "prompt": "Weil die Brücke gesperrt war, mussten alle Lastwagen einen Umweg fahren.",
+          "solution": "Infolge der Sperrung der Brücke mussten alle Lastwagen einen Umweg fahren.",
+          "explanation": "'infolge' + Genitiv: 'der Sperrung'. Die Präpositionalgruppe ist Position 1, danach direkt das Verb 'mussten'."
+        },
+        {
+          "id": "l16t08",
+          "type": "targeted-transformation",
+          "instruction": "Verbinde die Sätze mit Komma und „folglich“. Der zweite Satz beginnt mit „folglich“.",
+          "prompt": "Das Ersatzteil ist nicht mehr lieferbar. Die Werkstatt kann die Waschmaschine nicht reparieren.",
+          "solution": "Das Ersatzteil ist nicht mehr lieferbar, folglich kann die Werkstatt die Waschmaschine nicht reparieren.",
+          "explanation": "'folglich' ist ein Adverb auf Position 1, das Verb 'kann' folgt direkt. Kein Nebensatz, also nicht 'folglich die Werkstatt … kann'."
+        },
+        {
+          "id": "l16t09",
+          "type": "error-correction",
+          "instruction": "Korrigiere die Wortstellung. Ändere sonst nichts.",
+          "prompt": "Im Supermarkt gab es keine Hefe mehr, deswegen wir haben das Brot nicht selbst gebacken.",
+          "solution": "Im Supermarkt gab es keine Hefe mehr, deswegen haben wir das Brot nicht selbst gebacken.",
+          "explanation": "'deswegen' zählt als Position 1, das Verb steht direkt danach: 'deswegen haben wir'. Es ist kein Konnektor wie 'und' auf Position 0."
+        },
+        {
+          "id": "l16t10",
+          "type": "error-correction",
+          "instruction": "Korrigiere die Wortstellung. Ändere sonst nichts.",
+          "prompt": "Die Hotline war ständig besetzt, sodass ich habe den Termin schließlich online gebucht.",
+          "solution": "Die Hotline war ständig besetzt, sodass ich den Termin schließlich online gebucht habe.",
+          "explanation": "'sodass' leitet einen Nebensatz ein: Das Hilfsverb 'habe' steht am Ende, nach dem Partizip."
+        },
+        {
+          "id": "l16t11",
+          "type": "error-correction",
+          "instruction": "Ändere nur ein Wort.",
+          "prompt": "Infolge des starken Nebel blieb der Flughafen stundenlang geschlossen.",
+          "solution": "Infolge des starken Nebels blieb der Flughafen stundenlang geschlossen.",
+          "explanation": "'infolge' verlangt den Genitiv; maskuline Nomen bekommen dort -s: 'des starken Nebels'."
+        },
+        {
+          "id": "l16t12",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz. Beginne mit „Der Akku meines Handys“; der zweite Hauptsatz beginnt mit „infolgedessen“.",
+          "prompt": "Baue den Satz aus den Satzgliedern.",
+          "scrambleChunks": [
+            "klingelte",
+            "infolgedessen",
+            "nicht",
+            "Der Akku meines Handys",
+            "der Wecker",
+            "war leer,"
+          ],
+          "solution": "Der Akku meines Handys war leer, infolgedessen klingelte der Wecker nicht.",
+          "explanation": "'infolgedessen' steht auf Position 1 des zweiten Hauptsatzes, das Verb 'klingelte' folgt direkt, dann das Subjekt."
+        },
+        {
+          "id": "l16t13",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz. Beginne mit „Im Zimmer“.",
+          "prompt": "Baue den Satz aus den Satzgliedern.",
+          "scrambleChunks": [
+            "dass ich",
+            "weit öffnete",
+            "so stickig,",
+            "Im Zimmer",
+            "das Fenster",
+            "war es"
+          ],
+          "solution": "Im Zimmer war es so stickig, dass ich das Fenster weit öffnete.",
+          "explanation": "'so' steht vor dem Adjektiv, der dass-Satz folgt nach dem Komma mit dem Verb 'öffnete' am Ende."
+        },
+        {
+          "id": "l16t14",
+          "type": "cloze-conjugation",
+          "instruction": "Setze „durchschlafen“ im Perfekt ein (Partizip II und Hilfsverb).",
+          "prompt": "Das neue Hotelbett war so bequem, dass meine Mutter zum ersten Mal seit Monaten ___.",
+          "solution": "durchgeschlafen hat",
+          "explanation": "'durchschlafen' bildet das Perfekt mit 'haben' (keine Ortsveränderung), anders als 'einschlafen' mit 'sein'. Im dass-Satz steht das Hilfsverb am Ende."
+        },
+        {
+          "id": "l16t15",
+          "type": "multiple-choice",
+          "instruction": "Welches Nomen passt?",
+          "prompt": "In der Innenstadt gibt es kaum noch freie Parkplätze. Die ___ ist, dass immer mehr Pendler mit dem Fahrrad ins Büro fahren.",
+          "options": [
+            "Folge",
+            "Ursache",
+            "Grund",
+            "Absicht"
+          ],
+          "solution": "Folge",
+          "explanation": "Der dass-Satz nennt das Ergebnis: 'Die Folge ist, dass …'. 'Ursache' und 'Grund' bezeichnen den Auslöser, 'Absicht' ein Ziel."
+        },
+        {
+          "id": "l16t16",
+          "type": "multiple-choice",
+          "instruction": "Welches Wort passt zur Wortstellung?",
+          "prompt": "Der Drucker im Büro war kaputt, ___ druckte ich die Unterlagen im Copyshop aus.",
+          "options": [
+            "deshalb",
+            "sodass",
+            "weil",
+            "denn"
+          ],
+          "solution": "deshalb",
+          "explanation": "Das Verb 'druckte' steht direkt nach der Lücke, also Adverb auf Position 1: 'deshalb'. Nach 'sodass' stünde das Verb am Ende."
+        }
+      ]
+    },
+    {
+      "lektionId": "b2-m6-l17",
+      "level": "B2",
+      "modulNumber": 6,
+      "lektionNumber": 17,
+      "title": "Mach das Beste aus dir",
+      "grammarFocus": [
+        "Redemittel in der Diskussion: Meinung äußern, zustimmen, widersprechen (Ich bin davon überzeugt, dass …; Mir leuchtet ein, dass …; Ich sehe … kritisch; Ich schlage vor, …)",
+        "Adjektive bilden mit -bar, -sam, -lich, -haft, -fähig und un- (heilbar, erholsam, unerträglich, dauerhaft, leistungsfähig)",
+        "Verben mit festen Ergänzungen: etwas durchhalten, nachlassen, jemandem/einer Sache entsprechen (Dativ), in jemandem stecken, etwas festlegen"
+      ],
+      "vocabulary": [
+        {
+          "id": "l17v01",
+          "term": "die Selbstoptimierung",
+          "translation": "la automejora, la autooptimización",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Für manche ist Selbstoptimierung ein Hobby, für andere eine ständige Belastung."
+        },
+        {
+          "id": "l17v02",
+          "term": "das Schönheitsideal",
+          "translation": "el ideal de belleza",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Schönheitsideale",
+          "example": "Das Schönheitsideal der Fünfzigerjahre sah ganz anders aus als das heutige."
+        },
+        {
+          "id": "l17v03",
+          "term": "das Tattoo",
+          "translation": "el tatuaje",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Tattoos",
+          "example": "Ihr erstes Tattoo hat sie sich mit achtzehn stechen lassen."
+        },
+        {
+          "id": "l17v04",
+          "term": "das Implantat",
+          "translation": "el implante",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Implantate",
+          "example": "Nach dem Unfall bekam der Radfahrer ein Implantat im Kiefer."
+        },
+        {
+          "id": "l17v05",
+          "term": "der Leistungsdruck",
+          "translation": "la presión por rendir",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "example": "Viele Studierende leiden unter dem Leistungsdruck vor den Prüfungen."
+        },
+        {
+          "id": "l17v06",
+          "term": "das Durchhaltevermögen",
+          "translation": "la perseverancia, la constancia",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "example": "Wer ein Instrument lernt, braucht vor allem Durchhaltevermögen."
+        },
+        {
+          "id": "l17v07",
+          "term": "die Willenskraft",
+          "translation": "la fuerza de voluntad",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Mit etwas Willenskraft verzichtet man auch mal auf den Nachtisch."
+        },
+        {
+          "id": "l17v08",
+          "term": "die Ernährung",
+          "translation": "la alimentación",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Eine ausgewogene Ernährung ist wichtiger als jedes Nahrungsergänzungsmittel."
+        },
+        {
+          "id": "l17v09",
+          "term": "durchhalten",
+          "translation": "aguantar, perseverar",
+          "partOfSpeech": "verb",
+          "preterite": "hielt durch",
+          "participle": "durchgehalten",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Den Sprachkurs am Abend hat Tarek trotz Schichtarbeit bis zum Ende durchgehalten."
+        },
+        {
+          "id": "l17v10",
+          "term": "nachlassen",
+          "translation": "disminuir, remitir",
+          "partOfSpeech": "verb",
+          "preterite": "ließ nach",
+          "participle": "nachgelassen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Gegen Ende der Wanderung ließen unsere Kräfte langsam nach."
+        },
+        {
+          "id": "l17v11",
+          "term": "entsprechen",
+          "translation": "corresponder a, cumplir con",
+          "partOfSpeech": "verb",
+          "preterite": "entsprach",
+          "participle": "entsprochen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Die Wohnung entspricht leider nicht der Beschreibung in der Anzeige."
+        },
+        {
+          "id": "l17v12",
+          "term": "stecken",
+          "translation": "estar metido, esconderse (en)",
+          "partOfSpeech": "verb",
+          "preterite": "steckte",
+          "participle": "gesteckt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "In diesem kleinen Verein steckt erstaunlich viel Energie."
+        },
+        {
+          "id": "l17v13",
+          "term": "festlegen",
+          "translation": "fijar, establecer",
+          "partOfSpeech": "verb",
+          "preterite": "legte fest",
+          "participle": "festgelegt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Die Gruppe hat die Regeln für das Projekt gemeinsam festgelegt."
+        },
+        {
+          "id": "l17v14",
+          "term": "vermitteln",
+          "translation": "transmitir",
+          "partOfSpeech": "verb",
+          "preterite": "vermittelte",
+          "participle": "vermittelt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Die Lehrerin vermittelt nicht nur Wissen, sondern auch Neugier."
+        },
+        {
+          "id": "l17v15",
+          "term": "akzeptieren",
+          "translation": "aceptar",
+          "partOfSpeech": "verb",
+          "preterite": "akzeptierte",
+          "participle": "akzeptiert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Es fiel ihm schwer, die Niederlage zu akzeptieren."
+        },
+        {
+          "id": "l17v16",
+          "term": "einpflanzen",
+          "translation": "implantar",
+          "partOfSpeech": "verb",
+          "preterite": "pflanzte ein",
+          "participle": "eingepflanzt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Dem Patienten wurde ein Herzschrittmacher eingepflanzt."
+        },
+        {
+          "id": "l17v18",
+          "term": "leistungsfähig",
+          "translation": "eficiente, capaz de rendir",
+          "partOfSpeech": "adjective",
+          "example": "Die neue Heizung ist leiser und leistungsfähiger als die alte."
+        },
+        {
+          "id": "l17v19",
+          "term": "heilbar",
+          "translation": "curable",
+          "partOfSpeech": "adjective",
+          "example": "Früh erkannt, ist diese Infektion gut heilbar."
+        },
+        {
+          "id": "l17v20",
+          "term": "erholsam",
+          "translation": "reparador, relajante",
+          "partOfSpeech": "adjective",
+          "example": "Die Tage auf der Insel waren ruhig und sehr erholsam."
+        },
+        {
+          "id": "l17v21",
+          "term": "unerträglich",
+          "translation": "insoportable",
+          "partOfSpeech": "adjective",
+          "example": "Im Juli war die Hitze in der Dachwohnung fast unerträglich."
+        },
+        {
+          "id": "l17v22",
+          "term": "dauerhaft",
+          "translation": "duradero, permanente",
+          "partOfSpeech": "adjective",
+          "example": "Wir suchen eine dauerhafte Lösung, keine schnelle Notlösung."
+        },
+        {
+          "id": "l17v23",
+          "term": "lästig",
+          "translation": "molesto, fastidioso",
+          "partOfSpeech": "adjective",
+          "example": "Die ständigen Werbeanrufe sind wirklich lästig."
+        },
+        {
+          "id": "l17v24",
+          "term": "schlapp",
+          "translation": "sin fuerzas, flojo",
+          "partOfSpeech": "adjective",
+          "example": "Nach der Grippe fühlte sich Oma noch tagelang schlapp."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l17e01",
+            "type": "multiple-choice",
+            "instruction": "Welche Funktion hat das Redemittel in der Diskussion?",
+            "prompt": "„Mir leuchtet ein, dass kurze Pausen die Konzentration verbessern.“",
+            "options": [
+              "zustimmen",
+              "widersprechen / ablehnen",
+              "einen Vorschlag machen",
+              "einen Grund nennen"
+            ],
+            "solution": "zustimmen",
+            "hint": "Wenn dir etwas „einleuchtet“, findest du es überzeugend.",
+            "explanation": "„Mir leuchtet ein, dass …“ heißt: Das Argument überzeugt mich – also Zustimmung. Ein Grund würde mit „Aus diesem Grund …“ eingeleitet."
+          },
+          {
+            "id": "l17e02",
+            "type": "multiple-choice",
+            "instruction": "Welche Funktion hat das Redemittel in der Diskussion?",
+            "prompt": "„Ich sehe Fitness-Uhren für Grundschulkinder kritisch.“",
+            "options": [
+              "zustimmen",
+              "widersprechen / ablehnen",
+              "einen Vorschlag machen",
+              "einen Grund nennen"
+            ],
+            "solution": "widersprechen / ablehnen",
+            "hint": "Wie bewertet die Person die Fitness-Uhren?",
+            "explanation": "„Ich sehe etwas kritisch“ drückt Bedenken aus, also Widerspruch/Ablehnung. Es ist kein Vorschlag, denn es wird nichts angeregt."
+          },
+          {
+            "id": "l17e03",
+            "type": "multiple-choice",
+            "instruction": "Welche Funktion hat das Redemittel in der Diskussion?",
+            "prompt": "„Ich empfehle, dass jeder sein Ziel für den Monat aufschreibt.“",
+            "options": [
+              "zustimmen",
+              "widersprechen / ablehnen",
+              "einen Vorschlag machen",
+              "einen Grund nennen"
+            ],
+            "solution": "einen Vorschlag machen",
+            "hint": "Die Person regt an, etwas Bestimmtes zu tun.",
+            "explanation": "„Ich empfehle …“ leitet wie „Ich schlage vor, …“ einen Vorschlag ein. Zustimmung reagiert dagegen auf die Aussage eines anderen."
+          },
+          {
+            "id": "l17e04",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Wort.",
+            "prompt": "Ich bin ___ überzeugt, dass Gesundheit wichtiger ist als ein perfekter Körper.",
+            "options": [
+              "davon",
+              "darüber",
+              "dafür",
+              "daran"
+            ],
+            "solution": "davon",
+            "hint": "Welche Präposition gehört zu „überzeugt sein“?",
+            "explanation": "Es heißt „von etwas überzeugt sein“, deshalb „davon“. „Darüber“, „dafür“ und „daran“ passen zu anderen Verben (sich freuen, sein, glauben)."
+          },
+          {
+            "id": "l17e05",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Verb „einleuchten“ im Präsens.",
+            "prompt": "Mir ___ ein, dass niemand jeden Tag Höchstleistungen bringen kann.",
+            "solution": "leuchtet",
+            "hint": "Das Subjekt ist der dass-Satz – also 3. Person Singular.",
+            "explanation": "„Einleuchten“ ist trennbar: „Mir leuchtet ein, dass …“. Der dass-Satz ist das Subjekt, darum 3. Person Singular „leuchtet“."
+          },
+          {
+            "id": "l17e06",
+            "type": "multiple-choice",
+            "instruction": "Welches Adjektiv passt?",
+            "prompt": "Diese Hautkrankheit kann man mit einer Salbe vollständig heilen. Sie ist also ___.",
+            "options": [
+              "heilbar",
+              "heilsam",
+              "geheilt",
+              "heillos"
+            ],
+            "solution": "heilbar",
+            "hint": "Welche Endung bedeutet „kann … werden“?",
+            "explanation": "-bar bedeutet „kann gemacht werden“: heilbar = kann geheilt werden. „Heilsam“ heißt „tut gut“, „geheilt“ heißt „schon gesund“."
+          },
+          {
+            "id": "l17e07",
+            "type": "multiple-choice",
+            "instruction": "Welches Adjektiv passt?",
+            "prompt": "Nach einem ___ Wochenende in den Bergen startete Paula voller Energie in die Woche.",
+            "options": [
+              "erholsamen",
+              "erholten",
+              "erholbaren",
+              "erholenden"
+            ],
+            "solution": "erholsamen",
+            "hint": "Gesucht ist ein Adjektiv mit der Bedeutung „bringt Erholung“.",
+            "explanation": "-sam bedeutet „bewirkt etwas“: ein erholsames Wochenende bringt Erholung. „Erholt“ beschreibt Personen, „erholbar“ gibt es nicht."
+          },
+          {
+            "id": "l17e08",
+            "type": "fill-in-blank",
+            "instruction": "Bilde aus „ertragen“ ein Adjektiv mit un- und -lich.",
+            "prompt": "Der Baulärm vor dem Fitnessstudio war so laut, dass er ___ war.",
+            "solution": "unerträglich",
+            "hint": "Das Verb bekommt im Adjektiv einen Umlaut.",
+            "explanation": "un- verneint, -lich bildet das Adjektiv: unerträglich = man kann es nicht ertragen. Achte auf den Umlaut: „trag“ → „träg“."
+          },
+          {
+            "id": "l17e09",
+            "type": "multiple-choice",
+            "instruction": "Welcher Satz passt am besten in den SCHLUSS eines Forumsbeitrags?",
+            "prompt": "Thema: Lohnt sich ein Ernährungstagebuch?",
+            "options": [
+              "Ich hoffe, dass noch mehr von euch ihre Erfahrungen hier teilen.",
+              "Neulich habe ich im Radio eine Sendung über Ernährungs-Apps gehört.",
+              "Ein Beispiel aus meinem Alltag: Ich habe drei Wochen alles notiert.",
+              "Gerade wird in den Medien viel über Kalorienzählen diskutiert."
+            ],
+            "solution": "Ich hoffe, dass noch mehr von euch ihre Erfahrungen hier teilen.",
+            "hint": "Am Schluss äußert man Wünsche, gibt Tipps oder regt die Diskussion an.",
+            "explanation": "Ein Wunsch und eine Aufforderung zur Diskussion gehören in den Schluss. Ein Beispiel, eine Erfahrung oder ein aktueller Bezug leiten eher ein."
+          },
+          {
+            "id": "l17e10",
+            "type": "multiple-choice",
+            "instruction": "Wähle die richtige Form.",
+            "prompt": "Der neue Sportkurs entsprach leider nicht ___ Erwartungen.",
+            "options": [
+              "meinen",
+              "meine",
+              "meiner",
+              "mein"
+            ],
+            "solution": "meinen",
+            "hint": "„Entsprechen“ verlangt einen bestimmten Kasus.",
+            "explanation": "„Entsprechen“ steht mit Dativ: Dativ Plural = „meinen Erwartungen“. „Meine“ wäre Akkusativ, „meiner“ Genitiv oder Dativ Singular feminin."
+          },
+          {
+            "id": "l17e11",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Verb.",
+            "prompt": "In dir ___ mehr Ausdauer, als du glaubst.",
+            "options": [
+              "steckt",
+              "hält",
+              "legt",
+              "lässt"
+            ],
+            "solution": "steckt",
+            "hint": "Gesucht ist ein Verb mit der Bedeutung „ist verborgen vorhanden“.",
+            "explanation": "„In jemandem stecken“ heißt „verborgen vorhanden sein“. „Hält“, „legt“ und „lässt“ brauchen hier ein Objekt und ergeben keinen Sinn."
+          },
+          {
+            "id": "l17e12",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passenden Verbteile.",
+            "prompt": "Nach zwei Stunden am Schreibtisch ___ meine Aufmerksamkeit deutlich ___.",
+            "options": [
+              "lässt … nach",
+              "hält … durch",
+              "legt … fest",
+              "steckt … ein"
+            ],
+            "solution": "lässt … nach",
+            "hint": "Gesucht ist ein Verb mit der Bedeutung „wird schwächer“.",
+            "explanation": "„Nachlassen“ heißt „schwächer werden“ und ist trennbar: „lässt … nach“. „Durchhalten“ heißt das Gegenteil, „festlegen“ braucht ein Objekt."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l17m01",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz, mit dem du deine Meinung äußerst. Beginne mit „Ich bin davon überzeugt,“.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "leistungsfähiger",
+              "dass",
+              "Ich bin davon überzeugt,",
+              "macht",
+              "regelmäßige Bewegung"
+            ],
+            "solution": "Ich bin davon überzeugt, dass regelmäßige Bewegung leistungsfähiger macht.",
+            "hint": "Im dass-Satz steht das konjugierte Verb am Ende.",
+            "explanation": "Nach „davon überzeugt,“ folgt ein dass-Satz: Subjekt „regelmäßige Bewegung“, dann Ergänzung, das Verb „macht“ steht am Ende."
+          },
+          {
+            "id": "l17m02",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Vorschlag. Beginne mit „Ich schlage vor,“.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "setzen",
+              "wir",
+              "Ich schlage vor,",
+              "ein realistisches Ziel",
+              "dass",
+              "uns"
+            ],
+            "solution": "Ich schlage vor, dass wir uns ein realistisches Ziel setzen.",
+            "hint": "Das Reflexivpronomen steht direkt nach dem Subjektpronomen.",
+            "explanation": "„Ich schlage vor, dass …“: im Nebensatz Pronomen zuerst („wir uns“), dann das Objekt, das Verb „setzen“ ans Ende."
+          },
+          {
+            "id": "l17m03",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz mit Relativsatz. Beginne mit „Viele Models“.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "erreicht",
+              "Viele Models",
+              "einem Schönheitsideal,",
+              "entsprechen",
+              "kaum jemand",
+              "das"
+            ],
+            "solution": "Viele Models entsprechen einem Schönheitsideal, das kaum jemand erreicht.",
+            "hint": "„Entsprechen“ + Dativ; im Relativsatz steht das Verb am Ende.",
+            "explanation": "„Entsprechen“ verlangt den Dativ „einem Schönheitsideal“. Der Relativsatz mit „das“ endet mit dem Verb „erreicht“."
+          },
+          {
+            "id": "l17m04",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit „Am späten Nachmittag“.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "nach",
+              "lässt",
+              "Am späten Nachmittag",
+              "meine Konzentration oft"
+            ],
+            "solution": "Am späten Nachmittag lässt meine Konzentration oft nach.",
+            "hint": "„Nachlassen“ ist trennbar.",
+            "explanation": "Im Hauptsatz steht „lässt“ auf Position 2, das Präfix „nach“ wandert ans Satzende."
+          },
+          {
+            "id": "l17m05",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit „Wer“.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "sieht",
+              "Wer",
+              "durchhält,",
+              "erste Erfolge",
+              "sein Training drei Monate lang"
+            ],
+            "solution": "Wer sein Training drei Monate lang durchhält, sieht erste Erfolge.",
+            "hint": "Im wer-Satz bleibt das trennbare Verb zusammen am Ende.",
+            "explanation": "Im Nebensatz mit „wer“ steht „durchhält“ ungetrennt am Ende. Danach folgt das Verb des Hauptsatzes „sieht“."
+          },
+          {
+            "id": "l17m06",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz im Perfekt. Beginne mit „Vor dem ersten Training“.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "festgelegt",
+              "sie",
+              "Vor dem ersten Training",
+              "ein klares Ziel",
+              "hat"
+            ],
+            "solution": "Vor dem ersten Training hat sie ein klares Ziel festgelegt.",
+            "hint": "Ein Pronomen steht im Mittelfeld ganz vorne.",
+            "explanation": "„Hat“ steht auf Position 2, das Pronomen „sie“ direkt danach, das Partizip „festgelegt“ am Ende (Präfix „fest-“ + „ge“)."
+          },
+          {
+            "id": "l17m07",
+            "type": "sentence-scramble",
+            "instruction": "Nenne eine Folge. Beginne mit „Aus diesem Grund“.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "in die Küche",
+              "lege",
+              "Aus diesem Grund",
+              "mein Handy abends",
+              "ich"
+            ],
+            "solution": "Aus diesem Grund lege ich mein Handy abends in die Küche.",
+            "hint": "Nach dem Ausdruck im Vorfeld kommt sofort das Verb.",
+            "explanation": "„Aus diesem Grund“ besetzt das Vorfeld, deshalb folgt das Verb „lege“ auf Position 2 und das Subjekt „ich“ danach."
+          },
+          {
+            "id": "l17m08",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Partizip II von „durchhalten“.",
+            "prompt": "Wie lange hast du deinen Plan ohne Zucker eigentlich ___?",
+            "solution": "durchgehalten",
+            "hint": "Trennbares, unregelmäßiges Verb: halten – hielt – gehalten.",
+            "explanation": "Trennbares Verb: „-ge-“ steht zwischen Präfix und Stamm. „Halten“ ist stark, darum „durchgehalten“, nicht „durchgehaltet“."
+          },
+          {
+            "id": "l17m09",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Partizip II von „nachlassen“.",
+            "prompt": "Seit dem Umzug hat meine Lust auf Sport leider stark ___.",
+            "solution": "nachgelassen",
+            "hint": "Lassen – ließ – gelassen.",
+            "explanation": "„Nachlassen“ ist trennbar und stark: „nach“ + „gelassen“ = „nachgelassen“. Das Perfekt bildet es mit „haben“."
+          },
+          {
+            "id": "l17m10",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze „entsprechen“ im Präteritum.",
+            "prompt": "Das Hotel ___ genau dem Bild, das wir uns von einem Wellnessurlaub gemacht hatten.",
+            "solution": "entsprach",
+            "hint": "Entsprechen geht wie sprechen.",
+            "explanation": "„Entsprechen“ ist stark wie „sprechen“: Präteritum „entsprach“. Es steht mit Dativ („dem Bild“)."
+          },
+          {
+            "id": "l17m11",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze „vermitteln“ im Präsens.",
+            "prompt": "Unsere Yogalehrerin ___ nicht nur Übungen, sondern auch Gelassenheit.",
+            "solution": "vermittelt",
+            "hint": "Subjekt: 3. Person Singular.",
+            "explanation": "„Vermitteln“ ist regelmäßig: 3. Person Singular „vermittelt“. Es ist untrennbar, „ver-“ bleibt am Verb."
+          },
+          {
+            "id": "l17m12",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Partizip II von „einleuchten“.",
+            "prompt": "Das Argument meiner Ärztin hat mir sofort ___.",
+            "solution": "eingeleuchtet",
+            "hint": "Trennbares, regelmäßiges Verb.",
+            "explanation": "„Einleuchten“ ist trennbar und schwach: „ein“ + „ge“ + „leuchtet“ = „eingeleuchtet“; Perfekt mit „haben“."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l17h01",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze den Relativsatz durch ein Adjektiv auf -bar. Beginne mit „Heilbare“; der Rest bleibt unverändert.",
+            "prompt": "Krankheiten, die man heilen kann, machen den meisten Menschen weniger Angst.",
+            "solution": "Heilbare Krankheiten machen den meisten Menschen weniger Angst.",
+            "hint": "-bar ersetzt „man kann … + Verb“.",
+            "explanation": "„Die man heilen kann“ wird zu „heilbar“; das Adjektiv steht vor dem Nomen und bekommt die Endung -e (Nominativ Plural ohne Artikel)."
+          },
+          {
+            "id": "l17h02",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze den Relativsatz durch ein Adjektiv mit un- und -lich. Beginne mit „Ein“; der Rest bleibt unverändert.",
+            "prompt": "Ein Muskelkater, den man nicht vermeiden kann, gehört zum Training dazu.",
+            "solution": "Ein unvermeidlicher Muskelkater gehört zum Training dazu.",
+            "hint": "un- = nicht; achte auf die Endung nach „ein“.",
+            "explanation": "„Den man nicht vermeiden kann“ → „unvermeidlich“. Nach „ein“ (Nominativ maskulin) braucht das Adjektiv die Endung -er."
+          },
+          {
+            "id": "l17h03",
+            "type": "error-correction",
+            "instruction": "Im Satz ist ein Fehler. Schreibe den korrigierten Satz.",
+            "prompt": "Die Hitze im Kursraum war unerträgbar.",
+            "solution": "Die Hitze im Kursraum war unerträglich.",
+            "hint": "Die Endung des Adjektivs stimmt nicht.",
+            "explanation": "Zu „ertragen“ gehört die Bildung „unerträglich“. „Unerträgbar“ gibt es nicht, auch wenn -bar oft „kann … werden“ bedeutet."
+          },
+          {
+            "id": "l17h04",
+            "type": "targeted-transformation",
+            "instruction": "Forme um: „mehr leisten können“ → Komparativ eines Adjektivs auf -fähig. Beginne mit „Mit regelmäßigem Training ist der Körper“.",
+            "prompt": "Mit regelmäßigem Training kann der Körper mehr leisten.",
+            "solution": "Mit regelmäßigem Training ist der Körper leistungsfähiger.",
+            "hint": "Nomen + Fugen-s + -fähig.",
+            "explanation": "„Leistungsfähig“ = kann viel leisten; Fugen-s nach „Leistung“. „Mehr“ wird zum Komparativ -er: „leistungsfähiger“."
+          },
+          {
+            "id": "l17h05",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze „bringt viel Erholung“ durch „ist sehr“ + Adjektiv auf -sam.",
+            "prompt": "Ein Spaziergang nach der Arbeit bringt viel Erholung.",
+            "solution": "Ein Spaziergang nach der Arbeit ist sehr erholsam.",
+            "hint": "-sam bedeutet „bewirkt etwas“.",
+            "explanation": "„Erholsam“ = bringt Erholung. Prädikativ nach „ist“ bleibt das Adjektiv ohne Endung."
+          },
+          {
+            "id": "l17h06",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze „für lange Zeit“ durch ein Adjektiv auf -haft.",
+            "prompt": "Die neue Ernährung soll das Gewicht für lange Zeit stabilisieren.",
+            "solution": "Die neue Ernährung soll das Gewicht dauerhaft stabilisieren.",
+            "hint": "Das Adjektiv kommt von „die Dauer“.",
+            "explanation": "„Dauerhaft“ heißt „für lange Zeit“. Als Adverb beim Verb bleibt es ohne Endung und steht an derselben Stelle."
+          },
+          {
+            "id": "l17h07",
+            "type": "targeted-transformation",
+            "instruction": "Stimme zu mit „Mir leuchtet ein, dass“. Der Inhalt bleibt gleich.",
+            "prompt": "Pausen gehören zum Training.",
+            "solution": "Mir leuchtet ein, dass Pausen zum Training gehören.",
+            "hint": "Im dass-Satz steht das Verb am Ende.",
+            "explanation": "Nach „Mir leuchtet ein,“ folgt ein dass-Satz mit Komma; das Verb „gehören“ wandert ans Ende."
+          },
+          {
+            "id": "l17h08",
+            "type": "targeted-transformation",
+            "instruction": "Mache einen Vorschlag mit „Ich schlage vor, dass wir“.",
+            "prompt": "Lass uns die Regeln für die Laufgruppe festlegen!",
+            "solution": "Ich schlage vor, dass wir die Regeln für die Laufgruppe festlegen.",
+            "hint": "Im dass-Satz bleibt das trennbare Verb zusammen.",
+            "explanation": "Der Imperativ „Lass uns …“ wird zum dass-Satz mit „wir“; „festlegen“ steht ungetrennt am Ende."
+          },
+          {
+            "id": "l17h09",
+            "type": "error-correction",
+            "instruction": "Im Satz ist ein Fehler. Schreibe den korrigierten Satz.",
+            "prompt": "Der Trainingsplan entspricht genau meine Wünsche.",
+            "solution": "Der Trainingsplan entspricht genau meinen Wünschen.",
+            "hint": "Welchen Kasus verlangt „entsprechen“?",
+            "explanation": "„Entsprechen“ verlangt den Dativ: „meinen Wünschen“ (Dativ Plural mit -n). „Meine Wünsche“ ist Akkusativ."
+          },
+          {
+            "id": "l17h10",
+            "type": "error-correction",
+            "instruction": "Im Satz ist ein Fehler. Schreibe den korrigierten Satz.",
+            "prompt": "Nach dem zweiten Kaffee nachlässt die Müdigkeit schnell.",
+            "solution": "Nach dem zweiten Kaffee lässt die Müdigkeit schnell nach.",
+            "hint": "„Nachlassen“ ist ein trennbares Verb.",
+            "explanation": "Im Hauptsatz wird „nachlassen“ getrennt: „lässt“ auf Position 2, „nach“ ans Ende. Ungetrennt steht es nur im Nebensatz."
+          },
+          {
+            "id": "l17h11",
+            "type": "error-correction",
+            "instruction": "Im Satz ist ein Fehler. Schreibe den korrigierten Satz.",
+            "prompt": "In jeden Menschen steckt mehr Kraft, als man denkt.",
+            "solution": "In jedem Menschen steckt mehr Kraft, als man denkt.",
+            "hint": "Wo? oder Wohin?",
+            "explanation": "„In jemandem stecken“ beschreibt einen Ort (Wo?), darum Dativ: „in jedem Menschen“. Akkusativ „in jeden“ wäre eine Richtung."
+          },
+          {
+            "id": "l17h12",
+            "type": "error-correction",
+            "instruction": "Im Satz ist ein Fehler. Schreibe den korrigierten Satz.",
+            "prompt": "Obwohl es anstrengend war, hat Ilse das Fasten zwei Wochen durchgehaltet.",
+            "solution": "Obwohl es anstrengend war, hat Ilse das Fasten zwei Wochen durchgehalten.",
+            "hint": "Halten ist ein starkes Verb.",
+            "explanation": "„Halten“ ist stark: Partizip II „gehalten“, also „durchgehalten“. Die schwache Endung -et ist hier falsch."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l17t01",
+          "type": "multiple-choice",
+          "instruction": "Welche Funktion hat die Äußerung in der Diskussion?",
+          "prompt": "„Wie wäre es, wenn wir die Fastenwoche zuerst gemeinsam im Kollegenkreis ausprobieren?“",
+          "options": [
+            "zustimmen",
+            "widersprechen",
+            "einen Vorschlag machen",
+            "nachfragen"
+          ],
+          "solution": "einen Vorschlag machen",
+          "explanation": "„Wie wäre es, wenn …?“ bringt eine Idee ins Gespräch – ein Vorschlag, wie „Ich schlage vor, …“. Es wird weder zugestimmt noch widersprochen."
+        },
+        {
+          "id": "l17t02",
+          "type": "multiple-choice",
+          "instruction": "Welche Funktion hat die Äußerung in der Diskussion?",
+          "prompt": "„Da haben Sie völlig recht – ohne regelmäßige Pausen hält das auf Dauer niemand durch.“",
+          "options": [
+            "zustimmen",
+            "widersprechen",
+            "einen Vorschlag machen",
+            "nachfragen"
+          ],
+          "solution": "zustimmen",
+          "explanation": "„Da haben Sie (völlig) recht“ ist Zustimmung. Der zweite Teil begründet sie nur."
+        },
+        {
+          "id": "l17t03",
+          "type": "multiple-choice",
+          "instruction": "Welche Funktion hat die Äußerung in der Diskussion?",
+          "prompt": "„Das sehe ich ganz anders: Wer sich ständig mit anderen vergleicht, wird eher unzufrieden.“",
+          "options": [
+            "zustimmen",
+            "widersprechen",
+            "einen Vorschlag machen",
+            "nachfragen"
+          ],
+          "solution": "widersprechen",
+          "explanation": "„Das sehe ich ganz anders“ leitet einen Widerspruch ein. Danach folgt die Gegenposition."
+        },
+        {
+          "id": "l17t04",
+          "type": "cloze-conjugation",
+          "instruction": "Setze das Verb im Präsens ein. In die Lücke gehört nur die konjugierte Form.",
+          "prompt": "Dass man nach einer Erkältung nicht sofort wieder voll trainieren sollte, ___ (einleuchten) mir ein.",
+          "solution": "leuchtet",
+          "explanation": "einleuchten ist trennbar: Im Hauptsatz steht „leuchtet“ auf Position 2, „ein“ am Ende. Der dass-Satz ist das Subjekt, daher 3. Person Singular."
+        },
+        {
+          "id": "l17t05",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Pronominaladverb.",
+          "prompt": "Ehrlich gesagt halte ich nichts ___, jeden Tag die Kalorien zu zählen.",
+          "solution": "davon",
+          "explanation": "„nichts halten von“ drückt Ablehnung aus; vor dem Infinitivsatz steht daher „davon“. „dafür halten“ und „darauf halten“ haben eine andere Bedeutung.",
+          "options": [
+            "davon",
+            "dafür",
+            "darauf",
+            "daran"
+          ]
+        },
+        {
+          "id": "l17t06",
+          "type": "multiple-choice",
+          "instruction": "Wähle die passende Form.",
+          "prompt": "Ich sehe den Trend zum täglichen Kaltduschen eher ___.",
+          "options": [
+            "kritisch",
+            "kritischen",
+            "Kritik",
+            "kritisiert"
+          ],
+          "solution": "kritisch",
+          "explanation": "„etwas kritisch sehen“: Das Adjektiv steht adverbial und bleibt ohne Endung. „kritischen“ bräuchte ein Nomen danach."
+        },
+        {
+          "id": "l17t07",
+          "type": "fill-in-blank",
+          "instruction": "Bilde aus dem Verb ein Adjektiv mit „-bar“.",
+          "prompt": "Den alten Laptop kann man noch reparieren – er ist also noch ___.",
+          "solution": "reparierbar",
+          "explanation": "Verbstamm + -bar = „kann … werden“: reparieren → reparierbar. Die Endung -en fällt weg."
+        },
+        {
+          "id": "l17t08",
+          "type": "fill-in-blank",
+          "instruction": "Bilde aus dem Verb „glauben“ ein Adjektiv mit „un-“ und „-lich“.",
+          "prompt": "Ihre Ausdauer kann man kaum fassen – sie ist wirklich ___.",
+          "solution": "unglaublich",
+          "explanation": "un- verneint, -lich bildet das Adjektiv: glauben → glaublich → unglaublich. „unglaubbar“ gibt es nicht."
+        },
+        {
+          "id": "l17t09",
+          "type": "multiple-choice",
+          "instruction": "Welches Adjektiv ist richtig gebildet?",
+          "prompt": "Viele Studien bezweifeln den Nutzen dieser teuren Wunderpillen – er ist mehr als ___.",
+          "options": [
+            "zweifelhaft",
+            "zweifelbar",
+            "zweifelsam",
+            "zweiflich"
+          ],
+          "solution": "zweifelhaft",
+          "explanation": "Nomen + -haft = „mit … behaftet“: Zweifel → zweifelhaft. Die anderen Bildungen existieren nicht."
+        },
+        {
+          "id": "l17t10",
+          "type": "multiple-choice",
+          "instruction": "Welches Adjektiv ist richtig gebildet?",
+          "prompt": "Nach der Verletzungspause ist unsere Torhüterin endlich wieder voll ___.",
+          "options": [
+            "einsatzfähig",
+            "einsatzbar",
+            "einsatzsam",
+            "einsatzlich"
+          ],
+          "solution": "einsatzfähig",
+          "explanation": "Nomen + -fähig = „in der Lage zu …“: Einsatz → einsatzfähig. -bar hängt man an Verben (einsetzbar), nicht an „Einsatz“."
+        },
+        {
+          "id": "l17t11",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Verb.",
+          "prompt": "Die Stadt hat noch nicht ___, wann das neue Hallenbad öffnet.",
+          "options": [
+            "festgelegt",
+            "durchgehalten",
+            "nachgelassen",
+            "entsprochen"
+          ],
+          "solution": "festgelegt",
+          "explanation": "„etwas festlegen“ = verbindlich bestimmen; hier ist der wann-Satz das Objekt. Durchhalten, nachlassen und entsprechen passen weder inhaltlich noch zur Ergänzung."
+        },
+        {
+          "id": "l17t12",
+          "type": "cloze-conjugation",
+          "instruction": "Setze das Verb im Präteritum ein.",
+          "prompt": "Erst als der Muskelkater endlich ___ (nachlassen), konnte ich wieder normal Treppen steigen.",
+          "solution": "nachließ",
+          "explanation": "Im Nebensatz steht das trennbare Verb zusammen am Ende: „nachließ“. Präteritum von lassen: ließ."
+        },
+        {
+          "id": "l17t13",
+          "type": "multiple-choice",
+          "instruction": "Wähle die richtige Ergänzung zu „stecken“.",
+          "prompt": "Wie viel Arbeit ___ steckt, ahnen die meisten Zuschauer kaum.",
+          "options": [
+            "in einer einzigen Tanzaufführung",
+            "in eine einzige Tanzaufführung",
+            "an einer einzigen Tanzaufführung",
+            "auf einer einzigen Tanzaufführung"
+          ],
+          "solution": "in einer einzigen Tanzaufführung",
+          "explanation": "„in etwas stecken“ (= enthalten sein) verlangt „in“ + Dativ, weil es um einen Ort geht, nicht um eine Richtung. „in eine“ wäre Akkusativ."
+        },
+        {
+          "id": "l17t14",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz im Perfekt. Beginne mit „Auch während der Prüfungsphase“; das Subjekt steht direkt nach dem Hilfsverb.",
+          "prompt": "Baue den Satz aus den Satzgliedern.",
+          "scrambleChunks": [
+            "ihr Morgenyoga",
+            "hat",
+            "Auch während der Prüfungsphase",
+            "konsequent durchgehalten",
+            "Leonie"
+          ],
+          "solution": "Auch während der Prüfungsphase hat Leonie ihr Morgenyoga konsequent durchgehalten.",
+          "explanation": "„etwas durchhalten“ braucht ein Akkusativobjekt; Perfekt mit „haben“, Partizip „durchgehalten“ am Satzende."
+        },
+        {
+          "id": "l17t15",
+          "type": "error-correction",
+          "instruction": "Finde und korrigiere den Fehler. Ändere nur ein Wort.",
+          "prompt": "Der Speiseplan der Kantine entspricht inzwischen die Empfehlungen der Ernährungsberaterin.",
+          "solution": "Der Speiseplan der Kantine entspricht inzwischen den Empfehlungen der Ernährungsberaterin.",
+          "explanation": "entsprechen verlangt den Dativ ohne Präposition: „den Empfehlungen“. „die Empfehlungen“ ist Akkusativ."
+        },
+        {
+          "id": "l17t16",
+          "type": "targeted-transformation",
+          "instruction": "Äußere den Satz als feste Überzeugung. Beginne mit „Ich bin davon überzeugt, dass“.",
+          "prompt": "Kurze Spaziergänge in der Mittagspause senken den Stress.",
+          "solution": "Ich bin davon überzeugt, dass kurze Spaziergänge in der Mittagspause den Stress senken.",
+          "explanation": "Nach „Ich bin davon überzeugt, dass“ folgt ein Nebensatz: Das Verb „senken“ rückt ans Ende."
+        }
+      ]
+    },
+    {
+      "lektionId": "b2-m6-l18",
+      "level": "B2",
+      "modulNumber": 6,
+      "lektionNumber": 18,
+      "title": "Was führt Sie zu mir?",
+      "grammarFocus": [
+        "Konjunktiv II der Vergangenheit: hätte/wäre + Partizip II (irreale Vergangenheit, irreale Bedingungssätze mit wenn oder Verb auf Position 1)",
+        "Konjunktiv II der Vergangenheit mit Modalverb: hätte + Infinitiv + Modalverb im Infinitiv (hätte … nehmen müssen)",
+        "Konjunktiv II der Vergangenheit im Passiv: wäre + Partizip II + worden"
+      ],
+      "vocabulary": [
+        {
+          "id": "l18v01",
+          "term": "der Arztbrief",
+          "translation": "el informe médico",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Arztbriefe",
+          "example": "Den Arztbrief aus der Klinik soll ich beim nächsten Termin mitbringen."
+        },
+        {
+          "id": "l18v02",
+          "term": "der Facharzt",
+          "translation": "el médico especialista",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Fachärzte",
+          "example": "Für einen Termin beim Facharzt wartet man in der Stadt oft mehrere Wochen."
+        },
+        {
+          "id": "l18v03",
+          "term": "der Fachbegriff",
+          "translation": "el término técnico",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Fachbegriffe",
+          "example": "Die Apothekerin hat mir jeden Fachbegriff auf dem Beipackzettel geduldig erklärt."
+        },
+        {
+          "id": "l18v04",
+          "term": "der Befund",
+          "translation": "el resultado (de un examen médico)",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Befunde",
+          "example": "Der Befund der Blutuntersuchung war zum Glück unauffällig."
+        },
+        {
+          "id": "l18v05",
+          "term": "die Diagnose",
+          "translation": "el diagnóstico",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Diagnosen",
+          "example": "Erst nach dem Ultraschall konnte die Ärztin eine sichere Diagnose stellen."
+        },
+        {
+          "id": "l18v06",
+          "term": "die Untersuchung",
+          "translation": "el examen / la revisión médica",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Untersuchungen",
+          "example": "Vor der Untersuchung sollte man mindestens acht Stunden nichts essen."
+        },
+        {
+          "id": "l18v07",
+          "term": "die Entzündung",
+          "translation": "la inflamación",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Entzündungen",
+          "example": "Gegen die Entzündung am Zahnfleisch hilft eine spezielle Mundspülung."
+        },
+        {
+          "id": "l18v08",
+          "term": "die Allergie",
+          "translation": "la alergia",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Allergien",
+          "example": "Seit ihrer Kindheit hat meine Kollegin eine Allergie gegen Nüsse."
+        },
+        {
+          "id": "l18v09",
+          "term": "der Schwindel",
+          "translation": "el mareo",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "example": "Wenn ich zu schnell aufstehe, bekomme ich manchmal leichten Schwindel."
+        },
+        {
+          "id": "l18v10",
+          "term": "die Übelkeit",
+          "translation": "las náuseas",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Auf langen Schiffsfahrten leidet mein Onkel regelmäßig unter Übelkeit."
+        },
+        {
+          "id": "l18v11",
+          "term": "der Schüttelfrost",
+          "translation": "los escalofríos",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "example": "Trotz der warmen Decke hatte das Kind die ganze Nacht Schüttelfrost."
+        },
+        {
+          "id": "l18v12",
+          "term": "der Kreislauf",
+          "translation": "la circulación (sanguínea)",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Kreisläufe",
+          "example": "Bei großer Hitze macht vielen älteren Menschen der Kreislauf zu schaffen."
+        },
+        {
+          "id": "l18v13",
+          "term": "die Nebenwirkung",
+          "translation": "el efecto secundario",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Nebenwirkungen",
+          "example": "Müdigkeit ist eine häufige Nebenwirkung dieses Mittels gegen Heuschnupfen."
+        },
+        {
+          "id": "l18v14",
+          "term": "das Rezept",
+          "translation": "la receta médica",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Rezepte",
+          "example": "Ohne Rezept bekommt man dieses Schmerzmittel in der Apotheke nicht."
+        },
+        {
+          "id": "l18v15",
+          "term": "die Mahlzeit",
+          "translation": "la comida (de cada día)",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Mahlzeiten",
+          "example": "Die Tropfen werden dreimal täglich vor den Mahlzeiten eingenommen."
+        },
+        {
+          "id": "l18v16",
+          "term": "die Krankenversicherung",
+          "translation": "el seguro médico",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Krankenversicherungen",
+          "example": "Meine Krankenversicherung übernimmt die Kosten für die neue Brille nicht."
+        },
+        {
+          "id": "l18v17",
+          "term": "die Gehhilfe",
+          "translation": "la muleta / el andador",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Gehhilfen",
+          "example": "Nach der Hüftoperation war Herr Brandt sechs Wochen auf eine Gehhilfe angewiesen."
+        },
+        {
+          "id": "l18v18",
+          "term": "überweisen",
+          "translation": "derivar (a un especialista)",
+          "partOfSpeech": "verb",
+          "preterite": "überwies",
+          "participle": "überwiesen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Der Hausarzt hat mich wegen der Rückenschmerzen an eine Orthopädin überwiesen."
+        },
+        {
+          "id": "l18v19",
+          "term": "verschreiben",
+          "translation": "recetar",
+          "partOfSpeech": "verb",
+          "preterite": "verschrieb",
+          "participle": "verschrieben",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Gegen den Husten verschrieb mir die Ärztin einen pflanzlichen Saft."
+        },
+        {
+          "id": "l18v20",
+          "term": "dosieren",
+          "translation": "dosificar",
+          "partOfSpeech": "verb",
+          "preterite": "dosierte",
+          "participle": "dosiert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Bei Kindern muss man Fiebersaft nach dem Körpergewicht dosieren."
+        },
+        {
+          "id": "l18v21",
+          "term": "operieren",
+          "translation": "operar",
+          "partOfSpeech": "verb",
+          "preterite": "operierte",
+          "participle": "operiert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Die Chirurgin hat an diesem Tag schon drei Patienten operiert."
+        },
+        {
+          "id": "l18v22",
+          "term": "krankschreiben",
+          "translation": "dar la baja médica",
+          "partOfSpeech": "verb",
+          "preterite": "schrieb krank",
+          "participle": "krankgeschrieben",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Wegen der Grippe schrieb der Arzt meinen Mann für eine Woche krank."
+        },
+        {
+          "id": "l18v23",
+          "term": "ansteckend",
+          "translation": "contagioso",
+          "partOfSpeech": "adjective",
+          "example": "Solange du Fieber hast, bist du noch ansteckend."
+        },
+        {
+          "id": "l18v24",
+          "term": "chronisch",
+          "translation": "crónico",
+          "partOfSpeech": "adjective",
+          "example": "Viele Menschen mit chronischen Schmerzen probieren auch Yoga aus."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l18e01",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Form (Konjunktiv II der Vergangenheit).",
+            "prompt": "Ohne den Hinweis der Apothekerin ___ ich die Tabletten falsch eingenommen.",
+            "options": [
+              "hätte",
+              "wäre",
+              "würde",
+              "hatte"
+            ],
+            "solution": "hätte",
+            "hint": "Welches Hilfsverb bildet 'einnehmen' im Perfekt?",
+            "explanation": "'einnehmen' bildet das Perfekt mit 'haben' → irreal: 'hätte … eingenommen'. 'hatte' ist Indikativ, 'würde' passt nicht zum Partizip."
+          },
+          {
+            "id": "l18e02",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Form (Konjunktiv II der Vergangenheit).",
+            "prompt": "Ohne die Spikes an den Schuhen ___ meine Nachbarin auf dem Eis bestimmt gestürzt.",
+            "options": [
+              "wäre",
+              "hätte",
+              "würde",
+              "werde"
+            ],
+            "solution": "wäre",
+            "hint": "Bewegung/Zustandsänderung: Perfekt mit 'sein' oder 'haben'?",
+            "explanation": "'stürzen' bildet das Perfekt mit 'sein' → 'wäre … gestürzt'. 'hätte' wäre das falsche Hilfsverb, 'würde'/'werde' passen nicht zum Partizip."
+          },
+          {
+            "id": "l18e03",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Form (Passiv, Konjunktiv II der Vergangenheit).",
+            "prompt": "Wenn ich früher angerufen hätte, ___ der Termin nicht an jemand anderen vergeben worden.",
+            "options": [
+              "wäre",
+              "hätte",
+              "würde",
+              "wurde"
+            ],
+            "solution": "wäre",
+            "hint": "Das Passiv mit 'worden' bildet die Vergangenheit immer mit demselben Hilfsverb.",
+            "explanation": "Passiv der Vergangenheit: 'sein' + Partizip II + 'worden' → irreal 'wäre … vergeben worden'. 'hätte … worden' gibt es nicht."
+          },
+          {
+            "id": "l18e04",
+            "type": "multiple-choice",
+            "instruction": "Wähle die richtige Verbform.",
+            "prompt": "Du hättest die Salbe zweimal täglich ___.",
+            "options": [
+              "auftragen müssen",
+              "aufgetragen müssen",
+              "auftragen gemusst",
+              "aufgetragen gemusst"
+            ],
+            "solution": "auftragen müssen",
+            "hint": "Mit Modalverb steht am Ende ein doppelter Infinitiv.",
+            "explanation": "Konjunktiv II der Vergangenheit mit Modalverb: hätte + Infinitiv + Modalverb im Infinitiv. Partizipien wie 'aufgetragen' oder 'gemusst' sind hier falsch."
+          },
+          {
+            "id": "l18e05",
+            "type": "multiple-choice",
+            "instruction": "Was ist tatsächlich passiert?",
+            "prompt": "Hätte ich die Packungsbeilage gelesen, hätte ich das Mittel nicht mit Alkohol kombiniert.",
+            "options": [
+              "Ich habe die Packungsbeilage nicht gelesen und das Mittel mit Alkohol kombiniert.",
+              "Ich habe die Packungsbeilage gelesen und das Mittel nicht mit Alkohol kombiniert.",
+              "Ich habe die Packungsbeilage gelesen, aber das Mittel trotzdem mit Alkohol kombiniert.",
+              "Ich werde die Packungsbeilage lesen und das Mittel nicht mit Alkohol kombinieren."
+            ],
+            "solution": "Ich habe die Packungsbeilage nicht gelesen und das Mittel mit Alkohol kombiniert.",
+            "hint": "Irreale Sätze beschreiben das Gegenteil der Wirklichkeit.",
+            "explanation": "Der irreale Bedingungssatz drückt aus, was nicht passiert ist: Die Beilage wurde nicht gelesen, das Mittel wurde mit Alkohol kombiniert."
+          },
+          {
+            "id": "l18e06",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Hilfsverb im Konjunktiv II.",
+            "prompt": "Wenn die Ärztin mich nicht sofort untersucht ___, wäre die Entzündung schlimmer geworden.",
+            "solution": "hätte",
+            "hint": "Perfekt von 'untersuchen': mit 'haben' oder 'sein'?",
+            "explanation": "'untersuchen' bildet das Perfekt mit 'haben' → 'hätte'. Im wenn-Satz steht das Hilfsverb am Ende."
+          },
+          {
+            "id": "l18e07",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Hilfsverb im Konjunktiv II.",
+            "prompt": "Ohne die Navigationsapp ___ wir die Notaufnahme nie gefunden.",
+            "solution": "hätten",
+            "hint": "Subjekt 'wir', Perfekt von 'finden' mit 'haben'.",
+            "explanation": "'finden' bildet das Perfekt mit 'haben'; zu 'wir' gehört 'hätten'. 'wären' wäre das falsche Hilfsverb."
+          },
+          {
+            "id": "l18e08",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Hilfsverb im Konjunktiv II.",
+            "prompt": "Bei rechtzeitiger Behandlung ___ der Patient schneller wieder gesund geworden.",
+            "solution": "wäre",
+            "hint": "Perfekt von 'werden' – mit 'haben' oder 'sein'?",
+            "explanation": "'werden' bildet das Perfekt mit 'sein' ('ist geworden') → 'wäre … geworden'. 'hätte … geworden' ist falsch."
+          },
+          {
+            "id": "l18e09",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Form (Passiv, Konjunktiv II der Vergangenheit).",
+            "prompt": "Mit einer genaueren Diagnose ___ dem Kind schneller geholfen worden.",
+            "options": [
+              "wäre",
+              "hätte",
+              "würde",
+              "hätten"
+            ],
+            "solution": "wäre",
+            "hint": "Auch das unpersönliche Passiv bildet die Vergangenheit mit 'sein'.",
+            "explanation": "Passiv der Vergangenheit: wäre + Partizip II + worden. 'dem Kind' ist Dativ, kein Subjekt; das Passiv bleibt im Singular."
+          },
+          {
+            "id": "l18e10",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Form.",
+            "prompt": "Eigentlich ___ der Patient nach der Operation noch zwei Tage im Bett bleiben sollen.",
+            "options": [
+              "hätte",
+              "wäre",
+              "würde",
+              "hätten"
+            ],
+            "solution": "hätte",
+            "hint": "Mit Modalverb im Konjunktiv II der Vergangenheit ist das Hilfsverb immer gleich.",
+            "explanation": "Modalverben bilden die Vergangenheit mit 'haben': 'hätte … bleiben sollen', auch wenn 'bleiben' allein 'sein' verlangt. 'hätten' passt nicht zum Subjekt."
+          },
+          {
+            "id": "l18e11",
+            "type": "multiple-choice",
+            "instruction": "Welcher Satz steht im Konjunktiv II der Vergangenheit im Passiv?",
+            "prompt": "Wähle den passenden Satz.",
+            "options": [
+              "Die Probe wäre untersucht worden.",
+              "Die Probe würde untersucht.",
+              "Die Probe ist untersucht worden.",
+              "Die Probe hätte untersucht."
+            ],
+            "solution": "Die Probe wäre untersucht worden.",
+            "hint": "Gesucht: Konjunktiv-Form + Partizip II + 'worden'.",
+            "explanation": "Konjunktiv II Vergangenheit Passiv = wäre + Partizip II + worden. 'würde untersucht' ist Gegenwart, 'ist … worden' Indikativ, 'hätte untersucht' falsch."
+          },
+          {
+            "id": "l18e12",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Wort am Satzanfang.",
+            "prompt": "___ ich den Termin nicht verschoben, hätte ich den Befund schon letzte Woche bekommen.",
+            "options": [
+              "Hätte",
+              "Wäre",
+              "Würde",
+              "Wenn"
+            ],
+            "solution": "Hätte",
+            "hint": "Ohne 'wenn' steht das konjugierte Verb auf Position 1.",
+            "explanation": "Irrealer Bedingungssatz ohne 'wenn': Das Hilfsverb steht vorne. 'verschieben' → 'hätte'. Mit 'Wenn' fehlte am Ende 'hätte'."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l18m01",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze die Form im Konjunktiv II.",
+            "prompt": "Wenn du die Tabletten nach dem Essen genommen ___, wäre dir nicht übel geworden. (haben)",
+            "solution": "hättest",
+            "hint": "Subjekt 'du'; das Hilfsverb steht im wenn-Satz am Ende.",
+            "explanation": "'nehmen' bildet das Perfekt mit 'haben' → du hättest. 'hattest' ist Indikativ und drückt keine Irrealität aus."
+          },
+          {
+            "id": "l18m02",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze die Form im Konjunktiv II.",
+            "prompt": "Bei dem Sturm ___ meine Eltern lieber zu Hause geblieben. (sein)",
+            "solution": "wären",
+            "hint": "Subjekt 'meine Eltern' (Plural); 'bleiben' bildet das Perfekt mit 'sein'.",
+            "explanation": "'bleiben' → Perfekt mit 'sein', Plural: 'wären … geblieben'. 'waren' ist Indikativ, 'hätten' das falsche Hilfsverb."
+          },
+          {
+            "id": "l18m03",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb in der passenden Form.",
+            "prompt": "Der Patient hätte das Antibiotikum bis zum Ende ___ müssen. (nehmen)",
+            "solution": "nehmen",
+            "hint": "Vor dem Modalverb steht kein Partizip.",
+            "explanation": "Konjunktiv II der Vergangenheit mit Modalverb: hätte + Infinitiv + Modalverb-Infinitiv. 'genommen' wäre hier falsch."
+          },
+          {
+            "id": "l18m04",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze die Form im Konjunktiv II.",
+            "prompt": "Die Ärztin meint, ich ___ mich schon im Herbst impfen lassen sollen. (haben)",
+            "solution": "hätte",
+            "hint": "Subjekt 'ich'; Modalverb-Konstruktion in der Vergangenheit.",
+            "explanation": "Mit Modalverb bildet man die irreale Vergangenheit mit 'hätte' + doppeltem Infinitiv: 'hätte … impfen lassen sollen'."
+          },
+          {
+            "id": "l18m05",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze die Form im Konjunktiv II.",
+            "prompt": "Ohne Versichertenkarte ___ Sie in der Praxis gar nicht aufgenommen worden. (sein)",
+            "solution": "wären",
+            "hint": "Passiv mit 'worden' – das Hilfsverb ist immer dasselbe; Subjekt 'Sie'.",
+            "explanation": "Passiv der irrealen Vergangenheit: wären + Partizip II + worden. Zu 'Sie' gehört 'wären'; 'hätten' ist mit 'worden' unmöglich."
+          },
+          {
+            "id": "l18m06",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Partizip II.",
+            "prompt": "Wenn die Wunde sofort ___ worden wäre, hätte sie sich nicht entzündet. (reinigen)",
+            "solution": "gereinigt",
+            "hint": "Im Passiv steht vor 'worden' das Partizip II des Vollverbs.",
+            "explanation": "Passiv: Partizip II + worden + wäre. 'reinigen' ist regelmäßig → 'gereinigt'. Ein Infinitiv steht nur mit Modalverb."
+          },
+          {
+            "id": "l18m07",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Wenn'.",
+            "prompt": "Ordne die Satzteile.",
+            "solution": "Wenn ich auf meinen Körper gehört hätte, wäre ich früher zum Arzt gegangen.",
+            "hint": "Im wenn-Satz steht das Hilfsverb am Ende, im Hauptsatz direkt am Anfang.",
+            "explanation": "Nebensatz: Partizip + 'hätte' am Ende. Hauptsatz: 'wäre' auf Position 1 nach dem Komma ('gehen' → sein), Partizip ans Ende.",
+            "scrambleChunks": [
+              "wäre ich",
+              "gehört hätte,",
+              "Wenn ich",
+              "gegangen",
+              "auf meinen Körper",
+              "früher zum Arzt"
+            ]
+          },
+          {
+            "id": "l18m08",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Vorwurf. Beginne mit 'Du'.",
+            "prompt": "Ordne die Satzteile.",
+            "solution": "Du hättest mir schon gestern von deinen Schmerzen erzählen sollen.",
+            "hint": "Am Ende stehen zwei Infinitive – welcher zuletzt?",
+            "explanation": "Konjunktiv II der Vergangenheit mit Modalverb: hätte … Vollverb-Infinitiv + Modalverb-Infinitiv. 'sollen' steht ganz am Ende.",
+            "scrambleChunks": [
+              "erzählen",
+              "Du hättest mir schon gestern",
+              "sollen",
+              "von deinen Schmerzen"
+            ]
+          },
+          {
+            "id": "l18m09",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Der Abend'.",
+            "prompt": "Ordne die Satzteile.",
+            "solution": "Der Abend wäre angenehmer gewesen, wenn ich eine Tablette hätte nehmen dürfen.",
+            "hint": "Im Nebensatz mit doppeltem Infinitiv steht 'hätte' nicht am Ende.",
+            "explanation": "Im Nebensatz steht 'hätte' vor dem doppelten Infinitiv: '… hätte nehmen dürfen'. 'nehmen dürfen hätte' ist falsch.",
+            "scrambleChunks": [
+              "nehmen dürfen",
+              "wenn ich eine Tablette",
+              "Der Abend wäre",
+              "hätte",
+              "angenehmer gewesen,"
+            ]
+          },
+          {
+            "id": "l18m10",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz im Passiv. Beginne mit 'Ohne die Überweisung'.",
+            "prompt": "Ordne die Satzteile.",
+            "solution": "Ohne die Überweisung wäre ich in der Klinik nicht untersucht worden.",
+            "hint": "Verb auf Position 2, am Ende Partizip II + 'worden'.",
+            "explanation": "Hauptsatz im Passiv: 'wäre' auf Position 2, Subjekt danach, am Ende 'untersucht worden'. 'worden' steht immer nach dem Partizip.",
+            "scrambleChunks": [
+              "worden",
+              "ich",
+              "Ohne die Überweisung",
+              "untersucht",
+              "in der Klinik nicht",
+              "wäre"
+            ]
+          },
+          {
+            "id": "l18m11",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Ich hätte mich'.",
+            "prompt": "Ordne die Satzteile.",
+            "solution": "Ich hätte mich gefreut, wenn mir die Diagnose ausführlicher erklärt worden wäre.",
+            "hint": "Im Nebensatz: Partizip – worden – wäre.",
+            "explanation": "Passiv im Nebensatz: Partizip II + 'worden' + 'wäre' am Ende. Im Hauptsatz bildet 'sich freuen' die irreale Vergangenheit mit 'hätte'.",
+            "scrambleChunks": [
+              "erklärt",
+              "wäre",
+              "Ich hätte mich",
+              "worden",
+              "die Diagnose ausführlicher",
+              "gefreut,",
+              "wenn mir"
+            ]
+          },
+          {
+            "id": "l18m12",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen irrealen Bedingungssatz ohne 'wenn'. Beginne mit 'Hätten'.",
+            "prompt": "Ordne die Satzteile.",
+            "solution": "Hätten wir die Nebenwirkungen gekannt, hätten wir ein anderes Mittel gewählt.",
+            "hint": "Ohne 'wenn' steht das Hilfsverb an erster Stelle.",
+            "explanation": "Ohne 'wenn' beginnt der Bedingungssatz mit 'Hätten'; nach dem Komma folgt der Hauptsatz wieder mit dem Verb: 'hätten wir … gewählt'.",
+            "scrambleChunks": [
+              "ein anderes Mittel",
+              "gekannt,",
+              "hätten wir",
+              "Hätten wir",
+              "gewählt",
+              "die Nebenwirkungen"
+            ]
+          }
+        ],
+        "hard": [
+          {
+            "id": "l18h01",
+            "type": "targeted-transformation",
+            "instruction": "Bilde einen irrealen Bedingungssatz in der Vergangenheit. Beginne mit 'Wenn', ohne 'dann'; verneine mit 'keine'.",
+            "prompt": "Ich habe nicht genug getrunken. Deshalb habe ich Kopfschmerzen bekommen.",
+            "solution": "Wenn ich genug getrunken hätte, hätte ich keine Kopfschmerzen bekommen.",
+            "hint": "Beide Teile kehren die Wirklichkeit um; beide Verben bilden das Perfekt mit 'haben'.",
+            "explanation": "Irreale Vergangenheit: hätte + Partizip II in beiden Teilen. Die Negation dreht sich um: 'nicht genug' → 'genug', 'Kopfschmerzen' → 'keine Kopfschmerzen'."
+          },
+          {
+            "id": "l18h02",
+            "type": "targeted-transformation",
+            "instruction": "Bilde einen Satz ohne 'wenn'. Beginne mit 'Wäre die Straßenbahn pünktlich' und behalte das Verb 'kommen'; im Hauptsatz steht 'nicht' direkt vor dem Partizip.",
+            "prompt": "Die Straßenbahn ist zu spät gekommen. Deshalb hat Frau Ilić den Termin beim Facharzt verpasst.",
+            "solution": "Wäre die Straßenbahn pünktlich gekommen, hätte Frau Ilić den Termin beim Facharzt nicht verpasst.",
+            "hint": "'kommen' → sein, 'verpassen' → haben.",
+            "explanation": "Bedingungssatz mit Verb auf Position 1: 'Wäre … gekommen' (kommen → sein), Hauptsatz 'hätte … verpasst' (verpassen → haben). 'wäre … verpasst' ist falsch."
+          },
+          {
+            "id": "l18h03",
+            "type": "targeted-transformation",
+            "instruction": "Formuliere einen Vorwurf im Konjunktiv II der Vergangenheit mit 'sollen'. Beginne mit 'Er' und verwende genau die Wörter in Klammern.",
+            "prompt": "Mein Bruder ist mit Fieber ins Büro gegangen. (lieber zu Hause bleiben)",
+            "solution": "Er hätte lieber zu Hause bleiben sollen.",
+            "hint": "Kritik an Vergangenem: hätte + Infinitiv + Modalverb – auch bei 'bleiben'.",
+            "explanation": "Mit Modalverb steht immer 'hätte', auch wenn 'bleiben' allein 'sein' verlangt: hätte + Infinitiv + 'sollen'. 'wäre' oder 'gesollt' sind falsch."
+          },
+          {
+            "id": "l18h04",
+            "type": "targeted-transformation",
+            "instruction": "Formuliere mit 'hätte … nicht … müssen'. Beginne mit 'Sie' und übernimm 'die Tabletten'.",
+            "prompt": "Sie hat die Tabletten genommen, obwohl das nicht nötig war.",
+            "solution": "Sie hätte die Tabletten nicht nehmen müssen.",
+            "hint": "'nicht müssen' = nicht nötig sein.",
+            "explanation": "'hätte … nicht … müssen' sagt, dass etwas Vergangenes unnötig war. Doppelter Infinitiv am Ende: 'nehmen müssen', nicht 'genommen'."
+          },
+          {
+            "id": "l18h05",
+            "type": "targeted-transformation",
+            "instruction": "Formuliere im Passiv (Konjunktiv II der Vergangenheit). Beginne mit 'Ohne Termin'; die übrigen Satzglieder bleiben in ihrer Reihenfolge.",
+            "prompt": "Ohne Termin hätte man mich nicht behandelt.",
+            "solution": "Ohne Termin wäre ich nicht behandelt worden.",
+            "hint": "Das Akkusativobjekt 'mich' wird zum Subjekt.",
+            "explanation": "'man' fällt weg, 'mich' wird Subjekt 'ich'. Passiv der irrealen Vergangenheit: wäre + Partizip II + worden."
+          },
+          {
+            "id": "l18h06",
+            "type": "targeted-transformation",
+            "instruction": "Formuliere im Passiv ohne die Klinik als Agens. Beginne mit 'Mit einer Überweisung'.",
+            "prompt": "Mit einer Überweisung hätte die Klinik den Patienten schneller aufgenommen.",
+            "solution": "Mit einer Überweisung wäre der Patient schneller aufgenommen worden.",
+            "hint": "'den Patienten' wird Subjekt im Nominativ.",
+            "explanation": "Das Akkusativobjekt wird Subjekt: 'der Patient'. Passiv der irrealen Vergangenheit: wäre + Partizip II + worden; 'hätte' ist mit 'worden' unmöglich."
+          },
+          {
+            "id": "l18h07",
+            "type": "targeted-transformation",
+            "instruction": "Formuliere im Passiv ohne 'die Apotheke'. Beginne mit 'Mit Rezept'; das Pronomen steht direkt nach dem Verb.",
+            "prompt": "Mit Rezept hätte mir die Apotheke das Medikament sofort gegeben.",
+            "solution": "Mit Rezept wäre mir das Medikament sofort gegeben worden.",
+            "hint": "Das Dativobjekt bleibt Dativ, nur das Akkusativobjekt wird Subjekt.",
+            "explanation": "'das Medikament' wird Subjekt, 'mir' bleibt Dativ. Passiv: wäre + gegeben + worden. 'ich wäre … gegeben worden' ist falsch."
+          },
+          {
+            "id": "l18h08",
+            "type": "targeted-transformation",
+            "instruction": "Ergänze 'Es wäre einfacher gewesen, wenn …' mit 'können'. Schreibe den ganzen Satz und übernimm 'die Ärztin direkt'.",
+            "prompt": "Ich konnte die Ärztin nicht direkt anrufen.",
+            "solution": "Es wäre einfacher gewesen, wenn ich die Ärztin direkt hätte anrufen können.",
+            "hint": "Im Nebensatz mit doppeltem Infinitiv steht 'hätte' vor den Infinitiven.",
+            "explanation": "Nebensatz mit Modalverb in der irrealen Vergangenheit: 'hätte' steht vor dem doppelten Infinitiv ('hätte anrufen können'), nicht am Satzende."
+          },
+          {
+            "id": "l18h09",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Ändere nur ein Wort.",
+            "prompt": "Wenn wir früher losgefahren hätten, hätten wir die Sprechstunde nicht verpasst.",
+            "solution": "Wenn wir früher losgefahren wären, hätten wir die Sprechstunde nicht verpasst.",
+            "hint": "Welches Hilfsverb bildet 'losfahren' im Perfekt?",
+            "explanation": "'losfahren' bildet das Perfekt mit 'sein' → 'losgefahren wären'. 'verpassen' bleibt bei 'hätten'."
+          },
+          {
+            "id": "l18h10",
+            "type": "error-correction",
+            "instruction": "Korrigiere die Wortstellung im Nebensatz. Nur 'hätte' wird verschoben.",
+            "prompt": "Jetzt weiß ich, dass ich die Packungsbeilage lesen müssen hätte.",
+            "solution": "Jetzt weiß ich, dass ich die Packungsbeilage hätte lesen müssen.",
+            "hint": "Mit doppeltem Infinitiv steht 'hätte' im Nebensatz nicht am Ende.",
+            "explanation": "Im Nebensatz steht 'hätte' vor dem doppelten Infinitiv: '… hätte lesen müssen'. Die normale Endstellung gilt hier nicht."
+          },
+          {
+            "id": "l18h11",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Ändere nur ein Wort.",
+            "prompt": "Ohne die schnelle Hilfe wäre die Wunde nicht so gut versorgt geworden.",
+            "solution": "Ohne die schnelle Hilfe wäre die Wunde nicht so gut versorgt worden.",
+            "hint": "Im Passiv lautet das Partizip von 'werden' anders als sonst.",
+            "explanation": "Im Passiv heißt das Partizip von 'werden' 'worden' (ohne ge-). 'geworden' steht nur bei 'werden' als Vollverb."
+          },
+          {
+            "id": "l18h12",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Ändere nur ein Wort.",
+            "prompt": "Der Pfleger hätte den Verband öfter gewechselt müssen.",
+            "solution": "Der Pfleger hätte den Verband öfter wechseln müssen.",
+            "hint": "Was steht vor einem Modalverb im Infinitiv?",
+            "explanation": "Mit Modalverb: hätte + Infinitiv + Modalverb-Infinitiv. Das Partizip 'gewechselt' muss zum Infinitiv 'wechseln' werden."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l18t01",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Hilfsverb.",
+          "prompt": "Wenn Frau Okafor früher zum Zahnarzt gegangen ___, hätte sie sich die Wurzelbehandlung sparen können.",
+          "options": [
+            "wäre",
+            "hätte",
+            "würde",
+            "war"
+          ],
+          "solution": "wäre",
+          "explanation": "„gehen“ bildet das Perfekt mit „sein“ → „wäre gegangen“. „war“ ist Indikativ und drückt nichts Irreales aus."
+        },
+        {
+          "id": "l18t02",
+          "type": "cloze-conjugation",
+          "instruction": "Setze das passende Hilfsverb (haben oder sein) im Konjunktiv II ein.",
+          "prompt": "Ohne die Impfung ___ (haben/sein) mein Großvater wahrscheinlich schwer erkrankt.",
+          "solution": "wäre",
+          "explanation": "„erkranken“ bildet das Perfekt mit „sein“ (ist erkrankt) → Konjunktiv II „wäre erkrankt“, nicht „hätte“."
+        },
+        {
+          "id": "l18t03",
+          "type": "targeted-transformation",
+          "instruction": "Drücke aus, dass es in Wirklichkeit nicht so war: Setze den Satz in den Konjunktiv II der Vergangenheit. Die Wortstellung bleibt.",
+          "prompt": "Mit Sonnencreme bekam Tobias am Strand keinen Sonnenbrand.",
+          "solution": "Mit Sonnencreme hätte Tobias am Strand keinen Sonnenbrand bekommen.",
+          "explanation": "Irreale Vergangenheit: „hätte“ + Partizip II am Satzende. „bekommen“ bildet das Perfekt mit „haben“."
+        },
+        {
+          "id": "l18t04",
+          "type": "cloze-conjugation",
+          "instruction": "Setze das Hilfsverb (haben oder sein) im Konjunktiv II ein.",
+          "prompt": "Ihr ___ (haben/sein) die Beschwerden ernster nehmen sollen.",
+          "solution": "hättet",
+          "explanation": "Mit Modalverb steht immer „hätte“ + Infinitiv + Modalverb im Infinitiv. Form zu „ihr“: „hättet“."
+        },
+        {
+          "id": "l18t05",
+          "type": "multiple-choice",
+          "instruction": "Welche Form passt in den Nebensatz?",
+          "prompt": "Wenn der Patient nicht sofort ___, hätte er bleibende Schäden davongetragen.",
+          "options": [
+            "operiert worden wäre",
+            "wäre operiert worden",
+            "operiert worden hätte",
+            "operiert geworden wäre"
+          ],
+          "solution": "operiert worden wäre",
+          "explanation": "Passiv: „wäre“ + Partizip II + „worden“. Im Nebensatz steht „wäre“ am Ende. Im Passiv heißt es „worden“, nicht „geworden“."
+        },
+        {
+          "id": "l18t06",
+          "type": "targeted-transformation",
+          "instruction": "Forme den wenn-Satz in einen Bedingungssatz ohne „wenn“ um. Der Hauptsatz bleibt unverändert.",
+          "prompt": "Wenn du den Gips länger getragen hättest, wäre der Knochen besser verheilt.",
+          "solution": "Hättest du den Gips länger getragen, wäre der Knochen besser verheilt.",
+          "explanation": "Ohne „wenn“ rückt das finite Verb „hättest“ auf Position 1, das Partizip bleibt am Ende des Bedingungssatzes."
+        },
+        {
+          "id": "l18t07",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz. Beginne mit „Mein Bruder“.",
+          "prompt": "Baue den Satz aus den Satzteilen.",
+          "scrambleChunks": [
+            "hätte",
+            "wäre",
+            "wenn er sich eine Woche",
+            "Mein Bruder",
+            "schonen können",
+            "schneller gesund geworden,"
+          ],
+          "solution": "Mein Bruder wäre schneller gesund geworden, wenn er sich eine Woche hätte schonen können.",
+          "explanation": "Im Nebensatz mit Modalverb steht „hätte“ vor dem doppelten Infinitiv: „hätte schonen können“, nicht „schonen können hätte“."
+        },
+        {
+          "id": "l18t08",
+          "type": "error-correction",
+          "instruction": "Im Satz ist ein Hilfsverb falsch. Ändere nur ein Wort.",
+          "prompt": "Ohne die Hilfe der Nachbarin hätte der Notarzt nicht so schnell gerufen worden.",
+          "solution": "Ohne die Hilfe der Nachbarin wäre der Notarzt nicht so schnell gerufen worden.",
+          "explanation": "Passiv im Konjunktiv II der Vergangenheit: „wäre“ + Partizip II + „worden“. Das Passiv bildet sich mit „werden“ → „sein“, nie mit „haben“."
+        },
+        {
+          "id": "l18t09",
+          "type": "multiple-choice",
+          "instruction": "Welche Form passt in die Lücke?",
+          "prompt": "Die Praxis hätte uns vorher über die Kosten ___.",
+          "options": [
+            "aufklären sollen",
+            "aufgeklärt sollen",
+            "aufklären gesollt",
+            "sollen aufklären"
+          ],
+          "solution": "aufklären sollen",
+          "explanation": "Nach „hätte“ stehen Vollverb und Modalverb im Infinitiv am Ende, das Modalverb zuletzt (Ersatzinfinitiv). „gesollt“ und „aufgeklärt“ sind hier falsch."
+        },
+        {
+          "id": "l18t10",
+          "type": "multiple-choice",
+          "instruction": "Welche Form passt in die Lücke?",
+          "prompt": "Wenn Paula nicht so lange auf einen Termin ___, wäre die Entzündung nicht chronisch geworden.",
+          "options": [
+            "hätte warten müssen",
+            "warten müssen hätte",
+            "hätte warten gemusst",
+            "gewartet müssen hätte"
+          ],
+          "solution": "hätte warten müssen",
+          "explanation": "Auch im Nebensatz steht „hätte“ vor dem doppelten Infinitiv. „gemusst“ ist falsch: Nach einem Infinitiv bleibt das Modalverb im Infinitiv."
+        },
+        {
+          "id": "l18t11",
+          "type": "targeted-transformation",
+          "instruction": "Forme den Hauptsatz ins Passiv um. Der Nebensatz bleibt; beginne den Hauptsatz mit „wäre der Befund“.",
+          "prompt": "Hätte man die Probe nicht verwechselt, hätte man den Befund schon gestern verschickt.",
+          "solution": "Hätte man die Probe nicht verwechselt, wäre der Befund schon gestern verschickt worden.",
+          "explanation": "Aus „hätte man … verschickt“ wird „wäre … verschickt worden“. Das Akkusativobjekt „den Befund“ wird zum Subjekt „der Befund“."
+        },
+        {
+          "id": "l18t12",
+          "type": "error-correction",
+          "instruction": "Im Satz ist ein Hilfsverb falsch. Ändere nur ein Wort.",
+          "prompt": "Wenn ich nicht ausgerutscht hätte, hätte ich mir den Arm nicht gebrochen.",
+          "solution": "Wenn ich nicht ausgerutscht wäre, hätte ich mir den Arm nicht gebrochen.",
+          "explanation": "„ausrutschen“ bildet das Perfekt mit „sein“ (bin ausgerutscht) → „wäre ausgerutscht“. „sich etwas brechen“ bleibt bei „hätte“."
+        },
+        {
+          "id": "l18t13",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Bedingungssatz ohne „wenn“. Beginne mit „Hätte“.",
+          "prompt": "Baue den Satz aus den Satzteilen.",
+          "scrambleChunks": [
+            "bemerkt worden",
+            "wäre",
+            "genauer geprüft,",
+            "Hätte",
+            "der Fehler sofort",
+            "die Pflegerin die Dosis"
+          ],
+          "solution": "Hätte die Pflegerin die Dosis genauer geprüft, wäre der Fehler sofort bemerkt worden.",
+          "explanation": "Verb auf Position 1 ersetzt „wenn“. Im Hauptsatz folgt „wäre“ direkt nach dem Komma, „bemerkt worden“ steht am Ende (Passiv)."
+        },
+        {
+          "id": "l18t14",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Hilfsverb.",
+          "prompt": "Zum Glück hatte Elias seinen Allergiepass dabei – sonst ___ im Restaurant wer weiß was passiert.",
+          "options": [
+            "wäre",
+            "hätte",
+            "würde",
+            "war"
+          ],
+          "solution": "wäre",
+          "explanation": "„passieren“ bildet das Perfekt mit „sein“ → „wäre passiert“. „sonst“ leitet hier eine irreale Folge ein, deshalb kein Indikativ „war“."
+        },
+        {
+          "id": "l18t15",
+          "type": "targeted-transformation",
+          "instruction": "Setze den Satz in den Konjunktiv II der Vergangenheit. Die Wortstellung bleibt.",
+          "prompt": "Wir konnten die Reha in einer Klinik am Meer machen.",
+          "solution": "Wir hätten die Reha in einer Klinik am Meer machen können.",
+          "explanation": "Modalverb in der irrealen Vergangenheit: „hätten“ + Infinitiv + „können“ am Ende. Nicht „gekonnt“ und nicht „wären“."
+        },
+        {
+          "id": "l18t16",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze „hätte“ oder „wäre“.",
+          "prompt": "Hätte Ole das Fiebermittel nicht genommen, ___ das Fieber in der Nacht wohl noch weiter gestiegen.",
+          "solution": "wäre",
+          "explanation": "„steigen“ bildet das Perfekt mit „sein“ (ist gestiegen) → „wäre gestiegen“. Das „hätte“ im Bedingungssatz gehört zu „nehmen“."
+        }
+      ]
+    }
+  ]
+}

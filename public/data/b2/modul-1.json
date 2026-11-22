@@ -1,0 +1,2502 @@
+{
+  "modulId": "b2-m1",
+  "level": "B2",
+  "modulNumber": 1,
+  "title": "Begegnungen",
+  "lektionen": [
+    {
+      "lektionId": "b2-m1-l1",
+      "level": "B2",
+      "modulNumber": 1,
+      "lektionNumber": 1,
+      "title": "Neu in der Stadt",
+      "grammarFocus": [
+        "Angaben im Mittelfeld: temporal – kausal – modal – lokal (te-ka-mo-lo)",
+        "Angaben im Vorfeld: Umstellung mit Verb auf Position 2"
+      ],
+      "vocabulary": [
+        {
+          "id": "l1v01",
+          "term": "die Begegnung",
+          "translation": "el encuentro",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Begegnungen",
+          "example": "Die Begegnung mit dem alten Fischer hat mich lange beschäftigt."
+        },
+        {
+          "id": "l1v02",
+          "term": "begegnen",
+          "translation": "encontrarse con / toparse con",
+          "partOfSpeech": "verb",
+          "preterite": "begegnete",
+          "participle": "begegnet",
+          "auxiliary": "sein",
+          "irregular": false,
+          "example": "Auf dem Heimweg bin ich zufällig meinem früheren Lehrer begegnet."
+        },
+        {
+          "id": "l1v03",
+          "term": "der Neuankömmling",
+          "translation": "el recién llegado",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Neuankömmlinge",
+          "example": "Der Verein organisiert jeden Monat einen Stadtrundgang für Neuankömmlinge."
+        },
+        {
+          "id": "l1v04",
+          "term": "der Umzug",
+          "translation": "la mudanza",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Umzüge",
+          "example": "Nach dem Umzug standen wochenlang Kartons im Flur."
+        },
+        {
+          "id": "l1v05",
+          "term": "der Wohnort",
+          "translation": "el lugar de residencia",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Wohnorte",
+          "example": "Seinen neuen Wohnort hat er sich wegen der Berge ausgesucht."
+        },
+        {
+          "id": "l1v06",
+          "term": "die Gegend",
+          "translation": "la zona / el barrio",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Gegenden",
+          "example": "In dieser Gegend gibt es kaum bezahlbare Wohnungen."
+        },
+        {
+          "id": "l1v07",
+          "term": "die Nachbarschaft",
+          "translation": "el vecindario",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Nachbarschaften",
+          "example": "In unserer Nachbarschaft hilft man sich gegenseitig beim Einkaufen."
+        },
+        {
+          "id": "l1v08",
+          "term": "das Treppenhaus",
+          "translation": "la escalera (del edificio)",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Treppenhäuser",
+          "example": "Im Treppenhaus riecht es oft nach frischem Kuchen."
+        },
+        {
+          "id": "l1v09",
+          "term": "der Gleichgesinnte",
+          "translation": "la persona afín",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Gleichgesinnten",
+          "example": "Im Wanderclub hat Ines schnell Gleichgesinnte gefunden."
+        },
+        {
+          "id": "l1v10",
+          "term": "Kontakte knüpfen",
+          "translation": "entablar contactos",
+          "partOfSpeech": "phrase",
+          "example": "Auf Fachmessen kann man leicht berufliche Kontakte knüpfen."
+        },
+        {
+          "id": "l1v11",
+          "term": "plaudern",
+          "translation": "charlar",
+          "partOfSpeech": "verb",
+          "preterite": "plauderte",
+          "participle": "geplaudert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Beim Bäcker plaudert die Verkäuferin gern mit den Stammkunden."
+        },
+        {
+          "id": "l1v12",
+          "term": "sich verabreden",
+          "translation": "quedar (con alguien)",
+          "partOfSpeech": "verb",
+          "preterite": "verabredete sich",
+          "participle": "sich verabredet",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Wir haben uns für Freitagabend im Kino verabredet."
+        },
+        {
+          "id": "l1v13",
+          "term": "sich arrangieren",
+          "translation": "arreglárselas / adaptarse",
+          "partOfSpeech": "verb",
+          "preterite": "arrangierte sich",
+          "participle": "sich arrangiert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Mit der kleinen Küche hat sich die Familie inzwischen arrangiert."
+        },
+        {
+          "id": "l1v14",
+          "term": "sich einlassen",
+          "translation": "abrirse a / implicarse en",
+          "partOfSpeech": "verb",
+          "preterite": "ließ sich ein",
+          "participle": "sich eingelassen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Wer sich auf die fremde Kultur einlässt, lernt am meisten."
+        },
+        {
+          "id": "l1v15",
+          "term": "sich entschließen",
+          "translation": "decidirse",
+          "partOfSpeech": "verb",
+          "preterite": "entschloss sich",
+          "participle": "sich entschlossen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Nach langem Zögern hat sie sich zu einem Neuanfang entschlossen."
+        },
+        {
+          "id": "l1v16",
+          "term": "sich engagieren",
+          "translation": "comprometerse",
+          "partOfSpeech": "verb",
+          "preterite": "engagierte sich",
+          "participle": "sich engagiert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Mein Onkel engagiert sich seit Jahren bei der freiwilligen Feuerwehr."
+        },
+        {
+          "id": "l1v17",
+          "term": "duzen",
+          "translation": "tutear",
+          "partOfSpeech": "verb",
+          "preterite": "duzte",
+          "participle": "geduzt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "In vielen Start-ups duzen sich alle, auch die Chefin."
+        },
+        {
+          "id": "l1v18",
+          "term": "siezen",
+          "translation": "tratar de usted",
+          "partOfSpeech": "verb",
+          "preterite": "siezte",
+          "participle": "gesiezt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Den Vermieter siezt man normalerweise."
+        },
+        {
+          "id": "l1v19",
+          "term": "die Abmachung",
+          "translation": "el acuerdo",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Abmachungen",
+          "example": "Laut unserer Abmachung putzt jede Woche jemand anderes das Bad."
+        },
+        {
+          "id": "l1v20",
+          "term": "die Vorgesetzte",
+          "translation": "la superiora / la jefa",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Vorgesetzten",
+          "example": "Meine Vorgesetzte hat mir am ersten Tag das ganze Gebäude gezeigt."
+        },
+        {
+          "id": "l1v21",
+          "term": "einsam",
+          "translation": "solitario / solo",
+          "partOfSpeech": "adjective",
+          "example": "In den ersten Wochen fühlte sich Karim in der großen Stadt oft einsam."
+        },
+        {
+          "id": "l1v22",
+          "term": "vertraut",
+          "translation": "familiar",
+          "partOfSpeech": "adjective",
+          "example": "Nach einem halben Jahr waren ihm die Straßen schon ganz vertraut."
+        },
+        {
+          "id": "l1v23",
+          "term": "ehrenamtlich",
+          "translation": "voluntario / de forma voluntaria",
+          "partOfSpeech": "adjective",
+          "example": "Sie arbeitet zweimal pro Woche ehrenamtlich in der Stadtbibliothek."
+        },
+        {
+          "id": "l1v24",
+          "term": "mittlerweile",
+          "translation": "entretanto / a estas alturas",
+          "partOfSpeech": "adverb",
+          "example": "Mittlerweile kenne ich fast alle Leute in meiner Straße."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l1e01",
+            "type": "multiple-choice",
+            "instruction": "Wähle den Satz mit der üblichen Reihenfolge der Angaben.",
+            "prompt": "Welcher Satz ist richtig?",
+            "options": [
+              "Lena ist im Frühjahr wegen eines Jobangebots kurz entschlossen nach Leipzig gezogen.",
+              "Lena ist wegen eines Jobangebots im Frühjahr nach Leipzig kurz entschlossen gezogen.",
+              "Lena ist kurz entschlossen nach Leipzig im Frühjahr wegen eines Jobangebots gezogen.",
+              "Lena ist im Frühjahr nach Leipzig wegen eines Jobangebots kurz entschlossen gezogen."
+            ],
+            "solution": "Lena ist im Frühjahr wegen eines Jobangebots kurz entschlossen nach Leipzig gezogen.",
+            "hint": "Denk an te-ka-mo-lo: wann – warum – wie – wohin.",
+            "explanation": "te-ka-mo-lo (in der Regel): im Frühjahr – wegen eines Jobangebots – kurz entschlossen – nach Leipzig. Die Richtungsangabe steht am Ende, direkt vor 'gezogen'."
+          },
+          {
+            "id": "l1e02",
+            "type": "multiple-choice",
+            "instruction": "Bestimme die Art der markierten Angabe.",
+            "prompt": "Tomás ist vor drei Monaten aus beruflichen Gründen nach Hamburg gekommen. – Welche Art von Angabe ist 'aus beruflichen Gründen'?",
+            "options": [
+              "temporal",
+              "kausal",
+              "modal",
+              "lokal"
+            ],
+            "solution": "kausal",
+            "hint": "Auf welche Frage antwortet die Angabe?",
+            "explanation": "'Aus beruflichen Gründen' antwortet auf 'Warum?' – kausal. 'vor drei Monaten' ist temporal, 'nach Hamburg' lokal."
+          },
+          {
+            "id": "l1e03",
+            "type": "multiple-choice",
+            "instruction": "Bestimme die Art der markierten Angabe.",
+            "prompt": "Ich habe in der ersten Woche mit großer Neugier die Altstadt erkundet. – Welche Art von Angabe ist 'mit großer Neugier'?",
+            "options": [
+              "temporal",
+              "kausal",
+              "modal",
+              "lokal"
+            ],
+            "solution": "modal",
+            "hint": "Fragst du hier 'wann?', 'warum?', 'wie?' oder 'wo?'?",
+            "explanation": "'Mit großer Neugier' sagt, wie – also modal (Art und Weise). Temporal ist 'in der ersten Woche'."
+          },
+          {
+            "id": "l1e04",
+            "type": "multiple-choice",
+            "instruction": "Bestimme die Art der markierten Angabe.",
+            "prompt": "Abends plaudern wir oft im Treppenhaus. – Welche Art von Angabe ist 'im Treppenhaus'?",
+            "options": [
+              "temporal",
+              "kausal",
+              "modal",
+              "lokal"
+            ],
+            "solution": "lokal",
+            "hint": "Frag nach dem Ort.",
+            "explanation": "'Im Treppenhaus' antwortet auf 'Wo?' – lokal. 'Abends' und 'oft' sind temporal."
+          },
+          {
+            "id": "l1e05",
+            "type": "multiple-choice",
+            "instruction": "Wähle die korrekte Ja/Nein-Frage.",
+            "prompt": "Du möchtest eine Freundin spontan zum Flohmarkt einladen. Welche Frage ist richtig?",
+            "options": [
+              "Wollen wir am Sonntag bei gutem Wetter zum Flohmarkt gehen?",
+              "Wollen wir zum Flohmarkt am Sonntag bei gutem Wetter gehen?",
+              "Wollen wir bei gutem Wetter zum Flohmarkt am Sonntag gehen?",
+              "Wollen wir am Sonntag zum Flohmarkt bei gutem Wetter gehen?"
+            ],
+            "solution": "Wollen wir am Sonntag bei gutem Wetter zum Flohmarkt gehen?",
+            "hint": "In der Ja/Nein-Frage steht das Verb vorn; im Mittelfeld gilt te-ka-mo-lo.",
+            "explanation": "Ja/Nein-Frage: Verb auf Position 1. Dann te-ka-lo: am Sonntag – bei gutem Wetter (Bedingung = kausal) – zum Flohmarkt direkt vor dem Infinitiv."
+          },
+          {
+            "id": "l1e06",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze die Merkregel.",
+            "prompt": "Die Reihenfolge der Angaben im Mittelfeld kann man sich mit 'te-ka-___-lo' merken.",
+            "solution": "mo",
+            "hint": "Es fehlt die Silbe für die Frage 'Wie?'.",
+            "explanation": "te-ka-mo-lo = temporal – kausal – modal – lokal. 'mo' steht für modal (wie?)."
+          },
+          {
+            "id": "l1e07",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze die Zahl (als Ziffer).",
+            "prompt": "Steht eine Angabe im Vorfeld, bleibt das konjugierte Verb auf Position ___, und das Subjekt rückt dahinter.",
+            "solution": "2",
+            "hint": "Im Aussagesatz ändert sich die Position des Verbs nie.",
+            "explanation": "Im Aussagesatz steht das konjugierte Verb auf Position 2: 'Seit Mai wohne ich …', nicht 'Seit Mai ich wohne …'."
+          },
+          {
+            "id": "l1e08",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Hilfsverb an der richtigen Stelle.",
+            "prompt": "Vor Kurzem ___ ich mich in einem Sportverein angemeldet. (haben)",
+            "solution": "habe",
+            "hint": "Was steht nach einer temporalen Angabe im Vorfeld auf Position 2?",
+            "explanation": "'Vor Kurzem' im Vorfeld → Hilfsverb auf Position 2, dann das Subjekt: 'habe ich'. 'hat' passt nicht zu 'ich'."
+          },
+          {
+            "id": "l1e09",
+            "type": "multiple-choice",
+            "instruction": "Wähle den korrekten Satz.",
+            "prompt": "Welcher Satz mit einer Angabe im Vorfeld ist richtig?",
+            "options": [
+              "Aus Neugier bin ich gestern Abend zu einem Stammtisch für Neuankömmlinge gegangen.",
+              "Aus Neugier ich bin gestern Abend zu einem Stammtisch für Neuankömmlinge gegangen.",
+              "Aus Neugier gestern Abend bin ich zu einem Stammtisch für Neuankömmlinge gegangen.",
+              "Aus Neugier gegangen bin ich gestern Abend zu einem Stammtisch für Neuankömmlinge."
+            ],
+            "solution": "Aus Neugier bin ich gestern Abend zu einem Stammtisch für Neuankömmlinge gegangen.",
+            "hint": "Im Vorfeld steht genau ein Satzglied, danach das konjugierte Verb.",
+            "explanation": "Im Vorfeld steht genau ein Satzglied, dann Verb (Pos. 2), dann Subjekt: 'Aus Neugier bin ich …'. Das Partizip gehört ans Ende."
+          },
+          {
+            "id": "l1e10",
+            "type": "fill-in-blank",
+            "instruction": "Ordne die Angabe zu: temporal, kausal, modal oder lokal. Schreib nur das Wort.",
+            "prompt": "Viele Neuankömmlinge erkunden ihr Viertel am Anfang zu Fuß. – Die Angabe 'zu Fuß' ist ___.",
+            "solution": "modal",
+            "hint": "Fragt man hier 'wann?', 'warum?', 'wie?' oder 'wo?'?",
+            "explanation": "'Zu Fuß' sagt, wie man sich bewegt – modal, nicht lokal. 'Am Anfang' ist temporal."
+          },
+          {
+            "id": "l1e11",
+            "type": "multiple-choice",
+            "instruction": "Wo steht die Angabe in neutraler Wortstellung?",
+            "prompt": "Wir sind [1] am Samstag [2] in die neue Wohnung [3] eingezogen. – Wohin gehört 'ohne große Probleme'?",
+            "options": [
+              "Position 1",
+              "Position 2",
+              "Position 3"
+            ],
+            "solution": "Position 2",
+            "hint": "'Ohne große Probleme' beschreibt, wie etwas passiert ist.",
+            "explanation": "Modal steht in der Regel nach temporal ('am Samstag') und vor der Richtungsangabe, die direkt vor 'eingezogen' steht."
+          },
+          {
+            "id": "l1e12",
+            "type": "fill-in-blank",
+            "instruction": "Ordne die Angabe zu: temporal, kausal, modal oder lokal. Schreib nur das Wort.",
+            "prompt": "Bei Regen bleiben wir lieber zu Hause. – 'Bei Regen' nennt eine Bedingung. In der te-ka-mo-lo-Regel gilt diese Angabe als ___.",
+            "solution": "kausal",
+            "hint": "Formuliere die Angabe als Nebensatz: 'wenn es regnet'. Sagt sie, wann etwas passiert, oder unter welcher Voraussetzung?",
+            "explanation": "Bedingungen ('bei Regen' = wenn es regnet) zählen zur kausalen Gruppe (warum?/unter welcher Bedingung?), nicht zu temporal."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l1m01",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit dem Subjekt.",
+            "prompt": "Ordne die Satzteile nach der te-ka-mo-lo-Regel.",
+            "scrambleChunks": [
+              "umgezogen",
+              "aus familiären Gründen",
+              "Jonas",
+              "nach Rostock",
+              "ist",
+              "ziemlich überstürzt",
+              "im Januar"
+            ],
+            "solution": "Jonas ist im Januar aus familiären Gründen ziemlich überstürzt nach Rostock umgezogen.",
+            "hint": "Verb auf Position 2, Partizip ans Ende, dazwischen wann – warum – wie – wohin.",
+            "explanation": "te-ka-mo-lo (in der Regel): im Januar – aus familiären Gründen – ziemlich überstürzt – nach Rostock; 'umgezogen' am Ende."
+          },
+          {
+            "id": "l1m02",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit der temporalen Angabe. Ordne die übrigen Angaben nach te-ka-mo-lo.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "ins Büro",
+              "Aylin",
+              "mit dem Taxi",
+              "gefahren",
+              "Am ersten Arbeitstag",
+              "aus Angst vor Verspätung",
+              "ist"
+            ],
+            "solution": "Am ersten Arbeitstag ist Aylin aus Angst vor Verspätung mit dem Taxi ins Büro gefahren.",
+            "hint": "Nach dem Vorfeld kommt das Verb, dann das Subjekt.",
+            "explanation": "'Am ersten Arbeitstag' im Vorfeld → 'ist Aylin'. Danach kausal – modal – lokal: aus Angst … – mit dem Taxi – ins Büro."
+          },
+          {
+            "id": "l1m03",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit der kausalen Angabe. Ordne die übrigen Angaben nach te-ka-mo-lo.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "am Stadtrand",
+              "seit zwei Jahren",
+              "Wegen der hohen Mieten",
+              "notgedrungen",
+              "mein Bruder",
+              "wohnt"
+            ],
+            "solution": "Wegen der hohen Mieten wohnt mein Bruder seit zwei Jahren notgedrungen am Stadtrand.",
+            "hint": "Vorfeld – Verb – Subjekt – restliche Angaben nach te-(ka)-mo-lo.",
+            "explanation": "Kausale Angabe im Vorfeld → 'wohnt mein Bruder'. Im Mittelfeld: seit zwei Jahren – notgedrungen – am Stadtrand."
+          },
+          {
+            "id": "l1m04",
+            "type": "sentence-scramble",
+            "instruction": "Bilde eine Ja/Nein-Frage. Ordne die Angaben nach te-ka-mo-lo.",
+            "prompt": "Du schlägst einem Nachbarn einen gemeinsamen Einkauf vor.",
+            "scrambleChunks": [
+              "zum Wochenmarkt",
+              "wir",
+              "gemeinsam",
+              "Gehen",
+              "morgen früh"
+            ],
+            "solution": "Gehen wir morgen früh gemeinsam zum Wochenmarkt?",
+            "hint": "Ja/Nein-Frage: Verb zuerst, dann Subjekt, dann wann – wie – wohin.",
+            "explanation": "Ja/Nein-Frage: Verb zuerst, dann 'wir'. Danach te-mo-lo: morgen früh – gemeinsam – zum Wochenmarkt."
+          },
+          {
+            "id": "l1m05",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit dem Subjekt und ordne die Angaben nach te-ka-mo-lo.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "zu sich nach Hause",
+              "mich",
+              "eingeladen",
+              "Meine Nachbarin",
+              "ganz spontan",
+              "hat",
+              "gestern"
+            ],
+            "solution": "Meine Nachbarin hat mich gestern ganz spontan zu sich nach Hause eingeladen.",
+            "hint": "Ein Personalpronomen steht ganz vorn im Mittelfeld – noch vor den Angaben.",
+            "explanation": "Unbetonte Pronomen ('mich') stehen vor allen Angaben. Dann: gestern – ganz spontan – zu sich nach Hause, direkt vor 'eingeladen'."
+          },
+          {
+            "id": "l1m06",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Seit dem Frühling' und ordne die übrigen Angaben nach te-ka-mo-lo.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "mit großer Begeisterung",
+              "Paul",
+              "im Stadtwald",
+              "aus gesundheitlichen Gründen",
+              "joggt",
+              "Seit dem Frühling"
+            ],
+            "solution": "Seit dem Frühling joggt Paul aus gesundheitlichen Gründen mit großer Begeisterung im Stadtwald.",
+            "hint": "Temporal im Vorfeld, danach Verb und Subjekt; dann warum – wie – wo.",
+            "explanation": "'Seit dem Frühling' im Vorfeld → 'joggt Paul'. Im Mittelfeld kausal – modal – lokal."
+          },
+          {
+            "id": "l1m07",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Hilfsverb im Perfekt.",
+            "prompt": "Gestern ___ ich zufällig meiner Vermieterin im Supermarkt begegnet. (begegnen, Perfekt)",
+            "solution": "bin",
+            "hint": "'begegnen' bildet das Perfekt nicht mit 'haben'.",
+            "explanation": "'begegnen' bildet das Perfekt mit 'sein' (wie 'folgen'): ich bin begegnet. 'habe' ist falsch."
+          },
+          {
+            "id": "l1m08",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb im Präsens.",
+            "prompt": "Seit meinem Umzug ___ ich mich bewusst auf die neue Umgebung ein. (sich einlassen)",
+            "solution": "lasse",
+            "hint": "Trennbares Verb: Der Stamm steht auf Position 2, das Präfix am Ende.",
+            "explanation": "'sich einlassen' ist trennbar: 'lasse' auf Position 2, 'ein' am Ende. Kein Vokalwechsel bei 'ich' (aber: er lässt)."
+          },
+          {
+            "id": "l1m09",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb im Präsens.",
+            "prompt": "Aus Kostengründen ___ wir uns vorerst mit einer kleinen Wohnung. (sich arrangieren)",
+            "solution": "arrangieren",
+            "hint": "Subjekt ist 'wir'; das Verb steht trotzdem auf Position 2.",
+            "explanation": "Angabe im Vorfeld → Verb auf Position 2, dann 'wir'. -ieren-Verben sind regelmäßig; wir-Form = Infinitiv."
+          },
+          {
+            "id": "l1m10",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb im Präteritum.",
+            "prompt": "Nach langem Überlegen ___ sich meine Schwester zu einem Neuanfang in Graz. (sich entschließen)",
+            "solution": "entschloss",
+            "hint": "Unregelmäßiges Verb: ie → o, ß → ss.",
+            "explanation": "'sich entschließen' ist unregelmäßig: entschloss – hat entschlossen. 'sich' steht vor dem nominalen Subjekt."
+          },
+          {
+            "id": "l1m11",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb im Präteritum.",
+            "prompt": "In der Kaffeeküche ___ die Kollegen jeden Morgen ein paar Minuten über das Wochenende. (plaudern)",
+            "solution": "plauderten",
+            "hint": "Regelmäßiges Verb, 3. Person Plural.",
+            "explanation": "'plaudern' ist regelmäßig: sie plauderten. Lokale Angabe im Vorfeld → Verb auf Position 2."
+          },
+          {
+            "id": "l1m12",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb im Präteritum.",
+            "prompt": "In meinem alten Team ___ sich alle schon am ersten Tag. (duzen)",
+            "solution": "duzten",
+            "hint": "Regelmäßiges Verb; der Stamm endet auf -z.",
+            "explanation": "'duzen' ist regelmäßig: sie duzten. Angabe im Vorfeld → Verb auf Position 2."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l1h01",
+            "type": "targeted-transformation",
+            "instruction": "Stelle die temporale Angabe ins Vorfeld. Die übrigen Satzglieder behalten ihre Reihenfolge.",
+            "prompt": "Ich habe mich nach meinem Umzug schnell in der Nachbarschaft eingelebt.",
+            "solution": "Nach meinem Umzug habe ich mich schnell in der Nachbarschaft eingelebt.",
+            "hint": "Verb bleibt auf Position 2; Subjektpronomen vor Reflexivpronomen.",
+            "explanation": "Angabe ins Vorfeld → 'habe' bleibt auf Position 2, 'ich' folgt direkt – noch vor 'mich'."
+          },
+          {
+            "id": "l1h02",
+            "type": "targeted-transformation",
+            "instruction": "Stelle die kausale Angabe ins Vorfeld. Die übrigen Satzglieder behalten ihre Reihenfolge.",
+            "prompt": "Mein Kollege ist im Herbst wegen eines Jobwechsels widerwillig nach Bremen gezogen.",
+            "solution": "Wegen eines Jobwechsels ist mein Kollege im Herbst widerwillig nach Bremen gezogen.",
+            "hint": "Nur ein Satzglied im Vorfeld, dann Verb, dann Subjekt.",
+            "explanation": "Kausale Angabe ins Vorfeld → 'ist mein Kollege'. Der Rest bleibt: im Herbst – widerwillig – nach Bremen."
+          },
+          {
+            "id": "l1h03",
+            "type": "targeted-transformation",
+            "instruction": "Baue die Angaben aus der Klammer ins Mittelfeld ein (te-ka-mo-lo). Das Subjekt bleibt im Vorfeld.",
+            "prompt": "Sophie hat sich angemeldet. (in einem Sportverein / aus Neugier / letzte Woche / kurz entschlossen)",
+            "solution": "Sophie hat sich letzte Woche aus Neugier kurz entschlossen in einem Sportverein angemeldet.",
+            "hint": "Erst das Reflexivpronomen, dann wann – warum – wie – wo.",
+            "explanation": "'sich' direkt nach dem Verb, dann te-ka-mo-lo: letzte Woche – aus Neugier – kurz entschlossen – in einem Sportverein."
+          },
+          {
+            "id": "l1h04",
+            "type": "targeted-transformation",
+            "instruction": "Bilde eine Ja/Nein-Frage mit 'sollen'. Ordne die Angaben nach te-ka-mo-lo.",
+            "prompt": "wir / uns treffen / am Samstag / wegen des Stadtfests / in der Altstadt",
+            "solution": "Sollen wir uns am Samstag wegen des Stadtfests in der Altstadt treffen?",
+            "hint": "Modalverb auf Position 1, Infinitiv ans Ende.",
+            "explanation": "Ja/Nein-Frage: 'Sollen' zuerst, dann 'wir uns'. Danach temporal – kausal – lokal, 'treffen' am Ende."
+          },
+          {
+            "id": "l1h05",
+            "type": "targeted-transformation",
+            "instruction": "Stelle die lokale Angabe ins Vorfeld. Die übrigen Satzglieder behalten ihre Reihenfolge.",
+            "prompt": "Man lernt in einem Chor schnell nette Leute kennen.",
+            "solution": "In einem Chor lernt man schnell nette Leute kennen.",
+            "hint": "'kennen' bleibt als Teil von 'kennenlernen' am Satzende.",
+            "explanation": "'In einem Chor' ins Vorfeld → 'lernt man'. 'kennen' bleibt als Verbteil am Satzende."
+          },
+          {
+            "id": "l1h06",
+            "type": "targeted-transformation",
+            "instruction": "Stelle die modale Angabe ins Vorfeld. Die übrigen Satzglieder behalten ihre Reihenfolge.",
+            "prompt": "Ich habe mich in der ersten Zeit mit großer Mühe an den Dialekt gewöhnt.",
+            "solution": "Mit großer Mühe habe ich mich in der ersten Zeit an den Dialekt gewöhnt.",
+            "hint": "Welche Angabe beantwortet die Frage 'wie?'",
+            "explanation": "Modale Angabe ins Vorfeld (zur Betonung) → 'habe ich mich'. Der Rest bleibt im Mittelfeld."
+          },
+          {
+            "id": "l1h07",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. 'Seit einem Monat' bleibt am Satzanfang.",
+            "prompt": "Seit einem Monat ich wohne in einer kleinen Wohnung am Marktplatz.",
+            "solution": "Seit einem Monat wohne ich in einer kleinen Wohnung am Marktplatz.",
+            "hint": "Wo steht das konjugierte Verb, wenn eine Angabe im Vorfeld steht?",
+            "explanation": "Auch mit Angabe im Vorfeld bleibt das Verb auf Position 2: 'Seit einem Monat wohne ich'."
+          },
+          {
+            "id": "l1h08",
+            "type": "error-correction",
+            "instruction": "Korrigiere die Reihenfolge der Angaben nach der te-ka-mo-lo-Regel. Das Subjekt bleibt vorn.",
+            "prompt": "Ich bin nach Salzburg letzten Sommer wegen meiner Ausbildung gezogen.",
+            "solution": "Ich bin letzten Sommer wegen meiner Ausbildung nach Salzburg gezogen.",
+            "hint": "Die Richtungsangabe gehört ans Ende des Mittelfelds.",
+            "explanation": "te-ka-mo-lo: 'letzten Sommer' – 'wegen meiner Ausbildung' – 'nach Salzburg'. Die Richtungsangabe steht direkt vor 'gezogen'."
+          },
+          {
+            "id": "l1h09",
+            "type": "error-correction",
+            "instruction": "Korrigiere die Reihenfolge der Angaben nach der te-ka-mo-lo-Regel.",
+            "prompt": "Lukas ist gestern zu Fuß wegen des Bahnstreiks zur Arbeit gegangen.",
+            "solution": "Lukas ist gestern wegen des Bahnstreiks zu Fuß zur Arbeit gegangen.",
+            "hint": "Grund vor Art und Weise.",
+            "explanation": "In der Regel kausal vor modal: 'wegen des Bahnstreiks' vor 'zu Fuß'."
+          },
+          {
+            "id": "l1h10",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. 'Wegen des Regens' bleibt am Satzanfang.",
+            "prompt": "Wegen des Regens wir sind den ganzen Nachmittag in der Wohnung geblieben.",
+            "solution": "Wegen des Regens sind wir den ganzen Nachmittag in der Wohnung geblieben.",
+            "hint": "Eine kausale Angabe im Vorfeld ändert nichts an der Verbposition.",
+            "explanation": "Angabe im Vorfeld → Verb auf Position 2: 'sind wir'. 'wir sind' setzt das Verb auf Position 3."
+          },
+          {
+            "id": "l1h11",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. 'Nach der Arbeit' bleibt am Satzanfang.",
+            "prompt": "Nach der Arbeit treffe mich ich oft mit Kolleginnen in einer Kneipe.",
+            "solution": "Nach der Arbeit treffe ich mich oft mit Kolleginnen in einer Kneipe.",
+            "hint": "Subjektpronomen und Reflexivpronomen – welches kommt zuerst?",
+            "explanation": "Nach der Inversion: Verb – Subjekt – Reflexivpronomen: 'treffe ich mich', nicht 'treffe mich ich'."
+          },
+          {
+            "id": "l1h12",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. 'Im Mai' bleibt am Satzanfang.",
+            "prompt": "Im Mai mit meiner Familie bin ich nach Zürich umgezogen.",
+            "solution": "Im Mai bin ich mit meiner Familie nach Zürich umgezogen.",
+            "hint": "Wie viele Satzglieder passen ins Vorfeld?",
+            "explanation": "Im Vorfeld steht nur ein Satzglied. 'mit meiner Familie' gehört ins Mittelfeld nach 'bin ich'."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l1t01",
+          "type": "multiple-choice",
+          "instruction": "Welcher Satz zeigt die Angaben in neutraler Wortstellung (te-ka-mo-lo)?",
+          "prompt": "Malik ist … umgezogen.",
+          "options": [
+            "Malik ist Anfang des Jahres wegen einer Weiterbildung ziemlich kurzfristig nach Kassel umgezogen.",
+            "Malik ist wegen einer Weiterbildung Anfang des Jahres ziemlich kurzfristig nach Kassel umgezogen.",
+            "Malik ist Anfang des Jahres ziemlich kurzfristig wegen einer Weiterbildung nach Kassel umgezogen.",
+            "Malik ist Anfang des Jahres nach Kassel wegen einer Weiterbildung ziemlich kurzfristig umgezogen."
+          ],
+          "solution": "Malik ist Anfang des Jahres wegen einer Weiterbildung ziemlich kurzfristig nach Kassel umgezogen.",
+          "explanation": "Neutral (in der Regel): temporal – kausal – modal – lokal. Andere Folgen sind markiert; 'nach Kassel' gehört direkt vor 'umgezogen'."
+        },
+        {
+          "id": "l1t02",
+          "type": "multiple-choice",
+          "instruction": "Welche Art von Angabe ist der markierte Ausdruck?",
+          "prompt": "Viele Neuankömmlinge suchen angesichts der hohen Mieten zunächst ein WG-Zimmer. – „angesichts der hohen Mieten“",
+          "options": [
+            "temporal",
+            "kausal",
+            "modal",
+            "lokal"
+          ],
+          "solution": "kausal",
+          "explanation": "'angesichts' nennt einen Grund (warum?) – kausal, wie 'wegen' oder 'aufgrund'."
+        },
+        {
+          "id": "l1t03",
+          "type": "multiple-choice",
+          "instruction": "Ergänze die richtige Wortfolge.",
+          "prompt": "In den ersten Wochen ___ in der neuen Gegend noch etwas fremd.",
+          "options": [
+            "fühle ich mich",
+            "ich fühle mich",
+            "fühle mich ich",
+            "ich mich fühle"
+          ],
+          "solution": "fühle ich mich",
+          "explanation": "Angabe im Vorfeld → Verb auf Position 2, dann Subjekt vor Reflexivpronomen: 'fühle ich mich'."
+        },
+        {
+          "id": "l1t04",
+          "type": "multiple-choice",
+          "instruction": "Welche Art von Angabe ist der markierte Ausdruck?",
+          "prompt": "Unsere Vorgesetzte hat den Praktikanten am ersten Tag mit viel Humor durch das Gebäude geführt. – „mit viel Humor“",
+          "options": [
+            "temporal",
+            "kausal",
+            "modal",
+            "lokal"
+          ],
+          "solution": "modal",
+          "explanation": "'mit viel Humor' sagt, wie – modal. 'am ersten Tag' ist temporal, 'durch das Gebäude' lokal."
+        },
+        {
+          "id": "l1t05",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz. Beginne mit „Am Wochenende“. Ordne die Angaben nach te-ka-mo-lo.",
+          "prompt": "Baue den Satz aus den Satzgliedern.",
+          "scrambleChunks": [
+            "gemütlich",
+            "radeln",
+            "zum See",
+            "Am Wochenende",
+            "wegen des schönen Wetters",
+            "wir"
+          ],
+          "solution": "Am Wochenende radeln wir wegen des schönen Wetters gemütlich zum See.",
+          "explanation": "Temporal im Vorfeld → 'radeln wir'. Dann kausal – modal – lokal; die Richtungsangabe am Ende."
+        },
+        {
+          "id": "l1t06",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz im Perfekt. Beginne mit „Nach dem Umzug“. Ordne die Angaben nach te-ka-mo-lo.",
+          "prompt": "Baue den Satz aus den Satzgliedern.",
+          "scrambleChunks": [
+            "allein",
+            "spaziert",
+            "ich",
+            "durch das neue Viertel",
+            "Nach dem Umzug",
+            "aus Langeweile",
+            "bin"
+          ],
+          "solution": "Nach dem Umzug bin ich aus Langeweile allein durch das neue Viertel spaziert.",
+          "explanation": "Vorfeld → 'bin ich'. Dann aus Langeweile – allein – durch das neue Viertel. 'allein aus Langeweile' wäre nicht neutral."
+        },
+        {
+          "id": "l1t07",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz. Beginne mit dem Nebensatz. Ordne die Angaben im Hauptsatz nach te-ka-mo-lo.",
+          "prompt": "Baue den Satz aus den Satzgliedern.",
+          "scrambleChunks": [
+            "ins Kino",
+            "ging",
+            "Da ich noch niemanden kannte,",
+            "allein",
+            "ich",
+            "am ersten Abend"
+          ],
+          "solution": "Da ich noch niemanden kannte, ging ich am ersten Abend allein ins Kino.",
+          "explanation": "Ein Nebensatz im Vorfeld zählt als Position 1 → direkt 'ging ich'. Dann temporal – modal – lokal."
+        },
+        {
+          "id": "l1t08",
+          "type": "targeted-transformation",
+          "instruction": "Stelle die temporale Angabe ins Vorfeld. Beginne mit „Vorgestern“. Die übrigen Satzglieder behalten ihre Reihenfolge.",
+          "prompt": "Ich habe vorgestern im Waschkeller eine Weile mit dem Hausmeister geplaudert.",
+          "solution": "Vorgestern habe ich im Waschkeller eine Weile mit dem Hausmeister geplaudert.",
+          "explanation": "'Vorgestern' ins Vorfeld → 'habe ich'. 'Vorgestern ich habe' hätte zwei Satzglieder vor dem Verb."
+        },
+        {
+          "id": "l1t09",
+          "type": "targeted-transformation",
+          "instruction": "Stelle die kausale Angabe ins Vorfeld. Beginne mit „Aus Überzeugung“. Die übrigen Satzglieder behalten ihre Reihenfolge.",
+          "prompt": "Sie kümmert sich seit Kurzem aus Überzeugung ehrenamtlich um geflüchtete Familien.",
+          "solution": "Aus Überzeugung kümmert sie sich seit Kurzem ehrenamtlich um geflüchtete Familien.",
+          "explanation": "Angabe ins Vorfeld → Verb auf Position 2, dann 'sie' vor 'sich': 'kümmert sie sich', nicht 'kümmert sich sie'."
+        },
+        {
+          "id": "l1t10",
+          "type": "targeted-transformation",
+          "instruction": "Baue die Angaben aus der Klammer in den Satz ein. Ordne die Angaben nach te-ka-mo-lo. Beginne mit „Tobias“.",
+          "prompt": "Tobias fährt. (zu seinen Eltern / am Freitag / wegen des Feiertags / mit dem Nachtzug)",
+          "solution": "Tobias fährt am Freitag wegen des Feiertags mit dem Nachtzug zu seinen Eltern.",
+          "explanation": "In der Regel: am Freitag – wegen des Feiertags – mit dem Nachtzug – zu seinen Eltern (Richtung am Ende)."
+        },
+        {
+          "id": "l1t11",
+          "type": "error-correction",
+          "instruction": "Korrigiere die Wortstellung. Ordne die Angaben nach te-ka-mo-lo. Beginne mit „Meine Cousine“.",
+          "prompt": "Meine Cousine fährt aus Sparsamkeit am Montag mit dem Fernbus nach Dresden.",
+          "solution": "Meine Cousine fährt am Montag aus Sparsamkeit mit dem Fernbus nach Dresden.",
+          "explanation": "Neutral steht temporal vor kausal: 'am Montag aus Sparsamkeit'. Die umgekehrte Folge betont den Grund."
+        },
+        {
+          "id": "l1t12",
+          "type": "error-correction",
+          "instruction": "Finde und korrigiere den Fehler in der Wortstellung. Das Vorfeld bleibt gleich.",
+          "prompt": "Seit dem Frühjahr wir duzen uns mit den Nachbarn von gegenüber.",
+          "solution": "Seit dem Frühjahr duzen wir uns mit den Nachbarn von gegenüber.",
+          "explanation": "Angabe im Vorfeld → Subjekt hinter das Verb: 'Seit dem Frühjahr duzen wir uns'."
+        },
+        {
+          "id": "l1t13",
+          "type": "error-correction",
+          "instruction": "Korrigiere die Reihenfolge der Angaben nach te-ka-mo-lo. Das Vorfeld bleibt gleich.",
+          "prompt": "Die neuen Nachbarn haben gestern Abend im Hof ausgelassen wegen ihrer Wohnungseinweihung gefeiert.",
+          "solution": "Die neuen Nachbarn haben gestern Abend wegen ihrer Wohnungseinweihung ausgelassen im Hof gefeiert.",
+          "explanation": "In der Regel te-ka-mo-lo: gestern Abend – wegen … – ausgelassen – im Hof. Die Ortsangabe steht direkt vor 'gefeiert'."
+        },
+        {
+          "id": "l1t14",
+          "type": "fill-in-blank",
+          "instruction": "Welche der beiden Angaben gehört in neutraler Wortstellung in die Lücke? Schreibe sie genau so, wie sie in der Klammer steht.",
+          "prompt": "Mein Mitbewohner ist ___ aus Heimweh zu seiner Familie nach Polen gefahren. (kurzerhand / am Donnerstag)",
+          "solution": "am Donnerstag",
+          "explanation": "Vor der kausalen Angabe 'aus Heimweh' steht neutral die temporale: 'am Donnerstag'. 'kurzerhand' (modal) käme danach."
+        },
+        {
+          "id": "l1t15",
+          "type": "fill-in-blank",
+          "instruction": "Welche der beiden Angaben gehört in neutraler Wortstellung in die Lücke? Schreibe sie genau so, wie sie in der Klammer steht.",
+          "prompt": "Die Familie ist wegen der Kinder ___ in einen ruhigeren Stadtteil gezogen. (im Frühling / schweren Herzens)",
+          "solution": "schweren Herzens",
+          "explanation": "Zwischen kausal und lokal steht in der Regel die modale Angabe: 'schweren Herzens'. 'im Frühling' gehört vor 'wegen'."
+        },
+        {
+          "id": "l1t16",
+          "type": "multiple-choice",
+          "instruction": "Welche Umstellung ist korrekt?",
+          "prompt": "Er hat sich nach einem halben Jahr endlich auf das Stadtleben eingelassen. → Beginne mit „Nach einem halben Jahr“.",
+          "options": [
+            "Nach einem halben Jahr hat er sich endlich auf das Stadtleben eingelassen.",
+            "Nach einem halben Jahr er hat sich endlich auf das Stadtleben eingelassen.",
+            "Nach einem halben Jahr endlich hat er sich auf das Stadtleben eingelassen.",
+            "Nach einem halben Jahr hat sich er endlich auf das Stadtleben eingelassen."
+          ],
+          "solution": "Nach einem halben Jahr hat er sich endlich auf das Stadtleben eingelassen.",
+          "explanation": "Ein Satzglied im Vorfeld, Verb auf Position 2, dann Subjekt vor Reflexivpronomen: 'hat er sich'."
+        }
+      ]
+    },
+    {
+      "lektionId": "b2-m1-l2",
+      "level": "B2",
+      "modulNumber": 1,
+      "lektionNumber": 2,
+      "title": "Vorurteile und erste Eindrücke",
+      "grammarFocus": [
+        "Charakteradjektive und Gegensatzpaare (Wortbildung mit -bereit, -haft, -los, un-)",
+        "Wirkung und Vermutung ausdrücken: wirken/scheinen + Adjektiv, scheinen … zu + Infinitiv",
+        "du oder Sie: formelle und informelle Anrede"
+      ],
+      "vocabulary": [
+        {
+          "id": "l2v01",
+          "term": "das Vorurteil",
+          "translation": "el prejuicio",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Vorurteile",
+          "example": "Gegen dieses Vorurteil kämpft sie schon seit Jahren."
+        },
+        {
+          "id": "l2v02",
+          "term": "der Eindruck",
+          "translation": "la impresión",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Eindrücke",
+          "example": "Mein erster Eindruck von der Stadt war ausgesprochen positiv."
+        },
+        {
+          "id": "l2v03",
+          "term": "schüchtern",
+          "translation": "tímido",
+          "partOfSpeech": "adjective",
+          "example": "Als Kind war er so schüchtern, dass er kaum mit Fremden sprach."
+        },
+        {
+          "id": "l2v04",
+          "term": "kompromissbereit",
+          "translation": "dispuesto a llegar a un acuerdo",
+          "partOfSpeech": "adjective",
+          "example": "In Verhandlungen zeigte sich die Gegenseite überraschend kompromissbereit."
+        },
+        {
+          "id": "l2v05",
+          "term": "entspannt",
+          "translation": "relajado",
+          "partOfSpeech": "adjective",
+          "example": "Nach dem langen Wochenende kam sie entspannt ins Büro zurück."
+        },
+        {
+          "id": "l2v06",
+          "term": "bescheiden",
+          "translation": "modesto",
+          "partOfSpeech": "adjective",
+          "example": "Trotz seines Erfolgs ist der Architekt bescheiden geblieben."
+        },
+        {
+          "id": "l2v07",
+          "term": "zuverlässig",
+          "translation": "fiable",
+          "partOfSpeech": "adjective",
+          "example": "Auf unsere Nachbarin ist immer Verlass – sie ist absolut zuverlässig."
+        },
+        {
+          "id": "l2v08",
+          "term": "übermüdet",
+          "translation": "agotado",
+          "partOfSpeech": "adjective",
+          "example": "Nach dem Nachtflug war ich völlig übermüdet."
+        },
+        {
+          "id": "l2v09",
+          "term": "hartnäckig",
+          "translation": "persistente / obstinado",
+          "partOfSpeech": "adjective",
+          "example": "Manche Klischees halten sich erstaunlich hartnäckig."
+        },
+        {
+          "id": "l2v10",
+          "term": "verallgemeinern",
+          "translation": "generalizar",
+          "partOfSpeech": "verb",
+          "preterite": "verallgemeinerte",
+          "participle": "verallgemeinert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Man sollte eine einzelne Erfahrung nicht verallgemeinern."
+        },
+        {
+          "id": "l2v11",
+          "term": "wirken",
+          "translation": "parecer / dar la impresión de",
+          "partOfSpeech": "verb",
+          "preterite": "wirkte",
+          "participle": "gewirkt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Der Redner wirkte trotz der vielen Zuhörer ganz gelassen."
+        },
+        {
+          "id": "l2v12",
+          "term": "scheinen",
+          "translation": "parecer",
+          "partOfSpeech": "verb",
+          "preterite": "schien",
+          "participle": "geschienen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Die Lösung scheint einfacher zu sein, als wir dachten."
+        },
+        {
+          "id": "l2v13",
+          "term": "die Ausgrenzung",
+          "translation": "la exclusión",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Ausgrenzungen",
+          "example": "Vorurteile führen nicht selten zur Ausgrenzung ganzer Gruppen."
+        },
+        {
+          "id": "l2v14",
+          "term": "die Sympathie",
+          "translation": "la simpatía",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Sympathien",
+          "example": "Die Moderatorin gewann schnell die Sympathie des Publikums."
+        },
+        {
+          "id": "l2v15",
+          "term": "das Missverständnis",
+          "translation": "el malentendido",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Missverständnisse",
+          "example": "Wegen eines Missverständnisses standen wir vor der falschen Tür."
+        },
+        {
+          "id": "l2v16",
+          "term": "die Einladung",
+          "translation": "la invitación",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Einladungen",
+          "example": "Vielen Dank für die freundliche Einladung zum Abendessen!"
+        },
+        {
+          "id": "l2v17",
+          "term": "duzen",
+          "translation": "tutear",
+          "partOfSpeech": "verb",
+          "preterite": "duzte",
+          "participle": "geduzt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "In unserem Start-up duzen sich alle, auch die Geschäftsführerin."
+        },
+        {
+          "id": "l2v18",
+          "term": "siezen",
+          "translation": "tratar de usted",
+          "partOfSpeech": "verb",
+          "preterite": "siezte",
+          "participle": "gesiezt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Ältere Nachbarn siezt man in Deutschland normalerweise."
+        },
+        {
+          "id": "l2v19",
+          "term": "verschlossen",
+          "translation": "reservado / cerrado",
+          "partOfSpeech": "adjective",
+          "example": "Er gilt als verschlossen, weil er wenig über sich erzählt."
+        },
+        {
+          "id": "l2v20",
+          "term": "humorlos",
+          "translation": "sin sentido del humor",
+          "partOfSpeech": "adjective",
+          "example": "Ihr Vortrag war sachlich, aber ein bisschen humorlos."
+        },
+        {
+          "id": "l2v21",
+          "term": "hilfsbereit",
+          "translation": "servicial",
+          "partOfSpeech": "adjective",
+          "example": "Die Leute im Dorf waren unglaublich hilfsbereit, als unser Auto liegen blieb."
+        },
+        {
+          "id": "l2v22",
+          "term": "peinlich",
+          "translation": "embarazoso / vergonzoso",
+          "partOfSpeech": "adjective",
+          "example": "Es war mir peinlich, dass ich ihren Namen vergessen hatte."
+        },
+        {
+          "id": "l2v23",
+          "term": "die Körperhaltung",
+          "translation": "la postura corporal",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Körperhaltungen",
+          "example": "Eine aufrechte Körperhaltung wirkt selbstbewusst."
+        },
+        {
+          "id": "l2v24",
+          "term": "sich irren",
+          "translation": "equivocarse",
+          "partOfSpeech": "verb",
+          "preterite": "irrte sich",
+          "participle": "sich geirrt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Ich habe mich in ihm geirrt – er ist viel netter, als ich dachte."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l2e01",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Gegenteil.",
+            "prompt": "Mein neuer Kollege ist nicht offen, sondern eher ___ – er erzählt kaum etwas über sich.",
+            "options": [
+              "verschlossen",
+              "vertraut",
+              "lustig",
+              "gemeinsam"
+            ],
+            "solution": "verschlossen",
+            "hint": "Gesucht ist das Gegenteil von 'offen' als Charaktereigenschaft.",
+            "explanation": "Gegensatzpaar: offen – verschlossen. 'vertraut' ist das Gegenteil von 'fremd'."
+          },
+          {
+            "id": "l2e02",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Charakteradjektiv.",
+            "prompt": "Wer immer pünktlich ist und seine Versprechen hält, gilt als ___.",
+            "options": [
+              "zuverlässig",
+              "bescheiden",
+              "schüchtern",
+              "übermüdet"
+            ],
+            "solution": "zuverlässig",
+            "hint": "Man kann sich auf diese Person verlassen.",
+            "explanation": "zuverlässig = man kann sich auf ihn verlassen. 'bescheiden' und 'schüchtern' meinen etwas anderes."
+          },
+          {
+            "id": "l2e03",
+            "type": "multiple-choice",
+            "instruction": "Welcher Satz ist korrekt?",
+            "prompt": "Bei ihrer ersten Präsentation …",
+            "options": [
+              "… wirkte die neue Kollegin sehr selbstbewusst.",
+              "… wirkte die neue Kollegin sehr selbstbewusst zu sein.",
+              "… wirkte sich die neue Kollegin sehr selbstbewusst.",
+              "… wirkte die neue Kollegin, sehr selbstbewusst zu sein."
+            ],
+            "solution": "… wirkte die neue Kollegin sehr selbstbewusst.",
+            "hint": "'wirken' + Adjektiv beschreibt, welchen Eindruck jemand macht.",
+            "explanation": "'wirken' + Adjektiv, ohne 'zu sein' und ohne 'sich'. 'zu sein' gehört zu 'scheinen'."
+          },
+          {
+            "id": "l2e04",
+            "type": "multiple-choice",
+            "instruction": "Wähle die richtige Infinitivkonstruktion.",
+            "prompt": "Der Gastgeber scheint die Uhrzeit falsch ___.",
+            "options": [
+              "verstanden zu haben",
+              "verstanden haben",
+              "zu verstanden haben",
+              "verstehen"
+            ],
+            "solution": "verstanden zu haben",
+            "hint": "'scheinen' + 'zu' + Infinitiv; für etwas Vergangenes: Partizip II + 'zu haben/sein'.",
+            "explanation": "scheinen + zu + Infinitiv; für Vergangenes Infinitiv Perfekt: 'verstanden zu haben' – 'zu' steht vor dem Hilfsverb."
+          },
+          {
+            "id": "l2e05",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Anrede.",
+            "prompt": "Sie sprechen zum ersten Mal mit der Leiterin der Personalabteilung. Wie fragen Sie?",
+            "options": [
+              "Haben Sie kurz Zeit?",
+              "Hast du kurz Zeit?",
+              "Habt ihr kurz Zeit?",
+              "Hat sie kurz Zeit?"
+            ],
+            "solution": "Haben Sie kurz Zeit?",
+            "hint": "Im Beruf und bei Unbekannten verwendet man die formelle Anrede.",
+            "explanation": "Vorgesetzte und Unbekannte siezt man: 'Haben Sie …?'. 'Hast du' ist informell."
+          },
+          {
+            "id": "l2e06",
+            "type": "multiple-choice",
+            "instruction": "Wähle das richtige Adjektiv.",
+            "prompt": "Jemand, der anderen gern hilft, ist ___.",
+            "options": [
+              "hilfsbereit",
+              "hilflos",
+              "hilfebereit",
+              "hilfshaft"
+            ],
+            "solution": "hilfsbereit",
+            "hint": "Das Suffix '-bereit' bedeutet 'bereit zu etwas'.",
+            "explanation": "-bereit = gern bereit zu etwas: hilfsbereit (mit Fugen-s). 'hilflos' heißt 'ohne Hilfe'."
+          },
+          {
+            "id": "l2e07",
+            "type": "multiple-choice",
+            "instruction": "Wähle das richtige Adjektiv.",
+            "prompt": "Er lacht nie über Witze und versteht keinen Spaß – er ist ziemlich ___.",
+            "options": [
+              "humorlos",
+              "unhumorvoll",
+              "humorbereit",
+              "humorhaft"
+            ],
+            "solution": "humorlos",
+            "hint": "Das Suffix '-los' bedeutet 'ohne'.",
+            "explanation": "-los = ohne: humorlos = ohne Humor. Gegenteil: humorvoll."
+          },
+          {
+            "id": "l2e08",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Gegenteil.",
+            "prompt": "Am Anfang war ihm die neue Umgebung fremd, inzwischen ist sie ihm ganz ___. (Gegenteil von 'fremd', beginnt mit v)",
+            "solution": "vertraut",
+            "hint": "Was man gut kennt und wo man sich wohlfühlt, ist einem ...",
+            "explanation": "Gegensatzpaar: fremd – vertraut. 'verschlossen' ist das Gegenteil von 'offen'."
+          },
+          {
+            "id": "l2e09",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das passende Nomen (Singular).",
+            "prompt": "Wer nach einem einzigen schlechten Erlebnis ein Urteil über ein ganzes Land fällt, hat ein ___.",
+            "solution": "Vorurteil",
+            "hint": "Ein Urteil, das man vorher fällt, ohne genaue Informationen.",
+            "explanation": "Ein Vorurteil ist eine vorschnelle Meinung, oft aus einer einzelnen Erfahrung verallgemeinert. Neutrum: das Vorurteil."
+          },
+          {
+            "id": "l2e10",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das passende Verb im Infinitiv.",
+            "prompt": "Unter Studierenden ist es ganz normal, sich zu ___. (Gegenteil von 'siezen')",
+            "solution": "duzen",
+            "hint": "Welches Verb bedeutet, jemanden mit 'du' anzusprechen?",
+            "explanation": "duzen = 'du' sagen, siezen = 'Sie' sagen. Unter Studierenden duzt man sich."
+          },
+          {
+            "id": "l2e11",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Gegenteil mit der Vorsilbe un-.",
+            "prompt": "Er hält sich nie an Abmachungen – er ist wirklich ___. (Gegenteil von 'zuverlässig')",
+            "solution": "unzuverlässig",
+            "hint": "Die Vorsilbe un- verneint ein Adjektiv.",
+            "explanation": "Mit 'un-' bildet man das Gegenteil: zuverlässig → unzuverlässig."
+          },
+          {
+            "id": "l2e12",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Nomen.",
+            "prompt": "Ob wir jemanden sympathisch finden, entscheiden wir oft in der ersten Minute – der erste ___ zählt.",
+            "options": [
+              "Eindruck",
+              "Ausdruck",
+              "Abdruck",
+              "Vorurteil"
+            ],
+            "solution": "Eindruck",
+            "hint": "Gesucht ist ein maskulines Nomen ('der erste ...').",
+            "explanation": "der erste Eindruck = das Bild in den ersten Momenten. 'Vorurteil' ist neutral und passt nicht zu 'der erste'."
+          },
+          {
+            "id": "l2e13",
+            "type": "multiple-choice",
+            "instruction": "Wähle das richtige Adjektiv.",
+            "prompt": "Der Blick vom Berg auf den See war wie aus einem Märchen – einfach ___.",
+            "options": [
+              "märchenhaft",
+              "märchenlos",
+              "märchenbereit",
+              "unmärchenhaft"
+            ],
+            "solution": "märchenhaft",
+            "hint": "Gesucht ist ein Suffix mit der Bedeutung 'wie …'.",
+            "explanation": "-haft = wie …: märchenhaft = wie im Märchen (vgl. traumhaft). -los heißt 'ohne'."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l2m01",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz.",
+            "prompt": "Baue den Satz. Beginne mit dem Subjekt; das Adjektiv steht am Satzende.",
+            "scrambleChunks": [
+              "etwas schüchtern",
+              "wirkt",
+              "auf den ersten Blick",
+              "Die neue Nachbarin"
+            ],
+            "solution": "Die neue Nachbarin wirkt auf den ersten Blick etwas schüchtern.",
+            "hint": "'wirken' steht an Position 2, das Adjektiv am Ende des Satzes.",
+            "explanation": "'wirken' + Adjektiv: Verb auf Position 2, das Adjektiv am Satzende, die Angabe davor."
+          },
+          {
+            "id": "l2m02",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz.",
+            "prompt": "Baue den Satz. Beginne mit 'Der Gast'.",
+            "scrambleChunks": [
+              "verstanden zu haben",
+              "Der Gast",
+              "falsch",
+              "scheint",
+              "die Einladung"
+            ],
+            "solution": "Der Gast scheint die Einladung falsch verstanden zu haben.",
+            "hint": "'scheinen' an Position 2, 'zu' + Infinitiv am Satzende.",
+            "explanation": "'scheinen' auf Position 2, 'zu' + Infinitiv am Ende. Vergangenes → Infinitiv Perfekt: verstanden zu haben."
+          },
+          {
+            "id": "l2m03",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz.",
+            "prompt": "Baue den Satz.",
+            "scrambleChunks": [
+              "weil man",
+              "entstehen,",
+              "verallgemeinert",
+              "Viele Vorurteile",
+              "einzelne Erfahrungen"
+            ],
+            "solution": "Viele Vorurteile entstehen, weil man einzelne Erfahrungen verallgemeinert.",
+            "hint": "Im Nebensatz mit 'weil' steht das Verb am Ende.",
+            "explanation": "Hauptsatz mit Verb auf Position 2, im weil-Satz steht das konjugierte Verb am Ende."
+          },
+          {
+            "id": "l2m04",
+            "type": "sentence-scramble",
+            "instruction": "Bilde eine Frage.",
+            "prompt": "Baue die Frage: Jemand schlägt vor, vom Sie zum Du zu wechseln.",
+            "scrambleChunks": [
+              "das Du",
+              "Ihnen",
+              "anbieten",
+              "Darf",
+              "ich"
+            ],
+            "solution": "Darf ich Ihnen das Du anbieten?",
+            "hint": "Ja/Nein-Frage: das Modalverb steht an Position 1.",
+            "explanation": "Feste Wendung: jemandem das Du anbieten. Man siezt noch, also 'Ihnen'. 'Darf' vorn, 'anbieten' am Ende."
+          },
+          {
+            "id": "l2m05",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz.",
+            "prompt": "Baue den Satz. Beginne mit 'Im Vorstellungsgespräch'.",
+            "scrambleChunks": [
+              "sehr kompetent",
+              "der Bewerber",
+              "Im Vorstellungsgespräch",
+              "wirkte"
+            ],
+            "solution": "Im Vorstellungsgespräch wirkte der Bewerber sehr kompetent.",
+            "hint": "Steht eine Angabe im Vorfeld, folgt direkt das Verb, dann das Subjekt.",
+            "explanation": "Angabe auf Position 1 → 'wirkte der Bewerber'. Das Adjektiv steht am Ende."
+          },
+          {
+            "id": "l2m06",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz.",
+            "prompt": "Baue den Satz. Beginne mit 'Seit dem Umzug'.",
+            "scrambleChunks": [
+              "zu sein",
+              "völlig überfordert",
+              "sie",
+              "Seit dem Umzug",
+              "scheint"
+            ],
+            "solution": "Seit dem Umzug scheint sie völlig überfordert zu sein.",
+            "hint": "Angabe im Vorfeld → Verb auf Position 2, Subjekt danach; 'zu sein' bildet den Schluss.",
+            "explanation": "Vorfeld → 'scheint sie'. scheinen + Adjektiv + 'zu sein' am Ende (die Kurzform ohne 'zu sein' geht auch)."
+          },
+          {
+            "id": "l2m07",
+            "type": "cloze-conjugation",
+            "instruction": "Setze das Verb im Präteritum ein.",
+            "prompt": "Bei unserer ersten Begegnung ___ (wirken) er auf mich ziemlich arrogant.",
+            "solution": "wirkte",
+            "hint": "Regelmäßiges Verb, 3. Person Singular Präteritum.",
+            "explanation": "'wirken' ist regelmäßig: er wirkte. 'wirken auf jemanden' = Eindruck auf eine Person."
+          },
+          {
+            "id": "l2m08",
+            "type": "cloze-conjugation",
+            "instruction": "Setze das Verb im Präteritum ein.",
+            "prompt": "Die Gäste ___ (scheinen) die Uhrzeit verwechselt zu haben.",
+            "solution": "schienen",
+            "hint": "'scheinen' ist unregelmäßig; Subjekt im Plural.",
+            "explanation": "'scheinen' ist stark: schien – geschienen; sie schienen. 'scheinten' gibt es nicht."
+          },
+          {
+            "id": "l2m09",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb in Klammern (Präsens, formelle Anrede).",
+            "prompt": "Frau Yilmaz, ___ (sein) Sie mit dem Vorschlag einverstanden?",
+            "solution": "sind",
+            "hint": "Das formelle 'Sie' verlangt die Verbform der 3. Person Plural.",
+            "explanation": "Mit 'Sie' (formell) steht das Verb in der 3. Person Plural: Sind Sie …? 'Ist' wäre er/sie/es."
+          },
+          {
+            "id": "l2m10",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb in Klammern (Präsens, informelle Anrede).",
+            "prompt": "Jonas, ___ (wissen) du, wann das Fest anfängt?",
+            "solution": "weißt",
+            "hint": "'wissen' ist im Präsens Singular unregelmäßig.",
+            "explanation": "wissen: ich weiß, du weißt. 'wisst' ist die ihr-Form."
+          },
+          {
+            "id": "l2m11",
+            "type": "cloze-conjugation",
+            "instruction": "Setze das Verb im Präteritum ein (mit Reflexivpronomen).",
+            "prompt": "Mit der Zeit ___ (sich ändern) mein erster Eindruck von ihr völlig.",
+            "solution": "änderte sich",
+            "hint": "Im Hauptsatz folgt das Reflexivpronomen direkt auf das konjugierte Verb.",
+            "explanation": "Regelmäßig: es änderte sich. Angabe im Vorfeld → Verb auf Position 2, 'sich' vor dem nominalen Subjekt."
+          },
+          {
+            "id": "l2m12",
+            "type": "cloze-conjugation",
+            "instruction": "Setze das Partizip II ein.",
+            "prompt": "Er hat seine schlechte Erfahrung vorschnell ___ (verallgemeinern).",
+            "solution": "verallgemeinert",
+            "hint": "Verben mit der untrennbaren Vorsilbe ver- bilden das Partizip II ohne ge-.",
+            "explanation": "Untrennbare Vorsilbe 'ver-' → kein 'ge-' im Partizip: verallgemeinert."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l2h01",
+            "type": "targeted-transformation",
+            "instruction": "Formuliere die Vermutung mit 'scheinen … zu'. Beginne mit 'Er'.",
+            "prompt": "Es sieht so aus, als ob er sehr müde wäre.",
+            "solution": "Er scheint sehr müde zu sein.",
+            "hint": "'scheinen' + Adjektiv + 'zu sein'.",
+            "explanation": "'Es sieht so aus, als ob …' → scheinen + zu + Infinitiv: 'scheint müde zu sein'. Ohne 'zu' falsch."
+          },
+          {
+            "id": "l2h02",
+            "type": "targeted-transformation",
+            "instruction": "Formuliere mit 'scheinen … zu' und lass 'offenbar' weg. Beginne mit 'Die Gäste'.",
+            "prompt": "Offenbar haben die Gäste die Einladung missverstanden.",
+            "solution": "Die Gäste scheinen die Einladung missverstanden zu haben.",
+            "hint": "Vergangenes → Infinitiv Perfekt: Partizip II + zu haben.",
+            "explanation": "'offenbar' → 'scheinen'; Vergangenes → Infinitiv Perfekt: missverstanden zu haben."
+          },
+          {
+            "id": "l2h03",
+            "type": "targeted-transformation",
+            "instruction": "Formuliere mit 'scheinen … zu'. Beginne mit 'Sie'.",
+            "prompt": "Es sieht so aus, als hätte sie sich schon gut eingelebt.",
+            "solution": "Sie scheint sich schon gut eingelebt zu haben.",
+            "hint": "Reflexivpronomen bleibt im Mittelfeld; am Ende Partizip II + zu haben.",
+            "explanation": "'als hätte …' → scheinen + Infinitiv Perfekt: 'eingelebt zu haben' ('zu' vor dem Hilfsverb)."
+          },
+          {
+            "id": "l2h04",
+            "type": "targeted-transformation",
+            "instruction": "Formuliere die Frage mit der formellen Anrede 'Sie'. Behalte das Präsens und ändere sonst nichts.",
+            "prompt": "Kannst du mir deine Telefonnummer geben?",
+            "solution": "Können Sie mir Ihre Telefonnummer geben?",
+            "hint": "Beim Wechsel zu 'Sie' ändern sich Verbform und Possessivartikel.",
+            "explanation": "Sie-Form: 'Können Sie', und 'deine' wird 'Ihre' (groß). 'mir' bleibt."
+          },
+          {
+            "id": "l2h05",
+            "type": "targeted-transformation",
+            "instruction": "Formuliere die Frage informell mit 'du'.",
+            "prompt": "Haben Sie Ihren Ausweis dabei?",
+            "solution": "Hast du deinen Ausweis dabei?",
+            "hint": "Verb in der du-Form, Possessivartikel 'dein' mit der richtigen Akkusativendung.",
+            "explanation": "du-Form: 'hast', und 'Ihren' wird 'deinen' (Akkusativ maskulin -en bleibt)."
+          },
+          {
+            "id": "l2h06",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze die Wendung durch ein Adjektiv auf '-bereit'.",
+            "prompt": "Sie ist bereit, Kompromisse zu machen.",
+            "solution": "Sie ist kompromissbereit.",
+            "hint": "Nomen (Singular) + -bereit, zusammengeschrieben.",
+            "explanation": "'bereit, Kompromisse zu machen' → kompromissbereit (zusammen und klein)."
+          },
+          {
+            "id": "l2h07",
+            "type": "error-correction",
+            "instruction": "Im Satz fehlt ein Wort. Schreibe den korrigierten Satz.",
+            "prompt": "Er scheint sehr nervös sein.",
+            "solution": "Er scheint sehr nervös zu sein.",
+            "hint": "Was verlangt 'scheinen' vor dem Infinitiv?",
+            "explanation": "'scheinen' braucht 'zu' + Infinitiv: 'nervös zu sein' – anders als Modalverben."
+          },
+          {
+            "id": "l2h08",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Behalte das Verb 'wirken'.",
+            "prompt": "Die Kollegin wirkt sehr zuverlässig zu sein.",
+            "solution": "Die Kollegin wirkt sehr zuverlässig.",
+            "hint": "'wirken' verbindet sich direkt mit dem Adjektiv.",
+            "explanation": "Nach 'wirken' steht das Adjektiv direkt, ohne 'zu sein'. 'zu sein' gehört zu 'scheinen'."
+          },
+          {
+            "id": "l2h09",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler in der Anrede.",
+            "prompt": "Frau Schmidt, können Sie mir bitte deine Unterlagen schicken?",
+            "solution": "Frau Schmidt, können Sie mir bitte Ihre Unterlagen schicken?",
+            "hint": "Anrede und Possessivartikel müssen zusammenpassen.",
+            "explanation": "Wer siezt, nimmt auch 'Ihr/Ihre' (groß). 'deine' gehört zur du-Anrede."
+          },
+          {
+            "id": "l2h10",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler in der Wortbildung.",
+            "prompt": "Mein Nachbar ist sehr hilfbereit.",
+            "solution": "Mein Nachbar ist sehr hilfsbereit.",
+            "hint": "Achte auf das Fugenelement zwischen den Wortteilen.",
+            "explanation": "hilfsbereit – mit Fugen-s (wie Hilfsmittel)."
+          },
+          {
+            "id": "l2h11",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler.",
+            "prompt": "Du kannst mich gerne siezen, wir sind ja Freunde.",
+            "solution": "Du kannst mich gerne duzen, wir sind ja Freunde.",
+            "hint": "Welche Anrede ist unter Freunden üblich?",
+            "explanation": "Unter Freunden duzt man sich; 'siezen' passt nicht zu 'wir sind ja Freunde'."
+          },
+          {
+            "id": "l2h12",
+            "type": "targeted-transformation",
+            "instruction": "Bilde einen Satz mit 'sein' und einem Adjektiv auf '-los'. Beginne mit 'Er'.",
+            "prompt": "Ihm fehlt jeder Humor.",
+            "solution": "Er ist humorlos.",
+            "hint": "'-los' bedeutet 'ohne'.",
+            "explanation": "-los = ohne: ohne Humor → humorlos."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l2t01",
+          "type": "multiple-choice",
+          "instruction": "Wähle das Gegenteil des Adjektivs.",
+          "prompt": "Unsere neue Mitbewohnerin wirkte am Anfang ziemlich verschlossen. Das Gegenteil von „verschlossen“ ist …",
+          "options": [
+            "offen",
+            "schüchtern",
+            "bescheiden",
+            "übermüdet"
+          ],
+          "solution": "offen",
+          "explanation": "Gegensatzpaar: verschlossen – offen. 'schüchtern' ist fast ein Synonym, kein Gegenteil."
+        },
+        {
+          "id": "l2t02",
+          "type": "multiple-choice",
+          "instruction": "Welches Verb passt in die Lücke?",
+          "prompt": "Der neue Abteilungsleiter ___ sehr selbstbewusst zu sein.",
+          "options": [
+            "scheint",
+            "wirkt",
+            "sieht",
+            "hält"
+          ],
+          "solution": "scheint",
+          "explanation": "Nur 'scheinen' steht mit 'zu' + Infinitiv. 'wirken' steht direkt mit dem Adjektiv."
+        },
+        {
+          "id": "l2t03",
+          "type": "fill-in-blank",
+          "instruction": "Bilde aus dem Nomen in Klammern ein Adjektiv auf „-bereit“.",
+          "prompt": "Obwohl der Umzug ihn einen ganzen Samstag kostete, packte unser Nachbar sofort mit an – er ist wirklich ___ (die Hilfe).",
+          "solution": "hilfsbereit",
+          "explanation": "-bereit = bereit zu etwas; aus 'Hilfe' wird mit Fugen-s 'hilfsbereit'. 'hilfebereit' ist falsch."
+        },
+        {
+          "id": "l2t04",
+          "type": "fill-in-blank",
+          "instruction": "Bilde das Gegenteil des Adjektivs in Klammern mit der Vorsilbe „un-“.",
+          "prompt": "Schon nach zwei Minuten Wartezeit beschwerte sich der Kunde lautstark – er ist wirklich ziemlich ___ (geduldig).",
+          "solution": "ungeduldig",
+          "explanation": "'un-' bildet das Gegenteil: geduldig → ungeduldig. '-los' passt hier nicht."
+        },
+        {
+          "id": "l2t05",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Adjektiv.",
+          "prompt": "Ein Verhandlungspartner, der unter keinen Umständen nachgibt, gilt als ___.",
+          "options": [
+            "kompromisslos",
+            "kompromissbereit",
+            "hilfsbereit",
+            "bescheiden"
+          ],
+          "solution": "kompromisslos",
+          "explanation": "-los = ohne: kompromisslos. 'kompromissbereit' ist das Gegenteil."
+        },
+        {
+          "id": "l2t06",
+          "type": "cloze-conjugation",
+          "instruction": "Setze das Verb in Klammern im Präsens ein.",
+          "prompt": "Du ___ (scheinen) heute richtig gute Laune zu haben – ist etwas Schönes passiert?",
+          "solution": "scheinst",
+          "explanation": "du → 'scheinst'. 'scheint' passt nur zu er/sie/es oder ihr."
+        },
+        {
+          "id": "l2t07",
+          "type": "cloze-conjugation",
+          "instruction": "Setze das Verb in Klammern im Präteritum ein.",
+          "prompt": "Während der Diskussion gestern ___ (wirken) ihr beide ziemlich angespannt.",
+          "solution": "wirktet",
+          "explanation": "Präteritum regelmäßig, für 'ihr': wirktet. 'wirkte' passt nur zu ich/er/sie/es."
+        },
+        {
+          "id": "l2t08",
+          "type": "targeted-transformation",
+          "instruction": "Formuliere die Vermutung mit „scheinen … zu“ um. Beginne mit „Die Kinder“ und lass „offenbar“ weg.",
+          "prompt": "Die Kinder haben offenbar keine Lust auf den Ausflug.",
+          "solution": "Die Kinder scheinen keine Lust auf den Ausflug zu haben.",
+          "explanation": "'offenbar' → scheinen + zu + Infinitiv des Ausgangsverbs: 'zu haben', nicht 'zu sein'."
+        },
+        {
+          "id": "l2t09",
+          "type": "targeted-transformation",
+          "instruction": "Formuliere mit „scheinen … zu“ um. Beginne mit „Er“ und lass „anscheinend“ weg.",
+          "prompt": "Er hat sich anscheinend in seiner Kollegin geirrt.",
+          "solution": "Er scheint sich in seiner Kollegin geirrt zu haben.",
+          "explanation": "Vergangenes → Infinitiv Perfekt: 'geirrt zu haben'. 'sich' bleibt nach 'scheint'."
+        },
+        {
+          "id": "l2t10",
+          "type": "targeted-transformation",
+          "instruction": "Formuliere die Bitte in der formellen Anrede (Sie). Behalte die Wortstellung bei.",
+          "prompt": "Schick mir bitte deine neue Adresse.",
+          "solution": "Schicken Sie mir bitte Ihre neue Adresse.",
+          "explanation": "Imperativ Sie-Form: Infinitiv + Sie ('Schicken Sie'), und 'deine' wird 'Ihre'."
+        },
+        {
+          "id": "l2t11",
+          "type": "error-correction",
+          "instruction": "Finde und korrigiere den Fehler. Behalte das Verb „scheinen“.",
+          "prompt": "Die Gäste scheinen den Weg zu unserer neuen Wohnung nicht gefunden haben.",
+          "solution": "Die Gäste scheinen den Weg zu unserer neuen Wohnung nicht gefunden zu haben.",
+          "explanation": "Nach 'scheinen' braucht auch der Infinitiv Perfekt 'zu': gefunden zu haben."
+        },
+        {
+          "id": "l2t12",
+          "type": "error-correction",
+          "instruction": "Die Anrede passt nicht zur Situation. Korrigiere sie zur formellen Form.",
+          "prompt": "Herr Kraus, kannst du mir sagen, wie lange die Reparatur dauert?",
+          "solution": "Herr Kraus, können Sie mir sagen, wie lange die Reparatur dauert?",
+          "explanation": "'Herr + Nachname' → Sie-Form: 'können Sie' statt 'kannst du'."
+        },
+        {
+          "id": "l2t13",
+          "type": "error-correction",
+          "instruction": "Finde und korrigiere den Fehler. Behalte das Verb „wirken“.",
+          "prompt": "Bei der Hochzeit seines Bruders wirkte Tim ungewohnt schüchtern zu sein.",
+          "solution": "Bei der Hochzeit seines Bruders wirkte Tim ungewohnt schüchtern.",
+          "explanation": "'wirken' + Adjektiv ohne 'zu sein': 'wirkte schüchtern'. 'zu sein' gehört zu 'scheinen'."
+        },
+        {
+          "id": "l2t14",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz. Beginne mit „Nach dem langen Gespräch“.",
+          "prompt": "Baue den Satz aus den Teilen.",
+          "scrambleChunks": [
+            "zu sein",
+            "die Chefin",
+            "Nach dem langen Gespräch",
+            "von unserem Vorschlag überzeugt",
+            "schien"
+          ],
+          "solution": "Nach dem langen Gespräch schien die Chefin von unserem Vorschlag überzeugt zu sein.",
+          "explanation": "Angabe im Vorfeld → 'schien die Chefin'. 'zu sein' steht ganz am Ende."
+        },
+        {
+          "id": "l2t15",
+          "type": "sentence-scramble",
+          "instruction": "Bilde den Satz, mit dem jemand vorschlägt, zum Du zu wechseln. Beginne mit „Da“.",
+          "prompt": "Baue die Frage aus den Teilen.",
+          "scrambleChunks": [
+            "uns doch duzen",
+            "können",
+            "im selben Team arbeiten,",
+            "wir",
+            "Da wir jetzt"
+          ],
+          "solution": "Da wir jetzt im selben Team arbeiten, können wir uns doch duzen.",
+          "explanation": "Nebensatz im Vorfeld → direkt das Verb: 'können wir'. 'sich duzen' ist reziprok."
+        },
+        {
+          "id": "l2t16",
+          "type": "multiple-choice",
+          "instruction": "Wähle die passende Begrüßung.",
+          "prompt": "Du bist zum ersten Mal bei der Familie einer Kollegin zum Abendessen eingeladen und lernst ihre Großmutter, Frau Wagner, kennen. Was sagst du?",
+          "options": [
+            "Guten Abend, Frau Wagner, schön, Sie kennenzulernen.",
+            "Guten Abend, Frau Wagner, schön, dich kennenzulernen.",
+            "Hallo Oma, wie geht's dir?",
+            "Hi, ich bin neu hier – wie heißt du?"
+          ],
+          "solution": "Guten Abend, Frau Wagner, schön, Sie kennenzulernen.",
+          "explanation": "Ältere Menschen, die man zum ersten Mal trifft, siezt man. 'Frau Wagner' + 'dich' mischt die Anrede."
+        }
+      ]
+    },
+    {
+      "lektionId": "b2-m1-l3",
+      "level": "B2",
+      "modulNumber": 1,
+      "lektionNumber": 3,
+      "title": "Engagement für die Gesellschaft",
+      "grammarFocus": [
+        "Negation: Position von nicht (Satz- und Teilnegation), nicht …, sondern …",
+        "Negationswörter: nie/noch nie, niemand, nichts, nirgends/nirgendwo, nicht mehr, kein…mehr, ohne",
+        "Negation durch Wortbildung: un-, in-, des-, -los, -frei, -leer"
+      ],
+      "vocabulary": [
+        {
+          "id": "l3v01",
+          "term": "das Ehrenamt",
+          "translation": "el voluntariado",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Ehrenämter",
+          "example": "Neben ihrem Beruf übt sie seit Jahren ein Ehrenamt bei der Tafel aus."
+        },
+        {
+          "id": "l3v02",
+          "term": "ehrenamtlich",
+          "translation": "voluntario, sin remuneración",
+          "partOfSpeech": "adjective",
+          "example": "Die Hausaufgabenhilfe wird vollständig ehrenamtlich organisiert."
+        },
+        {
+          "id": "l3v03",
+          "term": "sich engagieren",
+          "translation": "comprometerse, implicarse",
+          "partOfSpeech": "verb",
+          "preterite": "engagierte sich",
+          "participle": "sich engagiert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Seit seiner Pensionierung engagiert er sich für obdachlose Menschen."
+        },
+        {
+          "id": "l3v04",
+          "term": "das Engagement",
+          "translation": "el compromiso",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Engagements",
+          "example": "Ohne das Engagement der Nachbarn wäre der kleine Park längst verwahrlost."
+        },
+        {
+          "id": "l3v05",
+          "term": "die Inklusion",
+          "translation": "la inclusión",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Inklusion bedeutet, dass niemand wegen einer Einschränkung ausgeschlossen wird."
+        },
+        {
+          "id": "l3v06",
+          "term": "die Behinderung",
+          "translation": "la discapacidad",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Behinderungen",
+          "example": "Trotz ihrer Behinderung arbeitet sie Vollzeit in einer Bäckerei."
+        },
+        {
+          "id": "l3v07",
+          "term": "die Chancengleichheit",
+          "translation": "la igualdad de oportunidades",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Der Verein setzt sich für Chancengleichheit an Schulen ein."
+        },
+        {
+          "id": "l3v08",
+          "term": "die Bildungschance",
+          "translation": "la oportunidad educativa",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Bildungschancen",
+          "example": "Das Stipendium verbessert die Bildungschancen von Kindern aus armen Familien."
+        },
+        {
+          "id": "l3v09",
+          "term": "benachteiligt",
+          "translation": "desfavorecido",
+          "partOfSpeech": "adjective",
+          "example": "Das Programm richtet sich an benachteiligte Jugendliche aus dem Viertel."
+        },
+        {
+          "id": "l3v10",
+          "term": "unterstützen",
+          "translation": "apoyar",
+          "partOfSpeech": "verb",
+          "preterite": "unterstützte",
+          "participle": "unterstützt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Eine Stiftung unterstützt das Wohnprojekt mit einer großzügigen Summe."
+        },
+        {
+          "id": "l3v11",
+          "term": "die Unterstützung",
+          "translation": "el apoyo",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Für ihre Unterstützung beim Umzug bedankten wir uns mit einem Essen."
+        },
+        {
+          "id": "l3v12",
+          "term": "das Seniorenheim",
+          "translation": "la residencia de mayores",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Seniorenheime",
+          "example": "Jeden Donnerstag liest sie im Seniorenheim aus der Zeitung vor."
+        },
+        {
+          "id": "l3v13",
+          "term": "die Schließung",
+          "translation": "el cierre",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Schließungen",
+          "example": "Die drohende Schließung der Bücherei sorgte für große Empörung."
+        },
+        {
+          "id": "l3v14",
+          "term": "verhindern",
+          "translation": "impedir, evitar",
+          "partOfSpeech": "verb",
+          "preterite": "verhinderte",
+          "participle": "verhindert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Mit einer Unterschriftenaktion verhinderten die Eltern den Abriss des Spielplatzes."
+        },
+        {
+          "id": "l3v15",
+          "term": "die Spende",
+          "translation": "la donación",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Spenden",
+          "example": "Alle Spenden gehen direkt an das Kinderhospiz."
+        },
+        {
+          "id": "l3v16",
+          "term": "die Benefizveranstaltung",
+          "translation": "el evento benéfico",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Benefizveranstaltungen",
+          "example": "Bei der Benefizveranstaltung spielte eine Schulband ohne Gage."
+        },
+        {
+          "id": "l3v17",
+          "term": "die Wohngemeinschaft",
+          "translation": "el piso compartido",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Wohngemeinschaften",
+          "example": "In unserer Wohngemeinschaft leben drei Generationen zusammen."
+        },
+        {
+          "id": "l3v18",
+          "term": "die Rücksicht",
+          "translation": "la consideración, el respeto",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Wer spät nach Hause kommt, sollte Rücksicht auf die Mitbewohner nehmen."
+        },
+        {
+          "id": "l3v19",
+          "term": "der Bewohner",
+          "translation": "el residente, el habitante",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Bewohner",
+          "example": "Die Bewohner des Hauses kochen einmal pro Woche gemeinsam."
+        },
+        {
+          "id": "l3v20",
+          "term": "die Gemeinschaft",
+          "translation": "la comunidad",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Gemeinschaften",
+          "example": "In einer guten Gemeinschaft kann jeder seine Stärken einbringen."
+        },
+        {
+          "id": "l3v21",
+          "term": "die Hilfsbereitschaft",
+          "translation": "la disposición a ayudar",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Die Hilfsbereitschaft der Studierenden hat die alte Dame tief berührt."
+        },
+        {
+          "id": "l3v22",
+          "term": "das Desinteresse",
+          "translation": "el desinterés",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "example": "Das Desinteresse der Lokalpresse an dem Projekt war enttäuschend."
+        },
+        {
+          "id": "l3v23",
+          "term": "intolerant",
+          "translation": "intolerante",
+          "partOfSpeech": "adjective",
+          "example": "Auf intolerante Kommentare reagiert die Moderatorin ruhig, aber bestimmt."
+        },
+        {
+          "id": "l3v24",
+          "term": "menschenleer",
+          "translation": "desierto, vacío de gente",
+          "partOfSpeech": "adjective",
+          "example": "Während des Endspiels waren die Straßen fast menschenleer."
+        },
+        {
+          "id": "l3v25",
+          "term": "nirgendwo",
+          "translation": "en ninguna parte",
+          "partOfSpeech": "adverb",
+          "example": "Einen so engagierten Hausmeister findet man nirgendwo sonst."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l3e01",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Negationswort.",
+            "prompt": "Heute ist mein erster Tag im Seniorenheim – ich habe dort ___ gearbeitet.",
+            "options": [
+              "noch nie",
+              "nicht mehr",
+              "niemand",
+              "nirgendwo"
+            ],
+            "solution": "noch nie",
+            "hint": "Gemeint ist: bis jetzt kein einziges Mal.",
+            "explanation": "'noch nie' = bis heute kein einziges Mal. 'nicht mehr' setzt voraus, dass man früher dort gearbeitet hat."
+          },
+          {
+            "id": "l3e02",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Negationswort.",
+            "prompt": "Auf der Benefizveranstaltung kannte ich ___, deshalb habe ich mich erst einmal allein an die Bar gestellt.",
+            "options": [
+              "niemanden",
+              "nichts",
+              "nirgends",
+              "nie"
+            ],
+            "solution": "niemanden",
+            "hint": "Verneint wird eine Person – und 'kennen' verlangt den Akkusativ.",
+            "explanation": "'niemand' verneint Personen; als Akkusativobjekt: niemanden. 'nichts' verneint Sachen."
+          },
+          {
+            "id": "l3e03",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Negationswort.",
+            "prompt": "Die Fördermittel wurden gekürzt – für neue Projekte ist leider ___ übrig.",
+            "options": [
+              "nichts mehr",
+              "niemand mehr",
+              "nie mehr",
+              "nirgends mehr"
+            ],
+            "solution": "nichts mehr",
+            "hint": "Gesucht ist das Subjekt des Satzes, und es geht um Geld, also um eine Sache.",
+            "explanation": "'nichts mehr' verneint 'noch etwas' und kann Subjekt sein. 'nie' und 'nirgends' sind Adverbien."
+          },
+          {
+            "id": "l3e04",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Wort.",
+            "prompt": "Viele Jugendliche hätten ___ das Mentoringprogramm keinen Ausbildungsplatz gefunden.",
+            "options": [
+              "ohne",
+              "für",
+              "gegen",
+              "nicht"
+            ],
+            "solution": "ohne",
+            "hint": "Gesucht ist eine Präposition mit Akkusativ, die 'wenn es … nicht gegeben hätte' ausdrückt.",
+            "explanation": "ohne + Akk. = fehlende Bedingung: ohne das Programm = wenn es das Programm nicht gegeben hätte."
+          },
+          {
+            "id": "l3e05",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Negationswort.",
+            "prompt": "Weder in der Innenstadt noch am Stadtrand – wir haben ___ einen bezahlbaren Raum für die Hausaufgabenhilfe gefunden.",
+            "options": [
+              "nirgendwo",
+              "niemanden",
+              "nichts",
+              "nicht mehr"
+            ],
+            "solution": "nirgendwo",
+            "hint": "Der Satzanfang nennt Orte.",
+            "explanation": "'nirgendwo' verneint einen Ort. 'niemanden'/'nichts' wären Objekte – der Satz hat schon eins."
+          },
+          {
+            "id": "l3e06",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Negationswort.",
+            "prompt": "Seit es den neuen Seniorentreff gibt, fühlen sich viele Bewohner ___ einsam.",
+            "options": [
+              "nicht mehr",
+              "nichts mehr",
+              "kein mehr",
+              "niemand mehr"
+            ],
+            "solution": "nicht mehr",
+            "hint": "Ein Zustand, der früher bestand, hat aufgehört – verneint wird ein Adjektiv.",
+            "explanation": "'nicht mehr' verneint 'noch' bei Adjektiven und Verben. 'kein … mehr' steht nur vor Nomen."
+          },
+          {
+            "id": "l3e07",
+            "type": "fill-in-blank",
+            "instruction": "Bilde das Gegenteil mit einem Präfix.",
+            "prompt": "Die Anleitung war so kompliziert, dass sie für viele Antragsteller völlig ___ war. (verständlich)",
+            "solution": "unverständlich",
+            "hint": "Das häufigste Negationspräfix bei deutschen Adjektiven.",
+            "explanation": "Deutsche Adjektive verneint man mit 'un-': unverständlich. 'in-' steht vor Fremdwörtern."
+          },
+          {
+            "id": "l3e08",
+            "type": "fill-in-blank",
+            "instruction": "Bilde ein Adjektiv mit dem Suffix -los.",
+            "prompt": "Seit die Fabrik geschlossen wurde, sind viele Menschen im Ort ___. (ohne Arbeit)",
+            "solution": "arbeitslos",
+            "hint": "Nomen + Suffix, das 'ohne' bedeutet.",
+            "explanation": "-los = ohne: arbeitslos. Nach 'sind' ohne Endung."
+          },
+          {
+            "id": "l3e09",
+            "type": "fill-in-blank",
+            "instruction": "Bilde ein Adjektiv mit dem Suffix -frei und achte auf die Endung.",
+            "prompt": "Auf dem Sommerfest gab es nur ___ Getränke, damit auch die Jugendlichen mitfeiern konnten. (ohne Alkohol)",
+            "solution": "alkoholfreie",
+            "hint": "'-frei' bedeutet 'ohne'. Das Adjektiv steht vor einem Nomen im Plural.",
+            "explanation": "-frei = ohne (oft bei Stoffen): alkoholfrei. Vor 'Getränke' ohne Artikel: alkoholfreie."
+          },
+          {
+            "id": "l3e10",
+            "type": "fill-in-blank",
+            "instruction": "Bilde ein Adjektiv mit dem Suffix -leer.",
+            "prompt": "Am frühen Sonntagmorgen war der Marktplatz völlig ___; kein einziger Mensch war zu sehen. (ohne Menschen)",
+            "solution": "menschenleer",
+            "hint": "'-leer' bedeutet 'ohne' bei Räumen und Orten.",
+            "explanation": "-leer = ein Ort ohne etwas: menschenleer (mit Fugen-n)."
+          },
+          {
+            "id": "l3e11",
+            "type": "fill-in-blank",
+            "instruction": "Bilde das Gegenteil mit dem Präfix des-.",
+            "prompt": "Das ___ vieler junger Leute an Kommunalpolitik bereitet den Vereinen Sorgen. (Interesse)",
+            "solution": "Desinteresse",
+            "hint": "Bei Fremdwörtern verneint man oft mit des- statt un-.",
+            "explanation": "'des-' verneint Fremdwörter: Interesse → Desinteresse (das Desinteresse, groß)."
+          },
+          {
+            "id": "l3e12",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Negationswort.",
+            "prompt": "Früher war Hanna oft gelangweilt. Seit sie in der inklusiven WG wohnt, ist ihr ___ langweilig – egal an welchem Tag.",
+            "options": [
+              "nie",
+              "nichts",
+              "niemand",
+              "nirgends"
+            ],
+            "solution": "nie",
+            "hint": "Verneint wird die Zeit/Häufigkeit ('immer', 'manchmal').",
+            "explanation": "'nie' verneint Zeit/Häufigkeit (früher oft → jetzt nie). 'nichts' verneint eine Sache."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l3m01",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz mit Satznegation. Beginne mit 'Die Stadt'.",
+            "prompt": "Baue den Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "genehmigt",
+              "Die Stadt",
+              "nicht",
+              "den Antrag des Vereins",
+              "hat"
+            ],
+            "solution": "Die Stadt hat den Antrag des Vereins nicht genehmigt.",
+            "hint": "Bei der Satznegation steht 'nicht' möglichst weit hinten – aber vor dem Partizip.",
+            "explanation": "Satznegation: 'nicht' nach dem Objekt, direkt vor dem Partizip. 'nicht den Antrag' wäre Teilnegation."
+          },
+          {
+            "id": "l3m02",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz mit Satznegation. Beginne mit 'Leider'.",
+            "prompt": "Baue den Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "verhindern",
+              "Leider",
+              "nicht",
+              "wir",
+              "konnten",
+              "die Schließung des Jugendzentrums"
+            ],
+            "solution": "Leider konnten wir die Schließung des Jugendzentrums nicht verhindern.",
+            "hint": "'nicht' steht vor dem Infinitiv am Ende.",
+            "explanation": "Satznegation: 'nicht' nach dem Objekt, vor dem Infinitiv am Ende."
+          },
+          {
+            "id": "l3m03",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz mit Satznegation. Beginne mit 'Die Kleiderkammer'.",
+            "prompt": "Baue den Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "im Gemeindehaus",
+              "Die Kleiderkammer",
+              "nicht mehr",
+              "befindet sich"
+            ],
+            "solution": "Die Kleiderkammer befindet sich nicht mehr im Gemeindehaus.",
+            "hint": "'sich befinden' braucht eine Ortsergänzung – wo steht 'nicht' davor oder danach?",
+            "explanation": "Enge Ergänzungen wie die Ortsangabe bei 'sich befinden' stehen nach 'nicht': nicht mehr im Gemeindehaus."
+          },
+          {
+            "id": "l3m04",
+            "type": "sentence-scramble",
+            "instruction": "Bilde eine Ja/Nein-Frage mit Satznegation.",
+            "prompt": "Baue den Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "für sinnvoll",
+              "du",
+              "nicht",
+              "Hältst",
+              "den Spendenlauf"
+            ],
+            "solution": "Hältst du den Spendenlauf nicht für sinnvoll?",
+            "hint": "Ja/Nein-Frage: Verb auf Position 1. 'nicht' steht vor der Ergänzung 'für + Adjektiv'.",
+            "explanation": "Objekt vor 'nicht', die feste Ergänzung 'für sinnvoll' (halten für) danach."
+          },
+          {
+            "id": "l3m05",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz mit 'nicht …, sondern …'. Beginne mit 'Mein Bruder'.",
+            "prompt": "Baue den Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "sondern",
+              "Mein Bruder",
+              "beim Roten Kreuz",
+              "nicht bei der Feuerwehr,",
+              "engagiert sich"
+            ],
+            "solution": "Mein Bruder engagiert sich nicht bei der Feuerwehr, sondern beim Roten Kreuz.",
+            "hint": "Teilnegation: 'nicht' steht direkt vor dem Satzglied, das korrigiert wird.",
+            "explanation": "Teilnegation: 'nicht' direkt vor dem Satzglied, Korrektur mit ', sondern'. 'aber' ersetzt nichts."
+          },
+          {
+            "id": "l3m06",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz mit 'nicht …, sondern …'. Beginne mit 'Das Seniorenheim'.",
+            "prompt": "Baue den Satz aus den Satzteilen.",
+            "scrambleChunks": [
+              "renoviert",
+              "Das Seniorenheim",
+              "sondern erst im Herbst",
+              "wird",
+              "nicht im Sommer,"
+            ],
+            "solution": "Das Seniorenheim wird nicht im Sommer, sondern erst im Herbst renoviert.",
+            "hint": "Die Korrektur mit 'sondern' steht hier im Mittelfeld, vor dem Partizip.",
+            "explanation": "Teilnegation der Zeitangabe: nicht im Sommer, sondern erst im Herbst. Komma vor 'sondern'."
+          },
+          {
+            "id": "l3m07",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze 'kein' in der richtigen Form.",
+            "prompt": "Für das Sommerfest haben wir leider ___ Sponsoren gefunden. (kein)",
+            "solution": "keine",
+            "hint": "Akkusativ Plural.",
+            "explanation": "Nomen ohne Artikel verneint man mit 'kein': keine Sponsoren (Akk. Pl.)."
+          },
+          {
+            "id": "l3m08",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze 'kein' in der richtigen Form.",
+            "prompt": "Nach dem Umbau gibt es im Haus ___ Aufzug mehr. (kein)",
+            "solution": "keinen",
+            "hint": "'es gibt' + Akkusativ; 'Aufzug' ist maskulin.",
+            "explanation": "'kein … mehr' verneint 'noch ein'. 'es gibt' + Akk., maskulin: keinen."
+          },
+          {
+            "id": "l3m09",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze den Possessivartikel in der richtigen Form.",
+            "prompt": "Ohne ___ Unterstützung hätten wir das Nachbarschaftsfest nicht organisieren können. (ihr)",
+            "solution": "ihre",
+            "hint": "'ohne' verlangt immer denselben Kasus.",
+            "explanation": "ohne + Akkusativ; 'Unterstützung' ist feminin → ihre."
+          },
+          {
+            "id": "l3m10",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze 'kein' in der richtigen Form.",
+            "prompt": "Seit ihrem Umzug hat Erna ___ Lust mehr auf den Spieleabend im Gemeindezentrum. (kein)",
+            "solution": "keine",
+            "hint": "'kein … mehr' umschließt das Nomen. 'Lust' ist feminin und Akkusativobjekt von 'haben'.",
+            "explanation": "'kein … mehr' bei Nomen: keine Lust mehr. 'nicht mehr' passt nicht vor ein Nomen ohne Artikel."
+          },
+          {
+            "id": "l3m11",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb in Klammern (Präteritum).",
+            "prompt": "Auf den Aushang im Treppenhaus ___ sich zunächst niemand. (melden)",
+            "solution": "meldete",
+            "hint": "Welche Person verlangt 'niemand'?",
+            "explanation": "'niemand' ist 3. Person Singular: niemand meldete sich (nicht 'meldeten')."
+          },
+          {
+            "id": "l3m12",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb in Klammern (Präsens).",
+            "prompt": "Niemand von uns ___ genau, wann die Versteigerung beginnt. (wissen)",
+            "solution": "weiß",
+            "hint": "'niemand' + 3. Person Singular; 'wissen' ist unregelmäßig.",
+            "explanation": "'Niemand von uns' ist 3. Person Singular → weiß."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l3h01",
+            "type": "targeted-transformation",
+            "instruction": "Verneine den ganzen Satz mit 'nicht' (Satznegation).",
+            "prompt": "Die Freiwilligen haben die Fahrräder für die Geflüchteten rechtzeitig repariert.",
+            "solution": "Die Freiwilligen haben die Fahrräder für die Geflüchteten nicht rechtzeitig repariert.",
+            "hint": "Objekte stehen vor 'nicht', modale Angaben danach.",
+            "explanation": "Satznegation: 'nicht' nach den Objekten, aber vor 'rechtzeitig' und dem Partizip. 'nicht die Fahrräder' wäre Teilnegation."
+          },
+          {
+            "id": "l3h02",
+            "type": "targeted-transformation",
+            "instruction": "Verneine den ganzen Satz mit 'nicht' (Satznegation).",
+            "prompt": "Der Verein kümmert sich um die Anträge der Familien.",
+            "solution": "Der Verein kümmert sich nicht um die Anträge der Familien.",
+            "hint": "Präpositionalobjekte gehören eng zum Verb.",
+            "explanation": "Präpositionalobjekte stehen nach 'nicht': kümmert sich nicht um … 'sich' steht davor."
+          },
+          {
+            "id": "l3h03",
+            "type": "targeted-transformation",
+            "instruction": "Verneine den ganzen Satz (Satznegation): Der Workshop fällt aus, die Zeitangabe bleibt gültig.",
+            "prompt": "Der Workshop findet am Samstag statt.",
+            "solution": "Der Workshop findet am Samstag nicht statt.",
+            "hint": "Temporale Angaben stehen bei der Satznegation vor 'nicht'.",
+            "explanation": "Satznegation: Zeitangabe vor 'nicht', 'nicht' vor 'statt'. 'nicht am Samstag' wäre Teilnegation."
+          },
+          {
+            "id": "l3h04",
+            "type": "targeted-transformation",
+            "instruction": "Korrigiere die Aussage mit 'nicht …, sondern …'. Setze 'sondern …' direkt hinter das verneinte Satzglied. Richtig ist: im Stadttheater.",
+            "prompt": "Die Spendengala war im Rathaus.",
+            "solution": "Die Spendengala war nicht im Rathaus, sondern im Stadttheater.",
+            "hint": "Teilnegation: 'nicht' direkt vor das falsche Satzglied, dann Komma + 'sondern'.",
+            "explanation": "Teilnegation: 'nicht' direkt vor dem Satzglied, Korrektur mit ', sondern'. 'aber' ersetzt nichts."
+          },
+          {
+            "id": "l3h05",
+            "type": "targeted-transformation",
+            "instruction": "Beantworte die Frage verneinend mit einem ganzen Satz. Beginne mit 'Ich habe' und verwende das genaue Gegenstück zu 'schon einmal' (zwei Wörter).",
+            "prompt": "Hast du schon einmal Blut gespendet?",
+            "solution": "Ich habe noch nie Blut gespendet.",
+            "hint": "Welches Negationswort ist das Gegenteil von 'schon einmal'?",
+            "explanation": "'schon einmal' verneint man mit 'noch nie' (nicht mit 'nicht mehr')."
+          },
+          {
+            "id": "l3h06",
+            "type": "targeted-transformation",
+            "instruction": "Beantworte die Frage verneinend mit einem ganzen Satz. Beginne mit 'Nein, sie wohnt'.",
+            "prompt": "Wohnt Erna noch im Seniorenheim am Stadtpark?",
+            "solution": "Nein, sie wohnt nicht mehr im Seniorenheim am Stadtpark.",
+            "hint": "Welches Negationswort ist das Gegenteil von 'noch'?",
+            "explanation": "'noch' verneint man mit 'nicht mehr'. Die Ortsergänzung von 'wohnen' steht nach 'nicht mehr'."
+          },
+          {
+            "id": "l3h07",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Ändere nur ein Wort und schreibe den ganzen Satz.",
+            "prompt": "Für die Renovierung des Gemeinschaftsraums haben wir leider nicht Geld.",
+            "solution": "Für die Renovierung des Gemeinschaftsraums haben wir leider kein Geld.",
+            "hint": "Wie verneint man ein Nomen ohne Artikel?",
+            "explanation": "Nomen ohne Artikel verneint man mit 'kein': kein Geld, nicht 'nicht Geld'."
+          },
+          {
+            "id": "l3h08",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Ändere nur ein Wort und schreibe den ganzen Satz.",
+            "prompt": "Trotz der vielen Plakate haben sich niemand für den Fahrdienst gemeldet.",
+            "solution": "Trotz der vielen Plakate hat sich niemand für den Fahrdienst gemeldet.",
+            "hint": "Prüfe die Verbform zum Subjekt.",
+            "explanation": "'niemand' ist 3. Person Singular → 'hat'. 'Plakate' ist nicht das Subjekt."
+          },
+          {
+            "id": "l3h09",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Ändere nur ein Wort und schreibe den ganzen Satz.",
+            "prompt": "Meine Schwester engagiert sich nicht im Tierheim, aber in der Suppenküche.",
+            "solution": "Meine Schwester engagiert sich nicht im Tierheim, sondern in der Suppenküche.",
+            "hint": "Welches Wort folgt auf eine Teilnegation, die korrigiert wird?",
+            "explanation": "Nach 'nicht'/'kein' ersetzt 'sondern' die falsche Information; 'aber' schränkt nur ein."
+          },
+          {
+            "id": "l3h10",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Ändere nur ein Wort und schreibe den ganzen Satz.",
+            "prompt": "Für viele ältere Menschen sind die Online-Formulare der Behörde inverständlich.",
+            "solution": "Für viele ältere Menschen sind die Online-Formulare der Behörde unverständlich.",
+            "hint": "Prüfe das Präfix des Adjektivs.",
+            "explanation": "Deutsche Adjektive verneint man mit 'un-': unverständlich. 'in-' steht vor Fremdwörtern (intolerant)."
+          },
+          {
+            "id": "l3h11",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Das Wort 'nirgendwo' bleibt stehen. Schreibe den ganzen Satz.",
+            "prompt": "Obwohl wir überall gesucht haben, konnten wir die Spendendose nirgendwo nicht finden.",
+            "solution": "Obwohl wir überall gesucht haben, konnten wir die Spendendose nirgendwo finden.",
+            "hint": "Im Standarddeutschen gibt es keine doppelte Verneinung.",
+            "explanation": "'nirgendwo' verneint schon – ein zusätzliches 'nicht' ist im Standarddeutschen falsch."
+          },
+          {
+            "id": "l3h12",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Ändere nur ein Wort und schreibe den ganzen Satz.",
+            "prompt": "In unserer Wohngemeinschaft hat untolerantes Verhalten keinen Platz.",
+            "solution": "In unserer Wohngemeinschaft hat intolerantes Verhalten keinen Platz.",
+            "hint": "'tolerant' ist ein Fremdwort.",
+            "explanation": "Lateinische Fremdwörter verneint man meist mit 'in-': intolerant. 'un-' für deutsche Adjektive."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l3t01",
+          "type": "multiple-choice",
+          "instruction": "Verneine die ganze Aussage (Satznegation). Welcher Satz ist richtig?",
+          "prompt": "Der Verein hat den Teilnehmern die Kursgebühr zurückerstattet.",
+          "options": [
+            "Der Verein hat den Teilnehmern die Kursgebühr nicht zurückerstattet.",
+            "Der Verein hat nicht den Teilnehmern die Kursgebühr zurückerstattet.",
+            "Der Verein hat den Teilnehmern nicht die Kursgebühr zurückerstattet.",
+            "Der Verein hat den Teilnehmern die Kursgebühr zurück nicht erstattet."
+          ],
+          "solution": "Der Verein hat den Teilnehmern die Kursgebühr nicht zurückerstattet.",
+          "explanation": "Satznegation: 'nicht' nach den Objekten, direkt vor 'zurückerstattet'. 'nicht' vor einem Objekt wäre Teilnegation."
+        },
+        {
+          "id": "l3t02",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Wort.",
+          "prompt": "Nicht der Bürgermeister, ___ die Bewohner selbst haben das Straßenfest organisiert.",
+          "options": [
+            "sondern",
+            "aber",
+            "sonst",
+            "doch"
+          ],
+          "solution": "sondern",
+          "explanation": "Nach einer Teilnegation folgt die Korrektur mit 'sondern'. 'aber' ersetzt nichts."
+        },
+        {
+          "id": "l3t03",
+          "type": "targeted-transformation",
+          "instruction": "Verneine mit 'kein …, sondern …' und ergänze die Angabe in Klammern. Ändere die Wortstellung sonst nicht.",
+          "prompt": "Das Ehrenamt ist ein Hobby für mich. (eine Verpflichtung)",
+          "solution": "Das Ehrenamt ist kein Hobby für mich, sondern eine Verpflichtung.",
+          "explanation": "'ein Hobby' verneint man mit 'kein'; die Alternative folgt mit ', sondern'."
+        },
+        {
+          "id": "l3t04",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze 'noch nicht', 'noch nie' oder 'nicht mehr'.",
+          "prompt": "Ist das neue Jugendzentrum schon fertig? – Nein, es ist ___ fertig; die Eröffnung ist erst im Mai.",
+          "solution": "noch nicht",
+          "explanation": "'noch nicht' verneint 'schon': kommt noch. 'nicht mehr' würde heißen, es war früher fertig."
+        },
+        {
+          "id": "l3t05",
+          "type": "fill-in-blank",
+          "instruction": "Bilde aus 'Rücksicht' ein Adjektiv, das das Fehlen von Rücksicht ausdrückt.",
+          "prompt": "Wer nachts laute Musik hört und nie aufräumt, verhält sich gegenüber seinen Mitbewohnern ___.",
+          "solution": "rücksichtslos",
+          "explanation": "-los = ohne: rücksichtslos = ohne Rücksicht."
+        },
+        {
+          "id": "l3t06",
+          "type": "multiple-choice",
+          "instruction": "Wähle das Adjektiv, das das Gegenteil von 'orientiert' ausdrückt.",
+          "prompt": "Nach dem Umzug ins Seniorenheim war Frau Berger in den ersten Tagen völlig ___: Sie fand weder ihr Zimmer noch den Speisesaal.",
+          "options": [
+            "desorientiert",
+            "inorientiert",
+            "misorientiert",
+            "orientierungsleer"
+          ],
+          "solution": "desorientiert",
+          "explanation": "'des-' verneint Fremdwörter wie 'orientiert': desorientiert (vgl. Desinteresse)."
+        },
+        {
+          "id": "l3t07",
+          "type": "fill-in-blank",
+          "instruction": "Bilde das Gegenteil des Adjektivs in Klammern mit einer Vorsilbe (ein Wort).",
+          "prompt": "Der neue Heimleiter wirkte bei der Versammlung völlig ___: Auf keine einzige Frage der Angehörigen wusste er eine Antwort. (kompetent)",
+          "solution": "inkompetent",
+          "explanation": "Lateinische Fremdwörter verneint man oft mit 'in-': inkompetent. 'unkompetent' ist kein Standard."
+        },
+        {
+          "id": "l3t08",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Adjektiv.",
+          "prompt": "Das neue Gemeindezentrum hat einen Aufzug und keine Stufen – es ist also vollständig ___.",
+          "options": [
+            "barrierefrei",
+            "barrierelos",
+            "barriereleer",
+            "unbarrierig"
+          ],
+          "solution": "barrierefrei",
+          "explanation": "-frei: etwas Unerwünschtes fehlt (positiv): barrierefrei. '-los' betont eher einen Mangel."
+        },
+        {
+          "id": "l3t09",
+          "type": "multiple-choice",
+          "instruction": "Welcher Satz ist korrekt?",
+          "prompt": "Wähle den grammatisch richtigen Satz.",
+          "options": [
+            "Niemand hat mir etwas von der geplanten Schließung erzählt.",
+            "Niemand hat mir nichts von der geplanten Schließung erzählt.",
+            "Niemand hat mir nicht von der geplanten Schließung erzählt.",
+            "Keiner hat mir kein Wort von der geplanten Schließung erzählt."
+          ],
+          "solution": "Niemand hat mir etwas von der geplanten Schließung erzählt.",
+          "explanation": "Keine doppelte Verneinung: 'Niemand' reicht, deshalb bleibt 'etwas'."
+        },
+        {
+          "id": "l3t10",
+          "type": "targeted-transformation",
+          "instruction": "Verneine den Satz mit 'kein … mehr'. Ändere nur, was nötig ist.",
+          "prompt": "Das Seniorenheim braucht noch Spenden.",
+          "solution": "Das Seniorenheim braucht keine Spenden mehr.",
+          "explanation": "'noch' + Nomen ohne Artikel verneint man mit 'kein … mehr': keine Spenden mehr."
+        },
+        {
+          "id": "l3t11",
+          "type": "error-correction",
+          "instruction": "Satznegation: Korrigiere die Position von 'nicht'.",
+          "prompt": "Trotz mehrerer Erinnerungen hat die Stadt den Sperrmüll vor dem Jugendhaus abgeholt nicht.",
+          "solution": "Trotz mehrerer Erinnerungen hat die Stadt den Sperrmüll vor dem Jugendhaus nicht abgeholt.",
+          "explanation": "Satznegation: 'nicht' nach dem Objekt, direkt vor dem Partizip – nicht dahinter."
+        },
+        {
+          "id": "l3t12",
+          "type": "error-correction",
+          "instruction": "Finde und korrigiere den Fehler.",
+          "prompt": "Im neuen Gemeindehaus gibt es nicht Platz für die Proben des Chors.",
+          "solution": "Im neuen Gemeindehaus gibt es keinen Platz für die Proben des Chors.",
+          "explanation": "Nomen ohne Artikel verneint man mit 'kein'; 'es gibt' + Akk., maskulin: keinen Platz."
+        },
+        {
+          "id": "l3t13",
+          "type": "error-correction",
+          "instruction": "Finde und korrigiere das falsch gebildete Adjektiv.",
+          "prompt": "Viele obdachfreie Menschen übernachten im Winter in der Notunterkunft der Stadt.",
+          "solution": "Viele obdachlose Menschen übernachten im Winter in der Notunterkunft der Stadt.",
+          "explanation": "-los = ein (oft unerwünschter) Mangel: obdachlos. '-frei' nimmt man, wenn etwas Störendes fehlt."
+        },
+        {
+          "id": "l3t14",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz mit 'nicht …, sondern …'. Beginne mit 'Das gespendete Geld'.",
+          "prompt": "Baue den Satz aus den Bausteinen.",
+          "scrambleChunks": [
+            "für einen Ausflug",
+            "haben wir",
+            "sondern",
+            "Das gespendete Geld",
+            "ausgegeben",
+            "für neue Möbel,",
+            "nicht"
+          ],
+          "solution": "Das gespendete Geld haben wir nicht für neue Möbel, sondern für einen Ausflug ausgegeben.",
+          "explanation": "Teilnegation: 'nicht' vor 'für neue Möbel', Korrektur mit ', sondern'. Objekt im Vorfeld → 'haben wir'."
+        },
+        {
+          "id": "l3t15",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz. Beginne mit 'So viel Hilfsbereitschaft'.",
+          "prompt": "Baue den Satz aus den Bausteinen.",
+          "scrambleChunks": [
+            "erlebt",
+            "noch nirgendwo",
+            "So viel Hilfsbereitschaft",
+            "habe ich"
+          ],
+          "solution": "So viel Hilfsbereitschaft habe ich noch nirgendwo erlebt.",
+          "explanation": "'nirgendwo' verneint 'irgendwo'; 'noch nirgendwo' = bis jetzt an keinem Ort. Objekt im Vorfeld → 'habe ich'."
+        },
+        {
+          "id": "l3t16",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Wort.",
+          "prompt": "Die Studentin hat der älteren Dame beim Umzug geholfen, ___ etwas dafür zu verlangen.",
+          "options": [
+            "ohne",
+            "nicht",
+            "kein",
+            "nie"
+          ],
+          "solution": "ohne",
+          "explanation": "'ohne … zu' + Infinitiv verneint eine erwartbare Handlung. 'nicht', 'kein', 'nie' leiten keine zu-Gruppe ein."
+        }
+      ]
+    }
+  ]
+}

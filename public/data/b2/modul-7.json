@@ -1,0 +1,2574 @@
+{
+  "modulId": "b2-m7",
+  "level": "B2",
+  "modulNumber": 7,
+  "title": "Wieder was gelernt!",
+  "lektionen": [
+    {
+      "lektionId": "b2-m7-l19",
+      "level": "B2",
+      "modulNumber": 7,
+      "lektionNumber": 19,
+      "title": "Sprachen lernen",
+      "grammarFocus": [
+        "Nomen-Verb-Verbindungen und ihre Verb-Entsprechung (Einsatz zeigen → sich einsetzen, sich Mühe geben → sich bemühen, Kritik üben → kritisieren, eine Entscheidung treffen → entscheiden)",
+        "Funktionsverben richtig wählen: eine Frage stellen, eine Meinung vertreten, einen Vorschlag machen, eine Antwort geben",
+        "Kollokationen rund ums Lernen: Aufgaben erledigen/lösen, einen Text verfassen, Fehler machen, eine Sprache erlernen, Wissen abrufen"
+      ],
+      "vocabulary": [
+        {
+          "id": "l19v01",
+          "term": "die Nomen-Verb-Verbindung",
+          "translation": "la construcción verbo-nominal",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Nomen-Verb-Verbindungen",
+          "example": "„Eine Entscheidung treffen“ ist eine typische Nomen-Verb-Verbindung."
+        },
+        {
+          "id": "l19v02",
+          "term": "das Funktionsverb",
+          "translation": "el verbo de soporte",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Funktionsverben",
+          "example": "In „Kritik üben“ trägt das Nomen die Bedeutung, „üben“ ist nur das Funktionsverb."
+        },
+        {
+          "id": "l19v03",
+          "term": "die Lernstrategie",
+          "translation": "la estrategia de aprendizaje",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Lernstrategien",
+          "example": "Karteikarten sind nicht für jeden die beste Lernstrategie."
+        },
+        {
+          "id": "l19v04",
+          "term": "der Lernfortschritt",
+          "translation": "el progreso en el aprendizaje",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Lernfortschritte",
+          "example": "Ein Lerntagebuch macht kleine Lernfortschritte sichtbar."
+        },
+        {
+          "id": "l19v05",
+          "term": "der Wortschatz",
+          "translation": "el vocabulario",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "example": "Durch Hörbücher ist mein passiver Wortschatz enorm gewachsen."
+        },
+        {
+          "id": "l19v06",
+          "term": "das Gedächtnis",
+          "translation": "la memoria",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "example": "Namen bleiben mir leider kaum im Gedächtnis."
+        },
+        {
+          "id": "l19v07",
+          "term": "die Wissenslücke",
+          "translation": "la laguna de conocimiento",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Wissenslücken",
+          "example": "Vor dem Test schließe ich meine Wissenslücken mit alten Klausuren."
+        },
+        {
+          "id": "l19v08",
+          "term": "die Prüfungsangst",
+          "translation": "el miedo a los exámenes",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Prüfungsängste",
+          "example": "Gegen ihre Prüfungsangst hat Selin Atemübungen ausprobiert."
+        },
+        {
+          "id": "l19v09",
+          "term": "der Muttersprachler",
+          "translation": "el hablante nativo",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Muttersprachler",
+          "example": "Mit Muttersprachlern zu telefonieren, kostet mich immer noch Überwindung."
+        },
+        {
+          "id": "l19v10",
+          "term": "das Sprachtandem",
+          "translation": "el intercambio de idiomas (tándem)",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Sprachtandems",
+          "example": "In unserem Sprachtandem sprechen wir eine Stunde Deutsch und eine Stunde Portugiesisch."
+        },
+        {
+          "id": "l19v11",
+          "term": "erlernen",
+          "translation": "aprender (a fondo)",
+          "partOfSpeech": "verb",
+          "preterite": "erlernte",
+          "participle": "erlernt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Ein Instrument kann man auch mit fünfzig Jahren noch erlernen."
+        },
+        {
+          "id": "l19v12",
+          "term": "erweitern",
+          "translation": "ampliar",
+          "partOfSpeech": "verb",
+          "preterite": "erweiterte",
+          "participle": "erweitert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Mit Fachartikeln erweitert Jonas gezielt seinen Berufswortschatz."
+        },
+        {
+          "id": "l19v13",
+          "term": "fortsetzen",
+          "translation": "continuar, proseguir",
+          "partOfSpeech": "verb",
+          "preterite": "setzte fort",
+          "participle": "fortgesetzt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Nach der Elternzeit möchte sie ihren Abendkurs fortsetzen."
+        },
+        {
+          "id": "l19v14",
+          "term": "abrufen",
+          "translation": "recuperar, acceder a (información)",
+          "partOfSpeech": "verb",
+          "preterite": "rief ab",
+          "participle": "abgerufen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Unter Stress kann man gelerntes Wissen oft schlechter abrufen."
+        },
+        {
+          "id": "l19v15",
+          "term": "sich Mühe geben",
+          "translation": "esforzarse, poner empeño",
+          "partOfSpeech": "phrase",
+          "example": "Beim Diktat gab sich der ganze Kurs große Mühe mit der Rechtschreibung."
+        },
+        {
+          "id": "l19v16",
+          "term": "verfassen",
+          "translation": "redactar",
+          "partOfSpeech": "verb",
+          "preterite": "verfasste",
+          "participle": "verfasst",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Für die Vereinszeitung verfasst mein Nachbar regelmäßig kurze Berichte."
+        },
+        {
+          "id": "l19v17",
+          "term": "jemandem unterläuft ein Fehler",
+          "translation": "a alguien se le escapa un error",
+          "partOfSpeech": "phrase",
+          "example": "Selbst erfahrenen Übersetzerinnen unterläuft manchmal ein Fehler bei Zahlen."
+        },
+        {
+          "id": "l19v18",
+          "term": "die Anstrengung",
+          "translation": "el esfuerzo",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Anstrengungen",
+          "example": "Trotz aller Anstrengung klappte die Aussprache des „ü“ noch nicht."
+        },
+        {
+          "id": "l19v19",
+          "term": "Kritik üben an",
+          "translation": "criticar",
+          "partOfSpeech": "phrase",
+          "example": "Mehrere Fachleute übten Kritik an der geplanten Reform."
+        },
+        {
+          "id": "l19v20",
+          "term": "eine Entscheidung treffen",
+          "translation": "tomar una decisión",
+          "partOfSpeech": "phrase",
+          "example": "Diese Entscheidung musst du ganz allein treffen."
+        },
+        {
+          "id": "l19v21",
+          "term": "eine Meinung vertreten",
+          "translation": "defender una opinión",
+          "partOfSpeech": "phrase",
+          "example": "In der Diskussion vertrat sie eine sehr klare Meinung."
+        },
+        {
+          "id": "l19v22",
+          "term": "sich etwas einprägen",
+          "translation": "memorizar algo, grabarse algo",
+          "partOfSpeech": "phrase",
+          "example": "Ich präge mir neue Wörter am besten mit kleinen Bildern ein."
+        },
+        {
+          "id": "l19v23",
+          "term": "auswendig",
+          "translation": "de memoria",
+          "partOfSpeech": "adverb",
+          "example": "Die wichtigsten Redemittel für die mündliche Prüfung kann Nadia inzwischen auswendig."
+        },
+        {
+          "id": "l19v24",
+          "term": "mühsam",
+          "translation": "laborioso, arduo",
+          "partOfSpeech": "adjective",
+          "example": "Am Anfang ist das Lesen von Fachtexten mühsam, später geht es leichter."
+        },
+        {
+          "id": "l19v25",
+          "term": "nebenbei",
+          "translation": "de paso, sin darse cuenta",
+          "partOfSpeech": "adverb",
+          "example": "Beim Kochen mit meiner Schwiegermutter lerne ich nebenbei viele Dialektwörter."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l19e01",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Funktionsverb.",
+            "prompt": "In der Diskussion hat Ilka eine sehr kritische Frage ___.",
+            "options": [
+              "gestellt",
+              "gemacht",
+              "gegeben",
+              "getroffen"
+            ],
+            "solution": "gestellt",
+            "hint": "Mit welchem Verb verbindet sich „Frage“ fest?",
+            "explanation": "Es heißt „eine Frage stellen“. „Machen“, „geben“ und „treffen“ bilden mit „Frage“ keine feste Verbindung."
+          },
+          {
+            "id": "l19e02",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Funktionsverb.",
+            "prompt": "Nach drei langen Sitzungen hat der Vorstand endlich eine Entscheidung ___.",
+            "options": [
+              "getroffen",
+              "gemacht",
+              "gestellt",
+              "gegeben"
+            ],
+            "solution": "getroffen",
+            "hint": "Entscheidungen werden nicht „gemacht“.",
+            "explanation": "Feste Verbindung: „eine Entscheidung treffen“ (gehoben auch „fällen“). „Eine Entscheidung machen“ ist ein Anglizismus und nicht standardsprachlich."
+          },
+          {
+            "id": "l19e03",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Funktionsverb.",
+            "prompt": "Im Seminar ___ Paula eine ganz andere Meinung als ihr Dozent.",
+            "options": [
+              "vertrat",
+              "stellte",
+              "traf",
+              "machte"
+            ],
+            "solution": "vertrat",
+            "hint": "Eine Meinung verteidigt man öffentlich.",
+            "explanation": "„Eine Meinung vertreten“ heißt, sie öffentlich zu verteidigen. „Stellen“, „treffen“ und „machen“ passen nicht zu „Meinung“."
+          },
+          {
+            "id": "l19e04",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Funktionsverb.",
+            "prompt": "Kannst du mir bitte eine ehrliche Antwort ___?",
+            "options": [
+              "geben",
+              "stellen",
+              "treffen",
+              "vertreten"
+            ],
+            "solution": "geben",
+            "hint": "Eine Antwort bekommt man von jemandem.",
+            "explanation": "Es heißt „jemandem eine Antwort geben“. Eine Frage stellt man, eine Antwort gibt man."
+          },
+          {
+            "id": "l19e05",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Funktionsverb.",
+            "prompt": "Unsere Kursleiterin hat einen guten Vorschlag ___: Jede Woche hält jemand ein Kurzreferat.",
+            "options": [
+              "gemacht",
+              "gestellt",
+              "getroffen",
+              "vertreten"
+            ],
+            "solution": "gemacht",
+            "hint": "Das Verb ist hier das allgemeinste der vier.",
+            "explanation": "Die feste Verbindung ist „einen Vorschlag machen“. „Stellen“ gehört zu „Frage“, „treffen“ zu „Entscheidung“, „vertreten“ zu „Meinung“."
+          },
+          {
+            "id": "l19e06",
+            "type": "multiple-choice",
+            "instruction": "Welches Verb entspricht der Nomen-Verb-Verbindung?",
+            "prompt": "sich Mühe geben",
+            "options": [
+              "sich bemühen",
+              "sich einsetzen",
+              "sich entscheiden",
+              "sich ergeben"
+            ],
+            "solution": "sich bemühen",
+            "hint": "Das Verb steckt im Nomen „Mühe“.",
+            "explanation": "Aus dem Nomen „Mühe“ lässt sich „sich bemühen“ ableiten. „Sich einsetzen“ gehört zu „Einsatz zeigen“."
+          },
+          {
+            "id": "l19e07",
+            "type": "multiple-choice",
+            "instruction": "Welches Verb entspricht der Nomen-Verb-Verbindung?",
+            "prompt": "Kritik üben an",
+            "options": [
+              "kritisieren",
+              "loben",
+              "üben",
+              "vorschlagen"
+            ],
+            "solution": "kritisieren",
+            "hint": "Die Bedeutung trägt das Nomen, nicht „üben“.",
+            "explanation": "„Kritik üben an“ = „kritisieren“. Das Funktionsverb „üben“ hat hier nichts mit Trainieren zu tun."
+          },
+          {
+            "id": "l19e08",
+            "type": "multiple-choice",
+            "instruction": "Welches Verb entspricht der Nomen-Verb-Verbindung?",
+            "prompt": "Einsatz zeigen (für etwas)",
+            "options": [
+              "sich einsetzen",
+              "einsetzen",
+              "sich zeigen",
+              "sich durchsetzen"
+            ],
+            "solution": "sich einsetzen",
+            "hint": "Achte auf das Reflexivpronomen.",
+            "explanation": "„Einsatz zeigen für“ = „sich einsetzen für“. Ohne „sich“ heißt „einsetzen“ „verwenden“; „sich durchsetzen“ heißt „gewinnen, Erfolg haben“."
+          },
+          {
+            "id": "l19e09",
+            "type": "multiple-choice",
+            "instruction": "Wähle die richtige Verbindung.",
+            "prompt": "Bei welcher Verbindung kann man die Bedeutung NICHT direkt aus dem Nomen ableiten?",
+            "options": [
+              "etwas in Kauf nehmen",
+              "eine Frage stellen",
+              "sich Mühe geben",
+              "eine Entscheidung treffen"
+            ],
+            "solution": "etwas in Kauf nehmen",
+            "hint": "Hat die Bedeutung wirklich etwas mit „kaufen“ zu tun?",
+            "explanation": "„In Kauf nehmen“ heißt „einen Nachteil akzeptieren“, nicht „kaufen“. Die anderen entsprechen fragen, sich bemühen, entscheiden."
+          },
+          {
+            "id": "l19e10",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Verb im Infinitiv. Es beginnt mit „v“ und bedeutet „schriftlich formulieren“.",
+            "prompt": "Für die Bewerbung muss ich noch einen kurzen Text über mich ___.",
+            "solution": "verfassen",
+            "hint": "Man sagt „einen Text …“.",
+            "explanation": "„Einen Text verfassen“ ist eine typische Kollokation für „schreiben“ im gehobenen Stil."
+          },
+          {
+            "id": "l19e11",
+            "type": "multiple-choice",
+            "instruction": "Wähle das Verb, das am besten zu „Aufgaben“ passt.",
+            "prompt": "Endlich habe ich alle Aufgaben für morgen ___ und kann ins Kino gehen.",
+            "options": [
+              "erledigt",
+              "verfasst",
+              "erlernt",
+              "getroffen"
+            ],
+            "solution": "erledigt",
+            "hint": "Gemeint ist: fertig gemacht.",
+            "explanation": "„Aufgaben erledigen“ ist die feste Kollokation. Man verfasst Texte, erlernt Sprachen und trifft Entscheidungen."
+          },
+          {
+            "id": "l19e12",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das trennbare Verb im Infinitiv. Es beginnt mit „ab“ und bedeutet „aus dem Gedächtnis holen“.",
+            "prompt": "In der Prüfung konnte ich die Vokabeln nicht ___, obwohl ich sie gelernt hatte.",
+            "solution": "abrufen",
+            "hint": "Man sagt auch „Daten …“ vom Server.",
+            "explanation": "„Wissen abrufen“ = Gelerntes aus dem Gedächtnis holen. Nach dem Modalverb steht der Infinitiv am Satzende, ungetrennt: abrufen."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l19m01",
+            "type": "cloze-conjugation",
+            "instruction": "Setze das Verb in der richtigen Form ein. (sich bemühen, Präsens)",
+            "prompt": "Seit Monaten ___ sich Tomasz um eine bessere Aussprache.",
+            "solution": "bemüht",
+            "hint": "Subjekt ist „Tomasz“ (3. Person Singular).",
+            "explanation": "„Sich bemühen um“ ersetzt „sich Mühe geben“. 3. Person Singular Präsens: er bemüht sich."
+          },
+          {
+            "id": "l19m02",
+            "type": "cloze-conjugation",
+            "instruction": "Setze das Verb in der richtigen Form ein. (sich einsetzen, Präsens) Ergänze nur den fehlenden Teil.",
+            "prompt": "Die Lehrerin ___ sich seit Jahren für mehrsprachigen Unterricht ein.",
+            "solution": "setzt",
+            "hint": "Das Präfix steht schon am Satzende.",
+            "explanation": "„Einsetzen“ ist trennbar: Im Hauptsatz steht „setzt“ auf Position 2, „ein“ am Ende."
+          },
+          {
+            "id": "l19m03",
+            "type": "cloze-conjugation",
+            "instruction": "Setze das Verb in der richtigen Form ein. (treffen, Präteritum)",
+            "prompt": "Gestern ___ der Ausschuss endlich eine Entscheidung über die neuen Kurszeiten.",
+            "solution": "traf",
+            "hint": "„Treffen“ ist unregelmäßig.",
+            "explanation": "Präteritum von „treffen“: traf (traf – getroffen). Die Bedeutung steckt in „Entscheidung“."
+          },
+          {
+            "id": "l19m04",
+            "type": "cloze-conjugation",
+            "instruction": "Setze das Verb in der richtigen Form ein. (stellen, Präsens)",
+            "prompt": "Du ___ in jeder Stunde sehr kluge Fragen.",
+            "solution": "stellst",
+            "hint": "2. Person Singular.",
+            "explanation": "„Fragen stellen“ ist die feste Verbindung; Präsens 2. Person Singular: du stellst."
+          },
+          {
+            "id": "l19m05",
+            "type": "cloze-conjugation",
+            "instruction": "Setze das Verb in der richtigen Form ein. (üben, Präteritum)",
+            "prompt": "Im Workshop ___ mehrere Teilnehmende Kritik an dem neuen Lehrbuch.",
+            "solution": "übten",
+            "hint": "Das Subjekt steht im Plural.",
+            "explanation": "„Kritik üben an“ = kritisieren. Präteritum Plural von „üben“: sie übten."
+          },
+          {
+            "id": "l19m06",
+            "type": "cloze-conjugation",
+            "instruction": "Setze das Verb in der richtigen Form ein. (vertreten, Präteritum)",
+            "prompt": "Obwohl alle widersprachen, ___ der Abgeordnete seine Meinung bis zum Schluss.",
+            "solution": "vertrat",
+            "hint": "„Vertreten“ ist unregelmäßig wie „treten“.",
+            "explanation": "„Eine Meinung vertreten“: Präteritum vertrat (vertreten – vertrat – vertreten). „Vertretete“ gibt es nicht."
+          },
+          {
+            "id": "l19m07",
+            "type": "cloze-conjugation",
+            "instruction": "Setze das Verb in der richtigen Form ein. (geben, Präsens)",
+            "prompt": "Mein Sohn ___ sich beim Vokabellernen wirklich Mühe.",
+            "solution": "gibt",
+            "hint": "„Geben“ hat in der 3. Person einen Vokalwechsel.",
+            "explanation": "„Sich Mühe geben“: er gibt sich Mühe (e → i). „Gebt“ ist die ihr-Form."
+          },
+          {
+            "id": "l19m08",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz im Perfekt. Beginne mit „Gestern“.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "getroffen",
+              "Gestern",
+              "unser Team",
+              "hat",
+              "eine wichtige Entscheidung"
+            ],
+            "solution": "Gestern hat unser Team eine wichtige Entscheidung getroffen.",
+            "hint": "Das Partizip steht am Ende.",
+            "explanation": "Im Perfekt steht „hat“ auf Position 2, das Partizip „getroffen“ am Satzende; das Nomen der Verbindung steht davor."
+          },
+          {
+            "id": "l19m09",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz mit „dass“. Beginne mit „Ich finde es gut,“.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "Ich finde es gut,",
+              "gibst",
+              "dass du",
+              "so viel Mühe",
+              "dir beim Schreiben"
+            ],
+            "solution": "Ich finde es gut, dass du dir beim Schreiben so viel Mühe gibst.",
+            "hint": "Im dass-Satz steht das konjugierte Verb am Ende.",
+            "explanation": "Im Nebensatz steht „gibst“ am Ende, direkt nach dem Nomen „Mühe“; das Reflexivpronomen „dir“ steht früh, nach dem Subjekt."
+          },
+          {
+            "id": "l19m10",
+            "type": "sentence-scramble",
+            "instruction": "Beginne mit „In der Debatte“.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "eine klare Meinung",
+              "vertritt",
+              "In der Debatte",
+              "die Studentin"
+            ],
+            "solution": "In der Debatte vertritt die Studentin eine klare Meinung.",
+            "hint": "Nach dem Vorfeld kommt das Verb, dann das Subjekt.",
+            "explanation": "„In der Debatte“ besetzt das Vorfeld, „vertritt“ steht auf Position 2, danach Subjekt und Nomen der Verbindung."
+          },
+          {
+            "id": "l19m11",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Relativsatz. Beginne mit „Wir suchen Freiwillige,“.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "Wir suchen Freiwillige,",
+              "einsetzen",
+              "die",
+              "für Sprachkurse für Geflüchtete",
+              "sich"
+            ],
+            "solution": "Wir suchen Freiwillige, die sich für Sprachkurse für Geflüchtete einsetzen.",
+            "hint": "Im Relativsatz bleibt das trennbare Verb zusammen am Ende.",
+            "explanation": "Im Relativsatz steht „sich“ direkt nach „die“, das trennbare Verb „einsetzen“ steht ungetrennt am Ende."
+          },
+          {
+            "id": "l19m12",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen indirekten Fragesatz. Beginne mit „Ich verstehe nicht,“.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "übt",
+              "Ich verstehe nicht,",
+              "Kritik an meinen Vorschlägen",
+              "warum",
+              "ihr ständig"
+            ],
+            "solution": "Ich verstehe nicht, warum ihr ständig Kritik an meinen Vorschlägen übt.",
+            "hint": "Das Funktionsverb kommt im Nebensatz ans Ende.",
+            "explanation": "Im w-Nebensatz steht „übt“ am Ende; „Kritik an meinen Vorschlägen“ steht als Block direkt davor."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l19h01",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze „sich Mühe geben“ durch das passende Verb. Die übrigen Satzglieder bleiben in derselben Reihenfolge.",
+            "prompt": "Seit dem ersten Tag gibt sich die Praktikantin Mühe.",
+            "solution": "Seit dem ersten Tag bemüht sich die Praktikantin.",
+            "hint": "Das Verb ist reflexiv wie die Verbindung.",
+            "explanation": "„Sich Mühe geben“ = „sich bemühen“. Das reflexive „sich“ bleibt nach dem Verb, „Mühe“ fällt weg."
+          },
+          {
+            "id": "l19h02",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze „Einsatz zeigen“ durch das passende reflexive Verb. Die übrigen Satzglieder bleiben in derselben Reihenfolge.",
+            "prompt": "Die Gewerkschaft zeigt Einsatz für kürzere Arbeitszeiten.",
+            "solution": "Die Gewerkschaft setzt sich für kürzere Arbeitszeiten ein.",
+            "hint": "Das Verb ist trennbar und reflexiv.",
+            "explanation": "„Einsatz zeigen für“ = „sich einsetzen für“: „setzt sich“ auf Position 2, das Präfix „ein“ ans Satzende."
+          },
+          {
+            "id": "l19h03",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze „Kritik üben an“ durch „kritisieren“. Die übrigen Satzglieder bleiben.",
+            "prompt": "Der Elternbeirat übt Kritik am neuen Stundenplan.",
+            "solution": "Der Elternbeirat kritisiert den neuen Stundenplan.",
+            "hint": "„Kritisieren“ braucht keine Präposition.",
+            "explanation": "„Kritik üben an“ + Dativ wird zu „kritisieren“ + Akkusativ: am neuen Stundenplan → den neuen Stundenplan."
+          },
+          {
+            "id": "l19h04",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze „eine Entscheidung treffen“ durch „sich entscheiden“. Die übrigen Satzglieder bleiben.",
+            "prompt": "Wann triffst du endlich eine Entscheidung?",
+            "solution": "Wann entscheidest du dich endlich?",
+            "hint": "Das Reflexivpronomen steht direkt nach dem Subjekt.",
+            "explanation": "„Du entscheidest dich“: Reflexivpronomen „dich“ direkt nach dem Subjekt, vor dem Adverb „endlich“."
+          },
+          {
+            "id": "l19h05",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze „fragen“ durch „eine Frage stellen“. Die übrigen Satzglieder bleiben.",
+            "prompt": "Darf ich Sie noch etwas fragen?",
+            "solution": "Darf ich Ihnen noch eine Frage stellen?",
+            "hint": "Wem stellt man eine Frage?",
+            "explanation": "„Fragen“ + Akkusativ (Sie), aber „jemandem eine Frage stellen“ + Dativ (Ihnen). „Etwas“ wird zu „eine Frage“."
+          },
+          {
+            "id": "l19h06",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze „vorschlagen“ durch „den Vorschlag machen“. Die übrigen Satzglieder bleiben.",
+            "prompt": "Die Kursleiterin schlägt vor, die Prüfung zu verschieben.",
+            "solution": "Die Kursleiterin macht den Vorschlag, die Prüfung zu verschieben.",
+            "hint": "Der Infinitivsatz bleibt unverändert.",
+            "explanation": "„Vorschlagen“ wird zu „den Vorschlag machen“; das Präfix „vor“ fällt weg, der zu-Infinitiv bleibt hinter dem Komma."
+          },
+          {
+            "id": "l19h07",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze „nicht antworten auf“ durch „keine Antwort geben auf“. Bleib im Präteritum; die übrigen Satzglieder bleiben in derselben Reihenfolge.",
+            "prompt": "Der Minister antwortete nicht auf die Frage des Journalisten.",
+            "solution": "Der Minister gab keine Antwort auf die Frage des Journalisten.",
+            "hint": "„Geben“ ist unregelmäßig.",
+            "explanation": "Aus „nicht antworten“ wird „keine Antwort geben“; Präteritum von „geben“: gab. Die Negation steckt in „keine“."
+          },
+          {
+            "id": "l19h08",
+            "type": "error-correction",
+            "instruction": "Korrigiere den Fehler. Ändere nur ein Wort: Setze das Funktionsverb der Standardverbindung ein (kein Synonym wie „aufwerfen“).",
+            "prompt": "Im Seminar hat Jonas eine interessante Frage gemacht.",
+            "solution": "Im Seminar hat Jonas eine interessante Frage gestellt.",
+            "hint": "Prüfe das Funktionsverb.",
+            "explanation": "„Frage“ verbindet sich mit „stellen“, nicht mit „machen“: eine Frage stellen."
+          },
+          {
+            "id": "l19h09",
+            "type": "error-correction",
+            "instruction": "Korrigiere den Fehler. Ändere nur ein Wort: Ersetze das Funktionsverb durch das Verb, das hier „öffentlich verteidigen“ bedeutet.",
+            "prompt": "In der Versammlung trifft unsere Sprecherin die Meinung, dass mehr Kurse nötig sind.",
+            "solution": "In der Versammlung vertritt unsere Sprecherin die Meinung, dass mehr Kurse nötig sind.",
+            "hint": "„Treffen“ gehört zu einem anderen Nomen.",
+            "explanation": "Eine Meinung „vertritt“ man (= verteidigt sie); „treffen“ passt zu „Entscheidung“ oder „Vereinbarung“."
+          },
+          {
+            "id": "l19h10",
+            "type": "error-correction",
+            "instruction": "Korrigiere den Fehler. Ergänze das fehlende Wort.",
+            "prompt": "Der Verein setzt seit Jahren für kostenlose Deutschkurse ein.",
+            "solution": "Der Verein setzt sich seit Jahren für kostenlose Deutschkurse ein.",
+            "hint": "Das Verb ist in dieser Bedeutung reflexiv.",
+            "explanation": "„Sich einsetzen für“ braucht das Reflexivpronomen; ohne „sich“ hieße „einsetzen“ „verwenden“."
+          },
+          {
+            "id": "l19h11",
+            "type": "error-correction",
+            "instruction": "Korrigiere den Fehler. Behalte das Verb „kritisieren“.",
+            "prompt": "Viele Leserinnen kritisieren an dem Artikel.",
+            "solution": "Viele Leserinnen kritisieren den Artikel.",
+            "hint": "Nur die Nomen-Verb-Verbindung braucht „an“.",
+            "explanation": "„Kritisieren“ steht mit Akkusativ ohne Präposition. „An + Dativ“ gehört nur zu „Kritik üben an“."
+          },
+          {
+            "id": "l19h12",
+            "type": "error-correction",
+            "instruction": "Korrigiere den Fehler. Ändere nur ein Wort; verwende das Funktionsverb „geben“.",
+            "prompt": "Mein Bruder bemüht sich viel Mühe beim Lernen.",
+            "solution": "Mein Bruder gibt sich viel Mühe beim Lernen.",
+            "hint": "Das Nomen „Mühe“ braucht ein Funktionsverb.",
+            "explanation": "„Sich bemühen“ und „sich Mühe geben“ nicht mischen: Mit dem Nomen „Mühe“ braucht man ein Funktionsverb – er gibt sich Mühe (e → i)."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l19t01",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Funktionsverb.",
+          "prompt": "In der Sitzung hat der Betriebsrat einen klugen Vorschlag ___.",
+          "options": [
+            "gemacht",
+            "gestellt",
+            "getroffen",
+            "geübt"
+          ],
+          "solution": "gemacht",
+          "explanation": "Es heißt „einen Vorschlag machen“. Gestellt wird eine Frage, getroffen eine Entscheidung, geübt Kritik."
+        },
+        {
+          "id": "l19t02",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Funktionsverb.",
+          "prompt": "Bis Freitag muss die Geschäftsführung eine Entscheidung über den Umzug ___.",
+          "options": [
+            "treffen",
+            "machen",
+            "stellen",
+            "geben"
+          ],
+          "solution": "treffen",
+          "explanation": "„Eine Entscheidung treffen“ (gehoben auch: fällen). „Eine Entscheidung machen“ ist ein Anglizismus und im Deutschen falsch."
+        },
+        {
+          "id": "l19t03",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Funktionsverb.",
+          "prompt": "Nach dem Vortrag durfte das Publikum noch Fragen ___.",
+          "options": [
+            "stellen",
+            "machen",
+            "geben",
+            "treffen"
+          ],
+          "solution": "stellen",
+          "explanation": "Fragen werden gestellt: „eine Frage stellen“ = fragen. Mit „geben“ verbindet sich die Antwort, nicht die Frage."
+        },
+        {
+          "id": "l19t04",
+          "type": "multiple-choice",
+          "instruction": "Welches einfache Verb ersetzt die Nomen-Verb-Verbindung „einen Beitrag leisten“?",
+          "prompt": "Mit ihrer Spende leistet die Stiftung einen wichtigen Beitrag zum Bau der neuen Bibliothek.",
+          "options": [
+            "beitragen",
+            "leisten",
+            "spenden",
+            "beibringen"
+          ],
+          "solution": "beitragen",
+          "explanation": "Die Bedeutung steckt im Nomen „Beitrag“ → „beitragen zu“. „leisten“ ist nur das Funktionsverb, „beibringen“ heißt „lehren“."
+        },
+        {
+          "id": "l19t05",
+          "type": "cloze-conjugation",
+          "instruction": "Setze das Funktionsverb aus „Kritik üben“ im Präteritum ein.",
+          "prompt": "Die Gewerkschaft ___ scharfe Kritik an den neuen Schichtplänen.",
+          "solution": "übte",
+          "explanation": "„Kritik üben an + Dat.“; Präteritum von „üben“ (regelmäßig): er/sie übte."
+        },
+        {
+          "id": "l19t06",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Funktionsverb.",
+          "prompt": "Zum Thema Tempolimit hat der Kabarettist schon immer eine klare Meinung ___.",
+          "options": [
+            "vertreten",
+            "gestellt",
+            "getroffen",
+            "geübt"
+          ],
+          "solution": "vertreten",
+          "explanation": "Eine Meinung „vertritt“ man (Partizip ohne ge-: vertreten). Gestellt wird eine Frage, getroffen eine Entscheidung, geübt Kritik."
+        },
+        {
+          "id": "l19t07",
+          "type": "targeted-transformation",
+          "instruction": "Ersetze die Nomen-Verb-Verbindung durch das Verb „kritisieren“. Beginne mit „Viele Anwohner“.",
+          "prompt": "Viele Anwohner üben Kritik an der neuen Ampelschaltung.",
+          "solution": "Viele Anwohner kritisieren die neue Ampelschaltung.",
+          "explanation": "„Kritik üben an + Dat.“ → „kritisieren + Akk.“: Die Präposition fällt weg, „der neuen“ wird zu „die neue“."
+        },
+        {
+          "id": "l19t08",
+          "type": "targeted-transformation",
+          "instruction": "Ersetze „sich Mühe geben“ durch „sich bemühen“. Beginne mit „Der neue Kollege“; der Infinitivsatz bleibt gleich.",
+          "prompt": "Der neue Kollege gibt sich Mühe, pünktlich zu sein.",
+          "solution": "Der neue Kollege bemüht sich, pünktlich zu sein.",
+          "explanation": "„sich Mühe geben“ = „sich bemühen“. Das Reflexivpronomen bleibt, „geben“ und „Mühe“ fallen weg."
+        },
+        {
+          "id": "l19t09",
+          "type": "targeted-transformation",
+          "instruction": "Ersetze „entscheiden“ durch „eine Entscheidung treffen“. Beginne mit „Die Jury“; „erst am Sonntag“ steht direkt nach dem Verb.",
+          "prompt": "Die Jury entscheidet erst am Sonntag.",
+          "solution": "Die Jury trifft erst am Sonntag eine Entscheidung.",
+          "explanation": "Das Funktionsverb „treffen“ wird konjugiert (sie trifft), das Nomen „eine Entscheidung“ rückt ans Satzende."
+        },
+        {
+          "id": "l19t10",
+          "type": "error-correction",
+          "instruction": "Das Funktionsverb ist falsch (gemeint ist: antworten). Ändere nur ein Wort.",
+          "prompt": "Auf die Frage nach dem Liefertermin konnte uns der Händler keine genaue Antwort machen.",
+          "solution": "Auf die Frage nach dem Liefertermin konnte uns der Händler keine genaue Antwort geben.",
+          "explanation": "Die NVV heißt „eine Antwort geben“ (= antworten). „Antwort machen“ ist eine Übertragung aus anderen Sprachen."
+        },
+        {
+          "id": "l19t11",
+          "type": "error-correction",
+          "instruction": "Das Funktionsverb ist falsch. Korrigiere es mit „treffen“.",
+          "prompt": "Die Ärztin musste in der Notaufnahme innerhalb von Sekunden eine Entscheidung machen.",
+          "solution": "Die Ärztin musste in der Notaufnahme innerhalb von Sekunden eine Entscheidung treffen.",
+          "explanation": "Entscheidungen werden getroffen (gehoben: gefällt), nicht „gemacht“. Nach „musste“ steht der Infinitiv „treffen“."
+        },
+        {
+          "id": "l19t12",
+          "type": "error-correction",
+          "instruction": "Ein Verb passt nicht zu „Wissen“. Ersetze es durch ein Verb mit derselben Vorsilbe „ab-“.",
+          "prompt": "Beim Kneipenquiz konnte der pensionierte Lehrer sein Geschichtswissen blitzschnell abholen.",
+          "solution": "Beim Kneipenquiz konnte der pensionierte Lehrer sein Geschichtswissen blitzschnell abrufen.",
+          "explanation": "Gespeichertes Wissen „ruft man ab“ (aus dem Gedächtnis holen). „abholen“ passt zu Personen oder Paketen."
+        },
+        {
+          "id": "l19t13",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz. Beginne mit „Obwohl“.",
+          "prompt": "Baue den Satz aus den Satzgliedern.",
+          "scrambleChunks": [
+            "gelang",
+            "große Anstrengungen",
+            "Obwohl",
+            "ihr",
+            "unternahm,",
+            "der Durchbruch nicht",
+            "sie"
+          ],
+          "solution": "Obwohl sie große Anstrengungen unternahm, gelang ihr der Durchbruch nicht.",
+          "explanation": "„Anstrengungen unternehmen“ ist eine NVV; im Nebensatz steht das Funktionsverb am Ende. Nebensatz im Vorfeld → „gelang ihr“."
+        },
+        {
+          "id": "l19t14",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz. Beginne mit „Wer“.",
+          "prompt": "Baue den Satz aus den Satzgliedern.",
+          "scrambleChunks": [
+            "verfassen",
+            "sollte",
+            "Wer",
+            "regelmäßig Texte",
+            "eine Sprache",
+            "erlernen will,"
+          ],
+          "solution": "Wer eine Sprache erlernen will, sollte regelmäßig Texte verfassen.",
+          "explanation": "Kollokationen: „eine Sprache erlernen“, „einen Text verfassen“. Der wer-Satz besetzt das Vorfeld, also folgt direkt „sollte“."
+        },
+        {
+          "id": "l19t15",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Verb.",
+          "prompt": "Bevor ich in den Urlaub fahre, ___ ich noch die letzten Aufgaben im Büro.",
+          "options": [
+            "erledige",
+            "treffe",
+            "zeige",
+            "vertrete"
+          ],
+          "solution": "erledige",
+          "explanation": "Aufgaben „erledigt“ (oder löst) man. „treffen“ gehört zur Entscheidung, „zeigen“ zum Einsatz, „vertreten“ zur Meinung."
+        },
+        {
+          "id": "l19t16",
+          "type": "multiple-choice",
+          "instruction": "Wähle die richtige Präposition.",
+          "prompt": "Die Opposition übt deutliche Kritik ___ dem Haushaltsplan.",
+          "options": [
+            "an",
+            "über",
+            "gegen",
+            "auf"
+          ],
+          "solution": "an",
+          "explanation": "„Kritik üben an + Dativ“ – fest mit „an“. „Kritik über“ oder „gegen“ ist bei dieser Verbindung nicht üblich."
+        }
+      ]
+    },
+    {
+      "lektionId": "b2-m7-l20",
+      "level": "B2",
+      "modulNumber": 7,
+      "lektionNumber": 20,
+      "title": "Ich bräuchte Ihren Rat",
+      "grammarFocus": [
+        "Höfliche Anfragen an Institutionen mit Konjunktiv II (Könnten Sie mir mitteilen, …? Wäre es möglich, … zu …? Ich bräuchte …, Ich hätte gern …, Hätten Sie Zeit?) – auch mit indirekter Frage (ob/wann …)",
+        "Formelle Anfrage per E-Mail: Betreff, Anrede, Anliegen formulieren, Termin erfragen, sich im Voraus bedanken (Redemittel)",
+        "Adverbien auf -weise: Kommentaradverbien aus Adjektiv + -erweise (dummerweise, seltsamerweise, freundlicherweise) und Art/Maß aus Nomen + -weise (teilweise, stufenweise, versuchsweise, ausnahmsweise)"
+      ],
+      "vocabulary": [
+        {
+          "id": "l20v01",
+          "term": "die Angelegenheit",
+          "translation": "el asunto / la cuestión",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Angelegenheiten",
+          "example": "In einer so wichtigen Angelegenheit wendet man sich besser schriftlich an die Behörde."
+        },
+        {
+          "id": "l20v02",
+          "term": "der Fachbereich",
+          "translation": "el departamento / la facultad",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Fachbereiche",
+          "example": "Für Fragen zur Masterarbeit ist das Sekretariat des Fachbereichs Chemie zuständig."
+        },
+        {
+          "id": "l20v03",
+          "term": "die Zulassung",
+          "translation": "la admisión",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Zulassungen",
+          "example": "Ohne Sprachnachweis bekommt man keine Zulassung zum Medizinstudium."
+        },
+        {
+          "id": "l20v04",
+          "term": "die Fachberatung",
+          "translation": "el asesoramiento especializado",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Fachberatungen",
+          "example": "Bei Fragen zum Mietrecht hilft eine Fachberatung oft mehr als jedes Internetforum."
+        },
+        {
+          "id": "l20v05",
+          "term": "der Betreff",
+          "translation": "el asunto (de un correo)",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Betreffe",
+          "example": "Eine E-Mail ohne Betreff landet bei vielen Firmen direkt im Spam-Ordner."
+        },
+        {
+          "id": "l20v06",
+          "term": "die Bescheinigung",
+          "translation": "el certificado / la constancia",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Bescheinigungen",
+          "example": "Für das Wohngeld musste Tarek eine Bescheinigung seines Arbeitgebers einreichen."
+        },
+        {
+          "id": "l20v07",
+          "term": "der Nachweis",
+          "translation": "la prueba / el justificante",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Nachweise",
+          "example": "Als Nachweis der Deutschkenntnisse genügt ein B2-Zertifikat."
+        },
+        {
+          "id": "l20v08",
+          "term": "die Auskunft",
+          "translation": "la información",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Auskünfte",
+          "example": "Am Telefon konnte mir leider niemand eine verbindliche Auskunft geben."
+        },
+        {
+          "id": "l20v09",
+          "term": "der Ansprechpartner",
+          "translation": "la persona de contacto",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Ansprechpartner",
+          "example": "Bei Problemen mit der Heizung ist der Hausmeister Ihr erster Ansprechpartner."
+        },
+        {
+          "id": "l20v10",
+          "term": "die Anrede",
+          "translation": "el saludo / la fórmula de tratamiento",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Anreden",
+          "example": "Wenn man den Namen nicht kennt, ist „Sehr geehrte Damen und Herren“ die übliche Anrede."
+        },
+        {
+          "id": "l20v11",
+          "term": "nachweisen",
+          "translation": "demostrar / acreditar",
+          "partOfSpeech": "verb",
+          "preterite": "wies nach",
+          "participle": "nachgewiesen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Wer ein Stipendium möchte, muss gute Studienleistungen nachweisen."
+        },
+        {
+          "id": "l20v12",
+          "term": "sich erkundigen",
+          "translation": "informarse / preguntar",
+          "partOfSpeech": "verb",
+          "preterite": "erkundigte sich",
+          "participle": "sich erkundigt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Vor der Reise erkundigte sich Ines bei der Botschaft nach den Einreisebestimmungen."
+        },
+        {
+          "id": "l20v13",
+          "term": "feststellen",
+          "translation": "constatar / darse cuenta",
+          "partOfSpeech": "verb",
+          "preterite": "stellte fest",
+          "participle": "festgestellt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Erst zu Hause stellte ich fest, dass auf dem Formular eine Unterschrift fehlte."
+        },
+        {
+          "id": "l20v14",
+          "term": "weiterhelfen",
+          "translation": "ayudar (a seguir adelante)",
+          "partOfSpeech": "verb",
+          "preterite": "half weiter",
+          "participle": "weitergeholfen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Der Tipp meines Nachbarn hat mir bei der Steuererklärung wirklich weitergeholfen."
+        },
+        {
+          "id": "l20v15",
+          "term": "erstatten",
+          "translation": "reembolsar",
+          "partOfSpeech": "verb",
+          "preterite": "erstattete",
+          "participle": "erstattet",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Die Krankenkasse erstattet nur einen Teil der Kosten für die neue Brille."
+        },
+        {
+          "id": "l20v16",
+          "term": "anrechnen",
+          "translation": "convalidar / tener en cuenta",
+          "partOfSpeech": "verb",
+          "preterite": "rechnete an",
+          "participle": "angerechnet",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Die Uni rechnet mir zwei Seminare aus meinem Auslandssemester an."
+        },
+        {
+          "id": "l20v17",
+          "term": "behilflich",
+          "translation": "servicial; (jdm.) behilflich sein: ayudar a alguien",
+          "partOfSpeech": "adjective",
+          "example": "Die Dame an der Information war mir bei der Suche nach dem richtigen Büro sehr behilflich."
+        },
+        {
+          "id": "l20v18",
+          "term": "dummerweise",
+          "translation": "tontamente / por desgracia",
+          "partOfSpeech": "adverb",
+          "example": "Dummerweise hatte ich den Schlüssel im Büro liegen lassen."
+        },
+        {
+          "id": "l20v19",
+          "term": "seltsamerweise",
+          "translation": "curiosamente / extrañamente",
+          "partOfSpeech": "adverb",
+          "example": "Seltsamerweise war der Zug heute pünktlich, obwohl überall gestreikt wurde."
+        },
+        {
+          "id": "l20v20",
+          "term": "freundlicherweise",
+          "translation": "amablemente",
+          "partOfSpeech": "adverb",
+          "example": "Die Nachbarin hat freundlicherweise unsere Blumen gegossen."
+        },
+        {
+          "id": "l20v21",
+          "term": "teilweise",
+          "translation": "en parte / parcialmente",
+          "partOfSpeech": "adverb",
+          "example": "Die Straße ist wegen Bauarbeiten teilweise gesperrt."
+        },
+        {
+          "id": "l20v22",
+          "term": "versuchsweise",
+          "translation": "a modo de prueba",
+          "partOfSpeech": "adverb",
+          "example": "Das Café öffnet im Sommer versuchsweise schon um sechs Uhr."
+        },
+        {
+          "id": "l20v23",
+          "term": "ausnahmsweise",
+          "translation": "excepcionalmente / por una vez",
+          "partOfSpeech": "adverb",
+          "example": "Heute darf der Hund ausnahmsweise mit ins Schlafzimmer."
+        },
+        {
+          "id": "l20v24",
+          "term": "schrittweise",
+          "translation": "paso a paso / gradualmente",
+          "partOfSpeech": "adverb",
+          "example": "Die Stadt will die Altstadt schrittweise vom Autoverkehr befreien."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l20e01",
+            "type": "multiple-choice",
+            "instruction": "Wähle die höfliche Konjunktiv-II-Form.",
+            "prompt": "___ Sie mir sagen, ob die Bibliothek auch samstags geöffnet hat?",
+            "options": [
+              "Könnten",
+              "Konnten",
+              "Könnte",
+              "Kannst"
+            ],
+            "solution": "Könnten",
+            "hint": "Höfliche Frage an eine Person, die man siezt.",
+            "explanation": "'Könnten Sie' ist Konjunktiv II und passt zu 'Sie'. 'Konnten' ist Präteritum, 'könnte' passt nicht zu 'Sie', 'kannst' ist die du-Form."
+          },
+          {
+            "id": "l20e02",
+            "type": "multiple-choice",
+            "instruction": "Wähle die einteilige Konjunktiv-II-Form von 'brauchen'.",
+            "prompt": "Für das Jobcenter ___ ich eine Bescheinigung über meine Kursteilnahme.",
+            "options": [
+              "bräuchte",
+              "brauchte",
+              "brauche",
+              "bräuchten"
+            ],
+            "solution": "bräuchte",
+            "hint": "Konjunktiv II hat einen Umlaut.",
+            "explanation": "'bräuchte' (mit Umlaut) ist Konjunktiv II und klingt höflich. 'brauchte' ist Präteritum, 'brauche' Indikativ, 'bräuchten' passt nicht zu 'ich'."
+          },
+          {
+            "id": "l20e03",
+            "type": "multiple-choice",
+            "instruction": "Wähle die höfliche Konjunktiv-II-Form.",
+            "prompt": "___ es möglich, meinen Termin in der Sprechstunde auf Donnerstag zu verschieben?",
+            "options": [
+              "Wäre",
+              "War",
+              "Würde",
+              "Hätte"
+            ],
+            "solution": "Wäre",
+            "hint": "Feste Wendung: ___ es möglich, … zu …?",
+            "explanation": "'Wäre es möglich, … zu …?' ist Konjunktiv II von 'sein'. 'War' ist Präteritum (fragt nach Vergangenem); 'würde' und 'hätte' passen nicht zu 'es … möglich'."
+          },
+          {
+            "id": "l20e04",
+            "type": "multiple-choice",
+            "instruction": "Welcher Betreff passt am besten zu einer Anfrage an das Prüfungsamt?",
+            "prompt": "Betreff: ___",
+            "options": [
+              "Anrechnung meiner Studienleistungen aus Wien",
+              "Hallo!",
+              "Eine kurze Frage",
+              "Bitte dringend lesen!!!"
+            ],
+            "solution": "Anrechnung meiner Studienleistungen aus Wien",
+            "hint": "Der Betreff soll sofort zeigen, worum es geht.",
+            "explanation": "Ein guter Betreff nennt das konkrete Anliegen. Grüße, allgemeine Fragen oder Druck verraten dem Amt nicht, worum es geht."
+          },
+          {
+            "id": "l20e05",
+            "type": "multiple-choice",
+            "instruction": "Wie beginnst du eine E-Mail an eine Professorin, deren Namen du kennst?",
+            "prompt": "Anrede: ___",
+            "options": [
+              "Sehr geehrte Frau Professorin Kraus,",
+              "Hallo Frau Kraus!",
+              "Liebe Professorin,",
+              "Sehr geehrte Damen und Herren,"
+            ],
+            "solution": "Sehr geehrte Frau Professorin Kraus,",
+            "hint": "Formell, mit Titel und Namen.",
+            "explanation": "Kennt man den Namen, schreibt man 'Sehr geehrte Frau Professorin Kraus,'. 'Damen und Herren' nur ohne Namen; 'Hallo' und 'Liebe' sind zu informell."
+          },
+          {
+            "id": "l20e06",
+            "type": "multiple-choice",
+            "instruction": "Welcher Schluss passt zu einer formellen Anfrage?",
+            "prompt": "Schluss: ___",
+            "options": [
+              "Vielen Dank im Voraus und freundliche Grüße",
+              "Bis bald und tschüss",
+              "Antworten Sie bitte sofort",
+              "Viele Küsse"
+            ],
+            "solution": "Vielen Dank im Voraus und freundliche Grüße",
+            "hint": "Man bedankt sich, bevor man Hilfe bekommen hat.",
+            "explanation": "Eine formelle Anfrage endet mit einem Dank im Voraus und einem Gruß. 'tschüss' und 'Küsse' sind privat, eine Aufforderung wie 'sofort' ist unhöflich."
+          },
+          {
+            "id": "l20e07",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Adjektiv aus der Wortliste: jemandem ___ sein (= helfen).",
+            "prompt": "Könnten Sie mir bei der Suche nach einem Praktikumsplatz ___ sein?",
+            "solution": "behilflich",
+            "hint": "Formelle Wendung: jdm. b… sein.",
+            "explanation": "'jdm. behilflich sein' ist die formelle Variante von 'helfen' und steht mit Dativ. 'hilfreich' beschreibt Dinge (ein hilfreicher Tipp), nicht Personen, die helfen."
+          },
+          {
+            "id": "l20e08",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze die Konjunktiv-II-Form von 'werden'.",
+            "prompt": "Ich ___ gern mit Ihnen besprechen, ob ich in einen anderen Kurs wechseln kann.",
+            "solution": "würde",
+            "hint": "würde-Form + Infinitiv am Ende.",
+            "explanation": "'Ich würde gern + Infinitiv' ist eine höfliche Bitte. 'werde' wäre Futur und klingt wie eine Ankündigung, nicht wie eine Bitte."
+          },
+          {
+            "id": "l20e09",
+            "type": "multiple-choice",
+            "instruction": "Was drückt 'Glücklicherweise' in diesem Satz aus?",
+            "prompt": "Glücklicherweise war in der Sprechstunde noch ein Termin frei.",
+            "options": [
+              "eine Bewertung durch den Sprecher",
+              "die Art und Weise der Handlung",
+              "eine Menge",
+              "einen Zeitpunkt"
+            ],
+            "solution": "eine Bewertung durch den Sprecher",
+            "hint": "Adjektiv + -erweise = Kommentar.",
+            "explanation": "Adverbien aus Adjektiv + -erweise sind Kommentaradverbien: Der Sprecher bewertet den ganzen Satz (= Es war ein Glück, dass …)."
+          },
+          {
+            "id": "l20e10",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Adverb.",
+            "prompt": "Die Kosten für den Sprachkurs werden nur ___ erstattet, nicht vollständig.",
+            "options": [
+              "teilweise",
+              "dummerweise",
+              "beziehungsweise",
+              "seltsamerweise"
+            ],
+            "solution": "teilweise",
+            "hint": "Es geht um ein Maß: wie viel?",
+            "explanation": "'teilweise' (Nomen Teil + -weise) nennt ein Maß. 'dummerweise' und 'seltsamerweise' bewerten nur; 'beziehungsweise' ist eine Konjunktion."
+          },
+          {
+            "id": "l20e11",
+            "type": "fill-in-blank",
+            "instruction": "Bilde aus 'dumm' ein Kommentaradverb auf -weise.",
+            "prompt": "___ habe ich die Frist für die Anmeldung verpasst.",
+            "solution": "Dummerweise",
+            "hint": "Adjektiv + -er- + weise.",
+            "explanation": "Kommentaradverbien bildet man aus Adjektiv + -erweise: dumm → dummerweise. Ohne '-er-' ('dummweise') ist die Form falsch."
+          },
+          {
+            "id": "l20e12",
+            "type": "multiple-choice",
+            "instruction": "Wähle die richtige Form.",
+            "prompt": "Der Mitarbeiter hat mir ___ das Formular gleich per E-Mail geschickt.",
+            "options": [
+              "freundlicherweise",
+              "freundlichweise",
+              "freundlicheweise",
+              "freundlichsweise"
+            ],
+            "solution": "freundlicherweise",
+            "hint": "Adjektiv + -er- + weise.",
+            "explanation": "Aus 'freundlich' wird mit -erweise 'freundlicherweise'. Ohne '-er-', mit '-e-' oder mit '-s-' ist die Form falsch."
+          },
+          {
+            "id": "l20e13",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Wort.",
+            "prompt": "Ist am Dienstagvormittag noch ein Termin ___?",
+            "options": [
+              "frei",
+              "leer",
+              "los",
+              "ledig"
+            ],
+            "solution": "frei",
+            "hint": "Feste Wendung zum Erfragen eines Termins.",
+            "explanation": "Man fragt: 'Ist noch ein Termin frei?' 'leer' sagt man von Räumen, 'los' und 'ledig' passen nicht zu 'Termin'."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l20m01",
+            "type": "cloze-conjugation",
+            "instruction": "Setze 'können' im Konjunktiv II ein.",
+            "prompt": "___ Sie mir bitte mitteilen, bis wann ich die Unterlagen einreichen muss?",
+            "solution": "Könnten",
+            "hint": "Subjekt 'Sie', Konjunktiv II mit Umlaut.",
+            "explanation": "'Könnten Sie …?' ist die höfliche Frageform. 'Können' ist Indikativ, 'Konnten' Präteritum."
+          },
+          {
+            "id": "l20m02",
+            "type": "cloze-conjugation",
+            "instruction": "Setze 'haben' im Konjunktiv II ein.",
+            "prompt": "Ich ___ gern einen Beratungstermin zur Anerkennung meines Abschlusses.",
+            "solution": "hätte",
+            "hint": "ich + Konjunktiv II von haben.",
+            "explanation": "'Ich hätte gern …' ist eine höfliche Bitte. 'hatte' (ohne Umlaut) ist Präteritum, 'habe' wirkt direkter."
+          },
+          {
+            "id": "l20m03",
+            "type": "cloze-conjugation",
+            "instruction": "Setze 'brauchen' im Konjunktiv II ein (einteilige Form).",
+            "prompt": "Für meine Bewerbung ___ ich eine beglaubigte Kopie meines Zeugnisses.",
+            "solution": "bräuchte",
+            "hint": "Einteilige Form mit Umlaut.",
+            "explanation": "Die einteilige Konjunktiv-II-Form von 'brauchen' ist 'bräuchte'. 'brauchte' ohne Umlaut ist Präteritum."
+          },
+          {
+            "id": "l20m04",
+            "type": "cloze-conjugation",
+            "instruction": "Setze 'sein' im Konjunktiv II ein.",
+            "prompt": "Für mich ___ es eine große Hilfe, eine Liste der benötigten Dokumente zu bekommen.",
+            "solution": "wäre",
+            "hint": "Konjunktiv II von 'sein', 3. Person Singular.",
+            "explanation": "'Es wäre eine Hilfe' formuliert eine Bitte indirekt und höflich. 'war' ist Präteritum, 'ist' klingt wie eine Feststellung."
+          },
+          {
+            "id": "l20m05",
+            "type": "cloze-conjugation",
+            "instruction": "Setze 'haben' im Konjunktiv II ein.",
+            "prompt": "___ Sie in der kommenden Woche kurz Zeit für ein Gespräch?",
+            "solution": "Hätten",
+            "hint": "Subjekt 'Sie': Plural-Endung.",
+            "explanation": "'Hätten Sie Zeit?' ist eine höfliche Terminanfrage. 'Hätte' passt nicht zu 'Sie', 'Hatten' ist Präteritum."
+          },
+          {
+            "id": "l20m06",
+            "type": "cloze-conjugation",
+            "instruction": "Bilde ein Adverb aus 'die Stufe' + -weise.",
+            "prompt": "Die Sanierung der Bibliothek erfolgt ___ in drei Bauabschnitten.",
+            "solution": "stufenweise",
+            "hint": "Nomen + Fugenlaut + weise.",
+            "explanation": "Aus Nomen bildet man Adverbien der Art und Weise mit -weise, oft mit Fugen-n: Stufe → stufenweise."
+          },
+          {
+            "id": "l20m07",
+            "type": "cloze-conjugation",
+            "instruction": "Bilde ein Adverb aus 'der Versuch' + -weise.",
+            "prompt": "Das neue Buchungssystem wird zunächst ___ für einen Monat eingeführt.",
+            "solution": "versuchsweise",
+            "hint": "Nomen + Fugen-s + weise.",
+            "explanation": "Versuch + Fugen-s + weise = 'versuchsweise' (zur Probe). Ohne Fugen-s ('versuchweise') ist das Wort falsch."
+          },
+          {
+            "id": "l20m08",
+            "type": "cloze-conjugation",
+            "instruction": "Bilde ein Kommentaradverb aus 'seltsam' + -weise.",
+            "prompt": "___ hat niemand bemerkt, dass das Formular schon veraltet war.",
+            "solution": "Seltsamerweise",
+            "hint": "Adjektiv + -er- + weise.",
+            "explanation": "Aus Adjektiven entstehen Kommentaradverbien mit -erweise: seltsam → seltsamerweise. Der Sprecher bewertet damit den ganzen Satz."
+          },
+          {
+            "id": "l20m09",
+            "type": "cloze-conjugation",
+            "instruction": "Bilde ein Adverb aus 'die Ausnahme' + -weise.",
+            "prompt": "Weil ich krank war, durfte ich die Prüfung ___ eine Woche später schreiben.",
+            "solution": "ausnahmsweise",
+            "hint": "Ausnahme verliert das -e und bekommt ein Fugen-s.",
+            "explanation": "Ausnahme → ausnahmsweise (nur dieses eine Mal). Das -e fällt weg, dafür steht ein Fugen-s."
+          },
+          {
+            "id": "l20m10",
+            "type": "sentence-scramble",
+            "instruction": "Bilde eine höfliche Frage. Beginne mit 'Wann'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "telefonisch erreichen",
+              "Sie",
+              "könnte",
+              "am besten",
+              "ich",
+              "Wann"
+            ],
+            "solution": "Wann könnte ich Sie am besten telefonisch erreichen?",
+            "hint": "W-Frage: Verb auf Position 2, Infinitiv am Ende.",
+            "explanation": "In der W-Frage steht 'könnte' direkt nach dem Fragewort, dann Subjekt 'ich' und Pronomen 'Sie'; der Infinitiv 'erreichen' steht am Ende."
+          },
+          {
+            "id": "l20m11",
+            "type": "sentence-scramble",
+            "instruction": "Bilde eine höfliche Frage mit 'Wäre es möglich'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "zu schicken",
+              "möglich,",
+              "Wäre",
+              "mir die Unterlagen",
+              "es",
+              "per Post"
+            ],
+            "solution": "Wäre es möglich, mir die Unterlagen per Post zu schicken?",
+            "hint": "Ja/Nein-Frage: Verb auf Position 1; Infinitiv mit 'zu' am Ende.",
+            "explanation": "'Wäre es möglich, … zu + Infinitiv?' Das Verb steht vorn, die Infinitivgruppe folgt nach dem Komma, 'zu schicken' am Ende."
+          },
+          {
+            "id": "l20m12",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz für eine formelle E-Mail. Beginne mit 'Ich würde gern'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "verlängern kann",
+              "ob",
+              "mit Ihnen besprechen,",
+              "Ich würde gern",
+              "das Praktikum",
+              "ich"
+            ],
+            "solution": "Ich würde gern mit Ihnen besprechen, ob ich das Praktikum verlängern kann.",
+            "hint": "Hauptsatz mit Infinitiv am Ende, dann ob-Satz mit Verb am Ende.",
+            "explanation": "'Ich würde gern … besprechen' + indirekte Frage mit 'ob': Im Nebensatz steht das konjugierte Verb 'kann' ganz am Ende."
+          },
+          {
+            "id": "l20m13",
+            "type": "sentence-scramble",
+            "instruction": "Beginne mit dem Kommentaradverb.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "erklärt",
+              "er",
+              "Freundlicherweise",
+              "den Antrag",
+              "mir",
+              "hat"
+            ],
+            "solution": "Freundlicherweise hat er mir den Antrag erklärt.",
+            "hint": "Das Adverb besetzt Position 1, das Verb folgt auf Position 2.",
+            "explanation": "Steht das Kommentaradverb im Vorfeld, folgt direkt das Verb 'hat', dann Subjekt 'er'; Pronomen stehen vor dem Nomen, das Partizip am Ende."
+          },
+          {
+            "id": "l20m14",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Bei Krankheit'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "zurückerstattet",
+              "wird die Kursgebühr",
+              "Bei Krankheit",
+              "nur teilweise"
+            ],
+            "solution": "Bei Krankheit wird die Kursgebühr nur teilweise zurückerstattet.",
+            "hint": "Passiv: 'wird' auf Position 2, Partizip am Ende.",
+            "explanation": "'teilweise' nennt das Maß und steht im Mittelfeld vor dem Partizip. 'wird' steht auf Position 2 nach der Angabe 'Bei Krankheit'."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l20h01",
+            "type": "targeted-transformation",
+            "instruction": "Formuliere als höfliche Frage mit 'Könnten Sie'. Die übrigen Wörter bleiben in ihrer Reihenfolge; kein 'bitte'.",
+            "prompt": "Schicken Sie mir das Antragsformular per E-Mail!",
+            "solution": "Könnten Sie mir das Antragsformular per E-Mail schicken?",
+            "hint": "Modalverb an Position 1, Infinitiv ans Ende.",
+            "explanation": "Aus dem Imperativ wird eine höfliche Frage: 'Könnten Sie …' vorn, der Infinitiv 'schicken' wandert ans Satzende."
+          },
+          {
+            "id": "l20h02",
+            "type": "targeted-transformation",
+            "instruction": "Formuliere mit 'Wäre es möglich, … zu …?'. 'ich' entfällt, die übrigen Wörter bleiben in ihrer Reihenfolge.",
+            "prompt": "Kann ich den Termin am Montag verschieben?",
+            "solution": "Wäre es möglich, den Termin am Montag zu verschieben?",
+            "hint": "Infinitiv mit 'zu' am Ende der Infinitivgruppe.",
+            "explanation": "'Wäre es möglich, … zu + Infinitiv?' ersetzt die direkte Frage. Das Subjekt fällt weg, 'zu verschieben' steht am Ende."
+          },
+          {
+            "id": "l20h03",
+            "type": "targeted-transformation",
+            "instruction": "Leite die Frage mit 'Könnten Sie mir sagen,' ein.",
+            "prompt": "Wann beginnt der nächste Integrationskurs?",
+            "solution": "Könnten Sie mir sagen, wann der nächste Integrationskurs beginnt?",
+            "hint": "Indirekte Frage: Verb ans Ende.",
+            "explanation": "In der indirekten W-Frage bleibt das Fragewort, das konjugierte Verb 'beginnt' rückt ans Ende des Nebensatzes."
+          },
+          {
+            "id": "l20h04",
+            "type": "targeted-transformation",
+            "instruction": "Leite die Frage mit 'Ich würde gern wissen,' ein.",
+            "prompt": "Wird mein ausländischer Abschluss hier anerkannt?",
+            "solution": "Ich würde gern wissen, ob mein ausländischer Abschluss hier anerkannt wird.",
+            "hint": "Ja/Nein-Frage → indirekte Frage mit welchem Wort?",
+            "explanation": "Eine Ja/Nein-Frage wird indirekt mit 'ob' eingeleitet; das konjugierte Verb 'wird' steht ganz am Ende, nach dem Partizip."
+          },
+          {
+            "id": "l20h05",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze 'Zum Glück' durch ein Adverb auf -weise. Der Rest bleibt gleich.",
+            "prompt": "Zum Glück hat die Bank meinen Antrag schnell bearbeitet.",
+            "solution": "Glücklicherweise hat die Bank meinen Antrag schnell bearbeitet.",
+            "hint": "Adjektiv 'glücklich' + -er- + weise.",
+            "explanation": "'Glücklicherweise' (glücklich + -erweise) ist das Kommentaradverb zu 'zum Glück'; es bleibt im Vorfeld, das Verb folgt auf Position 2."
+          },
+          {
+            "id": "l20h06",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze 'Es war ärgerlich, dass' durch ein Kommentaradverb auf -weise und beginne damit.",
+            "prompt": "Es war ärgerlich, dass das Amt meine Unterlagen verloren hatte.",
+            "solution": "Ärgerlicherweise hatte das Amt meine Unterlagen verloren.",
+            "hint": "Aus dem Nebensatz wird ein Hauptsatz: Verb auf Position 2.",
+            "explanation": "Das Kommentaradverb 'ärgerlicherweise' ersetzt den Rahmensatz. Im Hauptsatz steht 'hatte' auf Position 2, das Partizip am Ende."
+          },
+          {
+            "id": "l20h07",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze 'Schritt für Schritt' durch ein Adverb aus dem Nomen 'Schritt' + -weise. Der Rest bleibt gleich.",
+            "prompt": "Die Hochschule stellt ihre Verwaltung Schritt für Schritt auf digitale Formulare um.",
+            "solution": "Die Hochschule stellt ihre Verwaltung schrittweise auf digitale Formulare um.",
+            "hint": "Nomen + -weise, kein Fugenlaut.",
+            "explanation": "Schritt + -weise = 'schrittweise' (Art und Weise). Es steht an derselben Stelle im Mittelfeld wie 'Schritt für Schritt'."
+          },
+          {
+            "id": "l20h08",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze 'nur dieses eine Mal' durch ein Adverb auf -weise. Der Rest bleibt gleich.",
+            "prompt": "Die Bibliothek verlängert die Leihfrist nur dieses eine Mal um zwei Wochen.",
+            "solution": "Die Bibliothek verlängert die Leihfrist ausnahmsweise um zwei Wochen.",
+            "hint": "Welches Nomen bedeutet 'etwas, das nicht der Regel entspricht'?",
+            "explanation": "'ausnahmsweise' (Ausnahme + s + weise) heißt 'nur dieses eine Mal, gegen die Regel'. Das -e von 'Ausnahme' fällt weg."
+          },
+          {
+            "id": "l20h09",
+            "type": "error-correction",
+            "instruction": "Gemeint ist eine höfliche Bitte im Konjunktiv II (einteilige Form). Korrigiere das Verb; ändere nur ein Wort.",
+            "prompt": "Ich brauchte dringend einen Termin bei Ihnen, weil meine Aufenthaltserlaubnis bald abläuft.",
+            "solution": "Ich bräuchte dringend einen Termin bei Ihnen, weil meine Aufenthaltserlaubnis bald abläuft.",
+            "hint": "Präsens im Nebensatz – die Bitte bezieht sich auf jetzt.",
+            "explanation": "Gemeint ist eine höfliche Bitte in der Gegenwart: Konjunktiv II 'bräuchte' mit Umlaut. 'brauchte' ist Präteritum und passt nicht zu 'bald abläuft'."
+          },
+          {
+            "id": "l20h10",
+            "type": "error-correction",
+            "instruction": "Korrigiere den Fehler. Ändere nur die Endung des Verbs.",
+            "prompt": "Könnte Sie mir bitte mitteilen, welche Unterlagen ich mitbringen muss?",
+            "solution": "Könnten Sie mir bitte mitteilen, welche Unterlagen ich mitbringen muss?",
+            "hint": "Prüfe die Übereinstimmung von Verb und Subjekt.",
+            "explanation": "Zum höflichen 'Sie' gehört die Endung -en: 'Könnten Sie'. 'Könnte' ist die Form für ich/er/sie/es."
+          },
+          {
+            "id": "l20h11",
+            "type": "error-correction",
+            "instruction": "Korrigiere den Fehler. Ändere nur ein Wort.",
+            "prompt": "Freundlichweise hat mir die Sekretärin einen früheren Termin angeboten.",
+            "solution": "Freundlicherweise hat mir die Sekretärin einen früheren Termin angeboten.",
+            "hint": "Kommentaradverb aus einem Adjektiv.",
+            "explanation": "Kommentaradverbien aus Adjektiven brauchen das '-er-': freundlich → freundlicherweise."
+          },
+          {
+            "id": "l20h12",
+            "type": "error-correction",
+            "instruction": "Korrigiere den Fehler. Ändere nur ein Wort.",
+            "prompt": "Bei Kündigung im ersten Monat werden die Gebühren nur teilsweise erstattet.",
+            "solution": "Bei Kündigung im ersten Monat werden die Gebühren nur teilweise erstattet.",
+            "hint": "Hat 'Teil' ein Fugen-s?",
+            "explanation": "'teilweise' wird ohne Fugen-s gebildet: Teil + weise. Ein Fugen-s steht z. B. bei 'versuchsweise', aber nicht hier."
+          },
+          {
+            "id": "l20h13",
+            "type": "error-correction",
+            "instruction": "Ergänze das fehlende Wort.",
+            "prompt": "Wäre es möglich, mir eine Kopie des Mietvertrags geben?",
+            "solution": "Wäre es möglich, mir eine Kopie des Mietvertrags zu geben?",
+            "hint": "Nach 'Wäre es möglich,' folgt eine Infinitivgruppe.",
+            "explanation": "Nach 'Es wäre möglich' steht der Infinitiv mit 'zu': '… zu geben'. Ohne 'zu' ist die Infinitivgruppe unvollständig."
+          },
+          {
+            "id": "l20h14",
+            "type": "error-correction",
+            "instruction": "Korrigiere die Wortstellung im ob-Satz. Die Reihenfolge der übrigen Wörter bleibt gleich.",
+            "prompt": "Könnten Sie mir sagen, ob findet die Sprechstunde morgen statt?",
+            "solution": "Könnten Sie mir sagen, ob die Sprechstunde morgen stattfindet?",
+            "hint": "Im ob-Satz steht das Verb am Ende.",
+            "explanation": "Im indirekten Fragesatz mit 'ob' steht das konjugierte Verb am Ende; trennbare Verben werden dort zusammengeschrieben: 'stattfindet'."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l20t01",
+          "type": "multiple-choice",
+          "instruction": "Wähle die einteilige Konjunktiv-II-Form von „brauchen“ für eine höfliche Bitte.",
+          "prompt": "Ich ___ für die Reparatur meiner Waschmaschine bis Freitag einen Kostenvoranschlag.",
+          "options": [
+            "bräuchte",
+            "brauchte",
+            "brauche",
+            "bräuchten"
+          ],
+          "solution": "bräuchte",
+          "explanation": "Konjunktiv II von brauchen: ich bräuchte (mit Umlaut). „brauchte“ ohne Umlaut ist Präteritum Indikativ, „bräuchten“ passt nicht zu „ich“."
+        },
+        {
+          "id": "l20t02",
+          "type": "multiple-choice",
+          "instruction": "Welches -weise-Adverb bewertet das Geschehen aus Sicht des Sprechers (Kommentaradverb)?",
+          "prompt": "Wähle den passenden Satz.",
+          "options": [
+            "Erstaunlicherweise hat die Versicherung den Schaden sofort übernommen.",
+            "Die neue Software wird stufenweise in allen Filialen eingeführt.",
+            "Der zweite Teil des Romans ist teilweise etwas langatmig.",
+            "Bei der Übung arbeiten die Teilnehmenden paarweise."
+          ],
+          "solution": "Erstaunlicherweise hat die Versicherung den Schaden sofort übernommen.",
+          "explanation": "Adjektiv + -erweise (erstaunlich → erstaunlicherweise) kommentiert: „Das ist erstaunlich.“ stufenweise, teilweise, paarweise beschreiben Art oder Maß."
+        },
+        {
+          "id": "l20t03",
+          "type": "cloze-conjugation",
+          "instruction": "Setze „sein“ im Konjunktiv II ein.",
+          "prompt": "___ es möglich, das Paket bei meinem Nachbarn im Erdgeschoss abzugeben?",
+          "solution": "Wäre",
+          "explanation": "Höfliche Anfrage: „Wäre es möglich, … zu …?“ – Konjunktiv II von sein ist „wäre“. „War“ ist Präteritum und klingt nicht wie eine Bitte."
+        },
+        {
+          "id": "l20t04",
+          "type": "cloze-conjugation",
+          "instruction": "Setze „haben“ im Konjunktiv II ein.",
+          "prompt": "Wir ___ gern gewusst, ob die Musikschule auch Gitarrenkurse für Erwachsene anbietet.",
+          "solution": "hätten",
+          "explanation": "Höfliche Floskel „Wir hätten gern gewusst, ob …“: Konjunktiv II von haben, Plural zu „wir“ → hätten. „hatten“ ohne Umlaut ist Präteritum."
+        },
+        {
+          "id": "l20t05",
+          "type": "targeted-transformation",
+          "instruction": "Formuliere die Aufforderung als höfliche Frage. Beginne mit „Könnten Sie“. Behalte die übrigen Wörter in ihrer Reihenfolge, kein zusätzliches „bitte“.",
+          "prompt": "Rufen Sie mich morgen Vormittag zurück.",
+          "solution": "Könnten Sie mich morgen Vormittag zurückrufen?",
+          "explanation": "Mit Modalverb im Konjunktiv II wird die Bitte zur Frage: „Könnten Sie …“ + Infinitiv am Ende. Das trennbare „zurückrufen“ steht dann wieder zusammen."
+        },
+        {
+          "id": "l20t06",
+          "type": "targeted-transformation",
+          "instruction": "Formuliere die Frage höflicher. Beginne mit „Wäre es möglich,“ und verwende einen Infinitiv mit „zu“.",
+          "prompt": "Kann ich die ausgeliehenen Bücher eine Woche länger behalten?",
+          "solution": "Wäre es möglich, die ausgeliehenen Bücher eine Woche länger zu behalten?",
+          "explanation": "„Wäre es möglich, … zu + Infinitiv?“ – das Subjekt „ich“ entfällt, „zu behalten“ steht am Ende. Ohne „zu“ ist der Infinitivsatz falsch."
+        },
+        {
+          "id": "l20t07",
+          "type": "targeted-transformation",
+          "instruction": "Ersetze nur „bespreche“ durch die würde-Form. Die übrigen Wörter behalten ihre Reihenfolge.",
+          "prompt": "Ich bespreche mit Ihnen gern die Ergebnisse meiner Probezeit.",
+          "solution": "Ich würde mit Ihnen gern die Ergebnisse meiner Probezeit besprechen.",
+          "explanation": "würde-Form: „würde“ auf Position 2, der Infinitiv „besprechen“ ans Satzende. So wird aus der Aussage ein höflicher Wunsch."
+        },
+        {
+          "id": "l20t08",
+          "type": "multiple-choice",
+          "instruction": "Ergänze die indirekte Frage nach der höflichen Einleitung.",
+          "prompt": "Ich wüsste gern, ___ ich für den Anwohnerparkausweis ein aktuelles Foto mitbringen muss.",
+          "options": [
+            "ob",
+            "wenn",
+            "dass",
+            "weil"
+          ],
+          "solution": "ob",
+          "explanation": "„Ich wüsste gern“ (Konjunktiv II von wissen) leitet eine indirekte Ja/Nein-Frage ein → „ob“. „wenn“ ist konditional/temporal, „dass“ und „weil“ fragen nichts."
+        },
+        {
+          "id": "l20t09",
+          "type": "multiple-choice",
+          "instruction": "Welcher Schlusssatz einer formellen E-Mail ist korrekt?",
+          "prompt": "Sie bedanken sich, bevor Ihnen jemand geholfen hat.",
+          "options": [
+            "Vielen Dank im Voraus für Ihre Unterstützung.",
+            "Vielen Dank in Voraus für Ihre Unterstützung.",
+            "Vielen Dank vor Voraus für Ihre Unterstützung.",
+            "Vielen Dank im Voraus an Ihre Unterstützung."
+          ],
+          "solution": "Vielen Dank im Voraus für Ihre Unterstützung.",
+          "explanation": "Feste Wendung: „im Voraus“ (in + dem), und man dankt „für“ etwas. „in Voraus“, „vor Voraus“ und „Dank an Ihre Unterstützung“ sind falsch."
+        },
+        {
+          "id": "l20t10",
+          "type": "multiple-choice",
+          "instruction": "Ergänze das passende Verb für die Einleitung des Anliegens.",
+          "prompt": "Sehr geehrte Damen und Herren, ich ___ mich mit einer Frage zu meiner Haftpflichtversicherung an Sie.",
+          "options": [
+            "wende",
+            "frage",
+            "kümmere",
+            "bitte"
+          ],
+          "solution": "wende",
+          "explanation": "„sich mit etwas an jemanden wenden“ = Kontakt aufnehmen. „fragen“ und „bitten“ sind nicht reflexiv, „sich kümmern“ verlangt „um“."
+        },
+        {
+          "id": "l20t11",
+          "type": "sentence-scramble",
+          "instruction": "Bilde eine höfliche Anfrage. Beginne mit „Könnten“.",
+          "prompt": "Baue den Satz aus den Teilen.",
+          "scrambleChunks": [
+            "zahlen",
+            "Könnten",
+            "ob ich",
+            "mitteilen,",
+            "die Kursgebühr in Raten",
+            "Sie mir",
+            "kann"
+          ],
+          "solution": "Könnten Sie mir mitteilen, ob ich die Kursgebühr in Raten zahlen kann?",
+          "explanation": "Hauptsatz mit Konjunktiv II, dann die indirekte Frage mit „ob“: Das konjugierte Verb „kann“ steht ganz am Ende, nach dem Infinitiv."
+        },
+        {
+          "id": "l20t12",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz. Beginne mit „Seltsamerweise“.",
+          "prompt": "Baue den Satz aus den Satzgliedern.",
+          "scrambleChunks": [
+            "reagiert",
+            "die Hausverwaltung",
+            "Seltsamerweise",
+            "bis heute nicht auf meine Anfrage",
+            "hat"
+          ],
+          "solution": "Seltsamerweise hat die Hausverwaltung bis heute nicht auf meine Anfrage reagiert.",
+          "explanation": "Ein Kommentaradverb im Vorfeld zählt als ein Satzglied: Danach folgt direkt das Verb „hat“, erst dann das Subjekt."
+        },
+        {
+          "id": "l20t13",
+          "type": "fill-in-blank",
+          "instruction": "Bilde aus dem Nomen in Klammern ein Adverb auf -weise.",
+          "prompt": "Neben dem Studium jobbt mein Bruder ___ in einem Copyshop. (die Stunde)",
+          "solution": "stundenweise",
+          "explanation": "Nomen + -weise gibt Art oder Maß an: stundenweise = nur einige Stunden lang. Wie im Plural „Stunden“ steht vor -weise das -n."
+        },
+        {
+          "id": "l20t14",
+          "type": "fill-in-blank",
+          "instruction": "Bilde aus dem Adjektiv in Klammern ein Kommentaradverb.",
+          "prompt": "Die Rezeptionistin hat uns ___ ein Taxi zum Bahnhof bestellt. (nett)",
+          "solution": "netterweise",
+          "explanation": "Kommentaradverbien bildet man aus Adjektiv + -erweise: nett → netterweise. „nettweise“ fehlt das -er-."
+        },
+        {
+          "id": "l20t15",
+          "type": "error-correction",
+          "instruction": "Ein Wort ist falsch gebildet. Schreibe den korrigierten Satz.",
+          "prompt": "Bedauerlichweise ist das Open-Air-Konzert am Samstag wegen eines Unwetters abgesagt worden.",
+          "solution": "Bedauerlicherweise ist das Open-Air-Konzert am Samstag wegen eines Unwetters abgesagt worden.",
+          "explanation": "Kommentaradverb = Adjektiv + -erweise: bedauerlich → bedauerlicherweise. Ohne das -er- ist das Wort falsch gebildet."
+        },
+        {
+          "id": "l20t16",
+          "type": "error-correction",
+          "instruction": "Ein Verb passt nicht zum Subjekt. Schreibe den korrigierten Satz.",
+          "prompt": "Wir hätte gern ein Doppelzimmer mit Balkon für die erste Augustwoche.",
+          "solution": "Wir hätten gern ein Doppelzimmer mit Balkon für die erste Augustwoche.",
+          "explanation": "Höflicher Wunsch mit Konjunktiv II von haben: Zu „wir“ gehört die Pluralform „hätten“. „hätte“ passt nur zu ich oder er/sie/es."
+        }
+      ]
+    },
+    {
+      "lektionId": "b2-m7-l21",
+      "level": "B2",
+      "modulNumber": 7,
+      "lektionNumber": 21,
+      "title": "Bildung früher und heute",
+      "grammarFocus": [
+        "Temporale Konnektoren im Nebensatz: als/wenn, während, solange, bevor/ehe, nachdem, seit/seitdem, sobald, bis",
+        "Temporale Adverbien und Präpositionen: währenddessen, davor/vorher, danach/daraufhin, seitdem; bei, während (+ Gen.), vor, nach, seit, bis zum (Nebensatz ↔ Präposition + Nomen)",
+        "Zeitenfolge bei nachdem: Plusquamperfekt + Präteritum, Perfekt + Präsens"
+      ],
+      "vocabulary": [
+        {
+          "id": "l21v01",
+          "term": "das Seminar",
+          "translation": "el seminario",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Seminare",
+          "example": "Im Seminar über Stadtplanung muss jede Person ein Referat halten."
+        },
+        {
+          "id": "l21v02",
+          "term": "das Tutorium",
+          "translation": "la tutoría (en grupo pequeño)",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Tutorien",
+          "example": "Im Tutorium klären ältere Studierende offene Fragen aus der Vorlesung."
+        },
+        {
+          "id": "l21v03",
+          "term": "der Hörsaal",
+          "translation": "el auditorio, el anfiteatro",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Hörsäle",
+          "example": "Der größte Hörsaal der Universität bietet Platz für 800 Personen."
+        },
+        {
+          "id": "l21v04",
+          "term": "die Dozentin",
+          "translation": "la profesora universitaria",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Dozentinnen",
+          "example": "Unsere Dozentin beantwortet E-Mails meistens noch am selben Tag."
+        },
+        {
+          "id": "l21v05",
+          "term": "die Promotion",
+          "translation": "el doctorado",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Promotionen",
+          "example": "Für seine Promotion hat Yusuf vier Jahre im Labor geforscht."
+        },
+        {
+          "id": "l21v06",
+          "term": "promovieren",
+          "translation": "doctorarse",
+          "partOfSpeech": "verb",
+          "preterite": "promovierte",
+          "participle": "promoviert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Sie hat über die Geschichte der Seefahrt promoviert."
+        },
+        {
+          "id": "l21v07",
+          "term": "das Staatsexamen",
+          "translation": "el examen de Estado",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Staatsexamen",
+          "example": "Angehende Lehrkräfte schließen ihr Studium oft mit dem Staatsexamen ab."
+        },
+        {
+          "id": "l21v08",
+          "term": "zulassungsbeschränkt",
+          "translation": "con acceso restringido (numerus clausus)",
+          "partOfSpeech": "adjective",
+          "example": "Medizin ist an fast allen Universitäten zulassungsbeschränkt."
+        },
+        {
+          "id": "l21v09",
+          "term": "die Fakultät",
+          "translation": "la facultad",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Fakultäten",
+          "example": "Die juristische Fakultät liegt in einem alten Gebäude am Fluss."
+        },
+        {
+          "id": "l21v10",
+          "term": "die Klausur",
+          "translation": "el examen escrito",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Klausuren",
+          "example": "Für die Klausur in Mikroökonomie darf man einen Taschenrechner benutzen."
+        },
+        {
+          "id": "l21v11",
+          "term": "die Gründung",
+          "translation": "la fundación",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Gründungen",
+          "example": "Seit der Gründung der Akademie sind fast zweihundert Jahre vergangen."
+        },
+        {
+          "id": "l21v12",
+          "term": "die Grundschule",
+          "translation": "la escuela primaria",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Grundschulen",
+          "example": "Meine Nichte lernt in der Grundschule schon ein bisschen Englisch."
+        },
+        {
+          "id": "l21v13",
+          "term": "das Gymnasium",
+          "translation": "el instituto (de bachillerato)",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Gymnasien",
+          "example": "Nach der vierten Klasse wechselte Lukas auf ein Gymnasium in der Nachbarstadt."
+        },
+        {
+          "id": "l21v14",
+          "term": "das Abitur",
+          "translation": "el bachillerato (examen final)",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "example": "Mit dem Abitur in der Tasche wollte Svenja erst einmal reisen."
+        },
+        {
+          "id": "l21v15",
+          "term": "die Ganztagsschule",
+          "translation": "la escuela de jornada completa",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Ganztagsschulen",
+          "example": "In der Ganztagsschule essen die Kinder mittags gemeinsam in der Kantine."
+        },
+        {
+          "id": "l21v16",
+          "term": "die Herkunft",
+          "translation": "el origen, la procedencia",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Die soziale Herkunft sollte nicht über den Bildungsweg eines Kindes entscheiden."
+        },
+        {
+          "id": "l21v17",
+          "term": "bildungsfern",
+          "translation": "con poco acceso a la educación",
+          "partOfSpeech": "adjective",
+          "example": "Kinder aus bildungsfernen Familien bekommen zu Hause oft wenig Hilfe bei den Hausaufgaben."
+        },
+        {
+          "id": "l21v18",
+          "term": "das Förderprogramm",
+          "translation": "el programa de apoyo",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Förderprogramme",
+          "example": "Ein neues Förderprogramm bietet Kindern aus einkommensschwachen Familien kostenlose Nachhilfe an."
+        },
+        {
+          "id": "l21v19",
+          "term": "die Realschule",
+          "translation": "la escuela secundaria (hasta 10.º curso)",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Realschulen",
+          "example": "Nach der Realschule begann Dennis eine Ausbildung zum Elektroniker."
+        },
+        {
+          "id": "l21v20",
+          "term": "der Bildungsweg",
+          "translation": "la trayectoria educativa",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Bildungswege",
+          "example": "Über den zweiten Bildungsweg hat Petra mit 35 Jahren noch das Abitur gemacht."
+        },
+        {
+          "id": "l21v21",
+          "term": "die Lehrkraft",
+          "translation": "el/la docente",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Lehrkräfte",
+          "example": "Jede Lehrkraft an unserer Schule betreut auch eine Arbeitsgemeinschaft."
+        },
+        {
+          "id": "l21v22",
+          "term": "die Erwachsenenbildung",
+          "translation": "la educación de adultos",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "In der Erwachsenenbildung lernen Menschen jeden Alters zusammen."
+        },
+        {
+          "id": "l21v23",
+          "term": "die Teilnahmegebühr",
+          "translation": "la cuota de inscripción",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Teilnahmegebühren",
+          "example": "Für Studierende ist die Teilnahmegebühr des Töpferkurses um die Hälfte reduziert."
+        },
+        {
+          "id": "l21v24",
+          "term": "seitdem",
+          "translation": "desde entonces",
+          "partOfSpeech": "adverb",
+          "example": "Im Mai hat Ole den Nähkurs besucht. Seitdem näht er seine Hemden selbst."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l21e01",
+            "type": "multiple-choice",
+            "instruction": "Wähle den passenden Konnektor.",
+            "prompt": "___ meine Schwester 2015 ihr Abitur bestand, feierte die ganze Familie.",
+            "options": [
+              "Als",
+              "Wenn",
+              "Wann",
+              "Ob"
+            ],
+            "solution": "Als",
+            "hint": "Passiert das einmal oder immer wieder?",
+            "explanation": "Einmaliges Ereignis in der Vergangenheit → 'als'. 'Wenn' steht für Wiederholtes oder Gegenwart/Zukunft, 'wann' und 'ob' leiten Fragesätze ein."
+          },
+          {
+            "id": "l21e02",
+            "type": "multiple-choice",
+            "instruction": "Wähle den passenden Konnektor.",
+            "prompt": "Immer ___ der Professor einen Witz machte, lachte im Hörsaal niemand.",
+            "options": [
+              "wenn",
+              "als",
+              "wann",
+              "ob"
+            ],
+            "solution": "wenn",
+            "hint": "Achte auf 'immer'.",
+            "explanation": "Wiederholte Handlung in der Vergangenheit → 'wenn' (oft mit 'immer'). 'als' gilt nur für ein einmaliges Ereignis."
+          },
+          {
+            "id": "l21e03",
+            "type": "multiple-choice",
+            "instruction": "Beide Handlungen passieren gleichzeitig. Wähle den passenden Konnektor.",
+            "prompt": "___ die Dozentin die Grafik erklärte, machten sich die Studierenden Notizen.",
+            "options": [
+              "Während",
+              "Nachdem",
+              "Bevor",
+              "Sobald"
+            ],
+            "solution": "Während",
+            "hint": "Welcher Konnektor drückt Gleichzeitigkeit aus?",
+            "explanation": "'während' verbindet gleichzeitige Handlungen. 'nachdem', 'bevor' und 'sobald' drücken eine Reihenfolge aus."
+          },
+          {
+            "id": "l21e04",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Wort.",
+            "prompt": "Die Studentin las zuerst den Aufsatz. ___ diskutierte sie ihn mit ihrer Lerngruppe.",
+            "options": [
+              "Danach",
+              "Nachdem",
+              "Bevor",
+              "Während"
+            ],
+            "solution": "Danach",
+            "hint": "Nach dem Wort steht sofort das Verb – es ist also kein Konnektor für einen Nebensatz.",
+            "explanation": "Im Hauptsatz mit Verb auf Position 2 braucht man das Adverb 'danach'. 'Nachdem', 'bevor', 'während' leiten Nebensätze mit Verb am Ende ein."
+          },
+          {
+            "id": "l21e05",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Präposition.",
+            "prompt": "___ des Praktikums wohnte Jonas bei seiner Tante.",
+            "options": [
+              "Während",
+              "Bei",
+              "Seit",
+              "Bis"
+            ],
+            "solution": "Während",
+            "hint": "Achte auf den Kasus: 'des Praktikums' ist Genitiv.",
+            "explanation": "'während' als Präposition steht mit Genitiv. 'bei' und 'seit' verlangen den Dativ, 'bis' den Akkusativ."
+          },
+          {
+            "id": "l21e06",
+            "type": "multiple-choice",
+            "instruction": "Die Handlung hat in der Vergangenheit begonnen und dauert noch an. Wähle den Konnektor.",
+            "prompt": "___ Rosa an der Abendschule lernt, hat sie kaum noch Freizeit.",
+            "options": [
+              "Seitdem",
+              "Bevor",
+              "Als",
+              "Bis"
+            ],
+            "solution": "Seitdem",
+            "hint": "Gesucht ist ein Konnektor für 'begonnen und dauert an'.",
+            "explanation": "'seitdem' (oder 'seit') markiert den Beginn einer Handlung, die bis jetzt dauert; deshalb Präsens. 'als' ist abgeschlossen, 'bis' markiert das Ende."
+          },
+          {
+            "id": "l21e07",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze 'bei' + Artikel als ein Wort.",
+            "prompt": "___ Schreiben einer Klausur muss das Handy ausgeschaltet sein.",
+            "solution": "Beim",
+            "hint": "Gleichzeitigkeit kann man auch mit einer Präposition ausdrücken.",
+            "explanation": "'bei' + Dativ drückt Gleichzeitigkeit aus; 'bei dem' wird zu 'beim', vor allem vor nominalisierten Verben wie 'das Schreiben'."
+          },
+          {
+            "id": "l21e08",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze die Präposition für das Ende eines Zeitraums (zwei Wörter, Artikel zusammengezogen).",
+            "prompt": "Die Hausarbeit muss spätestens ___ Ende des Monats abgegeben werden.",
+            "solution": "bis zum",
+            "hint": "'Ende' ist hier ein Nomen mit Artikel im Dativ.",
+            "explanation": "Vor einem Nomen mit Artikel steht 'bis zu' + Dativ: 'bis zu dem' → 'bis zum'. Nur 'bis' allein passt vor Zeitangaben ohne Artikel ('bis Montag')."
+          },
+          {
+            "id": "l21e09",
+            "type": "multiple-choice",
+            "instruction": "Wähle die richtige Verbform.",
+            "prompt": "Nachdem die Gründer genug Geld ___, eröffneten sie die private Sprachschule.",
+            "options": [
+              "gesammelt hatten",
+              "gesammelt haben",
+              "sammelten",
+              "sammeln"
+            ],
+            "solution": "gesammelt hatten",
+            "hint": "Der Hauptsatz steht im Präteritum.",
+            "explanation": "Nachdem-Satz zeigt die frühere Handlung: Hauptsatz im Präteritum → Nebensatz im Plusquamperfekt. Präteritum oder Perfekt im Nebensatz passen nicht dazu."
+          },
+          {
+            "id": "l21e10",
+            "type": "multiple-choice",
+            "instruction": "Wähle den passenden Konnektor.",
+            "prompt": "Lies die Aufgabenstellung genau, ___ du mit dem Schreiben anfängst.",
+            "options": [
+              "bevor",
+              "nachdem",
+              "seitdem",
+              "während"
+            ],
+            "solution": "bevor",
+            "hint": "Was kommt zuerst: das Lesen oder das Schreiben?",
+            "explanation": "'bevor' (oder 'ehe') leitet die spätere Handlung ein: erst lesen, dann schreiben. 'nachdem' würde die Reihenfolge umdrehen."
+          },
+          {
+            "id": "l21e11",
+            "type": "multiple-choice",
+            "instruction": "Die Handlung beginnt genau dann, wenn das Ereignis eintritt. Wähle den Konnektor.",
+            "prompt": "___ die Noten online stehen, bekommst du eine E-Mail.",
+            "options": [
+              "Sobald",
+              "Bis",
+              "Seitdem",
+              "Während"
+            ],
+            "solution": "Sobald",
+            "hint": "Gesucht ist ein Konnektor für 'sofort, wenn …'.",
+            "explanation": "'sobald' (oder 'sowie') markiert den Beginn: direkt danach passiert etwas. 'bis' markiert ein Ende, 'während' Gleichzeitigkeit."
+          },
+          {
+            "id": "l21e12",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Wort.",
+            "prompt": "___ der mündlichen Prüfung war Lena sehr nervös.",
+            "options": [
+              "Vor",
+              "Bevor",
+              "Nachdem",
+              "Seitdem"
+            ],
+            "solution": "Vor",
+            "hint": "Nach der Lücke folgt kein Nebensatz, sondern ein Nomen.",
+            "explanation": "Vor einem Nomen braucht man eine Präposition: 'vor' + Dativ. 'bevor', 'nachdem' und 'seitdem' sind Konnektoren und brauchen einen Nebensatz."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l21m01",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Als ich'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "den Hörsaal zum ersten Mal",
+              "war",
+              "über seine Größe überrascht",
+              "Als ich",
+              "ich",
+              "betrat,"
+            ],
+            "solution": "Als ich den Hörsaal zum ersten Mal betrat, war ich über seine Größe überrascht.",
+            "hint": "Steht der Nebensatz vorn, folgt im Hauptsatz sofort das Verb.",
+            "explanation": "'als' schickt 'betrat' ans Ende des Nebensatzes. Der Nebensatz besetzt Position 1, darum folgt 'war' direkt danach, dann 'ich'."
+          },
+          {
+            "id": "l21m02",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Nachdem'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "bekam",
+              "hatte,",
+              "Nachdem",
+              "eine Stelle in Basel",
+              "sie die Promotion",
+              "sie",
+              "abgeschlossen"
+            ],
+            "solution": "Nachdem sie die Promotion abgeschlossen hatte, bekam sie eine Stelle in Basel.",
+            "hint": "Im Nebensatz steht das Hilfsverb ganz am Ende.",
+            "explanation": "Im Nachdem-Satz steht 'hatte' am Ende (Plusquamperfekt), weil der Hauptsatz im Präteritum steht. Danach folgt sofort 'bekam'."
+          },
+          {
+            "id": "l21m03",
+            "type": "sentence-scramble",
+            "instruction": "Bilde zwei Hauptsätze. Beginne den zweiten Satz mit dem temporalen Adverb.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "wir",
+              "Danach",
+              "Wir besuchen zuerst die Vorlesung.",
+              "in die Mensa",
+              "gehen"
+            ],
+            "solution": "Wir besuchen zuerst die Vorlesung. Danach gehen wir in die Mensa.",
+            "hint": "Ein Adverb im Vorfeld zählt als Position 1.",
+            "explanation": "'Danach' ist ein Adverb, kein Konnektor: Es steht auf Position 1, das Verb 'gehen' folgt auf Position 2, dann das Subjekt."
+          },
+          {
+            "id": "l21m04",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Die Studierenden'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "bevor",
+              "müssen",
+              "das Semester",
+              "Die Studierenden",
+              "beginnt",
+              "sich",
+              "einschreiben,"
+            ],
+            "solution": "Die Studierenden müssen sich einschreiben, bevor das Semester beginnt.",
+            "hint": "Im Nebensatz mit 'bevor' steht das Verb am Ende.",
+            "explanation": "Der Hauptsatz kommt zuerst, nach dem Komma folgt der Nebensatz: 'bevor' + Subjekt + Verb am Ende ('beginnt')."
+          },
+          {
+            "id": "l21m05",
+            "type": "sentence-scramble",
+            "instruction": "Bilde zwei Hauptsätze. Beginne den zweiten Satz mit dem temporalen Adverb.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "er",
+              "Tarek hat im März einen Abendkurs begonnen.",
+              "jeden Abend Spanisch",
+              "lernt",
+              "Seitdem"
+            ],
+            "solution": "Tarek hat im März einen Abendkurs begonnen. Seitdem lernt er jeden Abend Spanisch.",
+            "hint": "'Seitdem' kann auch ein Adverb sein – dann steht das Verb direkt danach.",
+            "explanation": "Als Adverb steht 'seitdem' auf Position 1, das Verb 'lernt' auf Position 2. Im Präsens, weil die Handlung noch andauert."
+          },
+          {
+            "id": "l21m06",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Während'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "jobbte",
+              "des Studiums",
+              "in einem Café",
+              "Während",
+              "Mia"
+            ],
+            "solution": "Während des Studiums jobbte Mia in einem Café.",
+            "hint": "Hier ist 'während' eine Präposition mit Genitiv.",
+            "explanation": "'Während des Studiums' ist eine Präpositionalgruppe und besetzt Position 1; das Verb 'jobbte' folgt direkt danach."
+          },
+          {
+            "id": "l21m07",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb.",
+            "prompt": "Nachdem Paula den Einstufungstest ___, meldete sie sich für den Kurs an. (machen, Plusquamperfekt)",
+            "solution": "gemacht hatte",
+            "hint": "Plusquamperfekt = 'hatte/war' + Partizip II.",
+            "explanation": "Hauptsatz im Präteritum ('meldete') → Nachdem-Satz im Plusquamperfekt: 'gemacht hatte', Hilfsverb am Satzende."
+          },
+          {
+            "id": "l21m08",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb. Achte auf die Zeitenfolge.",
+            "prompt": "Nachdem der Dozent die Aufgabe erklärt hat, ___ wir in kleinen Gruppen. (arbeiten)",
+            "solution": "arbeiten",
+            "hint": "Der Nachdem-Satz steht im Perfekt.",
+            "explanation": "Nachdem-Satz im Perfekt → Hauptsatz im Präsens: 'arbeiten'. 'arbeiteten' passt nicht, denn zu Präteritum gehört Plusquamperfekt im Nachdem-Satz."
+          },
+          {
+            "id": "l21m09",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb.",
+            "prompt": "Als ich das Gymnasium ___, gab es noch keine Tablets im Unterricht. (besuchen, Präteritum)",
+            "solution": "besuchte",
+            "hint": "Subjekt ist 'ich'.",
+            "explanation": "Einmaliger Zeitraum in der Vergangenheit → 'als' + Präteritum. 1. Person Singular: 'ich besuchte' (ohne Endung -n)."
+          },
+          {
+            "id": "l21m10",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb. Achte auf die Zeitenfolge.",
+            "prompt": "Nachdem die Kinder die Grundschule ___, wechselten sie auf verschiedene Schulen. (beenden)",
+            "solution": "beendet hatten",
+            "hint": "Der Hauptsatz steht im Präteritum; Subjekt ist 'die Kinder'.",
+            "explanation": "Hauptsatz im Präteritum → Nachdem-Satz im Plusquamperfekt: 'beendet hatten' (Plural). 'beendeten' oder 'beendet haben' zeigen die Vorzeitigkeit nicht richtig."
+          },
+          {
+            "id": "l21m11",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Partizip.",
+            "prompt": "Nachdem du dich ___ hast, bekommst du deinen Studierendenausweis. (einschreiben)",
+            "solution": "eingeschrieben",
+            "hint": "'einschreiben' ist trennbar und unregelmäßig.",
+            "explanation": "Nachdem-Satz im Perfekt, Hauptsatz im Präsens. Partizip II von 'einschreiben': ein-ge-schrieben (trennbar, starkes Verb)."
+          },
+          {
+            "id": "l21m12",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb.",
+            "prompt": "Seit Jana in der Bibliothek ___, schafft sie viel mehr. (lernen, Präsens)",
+            "solution": "lernt",
+            "hint": "Die Handlung hat begonnen und dauert noch an.",
+            "explanation": "Nach 'seit' steht für eine noch andauernde Handlung das Präsens: 'Jana lernt'. Ein Perfekt würde eine abgeschlossene Handlung ausdrücken."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l21h01",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze den Nebensatz durch 'während des Vortrags'. Die übrigen Satzglieder bleiben.",
+            "prompt": "Während die Professorin ihren Vortrag hielt, durfte niemand telefonieren.",
+            "solution": "Während des Vortrags durfte niemand telefonieren.",
+            "hint": "Die Präpositionalgruppe besetzt Position 1.",
+            "explanation": "'während' + Genitiv ersetzt den Nebensatz. Die Präpositionalgruppe steht auf Position 1, darum folgt das Verb 'durfte' sofort."
+          },
+          {
+            "id": "l21h02",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze den Nebensatz durch 'vor' + 'Beginn' (ohne Artikel). Die übrigen Satzglieder bleiben.",
+            "prompt": "Bevor der Workshop beginnt, stellen sich alle Teilnehmenden kurz vor.",
+            "solution": "Vor Beginn des Workshops stellen sich alle Teilnehmenden kurz vor.",
+            "hint": "Aus 'beginnen' wird das Nomen 'Beginn'; das Subjekt wird zum Genitivattribut.",
+            "explanation": "'bevor' + Nebensatz → 'vor' + Nomen; 'der Workshop' wird Genitiv: 'Beginn des Workshops'. Danach steht das Verb 'stellen' auf Position 2."
+          },
+          {
+            "id": "l21h03",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze den Nebensatz durch 'nach' + 'ihr Umzug'. Die übrigen Satzglieder bleiben.",
+            "prompt": "Nachdem sie umgezogen war, suchte Ana sofort einen Sprachkurs.",
+            "solution": "Nach ihrem Umzug suchte Ana sofort einen Sprachkurs.",
+            "hint": "'nach' verlangt den Dativ.",
+            "explanation": "'nachdem' + Nebensatz → 'nach' + Dativ: 'nach ihrem Umzug'. Die Präpositionalgruppe steht auf Position 1, dann das Verb 'suchte'."
+          },
+          {
+            "id": "l21h04",
+            "type": "targeted-transformation",
+            "instruction": "Forme die Präpositionalgruppe in einen Nebensatz mit 'bis' um. Verwende 'abgeschlossen sind'. Beginne mit 'Bis'.",
+            "prompt": "Bis zum Abschluss der Bauarbeiten finden die Vorlesungen in der Aula statt.",
+            "solution": "Bis die Bauarbeiten abgeschlossen sind, finden die Vorlesungen in der Aula statt.",
+            "hint": "Das Genitivattribut wird zum Subjekt des Nebensatzes.",
+            "explanation": "'bis zum Abschluss der Bauarbeiten' → 'bis die Bauarbeiten abgeschlossen sind'. Verb am Ende, Komma, dann das Verb 'finden' sofort."
+          },
+          {
+            "id": "l21h05",
+            "type": "targeted-transformation",
+            "instruction": "Forme die Präpositionalgruppe in einen Nebensatz mit 'wenn' um. Beginne mit 'Wenn Malte' und ersetze 'Malte' im Hauptsatz durch 'er'.",
+            "prompt": "Beim Lernen hört Malte immer Musik.",
+            "solution": "Wenn Malte lernt, hört er immer Musik.",
+            "hint": "Wiederholte Handlung → 'wenn'; im Hauptsatz wird 'Malte' zum Pronomen.",
+            "explanation": "'beim' + Verbnomen → 'wenn' + Nebensatz bei wiederholter Gleichzeitigkeit. Im Hauptsatz folgt das Verb 'hört' direkt nach dem Komma."
+          },
+          {
+            "id": "l21h06",
+            "type": "targeted-transformation",
+            "instruction": "Bilde zwei Hauptsätze. Beginne mit 'Selin begann ihr Studium.' und setze im zweiten Satz 'Davor' an den Anfang. Behalte das Präteritum 'machte'.",
+            "prompt": "Bevor Selin ihr Studium begann, machte sie eine Ausbildung.",
+            "solution": "Selin begann ihr Studium. Davor machte sie eine Ausbildung.",
+            "hint": "'Davor' ist ein Adverb – danach kommt sofort das Verb.",
+            "explanation": "Der Konnektor 'bevor' wird zum Adverb 'davor' im zweiten Hauptsatz: Position 1 'Davor', Position 2 'machte', dann das Subjekt."
+          },
+          {
+            "id": "l21h07",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde die Sätze mit 'nachdem'. Beginne mit 'Nachdem' und achte auf die Zeitenfolge.",
+            "prompt": "Der Verein bekam die Fördergelder. Dann stellte er zwei Lehrkräfte ein.",
+            "solution": "Nachdem der Verein die Fördergelder bekommen hatte, stellte er zwei Lehrkräfte ein.",
+            "hint": "Hauptsatz im Präteritum → welche Zeit braucht der Nachdem-Satz?",
+            "explanation": "Die frühere Handlung steht im Plusquamperfekt: 'bekommen hatte' am Ende. 'dann' fällt weg; 'stellte … ein' bleibt im Präteritum."
+          },
+          {
+            "id": "l21h08",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde die Sätze mit 'nachdem'. Beginne mit 'Nachdem' und achte auf die Zeitenfolge.",
+            "prompt": "Ich lese die Kommentare. Dann überarbeite ich meine Hausarbeit.",
+            "solution": "Nachdem ich die Kommentare gelesen habe, überarbeite ich meine Hausarbeit.",
+            "hint": "Hauptsatz im Präsens → welche Zeit braucht der Nachdem-Satz?",
+            "explanation": "Hauptsatz im Präsens → Nachdem-Satz im Perfekt ('gelesen habe'). Präsens in beiden Sätzen zeigt die Reihenfolge nicht."
+          },
+          {
+            "id": "l21h09",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Ändere nur ein Wort.",
+            "prompt": "Wenn ich 2019 nach Leipzig zog, kannte ich dort niemanden.",
+            "solution": "Als ich 2019 nach Leipzig zog, kannte ich dort niemanden.",
+            "hint": "Wie oft ist der Umzug passiert?",
+            "explanation": "Ein einmaliges Ereignis in der Vergangenheit verlangt 'als'. 'wenn' passt in der Vergangenheit nur bei Wiederholung."
+          },
+          {
+            "id": "l21h10",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere die falsche Zeitform im Nebensatz. Der Hauptsatz bleibt.",
+            "prompt": "Nachdem die Schule eine Mensa bekam, blieben mehr Kinder am Nachmittag dort.",
+            "solution": "Nachdem die Schule eine Mensa bekommen hatte, blieben mehr Kinder am Nachmittag dort.",
+            "hint": "Die Handlung im Nachdem-Satz liegt vor der Handlung im Hauptsatz.",
+            "explanation": "Hauptsatz im Präteritum → Nachdem-Satz im Plusquamperfekt: 'bekommen hatte'. Gleiche Zeitform in beiden Sätzen ist hier falsch."
+          },
+          {
+            "id": "l21h11",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler (Standardsprache). 'Während' bleibt.",
+            "prompt": "Während dem Semester arbeitet Felix in einer Buchhandlung.",
+            "solution": "Während des Semesters arbeitet Felix in einer Buchhandlung.",
+            "hint": "Welchen Kasus verlangt die Präposition 'während'?",
+            "explanation": "In der Standardsprache steht 'während' mit Genitiv: 'des Semesters'. 'während dem' ist umgangssprachlich."
+          },
+          {
+            "id": "l21h12",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. 'Danach' bleibt am Anfang des zweiten Satzes.",
+            "prompt": "Zuerst schrieb Lea ihre Bachelorarbeit. Danach sie bewarb sich um einen Masterplatz.",
+            "solution": "Zuerst schrieb Lea ihre Bachelorarbeit. Danach bewarb sie sich um einen Masterplatz.",
+            "hint": "'Danach' ist kein Konnektor, sondern ein Adverb.",
+            "explanation": "'Danach' besetzt Position 1, also folgt das Verb 'bewarb' auf Position 2, dann 'sie sich'. Verwechslung mit 'nachdem' (Verb am Ende)."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l21t01",
+          "type": "multiple-choice",
+          "instruction": "Wähle den passenden Konnektor.",
+          "prompt": "Speichere deine Hausarbeit noch einmal ab, ___ du den Laptop zuklappst.",
+          "options": [
+            "bevor",
+            "nachdem",
+            "seit",
+            "als"
+          ],
+          "solution": "bevor",
+          "explanation": "Erst speichern, dann zuklappen: Die Nebensatzhandlung kommt später → 'bevor'. 'als' gilt nur für die Vergangenheit, 'nachdem' kehrt die Reihenfolge um."
+        },
+        {
+          "id": "l21t02",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze „als“ oder „wenn“.",
+          "prompt": "Ich war ziemlich überrascht, ___ ich letzte Woche meine alte Grundschullehrerin im Supermarkt traf.",
+          "solution": "als",
+          "explanation": "Einmaliges Ereignis in der Vergangenheit (letzte Woche) → 'als'. 'wenn' steht für Wiederholtes oder für Gegenwart/Zukunft."
+        },
+        {
+          "id": "l21t03",
+          "type": "multiple-choice",
+          "instruction": "Wähle den passenden Konnektor.",
+          "prompt": "___ die Studierenden im Hörsaal ihre Klausur schrieben, ging plötzlich der Feueralarm los, und alle mussten mitten in der Aufgabe abbrechen.",
+          "options": [
+            "Während",
+            "Nachdem",
+            "Bevor",
+            "Seit"
+          ],
+          "solution": "Während",
+          "explanation": "Der Alarm unterbricht das Schreiben: gleichzeitige Handlungen → 'während'. 'Bevor'/'Nachdem' passen nicht zu „mitten in der Aufgabe“."
+        },
+        {
+          "id": "l21t04",
+          "type": "multiple-choice",
+          "instruction": "Wähle den passenden Konnektor.",
+          "prompt": "___ du keinen Studienplatz hast, kannst du dich leider nicht für ein Zimmer im Wohnheim bewerben.",
+          "options": [
+            "Solange",
+            "Sobald",
+            "Bevor",
+            "Nachdem"
+          ],
+          "solution": "Solange",
+          "explanation": "'solange' = für die ganze Dauer eines Zustands. 'Sobald' markiert den Beginn eines Ereignisses und passt nicht zu „keinen Studienplatz haben“."
+        },
+        {
+          "id": "l21t05",
+          "type": "cloze-conjugation",
+          "instruction": "Setze das Verb in der richtigen Zeitform ein (zwei Wörter).",
+          "prompt": "Nachdem Henrik sein Staatsexamen ___ (bestehen), trat er eine Stelle an einer Grundschule in Kiel an.",
+          "solution": "bestanden hatte",
+          "explanation": "Hauptsatz im Präteritum → 'nachdem' + Plusquamperfekt: 'bestanden hatte'. 'bestand' wäre gleichzeitig, nicht vorzeitig."
+        },
+        {
+          "id": "l21t06",
+          "type": "cloze-conjugation",
+          "instruction": "Setze das Verb in der richtigen Zeitform ein (zwei Wörter).",
+          "prompt": "Nachdem die Lehrerin die Klassenarbeiten ___ (korrigieren), bespricht sie die häufigsten Fehler mit der Klasse.",
+          "solution": "korrigiert hat",
+          "explanation": "Hauptsatz im Präsens → 'nachdem' + Perfekt: 'korrigiert hat'. Das Plusquamperfekt gehört nur zu einem Hauptsatz in der Vergangenheit."
+        },
+        {
+          "id": "l21t07",
+          "type": "error-correction",
+          "instruction": "Korrigiere die Zeitform im Nebensatz. Verwende dasselbe Verb; der Hauptsatz bleibt unverändert.",
+          "prompt": "Nachdem die Universitätsleitung die Schließung der Bibliothek ankündigte, protestierten hunderte Studierende vor dem Hauptgebäude.",
+          "solution": "Nachdem die Universitätsleitung die Schließung der Bibliothek angekündigt hatte, protestierten hunderte Studierende vor dem Hauptgebäude.",
+          "explanation": "'nachdem' drückt Vorzeitigkeit aus: Hauptsatz Präteritum → Nebensatz Plusquamperfekt ('angekündigt hatte'), nicht Präteritum."
+        },
+        {
+          "id": "l21t08",
+          "type": "targeted-transformation",
+          "instruction": "Ersetze den Nebensatz durch „seit“ + das Nomen „Eröffnung“ mit Artikel. Der Rest des Satzes bleibt.",
+          "prompt": "Seit die neue Ganztagsschule eröffnet wurde, sind viele Eltern nachmittags entlastet.",
+          "solution": "Seit der Eröffnung der neuen Ganztagsschule sind viele Eltern nachmittags entlastet.",
+          "explanation": "'seit' + Nebensatz ↔ 'seit' + Dativ: seit der Eröffnung, dazu Genitiv: der neuen Ganztagsschule. Die Präpositionalgruppe füllt das Vorfeld, dann folgt das Verb."
+        },
+        {
+          "id": "l21t09",
+          "type": "targeted-transformation",
+          "instruction": "Ersetze den Nebensatz durch „während“ + Genitiv mit dem Nomen „Tutorium“. Der Rest des Satzes bleibt.",
+          "prompt": "Während das Tutorium stattfindet, bleibt die Cafeteria im Erdgeschoss geöffnet.",
+          "solution": "Während des Tutoriums bleibt die Cafeteria im Erdgeschoss geöffnet.",
+          "explanation": "Die Präposition 'während' verlangt den Genitiv: des Tutoriums. Ohne Nebensatz entfällt das Verb 'stattfinden'."
+        },
+        {
+          "id": "l21t10",
+          "type": "multiple-choice",
+          "instruction": "Wähle die passende Präposition mit Artikel.",
+          "prompt": "Die Bibliothek bleibt noch ___ Ende der Osterferien geschlossen und öffnet erst danach wieder.",
+          "options": [
+            "bis zum",
+            "seit dem",
+            "vor dem",
+            "beim"
+          ],
+          "solution": "bis zum",
+          "explanation": "Der Endpunkt eines Zeitraums → 'bis zum Ende'. 'seit dem' nennt einen Anfangspunkt, 'beim' einen Zeitpunkt."
+        },
+        {
+          "id": "l21t11",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Wort.",
+          "prompt": "Die Schule renovierte im Sommer alle Klassenzimmer. ___ waren die Räume dunkel und zugig gewesen.",
+          "options": [
+            "Davor",
+            "Danach",
+            "Währenddessen",
+            "Bevor"
+          ],
+          "solution": "Davor",
+          "explanation": "Die Zeit vor der Renovierung → Adverb 'davor' (Verb auf Position 2). 'Bevor' ist ein Konnektor und verlangt Verbendstellung."
+        },
+        {
+          "id": "l21t12",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Wort.",
+          "prompt": "Die Eltern sitzen gerade beim Elternabend in der Aula. ___ betreuen ältere Schülerinnen die kleinen Geschwister in der Turnhalle.",
+          "options": [
+            "Währenddessen",
+            "Während",
+            "Seitdem",
+            "Bis"
+          ],
+          "solution": "Währenddessen",
+          "explanation": "Gleichzeitig, aber im Hauptsatz mit Verb auf Position 2 → Adverb 'währenddessen'. 'Während' als Konnektor bräuchte einen Nebensatz mit Verb am Ende."
+        },
+        {
+          "id": "l21t13",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz. Beginne mit „Sobald“.",
+          "prompt": "Baue den Satz aus den Satzgliedern.",
+          "scrambleChunks": [
+            "dürfen",
+            "wieder auf den Schulhof",
+            "das Gewitter",
+            "Sobald",
+            "die Kinder",
+            "vorbei ist,"
+          ],
+          "solution": "Sobald das Gewitter vorbei ist, dürfen die Kinder wieder auf den Schulhof.",
+          "explanation": "Im 'sobald'-Satz steht das Verb am Ende; der Nebensatz füllt das Vorfeld, deshalb folgt direkt das Verb des Hauptsatzes: dürfen die Kinder."
+        },
+        {
+          "id": "l21t14",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz. Beginne mit „Seit“.",
+          "prompt": "Baue den Satz aus den Satzgliedern.",
+          "scrambleChunks": [
+            "ist",
+            "deutlich größer geworden",
+            "Seit",
+            "die Theater-AG an unserer Schule",
+            "die Gruppe",
+            "sie",
+            "leitet,"
+          ],
+          "solution": "Seit sie die Theater-AG an unserer Schule leitet, ist die Gruppe deutlich größer geworden.",
+          "explanation": "'seit' = etwas hat begonnen und dauert an: Nebensatz mit Verb am Ende, danach Hauptsatz mit Verb zuerst (ist die Gruppe)."
+        },
+        {
+          "id": "l21t15",
+          "type": "error-correction",
+          "instruction": "Der Konnektor ist falsch gewählt (als/wenn). Korrigiere ihn und ändere nur dieses Wort.",
+          "prompt": "Als im Winter der Schulbus ausfiel, musste meine Mutter uns jedes Mal mit dem Auto bringen.",
+          "solution": "Wenn im Winter der Schulbus ausfiel, musste meine Mutter uns jedes Mal mit dem Auto bringen.",
+          "explanation": "Wiederholte Handlung in der Vergangenheit (jedes Mal) → 'wenn'. 'als' steht nur für ein einmaliges Ereignis."
+        },
+        {
+          "id": "l21t16",
+          "type": "targeted-transformation",
+          "instruction": "Forme die Präpositionalgruppe in einen Nebensatz um. Beginne mit „Nachdem Herr Brandt aus Japan“, verwende „zurückkehren“ und im Hauptsatz „er“.",
+          "prompt": "Nach seiner Rückkehr aus Japan unterrichtete Herr Brandt wieder an seinem alten Gymnasium.",
+          "solution": "Nachdem Herr Brandt aus Japan zurückgekehrt war, unterrichtete er wieder an seinem alten Gymnasium.",
+          "explanation": "'nach' + Nomen ↔ 'nachdem' + Nebensatz. Hauptsatz im Präteritum → Plusquamperfekt; 'zurückkehren' bildet es mit 'sein': zurückgekehrt war."
+        }
+      ]
+    }
+  ]
+}

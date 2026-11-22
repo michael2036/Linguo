@@ -28,12 +28,12 @@
       "required": ["id", "level", "category", "title", "subtitle", "lektionIds", "visual", "examples", "warning", "back"],
       "additionalProperties": false,
       "properties": {
-        "id": { "type": "string", "pattern": "^(a1|a2|b1)-[a-z0-9-]+$" },
-        "level": { "enum": ["A1", "A2", "B1", "B1+"] },
+        "id": { "type": "string", "pattern": "^(a1|a2|b1|b2)-[a-z0-9-]+$" },
+        "level": { "enum": ["A1", "A2", "B1", "B1+", "B2"] },
         "category": { "enum": ["satzbau", "verben", "nomen", "praepositionen", "adjektive", "konnektoren", "redemittel"] },
         "title": { "type": "string", "maxLength": 40 },
         "subtitle": { "type": "string", "maxLength": 70 },
-        "lektionIds": { "type": "array", "items": { "type": "string", "pattern": "^(a1|a2|b1)-m[1-8]-l[0-9]+$" } },
+        "lektionIds": { "type": "array", "items": { "type": "string", "pattern": "^(a1|a2|b1|b2)-m([1-9]|1[0-2])-l[0-9]+$" } },
         "visual": {
           "oneOf": [
             {

@@ -151,7 +151,11 @@ export const ExerciseRunner = ({ tierLabel, items, onComplete, onItemComplete }:
     if (submitted) return;
     const answer = answerOverride ?? currentAnswer();
     if (!answer.trim()) return;
-    const correct = isCorrectAnswer(answer, item.solution);
+    // A picked option is compared exactly: options may differ only in case
+    // (formal "Ihre" vs. "ihre"), which the lenient free-text check would
+    // otherwise treat as the same answer.
+    const correct =
+      item.type === 'multiple-choice' ? answer === item.solution : isCorrectAnswer(answer, item.solution);
     if (correct) {
       setCorrectCount((c) => c + 1);
       setStreak((s) => s + 1);

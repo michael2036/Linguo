@@ -1,0 +1,2495 @@
+{
+  "modulId": "b2-m2",
+  "level": "B2",
+  "modulNumber": 2,
+  "title": "An die Arbeit",
+  "lektionen": [
+    {
+      "lektionId": "b2-m2-l4",
+      "level": "B2",
+      "modulNumber": 2,
+      "lektionNumber": 4,
+      "title": "Jobs für morgen",
+      "grammarFocus": [
+        "Textzusammenhang: Verweiswörter (Relativ-, Demonstrativ-, Personalpronomen, Präpositionaladverbien wie dafür/damit)",
+        "Sätze verbinden: Relativsatz oder zwei Hauptsätze mit Verweiswort (…, die … / Diese …)",
+        "Text gliedern: zuerst, außerdem, zusätzlich, weiter, schließlich, abschließend"
+      ],
+      "vocabulary": [
+        {
+          "id": "l4v01",
+          "term": "die Digitalisierung",
+          "translation": "la digitalización",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Die Digitalisierung verändert auch Berufe, die lange als sicher galten."
+        },
+        {
+          "id": "l4v02",
+          "term": "der Wandel",
+          "translation": "el cambio, la transformación",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "example": "Der technische Wandel verläuft heute schneller als vor zwanzig Jahren."
+        },
+        {
+          "id": "l4v03",
+          "term": "die Arbeitswelt",
+          "translation": "el mundo laboral",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Arbeitswelten",
+          "example": "In der Arbeitswelt von morgen wird lebenslanges Lernen selbstverständlich sein."
+        },
+        {
+          "id": "l4v04",
+          "term": "der Roboter",
+          "translation": "el robot",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Roboter",
+          "example": "Im Lager sortiert ein Roboter nachts die eingehenden Pakete."
+        },
+        {
+          "id": "l4v05",
+          "term": "ersetzen",
+          "translation": "reemplazar, sustituir",
+          "partOfSpeech": "verb",
+          "preterite": "ersetzte",
+          "participle": "ersetzt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Maschinen können manche Handgriffe ersetzen, aber kein echtes Gespräch."
+        },
+        {
+          "id": "l4v06",
+          "term": "übernehmen",
+          "translation": "asumir, hacerse cargo de",
+          "partOfSpeech": "verb",
+          "preterite": "übernahm",
+          "participle": "übernommen",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Nach der Pensionierung ihres Vaters hat sie die Werkstatt übernommen."
+        },
+        {
+          "id": "l4v07",
+          "term": "die Fähigkeit",
+          "translation": "la capacidad, la habilidad",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Fähigkeiten",
+          "example": "Kreativität ist eine Fähigkeit, die Computer bisher kaum besitzen."
+        },
+        {
+          "id": "l4v08",
+          "term": "die Vergütung",
+          "translation": "la remuneración",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Vergütungen",
+          "example": "Über die Vergütung sprechen wir am besten erst im zweiten Termin."
+        },
+        {
+          "id": "l4v09",
+          "term": "der Berufsanfänger",
+          "translation": "el principiante (en el mundo laboral)",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Berufsanfänger",
+          "example": "Viele Berufsanfänger wissen nach dem Studium nicht genau, welche Richtung sie einschlagen sollen."
+        },
+        {
+          "id": "l4v10",
+          "term": "der Einsatz",
+          "translation": "el uso, el empleo",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Einsätze",
+          "example": "Der Einsatz von Drohnen hilft Landwirten, ihre Felder zu kontrollieren."
+        },
+        {
+          "id": "l4v11",
+          "term": "die Voraussetzung",
+          "translation": "el requisito, la condición previa",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Voraussetzungen",
+          "example": "Ein schneller Internetanschluss ist die wichtigste Voraussetzung für Homeoffice."
+        },
+        {
+          "id": "l4v12",
+          "term": "der Rechner",
+          "translation": "el ordenador, la computadora",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Rechner",
+          "example": "Mein alter Rechner braucht fünf Minuten, bis er hochgefahren ist."
+        },
+        {
+          "id": "l4v13",
+          "term": "einstellen",
+          "translation": "contratar",
+          "partOfSpeech": "verb",
+          "preterite": "stellte ein",
+          "participle": "eingestellt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Die Bäckerei will im Frühjahr zwei neue Auszubildende einstellen."
+        },
+        {
+          "id": "l4v14",
+          "term": "ausüben",
+          "translation": "ejercer (una profesión)",
+          "partOfSpeech": "verb",
+          "preterite": "übte aus",
+          "participle": "ausgeübt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Mein Großvater hat seinen Beruf als Schreiner über vierzig Jahre ausgeübt."
+        },
+        {
+          "id": "l4v15",
+          "term": "erledigen",
+          "translation": "llevar a cabo, despachar",
+          "partOfSpeech": "verb",
+          "preterite": "erledigte",
+          "participle": "erledigt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Die Software erledigt die Buchhaltung inzwischen fast von allein."
+        },
+        {
+          "id": "l4v16",
+          "term": "die Herstellung",
+          "translation": "la fabricación, la producción",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Für die Herstellung eines Smartphones braucht man seltene Metalle."
+        },
+        {
+          "id": "l4v17",
+          "term": "effektiv",
+          "translation": "eficaz",
+          "partOfSpeech": "adjective",
+          "example": "Mit einer klaren Aufgabenliste arbeitet unser Team deutlich effektiver."
+        },
+        {
+          "id": "l4v18",
+          "term": "vernetzt",
+          "translation": "conectado, interconectado",
+          "partOfSpeech": "adjective",
+          "example": "In einer vernetzten Fabrik tauschen Maschinen ständig Daten aus."
+        },
+        {
+          "id": "l4v19",
+          "term": "der Datenschutz",
+          "translation": "la protección de datos",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "example": "Wegen des Datenschutzes dürfen wir Kundendaten nicht weitergeben."
+        },
+        {
+          "id": "l4v20",
+          "term": "die Abwechslung",
+          "translation": "la variedad, el cambio (de rutina)",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Als Abwechslung zum Büroalltag hilft er am Wochenende auf einem Bauernhof."
+        },
+        {
+          "id": "l4v21",
+          "term": "abwechslungsreich",
+          "translation": "variado",
+          "partOfSpeech": "adjective",
+          "example": "Sie sucht eine abwechslungsreiche Stelle mit viel Kundenkontakt."
+        },
+        {
+          "id": "l4v22",
+          "term": "der Arbeitsplatz",
+          "translation": "el puesto de trabajo",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Arbeitsplätze",
+          "example": "Durch die Automatisierung sind in der Druckerei einige Arbeitsplätze weggefallen."
+        },
+        {
+          "id": "l4v23",
+          "term": "improvisieren",
+          "translation": "improvisar",
+          "partOfSpeech": "verb",
+          "preterite": "improvisierte",
+          "participle": "improvisiert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Als der Beamer ausfiel, musste die Referentin improvisieren."
+        },
+        {
+          "id": "l4v24",
+          "term": "einwandfrei",
+          "translation": "impecable, sin fallos",
+          "partOfSpeech": "adjective",
+          "example": "Nach dem Update läuft das Programm wieder einwandfrei."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l4e01",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Verweiswort.",
+            "prompt": "Viele Logistikfirmen setzen Roboter ein. ___ arbeiten auch nachts ohne Pause.",
+            "options": [
+              "Diese",
+              "Denen",
+              "Deren",
+              "Dessen"
+            ],
+            "solution": "Diese",
+            "hint": "Das Wort ist Subjekt des zweiten Satzes.",
+            "explanation": "'Diese' ist Demonstrativpronomen im Nominativ Plural und verweist auf 'Roboter'. 'Denen' ist Dativ, 'deren/dessen' sind Genitiv."
+          },
+          {
+            "id": "l4e02",
+            "type": "multiple-choice",
+            "instruction": "Worauf verweist das markierte Wort?",
+            "prompt": "Die Stadt baut im nächsten Jahr ein neues Rechenzentrum. Dafür braucht sie viel Fachpersonal. – Worauf verweist 'dafür'?",
+            "options": [
+              "auf den Bau des Rechenzentrums",
+              "auf die Stadt",
+              "auf das Fachpersonal",
+              "auf das nächste Jahr"
+            ],
+            "solution": "auf den Bau des Rechenzentrums",
+            "hint": "Präpositionaladverbien verweisen auf Sachen oder ganze Aussagen, nicht auf Personen.",
+            "explanation": "'Dafür' verweist auf eine Sache oder ganze Aussage, hier den Bau. Auf die Stadt als Handelnde würde man mit 'für sie' verweisen."
+          },
+          {
+            "id": "l4e03",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Präpositionaladverb (warten auf).",
+            "prompt": "Das Festival beginnt erst um zehn Uhr. Die Kinder warten schon seit acht Uhr ___.",
+            "solution": "darauf",
+            "hint": "da(r) + Präposition; vor Vokal kommt ein -r- dazu.",
+            "explanation": "'warten auf' + Sache → 'darauf'. Bei Präpositionen mit Vokal am Anfang wird ein -r- eingefügt: dar-auf, nicht 'daauf'."
+          },
+          {
+            "id": "l4e04",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Relativpronomen.",
+            "prompt": "Es gibt Programme, mit ___ man einfache Büroarbeiten automatisieren kann.",
+            "options": [
+              "denen",
+              "deren",
+              "die",
+              "dem"
+            ],
+            "solution": "denen",
+            "hint": "'mit' verlangt den Dativ; das Bezugswort steht im Plural.",
+            "explanation": "'Programme' ist Plural, 'mit' + Dativ → 'denen'. 'die' ist Nominativ/Akkusativ, 'deren' Genitiv, 'dem' Dativ Singular."
+          },
+          {
+            "id": "l4e05",
+            "type": "multiple-choice",
+            "instruction": "Der Satz eröffnet einen Vortrag. Wähle das passende Wort.",
+            "prompt": "___ möchte ich erklären, warum Roboter in der Pflege eingesetzt werden.",
+            "options": [
+              "Zuerst",
+              "Abschließend",
+              "Außerdem",
+              "Schließlich"
+            ],
+            "solution": "Zuerst",
+            "hint": "Welches Wort leitet den ersten Punkt ein?",
+            "explanation": "'Zuerst' eröffnet eine Gliederung. 'Außerdem' ergänzt einen Punkt, 'schließlich' und 'abschließend' leiten den letzten Teil ein."
+          },
+          {
+            "id": "l4e06",
+            "type": "multiple-choice",
+            "instruction": "Der Satz steht im letzten Absatz. Wähle das passende Wort.",
+            "prompt": "___ fasse ich die wichtigsten Ergebnisse noch einmal zusammen.",
+            "options": [
+              "Abschließend",
+              "Zuerst",
+              "Außerdem",
+              "Zusätzlich"
+            ],
+            "solution": "Abschließend",
+            "hint": "Welches Wort signalisiert das Ende eines Textes?",
+            "explanation": "'Abschließend' leitet den Schluss ein. 'Zuerst' eröffnet, 'außerdem' und 'zusätzlich' fügen nur einen weiteren Punkt hinzu."
+          },
+          {
+            "id": "l4e07",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Fragewort mit wo(r)- (sich kümmern um).",
+            "prompt": "Im Vorstellungsgespräch wollte man wissen, ___ sie sich in ihrer jetzigen Stelle kümmert.",
+            "solution": "worum",
+            "hint": "Fragewort für Sachen: wo(r) + Präposition.",
+            "explanation": "'sich kümmern um' + Sache → 'worum'; vor Vokal wird -r- eingefügt. 'Um was' ist umgangssprachlich, 'um wen' fragt nach Personen."
+          },
+          {
+            "id": "l4e08",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Personalpronomen.",
+            "prompt": "Viele ältere Menschen leben allein. Eine App erinnert ___ an ihre Arzttermine.",
+            "options": [
+              "sie",
+              "ihnen",
+              "ihr",
+              "ihn"
+            ],
+            "solution": "sie",
+            "hint": "'erinnern an' – welcher Kasus für die Person? Das Bezugswort ist Plural.",
+            "explanation": "'jemanden erinnern an' verlangt den Akkusativ; Bezug 'Menschen' (Plural) → 'sie'. 'ihnen' wäre Dativ, 'ihr/ihn' sind Singular."
+          },
+          {
+            "id": "l4e09",
+            "type": "multiple-choice",
+            "instruction": "Bestimme das markierte Verweiswort.",
+            "prompt": "Die neue Drohne ist sehr leicht. Diese kann trotzdem Pakete bis zu fünf Kilo tragen. – Was ist 'Diese'?",
+            "options": [
+              "Demonstrativpronomen",
+              "Relativpronomen",
+              "Personalpronomen",
+              "Präpositionaladverb"
+            ],
+            "solution": "Demonstrativpronomen",
+            "hint": "Steht das Wort am Anfang eines Hauptsatzes oder eines Nebensatzes?",
+            "explanation": "'Diese' beginnt einen neuen Hauptsatz und zeigt auf 'die Drohne' zurück → Demonstrativpronomen. Ein Relativpronomen leitet einen Nebensatz ein."
+          },
+          {
+            "id": "l4e10",
+            "type": "multiple-choice",
+            "instruction": "Wähle den richtigen Satz.",
+            "prompt": "Welcher Satz ist richtig?",
+            "options": [
+              "Viele Betriebe nutzen Roboter, die rund um die Uhr arbeiten.",
+              "Viele Betriebe nutzen Roboter, die arbeiten rund um die Uhr.",
+              "Viele Betriebe nutzen Roboter, diese rund um die Uhr arbeiten.",
+              "Viele Betriebe nutzen Roboter. Die rund um die Uhr arbeiten."
+            ],
+            "solution": "Viele Betriebe nutzen Roboter, die rund um die Uhr arbeiten.",
+            "hint": "Im Relativsatz steht das Verb am Ende.",
+            "explanation": "Relativsatz = Nebensatz: Verb am Ende. 'diese' kann keinen Nebensatz einleiten, und 'Die rund um die Uhr arbeiten.' ist kein vollständiger Satz."
+          },
+          {
+            "id": "l4e11",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Relativpronomen.",
+            "prompt": "Das Start-up entwickelt eine App, ___ Nutzer vor allem Berufsanfänger sind.",
+            "solution": "deren",
+            "hint": "Die Nutzer gehören zur App: Genitiv.",
+            "explanation": "Besitz → Relativpronomen im Genitiv. 'die App' ist feminin → 'deren'. 'dessen' gilt nur für maskuline und neutrale Bezugswörter."
+          },
+          {
+            "id": "l4e12",
+            "type": "multiple-choice",
+            "instruction": "Im Text folgt ein weiteres Argument. Wähle das passende Wort.",
+            "prompt": "___ sparen Roboter in der Logistik viel Zeit.",
+            "options": [
+              "Außerdem",
+              "Zuerst",
+              "Abschließend",
+              "Obwohl"
+            ],
+            "solution": "Außerdem",
+            "hint": "Ein zusätzlicher Punkt, kein Anfang und kein Ende.",
+            "explanation": "'Außerdem' fügt ein Argument hinzu (Verb auf Position 2). 'Obwohl' leitet einen Nebensatz ein und bräuchte das Verb am Ende."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l4m01",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz mit Relativsatz. Beginne mit 'Die Firma'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "testen",
+              "Die Firma",
+              "kann",
+              "eine Technikerin,",
+              "Software für Lagerroboter",
+              "sucht",
+              "die"
+            ],
+            "solution": "Die Firma sucht eine Technikerin, die Software für Lagerroboter testen kann.",
+            "hint": "Im Relativsatz steht das konjugierte Verb ganz am Ende.",
+            "explanation": "Das Relativpronomen 'die' folgt direkt auf das Bezugswort 'Technikerin'; im Nebensatz steht 'kann' nach dem Infinitiv am Ende."
+          },
+          {
+            "id": "l4m02",
+            "type": "sentence-scramble",
+            "instruction": "Bilde zwei Hauptsätze. Beginne den zweiten Satz mit dem Verweiswort.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "geht",
+              "Die Steuerberaterin bekommt täglich vertrauliche Unterlagen.",
+              "besonders sorgfältig",
+              "Mit diesen",
+              "sie",
+              "um"
+            ],
+            "solution": "Die Steuerberaterin bekommt täglich vertrauliche Unterlagen. Mit diesen geht sie besonders sorgfältig um.",
+            "hint": "Verweiswort ins Vorfeld, dann das Verb.",
+            "explanation": "'Mit diesen' (Dativ Plural) verweist auf 'Unterlagen' und steht im Vorfeld; 'geht' folgt auf Position 2, das Präfix 'um' steht am Ende."
+          },
+          {
+            "id": "l4m03",
+            "type": "sentence-scramble",
+            "instruction": "Bilde zwei Hauptsätze. Beginne den zweiten Satz mit dem Verweiswort.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "haben",
+              "mehr Zeit für kreative Arbeit",
+              "Die Roboter erledigen monotone Aufgaben.",
+              "die Mitarbeitenden",
+              "Dadurch"
+            ],
+            "solution": "Die Roboter erledigen monotone Aufgaben. Dadurch haben die Mitarbeitenden mehr Zeit für kreative Arbeit.",
+            "hint": "Ein Präpositionaladverb im Vorfeld zählt als Position 1.",
+            "explanation": "'Dadurch' verweist auf den ganzen ersten Satz. Danach folgt das Verb 'haben' auf Position 2, dann das Subjekt."
+          },
+          {
+            "id": "l4m04",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz mit Relativsatz. Beginne mit 'Das ist'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "wir",
+              "die Software,",
+              "erstellen",
+              "Das ist",
+              "unsere Rechnungen",
+              "mit der"
+            ],
+            "solution": "Das ist die Software, mit der wir unsere Rechnungen erstellen.",
+            "hint": "Die Präposition steht vor dem Relativpronomen.",
+            "explanation": "'erstellen mit' → 'mit der' (Dativ, 'die Software' ist feminin). Präposition + Relativpronomen eröffnen den Nebensatz, das Verb steht am Ende."
+          },
+          {
+            "id": "l4m05",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Zuerst'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "vorstellen",
+              "möchte",
+              "Zuerst",
+              "die Vorteile der Digitalisierung",
+              "ich"
+            ],
+            "solution": "Zuerst möchte ich die Vorteile der Digitalisierung vorstellen.",
+            "hint": "Gliederungswort im Vorfeld, Modalverb auf Position 2.",
+            "explanation": "'Zuerst' steht im Vorfeld, 'möchte' auf Position 2, dann das Subjekt 'ich'; der Infinitiv 'vorstellen' steht am Ende."
+          },
+          {
+            "id": "l4m06",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Abschließend'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "dass",
+              "lässt sich",
+              "Menschen und Maschinen",
+              "Abschließend",
+              "gut zusammenarbeiten können",
+              "sagen,"
+            ],
+            "solution": "Abschließend lässt sich sagen, dass Menschen und Maschinen gut zusammenarbeiten können.",
+            "hint": "Nach 'dass' steht das konjugierte Verb am Ende.",
+            "explanation": "'Abschließend' leitet den Schluss ein, 'lässt' steht auf Position 2. Im dass-Satz steht 'können' am Ende."
+          },
+          {
+            "id": "l4m07",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz mit indirekter Frage. Beginne mit 'Frag dich,'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "am liebsten",
+              "Frag dich,",
+              "du",
+              "arbeitest",
+              "woran"
+            ],
+            "solution": "Frag dich, woran du am liebsten arbeitest.",
+            "hint": "Das Fragewort leitet einen Nebensatz ein.",
+            "explanation": "'arbeiten an' + Sache → 'woran'. Die indirekte Frage ist ein Nebensatz, also steht 'arbeitest' am Ende."
+          },
+          {
+            "id": "l4m08",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb im Relativsatz.",
+            "prompt": "Die Laptops, die unsere Schule im letzten Jahr ___, sind schon wieder veraltet. (kaufen, Präteritum)",
+            "solution": "kaufte",
+            "hint": "Wer hat gekauft? Das ist das Subjekt des Relativsatzes.",
+            "explanation": "'die' ist hier Akkusativobjekt, Subjekt ist 'unsere Schule' (Singular) → 'kaufte'. 'kauften' würde sich fälschlich nach 'Laptops' richten."
+          },
+          {
+            "id": "l4m09",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb im Relativsatz.",
+            "prompt": "Eine Ingenieurin, die Pflegeroboter ___, braucht auch soziale Kompetenz. (entwickeln, Präsens)",
+            "solution": "entwickelt",
+            "hint": "Worauf bezieht sich 'die' – auf eine Person oder auf mehrere?",
+            "explanation": "'die' verweist auf 'eine Ingenieurin' (Singular) → 'entwickelt'. 'entwickeln' passt nur zu einem Bezugswort im Plural."
+          },
+          {
+            "id": "l4m10",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb im Relativsatz.",
+            "prompt": "Das Unternehmen, für das meine Schwester seit Mai ___, stellt Pflegeroboter her. (arbeiten, Präsens)",
+            "solution": "arbeitet",
+            "hint": "Subjekt des Relativsatzes ist 'meine Schwester'.",
+            "explanation": "Subjekt ist 'meine Schwester' → 'arbeitet' (Stamm auf -t + e + t). Das Verb steht am Ende des Relativsatzes."
+          },
+          {
+            "id": "l4m11",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb.",
+            "prompt": "Die Firma kaufte letzten Monat einen neuen Server. Seitdem ___ dieser alle Daten doppelt so schnell. (verarbeiten, Präteritum)",
+            "solution": "verarbeitete",
+            "hint": "'dieser' ist Subjekt im Singular.",
+            "explanation": "'dieser' verweist auf 'den Server' und ist Subjekt (3. Person Singular) → 'verarbeitete'; Stamm auf -t, daher -ete."
+          },
+          {
+            "id": "l4m12",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze das Verb im Relativsatz.",
+            "prompt": "Die Kollegin, mit der ich das Projekt ___, wechselte später zu einem Start-up. (übernehmen, Präteritum)",
+            "solution": "übernahm",
+            "hint": "Subjekt des Relativsatzes ist 'ich'; 'übernehmen' ist unregelmäßig.",
+            "explanation": "Subjekt ist 'ich' → 'übernahm' (übernehmen – übernahm – übernommen). Keine Endung in der 1. Person Singular Präteritum."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l4h01",
+            "type": "targeted-transformation",
+            "instruction": "Mache aus dem ersten Satz einen Relativsatz mit 'die'. Beginne mit 'Die App'.",
+            "prompt": "Die App erinnert ältere Menschen an ihre Medikamente. Sie wurde in Wien entwickelt.",
+            "solution": "Die App, die ältere Menschen an ihre Medikamente erinnert, wurde in Wien entwickelt.",
+            "hint": "Der Relativsatz steht direkt hinter dem Bezugswort.",
+            "explanation": "Der Relativsatz folgt direkt auf 'Die App' und wird von Kommas eingeschlossen; 'erinnert' steht am Ende, danach geht der Hauptsatz mit 'wurde' weiter."
+          },
+          {
+            "id": "l4h02",
+            "type": "targeted-transformation",
+            "instruction": "Bilde zwei Hauptsätze. Beginne den zweiten Satz mit einer Form von 'dieser'.",
+            "prompt": "Wir suchen einen Mechatroniker, der Industrieroboter warten kann.",
+            "solution": "Wir suchen einen Mechatroniker. Dieser kann Industrieroboter warten.",
+            "hint": "Im Hauptsatz steht das konjugierte Verb auf Position 2.",
+            "explanation": "'Dieser' (Nominativ maskulin) verweist auf den Mechatroniker. Im Hauptsatz rückt 'kann' auf Position 2, 'warten' bleibt am Ende."
+          },
+          {
+            "id": "l4h03",
+            "type": "targeted-transformation",
+            "instruction": "Verbinde die Sätze mit einem Relativsatz (Präposition + der/die/das, nicht 'welch-' oder 'wo-'). Beginne mit 'Wir haben'.",
+            "prompt": "Wir haben eine neue Software. Mit ihr planen wir alle Schichten.",
+            "solution": "Wir haben eine neue Software, mit der wir alle Schichten planen.",
+            "hint": "Aus 'mit ihr' wird Präposition + Relativpronomen.",
+            "explanation": "'mit ihr' → 'mit der' (Dativ feminin). Die Präposition bleibt vor dem Relativpronomen; 'planen' rückt ans Ende."
+          },
+          {
+            "id": "l4h04",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze 'Mit dieser Methode' durch ein Präpositionaladverb mit derselben Präposition. Alles andere bleibt.",
+            "prompt": "Das Team testet eine neue Methode. Mit dieser Methode spart es viel Zeit.",
+            "solution": "Das Team testet eine neue Methode. Damit spart es viel Zeit.",
+            "hint": "da(r) + Präposition ersetzt eine Sache.",
+            "explanation": "'mit' + Sache → 'damit'. Das Verb bleibt auf Position 2. 'Mit ihr' wäre möglich, aber kein Präpositionaladverb."
+          },
+          {
+            "id": "l4h05",
+            "type": "targeted-transformation",
+            "instruction": "Mache daraus eine indirekte Frage. Beginne mit 'Überlege dir,'. Die Reihenfolge der übrigen Satzglieder bleibt.",
+            "prompt": "Wofür setzt du dich in deinem Beruf am liebsten ein?",
+            "solution": "Überlege dir, wofür du dich in deinem Beruf am liebsten einsetzt.",
+            "hint": "Indirekte Frage = Nebensatz; trennbare Verben werden wieder zusammengeschrieben.",
+            "explanation": "Im Nebensatz steht das Verb am Ende, und 'ein' + 'setzt' wird zu 'einsetzt'. Das Fragewort 'wofür' bleibt am Anfang."
+          },
+          {
+            "id": "l4h06",
+            "type": "targeted-transformation",
+            "instruction": "Mache aus dem zweiten Satz einen Relativsatz (Form von der/die/das). Beginne mit 'Die Kundinnen'. Die Reihenfolge der übrigen Satzglieder bleibt.",
+            "prompt": "Die Kundinnen sind sehr zufrieden. Die Beraterin hat ihnen bei der Jobsuche geholfen.",
+            "solution": "Die Kundinnen, denen die Beraterin bei der Jobsuche geholfen hat, sind sehr zufrieden.",
+            "hint": "'ihnen' ist Dativ Plural – welches Relativpronomen entspricht dem?",
+            "explanation": "'ihnen' (Dativ Plural, 'helfen' + Dativ) → 'denen'. 'die' wäre Nominativ/Akkusativ. Im Relativsatz steht 'hat' ganz am Ende."
+          },
+          {
+            "id": "l4h07",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere das falsche Relativpronomen. Verwende eine Form von der/die/das.",
+            "prompt": "In unserem Lager gibt es Roboter, denen nachts die Regale auffüllen.",
+            "solution": "In unserem Lager gibt es Roboter, die nachts die Regale auffüllen.",
+            "hint": "Welche Funktion hat das Relativpronomen im Nebensatz?",
+            "explanation": "Das Relativpronomen ist Subjekt des Relativsatzes → Nominativ Plural 'die'. 'denen' ist Dativ Plural."
+          },
+          {
+            "id": "l4h08",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. 'Dafür' bleibt am Anfang des zweiten Satzes.",
+            "prompt": "Unsere Abteilung bekommt einen neuen 3D-Drucker. Dafür wir brauchen einen größeren Raum.",
+            "solution": "Unsere Abteilung bekommt einen neuen 3D-Drucker. Dafür brauchen wir einen größeren Raum.",
+            "hint": "'Dafür' besetzt Position 1. Was kommt auf Position 2?",
+            "explanation": "Ein Präpositionaladverb im Vorfeld zählt als Position 1; danach folgt das Verb: 'Dafür brauchen wir'. 'Dafür wir brauchen' verletzt die Verbzweitstellung."
+          },
+          {
+            "id": "l4h09",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere das falsche Verweiswort (sprechen über). Ändere nur ein Wort.",
+            "prompt": "Die Kollegin denkt oft über ihre Zukunft nach. Damit spricht sie auch mit ihrem Chef.",
+            "solution": "Die Kollegin denkt oft über ihre Zukunft nach. Darüber spricht sie auch mit ihrem Chef.",
+            "hint": "Welche Präposition gehört zu 'sprechen' in diesem Sinn?",
+            "explanation": "'sprechen über' + Thema → 'darüber', das auf 'über ihre Zukunft' zurückverweist. 'damit' gehört zu 'mit' und passt nicht zu 'sprechen über'."
+          },
+          {
+            "id": "l4h10",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere das falsche Relativpronomen. Verwende eine Form von der/die/das.",
+            "prompt": "Der Chatbot, das die Kundenfragen beantwortet, ist rund um die Uhr erreichbar.",
+            "solution": "Der Chatbot, der die Kundenfragen beantwortet, ist rund um die Uhr erreichbar.",
+            "hint": "Das Relativpronomen richtet sich im Genus nach dem Bezugswort.",
+            "explanation": "'der Chatbot' ist maskulin, und das Relativpronomen ist Subjekt → 'der'. 'das' passt nur zu neutralen Bezugswörtern."
+          },
+          {
+            "id": "l4h11",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. 'Zusätzlich' bleibt am Satzanfang, die übrigen Satzglieder behalten ihre Reihenfolge.",
+            "prompt": "Zusätzlich wir bieten unseren Mitarbeitenden flexible Arbeitszeiten an.",
+            "solution": "Zusätzlich bieten wir unseren Mitarbeitenden flexible Arbeitszeiten an.",
+            "hint": "Gliederungswörter wie 'zusätzlich' stehen im Vorfeld.",
+            "explanation": "'Zusätzlich' besetzt Position 1, also folgt das Verb 'bieten' sofort, dann das Subjekt 'wir'. Das Präfix 'an' bleibt am Ende."
+          },
+          {
+            "id": "l4h12",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze 'an dem Roboter' durch ein Präpositionaladverb.",
+            "prompt": "Unser Team entwickelt einen Pflegeroboter. Seit zwei Jahren arbeitet es an dem Roboter.",
+            "solution": "Unser Team entwickelt einen Pflegeroboter. Seit zwei Jahren arbeitet es daran.",
+            "hint": "Für Sachen: da(r) + Präposition.",
+            "explanation": "'arbeiten an' + Sache → 'daran' (mit -r-, weil 'an' mit Vokal beginnt). 'an ihm' ist möglich, aber kein Präpositionaladverb."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l4t01",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Relativpronomen.",
+          "prompt": "Die Pflegekräfte, ___ die neue Dokumentations-App täglich nutzen, haben sie zuerst im Team getestet.",
+          "options": [
+            "die",
+            "denen",
+            "deren",
+            "dessen"
+          ],
+          "solution": "die",
+          "explanation": "Das Relativpronomen ist hier Subjekt (Nominativ Plural) → 'die'. 'denen' wäre Dativ, 'deren' Genitiv."
+        },
+        {
+          "id": "l4t02",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze eine Form von der/die/das (nicht welch-).",
+          "prompt": "Die Kollegin, ___ wir die gute Einarbeitung unserer Berufsanfänger verdanken, geht im Mai in Rente.",
+          "solution": "der",
+          "explanation": "'verdanken' verlangt den Dativ (jemandem etwas verdanken); Dativ feminin Singular → 'der'."
+        },
+        {
+          "id": "l4t03",
+          "type": "multiple-choice",
+          "instruction": "Wer ist mit „Diese“ gemeint?",
+          "prompt": "Frau Brandt hat mit ihrer Kollegin über die Vergütung gesprochen. Diese war damit gar nicht zufrieden.",
+          "options": [
+            "die Kollegin",
+            "Frau Brandt",
+            "beide Frauen",
+            "die Vergütung"
+          ],
+          "solution": "die Kollegin",
+          "explanation": "'dieser/diese' verweist auf die zuletzt genannte passende Person, hier die Kollegin. 'sie' wäre mehrdeutig."
+        },
+        {
+          "id": "l4t04",
+          "type": "targeted-transformation",
+          "instruction": "Verbinde die Sätze: Der zweite Satz wird zum Relativsatz (Form von der/die/das). Beginne mit „Die Gärtnerei“.",
+          "prompt": "Die Gärtnerei hat ein neues Gewächshaus gebaut. Sie liegt am Stadtrand.",
+          "solution": "Die Gärtnerei, die am Stadtrand liegt, hat ein neues Gewächshaus gebaut.",
+          "explanation": "Der Relativsatz steht direkt hinter seinem Bezugswort und wird durch Kommas eingeschlossen; das Verb steht am Ende."
+        },
+        {
+          "id": "l4t05",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze ein Präpositionaladverb mit da- und der Präposition „durch“.",
+          "prompt": "Unsere Praxis hat ein vernetztes Terminsystem eingeführt. ___ spart das Team am Empfang viel Zeit.",
+          "solution": "Dadurch",
+          "explanation": "Auf eine Sache oder einen ganzen Satz verweist da(r)- + Präposition: durch das System → 'dadurch'. 'durch es' ist kein korrektes Deutsch."
+        },
+        {
+          "id": "l4t06",
+          "type": "multiple-choice",
+          "instruction": "Welcher Verweis ist richtig?",
+          "prompt": "Herr Okafor hat das Lager jahrelang geleitet und geht nächste Woche in Rente. Das ganze Team möchte sich persönlich ___ verabschieden.",
+          "options": [
+            "von ihm",
+            "davon",
+            "wovon",
+            "von es"
+          ],
+          "solution": "von ihm",
+          "explanation": "Bei Personen: Präposition + Personalpronomen ('sich von ihm verabschieden'). 'davon' verweist nur auf Sachen, 'von es' ist falsch."
+        },
+        {
+          "id": "l4t07",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz mit Relativsatz. Beginne mit „Die Ärztin“.",
+          "prompt": "Baue den Satz aus den Satzgliedern.",
+          "scrambleChunks": [
+            "arbeitet",
+            "gesprochen habe,",
+            "seit Jahren in der Telemedizin",
+            "ich",
+            "Die Ärztin,",
+            "mit der"
+          ],
+          "solution": "Die Ärztin, mit der ich gesprochen habe, arbeitet seit Jahren in der Telemedizin.",
+          "explanation": "Die Präposition steht vor dem Relativpronomen ('mit der'); im Relativsatz steht das finite Verb am Ende."
+        },
+        {
+          "id": "l4t08",
+          "type": "multiple-choice",
+          "instruction": "Welches Wort leitet den letzten Punkt eines Vortrags ein?",
+          "prompt": "„… ___ möchte ich Ihnen noch drei Tipps zum Datenschutz am Arbeitsplatz mitgeben.“",
+          "options": [
+            "Abschließend",
+            "Zuerst",
+            "Zunächst",
+            "Außerdem"
+          ],
+          "solution": "Abschließend",
+          "explanation": "'abschließend' markiert den letzten Teil. 'zuerst/zunächst' eröffnen, 'außerdem' fügt nur einen weiteren Punkt hinzu."
+        },
+        {
+          "id": "l4t09",
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler. Ändere nur ein Wort und verwende eine Form von der/die/das.",
+          "prompt": "Der Kunde, dem wir gestern angerufen haben, möchte seinen Vertrag kündigen.",
+          "solution": "Der Kunde, den wir gestern angerufen haben, möchte seinen Vertrag kündigen.",
+          "explanation": "'anrufen' verlangt den Akkusativ (jemanden anrufen) → 'den'. 'dem' wäre Dativ."
+        },
+        {
+          "id": "l4t10",
+          "type": "multiple-choice",
+          "instruction": "Wähle das passende Relativpronomen.",
+          "prompt": "Der Verlag, ___ Chefredakteurin erst 31 Jahre alt ist, hat zwei neue Zeitschriften gegründet.",
+          "options": [
+            "dessen",
+            "deren",
+            "der",
+            "dem"
+          ],
+          "solution": "dessen",
+          "explanation": "Das Genitiv-Relativpronomen richtet sich nach dem Bezugswort: 'der Verlag' (maskulin) → 'dessen'. 'deren' passt nicht, obwohl 'Chefredakteurin' feminin ist."
+        },
+        {
+          "id": "l4t11",
+          "type": "targeted-transformation",
+          "instruction": "Mach aus dem Relativsatz einen zweiten Hauptsatz. Beginne ihn mit einer Form von dieser/diese/dieses; die übrigen Satzglieder bleiben.",
+          "prompt": "Mein Onkel hat eine Tischlerei übernommen, die seit 1950 in Familienbesitz ist.",
+          "solution": "Mein Onkel hat eine Tischlerei übernommen. Diese ist seit 1950 in Familienbesitz.",
+          "explanation": "Im Hauptsatz steht das Verb an Position 2: 'Diese ist …'. Das Demonstrativpronomen verweist eindeutig auf die Tischlerei."
+        },
+        {
+          "id": "l4t12",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze das passende Wort aus der Klammer.",
+          "prompt": "Die Werkstatt zahlt eine faire Vergütung. ___ bekommen alle Angestellten jedes Jahr zwei Tage Sonderurlaub. (Zuerst / Zusätzlich / Abschließend)",
+          "solution": "Zusätzlich",
+          "explanation": "'zusätzlich' fügt einen weiteren Vorteil hinzu. 'zuerst' eröffnet eine Aufzählung, 'abschließend' beendet sie."
+        },
+        {
+          "id": "l4t13",
+          "type": "error-correction",
+          "instruction": "Korrigiere den Verweis im zweiten Satz. Verwende Präposition + Personalpronomen; die Wortstellung bleibt.",
+          "prompt": "Unsere neue Teamleiterin ist sehr kompetent. Wir können uns immer darauf verlassen.",
+          "solution": "Unsere neue Teamleiterin ist sehr kompetent. Wir können uns immer auf sie verlassen.",
+          "explanation": "Die Teamleiterin ist eine Person, also 'auf sie'. 'darauf' verweist nur auf Sachen oder Sachverhalte."
+        },
+        {
+          "id": "l4t14",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze Präposition + Relativpronomen (Form von der/die/das, nicht wo-).",
+          "prompt": "Bei der Feuerwehr ist Teamgeist die Eigenschaft, ___ es im Einsatz am meisten ankommt.",
+          "solution": "auf die",
+          "explanation": "'es kommt auf etwas an': Die Präposition steht vor dem Relativpronomen; 'die Eigenschaft' (Akk. fem.) → 'auf die'. Ohne 'auf' fehlt die Präposition."
+        },
+        {
+          "id": "l4t15",
+          "type": "targeted-transformation",
+          "instruction": "Ersetze „über den neuen Rechner“ durch ein Präpositionaladverb mit da-. Schreibe nur den zweiten Satz.",
+          "prompt": "Unser Team hat endlich einen schnelleren Rechner bekommen. Alle freuen sich über den neuen Rechner.",
+          "solution": "Alle freuen sich darüber.",
+          "explanation": "Bei Sachen: da- + Präposition, vor Vokal mit -r-: über → 'darüber'. 'über ihn' verwendet man im Standarddeutsch für Personen."
+        },
+        {
+          "id": "l4t16",
+          "type": "multiple-choice",
+          "instruction": "Welches Präpositionaladverb passt?",
+          "prompt": "Linda arbeitet in der Herstellung von Medikamenten. ___ braucht sie sehr gute Chemiekenntnisse.",
+          "options": [
+            "Dafür",
+            "Darauf",
+            "Daran",
+            "Davon"
+          ],
+          "solution": "Dafür",
+          "explanation": "'dafür' verweist auf den vorigen Satz: für diese Arbeit braucht man etwas. 'darauf/daran/davon' passen nicht zu 'brauchen'."
+        }
+      ]
+    },
+    {
+      "lektionId": "b2-m2-l5",
+      "level": "B2",
+      "modulNumber": 2,
+      "lektionNumber": 5,
+      "title": "Die Bewerbung",
+      "grammarFocus": [
+        "Formelle Redemittel im Bewerbungsschreiben (tätig sein als, sich beruflich verändern, sich etwas erhoffen von, Ihr Unternehmen ist mir aufgefallen)",
+        "Verben und Adjektive mit festen Präpositionen (verfügen über, sich interessieren für, sich bewerben um/bei, bekannt für)",
+        "Komposita mit Fugenelement (Bewerbungsschreiben, Kommunikationsstärke, verhandlungssicher)"
+      ],
+      "vocabulary": [
+        {
+          "id": "l5v01",
+          "term": "die Stellenanzeige",
+          "translation": "el anuncio de empleo",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Stellenanzeigen",
+          "example": "In der Stellenanzeige werden gute Französischkenntnisse ausdrücklich verlangt."
+        },
+        {
+          "id": "l5v02",
+          "term": "die Bewerbung",
+          "translation": "la solicitud de empleo / la candidatura",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Bewerbungen",
+          "example": "Bis Ende des Monats will Paula ihre Bewerbung abgeschickt haben."
+        },
+        {
+          "id": "l5v03",
+          "term": "das Anschreiben",
+          "translation": "la carta de presentación",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Anschreiben",
+          "example": "Ein gutes Anschreiben passt nicht nur zur Stelle, sondern auch zur Firma."
+        },
+        {
+          "id": "l5v04",
+          "term": "der Lebenslauf",
+          "translation": "el currículum",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Lebensläufe",
+          "example": "Lücken im Lebenslauf sollte man im Gespräch offen erklären können."
+        },
+        {
+          "id": "l5v05",
+          "term": "das Vorstellungsgespräch",
+          "translation": "la entrevista de trabajo",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Vorstellungsgespräche",
+          "example": "Vor dem Vorstellungsgespräch hat Malik die Website der Firma genau studiert."
+        },
+        {
+          "id": "l5v06",
+          "term": "der Personaler",
+          "translation": "el reclutador / el responsable de personal",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Personaler",
+          "example": "Viele Personaler lesen ein Anschreiben nur wenige Minuten lang."
+        },
+        {
+          "id": "l5v07",
+          "term": "die Personalabteilung",
+          "translation": "el departamento de recursos humanos",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Personalabteilungen",
+          "example": "Die Personalabteilung hat mir den Vertrag per Post zugeschickt."
+        },
+        {
+          "id": "l5v08",
+          "term": "das Jobportal",
+          "translation": "el portal de empleo",
+          "partOfSpeech": "noun",
+          "gender": "das",
+          "plural": "die Jobportale",
+          "example": "Auf mehreren Jobportalen hat Ines ein Suchprofil angelegt."
+        },
+        {
+          "id": "l5v09",
+          "term": "die Berufserfahrung",
+          "translation": "la experiencia profesional",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Berufserfahrungen",
+          "example": "Für diese Position braucht man mindestens fünf Jahre Berufserfahrung."
+        },
+        {
+          "id": "l5v10",
+          "term": "die Gehaltsvorstellung",
+          "translation": "la expectativa salarial",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Gehaltsvorstellungen",
+          "example": "Seine Gehaltsvorstellung hat Jonas vorher mit Bekannten aus der Branche verglichen."
+        },
+        {
+          "id": "l5v11",
+          "term": "die Kommunikationsstärke",
+          "translation": "la capacidad de comunicación",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Im Kundenservice zählt Kommunikationsstärke mehr als jedes Zeugnis."
+        },
+        {
+          "id": "l5v12",
+          "term": "die Staatsangehörigkeit",
+          "translation": "la nacionalidad",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Staatsangehörigkeiten",
+          "example": "Im deutschen Lebenslauf ist die Angabe der Staatsangehörigkeit freiwillig."
+        },
+        {
+          "id": "l5v13",
+          "term": "der Abschluss",
+          "translation": "el título / la titulación",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Abschlüsse",
+          "example": "Ihren Abschluss in Maschinenbau hat Tereza in Brünn gemacht."
+        },
+        {
+          "id": "l5v14",
+          "term": "der Eintrittstermin",
+          "translation": "la fecha de incorporación",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Eintrittstermine",
+          "example": "Bitte nennen Sie uns Ihren frühestmöglichen Eintrittstermin."
+        },
+        {
+          "id": "l5v15",
+          "term": "sich bewerben",
+          "translation": "postularse / presentar una candidatura",
+          "partOfSpeech": "verb",
+          "preterite": "bewarb sich",
+          "participle": "sich beworben",
+          "auxiliary": "haben",
+          "irregular": true,
+          "example": "Nach dem Praktikum hat sich Ole direkt um eine feste Stelle beworben."
+        },
+        {
+          "id": "l5v16",
+          "term": "sich verändern",
+          "translation": "cambiar (de trabajo / de rumbo)",
+          "partOfSpeech": "verb",
+          "preterite": "veränderte sich",
+          "participle": "sich verändert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Nach der Elternzeit wollte sich Sabine beruflich verändern."
+        },
+        {
+          "id": "l5v17",
+          "term": "sich erhoffen",
+          "translation": "esperar (obtener) algo",
+          "partOfSpeech": "verb",
+          "preterite": "erhoffte sich",
+          "participle": "sich erhofft",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Von dem Kurs erhoffen sich die Teilnehmenden bessere Chancen auf dem Arbeitsmarkt."
+        },
+        {
+          "id": "l5v18",
+          "term": "reizen",
+          "translation": "atraer / resultar atractivo",
+          "partOfSpeech": "verb",
+          "preterite": "reizte",
+          "participle": "gereizt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Besonders reizt mich die Zusammenarbeit mit internationalen Partnern."
+        },
+        {
+          "id": "l5v19",
+          "term": "überzeugen",
+          "translation": "convencer",
+          "partOfSpeech": "verb",
+          "preterite": "überzeugte",
+          "participle": "überzeugt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Mit ihrer Präsentation konnte die Kandidatin das ganze Gremium überzeugen."
+        },
+        {
+          "id": "l5v20",
+          "term": "auffallen",
+          "translation": "llamar la atención",
+          "partOfSpeech": "verb",
+          "preterite": "fiel auf",
+          "participle": "aufgefallen",
+          "auxiliary": "sein",
+          "irregular": true,
+          "example": "Seine sorgfältige Arbeit ist der Abteilungsleiterin schnell aufgefallen."
+        },
+        {
+          "id": "l5v21",
+          "term": "tätig",
+          "translation": "activo / empleado (tätig sein als: trabajar como)",
+          "partOfSpeech": "adjective",
+          "example": "Vor dem Studium war Emre zwei Jahre als Rettungssanitäter tätig."
+        },
+        {
+          "id": "l5v22",
+          "term": "eigenverantwortlich",
+          "translation": "de forma autónoma / bajo responsabilidad propia",
+          "partOfSpeech": "adjective",
+          "example": "In meiner jetzigen Position plane ich Projekte eigenverantwortlich."
+        },
+        {
+          "id": "l5v23",
+          "term": "verhandlungssicher",
+          "translation": "con dominio para negociar",
+          "partOfSpeech": "adjective",
+          "example": "Für den Export sucht die Firma jemanden mit verhandlungssicherem Spanisch."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l5e01",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Präposition.",
+            "prompt": "Ich bewerbe mich ___ die ausgeschriebene Stelle als Teamleiterin.",
+            "options": [
+              "um",
+              "über",
+              "an",
+              "nach"
+            ],
+            "solution": "um",
+            "hint": "Welche Präposition verlangt 'sich bewerben' für die Stelle?",
+            "explanation": "Man bewirbt sich um eine Stelle (+ Akk.) und bei einer Firma. 'über', 'an' und 'nach' passen nicht zu diesem Verb."
+          },
+          {
+            "id": "l5e02",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Präposition.",
+            "prompt": "Die Firma Hollmann ist in der ganzen Region ___ ihre nachhaltigen Verpackungen bekannt.",
+            "options": [
+              "für",
+              "von",
+              "über",
+              "mit"
+            ],
+            "solution": "für",
+            "hint": "Feste Verbindung: bekannt sein ___ etwas.",
+            "explanation": "'bekannt sein für' + Akkusativ nennt, wofür eine Firma bekannt ist. 'von', 'über' und 'mit' bilden mit 'bekannt' keine passende Verbindung."
+          },
+          {
+            "id": "l5e03",
+            "type": "multiple-choice",
+            "instruction": "Welcher Satz passt in ein formelles Bewerbungsschreiben?",
+            "prompt": "Wähle die formelle Variante.",
+            "options": [
+              "Seit 2019 bin ich als Buchhalterin bei der Firma Kranz tätig.",
+              "Seit 2019 jobbe ich als Buchhalterin bei der Firma Kranz.",
+              "Seit 2019 mache ich so Buchhaltung bei der Firma Kranz.",
+              "Seit 2019 hänge ich als Buchhalterin bei der Firma Kranz rum."
+            ],
+            "solution": "Seit 2019 bin ich als Buchhalterin bei der Firma Kranz tätig.",
+            "hint": "Welches Verb ist typisch für die Beschreibung der jetzigen Stelle?",
+            "explanation": "'tätig sein als … bei …' ist die formelle Redewendung im Anschreiben. 'jobben', 'so … machen' und 'rumhängen' sind umgangssprachlich."
+          },
+          {
+            "id": "l5e04",
+            "type": "multiple-choice",
+            "instruction": "Wähle das passende Verb.",
+            "prompt": "Von einem Wechsel in Ihr Team ___ ich mir mehr Gestaltungsspielraum.",
+            "options": [
+              "erhoffe",
+              "hoffe",
+              "freue",
+              "interessiere"
+            ],
+            "solution": "erhoffe",
+            "hint": "Das Verb steht mit 'mir' und 'von' + Dativ.",
+            "explanation": "'sich (Dat.) etwas erhoffen von' = etwas erwarten. 'hoffen' ist nicht reflexiv, 'sich freuen' und 'sich interessieren' brauchen 'mich', nicht 'mir'."
+          },
+          {
+            "id": "l5e05",
+            "type": "multiple-choice",
+            "instruction": "Welches Kompositum ist richtig geschrieben?",
+            "prompt": "Wähle die richtige Form.",
+            "options": [
+              "die Kommunikationsstärke",
+              "die Kommunikationstärke",
+              "die Kommunikationenstärke",
+              "die Kommunikationestärke"
+            ],
+            "solution": "die Kommunikationsstärke",
+            "hint": "Nomen auf -tion bekommen im Kompositum ein Fugenelement.",
+            "explanation": "Nach -tion, -ung, -heit, -keit steht im Kompositum immer das Fugen-s: Kommunikation|s|stärke."
+          },
+          {
+            "id": "l5e06",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Präposition.",
+            "prompt": "Ich verfüge ___ sehr gute Kenntnisse in der Tabellenkalkulation.",
+            "options": [
+              "über",
+              "von",
+              "mit",
+              "auf"
+            ],
+            "solution": "über",
+            "hint": "Feste Verbindung: verfügen ___ + Akkusativ.",
+            "explanation": "'verfügen über' + Akkusativ = etwas besitzen. Die anderen Präpositionen bilden mit 'verfügen' keine feste Verbindung."
+          },
+          {
+            "id": "l5e07",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze die Präposition.",
+            "prompt": "Ich interessiere mich sehr ___ eine Tätigkeit im Bereich Logistik.",
+            "solution": "für",
+            "hint": "Mit welcher Präposition steht 'sich interessieren'?",
+            "explanation": "'sich interessieren für' + Akkusativ. Achtung: das Nomen heißt 'Interesse an', das Verb aber 'sich interessieren für'."
+          },
+          {
+            "id": "l5e08",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Verb 'sich freuen' in der richtigen Form.",
+            "prompt": "Über eine Einladung zu einem persönlichen Gespräch ___ ich mich sehr.",
+            "solution": "freue",
+            "hint": "Typischer Schlusssatz; das Verb steht auf Position 2.",
+            "explanation": "'sich freuen über' + Akk. ist der typische Schlusssatz im Anschreiben. Nach dem Vorfeld steht das Verb auf Position 2: freue ich mich."
+          },
+          {
+            "id": "l5e09",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Fugenelement (nur den Buchstaben).",
+            "prompt": "das Bewerbung___schreiben",
+            "solution": "s",
+            "hint": "Nomen auf -ung bekommen im Kompositum einen Verbindungsbuchstaben.",
+            "explanation": "Nach -ung steht immer das Fugen-s: Bewerbung|s|schreiben, ebenso Vorstellungsgespräch."
+          },
+          {
+            "id": "l5e10",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze 'auffallen' im Partizip II.",
+            "prompt": "Ihr Unternehmen ist mir bei meiner Recherche im Internet sehr positiv ___.",
+            "solution": "aufgefallen",
+            "hint": "Trennbares Verb: das 'ge' steht zwischen Präfix und Stamm.",
+            "explanation": "'auffallen' ist trennbar und unregelmäßig: auf|ge|fallen. Perfekt mit 'sein': ist mir aufgefallen."
+          },
+          {
+            "id": "l5e11",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das fehlende Nomen.",
+            "prompt": "Seit meinem Umzug nach Leipzig bin ich auf der ___ nach einer Stelle im Vertrieb.",
+            "solution": "Suche",
+            "hint": "Feste Wendung: auf der … nach etwas sein.",
+            "explanation": "'auf der Suche nach' + Dativ ist eine feste Redewendung im Anschreiben: Man sucht etwas Neues."
+          },
+          {
+            "id": "l5e12",
+            "type": "multiple-choice",
+            "instruction": "Wähle die passende Präposition.",
+            "prompt": "Hiermit bewerbe ich mich ___ Ihrer Firma als Mediengestalter.",
+            "options": [
+              "bei",
+              "um",
+              "an",
+              "zu"
+            ],
+            "solution": "bei",
+            "hint": "Hier geht es um die Firma, nicht um die Stelle.",
+            "explanation": "Man bewirbt sich bei einer Firma (+ Dativ) und um eine Stelle (+ Akk.). 'Ihrer Firma' ist Dativ – also 'bei'."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l5m01",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz für ein Anschreiben. Beginne mit 'Seit drei Jahren'.",
+            "prompt": "Ordne die Satzteile.",
+            "solution": "Seit drei Jahren bin ich als Projektassistentin bei einer Spedition tätig.",
+            "hint": "Verb auf Position 2, 'tätig' ans Satzende.",
+            "explanation": "'tätig sein als … bei …': 'bin' auf Position 2, Subjekt danach, das Adjektiv 'tätig' steht am Ende wie ein Verbteil.",
+            "scrambleChunks": [
+              "tätig",
+              "ich",
+              "Seit drei Jahren",
+              "als Projektassistentin bei einer Spedition",
+              "bin"
+            ]
+          },
+          {
+            "id": "l5m02",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Von dieser Stelle'.",
+            "prompt": "Ordne die Satzteile.",
+            "solution": "Von dieser Stelle erhoffe ich mir mehr Verantwortung im Team.",
+            "hint": "Nach dem Verb: zuerst das Subjektpronomen, dann das Reflexivpronomen.",
+            "explanation": "'sich (Dat.) etwas erhoffen von': Verb auf Position 2, dann 'ich mir', danach das Akkusativobjekt.",
+            "scrambleChunks": [
+              "ich",
+              "mehr Verantwortung im Team",
+              "erhoffe",
+              "Von dieser Stelle",
+              "mir"
+            ]
+          },
+          {
+            "id": "l5m03",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit dem Nebensatz ('Da …').",
+            "prompt": "Ordne die Satzteile.",
+            "solution": "Da ich mich beruflich verändern möchte, bewerbe ich mich um die Stelle als Teamleiter.",
+            "hint": "Im Nebensatz steht das Modalverb am Ende; danach folgt direkt das Verb des Hauptsatzes.",
+            "explanation": "Nebensatz im Vorfeld → Hauptsatz beginnt mit dem Verb: 'bewerbe ich mich um …'. 'sich bewerben um' + Akk.",
+            "scrambleChunks": [
+              "bewerbe ich mich",
+              "Da ich mich",
+              "um die Stelle als Teamleiter",
+              "beruflich verändern möchte,"
+            ]
+          },
+          {
+            "id": "l5m04",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Ab dem 1. Oktober'.",
+            "prompt": "Ordne die Satzteile.",
+            "solution": "Ab dem 1. Oktober kann ich Ihnen meine Mitarbeit anbieten.",
+            "hint": "Pronomen im Dativ steht vor einem Nomen im Akkusativ.",
+            "explanation": "Formelle Angabe zum Eintrittstermin. Modalverb auf Position 2, Infinitiv am Ende; 'Ihnen' (Pronomen) vor 'meine Mitarbeit' (Nomen).",
+            "scrambleChunks": [
+              "anbieten",
+              "Ihnen",
+              "kann",
+              "meine Mitarbeit",
+              "Ab dem 1. Oktober",
+              "ich"
+            ]
+          },
+          {
+            "id": "l5m05",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Ihr Unternehmen'.",
+            "prompt": "Ordne die Satzteile.",
+            "solution": "Ihr Unternehmen ist mir auf einer Fachmesse sehr positiv aufgefallen.",
+            "hint": "Das Dativpronomen steht direkt nach dem Verb.",
+            "explanation": "'jemandem auffallen' (Perfekt mit 'sein'): 'ist mir … aufgefallen'. Das Pronomen 'mir' steht früh im Mittelfeld.",
+            "scrambleChunks": [
+              "sehr positiv aufgefallen",
+              "mir",
+              "Ihr Unternehmen",
+              "auf einer Fachmesse",
+              "ist"
+            ]
+          },
+          {
+            "id": "l5m06",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Als Industriekauffrau'.",
+            "prompt": "Ordne die Satzteile.",
+            "solution": "Als Industriekauffrau verfüge ich über langjährige Erfahrung im Einkauf.",
+            "hint": "'verfügen' braucht eine feste Präposition direkt vor dem Objekt.",
+            "explanation": "'verfügen über' + Akk.: Die Präposition steht direkt vor ihrem Objekt 'langjährige Erfahrung …'. Verb auf Position 2, Subjekt danach.",
+            "scrambleChunks": [
+              "über",
+              "ich",
+              "langjährige Erfahrung im Einkauf",
+              "verfüge",
+              "Als Industriekauffrau"
+            ]
+          },
+          {
+            "id": "l5m07",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze die richtige Verbform.",
+            "prompt": "Während meines Studiums ___ ich nebenbei als Werkstudentin in einer Steuerkanzlei tätig. (sein, Präteritum)",
+            "solution": "war",
+            "hint": "Im Lebenslauf und Anschreiben steht 'sein' meist im Präteritum.",
+            "explanation": "'tätig sein' im Präteritum, 1. Person Singular: ich war. Für frühere Tätigkeiten ist bei 'sein' das Präteritum üblich, nicht das Perfekt."
+          },
+          {
+            "id": "l5m08",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze die richtige Verbform.",
+            "prompt": "Frau Demir ___ sich letzte Woche um eine Stelle als Bauingenieurin. (sich bewerben, Präteritum)",
+            "solution": "bewarb",
+            "hint": "'bewerben' ist unregelmäßig: Der Stammvokal ändert sich.",
+            "explanation": "'sich bewerben' – bewarb – hat beworben. 3. Person Singular Präteritum: sie bewarb sich. 'bewerbte' gibt es nicht."
+          },
+          {
+            "id": "l5m09",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze die richtige Verbform.",
+            "prompt": "Die vielseitigen Aufgaben in Ihrer Stellenanzeige ___ mich sehr. (reizen, Präsens)",
+            "solution": "reizen",
+            "hint": "Wer ist das Subjekt – Singular oder Plural?",
+            "explanation": "Subjekt ist 'die Aufgaben' (Plural) → 'reizen'. 'etwas reizt mich' = es ist für mich attraktiv."
+          },
+          {
+            "id": "l5m10",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze die richtige Verbform.",
+            "prompt": "Im Vorstellungsgespräch hat mich die Bewerberin durch ihre Ruhe ___. (überzeugen, Partizip II)",
+            "solution": "überzeugt",
+            "hint": "Verben mit untrennbarem Präfix bilden das Partizip ohne 'ge-'.",
+            "explanation": "'überzeugen' hat das untrennbare Präfix 'über-' → Partizip II ohne 'ge': überzeugt. 'geüberzeugt' ist falsch."
+          },
+          {
+            "id": "l5m11",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze die richtige Verbform.",
+            "prompt": "Ich habe mich in diesem Jahr schon bei drei Firmen ___. (sich bewerben, Partizip II)",
+            "solution": "beworben",
+            "hint": "Untrennbares Präfix 'be-' und Vokalwechsel im Partizip.",
+            "explanation": "Partizip II von 'bewerben': beworben – ohne 'ge-' wegen 'be-', mit Vokalwechsel e → o."
+          },
+          {
+            "id": "l5m12",
+            "type": "cloze-conjugation",
+            "instruction": "Ergänze die richtige Verbform.",
+            "prompt": "Herr Lutz ___ sich von dem Wechsel bessere Aufstiegschancen. (sich erhoffen, Präsens)",
+            "solution": "erhofft",
+            "hint": "3. Person Singular Präsens.",
+            "explanation": "'sich erhoffen' ist regelmäßig: er erhofft sich etwas von … Nicht verwechseln mit 'hoffen auf'."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l5h01",
+            "type": "targeted-transformation",
+            "instruction": "Formuliere formell mit 'tätig sein als'. Beginne mit 'Seit 2020'; die übrigen Angaben bleiben in ihrer Reihenfolge.",
+            "prompt": "Seit 2020 arbeite ich als Pflegefachkraft im Klinikum Nord.",
+            "solution": "Seit 2020 bin ich als Pflegefachkraft im Klinikum Nord tätig.",
+            "hint": "'arbeiten' wird durch 'sein' ersetzt; 'tätig' steht am Ende.",
+            "explanation": "'tätig sein als' ist die formelle Variante von 'arbeiten als'. 'bin' steht auf Position 2, 'tätig' ans Satzende."
+          },
+          {
+            "id": "l5h02",
+            "type": "targeted-transformation",
+            "instruction": "Formuliere für ein Anschreiben mit 'möchte' und 'sich beruflich verändern'. Beginne mit 'Nach acht Jahren'; verwende keine weiteren Wörter.",
+            "prompt": "Nach acht Jahren will ich einen anderen Job.",
+            "solution": "Nach acht Jahren möchte ich mich beruflich verändern.",
+            "hint": "Modalverb auf Position 2, dann Subjekt und Reflexivpronomen.",
+            "explanation": "'sich beruflich verändern' ist die formelle Umschreibung für einen Stellenwechsel; 'möchte' wirkt höflicher als 'will'. Das Reflexivpronomen folgt dem Subjekt."
+          },
+          {
+            "id": "l5h03",
+            "type": "targeted-transformation",
+            "instruction": "Beginne mit 'Von dem Traineeprogramm' und verwende 'sich erhoffen'. Übernimm 'einen schnellen Einstieg'.",
+            "prompt": "Ich hoffe, dass mir das Traineeprogramm einen schnellen Einstieg ermöglicht.",
+            "solution": "Von dem Traineeprogramm erhoffe ich mir einen schnellen Einstieg.",
+            "hint": "Verb auf Position 2, dann Subjekt und Reflexivpronomen im Dativ.",
+            "explanation": "'sich (Dat.) etwas erhoffen von' ersetzt den dass-Satz. Das Reflexivpronomen ist Dativ ('mir'), weil 'einen schnellen Einstieg' das Akkusativobjekt ist."
+          },
+          {
+            "id": "l5h04",
+            "type": "targeted-transformation",
+            "instruction": "Verwende 'bekannt sein für'. Beginne mit 'Die Firma Brandt', lass 'viele Kunden' weg und setze 'bekannt' ans Satzende.",
+            "prompt": "Viele Kunden kennen die Firma Brandt wegen ihres zuverlässigen Service.",
+            "solution": "Die Firma Brandt ist für ihren zuverlässigen Service bekannt.",
+            "hint": "Aus 'wegen' + Genitiv wird eine feste Präposition mit Akkusativ.",
+            "explanation": "'bekannt sein für' + Akkusativ: für ihren zuverlässigen Service. Der Genitiv nach 'wegen' wird zum Akkusativ nach 'für'."
+          },
+          {
+            "id": "l5h05",
+            "type": "targeted-transformation",
+            "instruction": "Bilde aus der Wortgruppe ein Kompositum mit Artikel.",
+            "prompt": "die Leitung der Abteilung",
+            "solution": "die Abteilungsleitung",
+            "hint": "Das Grundwort steht hinten und bestimmt den Artikel.",
+            "explanation": "Nach -ung steht das Fugen-s: Abteilung|s|leitung. Das Grundwort 'Leitung' steht hinten und bestimmt den Artikel 'die'."
+          },
+          {
+            "id": "l5h06",
+            "type": "targeted-transformation",
+            "instruction": "Bilde aus der Wortgruppe ein Kompositum mit Artikel.",
+            "prompt": "das Angebot einer Stelle",
+            "solution": "das Stellenangebot",
+            "hint": "Feminine Nomen auf -e verbinden sich anders als Nomen auf -ung.",
+            "explanation": "Feminine Nomen auf -e bekommen meist die Fuge -n: Stelle|n|angebot. Ein Fugen-s wie bei -ung ist hier falsch; der Artikel kommt von 'Angebot'."
+          },
+          {
+            "id": "l5h07",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Ändere nur ein Wort.",
+            "prompt": "Ich bewerbe mich hiermit um der Stelle als Vertriebsleiter.",
+            "solution": "Ich bewerbe mich hiermit um die Stelle als Vertriebsleiter.",
+            "hint": "Welchen Kasus verlangt 'um'?",
+            "explanation": "'um' steht immer mit Akkusativ: um die Stelle. 'der Stelle' wäre Dativ oder Genitiv."
+          },
+          {
+            "id": "l5h08",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Ändere nur die Wörter nach 'über'.",
+            "prompt": "Ich verfüge über sehr guten Englischkenntnissen.",
+            "solution": "Ich verfüge über sehr gute Englischkenntnisse.",
+            "hint": "'verfügen über' – welcher Kasus folgt?",
+            "explanation": "'verfügen über' verlangt den Akkusativ: über sehr gute Englischkenntnisse. Die Dativendungen -en/-en sind falsch."
+          },
+          {
+            "id": "l5h09",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Ändere nur ein Wort.",
+            "prompt": "Ihr Unternehmen ist mich auf einer Karrieremesse aufgefallen.",
+            "solution": "Ihr Unternehmen ist mir auf einer Karrieremesse aufgefallen.",
+            "hint": "Wem fällt etwas auf?",
+            "explanation": "'jemandem auffallen' verlangt den Dativ: Es ist mir aufgefallen. 'mich' ist Akkusativ."
+          },
+          {
+            "id": "l5h10",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Ändere nur die Präposition und den Artikel danach.",
+            "prompt": "Ich interessiere mich besonders an der Arbeit im Außendienst.",
+            "solution": "Ich interessiere mich besonders für die Arbeit im Außendienst.",
+            "hint": "Verb und Nomen haben hier verschiedene Präpositionen.",
+            "explanation": "'sich interessieren für' + Akk. ('für die Arbeit'); nur das Nomen heißt 'Interesse an'. Mit der Präposition ändert sich auch der Artikel."
+          },
+          {
+            "id": "l5h11",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Ändere nur ein Wort.",
+            "prompt": "Meine Englischkenntnisse sind verhandlungsicher.",
+            "solution": "Meine Englischkenntnisse sind verhandlungssicher.",
+            "hint": "Achte auf die Wortfuge zwischen den beiden Teilen.",
+            "explanation": "'Verhandlung' endet auf -ung, darum braucht das Kompositum das Fugen-s: verhandlung|s|sicher."
+          },
+          {
+            "id": "l5h12",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Ändere nur ein Wort.",
+            "prompt": "Ich würde mir sehr freuen, wenn Sie mir die Gelegenheit zu einem persönlichen Gespräch geben.",
+            "solution": "Ich würde mich sehr freuen, wenn Sie mir die Gelegenheit zu einem persönlichen Gespräch geben.",
+            "hint": "'sich freuen' – Akkusativ oder Dativ beim Reflexivpronomen?",
+            "explanation": "'sich freuen' hat ein Reflexivpronomen im Akkusativ: ich würde mich freuen. Das zweite 'mir' ist richtig, denn 'jemandem etwas geben' verlangt den Dativ."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l5t01",
+          "type": "multiple-choice",
+          "instruction": "Wähle die passende Präposition.",
+          "prompt": "Bevor ich in die Forschung wechselte, war ich vier Jahre lang in einer Zahnarztpraxis ___ Assistentin tätig.",
+          "options": [
+            "als",
+            "wie",
+            "für",
+            "bei"
+          ],
+          "solution": "als",
+          "explanation": "'tätig sein als' + Berufsbezeichnung ohne Artikel nennt die Funktion. 'wie' vergleicht nur, 'für/bei' nennen den Arbeitgeber."
+        },
+        {
+          "id": "l5t02",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze die fehlende Präposition (ein Wort).",
+          "prompt": "Was erhoffen Sie sich ___ einem Auslandsjahr in unserer Niederlassung in Lyon?",
+          "solution": "von",
+          "explanation": "Feste Verbindung: 'sich etwas erhoffen von' + Dativ. 'für' oder 'aus' passen nicht zu diesem Verb."
+        },
+        {
+          "id": "l5t03",
+          "type": "multiple-choice",
+          "instruction": "Wähle die passende Präposition.",
+          "prompt": "Für das kommende Wintersemester bewirbt sich Lucía ___ ein Stipendium der Hochschule.",
+          "options": [
+            "bei",
+            "um",
+            "über",
+            "an"
+          ],
+          "solution": "um",
+          "explanation": "Man bewirbt sich 'um' etwas, das man bekommen will (Stelle, Stipendium; Akkusativ), aber 'bei' einer Institution (Dativ)."
+        },
+        {
+          "id": "l5t04",
+          "type": "cloze-conjugation",
+          "instruction": "Ergänze das Hilfsverb im Perfekt.",
+          "prompt": "Beim Lesen Ihrer Stellenanzeige ___ mir sofort die flexiblen Arbeitszeiten aufgefallen. (auffallen, Perfekt)",
+          "solution": "sind",
+          "explanation": "'auffallen' bildet das Perfekt mit 'sein'. Subjekt ist 'die Arbeitszeiten' (Plural), also 'sind'; 'mir' ist nur Dativobjekt, daher weder 'hat' noch 'ist'."
+        },
+        {
+          "id": "l5t05",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze das Fugenelement. Schreibe nur den fehlenden Buchstaben.",
+          "prompt": "Im Anhang finden Sie meinen Lebenslauf und mein letztes Arbeit___zeugnis.",
+          "solution": "s",
+          "explanation": "Nach 'Arbeit' steht im Kompositum ein Fugen-s: Arbeitszeugnis, wie Arbeitsvertrag. 'Arbeitzeugnis' ohne Fuge ist falsch."
+        },
+        {
+          "id": "l5t06",
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler. Ändere nur ein Wort.",
+          "prompt": "Schon während der Ausbildung habe ich mich vor allem an Fragen der Arbeitssicherheit interessiert.",
+          "solution": "Schon während der Ausbildung habe ich mich vor allem für Fragen der Arbeitssicherheit interessiert.",
+          "explanation": "Feste Verbindung: 'sich interessieren für' + Akkusativ. 'an' gehört zu 'Interesse haben an' + Dativ, nicht zum Verb."
+        },
+        {
+          "id": "l5t07",
+          "type": "multiple-choice",
+          "instruction": "Wähle die passende Präposition.",
+          "prompt": "Henrik hat sich ___ einem Start-up in Leipzig beworben.",
+          "options": [
+            "um",
+            "bei",
+            "an",
+            "für"
+          ],
+          "solution": "bei",
+          "explanation": "Beim Arbeitgeber steht 'bei' + Dativ ('bei einem Start-up'). 'um' braucht die Stelle selbst als Objekt."
+        },
+        {
+          "id": "l5t08",
+          "type": "targeted-transformation",
+          "instruction": "Formuliere formeller mit „möchte“ und „sich beruflich verändern“. Beginne mit „Seit der Geburt meiner Tochter“.",
+          "prompt": "Seit der Geburt meiner Tochter will ich einen anderen Job.",
+          "solution": "Seit der Geburt meiner Tochter möchte ich mich beruflich verändern.",
+          "explanation": "'sich beruflich verändern' ist reflexiv: 'möchte ich mich … verändern'. Ohne 'mich' ist der Satz falsch; der Infinitiv steht am Ende."
+        },
+        {
+          "id": "l5t09",
+          "type": "cloze-conjugation",
+          "instruction": "Ergänze die richtige Verbform.",
+          "prompt": "Von der Zusammenarbeit mit Ihrem Forschungsteam ___ wir uns wichtige Impulse für unsere Produktentwicklung. (sich erhoffen, Präsens)",
+          "solution": "erhoffen",
+          "explanation": "'sich etwas erhoffen von': regelmäßiges Verb, Subjekt 'wir' → 'erhoffen'. 'erhofft' wäre die Form für er/sie/ihr."
+        },
+        {
+          "id": "l5t10",
+          "type": "multiple-choice",
+          "instruction": "Welches Kompositum hat KEIN Fugenelement?",
+          "prompt": "Wähle das Wort ohne Fugenelement.",
+          "options": [
+            "Arbeitsvertrag",
+            "Stellenangebot",
+            "Teamfähigkeit",
+            "Bewerbungsfrist"
+          ],
+          "solution": "Teamfähigkeit",
+          "explanation": "'Team' + 'Fähigkeit' verbinden sich direkt. Die anderen haben eine Fuge: Arbeit-s-, Stelle-n-, Bewerbung-s-."
+        },
+        {
+          "id": "l5t11",
+          "type": "multiple-choice",
+          "instruction": "Wähle die passende Präposition.",
+          "prompt": "Als Projektleiterin war Frau Brandl im ganzen Haus ___ ihre klaren Absprachen bekannt.",
+          "options": [
+            "für",
+            "an",
+            "über",
+            "auf"
+          ],
+          "solution": "für",
+          "explanation": "'bekannt sein für' + Akkusativ nennt, wofür jemand einen Ruf hat. 'an', 'über' und 'auf' bilden mit 'bekannt' keine feste Verbindung."
+        },
+        {
+          "id": "l5t12",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz für ein Anschreiben. Beginne mit „Bei der Recherche für meine Abschlussarbeit“.",
+          "prompt": "Baue den Satz aus den Satzgliedern.",
+          "scrambleChunks": [
+            "Ihre Stiftung",
+            "aufgefallen",
+            "Bei der Recherche für meine Abschlussarbeit",
+            "ist mir"
+          ],
+          "solution": "Bei der Recherche für meine Abschlussarbeit ist mir Ihre Stiftung aufgefallen.",
+          "explanation": "Vorfeld besetzt → Verb an Position 2 ('ist'), dann das kurze Dativpronomen 'mir' vor dem Subjekt; das Partizip steht am Ende."
+        },
+        {
+          "id": "l5t13",
+          "type": "error-correction",
+          "instruction": "Korrigiere das falsch gebildete Kompositum. Ändere nur ein Wort.",
+          "prompt": "Bitte senden Sie Ihre Bewerbungunterlagen bis Ende Mai an unsere Personalabteilung.",
+          "solution": "Bitte senden Sie Ihre Bewerbungsunterlagen bis Ende Mai an unsere Personalabteilung.",
+          "explanation": "Nomen auf -ung bekommen im Kompositum ein Fugen-s: Bewerbungsunterlagen. Ohne Fuge ('Bewerbungunterlagen') ist das Wort falsch."
+        },
+        {
+          "id": "l5t14",
+          "type": "targeted-transformation",
+          "instruction": "Bilde aus „die Verhandlung“ und „sicher“ ein Adjektiv und setze es ein. Schreibe nur dieses eine Wort.",
+          "prompt": "Für diese Position sollten Sie Französisch ___ sprechen.",
+          "solution": "verhandlungssicher",
+          "explanation": "Nomen auf -ung + Adjektiv mit Fugen-s: verhandlungssicher. Als Adjektiv wird es kleingeschrieben; ohne -s- ist es falsch."
+        },
+        {
+          "id": "l5t15",
+          "type": "multiple-choice",
+          "instruction": "Du hast die Firma durch einen Fachartikel entdeckt. Welcher Satz ist korrekt und drückt genau das aus?",
+          "prompt": "Wähle den passenden Satz für dein Anschreiben.",
+          "options": [
+            "Ihr Unternehmen hat mir durch einen Fachartikel aufgefallen.",
+            "Ihr Unternehmen ist mich durch einen Fachartikel aufgefallen.",
+            "Ihr Unternehmen ist mir durch einen Fachartikel aufgefallen.",
+            "Ich bin Ihrem Unternehmen durch einen Fachartikel aufgefallen."
+          ],
+          "solution": "Ihr Unternehmen ist mir durch einen Fachartikel aufgefallen.",
+          "explanation": "'auffallen': Subjekt ist das, was auffällt; die Person steht im Dativ, Perfekt mit 'sein'. Der letzte Satz hieße: Die Firma hat dich bemerkt."
+        },
+        {
+          "id": "l5t16",
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler. Ändere nur ein Wort.",
+          "prompt": "Frau Okafor verfügt auf mehrjährige Erfahrung in der Qualitätssicherung.",
+          "solution": "Frau Okafor verfügt über mehrjährige Erfahrung in der Qualitätssicherung.",
+          "explanation": "Die feste Präposition ist 'über': verfügen über + Akkusativ. 'auf' passt zu 'sich verlassen auf', nicht hierher."
+        }
+      ]
+    },
+    {
+      "lektionId": "b2-m2-l6",
+      "level": "B2",
+      "modulNumber": 2,
+      "lektionNumber": 6,
+      "title": "Arbeiten ohne Chef",
+      "grammarFocus": [
+        "Konditionalsätze mit wenn, falls, sofern",
+        "Konditionalsätze ohne Konnektor: Verb auf Position 1 (Bekomme ich keine Hilfe, …)",
+        "Nominalisierung: wenn-Satz ↔ bei + Nomen (wenn man Projekte bespricht ↔ bei der Besprechung von Projekten)"
+      ],
+      "vocabulary": [
+        {
+          "id": "l6v01",
+          "term": "die Führungskraft",
+          "translation": "el directivo / la directiva",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Führungskräfte",
+          "example": "In unserem Start-up gibt es seit zwei Jahren keine klassische Führungskraft mehr."
+        },
+        {
+          "id": "l6v02",
+          "term": "die Hierarchie",
+          "translation": "la jerarquía",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Hierarchien",
+          "example": "Je weniger Hierarchie es gibt, desto schneller fallen manche Entscheidungen."
+        },
+        {
+          "id": "l6v03",
+          "term": "flach",
+          "translation": "plano / horizontal",
+          "partOfSpeech": "adjective",
+          "example": "Die Agentur wirbt mit flachen Hierarchien und kurzen Wegen."
+        },
+        {
+          "id": "l6v04",
+          "term": "die Zuständigkeit",
+          "translation": "la competencia / la responsabilidad",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Zuständigkeiten",
+          "example": "Zu Beginn des Projekts klären wir die Zuständigkeiten im Team."
+        },
+        {
+          "id": "l6v05",
+          "term": "die Verantwortung",
+          "translation": "la responsabilidad",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Ohne Chef trägt jeder Einzelne mehr Verantwortung für das Ergebnis."
+        },
+        {
+          "id": "l6v06",
+          "term": "die Selbstorganisation",
+          "translation": "la autoorganización",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Selbstorganisation funktioniert nur, wenn alle offen miteinander reden."
+        },
+        {
+          "id": "l6v07",
+          "term": "die Entscheidungsfreiheit",
+          "translation": "la libertad de decisión",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Viele Beschäftigte schätzen die große Entscheidungsfreiheit in ihrem Team."
+        },
+        {
+          "id": "l6v08",
+          "term": "die Gleichberechtigung",
+          "translation": "la igualdad de derechos",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "In der Genossenschaft gilt Gleichberechtigung: Jede Stimme zählt gleich viel."
+        },
+        {
+          "id": "l6v09",
+          "term": "die Mitbestimmung",
+          "translation": "la participación en las decisiones",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "example": "Mehr Mitbestimmung führt oft zu einer stärkeren Bindung an die Firma."
+        },
+        {
+          "id": "l6v10",
+          "term": "die Arbeitsanweisung",
+          "translation": "la instrucción de trabajo",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Arbeitsanweisungen",
+          "example": "Neue Kollegen wünschen sich am Anfang oft klare Arbeitsanweisungen."
+        },
+        {
+          "id": "l6v11",
+          "term": "delegieren",
+          "translation": "delegar",
+          "partOfSpeech": "verb",
+          "preterite": "delegierte",
+          "participle": "delegiert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Unsere frühere Abteilungsleiterin delegierte fast alle Aufgaben an das Team."
+        },
+        {
+          "id": "l6v12",
+          "term": "verteilen",
+          "translation": "repartir",
+          "partOfSpeech": "verb",
+          "preterite": "verteilte",
+          "participle": "verteilt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Am Montagmorgen verteilen wir die Aufgaben für die ganze Woche."
+        },
+        {
+          "id": "l6v13",
+          "term": "sich identifizieren",
+          "translation": "identificarse (con)",
+          "partOfSpeech": "verb",
+          "preterite": "identifizierte sich",
+          "participle": "sich identifiziert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Wer mitentscheiden darf, identifiziert sich stärker mit seinem Arbeitgeber."
+        },
+        {
+          "id": "l6v14",
+          "term": "sich beschweren",
+          "translation": "quejarse",
+          "partOfSpeech": "verb",
+          "preterite": "beschwerte sich",
+          "participle": "sich beschwert",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Mehrere Angestellte haben sich über die vielen Wochenenddienste beschwert."
+        },
+        {
+          "id": "l6v15",
+          "term": "kündigen",
+          "translation": "renunciar / despedir",
+          "partOfSpeech": "verb",
+          "preterite": "kündigte",
+          "participle": "gekündigt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Seit es mehr Mitbestimmung gibt, kündigen deutlich weniger Leute."
+        },
+        {
+          "id": "l6v16",
+          "term": "die Überstunde",
+          "translation": "la hora extra",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Überstunden",
+          "example": "Im Dezember sammeln sich in der Buchhaltung regelmäßig Überstunden an."
+        },
+        {
+          "id": "l6v17",
+          "term": "die Abstimmung",
+          "translation": "la coordinación / la votación",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Abstimmungen",
+          "example": "In selbstorganisierten Teams kostet die Abstimmung untereinander oft viel Zeit."
+        },
+        {
+          "id": "l6v18",
+          "term": "der Konflikt",
+          "translation": "el conflicto",
+          "partOfSpeech": "noun",
+          "gender": "der",
+          "plural": "die Konflikte",
+          "example": "Konflikte löst das Team in einer wöchentlichen Gesprächsrunde."
+        },
+        {
+          "id": "l6v19",
+          "term": "die Bedingung",
+          "translation": "la condición",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Bedingungen",
+          "example": "Unter einer Bedingung mache ich mit: Wir treffen alle Entscheidungen gemeinsam."
+        },
+        {
+          "id": "l6v20",
+          "term": "die Stärke",
+          "translation": "el punto fuerte",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Stärken",
+          "example": "Im Gespräch sollten Sie Ihre Stärken mit konkreten Beispielen belegen."
+        },
+        {
+          "id": "l6v21",
+          "term": "die Schwäche",
+          "translation": "el punto débil",
+          "partOfSpeech": "noun",
+          "gender": "die",
+          "plural": "die Schwächen",
+          "example": "Eine kleine Schwäche zuzugeben wirkt oft ehrlicher als perfekte Antworten."
+        },
+        {
+          "id": "l6v22",
+          "term": "begeisterungsfähig",
+          "translation": "entusiasta",
+          "partOfSpeech": "adjective",
+          "example": "Die neue Praktikantin ist begeisterungsfähig und steckt andere mit ihrer Energie an."
+        },
+        {
+          "id": "l6v23",
+          "term": "teamfähig",
+          "translation": "capaz de trabajar en equipo",
+          "partOfSpeech": "adjective",
+          "example": "In einer Firma ohne Chef muss man vor allem teamfähig sein."
+        },
+        {
+          "id": "l6v24",
+          "term": "aufholen",
+          "translation": "recuperar (tiempo o retraso)",
+          "partOfSpeech": "verb",
+          "preterite": "holte auf",
+          "participle": "aufgeholt",
+          "auxiliary": "haben",
+          "irregular": false,
+          "example": "Nach dem holprigen Start hat das Projektteam den Rückstand schnell aufgeholt."
+        },
+        {
+          "id": "l6v25",
+          "term": "souverän",
+          "translation": "seguro / con soltura",
+          "partOfSpeech": "adjective",
+          "example": "Trotz der schwierigen Frage reagierte der Bewerber ruhig und souverän."
+        }
+      ],
+      "practice": {
+        "easy": [
+          {
+            "id": "l6e01",
+            "type": "multiple-choice",
+            "instruction": "Welcher Konnektor kann 'falls' ersetzen, ohne die Bedeutung zu ändern?",
+            "prompt": "Falls das Team die Aufgaben selbst verteilt, braucht es keine Führungskraft.",
+            "options": [
+              "sofern",
+              "sobald",
+              "obwohl",
+              "indem"
+            ],
+            "solution": "sofern",
+            "hint": "Gesucht ist ein Konnektor, der ebenfalls eine Bedingung nennt.",
+            "explanation": "'sofern' nennt wie 'falls' eine Bedingung. 'sobald' ist temporal (Zeitpunkt), 'obwohl' konzessiv, 'indem' modal."
+          },
+          {
+            "id": "l6e02",
+            "type": "multiple-choice",
+            "instruction": "Wähle den passenden Konnektor.",
+            "prompt": "Immer ___ ein neues Projekt beginnt, setzt sich das ganze Team zusammen.",
+            "options": [
+              "wenn",
+              "falls",
+              "sofern",
+              "ob"
+            ],
+            "solution": "wenn",
+            "hint": "Nach 'immer' geht es um eine Wiederholung, nicht um eine Ausnahme.",
+            "explanation": "'immer wenn' = jedes Mal, wenn. 'falls' und 'sofern' betonen einen möglichen Einzelfall, 'ob' leitet eine indirekte Frage ein."
+          },
+          {
+            "id": "l6e03",
+            "type": "multiple-choice",
+            "instruction": "Welche Bedeutung hat 'sofern' in diesem Satz?",
+            "prompt": "Sofern alle einverstanden sind, arbeiten wir ab März ohne Teamleitung.",
+            "options": [
+              "unter der Voraussetzung, dass",
+              "obwohl",
+              "nachdem",
+              "weil"
+            ],
+            "solution": "unter der Voraussetzung, dass",
+            "hint": "'sofern' gehört zur Gruppe von 'wenn' und 'falls'.",
+            "explanation": "'sofern' nennt eine Bedingung: nur unter der Voraussetzung, dass alle zustimmen. Es ist weder konzessiv (obwohl) noch temporal oder kausal."
+          },
+          {
+            "id": "l6e04",
+            "type": "multiple-choice",
+            "instruction": "Wähle den korrekten Satz.",
+            "prompt": "Welcher Satz ist richtig?",
+            "options": [
+              "Wenn die Chefin im Urlaub ist, entscheidet das Team selbst.",
+              "Wenn die Chefin ist im Urlaub, entscheidet das Team selbst.",
+              "Wenn die Chefin im Urlaub ist, das Team entscheidet selbst.",
+              "Wenn ist die Chefin im Urlaub, das Team entscheidet selbst."
+            ],
+            "solution": "Wenn die Chefin im Urlaub ist, entscheidet das Team selbst.",
+            "hint": "Im Nebensatz steht das Verb am Ende; danach beginnt der Hauptsatz mit dem Verb.",
+            "explanation": "Im wenn-Satz steht 'ist' am Ende. Der Nebensatz besetzt Position 1, also folgt im Hauptsatz sofort das Verb: 'entscheidet das Team'."
+          },
+          {
+            "id": "l6e05",
+            "type": "multiple-choice",
+            "instruction": "Welcher Satz ist ein Konditionalsatz ohne Konnektor?",
+            "prompt": "Wähle den korrekten Satz.",
+            "options": [
+              "Gibt es keinen Chef, verteilen die Mitarbeitenden die Aufgaben.",
+              "Es gibt keinen Chef, verteilen die Mitarbeitenden die Aufgaben.",
+              "Gibt es keinen Chef, die Mitarbeitenden verteilen die Aufgaben.",
+              "Keinen Chef gibt es, die Mitarbeitenden verteilen die Aufgaben."
+            ],
+            "solution": "Gibt es keinen Chef, verteilen die Mitarbeitenden die Aufgaben.",
+            "hint": "Ohne Konnektor rückt das Verb der Bedingung an die erste Stelle.",
+            "explanation": "Ohne 'wenn' steht das Verb auf Position 1: 'Gibt es keinen Chef'. Auch im Hauptsatz folgt dann direkt das Verb: 'verteilen die Mitarbeitenden'."
+          },
+          {
+            "id": "l6e06",
+            "type": "multiple-choice",
+            "instruction": "Ergänze den Hauptsatz.",
+            "prompt": "Darf ich mehr mitentscheiden, ___",
+            "options": [
+              "bleibe ich gern in der Firma.",
+              "ich bleibe gern in der Firma.",
+              "ich gern in der Firma bleibe.",
+              "gern ich bleibe in der Firma."
+            ],
+            "solution": "bleibe ich gern in der Firma.",
+            "hint": "Der Bedingungssatz steht auf Position 1. Was kommt auf Position 2?",
+            "explanation": "Der vorangestellte Bedingungssatz ist Position 1, also kommt das Verb direkt danach: 'bleibe ich'. Endstellung gibt es nur im Nebensatz."
+          },
+          {
+            "id": "l6e07",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze die Präposition, die hier einen wenn-Satz ersetzt.",
+            "prompt": "___ Krankheit melden Sie sich bitte bis 9 Uhr bei Ihrem Team ab. (= Wenn Sie krank sind, …)",
+            "solution": "Bei",
+            "hint": "Diese Präposition mit Dativ drückt eine Bedingung aus.",
+            "explanation": "'bei' + Dativ ersetzt oft einen wenn-Satz: bei Krankheit = wenn Sie krank sind. Danach folgt direkt das Verb: 'melden Sie sich'."
+          },
+          {
+            "id": "l6e08",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze die zusammengezogene Form von 'bei + dem'.",
+            "prompt": "___ Einarbeiten neuer Kolleginnen packen alle mit an.",
+            "solution": "Beim",
+            "hint": "Präposition und Artikel verschmelzen zu einem Wort.",
+            "explanation": "bei + dem = beim. Das nominalisierte Verb 'das Einarbeiten' ist neutral, daher Dativ 'dem'."
+          },
+          {
+            "id": "l6e09",
+            "type": "multiple-choice",
+            "instruction": "Welcher Ausdruck mit 'bei' entspricht dem wenn-Satz?",
+            "prompt": "wenn man Projekte plant = ___",
+            "options": [
+              "bei der Planung von Projekten",
+              "bei die Planung von Projekten",
+              "beim Planung von Projekten",
+              "bei der Planen von Projekten"
+            ],
+            "solution": "bei der Planung von Projekten",
+            "hint": "planen → die Planung; 'bei' verlangt den Dativ.",
+            "explanation": "Aus 'planen' wird 'die Planung'; nach 'bei' steht Dativ: bei der Planung. 'beim' passt nur zu maskulinen oder neutralen Nomen."
+          },
+          {
+            "id": "l6e10",
+            "type": "fill-in-blank",
+            "instruction": "Ergänze das Nomen auf -ung.",
+            "prompt": "wenn man die Schichten verteilt = bei der ___ der Schichten",
+            "solution": "Verteilung",
+            "hint": "Bilde das Nomen aus dem Verbstamm und -ung.",
+            "explanation": "verteilen → die Verteilung. Nomen auf -ung sind immer feminin, daher 'bei der'."
+          },
+          {
+            "id": "l6e11",
+            "type": "fill-in-blank",
+            "instruction": "Konditionalsatz ohne Konnektor: Ergänze das Verb in der passenden Form. (haben)",
+            "prompt": "___ du Fragen zur Arbeitsanweisung, melde dich einfach bei Tarek.",
+            "solution": "Hast",
+            "hint": "Das Verb steht auf Position 1 und richtet sich nach 'du'.",
+            "explanation": "Ohne 'wenn' rückt das Verb an den Anfang: 'Hast du Fragen …' = 'Wenn du Fragen hast …'. Die Form zu 'du' ist 'hast'."
+          },
+          {
+            "id": "l6e12",
+            "type": "multiple-choice",
+            "instruction": "In welchem Satz drückt 'bei' eine Bedingung aus?",
+            "prompt": "Wähle den Satz.",
+            "options": [
+              "Bei Rückfragen erreichen Sie mich jederzeit per E-Mail.",
+              "Bei der Firma Lenz arbeite ich seit 2019.",
+              "Bei meinen Eltern habe ich lange gewohnt.",
+              "Bei uns im Büro gibt es eine Kaffeemaschine."
+            ],
+            "solution": "Bei Rückfragen erreichen Sie mich jederzeit per E-Mail.",
+            "hint": "Welcher Ausdruck lässt sich mit 'wenn …' umformulieren?",
+            "explanation": "'Bei Rückfragen' = wenn Sie Rückfragen haben – eine Bedingung. In den anderen Sätzen ist 'bei' lokal (Ort, Firma, Person)."
+          }
+        ],
+        "medium": [
+          {
+            "id": "l6m01",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Konditionalsatz. Beginne mit 'Wenn'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "müssen",
+              "die Führungskraft",
+              "Wenn",
+              "improvisieren",
+              "keine klaren Anweisungen gibt,",
+              "die Mitarbeitenden"
+            ],
+            "solution": "Wenn die Führungskraft keine klaren Anweisungen gibt, müssen die Mitarbeitenden improvisieren.",
+            "hint": "Nebensatz mit Verb am Ende, dann Hauptsatz mit dem Verb zuerst.",
+            "explanation": "Im wenn-Satz steht 'gibt' am Ende. Der ganze Nebensatz ist Position 1, deshalb folgt 'müssen' sofort; der Infinitiv steht am Satzende."
+          },
+          {
+            "id": "l6m02",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Konditionalsatz ohne Konnektor. Beginne mit 'Habe ich'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "motivierter",
+              "Habe ich",
+              "ich",
+              "mehr Entscheidungsfreiheit,",
+              "arbeite"
+            ],
+            "solution": "Habe ich mehr Entscheidungsfreiheit, arbeite ich motivierter.",
+            "hint": "Verb auf Position 1 in der Bedingung – und im Hauptsatz wieder das Verb zuerst.",
+            "explanation": "Ohne 'wenn' steht das Verb vorn: 'Habe ich …'. Im Hauptsatz folgt nach dem Komma direkt das Verb: 'arbeite ich'."
+          },
+          {
+            "id": "l6m03",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Wir'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "die Kundin",
+              "falls",
+              "das Meeting,",
+              "Wir",
+              "absagt",
+              "verschieben"
+            ],
+            "solution": "Wir verschieben das Meeting, falls die Kundin absagt.",
+            "hint": "Hauptsatz zuerst, dann der falls-Satz mit dem Verb am Ende.",
+            "explanation": "Steht der Hauptsatz vorn, hat er die normale Wortstellung (Verb auf Position 2). Im falls-Satz steht 'absagt' am Ende."
+          },
+          {
+            "id": "l6m04",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Satz. Beginne mit 'Bei'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "sich",
+              "Sie",
+              "an Frau Okafor",
+              "Bei Fragen zur Abrechnung",
+              "wenden"
+            ],
+            "solution": "Bei Fragen zur Abrechnung wenden Sie sich an Frau Okafor.",
+            "hint": "'Bei …' ist ein Satzglied auf Position 1. Was folgt auf Position 2?",
+            "explanation": "'Bei Fragen …' (= wenn Sie Fragen haben) steht auf Position 1, dann das Verb 'wenden', dann das Subjekt 'Sie' vor dem Reflexivpronomen 'sich'."
+          },
+          {
+            "id": "l6m05",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Konditionalsatz. Beginne mit 'Sofern'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "die Projektleitung",
+              "übernimmt",
+              "Sofern",
+              "sie",
+              "das Team einverstanden ist,"
+            ],
+            "solution": "Sofern das Team einverstanden ist, übernimmt sie die Projektleitung.",
+            "hint": "Nebensatz: Verb am Ende. Hauptsatz: Verb zuerst, Pronomen direkt danach.",
+            "explanation": "Im sofern-Satz steht 'ist' am Ende. Danach folgt das Verb 'übernimmt', dann das Pronomen 'sie' und das Objekt."
+          },
+          {
+            "id": "l6m06",
+            "type": "sentence-scramble",
+            "instruction": "Bilde einen Konditionalsatz ohne Konnektor. Beginne mit 'Klappt'; der Hauptsatz beginnt mit 'dann'.",
+            "prompt": "Ordne die Satzteile.",
+            "scrambleChunks": [
+              "brauchen",
+              "die Selbstorganisation nicht,",
+              "wieder eine Teamleitung",
+              "Klappt",
+              "dann",
+              "wir"
+            ],
+            "solution": "Klappt die Selbstorganisation nicht, dann brauchen wir wieder eine Teamleitung.",
+            "hint": "'dann' nimmt die Bedingung wieder auf und steht auf Position 1 des Hauptsatzes.",
+            "explanation": "'dann' besetzt Position 1 des Hauptsatzes, deshalb folgt sofort das Verb: 'dann brauchen wir'. 'dann wir brauchen' wäre falsch."
+          },
+          {
+            "id": "l6m07",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb in Klammern im Präsens.",
+            "prompt": "___ ich bis Mittwoch keine Rückmeldung, rufe ich die Kundin an. (bekommen)",
+            "solution": "Bekomme",
+            "hint": "Konditionalsatz ohne Konnektor: Das Verb steht vorn und passt zu 'ich'.",
+            "explanation": "Verb auf Position 1 ersetzt 'wenn': 'Bekomme ich keine Rückmeldung' = 'Wenn ich keine Rückmeldung bekomme'. Zu 'ich' gehört 'bekomme'."
+          },
+          {
+            "id": "l6m08",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb in Klammern im Präsens.",
+            "prompt": "Wenn ein Kollege krank ___, übernimmt das Team seine Aufgaben. (werden)",
+            "solution": "wird",
+            "hint": "'werden' ist in der 3. Person Singular unregelmäßig.",
+            "explanation": "werden: er/sie/es wird. Im wenn-Satz steht das Verb am Ende, direkt vor dem Komma."
+          },
+          {
+            "id": "l6m09",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb in Klammern im Präsens.",
+            "prompt": "___ du die Präsentation allein halten, solltest du früh mit der Vorbereitung anfangen. (müssen)",
+            "solution": "Musst",
+            "hint": "Modalverb, 2. Person Singular, auf Position 1.",
+            "explanation": "Ohne 'wenn' steht das Modalverb vorn, der Infinitiv 'halten' am Ende. müssen: du musst – im Singular ohne Umlaut."
+          },
+          {
+            "id": "l6m10",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb in Klammern im Präsens.",
+            "prompt": "Falls die Abteilung ihre Ziele nicht ___, analysiert sie gemeinsam die Gründe. (erreichen)",
+            "solution": "erreicht",
+            "hint": "Subjekt ist 'die Abteilung' – 3. Person Singular.",
+            "explanation": "die Abteilung = sie → erreicht. Im falls-Satz steht das Verb am Ende."
+          },
+          {
+            "id": "l6m11",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb in Klammern im Präsens.",
+            "prompt": "___ sich ein Kunde, kümmert sich die zuständige Kollegin sofort darum. (sich beschweren)",
+            "solution": "Beschwert",
+            "hint": "Konditionalsatz ohne Konnektor; Subjekt ist 'ein Kunde'.",
+            "explanation": "Verb auf Position 1 = Bedingung: 'Beschwert sich ein Kunde' = 'Wenn sich ein Kunde beschwert'. 3. Person Singular: beschwert."
+          },
+          {
+            "id": "l6m12",
+            "type": "cloze-conjugation",
+            "instruction": "Konjugiere das Verb in Klammern im Präsens.",
+            "prompt": "Sofern ihr das Projekt pünktlich ___, bekommt ihr eine Prämie. (abschließen)",
+            "solution": "abschließt",
+            "hint": "Trennbares Verb im Nebensatz – Verb am Ende.",
+            "explanation": "Im Nebensatz bleibt ein trennbares Verb zusammen: 'abschließt'. 'schließt … ab' steht nur im Hauptsatz."
+          }
+        ],
+        "hard": [
+          {
+            "id": "l6h01",
+            "type": "targeted-transformation",
+            "instruction": "Forme in einen Konditionalsatz ohne Konnektor um. Beginne mit dem Verb; der Hauptsatz beginnt ohne 'dann' und bleibt unverändert.",
+            "prompt": "Wenn ich keine klaren Ziele habe, verliere ich schnell die Motivation.",
+            "solution": "Habe ich keine klaren Ziele, verliere ich schnell die Motivation.",
+            "hint": "'wenn' fällt weg, das konjugierte Verb rückt an den Anfang.",
+            "explanation": "Ohne 'wenn' steht das Verb auf Position 1: 'Habe ich keine klaren Ziele'. Der Hauptsatz beginnt weiterhin mit dem Verb."
+          },
+          {
+            "id": "l6h02",
+            "type": "targeted-transformation",
+            "instruction": "Forme in einen Konditionalsatz mit 'falls' um. Beginne mit 'Falls'; der Hauptsatz bleibt unverändert.",
+            "prompt": "Fällt der Server aus, informiert das IT-Team alle Abteilungen.",
+            "solution": "Falls der Server ausfällt, informiert das IT-Team alle Abteilungen.",
+            "hint": "Im Nebensatz steht das Verb am Ende – was passiert mit dem trennbaren Präfix?",
+            "explanation": "Mit 'falls' steht das Verb am Ende, und das trennbare Verb wird wieder zusammengeschrieben: 'ausfällt'."
+          },
+          {
+            "id": "l6h03",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze den wenn-Satz durch 'bei' + Nomen. Beginne mit 'Bei der Abstimmung von'; die übrigen Wörter bleiben in ihrer Reihenfolge.",
+            "prompt": "Wenn man Arbeitszeiten im Team abstimmt, sollte man die Wünsche aller berücksichtigen.",
+            "solution": "Bei der Abstimmung von Arbeitszeiten im Team sollte man die Wünsche aller berücksichtigen.",
+            "hint": "Nach 'bei' + Nomen kein Komma; dann sofort das Verb.",
+            "explanation": "abstimmen → die Abstimmung; 'bei der Abstimmung von …' ist ein Satzglied auf Position 1 – kein Komma, danach direkt das Verb: 'sollte man'."
+          },
+          {
+            "id": "l6h04",
+            "type": "targeted-transformation",
+            "instruction": "Forme den Ausdruck mit 'bei' in einen wenn-Satz mit 'man' um. Beginne mit 'Wenn man'; der Hauptsatz bleibt unverändert.",
+            "prompt": "Bei der Planung des Budgets arbeitet die ganze Abteilung mit.",
+            "solution": "Wenn man das Budget plant, arbeitet die ganze Abteilung mit.",
+            "hint": "die Planung → planen; das Genitivattribut wird zum Akkusativobjekt.",
+            "explanation": "Aus 'der Planung des Budgets' wird 'man das Budget plant' – Verb am Ende, dann Komma und Hauptsatz mit dem Verb zuerst."
+          },
+          {
+            "id": "l6h05",
+            "type": "targeted-transformation",
+            "instruction": "Forme in einen Konditionalsatz ohne Konnektor um. Beginne mit dem Verb; der Hauptsatz beginnt ohne 'dann' und bleibt unverändert.",
+            "prompt": "Wenn wir das Projekt bis Freitag abschließen können, machen wir am Montag frei.",
+            "solution": "Können wir das Projekt bis Freitag abschließen, machen wir am Montag frei.",
+            "hint": "Bei Modalverben rückt das Modalverb nach vorn, der Infinitiv bleibt am Ende.",
+            "explanation": "Das konjugierte Modalverb 'können' steht auf Position 1, der Infinitiv 'abschließen' bleibt am Ende des Bedingungssatzes."
+          },
+          {
+            "id": "l6h06",
+            "type": "targeted-transformation",
+            "instruction": "Ersetze den wenn-Satz durch 'bei' + Nomen. Beginne mit 'Bei der Vorbereitung' und behalte die Präposition des Verbs.",
+            "prompt": "Wenn man sich auf ein Vorstellungsgespräch vorbereitet, sollte man seine Stärken kennen.",
+            "solution": "Bei der Vorbereitung auf ein Vorstellungsgespräch sollte man seine Stärken kennen.",
+            "hint": "sich vorbereiten auf → die Vorbereitung auf; das Reflexivpronomen fällt weg.",
+            "explanation": "Das Nomen behält die Präposition des Verbs: 'die Vorbereitung auf'. 'sich' entfällt; ohne Nebensatz kein Komma."
+          },
+          {
+            "id": "l6h07",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Der wenn-Satz bleibt vorn; ändere nur die Wortstellung.",
+            "prompt": "Wenn die Teamleitung fehlt, das Team entscheidet selbst.",
+            "solution": "Wenn die Teamleitung fehlt, entscheidet das Team selbst.",
+            "hint": "Der Nebensatz zählt als Position 1.",
+            "explanation": "Nach einem vorangestellten Nebensatz folgt sofort das Verb: 'entscheidet das Team'. Die Wortstellung Subjekt–Verb ist hier falsch."
+          },
+          {
+            "id": "l6h08",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Die Bedingung bleibt ohne Konnektor vorn; ändere nur die Wortstellung.",
+            "prompt": "Kommt der Kunde zu spät, wir warten zehn Minuten.",
+            "solution": "Kommt der Kunde zu spät, warten wir zehn Minuten.",
+            "hint": "Auch nach einer Bedingung mit Verb-Erststellung kommt im Hauptsatz das Verb zuerst.",
+            "explanation": "Der Bedingungssatz 'Kommt der Kunde zu spät' ist Position 1, also: 'warten wir'. Subjekt vor Verb ist hier falsch."
+          },
+          {
+            "id": "l6h09",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Der Hauptsatz bleibt vorn.",
+            "prompt": "Wir stellen im Herbst eine weitere Kollegin ein, sofern das ganze Team stimmt zu.",
+            "solution": "Wir stellen im Herbst eine weitere Kollegin ein, sofern das ganze Team zustimmt.",
+            "hint": "'sofern' leitet einen Nebensatz ein. Was passiert mit dem trennbaren Verb?",
+            "explanation": "Im sofern-Satz steht das Verb am Ende, und ein trennbares Verb wird zusammengeschrieben: 'zustimmt'. 'stimmt zu' gibt es nur im Hauptsatz."
+          },
+          {
+            "id": "l6h10",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Ändere nur ein Wort.",
+            "prompt": "Bei die Einarbeitung neuer Kollegen hilft das ganze Team.",
+            "solution": "Bei der Einarbeitung neuer Kollegen hilft das ganze Team.",
+            "hint": "Welchen Kasus verlangt 'bei'?",
+            "explanation": "'bei' steht immer mit Dativ: bei der Einarbeitung (feminin). 'die' wäre Nominativ oder Akkusativ."
+          },
+          {
+            "id": "l6h11",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Der Artikel 'der' bleibt; korrigiere nur das Nomen.",
+            "prompt": "Bei der Besprechen der Ergebnisse sind alle Mitarbeitenden dabei.",
+            "solution": "Bei der Besprechung der Ergebnisse sind alle Mitarbeitenden dabei.",
+            "hint": "Passt der Artikel 'der' zu diesem Nomen?",
+            "explanation": "'bei der' (Dativ feminin) verlangt das Nomen auf -ung: die Besprechung. Das nominalisierte Verb 'das Besprechen' bräuchte 'beim'."
+          },
+          {
+            "id": "l6h12",
+            "type": "error-correction",
+            "instruction": "Finde und korrigiere den Fehler. Die Bedingung bleibt ohne Konnektor vorn.",
+            "prompt": "Ausfällt die Besprechung, arbeiten wir an unseren Projekten weiter.",
+            "solution": "Fällt die Besprechung aus, arbeiten wir an unseren Projekten weiter.",
+            "hint": "Verb auf Position 1 ist wie im Hauptsatz: Was passiert mit dem Präfix?",
+            "explanation": "Bei Verb-Erststellung wird das trennbare Verb getrennt: 'Fällt … aus'. Nur im Nebensatz mit Konnektor steht 'ausfällt'."
+          }
+        ]
+      },
+      "test": [
+        {
+          "id": "l6t01",
+          "type": "multiple-choice",
+          "instruction": "Welcher Konnektor passt?",
+          "prompt": "Jedes Mal, ___ wir früher eine Frage hatten, mussten wir die Abteilungsleiterin um Erlaubnis bitten.",
+          "options": [
+            "wenn",
+            "falls",
+            "sofern",
+            "als"
+          ],
+          "solution": "wenn",
+          "explanation": "Nur 'wenn' ist auch temporal (= jedes Mal, wenn). 'falls'/'sofern' nennen nur Bedingungen, 'als' steht für ein einmaliges Ereignis in der Vergangenheit."
+        },
+        {
+          "id": "l6t02",
+          "type": "multiple-choice",
+          "instruction": "Welcher Satz ist ein korrekter Konditionalsatz ohne Konnektor?",
+          "prompt": "Wenn die Abstimmung zu lange dauert, verschieben wir die Entscheidung.",
+          "options": [
+            "Dauert die Abstimmung zu lange, verschieben wir die Entscheidung.",
+            "Dauert die Abstimmung zu lange, wir verschieben die Entscheidung.",
+            "Die Abstimmung zu lange dauert, verschieben wir die Entscheidung.",
+            "Dauert die Abstimmung zu lange, dann wir verschieben die Entscheidung."
+          ],
+          "solution": "Dauert die Abstimmung zu lange, verschieben wir die Entscheidung.",
+          "explanation": "Ohne Konnektor steht das Verb auf Position 1. Der Nebensatz besetzt das Vorfeld, daher folgt im Hauptsatz direkt das Verb."
+        },
+        {
+          "id": "l6t03",
+          "type": "multiple-choice",
+          "instruction": "Welche Nominalisierung ersetzt den wenn-Satz?",
+          "prompt": "Wenn man Konflikte löst, hilft eine neutrale Moderation. → ___ hilft eine neutrale Moderation.",
+          "options": [
+            "Bei der Lösung von Konflikten",
+            "Beim Lösung von Konflikten",
+            "Bei der Lösung mit Konflikten",
+            "Bei der Lösung der Konflikten"
+          ],
+          "solution": "Bei der Lösung von Konflikten",
+          "explanation": "lösen → die Lösung; 'bei' + Dativ: bei der Lösung. Das Objekt folgt mit 'von' + Dativ oder im Genitiv (der Konflikte, nicht 'der Konflikten')."
+        },
+        {
+          "id": "l6t04",
+          "type": "multiple-choice",
+          "instruction": "Welcher Satz ist ein Konditionalsatz ohne Konnektor?",
+          "prompt": "Jana und die Überstunden",
+          "options": [
+            "Hat Jana Überstunden gemacht, darf sie am Freitag früher gehen.",
+            "Hat Jana am Freitag Überstunden gemacht?",
+            "Jana hat Überstunden gemacht, deshalb darf sie früher gehen.",
+            "Jana darf früher gehen, weil sie Überstunden gemacht hat."
+          ],
+          "solution": "Hat Jana Überstunden gemacht, darf sie am Freitag früher gehen.",
+          "explanation": "Verb auf Position 1 plus Hauptsatz mit Verb vorn = Bedingung (= Wenn Jana … hat). Allein mit Fragezeichen ist es nur eine Frage."
+        },
+        {
+          "id": "l6t05",
+          "type": "cloze-conjugation",
+          "instruction": "Ergänze das Verb im Präsens. Der Satz ist ein Konditionalsatz ohne Konnektor.",
+          "prompt": "___ die Kantine geschlossen, bestellen wir mittags gemeinsam beim Lieferdienst. (sein)",
+          "solution": "Ist",
+          "explanation": "Ohne 'wenn' rückt das konjugierte Verb an Position 1: Ist die Kantine geschlossen, … (= Wenn die Kantine geschlossen ist, …)."
+        },
+        {
+          "id": "l6t06",
+          "type": "cloze-conjugation",
+          "instruction": "Ergänze das Verb im Präsens. Der Satz ist ein Konditionalsatz ohne Konnektor.",
+          "prompt": "___ du dich in der Gruppe übergangen, sprich das beim nächsten Teamtreffen an. (fühlen)",
+          "solution": "Fühlst",
+          "explanation": "Verb auf Position 1, Subjekt 'du' → 'Fühlst du dich …'. Der Hauptsatz ist hier ein Imperativ."
+        },
+        {
+          "id": "l6t07",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze das Nomen zum Verb in der Klammer.",
+          "prompt": "Bei der ___ neuer Mitarbeitender entscheidet das ganze Team mit. (einstellen)",
+          "solution": "Einstellung",
+          "explanation": "einstellen → die Einstellung (Nomen auf -ung, immer feminin). 'bei der Einstellung' = wenn wir neue Leute einstellen; der Infinitiv passt nach 'der' nicht."
+        },
+        {
+          "id": "l6t08",
+          "type": "fill-in-blank",
+          "instruction": "Ergänze 'bei' + bestimmten Artikel als Kurzform (ein Wort).",
+          "prompt": "___ Wechsel in ein anderes Projekt muss niemand um Erlaubnis fragen.",
+          "solution": "Beim",
+          "explanation": "'der Wechsel' ist maskulin; 'bei' verlangt den Dativ: bei dem → beim. 'bei der' wäre feminin."
+        },
+        {
+          "id": "l6t09",
+          "type": "targeted-transformation",
+          "instruction": "Forme in einen Konditionalsatz ohne Konnektor um. Der Hauptsatz bleibt unverändert (ohne 'dann').",
+          "prompt": "Wenn die Beschäftigten mehr Mitbestimmung haben, identifizieren sie sich stärker mit der Firma.",
+          "solution": "Haben die Beschäftigten mehr Mitbestimmung, identifizieren sie sich stärker mit der Firma.",
+          "explanation": "'wenn' fällt weg, das konjugierte Verb 'haben' wandert an Position 1. Der Hauptsatz bleibt gleich."
+        },
+        {
+          "id": "l6t10",
+          "type": "targeted-transformation",
+          "instruction": "Forme mit 'falls' um. Der Hauptsatz bleibt unverändert.",
+          "prompt": "Kündigt eine Kollegin, verteilen wir ihre Projekte im Team neu.",
+          "solution": "Falls eine Kollegin kündigt, verteilen wir ihre Projekte im Team neu.",
+          "explanation": "Mit 'falls' ist es ein Nebensatz: Das konjugierte Verb 'kündigt' steht am Ende."
+        },
+        {
+          "id": "l6t11",
+          "type": "targeted-transformation",
+          "instruction": "Ersetze den wenn-Satz durch 'bei' + Nomen. Beginne mit 'Bei der Erstellung' und verwende den Genitiv.",
+          "prompt": "Wenn wir die Urlaubsliste erstellen, berücksichtigen wir alle Wünsche.",
+          "solution": "Bei der Erstellung der Urlaubsliste berücksichtigen wir alle Wünsche.",
+          "explanation": "erstellen → die Erstellung; das Akkusativobjekt wird Genitivattribut: der Urlaubsliste. 'bei der …' ist ein Satzglied, also folgt das Verb auf Position 2."
+        },
+        {
+          "id": "l6t12",
+          "type": "targeted-transformation",
+          "instruction": "Forme in einen wenn-Satz um. Beginne mit 'Wenn man', der Hauptsatz bleibt unverändert.",
+          "prompt": "Bei der Bearbeitung von Kundenanfragen braucht man viel Geduld.",
+          "solution": "Wenn man Kundenanfragen bearbeitet, braucht man viel Geduld.",
+          "explanation": "die Bearbeitung → bearbeiten; 'von Kundenanfragen' wird Akkusativobjekt. Im wenn-Satz steht das Verb am Ende, im Hauptsatz direkt nach dem Komma."
+        },
+        {
+          "id": "l6t13",
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler im Hauptsatz. Ändere nur die Position des Verbs.",
+          "prompt": "Läuft ein Projekt aus dem Ruder, das Team sucht gemeinsam nach den Ursachen.",
+          "solution": "Läuft ein Projekt aus dem Ruder, sucht das Team gemeinsam nach den Ursachen.",
+          "explanation": "Der Bedingungssatz besetzt Position 1, also folgt im Hauptsatz sofort das Verb: '…, sucht das Team …'. Subjekt vor dem Verb ist hier falsch."
+        },
+        {
+          "id": "l6t14",
+          "type": "error-correction",
+          "instruction": "Finde und korrigiere den Fehler im Nebensatz.",
+          "prompt": "Sofern ist niemand dagegen, führen wir die Vier-Tage-Woche ein.",
+          "solution": "Sofern niemand dagegen ist, führen wir die Vier-Tage-Woche ein.",
+          "explanation": "'sofern' leitet einen Nebensatz ein: Das Verb steht am Ende. Verb auf Position 1 gibt es nur ohne Konnektor."
+        },
+        {
+          "id": "l6t15",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Konditionalsatz ohne Konnektor.",
+          "prompt": "Baue den Satz aus den Satzteilen.",
+          "scrambleChunks": [
+            "informieren wir",
+            "der Liefertermin,",
+            "die Kundschaft sofort",
+            "Verschiebt sich"
+          ],
+          "solution": "Verschiebt sich der Liefertermin, informieren wir die Kundschaft sofort.",
+          "explanation": "Bedingung mit Verb auf Position 1, danach der Hauptsatz mit dem Verb direkt nach dem Komma, nicht 'wir informieren'."
+        },
+        {
+          "id": "l6t16",
+          "type": "sentence-scramble",
+          "instruction": "Bilde einen Satz. Beginne mit 'Bei der Beschreibung'.",
+          "prompt": "Baue den Satz aus den Satzteilen.",
+          "scrambleChunks": [
+            "wirkte",
+            "ihrer Stärken",
+            "sehr souverän",
+            "Bei der Beschreibung",
+            "die Bewerberin"
+          ],
+          "solution": "Bei der Beschreibung ihrer Stärken wirkte die Bewerberin sehr souverän.",
+          "explanation": "'Bei der Beschreibung ihrer Stärken' (= wenn sie ihre Stärken beschrieb) ist ein Satzglied im Vorfeld, also folgt das Verb."
+        }
+      ]
+    }
+  ]
+}
