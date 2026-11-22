@@ -6659,6 +6659,2828 @@
           }
         ]
       }
+    },
+    {
+      "id": "b2-negation-nicht",
+      "level": "B2",
+      "category": "satzbau",
+      "title": "„nicht“: Satz oder Satzteil?",
+      "subtitle": "Ganzer Satz verneint: nicht möglichst weit hinten.",
+      "lektionIds": [
+        "b2-m1-l3"
+      ],
+      "visual": {
+        "kind": "columns",
+        "columns": [
+          {
+            "label": "Satznegation",
+            "sublabel": "der ganze Satz",
+            "tone": "accent",
+            "lines": true,
+            "items": [
+              "Ich komme [nicht].",
+              "Er hat [nicht] angerufen."
+            ]
+          },
+          {
+            "label": "Teilnegation",
+            "sublabel": "nur ein Satzteil",
+            "tone": "success",
+            "lines": true,
+            "items": [
+              "Ich komme {nicht heute},",
+              "{sondern} morgen."
+            ]
+          }
+        ]
+      },
+      "examples": [
+        {
+          "text": "Er kümmert sich [nicht] um die Anträge."
+        }
+      ],
+      "warning": {
+        "wrong": "Ich habe nicht die Mail gelesen.",
+        "right": "Ich habe die Mail nicht gelesen.",
+        "note": "Ohne sondern: nicht nach hinten."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "nicht steht vor …",
+            "lines": [
+              "Verbteil 2: [nicht] angerufen",
+              "Adjektiv: [nicht] schwierig",
+              "Präp.-Ergänzung: [nicht] um die Kinder"
+            ]
+          },
+          {
+            "title": "Andere Negationswörter",
+            "lines": [
+              "niemand · nichts · nie · nicht mehr"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Verneine: Ich habe ihn angerufen.",
+            "answer": "Ich habe ihn nicht angerufen."
+          },
+          {
+            "prompt": "Er kommt nicht heute, ___ morgen.",
+            "answer": "sondern"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-es",
+      "level": "B2",
+      "category": "satzbau",
+      "title": "Das Wort „es“",
+      "subtitle": "Platzhalter, Subjekt oder Verweis auf dass-Satz.",
+      "lektionIds": [
+        "b2-m5-l13"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "es auf Position 1",
+          "anderes Wort vorn"
+        ],
+        "rows": [
+          [
+            "[Es] kommen Gäste.",
+            "{Heute} kommen Gäste."
+          ],
+          [
+            "[Es] regnet heute.",
+            "{Heute} regnet [es]."
+          ]
+        ]
+      },
+      "tip": "Nur Platzhalter-es braucht Position 1. Subjekt-es bleibt.",
+      "examples": [
+        {
+          "text": "[Es] freut mich, dass ihr da seid."
+        }
+      ],
+      "warning": {
+        "wrong": "Seit gestern gibt kein WLAN.",
+        "right": "Seit gestern gibt es kein WLAN.",
+        "note": "Bei es gibt ist es Subjekt: es bleibt."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "es bleibt immer",
+            "lines": [
+              "Wetter: es regnet · es schneit",
+              "es gibt · es geht um · es fehlt an"
+            ]
+          },
+          {
+            "title": "Platzhalter · Korrelat",
+            "lines": [
+              "[Es] fehlen zwei Kabel. (Plural)",
+              "Ich finde [es] gut, dass du hilfst."
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Es ___ heute zwei Techniker vorbei. (kommen)",
+            "answer": "kommen"
+          },
+          {
+            "prompt": "„Mich“ vorn: Es stört mich, dass er raucht.",
+            "answer": "Mich stört, dass er raucht."
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-verweiswoerter",
+      "level": "B2",
+      "category": "satzbau",
+      "title": "Verweiswörter: dafür, diese …",
+      "subtitle": "Sie zeigen zurück und verbinden Sätze zum Text.",
+      "lektionIds": [
+        "b2-m2-l4"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Verweiswort",
+          "zeigt zurück auf"
+        ],
+        "rows": [
+          [
+            "[diese, dies]",
+            "Person, Sache"
+          ],
+          [
+            "[er, sie, ihm …]",
+            "Nomen davor"
+          ],
+          [
+            "[da(r)- + Präp.]",
+            "Sache, ganzer Satz"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "text": "Wir bauen {ein Labor}. [Dafür] fehlt Geld."
+        }
+      ],
+      "warning": {
+        "wrong": "Mein Chef? Ich spreche oft damit.",
+        "right": "Mein Chef? Ich spreche oft mit ihm.",
+        "note": "Personen: Präposition + Pronomen."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "da- oder dar-?",
+            "lines": [
+              "da + Konsonant: [dafür], [damit]",
+              "dar + Vokal: [darauf], [darüber]"
+            ]
+          },
+          {
+            "title": "Zwei Sätze ↔ Relativsatz",
+            "lines": [
+              "Wir suchen eine Ärztin. {Diese} …",
+              "Wir suchen eine Ärztin, {die} …"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Das Fest beginnt um zehn. Wir freuen uns schon ___.",
+            "answer": "darauf"
+          },
+          {
+            "prompt": "Das ist Frau Ott. Ich arbeite gern mit ___.",
+            "answer": "ihr"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-modalpartikeln",
+      "level": "B2",
+      "category": "satzbau",
+      "title": "Modalpartikeln: ja, doch, mal",
+      "subtitle": "Kleine Wörter, die den Ton im Gespräch machen.",
+      "lektionIds": [
+        "b2-m4-l12"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Partikel",
+          "Beispiel"
+        ],
+        "rows": [
+          [
+            "[ja] · Staunen",
+            "Du bist [ja] da!"
+          ],
+          [
+            "[doch] · Aufforderung",
+            "Komm [doch] mit!"
+          ],
+          [
+            "[mal] · Bitte",
+            "Hilf mir [mal]!"
+          ]
+        ]
+      },
+      "tip": "Partikeln sind meist unbetont und stehen nie auf Position 1.",
+      "examples": [
+        {
+          "text": "Kannst du [mal] kurz das Fenster öffnen?"
+        }
+      ],
+      "warning": {
+        "wrong": "Kannst du mal mir helfen?",
+        "right": "Kannst du mir mal helfen?",
+        "note": "Pronomen stehen vor der Partikel."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Noch drei",
+            "lines": [
+              "[denn] in Fragen: Was ist [denn] los?",
+              "[ruhig] Erlaubnis: Nimm [ruhig] eins.",
+              "[aber] Staunen: Das ist [aber] groß!"
+            ]
+          },
+          {
+            "title": "Kombiniert",
+            "lines": [
+              "Komm [doch mal] vorbei! (doch vor mal)"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Iss ___ noch ein Stück, es ist genug da! (Erlaubnis)",
+            "answer": "ruhig"
+          },
+          {
+            "prompt": "Was ist ___ passiert? (interessierte Frage)",
+            "answer": "denn"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-scheinen-wirken",
+      "level": "B2",
+      "category": "verben",
+      "title": "scheinen … zu / wirken",
+      "subtitle": "Eindruck oder Vermutung, keine Gewissheit.",
+      "lektionIds": [
+        "b2-m1-l2"
+      ],
+      "visual": {
+        "kind": "columns",
+        "columns": [
+          {
+            "label": "wirken + Adjektiv",
+            "sublabel": "so ist der Eindruck",
+            "tone": "accent",
+            "lines": true,
+            "items": [
+              "Sie [wirkt] nervös.",
+              "Er [wirkt] sehr ruhig."
+            ]
+          },
+          {
+            "label": "scheinen + zu + Inf.",
+            "sublabel": "es sieht so aus",
+            "tone": "success",
+            "lines": true,
+            "items": [
+              "Sie {scheint} nervös {zu sein}.",
+              "Er {scheint} {zu schlafen}."
+            ]
+          }
+        ]
+      },
+      "tip": "Mit Adjektiv auch ohne zu: Er scheint müde.",
+      "examples": [
+        {
+          "text": "Die neue Kollegin [wirkt] sehr selbstbewusst."
+        }
+      ],
+      "warning": {
+        "wrong": "Er scheint müde sein.",
+        "right": "Er scheint müde zu sein.",
+        "note": "scheinen braucht zu + Infinitiv."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Vergangenheit",
+            "lines": [
+              "Part. II + {zu haben} / {zu sein}",
+              "Sie {scheint} es vergessen {zu haben}."
+            ]
+          },
+          {
+            "title": "Ähnlich",
+            "lines": [
+              "Er [wirkt] auf mich arrogant.",
+              "aussehen: Du siehst müde aus."
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Offenbar ist er krank. → Er scheint …",
+            "answer": "Er scheint krank zu sein."
+          },
+          {
+            "prompt": "Sie scheint den Termin vergessen zu ___.",
+            "answer": "haben"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-passiv-modalverb",
+      "level": "B2",
+      "category": "verben",
+      "title": "Passiv mit Modalverb",
+      "subtitle": "Modalverb konjugiert, am Ende Partizip II + werden",
+      "lektionIds": [
+        "b2-m5-l15"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Form",
+          "Passiv mit Modalverb"
+        ],
+        "rows": [
+          [
+            "Präsens",
+            "Das [muss] geklärt {werden}."
+          ],
+          [
+            "Präteritum",
+            "Das [konnte] gelöst {werden}."
+          ],
+          [
+            "Empfehlung",
+            "Das [sollte] geprüft {werden}."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "text": "Weißt du, ob das repariert {werden} [kann]?"
+        }
+      ],
+      "warning": {
+        "wrong": "…, dass das Problem muss gelöst werden.",
+        "right": "…, dass das Problem gelöst werden muss.",
+        "note": "Im Nebensatz: Modalverb ganz am Ende."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Aktiv · Wer handelt?",
+            "lines": [
+              "man + Modalverb: Man [muss] es klären.",
+              "Passiv: von + Dativ · durch + Akk."
+            ]
+          },
+          {
+            "title": "Perfekt (selten)",
+            "lines": [
+              "Es [hat] gelöst {werden} müssen.",
+              "Meist: Es [musste] gelöst {werden}."
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Die Daten ___ nicht gespeichert werden. (können, Prät.)",
+            "answer": "konnten"
+          },
+          {
+            "prompt": "Man darf die Tür nicht öffnen. → Passiv",
+            "answer": "Die Tür darf nicht geöffnet werden."
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-passiversatz",
+      "level": "B2",
+      "category": "verben",
+      "title": "lässt sich, ist zu, -bar",
+      "subtitle": "Drei Formen statt Passiv mit können oder müssen.",
+      "lektionIds": [
+        "b2-m5-l15"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Form",
+          "Beispiel"
+        ],
+        "rows": [
+          [
+            "[sich lassen] + Inf.",
+            "Das [lässt sich] reparieren."
+          ],
+          [
+            "[sein] + [zu] + Inf.",
+            "Das [ist zu] reparieren."
+          ],
+          [
+            "Adjektiv auf [-bar]",
+            "Das ist [reparierbar]."
+          ]
+        ]
+      },
+      "tip": "sein + zu heißt können oder müssen — der Kontext entscheidet.",
+      "examples": [
+        {
+          "text": "Das Problem [lässt sich] leicht lösen."
+        }
+      ],
+      "warning": {
+        "wrong": "Das Problem lässt sich gelöst.",
+        "right": "Das Problem lässt sich lösen.",
+        "note": "sich lassen + Infinitiv, kein Partizip."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "sein + zu: zwei Bedeutungen",
+            "lines": [
+              "Das ist nicht [zu] schaffen. (= kann)",
+              "Der Antrag ist heute ab[zu]geben. (= muss)"
+            ]
+          },
+          {
+            "title": "-bar: Verben mit Akkusativ",
+            "lines": [
+              "essen → [essbar] · lesen → [lesbar]",
+              "nutzen → [nutzbar] · machen → [machbar]"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Das Fenster kann man nicht öffnen. (sich lassen)",
+            "answer": "Das Fenster lässt sich nicht öffnen."
+          },
+          {
+            "prompt": "Der Text kann gelesen werden. (-bar)",
+            "answer": "Der Text ist lesbar."
+          },
+          {
+            "prompt": "Das Formular muss ausgefüllt werden. (sein + zu)",
+            "answer": "Das Formular ist auszufüllen."
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-passiv-ohne-subjekt",
+      "level": "B2",
+      "category": "verben",
+      "title": "Hier wird gefeiert.",
+      "subtitle": "Passiv ohne Subjekt: Verb immer im Singular.",
+      "lektionIds": [
+        "b2-m9-l25"
+      ],
+      "visual": {
+        "kind": "columns",
+        "columns": [
+          {
+            "label": "etwas auf Position 1",
+            "sublabel": "Angabe oder Objekt",
+            "tone": "accent",
+            "lines": true,
+            "items": [
+              "[Hier] wird gefeiert.",
+              "[Den Gästen] wird geholfen."
+            ]
+          },
+          {
+            "label": "nichts davor",
+            "sublabel": "dann steht es",
+            "tone": "success",
+            "lines": true,
+            "items": [
+              "{Es} wird gefeiert.",
+              "{Es} wird viel gebaut."
+            ]
+          }
+        ]
+      },
+      "examples": [
+        {
+          "text": "{Es} wird über die Kurtaxe gestritten."
+        }
+      ],
+      "warning": {
+        "wrong": "Den Gästen werden geholfen.",
+        "right": "Den Gästen wird geholfen.",
+        "note": "Kein Subjekt → Verb im Singular."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Typische Verben",
+            "lines": [
+              "Dativ: helfen, danken, gratulieren",
+              "ohne Objekt: arbeiten, feiern, tanzen"
+            ]
+          },
+          {
+            "title": "Andere Zeiten · Nebensatz",
+            "lines": [
+              "[Auf Plastik] ist verzichtet worden.",
+              "…, weil hier gefeiert wird."
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Ohne es: Es wird am Samstag getanzt.",
+            "answer": "Am Samstag wird getanzt."
+          },
+          {
+            "prompt": "Man dankt den Helfern. → Passiv",
+            "answer": "Den Helfern wird gedankt."
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-zustandspassiv",
+      "level": "B2",
+      "category": "verben",
+      "title": "ist gebucht oder wird gebucht?",
+      "subtitle": "Passiert es gerade, oder ist es schon fertig?",
+      "lektionIds": [
+        "b2-m10-l30"
+      ],
+      "visual": {
+        "kind": "columns",
+        "columns": [
+          {
+            "label": "Vorgang",
+            "sublabel": "werden + Partizip II",
+            "tone": "accent",
+            "lines": true,
+            "items": [
+              "Der Saal [wird] renoviert.",
+              "Die Arbeit läuft gerade."
+            ]
+          },
+          {
+            "label": "Zustand",
+            "sublabel": "sein + Partizip II",
+            "tone": "success",
+            "lines": true,
+            "items": [
+              "Der Saal {ist} renoviert.",
+              "Die Arbeit ist fertig."
+            ]
+          }
+        ]
+      },
+      "tip": "Erst der Vorgang, dann das Ergebnis: wurde renoviert → ist renoviert.",
+      "examples": [
+        {
+          "text": "Die Bühne [wird] gerade aufgebaut."
+        }
+      ],
+      "warning": {
+        "wrong": "Der Tisch wird seit Montag reserviert.",
+        "right": "Der Tisch ist seit Montag reserviert.",
+        "note": "Fertiges Ergebnis → sein."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Präteritum",
+            "lines": [
+              "Vorgang: Es [wurde] gebucht.",
+              "Zustand: Es {war} gebucht."
+            ]
+          },
+          {
+            "title": "Nicht verwechseln",
+            "lines": [
+              "Es {ist} gebucht. → Zustand",
+              "Es ist gebucht worden. → Vorgang"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Bitte warten, die Bühne ___ gerade aufgebaut.",
+            "answer": "wird"
+          },
+          {
+            "prompt": "Man hat die Karten verkauft. → Zustand",
+            "answer": "Die Karten sind verkauft."
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-konj2-vergangenheit-modal",
+      "level": "B2",
+      "category": "verben",
+      "title": "hätte … machen müssen",
+      "subtitle": "Kritik und Bedauern: Es ist anders gelaufen.",
+      "lektionIds": [
+        "b2-m6-l18"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Form",
+          "Konjunktiv II Vergangenheit"
+        ],
+        "rows": [
+          [
+            "mit Modalverb",
+            "Er [hätte] gehen {sollen}."
+          ],
+          [
+            "Passiv",
+            "Es [wäre] gelöst {worden}."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "text": "Er [hätte] lieber zu Hause bleiben {sollen}."
+        },
+        {
+          "text": "Ohne Anruf [wäre] der Termin vergeben {worden}."
+        }
+      ],
+      "warning": {
+        "wrong": "…, dass ich früher anrufen müssen hätte.",
+        "right": "…, dass ich früher hätte anrufen müssen.",
+        "note": "hätte steht vor den Infinitiven."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Zwei Infinitive",
+            "lines": [
+              "nicht: hätte kommen gemusst",
+              "sondern: [hätte] kommen {müssen}"
+            ]
+          },
+          {
+            "title": "Passiv: wäre + Part. + worden",
+            "lines": [
+              "Wenn man ihn gewarnt hätte, …",
+              "→ [Wäre] er gewarnt {worden}, …"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Du hättest die Tabletten nach dem Essen nehmen ___. (sollen)",
+            "answer": "sollen"
+          },
+          {
+            "prompt": "Ordne: …, dass / hätte / er / müssen / anrufen",
+            "answer": "…, dass er hätte anrufen müssen."
+          },
+          {
+            "prompt": "Ohne Hilfe ___ das Problem nie gelöst worden. (sein)",
+            "answer": "wäre"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-als-ob",
+      "level": "B2",
+      "category": "verben",
+      "title": "als ob / als wäre …",
+      "subtitle": "Irrealer Vergleich: Es wirkt so, ist aber nicht so.",
+      "lektionIds": [
+        "b2-m4-l10"
+      ],
+      "visual": {
+        "kind": "columns",
+        "columns": [
+          {
+            "label": "als ob / als wenn",
+            "sublabel": "Verb am Ende",
+            "tone": "accent",
+            "lines": true,
+            "items": [
+              "Er tut so, [als ob] er",
+              "alles [wüsste]."
+            ]
+          },
+          {
+            "label": "als",
+            "sublabel": "Verb direkt nach als",
+            "tone": "success",
+            "lines": true,
+            "items": [
+              "Er tut so, {als wüsste}",
+              "er alles."
+            ]
+          }
+        ]
+      },
+      "tip": "Standard: Konjunktiv II — der Vergleich ist nicht real.",
+      "examples": [
+        {
+          "text": "Du siehst aus, [als ob] du krank [wärst]."
+        },
+        {
+          "text": "Sie lacht, {als hätte} sie nichts gehört."
+        }
+      ],
+      "warning": {
+        "wrong": "Er tut so, als er alles wüsste.",
+        "right": "Er tut so, als wüsste er alles.",
+        "note": "Nur als: Verb direkt danach."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Vergangenheit",
+            "lines": [
+              "…, [als ob] er es gesehen [hätte].",
+              "…, {als wäre} sie weggelaufen."
+            ]
+          },
+          {
+            "title": "Typische Einleitungen",
+            "lines": [
+              "Er tut so, als … · Es wirkt, als …",
+              "Es sieht so aus, als …"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Sie redet, als ___ sie die Chefin. (sein)",
+            "answer": "wäre"
+          },
+          {
+            "prompt": "Er schaut, als ob er einen Geist ___. (sehen, Vergangenheit)",
+            "answer": "gesehen hätte"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-konjunktiv-1",
+      "level": "B2",
+      "category": "verben",
+      "title": "Indirekte Rede: Konjunktiv I",
+      "subtitle": "Neutral wiedergeben, was jemand gesagt hat.",
+      "lektionIds": [
+        "b2-m11-l32"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Direkt",
+          "Indirekt"
+        ],
+        "rows": [
+          [
+            "„Ich bin müde.“",
+            "er [sei] müde"
+          ],
+          [
+            "„Ich habe Zeit.“",
+            "sie [habe] Zeit"
+          ],
+          [
+            "„Ich kann kommen.“",
+            "er [könne] kommen"
+          ]
+        ]
+      },
+      "tip": "Konjunktiv I = Indikativ? Dann Konjunktiv II: sie {hätten}.",
+      "examples": [
+        {
+          "text": "Die Ärztin betont, Pausen [seien] wichtig."
+        }
+      ],
+      "warning": {
+        "wrong": "Er sagt, er seie krank.",
+        "right": "Er sagt, er sei krank.",
+        "note": "sein ist Ausnahme: er sei."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Formen (er / sie / es)",
+            "lines": [
+              "sein → [sei] · haben → [habe]",
+              "können → [könne] · kommen → komm[e]"
+            ]
+          },
+          {
+            "title": "Vergangenheit",
+            "lines": [
+              "[habe] / [sei] + Partizip II",
+              "Sie sagt, sie [sei] krank geworden."
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "„Ich bin umgezogen.“ → Sie sagt, sie ___ umgezogen.",
+            "answer": "sei"
+          },
+          {
+            "prompt": "„Wir kommen später.“ → Sie sagen, sie ___ später. (Konj. II)",
+            "answer": "kämen"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-vermutung-modalverben",
+      "level": "B2",
+      "category": "verben",
+      "title": "Vermutung: muss, dürfte, könnte",
+      "subtitle": "Das Modalverb zeigt, wie sicher du dir bist.",
+      "lektionIds": [
+        "b2-m12-l34"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Wie sicher?",
+          "Vermutung"
+        ],
+        "highlightColumn": 1,
+        "rows": [
+          [
+            "fast sicher",
+            "Er [muss] krank sein."
+          ],
+          [
+            "wahrscheinlich",
+            "Er [dürfte] krank sein."
+          ],
+          [
+            "möglich",
+            "Er [könnte] krank sein."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "text": "Sie [dürfte] es {bemerkt haben}."
+        }
+      ],
+      "warning": {
+        "wrong": "Er musste gestern krank sein.",
+        "right": "Er muss gestern krank gewesen sein.",
+        "note": "Vergangenheit: gewesen sein, nicht musste."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Vergangenheit",
+            "lines": [
+              "Modalverb + Part. II + {haben}/{sein}",
+              "Sie [muss] einen Schlüssel {gehabt haben}."
+            ]
+          },
+          {
+            "title": "sicher nicht: kann nicht",
+            "lines": [
+              "Er [kann] nicht krank sein."
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Das Licht brennt. Er ___ zu Hause sein. (fast sicher)",
+            "answer": "muss"
+          },
+          {
+            "prompt": "Er dürfte schon nach Hause ___. (gehen, Vergangenheit)",
+            "answer": "gegangen sein"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-vermutung-werden",
+      "level": "B2",
+      "category": "verben",
+      "title": "Er wird wohl … (Vermutung)",
+      "subtitle": "werden + wohl: keine Zukunft, eine Vermutung.",
+      "lektionIds": [
+        "b2-m12-l34"
+      ],
+      "visual": {
+        "kind": "columns",
+        "columns": [
+          {
+            "label": "Jetzt",
+            "sublabel": "Futur I",
+            "tone": "accent",
+            "lines": true,
+            "items": [
+              "Er [wird] wohl im Stau",
+              "[stehen]."
+            ]
+          },
+          {
+            "label": "Vorher",
+            "sublabel": "Futur II",
+            "tone": "success",
+            "lines": true,
+            "items": [
+              "Er {wird} den Bus wohl",
+              "{verpasst haben}."
+            ]
+          }
+        ]
+      },
+      "examples": [
+        {
+          "text": "Sie [wird] wohl noch [schlafen]."
+        }
+      ],
+      "warning": {
+        "wrong": "Er wird den Zug wohl verpasst.",
+        "right": "Er wird den Zug wohl verpasst haben.",
+        "note": "Futur II: Partizip II + haben / sein."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Futur II",
+            "lines": [
+              "{werden} + Partizip II + {haben} / {sein}",
+              "Sie {wird} schon {angekommen sein}."
+            ]
+          },
+          {
+            "title": "Gleiche Bedeutung",
+            "lines": [
+              "Er [wird] wohl krank [sein].",
+              "= Er dürfte krank sein."
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Wo ist Tom? — Er ___ wohl noch im Büro ___.",
+            "answer": "wird, sein"
+          },
+          {
+            "prompt": "Sie ___ den Zug wohl verpasst ___.",
+            "answer": "wird, haben"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-nomen-verb-verbindungen",
+      "level": "B2",
+      "category": "verben",
+      "title": "Nomen-Verb-Verbindungen",
+      "subtitle": "Nomen + festes Verb — oft = einfaches Verb.",
+      "lektionIds": [
+        "b2-m7-l19",
+        "b2-m11-l33",
+        "b2-m10-l28"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Nomen + Verb",
+          "einfaches Verb"
+        ],
+        "rows": [
+          [
+            "Entscheidung [treffen]",
+            "{entscheiden}"
+          ],
+          [
+            "Kritik [üben] an",
+            "{kritisieren}"
+          ],
+          [
+            "sich Mühe [geben]",
+            "sich {bemühen}"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "text": "Sie [gibt] sich mit dem Text viel Mühe."
+        }
+      ],
+      "warning": {
+        "wrong": "Wir müssen eine Entscheidung machen.",
+        "right": "Wir müssen eine Entscheidung treffen.",
+        "note": "Entscheidung → treffen, nicht machen."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Diskussion",
+            "lines": [
+              "eine Frage [stellen] · Antwort [geben]",
+              "einen Vorschlag [machen]"
+            ]
+          },
+          {
+            "title": "Studium & Beruf",
+            "lines": [
+              "eine Prüfung [ablegen] · Kurse [belegen]",
+              "einen Entschluss [fassen]"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "einen Antrag ___",
+            "answer": "stellen"
+          },
+          {
+            "prompt": "Voraussetzungen ___ (= haben, was nötig ist)",
+            "answer": "erfüllen"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-hoefliche-bitten",
+      "level": "B2",
+      "category": "redemittel",
+      "title": "Höflich bitten: Könnten Sie …?",
+      "subtitle": "Konjunktiv II macht Bitten und Kritik freundlich.",
+      "lektionIds": [
+        "b2-m7-l20",
+        "b2-m4-l12"
+      ],
+      "visual": {
+        "kind": "columns",
+        "columns": [
+          {
+            "label": "Bitten",
+            "sublabel": "Amt, Firma, Uni",
+            "tone": "accent",
+            "lines": true,
+            "items": [
+              "[Könnten] Sie …?",
+              "[Wäre] es möglich, …?",
+              "Ich [hätte] gern …"
+            ]
+          },
+          {
+            "label": "Wünsche, Kritik",
+            "sublabel": "Team, WG, Nachbarn",
+            "tone": "success",
+            "lines": true,
+            "items": [
+              "Ich {fände} es gut, …",
+              "{Wäre} es okay, wenn …?"
+            ]
+          }
+        ]
+      },
+      "examples": [
+        {
+          "text": "Ich {fände} es gut, wenn du vorher anrufst."
+        }
+      ],
+      "warning": {
+        "wrong": "Wäre es möglich, den Termin verschieben?",
+        "right": "Wäre es möglich, den Termin zu verschieben?",
+        "note": "Wäre es möglich, … zu + Infinitiv."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Formen",
+            "lines": [
+              "können → [könnten] · sein → [wäre]",
+              "haben → [hätte] · finden → [fände]",
+              "sonst: [würde] + Infinitiv"
+            ]
+          },
+          {
+            "title": "Noch höflicher",
+            "lines": [
+              "vielleicht · Es wäre sehr nett, wenn …"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "___ Sie mir das Formular schicken? (können)",
+            "answer": "Könnten"
+          },
+          {
+            "prompt": "Ich ___ gern einen Termin. (haben)",
+            "answer": "hätte"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-nominalisierung-bei",
+      "level": "B2",
+      "category": "nomen",
+      "title": "wenn-Satz ↔ bei + Nomen",
+      "subtitle": "Nominalstil: kürzer, typisch für Texte.",
+      "lektionIds": [
+        "b2-m2-l6"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Verbalstil",
+          "Nominalstil"
+        ],
+        "rows": [
+          [
+            "wenn es [regnet]",
+            "{bei Regen}"
+          ],
+          [
+            "wenn Sie Fragen [haben]",
+            "{bei Fragen}"
+          ],
+          [
+            "wenn man [ankommt]",
+            "{bei der Ankunft}"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "text": "[Wenn] man Projekte [plant], hilft eine Liste.",
+          "result": "{Bei der Planung} von Projekten hilft eine Liste."
+        }
+      ],
+      "warning": {
+        "wrong": "bei der Besprechung die Ergebnisse",
+        "right": "bei der Besprechung der Ergebnisse",
+        "note": "Das Objekt wird zum Genitiv."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Objekt → Genitiv / von",
+            "lines": [
+              "Plan ändern → Änderung {des Plans}",
+              "ohne Artikel: Senkung {von} Kosten"
+            ]
+          },
+          {
+            "title": "Typische Nomen",
+            "lines": [
+              "-ung: Nutzung, Abstimmung, Prüfung",
+              "ohne Endung: Start, Regen, Ausfall"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "wenn man Geräte benutzt → bei der ___ von Geräten",
+            "answer": "Benutzung"
+          },
+          {
+            "prompt": "bei der Abfahrt des Zuges → wenn der Zug ___",
+            "answer": "abfährt"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-nomen-heit-keit",
+      "level": "B2",
+      "category": "nomen",
+      "title": "-heit, -keit, -igkeit, -ität",
+      "subtitle": "Aus Adjektiven werden Nomen.",
+      "lektionIds": [
+        "b2-m5-l13"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Adjektiv",
+          "Nomen (die)"
+        ],
+        "highlightColumn": 1,
+        "rows": [
+          [
+            "meist: gesund",
+            "Gesund[heit]"
+          ],
+          [
+            "-lich, -ig, -bar",
+            "Ehrlich[keit]"
+          ],
+          [
+            "-los, -haft",
+            "Arbeitslos[igkeit]"
+          ],
+          [
+            "Fremdwort",
+            "Komplex[ität]"
+          ]
+        ]
+      },
+      "tip": "Alle Nomen auf -heit, -keit, -ität sind feminin: die.",
+      "examples": [
+        {
+          "text": "Die Uhr ist genau. Das überzeugt.",
+          "result": "Die [Genauigkeit] der Uhr überzeugt."
+        }
+      ],
+      "warning": {
+        "wrong": "Gibt es eine Möglichheit?",
+        "right": "Gibt es eine Möglichkeit?",
+        "note": "Nach -lich steht -keit."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "-keit / -igkeit",
+            "lines": [
+              "dankbar → Dankbar[keit]",
+              "kurze: müde → Müd[igkeit]",
+              "genau → Genau[igkeit]"
+            ]
+          },
+          {
+            "title": "-ität",
+            "lines": [
+              "flexibel → Flexibil[ität]"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "zuverlässig → die ___",
+            "answer": "Zuverlässigkeit"
+          },
+          {
+            "prompt": "flexibel → die ___",
+            "answer": "Flexibilität"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-verbstamm-nomen",
+      "level": "B2",
+      "category": "nomen",
+      "title": "der Rat, das Verbot, die Wahl",
+      "subtitle": "Nomen aus dem Verbstamm — ohne Endung.",
+      "lektionIds": [
+        "b2-m12-l35"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Verb",
+          "Nomen"
+        ],
+        "rows": [
+          [
+            "raten · fliegen",
+            "[der] Rat · Flug"
+          ],
+          [
+            "verbieten",
+            "{das} Verbot"
+          ],
+          [
+            "wählen",
+            "{die} Wahl"
+          ]
+        ]
+      },
+      "tip": "Meist maskulin: der. Ausnahmen mit Artikel lernen.",
+      "examples": [
+        {
+          "text": "[Der] Streit dauerte schon Jahre."
+        }
+      ],
+      "warning": {
+        "wrong": "Das Betrug fiel erst spät auf.",
+        "right": "Der Betrug fiel erst spät auf.",
+        "note": "Verbstamm-Nomen: meist maskulin."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Oft mit Vokalwechsel",
+            "lines": [
+              "schließen → Schl[u]ss · beißen → B[i]ss",
+              "genießen → Gen[u]ss · ziehen → Z[u]g"
+            ]
+          },
+          {
+            "title": "Ohne Vokalwechsel",
+            "lines": [
+              "anfangen → Anfang · kaufen → Kauf",
+              "besuchen → Besuch · streiten → Streit"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "werfen → der ___",
+            "answer": "Wurf"
+          },
+          {
+            "prompt": "verbieten → Nomen mit Artikel",
+            "answer": "das Verbot"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-indefinitpronomen",
+      "level": "B2",
+      "category": "nomen",
+      "title": "einer, eins, jemand(en)",
+      "subtitle": "Pronomen für unbestimmte Dinge und Personen.",
+      "lektionIds": [
+        "b2-m4-l11"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "statt …",
+          "Nominativ",
+          "Akkusativ"
+        ],
+        "rows": [
+          [
+            "ein Stift",
+            "[einer]",
+            "[einen]"
+          ],
+          [
+            "ein Buch",
+            "[eins]",
+            "[eins]"
+          ],
+          [
+            "eine Tasse",
+            "[eine]",
+            "[eine]"
+          ],
+          [
+            "Person",
+            "{jemand}",
+            "{jemanden}"
+          ]
+        ]
+      },
+      "tip": "Das Pronomen zeigt das Genus: einer = der, eins = das.",
+      "examples": [
+        {
+          "text": "Ich brauche ein Ladekabel. Hast du [eins]?"
+        }
+      ],
+      "warning": {
+        "wrong": "Ein Wörterbuch? Ich habe einen.",
+        "right": "Ein Wörterbuch? Ich habe eins.",
+        "note": "das Wörterbuch → eins."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Dativ · negativ",
+            "lines": [
+              "Dativ: [einem] · [einem] · [einer]",
+              "keiner · keins · keine"
+            ]
+          },
+          {
+            "title": "Personen",
+            "lines": [
+              "{jemand} · {niemand} · irgendwer",
+              "Dat. {jemandem} · {niemandem}"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Ich suche einen Parkplatz. Siehst du ___?",
+            "answer": "einen"
+          },
+          {
+            "prompt": "Ich habe mit ___ gesprochen. (jemand)",
+            "answer": "jemandem"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-reziprok",
+      "level": "B2",
+      "category": "nomen",
+      "title": "miteinander, aufeinander …",
+      "subtitle": "Gegenseitig: Präposition des Verbs + -einander.",
+      "lektionIds": [
+        "b2-m4-l12"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Verb + Präposition",
+          "Reziprok"
+        ],
+        "rows": [
+          [
+            "sprechen mit",
+            "[miteinander]"
+          ],
+          [
+            "sich verlassen auf",
+            "[aufeinander]"
+          ],
+          [
+            "sich trennen von",
+            "[voneinander]"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "text": "Im Team kann man sich [aufeinander] verlassen."
+        }
+      ],
+      "warning": {
+        "wrong": "Sie haben sich miteinander gesprochen.",
+        "right": "Sie haben miteinander gesprochen.",
+        "note": "sprechen ist kein reflexives Verb."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "sich oder nicht?",
+            "lines": [
+              "Sie verlassen {sich} [aufeinander].",
+              "Sie reden [miteinander]. (ohne sich)"
+            ]
+          },
+          {
+            "title": "Ohne Präposition",
+            "lines": [
+              "Oft reicht {sich}: Sie kennen {sich}.",
+              "Gehoben: Sie helfen [einander]."
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Die Nachbarn kümmern sich ___. (um)",
+            "answer": "umeinander"
+          },
+          {
+            "prompt": "Wir haben viel ___ gelernt. (von)",
+            "answer": "voneinander"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-fugen",
+      "level": "B2",
+      "category": "nomen",
+      "title": "Fugen-s: Bewerbungsschreiben",
+      "subtitle": "Nach -ung, -heit, -keit, -ion, -tät steht ein -s-.",
+      "lektionIds": [
+        "b2-m2-l5",
+        "b2-m10-l30"
+      ],
+      "visual": {
+        "kind": "columns",
+        "columns": [
+          {
+            "label": "mit Fugen-s",
+            "sublabel": "nach -ung, -heit, -ion …",
+            "tone": "accent",
+            "lines": true,
+            "items": [
+              "Bewerbung[s]schreiben",
+              "Sicherheit[s]gurt",
+              "Kommunikation[s]stärke"
+            ]
+          },
+          {
+            "label": "ohne Fuge",
+            "sublabel": "viele andere Nomen",
+            "tone": "success",
+            "lines": true,
+            "items": [
+              "Teamleitung",
+              "Hausarzt",
+              "Computerkurs"
+            ]
+          }
+        ]
+      },
+      "examples": [
+        {
+          "text": "Die Bewerbung[s]frist endet am Freitag."
+        }
+      ],
+      "warning": {
+        "wrong": "das Bewerbungschreiben",
+        "right": "das Bewerbungsschreiben",
+        "note": "Nach -ung immer ein Fugen-s."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Immer -s nach",
+            "lines": [
+              "-ung · -heit · -keit · -schaft",
+              "-ion · -tät · -ling"
+            ]
+          },
+          {
+            "title": "Oft auch -s",
+            "lines": [
+              "Arbeit[s]platz · Beruf[s]erfahrung",
+              "Geburt[s]tag · Verkehr[s]mittel"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Gesundheit___zustand",
+            "answer": "Gesundheitszustand"
+          },
+          {
+            "prompt": "Kommunikation___fähigkeit",
+            "answer": "Kommunikationsfähigkeit"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-wer-der",
+      "level": "B2",
+      "category": "nomen",
+      "title": "Wer …, der …",
+      "subtitle": "Allgemeine Aussagen: wer = jeder, der …",
+      "lektionIds": [
+        "b2-m10-l28"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Relativsatz",
+          "Hauptsatz"
+        ],
+        "rows": [
+          [
+            "[Wer] viel liest,",
+            "{der} weiß viel."
+          ],
+          [
+            "[Wem] Kunst gefällt,",
+            "{dem} gefällt Köln."
+          ],
+          [
+            "[Wer] fotografiert,",
+            "{dem} hilft Übung."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "text": "[Wer] früh übt, ({der}) wird schneller sicher."
+        }
+      ],
+      "warning": {
+        "wrong": "Wer Hilfe braucht, der helfen wir.",
+        "right": "Wer Hilfe braucht, dem helfen wir.",
+        "note": "helfen + Dativ → dem."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Kasus",
+            "lines": [
+              "[wer/wen/wem]: Verb im Relativsatz",
+              "{der/den/dem}: Verb im Hauptsatz"
+            ]
+          },
+          {
+            "title": "der darf fehlen",
+            "lines": [
+              "Nur wenn beide Kasus gleich sind:",
+              "[Wer] wagt, ({der}) gewinnt."
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Wem Jazz gefällt, ___ empfehlen wir das Festival.",
+            "answer": "dem"
+          },
+          {
+            "prompt": "___ wir einladen, den holen wir ab. (wer/wen/wem)",
+            "answer": "Wen"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-partizip-attribut",
+      "level": "B2",
+      "category": "adjektive",
+      "title": "Partizip als Adjektiv",
+      "subtitle": "Partizip I aktiv, II passiv oder abgeschlossen.",
+      "lektionIds": [
+        "b2-m3-l7"
+      ],
+      "visual": {
+        "kind": "columns",
+        "columns": [
+          {
+            "label": "Partizip I",
+            "sublabel": "Infinitiv + d · aktiv",
+            "tone": "accent",
+            "lines": true,
+            "items": [
+              "der [wachsende] Verkehr",
+              "die [hupenden] Autos"
+            ]
+          },
+          {
+            "label": "Partizip II",
+            "sublabel": "passiv oder abgeschlossen",
+            "tone": "success",
+            "lines": true,
+            "items": [
+              "die {gesperrte} Straße",
+              "das neu {eröffnete} Café"
+            ]
+          }
+        ]
+      },
+      "examples": [
+        {
+          "text": "die Leute, die an der Haltestelle warten",
+          "result": "die an der Haltestelle [wartenden] Leute"
+        }
+      ],
+      "warning": {
+        "wrong": "der viel diskutierende Plan",
+        "right": "der viel diskutierte Plan",
+        "note": "Der Plan wird diskutiert: passiv."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Relativsatz → Attribut",
+            "lines": [
+              "1. Pronomen und Hilfsverb weg",
+              "2. Verb → Partizip vor das Nomen",
+              "3. Ergänzungen davor, Endung dran"
+            ]
+          },
+          {
+            "title": "Aktiv oder passiv?",
+            "lines": [
+              "der [lesende] Mann → er liest",
+              "das {gelesene} Buch → es wurde gelesen"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "der ___ Lärm (dröhnen)",
+            "answer": "dröhnende"
+          },
+          {
+            "prompt": "mit einem ___ Rad (leihen, Partizip II)",
+            "answer": "geliehenen"
+          },
+          {
+            "prompt": "Der Zug, der aus Wien angekommen ist, …",
+            "answer": "Der aus Wien angekommene Zug …"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-adjektiv-suffixe",
+      "level": "B2",
+      "category": "adjektive",
+      "title": "-bar, -sam, -los, -fähig …",
+      "subtitle": "Suffixe machen aus Verben und Nomen Adjektive.",
+      "lektionIds": [
+        "b2-m6-l17",
+        "b2-m1-l2",
+        "b2-m10-l30"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Suffix",
+          "Bedeutung",
+          "Beispiel"
+        ],
+        "rows": [
+          [
+            "[-bar]",
+            "kann man …",
+            "heil[bar]"
+          ],
+          [
+            "[-sam]",
+            "neigt zu …",
+            "spar[sam]"
+          ],
+          [
+            "[-los]",
+            "ohne …",
+            "arbeits[los]"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "text": "eine Krankheit, die man heilen kann",
+          "result": "eine heil[bar]e Krankheit"
+        }
+      ],
+      "warning": {
+        "wrong": "Die Hitze war unerträgbar.",
+        "right": "Die Hitze war unerträglich.",
+        "note": "Feste Form: -lich, nicht -bar."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Mehr Suffixe",
+            "lines": [
+              "[-fähig]: kann … → leistungs[fähig]",
+              "[-haft]: wie … → kind[haft]",
+              "[-bereit]: will … → hilfs[bereit]"
+            ]
+          },
+          {
+            "title": "Gegenteil",
+            "lines": [
+              "{un}-: {un}heilbar, {un}vermeidlich"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "ein Plan, den man umsetzen kann",
+            "answer": "ein umsetzbarer Plan"
+          },
+          {
+            "prompt": "ohne Kosten →",
+            "answer": "kostenlos"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-vergleich-als-wie",
+      "level": "B2",
+      "category": "adjektive",
+      "title": "als oder wie?",
+      "subtitle": "Ungleich → als. Gleich → (genau)so … wie.",
+      "lektionIds": [
+        "b2-m8-l24"
+      ],
+      "visual": {
+        "kind": "columns",
+        "columns": [
+          {
+            "label": "als",
+            "sublabel": "Komparativ · anders",
+            "tone": "accent",
+            "lines": true,
+            "items": [
+              "Es war [besser],",
+              "[als] ich gedacht hatte."
+            ]
+          },
+          {
+            "label": "wie",
+            "sublabel": "(nicht) so … wie",
+            "tone": "success",
+            "lines": true,
+            "items": [
+              "Es war {(nicht) so} gut,",
+              "{wie} ich gehofft hatte."
+            ]
+          }
+        ]
+      },
+      "examples": [
+        {
+          "text": "Es war {genauso} schwer, {wie} sie sagte."
+        }
+      ],
+      "warning": {
+        "wrong": "Es kam anders wie erwartet.",
+        "right": "Es kam anders als erwartet.",
+        "note": "Nach anders steht immer als."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "anders → als",
+            "lines": [
+              "Es kam ganz anders, [als] wir dachten.",
+              "ein anderer Plan [als] gestern"
+            ]
+          },
+          {
+            "title": "nicht so … wie",
+            "lines": [
+              "= weniger … als",
+              "nicht {so} teuer {wie} befürchtet"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Das Seminar war genauso anstrengend, ___ erwartet.",
+            "answer": "wie"
+          },
+          {
+            "prompt": "Die Prüfung war leichter, ___ ich befürchtet hatte.",
+            "answer": "als"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-konditional",
+      "level": "B2",
+      "category": "konnektoren",
+      "title": "wenn, falls, sofern",
+      "subtitle": "Bedingungen — auch ohne Konnektor möglich.",
+      "lektionIds": [
+        "b2-m2-l6"
+      ],
+      "visual": {
+        "kind": "columns",
+        "columns": [
+          {
+            "label": "mit Konnektor",
+            "sublabel": "Verb am Ende",
+            "tone": "accent",
+            "lines": true,
+            "items": [
+              "[Falls] der Zug [ausfällt],",
+              "nehmen wir den Bus."
+            ]
+          },
+          {
+            "label": "ohne Konnektor",
+            "sublabel": "Verb auf Position 1",
+            "tone": "success",
+            "lines": true,
+            "items": [
+              "{Fällt} der Zug aus,",
+              "nehmen wir den Bus."
+            ]
+          }
+        ]
+      },
+      "examples": [
+        {
+          "text": "[Sofern] alle [zustimmen], starten wir."
+        }
+      ],
+      "warning": {
+        "wrong": "Fällt der Zug aus, wir nehmen den Bus.",
+        "right": "Fällt der Zug aus, nehmen wir den Bus.",
+        "note": "Danach folgt sofort das Verb."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Bedeutung",
+            "lines": [
+              "[wenn]: allgemein, auch zeitlich",
+              "[falls]: für den Fall, dass …",
+              "[sofern]: nur unter der Bedingung"
+            ]
+          },
+          {
+            "title": "Ohne wenn",
+            "lines": [
+              "Wenn ich Zeit habe → {Habe} ich Zeit"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Wenn es regnet, bleiben wir drinnen. (ohne wenn)",
+            "answer": "Regnet es, bleiben wir drinnen."
+          },
+          {
+            "prompt": "Wir starten, ___ alle zustimmen. (nur unter der Bedingung)",
+            "answer": "sofern"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-kausal",
+      "level": "B2",
+      "category": "konnektoren",
+      "title": "da, denn, nämlich, aufgrund",
+      "subtitle": "Gründe nennen — vier Satzmuster.",
+      "lektionIds": [
+        "b2-m3-l8"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Wort",
+          "Stellung"
+        ],
+        "rows": [
+          [
+            "[da] / weil",
+            "Verb am Ende"
+          ],
+          [
+            "[denn]",
+            "Position 0"
+          ],
+          [
+            "[nämlich]",
+            "nach dem Verb"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "text": "[Aufgrund] {des} Sturms fällt die Sitzung aus."
+        }
+      ],
+      "warning": {
+        "wrong": "Nämlich habe ich Fieber.",
+        "right": "Ich habe nämlich Fieber.",
+        "note": "nämlich steht nie auf Position 1."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Präpositionen",
+            "lines": [
+              "[aufgrund] / [wegen] / [dank] + Genitiv",
+              "[aus] + Dativ ohne Artikel: aus Angst"
+            ]
+          },
+          {
+            "title": "da oder weil?",
+            "lines": [
+              "Antwort auf Warum? → nur [weil]",
+              "[Da] steht oft vorn: bekannter Grund"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Ich bleibe zu Hause, ___ ich habe Fieber.",
+            "answer": "denn"
+          },
+          {
+            "prompt": "Sie fehlt heute. Sie ist ___ krank.",
+            "answer": "nämlich"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-konsekutiv",
+      "level": "B2",
+      "category": "konnektoren",
+      "title": "folglich, infolgedessen, infolge",
+      "subtitle": "Folgen ausdrücken — gehoben und schriftlich.",
+      "lektionIds": [
+        "b2-m6-l16"
+      ],
+      "visual": {
+        "kind": "columns",
+        "columns": [
+          {
+            "label": "Folge",
+            "sublabel": "Adverb · Verb danach",
+            "tone": "accent",
+            "inline": true,
+            "items": [
+              "folglich",
+              "somit",
+              "infolgedessen"
+            ]
+          },
+          {
+            "label": "Ursache",
+            "sublabel": "+ Genitiv / von + Dativ",
+            "tone": "success",
+            "inline": true,
+            "items": [
+              "infolge {des} Sturms",
+              "infolge von Stress"
+            ]
+          }
+        ]
+      },
+      "examples": [
+        {
+          "text": "Es gab Stau, [folglich] [kamen] wir zu spät."
+        }
+      ],
+      "warning": {
+        "wrong": "…, infolgedessen er blieb zu Hause.",
+        "right": "…, infolgedessen blieb er zu Hause.",
+        "note": "Adverb auf Position 1 → Verb folgt."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Nominalisieren",
+            "lines": [
+              "Weil die Luft verschmutzt ist, …",
+              "→ {Infolge} der Luftverschmutzung …"
+            ]
+          },
+          {
+            "title": "Auch so",
+            "lines": [
+              "[Die Folge ist], dass …",
+              "Alltag: [deshalb] / [deswegen]"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "___ eines Unfalls war die Straße gesperrt.",
+            "answer": "Infolge"
+          },
+          {
+            "prompt": "Es regnete, infolgedessen ___ das Spiel aus. (fallen)",
+            "answer": "fiel"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-konzessiv",
+      "level": "B2",
+      "category": "konnektoren",
+      "title": "auch wenn, wobei, auch bei",
+      "subtitle": "Gegen die Erwartung: Satz, Nomen, Einschränkung.",
+      "lektionIds": [
+        "b2-m9-l27"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Wort",
+          "Anschluss"
+        ],
+        "rows": [
+          [
+            "[auch wenn]",
+            "Nebensatz"
+          ],
+          [
+            "[auch bei]",
+            "+ Dativ"
+          ],
+          [
+            "{wobei}",
+            "schränkt ein"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "text": "Die Idee ist gut, {wobei} das Geld noch fehlt."
+        }
+      ],
+      "warning": {
+        "wrong": "Auch bei hohes Gehalt bleibt keiner.",
+        "right": "Auch bei hohem Gehalt bleibt keiner.",
+        "note": "bei + Dativ → Adjektiv auf -em."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Gleiche Bedeutung",
+            "lines": [
+              "obwohl ≈ [auch wenn] ≈ [selbst wenn]",
+              "trotzdem = [dennoch] (formeller)"
+            ]
+          },
+          {
+            "title": "Nominalisieren",
+            "lines": [
+              "Obwohl die Kosten hoch waren, …",
+              "→ [Trotz] der hohen Kosten …"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "___ des Risikos gründete er die Firma.",
+            "answer": "Trotz"
+          },
+          {
+            "prompt": "Auch ___ schlechtem Wetter fährt er Rad.",
+            "answer": "bei"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-gegensatz",
+      "level": "B2",
+      "category": "konnektoren",
+      "title": "Gegensatz: aber, jedoch, während",
+      "subtitle": "Welches Wort — und wo steht das Verb?",
+      "lektionIds": [
+        "b2-m12-l36"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Konnektor",
+          "Satz"
+        ],
+        "rows": [
+          [
+            "aber, sondern",
+            "aber er [ist] …"
+          ],
+          [
+            "jedoch, dagegen",
+            "jedoch [ist] er …"
+          ],
+          [
+            "während",
+            "während er … [ist]"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "text": "Ich mag Berge, {dagegen} [mag] er das Meer."
+        }
+      ],
+      "warning": {
+        "wrong": "Er kommt nicht heute, aber morgen.",
+        "right": "Er kommt nicht heute, sondern morgen.",
+        "note": "Verneinung + Korrektur → sondern."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Präpositionen + Dativ",
+            "lines": [
+              "{im Gegensatz zu} meinem Bruder …",
+              "{entgegen} allen Erwartungen …"
+            ]
+          },
+          {
+            "title": "während: zwei Bedeutungen",
+            "lines": [
+              "Sie ist ruhig, {während} er laut [ist].",
+              "Auch zeitlich: gleichzeitig (B1)"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Sie trinkt keinen Kaffee, ___ Tee.",
+            "answer": "sondern"
+          },
+          {
+            "prompt": "Er ist sportlich, dagegen ___ faul. (ich / sein)",
+            "answer": "bin ich"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-modal-dadurch-dass",
+      "level": "B2",
+      "category": "konnektoren",
+      "title": "dadurch, dass · ohne dass",
+      "subtitle": "Wodurch passiert etwas — und was passiert nicht?",
+      "lektionIds": [
+        "b2-m11-l31"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Nebensatz",
+          "Präp. + Nomen"
+        ],
+        "rows": [
+          [
+            "[dadurch, dass] sie hilft",
+            "[durch] ihre Hilfe"
+          ],
+          [
+            "{ohne dass} sie hilft",
+            "{ohne} ihre Hilfe"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "text": "[Dadurch, dass] sie lachte, beruhigte er sich."
+        },
+        {
+          "text": "Er ging, {ohne dass} es jemand bemerkte."
+        }
+      ],
+      "warning": {
+        "wrong": "Durch dem Training wurde er fit.",
+        "right": "Durch das Training wurde er fit.",
+        "note": "durch steht immer mit Akkusativ."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Auch geteilt",
+            "lines": [
+              "Er lernt [dadurch], [dass] er liest.",
+              "= Er lernt, [indem] er liest."
+            ]
+          },
+          {
+            "title": "Gleiches Subjekt → zu",
+            "lines": [
+              "Er ging, {ohne} sich {zu} verabschieden.",
+              "Andere Person → {ohne dass}"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Sie gewann ___, dass sie täglich trainierte.",
+            "answer": "dadurch"
+          },
+          {
+            "prompt": "Er nahm mein Rad, ___ ich es wusste. (ich wusste es nicht)",
+            "answer": "ohne dass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-temporal",
+      "level": "B2",
+      "category": "konnektoren",
+      "title": "sobald, solange, seitdem",
+      "subtitle": "Nebensatz oder Präposition + Nomen?",
+      "lektionIds": [
+        "b2-m7-l21"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Nebensatz",
+          "Präposition + Nomen"
+        ],
+        "rows": [
+          [
+            "[sobald] er ankommt",
+            "{gleich nach} seiner Ankunft"
+          ],
+          [
+            "[solange] sie studiert",
+            "{während} ihres Studiums"
+          ],
+          [
+            "[seitdem] er umzog",
+            "{seit} seinem Umzug"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "text": "[Als] er ankam, regnete es.",
+          "result": "{Bei} seiner Ankunft regnete es."
+        }
+      ],
+      "warning": {
+        "wrong": "Seit seinen Umzug lebt er allein.",
+        "right": "Seit seinem Umzug lebt er allein.",
+        "note": "seit, bei, vor, nach + Dativ."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Bedeutung",
+            "lines": [
+              "[sobald] = direkt danach",
+              "[solange] = die ganze Zeit",
+              "[seitdem] = von damals bis jetzt"
+            ]
+          },
+          {
+            "title": "Kasus",
+            "lines": [
+              "{während} + Genitiv"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "___ ich Geld habe, kaufe ich ein Auto. (direkt dann)",
+            "answer": "Sobald"
+          },
+          {
+            "prompt": "Nachdem er umgezogen war, … → Nach …",
+            "answer": "Nach seinem Umzug …"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-praep-wortfamilie",
+      "level": "B2",
+      "category": "praepositionen",
+      "title": "Präpositionen in Wortfamilien",
+      "subtitle": "Oft bleibt die Präposition gleich, nicht immer.",
+      "lektionIds": [
+        "b2-m8-l22",
+        "b2-m2-l5"
+      ],
+      "visual": {
+        "kind": "columns",
+        "columns": [
+          {
+            "label": "bleibt gleich",
+            "sublabel": "Sorge",
+            "tone": "accent",
+            "lines": true,
+            "items": [
+              "die Sorge [um]",
+              "sich sorgen [um]",
+              "besorgt [um]"
+            ]
+          },
+          {
+            "label": "wechselt",
+            "sublabel": "Vertrauen",
+            "tone": "success",
+            "lines": true,
+            "items": [
+              "das Vertrauen [in]",
+              "{jdm.} vertrauen",
+              "vertraut {mit}"
+            ]
+          }
+        ]
+      },
+      "examples": [
+        {
+          "text": "Sie hat [Vertrauen in] die neue Chefin."
+        },
+        {
+          "text": "Er ist {vertraut mit} der Software."
+        }
+      ],
+      "warning": {
+        "wrong": "Ich bin interessiert für das Projekt.",
+        "right": "Ich bin an dem Projekt interessiert.",
+        "note": "Adjektiv: interessiert an + Dativ."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Bleibt gleich",
+            "lines": [
+              "die Bitte [um] · bitten [um]",
+              "die Teilnahme [an] · teilnehmen [an]"
+            ]
+          },
+          {
+            "title": "Wechselt",
+            "lines": [
+              "Begeisterung [für] · begeistert {von}",
+              "Enttäuschung [über] · enttäuscht {von}"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Die Sorge ___ die Zukunft wächst.",
+            "answer": "um"
+          },
+          {
+            "prompt": "Die Gruppe ist begeistert ___ dem Kurs.",
+            "answer": "von"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-entwicklungen",
+      "level": "B2",
+      "category": "redemittel",
+      "title": "steigen um oder auf?",
+      "subtitle": "Zahlen beschreiben: Differenz oder neuer Wert.",
+      "lektionIds": [
+        "b2-m3-l9"
+      ],
+      "visual": {
+        "kind": "columns",
+        "columns": [
+          {
+            "label": "um",
+            "sublabel": "Differenz",
+            "tone": "accent",
+            "lines": true,
+            "items": [
+              "von 40 [um] 10 gestiegen",
+              "= 10 mehr"
+            ]
+          },
+          {
+            "label": "auf",
+            "sublabel": "neuer Wert",
+            "tone": "success",
+            "lines": true,
+            "items": [
+              "von 40 {auf} 50 gestiegen",
+              "= jetzt 50"
+            ]
+          }
+        ]
+      },
+      "tip": "um = wie viel mehr/weniger · auf = wie viel jetzt",
+      "examples": [
+        {
+          "text": "Der Preis ist [um] 20 Cent gestiegen."
+        },
+        {
+          "text": "Die Quote ist {auf} 5 Prozent gesunken."
+        }
+      ],
+      "warning": {
+        "wrong": "Die Preise haben stark gestiegen.",
+        "right": "Die Preise sind stark gestiegen.",
+        "note": "steigen, sinken: Perfekt mit sein."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Verben · Perfekt",
+            "lines": [
+              "↑ steigen · zunehmen · wachsen",
+              "↓ sinken · abnehmen · zurückgehen",
+              "ist gestiegen · aber: hat zugenommen"
+            ]
+          },
+          {
+            "title": "Als Nomen",
+            "lines": [
+              "Anstieg [um] 10 % · Rückgang {auf} 20 %"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Von 2 auf 3 Euro: Der Preis ist ___ 1 Euro gestiegen.",
+            "answer": "um"
+          },
+          {
+            "prompt": "Die Quote ist von 50 ___ 30 Prozent gesunken.",
+            "answer": "auf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-weise-adverbien",
+      "level": "B2",
+      "category": "adjektive",
+      "title": "Adverbien auf -weise",
+      "subtitle": "Kommentar zum Satz oder Art und Weise.",
+      "lektionIds": [
+        "b2-m7-l20"
+      ],
+      "visual": {
+        "kind": "columns",
+        "columns": [
+          {
+            "label": "Adjektiv + -erweise",
+            "sublabel": "Kommentar des Sprechers",
+            "tone": "accent",
+            "inline": true,
+            "items": [
+              "glücklich[erweise]",
+              "dumm[erweise]"
+            ]
+          },
+          {
+            "label": "Nomen + -weise",
+            "sublabel": "Art und Maß",
+            "tone": "success",
+            "inline": true,
+            "items": [
+              "teil{weise}",
+              "ausnahms{weise}"
+            ]
+          }
+        ]
+      },
+      "examples": [
+        {
+          "text": "Wir öffnen {ausnahmsweise} am Sonntag."
+        }
+      ],
+      "warning": {
+        "wrong": "Glücklichweise war der Zug pünktlich.",
+        "right": "Glücklicherweise war der Zug pünktlich.",
+        "note": "Adjektiv + -er- + weise."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Kommentar umformen",
+            "lines": [
+              "[Dummerweise] war es zu.",
+              "= Es war dumm, dass es zu war."
+            ]
+          },
+          {
+            "title": "Oft mit -s-",
+            "lines": [
+              "ausnahmsweise · beispielsweise",
+              "aber: teilweise · schrittweise"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Es war seltsam, dass er fehlte. → ___ fehlte er.",
+            "answer": "Seltsamerweise"
+          },
+          {
+            "prompt": "Wir testen das System erst mal ___. (der Versuch)",
+            "answer": "versuchsweise"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-verstaerkung",
+      "level": "B2",
+      "category": "adjektive",
+      "title": "stinksauer, kerngesund",
+      "subtitle": "Ein Wort davor macht das Adjektiv viel stärker.",
+      "lektionIds": [
+        "b2-m8-l23"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "normal",
+          "verstärkt"
+        ],
+        "rows": [
+          [
+            "sehr müde",
+            "[hunde]müde"
+          ],
+          [
+            "sehr schnell",
+            "[blitz]schnell"
+          ],
+          [
+            "sehr wütend",
+            "[stink]sauer"
+          ]
+        ]
+      },
+      "tip": "Umgangssprachlich — im formellen Brief lieber „sehr“.",
+      "examples": [
+        {
+          "text": "Nach dem Umzug waren alle [hunde]müde."
+        }
+      ],
+      "warning": {
+        "wrong": "Er war sehr stinksauer.",
+        "right": "Er war stinksauer.",
+        "note": "Schon verstärkt — kein „sehr“ davor."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Mehr davon",
+            "lines": [
+              "[kern]gesund · [bitter]ernst · [eis]kalt",
+              "[stein]reich · [tod]müde · [brand]neu"
+            ]
+          },
+          {
+            "title": "Schreibung",
+            "lines": [
+              "zusammen und klein: [blitz]schnell"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Was bedeutet „steinreich“?",
+            "answer": "sehr reich"
+          },
+          {
+            "prompt": "Er ist sehr gesund. → Er ist ___.",
+            "answer": "kerngesund"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-diskussion",
+      "level": "B2",
+      "category": "redemittel",
+      "title": "In der Diskussion",
+      "subtitle": "Ideen einbringen, nachfragen, zusammenfassen.",
+      "lektionIds": [
+        "b2-m5-l14",
+        "b2-m6-l17",
+        "b2-m12-l35",
+        "b2-m3-l8"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Ziel",
+          "Redemittel"
+        ],
+        "rows": [
+          [
+            "einbringen",
+            "Ich schlage vor, …"
+          ],
+          [
+            "nachfragen",
+            "Wie meinst du das?"
+          ],
+          [
+            "zusammenfassen",
+            "Zusammengefasst: …"
+          ]
+        ]
+      },
+      "tip": "Konjunktiv II macht weicher: wäre, könnten, hätte.",
+      "examples": [
+        {
+          "text": "Ich hätte da einen [Vorschlag]: …"
+        }
+      ],
+      "warning": {
+        "wrong": "Ich halte das sinnvoll.",
+        "right": "Ich halte das für sinnvoll.",
+        "note": "Meinung: etwas halten für …"
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Meinung genauer",
+            "lines": [
+              "Ich halte das [für] wichtig.",
+              "Mir leuchtet ein, dass …"
+            ]
+          },
+          {
+            "title": "Sich beziehen",
+            "lines": [
+              "Ich beziehe mich [auf] …",
+              "Ich möchte an … anknüpfen."
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Du schlägst vor: Ich hätte da einen ___.",
+            "answer": "Vorschlag"
+          },
+          {
+            "prompt": "Ich halte das ___ keine gute Idee.",
+            "answer": "für"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-formelle-mail",
+      "level": "B2",
+      "category": "redemittel",
+      "title": "Formelle E-Mail",
+      "subtitle": "Anliegen nennen, Bezug nehmen, freundlich enden.",
+      "lektionIds": [
+        "b2-m7-l20",
+        "b2-m8-l24",
+        "b2-m12-l36",
+        "b2-m9-l26"
+      ],
+      "visual": {
+        "kind": "table",
+        "headers": [
+          "Teil",
+          "Redemittel"
+        ],
+        "rows": [
+          [
+            "Bezug",
+            "Mit Bezug auf …"
+          ],
+          [
+            "Bitte",
+            "Könnten Sie mir …?"
+          ],
+          [
+            "Schluss",
+            "Vielen Dank im Voraus."
+          ]
+        ]
+      },
+      "tip": "Nach der Anrede mit Komma geht es klein weiter.",
+      "examples": [
+        {
+          "text": "Ich [wende mich] an Sie, da ich Fragen habe."
+        }
+      ],
+      "warning": {
+        "wrong": "Sehr geehrte Herr Lang,",
+        "right": "Sehr geehrter Herr Lang,",
+        "note": "Herr → geehrter, Frau → geehrte."
+      },
+      "back": {
+        "sections": [
+          {
+            "title": "Anfang",
+            "lines": [
+              "Sehr geehrte Damen und Herren,",
+              "[im Rahmen] unseres Gesprächs …"
+            ]
+          },
+          {
+            "title": "Schluss",
+            "lines": [
+              "Bei Fragen stehe ich zur Verfügung.",
+              "Mit freundlichen Grüßen"
+            ]
+          }
+        ],
+        "check": [
+          {
+            "prompt": "Ich ___ mich an Sie, weil … (sich wenden)",
+            "answer": "wende"
+          },
+          {
+            "prompt": "Vielen Dank im ___.",
+            "answer": "Voraus"
+          }
+        ]
+      }
     }
   ]
 }
